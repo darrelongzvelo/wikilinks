@@ -1,0 +1,899 @@
+
+
+
+
+Zoe's Mare's Leg Carbine - ScifiHero.NET /* * Cascading Style Sheet(CSS 467), for Invision
+Power Board 2.2.0 * Author: James A. Mathias, admin@leihu.com, http://www.1lotus.com *
+Copyright: 2005 Invision Power Services, all rights reserved * * All style attributes in
+alpha-numeric order starting from 0 * */ /* * ======================================== *
+global element styles * ======================================== */ html{ overflow-x:
+auto; /* fixes MSIE scrollbar bug DO NOT REMOVE, has no effect in Mozilla, or Opera */ } body{
+background: #FFF; color: #222; font-family: Verdana, Tahoma, Arial, Trebuchet MS,
+Sans-Serif, Georgia, Courier, Times New Roman, Serif; font-size: 11px; line-height: 135%;
+margin: 0px; padding: 0px; /* required for Opera to have 0 margin */ text-align: center; /*
+centers board in MSIE */ } /* * ======================================== * Set up IPB table *
+======================================== */ .ipbtable { width:100% } table.ipbtable,
+tr.ipbtable, td.ipbtable { /* required for text in tables, because tables do not inherit from
+body */ background: transparent; color: #222; font-size: 11px; line-height: 135%; }
+.ipbtable td, .divpad{ /* gives all tables faux cellpadding of 5px */ padding: 5px; }
+td.nopad{ /* allows some tables to have no padding on the td */ padding: 0; } /* Safari... */ th {
+text-align: left; } form{ display: inline; margin: 0; /* removes mystery form tag gapping */
+padding: 0; /* removes mystery form tag gapping */ } img{ border: 0; /* makes sure linked images
+do not have a border */ vertical-align: middle; } /* *
+======================================== * global hyperlink styles *
+======================================== */ a:link, a:visited, a:active{ background:
+transparent; color: #222; text-decoration: underline; } a:hover{ background:
+transparent; color: #34498B; } /* * ======================================== * Main
+wrapper, this controls the overall width of the board in you browser view window. *
+======================================== */ #ipbwrapper{ margin: 20px auto 20px auto;
+/* centers the box, no matter the overall width, also applies a 20px gap at the top and bottom of
+the board */ text-align: left; /* re_aligns text to left second part of two part MSIE centering
+workaround */ /* EDIT THIS TO CHANGE THE WIDTH OF THE BOARD -> 960px is a common fixed resolution
+size */ width: 98%; } /* * ======================================== * styles for
+pagination links * ======================================== */ .pagelink,
+.pagelinklast, .pagecurrent, .minipagelink, .minipagelinklast{ background: #F0F5FA;
+border: 1px solid #072A66; padding: 1px 3px 1px 3px; } .pagelinklast, .minipagelinklast{
+background: #DFE6EF; } .pagecurrent{ background: #FFC9A5; } .minipagelink,
+.minipagelinklast{ border: 1px solid #C2CFDF; font-size: 10px; margin: 0 1px 0 0; }
+.pagelink a:active, .pagelink a:visited, .pagelink a:link, .pagelinklast a:active,
+.pagelinklast a:visited, .pagelinklast a:link, .pagecurrent a:active, .pagecurrent
+a:visited, .pagecurrent a:link, .minipagelink a:active, .minipagelink a:visited,
+.minipagelink a:link, .minipagelinklast a:active, .minipagelinklast a:visited,
+.minipagelinklast a:link{ text-decoration: none; } /* fake button effect for some links */
+.fauxbutton{ background: #BFCDE0; border: 1px solid #072A66; font-size: 11px;
+font-weight: bold; padding: 4px; } .fauxbutton a:link, .fauxbutton a:visited,
+.fauxbutton a:active{ color: #222 !important; text-decoration: none; } .forumdesc,
+.forumdesc a:link, .forumdesc a:visited, .forumdesc a:active{ background: transparent;
+font-size: 10px; color: #666; line-height: 135%; margin: 2px 0 0 0; padding: 0; } /*
+===================================================================================
+*/ /*
+===================================================================================
+*/ /*
+===================================================================================
+*/ .searchlite { background-color:yellow; font-weight:bold; color: red; } .activeusers{
+background: #FFF; border: 1px solid #072A66; color: #000; margin: 0px; padding: 1px; }
+.activeuserposting a:link, .activeuserposting a:visited, .activeuserposting
+a:active, .activeuserposting { font-style:italic; text-decoration: none;
+border-bottom:1px dotted black; } fieldset.search{ line-height: 150%; padding: 6px; }
+label{ cursor: pointer; } img.attach{ background: #808080
+url(style_images/webber/click2enlarge.gif) no-repeat top right; border: 1px solid
+#808080; margin: 0 2px 0 0; padding: 11px 2px 2px 2px; } .thumbwrap, .thumbwrapp,
+.fullimagewrap { border: 1px solid #072A66; margin: 2px; } .thumbwrapp{ border: 2px solid
+#660707; } .fullimagewrap{ background: #F5F9FD; text-align: center; margin: 5px 0 5px 0;
+padding: 5px; } .thumbwrap h4, .thumbwrapp h4{ background: #DDE6F2; border: 0 !important;
+border-bottom: 1px solid #5176B5 !important; color: #5176B5; font-size: 12px;
+font-weight: bold; margin: 0; padding: 5px; } .thumbwrap p, .thumbwrapp p{ background:
+#EEF2F7 !important; border: 0 !important; border-top: 1px solid #5176B5 !important;
+margin: 0 !important; padding: 5px !important; text-align: left; } .thumbwrap p.alt,
+.thumbwrapp p.alt{ background: #DFE6EF !important; margin: 0 !important; padding: 5px
+!important; text-align: left; } .thumbwrapp p.pin{ background: #EFDFDF !important;
+text-align: center !important; } .thumbwrap img.galattach, .thumbwrapp img.galattach{
+background: #FFF url(style_images/webber/img_larger.gif) no-repeat bottom right;
+border: 1px solid #072A66; margin: 5px; padding: 2px 2px 10px 2px; } li.helprow{ margin: 0 0
+10px 0; padding: 0; } ul#help{ padding: 0 0 0 15px; } .warngood, .warnbad{ color: #0B9500;
+font-weight: bold; } .warnbad{ color: #DD0000; } #padandcenter{ margin: 0 auto 0 auto;
+padding: 14px 0 14px 0; text-align: center; } #profilename{ font-size: 28px; font-weight:
+bold; } #photowrap{ padding: 6px; } #phototitle{ border-bottom: 1px solid #000; font-size:
+24px; } #photoimg{ margin: 15px 0 0 0; text-align: center; } #ucpmenu, #ucpcontent{
+background: #F5F9FD; border: 1px solid #345487; line-height: 150%; } #ucpmenu p{ margin: 0;
+padding: 2px 5px 6px 9px; } #ucpmenu a:link, #ucpmenu a:active, #ucpmenu a:visited{
+text-decoration: none; } #ucpcontent{ width: auto; } #ucpcontent p{ margin: 0; padding:
+10px; } .activeuserstrip{ background: #BCD0ED; padding: 6px; } /* Topic View elements */
+.signature{ background: transparent; color: #339; font-size: 10px; line-height: 150%; }
+.postdetails{ font-size: 10px; line-height:140%; } .postcolor{ font-size: 12px;
+line-height: 160%; } .normalname{ color: #003; font-size: 12px; font-weight: bold; }
+.normalname a:link, .normalname a:visited, .normalname a:active{ font-size: 12px; }
+.post1, .bg1{ background: #F5F9FD; } .post2, .bg3{ background: #EEF2F7; } .row2shaded,
+.post1shaded { background-color: #DEDBE4 } .row4shaded, .post2shaded {
+background-color: #E3DFE7 } .row1{ background: #DFE6EF; } .row2{ background: #E4EAF2; }
+.rowhighlight{ background-color: #FFF9BA; } .darkrow1{ background: #BCD0ED; color:
+#3A4F6C; } .darkrow3{ background: #D1DCEB; color: #3A4F6C; } /* tableborders gives the
+white column / row lines effect */ .plainborder, .tablefill, .tablepad{ background:
+#F5F9FD; border: 1px solid #345487; } .tablefill, .tablepad{ padding: 6px; } .tablepad{
+border: 0 !important; } .wrapmini{ float: left; line-height: 1.5em; width: 25%; }
+.pagelinks{ float: left; line-height: 1.2em; width: 35%; } .desc{ font-size: 11px; color:
+#434951; } .lastaction { font-size: 10px; color: #434951; } .edit{ font-size: 9px; } .thin{
+border: 1px solid #FFF; border-left: 0; border-right: 0; line-height: 150%; margin: 2px 0
+2px 0; padding: 6px 0 6px 0; } /*
+===================================================================================
+*/ /*
+===================================================================================
+*/ /*
+===================================================================================
+*/ /* * ======================================== * calendar styles *
+======================================== */ .calmonths{ background: #F0F5FA; border:
+1px solid #C2CFDF; font-size: 18px; font-weight: bold; margin: 5px 0 5px 0; padding: 8px;
+text-align: center; } .weekday{ font-size: 14px; font-weight: bold; } .calmonths a{
+text-decoration: none; } .calday, .calweekday{ background: #DFE6EF; color: #666;
+font-size: 11px; font-weight: bold; margin: 0; padding: 4px; text-align: right; }
+.calweekday{ border-right: 1px solid #AAA; color: #222; font-size: 14px; padding: 6px;
+text-align: center; } .celltodayshaded, .celldateshaded, .cellblank, .celldate,
+.celltoday, .mcellblank, .mcelldate, .mcelltoday{ background: #EEF2F7; height: 100px;
+margin: 0; padding: 0; vertical-align: top; } .celltodayshaded, .celldateshaded {
+background: #E3DFE7; } .mcellblank, .mcelldate, .mcelltoday{ height: auto; } .cellblank,
+.mcellblank{ background: #C2CFDF; } .celltoday, .celltodayshaded, .mcelltoday{ border:
+2px solid #8B0000; } .calranged { border: 2px outset #C2CFDF; background: #C2CFDF;
+padding:4px; } .calitem { border-bottom: 1px dotted #C2CFDF; padding:4px; } /* *
+======================================== * form styles *
+======================================== */ .input-warn, .input-green,
+.input-checkbox, input, textarea, select{ background: #FFF; border: 1px solid #4C77B6;
+color: #000; font-family: verdana, helvetica, sans-serif; font-size: 11px; margin: 5px;
+padding: 2px; vertical-align: middle; } select { margin: 0px; } .input-checkbox { border:
+none; } .input-warn, .input-warn-content { border: 1px solid #C00; } .input-ok,
+.input-ok-content { border: 1px solid #0C0; } .input-warn-content { padding: 4px; margin:
+4px; background-color: #FCC; } .input-ok-content { padding: 4px; margin: 4px;
+background-color: #CFC; } .input-text { color: #900; } input.button{ margin: 0; width:
+auto; cursor: hand; cursor: pointer; } optgroup option{ font-family: verdana, helvetica,
+sans-serif; font-size: 12px; } .codebuttons{ font-family: Verdana, Helvetica,
+Sans-Serif; font-size: 10px; vertical-align: middle; margin:2px; } .textarea,
+.searchinput, .button, .gobutton{ background: #FFF; border: 1px solid #4C77B6; color:
+#000; font-family: Verdana, Helvetica, Sans-Serif; font-size: 11px; padding: 2px;
+vertical-align: middle; } .button{ background: #DFE6EF; } .gobutton{ background:
+transparent; border: 0; color: #072A66; margin: 0; vertical-align: middle; }
+.radiobutton, .checkbox, .helpbox { border: 0; vertical-align: middle; background:
+transparent; } /* * class.formtable * * used for tabled forms * technically tables should not
+be used for form display * but, in the case of IPB a table is easier to work with * for the average
+webmaster, who has little to no CSS knowledge. * */ .formtable{ background: transparent; }
+.formtable td, .pformleft, .pformleftw, .pformright{ background:#F5F9FD; border: 1px
+solid #C2CFDF; border-bottom: 0; border-left: 0; font-weight: bold; margin: 1px 0 0 0;
+padding: 6px; width: 25%; } .formtable td.wider, .pformleftw, .pformright{ width: 40%; }
+.formtable td.formright, .pformright{ border-right: 0px; font-weight: normal; width:
+auto; } .formtable td.formtitle, .formsubtitle{ background: #D1DCEB; border: 1px solid
+#9FB9D4; border-bottom: 0; border-left: 0; border-right: 0; font-weight: normal; }
+.formsubtitle{ border: 0; color: #3A4F6C; font-weight: bold; padding: 5px; } .formtable
+td.formstrip{ background: #DDE8F2; border: 1px solid #9FB9D4; border-left: 0;
+border-right: 0; font-weight: normal; } /* * ======================================== *
+new style quote and code wrappers MATT's DESIGN *
+======================================== */ .quotetop{ background: #E4EAF2
+url(style_images/webber/css_img_quote.gif) no-repeat right; border: 1px dotted #000;
+border-bottom: 0; border-left: 4px solid #6a90b1; color: #000; font-weight: bold;
+font-size: 10px; margin: 2px auto 0 auto; padding: 3px; } .quotemain{ background: #FAFCFE;
+border: 1px dotted #000; border-left: 4px solid #6a90b1; border-top: 0; color: #465584;
+padding: 4px; margin: 0 auto 0 auto; } .codetop, .sqltop, .htmltop{ background: #FDDBCC
+url(style_images/webber/css_img_code.gif) no-repeat right; color: #000; font-weight:
+bold; margin: 0 auto 0 auto; padding: 3px; } .codemain, .sqlmain, .htmlmain{ background:
+#FAFCFE; border: 1px dotted #000; color: #465584; font-family: Courier, Courier New,
+Verdana, Arial; margin: 0 auto 0 auto; padding: 2px; } /* *
+======================================== * old school quote and code styles - backwards
+compatibility * ======================================== */ #QUOTE, #CODE{
+background: #FAFCFE; border: 1px solid #000; color: #465584; font-family: Verdana, Arial;
+font-size: 11px; padding: 2px; white-space: normal; } #CODE{ font-family: Courier,
+Courier New, Verdana, Arial; } /* * ======================================== * All New
+Styles * ======================================== */ .cleared{ clear: both; }
+.borderwrap, .borderwrapm{ /* this will affect the outlining border of all the tables and
+boxes through-out the skin. */ background: #FFF; border: 1px solid #E3E9F0; padding: 0px;
+margin: 0px; } .borderwrapm{ margin: 5px; } .borderwrap h3, .maintitle,
+.maintitlecollapse{ background: url(style_images/webber/tile_cat.gif); border: 1px
+solid #FFF; border-bottom: 1px solid #5176B5; color: #FFF; font-size: 12px; font-weight:
+bold; margin: 0px; padding: 8px; } .maintitle td { color: #FFF; font-size: 12px;
+font-weight: bold; } .maintitlecollapse{ border: 1px solid #FFF; } .maintitle p,
+.maintitlecollapse p, .formsubtitle p{ background: transparent !important; border: 0
+!important; margin: 0 !important; padding: 0 !important; } .maintitle p.expand,
+.maintitle p.goto, .maintitlecollapse p.expand, .formsubtitle p.members{ float: right;
+width: auto !important; } .maintitle a:link, .maintitle a:visited, .maintitlecollapse
+a:link, .maintitlecollapse a:visited{ background: transparent; color: #FFF;
+text-decoration: none; } .maintitle a:hover, .maintitle a:active, .maintitlecollapse
+a:hover, .maintitlecollapse a:active{ background: transparent; color: #F1F1F1; } table
+th, .borderwrap table th, .subtitle, .subtitlediv, .postlinksbar{ background:
+transparent url(style_images/webber/tile_sub.gif); border-bottom: 1px solid #2F5D89;
+color: #FFF; font-size: 10px; font-weight: bold; letter-spacing: 1px; margin: 0; padding:
+5px; } .subtitlediv{ border: 1px solid #FFF; border-bottom: 1px solid #5176B5; text-align:
+right; } .borderwrap table th a:link, .subtitle a:link, .subtitlediv a:link, .borderwrap
+table th a:visited, .subtitle a:visited, .subtitlediv a:visited, .borderwrap table th
+a:active, .subtitle a:active, .subtitlediv a:active, .borderwrap table th a:hover,
+.subtitle a:hover, .subtitlediv a:hover{ background: transparent; color: #FFF;
+text-decoration: none; } .borderwrap h4{ background: #DDE6F2; border: 1px solid #FFF;
+border-bottom: 1px solid #5176B5; border-top: 1px solid #5176B5; color: #5176B5;
+font-size: 12px; font-weight: bold; margin: 0; padding: 5px; } .borderwrap p{ background:
+#F9F9F9; border: 1px solid #CCC; margin: 5px; padding: 10px; text-align: left; }
+td.formbuttonrow, .pformstrip, .borderwrap p.formbuttonrow, .borderwrap
+p.formbuttonrow1{ background: #D1DCEB !important; border: 1px solid #FFF; border-top:
+1px solid #5176B5; margin: 0px !important; padding: 5px !important; text-align: center; }
+td.formbuttonrow{ border-bottom: 0; border-left: 0; border-right: 0; } .borderwrap
+p.formbuttonrow1{ background: #F9F9F9 !important; border: 0; border-top: 1px solid #CCC;
+} .bar, .barb, .barc{ background: #DFE6EF; border: 1px solid #FFF; } .barc{ border-bottom:
+0; } .bar p, .barb p, .barc p{ background: transparent; border: 0; color: #222; font-size:
+11px; margin: 0; padding: 5px; text-align: left; } .barb p{ text-align: right; } .bar p.over,
+.bar p.overs, .barc p.over, .barc p.overs{ float: right; } .barb p.over, .barb p.overs{
+float: left; } .bar p.overs, .barb p.overs, .barc p.overs{ position: relative; top: 5px; }
+.catend{ background: #6a90b1; color: #000; font-size: 1px; height: 5px; } .newslink{
+background: #F0F5FA; border: 1px solid #C2CFDF; margin: 0; width: 100%; } .newslink td{
+color: #222; font-size: 10px; padding: 5px 5px 5px 10px; } .newslink span{ background:
+transparent; color: #072A66; font-style: italic; font-weight: normal; } .newslink input{
+background: #FFF; border: 1px solid #999; color: #072A66; font-size: 10px; padding: 3px;
+vertical-align: middle; width: auto; } .newslink input.button{ background: transparent;
+border: 0; color: #072A66; vertical-align: middle; } .fieldwrap{ background: #F9F9F9;
+border: 1px solid #CCC; border-top: 0; margin: 5px; padding: 0; text-align: left; }
+.fieldwrap h4{ background: #EEE; border: 1px solid #CCC; border-left: 0; border-right: 0;
+color: #444; font-size: 12px; font-weight: bold; margin: 0; padding: 5px; } .errorwrap {
+background: #F2DDDD; border: 1px solid #992A2A; border-top: 0; margin: 5px; padding: 0; }
+.errorwrap h4 { background: #E3C0C0; border: 1px solid #992A2A; border-left: 0;
+border-right: 0; color: #992A2A; font-size: 12px; font-weight: bold; margin: 0; padding:
+5px; } .errorwrap p { background: transparent; border: 0; color: #992A2A; margin: 0;
+padding: 8px; } .ruleswrap{ background: #F2DDDD; border: 1px solid #992A2A; color:
+#992A2A; margin: 5px 0 5px 0; padding: 5px; } #redirectwrap{ background: #F0F5FA; border:
+1px solid #C2CFDF; margin: 200px auto 0 auto; text-align: left; width: 500px; }
+#redirectwrap h4{ background: #D0DDEA; border-bottom: 1px solid #C2CFDF; color: #3A4F6C;
+font-size: 14px; margin: 0; padding: 5px; } #redirectwrap p{ margin: 0; padding: 5px; }
+#redirectwrap p.redirectfoot{ background: #E3EBF4; border-top: 1px solid #C2CFDF;
+text-align: center; } #gfooter{ background: #6a90b1; margin: 5px 0 5px 0; padding: 0; width:
+100%; } #gfooter td{ color: #FFF; font-size: 10px; padding: 4px; } #gfooter a:link, #gfooter
+a:visited{ color: #FFF; } #logostrip{ background: #213546
+url(style_images/webber/tile_back.gif); height: 75px; margin: 0; padding: 0;
+text-align: left; } #logographic{ background: transparent
+url(style_images/webber/logo4.gif) no-repeat left; height: 68px; margin: 0; padding: 0;
+} #submenu{ background: transparent url(style_images/webber/tile_sub.gif); border:
+1px solid #FFF; border-top: 0; color: #3A4F6C; margin: 0; height: 29px; text-align: right; }
+.ipb-top-right-link { background: transparent
+url(style_images/webber/tile_sub-lite.gif); font-size: 9px; font-weight: bold;
+letter-spacing: 0.5px; margin: 0px; padding: 0px 0 0px 0; width: auto; float: right; }
+.ipb-top-left-link { border-left: 0px; background: transparent
+url(style_images/webber/tile_sub-lite.gif); font-size: 9px; font-weight: bold;
+letter-spacing: 0.5px; margin: 0px; padding: 0px 0 0px 0; width: auto; float: left; }
+.ipb-top-left-link a:link, .ipb-top-left-link a:visited, .ipb-top-right-link a:link,
+.ipb-top-right-link a:visited { background: transparent; color: #3A4F6C; padding: 0 6px 0
+6px; text-decoration: none; } .ipb-top-left-link a:hover, .ipb-top-left-link a:active,
+.ipb-top-right-link a:hover, .ipb-top-right-link a:active { background: transparent;
+color: #5176B5; } #userlinks, #userlinksguest{ background: #F0F5FA; border: 1px solid
+#C2CFDF; margin: 5px 0 5px 0; padding: 0 5px 0 5px; } #userlinksguest{ background: #F4E7EA;
+border: 1px solid #986265; } #userlinks p, #userlinksguest p{ background: transparent
+!important; border: 0 !important; font-size: 10px; font-weight: bold; letter-spacing:
+1px; margin: 0 !important; padding: 7px 0 7px 0; text-align: right; } #userlinks p,
+#userlinksguest p{ font-weight: normal; letter-spacing: 0; } #userlinksguest p.pcen{
+text-align: center; } #userlinks p.home, #userlinksguest p.home{ float: left; }
+#navstrip{ background: transparent; color: #999; font-size: 12px; font-weight: bold;
+margin: 0 0 5px 0; padding: 14px 0px 8px 0px; } #navstrip a:link, #navstrip a:visited{
+background: transparent; color: #222; text-decoration: none; } #navstrip a:hover,
+#navstrip a:active{ background: transparent; color: #5176B5; } .toplinks{ background:
+transparent; color: #000; margin: 0; padding: 0 0 5px 0; text-align: right; } .toplinks span{
+background: #F0F5FA; border: 1px solid #C2CFDF; border-bottom: 0; color: #000; font-size:
+10px; font-weight: bold; margin: 0 10px 0 0; padding: 5px; } .copyright{ font-size: 11px;
+margin: 0 0 5px 0; padding: 8px; background: transparent no-repeat bottom; } /* *
+======================================== * print page styles *
+======================================== */ #print{ margin: 20px auto 20px auto;
+padding: 0; text-align: left; width: 85%; } #print h1, #print h2, #print h3, #print h4, #print
+p{ color: #036; font-size: 18px; font-weight: bold; margin: 0; padding: 8px; } #print h2,
+#print h3, #print p{ border-bottom: 1px solid #999; font-size: 11px; font-weight: normal; }
+#print h3{ background: #F5F5F5; font-size: 12px; font-weight: bold; margin: 0 0 10px 0; }
+#print h4{ background: #F9F9F9; font-size: 11px; } #print p{ margin: 0 0 5px 0; padding: 10px;
+} #print p.printcopy{ border: 0; color: #000; text-align: center; } .dny-edit-title {
+border:0px; padding:3px; margin:0px; background: #D1DCEB; color: #3A4F6C; } /*
+======================================== */ /* TABS /*
+======================================== */ .tabon { border-top:1px solid #999;
+border-left:1px solid #999; border-right:1px solid #999; background-color:#FFF;
+padding:8px; padding-bottom:9px; font-size:10px; float:left; width:auto;
+margin-top:3px; } .taboff { border-top: 1px solid #777; border-left: 1px solid #777;
+border-right: 1px solid #777; background-color: #B5C3D9; color: #333; padding: 8px;
+font-size:10px; float: left; width: auto; margin-top:3px; } .tabon a:link, .tabon
+a:visited, .tabon a:active { text-decoration:none; color: #000; } .taboff a:link, .taboff
+a:visited, .taboff a:active { text-decoration:none; color: #333; } .mya-back {
+background-image: url(style_images/webber/tile_sub.gif); margin:1px; padding: 1px; }
+.mya-content { background: #FFF; padding:8px; margin: 1px; border: 1px solid #777; }
+.mya-content-tbl { background: #F0F5FA; border: 1px solid #777; text-align:left;
+font-size:10px; white-space:nowrap; margin:1px; } .mya-fieldwrap { background:
+transparent; margin-top: 2px; margin-bottom: 2px; padding: 4px; border: 1px solid
+#C5C7CD; -moz-border-radius: 5px; width: auto; display: block; } /*
+-------------------------------- */ /* Create PM box defaults */ /*
+-------------------------------- */ .iframeshim { position:absolute; display:none;
+background: #FFF; filter:alpha(opacity=0); border:0px; width:auto; height:auto; } /*
+-------------------------------- */ /* Experimental */ /*
+-------------------------------- */ .popupmenu, .popupmenu-new { background: #F0F5FA;
+border: 1px solid #3A4F6C; text-align:left; font-size:10px; white-space:nowrap;
+/*padding:3px 5px 3px 3px;*/ /*width:300px;*/ } .popupmenu-item { padding: 5px;
+/*margin-top:4px;*/ white-space: nowrap; border-bottom: 1px solid #C2CFDF; color:
+#000000; font-weight: normal; } .popupmenu-item-last { padding: 5px;
+/*margin-top:4px;*/ white-space: nowrap; color: #000000; font-weight: normal; }
+.popmenubutton-new, .popmenubutton { width:120px; white-space:nowrap;
+background-color: #C2CFDF; border:1px solid #3A4F6C; color: #3A4F6C; font-weight:bold;
+float:right; height:18px; text-align:center; margin:0px; font-size:11px;
+padding:3px; } .popmenubutton-new { float:none; width:auto; text-align:left;
+height:auto; padding:3px; font-weight:normal; background-color:#EEF2F7;
+background-image: url(style_images/webber/menu_action_down-padded.gif);
+background-repeat: no-repeat; background-position: right; } .popmenubutton-new-out {
+padding:4px; } .popupmenu-new { background-color: #DFE6EF; } .popmenubutton a:link,
+.popmenubutton a:visited, .popmenubutton-new a:link, .popmenubutton-new a:visited,
+.popupmenu-item a:link, .popupmenu-item a:visited, .popupmenu-item-last a:link,
+.popupmenu-item-last a:visited { color: #3A4F6C; text-decoration: none; }
+.popmenubutton a:hover, .popmenubutton-new a:hover, .popupmenu-item a:hover,
+.popupmenu-item-last a:hover { color: #5176B5; text-decoration: none; }
+.popupmenu-category { background: transparent
+url(style_images/webber/tile_sub.gif); border-top: 1px solid #5176B5; border-bottom:
+1px solid #5176B5; color: #3A4F6C; font-size: 10px; font-weight: bold; letter-spacing:
+1px; margin: 0; padding: 5px; } /* -------------------------------- */ /* Loading box /*
+-------------------------------- */ #loading-layer-inner { width:220px; height:28px;
+padding:18px 10px 10px 10px; text-align:center; color: #000; border: 1px solid;
+border-color:#CCC #666 #666 #CCC; background-color: #FCF8C7; } /*
+-------------------------------- */ /* Message in a bo(x|ttle) /*
+-------------------------------- */ #ipd-msg-wrapper { display: none; width: 220px; }
+#ipd-msg-inner { width:100%; height:45px; padding: 6px 4px 4px 4px; margin: 0px;
+text-align:center; color: #000; border: 1px solid; border-color:#ccc #666 #666 #ccc;
+background-color: #FCF8C7; filter:alpha(opacity=75); opacity:.75 } #ipd-msg-title {
+width: 100%; height:20px; margin: 0px; padding: 6px 4px 4px 4px; background: transparent
+url(style_images/webber/css_pp_header.gif); border: 1px solid #3A4F6C;
+border-bottom: 0px; color: #FFF; } .linked-image { margin: 0px; padding: 0px; border: 0px; }
+.resized-linked-image { margin: 1px 0px 0px 0px; padding: 0px; background-color: #000;
+border: 0px; color: #FFF; font-size: 10px; width: auto; -moz-border-radius-topleft: 7px;
+-moz-border-radius-topright: 7px; } .resized-linked-image-zoom { width: 200px; height:
+30px; filter:alpha(opacity=85); opacity:.85; background-color: #FFF; padding-top:
+6px; padding-left: 5px; top: 0px; left: 0px; position: absolute; display: none; } /*
+-------------------------------- */ /* Edit post reason /*
+-------------------------------- */ .post-edit-reason { background: #E7EAEF;
+margin-top: 9px; margin-bottom: 0px; padding: 4px; color: #333; font-size: 10px; border:
+1px solid #C5C7CD; -moz-border-radius: 5px; width: auto; display: block; } /*
+-------------------------------- */ /* Personal Profile /*
+-------------------------------- */ .pp-name { background: #F0F5FA; border: 1px solid
+#C2CFDF; margin: 0px; padding: 10px; } .pp-name h3 { margin:0px; padding:0px 0px 5px 0px;
+font-size:24px; } .pp-header { background: transparent
+url(style_images/webber/tile_sub.gif); color: #FFF; font-size: 10px; font-weight:
+bold; margin: 0px 0px 1px 0px; padding: 5px; } .pp-title { background:
+url(style_images/webber/css_pp_header.gif); border-bottom: 1px solid #5176B5; color:
+#FFF; font-size: 12px; font-weight: bold; margin: 0px; padding: 8px; } .pp-datebox {
+text-align: center; background: #FFFFFF; border: 1px solid #555555; padding: 4px; margin:
+0px; font-size:18px; font-weight:bold; line-height: 100%; letter-spacing: -1px;
+float:right; width: auto; } .pp-datebox em { color: #AAA; font-weight: normal; font-style:
+normal; } .pp-contentbox-back { background-image:
+url(style_images/webber/folder_profile_portal/pp-css-contentblock.gif);
+background-repeat: repeat-x; background-color: #ACBFD9; padding: 6px; }
+.pp-contentbox-entry, .pp-contentbox-entry-noheight,
+.pp-contentbox-entry-noheight-mod, .pp-contentbox-entry-noheight-sel {
+background-color: #EEF2F7; border: 1px solid #888888; line-height: 140%; padding: 8px;
+margin-bottom: 6px; height: 200px; overflow: auto; overflow-x: auto; }
+.pp-contentbox-entry-noheight-sel { background-color:#FCECCD; }
+.pp-contentbox-entry-noheight-mod { background-color:#FDF1DA; }
+.pp-contentbox-entry-noheight, .pp-contentbox-entry-noheight-mod,
+.pp-contentbox-entry-noheight-sel { height: auto; margin-bottom: 1px; }
+.pp-image-thumb-wrap, .pp-image-thumb-wrap-floatright, .pp-image-mini-wrap,
+.pp-image-mini-wrap-floatright { width: 52px; height: 52px; text-align: center;
+background: #FFFFFF; border: 1px solid #555555; padding: 4px; margin-top: auto;
+margin-bottom: auto; } .pp-image-mini-wrap, .pp-image-mini-wrap-floatright { width:
+27px; height: 27px; margin-top: auto; margin-bottom: auto; }
+.pp-image-thumb-wrap-floatright, .pp-image-mini-wrap-floatright { float:right; }
+.pp-tiny-text { color: gray; font-size: 10px; } .pp-mini-content-entry,
+.pp-mini-content-entry-noheight, .pp-mini-entry-noheight-shaded {
+background-color: #F5F9FD; padding: 6px; border-bottom: 1px dotted #555555; clear:both;
+width: auto; height: 60px; } .pp-mini-entry-noheight-shaded { background-color:
+#E3DFE7; } .pp-mini-content-entry-noheight, .pp-mini-entry-noheight-shaded { height:
+auto; } .pp-tabclear, .pp-maintitle { background:
+url(style_images/webber/css_pp_header.gif); border: 1px solid #FFF; border-bottom:
+1px solid #5176B5; color: #FFF; font-size: 12px; font-weight: bold; margin: 0px; padding:
+8px; } .pp-tabclear { border:0px; border-right: 1px solid #456E96; border-left: 1px solid
+#456E96; } .pp-tabon { border-top:1px solid #3363A1; border-left:1px solid #456E96;
+border-right:1px solid #456E96; background-color:#6696D6; color:#FFFFFF;
+padding:8px; float:left; width:auto; background-image:
+url(style_images/webber/css_pp_tab_on.gif); background-repeat: repeat-x;
+background-position: left bottom; margin-top:3px; font-size:10px; } .pp-taboff,
+.pp-tabshaded { border-top: 1px solid #759BC7; border-left: 1px solid #759BC7;
+border-right: 1px solid #759BC7; background-color: #3363A1; color: #3363A1;
+padding:8px; float: left; width: auto; background-image:
+url(style_images/webber/css_pp_tab_off.gif); background-repeat: repeat-x;
+background-position: left bottom; margin-top:3px; font-size:10px; } .pp-tabshaded {
+background-image: url(style_images/webber/css_pp_tab_shaded.gif);
+background-repeat: repeat-x; background-position: left bottom; color: #516795;
+border-top: 1px solid #7f9BBC; border-left: 1px solid #7f9BBC; border-right: 1px solid
+#7f9BBC; } .pp-tabon a:link, .pp-tabon a:visited, .pp-tabon a:active {
+text-decoration:none; color: #FFFFFF; } .pp-taboff a:link, .pp-taboff a:visited,
+.pp-taboff a:active, .pp-tabshaded a:link, .pp-tabshaded a:visited, .pp-tabshaded
+a:active { text-decoration:none; color: #3363A1; } .pp-tabwrap { height: 34px;
+margin:0px; padding:0px; } /* -------------------------------- */ /* Unique to Webber
+Skin /* -------------------------------- */ .headerBottomLeft { background-image:
+url(style_images/webber/header_bottom_left.gif); } .headerBottomRight {
+background-image: url(style_images/webber/header_bottom_right.gif); }
+.footerTopLeft { font-size: 8pt; background-image:
+url(style_images/webber/footer_top_left.gif); padding: 0px 0px 0px 5px; }
+.footerTopRight { background-image: url(style_images/webber/footer_top_right.gif);
+height: 67px; } .footerBottomBg { font-size: 7pt; height: 38px; color: #FFFFFF;
+background-color: #2F5D89; background-image:
+url(style_images/webber/footer_bottom_bg.gif); } .copyright a:link, .copyright
+a:visited { color: #FFFFFF; } .copyright a:hover, .copyright a:active { color: #F1F1F1; }
+.navText a:link, .navText a:visited, .navText a:active, .navText a:hover {
+text-decoration: none; } .webbermsg a:link, .webbermsg a:visited { color: #FFFFFF; }
+.webbermsg a:active, .webbermsg a:hover { color: #F1F1F1; } @import url(
+"http://www.scifihero.net/forums/style_images/webber/folder_editor_images/css_rte.css"
+);
+
+//<![CDATA[ var ipb_var_st = "30"; var ipb_lang_tpl_q1 = "Please enter a page number to jump
+to between 1 and"; var ipb_var_s = ""; var ipb_var_phpext = "php"; var ipb_var_base_url =
+"http://www.scifihero.net/forums/index.php?s=&"; var ipb_var_image_url =
+"style_images/webber"; var ipb_input_f = "153"; var ipb_input_t = "2805"; var ipb_input_p
+= "0"; var ipb_var_cookieid = ""; var ipb_var_cookie_domain = ""; var ipb_var_cookie_path =
+"/"; var ipb_md5_check = "880ea6a14ea49e853634fbdc5015a024"; var ipb_new_msgs = 0; var
+use_enhanced_js = 0; var use_charset = "iso-8859-1"; var ipb_myass_chars_lang = "Not
+enough characters"; var ajax_load_msg = "Loading Content..."; //]]> //<![CDATA[ var
+ipsclass = new ipsclass(); ipsclass.init(); ipsclass.settings['do_linked_resize'] =
+parseInt( "1" ); ipsclass.settings['resize_percent'] = parseInt( "50" ); //]]>
+
+Image: style_images/20_20_logo4.png
+
+Image: style_images/webber/quick_search.gif ScifiHero - Be the Hero Scifihero.net
+Portal Help Search Members Calendar Gallery
+
+Welcome Guest ( Log In | Register )
+
+Image: style_images/webber/nav.gif   ScifiHero.NET  >  FireFlyHero.net  > 
+Jayne's Locker <!-- var ipb_lang_tt_prompt = "Manually copy the direct link to this post
+below to store the link in your computer's clipboard"; var ipb_lang_js_del_1 = "Are you sure
+you want to delete this message?"; var ipb_lang_js_del_2 = "Ok, no action has been taken"; var
+addquotebutton = "style_images/webber/p_mq_add.gif"; var removequotebutton =
+"style_images/webber/p_mq_remove.gif"; var unselectedbutton =
+"style_images/webber/topic_unselected.gif"; var selectedbutton =
+"style_images/webber/topic_selected.gif"; var lang_gobutton = "With Selected"; var
+lang_suredelete = "Are you sure you wish to delete these posts?"; var
+js_error_no_permission = "Sorry, you do not have permission to edit that post"; var
+js_no_empty_post = "You cannot submit an empty post"; //--> //<![CDATA[ topic_rate = new
+topic_rate(); //]]> 2 Pages
+
+Image: style_images/webber/menu_action_down.gif   <   1   2 //<![CDATA[
+ipb_pages_shown++; var pgjmp = document.getElementById( 'page-jump' ); pgjmp.id =
+'page-jump-'+ipb_pages_shown; ipb_pages_array[ ipb_pages_shown ] = new Array(
+'http://www.scifihero.net/forums/index.php?showtopic=2805', 30, 33 );
+menu_build_menu( pgjmp.id, new Array( "~~NODIV~~<div
+onmouseover='pages_st_focus("+ipb_pages_shown+")' class='popupmenu-category'
+align='center'>Jump to Page</div>", "<input type='hidden'
+id='st-type-"+ipb_pages_shown+"' value='st' /><input type='text' size='5' name='st'
+id='st-"+ipb_pages_shown+"' onkeydown='check_enter("+ipb_pages_shown+", event);'
+/> <input type='button' class='button'
+onclick='do_multi_page_jump("+ipb_pages_shown+");' value='Go' />" ) ); //]]>  
+
+Image: style_images/webber/t_reply.gif
+
+Image: style_images/webber/t_new.gif
+
+Image: style_images/webber/nav_m.gif   Zoe's Mare's Leg Carbine Options
+
+Image: style_images/webber/menu_action_down.gif <!-- menu_build_menu(
+"topicmenu-options", new Array( img_item + " <a
+href='http://www.scifihero.net/forums/index.php?act=usercp&amp;CODE=start_subs&amp;method=topic&amp;tid=2805'>Track
+this topic</a>", img_item + " <a
+href='http://www.scifihero.net/forums/index.php?act=Forward&amp;f=153&amp;t=2805'>Email
+this topic</a>", img_item + " <a
+href='http://www.scifihero.net/forums/index.php?act=Print&amp;client=printer&amp;f=153&amp;t=2805'>Print
+this topic</a>", img_item + " <a
+href='http://www.scifihero.net/forums/index.php?act=Print&amp;client=choose&amp;f=153&amp;t=2805'>Download
+this topic</a>", img_item + " <a
+href='http://www.scifihero.net/forums/index.php?act=usercp&amp;CODE=start_subs&amp;method=forum&amp;fid=153'>Subscribe
+to this forum</a>", "~~NODIV~~<div class='popupmenu-category' align='center'>Display
+Modes</div>", img_item + " <a
+href='http://www.scifihero.net/forums/index.php?showtopic=2805&amp;mode=threaded&amp;pid=68840'>Switch
+to: Outline</a>", img_item + " <strong><em><a
+href='http://www.scifihero.net/forums/index.php?showtopic=2805&amp;mode=linear&amp;view=findpost&amp;p=68840'>Standard</a></em></strong>",
+img_item + " <a
+href='http://www.scifihero.net/forums/index.php?showtopic=2805&amp;mode=linearplus&amp;view=findpost&amp;p=68840'>Switch
+to: Linear+</a>" ) ); topic_rate.settings['allow_rating'] = parseInt("0");
+topic_rate.settings['default_rating'] = parseInt("0");
+topic_rate.settings['img_base_url'] = ipb_var_image_url + '/folder_topic_view';
+topic_rate.settings['div_rating_wrapper'] = 'topic-rating-wrapper';
+topic_rate.settings['text_rating_image'] = 'topic-rating-img-';
+topic_rate.languages['img_alt_rate'] = "Rate this topic, click on desired star to send
+rating"; topic_rate.languages['rate_me'] = "Rate Topic:";
+topic_rate.init_rating_images(); -->
+
+Image: style_images/webber/folder_profile_portal/user-offline.png Skully
+
+Image: style_images/webber/folder_profile_portal/pp-blank-thumb.png
+
+Image: style_images/webber/folder_profile_portal/gender_mystery.png View Member
+Profile ipsmenu.register( "post-member-68817", '', 'popmenubutton-new',
+'popmenubutton-new-out' );
+
+Image: style_images/webber/to_post_off.gif Sep 6 2011, 04:03 PM Post #31
+
+
+
+
+
+
+
+
+
+Group: Members
+
+Posts: 68
+
+Joined: 26-April 11
+
+Member No.: 4,479
+
+
+
+
+
+
+
+Image: style_images/webber/spacer.gif
+
+I did this for my Zombieland costume for Dragon.
+
+
+
+This is the Winchester 92 Denix replica I have been using and would modify.
+
+
+
+(IMG: http://tacticalexcellence.com/misc/win92rep.jpg )
+
+
+
+This is a replica of the rifle used in the show The Rifleman. It differs from the gun used in
+Zombieland in finish, large loop lever, and no front sight.
+
+
+
+The only 92 levers I could find were running $85 and up. Bit too expensive for this build. I was
+able to find a Winchester 94 lever with a bad finish for $25.
+
+
+
+(IMG: http://tacticalexcellence.com/misc/win94lever.jpg )
+
+
+
+I cut the lever, rewelded it, and welded in extra material to build up missing areas. I then
+shaped the extra material to the same profile of the 92 lever.
+
+I also had to fabricate a detent for the lever.
+
+
+
+(IMG: http://tacticalexcellence.com/misc/win92lever.jpg )
+
+
+
+To finish the build, I fabricated a front sight, finished all metal parts with a bake on gun
+finish, re-stained and oiled the wood.
+
+
+
+I'm really happy with how it turned out.
+
+
+
+(IMG: http://tacticalexcellence.com/misc/win92a.jpg )
+
+(IMG: http://tacticalexcellence.com/misc/win92b.jpg )
+
+Image: style_images/webber/p_up.gif  
+
+Image: style_images/webber/p_mq_add.gif
+
+Image: style_images/webber/p_quote.gif
+
+Image: style_images/webber/folder_profile_portal/user-offline.png Rook
+
+Image: http://www.scifihero.net/forums/uploads/profile/photo-thumb-135.jpg
+
+Image: style_images/webber/folder_profile_portal/gender_male.png View Member
+Profile ipsmenu.register( "post-member-68838", '', 'popmenubutton-new',
+'popmenubutton-new-out' );
+
+Image: style_images/webber/to_post_off.gif Sep 7 2011, 06:46 PM Post #32
+
+
+
+In space, no one can hear you scream...
+
+
+
+
+
+Group: Administrators
+
+Posts: 2,858
+
+Joined: 12-September 06
+
+From: Northern Minnesota, USA
+
+Member No.: 135
+
+
+
+
+
+
+
+Image: style_images/webber/spacer.gif
+
+Very nice, well done!
+
+Image: style_images/webber/p_up.gif  
+
+Image: style_images/webber/p_mq_add.gif
+
+Image: style_images/webber/p_quote.gif
+
+Image: style_images/webber/folder_profile_portal/user-offline.png VenarThompson
+
+Image: http://www.scifihero.net/forums/uploads/profile/photo-thumb-3111.jpg
+
+Image: style_images/webber/folder_profile_portal/gender_male.png View Member
+Profile ipsmenu.register( "post-member-68840", '', 'popmenubutton-new',
+'popmenubutton-new-out' );
+
+Image: style_images/webber/to_post_off.gif Sep 7 2011, 07:01 PM Post #33
+
+
+
+
+
+
+
+
+
+Group: Members
+
+Posts: 36
+
+Joined: 28-September 10
+
+From: Portland, OR, USA
+
+Member No.: 3,111
+
+
+
+
+
+
+
+Image: style_images/webber/spacer.gif
+
+QUOTE (p51 @ Jun 29 2010, 08:55 PM)
+
+Image: style_images/webber/post_snapback.gif Not exactly. That was a cut-down
+Winchester 1887 lever-action shotgun . I’ve read that they started with a 10-gauge version
+(which would be a model 1901) and sleeved it down inside the barrel to shoot 12-gauge blanks,
+but I’m not sure if that is correct. I think it was a stock 12G but maybe it was modified as
+spinning one of those things is murder on your hands, no matter how strong you are.
+
+While not overly popular with cowboy action shooters, at least two companies make
+inexpensive reproduction 87s for competition. Cutting one down like the one you saw in T2
+would require a federal (“SBS” under the NFA regs) permit.
+
+
+
+Just looked it up on IMFDB and apparently the Winchester 1887 in T2 was a 10-gauge for all three
+versions of the shotgun
+
+
+
+(IMG:
+http://www.imfdb.org/w/images/thumb/b/bd/Win1887shotgunT2.jpg/400px-Win1887shotgunT2.jpg
+)
+
+Image: style_images/webber/p_up.gif  
+
+Image: style_images/webber/p_mq_add.gif
+
+Image: style_images/webber/p_quote.gif « Next Oldest · Jayne's Locker · Next Newest »
+ 
+
+2 Pages
+
+Image: style_images/webber/menu_action_down.gif   <   1   2 //<![CDATA[
+ipb_pages_shown++; var pgjmp = document.getElementById( 'page-jump' ); pgjmp.id =
+'page-jump-'+ipb_pages_shown; ipb_pages_array[ ipb_pages_shown ] = new Array(
+'http://www.scifihero.net/forums/index.php?showtopic=2805', 30, 33 );
+menu_build_menu( pgjmp.id, new Array( "~~NODIV~~<div
+onmouseover='pages_st_focus("+ipb_pages_shown+")' class='popupmenu-category'
+align='center'>Jump to Page</div>", "<input type='hidden'
+id='st-type-"+ipb_pages_shown+"' value='st' /><input type='text' size='5' name='st'
+id='st-"+ipb_pages_shown+"' onkeydown='check_enter("+ipb_pages_shown+", event);'
+/> <input type='button' class='button'
+onclick='do_multi_page_jump("+ipb_pages_shown+");' value='Go' />" ) ); //]]>
+
+Image: style_images/webber/t_reply.gif
+
+Image: style_images/webber/t_new.gif
+
+Forum Home Search Help Site Information and News   |-- Scifihero.net Announcments
+  |-- Site News   |-- General Sci-Fi Related News and Announcements   |--
+Introduction Forum   |-- Hall of Heroes   |-- Organizational Projects   |----
+SciFiHero Calandar Project   |---- SciFiHero.NET Graphics Projects Forum   |--
+Frequently Asked Questions (FAQs) Forum   |-- Site Forums - Site Articles, Site Feedback,
+Support Forums   |-- The Suggestion Box   |-- Other Sites Of Interest   |---- Fan Club
+Websites   |---- Props and Costume Websites   |---- SciFi Information and Photo
+Archive Websites   |---- Military Surplus Websites   |---- Costuming & Prop Making
+Material Suppliers Websites   |---- Convention Websites   |-- Games and other fun
+diversions Team Forums   |-- SciFiHero.Net Organization Forums   |----
+SciFiHero.NET General Information   |------ SciFiHero.NET Organizational FAQs
+  |------ Team Announcements   |------ Team Leadership Promotion Announcements
+  |---- New Members Introductions   |---- General All Team Chat   |---- Forum Team
+Projects   |-- Team Forums   |---- SG-2   |------ SG-2 Private Forum   |------
+SG-2 Public Forum   |------ 201st "Darkstar Titans"   |---- SG-4   |------ SG-4
+Public Forum   |------ SG-4 Private Forum   |------ 401st "Death Dealers"   |----
+SG-6   |------ SG-6 Public Forum   |------ SG-6 Private Forum   |---- SG-7
+  |------ SG-7 Public Forum   |------ SG-7 Private Forum   |------ 701st "Dragon
+Riders"   |---- SG-9   |------ SG-9 Public Forum   |------ SG-9 Private Forum
+  |------ 901st "Flying Tigers"   |------ SG-9 Alpha Detachment Private Forum
+  |---- SG-10   |------ SG-10 Public Forum   |------ SG-10 Private Forum
+  |------ 101st Dragoons Tactical Space Fighter Squadron   |---- SG-11   |------
+SG-11 Public Forum   |------ SG-11 Private Forum   |------ 111th "Wraith Squadron"
+  |---- SG-12   |------ SG-12 Public Forum   |------ SG-12 Private Forum   |----
+SG-13   |------ SG-13 Public Forum   |------ SG-13 Private Forum   |------ 113th SFS
+  |---- SG-14   |------ SG-14 Public Forum   |------ SG-14 Private Forum
+  |------ DET 1: SeaQuest detachment   |-------- DET 1: SeaQuest Detachement Private
+Forum   |---- SG-15   |------ SG-15 Public Forum   |------ SG-15 Private Forum
+  |---- SG-16   |------ SG-16 Public Forum   |------ SG-16 Private Forum   |----
+SG-17   |------ SG-17 Public Forum   |------ SG-17 Private Forum   |---- SG-19
+  |------ SG-19 Public Forum   |------ SG-19 Private Forum   |---- SG-20
+  |------ SG-20 Public Forum   |------ SG-20 Private Forum   |---- SG-21
+  |------ SG-21 Public Forum   |------ SG-21 Private Forum   |------ 210th SFS
+"Phantom Brigade" Public forum   |---- SG-23   |------ SG-23 Public Forum   |------
+SG-23 Private Forum   |---- SG-25   |------ SG-25 Public Forum   |------ SG-25
+Private Forum   |------ 251st "Hurley's Hellhounds"   |---- Non Regional Team Forums
+  |------ US Air Force Stargate Command   |-------- USAF-SGC public forum
+  |-------- US Air Force Stargate Costuming Guides   |------ US Army Stargate
+Operations   |-------- USA-SGC public forum   |-------- US Army Stargate Cosuming
+Guides   |------ SG-3 - USMC Stargate Operations   |-------- SG-3 Public forum
+  |-------- VFMS-301 "Shadow Wolves" public forum   |-------- VMFS-510 "Death
+Angels" public forum   |------ SG-8 Stargate Combat Medical Team   |-------- SG-8
+Public forum   |------ SG-22 - USN Stargate Operations   |-------- SG-22 Public forum
+  |-------- VFAS-221 "StarGators" Public forum   |------ The System Lords
+  |------ SGC-RD&E   |-------- SGC-RD&E Public Forum   |------ Hak'tyl
+  |-------- Hak'tyl public forum SciFiHero.net   |-- AdventureHero.NET   |----
+SteamPunkHero   |------ SteamPunkHero General Discussion Forum   |------ SteamPunk
+Costuming & Propping Discussion Forum   |------ SteamPunk Projects   |-------- Texas
+SteamPunk Monster Hunters   |---- HogwartsHero   |------ Harry Potter Site
+Discussion   |------ Hogwart School of Magic   |------ Harry Potter Costuming
+  |---- ChickHero.net   |------ Chickhero Chat   |------ Chick Heroes in the Movies
+  |------ Chickhero Costume Discussion   |------ Chickhero Costume Guides   |----
+Time Lord Hero   |------ Time Lord Hero General Chat forum   |------ Dr Who's TARDIS
+  |-------- Dr Who General Discussion Forum   |-------- Dr Who Costuming, Props and
+TARDIS Discussion Forum   |------ Torchwood's Hub   |-------- Torchwood General
+Discussion Forum   |-------- Torchwood props and costumes discussion   |----
+AdventureHero.NET Chat   |---- AdventureHero.NET Costuming Discussion & Guides
+  |---- ComicbookHero.NET   |------ ComicBookHero.NET Chat   |------
+ComicBookHero.NET Costume Discussions and Guides   |---- SciFiVillain.NET
+  |------ SciFiVillain Conspiracy Chat   |------ SciFiVillain Costuming Discusions
+& Guides   |---- RaidersHero   |------ Indiana Jones General Discussion forum
+  |------ Indiana Jones Costuming Forum   |-- MilitarySciFiHero.NET   |----
+Anime-Hero.net   |------ Neo Tokyo 3 - General Anime/Video Game Chat   |------ Anime
+Movie Discussions   |------ NERV Locker Room - Costuming Discussions   |------ The
+MAGI - Costuming and Weapons Guides   |------ SFH MOSPEADA Group Project   |----
+MilitarySciFiHero.net Chat   |---- MilitarySciFiHero.net Costuming Discussion and
+Guides   |---- Aliens and Predator Costuming Forum   |------ Aliens Chat   |------
+Aliens & Predator Costumes and Props Guilds and Tutorials   |------ Direct Link to Aliens
+Legacy Board   |---- James Cameron's Avatar Costuming & Props Forum   |------ Avatar
+Movie Costuming & Props Discussion Forum   |---- Galaxy Quest Costuming Forum
+  |------ Questarian's Chat   |------ Galaxy Quest Costuming & Props Discusion and
+Guides   |------ Direct Link to the Questarian!   |---- Fringe TV Series Costuming
+Forum   |------ Fringe TV Series Chat   |------ Fringe TV Series Costumes & Props
+Discussions & Guides   |---- HALO Costuming Forum   |------ Halo Discussion
+  |------ HALO Prop and Costuming Tutorials Discussion   |---- Honorverse Costuming
+Forum   |------ Honorverse Chat   |------ Costumes and Props in the Honorverse
+  |---- SeaQuest DSV Costuming Forum   |------ SeaQuest DSV Chat   |------ SeaQuest
+DSV Costumes and Props Tutorials and Guides   |------ Major Cline' seaQuest DSV Costuming
+(1st and 2nd seasons)   |------ General seaQuest DSV show overview and tribute page
+  |---- Space: Above and Beyond (S:AAB) Costuming Forum   |------ Space: Above and
+Beyond Chat   |------ Space: Above and Beyond Costumes and Props Guides & Tutorials
+  |---- Starship Troopers Costuming Forum   |------ Starship Troopers Chat
+  |------ Starship Troopers Costumes and Props Guides and Tutorials   |------ Whiskey
+Outpost a Starship Troopers Fan Forum   |---- StarTrek Costuming Forum   |------ Star
+Trek General Chat   |------ Star Trek Costumes & Props Discussions and Guides
+  |-------- ST:TOS Costumes and Props Discussion & Guides   |-------- ST:TNG / DS9 / Voy
+Costumes & Props Discussion & Guides   |-------- ST: Enterprise Costumes & Props
+Discussions & Guides   |---- Star Wars Costuming Forum   |------ Star Wars General
+Discussion Forum   |------ Star Wars Costumes and Props Discussion and Guides   |----
+Terra Nova - TV Series   |------ Terra Nova - Series General Discussion   |------ Terra
+Nova - Costuming and Props discussions & Tutorials and Guides   |---- "V" TV Series (aka the
+Visitors)   |------ V Series general chat   |------ Original "V" Series Costume
+Discussion   |---- Military Related Discussion   |------ Military Related Tutorials
+and Guides   |------ Military Related Uniforms and Costumes   |-- Other SciFi Show
+Forum   |---- Other SciFi Show Chat   |---- Other SciFi Show Costumes & Props Discussion
+and Guides   |-- General Costuming & Prop Making   |---- General Costuming and Prop
+Making Chat   |---- Costuming and Prop Making Tutorials   |---- Costuming & Prop Making
+resources and suppliers   |-- Off Topic Discussion   |---- AirsoftHero.net
+  |------ AirsoftHero.NET Chat   |------ AirsoftHero.net Weapons Discussion
+  |---- Science Related Discussion   |---- HealthyHero   |------ HealthyHero
+General Discussion   |------ HealthyHero Information and endorsemetnt on what works
+  |------ HealthyHero Personal Fitness Public Blogs   |------ HealthyHero Personal
+Fitness PRIVATE Blogs   |------ HealthyHero Pictures   |-- SciFiHero.NET Alliances
+  |---- Bad Wolves   |------ Bad Wolves Public Forum   |------ Bad Wolves Private
+Forum   |------ Direct Link to Bad Wolves' Web Site   |---- Dark Operations   |------
+Dark Operations Public Forum   |------ Dark Operations Private Forum   |------ Direct
+link to Dark Operations' Home Page   |------ Dark Operations Costuming & Props
+Discussions   |---- Direct Link to the Colonial Defense Forces   |---- Direct Link to
+The Colonial Fleet   |---- Direct Link to the Battlestar Fan Club   |---- Direct Link to
+the Battlestar Galactica Alliance SciFiHero-France.Net   |-- SciFiHero-France.Net
+  |---- Annonces et nouvelles de la SciFiHero-France   |------ Forum d'introduction
+de membres   |---- Forum général de la science-fiction   |------ Forum de discussion
+de la science-fiction   |------ General Science Fiction Costuming & Props Forum
+  |---- Forum et guides de GalacticaHero en français   |------ Nouveau forum de série
+de Battlestar Galactica   |-------- Nouveau forum de discussion d'épisode de
+Battlestar Galactica   |-------- Nouveau Battlestar costumer de Galactica et forum
+d'appui verticaux   |------ Forum original classique de série de Battlestar Galactica
+  |---- Forum et guides de StargateHero en français   |------ Forum de Stargate SG-1
+  |------ Forum de Stargate l'Atlantide   |------ Stargate : Les forum de film
+FireFlyHero.net   |-- 'Verse Discussions   |-- Join the Ranks!   |-- Jayne's Locker
+  |-- Kaylee's Toolbox   |-- Can't Stop the Signal GalacticaHero.net   |--
+Battlestar Galactica Chat   |-- Battlestar Galactica Series Discussions   |--
+Battlestar Galactica Merchandise Discussions   |-- Battlestar Galactica Costume
+Discussions   |---- Doctor Baltar's Lab   |---- Battlestar Galactica Costume Guides
+  |------ New BSG Colonial Fleet Pilot Flightsuit Costume Guide   |------ New BSG BDU
+Colonial Fleet Utility Uniform Costume Guide   |------ New BSG Colonial Fleet Service
+"Blue" Uniform Costume Guide   |------ New BSG Colonial Marine Corps Uniforms Costume
+Guides   |-- Battlestar Galactica Weapons Discussions   |-- Battlestar Galactica Fan
+Films Discussion & Development ResidentEvilHero.net   |-- Resident Evil Chat   |--
+Resident Evil/Biohazard Games Discussion   |-- Resident Evil Movies Discussion
+  |---- Resident Evil Fan Films   |-- Resident Evil Costumes and Props Discussion
+  |---- Resident Evil Costume and Prop Guides   |-- Outbreak Areas StargateHero.net
+  |-- Stargate Command - Earth   |---- Stargate: SG-1 Discussions   |------
+Stargate SG-1 Episode Discussion Forum   |---- Stargate SG-1 Costuming and Props forums
+  |------ Stargate SG-1 Costume Guide   |------ Alien Races Costuming and Props
+  |------ Doctor McKay's Lab   |-- The Stargate Atlantis Program - Pegasus Galaxy
+  |---- Stargate: Atlantis Discussion   |------ Atlantis Episode Discussion Forum
+  |---- Atlantis Costuming and Props forums   |------ Stargate Atlantis Costume Guide
+  |---- Atlantis Project Team Forum   |------ SG Atlantis Public forum   |--
+Stargate Universe   |---- Stargate Universe Discussion Forum   |------ Stargate
+Universe Episode Forum   |---- Stargate Universe Costuming and Props forum   |--
+Stargate Expanded Universe   |---- Stargate: The Movie Discussion   |---- Stargate:
+Expanded Universe Discussions   |---- Stargate Movie Costume Discussion Forum
+  |------ Stargate Expanded Universe Costume Guides   |-- Stargate Fan Films
+  |---- Stargate related fan films & music videos   |---- Stargate Fan Films in
+Pre-Production   |---- Stargate Fan Films currently in Production or Post Production
+  |---- Completed Stargate Fan Films   |---- Stargate Fan Films - Classified Ads
+  |------ Stargate Fan Films - Help Wanted Ads   |------ Stargate Fan Film - Help
+Offered!   |---- Stargate: New Horizons Fan Film   |------ SG-New Horizons Public
+Announcements   |------ SG-New Horizons Production Forum   |------ SG-New Horizons
+Production Forum   |-- StargateHero.NET Alliances   |---- The Jaffa Legions
+  |------ Jaffa Legions public forum   |---- Tok'ra Resistance   |------ Tok'ra
+Public Forum   |------ Direct Link to the Tok'ra Resistance Web Site   |---- SG-Delta
+  |------ Direct Link to SG-Delta's Board   |------ Direct Link to SG-Delta's Web Site
+  |---- SG 18   |------ SG-18 Public Forum   |------ SG-18 Private Forum   |----
+Order of the Ori   |------ Order of the Ori Public Forum   |------ Order of the Ori Private
+Forum   |---- SG-69   |------ SG-69 Public forum   |---- SG-Operations: The Home
+Base of SG-SOCOM   |------ Friends of SG-Operations / SG-SOCOM Public Forum   |------
+Direct link to SG-Operations / SG-SOCOM's site   |---- Wraith Never Ending   |------
+Wraith Never Ending Direct Link   |------ Wraith Never Ending Public Forum Events and
+Conventions   |-- Convention Calendar   |---- 2012 Conventions   |------ 2012
+Convention Planning   |------ 2012 Convention Reports   |---- 2011 Conventions
+  |------ 2011 Convention Planning   |------ 2011 Convention Reports   |---- 2010
+Convention   |------ 2010 Convention Planning   |------ 2010 Convention Reports
+  |---- 2009 Conventions   |------ 2009 Convention Reports   |---- 2008
+Conventions   |------ 2008 Convention Planning Archieve   |------ 2008 Convention
+Reports   |---- 2007 Conventions   |------ 2007 Convention Planning Archieve
+  |------ 2007 Convention Reports   |---- 2006 Conventions   |------ 2006
+Convention Planning Forum Archieve   |------ 2006 Convention Reports   |-- San Diego
+ComicCon International   |---- SDCC 2011 Convention   |------ SDCC 2011 Convention
+Planning   |------ SDCC 2011 Convention Reports & Pictures   |---- SDCC 2010
+Convention   |------ SDCC 2010 Convention Reports & Pictures   |---- SDCC 2009
+Convention   |------ SDCC 2009 Convention Reports & Pictures   |---- SDCC 2008
+Convention   |------ 2008 SDCC Convention Planning   |---- SDCC 2007 Convention
+  |------ SDCC 2007 Convention Planning   |------ 2007 SDCC Convention Reports &
+Photos   |-- Dragon*Con   |---- DragonCon 2012   |------ 2012 SciFiHero.Net Annual
+Dinner   |---- Dragon*Con 2011   |------ 5th Anniversary SciFiHero.Net Dinner
+  |------ 2011 Dragon*Con Planning Forum   |------ 2011 Dragon*Con After action
+Reports   |---- Dragon*Con 2010   |---- Dragon*Con 2009   |------ 2009 Dragon*Con
+Planning Forum   |---- Dragon*Con 2008 Forum   |------ 2008 Dragon*Con Planning Forum
+  |------ 2008 Dragon*Con Convention Reports   |---- 2007 Dragon*Con   |------
+Dragon*CON 2007 Coordination and Information   |------ 2007 Dragon*Con Reports and
+Pictures   |---- Dragon*Con 2006 Con Reports and Photos!   |-- Creation Conventions
+  |---- Creation Entertainment Stargate SG-1 & Atlantis Conventions   |---- Creation
+Entertainment Battlestar Galactica Conventions   |---- Creation Entertainment Other
+Conventions   |-- Charity and Charity Volunteer Events   |-- SciFiHero.Net
+Convention Project   |---- SFH Charitable Con Mission Forum   |---- SFH Charitable Con
+Programming Forum   |---- SFH Charitable Convention Location Forum   |---- SFH
+Charitable Con Committee Membership Sign Up Forum   |---- SFH Charitable Con Programming
+Forum Classifieds Ads (Private Sales or services)   |-- For Sale   |---- Team Jacket
+Address Validation   |-- Artist Alley   |-- Wanted   |-- Trades   |-- Group
+Purchases & Projects   |-- Found Items Announcements   |-- Interesting Auction Items
+Announcements   |-- Merchants who offer SciFiHero.net Members' Discounts  
+
+Display Mode: Standard · Switch to: Linear+ · Switch to: Outline
+
+Track this topic · Email this topic · Print this topic · Subscribe to this forum
+
+//<![CDATA[ document.getElementById('topicoptionsjs').style.display = 'none'; //
+Scroll to PID? topic_scroll_to_post( parseInt("0") ); //]]> Lo-Fi Version Time is now: 3rd
+October 2012 - 08:11 AM //<![CDATA[ menu_do_global_init(); show_inline_messages(); //
+Uncomment this to fix IE png images // causes page slowdown, and some missing images
+occasionally // if ( is_ie ) // { // ie_fix_png(); // } //]]>
+
+ScifiHero - Be the Hero Scifihero.net Portal Help Search Members Calendar  
+
+Image: style_images/webber/to_the_top.gif
+
+Webber Enhanced skin v1.1 created by Im4eversmart of Global Gaming HQ and Sam Granger of A Dog
+in the Fog Web Services . Powered By IP.Board 2.3.6 © 2012   IPS, Inc . Licensed to:
+Scifihero.net
+

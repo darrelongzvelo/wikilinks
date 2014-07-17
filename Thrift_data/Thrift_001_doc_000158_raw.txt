@@ -1,0 +1,3918 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); El Pollo Real: May 2011 <!-- /* -----------------------------------------------
+Blogger Template Style Name: Minima Date: 26 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff"> <Variable name="textcolor" description="Text Color"
+type="color" default="#333"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#58a"> <Variable name="pagetitlecolor" description="Blog Title
+Color" type="color" default="#666"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#999"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#c60">
+<Variable name="bordercolor" description="Border Color" type="color" default="#ccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#999"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#999"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% Georgia, Serif"> <Variable
+name="headerfont" description="Sidebar Title Font" type="font" default="normal normal
+78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable
+name="pagetitlefont" description="Blog Title Font" type="font" default="normal normal
+200% Georgia, Serif"> <Variable name="descriptionfont" description="Blog Description
+Font" type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="postfooterfont" description="Post Footer Font"
+type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="startSide" description="Side where text starts in blog
+language" type="automatic" default="left"> <Variable name="endSide"
+description="Side where text ends in blog language" type="automatic" default="right"> */
+/* Use this with templates/template-twocol.html */ body { background:#ffffff; margin:0;
+color:#333333; font:x-small Georgia Serif; font-size/* */:/**/small; font-size:
+/**/small; text-align: center; } a:link { color:#5588aa; text-decoration:none; }
+a:visited { color:#999999; text-decoration:none; } a:hover { color:#cc6600;
+text-decoration:underline; } a img { border-width:0; } /* Header
+----------------------------------------------- */ #header-wrapper { width:660px;
+margin:0 auto 10px; border:1px solid #cccccc; } #header-inner { background-position:
+center; margin-left: auto; margin-right: auto; } #header { margin: 5px; border: 1px solid
+#cccccc; text-align: center; color:#666666; } #header h1 { margin:5px 5px 0; padding:15px
+20px .25em; line-height:1.2em; text-transform:uppercase; letter-spacing:.2em; font:
+normal normal 200% Georgia, Serif; } #header a { color:#666666; text-decoration:none; }
+#header a:hover { color:#666666; } #header .description { margin:0 5px 5px; padding:0 20px
+15px; max-width:700px; text-transform:uppercase; letter-spacing:.2em; line-height:
+1.4em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+color: #999999; } #header img { margin-left: auto; margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 660px;
+margin:0 auto; padding:10px; text-align:left; font: normal normal 100% Georgia, Serif; }
+#main-wrapper { width: 410px; float: left; word-wrap: break-word; /* fix for long text
+breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE
+sidebar float */ } #sidebar-wrapper { width: 220px; float: right; word-wrap: break-word; /*
+fix for long text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text
+content breaking IE sidebar float */ } /* Headings
+----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+font:normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.2em; color:#999999; }
+/* Posts ----------------------------------------------- */ h2.date-header {
+margin:1.5em 0 .5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #cccccc;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#cc6600; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#cc6600;
+font-weight:normal; } .post h3 strong, .post h3 a:hover { color:#333333; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#999999; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; line-height: 1.4em; } .comment-link { margin-left:.6em; } .post img,
+table.tr-caption-container { padding:4px; border:1px solid #cccccc; }
+.tr-caption-container img { border: none; padding: 0; } .post blockquote { margin:1em 20px;
+} .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #999999; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+#blog-pager-newer-link { float: left; } #blog-pager-older-link { float: right; }
+#blog-pager { text-align: center; } .feed-links { clear: both; line-height: 2.5em; } /*
+Sidebar Content ----------------------------------------------- */ .sidebar { color:
+#666666; line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; }
+.sidebar li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #cccccc; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #cccccc; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; color: #999999; font-weight: bold; line-height: 1.6em; } .profile-datablock
+{ margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:660px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0756130126685334700207\46blogName\75El+Pollo+Real\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://acrazychicken.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://acrazychicken.blogspot.com/\46vt\0751190734581214001778',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+El Pollo Real
+
+
+
+In a perfectly green world, the past is recycled and is not allowed to accumulate
+
+Monday, May 30, 2011
+
+
+
+
+
+
+
+Blessed Are The Wealth Makers
+
+
+
+Image:
+http://2.bp.blogspot.com/-rKSTo4XpO8Y/Tdsu8Uy77zI/AAAAAAAAA5c/Tvf0smzLbtc/s320/16_WallaceCarothers.jpg
+Wallace Hume Carothers (1896-1937)
+
+DuPont made a fortune selling things like gunpowder and nitrocellulose to warring
+governments (mainly to our own) up through and including the First World War. During the
+roaring 1920s (and flush with cash before the crash) they decided to pursue pure research into
+material science and established a new division at their fledgling Experimental Station
+located near Wilmington, Delaware.
+
+
+
+The company hired a young PhD chemist named Wallace Carothers to start up a new group.
+Carothers was fascinated by long chain macromolecules ubiquitous in nature but which had
+only recently been recognized as "polymers." With the exception of Bakelite , the first
+synthetic plastic,* other synthetic polymers were unheard of, let alone commercially
+successful.
+
+
+
+DuPont's research gamble paid off and Carothers and his group brought the company
+enormous success, first with the serendipitous discovery of neoprene, the first synthetic
+rubber, and then with nylon. Neoprene and nylon were tangible wealth creation: making things
+of value from what were, at the time, essentially waste products.
+
+
+
+Nylon was Carothers' baby. Not only did he invent a synthetic replacement for silk, he
+purposefully developed a new method of making polymers called step-growth polymerization .
+He used the same durable type of linkages used by proteins (amide bonds), mimicking
+nature. Nylon was the first synthetic fabric and was commercialized around 1938, just
+in time to replace Asian silk which, along with natural rubber, went missing during the
+Second World War.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/-fJMhgjUOo4Y/Td7B-KG-3YI/AAAAAAAAA5o/0cf9Q-QOJ-Y/s400/1950s-nylon-stockings.jpg
+We have a lot to thank Carothers for but he didn't stick around. He checked out early, killing
+himself in 1937.
+
+______________
+
+* I have two items made from Bakelite: One is a late 1940's era Viewmaster device and the other is
+my father's old Kit-Cat clock which I described here . Both of these items have the
+characteristic fragility and tendency to chip common to Bakelite. Posted by
+
+
+
+chickelit at
+
+
+
+2:48 PM 3 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1896 , 1937 ,
+bloghetti carbonara , Carothers , Catenation , Inventors , suicide , Wealth Makers
+
+Sunday, May 29, 2011
+
+
+
+
+
+
+
+War Letters of German and English Soldiers
+
+
+
+Image:
+http://3.bp.blogspot.com/-pZBtyES4Pas/TeAGL747VWI/AAAAAAAAA5s/nz5V2sj-Krw/s320/Flanders-Fields-Poppies.jpg
+Link to original Poppy-covered fields in Flanders evoke Britain's Remembrance Day on
+November 11, but the original inspiring poem was written in May, closer to our American
+Memorial Day.
+
+
+
+I recently discovered two new books to nurture my obsession with soldiers' letters: War
+Letters Of Fallen Englishmen , originally compiled by Laurence Housman and published in
+1930, and  German Students' War Letters , originally compiled by Phillipp Witkop and
+published, in German, in 1928. Both books were recently republished by the University of
+Pennsylvania Press.
+
+
+
+The two books are remarkably close.   Jay M. Winter , Yale historian, wrote introductions
+for both volumes.  Here he captures what they both were about:
+
+The entries in the book resemble gravestones, in a general way. There is the name, and instead
+of military rank, there is his academic affiliation. Then follows the date and place of his
+birth and his death. So far the parallel with a grave site [is] similar to that used in other
+similar ventures, for instance, Laurence Housman's War Letters of Fallen Englishmen .
+Housman's identification also includes the service arm and rank, which Witkop's book
+avoids. Still, the similarity to a cemetery stone is clear. What both editions add, of course,
+is a letter or several letters. This practice helps establish the individuality of the
+soldier who died; without such special individuation, he would fade into an army of the dead
+and therefore into oblivion. Thus these books offer two services to bereaved families. For
+those whose sons or husbands or brothers had no known grave, these pages provide a kind of
+surrogate resting place his remains never had. And second, the text of the letters does more
+than just list his name, date of birth, and date of death. It is a kind of portrait, like those
+found in East European cemeteries. The letters construct a snapshot of the mind of the fallen
+soldier. The prose comes to stand for the man himself, his nobility, his beliefs, his
+aspirations. It was as if he wrote his own epitaph.
+
+Here is an example, chosen at random from  German Students' War Letters :
+
+EDUARD BRUHN, Student of Theology, Kiel
+
+Born October 18th, 1890, at Schlamersdorf.
+
+Killed September 17th, 1915, in Russia
+
+September 17th, 1915.  Dear Parents,---
+
+I am lying on the battle-field badly wounded. Whether I recover is in God's hands. If I die, do
+not weep. I am going blissfully home. A hearty greeting to you all once more. May God soon send
+you peace and grant me a blessed home-coming. Jesus is with me, so it is easy to die. In heartfelt
+love,  Eduard ____________________
+
+Added :
+
+
+
+Image:
+http://3.bp.blogspot.com/-JMT_4RHUsIU/TeRORspbNoI/AAAAAAAAA6w/O8dknK2mVV0/s200/moina-michael-stamp.jpg
+Posted by
+
+
+
+chickelit at
+
+
+
+2:00 PM 2 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1915 , cool books ,
+Heroes On Stamps , philately , War Letters
+
+Wednesday, May 25, 2011
+
+
+
+
+
+
+
+Letters Home: "I haven't written for at least 3 weeks"
+
+I last updated this series over a month ago. My late father wrote letters home to his family
+while serving in the US Army between 1951-53. They're all arranged in reverse
+chronological order from the "present" all the way back to boot camp:  Link
+
+
+
+His writing pace slowed from almost bi-weekly to about once a month and he wrote just eight
+more times before returning home in September, 1953. One day, augmented by photos, I hope to
+republish them all together. Meanwhile, I intend to keep posting them here on their
+originally posted calendar anniversary, time-shifted by exactly 58 years. Happy early
+Father's Day, pop.
+
+
+
+Part of the lapse was his own--here he admits not having written in more three weeks. The
+young man who was to become my dad was growing apart from his home too. I wish there were more
+glimpses into what his life was like then and not just for selfish reasons because I am a part of
+him. His letters are, quite frankly, unremarkable--exactly what people said about the
+1950's--especially the mid-1950's. He is a '50's "everyman" and now just a part of cultural
+memory.
+
+
+
+Of course much was going on. He was stationed near the Fulda Gap which was like a Maginot Line
+between Allied and Soviet forces. East Germany was seething at this time: riots and
+the subsequent brutal repression culminated on  June 17, 1953  in Berlin, just a few
+weeks away from the time of this letter. Up to a hundred or more people were killed outright
+(no one really knows) & over a hundred more were later executed and thousands disappeared.
+But he apparently did not notice, or else he had no real knowledge of events at that time. But
+the danger was real enough.
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/-M-kKSlVolqQ/TWQ6WEoipfI/AAAAAAAAAzc/7XWtg-h_5bk/s1600/jeeps+and+tanks.jpg
+
+May 25, 1953
+
+Hanau West Germany 
+
+Dear Mom, Dad and all,
+
+
+
+I haven't written for at least 3 weeks. I was waiting for a letter from you. I finally got one
+today.
+
+
+
+We sure are having hot weather, around 90 every day. Last week we went out on the rifle range. I
+had to haul ammo in my jeep. I got to fire the sub-machine gun for reward. After everyone had
+finished, I got to help get rid of what was left over. I was shooting at tin cans and most anything
+I wanted to. [1]
+
+
+
+Day after tomorrow I have to go in the field for a week. They are having some maneuvers north of
+here and 2 jeeps and 2 officers are going. I will be driving one. They have to umpire the
+maneuvers. [2]
+
+
+
+Do you remember what I was doing 3 years ago tonight? Graduating from H.S. It seems like it's
+been that long too. [3]
+
+
+
+I haven't been swimming yet but I took some pictures out at a lake yesterday.
+
+
+
+I haven't been going to church very regular. Maybe I will after I get back. I like to sleep Sun.
+morning too well. Some weekends I have to drive someone. Still driving about 1000 miles a
+month. Last Fri. I had to take a AWOL to Frankfurt to the guard house. He had been to France.
+
+
+
+Bye bye for now,
+
+
+
+
+
+Love,
+
+V. ____________________
+
+[1] He probably fired an M3 grease gun , the standard Army submachine gun at the time.
+
+
+
+[2] Heavy armor maneuvers involving his outfit, the 141st Tank Battalion in the 3rd Armored
+Division, US Army.
+
+
+
+[3] Military conscription was a kind of "poor man's college" at the time. The original G.I.
+Bill had recently been augmented. link Posted by
+
+
+
+chickelit at
+
+
+
+12:09 AM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1953 , Letters
+Home
+
+Tuesday, May 24, 2011
+
+
+
+
+
+
+
+Meet the Priest who invented Flubber
+
+Remember the storyline from Walt Disney's The Absent Minded Professor (1961)?  Fred
+MacMurray played a small Midwestern college chemistry professor who invented a
+miraculous substance which he named Flubber. He saved the football team and got the girl in the
+end. I think I found the real-life embodiment-well, forget the getting the girl part and focus
+on the chemistry and small midwestern university parts.
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/-y0TJcJkTngo/TdQPkE28PBI/AAAAAAAAA5Q/1YU1SnEyESU/s320/nieuwland2.jpg
+Reverend Julius Nieuwland (1878-1936)
+
+I ran across the name Julius Nieuwland recently. Nieuwland was a priest and professor at Notre
+Dame University. As part of his Ph.D research, Nieuwland discovered Lewisite which was
+produced in tonnage quantitites by the U.S. during World War I as a poison gas.  Nieuwland had
+nothing to do with this application and distanced himself from the molecule (it's named for an
+enthusiastic supporter of gas warfare, named Lewis ). Later, as a professor of organic
+chemistry at Notre Dame, Nieuwland successfully polymerized acetylene into
+divinylacetylene, laying the groundwork for the discovery of neoprene by Du Pont.
+
+
+
+One of Nieuwland's more famous students was Knute Rockne, which even explains the football
+part of the otherwise bizarre Flubber story. Posted by
+
+
+
+chickelit at
+
+
+
+6:34 PM 3 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Arsenic ,
+bloghetti carbonara , Catenation , disney , Forgotten Americans , Inventors , Wealth Makers
+
+
+
+
+
+Conversations with Henry
+
+Henry :  I once gave an exam by passing out a blank Periodic Table and asked students to fill in
+the blanks from memory:
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/-UT2Qb_SnLJI/Tdv4Lhyki3I/AAAAAAAAA5g/TtVcObTvRmA/s320/tblv.jpg
+
+Me : Yikes! Did anybody pass?
+
+Henry : A few. But everyone got vanadium right!
+
+
+
+Posted by
+
+
+
+chickelit at
+
+
+
+2:39 PM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Conversations
+with Henry , periodicity , Vanadium
+
+
+
+
+
+Element 23: Vanadium Adds Color
+
+
+
+Image:
+http://3.bp.blogspot.com/-8JjLw2sdjgI/TdwbNIVB_pI/AAAAAAAAA5k/UAy4-rh1v-4/s320/VO5.jpg
+
+V anadium is the first element of color. The previous element, titanium, is actually the
+essence of butt-white: Titanium dioxide, TiO 2 is commonly used in white paint and also as a
+sunscreen. Of all the other previous elements, only chlorine is a pretty lime green. I suppose
+that sulfur counts as yellow and boron counts as brown, and certain allotropes of
+carbon counts as black--but only as solids. By "element of color" I mean that vanadium is the
+first of many elements that form pretty colored water solutions :
+
+ 
+
+
+
+Image:
+http://2.bp.blogspot.com/-Conx63ciqaE/TdrtwpoEmKI/AAAAAAAAA5Y/Zbkq7MSBLhA/s320/399px-Vanadiumoxidationstates.jpg
+Oxidation states of vanadium, from left +2 (lilac), +3 (green), +4 (blue) and +5 (yellow).
+
+There's a reason why vanadium does this, but I'm going to hold off a simplified explanation
+until I get to chromium (nominally the best example).
+
+
+
+Vanadium's discovery is a bit sad in that its true discoverer, a fellow named del Rio, was
+talked out of his discovery by a Frenchman. Our old friend Friedrich WÃ¶hler showed up and
+straightened things out, but not before the Swedish name stuck. The whole naming history is
+here .
+
+
+
+Vanadium has an oxidation state of +5 (as in the oxide VO 5 ). That VO 5 has nothing to do with the
+shampoo VO5, but I thought that the first photo bore such a striking likeness to the second
+one that I put it here just to confuse things.
+
+
+
+In the Periodic Table, vanadium belongs to Group 5. Chemistry students recognize the
+convenient mnemonic for vanadium (V is five in Roman numerals). 
+
+
+
+Most of the world's mined vanadium goes into steel where it alloyed with iron to improve its
+strength. Vanadium also has some very interesting biological properties and may even be a
+micro nutrient essential to humans (it is essential to rats and chickens). It also appears to
+have promise in high-tech batteries. Posted by
+
+
+
+chickelit at
+
+
+
+2:16 PM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: The Elements
+Series , Vanadium
+
+Friday, May 20, 2011
+
+
+
+
+
+
+
+How Titanium Gets All Touchy-Feely with Carbon
+
+A titanium chloride catalyst holds one end of the growing polymer chain. The same
+titanium atom simultaneously binds another incoming ethylene and stabilizes the
+contortions leading to the insertion of the next link into the growing chain. Titanium does
+this by polarizing ethylene's electrons while stabilizing a migration:
+
+
+
+﻿
+
+
+
+Image:
+http://2.bp.blogspot.com/-izt419J2gEg/Tdb3DXQq1iI/AAAAAAAAA5U/jEpF0Od1-m8/s400/effective_ziegler-natta_initiator.gif
+Original is here ﻿
+
+Polarization, followed by attack, followed by depolarization...polarization, followed
+by attack, followed by depolarization...polarization, followed by attack, followed by
+depolarization...  link Posted by
+
+
+
+chickelit at
+
+
+
+4:41 PM 6 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: bloghetti
+carbonara , Catenation , hypothesis , Titanium
+
+Tuesday, May 17, 2011
+
+
+
+
+
+
+
+Home On The Range
+
+I rejoined a local shooting range . They have dozens of different pistols and rifles to use
+and try out. They also sell guns, but I'm not interested in that right now. This is a father/son
+thing and my boy really likes doing it. I explained my attitude about guns back here . I'm
+interested in the history of many things and I've decided to familiarize myself with many
+"classic" weapons available at the range. 
+
+
+
+An arbitrary starting point is the M1911 .45 caliber semi-automatic pistol. This weapon,
+invented by John Browning, was used continuously by US Armed Forces between 1911 and 1985.
+Most people recognize its classic lines: Link
+
+
+
+Iron Sights doesn't have any original M1911s for use (they do have a couple for sale).  The
+American company Kimber America makes a whole bunch of 1911 style 45's and I picked Stainless
+Pro Raptor II. Here's a photo of the one we shot:
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/-Rx37Lk9NeZk/TdKgxm_4YgI/AAAAAAAAA4A/w3_kt40Pmvo/s320/IMG_0526.JPG
+Kimber Stainless Pro Raptor II .45 cal The Raptor II is pretty comfortable to shoot. There
+isn't a lot of recoil for a .45 caliber. I don't like it as well as the Kimber Gold Match II, which
+they used to have but no longer stock. Posted by
+
+
+
+chickelit at
+
+
+
+4:34 PM 6 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Guns
+
+
+
+
+
+Ethylene, Daughter of Ethyl
+
+Factoid for the day:
+
+In the mid-19th century, the suffix -ene (an Ancient Greek root added to the end of female names
+meaning "daughter of") was widely used to refer to a molecule or part thereof that contained
+one fewer hydrogen atoms than the molecule being modified. Thus, ethylene (C 2 H 4 ) was the
+"daughter of ethyl" (C 2 H 5 ). The name ethylene was used in this sense as early as 1852. Wiki link
+I could blog all day about ethylene, but that factoid was something I didn't know until today.
+Ethyl has lots of sisters too like Propyl, Butyl (one of the But-sisters), and Pentyl, etc .
+
+
+
+Ethylene is ready for her close-up now:
+
+
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/-rlB-jlbtUoc/TdLNZEVfSgI/AAAAAAAAA4M/-4UUD3lEUqA/s320/800px-Ethylene-CRC-MW-dimensions-2D.png
+Posted by
+
+
+
+chickelit at
+
+
+
+12:34 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1852 , bloghetti
+carbonara , Chemistry is like sex
+
+
+
+
+
+Climate Models Go Cold
+
+
+
+Image:
+http://1.bp.blogspot.com/-1Inyuls0wTg/TdHmjv_4fnI/AAAAAAAAA38/nXecBIqz9S0/s400/iceberg.jpg
+Photo is from "The Sinking of the Titanic and Great Sea Disasters" by Logan Marshall
+(1912). Enlarge to read the faint caption "Theory" written on the ship.  S cientist David
+Evans wrote a brief piece in the Financial Post called Climate Models Go Cold .*  He writes as a
+scientist formerly on the "gravy train,' making his point-of-view all the more credible.
+Evans understands all the data-even the ones not being talked about.
+
+
+
+I'm reminded of the T.H. Huxley quote:
+
+The great tragedy of science, the slaying of a beautiful hypothesis by an ugly fact.
+
+Some time ago, I left the following comment on the Althouse blog.  Those comments now seem to
+have disappeared down a memory-hole, but I still stand by what I said then:
+
+chickenlittle said...
+
+
+
+Nobelist Steven Chu, head of the DOE and Obama's top science guru, is all on board the CO 2 is evil
+train. Link .
+
+
+
+There is clearly an enormous investment in brainpower behind the notion that CO 2 causes
+warming.
+
+
+
+Here is how I distill the problem(s) confronting us:
+
+
+
+(1) How, if incorrect about CO 2 , could the scientific consensus be so wrong?
+
+  (a) Is the notion CO 2 causes warming now too big to fail?
+
+  (b) Can the credibility of American (and world) science recover if wrong?
+
+
+
+(2) If they are right about CO 2 causing warming, what would it take to convince the American
+people that they are correct?
+
+  (a) Clearly something has gone wrong with the PR-people are not convinced.
+
+  (b) The present administration appears to say: fuck 'em- they (the people) don't believe
+us? we're gonna force them. The possible techniques available to enforce compliance are
+downright un-American.
+
+
+
+(3) What really bothers me as a sceptic of the CO 2 causes warming is that if the Copenhagen
+treaty is ratified and enforced, and warming does not occur, credit will be taken regardless
+of the true cause. To me this is a heads I win tails you lose proposition for the CO 2 causes
+warming folks. But more insidiously, it is the exact mechanism by which Science could ascend
+to the status of a quasi-religion: give the people "miracle, mystery and authority" and they
+will follow.
+
+
+
+Sorry in advance for the longish post.
+
+
+
+10/22/09 8:07 PM ________________
+
+*Thanks to @SissyWillis for retweeting the link to Evan's article on Twitter. Posted by
+
+
+
+chickelit at
+
+
+
+11:37 AM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Althouse ,
+bloghetti carbonara , Chu on this , political science , sissywillis , Titanic
+
+
+
+
+
+Karl Ziegler: "Consequences and Development of an Invention"
+
+
+
+Image:
+http://2.bp.blogspot.com/-KbKl7ctZs9s/TdK50bp4TWI/AAAAAAAAA4I/XrNdgTRMd7M/s320/ziegler_postcard.jpg
+Karl Ziegler, German chemist (1898-1973)
+
+Karl Ziegler, then director of the Max-Planck-Institute-for Coal Research, describing
+what he and co-workers discovered ten years prior to winning the 1963 Nobel Prize in
+Chemistry:
+
+The catalyst is prepared simply by simultaneously pouring, with exclusion of air, two liquid
+materials into about two liters of a gasoline-like hydrocarbon, after which ethylene is
+introduced, while stirring. The gas is absorbed quickly; within an hour one can easily
+introduce 300-400 liters of ethylene into the two liters of liquid. At the same time, a solid
+substance precipitates, and can scarcely be stirred anymore. If the brown catalyst* is then
+destroyed, by the addition of some alcohol and by the introduction of air, the precipitate
+becomes snow-white and can be filtered off. In its final state it will accumulate in amounts of
+300-500 g, as a dry, white powder. ~Karl Ziegler " Consequences and development of an
+invention " ______________
+
+*The two co-catalysts were titanium and aluminum chlorides
+
+
+
+Polyethylene had been known earlier. A British company, ICI, held patents for what they
+called "polythene" (hmm, maybe related to the Beatles' "plasticene"?), but ICI's
+polyethylene was different animal than Ziegler's polyethylene. The difference is at the
+atomic level. Though both plastics were polymers of ethylene, the older, inferior product
+was highly branched:
+
+
+
+Image:
+http://2.bp.blogspot.com/-q4-3dU4Nopc/TdKkeU_ZvWI/AAAAAAAAA4E/tf-ZHfegmC0/s320/branched+PE.jpg
+Ziegler's new process for making polyethylene essentially made perfectly linear chains of
+polymer with very little branching. The bulk properties of the two were markedly different.
+The density differences are akin to what one expects from trying to pack together a bunch of
+branches versus bunches of straight sticks.
+
+
+
+Ziegler and his Institute became independently wealthy as the plastic age began in earnest.
+Posted by
+
+
+
+chickelit at
+
+
+
+11:23 AM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1953 , 1963 ,
+Aluminum , bloghetti carbonara , Catenation , Inventors , KoFo , Titanium , Wealth Makers
+
+Monday, May 16, 2011
+
+
+
+
+
+
+
+Element 22: Titanium
+
+Titanium is the carbon of transition metals. The Germans realized this early on. Look again at
+this "carbo-centric" Periodic Table of the Elements from 1926:
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/-bKEQyKK5nf8/TdFswvlu0rI/AAAAAAAAA34/syxff3_5F2M/s400/antropoff.jpg
+Follow the color code (carbon is black) down and to the left. The association runs right
+through titanium and zirconium, down to hafnium and thorium. To the right, the
+rhymes-with-carbon pathway runs down through germanium, tin, and lead; I'll get to the
+latter later after having some fun with the first row transition metals.
+
+
+
+Titanium has probably touched more carbon atoms than any other single metal atom. And there
+are two words for this Benjamin--just two words I want to say to you. Are you listening
+Benjamin?
+
+
+
+Ziegler-Natta! Posted by
+
+
+
+chickelit at
+
+
+
+2:28 PM 4 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1926 , bloghetti
+carbonara , The Elements Series , Titanium
+
+Saturday, May 14, 2011
+
+
+
+Waiting For Blogger to Restore the Last Post of Mine they Deleted
+
+Tick Tock..... Posted by
+
+
+
+chickelit at
+
+
+
+9:15 PM 5 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Wednesday, May 11, 2011
+
+
+
+Treat The Wealth Well
+
+At the heart of Energy Secretary Chu's newly released Strategic Plan 2011 is a Native American
+saying:
+
+
+
+Treat the earth well. It was not given to you by your parents, but loaned to you by your
+children.*
+
+I think the budget guys have a similar philosophy:
+
+
+
+Treat the wealth well. It was not given to you by your parents, but loaned to you by your
+children. ___________
+
+*The quote may be found at page 2 of the linked pdf file. Posted by
+
+
+
+chickelit at
+
+
+
+1:04 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Chu on this ,
+Energy , political science
+
+Tuesday, May 10, 2011
+
+
+
+Necessity is the Mother of Invention
+
+During the First World War, Imperial Germany was cut off from its sources of fixed nitrogen
+(mainly Chilean saltpeter and bat guano which it needed to make gunpowder). The
+ingenious Fritz Haber  invented the direct conversion of atmospheric nitrogen to ammonia
+using hydrogen gas. Haber won the 1918 Nobel Prize in Chemistry for this feat, despite
+Germany having lost the war and despite Haber's wartime culpability in making things like
+chlorine and phosgene gases for trench warfare (out of fairness, note that Nobel Laureate
+Victor Grignard headed up the French contingent of poison-gas warriors). The commercial
+Haber-Bosch process literally enabled the subsequent worldwide population bloom known
+as the Green Revolution, though it was reduced to practice by the likes of Norman Borlaug . The
+Haber-Bosch process is still used today, highly refined, but essentially unchanged. A "Holy
+Grail" of modern catalytic chemistry is to invent new catalysts that work at normal pressures
+and temperatures.
+
+
+
+During the Second World War, coal-rich Nazi Germany was cut off from commercial sources
+of crude oil, which it needed to wage highly mechanized warfare. The ingenious Franz
+Fischer and Hans Tropsch had invented and developed the conversion of coal to liquid
+hydrocarbons in the 1920's. Their technology was scaled up and used to augment military and
+domestic liquid fuel supplies. Fischer and Tropsch did not win a Nobel Prize for this feat,
+perhaps because Fischer died in 1947 (Tropsch had died in 1935). The commercial
+Fischer-Tropsch process is still practiced worldwide, and could play a greater
+role for our coal-rich nation, but not under the present Administration, which prefers
+alternatives.
+
+
+
+Among the alternatives is the photochemical conversion of carbon dioxide to a reduced
+product such as carbon monoxide. link This technology, coupled with existing " syn-gas "
+technology for converting carbon monoxide and hydrogen (derived from water) to
+hydrocarbons, is another "Holy Grail."  These research efforts have a way of ramping up as
+the relative price of crude oil increases and remains high. We may be entering such a phase.
+Posted by
+
+
+
+chickelit at
+
+
+
+5:37 PM 5 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: bloghetti
+carbonara , Energy , Inventors , KoFo , political science
+
+Sunday, May 8, 2011
+
+
+
+
+
+
+
+Horsing around in Del Mar
+
+
+
+Image:
+http://1.bp.blogspot.com/-mZMjNox0oJI/Tcat6rSZS3I/AAAAAAAAA3o/ImTqR9Bg3yM/s320/horse.jpg
+
+Image:
+http://4.bp.blogspot.com/-_J8Q5yh9qN4/TchG6eiF9_I/AAAAAAAAA3s/VFH3GCkXlFI/s320/x5mtt.jpg
+
+This is the 3rd year our family has gone to this event. My daughter rides at a local stable which
+is dominated by teenaged girls. I'm always amazed when I see the professionals ride because at
+that level, the sport is equally split, men and women.
+
+Congratulations to Chris Pratt for winning the $100,000 Grand Prix of Del Mar in California
+last night!
+
+
+
+UPDATE : The event was actually horses and riders jumping link . I should have taken some of my
+own photos and I haven't been able to find any from Saturday night.
+
+
+
+There were a couple of exciting moments: One horse went right up to the highest hurdle and
+"refused" it. The rider turned the horse around and tried again. This time the horse refused
+again but momentum threw the rider right over the fence. It was as if the horse said "You do
+it". Fortunately nobody got hurt. Posted by
+
+
+
+chickelit at
+
+
+
+11:54 AM 3 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+
+
+
+
+Happy Mother's Day
+
+
+
+Image:
+http://4.bp.blogspot.com/-TpKeN5H4FCw/Tchw0digdrI/AAAAAAAAA3w/au9VPjiNR84/s320/stamp11.jpg
+From last year: Link Posted by
+
+
+
+chickelit at
+
+
+
+8:17 AM 2 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Heroes On Stamps ,
+philately
+
+Saturday, May 7, 2011
+
+
+
+
+
+
+
+Time For Cocktails: The Vesper
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/-JgdI_VVAAQc/TcS7KBv31-I/AAAAAAAAA3k/z_z1Fd8A31I/s320/Eva_Green+-+1+-+Bond+Casino_Royale.jpg
+
+"A dry martini," [Bond] said. "One. In a deep champagne goblet."  "Oui, monsieur." "Just a
+moment. Three measures of Gordon's, one of vodka, half a measure of Kina Lillet.* Shake it very
+well until it's ice-cold, then add a large thin slice of lemon peel. Got it?" "Certainly,
+monsieur." The barman seemed pleased with the idea. "Gosh, that's certainly a drink," said
+Leiter. Bond laughed. 'When I'm...er...concentrating,' he explained, "I never have more
+than one drink before dinner. But I do like that one to be large and very strong and very cold and
+very well-made. I hate small portions of anything, particularly when they taste bad. This
+drink's my own invention. I'm going to patent it when I can think of a good name." —Ian
+Fleming, Casino Royale (1953) _____________________
+
+* Kina Lillet  used to contain quinine, a muscle relaxant. Kinda like how Coca-Cola used to
+contain cocaine, and 7-Up contained lithium citrate. Posted by
+
+
+
+chickelit at
+
+
+
+1:23 PM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1953 , Bitter
+Living Through Chemistry , Cocktails , Lithium
+
+Friday, May 6, 2011
+
+
+
+
+
+
+
+Time For Cocktails: Darcy's Dirty Titotini
+
+
+
+Image:
+http://1.bp.blogspot.com/-l7ZIhUd0-S0/TcR16TyjDJI/AAAAAAAAA3g/GaYe6BtTcFo/s320/T4P3000A.jpg
+I asked Darcy for her "Titotini" recipe: "Oh, gosh....it's just ice cold Tito's and olive
+juice to taste! Jalapeno stuffed olives. I'll check quantities tonight!" More please.
+Posted by
+
+
+
+chickelit at
+
+
+
+5:58 PM 2 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Cocktails , Darcy
+
+
+
+
+
+Element 21: Transitioning to Real Metals
+
+Look again at the "long form" of the Periodic Table:
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_nOTdqVGnOTk/TMXauVpvW-I/AAAAAAAAAto/xf1rRJB1wf4/s400/pte-long.png
+click to enlarge I've already blogged through three layers of the so-called main group
+elements, which are the two bluish colored blocks of elements bookending the reddish
+elements "inside." With reference to the very top left, calcium has the coordinates 4 down and
+2 across. To get to the next element to the right, we have to jump the gap across the red rare
+earth metals and the underlying (and notorious) actinides to the first pink element,
+scandium.
+
+
+
+Scandium is the first of the so-called transition metals, named from the Latin, trans ire =
+to go across or to cross over. The metaphor is that we're "crossing over" on our way back to the
+right-hand block of main group elements. Destination: krypton.
+
+
+
+That's about all I want to say about scandium. But guess where it was discovered?  Yep. And
+by somebody named Lars even. Link Posted by
+
+
+
+chickelit at
+
+
+
+1:45 PM 5 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: periodicity ,
+Scandium , The Elements Series
+
+
+
+
+
+Element 20: This is Calcium's Finest Hour
+
+
+
+Image:
+http://1.bp.blogspot.com/-XHA05wzT9is/TcRYJxxENYI/AAAAAAAAA3Y/0NuWGFzg8mU/s320/Sea%252520Shell%25252008a%252520web.jpg
+
+AGW is not just about burning hydrocarbons, making CO 2 , and pumping it up the
+atmosphere. Natural mechanisms exist for getting CO 2 out of the atmosphere and back into
+the lithosphere. Trees, which tie the earth and sky, do this quite well. But more important
+is the formation of calcium carbonate, CaCO 3 .
+
+When rocks weather, calcium is released into lakes and rivers. This happens slowly at sea
+shores but also in mountains and calcium eventually makes its way to the sea. There is a
+pre-existing supply in the oceans: Calcium is the third most abundant metal in sea water,
+behind sodium and magnesium.
+
+
+
+Sea creatures make sea shells and coral from dissolved calcium. In addition,
+phytoplankton take up CO 2 as well before being consumed. Part of the global carbon cycle
+involves the perpetual rain of dead sea creatures to the sea floor where the carbon is
+eventually consumed by tectonic subduction. These processes offset CO 2 released by humans.
+The question is, how fast:
+
+
+
+The natural pH of the ocean is determined by a need to balance the deposition and burial of CaCO 3
+on the sea floor against the influx of Ca 2+ and CO 2 3− into the ocean from dissolving rocks on
+land, called weathering. These processes stabilize the pH of the ocean, by a mechanism called
+CaCO 3 compensation...The point of bringing it up again is to note that if the CO 2
+concentration of the atmosphere changes more slowly than this, as it always has throughout
+the Vostok record, the pH of the ocean will be relatively unaffected because CaCO 3
+compensation can keep up. The [present] fossil fuel acidification is much faster than
+natural changes, and so the acid spike will be more intense than the earth has seen in at least
+800,000 years. link Never was so much owed by so many to so little. Posted by
+
+
+
+chickelit at
+
+
+
+1:22 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: bloghetti
+carbonara , Calcium , political science , The Elements Series
+
+Wednesday, May 4, 2011
+
+
+
+
+
+
+
+Time For Cocktails: Conversations With Henry
+
+
+
+Image:
+http://2.bp.blogspot.com/-KQtZm1HiQM8/TcHHlu_mv6I/AAAAAAAAA3U/ltABboyt9G8/s320/220px-Dry_Martini-2.jpg
+
+
+
+Me : Remember that time you took me to the faculty club?
+
+
+
+Henry : Yeah?
+
+
+
+Me : What were you drinking? I didn't really like cocktails then.
+
+
+
+Henry : Martini. Extra dry
+
+
+
+Me : Gin or vodka?
+
+
+
+Henry : That's like asking me: English or Western?
+
+
+
+Me : I'll never forget when you said 'look, over there! -- that's Milton Friedman!' Posted by
+
+
+
+chickelit at
+
+
+
+2:40 PM 5 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1997 , Cocktails ,
+Conversations with Henry , Friedman
+
+Tuesday, May 3, 2011
+
+
+
+50 Years Of MyTunes: A $20 Reward...
+
+...for the verified identity of this song. I want to buy it from iTunes or the like. I wouldn't be
+offering money if I knew what it was.
+
+
+
+
+
+I'm working on a blog post about instrumental surf, and I want to include this. Here's what I
+know about it.  I recorded the song on WORT listener sponsored radio in about 1986 or 1987 in
+Madison, Wisconsin. I subsequently lost the original play list, and now have it only on a
+compilation. I think I mislabeled it as Link Ray.
+
+
+
+Update : Jason made the right call: It's Sandy Nelson's   And Then There Were Drums from 1962.
+
+
+
+Update 2 : Sandy Nelson sounds like an old-fashioned Gene Krupa schooled drummer. Posted by
+
+
+
+chickelit at
+
+
+
+12:25 PM 8 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1962 , 50 years of
+myTunes , Drums , Jason (the commenter) , surf music
+
+Monday, May 2, 2011
+
+
+
+
+
+
+
+Real Deal SEAL
+
+
+
+Image:
+http://2.bp.blogspot.com/-aUvo_e7dlM0/Tb-IxKu4DsI/AAAAAAAAA3Q/Stg5GOq3XcE/s320/US_Navy_SEALs_insignia.png
+
+Just in case nobody noticed (because those kinds of guys usually don't toot their own horn),
+frequent commenter LL is a former Navy SEAL. link   Now he writes real books and a couple of
+blogs too, one of which, Virtual Mirage , I like to frequent.
+
+
+
+I doff my hat to you guys for a job well done. Posted by
+
+
+
+chickelit at
+
+
+
+9:47 PM 3 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Gold , LL
+
+Conversations with Henry: That man was a genius
+
+Henry : Linus Pauling had an answer for that little orbital problem you mentioned here .
+
+
+
+Me : Pauling had answer for everything. The greatest chemist ever.
+
+
+
+Henry : He was an interesting guy. You knew he was up here with me for a while? He had a falling
+out with Cal Tech.  I remember he used to come to seminars and always sat in the first row. He
+was well past retirement age then. Anyways, he tended to nod off when the lights went down
+during talks. Especially if the speaker showed too many dahls of slides.
+
+
+
+Me : What are dahls?
+
+
+
+Henry : A dahl is a unit of boring slides. Named after a famous crystallographer who used to
+put people to sleep at his talks. A "dahl" is approximately 10 boring slides. You do remember
+what slides are?
+
+
+
+Me : Yeah. They were considered an improvement on overheads.
+
+
+
+Henry : Linus Pauling was first and foremost a crystallographer. One time (I
+remember this clearly) he woke up when the lights went back up and asked the speaker a
+devastating question about a structure -- I mean the man could demolish arguments in his
+sleep. It was like he threw an intellectual dart at the speaker and hit him right in the
+forehead.
+
+
+
+Me : Heh, I heard people used to say that about you too...
+
+
+
+[Henry smiles] Posted by
+
+
+
+chickelit at
+
+
+
+12:21 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Conversations
+with Henry , Pauling Newer Posts Older Posts Home Subscribe to: Posts (Atom)
+
+Other blogs I like
+
+    
+
+    - Instapundit AT AMAZON, warehouse deals in Electronics. Also, today only: Save up to 40%
+    on Kitchens of India…
+
+    
+
+    - EBL Why the White House lied about Libya: Diplomats requested additional security
+    prior to the deadly attack of September 11, 2012 and White House denied that request...
+
+    
+
+    - Le·gal In·sur·rec·tion Hating Breitbart Trailer
+
+    
+
+    - Virtual Mirage Energy Self-Sufficiency
+
+    
+
+    - The Bit Maelstrom Fred Won't Move Out
+
+    
+
+    - Ambiance Wax off….
+
+    
+
+    - MÑºDEÐ¯Ð˜ DEKADEÐ˜CE The future of newsprint
+
+    
+
+    - Pete Terranova Graveyard Special - Book Review
+
+    
+
+    - musing minds It Be Talk Like A Pirate Day!
+
+    
+
+    - Fluffy Stuffin' An Excellent Fan Video!
+
+    
+
+    - Chip's Perspective Our Humorless Overlords
+
+    
+
+    - sisu Haley Barbour knows what women like
+
+    
+
+    - Living In A Golden Age London Olympics: 1908
+
+    
+
+    - Death's Door Distillery Photo Journal of a Still in Motion
+
+    
+
+    - The Compulsive Copyeditor The Subtle Shadings of Spellings and Synonyms
+
+    
+
+    - TY
+
+    
+
+    - DRUDGE REPORT 2012®
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/6130126685334700207/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/6130126685334700207/comments/default";
+holder.currentBlogUrl = "http://acrazychicken.blogspot.com/"; holder.currentBlogId
+= "6130126685334700207"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#666666"; skin['ENDCAP_LINK_COLOR'] = "#5588aa";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#5588aa"; skin['CONTENT_TEXT_COLOR'] =
+"#666666"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#5588aa";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#999999"; skin['CONTENT_HEADLINE_COLOR'] =
+"#cc6600"; skin['FONT_FACE'] = "normal normal 100% Georgia, Serif";
+google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-1fnnfb0zsjsv1",
+height: 260, site: "13438459017212614123", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2012 (179)
+
+        - ►  September (3)
+
+        
+
+        
+
+        - ►  August (23)
+
+        
+
+        
+
+        - ►  July (28)
+
+        
+
+        
+
+        - ►  June (12)
+
+        
+
+        
+
+        - ►  May (17)
+
+        
+
+        
+
+        - ►  April (16)
+
+        
+
+        
+
+        - ►  March (30)
+
+        
+
+        
+
+        - ►  February (23)
+
+        
+
+        
+
+        - ►  January (27)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2011 (270)
+
+        - ►  December (33)
+
+        
+
+        
+
+        - ►  November (29)
+
+        
+
+        
+
+        - ►  October (10)
+
+        
+
+        
+
+        - ►  September (26)
+
+        
+
+        
+
+        - ►  August (27)
+
+        
+
+        
+
+        - ►  July (19)
+
+        
+
+        
+
+        - ►  June (2)
+
+        
+
+        
+
+            - ▼  May (25)
+
+            - Blessed Are The Wealth Makers
+
+            
+
+            - War Letters of German and English Soldiers
+
+            
+
+            - Letters Home: "I haven't written for at least 3 we...
+
+            
+
+            - Meet the Priest who invented Flubber
+
+            
+
+            - Conversations with Henry
+
+            
+
+            - Element 23: Vanadium Adds Color
+
+            
+
+            - How Titanium Gets All Touchy-Feely with Carbon
+
+            
+
+            - Home On The Range
+
+            
+
+            - Ethylene, Daughter of Ethyl
+
+            
+
+            - Climate Models Go Cold
+
+            
+
+            - Karl Ziegler: "Consequences and Development of an ...
+
+            
+
+            - Element 22: Titanium
+
+            
+
+            - Waiting For Blogger to Restore the Last Post of Mi...
+
+            
+
+            - Treat The Wealth Well
+
+            
+
+            - Necessity is the Mother of Invention
+
+            
+
+            - Horsing around in Del Mar
+
+            
+
+            - Happy Mother's Day
+
+            
+
+            - Time For Cocktails: The Vesper
+
+            
+
+            - Time For Cocktails: Darcy's Dirty Titotini
+
+            
+
+            - Element 21: Transitioning to Real Metals
+
+            
+
+            - Element 20: This is Calcium's Finest Hour
+
+            
+
+            - Time For Cocktails: Conversations With Henry
+
+            
+
+            - 50 Years Of MyTunes: A $20 Reward...
+
+            
+
+            - Real Deal SEAL
+
+            
+
+            - Conversations with Henry: That man was a genius
+
+            
+
+        
+
+        
+
+        
+
+        - ►  April (27)
+
+        
+
+        
+
+        - ►  March (23)
+
+        
+
+        
+
+        - ►  February (27)
+
+        
+
+        
+
+        - ►  January (22)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (204)
+
+        - ►  December (19)
+
+        
+
+        
+
+        - ►  November (21)
+
+        
+
+        
+
+        - ►  October (17)
+
+        
+
+        
+
+        - ►  September (21)
+
+        
+
+        
+
+        - ►  August (32)
+
+        
+
+        
+
+        - ►  July (15)
+
+        
+
+        
+
+        - ►  June (13)
+
+        
+
+        
+
+        - ►  May (10)
+
+        
+
+        
+
+        - ►  April (16)
+
+        
+
+        
+
+        - ►  March (15)
+
+        
+
+        
+
+        - ►  February (14)
+
+        
+
+        
+
+        - ►  January (11)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (41)
+
+        - ►  December (14)
+
+        
+
+        
+
+        - ►  November (3)
+
+        
+
+        
+
+        - ►  October (3)
+
+        
+
+        
+
+        - ►  September (2)
+
+        
+
+        
+
+        - ►  August (6)
+
+        
+
+        
+
+        - ►  July (5)
+
+        
+
+        
+
+        - ►  June (3)
+
+        
+
+        
+
+        - ►  May (4)
+
+        
+
+        
+
+        - ►  April (1)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+About Me
+
+
+
+    Image:
+    http://4.bp.blogspot.com/-XwQnIgUPgkU/UGcIvFYOmWI/AAAAAAAACMQ/7xYu0EJrhaI/s220/PA.jpg
+
+        chickelit
+
+    
+
+        Born and bred from stock rooted in Wisconsin's Driftless Area . Like my father said:
+        "If people can't control themselves, the government will. If the government can't
+        control itself, another government will." -VMB
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Labels
+
+    
+
+    - 1250 (1)
+
+    
+
+    - 1324 (1)
+
+    
+
+    - 1620 (1)
+
+    
+
+    - 1627 (1)
+
+    
+
+    - 1634 (1)
+
+    
+
+    - 1667 (1)
+
+    
+
+    - 1669 (1)
+
+    
+
+    - 1710 (1)
+
+    
+
+    - 1718 (1)
+
+    
+
+    - 1728 (1)
+
+    
+
+    - 1769 (6)
+
+    
+
+    - 1771 (1)
+
+    
+
+    - 1773 (1)
+
+    
+
+    - 1780 (1)
+
+    
+
+    - 1782 (1)
+
+    
+
+    - 1784 (2)
+
+    
+
+    - 1791 (1)
+
+    
+
+    - 1794 (1)
+
+    
+
+    - 1800 (2)
+
+    
+
+    - 1801 (1)
+
+    
+
+    - 1810 (1)
+
+    
+
+    - 1813 (1)
+
+    
+
+    - 1823 (1)
+
+    
+
+    - 1828 (1)
+
+    
+
+    - 1829 (1)
+
+    
+
+    - 1845 (1)
+
+    
+
+    - 1848 (2)
+
+    
+
+    - 1850 (1)
+
+    
+
+    - 1852 (1)
+
+    
+
+    - 1858 (2)
+
+    
+
+    - 1859 (1)
+
+    
+
+    - 1860 (1)
+
+    
+
+    - 1861 (1)
+
+    
+
+    - 1864 (1)
+
+    
+
+    - 1865 (1)
+
+    
+
+    - 1866 (1)
+
+    
+
+    - 1867 (1)
+
+    
+
+    - 1868 (2)
+
+    
+
+    - 1871 (1)
+
+    
+
+    - 1875 (2)
+
+    
+
+    - 1877 (1)
+
+    
+
+    - 1878 (1)
+
+    
+
+    - 1886 (1)
+
+    
+
+    - 1889 (2)
+
+    
+
+    - 1890 (1)
+
+    
+
+    - 1893 (1)
+
+    
+
+    - 1894 (2)
+
+    
+
+    - 1895 (1)
+
+    
+
+    - 1896 (4)
+
+    
+
+    - 1897 (3)
+
+    
+
+    - 1898 (3)
+
+    
+
+    - 1900 (1)
+
+    
+
+    - 1901 (3)
+
+    
+
+    - 1903 (1)
+
+    
+
+    - 1904 (2)
+
+    
+
+    - 1907 (1)
+
+    
+
+    - 1908 (1)
+
+    
+
+    - 1909 (5)
+
+    
+
+    - 1910 (2)
+
+    
+
+    - 1911 (1)
+
+    
+
+    - 1912 (22)
+
+    
+
+    - 1913 (1)
+
+    
+
+    - 1914 (2)
+
+    
+
+    - 1915 (4)
+
+    
+
+    - 1916 (2)
+
+    
+
+    - 1917 (2)
+
+    
+
+    - 1918 (2)
+
+    
+
+    - 1919 (1)
+
+    
+
+    - 1921 (3)
+
+    
+
+    - 1922 (1)
+
+    
+
+    - 1923 (1)
+
+    
+
+    - 1924 (1)
+
+    
+
+    - 1926 (3)
+
+    
+
+    - 1927 (1)
+
+    
+
+    - 1931 (1)
+
+    
+
+    - 1932 (2)
+
+    
+
+    - 1934 (1)
+
+    
+
+    - 1935 (2)
+
+    
+
+    - 1936 (1)
+
+    
+
+    - 1937 (2)
+
+    
+
+    - 1938 (2)
+
+    
+
+    - 1939 (1)
+
+    
+
+    - 1940 (1)
+
+    
+
+    - 1941 (2)
+
+    
+
+    - 1942 (2)
+
+    
+
+    - 1943 (8)
+
+    
+
+    - 1944 (6)
+
+    
+
+    - 1945 (1)
+
+    
+
+    - 1946 (1)
+
+    
+
+    - 1947 (1)
+
+    
+
+    - 1948 (1)
+
+    
+
+    - 1950 (1)
+
+    
+
+    - 1951 (5)
+
+    
+
+    - 1952 (32)
+
+    
+
+    - 1953 (21)
+
+    
+
+    - 1955 (2)
+
+    
+
+    - 1957 (2)
+
+    
+
+    - 1958 (3)
+
+    
+
+    - 1959 (2)
+
+    
+
+    - 1960 (3)
+
+    
+
+    - 1961 (2)
+
+    
+
+    - 1962 (5)
+
+    
+
+    - 1963 (5)
+
+    
+
+    - 1964 (8)
+
+    
+
+    - 1965 (5)
+
+    
+
+    - 1966 (12)
+
+    
+
+    - 1967 (4)
+
+    
+
+    - 1968 (6)
+
+    
+
+    - 1969 (3)
+
+    
+
+    - 1970 (9)
+
+    
+
+    - 1971 (8)
+
+    
+
+    - 1972 (7)
+
+    
+
+    - 1973 (4)
+
+    
+
+    - 1974 (4)
+
+    
+
+    - 1975 (10)
+
+    
+
+    - 1976 (6)
+
+    
+
+    - 1977 (8)
+
+    
+
+    - 1978 (5)
+
+    
+
+    - 1979 (10)
+
+    
+
+    - 1980 (1)
+
+    
+
+    - 1981 (2)
+
+    
+
+    - 1982 (4)
+
+    
+
+    - 1983 (4)
+
+    
+
+    - 1984 (15)
+
+    
+
+    - 1985 (2)
+
+    
+
+    - 1986 (5)
+
+    
+
+    - 1987 (3)
+
+    
+
+    - 1988 (2)
+
+    
+
+    - 1989 (1)
+
+    
+
+    - 1990 (1)
+
+    
+
+    - 1991 (1)
+
+    
+
+    - 1992 (8)
+
+    
+
+    - 1993 (1)
+
+    
+
+    - 1994 (1)
+
+    
+
+    - 1995 (1)
+
+    
+
+    - 1996 (3)
+
+    
+
+    - 1997 (4)
+
+    
+
+    - 2000 (1)
+
+    
+
+    - 2001 (1)
+
+    
+
+    - 2002 (1)
+
+    
+
+    - 2007 (1)
+
+    
+
+    - 2009 (1)
+
+    
+
+    - 2010 (1)
+
+    
+
+    - 2011 (2)
+
+    
+
+    - 2012 (2)
+
+    
+
+    - 50 years of myTunes (82)
+
+    
+
+    - 9/11 (3)
+
+    
+
+    - 9mm (5)
+
+    
+
+    - abortion (3)
+
+    
+
+    - alchemy (10)
+
+    
+
+    - Allman Bros (3)
+
+    
+
+    - allotropes (3)
+
+    
+
+    - Althouse (19)
+
+    
+
+    - Aluminum (2)
+
+    
+
+    - Amba (6)
+
+    
+
+    - Antimony (1)
+
+    
+
+    - architectural indigestion (2)
+
+    
+
+    - Argon (2)
+
+    
+
+    - Arsenic (5)
+
+    
+
+    - Art (5)
+
+    
+
+    - atheism (2)
+
+    
+
+    - Bacon (2)
+
+    
+
+    - banjo (2)
+
+    
+
+    - beer (4)
+
+    
+
+    - Beryllium (3)
+
+    
+
+    - Bigeleisen (2)
+
+    
+
+    - biking (1)
+
+    
+
+    - Bitter Living Through Chemistry (3)
+
+    
+
+    - BJM (1)
+
+    
+
+    - blake (the tweeter) (1)
+
+    
+
+    - bloghetti carbonara (35)
+
+    
+
+    - Bohr (3)
+
+    
+
+    - Boron (4)
+
+    
+
+    - Breaking Away (4)
+
+    
+
+    - bridges (4)
+
+    
+
+    - Bromine (5)
+
+    
+
+    - Calcium (2)
+
+    
+
+    - cancer (2)
+
+    
+
+    - carbon (7)
+
+    
+
+    - Carol Herman (3)
+
+    
+
+    - Carothers (3)
+
+    
+
+    - cartoons (4)
+
+    
+
+    - Cash Cab (1)
+
+    
+
+    - Catenation (11)
+
+    
+
+    - Cesium (2)
+
+    
+
+    - Chemistry (13)
+
+    
+
+    - Chemistry is like sex (10)
+
+    
+
+    - Chemistry of Sex (2)
+
+    
+
+    - Chicago (5)
+
+    
+
+    - chlorine (2)
+
+    
+
+    - Christmas (8)
+
+    
+
+    - chromium (3)
+
+    
+
+    - Chu on this (7)
+
+    
+
+    - chuckb (1)
+
+    
+
+    - Churchill (4)
+
+    
+
+    - Cleveland (11)
+
+    
+
+    - Cobalt (3)
+
+    
+
+    - Cocktails (7)
+
+    
+
+    - coinage (6)
+
+    
+
+    - Conservative Notions (5)
+
+    
+
+    - Conversations with Henry (25)
+
+    
+
+    - Conversations with Me (9)
+
+    
+
+    - Conversations with Ritmo (8)
+
+    
+
+    - cool books (46)
+
+    
+
+    - cool women (11)
+
+    
+
+    - copper (14)
+
+    
+
+    - Cracked Emcee (2)
+
+    
+
+    - Darcy (1)
+
+    
+
+    - Davy (6)
+
+    
+
+    - DBQ (1)
+
+    
+
+    - DC (2)
+
+    
+
+    - death (10)
+
+    
+
+    - demographics (4)
+
+    
+
+    - diamond (3)
+
+    
+
+    - Dick Dale (5)
+
+    
+
+    - Diesel (3)
+
+    
+
+    - disney (5)
+
+    
+
+    - Djerassi (1)
+
+    
+
+    - Drums (8)
+
+    
+
+    - Dutch (3)
+
+    
+
+    - Dylan (4)
+
+    
+
+    - earthquakes (2)
+
+    
+
+    - EBL (1)
+
+    
+
+    - Economics (2)
+
+    
+
+    - Einstein (4)
+
+    
+
+    - electrons (15)
+
+    
+
+    - Elements (15)
+
+    
+
+    - Elvis (2)
+
+    
+
+    - Energy (18)
+
+    
+
+    - Entropy (11)
+
+    
+
+    - Enzymes (4)
+
+    
+
+    - Eric Clapton (3)
+
+    
+
+    - etymology (6)
+
+    
+
+    - faith (7)
+
+    
+
+    - Family (20)
+
+    
+
+    - Faraday (8)
+
+    
+
+    - fashion (3)
+
+    
+
+    - fluorine (2)
+
+    
+
+    - Forgotten Americans (7)
+
+    
+
+    - Forgotten Brits (9)
+
+    
+
+    - Frank Lloyd Wright (2)
+
+    
+
+    - Free Will (2)
+
+    
+
+    - French (11)
+
+    
+
+    - Freud (3)
+
+    
+
+    - Friedman (2)
+
+    
+
+    - Frost (2)
+
+    
+
+    - Gallium (4)
+
+    
+
+    - games (4)
+
+    
+
+    - garage mahal (1)
+
+    
+
+    - Gay Rites (2)
+
+    
+
+    - Geistiges Eigentum (3)
+
+    
+
+    - Gems (2)
+
+    
+
+    - George Vukelich (1)
+
+    
+
+    - Germanium (3)
+
+    
+
+    - gnomon (4)
+
+    
+
+    - Gold (8)
+
+    
+
+    - grad school (1)
+
+    
+
+    - graffiti (1)
+
+    
+
+    - Guns (9)
+
+    
+
+    - Hammond's postulate (2)
+
+    
+
+    - Hawaii (2)
+
+    
+
+    - Haz (2)
+
+    
+
+    - Heat (7)
+
+    
+
+    - Helium (4)
+
+    
+
+    - Hendrix (7)
+
+    
+
+    - Heroes On Stamps (15)
+
+    
+
+    - Highway 41 (1)
+
+    
+
+    - hippies (5)
+
+    
+
+    - History (2)
+
+    
+
+    - History of Chemistry (5)
+
+    
+
+    - Hitchcock (1)
+
+    
+
+    - horns (4)
+
+    
+
+    - Hunter S. Thompson (2)
+
+    
+
+    - Hydrogen (9)
+
+    
+
+    - hypothesis (66)
+
+    
+
+    - Ike (2)
+
+    
+
+    - Imagination (4)
+
+    
+
+    - immigration (2)
+
+    
+
+    - inglese italianato (18)
+
+    
+
+    - Instapundit (1)
+
+    
+
+    - Inventors (19)
+
+    
+
+    - iron (14)
+
+    
+
+    - Iron Sights (4)
+
+    
+
+    - Irony (13)
+
+    
+
+    - Isotopes (14)
+
+    
+
+    - James Joyce (2)
+
+    
+
+    - Japan (2)
+
+    
+
+    - Jason (the commenter) (3)
+
+    
+
+    - jazz (1)
+
+    
+
+    - Jeff Beck (2)
+
+    
+
+    - Jefferson (2)
+
+    
+
+    - Jonny Quest (3)
+
+    
+
+    - Karleton Armstrong (2)
+
+    
+
+    - Kingston Trio (4)
+
+    
+
+    - Kinks (2)
+
+    
+
+    - KoFo (3)
+
+    
+
+    - Krypton (1)
+
+    
+
+    - Laplace (2)
+
+    
+
+    - Last Letters From Stalingrad (28)
+
+    
+
+    - Lavoisier (11)
+
+    
+
+    - Lead (5)
+
+    
+
+    - Led Zeppelin (7)
+
+    
+
+    - Letters Home (57)
+
+    
+
+    - Letters To Freya (4)
+
+    
+
+    - Lewis (5)
+
+    
+
+    - Lithium (6)
+
+    
+
+    - LL (5)
+
+    
+
+    - Madison (11)
+
+    
+
+    - Magnesium (2)
+
+    
+
+    - Magnetism (2)
+
+    
+
+    - MamaM (2)
+
+    
+
+    - Mamet (1)
+
+    
+
+    - manganese (3)
+
+    
+
+    - marriage (1)
+
+    
+
+    - Meade (1)
+
+    
+
+    - memory diving (10)
+
+    
+
+    - Mendeleev (2)
+
+    
+
+    - Mercury (5)
+
+    
+
+    - Misspent Youth (6)
+
+    
+
+    - Mitt Romney (6)
+
+    
+
+    - Molybdenum (1)
+
+    
+
+    - movie review (2)
+
+    
+
+    - narcissism (1)
+
+    
+
+    - neologisms (3)
+
+    
+
+    - Neon (2)
+
+    
+
+    - Netflix (3)
+
+    
+
+    - Neutrons (4)
+
+    
+
+    - Nickel (4)
+
+    
+
+    - Niobium (1)
+
+    
+
+    - Nirvana (1)
+
+    
+
+    - nitrogen (15)
+
+    
+
+    - NMR (1)
+
+    
+
+    - nodes (2)
+
+    
+
+    - nostalgia (10)
+
+    
+
+    - Oh The Germanity (25)
+
+    
+
+    - Old World Wisconsin (15)
+
+    
+
+    - Olympics (2)
+
+    
+
+    - Oppenheimer (2)
+
+    
+
+    - ourosboros (4)
+
+    
+
+    - oxygen (12)
+
+    
+
+    - Palladian (1)
+
+    
+
+    - parenting (8)
+
+    
+
+    - Patti Smith (4)
+
+    
+
+    - Pauling (3)
+
+    
+
+    - periodicity (22)
+
+    
+
+    - philately (21)
+
+    
+
+    - Philology (1)
+
+    
+
+    - philosophy (2)
+
+    
+
+    - phosphorus (5)
+
+    
+
+    - Photography (2)
+
+    
+
+    - Physics (1)
+
+    
+
+    - Pink Floyd (2)
+
+    
+
+    - Planck (3)
+
+    
+
+    - planets (2)
+
+    
+
+    - poetry (7)
+
+    
+
+    - political science (43)
+
+    
+
+    - politics (36)
+
+    
+
+    - Polonium (1)
+
+    
+
+    - Pompeii (1)
+
+    
+
+    - pop music (19)
+
+    
+
+    - Portola (6)
+
+    
+
+    - potassium (2)
+
+    
+
+    - prophecy (3)
+
+    
+
+    - protons (1)
+
+    
+
+    - Quantum of Solstice (1)
+
+    
+
+    - radioactivity (23)
+
+    
+
+    - Radium (3)
+
+    
+
+    - reader_iam (2)
+
+    
+
+    - Reclamation (7)
+
+    
+
+    - recycling (1)
+
+    
+
+    - Redirection (2)
+
+    
+
+    - resonance (3)
+
+    
+
+    - Revisiting Highway 61 (10)
+
+    
+
+    - roadtrips (5)
+
+    
+
+    - Rolling Stones (1)
+
+    
+
+    - Rome (3)
+
+    
+
+    - ron (4)
+
+    
+
+    - Rubidium (2)
+
+    
+
+    - Ruthenium (3)
+
+    
+
+    - Rutherford (7)
+
+    
+
+    - Saltpeter (2)
+
+    
+
+    - Scandium (1)
+
+    
+
+    - Selenium (1)
+
+    
+
+    - Shenanigans (2)
+
+    
+
+    - shill (1)
+
+    
+
+    - shipwrecks (15)
+
+    
+
+    - Silicon (1)
+
+    
+
+    - Silly Putty (1)
+
+    
+
+    - Silver (7)
+
+    
+
+    - sissywillis (3)
+
+    
+
+    - Socratic method (2)
+
+    
+
+    - Soddy (7)
+
+    
+
+    - sodium (3)
+
+    
+
+    - Spanish (1)
+
+    
+
+    - sports (1)
+
+    
+
+    - spuren noch (8)
+
+    
+
+    - Status Quo (1)
+
+    
+
+    - Strontium (1)
+
+    
+
+    - Structure (2)
+
+    
+
+    - Stuck in '66 (7)
+
+    
+
+    - suicide (6)
+
+    
+
+    - sulfur (4)
+
+    
+
+    - Summer of Love (4)
+
+    
+
+    - surf music (10)
+
+    
+
+    - technetium (3)
+
+    
+
+    - Thanks (1)
+
+    
+
+    - Thatcher (1)
+
+    
+
+    - The Byrds (2)
+
+    
+
+    - The Doors (1)
+
+    
+
+    - The Elements Series (45)
+
+    
+
+    - The Pill (1)
+
+    
+
+    - The Who (8)
+
+    
+
+    - Things seem exactly as they are (3)
+
+    
+
+    - Thomson (1)
+
+    
+
+    - Thorium (1)
+
+    
+
+    - Time (5)
+
+    
+
+    - Times Beach (6)
+
+    
+
+    - Tin (4)
+
+    
+
+    - Titanic (28)
+
+    
+
+    - Titanium (4)
+
+    
+
+    - transmutation (6)
+
+    
+
+    - travel (4)
+
+    
+
+    - trees (5)
+
+    
+
+    - Trooper York (5)
+
+    
+
+    - Tungsten (2)
+
+    
+
+    - Twain (6)
+
+    
+
+    - umpolung (2)
+
+    
+
+    - unions (4)
+
+    
+
+    - Uranium (4)
+
+    
+
+    - urine (3)
+
+    
+
+    - Vanadium (3)
+
+    
+
+    - vbspurs (6)
+
+    
+
+    - veterans (2)
+
+    
+
+    - War Letters (6)
+
+    
+
+    - Watt (4)
+
+    
+
+    - Wealth Makers (7)
+
+    
+
+    - wikisucks (3)
+
+    
+
+    - Wings of Dove (8)
+
+    
+
+    - WW I (13)
+
+    
+
+    - WW II (3)
+
+    
+
+    - x (13)
+
+    
+
+    - Xenon (1)
+
+    
+
+    - You'll Never Guess Why (1)
+
+    
+
+    - Yttrium (1)
+
+    
+
+    - zinc (7)
+
+    
+
+    - Zirconium (1)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png  
+
+Search This Blog
+
+Loading... #uds-searchControl .gs-result .gs-title, #uds-searchControl .gs-result
+.gs-title *, #uds-searchControl .gsc-results .gsc-trailing-more-results,
+#uds-searchControl .gsc-results .gsc-trailing-more-results * { color:#5588aa; }
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result
+.gs-title a:visited * { color:#999999; } #uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-publishedDate { color: #999999; } #uds-searchControl .gs-result
+a.gs-visibleUrl, #uds-searchControl .gs-result .gs-visibleUrl { color: #cc6600; }
+#uds-searchControl .gsc-results { border-color: #cccccc; background-color: #ffffff; }
+#uds-searchControl .gsc-tabhActive { border-color: #cccccc; border-top-color:
+#cc6600; background-color: #ffffff; color: #333333; } #uds-searchControl
+.gsc-tabhInactive { border-color: #cccccc; background-color: transparent; color:
+#5588aa; } #uds-searchClearResults { border-color: #cccccc; }
+#uds-searchClearResults:hover { border-color: #cc6600; } #uds-searchControl
+.gsc-cursor-page { color: #5588aa; } #uds-searchControl .gsc-cursor-current-page {
+color: #333333; }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'6130126685334700207';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d6130126685334700207','//acrazychicken.blogspot.com/2011_05_01_archive.html','6130126685334700207');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'6130126685334700207', 'bloggerUrl': 'http://www.blogger.com', 'title': 'El Pollo
+Real', 'pageType': 'archive', 'url':
+'http://acrazychicken.blogspot.com/2011_05_01_archive.html', 'canonicalUrl':
+'http://acrazychicken.blogspot.com/2011_05_01_archive.html',
+'canonicalHomepageUrl': 'http://acrazychicken.blogspot.com/', 'homepageUrl':
+'http://acrazychicken.blogspot.com/', 'blogspotFaviconUrl':
+'http://acrazychicken.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': 'May
+2011', 'pageTitle': 'El Pollo Real: May 2011', 'encoding': 'UTF-8', 'locale': 'en',
+'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42El Pollo Real -
+Atom\42 href\75\42http://acrazychicken.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42El
+Pollo Real - RSS\42
+href\75\42http://acrazychicken.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42El Pollo Real - Atom\42
+href\75\42http://www.blogger.com/feeds/6130126685334700207/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0756130126685334700207\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#666666', 'linkcolor':
+'#5588aa', 'visitedlinkcolor': '#999999', 'textcolor': '#333333', 'headerfont':
+'normal normal 78% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif',
+'pagetitlefont': 'normal normal 200% Georgia, Serif', 'bgcolor': '#ffffff',
+'descriptioncolor': '#999999', 'titlecolor': '#cc6600', 'bordercolor': '#cccccc',
+'postfooterfont': 'normal normal 78% \47Trebuchet MS\47, Trebuchet, Arial, Verdana,
+Sans-serif', 'pagetitlecolor': '#666666', 'bodyfont': 'normal normal 100% Georgia,
+Serif', 'endSide': 'right', 'startSide': 'left', 'descriptionfont': 'normal normal 78%
+\47Trebuchet MS\47, Trebuchet, Arial, Verdana, Sans-serif', 'sidebarcolor':
+'#999999'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic',
+'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url':
+'/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'},
+'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar',
+'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url':
+'/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_CustomSearchView',
+new _WidgetInfo('CustomSearch1', 'footer', null,
+document.getElementById('CustomSearch1'), {'title': 'Search This Blog',
+'includeBlog': true, 'includePostLinks': true, 'includeWeb': false, 'linkLists':
+[{'id': 'BlogList2', 'title': 'Other blogs I like'}], 'blogUrl':
+'http://acrazychicken.blogspot.com/', 'loadingMsg': 'Loading...', 'thisBlogMsg':
+'This Blog', 'linkedFromHereMsg': 'Linked From Here', 'theWebMsg': 'The Web',
+'backgroundColor': '#ffffff', 'textColor': '#333333', 'dateColor': '#999999',
+'linkColor': '#5588aa', 'urlColor': '#cc6600', 'visitedLinkColor': '#999999',
+'borderColor': '#cccccc', 'activeBorderColor': '#cc6600'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList2',
+'sidebar', null, document.getElementById('BlogList2'), {'numItemsToShow': 0,
+'totalItems': 17}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1',
+'sidebar', null, document.getElementById('Followers1'), {'title': 'Followers',
+'codeSnippet': '\74script type\75\42text/javascript\42\76\n if (!window.google ||
+!google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75
+\42http://www.blogger.com/feeds/6130126685334700207/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/6130126685334700207/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://acrazychicken.blogspot.com/\42;\n
+holder.currentBlogId \75 \0426130126685334700207\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-15fm39d9c85co\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#666666\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#5588aa\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#5588aa\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#666666\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#5588aa\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#999999\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#cc6600\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 100% Georgia, Serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-15fm39d9c85co\42,\n height: 260,\n \n \n \n site:
+\04213438459017212614123\42,\n \n locale: \47en\47 },\n skin);\n \74/script\076'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ProfileView', new
+_WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LabelView', new
+_WidgetInfo('Label1', 'sidebar', null, document.getElementById('Label1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'),
+{'title': 'Pages', 'links': [{'href': 'http://acrazychicken.blogspot.com/', 'title':
+'Home', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+

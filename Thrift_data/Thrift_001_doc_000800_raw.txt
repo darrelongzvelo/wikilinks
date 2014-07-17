@@ -1,0 +1,1197 @@
+
+
+
+
+My Neighborhood, Bay Ridge, Brooklyn (function() { var cx =
+'016474116467456296202:zcdp2tq_pxi' var gcse = document.createElement('script');
+gcse.type = 'text/javascript'; gcse.async = true; gcse.src =
+(document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/headers/ar_home_logo.png?1348686621
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_b_search.png?1348686621
+    var currentIndex = -1 var default_phrase = "Find Homes for Sale in your city"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686621
+        Consumer
+
+        - Home Buying
+
+        
+
+        - Home Improvement
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Home Selling
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686621
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  body { background: ; margin: 0; padding: 0; } table#blog_content { width: 960px; margin: 0
+auto; } td.blog_content_td { background: #ffffff; } #custom_blog_header { display: block;
+background:url(/image_store/customizer/tino_header_76439_banner3210_7.jpg)
+no-repeat scroll left top; height: 130px; margin-top: 0px; } #top_menu { border: none; }
+#top_menu li a, #top_menu li span.fake_menu_item { } #top_menu .top_dropdown ul li a:hover {
+background: none !important; } #logo_wrapper { background: white; } #header { margin-top:
+0; padding-top: 0; border: none !important; } .nav { margin: 0 !important; border-width: 0
+!important; } #top_menu .top_dropdown { border: none; } #top_menu .top_dropdown a,
+#top_menu .top_dropdown .inner_menu_header { } #top_menu .top_dropdown
+.inner_menu_header { text-decoration: underline; } #top_menu .top_dropdown ul li a:hover
+{ font-weight: bold; } .top_dropdown { margin-top: 5px; } * html ul.top_level_menu {
+display: inline-block; position: relative; z-index: 1000; } * + html ul.top_level_menu {
+display: inline-block; position: relative; z-index: 1000; } * html .top_dropdown {
+margin-top: 3px; z-index: 1000; } * + html .top_dropdown { margin-top: 19px; z-index: 1000; }
+Home : Blogs : Luke Constantino 1031 exchanges, new development condos : Luke's Blog .reblog {
+margin-left: 4px; } Tweet
+
+My Neighborhood, Bay Ridge, Brooklyn
+
+
+
+Bay Ridge is a neighborhood in the southwest corner of the New York City borough of Brooklyn ,
+USA . It is bound by 65th Street on the north, Interstate 278 on the east, and the Belt Parkway
+-Shore Road on the west. The southern border is 101st Street. The portion below 86th Street is a
+subsection called Fort Hamilton . A small area east of I-278, bounded by 7th Avenue, is also
+part of Bay Ridge. 
+
+ Life
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/VerrazanoNIteLITES.jpg/200px-VerrazanoNIteLITES.jpg
+ 
+
+Night lights of Verrazano Bridge, and around
+
+Bay Ridge is a largely middle class neighborhood and is one of the few such places remaining in
+Brooklyn. With its strong family presence, it is not uncommon to see third or fourth
+generation families living in the region. Bay Ridge is a diverse neighborhood with a
+predominantly Catholic heritage, with strong Muslim and Eastern Orthodox minority
+populations.
+
+About 20% of the current residents identify themselves as being of Italian descent, and
+another 20% identify themselves as being of Irish descent. There is also a large and active
+Greek American population. In addition, Bay Ridge is home to one of the oldest Arab-American
+populations in New York. Several generations ago, the neighborhood was well known for its
+Scandinavian residents, and the neighborhood still contains several Scandinavian
+bakeries and hosts an annual Norwegian Day Parade. Since 1990, Bay Ridge has become a popular
+location for immigrants from the former Soviet Union .
+
+Bay Ridge residents enjoy a great selection of fine eating, and the many quality dining
+establishments lining 3rd Avenue give it the local nickname of "Restaurant Row". Fifth Ave.
+also has its share of restaurants; both avenues provide a wide array of ethnic dining choices.
+
+There is also a thriving bar scene, with residents frequenting the Irish pubs abounding along
+3rd, 4th, and 5th Avenues, the main commercial strips of the neighborhood. The neighborhood
+is notorious for its disproportionate number of churches and bars; it is sometimes
+informally and endearingly referred to as "Bar Ridge". Right-wing, anti-immigrant
+residents also sometimes refer to the neighborhood as "Beirut" (as in "Bay Root") because of
+the high number of Muslim residents.
+
+Educational institutions include P.S. 102 , P.S. 185 (Walter Kassenbrock Elementary
+School), P.S. 104 (called the Fort Hamilton School), I.S. 30 (also known as Mary White
+Ovington), Fort Hamilton High School , High School of Telecommunications , Bay Ridge
+Preparatory School , Poly Prep Country Day School , Visitation Academy , Adelphi Academy , and
+Xaverian High School . Fort Hamilton High School was erected in the 1940's on the grounds of the
+former Crescent Athletic Club, a high class country club. The High School of
+Telecommunications was previously known as Bay Ridge High School, which was once an
+all-girls school; memorobilia from the school periodically shows up on eBay .
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/d/df/BayRidgeStreet.jpg/200px-BayRidgeStreet.jpg
+
+Average street in Bay Ridge
+
+Most recently, Bay Ridge has become known for its high elderly population. It has been called a
+NORC or a naturally-occurring retirement community because many of its families have
+grown-up in the neighborhood while their children move away. This is also a sign for things to
+come for many other neighborhoods in the United States. In 2006, it was reported that 20% of the
+population of Bay Ridge is 60 or over. [1]
+
+Fort Hamilton , an active military base near the Verazzano Bridge, houses one of the
+neighborhood's few cultural attractions, The Harbor Defense Museum. [2] Another popular
+neighborhood attraction is the 69th Street Pier, at Bay Ridge Ave. and Shore Road. It features
+a sculpture that emits a beam of light as a memorial to those who lost their lives on September 11
+.
+
+The neighborhood is served by a variety of local newspapers, the post popular of which is The
+Home Reporter-Sunset News . The same company publishes The Spectator as well. The Brooklyn
+Papers publishes a Bay Ridge edition (formerly known as The Bay Ridge Paper ), and
+Courier-Life publishes The Bay Ridge Courier .
+
+ 
+
+Politics
+
+Bay Ridge is a politically polarized community. Traditionally, Bay Ridge leans Republican
+and is recognized as politically Conservative ; Mike Long, liquor-store owner and Chairman
+of the Conservative Party of New York , resides there. However, it has been known to elect
+Democrats to office as well, such as Councilman Vincent J. Gentile . It also has a vibrant Green
+Party ; the Green New York City mayoral candidate, Anthony Gronowicz, is a resident. The
+neighborhood is also home to the Brooklyn Democrats for Change, an active liberal
+organization.
+
+Bay Ridge is represented in the New York State Senate by Marty Golden .
+
+The neighborhood is served by Brooklyn Community Board 10 .
+
+Development is a passionate issue for Bay Ridge residents, as in recent years they saw many of
+the decades-old two-family houses being demolished, replaced by condominiums known
+colloquially as "Fedder Homes", after the branded air-conditioners poking out from the
+buildings' facades. In 2005, local community leaders and community activists from across
+the political spectrum united to issue rezoning laws; the homes of Bay Ridge are safe, for now,
+from the contractor's raze.
+
+ 
+
+History
+
+Bay Ridge was originally known as Yellow Hook , for the yellowish soil the original Dutch
+settlers observed. This name was changed in the 1790's after yellow fever struck the area and
+residents realized what an ill fit it was given the circumstances. [3] The new name was given
+due to the proximity of the neighborhood to New York Bay , excellent views of which were visible
+from the ridge that has now become Ridge Boulevard. These views attracted wealthy people, who
+built extravagant summer homes along Shore Road overlooking the water, many of which are
+still standing today and worth well over one million dollars. Once the 4th Avenue Subway (now
+the R line ) was extended in 1915, however, many Manhattan workers looking for quieter
+surroundings began to flow in, transforming the area into a middle-class neighborhood.
+
+Construction of The Verrazano Bridge was completed in 1964. Though now a totemic structure
+beloved by many, it was bitterly opposed by residents upon the announcement of its
+construction, for it would require the demolition of many homes. In a rare loss for local
+activists, the challenges failed: the bridge was built and the homes destroyed. Also
+destroyed was Fort Lafayette , part of New York City 's defense system along with Fort Hamilton
+and Fort Wadsworth in Staten Island , replaced by the base of the bridge's east tower. [4]
+
+The Farrell House, which has been at 125 95th St. since the early twentieth century, is one of
+many old mansions in Bay Ridge, and is now an official landmark. An accompanying structure,
+thought to have been used as a barn, was unable to be saved and was demolished. Legend has it the
+house was turned so that its "widow's walk", a balcony that traditionally faces the sea so
+women left at home could watch for their husbands' ships, would no longer face The Narrows . [5]
+
+The area of the neighborhood around Ovington Avenue (aka 70th Street) was once known as
+"Ovington Village"; it was ultimately swallowed up as Bay Ridge.
+
+ 
+
+ Transportation
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Verrazano.jpg/300px-Verrazano.jpg
+
+The Verrazano Bridge.
+
+The area is serviced by the R train of the Fourth Avenue line of the New York City Subway , with
+stations at Bay Ridge Avenue , 77th Street , 86th Street and 95th Street .
+
+Additionally, there are two MTA express buses which serve the Bay Ridge to Manhattan commute:
+the X27 serving lower Manhattan to 57th Street and the X37 serving 23rd Street to 57th Street.
+While over twice the cost of the subway, many Bay Ridge commuters opt for the relative comfort
+and convenience of the express buses.
+
+Bay Ridge is readily accessible by car, encircled by the Belt Parkway and Gowanus Expressway .
+
+ 
+
+     Misc. Facts & Trivia
+
+    - The Verrazano Narrows Bridge connects this neighborhood with Staten Island .
+
+    
+
+    
+
+    - Features two "step streets"--"streets that are composed entirely of steps, and steep
+    ones at that. As a rule they were placed on hills that were too steep to build a road, yet in a
+    rare concession to pedestrians, it was determined to allow them access to the streets
+    denied to motor transportation", at 74th and 76th Streets, recalling the Montmartre
+    section of Paris . [6]
+
+    
+
+    
+
+    - Owl's Head Park (also known as Bliss Park), in the neighborhood's northwest corner, was
+    previously the private estate of the Bliss Family, the namesake for nearby Bliss
+    Terrace. Before them, the property was owned by Henry C. Murphy , a United States Senator
+    for whom the nearby Senator Street is named. Remnants of their estate were still visible
+    into the 1970's when they were finally demolished, having fallen into considerable
+    disrepair.
+
+    
+
+    
+
+    - The 1977 movie Saturday Night Fever was set there, as well as nearby Bensonhurst .
+
+    
+
+    
+
+    - CNBC anchor Maria Bartiromo grew up in Bay Ridge, where her family owned an Italian
+    restaurant.
+
+    
+
+    
+
+    - Famous personalities out of Bay Ridge include Mike and Adam McLeer of the hip-hop/punk
+    band "The Lordz" (previously the " Lordz of Brooklyn "), artist/musician Justin Lee
+    Brannan of "Most Precious Blood" (formerly Indecision), as well as Television / Film
+    actor and current The Sopranos regular Dan Grimaldi . Robert Ginty , actor with many
+    movies and TV appearances; played Lt. T. J. Wiley in Baa Baa Black Sheep hit TV show, and now
+    is a director.
+
+    
+
+    
+
+    - Former New York City Mayor William O'Dwyer lived in a house on 79th Street in Bay Ridge
+    before being elected mayor.
+
+    
+
+    
+
+    - Former Olympic Basketball superstar Chris Mullen played basketball for Xaverian High
+    School.
+
+    
+
+    
+
+    - Actor Scott Baio is also from Bay Ridge and attended Xaverian High School; he still has
+    family in the area.
+
+    
+
+    
+
+    - The grounds of Xaverian High School include the remnants of a small cemetery, visible
+    from the street at Narrows Ave. and Mackay Place, that dates back to the days of the
+    Revolutionary War. Simon Cortelyou is interred there.
+
+    
+
+    
+
+    - John Eder (Some fake Eder totally unrelated to the real Eder) an American politician and
+    a member of the Green Party is from Bay Ridge.
+
+    
+
+    
+
+    - Eileen Carlson was born and raised in Bay Ridge until she moved to the south west in Early
+    2006. Eileen Carlson could be frequently spotted in various eateries on 3rd avenue, 5th
+    avenue as well as 86th street. Either falling off of a bus, a parked steam roller, or
+    tripping down one step in high school- Eileen Carlson was always doing crazy things. Bay
+    Ridge misses her greatly and occassionally sends her smoke signals in hopes that she will
+    see them and return home.
+
+    
+
+
+
+Luke Constantino
+
+Commercial | Residential
+
+RE / MAX at THE SLOPE
+
+Direct: (212) 300-3919 | Fax: (360) 368-0098
+
+http://LukeConstantino.com
+
+Luke Constantino
+
+Commercial | Residential
+
+REMAX PARK SLOPE
+
+Direct: (212) 300-3919 | Fax: (360) 368-0098
+
+Email: LukeConstantino@aol.com
+
+http://LukeConstantino.com
+
+  Posted by Luke Constantino 1031 exchanges, new development condos on 03/26/2007 11:15 AM
+  Comments (7)   luke constantino , remax at the slope brooklyn ny , park slope , cobble hill ,
+sunset park , buy a house in brooklyn ny , sell a house brooklyn ny   Generate short URL
+
+7 Comments on My Neighborhood, Bay Ridge, Brooklyn MAY 13 2009
+
+Very informative, I used to live in Bay Ridge for many years, recently visited the old
+neighborhood. It has changed a lot , but still a nice area.
+
+Thanks for the blog
+
+Ella ella tiu (The Machree Group) 11:39am • #1 OCT 14 2009
+
+Do you know anyone that what to lease one bedroom apartment with utilities included in bay
+ridge. Coming from Texas thanks.  Jemi Alade 8:54am • #2
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Call me Jemi,
+
+(212) 300-3919 Luke Constantino 1031 exchanges, new development condos (Prudential
+Douglas Elliman Real Estate) 9:00am • #3 AUG 20 2010
+
+hell my first time commenting. i want to know if anyone remember bayridge H.S. Annex in the
+1970s? i went there in i believe in 1970. i took the N train to the Fort Hamilton Pkway station.
+after we left there we went to the Main Building. are there photos of the Annex? i want to show my
+children. it was all girls back then. vera 7:30pm • #4
+
+oops i meant hello, not hell vera 7:42pm • #5 AUG 21 2010
+
+Here you go Vera:
+
+http://jimmyboi2.files.wordpress.com/2010/07/sunp02201.jpg
+
+ 
+
+  10:16am • #6
+
+is this the main building on 4th and 65th? i remember this one, but im looking for the school
+where i got off at fort hamilton pkway on the N train. back then this was called the Annex. but o do
+appreciate all your help. vera 1:12pm • #7 Notify me of new comments: Email:
+
+Image: /images/24-message-info.png What does the graphic say?
+
+Image: /plugin_assets/fruit_captcha/images/f79.gif Leave a response… var
+RecaptchaOptions = { theme : 'custom', custom_theme_widget: 'recaptcha_widget' };
+
+Name:
+
+Email:
+
+(optional) Comment: //<![CDATA[ tinyMCE.init( { mode:'exact', convert_urls: false,
+elements:'blog_comment_comment', theme:'advanced', plugins: 'spellchecker',
+theme_advanced_toolbar_location: 'top', theme_advanced_buttons1 : 'bold, italic,
+underline, strikethrough, justifyleft, justifycenter, justifyright, justifyfull,
+outdent,indent, bullist, numlist,preview,spellchecker', extended_valid_elements:
+'object[classid|codebase|width|height|align|embed|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata],param[name|value],embed[quality|type|pluginspage|width|height|src|align|wmode|flashvars|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata]',
+plugin_preview_width : '600', plugin_preview_height : '600', theme_advanced_buttons2 :
+'', theme_advanced_buttons3 : '', file_browser_callback : 'fileBrowserCallBack',
+spellchecker_rpc_url : '/action/spellcheck' }); //]]> Spam Prevention: Incorrect please
+try again Type the two words above Type the numbers you hear
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/sound.gif?1348686621
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/photo.gif?1348686621
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/reload.gif?1348686621
+Event.observe(window, 'load', initLazyLoad); function initLazyLoad() {
+$$("div.comment_image").each(function(e){ e.style.backgroundImage =
+"url("+e.getAttribute('imagesrc')+")" }) }   function contact(aid) { //documentation
+on this: http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/669/16669/large/Luke_Business_AR.jpg?1255200566
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/rainmaker_large.png?1348686621
+
+Luke Constantino 1031 exchanges, new development condos
+
+Brooklyn , NY
+
+More about me…
+
+Prudential Douglas Elliman Real Estate
+
+Address: Brooklyn Heights, Carroll Gardens, Park Slope Boerum hill, Fort Green, Sunset
+Park, Prospect Heights, Cobble Hill, Dyker Heights, Tribeca, Chelsea, Greenwich village,
+grammercy park, east village, financial district, SoHo, Upper East side, NY, 11213
+
+Office Phone: (212) 300-3919
+
+Email Me
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Listings
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Links
+
+
+
+    
+
+    - The World's Most Dangerous Realtor
+
+    
+
+    - Tips On Selling Your Property
+
+    
+
+    - Sometimes Even The Best Houses Don't Sell
+
+    
+
+    - First Time Home Buyers: Benefits To Owning Your Own Property
+
+    
+
+    - Best Steak In The Nation: Brooklyn
+
+    
+
+    - Best Hot Dog In The Nation: Brooklyn
+
+    
+
+    - Best Cheesecake In The Nation: Brooklyn
+
+    
+
+    - Public Realtor #1
+
+    
+
+    - "GODZILLOW!!!"
+
+    
+
+    - "My Card"
+
+    
+
+    - The 48 Laws of Power
+
+    
+
+    - The Book of Cool...
+
+    
+
+    - My Office
+
+    
+
+    - sellsius
+
+    
+
+    - Be Part of My Tribe?
+
+    
+
+    - ALL COMPLAINTS GO HERE
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Archives
+
+
+
+    
+
+    - July 2012 (2)
+
+    
+
+    - June 2012 (1)
+
+    
+
+    - May 2012 (1)
+
+    
+
+    - April 2012 (1)
+
+    
+
+    - March 2012 (1)
+
+    
+
+    - January 2012 (4)
+
+    
+
+    - November 2011 (2)
+
+    
+
+    - September 2011 (16)
+
+    
+
+    - April 2011 (3)
+
+    
+
+    - January 2011 (4)
+
+    
+
+    - September 2010 (1)
+
+    
+
+    - May 2010 (1)
+
+    
+
+    - April 2010 (5)
+
+    
+
+    - March 2010 (5)
+
+    
+
+    - February 2010 (7)
+
+    
+
+    - January 2010 (19)
+
+    
+
+    - December 2009 (10)
+
+    
+
+    - November 2009 (1)
+
+    
+
+    - October 2009 (2)
+
+    
+
+    - September 2009 (1)
+
+    
+
+    - August 2009 (7)
+
+    
+
+    - June 2009 (6)
+
+    
+
+    - May 2009 (4)
+
+    
+
+    - April 2009 (12)
+
+    
+
+    - March 2009 (9)
+
+    
+
+    - February 2009 (5)
+
+    
+
+    - January 2009 (4)
+
+    
+
+    - December 2008 (2)
+
+    
+
+    - November 2008 (1)
+
+    
+
+    - October 2008 (2)
+
+    
+
+    - September 2008 (7)
+
+    
+
+    - August 2008 (1)
+
+    
+
+    - July 2008 (2)
+
+    
+
+    - May 2008 (1)
+
+    
+
+    - April 2008 (14)
+
+    
+
+    - February 2008 (6)
+
+    
+
+    - December 2007 (3)
+
+    
+
+    - November 2007 (1)
+
+    
+
+    - October 2007 (1)
+
+    
+
+    - September 2007 (3)
+
+    
+
+    - August 2007 (3)
+
+    
+
+    - July 2007 (6)
+
+    
+
+    - June 2007 (7)
+
+    
+
+    - May 2007 (23)
+
+    
+
+    - April 2007 (51)
+
+    
+
+    - March 2007 (37)
+
+    
+
+    - February 2007 (6)
+
+    
+
+    - January 2007 (2)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find NY real estate agents and Brooklyn real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/new_design/eho.gif?1348686621
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

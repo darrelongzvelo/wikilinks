@@ -1,0 +1,963 @@
+
+
+
+
+Richard Simmons urges Air New Zealand flyers to put their tables in the upright position
+[VIDEO] var fadeContent = 'all'; /* <![CDATA[ */ var ajaxurl =
+'http://anthillonline.com/wp-admin/admin-ajax.php'; /* ]]> */ var ajaxurl =
+'http://anthillonline.com/wp-admin/admin-ajax.php'; function
+bizdir_add_listing(name,email,cName,description,keywords,website,cEmail,phone) {
+//Add Form Ajax Call //Deactivate submit button and display processing message
+document.getElementById('bizdir_submit').disabled = true; var submit_message =
+document.getElementById('bizdir_submit_message'); submit_message.className =
+"bizdir_message"; submit_message.innerHTML = "Submitting Form, Please Wait...";
+//Clear inputs with Auto Text bizdir_clearAllAutoFill(); //Build SACK Call var mysack = new
+sack("http://anthillonline.com/wp-content/plugins/business-directory/requests.php");
+mysack.execute = 1; mysack.method = 'POST'; mysack.setVar("action","AddListing");
+mysack.setVar("category_id",
+document.getElementById("bizdir_category_id").value);
+mysack.setVar("name",document.getElementById("bizdir_name").value);
+mysack.setVar("email",document.getElementById("bizdir_email").value);
+mysack.setVar("cName",document.getElementById("bizdir_cName").value);
+mysack.setVar("description",document.getElementById("bizdir_description").value);
+mysack.setVar("keywords",document.getElementById("bizdir_keywords").value);
+mysack.setVar("website",document.getElementById("bizdir_website").value);
+mysack.setVar("cEmail",document.getElementById("bizdir_cEmail").value);
+mysack.setVar("phone",document.getElementById("bizdir_phone").value);
+mysack.setVar("street1",document.getElementById("bizdir_street1").value);
+mysack.setVar("street2",document.getElementById("bizdir_street2").value);
+mysack.setVar("city",document.getElementById("bizdir_city").value);
+mysack.setVar("state",document.getElementById("bizdir_state").value);
+mysack.setVar("zip",document.getElementById("bizdir_zip").value);
+mysack.setVar("country",document.getElementById("bizdir_country").value);
+mysack.onError = function() { alert('An ajax error occured while adding your listing.
+Please reload the page and try again.') }; mysack.runAJAX();//excecute return true; }
+function bizdir_search_listings() { //Search Ajax Call var search_term =
+document.getElementById('bizdir_search_term'); if(search_term.value == "" ||
+search_term.value == null) return; //Deactivate submit button and display processing
+message document.getElementById('bizdir_search').disabled = true; var submit_message
+= document.getElementById('bizdir_messages'); submit_message.className =
+"bizdir_message"; submit_message.innerHTML = "Searching Listings, Please Wait...";
+//Build SACK Call var mysack = new
+sack("http://anthillonline.com/wp-content/plugins/business-directory/requests.php");
+mysack.execute = 1; mysack.method = 'POST'; mysack.setVar("action","SearchListings");
+mysack.setVar("searchTerms",search_term.value); mysack.onError = function() {
+alert('An ajax error occured while searching. Please reload the page and try again.') };
+mysack.runAJAX();//excecute return true; } function
+bizdir_change_listings_page(offset) { //Jump to the appropriate page in the directory
+Ajax Call //Build SACK Call var mysack = new
+sack("http://anthillonline.com/wp-content/plugins/business-directory/requests.php");
+mysack.execute = 1; mysack.method = 'POST'; mysack.setVar("action","ChangePage");
+mysack.setVar("offset",offset); mysack.onError = function() { alert('An ajax error
+occured. Please reload the page and try again.') }; mysack.runAJAX();//excecute return
+true; } function bizdir_sort_categories(category) { //Jump to the appropriate page in the
+directory Ajax Call //Build SACK Call var category = category.value; var mysack = new
+sack("http://anthillonline.com/wp-content/plugins/business-directory/requests.php");
+mysack.execute = 1; mysack.method = 'POST'; mysack.setVar("action","SearchListings");
+mysack.setVar('category',category); mysack.onError = function() { alert('An ajax error
+occured. Please reload the page and try again.') }; mysack.runAJAX();//excecute return
+true; } (function() { var wa = document.createElement('script'); wa.type =
+'text/javascript'; wa.async = true; wa.src = ('https:' == document.location.protocol ?
+'https://ssl' : 'http://w1') + '.luckyorange.com/w.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+})(); jQuery(document).ready(function() {
+jQuery('#simple-popup').click(function(e) { e.preventDefault(); var id =
+jQuery(this).attr('href'); var maskHeight = jQuery(document).height(); var maskWidth =
+jQuery(window).width();
+jQuery('#spmask').css({'width':maskWidth,'height':maskHeight});
+jQuery('#spmask').fadeIn(1000); jQuery('#spmask').fadeTo("slow",0.8); var winH =
+jQuery(window).height(); var winW = jQuery(window).width(); jQuery(id).css('top',
+winH/2-jQuery(id).height()/2); jQuery(id).css('left',
+winW/2-jQuery(id).width()/2); jQuery(id).fadeIn(400); }); jQuery('.window
+.close').click(function (e) { e.preventDefault();
+jQuery.cookie('popup_hide','true',{path: '/'}); jQuery('#spmask').hide();
+jQuery('.window').hide(); }); jQuery('#spmask').click(function (e) {
+e.preventDefault(); jQuery.cookie('popup_hide','true',{path: '/'});
+jQuery('#spmask').hide(); jQuery('.window').hide(); });
+jQuery(document).keyup(function(e) { if (e.keyCode == 27) { jQuery('.window
+.close').click(); } }); jQuery("#simple-popup").bind('click',function() { return
+false; }); if ( jQuery.cookie('popup_hide') != 'true' ) { var SimplePopup_delay =
+setTimeout("jQuery('#simple-popup').trigger('click')",6000); } });
+.youtube_sc{background-color:#000;color:#fff;font-size:12px}.youtube_sc
+a{color:blue;text-decoration:underline}.youtube_sc,.youtube_sc img,.youtube_sc
+iframe,.youtube_sc object,.youtube_sc
+embed{max-width:100%;_width:100%}.youtube_sc.fluid{position:relative;height:0;padding-top:25px;padding-left:0;padding-right:0}.youtube_sc.fluid
+.inner.block{display:block}.youtube_sc.fluid .inner,.youtube_sc.fluid
+iframe.yp,.youtube_sc.fluid object.yp,.youtube_sc.fluid
+embed.yp{position:absolute;width:100%;height:100%;left:0;top:0}.youtube_sc.fluid.widescreen{padding-bottom:56.25%}.youtube_sc.fluid.fourthree{padding-bottom:75%}
+document.write('<style type="text/css">.tabber{display:none;}<\/style>'); /*
+<![CDATA[ */ jQuery.post('http://anthillonline.com/wp-admin/admin-ajax.php',
+{action: 'wpp_update', token: 'a4b1d695f1', id: 49282},
+function(data){/*alert(data);*/}); /* ]]> */ #wpadminbar { display:none; } html {
+margin-top: 28px !important; } * html body { margin-top: 28px !important; }
+jQuery(document).ready( function() { jQuery("a.confirm").click( function() { if (
+confirm( 'Are you sure?' ) ) return true; else return false; }); }); !window.jQuery &&
+document.write(unescape('%3Cscript
+src="http://anthillonline.com/wp-content/themes/parallelus-mingle/assets/js/libs/jquery-1.6.2.min.js"%3E%3C/script%3E'))
+body, select, input, textarea { font-family: Arial, Helvetica, Garuda, sans-serif; } var
+googletag = googletag || {}; googletag.cmd = googletag.cmd || []; (function() { var gads =
+document.createElement('script'); gads.async = true; gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol; gads.src = (useSSL ? 'https:' :
+'http:') + '//www.googletagservices.com/tag/js/gpt.js'; var node =
+document.getElementsByTagName('script')[0]; node.parentNode.insertBefore(gads,
+node); })(); googletag.cmd.push(function() {
+googletag.defineSlot('/3986848/main_leaderboard_728x90', [728, 90],
+'div-gpt-ad-1344053758933-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest(); googletag.enableServices(); });
+googletag.cmd.push(function() {
+googletag.defineSlot('/3986848/main_mrec_300x250', [300, 250],
+'div-gpt-ad-1344053946109-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest(); googletag.enableServices(); }); var
+googletag = googletag || {}; googletag.cmd = googletag.cmd || []; (function() { var gads =
+document.createElement('script'); gads.async = true; gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol; gads.src = (useSSL ? 'https:' :
+'http:') + '//www.googletagservices.com/tag/js/gpt.js'; var node =
+document.getElementsByTagName('script')[0]; node.parentNode.insertBefore(gads,
+node); })(); googletag.cmd.push(function() {
+googletag.defineSlot('/3986848/Home_footer_728x90', [728, 90],
+'div-gpt-ad-1344054068057-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest(); googletag.enableServices(); }); var _gaq =
+_gaq || []; _gaq.push(['_setAccount', 'UA-2664738-1']);
+_gaq.push(['_trackPageview']); (function() { var ga =
+document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src
+= ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+'.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s); })();
+
+(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if
+(d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src =
+"//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js,
+fjs); }(document, 'script', 'facebook-jssdk'));
+
+
+
+
+
+Image: http://anthillcommunity.com/images/logo.jpg
+
+    googletag.cmd.push(function() {
+    googletag.display('div-gpt-ad-1344053758933-0'); });
+
+    -
+
+    
+
+    -
+
+    
+
+    -
+
+    
+
+    -
+
+    
+
+    -
+
+    
+
+Search for:
+
+Content creation made easy, with Gihan Perera [WEBINAR]
+
+$(function() { $("a[href='http://www.smartaddon.com/?share']").attr('onclick',
+"return sa_tellafriend('anthillonline.com','addressbook')") });
+
+    
+
+    - Home
+
+    
+
+        - Anthill Magazine
+
+        - Startup & Entrepreneurship
+
+        
+
+        - Funding & Finance
+
+        
+
+        - Marketing & Media
+
+        
+
+        - Tech & Innovation
+
+        
+
+        - Growth & Export
+
+        
+
+        - Management Matters
+
+        
+
+        - Anthill TV
+
+        
+
+    
+
+    
+
+        - Anthill Community
+
+        - Members
+
+        
+
+        - Groups
+
+        
+
+        - Forums
+
+        
+
+        - Events
+
+        
+
+    
+
+    
+
+    - Antmart B2B Deals
+
+    
+
+    - Antpages Business Directory
+
+    
+
+        - About Us
+
+        - The Anthill Story
+
+        
+
+            - Awards & Events
+
+            - SMART 100
+
+            
+
+            - 30under30
+
+            
+
+            - Cool Company Awards
+
+            
+
+            - Business Events
+
+            
+
+        
+
+        
+
+        - Submit an Article
+
+        
+
+        - Subscribe to Newsletter (FREE)
+
+        
+
+        - Advertise
+
+        
+
+        - Contact
+
+        
+
+    
+
+    
+
+    
+
+    - Log In
+
+    
+
+    - Join (sign up)
+
+    
+
+    
+
+    - Tech & Innovation
+
+    
+
+    - Growth & Export
+
+    
+
+    - Management Matters
+
+    
+
+    - Marketing & Media
+
+    
+
+    - Startup & Entrepreneurship
+
+    
+
+    - Funding & Finance
+
+    
+
+.content-post-single .entry-title { font-size: 34px; } .post-header-info { position:
+relative; margin-top: 20px; border: solid 1px #e7e8eb; -webkit-border-radius: 4px 4px 4px
+4px; -moz-border-radius: 4px 4px 4px 4px; border-radius: 4px 4px 4px 4px; background:
+#f9f9fb; padding: 11px; font-size: 12px; font-weight: normal; text-transform: none;
+color: #373e44; } .post-header-info .entry-date { color: #ac032b; } .post-header-info
+.arrow { display: block; background:
+url(http://anthillonline.com/wp-content/themes/parallelus-mingle/assets/images/arrow.gif)
+no-repeat; width: 38px; height: 19px; position: absolute; top: -19px; } .post-header-info
+.entry-comments { background:
+url(http://anthillonline.com/wp-content/themes/parallelus-mingle/assets/images/bubble.gif)
+no-repeat; padding-left: 19px; }
+
+
+
+Richard Simmons urges Air New Zealand flyers to put their tables in the upright position
+[VIDEO]
+
+March 30, 2011 | By Jody Murray 1 Comment (function() { var
+s=document.createElement('script');s.type='text/javascript';s.async = true;
+s.src='http://s1.smartaddon.com/share_addon.js'; var j
+=document.getElementsByTagName('script')[0];j.parentNode.insertBefore(s,j);
+})(); Print RSS
+
+
+
+Image: http://anthillonline.com/wp-content/uploads/2011/03/simmons.jpg
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})(); Tweet !function(d,s,id){var
+js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+jQuery(document).ready(function($){
+$('.sharebar').sharebar({horizontal:'true'}); });
+
+A couple of years ago, Air New Zealand scored a viral hit with a flight safety video in which
+actual ANZ crew went in front of the camera wearing nothing but body paint. “The bare
+essentials of safety,” they called it. The video now has more than six million YouTube
+views.
+
+How do you top that? ANZ offered its answer a few days ago — a safety video designed to look like
+a Richard Simmons exercise tape and sprinkled with Kiwi celebrities.
+
+The effervescent Mr. Simmons lets us know early on that the theme is “Fit to Fly!” Woo!
+Shake it out and breathe deep, baby!
+
+“Fit to Fly” was one of YouTube’s most-viewed on 27 March, the day it was unveiled.
+
+Celebrity cameos include “Amazing Race” host Phil Keoghan, Air New Zealand CEO Rob Fyfe
+(one of the background dancers), netball star Temepara George and — most fascinatingly —
+broadcaster Paul Henry . Last October, Henry was sacked by TVNZ after controversial remarks
+about New Zealand Governor-General Anand Satyanand. And in 2009, he got into hot water for
+referring to gays as “unnatural” — a comment that makes his moment with Simmons in the
+video even more, um, poignant.
+
+There’s also a behind-the-scenes video that’s worth a look.
+
+So, buckle up and sweat it out, you air commuters. You’re looking great!
+
+“Fit to Fly” with Richard Simmons
+
+
+
+
+
+Bare essentials of flight safety
+
+
+
+(function() { var
+s=document.createElement('script');s.type='text/javascript';s.async = true;
+s.src='http://s1.smartaddon.com/share_addon.js'; var j
+=document.getElementsByTagName('script')[0];j.parentNode.insertBefore(s,j);
+})(); Print RSS Want an ad like this?
+
+Looking to control your business expenses?
+
+
+
+    The new NAB Business Payments card is designed to help manage your expenses like no other
+    card. You load the card with your money andyou decide who gets one. Plus you control how
+    much is available at any time on any card. <Find out more>
+
+    1 -
+
+    April 1, 2011
+
+    Tony Richardson
+
+    
+
+    
+
+    At last, a flight safety demo that you can watch without falling asleep. Log in to Reply  
+
+    
+
+
+
+Leave a comment
+
+Click here to cancel reply.
+
+You must be logged in to post a comment.
+
+
+
+#af-form-179133941 .af-body .af-textWrap{width:98%;display:block;float:none;}
+#af-form-179133941 .af-body input.text, #af-form-179133941 .af-body
+textarea{text-decoration:none;font-style:normal;font-weight:normal;font-size:12px;font-family:Verdana,
+sans-serif;} #af-form-179133941 .af-body input.text:focus, #af-form-179133941
+.af-body textarea:focus{} #af-form-179133941 .af-body
+label.previewLabel{display:block;float:none;text-align:left;width:auto;color:#000000;text-decoration:none;font-style:normal;font-weight:normal;font-size:12px;font-family:Verdana,
+sans-serif;} #af-form-179133941
+.af-body{padding-bottom:15px;padding-top:15px;background-repeat:no-repeat;background-position:inherit;background-image:none;font-size:11px;font-family:Verdana,
+sans-serif;} #af-form-179133941
+.af-quirksMode{padding-right:15px;padding-left:15px;} #af-form-179133941
+.af-standards .af-element{padding-right:15px;padding-left:15px;}
+#af-form-179133941 .buttonContainer
+input.submit{);text-decoration:none;font-style:normal;font-weight:normal;font-size:14px;font-family:Verdana,
+sans-serif;} #af-form-179133941 .buttonContainer input.submit{width:auto;}
+#af-form-179133941 .buttonContainer{text-align:right;} #af-form-179133941
+button,#af-form-179133941 input,#af-form-179133941 submit,#af-form-179133941
+textarea,#af-form-179133941 select,#af-form-179133941 label,#af-form-179133941
+optgroup,#af-form-179133941 option{float:none;position:static;margin:0;}
+#af-form-179133941 div{margin:0;} #af-form-179133941 form,#af-form-179133941
+textarea,.af-form-wrapper,.af-form-close-button,#af-form-179133941
+img{float:none;color:inherit;position:static;background-color:none;border:none;margin:0;padding:0;}
+#af-form-179133941 input,#af-form-179133941 button,#af-form-179133941
+textarea,#af-form-179133941 select{font-size:100%;} #af-form-179133941
+select,#af-form-179133941 label,#af-form-179133941 optgroup,#af-form-179133941
+option{padding:0;} #af-form-179133941,#af-form-179133941
+.quirksMode{width:225px;} #af-form-179133941.af-quirksMode{overflow-x:hidden;}
+#af-form-179133941{} #af-form-179133941{display:block;}
+#af-form-179133941{overflow:hidden;} .af-body .af-textWrap{text-align:left;}
+.af-body input.image{border:none!important;} .af-body input.submit,.af-body
+input.image,.af-form .af-element input.button{float:none!important;} .af-body
+input.text{width:100%;float:none;padding:2px!important;} .af-body.af-standards
+input.submit{padding:4px 12px;} .af-clear{clear:both;} .af-element
+label{text-align:left;display:block;float:left;} .af-element{padding:5px 0;}
+.af-form-wrapper{text-indent:0;} .af-form{text-align:left;margin:auto;}
+.af-quirksMode .af-element{padding-left:0!important;padding-right:0!important;}
+.lbl-right .af-element label{text-align:right;} body { }
+
+Image: http://anthillcommunity.com/images/subscribe_btn.png <!-- (function() { var IE
+= /*@cc_on!@*/false; if (!IE) { return; } if (document.compatMode && document.compatMode
+== 'BackCompat') { if (document.getElementById("af-form-179133941")) {
+document.getElementById("af-form-179133941").className = 'af-form af-quirksMode'; }
+if (document.getElementById("af-body-179133941")) {
+document.getElementById("af-body-179133941").className = "af-body inline
+af-quirksMode"; } if (document.getElementById("af-header-179133941")) {
+document.getElementById("af-header-179133941").className = "af-header
+af-quirksMode"; } if (document.getElementById("af-footer-179133941")) {
+document.getElementById("af-footer-179133941").className = "af-footer
+af-quirksMode"; } } })(); --> googletag.cmd.push(function() {
+googletag.display('div-gpt-ad-1344053946109-0'); });
+
+FRIEND A MEMBER
+
+    Newest | Active | Popular
+
+    -
+
+    Image:
+    http://anthillonline.com/wp-content/uploads/avatars/127/c9e62711efc37734c1ba27ef04201e92-bpthumb.jpg
+    Bala Murali Krishna active 1 hour, 31 minutes ago
+
+    
+
+    -
+
+    Image:
+    http://www.gravatar.com/avatar/2b11f01b5773aedfc8bbfe9040e40f20?d=http://anthillcommunity.com/wp-content/themes/parallelus-mingle/assets/images/icons/avatar-2.png&s=50&r=R
+    Christopher Mote active 5 hours, 11 minutes ago
+
+    
+
+    -
+
+    Image:
+    http://anthillonline.com/wp-content/uploads/avatars/420/00284ad74962a8090412a6188fa8cbee-bpthumb.jpg
+    Abs Elmaz active 8 hours, 7 minutes ago
+
+    
+
+    -
+
+    Image:
+    http://www.gravatar.com/avatar/c041256ea0742c36ad28da8ac9ce42f3?d=http://anthillcommunity.com/wp-content/themes/parallelus-mingle/assets/images/icons/avatar-2.png&s=50&r=R
+    Susan Hansen active 9 hours, 40 minutes ago
+
+    
+
+    -
+
+    Image:
+    http://www.gravatar.com/avatar/6abc02bcce54ee46cff5012d610ca3de?d=http://anthillcommunity.com/wp-content/themes/parallelus-mingle/assets/images/icons/avatar-2.png&s=50&r=R
+    Emma Douglass active 11 hours, 51 minutes ago
+
+    
+
+    -
+
+    Image:
+    http://anthillonline.com/wp-content/uploads/avatars/10/c1fe4924fb5f2887349741f8f946666e-bpthumb.jpg
+    James Tuckerman active 13 hours, 4 minutes ago
+
+    
+
+    -
+
+    Image:
+    http://www.gravatar.com/avatar/49986c9ab50ea2689673091237d77fb9?d=http://anthillcommunity.com/wp-content/themes/parallelus-mingle/assets/images/icons/avatar-2.png&s=50&r=R
+    Peter Moriarty active 13 hours, 40 minutes ago
+
+    
+
+    -
+
+    Image:
+    http://anthillonline.com/wp-content/uploads/avatars/157/d4f294cc498e22f556fb5a85c20a30f6-bpthumb.jpg
+    Ben Flavel active 13 hours, 42 minutes ago
+
+    
+
+    -
+
+    Image:
+    http://www.gravatar.com/avatar/5bb433803dd1393cc56e9dfcbd2a4d34?d=http://anthillcommunity.com/wp-content/themes/parallelus-mingle/assets/images/icons/avatar-2.png&s=50&r=R
+    Chris Yeoh active 15 hours, 57 minutes ago
+
+    
+
+    -
+
+    Image:
+    http://anthillonline.com/wp-content/uploads/avatars/604/a5a3f51d65657c53f091994e37dff30e-bpthumb.jpg
+    Andrew Coates active 16 hours, 18 minutes ago
+
+    
+
+
+
+GROUPS
+
+    Newest | Active | Popular
+
+    -
+
+    Image:
+    http://anthillonline.com/wp-content/uploads/group-avatars/4/1eae0749643ec053a145da670afe1018-bpthumb.jpg
+    Angel Investors active 15 hours, 33 minutes ago
+
+    
+
+    -
+
+    Image:
+    http://anthillonline.com/wp-content/uploads/group-avatars/3/e3a529c0bdeba4a21f29ff9632eb9f06-bpthumb.jpg
+    Endless Loop Alumni active 4 days, 17 hours ago
+
+    
+
+    -
+
+    Image:
+    http://anthillonline.com/wp-content/uploads/group-avatars/5/1303f25a3d4468202e4da8b75d45cb38-bpthumb.jpg
+    Brisbane active 1 week, 1 day ago
+
+    
+
+    -
+
+    Image:
+    http://anthillonline.com/wp-content/uploads/group-avatars/31/f55f0e37e8b566348dca5ddf38076d60-bpthumb.jpg
+    Caption Competitions active 2 weeks, 2 days ago
+
+    
+
+    -
+
+    Image:
+    http://anthillonline.com/wp-content/uploads/group-avatars/9/d20adb228034030312642a57bc02160c-bpthumb.jpg
+    Engineering Entrepreneurship active 2 weeks, 6 days ago
+
+    
+
+
+
+FORUMS
+
+    
+
+    - Group Forums
+
+    
+
+    - New to Anthill? Introduce yourself.
+
+    
+
+    - GET THINKING (Idea Generation & Innovation)
+
+    
+
+    - GET PITCHING (Upload Your Video)
+
+    
+
+    - GET DIGS (Incubators & Office Space)
+
+    
+
+
+
+SUPPORT OUR PARTNERS
+
+var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; (function() { var gads =
+document.createElement('script'); gads.async = true; gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol; gads.src = (useSSL ? 'https:' :
+'http:') + '//www.googletagservices.com/tag/js/gpt.js'; var node =
+document.getElementsByTagName('script')[0]; node.parentNode.insertBefore(gads,
+node); })(); googletag.cmd.push(function() {
+googletag.defineSlot('/3986848/second_mrec_300x250', [300, 250],
+'div-gpt-ad-1344054117616-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest(); googletag.enableServices(); });
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1344054117616-0');
+});
+
+
+
+
+
+Image:
+http://anthillcommunity.com/wp-content/uploads/2012/07/OrionVM-black-on-transparent-800px-e1342948970252.png
+
+Image: http://anthillonline.com/wp-content/uploads/2012/08/FotoFlexer_Photo.jpg
+
+Image: http://anthillonline.com/wp-content/uploads/2012/01/career-one.jpg
+
+Image: http://anthillonline.com/wp-content/uploads/2012/01/mynetfone.jpg
+
+
+
+// <![CDATA[ var googletag = googletag || {}; googletag.cmd = googletag.cmd || [];
+(function() { var gads = document.createElement('script'); gads.async = true; gads.type =
+'text/javascript'; var useSSL = 'https:' == document.location.protocol; gads.src =
+(useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js'; var node =
+document.getElementsByTagName('script')[0]; node.parentNode.insertBefore(gads,
+node); })(); // ]]> // <![CDATA[ googletag.cmd.push(function() {
+googletag.defineSlot('/3986848/Home_footer_728x90', [728, 90],
+'div-gpt-ad-1344054068057-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest(); googletag.enableServices(); }); // ]]> //
+<![CDATA[ googletag.cmd.push(function() {
+googletag.display('div-gpt-ad-1344054068057-0'); }); // ]]>
+
+ 
+
+Small Business Big Marketing
+
+    
+
+    - #103 How to make money and do a world of good.
+
+    
+
+    - #102 â€“ Itâ€™s time for Funny Business with Timbo & Andrew Griffiths.
+
+    
+
+    - Small Business Marketing â€“ Opportunities & Challenges.
+
+    
+
+Visit Small Business Big Marketing
+
+Business Events
+
+    
+
+    - Do you have what it takes to be a Super Connector? [WORKSHOP EVENT]
+
+    
+
+    - Want To Spend The Day With Some of Australiaâ€™s Best Online Retail Gurus? [EVENT
+    PROMOTION]
+
+    
+
+    - How to turn just one idea into a maelstrom of marketing opps [WEBINAR]
+
+    
+
+Visit Events
+
+Internet Retailing
+
+    
+
+    - How did Catch get $80mill? Find out in Sydney 11 Oct
+
+    
+
+    - Deals Direct Group Appoints New Chairman
+
+    
+
+    - Much Faster Mobile Payments Pygg
+
+    
+
+Visit Internet Retailing
+
+Bookrapper Downloads
+
+    
+
+    - Become a world leader using social media [FREE DOWNLOAD]
+
+    
+
+    - Made to Stick in less than 30 seconds [FREE DOWNLOAD]
+
+    
+
+    - Crowd Creation: Social Media's Killer Application [FREE DOWNLOAD]
+
+    
+
+    Visit Bookrapper
+
+    - Australian Business Webinars
+
+    
+
+    - Australian Business Tools
+
+    
+
+    - Australian Business Forums
+
+    
+
+    - Venture Capital Australia
+
+    
+
+    - Small Business Marketing
+
+    
+
+    - Business Planning for Startups
+
+    
+
+    
+
+    - Contribute an article
+
+    
+
+    - Pitch your cross-promo idea
+
+    
+
+    - Advertise with Anthill
+
+    
+
+    - Contact us
+
+    
+
+    - Feedback
+
+    
+
+    - Subscribe to Newsletter (FREE)
+
+    
+
+    
+
+    - Cool Company Awards
+
+    
+
+    - 30under30 Awards
+
+    
+
+    - SMART 100
+
+    
+
+    - Events
+
+    
+
+
+
+Looking for something?
+
+Search for:
+
+Experience the joy of sharing!
+
+    
+
+    -
+
+    
+
+    -
+
+    
+
+    -
+
+    
+
+    -
+
+    
+
+    -
+
+    
+
+    
+
+    - Home
+
+    
+
+    - Magazine
+
+    
+
+    - Antmart
+
+    
+
+    - Advertise
+
+    
+
+    - Antpages
+
+    
+
+    - Forums
+
+    
+
+    - Awards
+
+    
+
+    - Log In
+
+    
+
+    - Sign Up
+
+    
+
+
+
+Copyright Â© 2012 - Ant Hill Enterprises - All rights reserved. Terms and Privacy Policy var
+uagent = navigator.userAgent.toLowerCase(); if (uagent.search('iphone') > -1 ||
+uagent.search('ipad') > -1 || uagent.search('ipod') > -1 || uagent.search('android') >
+-1) { var hide_awf_Form = true; }
+
+Sign in to your account
+
+Account Login Username Password Sign in Forgot your password? <!--
+addCloseTagsToSubmit(); //--> #spmask { position:absolute; left:0; top:0;
+z-index:9999; background-color:#000; display:none; } #boxes .window { position:fixed;
+left:0; top:0; width:auto; height:auto; display:none; z-index:9999; padding:20px;
+border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; box-shadow: 0
+0 18px rgba(0, 0, 0, 0.4); } #boxes #dialog { max-width:800px; height:auto; _width:0;
+white-space:normal; overflow:visible; padding:10px; background-color:#ffffff;
+border:px solid #e31b59; font-family:Georgia !important; font-size:15px !important; }
+*html #boxes .window { position: absolute; } #boxes .window .close {
+background-attachment: scroll; background-clip: border-box; background-color:
+transparent; background-image:
+url(http://anthillonline.com/wp-content/plugins/simple-popup/images/close.png );
+background-origin: padding-box; background-position: 0% 0%; background-repeat:
+no-repeat; background-size: auto; height: 36px; right: -19px; margin:0px 0px 0px 0px;
+padding:0px 0px 0px 0px; position: absolute; top: -19px; width: 36px; } #sp_credit_link {
+padding:10px; width:auto; height: 36px; text-align:center; margin-bottom: 0px;
+margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px;
+padding-left: 0px; padding-right: 0px; padding-top: 0px; position: absolute; bottom:
+-40px; }
+
+How COOL is your COMPANY ?
+
+Nominate a deserving organisation for the 2012 Cool Company Awards
+
+
+
+Image: http://anthillonline.com/wp-content/uploads/2012/09/cool.jpg
+
+
+
+    Image:
+    http://anthillonline.com/wp-content/uploads/2012/09/get-started_180px11.png
+    Click to nominate. /* <![CDATA[ */ var WPGroHo = {"my_hash":""}; /* ]]> */
+    window.fbAsyncInit = function() {
+    FB.init({"appId":"270956286301976","channelUrl":"http:\/\/anthillonline.com\/?sfc-channel-file=1","status":true,"cookie":true,"xfbml":true,"oauth":true});
+    }; (function(d){ var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+    js = d.createElement('script'); js.id = id; js.async = true; js.src =
+    "//connect.facebook.net/en_US/all.js";
+    d.getElementsByTagName('head')[0].appendChild(js); }(document));
+    st_go({v:'ext',j:'1:1.7',blog:'30524575',post:'49282'}); var load_cmc =
+    function(){linktracker_init(30524575,49282,2);}; if ( typeof addLoadEvent !=
+    'undefined' ) addLoadEvent(load_cmc); else load_cmc();
+
+    - Log in
+
+    
+
+    - Register
+
+    
+
+    
+
+    -
+
+    
+
+Cufon.replace('h1,h2,h3,h4,h5,h6'); Cufon.replace('#Bottom h1,#Bottom h2,#Bottom
+h3,#Bottom h4,#Bottom h5,#Bottom h6', {textShadow: '1px 1px 0
+rgba(0,0,0,.75)'});Cufon.replace('.call-to-action h1, .call-to-action h2',
+{textShadow: '-1px -1px 0 rgba(0,0,0,.6)'});Cufon.replace('.impactBtn', {textShadow:
+'-1px -1px 1px rgba(0,0,0,.3)'}); Cufon.now(); ddsmoothmenu.init({ mainmenuid: "MM",
+orientation: "h", classname: "slideMenu", contentsource: "markup"
+});ddsmoothmenu.init({ mainmenuid: "MM-Right", orientation: "h", classname:
+"slideMenu", contentsource: "markup" }); jQuery(function() { jQuery("#menu-item-61756
+a").attr('target', '_blank'); }); var _kiq = _kiq || [];
+

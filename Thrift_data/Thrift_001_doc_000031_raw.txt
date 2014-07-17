@@ -1,0 +1,2698 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); A Conglomeration of Ruminations: December 2010 if
+(navigator.userAgent.indexOf('MSIE 6') == -1) { WebFontConfig = { google: { families: [ 'IM
+Fell French Canon SC' ], api:
+'//themes.googleusercontent.com/fonts/css?kit=kA3bS19-tQbeT_iG32EZmcuK7_n-nyuIVLhRWWitpGU'
+}, loading: function() { if (window.jstiming)
+window.jstiming.load.tick('webfontLoading'); }, active: function() { if
+(window.jstiming) window.jstiming.load.tick('webfontActive'); } }; (function() { var
+wf = document.createElement('script'); wf.src =
+'//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type =
+'text/javascript'; wf.async = 'true'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s);
+})(); } else { document.documentElement.className = 'wf-inactive'; } .wf-inactive
+.header h1, .wf-imfellfrenchcanonsc-n4-loading .header h1,
+.wf-imfellfrenchcanonsc-n4-inactive .header h1 { font-family: serif; } .wf-inactive
+.tabs-inner .widget li a, .wf-imfellfrenchcanonsc-n4-loading .tabs-inner .widget li a,
+.wf-imfellfrenchcanonsc-n4-inactive .tabs-inner .widget li a { font-family: serif; }
+.wf-inactive h3.post-title, .wf-imfellfrenchcanonsc-n4-loading h3.post-title,
+.wf-imfellfrenchcanonsc-n4-inactive h3.post-title, .wf-inactive .comments h4,
+.wf-imfellfrenchcanonsc-n4-loading .comments h4,
+.wf-imfellfrenchcanonsc-n4-inactive .comments h4 { font-family: serif; } .wf-inactive
+h2, .wf-imfellfrenchcanonsc-n4-loading h2, .wf-imfellfrenchcanonsc-n4-inactive h2 {
+font-family: serif; } <!-- /*----------------------------------------------- Blogger
+Template Style Name: Picture Window Designer: Josh Peterson URL: www.noaesthetic.com
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="keycolor" description="Main Color" type="color"
+default="#1a222a"/> <Variable name="body.background" description="Body Background"
+type="background" color="#111111" default="#111111
+url(//themes.googleusercontent.com/image?id=1OACCYOE0-eoTRTfsBuX1NMN9nz599ufI1Jh0CggPFA_sK80AGkIr8pLtYRpNUKPmwtEa)
+repeat-x fixed top center"/> <Group description="Page Text" selector="body"> <Variable
+name="body.font" description="Font" type="font" default="normal normal 15px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="body.text.color"
+description="Text Color" type="color" default="#333333"/> </Group> <Group
+description="Backgrounds" selector=".body-fauxcolumns-outer"> <Variable
+name="body.background.color" description="Outer Background" type="color"
+default="#296695"/> <Variable name="header.background.color" description="Header
+Background" type="color" default="transparent"/> <Variable
+name="post.background.color" description="Post Background" type="color"
+default="#ffffff"/> </Group> <Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color"
+default="#336699"/> <Variable name="link.visited.color" description="Visited Color"
+type="color" default="#6699cc"/> <Variable name="link.hover.color"
+description="Hover Color" type="color" default="#33aaff"/> </Group> <Group
+description="Blog Title" selector=".header h1"> <Variable name="header.font"
+description="Title Font" type="font" default="normal normal 36px Arial, Tahoma,
+Helvetica, FreeSans, sans-serif"/> <Variable name="header.text.color"
+description="Text Color" type="color" default="#ffffff" /> </Group> <Group
+description="Tabs Text" selector=".tabs-inner .widget li a"> <Variable
+name="tabs.font" description="Font" type="font" default="normal normal 15px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="tabs.text.color"
+description="Text Color" type="color" default="#ffffff"/> <Variable
+name="tabs.selected.text.color" description="Selected Color" type="color"
+default="#24535d"/> </Group> <Group description="Tabs Background"
+selector=".tabs-outer .PageList"> <Variable name="tabs.background.color"
+description="Background Color" type="color" default="transparent"/> <Variable
+name="tabs.selected.background.color" description="Selected Color" type="color"
+default="transparent"/> <Variable name="tabs.separator.color"
+description="Separator Color" type="color" default="transparent"/> </Group> <Group
+description="Post Title" selector="h3.post-title, .comments h4"> <Variable
+name="post.title.font" description="Title Font" type="font" default="normal normal
+18px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/> </Group> <Group
+description="Date Header" selector=".date-header"> <Variable
+name="date.header.color" description="Text Color" type="color" default="#111111"/>
+</Group> <Group description="Post" selector=".post"> <Variable
+name="post.footer.text.color" description="Footer Text Color" type="color"
+default="#999999"/> <Variable name="post.border.color" description="Border Color"
+type="color" default="#dddddd"/> </Group> <Group description="Gadgets"
+selector="h2"> <Variable name="widget.title.font" description="Title Font"
+type="font" default="bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color"
+default="#888888"/> </Group> <Group description="Footer" selector=".footer-outer">
+<Variable name="footer.text.color" description="Text Color" type="color"
+default="#cccccc"/> <Variable name="footer.widget.title.text.color"
+description="Gadget Title Color" type="color" default="#aaaaaa"/> </Group> <Group
+description="Footer Links" selector=".footer-outer"> <Variable
+name="footer.link.color" description="Link Color" type="color" default="#99ccee"/>
+<Variable name="footer.link.visited.color" description="Visited Color" type="color"
+default="#77aaee"/> <Variable name="footer.link.hover.color" description="Hover
+Color" type="color" default="#33aaff"/> </Group> <Variable name="content.margin"
+description="Content Margin Top" type="length" default="20px"/> <Variable
+name="content.padding" description="Content Padding" type="length" default="0"/>
+<Variable name="content.background" description="Content Background"
+type="background" default="transparent none repeat scroll top left"/> <Variable
+name="content.border.radius" description="Content Border Radius" type="length"
+default="0"/> <Variable name="content.shadow.spread" description="Content Shadow
+Spread" type="length" default="0"/> <Variable name="header.padding"
+description="Header Padding" type="length" default="0"/> <Variable
+name="header.background.gradient" description="Header Gradient" type="url"
+default="none"/> <Variable name="header.border.radius" description="Header Border
+Radius" type="length" default="0"/> <Variable name="main.border.radius.top"
+description="Main Border Radius" type="length" default="20px"/> <Variable
+name="footer.border.radius.top" description="Footer Border Radius Top" type="length"
+default="0"/> <Variable name="footer.border.radius.bottom" description="Footer
+Border Radius Bottom" type="length" default="20px"/> <Variable
+name="region.shadow.spread" description="Main and Footer Shadow Spread" type="length"
+default="3px"/> <Variable name="region.shadow.offset" description="Main and Footer
+Shadow Offset" type="length" default="1px"/> <Variable
+name="tabs.background.gradient" description="Tab Background Gradient" type="url"
+default="none"/> <Variable name="tab.selected.background.gradient"
+description="Selected Tab Background" type="url"
+default="url(//www.blogblog.com/1kt/transparent/white80.png)"/> <Variable
+name="tab.background" description="Tab Background" type="background"
+default="transparent url(//www.blogblog.com/1kt/transparent/black50.png) repeat
+scroll top left"/> <Variable name="tab.border.radius" description="Tab Border Radius"
+type="length" default="10px" /> <Variable name="tab.first.border.radius"
+description="First Tab Border Radius" type="length" default="10px" /> <Variable
+name="tabs.border.radius" description="Tabs Border Radius" type="length" default="0"
+/> <Variable name="tabs.spacing" description="Tab Spacing" type="length"
+default=".25em"/> <Variable name="tabs.margin.bottom" description="Tab Margin
+Bottom" type="length" default="0"/> <Variable name="tabs.margin.sides"
+description="Tab Margin Sides" type="length" default="20px"/> <Variable
+name="main.background" description="Main Background" type="background"
+default="transparent url(//www.blogblog.com/1kt/transparent/white80.png) repeat
+scroll top left"/> <Variable name="main.padding.sides" description="Main Padding
+Sides" type="length" default="20px"/> <Variable name="footer.background"
+description="Footer Background" type="background" default="transparent
+url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left"/>
+<Variable name="post.margin.sides" description="Post Margin Sides" type="length"
+default="-20px"/> <Variable name="post.border.radius" description="Post Border
+Radius" type="length" default="5px"/> <Variable name="widget.title.text.transform"
+description="Widget Title Text Transform" type="string" default="uppercase"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay"
+type="string" default="transparent none repeat scroll top left"/> <Variable
+name="startSide" description="Side where text starts in blog language" type="automatic"
+default="left"/> <Variable name="endSide" description="Side where text ends in blog
+language" type="automatic" default="right"/> */ /* Content
+----------------------------------------------- */ body { font: normal bold 16px 'Times
+New Roman', Times, FreeSerif, serif; color: #111111; background: #a6cfd4
+url(http://themes.googleusercontent.com/image?id=0BwVBOzw_-hbMYjg4MjQ5MzMtMTRhZi00OGU0LWE4MWMtODg5NTY1YmY4ZWZi)
+repeat scroll top center /* Credit: blue_baron
+(http://www.istockphoto.com/googleimages.php?id=8705544&platform=blogger) */; }
+html body .region-inner { min-width: 0; max-width: 100%; width: auto; } .content-outer {
+font-size: 90%; } a:link { text-decoration:none; color: #24535d; } a:visited {
+text-decoration:none; color: #336699; } a:hover { text-decoration:underline; color:
+#336699; } .content-outer { background: transparent none repeat scroll top left;
+-moz-border-radius: 0; -webkit-border-radius: 0; -goog-ms-border-radius: 0;
+border-radius: 0; -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15); -webkit-box-shadow: 0 0 0
+rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .15); box-shadow: 0 0 0 rgba(0, 0,
+0, .15); margin: 20px auto; } .content-inner { padding: 0; } /* Header
+----------------------------------------------- */ .header-outer { background:
+transparent none repeat-x scroll top left; _background-image: none; color: #24535d;
+-moz-border-radius: 0; -webkit-border-radius: 0; -goog-ms-border-radius: 0;
+border-radius: 0; } .Header img, .Header #header-inner { -moz-border-radius: 0;
+-webkit-border-radius: 0; -goog-ms-border-radius: 0; border-radius: 0; } .header-inner
+.Header .titlewrapper, .header-inner .Header .descriptionwrapper { padding-left: 0;
+padding-right: 0; } .Header h1 { font: normal bold 50px IM Fell French Canon SC; text-shadow:
+1px 1px 3px rgba(0, 0, 0, 0.3); } .Header h1 a { color: #24535d; } .Header .description {
+font-size: 130%; } /* Tabs ----------------------------------------------- */
+.tabs-inner { margin: .5em 20px 0; padding: 0; } .tabs-inner .section { margin: 0; }
+.tabs-inner .widget ul { padding: 0; background: transparent none repeat scroll bottom;
+-moz-border-radius: 0; -webkit-border-radius: 0; -goog-ms-border-radius: 0;
+border-radius: 0; } .tabs-inner .widget li { border: none; } .tabs-inner .widget li a {
+display: inline-block; padding: .5em 1em; margin-right: .25em; color: #ffffff; font:
+normal normal 15px IM Fell French Canon SC; -moz-border-radius: 10px 10px 0 0;
+-webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px;
+-goog-ms-border-radius: 10px 10px 0 0; border-radius: 10px 10px 0 0; background:
+transparent url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top
+left; border-right: 1px solid transparent; } .tabs-inner .widget li:first-child a {
+padding-left: 1.25em; -moz-border-radius-topleft: 10px;
+-moz-border-radius-bottomleft: 0; -webkit-border-top-left-radius: 10px;
+-webkit-border-bottom-left-radius: 0; -goog-ms-border-top-left-radius: 10px;
+-goog-ms-border-bottom-left-radius: 0; border-top-left-radius: 10px;
+border-bottom-left-radius: 0; } .tabs-inner .widget li.selected a, .tabs-inner .widget
+li a:hover { position: relative; z-index: 1; background: transparent
+url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll bottom; color:
+#24535d; -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .15); -webkit-box-shadow: 0 0 3px rgba(0, 0,
+0, .15); -goog-ms-box-shadow: 0 0 3px rgba(0, 0, 0, .15); box-shadow: 0 0 3px rgba(0, 0, 0,
+.15); } /* Headings ----------------------------------------------- */ h2 { font: normal
+bold 100% IM Fell French Canon SC; text-transform: uppercase; color: #24535d; margin: .5em
+0; } /* Main ----------------------------------------------- */ .main-outer {
+background: transparent url(//www.blogblog.com/1kt/transparent/white80.png) repeat
+scroll top left; -moz-border-radius: 20px 20px 0 0; -webkit-border-top-left-radius:
+20px; -webkit-border-top-right-radius: 20px; -webkit-border-bottom-left-radius: 0;
+-webkit-border-bottom-right-radius: 0; -goog-ms-border-radius: 20px 20px 0 0;
+border-radius: 20px 20px 0 0; -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 1px 3px rgba(0, 0,
+0, .15); box-shadow: 0 1px 3px rgba(0, 0, 0, .15); } .main-inner { padding: 15px 20px 20px; }
+.main-inner .column-center-inner { padding: 0 0; } .main-inner .column-left-inner {
+padding-left: 0; } .main-inner .column-right-inner { padding-right: 0; } /* Posts
+----------------------------------------------- */ h3.post-title { margin: 0; font:
+normal normal 24px IM Fell French Canon SC; } .comments h4 { margin: 1em 0 0; font: normal normal
+24px IM Fell French Canon SC; } .date-header span { color: #24535d; } .post-outer {
+background-color: #ffffff; border: solid 1px #ffffff; -moz-border-radius: 5px;
+-webkit-border-radius: 5px; border-radius: 5px; -goog-ms-border-radius: 5px; padding:
+15px 20px; margin: 0 -20px 20px; } .post-body { line-height: 1.4; font-size: 110%; position:
+relative; } .post-header { margin: 0 0 1.5em; color: #24535d; line-height: 1.6; }
+.post-footer { margin: .5em 0 0; color: #24535d; line-height: 1.6; } #blog-pager {
+font-size: 140% } #comments .comment-author { padding-top: 1.5em; border-top: dashed 1px
+#ccc; border-top: dashed 1px rgba(128, 128, 128, .5); background-position: 0 1.5em; }
+#comments .comment-author:first-child { padding-top: 0; border-top: none; }
+.avatar-image-container { margin: .2em 0 0; } /* Comments
+----------------------------------------------- */ .comments .comments-content
+.icon.blog-author { background-repeat: no-repeat; background-image:
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+} .comments .comments-content .loadmore a { border-top: 1px solid #336699; border-bottom:
+1px solid #336699; } .comments .continue { border-top: 2px solid #336699; } /* Widgets
+----------------------------------------------- */ .widget ul, .widget #ArchiveList
+ul.flat { padding: 0; list-style: none; } .widget ul li, .widget #ArchiveList ul.flat li {
+border-top: dashed 1px #ccc; border-top: dashed 1px rgba(128, 128, 128, .5); } .widget ul
+li:first-child, .widget #ArchiveList ul.flat li:first-child { border-top: none; }
+.widget .post-body ul { list-style: disc; } .widget .post-body ul li { border: none; } /*
+Footer ----------------------------------------------- */ .footer-outer {
+color:#111111; background: transparent
+url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left;
+-moz-border-radius: 0 0 20px 20px; -webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0; -webkit-border-bottom-left-radius: 20px;
+-webkit-border-bottom-right-radius: 20px; -goog-ms-border-radius: 0 0 20px 20px;
+border-radius: 0 0 20px 20px; -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 1px 3px rgba(0, 0,
+0, .15); box-shadow: 0 1px 3px rgba(0, 0, 0, .15); } .footer-inner { padding: 10px 20px 20px; }
+.footer-outer a { color: #111111; } .footer-outer a:visited { color: #24535d; }
+.footer-outer a:hover { color: #24535d; } .footer-outer .widget h2 { color: #24535d; } /*
+Mobile ----------------------------------------------- */ html body.mobile { height:
+auto; } html body.mobile { min-height: 480px; background-size: 100% auto; } .mobile
+.body-fauxcolumn-outer { background: transparent none repeat scroll top left; } html
+.mobile .mobile-date-outer, html .mobile .blog-pager { border-bottom: none; background:
+transparent url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll top
+left; margin-bottom: 10px; } .mobile .date-outer { background: transparent
+url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left; } .mobile
+.header-outer, .mobile .main-outer, .mobile .post-outer, .mobile .footer-outer {
+-moz-border-radius: 0; -webkit-border-radius: 0; -goog-ms-border-radius: 0;
+border-radius: 0; } .mobile .content-outer, .mobile .main-outer, .mobile .post-outer {
+background: inherit; border: none; } .mobile .content-outer { font-size: 100%; }
+.mobile-link-button { background-color: #24535d; } .mobile-link-button a:link,
+.mobile-link-button a:visited { color: #ffffff; } .mobile-index-contents { color:
+#111111; } .mobile .tabs-inner .PageList .widget-content { background: transparent
+url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll bottom; color:
+#24535d; } .mobile .tabs-inner .PageList .widget-content .pagelist-arrow { border-left:
+1px solid transparent; } --> <!-- body { min-width: 980px; } .content-outer,
+.content-fauxcolumn-outer, .region-inner { min-width: 980px; max-width: 980px; _width:
+980px; } .main-inner .columns { padding-left: 0; padding-right: 250px; } .main-inner
+.fauxcolumn-center-outer { left: 0; right: 250px; /* IE6 does not respect left and right
+together */ _width: expression(this.parentNode.offsetWidth - parseInt("0") -
+parseInt("250px") + 'px'); } .main-inner .fauxcolumn-left-outer { width: 0; } .main-inner
+.fauxcolumn-right-outer { width: 250px; } .main-inner .column-left-outer { width: 0;
+right: 100%; margin-left: -0; } .main-inner .column-right-outer { width: 250px;
+margin-right: -250px; } #layout { min-width: 0; } #layout .content-outer { min-width: 0;
+width: 800px; } #layout .region-inner { min-width: 0; width: auto; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0753569588432264405760\46blogName\75A+Conglomeration+of+Ruminations\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75DARK\46layoutType\75LAYOUTS\46searchRoot\75http://aconglomerationofruminations.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://aconglomerationofruminations.blogspot.com/\46vt\758701835804684896260',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+
+
+A Conglomeration of Ruminations
+
+
+
+A compilation of things that interest me- from current events to arts events; new books to old
+films; Broadway musicals to my favorite things; and recent realizations and epiphanies...
+
+
+
+Pages
+
+    
+
+    - Home
+
+    
+
+    - About Me
+
+    
+
+    - Contact Me
+
+    
+
+    - Em Update- Most Recent
+
+    
+
+    - New Photos
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Wednesday, December 29, 2010
+
+
+
+Kennedy Center Honors were on last night!
+
+
+
+
+
+They were wonderful!
+
+Will post favorite performances as I can!
+
+
+
+
+
+I thought she was great- beautiful dress...  But I still love the original Celie (LaChanze)
+the best!  Everyone else seems to popify the song...  Great job though!
+
+
+
+Had no idea cute guy from 'White Collar' could sing!  (Kinda......  Don't quit your day job
+Matt- but you can carry a tune!)  And of course I adore Kelli O'Hara.......  Perfection!
+Posted by
+
+
+
+Emmalyn_H at
+
+
+
+10:33 AM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: arts news , KCH , movie
+
+Monday, December 27, 2010
+
+
+
+Sing Off Champions: Committed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My Favorite (below!)
+
+Posted by
+
+
+
+Emmalyn_H at
+
+
+
+10:54 AM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: movie
+
+Saturday, December 25, 2010
+
+
+
+Merry Christmas!!!
+
+
+
+http://www.youtube.com/watch?v=azcimpWgCT0&feature=fvw
+
+
+
+
+
+
+
+Posted by
+
+
+
+Emmalyn_H at
+
+
+
+10:47 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: movie
+
+Thursday, December 23, 2010
+
+
+
+Yes, Obama DID!
+
+
+
+Visit msnbc.com for breaking news , world news , and news about the economy Posted by
+
+
+
+Emmalyn_H at
+
+
+
+1:08 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: movie , Obama , politics
+
+
+
+
+
+Playbill.com- Top Stories for 2010!
+
+The Year in Theatre: From Sondheim to Spider-Man , Playbill.com Picks the Top Stories of 2010
+By Kenneth Jones  23 Dec 2010
+
+The editors and writers of Playbill.com put their heads together this month and looked back at
+the events of 2010 to choose significant news stories that made headlines and touched the
+industry uniquely.
+
+Image:
+http://2.bp.blogspot.com/_2fJtmUAxwX4/TROLXQ99y0I/AAAAAAAAAgc/X_23Z82o5OY/s1600/sondheimfeat2.jpg
+
+Stephen Sondheim photo by Joseph Marzullo/WENN
+
+The Year of Sondheim: He Is a Parade!  The master American musical theatre
+composer-lyricist Stephen Sondheim turned 80 years old on March 22, and the milestone was
+celebrated around the world with revivals of his musicals ( Passion and Into the Woods in
+London, an all-male Forum at Williamstown Theatre Festival, the continuing A Little Night
+Music on Broadway), the premiere of a new revue ( Sondheim on Sondheim , created James Lapine,
+on Broadway), concerts (for the BBC in London, by New York Pops at Carnegie Hall, by the New York
+Philharmonic at Avery Fisher Hall, by Roundabout Theatre Company, by Encores! at New York
+City Center, among others), public on-stage interviews (in New York City and Toronto) and the
+re-naming of a Broadway theatre ( Henry Miller's Theatre was named the Stephen Sondheim,
+unveiled in September ). In October, "Finishing the Hat," the first volume of his collected
+lyrics (1954-81) , was published, offering readers not just verse, but lively reflections on
+his work and mini-essays about the major (dead) theatre lyricists of the last century. The
+Tony Award-winning, Pulitzer Prize-honored songwriter of Sweeney Todd, A Little Night
+Music, Follies, A Funny Thing Happened, Merrily We Roll Along and Sunday in the Park With
+George, among others, spoke to Playbill.com in November , saying he's looking forward to the
+calm of 2011, because "nobody celebrates your 81st."
+
+Image:
+http://1.bp.blogspot.com/_2fJtmUAxwX4/TROLdnmmgWI/AAAAAAAAAgg/bhl9k-ZKo3A/s1600/kittyorkey.jpg
+
+Tom Kitt and Brian Yorkey photo by Aubrey Reuben
+
+A Serious Success: Next to Normal Wins the Pulitzer Prize : The already Tony Award-winning
+rock musical Next to Normal by composer Tom Kitt and lyricist-librettist Brian Yorkey won the
+2010 winner of the Pulitzer Prize for Drama . The Pulitzer board decided to award the honor to
+Normal rather than one of the three finalists chosen by a jury ( The Elaborate Entrance of Chad
+Deity by Kristoffer Diaz ; Bengal Tiger at the Baghdad Zoo by Rajiv Joseph ; and In the Next Room
+or the vibrator play by Sarah Ruhl ). The Pulitzer folk recognized the work for its subject
+matter (in it, a suburban mom struggling with grief and mental illness creates earthquakes in
+her family, and she seeks relief in electroconvulsive therapy), saying that it "expands the
+scope of subject matter for musicals." After the April announcement, jury members went
+public about being overridden by the board . Also touching on serious subject matter
+(interracial love in the American South of the late 1950s, albeit with a happy-ending
+production number) was the pop musical Memphis , by Joe DiPietro and David Bryan , which was
+named Best Musical at the 2010 Tony Awards.
+
+Image:
+http://4.bp.blogspot.com/_2fJtmUAxwX4/TROLpsrqVtI/AAAAAAAAAgk/HFAYyFOUdLg/s1600/scottsboroboysopen200.jpg
+
+Rodney Hicks (standing) and Joshua Henry in  The Scottsboro Boys photo by Paul Kolnik
+
+Ambitious Topics, Short Broadway Lives  The history of theatre is packed with examples of
+unlikely subject matter hitting it big at the box office: Evita, anyone? Sweeney Todd ?
+Richard III ? In 2010, three Broadway shows plucked people and events from history, but
+audiences did not support their resurrection (even if some critics did). The Scottsboro Boys
+, the final musical that the songwriting team of Kander & Ebb worked on before Ebb's death, told
+the story of the "Scottsboro case," in which nine African-American males under the age of 20
+were wrongly convicted of rape in 1931 Alabama. And, its theatrical frame was a minstrel show,
+the controversial and outdated entertainment known for racial stereotypes and blackface
+(reworked to criticize the injustice). Some critics embraced it as The Best Musical of the
+Year, but it closed on Broadway six weeks after it opened (though there is talk of a return in
+2011 .) Enron , Lucy Prebble 's London hit that pokes American greed in the eye by adding song,
+dance, projections and mask work to tell the story of the fall of the famed energy corporation,
+was a quick Broadway flop. Likewise, Bloody Bloody Andrew Jackson , Michael Friedman and Alex
+Timbers ' antic downtown musical — equal parts sketch comedy, underground rock concert and
+a revisionist history lesson — about the notorious U.S. president, was a critics' darling,
+but was not supported on Broadway. It closes Jan. 2, 2011, two-and-a-half months after
+opening.
+
+Image:
+http://3.bp.blogspot.com/_2fJtmUAxwX4/TROLx-7ph5I/AAAAAAAAAgo/WZMQIA3tK9E/s1600/Spider-Man200.jpg
+
+A scene from  Spider-Man Turn Off the Dark photo by Jacob Cohl
+
+A Web of Intrigue: Spider-Man Turn Off the Dark  The $65 million Broadway musical
+Spider-Man Turn Off the Dark , directed by  Julie Taymor , with songs by Bono and The Edge , was
+originally to begin previews at the Hilton Theatre in January 2010 prior to a February
+opening, but a cash-flow problem put summer 2009 rehearsals on hold. New producer Michael
+Cohl stepped in, work continued, some actors pulled out, the massive Hilton — which was
+renovated to accommodate Taymor's cirque vision for the comic-book show — was renamed the
+Foxwoods Theatre, actors were injured in rehearsal, previews continued to be delayed. And
+then it began on Nov. 28. A "60 Minutes" feature on Taymor's ambitious show offered national
+exposure and goosed the box office. More actors were injured, this time in performance (
+including a stuntman plunge that prompted investigations by state officials and unions, and
+made international headlines ). Changes to the script and score are expected before the
+official opening of Feb. 7, 2011. You can't look away, can you? Neither can the crowd: The
+Foxwoods box office for the week ending Dec. 19 hit $1,036,133, representing 98.9 percent
+capacity and an average ticket price of $90.
+
+Image:
+http://2.bp.blogspot.com/_2fJtmUAxwX4/TROL4uxoEcI/AAAAAAAAAgs/VxLWx_ErM6w/s1600/alnmnew_1293061214.jpg
+
+Elaine Stritch and Bernadette Peters in A Little Night Music photo by Joan Marcus
+
+Passing the Crowns and "Send in the Clowns"  Broadway's A Little Night Music starring
+Catherine Zeta-Jones (who won a Tony Award for her work) and Angela Lansbury (beloved for
+Stephen Sondheim's Sweeney Todd ) was announced to close in early summer at the end of its
+leading ladies' contracts. And then the unthinkable happened. Sondheim and the producers
+urged Bernadette Peters and Elaine Stritch — two other leading ladies with strong ties to
+legendary Sondheim shows — to take over the roles. They said yes, adding six months to the run
+of the Trevor Nunn -directed production (and allowing Stritch as Madame Armfeldt to say a
+famous line that the actress also uttered in Company : "I'd like to propose a toast!").
+
+Image:
+http://1.bp.blogspot.com/_2fJtmUAxwX4/TROL-YyWIkI/AAAAAAAAAgw/KqYdSFS6s8c/s1600/lovenever200.jpg
+
+Ramin Karimloo and Sierra Boggess in Love Never Dies photo by Catherine Ashmore
+
+Phantom of the Opera Gets a Sequel   Andrew Lloyd Webber 's Love Never Dies , the pop-opera
+sequel to the international smash The Phantom of the Opera, opened in London to a raft of
+negative reviews on March 9. In the new tale, the Phantom and his favorite soprano, Christine,
+have resurfaced in Coney Island, NY. A gunshot at the climax of the show was probably not what
+fans were hoping for. A Broadway bow in fall 2010 was bumped to spring 2011, and has since been
+taken off the schedule. The London production shut down for several days in November to allow
+for rewrites and revisions. Critics are invited back. The wildly popular Phantom,
+meanwhile, continues as Broadway's longest-running musical (and remains a fixture in
+London and Las Vegas; the 18-year-old U.S. national tour closed on Oct. 31 in Los Angeles).
+
+
+
+Image:
+http://2.bp.blogspot.com/_2fJtmUAxwX4/TROMHsmGmfI/AAAAAAAAAg0/c6RS--UkyxU/s1600/gleeemichele200.jpg
+
+Lea Michele in "Glee" photo by FOX-TV
+
+"Glee" Mania!  Why is the popular FOX TV series "Glee" one of our Top Theatre Stories of the
+Year? Because it's wildly popular with our readership . Because it borrows musical theatre
+conventions — characters singing in presentational sequences as high-school glee club
+performers and in representational moments as emotionally conflicted characters. Because
+it swipes songs from the pop catalog as well as the musical theatre songbook (a gay boy sings
+"Rose's Turn"? Sign us up!). Because it's likely to populate future Broadway shows with its
+stars ( Lea Michele as Funny Girl ?). Because it will influence a new generation of kids to care
+about telling stories with songs. But, mostly, because it's Sondheim approved. When we
+suggested to the master that the songs in "Glee" often seem too unconnected to plot, he told us:
+"That's part of the fun of it, when they use the music right and freshly and it is in some way
+connected to plot — even if it's just emotionally, even if the lyric doesn't seem to be
+connected to plot, but the feeling of the song is. I like that. Obviously, it's very up and down,
+the episodes I've seen — even within the episodes they're up and down. In a way, it's a very
+daring show, and they are taking chances, and a lot of it is whimsical in the true sense of the
+word."
+
+
+
+Image:
+http://3.bp.blogspot.com/_2fJtmUAxwX4/TROMbRHWz_I/AAAAAAAAAg4/SlgEWk90cz8/s320/ameridiotbillie7.jpg
+
+Billie Joe Armstrong, John Gallagher Jr. and Rebecca Naomi Jones in  American Idiot   photo
+by Krissie Fullerton Other Stories That Caught Hearts and Minds   We lost Lynn Redgrave ( The
+Nightingale, Shakespeare for My Father, The Constant Wife ) of the Redgrave acting dynasty in
+2010, as well as beloved musical actress Marcia Lewis (a Tony nominee for Chicago ) and actress
+Jill Clayburgh ("An Unmarried Woman," Pippin, The Clean House )…London's  Menier
+Chocolate Factory continued to export shows to Broadway (the vest-pocket La Cage aux Folles
+won the Tony as Best Revival of a Musical , and Night Music began there, too)…. Arena Stage in
+Washington, DC, opened a $135 million new home at the Mead Center for American Theater , a
+second-act for one of the first American regional theatres…The specialty-act pairing of
+Dame Edna and Michael Feinstein fell flat at the Henry Miller's Theatre , but The Pee-wee
+Herman Show was a hit in the fall at the same venue (under the name of The Stephen Sondheim
+Theatre ), and HBO is filming it …The New York City flop Almost, Maine is the most-produced
+title in American high schools, Dramatics magazine reported…London's Donmar Warehouse
+ production of John Logan 's Red , about painter Marc Rothko, won the 2010 Tony Award as Best
+Play…The Public Theater's Central Park staging of The Merchant of Venice , directed by
+Daniel Sullivan and starring Al Pacino as Shylock, got raves and moved from the outdoors to in
+— at Broadway's Broadhurst , where the run has since been extended...Actress Megan
+Mullally quit the Roundabout Theatre Company's Broadway production of Lips Together, Teeth
+Apart (she has not spoken publicly about the reason), scuttling the production but making way
+for a last-minute replacement of Sherie Rene Scott starring in Everyday Rapture , which she
+co-wrote with Dick Scanlan (she earned a Tony nomination for her performance and Best Book of a
+Musical)… Director and co-writer Michael Mayer was viewed as the architect of the musical
+American Idiot , a vibrant re-imagination of the Green Day punk album, yet was ignored by the
+Tony Award nominators....Green Day front man Billie Joe Armstrong added electricity to a
+sagging box office at American Idiot by performing the role of St. Jimmy in a week of shows in the
+fall ( he'll return in early 2011 )…Writer and star Lin-Manuel Miranda starred in a one-week
+engagment of the Latin-kissed musical In the Heights when it played San Juan, Puerto Rico, in
+the fall , the first time an Equity first national tour played the city.
+
+(What do you think we missed? Tell us what you think the Top Theatre Stories of the Year were.
+Write kjones@playbill.com.) Posted by
+
+
+
+Emmalyn_H at
+
+
+
+12:53 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: ALW , arts news , Broadway , GLEE , link , Love Never
+Dies , Phantom , picture , Ramin Karimloo , Scottsboro Boys , Sierra Boggess , Sondheim
+
+Wednesday, December 22, 2010
+
+
+
+
+
+
+
+Spiderman Turn Off the Dark -Injury Update Christopher Tierney
+
+
+
+
+
+CBS NEWS CLIP HERE:  http://www.youtube.com/watch?v=Jbquv3CDMDM
+
+
+
+
+
+
+
+1:30 Update: Video of SPIDER-MAN Injury; Actor Identified; Equity to Halt Performances;
+Investigation Underway
+
+Tuesday, December 21, 2010; Posted: 09:12 AM - by BroadwayWorld TV
+
+Twitter was flooded last night shortly after 10:40 PM with messages from audience members at
+SPIDER-MAN, with word that an actor fell during the middle of Act 2 when a cable snapped. The
+show was first put on hold, and then cancelled as ambulances arrived on the scene. This
+morning, the actor has been identified as aerialist Christopher Tierney, who is reported to
+be in serious, but stable condition.
+
+At 11:29 AM, Equity has released a statement that "Actors' Equity Association is working with
+management and the Department of Labor to ensure that performances will not resume until
+back-up safety measures are in place."
+
+BroadwayWorld has learned from several sources that SPIDER-MAN stuntman Christopher
+Tierney has suffered several broken ribs and bleeding after his nearly 30-foot free fall on
+the SPIDEY set last night.  Fortunately, Tierney landed such that he avoided any crippling
+neck or spinal injury.  He is still being held at the hospital in serious, but stable
+condition.
+
+We've now confirmed with a production source that representatives from the Department of
+Labor and from Equity are now onsite at the Foxwoods Theatre meeting with members of the show's
+production team, stage hands and crew.
+
+They will also be examining all of the equipment used during the show as they attempt to
+determine if last night's problems were caused by human error, technical problems or a
+combination thereof. It's expected that once their decision is reached, Equity and the
+production will make their determination as to what will be needed to deem the production
+safe, and then they can estimate how long that might take before they determine when
+performances will be resumed.
+
+All of the equipment and stunts were examined before the show began performances. Stay tuned
+to BroadwayWorld.com, which was the first to report the goings on last night and will bring you
+more information as soon as it's available.
+
+Earlier, Actors Equity released a short statement about last night's incident, stating that
+"We were informed shortly after the accident during the performance of Spiderman. We are
+working in cooperation with the state and city Department of Labor on this situation. We dont
+have a further statement at this time."
+
+BroadwayWorld.com has also confirmed that the New York State Department of Labor will visit
+the Foxwoods Theater this morning for its own investigation into what occurred last night
+that will involve interviews with the production team, as well as a check of all equipment to
+determine if it was a human or technical error.
+
+Many performers have contacted BroadwayWorld.com both last night and this morning, urging
+actors to contact the union individually to suggest that they 'step in' and get more involved
+with protecting the safety of the actors in this production.
+
+Fellow actress, Natalie Mendoza, who herself received a concussion in the show wrote on her
+Twitter after 4am in response: "Please pray with me for my friend Chris, my superhero who
+quietly inspires me everyday with his spirit. A light in my heart went dim tonight."
+
+BroadwayWorld was the first to report on the incident as we spoke to an audience member who was
+there, and told us that the incident occurred near the end of the show when the bridge comes down
+with MJ suspended in the air and Spider-Man goes after her. Basically, she went down and it
+seemed he went jumping after her. Then you saw the rope come down and then snap back up. Then all
+of a sudden, the stage manager's voice came on and said that there was going to be a pause. The
+theatre then stayed dark for a minute or two and then they called the show and brought the house
+lights back up.
+
+Our source told us that for most of the audience, there was a moment of "did I really just see
+that?" foliowed by horror and concern. Coming from where the actor fell, a voice was heard
+screaming, as well, which was believed to be lead actress Jennifer Damiano's voice. As
+audience members left the theatre, at least one ambulance and fire truck were seen.
+
+Another audience member contacted us to tell us that "The person taken away was the person
+playing Spider-Man at the time. He tried to get up and stagehands told him not to move. I was in
+the audience and I'm an NY EMT. Although I am not involved with the care of the patient they
+didn't use a back-board and collar as they brought him out. The ambulance stayed on site longer
+then expected, which would lead me to believe the injury isn't critical."
+
+This is the show's fourth injury and there's no word on what affect this will have on future
+performances.  Two shows are scheduled for Spider-Man on Wednesday, there is no word at this
+time if performances will be cancelled.
+
+Last night, a representative for the show tells us that "An actor sustained an injury at
+tonight's performance of Spider-Man Turn Off The Dark. He fell several feet from a platform
+approximately seven minutes before the end of the performance, and the show was stopped. All
+signs were good as he was taken to the hospital for observation. We will have more news
+shortly."
+
+We're told via a stagehand that this was NOT a flying sequence and that Spider-Man was NOT
+supposed to drop at all. He was supposed to run to top of the ramp as if to jump with the lights then
+set to go to black. The cable that snapped is what stops him from going over the edge, and that is
+what failed. He then fell approximately 30 feet.
+
+Read more:
+http://broadwayworld.com/article/Morning_Update_Video_of_SPIDERMAN_Injury_Actor_Identified_20101221_page2#ixzz18xODqJ9e
+
+
+
+Julie Taymor Issues Statement on SPIDER-MAN Safety
+
+Tuesday, December 21, 2010; Posted: 08:12 PM - by BWW News Desk
+
+Director Julie Taymor has just released the following statement: "An accident like this is
+obviously heartbreaking for our entire team and, of course, to me personally. I am so thankful
+that Chris is going to be alright and is in great spirits. Nothing is more important than the
+safety of our Spider-Man family and we'll continue to do everything in our power to protect the
+cast and crew."
+
+An official statement was earlier issued from the production which says that "OSHA
+(Occupational Safety and Health Administration), Actors Equity and the New York State
+Department of Labor have met with the Spider-Man company today to discuss additional safety
+protocols. It was agreed that these measures would be enacted immediately.
+
+Tomorrow's matinee has been postponed and will be rescheduled.
+
+Tomorrow evening's, and all subsequent performances will proceed as scheduled."
+
+Twitter was flooded last night shortly after 10:40 PM with messages from audience members at
+SPIDER-MAN, with word that an actor fell during the middle of Act 2 when a cable snapped. The
+show was first put on hold, and then cancelled as ambulances arrived on the scene. This
+morning, the actor has been identified as aerialist Christopher Tierney, who is reported to
+be in serious, but stable condition. The actor has suffered several broken ribs and internal
+bleeding after his nearly 30-foot free fall on the SPIDEY set last night. Fortunately,
+Tierney landed such that he avoided any crippling neck or spinal injury. He is still being held
+at the hospital in serious, but stable condition.
+
+Read more:
+http://broadwayworld.com/article/Julie_Taymor_Issues_Statement_on_SPIDERMAN_Safety_20101221#ixzz18xQDqGfI
+
+
+
+4PM Update: Christopher Tierney's Condition Still Serious
+
+Image:
+http://3.bp.blogspot.com/_2fJtmUAxwX4/TROJZFqXcpI/AAAAAAAAAgY/803-7gZc18c/s1600/amd_spiderman_fall_dancer.jpg
+
+Wednesday, December 22, 2010; Posted: 02:12 PM - by BWW News Desk
+
+BroadwayWorld has confirmed with hospital sources that Christopher Tierney, the Spiderman
+stuntman who fell nearly 30 feet from a raised platform during the December 20th performance,
+still remains in serious condition at New York's Bellevue Hospital. He is being watched
+regularly and is reportedly in good spirits. 
+
+There is no word on how long he must remain at Bellevue. He is able to talk and move slightly and,
+as CBS reported last night, he recorded a video message which was then played for the rest of the
+cast. Unconfirmed reports have said that Tierney underwent successful surgery earlier this
+afternoon for "3 broken vertebrate / his sacrum."
+
+Late last evening, Director Julie Taymor released the following statement: "An accident
+like this is obviously heartbreaking for our entire team and, of course, to me personally. I am
+so thankful that Chris is going to be alright and is in great spirits. Nothing is more important
+than the safety of our Spider-Man family and we'll continue to do everything in our power to
+protect the cast and crew."
+
+An official statement was earlier issued from the production which says that "OSHA
+(Occupational Safety and Health Administration), Actors Equity and the New York State
+Department of Labor have met with the Spider-Man company today to discuss additional safety
+protocols. It was agreed that these measures would be enacted immediately. Tomorrow's
+matinee has been postponed and will be rescheduled. Tomorrow evening's, and all subsequent
+performances will proceed as scheduled."
+
+Twitter was flooded last night shortly after 10:40 PM with messages from audience members at
+SPIDER-MAN, with word that an actor fell during the middle of Act 2 when a cable snapped. The
+show was first put on hold, and then cancelled as ambulances arrived on the scene. This
+morning, the actor has been identified as aerialist Christopher Tierney, who is reported to
+be in serious, but stable condition. The actor has suffered several broken ribs and internal
+bleeding after his nearly 30-foot free fall on the SPIDEY set last night. Fortunately,
+Tierney landed such that he avoided any crippling neck or spinal injury. He is still being held
+at the hospital in serious, but stable condition.
+
+Read more:
+http://broadwayworld.com/article/Christopher_Tierneys_Condition_Still_Serious_SPIDEY_to_Play_Tonight_20101222#ixzz18xQTopa3
+Posted by
+
+
+
+Emmalyn_H at
+
+
+
+11:21 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: Broadway , movie , Spiderman
+
+Tuesday, December 21, 2010
+
+
+
+Belle and Sebastian's Holiday Spectacular- Watch and Listen to the Entire Concert!
+
+The beloved Glasgow chamber-pop group   Belle & Sebastian   has spent much of the past year
+touring and performing material from its latest album,   Write About Love . But for the
+group's last show of the year, frontman Stuart Murdoch and the band dig deep into their
+archives to share popular classics, fan favorites and a few festive surprises. The entire
+show will be available for on-demand viewing until Dec. 27, 2010.
+
+
+
+
+
+
+http://www.npr.org/2010/12/22/132088913/dec-21-belle-and-sebastians-holiday-spectacular
+Posted by
+
+
+
+Emmalyn_H at
+
+
+
+11:42 AM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: movie , Music Listen
+
+Monday, December 20, 2010
+
+
+
+CSO- FREE Download of Verdi's Overture to La forza del destino!!!
+
+http://cso.org/ListenAndWatch/Details.aspx?id=14135 
+
+or at 
+
+http://cso.org/freedownload
+
+
+
+
+
+Happy holidays from the CSO! Enjoy a complimentary download of Verdi’s Overture to   La
+forza del destino   performed by the Chicago Symphony Orchestra and conducted by Riccardo
+Muti. This piece was recorded live on September 19, 2010 at the Free Concert for Chicago in
+which 25,000+ concert-goers came to Millennium Park to celebrate the beginning of Riccardo
+Muti’s tenure as Music Director of the CSO.
+
+
+
+
+
+***ALSO***
+
+Sorry I was gone for a few days there!  Family Christmas Reunion = no internet access!  
+
+Enjoy the Chicago Symphony Recording!!! Posted by
+
+
+
+Emmalyn_H at
+
+
+
+10:23 AM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: link , Music Listen
+
+Friday, December 17, 2010
+
+
+
+
+
+
+
+Images That Changed the World
+
+
+
+Images That Changed The World ?
+
+
+
+
+
+
+
+
+
+Some people might be offended or upset by these images but this isn't my intentions I just want
+it to be thought provoking and enlightening, and for people to talk about the past and to never
+forget, because we need to learn from past events other wise we will keep repeating history. 
+
+
+
+
+
+If the image has a link it will take you to a  video/documentary  about the history of the
+image and the title of the image will take you to  Wikipedia .
+
+
+
+Execution of a Viet Cong Guerrilla [1968]
+
+This picture was shot by Eddie Adams who won the Pulitzer prize with it. The picture shows
+Nguyen Ngoc Loan, South Vietnam's national police chief executing a prisoner who was said to
+be a Viet Cong captain. Once again the public opinion was turned against the war.
+
+
+
+
+
+
+
+Image:
+http://i104.photobucket.com/albums/m179/pinguy1982/executionofavietconggueus4.jpg
+
+By Eddie Adams
+
+The lynching of young blacks [1930]
+
+This is a famous picture, taken in 1930, showing the young black men accused of raping a
+Caucasian woman and killing her boyfriend, hanged by a mob of 10,000 white men. The mob took
+them by force from the county jail house. Another black man was left behind and ended up being
+saved from lynching. Even if lynching photos were designed to boost white supremacy, the
+tortured bodies and grotesquely happy crowds ended up revolting many.
+
+
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_2fJtmUAxwX4/TQVBveO2P3I/AAAAAAAAAgQ/ld80A-QieG8/s320/1930-lynching.jpg
+
+
+
+By Lawrence Beitler
+
+Soweto Uprising [1976] It was a picture that got the world's attention: A frozen moment in time
+that showed 13-year-old Hector Peterson dying after being struck down by a policeman's
+bullet.
+
+
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/sowetoriotsrs4.jpg
+
+By Sam Nzima
+
+
+
+Hazel Bryant [1957]
+
+It was the fourth school year since segregation had been outlawed by the Supreme Court. Things
+were not going well, and some southerners accused the national press of distorting matters.
+This picture, however, gave irrefutable testimony, as Elizabeth Eckford strides through a
+gantlet of white students, including Hazel Bryant (mouth open the widest), on her way to
+Little Rock's Central High.
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/littlerockme8.jpg
+
+
+
+By Will Counts
+
+
+
+Triangle Shirtwaist Company Fire [1911] The Triangle Shirtwaist Company always kept its
+doors locked to ensure that the young immigrant women stayed stooped over their machines and
+didn't steal anything. When a fire broke out on Saturday, March 25, 1911, on the eighth floor of
+the New York City factory, the locks sealed the workers' fate. In just 30 minutes, 146 were
+killed. Witnesses thought the owners were tossing their best fabric out the windows to save
+it, then realized workers were jumping, sometimes after sharing a kiss (the scene can be
+viewed now as an eerie precursor to the World Trade Center events of September, 11, 2001, only a
+mile and a half south). The Triangle disaster spurred a national crusade for workplace
+safety.
+
+
+
+
+
+
+
+Image:
+http://i104.photobucket.com/albums/m179/pinguy1982/triangleshirtwaistvw1.jpg
+
+Phan ThÃ¡»‹ Kim PhÃƒÂºc [1972]
+
+Phan ThÃ¡»‹ Kim PhÃƒÂºc known as Kim Phuc (born 1963) was the subject of a famous
+photo from the Vietnam war. The picture shows her at about age nine running naked after being
+severely burned on her back by a napalm attack.
+
+
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/kim20pucht0.jpg
+
+By HuÃ¡»³nh CÃƒ´ng ÃƒÅ¡t
+
+Kent State [1970]
+
+The news that Richard Nixon was sending troops to Cambodia caused a chain of protests in the
+U.S. colleges. At Kent State the protest seemed more violent, some students even throwing
+rocks. In consequence, The Ohio National Guard was called to calm things down, but the events
+got out of hand and they started shooting. Some of the victims were simply walking to school.
+The photo shows 14-year-old   Mary Ann Vecchio   kneeling over the body of Jeffrey Miller who
+had been shot by the Ohio National Guard moments earlier.
+
+
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/kentstate1970ct0.jpg
+
+By John Paul Filo  
+
+
+
+Tiananmen Square [1989]
+
+This is the picture of a student/man going to work who has just had enough. The days leading up to
+this event thousands of protesters and innocent by standers were killed by their own
+government because the Chinese people wanted more rights. He tries to stop the tanks in
+Tiananmen Square by standing in front of them and blocking them from passing, the tank driver
+didn't crush the man with the bags as a group of unknown people came and dragged him away, we
+still don't know if the man is alive or dead as the Chinese government executed many of the
+protesters involved. China is still controlled by a communist regime.
+
+There are two well know photos taken of the protester by two different photojournalist, so I
+thought I would show both images and give both photographer credit for there work as many
+people think that both images where taken by the same person.
+
+
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/tiananmensquarepm2.jpg
+
+
+
+  By Stuart Franklin
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/p_003.jpg
+
+By Jeff Widener
+
+
+
+ThÃƒ ch QuÃ¡Âº£ng Ã„�Ã¡»©c [1963]
+
+ThÃƒ ch QuÃ¡Âº£ng Ãƒ�Ã¡»©c was a Vietnamese Buddhist monk who burned
+himself to death at a busy Saigon intersection on June 11, 1963. His act of self-immolation,
+which was repeated by others, was witnessed by David Halberstam, a New York Times reporter,
+who wrote:
+
+
+
+    
+
+" I was to see that sight again, but once was enough. Flames were coming from a human being; his
+body was slowly withering and shriveling up, his head blackening and charring. In the air was
+the smell of burning human flesh; human beings burn surprisingly quickly. Behind me I could
+hear the sobbing of the Vietnamese who were now gathering. I was too shocked to cry, too
+confused to take notes or ask questions, too bewildered to even think.... As he burned he never
+moved a muscle, never uttered a sound, his outward composure in sharp contrast to the wailing
+people around him."
+
+
+
+
+
+
+
+
+
+
+
+Image:
+http://i104.photobucket.com/albums/m179/pinguy1982/thichquangducselfimmolade7.jpg
+
+By   Malcolm Browne
+
+
+
+Portrait of Winston Churchill [1941]
+
+This photograph was taken by Yousuf Karsh, a Canadian photographer, when Winston Churchill
+came to Ottawa. The portrait of Churchill brought Karsh international fame. It is claimed to
+be the most reproduced photographic portrait in history. It also appeared on the cover of Life
+magazine.
+
+
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/churchillop2.jpg
+
+By Yousuf Karsh
+
+Albert Einstein [1951] Albert Einstein is probably one of the most popular figures of all
+times. He is considered a genius because he created the Theory of Relativity, and so,
+challenged Newton's laws, that were the basis of everything known in physics until the
+beginning of the 20th century. But, as a person, he was considered a beatnik, and this picture,
+taken on March 14, 1951 proves that.
+
+
+
+
+
+
+
+Image:
+http://i104.photobucket.com/albums/m179/pinguy1982/alberteinstein1951hy8.jpg
+
+
+
+By Arthur Sasse
+
+Nagasaki [1945] This is the picture of the "mushroom cloud" showing the enormous quantity of
+energy. The first atomic bomb was released on August 6 in Hiroshima (Japan) and killed about
+80,000 people. On August 9 another bomb was released above Nagasaki. The effects of the second
+bomb were even more devastating - 150,000 people were killed or injured. But the powerful
+wind, the extremely high temperature and radiation caused enormous long term damage.
+
+
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/nagasaki1945ur2.jpg
+
+
+
+Hiroshima, Three Weeks After the Bomb [1945]
+
+Americans -- and everyone -- had heard of the bomb that "leveled" Hiroshima, but what did that
+mean? When the aerial photography was published, that question was answered.
+
+
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/bombeb2.jpg
+
+And here is a ground view of the destruction.
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/p_002.jpg
+
+
+
+Dead on the Beach [1943]
+
+Haunting photograph of a beach in Papua New Guinea on September 20, 1943, the magazine felt
+compelled to ask in an adjacent full-page editorial, "Why print this picture, anyway, of
+three American boys dead upon an alien shore?" Among the reasons: "words are never enough . . .
+
+
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/beachpc3.jpg
+
+
+
+By George Strock
+
+Buchenwald [1945] George Patton's troops when they liberated the Buchenwald concentration
+camp. Forty-three thousand people had been murdered there. Patton was so outraged he ordered
+his men to march German civilians through the camp so they could see with their own eyes what
+their nation had wrought.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_2fJtmUAxwX4/TQVCnk3rH3I/AAAAAAAAAgU/__TTeA6ktJQ/s320/image017.jpg
+
+
+
+
+
+Anne Frank [1941] Six million Jews died in the Holocaust. For many throughout the world, one
+teenage girl gave them a story and a face. She was Anne Frank, the adolescent who, according to
+her diary, retained her hope and humanity as she hid with her family in an Amsterdam attic. In
+1944 the Nazis, acting on a tip, arrested the Franks; Anne and her sister died of typhus at
+Bergen-Belsen only a month before the camp was liberated. The world came to know her through
+her words and through this ordinary portrait of a girl of 14. She stares with big eyes, wearing
+an enigmatic expression, gazing at a future that the viewer knows will never come.
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/annefrankkl2.jpg
+
+
+
+V-J Day, Times Square, [1945]
+
+or "The Kiss", at the end of World War II, in US cities everybody went to the streets to salute the
+end of combat. Friendship and unity were everywhere. This picture shows a sailor kissing a
+young nurse in Times Square. The fact is he was kissing every girl he encountered and for that
+kiss, this particular nurse slapped him.
+
+
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/thekisssu6.jpg
+
+By Alfred Eisenstaedt 
+
+
+
+Casualties of war [1991]
+
+Image of a young US sergeant at the moment he learns that the body bag next to him contains the
+body of his friend, killed by "friendly fire".
+
+
+
+The widely published photo became an iconic image of the 1991 Gulf war - a war in which media
+access was limited by Pentagon restrictions.
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/55265589cz5.jpg
+
+By David Turnley
+
+The Falling Man [2001]
+
+The powerful and controversial photograph provoked feelings of anger, particularly in the
+United States, in the immediate aftermath of the September 11 attacks. The photo ran only once
+in many American newspapers because they received critical and angry letters from readers
+who felt the photo was exploitative, voyeuristic, and disrespectful of the dead. This led to
+the media's self-censorship of the photograph, preferring instead to print photos of acts of
+heroism and sacrifice.
+
+
+
+Drew commented about the varying reactions, saying, "This is how it affected people's lives
+at that time, and I think that is why it's an important picture. I didn't capture this person's
+death. I captured part of his life. This is what he decided to do, and I think I preserved
+that."9/11: The Falling Man ends suggesting that this picture was not a matter of the identity
+behind the man, but how he symbolized the events of 9/11.
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/thefallingmanxy4.jpg
+
+By Richard Drew
+
+
+
+U.S. Marines raising the flag on Iwo Jima [1945]
+
+Raising the Flag on Iwo Jima is a historic photograph taken on February 23, 1945, by Joe
+Rosenthal. It depicts five United States Marines and a U.S. Navy corpsman raising the flag of
+the United States atop Mount Suribachi during the Battle of Iwo Jima in World War II.
+
+
+
+The photograph was extremely popular, being reprinted in thousands of publications. Later,
+it became the only photograph to win the Pulitzer Prize for Photography in the same year as its
+publication, and ultimately came to be regarded as one of the most significant and
+recognizable images of the war, and possibly the most reproduced photograph of all times.
+
+
+
+
+
+Image:
+http://i104.photobucket.com/albums/m179/pinguy1982/745pxww2iwojimaflagraisrb2.jpg
+
+By Joe Rosenthal
+
+
+
+Lunch atop a Skyscraper [1932]
+
+Lunch atop a Skyscraper (New York Construction Workers Lunching on a Crossbeam) is a famous
+photograph taken by Charles C. Ebbets during construction of the GE Building at Rockefeller
+Center in 1932.
+
+
+
+The photograph depicts 11 men eating lunch, seated on a girder with their feet dangling
+hundreds of feet above the New York City streets. Ebbets took the photo on September 29, 1932,
+and it appeared in the New York Herald Tribune in its Sunday photo supplement on October 2.
+Taken on the 69th floor of the GE Building during the last several months of construction, the
+photo Resting on a Girder shows the same workers napping on the beam.
+
+
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/10054461uf0.jpg
+
+
+
+
+
+Here's a rare image by the same photographer showing the workers sleeping on the crossbeam.
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/p.jpg
+
+
+
+
+
+
+
+
+
+By Charles C. Ebbets
+
+
+
+Migrant Mother [1936]
+
+For many, this picture of Florence Owens Thompson (age 32) represents the Great Depression.
+She was the mother of 7 and she struggled to survive with her kids catching birds and picking
+fruits. Dorothea Lange took the picture after Florence sold her tent to buy food for her
+children. She made the first page of major newspapers all over the country and changed
+people's conception about migrants.
+
+
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/migrantmotherjw9.jpg
+
+By Dorothea Lange
+
+Omayra SÃƒ¡nchez [1985]
+
+Red Cross rescue workers had apparently repeatedly appealed to the government for a pump to
+lower the water level and for other help to free the girl. Finally rescuers gave up and spent
+their remaining time with her, comforting her and praying with her. She died of exposure after
+about 60 hours.
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/omayrasanchezmt7.jpg
+
+
+
+By Frank Fournier
+
+A vulture watches a starving child [1993]
+
+The prize-winning image: A vulture watches a starving child in southern Sudan, March 1, 1993.
+
+Carter's winning photo shows a heart-breaking scene of a starving child collapsed on the
+ground, struggling to get to a food center during a famine in the Sudan in 1993. In the
+background, a vulture stalks the emaciated child.
+
+
+
+Carter was part of a group of four fearless photojournalists known as the "Bang Bang Club" who
+traveled throughout South Africa capturing the atrocities committed during apartheid.
+
+
+
+Haunted by the horrific images from Sudan, Carter committed suicide in 1994 soon after
+receiving the award.
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/blurb200lgam2.jpg
+
+
+
+By Kevin Carter
+
+Biafra [1969]
+
+When the Igbos of eastern Nigeria declared themselves independent in 1967, Nigeria
+blockaded their fledgling country-Biafra. In three years of war, more than one million
+people died, mainly of hunger. In famine, children who lack protein often get the disease
+kwashiorkor, which causes their muscles to waste away and their bellies to protrude. War
+photographer Don McCullin drew attention to the tragedy. "I was devastated by the sight of 900
+children living in one camp in utter squalor at the point of death," he said. "I lost all
+interest in photographing soldiers in action." The world community intervened to help
+Biafra, and learned key lessons about dealing with massive hunger exacerbated by war-a
+problem that still defies simple solutions.  
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/biafracb3.jpg By Don
+McCullin
+
+Misery in Darfur [2004]
+
+It's an image which depicts a depressed, shoulders-down figure of a child in a cluster of what
+remains of her family.
+
+
+
+The very weather-beaten arm of her mother goes over her left shoulder and there are the very
+small weather-beaten hands of the child, who is about five or six, clinging on to this one piece
+of security that she has, which is the weather-beaten hand of her mother.
+
+
+
+The mother is not in the image, she's in the background. But then slightly further in the
+background you see the other hands of her brothers and sisters as they wait in this village.  
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/49961807qz6.jpg By
+Marcus Bleasdale
+
+Tragedy in Oklahoma [1995]
+
+The fireman has taken the time to remove his gloves before receiving this infant from the
+policeman.
+
+
+
+Anyone who knows anything about firefighters know that their gloves are very rough and
+abrasive and to remove these is like saying I want to make sure that I am as gentle and as
+compassionate as I can be with this infant that I don't know is dead or alive.
+
+
+
+The fireman is just cradling this infant with the utmost compassion and caring.
+
+
+
+He is looking down at her with this longing, almost to say with his eyes: "It's going to be OK, if
+there's anything I can do I want to try to help you."
+
+
+
+He doesn't know that she has already passed away.  
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/95275267qv4.jpg
+
+
+
+By Chris Porter
+
+How Life Begins [1965]
+
+In 1957 he began taking pictures with an endoscope, an instrument that can see inside a body
+cavity, but when Lennart Nilsson presented the rewards of his work to LIFE's editors several
+years later, they demanded that witnesses confirm that they were seeing what they thought
+they were seeing. Finally convinced, they published a cover story in 1965 that went on for 16
+pages, and it created a sensation. Then, and over the intervening years, Nilsson's
+painstakingly made pictures informed how humanity feels about . . . well, humanity. They also
+were appropriated for purposes that Nilsson never intended. Nearly as soon as the 1965
+portfolio appeared in LIFE, images from it were enlarged by right-to-life activists and
+pasted to placards.
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/nilssonhz4.jpg
+
+
+
+By Lennart Nilsson
+
+First Flight [1903]
+
+December 17, 1903 was the day humanity spread its wings and rose above the ground - for 12
+seconds at first and by the end of the day for almost a minute - but it was a major breakthrough.
+Orville and Wilbur Wright, two bicycle mechanics from Ohio, are the pioneers of aviations,
+and although this first flight occurred so late in history, the ulterior development was
+exponential.
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/firstflightsu3.jpg
+
+
+
+By John T. Daniels
+
+Earthrise [1968]
+
+The late adventure photographer Galen Rowell called it "the most influential environmental
+photograph ever taken." Captured on Christmas Eve, 1968, near the end of one of the most
+tumultuous years the U.S. had ever known, the Earthrise photograph inspired contemplation
+of our fragile existence and our place in the cosmos. For years, Frank Borman and Bill Anders of
+the Apollo 8 mission each thought that he was the one who took the picture. An investigation of
+two rolls of film seemed to prove Borman had taken an earlier, black-and-white frame, and the
+iconic color photograph, which later graced a U.S. postage stamp and several book covers, was
+by Anders.
+
+
+
+
+
+Image: http://i104.photobucket.com/albums/m179/pinguy1982/earthrisezt5.jpg
+
+By William Anders Posted by
+
+
+
+Emmalyn_H at
+
+
+
+4:40 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: picture Newer Posts Older Posts Home Subscribe to:
+Posts (Atom) window.___gcfg = {'lang': 'en'};window.___gapisync = false;(function()
+{var po = document.createElement('script');po.type = 'text/javascript';po.async =
+true;po.src = 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+About Me
+
+
+
+    Image:
+    http://4.bp.blogspot.com/_2fJtmUAxwX4/S8s_Hwe38SI/AAAAAAAAAAM/gJM3oeMJfqA/S220/untitled.bmp
+
+        Emmalyn_H
+
+    
+
+        My Resume: http://bit.ly/oeKD5G
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2012 (70)
+
+        - ►  September (11)
+
+        
+
+        
+
+        - ►  August (2)
+
+        
+
+        
+
+        - ►  June (1)
+
+        
+
+        
+
+        - ►  May (1)
+
+        
+
+        
+
+        - ►  April (6)
+
+        
+
+        
+
+        - ►  March (1)
+
+        
+
+        
+
+        - ►  February (18)
+
+        
+
+        
+
+        - ►  January (30)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (271)
+
+        - ►  December (34)
+
+        
+
+        
+
+        - ►  November (36)
+
+        
+
+        
+
+        - ►  October (43)
+
+        
+
+        
+
+        - ►  September (51)
+
+        
+
+        
+
+        - ►  August (7)
+
+        
+
+        
+
+        - ►  July (6)
+
+        
+
+        
+
+        - ►  June (3)
+
+        
+
+        
+
+        - ►  May (30)
+
+        
+
+        
+
+        - ►  April (37)
+
+        
+
+        
+
+        - ►  March (8)
+
+        
+
+        
+
+        - ►  February (5)
+
+        
+
+        
+
+        - ►  January (11)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2010 (174)
+
+            - ▼  December (33)
+
+            - Kennedy Center Honors were on last night!
+
+            
+
+            - Sing Off Champions: Committed
+
+            
+
+            - Merry Christmas!!!
+
+            
+
+            - Yes, Obama DID!
+
+            
+
+            - Playbill.com- Top Stories for 2010!
+
+            
+
+            - Spiderman Turn Off the Dark -Injury Update Christo...
+
+            
+
+            - Belle and Sebastian's Holiday Spectacular- Watch a...
+
+            
+
+            - CSO- FREE Download of Verdi's Overture to La forza...
+
+            
+
+            - Images That Changed the World
+
+            
+
+            - A Charlie Brown Christmas
+
+            
+
+            - Paris CafÃ© on JAZZRADIO.com
+
+            
+
+            - Oreo Cookies and Cream Cheesecakes
+
+            
+
+            - 20 Obsolete English Words that Should Make a Comeb...
+
+            
+
+            - Novartis Ad Campaign "Refelections"
+
+            
+
+            - Chicago Lyric Opera & Renee Fleming
+
+            
+
+            - Best Music of 2010!
+
+            
+
+            - My Year in FB Statuses!
+
+            
+
+            - NPR & PBS: This Time It's the Fight of Their Lives...
+
+            
+
+            - Still I Rise Maya Angelou
+
+            
+
+            - Huge Amount of Respect and Admiration for Elizabet...
+
+            
+
+            - Elizabeth Edwards, Dies at 61
+
+            
+
+            - White Christmas- One of my Fav Holiday Films!
+
+            
+
+            - Kennedy Center Honors Ceremony Taped Sunday Night!...
+
+            
+
+            - Glee on X Factor and Matthew Morrison on CBS Sunda...
+
+            
+
+            - Grab a sandwich, lose a $1.9 million Stradivarius
+
+            
+
+            - Music Mixes 2 Christmas!
+
+            
+
+            - ChOcLaTe BaRk!!!
+
+            
+
+            - New Photos: What I Woke Up to This Morning in Indi...
+
+            
+
+            - PBS Great Performances- Sondheim Birthday Concert!...
+
+            
+
+            - 21 Habits of Happy People
+
+            
+
+            - Symphony Orchestras Balancing Their Budgets...
+
+            
+
+            - Music Mixes 1
+
+            
+
+            - Closing December 12: Scottsboro Boys
+
+            
+
+        
+
+        
+
+        
+
+        - ►  November (33)
+
+        
+
+        
+
+        - ►  October (32)
+
+        
+
+        
+
+        - ►  September (36)
+
+        
+
+        
+
+        - ►  August (9)
+
+        
+
+        
+
+        - ►  July (13)
+
+        
+
+        
+
+        - ►  June (7)
+
+        
+
+        
+
+        - ►  May (8)
+
+        
+
+        
+
+        - ►  April (3)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Total Pageviews
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Share it
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/3569588432264405760/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/3569588432264405760/comments/default";
+holder.currentBlogUrl = "http://aconglomerationofruminations.blogspot.com/";
+holder.currentBlogId = "3569588432264405760"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "200"; skin['TITLE'] = "Share it";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#111111"; skin['ENDCAP_LINK_COLOR'] = "#24535d";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#24535d"; skin['CONTENT_TEXT_COLOR'] =
+"#111111"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#24535d";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000"; skin['CONTENT_HEADLINE_COLOR'] =
+"#24535d"; skin['FONT_FACE'] = "normal bold 16px \x27Times New Roman\x27, Times,
+FreeSerif, serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderOpenSocialGadget"]( {id:
+"div-9ya0ikb0ymtz", height: 200, url:
+"http://fcgadgets.appspot.com/spec/shareit.xml", "view-params": {}, "prefs": {},
+site: "12741352045332763055", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Labels
+
+Aaron Tveit Alice Allegiance ALW Ambitions Art ArtPrize Arts Admin arts news Audra McDonald
+Bay View BestBroadway Bloomington Bonnie and Clyde BookofMormon books Broadway Bunheads
+Catch Me If You Can Clothing Composers current addictions current events Darren Criss Doctor
+Zhivago Downton Abbey Eddie Redmayne education film Follies Gershwin GLEE green energy
+Harry Potter health inspiration interesting IU Jazz Josh Groban Josh Young JRB KCH Kelli
+O'Hara LAPhil Laura Osnes Lea Salonga Les Mis Lin-Manuel Miranda link Lion King Lotus Love
+Never Dies MAAA Manistee Marilyn Matt Morrison memory Meryl Streep movie Museums Music
+Listen music mix Natalie Weiss New Beginnings new photos news media Newsies NPR Obama Occupy
+OffBroadway orchestra Paintings PandP Paris Phantom photos picture poetry politics Porgy
+and Bess quotes Ramin Karimloo Raul Esparza Rebecca recipe recommendations reviews Royal
+Wedding Scottsboro Boys Sierra Boggess Smash Sondheim Spiderman Steven Schwartz Sutton
+Foster technology The Genius Of tonight Tony Awards travel Tribute TSEliot TV update via
+BrainPickings.org violin Vogue wisdom wishes writings
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Follow by Email
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/3569588432264405760/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/3569588432264405760/comments/default";
+holder.currentBlogUrl = "http://aconglomerationofruminations.blogspot.com/";
+holder.currentBlogId = "3569588432264405760"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#111111"; skin['ENDCAP_LINK_COLOR'] = "#24535d";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#24535d"; skin['CONTENT_TEXT_COLOR'] =
+"#111111"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#24535d";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000"; skin['CONTENT_HEADLINE_COLOR'] =
+"#24535d"; skin['FONT_FACE'] = "normal bold 16px \x27Times New Roman\x27, Times,
+FreeSerif, serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-13k2rjic3l53f",
+height: 260, site: "12741352045332763055", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Twitter Updates
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/3569588432264405760/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/3569588432264405760/comments/default";
+holder.currentBlogUrl = "http://aconglomerationofruminations.blogspot.com/";
+holder.currentBlogId = "3569588432264405760"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "200"; skin['TITLE'] = "Twitter Updates";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#111111"; skin['ENDCAP_LINK_COLOR'] = "#24535d";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#24535d"; skin['CONTENT_TEXT_COLOR'] =
+"#111111"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#24535d";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000"; skin['CONTENT_HEADLINE_COLOR'] =
+"#24535d"; skin['FONT_FACE'] = "normal bold 16px \x27Times New Roman\x27, Times,
+FreeSerif, serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderOpenSocialGadget"]( {id:
+"div-zgrfg4lvl30e", height: 200, url:
+"http://gadgetsforblogger.googlecode.com/files/twitter-gadget-v1-3.xml",
+"view-params": {"displayLink":true,"myUsername":"Emmalyn_H","myUpdates":"5"},
+"prefs": {"displayLink":"1","myUsername":"Emmalyn_H","myUpdates":"5"}, site:
+"12741352045332763055", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Arts Links
+
+    
+
+    - AAEA- Association of Arts Administration Educators
+
+    
+
+    - Americans for the Arts
+
+    
+
+    - Artdaily.org
+
+    
+
+    - Arts & Letters Daily
+
+    
+
+    - Arts Journal
+
+    
+
+    - ArtsBeat- NY Times
+
+    
+
+    - NASAA- National Assembly of State Arts Agencies
+
+    
+
+    - NEA- National Endowment for the Arts
+
+    
+
+    - NPR Music News
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+News Sources
+
+    
+
+    - BBC World News
+
+    
+
+    - CBS Sunday Morning
+
+    
+
+    - Democracy Now
+
+    
+
+    - LA Times
+
+    
+
+    - NPR
+
+    
+
+    - NY Times
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blogs I Follow
+
+    
+
+    - Arts Administration, IU Class of '09
+
+    
+
+    - Deceptive Cadence- NPR Classical Music
+
+    
+
+    - Michael Rushton, IU Arts Administration Program Director
+
+    
+
+    - Playblog- Broadway Titbits
+
+    
+
+    - The Art Law Blog- Donn Zaretsky
+
+    
+
+    - The Artful Manager- Andrew Taylor
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Broadway/ Theater Links
+
+    
+
+    - Broadway World
+
+    
+
+    - Broadway.Com
+
+    
+
+    - IBDB
+
+    
+
+    - ILoveTheater.Com
+
+    
+
+    - Playbill.Com
+
+    
+
+    - The Broadway League
+
+    
+
+    - TouringBroadway.Com
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Books
+
+    
+
+    - Book Club Classics
+
+    
+
+    - NPR Books
+
+    
+
+    - NY Times Sunday Book Review
+
+    
+
+    - The New York Review of Books
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Music
+
+    
+
+    - NPR All Songs Considered
+
+    
+
+    - Pandora
+
+    
+
+    - World Music- Rock, Paper, Scissors
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Films
+
+    
+
+    - Film News
+
+    
+
+    - NPR Film Source
+
+    
+
+    - Roger Ebert's Journal
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Current Reading
+
+    
+
+    - ARTS ADMIN Textbooks and Readings!!!
+
+    
+
+    - Bel Ami by Guy De Maupassant
+
+    
+
+    - Crime and Punishment -Dostoevsky
+
+    
+
+    - Midnight's Children- Salman Rushdie
+
+    
+
+    - Mrs. Dalloway- Virginia Woolf
+
+    
+
+    - Rumors of Peace
+
+    
+
+    - Sophie's Choice -William Styron
+
+    
+
+    - The Caligrapher's Daughter
+
+    
+
+    - World Without End
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blogs of Friends
+
+    
+
+    - Alejandra Lance
+
+    
+
+    - My Blog from Undergrad
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Search This Blog
+
+Loading... #uds-searchControl .gs-result .gs-title, #uds-searchControl .gs-result
+.gs-title *, #uds-searchControl .gsc-results .gsc-trailing-more-results,
+#uds-searchControl .gsc-results .gsc-trailing-more-results * { color:#24535d; }
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result
+.gs-title a:visited * { color:#336699; } #uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-publishedDate { color: #6f6f6f; } #uds-searchControl .gs-result
+a.gs-visibleUrl, #uds-searchControl .gs-result .gs-visibleUrl { color: #24535d; }
+#uds-searchControl .gsc-results { border-color: #ffffff; background-color: #ffffff; }
+#uds-searchControl .gsc-tabhActive { border-color: #ffffff; border-top-color:
+#ffffff; background-color: #ffffff; color: #111111; } #uds-searchControl
+.gsc-tabhInactive { border-color: #ffffff; background-color: transparent; color:
+#24535d; } #uds-searchClearResults { border-color: #ffffff; }
+#uds-searchClearResults:hover { border-color: #ffffff; } #uds-searchControl
+.gsc-cursor-page { color: #24535d; } #uds-searchControl .gsc-cursor-current-page {
+color: #111111; }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Facebook Badge
+
+Emmalyn Helge
+
+
+
+Image: http://badge.facebook.com/badge/12119788.2583.741964565.png
+
+Create Your Badge
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Recent Comments
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/3569588432264405760/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/3569588432264405760/comments/default";
+holder.currentBlogUrl = "http://aconglomerationofruminations.blogspot.com/";
+holder.currentBlogId = "3569588432264405760"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "200"; skin['TITLE'] = "Recent Comments";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#111111"; skin['ENDCAP_LINK_COLOR'] = "#24535d";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#24535d"; skin['CONTENT_TEXT_COLOR'] =
+"#111111"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#24535d";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000"; skin['CONTENT_HEADLINE_COLOR'] =
+"#24535d"; skin['FONT_FACE'] = "normal bold 16px \x27Times New Roman\x27, Times,
+FreeSerif, serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderOpenSocialGadget"]( {id:
+"div-v6jjntd4rski", height: 200, url:
+"http://gadgetsforblogger.googlecode.com/files/recent-comments-gadget.xml",
+"view-params": {"summaryLength":"200","numberOfPosts":"10"}, "prefs":
+{"summaryLength":"200","numberOfPosts":"10"}, site: "12741352045332763055",
+locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png All blog content by
+Emmalyn Helge unless otherwise credited. Rights Reserved. Picture Window template.
+Template images by blue_baron . Powered by Blogger .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+window.setTimeout(function() { document.body.className =
+document.body.className.replace('loading', ''); }, 10); if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV2";window['blogger_blog_id'] =
+'3569588432264405760';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d3569588432264405760','//aconglomerationofruminations.blogspot.com/2010_12_01_archive.html','3569588432264405760');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'3569588432264405760', 'bloggerUrl': 'http://www.blogger.com', 'title': 'A
+Conglomeration of Ruminations', 'pageType': 'archive', 'url':
+'http://aconglomerationofruminations.blogspot.com/2010_12_01_archive.html',
+'canonicalUrl':
+'http://aconglomerationofruminations.blogspot.com/2010_12_01_archive.html',
+'canonicalHomepageUrl': 'http://aconglomerationofruminations.blogspot.com/',
+'homepageUrl': 'http://aconglomerationofruminations.blogspot.com/',
+'blogspotFaviconUrl':
+'http://aconglomerationofruminations.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'December 2010', 'pageTitle': 'A Conglomeration of Ruminations: December 2010',
+'encoding': 'UTF-8', 'locale': 'en', 'isPrivate': false, 'isMobile': false,
+'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false,
+'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42
+type\75\42application/atom+xml\42 title\75\42A Conglomeration of Ruminations -
+Atom\42
+href\75\42http://aconglomerationofruminations.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42A
+Conglomeration of Ruminations - RSS\42
+href\75\42http://aconglomerationofruminations.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42A Conglomeration of Ruminations - Atom\42
+href\75\42http://www.blogger.com/feeds/3569588432264405760/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0753569588432264405760\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if
+IE]\76\74script type\75\42text/javascript\42
+src\75\42//www.blogger.com/static/v1/jsbin/3651483553-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076',
+'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'content_padding': '0',
+'tabs_selected_background_color': 'transparent', 'region_shadow_spread': '3px',
+'header_padding': '0', 'tab_selected_background_gradient':
+'url(//www.blogblog.com/1kt/transparent/white80.png)', 'link_visited_color':
+'#336699', 'tabs_margin_sides': '20px', 'post_title_font': 'normal normal 24px IM Fell
+French Canon SC', 'tabs_separator_color': 'transparent', 'tabs_text_color':
+'#ffffff', 'header_background_gradient': 'none', 'widget_title_font': 'normal bold
+100% IM Fell French Canon SC', 'body_background': '#a6cfd4
+url(http://themes.googleusercontent.com/image?id\0750BwVBOzw_-hbMYjg4MjQ5MzMtMTRhZi00OGU0LWE4MWMtODg5NTY1YmY4ZWZi)
+repeat scroll top center /* Credit: blue_baron
+(http://www.istockphoto.com/googleimages.php?id\758705544\46platform\75blogger)
+*/', 'tab_first_border_radius': '10px', 'tabs_border_radius': '0', 'keycolor':
+'#1a222a', 'content_shadow_spread': '0', 'main_background': 'transparent
+url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left',
+'header_font': 'normal bold 50px IM Fell French Canon SC', 'footer_background':
+'transparent url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top
+left', 'header_background_color': 'transparent', 'widget_title_text_transform':
+'uppercase', 'footer_link_visited_color': '#24535d', 'footer_link_hover_color':
+'#24535d', 'footer_border_radius_bottom': '20px', 'tabs_background_gradient':
+'none', 'tab_background': 'transparent
+url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left',
+'mobile_background_overlay': 'transparent none repeat scroll top left',
+'tabs_background_color': 'transparent', 'header_border_radius': '0',
+'post_margin_sides': '-20px', 'link_hover_color': '#336699', 'footer_link_color':
+'#111111', 'content_background': 'transparent none repeat scroll top left',
+'tabs_margin_bottom': '0', 'body_text_color': '#111111', 'main_padding_sides':
+'20px', 'post_border_color': '#ffffff', 'footer_text_color': '#111111',
+'footer_border_radius_top': '0', 'post_background_color': '#ffffff',
+'content_border_radius': '0', 'endSide': 'right', 'post_footer_text_color':
+'#24535d', 'startSide': 'left', 'date_header_color': '#24535d', 'tabs_font': 'normal
+normal 15px IM Fell French Canon SC', 'body_font': 'normal bold 16px \47Times New Roman\47,
+Times, FreeSerif, serif', 'post_border_radius': '5px', 'widget_title_text_color':
+'#24535d', 'content_margin': '20px', 'link_color': '#24535d',
+'footer_widget_title_text_color': '#24535d', 'header_text_color': '#24535d',
+'main_border_radius_top': '20px', 'region_shadow_offset': '1px',
+'tab_border_radius': '10px', 'tabs_selected_text_color': '#24535d',
+'body_background_color': '#111111', 'tabs_spacing': '.25em'}, 'override': ''}},
+{'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'},
+'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name':
+'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url':
+'/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'},
+'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name':
+'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1',
+'crosscol', null, document.getElementById('PageList1'), {'title': 'Pages', 'links':
+[{'href': 'http://aconglomerationofruminations.blogspot.com/', 'title': 'Home',
+'isCurrentPage': false}, {'href':
+'http://aconglomerationofruminations.blogspot.com/p/about-me.html', 'title':
+'About Me', 'isCurrentPage': false}, {'href':
+'http://aconglomerationofruminations.blogspot.com/p/contact-me.html', 'title':
+'Contact Me', 'isCurrentPage': false}, {'href':
+'http://aconglomerationofruminations.blogspot.com/p/em-update-most-recent.html',
+'title': 'Em Update- Most Recent', 'isCurrentPage': false}, {'href':
+'http://aconglomerationofruminations.blogspot.com/p/new-photos.html', 'title':
+'New Photos', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1',
+'sidebar-right-1', null, document.getElementById('Profile1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar-right-1', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_StatsView', new
+_WidgetInfo('Stats1', 'sidebar-right-1', null, document.getElementById('Stats1'),
+{'title': 'Total Pageviews', 'showGraphicalCounter': true, 'showAnimatedCounter':
+false, 'showSparkline': false, 'statsUrl':
+'http://aconglomerationofruminations.blogspot.com/b/stats?style\75BLACK_TRANSPARENT\46timeRange\75ALL_TIME\46token\75Frq3JDoBAAA.FAv3R8InG2MHAOSTxG2PdEnC3Sc8LJC55q8SFf5xA6I.27cg82Wcs896ThEMH_RDxA'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_GadgetView', new
+_WidgetInfo('Gadget2', 'sidebar-right-1', null,
+document.getElementById('Gadget2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1',
+'sidebar-right-1', null, document.getElementById('Label1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_FollowByEmailView', new
+_WidgetInfo('FollowByEmail1', 'sidebar-right-1', null,
+document.getElementById('FollowByEmail1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1',
+'sidebar-right-1', null, document.getElementById('Followers1'), {'title':
+'Followers', 'codeSnippet': '\74script type\75\42text/javascript\42\76\n if
+(!window.google || !google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75
+\42http://www.blogger.com/feeds/3569588432264405760/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/3569588432264405760/comments/default\42;\n \n
+holder.currentBlogUrl \75
+\42http://aconglomerationofruminations.blogspot.com/\42;\n holder.currentBlogId
+\75 \0423569588432264405760\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-3e8is7vgho92\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#111111\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#24535d\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#24535d\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#111111\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#24535d\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#000000\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#24535d\42;\n skin[\47FONT_FACE\47] \75
+\42normal bold 16px \\x27Times New Roman\\x27, Times, FreeSerif, serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-3e8is7vgho92\42,\n height: 260,\n \n \n \n site: \04212741352045332763055\42,\n
+\n locale: \47en\47 },\n skin);\n \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_GadgetView', new _WidgetInfo('Gadget3',
+'sidebar-right-1', null, document.getElementById('Gadget3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList1', 'sidebar-right-1', null,
+document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList5',
+'sidebar-right-1', null, document.getElementById('LinkList5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList2', 'sidebar-right-1', null,
+document.getElementById('LinkList2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList8',
+'sidebar-right-1', null, document.getElementById('LinkList8'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList4', 'sidebar-right-1', null,
+document.getElementById('LinkList4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList9',
+'sidebar-right-1', null, document.getElementById('LinkList9'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList3', 'sidebar-right-1', null,
+document.getElementById('LinkList3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList6',
+'sidebar-right-1', null, document.getElementById('LinkList6'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList7', 'sidebar-right-1', null,
+document.getElementById('LinkList7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_CustomSearchView', new
+_WidgetInfo('CustomSearch1', 'sidebar-right-1', null,
+document.getElementById('CustomSearch1'), {'title': 'Search This Blog',
+'includeBlog': true, 'includePostLinks': true, 'includeWeb': true, 'linkLists': [],
+'blogUrl': 'http://aconglomerationofruminations.blogspot.com/', 'loadingMsg':
+'Loading...', 'thisBlogMsg': 'This Blog', 'linkedFromHereMsg': 'Linked From Here',
+'theWebMsg': 'The Web', 'backgroundColor': '#ffffff', 'textColor': '#111111',
+'dateColor': '#6f6f6f', 'linkColor': '#24535d', 'urlColor': '#24535d',
+'visitedLinkColor': '#336699', 'borderColor': '#ffffff', 'activeBorderColor':
+'#ffffff'}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'sidebar-right-1', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_GadgetView', new
+_WidgetInfo('Gadget1', 'sidebar-right-1', null,
+document.getElementById('Gadget1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'footer-3', null,
+document.getElementById('Attribution1'), {'attribution': 'All blog content by Emmalyn
+Helge unless otherwise credited. Rights Reserved. Picture Window template. Template
+images by \74a
+href\75\47http://www.istockphoto.com/googleimages.php?id\758705544\46platform\75blogger\46langregion\75en\47
+target\75\47_blank\47\76blue_baron\74/a\76. Powered by \74a
+href\75\47http://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

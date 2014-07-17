@@ -1,0 +1,1830 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Commercial Space: 12/01/2010 - 01/01/2011 if (navigator.userAgent.indexOf('MSIE
+6') == -1) { WebFontConfig = { google: { families: [ 'Tinos' ], api:
+'//themes.googleusercontent.com/fonts/css?kit=uEejoB7RACUK3s-W0a63ag' }, loading:
+function() { if (window.jstiming) window.jstiming.load.tick('webfontLoading'); },
+active: function() { if (window.jstiming)
+window.jstiming.load.tick('webfontActive'); } }; (function() { var wf =
+document.createElement('script'); wf.src =
+'//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type =
+'text/javascript'; wf.async = 'true'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s);
+})(); } else { document.documentElement.className = 'wf-inactive'; } <!-- /*
+----------------------------------------------- Blogger Template Style Name: Minima
+Date: 26 Feb 2004 Updated by: Blogger Team 3 column by:
+http://www.simplebloggertutorials.com/
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff"> <Variable name="textcolor" description="Text Color"
+type="color" default="#333"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#58a"> <Variable name="pagetitlecolor" description="Blog Title
+Color" type="color" default="#666"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#999"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#c60">
+<Variable name="bordercolor" description="Border Color" type="color" default="#ccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#999"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#999"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% Georgia, Serif"> <Variable
+name="headerfont" description="Sidebar Title Font" type="font" default="normal normal
+78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable
+name="pagetitlefont" description="Blog Title Font" type="font" default="normal normal
+200% Georgia, Serif"> <Variable name="descriptionfont" description="Blog Description
+Font" type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="postfooterfont" description="Post Footer Font"
+type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="startSide" description="Side where text starts in blog
+language" type="automatic" default="left"> <Variable name="endSide"
+description="Side where text ends in blog language" type="automatic" default="right"> */
+/* Use this with templates/template-twocol.html */ body { background:#ffffff; margin:0;
+color:#333333; font:x-small Georgia Serif; font-size/* */:/**/small; font-size:
+/**/small; text-align: center; } a:link { color:#0b5394; text-decoration:none; }
+a:visited { color:#6fa8dc; text-decoration:none; } a:hover { color:#cc6600;
+text-decoration:underline; } a img { border-width:0; } /* Header
+----------------------------------------------- */ #header-wrapper { width:890px;
+margin:0 auto 10px; border:1px solid #cccccc; } #header-inner { background-position:
+center; margin-left: auto; margin-right: auto; } #header { margin: 5px; border: 1px solid
+#cccccc; text-align: center; color:#000000; } #header h1 { margin:5px 5px 0; padding:15px
+20px .25em; line-height:1.2em; text-transform:uppercase; letter-spacing:.2em; font:
+normal bold 250% Tinos; } #header a { color:#000000; text-decoration:none; } #header
+a:hover { color:#000000; } #header .description { margin:0 5px 5px; padding:0 20px 15px;
+max-width:880px; text-transform:uppercase; letter-spacing:.2em; line-height: 1.4em;
+font: italic normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif; color:
+#333333; } #header img { margin-left: auto; margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width:890px;
+margin:0 auto; padding:10px; text-align:left; font: normal normal 100% Tinos; }
+#main-wrapper { width: 410px; margin:0 10px 0 0; float: left; word-wrap: break-word; /* fix
+for long text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text
+content breaking IE sidebar float */ } #sidebar-wrapper { width: 220px; float: right;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */ overflow: hidden;
+/* fix for long non-text content breaking IE sidebar float */ } #left-sidebar-wrap { width:
+220px; margin:0 10px 0 0; float: left; word-wrap: break-word; overflow: hidden; } /*
+Headings ----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+font:normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.2em; color:#999999; }
+/* Posts ----------------------------------------------- */ h2.date-header {
+margin:1.5em 0 .5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #cccccc;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#cc6600; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#cc6600;
+font-weight:normal; } .post h3 strong, .post h3 a:hover { color:#333333; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#999999; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; line-height: 1.4em; } .comment-link { margin-left:.6em; } .post img,
+table.tr-caption-container { padding:4px; border:1px solid #cccccc; }
+.tr-caption-container img { border: none; padding: 0; } .post blockquote { margin:1em 20px;
+} .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #999999; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+#blog-pager-newer-link { float: left; } #blog-pager-older-link { float: right; }
+#blog-pager { text-align: center; } .feed-links { clear: both; line-height: 2.5em; } /*
+Sidebar Content ----------------------------------------------- */ .sidebar { color:
+#666666; line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; }
+.sidebar li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #cccccc; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #cccccc; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; color: #999999; font-weight: bold; line-height: 1.6em; } .profile-datablock
+{ margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:880px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0756618880\46blogName\75Commercial+Space\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://acuriousguy.blogspot.com/search\46blogLocale\75en_US\46v\0752\46homepageUrl\75http://acuriousguy.blogspot.com/\46vt\0752635963052953186856',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Commercial Space
+
+
+
+Focused on Canadian money making activities high above the skies...
+
+Pages
+
+    
+
+    - Home
+
+    
+
+    - About this Blog
+
+    
+
+    - About the Author
+
+    
+
+    - Our Weekly Mailing List
+
+    
+
+    - Context & Background Materials
+
+    
+
+    - Space Jobs & Career Boards
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Monday, December 27, 2010
+
+Canada's Military Space Policy:
+
+Part 2, The Changing Political Landscape
+
+
+
+The recent announcement that the Department of National Defence (DND) is set to release an "
+updated " but not substantially changed Canadian military space policy over the next few
+months suggests a series of obvious questions.
+
+
+
+Image:
+http://3.bp.blogspot.com/_SjnNZeKhheo/TRk4RNWFWcI/AAAAAAAAAlY/caNyX89b6bo/s200/Jean_Chretien_2010.jpg
+Jean Cretien, the 20th Prime Minister of Canada.
+
+In part one of this blog post, titled " The Axworthy Doctrine ," I attempted to answer some of
+those questions by showing how the dissolution of the Soviet Union in the early 1990's led
+Canada to re-orient defense spending away from traditional Canadian priorities and towards
+international peacekeeping missions as defined by the concept of " human security ."
+
+
+
+This doctrine, initially viewed by the governing liberal party under Jean ChrÃ©tien as a
+great way to save money, also created a requirement to support a far more combat capable force
+on lengthy international missions.
+
+
+
+The easiest way to do that, at least according to the Summer 2000 Canadian Military Journal
+article " Is the Sky Falling? Canada's Defence Space Program at the Crossroads ," was to
+develop an indigenous military space communications and surveillance capability.
+According to the article:
+
+The massive troop deployments of the 1990s highlighted the immediate requirement for
+adequate indigenous Military Satellite Communications (MILSATCOM). The increased
+employment of precision guided munitions demonstrated a growing dependence on accurate
+strategic intelligence, satellite imagery, and satellite navigation and positioning.
+Also, the general increase in littoral operations by naval forces placed a greater
+dependence on accurate meteorological and geodetic capabilities.
+
+
+
+As the (Canadian) government continued to commit Canadian Forces across the world, more and
+more space support was necessary. Reluctantly perhaps, the Liberal government accepted
+that the militarization of space was a long-existing fact that had to be publicly supported if
+it was to meet other foreign policy goals. Why was the Liberal government reluctant to accept
+the " militarization of space " as a long existing fact? According to the article there was
+ample precedent for this reluctance:
+
+
+
+Image:
+http://2.bp.blogspot.com/_SjnNZeKhheo/TRk6Kd5VL7I/AAAAAAAAAlg/b1Vf1RidAvU/s320/Pierre+Trudeau+in+1971.jpg
+Pierre Trudeau, the 15th Prime Minister of Canada in 1971. Canada’s endorsement of the
+United Nation’s treaty banning nuclear weapon tests in 1963 (the Comprehensive Nuclear
+Test Ban Treaty ) and the United Nation’s Outer Space Treaty (UNOST) in 1967 were
+interpreted almost verbatim by Ottawa, and led to the removal of DRB (the Defence Research
+Board ) control from most of Canada’s space projects.
+
+
+
+The first Trudeau government saw no distinction between the militarization of space
+(placing military space assets in orbit) and the ‘weaponization’ of space (placing
+weapons in orbit), and moved quickly to deprive Canada’s military of any space assets or
+capability.
+
+
+
+In 1968, the government withdrew financial support from most defence space projects,
+preferring instead to concentrate its resources on the development of a domestic satellite
+communications system. In essence, the longtime Canadian government policy, starting from
+the 1960's and continuing at least until the middle 1990's, was to simply " withdraw financial
+support " from the military in favor of civilian programs (like Telesat Canada , a federal
+government crown corporation formed in 1969 to improve communications in the far North) and
+scientific satellites.
+
+
+
+But by 1994, this historic neglect of the Canadian military was no longer a reasonable option.
+According to the article:
+
+As future space technologies all but eliminate Canada’s traditional geographic
+situational importance, Ottawa will have to rely on providing a share of the security burden
+rather than relying on the outdated American involuntary guarantee of protection. These new
+technologies, and the potential for even more radical improvements on the horizon helped the
+Canadian military to push forward a plan to insure that a requirement for a Canadian
+communications and surveillance capability would be at the core of the 1998 military space
+policy.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_SjnNZeKhheo/TRk8x5aRgXI/AAAAAAAAAlk/lXla70zgazA/s1600/War+on+Terror.jpg
+But almost immediately, the Canadian military's precarious financial position virtually
+guaranteed the continued, heavy reliance on foreign, mostly US space assistance to fulfill
+defense needs which put a considerable strain on that relationship.
+
+
+
+As well, an evolving US strategy (ironically enough, based on core concepts quite similar to
+those found in the Canadian advocated Axworthy Doctrine) slowly caused the ChrÃ©tien
+government to back away from some of the more critical practices associated with the US " war on
+terror ."
+
+
+
+So we've moved away from the situation existing throughout the 1960's to the 1990's where
+Canadian space policy provided no support whatsoever for military projects to the point
+where where the federal government perceives a need to develop an indigenous military space
+communications and surveillance capability to support Canadian troops on international
+missions and knew that they couldn't just rely on the Americans to do the job for them.
+
+
+
+This brings us to the period around 2008 and the Harper Governments Canada First - Defense
+Strategy . How does the issuance of that government policy paper influence and effect the
+current and potential next Canadian military space policy document?
+
+
+
+That will be the subject of our 3rd post on this topic . Posted by Chuck Black 0 comments Links to
+this post
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://www.blogger.com/img/icon18_edit_allbkg.gif Labels: Canadian Space
+Strategy , Commercial Space Activities , Department of National Defence , History , long term
+space plan , Sapphire , Science and Policy Canada's Military Space Policy:
+
+Part 1, The Axworthy Doctrine
+
+
+
+The recent announcement by Colonel AndrÃ© Dupuis, the Director of the Department of
+National Defence (DND) Directorate of Space Development (DSpaceD) that DND is set to release
+an " updated " but not substantially changed Canadian military space policy early in 2011
+suggests a series of obvious questions.
+
+
+
+Image:
+http://3.bp.blogspot.com/_SjnNZeKhheo/TRjiR1I941I/AAAAAAAAAlA/M6h-1y-BFRA/s1600/Lloyd+Axworthy.jpg
+Lloyd Axworthy, as drawn by Graeme Mackay . At the very least, if the new policy is going to be
+pretty much the same as the old policy, then what was the old policy?
+
+
+
+For the answer, we need to start with something called the 1994 Canadian White Paper on Defence
+.
+
+
+
+Called the " Axworthy Doctrine " after incoming Liberal MP Lloyd Axworthy (who helped
+originate and champion many of the ideas in the document), the focus of the 1994 white paper was
+to scale back expenditures allocated by the outgoing Conservative government in order to
+allow Canada to take advantage of the so called " peace dividend " expected to accrue to western
+democracies after the collapse of their major opponent, the Soviet Union .
+
+
+
+Included among the cuts was Canada's traditional commitment to the " level and tempo of
+Canada-U.S. defense relations, particularly in NORAD, (the North American Aerospace
+Defense Command , which) has been decreasing since the late1980s " according to the document "
+Canada, Getting it Right This Time: The 1994 Defence White Paper " published by the Strategic
+Studies Institute (SSI) of the United States Army War College .
+
+
+
+Canadian contributions to the North Atlantic Treaty Organization (NATO) were also cut back
+as were Canadian financial contributions to the NATO allied infrastructure program and
+force levels for the CF-18 Hornet fighter jet.
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_SjnNZeKhheo/TRjk_ZxJ_VI/AAAAAAAAAlE/4Kvf_Pcb5ig/s400/NORAD+HQ.jpg
+The current NORAD HQ in Building 2 at Peterson Air Force Base. Cheyenne Mountain is "no longer
+used on a daily basis" according to Wikipedia. But while military cutbacks to Canada's NATO
+and NORAD contributions might seem like a sane and sensible policy for laymen like you and I,
+those cutbacks also undermined two of the four traditional pillars of Canadian military
+policy (the other two are protection of Canadian sovereignty and international
+peacekeeping missions).
+
+
+
+Even worse, the Axworthy Doctrine suggested that direct threats to North American security
+requiring sovereignty protection capabilities were unlikely in the foreseeable future.
+With three of the four traditional justifications for a Canadian military seemingly under
+fire from an incoming government mandated to slash spending, a new rationale was needed for
+Canadian military spending.
+
+
+
+This is where the Axworthy Doctrine got creative.
+
+
+
+It championed a concept called " human security " which challenged traditional notions of
+international security  by arguing that security should be focused around the individual
+instead of the state. It also argued that the United Nations (UN) had a " responsibility to
+protect " people anywhere in the world against genocide and ethnic cleansing attempts, even
+to the extent of invading or interfering in the internal politics of otherwise sovereign
+nations.
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_SjnNZeKhheo/TRjmYbWkdoI/AAAAAAAAAlI/FmwSkGpSMpk/s1600/Shake+Hands+with+the+Devil.jpg
+An account of the 1994 UN mission. Axworthy (who eventually became Minister of Foreign
+Affairs in the Jean ChrÃ©tien liberal government) felt this new Canadian military role
+could be undertaken by the existing Canadian Forces without the need for any additional
+military expenditures. In essence, the ruling liberal government could legitimately task
+the Canadian Forces with the Axworthy Doctrine and still cut military funding.
+
+
+
+Was this a great country or what?
+
+
+
+To be fair, the doctrine was widely considered to be a reasonable response to help prevent a
+repeat of the 1994 Rwandan Genocide where the Canadian commander of a UN peace keeping mission
+(Lieutenant General Romeo Dallaire ) was prevented from taking steps he felt would diffuse
+the situation and save lives.
+
+
+
+But even in this area, the "Axworthy Doctrine" was a two edge sword. According to the Canadian
+Encyclopedia :
+
+It may sound warm and fuzzy on the surface, but underlying that vision is the cold hard
+recognition that military intervention may be necessary to achieve this end. Rejecting the
+sanctity of national borders that has been central to the UN since its founding in 1945, the
+proposal would create a sort of official licence to invade. The concept of a " license to invade
+" rogue regimes for the greater good found an obvious following in the United States
+(especially after 9/11) which initially provided much of the support infrastructure needed
+to send Canadian soldiers around the world.
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_SjnNZeKhheo/TRjoYkf41lI/AAAAAAAAAlM/FIdKkDXpYtk/s400/Other+rogue+regimes.jpg
+A cartoon about another rogue regime. Unfortunately, the Americans soon started making
+noise about how Canada should build their own infrastructure, and not simply piggy back on
+existing US capabilities so Axworthy ended up being wrong about his doctrine not needing new
+expenditures to support combat capable troops on lengthy international missions
+
+
+
+Oddly enough, the easiest way to support the Axworthy Doctrine was to develop an indigenous
+military space communications and surveillance capability to support Canadian missions
+abroad.
+
+
+
+The requirements for this capability (which led directly to the formulation of Canada's 1998
+military space policy) and a bit of background on why there was no Canadian military space
+policy prior to 1998 will be the subject of our 2nd post on this topic . Posted by Chuck Black 0
+comments Links to this post
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://www.blogger.com/img/icon18_edit_allbkg.gif Labels: Canadian Space
+Strategy , Department of National Defence , Science and Policy
+
+Tuesday, December 21, 2010
+
+Holiday Notes from Commercial Space
+
+
+
+For those of you who don't have enough space stories to read over the holiday season, here are
+five items currently being tracked:
+
+
+
+    Image:
+    http://1.bp.blogspot.com/_SjnNZeKhheo/TRDFV_SDgiI/AAAAAAAAAks/taS2cF84qzM/s200/Bob+Richards.jpg
+    Dr. Robert Richards.
+
+    - The December 20th, 2010 National Aeronautics and Space Administration (NASA) press
+    release titled " NASA Selects Companies for Future Lunar Demonstration Data " lists San
+    Fransisco based Moon Express Inc. as one of three companies receiving delivery orders
+    under the Innovative Lunar Demonstrations Data (ILDD) project to develop vehicle
+    capabilities and demonstrate end-to-end robotic lunar landing missions. Canadian
+    born entrepreneur and Moon Express founder/ team leader Dr. Robert D. Richards is also
+    the founder and former CEO of Odyssey Moon , an Isle of Man based commercial lunar
+    enterprise and the first official contender in the Google Lunar X PRIZE (GLXP)
+    competition. There is no word on why Dr. Richards left Odyssey Moon to form Moon Express,
+    which is also in competition for the GLXP, but his new company seems to have jumped ahead of
+    his old firm (and most of the rest of the GLXP pack) with this NASA announcement. The GLXP
+    offers a total of $30 million in prizes to the first privately funded teams to land a robot
+    on the Moon and successfully complete a series of tasks.
+
+    
+
+
+
+    Image:
+    http://4.bp.blogspot.com/_SjnNZeKhheo/TRDF3ImsAPI/AAAAAAAAAkw/s4S34JR9zLQ/s200/DEXTRE.jpg
+    DEXTRE
+
+    - According to the December 17th, 2010 NASA press release " Dextre's Final Exam Scheduled
+    for December 22-23, 2010 " the scrappy little Canadian contraption officially known as
+    the Special Purpose Dexterous Manipulato r (SPDM), a component of the Mobile Servicing
+    System on the International Space Station (ISS) will finally roll out for duty aboard the
+    ISS. As outlined in my October 3rd, 2010 Commercial Space post " DEXTRE Corner Cutting,
+    Com Dev Deal Making and IAC Storytelling " the final checkout had been delayed because of a
+    July 2010 failure when DEXTRE simply didn't have the capability to remove a
+    failed power controller on the ISS, due to the use of "low fidelity" hardware in order to
+    save money. 
+
+    
+
+    
+
+
+
+    Image:
+    http://3.bp.blogspot.com/_SjnNZeKhheo/TRDGjFAGrVI/AAAAAAAAAk0/LmbxzRNqikc/s200/Pley.jpg
+    Mike Pley
+
+    - Long-time employee and interim chief executive officer Mike Pley has been confirmed as
+    permanent CEO of space hardware manufacturer Com Dev International according to the
+    December 14th, 2010 CNW Group press release " COM DEV names Michael Pley as CEO ." Fired CEO
+    John Keating doesn't seem to have done anything wrong during his tenure, except perhaps
+    for being in the wrong place at the wrong time, according to the December 14th, 2010 Ottawa
+    Business Journal article " Com Dev makes CEO permanent in bid to boost profitability "
+    which quotes Com Dev chair Terry Reidel as stating that " we determined that our
+    performance targets can best be achieved through a course correction rather than
+    through sweeping change ." Elizabeth Howell, over on the PARS3C blog , in her November
+    11th, 2010 article " COM DEV adds another satellite win to roster " says the Cambridge,
+    Ont.-based firm is relying on repeat business from existing customers to maintain
+    revenue.
+
+    
+
+
+
+    Image:
+    http://3.bp.blogspot.com/_SjnNZeKhheo/TRDIDFGCKKI/AAAAAAAAAk4/ytoJvROfWds/s1600/MDA+logo.jpg
+
+    - Canadian space icon Macdonald Dettwiler (MDA) continues its exceptional run of good
+    luck, according to the December 13th, 2010 Canadian Press article " Quebec invests $9m to
+    aid MacDonald, Dettwiler expand Ste-Anne-de-Bellevue plant ." According to the
+    article, the money comes on top of a no-interest loan of $9 million and " an additional
+    $900,000 " to help train employees. The funds will " allow MDA to make investments they
+    would not have done otherwise ," according to Quebec premier Jean Charest who is quoted in
+    the article. According to an earlier December 3rd, 2010 Ottawa Citizen article " The
+    $25-Billion Question Who gets what... and why " a total of $158.6 million had been spend up
+    until that time in fiscal year 2010 by the various Canadian government departments for a
+    series of MDA contracts relating to satellite and military surveillance technologies.
+    This is up 71% from fiscal year 2009, when the government halted the sale of the BC firm to a
+    US company for security reasons and the December 13th announcement will only add
+    additional revenue to MDA bottom line.
+
+    
+
+    
+
+
+
+    
+
+    - And finally, US astronaut Donald R. Pettit , known around NASA as an uncommonly gifted
+    handyman capable of rebuilding a jet engine in his garage workshop (at least according to
+    the November 14th, 2008 New York Times article " Handyman to Return to His Space Workshop
+    ") can also claim a patent for a zero-gravity coffee cup, which used the wetting angle to
+    carry the coffee along a crease to permit drinking and avoid the necessity of a straw. A
+    newer version of the cup (perhaps with a jaunty Canadian flag on the outside plus a couple
+    of pounds of Tim Horton's coffee) seems like an appropriate present for Canadian
+    astronaut Chris Hadfield , who is currenty training to become the second Canadian to take
+    part in a long-duration spaceflight aboard the ISS beginning in 2012.
+
+    
+
+Mmm... Now I know what I want for Christmas.
+
+
+
+Anyway, happy holidays to all from the Commercial Space blog. Posted by Chuck Black 0 comments
+Links to this post
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://www.blogger.com/img/icon18_edit_allbkg.gif Labels: Com Dev , Commercial
+Space Activities , DEXTRE , NASA , Robert Richards
+
+Monday, December 20, 2010
+
+ASX Announces 2011 Symposium Speakers
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_SjnNZeKhheo/TQ_PF9dkreI/AAAAAAAAAkc/TJRQ_NjM3-A/s200/asx_black-bg_crop-300x118.jpg
+ASX in 2011. Media savvy. Since incorporating as a nonprofit in 2003, the community managed
+Astronomy & Space Exploration Society (ASX) at the University of Toronto has grown into one of
+the largest space focused organizations in Canada with approximately 2300 members building
+public events to educate, excite, and inspire students, professionals and the general
+public on astronomy and space.
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_SjnNZeKhheo/TQ_vF6cnFDI/AAAAAAAAAkk/-GAujHRK0zo/s200/Billboards+in+Space.jpg
+Pizza for ISS in 2001 . Not media savvy. They're a knowledgeable group of up and coming experts
+who bring marketing savvy and social media expertise to an industry long dominated by the dull
+press releases and boring media advisories that more properly belong to an earlier era.
+
+
+
+Lately, ASX members have branched out to share their knowledge with other organizations. ASX
+past president Farnaz Ghadaki spoke on 'Next Generation Considerations for
+Commercialization of Space' and 'Space Marketing' at the 2010 Canadian Space Summit while
+another ASX past president, Tahir Merali was a plenary speaker at the 61st Annual
+International Astronautical Congress (IAC2010), held in the Czech Republic last October.
+
+
+
+But the core focus for the organization has always been the January " Expanding Canada's
+Frontiers " symposium and the lineup for their 8th annual event, scheduled for Friday,
+January 28th, 2011 from 7:00-9:00 PM has just been released. The focus for 2011 is on
+"unraveling the universe" with speakers including:
+
+    
+
+    - Dr. Alexei Vladimir Filippenko , a professor of astronomy at the University of
+    California, Berkeley and a member of the National Academy of Sciences . Filippenko is
+    considered to be one of the worlds most highly sited astrophysicists and has spearheaded
+    efforts to develop robotic telescopes, including the Katzman Automatic Imaging
+    Telescope (KAIT), which is helping to conduct the Lick Observatory Supernova Search
+    (LOSS). He is also a prominent member of both the High-Redshift Supernova Search Team and
+    the Hubble Space Telescope Nuker Team which uses high-resolution imaging and
+    spectroscopy to investigate the structure and dynamics of normal galaxies. His
+    research focuses on supernovae and active galaxies at optical , ultraviolet , and
+    near-infrared wavelengths. 
+
+    
+
+    
+
+    - Dr. Michel Lefebvre , a professor in the Department of Physics and Astronomy at the
+    University of Victoria  who founded the Canadian ATLAS collaboration which
+    contributed to the construction of the ATLAS particle detector that currently study
+    high energy proton-proton collisions in the Large Hadron Collider , at the European
+    Organization for Nuclear Research (CERN). Lefebvre has also served on and chaired the
+    Subatomic Physics Grant Selection Committee of the Natural Sciences and Engineering
+    Research Council of Canada (NSERC). His research focuses on high energy particle
+    physics, the development, the origin of mass and quantum field gauge theories. 
+
+    
+
+    
+
+    - Dr. Gilbert Holder , an associate professor of physics at McGill University . He is
+    also the chairholder of the Canada Research Chair in Cosmological Astrophysics and a
+    scholar with the Canadian Institute for Advanced Research ’s (CIfAR) Cosmology &
+    Gravity Program. His research focuses on astrophysics and cosmology, studies of the
+    cosmic microwave background, large scale structure in the universe, dark energy, the
+    first stars and massive clusters of galaxies.
+
+    
+
+
+
+Image:
+http://2.bp.blogspot.com/_SjnNZeKhheo/TQ_g8ynpL8I/AAAAAAAAAkg/0kDvzix8j7o/s400/Convocation+Hall.jpg
+Convocation Hall at the University of Toronto.
+
+Image:
+http://3.bp.blogspot.com/_SjnNZeKhheo/TRAO7wcniEI/AAAAAAAAAko/_YGGmkOub5M/s200/Inside+Convocation+Hall.jpg
+Inside Convocation Hall. The event typically draws a large crowd exceeding 1000 and will be
+held in the ample facilities at  Convocation Hall , 31 Kings College Circle on the University
+of Toronto campus.
+
+
+
+The event is free for current U of T students who have registered in advanced ( click here for
+student registeration ), $15 dollars CDN until January 6th, 2011 for those of us who are no
+longer in school ( click here for non-student registration ) and $20 dollars CDN after January
+6th for those of us who are simply a little slow to register. Posted by Chuck Black 0 comments
+Links to this post
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://www.blogger.com/img/icon18_edit_allbkg.gif Labels: 2010 Canadian Space
+Summit , Canadian Space Society , Universities and Science
+
+Tuesday, December 14, 2010
+
+Canadian Teachers Funding American Rockets
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_SjnNZeKhheo/TQjBtIHjmwI/AAAAAAAAAkU/Dr1GS0g1xu4/s1600/Proposed+Kistler+K-1.jpg
+The proposed K-1 reusable rocket The December 11th, 2010 Milwaukee Journal Sentinel Online
+article " Financial meltdown scuttles dreams of Green Bay's rocket man " tells the story of
+businessman George French, who almost succeeded in turning his private dream of going to
+space into direct competition with Space Exploration Technologies (Space-X) for a series of
+lucrative government contracts to supply the International Space Station (ISS).
+
+
+
+According to the article, "French enlisted a high-tech investment bank to help raise the
+serious capital and secured commitments, he said, for more than $300 million, much of it from a
+Canadian teachers' pension fund."
+
+
+
+Say again? An unnamed Canadian teachers pension fund investing serious money in an American
+space focused start-up?
+
+
+
+Mmm...
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_SjnNZeKhheo/TQi-zXRu5vI/AAAAAAAAAkM/RmKyGAm4SVc/s1600/Rocketplane+PR+Image.jpg
+Rocketplane PR image. The article tells the story of Rocketplane , an Oklahoma based, space
+tourism start-up incorporated in 2001 under founder and CEO French, using his own funds and
+Oklahoma state law provisions allowing the company to claim and then resell state approved
+tax credits as a qualified space transportation provider in order to raise money.
+
+
+
+French initially envisioned building an aircraft, rocket hybrid that would send passengers
+more than 330,000 feet (100 km) above the Earth. Rocketplane was an early competitor for the
+Ansarii X-Prize which was eventually won by the Burt Rutan designed SpaceShipOne .
+
+
+
+But Rocketplane eventually needed to branch out.
+
+
+
+In 2006, after failing to win the X-Prize, the company purchased Kistler Aerospace Corp.,
+which had just gone through bankruptcy but possessed a potential design for a reusable
+orbital rocket, the K-1 . The combined company then used the orbital rocket design as a basis
+for a winning bid to develop crew and cargo launch services, as part of the NASA Commercial
+Orbital Transportation Services (COTS) program, for the International Space Station .
+
+
+
+Image:
+http://3.bp.blogspot.com/_SjnNZeKhheo/TQjAs6jUy_I/AAAAAAAAAkQ/LxXc8zunTw4/s200/SPACEX%2526K1+comparison.gif
+Comparison between Space-X Falcon 9 and K-1
+
+This is where the real serious trouble started.
+
+
+
+The COTS contract shook loose some seed money, but according to the article "it was nowhere
+near the hundreds of millions the company needed to build and launch the K-1."
+
+
+
+But it did include substantial amounts from the unnamed Canadian teachers pension fund.
+
+
+
+However, according to the article, the teachers money wasn't enough and the sub-prime
+mortgage crisis turned Wall Street cold on raising further funds. NASA, after twice
+postponing a deadline for Rocketplane to show a bank balance sufficient to complete the
+project, canceled the contract and went with Space-X.
+
+
+
+The various entities which made up Rocketplane slowly went bankrupt or shut down with the
+final component ( Rocketplane Kistler ) sliding into bankruptcy protection on June 15th,
+2010.
+
+
+
+The article makes no mention about whether the unnamed Canadian teachers pension fund ever
+got it's money back, but budding Canadian entrepreneurs should take note that sometimes,
+staid institutional investors just might put money in projects, even when they are just a
+little bit "out of this world."
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_SjnNZeKhheo/TQeVUxpDuFI/AAAAAAAAAkI/09kYOjtm93w/s400/rocketplane_infograph_800.jpg
+Rocketplanes proposed conversion  of a business jet into a rocket ship. Posted by Chuck
+Black 0 comments Links to this post
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://www.blogger.com/img/icon18_edit_allbkg.gif Labels: Commercial Space
+Activities , Funding "rocket science"
+
+Sunday, December 12, 2010
+
+NASA's Direction and Canada's Opportunity
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_SjnNZeKhheo/TQVYdsXC0uI/AAAAAAAAAj8/zyZ3vklKdBA/s1600/Canadian+Flag.JPG
+While it's true that "it ain't over until it's over" the outlines of the new direction for the
+National Aeronautics and Space Administration (NASA) are finally beginning to come clear.
+
+
+
+Canadian companies, and especially the Canadian Space Agency (CSA) should take a close look
+to note that the American plans don't seem to include any specific requirement for Moon or
+Martian rovers.
+
+
+
+They are instead focused on smaller investments in multiple areas (especially alternative
+propulsion technologies such as VASIMR or ion engines of the types used on the Hayabusa
+unmanned spacecraft ) to encourage the development of a series of breakthrough
+technologies.
+
+
+
+There's even a Facebook page, titled " NASA's New Direction: Space Propulsion and Power "
+which provides links to some of the new technologies being developed and background
+materials outlining the reasons for the new focus.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_SjnNZeKhheo/TQVh0GEo41I/AAAAAAAAAkA/HdldHlzV_KM/s400/US+House.jpg
+The US House of Representatives. Even at the political level, the deal is close to being done
+with money allocated across the board to include development of a new heavy lift rocket , plus
+the continuation of the commercial, off the shelf (COTS) program and the commercial crew
+development (CCDev) program.
+
+
+
+The December 9th, 2010 article on the Space Politics blog titled " CR passes House, with an
+interesting shuttle provision " states:
+
+The House last night narrowly approved a yearlong continuing resolution last night . The
+bill, as previously noted here , splits the difference between the authorized level of $19
+billion for NASA and the FY10 level of just over $18.7 billion, and includes funds for HLV
+development as well as COTS and commercial crew. The Senate plans to develop its own omnibus
+spending bill which, Sen. Bill Nelson (D-FL) tells Florida Today, would also fund NASA at
+$18.9 billion , but allocate funds among various programs differently. There’s some
+question, though, if the Senate version would win out over the House’s CR. The most recent
+visible activity related to COTS and CCDev is last weeks successful launch by Space
+Exploration Technologies (Space-X) of it's Falcon 9 rocket and the recovery of the payload
+Dragon capsule .
+
+
+
+Media pundits (including me, last week in this CTV interview ) have called it a "milestone" and
+the "first successful private launch into orbit."
+
+
+
+
+
+
+
+Of course, most of the big ticket NASA funding is politically directed and designed to provide
+a cushion to large aerospace focused companies with contracts winding down and employees
+likely to loose their jobs.
+
+
+
+But the real key to NASA's future is epitomized by people like recently appointed NASA chief
+technologist Robert Braun . Here's a talk he gave earlier this year on the topic of NASA's
+future.
+
+
+
+
+
+
+
+Of particular interest in the presentation is the focus on developing multiple avenues for
+"breakthrough" technologies which, when taken together, create the capability to send
+increasing numbers of large "two story house" sized objects to Mars in order to provide a
+platform for manned exploration of the red planet.
+
+
+
+This path seems to be at odds with the recent Canadian focus on smaller, unmanned rovers using
+existing or incremental technological improvements in order to explore Mars on a smaller
+scale and remotely.
+
+
+
+The CSA, with it's focus on smaller rovers and the next generation Canadarm funded through the
+$110 million Canadian Economic Action Plan , might not be in a position to take advantage of the
+American opportunities as they develop, especially since the Canadian fund is scheduled to
+wind down in March 2011, well before the Americans get down to their business of  developing
+the next generation of useful space technologies.
+
+
+
+Left hope we're not left behind when our money runs out. Posted by Chuck Black 0 comments Links
+to this post
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://www.blogger.com/img/icon18_edit_allbkg.gif Labels: CanadArm , Canadian
+Space Agency , Canadian Space Strategy
+
+Tuesday, December 07, 2010
+
+Muslim Pride Supporting Canadian Spaceport
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_SjnNZeKhheo/TP4-a4IlQDI/AAAAAAAAAj0/dlSxOnQQ4uI/s200/Redouane.jpg
+BC astronomer, Dr. Redouane Al Fakir. 
+
+
+
+The Vancouver based Mohammad Institute for Space Science doesn't want to wait for a Canadian
+Space Agency (CSA) contract before moving forward with space exploration.
+
+
+
+According to the December 5th, 2010 Canadian Press article, " Head of Muhammad Institute
+wants B.C. space-launch site ," the institute is raising money to build a Canadian commercial
+space port off the coast of Vancouver using funds from private investors in Qatar , Saudi
+Arabia , the United Arab Emirates plus other gulf and Muslim states.
+
+
+
+The article quotes the head of the Muhammad Institute, Dr. Redouane Al Fakir as stating that
+his goal has always been to " return Muslims to the place of pride they held, centuries ago, as
+world leaders in astronomy ."
+
+
+
+To that end, Dr. Al Fakir says he's secured $250,000 in startup money from overseas sources and
+has begun an international fund raising drive to raise the estimated $100-million it would
+take to build the facility.
+
+
+
+
+
+
+
+The three year old organization has a number of other projects on the go including an orbital
+telescope and a plan to land a small unmanned research spacecraft on the Moon by 2015 according
+to the October 25th, 2010 AhlulBayt News Agency post " Mohammd Moon Station to Be Set Up ."
+
+
+
+The organizations website at www.muhammadinstitute.org goes into quite a bit of detail
+about what they call Mohammad Moon Station 1 and offer the ability to participate in the
+mission with a symbolic donation so it would seem easy enough to dismiss their claims as simple
+publicity. 
+
+
+
+However the page listing the people at the Muhammad Institute include influential
+scientists and space advocates who I would be loath to dismiss without at least giving them
+some opportunity to follow up on their claims.
+
+
+
+The September 1st, 2009 Vancouver Sun article " B.C. astronomer reviving Islamic science "
+reports substantial support among the BC based scientific community for the organization:
+
+Al Fakir's far-reaching goals are being supported by dozens of the world's leading thinkers
+and scientists, including the former head of UBC's interdisciplinary studies program,
+Rhodri Windsor-Liscombe, and renowned UBC astronomer Bill Unruh.
+
+
+
+"I find Redouane's plans highly commendable and ambitious," Unruh said.
+
+ 
+
+"His goal ... is to try to increase the visibility and practice of science in the world's Muslim
+communities by bringing together their scientists with the best established scientists
+from around the world, independent of their religious or non-religious affiliation."
+
+ 
+
+Unruh believes the wider scientific community feels "a lot of goodwill" toward Al Fakir's
+enterprise, as reflected in the long list of high-calibre scientists who have become
+associated with his plans. The fund raising for the spaceport will be done under the
+organizational umbrella of a company called Space Launch Canada and not under the banner of
+the Muhammad Institute, but $100 million CDN is a lot of money for any organization to raise.
+
+
+
+However, I'm open to seeing what Dr. Al Fakir is able to generate over the next few years. Posted
+by Chuck Black 0 comments Links to this post
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://www.blogger.com/img/icon18_edit_allbkg.gif Labels: Canadian Space
+Strategy , Commercial Space Activities , Funding "rocket science" , Science and Policy ,
+Universities and Science
+
+Sunday, December 05, 2010
+
+"Faces of Space" at the University of Toronto
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_SjnNZeKhheo/TPw1E_hLXLI/AAAAAAAAAjw/eY6p2QK2eTs/s1600/Hart+House.jpg
+The Hart House tower. Farnaz Ghadaki, one of my colleagues at the Canadian Space Commerce
+Association (where I currently serve as secretary/ treasurer and one of the five directors)
+has signed me up for the next Astronomy and Space Exploration Society (ASX) "Faces of Space"
+talk at the University of Toronto .
+
+
+
+I'll be speaking this Thursday, December 9th, at the St. George campus Hart House building
+(located at 7 Hart House Cir, Toronto) in the East Common Room (starting at 7pm EST) on the topic
+of the commercialization of space.
+
+
+
+Ghadaki and ASX president Ray Chen have also said that I'm only able to babble on for forty-five
+minutes or so before shutting up and letting the audience ask some questions.
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_SjnNZeKhheo/TPw0swkykhI/AAAAAAAAAjs/Cd37J3T_uAM/s1600/Hart+House+location.jpg
+The map to Hart House. This might be difficult given that I've written 160+ short 500 word
+articles over the last eighteen months for both this blog and Spaceref.ca on the topic of space
+commercialization.
+
+
+
+Either there is a lot involved to the topic or I'm very long winded. Anyway, all are welcome to
+come out and see which one it is.
+
+
+
+There is no charge for the event (but please RSVP to space.society@utoronto.ca , and include
+as the subject line "FoS1").
+
+
+
+Afterwords, most of us are going to the Molly Bloom Irish Pub at 191 College Street to network
+and share tall tales of daring and adventure. Posted by Chuck Black 0 comments Links to this
+post
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://www.blogger.com/img/icon18_edit_allbkg.gif Labels: About this blog ,
+Commercial Space Activities Utilizing the Canadian Economic Action Plan
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_SjnNZeKhheo/TPu28TPu9UI/AAAAAAAAAjg/ed0IhkDr5oY/s200/canadian-money.jpg
+Except for the RADARSAT constellation program (which is separately funded by the federal
+government), one or two Canadian military programs (such as Sapphire ) and any money that
+might be saved by downsizing it's astronaut corps (which is what the US is studying, according
+to the December 1st, 2010 article in the Los Angeles Times titled " Astronauts considered in
+NASA budget cuts "), the Canadian Space Agency (CSA) yearly budget of approximately  $375
+million doesn't really do much more than support existing infrastructure and maintain
+ongoing projects.
+
+
+
+In essence, it provides enough cash on hand to keep the lights on at CSA headquarters in the John
+H. Chapman Space Centre , but not a whole lot more.
+
+
+
+That's why the Canadian Economic Action Plan , with its additional $110 million CDN allocated
+for exploration surface mobility (Moon rovers) and the next generation Canadarm is so
+important to the CSA. The action plan provides the only real funding for pretty much
+everything new the CSA is going to be able to develop over the next few years.
+
+
+
+Image:
+http://3.bp.blogspot.com/_SjnNZeKhheo/TPuut98KjXI/AAAAAAAAAjc/LXJwajxPRko/s400/CanSpaceAgency_4.jpg
+Lights on at CSA HQ. Photo courtesy WZMH Architects . Unfortunately, this program is winding
+down in March 2011.
+
+
+
+For those of us who follow these things, here is a partial list of Canadian companies and
+organizations involved in recent contracts awarded to Neptec Design Group and Macdonald
+Dettwiler (MDA) for $11.5 million each to build the lunar exploration light rover (LELR)
+prototype.
+
+    
+
+    - The Neptec project will include contributions from Ontario Drive and Gear , Com Dev
+    Canada , McGill University , the Northern Centre for Advanced Technology (NORCAT) and
+    NGC Aerospace . 
+
+    
+
+    
+
+    - The MDA project will " develop two next-generation lunar rover prototypes " according
+    to the November 19th, 2010 Vancouver Sun article " MDA inks 11.5m deal for two lunar rovers
+    " and will be integrated with a number of other Canadian technologies being developed
+    under " separate MDA contracts. " This likely means that MDA will develop most of their
+    prototype internally while Neptec depends on external expertise.
+
+    
+
+It's worth noting that, according to the November 22nd Spaceref.ca article " MDA and Neptec
+Awarded Contracts to Build Lunar Exploration Light Rover Prototypes ," the awarded
+contracts are simple design studies and no actual rovers may ever get built:
+
+Currently there is no funding to develop a production lunar rover that would actually go to the
+moon. However the investments made to date are intended to position Canada in such a way that if
+Canada's space exploration partners agree on a rover mission to the Moon that Canada would be
+poised to contribute in a significant way. So the CSA is essentially " working on spec "with the
+lunar rover program, investing time and resources with no guarantee of future funding and no
+real market (so far).
+
+
+
+The primary funding program for the rovers is also winding down next spring. It will be
+interesting to see if this CSA gamble to develop new projects for future space missions ever
+pays off. Posted by Chuck Black 0 comments Links to this post
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://www.blogger.com/img/icon18_edit_allbkg.gif Labels: CanadArm , Canadian
+Space Agency , Canadian Space Strategy , Funding "rocket science" Newer Posts Older Posts
+Home Subscribe to: Posts (Atom) Subscribe now to the Space Conference News (SCN)
+Subscription Service and and receive three months advanced notice of 90+ space science,
+technology, engineering and mathematics events every month.
+
+... One Month Subscription: $39.95 CAD - monthly One Year Subscription: $199.95 CAD - yearly
+
+Image: https://www.paypalobjects.com/en_US/i/scr/pixel.gif The latest edition ,
+covering October, November and December 2012 is on sale now.
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+ShareThis
+
+var switchTo5x=false;stBlogger2.init("http://w.sharethis.com/button/buttons.js",
+{"sharethis":["","ShareThis",""]} );var f =
+document.getElementById("st_finder");var c =
+f.parentNode.parentNode.childNodes;for (i=0;i<c.length;i++) { try {
+c[i].style.display = "none"; } catch (err) {}}
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Loading...
+#uds-searchControl .gs-result .gs-title, #uds-searchControl .gs-result .gs-title *,
+#uds-searchControl .gsc-results .gsc-trailing-more-results, #uds-searchControl
+.gsc-results .gsc-trailing-more-results * { color:#0b5394; } #uds-searchControl
+.gs-result .gs-title a:visited, #uds-searchControl .gs-result .gs-title a:visited * {
+color:#6fa8dc; } #uds-searchControl .gs-relativePublishedDate, #uds-searchControl
+.gs-publishedDate { color: #999999; } #uds-searchControl .gs-result a.gs-visibleUrl,
+#uds-searchControl .gs-result .gs-visibleUrl { color: #cc6600; } #uds-searchControl
+.gsc-results { border-color: #cccccc; background-color: #ffffff; } #uds-searchControl
+.gsc-tabhActive { border-color: #cccccc; border-top-color: #cc6600; background-color:
+#ffffff; color: #333333; } #uds-searchControl .gsc-tabhInactive { border-color:
+#cccccc; background-color: transparent; color: #0b5394; } #uds-searchClearResults {
+border-color: #cccccc; } #uds-searchClearResults:hover { border-color: #cc6600; }
+#uds-searchControl .gsc-cursor-page { color: #0b5394; } #uds-searchControl
+.gsc-cursor-current-page { color: #333333; }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Recent Useful Articles
+
+Two Billion Dollars for the Canadian Space Agency - A budget primer.
+
+
+
+The Hard Truth About the Budget and Canadian Space - Reviews are mixed.
+
+
+
+Global Space Industry Grows 41% Over Five Years - Faster than other sectors.
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blogs Being Tracked
+
+    
+
+    - 21st Century Waves The Napoleon of the Poles and Our Future in Space 1 day ago
+
+    
+
+    - AIAC - Latest News Statement from AIAC in response to the appointment of Tom Jenkins as
+    Special Advisor to the Minister of Public Works 4 days ago
+
+    
+
+    - Centauri Dreams Collier’s: Gorgeous Art, Breathtaking Ideas 2 hours ago
+
+    
+
+    - Coalition for Space Exploration CSExtra – Tuesday, October 2, 2012 4 hours ago
+
+    
+
+    - Defence Watch Defence Watch Is On Assignment – Posts Start Again On Oct. 6 5 days ago
+
+    
+
+    - ESA Top News A curious cold layer in the atmosphere of Venus 1 day ago
+
+    
+
+    - EurekAlert! - Business and Economics Research!America honors trailblazers in health
+    research advocacy 12 hours ago
+
+    
+
+    - Evadot Find a way or make one 1 month ago
+
+    
+
+    - Export Law Blog Brits Target Propofol Exports to U.S. 5 days ago
+
+    
+
+    - floridatoday Delta IV rocket prepped for Thursday launch 1 day ago
+
+    
+
+    - hacklab Toronto Letting the magic blue smoke out. 1 week ago
+
+    
+
+    - Hyperbola Mars Curiosity Rover finds smooth round pebbles pointing to river erosion 4
+    days ago
+
+    
+
+    - IPinSpace One Spark Event may Ignite your Space Startup 5 days ago
+
+    
+
+    - Kentucky Space Blog CubeSat launcher improvement: "more complex missions" 1 day ago
+
+    
+
+    - MaRS Discovery District Sir Ken Robinson brings his insight and passion to MaRS 3 hours
+    ago
+
+    
+
+    - Moonandback Jeff Krukin — The NewSpace Industry | Moonandback Interview 1 hour ago
+
+    
+
+    - MSNBC Cosmic Log Postage stamps celebrate the planet 14 hours ago
+
+    
+
+    - NASA Watch Orbital and SpaceX Make Progress 12 hours ago
+
+    
+
+    - NASASpaceFlight.com Orbital’s Antares closing in on debut launch following pad
+    arrival 19 hours ago
+
+    
+
+    - New Space from Scoopit Jeff Krukin -- NASA Love Affair | Moonandback 13 hours ago
+
+    
+
+    - NewSpace Journal Rowling’s curious cosmic vacancy 2 days ago
+
+    
+
+    - NewSpace Watch October 2012 Issue of Thruster - NewSpace Global's Monthly Market
+    Tracking Report 2 hours ago
+
+    
+
+    - Planetary Society Blog Beautiful rocks ahead at Glenelg, but first, Curiosity must dig
+    in the sand 17 hours ago
+
+    
+
+    - RE$EARCH MONEY Opinion Leader: Dr Daniel Woolf, Principal and Vice-Chancellor,
+    Queen's University 1 week ago
+
+    
+
+    - Reddit Space News Spectacular view of ATV-3 & ISS in orbit (undocked on the 28th sept. and
+    impact forecast on the 3rd oct.) 21 hours ago
+
+    
+
+    - Res Communis IAC 2012, Naples, Italy 8 hours ago
+
+    
+
+    - Space Boomerang Australian Space Policy to be called "Satellite Utilisation Policy" 3
+    hours ago
+
+    
+
+    - Space Conference News Upcoming Events for October 2012 2 weeks ago
+
+    
+
+    - Space Policy Online Orbital's Antares Rolls Out to Pad as NASA Celebrates 54th Birthday
+    1 day ago
+
+    
+
+    - Space Politics O’Keefe: president still defining NASA’s mission 2 hours ago
+
+    
+
+    - Space Prizes Space Prize Roundup: Skybox Imaging and Conrad Foudation, UAV Outback
+    Challenge, Reach for the Stars Rockets, More 13 hours ago
+
+    
+
+    - SPACE.com Journey with Atlantis: Public Invited to Last Space Shuttle Delivery 33
+    minutes ago
+
+    
+
+    - SpaceDaily.Com Measuring the universe's 'exit door' 9 hours ago
+
+    
+
+    - Spaceports APPLY NOW: Miner Job Opportunities 1 hour ago
+
+    
+
+    - SpaceRef Canada Next Generation Canadarms Unveiled at MacDonald Dettwiler Facility
+    in Brampton 4 days ago
+
+    
+
+    - Surry Satellite Space blog SSTL showcases innovation at the IAC 5 days ago
+
+    
+
+    - Talking Space Online Episode 430: My Science in Space, Ready, Set, Go! 3 days ago
+
+    
+
+    - Team Phoenicia 3rd Annual Team Phoenicia Nanosat Launcher Seminar: Registration Now
+    Open 1 week ago
+
+    
+
+    - The Night Sky Guy Giant Asteroid Rich in Hydrogen 1 week ago
+
+    
+
+    - The Once and Future Moon Hit-and-Run Science 3 days ago
+
+    
+
+    - The Star Spot Episode 13: Ancient Aliens, Astrology, and Pseudoatronomy, with Guy P.
+    Harrison 1 week ago
+
+    
+
+    - UK Rocketeers High-altitude bioprospecting 3 days ago
+
+    
+
+    - University Affairs E-learning company gets $3.5 million to set up in N.L. 9 hours ago
+
+    
+
+    - UrtheCast UN’s Earth Watch: Monitoring Disasters from Space 17 hours ago
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://3.bp.blogspot.com/-pdz7V7xYK4U/TlHGMPY3FZI/AAAAAAAAA50/rQ6xm4eZSDo/s1600/UPCOMING_EVENTS.jpg
+
+For the comprehensive list of 90+ upcoming STEM focused conferences in October 2012, check
+out the Space Conference News blog by clicking on the graphic above.
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png new TWTR.Widget({
+version: 2, type: 'profile', rpp: 14, interval: 30000, width: 220, height: 400, theme: {
+shell: { background: '#ababab', color: '#ffffff' }, tweets: { background: '#ffffff',
+color: '#262626', links: '#545bde' } }, features: { scrollbar: true, loop: false, live:
+false, behavior: 'all' } }).render().setUser('acuriousguy').start();
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Archived Posts
+
+    
+
+        - ►  2012 (73)
+
+        - ►  October (1)
+
+        
+
+        
+
+        - ►  September (9)
+
+        
+
+        
+
+        - ►  August (6)
+
+        
+
+        
+
+        - ►  July (3)
+
+        
+
+        
+
+        - ►  June (9)
+
+        
+
+        
+
+        - ►  May (10)
+
+        
+
+        
+
+        - ►  April (9)
+
+        
+
+        
+
+        - ►  March (8)
+
+        
+
+        
+
+        - ►  February (8)
+
+        
+
+        
+
+        - ►  January (10)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (103)
+
+        - ►  December (4)
+
+        
+
+        
+
+        - ►  November (9)
+
+        
+
+        
+
+        - ►  October (11)
+
+        
+
+        
+
+        - ►  September (8)
+
+        
+
+        
+
+        - ►  August (9)
+
+        
+
+        
+
+        - ►  July (10)
+
+        
+
+        
+
+        - ►  June (8)
+
+        
+
+        
+
+        - ►  May (10)
+
+        
+
+        
+
+        - ►  April (8)
+
+        
+
+        
+
+        - ►  March (8)
+
+        
+
+        
+
+        - ►  February (9)
+
+        
+
+        
+
+        - ►  January (9)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2010 (78)
+
+            - ▼  December (9)
+
+            - Canada's Military Space Policy: Part 2, The Changi...
+
+            
+
+            - Canada's Military Space Policy: Part 1, The Axwort...
+
+            
+
+            - Holiday Notes from Commercial Space For those of ...
+
+            
+
+            - ASX Announces 2011 Symposium Speakers ASX in 201...
+
+            
+
+            - Canadian Teachers Funding American Rockets The pr...
+
+            
+
+            - NASA's Direction and Canada's Opportunity While i...
+
+            
+
+            - Muslim Pride Supporting Canadian Spaceport BC as...
+
+            
+
+            - "Faces of Space" at the University of Toronto The...
+
+            
+
+            - Utilizing the Canadian Economic Action Plan Excep...
+
+            
+
+        
+
+        
+
+        
+
+        - ►  November (8)
+
+        
+
+        
+
+        - ►  October (10)
+
+        
+
+        
+
+        - ►  September (2)
+
+        
+
+        
+
+        - ►  June (8)
+
+        
+
+        
+
+        - ►  May (10)
+
+        
+
+        
+
+        - ►  April (8)
+
+        
+
+        
+
+        - ►  March (9)
+
+        
+
+        
+
+        - ►  February (10)
+
+        
+
+        
+
+        - ►  January (4)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (50)
+
+        - ►  November (8)
+
+        
+
+        
+
+        - ►  October (9)
+
+        
+
+        
+
+        - ►  September (9)
+
+        
+
+        
+
+        - ►  August (3)
+
+        
+
+        
+
+        - ►  July (9)
+
+        
+
+        
+
+        - ►  June (9)
+
+        
+
+        
+
+        - ►  May (3)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://www.topblogs.ca/button.php?u=chuckblack
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png   if
+(window.jstiming) window.jstiming.load.tick('widgetJsBefore'); if
+(typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'6618880';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d6618880','//acuriousguy.blogspot.com/2010_12_01_archive.html','6618880');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '6618880',
+'bloggerUrl': 'http://www.blogger.com', 'title': 'Commercial Space', 'pageType':
+'archive', 'url': 'http://acuriousguy.blogspot.com/2010_12_01_archive.html',
+'canonicalUrl': 'http://acuriousguy.blogspot.com/2010_12_01_archive.html',
+'canonicalHomepageUrl': 'http://acuriousguy.blogspot.com/', 'homepageUrl':
+'http://acuriousguy.blogspot.com/', 'blogspotFaviconUrl':
+'http://acuriousguy.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'12/01/2010 - 01/01/2011', 'pageTitle': 'Commercial Space: 12/01/2010 - 01/01/2011',
+'encoding': 'UTF-8', 'locale': 'en-US', 'isPrivate': false, 'isMobile': false,
+'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false,
+'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42
+type\75\42application/atom+xml\42 title\75\42Commercial Space - Atom\42
+href\75\42http://acuriousguy.blogspot.com/feeds/posts/default\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Commercial Space
+- RSS\42
+href\75\42http://acuriousguy.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Commercial Space - Atom\42
+href\75\42http://www.blogger.com/feeds/6618880/posts/default\42 /\76\n\74link
+rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0756618880\42 /\076', 'meTag': '',
+'openIdOpTag': '', 'googleProfileUrl':
+'https://plus.google.com/111976514537213098381', 'imageSrcTag': '',
+'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#666666', 'linkcolor':
+'#0b5394', 'visitedlinkcolor': '#6fa8dc', 'textcolor': '#333333', 'headerfont':
+'normal normal 78% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif',
+'pagetitlefont': 'normal bold 250% Tinos', 'bgcolor': '#ffffff', 'descriptioncolor':
+'#333333', 'titlecolor': '#cc6600', 'bordercolor': '#cccccc', 'postfooterfont':
+'normal normal 78% \47Trebuchet MS\47, Trebuchet, Arial, Verdana, Sans-serif',
+'pagetitlecolor': '#000000', 'bodyfont': 'normal normal 100% Tinos', 'endSide':
+'right', 'startSide': 'left', 'descriptionfont': 'italic normal 78% \47Trebuchet MS\47,
+Trebuchet, Arial, Verdana, Sans-serif', 'sidebarcolor': '#999999'}, 'override': ''}},
+{'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'},
+'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name':
+'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url':
+'/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'},
+'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name':
+'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1',
+'crosscol', null, document.getElementById('PageList1'), {'title': 'Pages', 'links':
+[{'href': 'http://acuriousguy.blogspot.com/', 'title': 'Home', 'isCurrentPage':
+false}, {'href': 'http://acuriousguy.blogspot.com/p/resume.html', 'title': 'About
+this Blog', 'isCurrentPage': false}, {'href':
+'http://acuriousguy.blogspot.com/p/about-author.html', 'title': 'About the Author',
+'isCurrentPage': false}, {'href':
+'http://acuriousguy.blogspot.com/p/our-weekly-mailing-list.html', 'title': 'Our
+Weekly Mailing List', 'isCurrentPage': false}, {'href':
+'http://acuriousguy.blogspot.com/p/context-background-materials.html', 'title':
+'Context \46 Background Materials', 'isCurrentPage': false}, {'href':
+'http://acuriousguy.blogspot.com/p/page-two.html', 'title': 'Space Jobs \46 Career
+Boards', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image2', 'sidebar',
+null, document.getElementById('Image2'), {'resize': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar',
+null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar',
+null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML5', 'sidebar', null, document.getElementById('HTML5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML3', 'left-sidebar', null, document.getElementById('HTML3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_CustomSearchView', new
+_WidgetInfo('CustomSearch1', 'left-sidebar', null,
+document.getElementById('CustomSearch1'), {'title': '', 'includeBlog': true,
+'includePostLinks': true, 'includeWeb': true, 'linkLists': [], 'blogUrl':
+'http://acuriousguy.blogspot.com/', 'loadingMsg': 'Loading...', 'thisBlogMsg':
+'This Blog', 'linkedFromHereMsg': 'Linked From Here', 'theWebMsg': 'The Web',
+'backgroundColor': '#ffffff', 'textColor': '#333333', 'dateColor': '#999999',
+'linkColor': '#0b5394', 'urlColor': '#cc6600', 'visitedLinkColor': '#6fa8dc',
+'borderColor': '#cccccc', 'activeBorderColor': '#cc6600'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1',
+'left-sidebar', null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList1',
+'left-sidebar', null, document.getElementById('BlogList1'), {'numItemsToShow': 0,
+'totalItems': 44}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML2', 'main', null, document.getElementById('HTML2'), {},
+'displayModeFull'));
+

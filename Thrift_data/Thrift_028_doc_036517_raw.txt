@@ -1,0 +1,691 @@
+
+
+
+
+The Great Geek Manual » This Day in Geek History: August 12 var arrAffiliates = { 'com' :
+'thegregeeman-20', 'co.uk' : 'thegregeeman-21', 'de' : 'thegregeema03-21', 'fr' :
+'thegregeema00-21', 'ca' : 'thegregeema0d-20', 'co.jp' : '', 'jp' : '', 'it' : '', 'cn' : '',
+'es' : '' }; var strUrlAjax =
+'http://thegreatgeekmanual.com/blog/wp-content/plugins/amazon-affiliate-link-localizer/ajax.php';
+//<![CDATA[ function external_links_in_new_windows_loop() { if (!document.links) {
+document.links = document.getElementsByTagName('a'); } var change_link = false; var
+force = ''; var ignore = ''; for (var t=0; t<document.links.length; t++) { var all_links =
+document.links[t]; change_link = false;
+if(document.links[t].hasAttribute('onClick') == false) { // forced if the address starts
+with http (or also https), but does not link to the current domain
+if(all_links.href.search(/^http/) != -1 &&
+all_links.href.search('thegreatgeekmanual.com') == -1) { // alert('Changeda
+'+all_links.href); change_link = true; } if(force != '' && all_links.href.search(force)
+!= -1) { // forced // alert('force '+all_links.href); change_link = true; } if(ignore != '' &&
+all_links.href.search(ignore) != -1) { // alert('ignore '+all_links.href); // ignored
+change_link = false; } if(change_link == true) { // alert('Changed '+all_links.href);
+document.links[t].setAttribute('onClick',
+'javascript:window.open(\''+all_links.href+'\'); return false;');
+document.links[t].removeAttribute('target'); } } } } // Load function
+external_links_in_new_windows_load(func) { var oldonload = window.onload; if (typeof
+window.onload != 'function'){ window.onload = func; } else { window.onload = function(){
+oldonload(); func(); } } }
+external_links_in_new_windows_load(external_links_in_new_windows_loop); //]]> /*
+<![CDATA[ */
+jQuery.ajax({type:'GET',url:'http://thegreatgeekmanual.com/blog/wp-admin/admin-ajax.php',data:'postviews_id=15480&action=postviews',cache:false});/*
+]]> */ ggv2id='2c622587'; var infolink_pid = 264971; var infolink_wsid = 0; _uacct =
+"UA-878025-1"; urchinTracker(); _uacct = "UA-878025-2"; urchinTracker();
+
+
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/corner-banner.png
+
+The Great Geek Manual
+
+    
+
+    - Blog
+
+    
+
+ 
+
+This Day in Geek History: August 12
+
+
+
+12 Aug 2010   Geek History
+
+
+
+3 AD
+
+A planetary conjunction is visible from the Earth with the naked eye. Many astronomers will
+later speculate that this may have been the Star of Bethlehem mentioned in the New Testament of
+the Bible.
+
+1865
+
+After studying Louis Pasteur’s germ theory of disease which suggests that infections are
+caused by bacteria, Dr. Joseph Lister becomes the first surgeon to use disinfectant during an
+operation. Lister introduces phenol (carbolic acid) as a form of disinfectant into his
+surgery. His heightened standards of hygiene will reduce his surgical death rate from 45% to
+15%.
+
+1877
+
+This date is often falsely marked as the date on which Thomas Edison completed the first sketch
+from which the first phonograph will be built. However, the sketch won’t actually be
+created until November 29, 1877. The mistake will arise in 1917, when Edison mislabels that
+first sketch, but because construction of the first phonograph will begin just two days later
+on December 1, 1877, the error will easily be caught by historians.
+
+
+
+1887
+
+Thomas Edison creates the first sound recording on a foil-wrapped cylinder with a device
+called the Edisonphone. The recording is of Edison reciting Mary had a Little Lamb.
+
+
+
+1908
+
+The construction of the first Model T is completed by Henry Ford .
+
+1946
+
+Richard Thomas demonstrates an additive color television system, Thomascolor, at the
+National Association of Broadcasters (NAB) convention in the U.S.
+
+1960
+
+Echo I , the first communications satellite, is launched by the United States from Cape
+Canaveral, Florida. It bounces phone calls from Jet Propulsion Laboratory (JPL) in
+California to the Bell Labs in New Jersey.
+
+1977
+
+The prototype for the Space Shuttle named the Enterprise after the fictional Star Trek vessel
+makes its first free flight within Earth’s atmosphere. It is launched from a Boeing 747, and
+it touches down in California’s Mojave Desert. It’s very first flight was February 18th,
+but it remained attached to a shuttle carrier throughout that flight.
+
+1980
+
+Charles LaFara of Texas Instruments sends letters to dealers and registered owners of the
+Texas Instruments TI-99/a home computer inviting them to join the 99/4 Home Computer Users
+Group that he will incorporate in September.
+
+1981
+
+
+
+Image: http://thegreatgeekmanual.com/images/geekhistory/august/ibm-pc-5150.jpg At
+the Waldorf-Astoria Hotel in New York City, and in Boca Raton, Florida, International
+Business Machines (IBM) announces the IBM Personal Computer, model 5150 . The PC features a
+4.77MHz Intel 8088 CPU containing 29,000 transistors, 16KB RAM (64KB standard, expandable
+to 256KB), 40KB ROM, one or two Tandon brand 5.25-inch floppy drives (160KB capacity), a mono
+display, and an optional cassette drive. The machine’s base price is US$1,565 and with the
+model with all of the standard features retails for US$2,880, but a fully loaded version with
+color graphics retails for US$6,000. IBM will sell the new computer to consumers through
+Sears, Roebuck & Co. and ComputerLand . The system will becomes an instant success. Over
+sixty-five thousand units will be sold in the first four months, and one hundred thousand
+orders will be taken by Christmas. Software options for the machine include: Microsoft BASIC
+, VisiCalc , UCSD Pascal , CP/M-86 for US$240, Easywriter 1.0, and Microsoft Adventure.
+Adventure is Microsoft’s first game. The system can run several different operating
+systems, but Microsoft’s PC-DOS 1.0 is far an away the least expensive at US$39.95 and will
+therefore become the most popular. It’s popularity will eliminate most other machines
+suitable for home or small business from the market, established the dominance of the
+Microsoft operating system, and set the industry standard for PC compatibles with the ISA bus
+.
+
+After negotiations with Digital Research fail, IBM contracted Microsoft to provide a
+version of the CP/M operating system for the upcoming IBM Personal Computer (PC). For the
+deal, Microsoft purchased a CP/M clone called 86-DOS from Seattle Computer Products , which
+IBM renamed to PC-DOS . Later, the market will see a flood of IBM PC clones after Columbia Data
+Products successfully cloned the IBM BIOS, and by aggressively marketing MS-DOS to
+manufacturers of IBM-PC clones, Microsoft will rise from a small player to one of the major
+software vendors in the home computer industry.
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/plugins/wp-greet-box/images/rss_icon.png
+Hello there! If you are new here, you might want to subscribe to the RSS feed for updates on this
+topic. Pages: 1 2
+
+<!-- google_ad_client = "pub-5458530472845924"; google_ad_width = 250;
+google_ad_height = 250; google_ad_format = "250x250_as"; google_ad_type = "text_image";
+google_ad_channel = ""; google_color_border = "e9e9e9"; google_color_bg = "eeeeee";
+google_color_link = "FF9c00"; google_color_text = "000000"; google_color_url =
+"2f63b3"; //-->
+
+<!-- google_ad_client = "pub-5458530472845924"; google_ad_width = 250;
+google_ad_height = 250; google_ad_format = "250x250_as"; google_ad_type = "text_image";
+google_ad_channel = ""; google_color_border = "e9e9e9"; google_color_bg = "eeeeee";
+google_color_link = "FF9c00"; google_color_text = "000000"; google_color_url =
+"2f63b3"; //-->
+
+/* <![CDATA[ */ var disqus_url =
+'http://thegreatgeekmanual.com/blog/this-day-in-geek-history-august-12-2010';
+var disqus_identifier = '15480 http://thegreatgeekmanual.com/blog/?p=15480'; var
+disqus_container_id = 'disqus_thread'; var disqus_domain = 'disqus.com'; var
+disqus_shortname = 'greatgeekmanual'; var disqus_title = "This Day in Geek History: August
+12"; var disqus_config = function () { var config = this; // Access to the config object /* All
+currently supported events: * preData â€” fires just before we request for initial data
+* preInit - fires after we get initial data but before we load any dependencies * onInit - fires
+when all dependencies are resolved but before dtpl template is rendered * afterRender - fires
+when template is rendered but before we show it * onReady - everything is done */
+config.callbacks.preData.push(function() { // clear out the container (its filled for
+SEO/legacy purposes) document.getElementById(disqus_container_id).innerHTML = '';
+}); config.callbacks.onReady.push(function() { // sync comments in the background so we
+don't block the page var script = document.createElement('script'); script.async = true;
+script.src = '?cf_action=sync_comments&post_id=15480'; var firstScript =
+document.getElementsByTagName( "script" )[0];
+firstScript.parentNode.insertBefore(script, firstScript); }); }; var
+facebookXdReceiverPath =
+'http://thegreatgeekmanual.com/blog/wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+/* ]]> */ /* <![CDATA[ */ var DsqLocal = { 'trackbacks': [ ], 'trackback_url':
+"http:\/\/thegreatgeekmanual.com\/blog\/this-day-in-geek-history-august-12-2010\/trackback"
+}; /* ]]> */ /* <![CDATA[ */ (function() { var dsq = document.createElement('script');
+dsq.type = 'text/javascript'; dsq.async = true; dsq.src = 'http' + '://' + disqus_shortname
++ '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.73';
+(document.getElementsByTagName('head')[0] ||
+document.getElementsByTagName('body')[0]).appendChild(dsq); })(); /* ]]> */
+
+Add to Social Bookmarks
+
+
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/delicious.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/reddit.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/technorati.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/furl.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/blinklist.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/netscape.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/yahoo_myweb.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/newsvine.png
+
+
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/socializer.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/magnolia.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/stumbleupon.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/google.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/rawsugar.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/squidoo.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/spurl.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/blinkbits.png
+
+
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/netvouz.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/rojo.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/bmarks.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/comments.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/scuttle.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/feedmelinks.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/yigg.png
+
+    Image:
+    http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/wong.png
+
+    -
+
+    Archives
+
+        
+
+        - October 2012
+
+        
+
+        - September 2012
+
+        
+
+        - August 2012
+
+        
+
+        - July 2012
+
+        
+
+        - June 2012
+
+        
+
+        - May 2012
+
+        
+
+        - April 2012
+
+        
+
+        - March 2012
+
+        
+
+        - February 2012
+
+        
+
+        - January 2012
+
+        
+
+        - December 2011
+
+        
+
+        - November 2011
+
+        
+
+    
+
+    Categories
+
+        
+
+        - Gadgets & More
+
+        
+
+        - T-Shirts
+
+        
+
+        - Geek History
+
+        
+
+        - Geekology
+
+        
+
+        - Geek Reading
+
+        
+
+        - Humor
+
+        
+
+        - Graphical Gags
+
+        
+
+        - Motivational
+
+        
+
+        - Videos
+
+        
+
+        - Webcomic
+
+        
+
+        - Infographics
+
+        
+
+        - Japan 101
+
+        
+
+        - Links
+
+        
+
+        - Media
+
+        
+
+        - Books
+
+        
+
+        - Book Reviews
+
+        
+
+        - Movies
+
+        
+
+        - Music
+
+        
+
+        - Short Films
+
+        
+
+        - Television
+
+        
+
+        - Video Games
+
+        
+
+        - News
+
+        
+
+        - Photo Galleries
+
+        
+
+        - Books
+
+        
+
+        - Quotations
+
+        
+
+        - Rantings
+
+        
+
+        - Science
+
+        
+
+        - Software & Tech
+
+        
+
+    
+
+    
+
+    -
+
+    Related Posts
+
+        
+
+        - Motivational Poster: Simplification
+
+        
+
+        - Leather Dragon Bag
+
+        
+
+        - Motivational Poster: Lawful Good
+
+        
+
+        - August
+
+        
+
+    
+
+    
+
+    -
+
+    Sponsors
+
+        
+
+        - Host Color: Multiple Web Site Hosting
+
+        
+
+        - Take home a robot vacuum cleaner from Robomaid.
+
+        
+
+    
+
+    <!-- google_ad_client = "pub-5458530472845924"; google_ad_width = 234;
+    google_ad_height = 60; google_ad_format = "234x60_as"; google_ad_type = "text";
+    google_ad_channel = ""; google_color_border = "E9E9E9"; google_color_bg = "EEEEEE";
+    google_color_link = "FF9C00"; google_color_text = "000000"; google_color_url =
+    "2F63B3"; //-->  
+
+    
+
+
+
+Blog Roll
+
+    
+
+    - Bibliophile Stalker
+
+    
+
+    - The Daily Top 10
+
+    
+
+    - The Geekanerd Blog
+
+    
+
+    - I Can Has Motivation
+
+    
+
+    - (Jeff)isageek
+
+    
+
+    - The Lair of the Evil DM
+
+    
+
+    - Lisa Paitz Spindler
+
+    
+
+    - The Presurfer
+
+    
+
+    - Not So Motivational
+
+    
+
+    - The Science of Fiction
+
+    
+
+    - Weirdwarp
+
+    
+
+    - Coming Soon...
+
+    
+
+    - Coming Soon...
+
+    
+
+    - Coming Soon...
+
+    
+
+    - Coming Soon...
+
+    
+
+
+
+Site Info
+
+    
+
+    - About the Author
+
+    
+
+    - Book Reviews by Author
+
+    
+
+    - Book Reviews by Title
+
+    
+
+    - Contact the Author
+
+    
+
+    - Credits
+
+    
+
+    - Disclaimers and Notices
+
+    
+
+    - Donations
+
+    
+
+    - Hostcolor
+
+    
+
+    - Recommended Reading
+
+    
+
+    - Site Services
+
+    
+
+    - Site Statistics
+
+    
+
+    - Subscribe via E-Mail or RSS
+
+    
+
+
+
+Popular Posts
+
+    
+
+    - Blogging is a lot like Sex...
+
+    
+
+    - Motivational Monday: Humorous Posters
+
+    
+
+    - Picture of the Week: Harry Potter Porn
+
+    
+
+    - Portable Utilities for USB Drives
+
+    
+
+    - Programming is like Sex...
+
+    
+
+    - Neville Longbottom's Favorite Plant
+
+    
+
+    - Seven Unexpected Harry Potter Endings
+
+    
+
+    - Sex Advice from a D&D Player
+
+    
+
+    - Signs the IT Department is out of Hand
+
+    
+
+    - Top Ten Halo Pick-Up Lines
+
+    
+
+    - Top RapidShare Link Communities
+
+    
+
+    - Top Ten Signs a D&D Player is Gay
+
+    
+
+    - Top Ten Turn Down Lines for Geek Chicks
+
+    
+
+    - A Traditional D&D Thanksgiving
+
+    
+
+    - The Ultimate D&D Gaming FlowChart
+
+    
+
+
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/hostcolor.gif
+
+508 CSS XHTML
+
+Website Credits & Disclaimers _uacct = "UA-878025-1"; urchinTracker();
+

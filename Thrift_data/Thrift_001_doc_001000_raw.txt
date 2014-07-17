@@ -1,0 +1,2822 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Acts of Minor Treason: October 2009 <!-- /*
+----------------------------------------------- Blogger Template Style Name: Minima
+Black Date: 26 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#000"> <Variable name="textcolor" description="Text Color"
+type="color" default="#ccc"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#9ad"> <Variable name="pagetitlecolor" description="Blog Title
+Color" type="color" default="#ccc"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#777"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#ad9">
+<Variable name="bordercolor" description="Border Color" type="color" default="#333">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#777"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#999"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#a7a"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif"> <Variable name="headerfont"
+description="Sidebar Title Font" type="font" default="normal bold 78% 'Trebuchet
+MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable name="pagetitlefont"
+description="Blog Title Font" type="font" default="normal bold 200% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif"> <Variable name="descriptionfont"
+description="Blog Description Font" type="font" default="normal normal 78% 'Trebuchet
+MS', Trebuchet, Verdana, Sans-serif"> <Variable name="postfooterfont"
+description="Post Footer Font" type="font" default="normal normal 78% 'Trebuchet MS',
+Trebuchet, Arial, Verdana, Sans-serif"> <Variable name="startSide" description="Start
+side in blog language" type="automatic" default="left"> <Variable name="endSide"
+description="End side in blog language" type="automatic" default="right"> */ /* Use this
+with templates/template-twocol.html */ body { background:#000000; margin:0;
+color:#cccccc; font: x-small "Trebuchet MS", Trebuchet, Verdana, Sans-serif;
+font-size/* */:/**/small; font-size: /**/small; text-align: center; } a:link {
+color:#99aadd; text-decoration:none; } a:visited { color:#aa77aa;
+text-decoration:none; } a:hover { color:#99aadd; text-decoration:underline; } a img {
+border-width:0; } /* Header ----------------------------------------------- */
+#header-wrapper { width:660px; margin:0 auto 10px; border:1px solid #777777; }
+#header-inner { background-position: center; margin-left: auto; margin-right: auto; }
+#header { margin: 5px; border: 1px solid #777777; text-align: center; color:#e6e6e6; }
+#header h1 { margin:5px 5px 0; padding:15px 20px .25em; line-height:1.2em;
+text-transform:uppercase; letter-spacing:.2em; font: normal bold 200% Verdana,
+sans-serif; } #header a { color:#e6e6e6; text-decoration:none; } #header a:hover {
+color:#e6e6e6; } #header .description { margin:0 5px 5px; padding:0 20px 15px;
+max-width:700px; text-transform:uppercase; letter-spacing:.2em; line-height: 1.4em;
+font: normal bold 30% Courier, monospace; color: #000000; } #header img { margin-left: auto;
+margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 660px;
+margin:0 auto; padding:10px; text-align:left; font: normal normal 99% Verdana,
+sans-serif; } #main-wrapper { width: 410px; float: left; word-wrap: break-word; /* fix for
+long text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content
+breaking IE sidebar float */ } #sidebar-wrapper { width: 220px; float: right; word-wrap:
+break-word; /* fix for long text breaking sidebar float in IE */ overflow: hidden; /* fix for
+long non-text content breaking IE sidebar float */ } /* Headings
+----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+font:italic normal 86% Verdana, sans-serif; line-height: 1.4em;
+text-transform:uppercase; letter-spacing:.2em; color:#777777; } /* Posts
+----------------------------------------------- */ h2.date-header { margin:1.5em 0
+.5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #777777;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#99aadd; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#99aadd;
+font-weight:bold; } .post h3 strong, .post h3 a:hover { color:#cccccc; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#777777; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% Trebuchet, Trebuchet MS, Arial, sans-serif;
+line-height: 1.4em; } .comment-link { margin-left:.6em; } .post img,
+table.tr-caption-container { padding:4px; border:1px solid #777777; }
+.tr-caption-container img { border: none; padding: 0; } .post blockquote { margin:1em 20px;
+} .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #777777; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+.feed-links { clear: both; line-height: 2.5em; } #blog-pager-newer-link { float: left; }
+#blog-pager-older-link { float: right; } #blog-pager { text-align: center; } /* Sidebar
+Content ----------------------------------------------- */ .sidebar { color: #999999;
+line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; } .sidebar
+li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #777777; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #777777; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% Trebuchet, Trebuchet MS, Arial, sans-serif;
+color: #777777; font-weight: bold; line-height: 1.6em; } .profile-datablock {
+margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 78% Trebuchet, Trebuchet MS, Arial, sans-serif;
+text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:660px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0751737980321158585254\46blogName\75Acts+of+Minor+Treason\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://actsofminortreason.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://actsofminortreason.blogspot.com/\46vt\75-3345645816723879075',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Image:
+http://1.bp.blogspot.com/-GpM-7eQhv5A/T8AEgZzVgQI/AAAAAAAACxU/lsqMyVs9SbQ/s1600/quebecheader.jpg
+
+Saturday, October 31, 2009
+
+
+
+
+
+
+
+Art Project: Something Old and Embarrassing
+
+I'm taking a break from Public Domain Photography content today. Against my better
+judgement, my desperate search for content has led me to declare today Post Something Old and
+Embarrassing Day . Fortunately, you lucky, lucky people, I have a great heaping amount of
+embarrassing things to choose from, and fortunately for me , the vast majority of them will
+never, ever, ever see the light of day.
+
+
+
+Back in 1999, when I was sixteen, I was mostly working on improving my writing style. At one
+point, however, I did take a detour to try my hand at drawing a character. I can't remember the
+context of the drawing at all, or even if there was ever any context to begin with. This is the
+result. I didn't do much more afterward. On the plus side, it does give you the opportunity to
+see what a coworker described as my "engineer's" handwriting. And those red spots on her arms
+are supposed to be bloody cuts, not rashes or something. As I recall, I used a pencil for the
+outline and pencil crayons for the color.
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_Bzwh4ecQCBQ/SuxWvnpe_1I/AAAAAAAAAic/SYKfJHJq9pk/s320/artproject.jpg
+I wonder what might've happened had I kept on with it. Maybe by now I could've been beating Tim
+Buckley at his own game. Posted by
+
+
+
+Andrew Barton at
+
+
+
+08:29 No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1990s , art ,
+creative Reactions:  
+
+Friday, October 30, 2009
+
+
+
+Keeping Up With Attrition
+
+Personally, I blame Mike Harris for this.
+
+
+
+Back in the mid-1990s, as part of his "Common Sense Revolution," the provincial government
+took its responsibility for highways, assistance programs, and a constellation of other
+expensive things and forced it onto the cities and towns. This had the immediate impact of
+lightening the province's financial burden, which made it even easier for Harris to cut
+things elsewhere. Fifteen years later, we're seeing the consequences of that.
+
+
+
+There's a reason you never hear of Toronto being deep in the red or dealing with the sort of
+punishing deficits that the provincial and federal governments currently have on the table -
+because Toronto is legally prohibited from running a deficit. Its budget must be balanced
+each and every year, and thanks to Harris and his ilk Toronto and other cities have a great deal
+more things to finance with a limited ability to finance them.
+
+
+
+This has come to a head recently, with the city seriously looking at a 5% across-the-board cut
+in order to make some headway against a looming $500 million shortfall. There hasn't been any
+firm decision on what will be cut and how, yet; the other day the Toronto Zoo blatantly defied
+this, not only not cutting but adding 3.6% to its budget next year.
+
+
+
+Of all the city's expenses, one of the single largest is the payroll. Apparently, budget chief
+Shelley Carroll has a plan to deal with this. According to the Toronto Star , she "hopes that
+staff reductions could be covered by attrition - not replacing people who leave."
+
+
+
+This is patently ridiculous. The only time attrition ever works is when the volume of activity
+is dropping, and for a city government, there's alway something that will need doing. I can see
+not hiring new people, but refusing to replace ones who depart is something else entirely.
+Putting the responsibility for delivering city services on fewer and fewer overworked city
+workers is a recipe for problems, and it's not something that makes me envy a city worker today.
+Posted by
+
+
+
+Andrew Barton at
+
+
+
+07:42 No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: politics ,
+toronto Reactions:  
+
+Thursday, October 29, 2009
+
+
+
+
+
+
+
+PDP #123: North Broadway's Stone Bridge
+
+Despite what I may have wrote yesterday in my analysis of the system , not all of the Chicago 'L'
+is metal and industrial - the nature of the track supports in the Loop isn't universal. Further
+out from downtown, differing architectural sensibilities found their way into the system.
+This portion of elevated track, diagonally spanning North Broadway at West Leland Avenue,
+entered service a hundred years ago and carries Red Line trains between Wilson and Lawrence
+stations. Toronto's system isn't nearly old enough to equal this sort of antique grandeur.
+The long history and differing design aesthetics of the 'L' system, I think, really give it a
+character that newer transit systems lack.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_Bzwh4ecQCBQ/Sumpns0aF1I/AAAAAAAAAiU/PWkZ3twe6vI/s320/123.jpg
+I, the copyright holder of this work, hereby release it into the public domain . This applies
+worldwide. In case this is not legally possible, I grant anyone the right to use this work for
+any purpose , without any conditions, unless such conditions are required by law. Posted by
+
+
+
+Andrew Barton at
+
+
+
+07:44 No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: chicago , photo ,
+public domain photography , transit Reactions:  
+
+Wednesday, October 28, 2009
+
+
+
+
+
+
+
+Tunnel Visions: The Chicago 'L'
+
+Every once in a while, Acts of Minor Treason hops out of Toronto, lands in some other city with
+some other light- or heavy-rail transit system, and looks at different ways of getting around
+on two rails, whether it's on the ground, under it, or above it all.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_Bzwh4ecQCBQ/SuhatemNdHI/AAAAAAAAAiM/5Bva7jKMdxs/s320/ttcandcta.jpg
+The past few times I've travelled to the United States, it always felt like I was entering some
+strange and foreign Bizzaro World where everything was exactly the same except for extremely
+minor surface differences that leapt out everywhere. Chicago and Toronto have a great many
+things in common - they're both Great Lakes cities, they were once the Second Cities of their
+respective countries, and they both lack the sheer metropolitan weight of grand cities like
+New York or London. They're accessible.
+
+
+
+This is especially true in terms of transit. Earlier this month I spent three rainy days in
+Chicago evaluating its subway-equivalent, the 'L.' I say subway-equivalent because
+"subway" is not the proper word in the Chicago context. The 'L' struck me as being very much like
+the Toronto subway system , turned inside out. Not only does a majority of Chicago's system run
+aboveground, it literally runs aboveground - it's called the 'L' because it's primarily an
+elevated rail system.
+
+
+
+Even before my arrival in Chicago, I was curious about what I think of as "the paradox of the
+'L.'" Chicago is one of the great cities of North America, with a population of 2.8 million to
+Toronto's 2.5 million - and had had a heavy-rail transit system in place more than fifty years
+before the opening of the first stretch of Toronto's subway. It operates a network that
+comprises nearly 171 kilometers of track, a length to which the Toronto subway and RT combined
+amount to barely more than a third.
+
+
+
+Nevertheless, despite less comprehensively serving a smaller population, the Toronto
+subway has substantially higher usage than the Chicago 'L' - while a TTC study found an average
+daily ridership of 1,246,020 people on the three subway lines and the Scarborough RT, the
+Chicago Transit Authority cites average weekday rail ridership in 2008 of 640,000.
+
+
+
+To put it another way: Toronto's 32-station Yonge-University-Spadina line alone carries
+more passengers than the eight lines and 144 stations of the entire Chicago 'L' system
+combined . This hardly seems right to me. Chicago's been at it for longer than Toronto, both in
+operating a heavy-rail transit system and in being a metropolis. The exact answer as to why
+this is the case may be beyond this post, but I think an analysis of the Chicago 'L' system may be
+instructive in and of itself. Just because the 'L' isn't used as heavily doesn't mean that the
+TTC can't, or shouldn't, learn from the CTA's experience. Nor shouldn't it try to avoid the
+paradox of the 'L.'
+
+
+
+If you're interested in more information about the 'L,' two worthwhile sites I've found are
+the Chicago Transit Authority's own website , as well as the independently-operated Chicago
+"L".org .
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_Bzwh4ecQCBQ/SuhatATqxPI/AAAAAAAAAiE/Sl2XHIkvcEc/s320/headlightshello.jpg
+A Loop-bound Purple Line train enters Sedgwick station
+
+
+
+System
+
+
+
+Heavy-rail service in Chicago began in 1892 with the first segment of what would become the 'L'
+built and run by the South Side Rapid Transit Railroad Company. As in Toronto, the early days of
+public transit in Chicago were dominated by private interests, but while in Toronto the
+railroad companies contented themselves with running streetcars, in Chicago they built
+their rails in the sky. Though 'L' service began with steam locomotives, it was electrified in
+1898. While the Toronto Transportation Commission, forerunner of the modern TTC , was
+established in 1920 to put an end to wildly variant, divided fare systems within the City of
+Toronto, Chicago continued on with its private companies providing the public with a way to
+get around. Even its subways, under State Street and Dearborn Street, were begun under the
+aegis of private enterprise. It wasn't until 1947 that the 'L' network was unified under the
+control of the Chicago Transit Authority.
+
+
+
+As I said before, the Chicago 'L' consists of eight individual lines serving a total of one
+hundred and forty-four stations, and while most are within Chicago's boundaries some extend
+into its suburbs - particulary the non-rush-hour Purple Line and the two-stop Yellow Line , or
+"Skokie Swift," the sole 'L' line that I did not ride during the course of my visit. The heart of
+the 'L' system is the central core of downtown Chicago, known as the Loop from the 'L' tracks
+that trace a circle above Lake Street, Wabash Avenue, Van Buren Street, and Wells Street.
+Seven of the eight 'L' lines extend into the Loop, bringing commuters and travellers to the
+heart of the city.
+
+
+
+Unlike Toronto and Montreal, where the term "line" is interchangable with the physical
+infrastructure the trains travel through, the eight 'L' lines refer more to routes for
+individual trains, as is the case in the notoriously confusing New York City subway system.
+The elevated trackage in the Loop, particularly, is shared between Brown Line , Purple Line,
+Orange Line , Green Line , and Pink Line trains, and multiple stations north of the Loop are
+served by multiple lines. While this does mitigate the somewhat long headways of 'L' trains,
+it does require that passengers be alert and aware when they're boarding a train. This is
+particularly true in the Loop; while Purple Line, Pink Line, and Orange Line trains travel
+clockwise through it, Brown Line trains run counterclockwise, and Green Line trains can come
+or go from either direction. Woe to the inattentive traveller at Clark/Lake bound for
+Madison/Wabash , who boards a Brown Line train bound for Kimball . 1
+
+
+
+Much of the system, particularly in the built-up core of Chicago, is served by elevated rail.
+The State Street and Dearborn Street Subways are abbreviated underground segments that
+carry the Red and Blue Lines , respectively, through downtown, built to alleviate building
+congestion in the Loop in the 1930s. Portions of the Orange Line to Chicago Midway
+International Air port are at-grade along freight railroad right-of-ways, as is the "Dan
+Ryan" branch of the Red Line, so named because it runs in the median of the Dan Ryan Expressway ,
+the same way Toronto's University-Spadina line runs in the median of Allen Road between
+Eglinton West and Wilson stations.
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_Bzwh4ecQCBQ/Suhas2Y1MzI/AAAAAAAAAh8/OzlKvVPx-ZI/s320/wabashl.jpg
+This section of elevated 'L' track above Wabash Avenue forms part of the Loop
+
+
+
+Unlike the Toronto subway or the Montreal Metro , which are respectively anchored by
+Bloor-Yonge and Berri-UQAM stations, the nature of the Loop means that there is no one central
+station pulling in riders from across the city - although Clark/Lake in the Loop, bridging six
+lines and with a free transfer to the Red Line's Lake subway station, did see 5.2 million
+passengers in 2008. It wasn't until after I left Chicago that I learned one of the busiest 'L'
+stations is, in fact, 95/Dan Ryan , the southern terminus of the Red Line and the southernmost
+station in the system by a significant margin. This owes a lot to 95/Dan Ryan's nature as a
+commuter hub served by CTA and suburban Pace buses, similar to the TTC's Finch station , which
+in addition to TTC buses is served by York Region Transit , GO Transit , VIVA , and Brampton
+Transit buses. Even so, 95/Dan Ryan's 2008 passenger traffic of 4,372,074 is far outstripped
+by the weekday-only use of Bloor-Yonge station, which I calculated using TTC averages to be
+51,797,400 passenger entries - and that's for the Yonge portion alone, as the TTC separates
+transfer stations between lines for the purposes of ridership calculation.
+
+
+
+As for Clark/Lake, possibly the most complex station on the entire 'L' network, touching
+every line except for the Yellow? Ridership figures for August 2009 show that on an average
+weekday, 18,599 people entered turnstiles there. The nine stations of the Loop put together
+saw 70,666 entrances on the average weekday, a 6.2% drop from August 2008. I can only imagine
+that this is because gas was not quite as expensive this year as it was last year. There are nine
+stations in Toronto that have individually greater entrance numbers.
+
+
+
+Nevertheless, the 'L' brings transit access to a sufficiently large area that it's possible
+to live car-free in Chicago, or spend three days wandering around there without having to step
+into a taxicab or rental car. Rapid transit service extends to both O'Hare International
+Airport , via the Blue Line, and Chicago Midway International Airport, via the Orange Line.
+Midway is barely more than half an hour away from the Loop, which is good considering that
+international travellers have to check in a minimum of two hours before departure there.
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_Bzwh4ecQCBQ/Suhash-GKNI/AAAAAAAAAh0/HDGaNKaQ1wI/s320/traintocity.jpg
+An Orange Line train waits for travellers at Midway station
+
+
+
+As of this writing, regular CTA fares are a uniform $2.25 on the 'L' and buses, though
+discounted fares are available for students and people with disabilities, while members of
+the United States Armed Forces and senior citizens can ride for free. The issue of free rides
+for seniors is a rather charged one presently, as it's seen to contribute much to the CTA's
+current budget deficit. For my part, I got around with an unlimited-use three-day pass which I
+bought from a vending machine at Midway station for $14. It's best that I did, because the
+system as a whole seems set up to discourage the use of money over passes or fare cards. As in
+Toronto, there's no change given for overpaid fares, but in Toronto you can access the entire
+system with cash. During the course of my observations, I didn't see a single point of access
+into an 'L' station that would allow a passenger to pay with cash. The three-day pass I got was
+simple to use - I feed it into one slot on the turnstile, and retrieve it once it's ejected from
+another - though I really had to yank it out of the machines. They keep a firm grip, they do.
+
+
+
+Stations
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_Bzwh4ecQCBQ/SuhaSxvZo9I/AAAAAAAAAhs/ibinxcPpOA0/s320/statelakestation.jpg
+Stairs to the Green and Brown Line platform of State/Lake station
+
+
+
+The first thing you need to know, hopefully so that you sound like less of a knownothing
+tourist, is that when a slash appears in an 'L' station name, it means "and." Thus, State/Lake
+is pronounced "State and Lake." Now then...
+
+
+
+Being a primarily elevated rail system, it's no surprise that Chicago 'L' stations differ
+significantly from their Toronto or Montreal counterparts. While those two cities
+generally have station buildings on the surface - in Toronto, downtown is the only place where
+this isn't the case - this isn't always the case in Chicago. For some 'L' stations, their only
+real footprints are the entry staircases. Other stations, such as Wilson on the Red Line,
+reflect the era in which they were built with an ornate stone kiosk surmounted by tracks, while
+many underground stations along the State Street and Dearborn Street Subways invert this;
+from the surface, they're also nothing but staircases, but heading down . Of all the stations I
+visited on the 'L,' Logan Square on the Blue Line was the only one with an aesthetic similar to
+the average Toronto subway station.
+
+
+
+To be perfectly honest, a number of the elevated stations I visited struck me as being the Theme
+Park Versions of a public transit system - they seemed to me like the sort of structures that
+wouldn't be entirely out of place in Frontierland. They had a generally old-timey feel to me,
+something which is specifically emphasized at Quincy station, echoing the dawn of the 20th
+century. Both inside and outside the Loop, many elevated station platforms are just planked
+wood framed in steel. They're not particularly friendly as far as inclement weather goes,
+either, something I had no shortage of opportunities to discover, considering that it rained
+every day I was in Chicago. 2 While there are roofs, they don't cover the entire platform.
+Sometimes they don't even cover the platform around the stairs. To me, it added to the somewhat
+gritty and industrial feeling that permeated the 'L' - stations that aren't refined, but
+purely functional . Rosedale and Davisville are the Toronto stations most reminiscent of
+this 'L' standard, and they are both far more enclosed than any elevated station I explored.
+
+
+
+I don't even want to imagine what it would be like waiting for an 'L' train in the winter. Very
+few, if any, of the elevated stations I visited had anything as luxurious as walls. This was
+even true of the stations along the Dan Ryan branch of the Red Line, with cars speeding along the
+expressway a matter of feet away from the edge of the rails. On some days it might be
+invigorating. Others... not so much.
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_Bzwh4ecQCBQ/SuhaS2xNMQI/AAAAAAAAAhk/rasq7uG73nI/s320/clarkdivisionplatform.jpg
+A view of the platform in Clark/Division station
+
+
+
+Chicago's underground stations, far more comfortable in inclement weather, are
+fascinating in themselves. The ones I visited, in the State Street Subway along the Red Line,
+predate the Toronto subway by barely more than a decade - the State Street Subway opened in
+1943, while service began along the original Yonge subway in 1954 - yet their architecture and
+design aesthetic seems closer to the nineteenth century than the mid-twentieth.
+
+
+
+This may be partially due to the design. Though Toronto's highly reflective Vitrolite glass
+tiles have been removed or covered over in all stations that had them except Eglinton, the
+tunnel walls are frequently nothing but naked concrete. This is mitigated somewhat in
+side-platform stations like North/Clybourn, where the platform walls are tiled over, but in
+center-platform stations such as Clark/Division or Grand , it's a bit unwelcoming.
+Furthermore, there seemed to be a lot less lighting in the stations than their Toronto
+counterparts. Still - aside from the font, the appearance of the station name etched into the
+tiled walls really reminded me of home.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_Bzwh4ecQCBQ/SuhaShQ77UI/AAAAAAAAAhc/7TFtUe7LylI/s320/clarkdivisionname.jpg
+The station name at Clark/Division, formerly with ampersand!
+
+
+
+I never encountered strong smells of any sort in the underground stations, which was
+thankful, but in some cases I didn't encounter much of anything. At one point, while waiting on
+the platform at Grand station in the early afternoon, the hairs on the back of my neck went up
+when I realized that aside from the other people present, there was no ambient noise of any
+kind. Granted, it could be a result of the renovations which were ongoing at the time of my
+visit, but I still found it rather disturbing. All in all, if I was looking for a place to film a
+Sinister Subway , I'd head to the State Street Subway.
+
+
+
+For a more in-depth look at Chicago underground stations, I refer you to the videos of YouTube
+user artistmac . I've embedded one where he walks through Lake station on the Red Line -
+hopefully this will bring it more to life. If the surroundings seem vaguely familiar, it may be
+because this is the same entrance, albeit redesigned, that Larry and Balki emerged from in the
+opening of the 1980s sitcom Perfect Strangers . It is, thankfully, a lot brighter than I found
+Clark/Division to be.
+
+
+
+
+
+
+
+Equipment
+
+
+
+Wikipedia tells me that the CTA's trains are "streetcar-derived," and that Toronto had
+considered the use of similar vehicles for its own subway while it was still under
+construction. Rush hour would have been significantly more cramped had the TTC tilted that
+way. Chicago's trains, to me, occupy a strange middle ground, between the narrowness of the
+ICTS trains on the Scarborough RT and the comparative spaciousness of modern Toronto subway
+cars. My first impression of the 3200-series cars, which form the backbone of 'L' service
+today, was that they felt intermediate between Montreal and Toronto rolling stock - that in
+terms of size and seating arrangements, which on the Orange Line includes single seats, they
+were "almost like big streetcars." As it turns out, they are just slightly smaller than, and
+ultimately most individually comparable to, the CLRV s that anchor Toronto's present
+streetcar service. At sufficiently low speeds, they even sounded like streetcars to me.
+
+
+
+As in Toronto and Montreal, the Chicago 'L' has an automated announcement system, and while in
+the former two cities it's used solely to announce next-stop information, in Chicago it's
+played to the hilt. The announcer, who first struck me as reminiscent of a past voice of the Walt
+Disney World Monorail System , frequently makes public service announcements. One of the
+first I heard informed me that "soliciting and gambling" are prohibited on all CTA vehicles.
+Barely fifteen minutes out from Midway Airport this struck me as rather odd - sure, I can
+understand that something like that would be against the rules, but has gambling on the 'L'
+been so out of control that the CTA needs to specifically speak against it?
+
+
+
+It jumps the gun, too. Chicago trains have door chimes just like Toronto ones, although not the
+same tone, and they frequently went off while passengers were still alighting, let alone
+while people were still boarding from the platform. At least when the door-closing chimes
+sound after two seconds at Sheppard Line stations, at least I know they mean it. Take this video
+I recorded of a trip from Clark/Lake to Chicago/Franklin , during which the announcement that
+"Merchandise Mart is next" helpfully came while the train was actually in Merchandise Mart
+station.
+
+
+
+
+
+
+
+On the whole, trains in Chicago are smaller than trains in Toronto. Though eight-car trains
+can be brought into service during rush hour, in my experience off-peak service included
+nothing more lengthy than four-car trains, and apparently the Yellow Line to Skokie gets by
+with two-car trains. Contrast that to Toronto, where six cars are the standard and four-car
+trains are used only on the Sheppard Line , which itself has higher ridership than three of the
+eight 'L' lines (Purple, Pink, and Yellow, if you must know).
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_Bzwh4ecQCBQ/SuhaSfhE8nI/AAAAAAAAAhU/02-D7BRUm4I/s320/chitorcontrast.jpg
+Left: A Chicago 'L' train at Southport station. Right: A Toronto subway train departing
+Rosedale station, the most 'L'-like of any station in Toronto except for, you know, not being
+elevated
+
+
+
+Like the Montreal Metro and the Scarborough RT, Chicago 'L' trains run with a one-person crew,
+with the operator also serving as the guard when the train is at a station, watching out to make
+sure the doors don't close on anyone. It's fortunate, too, because if the announcements are
+any indication, if it was left up to automatics no train would dwell at a station for longer than
+two seconds.
+
+
+
+Ease of Access and Ease of Use
+
+
+
+I used to take it for granted that I could end up on a subway platform and never have to wait more
+than five minutes to start heading where I was going, regardless of whether it was the middle of
+rush hour or ten minutes to midnight on Sunday night. My travels and my researches both have
+demonstrated that Toronto appears to be an outlier when it comes to headways (that is, time
+separation between trains). The 5-6 minute separation between trains on the Sheppard Line
+and Scarborough RT is the longest you'll find in the Toronto system - but in Chicago, outside of
+rush hours, it's rare you'll find a headway that equals that. From 7:14 AM to 1:20 PM on
+weekdays, the scheduled frequency of northbound Blue Line trains is 7-10 minutes , and
+between 10:54 AM and 1:20 PM you'll have to wait fully 10 minutes between southbound trains.
+
+
+
+I never knew how good I had it here.
+
+
+
+Nor are there any fare-paid transfers, that I could find, from trains to buses. Stations in the
+Loop don't have room for terminals, but there's not much attention given to that elsewhere in
+the system. Most boarding zones I found were simple curbside stops, and even where there's
+allowance at a station for buses to stop, as at Logan Square or Midway, the bus loading zone is on
+the far side of the turnstiles. This is a significant contrast to Toronto, where passengers
+can climb directly from the subway platforms to bus loading area while remaining inside the
+fare-paid zone. I have, however, come to the conclusion that Toronto is effectively unique in
+this regard; I don't know of any other transit agency that's designed its stations to enable
+this.
+
+
+
+If you're lugging a bike along with you, the CTA is willing to help. Much like the TTC, it's begun
+installing bicycle racks on its buses, and bicycles are allowed on 'L' trains - two per car,
+with a sticker saying as much on each and every car - except from 7 to 9 AM and 4 to 6 PM on weekdays,
+mirroring Toronto's prohibition on bringing them aboard when rush hour commuters are busy
+cramming the cars, as well as all Saturdays, Sundays, and holidays, but not July 3rd. I have no
+idea why this is. I've never been in the United States on July 4th, but I guess maybe there are a
+lot of people going back and forth the day before.
+
+
+
+Some stations on the 'L' aren't exactly friendly to transfers. This may well be a result of the
+system's origins as lines established and run by competing private companies. While the
+consolidation of Clark/Lake station in 1992 permitted free transfers between the elevated
+platform and the underground Blue Line platform, in other cases stations that one might think
+were connected are entirely separate. The Red Line, in particular, is entirely disconnected
+from the rest of the system within the Loop; though the names are similar, Lake station on the
+Red Line and the elevated State/Lake station are entirely separate, and passengers must exit
+the Red Line fare-paid area and pay another fare at State/Lake in order to proceed.
+
+
+
+The layout of some stations can also be confusing for the uninitiated, owing to the degree of
+interlining in the Loop. At State/Lake, access to the Green and Brown Lines is by staircases on
+one side of Lake Street, while the Orange, Purple, and Pink lines must be accessed from the
+other side. It's a system that demands forethought and knowing exactly how you want to get
+where you're going. What really makes it irritating is that some stations like State/Lake
+have no platform crossovers within the fare-paid area. This means that if you pass through the
+turnstiles only to find you're on the wrong platform and try to go around to the right one, since
+you used your card only minutes before you'll be locked out and unable to proceed. 3
+
+
+
+Sometimes, you just have to be a local. While the 'L' signage is good, it isn't perfect. There
+was one notable occasion when it wasn't until I reached the platform that I found signage
+telling me I was at Library-State/Van Buren station. I don't have the same complaint with the
+trains; given the degree of interlining, they have no choice but to have good signage.
+Rollsigns indicating the train's destination are present not just at either end of the train,
+as they are in Toronto and Montreal, but on both sides of the train as well, and are color-coded
+to indicate what line the train's running. It's fairly straightforward, too - with the
+exception of the Yellow Line, which forever shuttles between Howard and Skokie stations, all
+trains are bound either for their terminus or the Loop. There, it's just a matter of knowing
+whether you're on a clockwise or counterclockwise train that makes the difference.
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_Bzwh4ecQCBQ/SuhaSCjkv3I/AAAAAAAAAhM/1m0AZLwKY1k/s320/rooseveltorange.jpg
+Orange Line rollsigns are clearly visible on this train, stopped in the elevated portion of
+Roosevelt station
+
+
+
+Conclusion
+
+
+
+I haven't been able to unravel the paradox of the 'L.' It's something which is most definitely
+beyond the scope of a simple analysis such as this, and all I have is conjecture. Chicago's been
+a metropolis for a lot longer than Toronto, so it could be that it had a far greater opportunity
+to go all-out when the age of suburbanization started, and lost a greater share of CTA riders
+than did Toronto. Nevertheless, the TTC remains a system used heavily by the city's
+middle-class, and I never got the impression that things were different on the 'L.' It might
+also be that because the CTA is a far more bus-oriented system than the TTC, it's more
+convenient for people to take buses rather than trains from point A to point B. I suppose that,
+in the end, it's just a bit strange for me to see a system that appears far vaster and more
+comprehensive than Toronto's, but which is used less.
+
+
+
+It'd be better for everyone if more people did ride it. I've written before about the CTA's
+recent " budget doomsday ," and apparently it has a reputation for doing that sort of thing on a
+regular basis. Apparently it's come up with a new idea; right now the CTA is negotiating with
+Apple for 10-year advertising rights in and first naming rights to North/Clybourn station,
+which struck me as an Art Deco North York Centre station, in exchange for $4 million to fix it up.
+That's a whole argument in and of itself, but I really don't think it's the sort of recourse a
+public transit operator should be eager to take.
+
+
+
+I'd appreciate feedback from any Chicagoans who might have a better handle on the situation -
+I'm sure there's a great deal of aspects to the system that I didn't pick upon from the limited
+length of my experience.
+
+
+
+1 Not me. Fortunately.
+
+2 I'm not bitter. Really.
+
+3 This one actually did happen to me. Fortunately, the extraordinarily close stop spacing in
+the Loop meant I only had to walk two minutes to Madison/Wabash.
+
+
+
+Previous Tunnel Visions
+
+    
+
+    - The Montreal Metro
+
+    
+
+Posted by
+
+
+
+Andrew Barton at
+
+
+
+08:43 9 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: analysis ,
+chicago , comparison , CTA , public transit , subway , tunnel visions Reactions:  
+
+Tuesday, October 27, 2009
+
+
+
+
+
+
+
+PDP #122: Down Washington Way
+
+Despite the altogether beastly weather that characterized most of my time in Chicago, there
+were still enough breaks in the rain for me to at least cursorily explore its downtown. The
+elevated portions of Millennium Park , effectively an outdoor art gallery that has no
+Torontonian compare, provided an excellent vantage point for city photography. This photo
+looks down the urban canyon of East Washington Street, one or two blocks away from the 'L'
+tracks over Wabash Avenue.
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_Bzwh4ecQCBQ/SucKMnIvt9I/AAAAAAAAAhE/AMbUTNuqDCI/s320/122.jpg
+I, the copyright holder of this work, hereby release it into the public domain . This applies
+worldwide. In case this is not legally possible, I grant anyone the right to use this work for
+any purpose , without any conditions, unless such conditions are required by law. Posted by
+
+
+
+Andrew Barton at
+
+
+
+07:58 No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: chicago , photo ,
+public domain photography Reactions:  
+
+Monday, October 26, 2009
+
+
+
+
+
+
+
+Passing the Torch of the Stars
+
+The Augustine Commission , set up to review NASA's spaceflight goals and provide potential
+alternatives if necessary, presented its conclusions last week, and while it will likely be
+some time before President Obama makes a final decision on it, the implications are still
+percolating across the internet. The document is about a hundred and seventy pages, so it'll
+take me some time to go through it, but at least they didn't hide the general thrust of their
+argument. Human spaceflight isn't dead - far from it - but the Commission believes that NASA's
+current goal of a renewed lunar exploration program is ill-founded, and prefers a "flexible
+path" that would take astronauts to near-Earth asteroids or the moons of Mars - visits to Luna
+and Mars themselves would, for the foreseeable future, be confined to orbital missions only,
+to spare the expense of fuel necessary for landing and takeoff.
+
+
+
+I do have my disagreements with the Commission's findings as I currently understand them, as I
+believe a lunar facility would be advantageous: both in terms of low-g research impossible to
+conduct on Earth or the International Space Station, as well as resource gathering that could
+support future space endeavors with materials that does not have to be hefted out of Earth's
+gravity well. Fortunately, the situation today is not the same as it was in the 1970s - when it
+comes to the potential of activity beyond low Earth orbit, NASA is no longer the only game in
+town for the foreseeable future.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_Bzwh4ecQCBQ/SuW3GRPYREI/AAAAAAAAAg8/C8zBuL7UbEQ/s320/mercuryatlas.jpg
+A Mercury-Atlas rocket in the Kennedy Space Center Rocket Garden, February 2005
+
+
+
+Take China. I know that China has made statements about how it would like to be involved in the
+International Space Station project, but at this point I don't think it's very likely that
+Beijing would be let in. Beyond that, I don't think defusing that sort of international
+competition in space development would be a good long-term thing. China has plans to orbit a
+space station of its own as Project 921-2 , with the first element potentially launching as
+early as next year. A Chinese lunar mission is a natural follow-up, and if the Augustine
+Commission's report gains traction in Washington, the next boots on the moon likely will be
+Chinese ones.
+
+
+
+I do wholeheartedly agree with the Commission on its view toward low Earth orbit transport.
+Its conclusion is that NASA should get out of the space trucking business entirely, and leave
+LEO crew and cargo flights to commercial providers. SpaceX , after its successful Falcon 1
+launches in 2008 and 2009 and with the heavy-lift Falcon 9 set to light off from Cape Canaveral
+at the end of November, seems almost ready to take over this responsibility. Really, at this
+point it's the most sensible thing. Until now, NASA has been the workhorse because only NASA
+had the capability to do it, and there are those in Washington and elsewhere who do not
+particularly relish having to rely on the Russian Federation to maintain the American manned
+spaceflight program.
+
+
+
+NASA blazed the trail, and now other organizations can carry the load. It's high time that NASA
+pass the torch to the companies and focus its time, money, and effort on what it was always meant
+to do - extend the horizon further and further. Posted by
+
+
+
+Andrew Barton at
+
+
+
+07:53 No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: future , NASA ,
+rocket science , space , thoughts Reactions:  
+
+Sunday, October 25, 2009
+
+
+
+
+
+
+
+PDP #121: Twin Ribbons
+
+Recently I read an article bemoaning the state of traffic in Toronto, and that what was peak
+rush-hour volume twenty years ago is now ordinary in the middle of the day. As I recall, it
+didn't go so far as to suggest building a new system of expressways in the city - fortunately.
+This city needs neither a new Spadina Expressway argument nor a new Spadina Expressway .
+
+
+
+Allen Road is all that we got of the Spadina Expressway, before popular and mayoral opposition
+halted it at Eglinton Avenue. I wouldn't shed a tear, personally, if not even one more meter of
+expressway was never laid in Toronto again. We've spent seventy years kowtowing to the
+automobile in urban design. If only the roads could usually be so empty as they are in this
+photograph - then the car could be what it should be, a luxury but not a necessity .
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_Bzwh4ecQCBQ/SuRpDon335I/AAAAAAAAAgs/mux2oyS2OJk/s320/121.jpg
+I, the copyright holder of this work, hereby release it into the public domain . This applies
+worldwide. In case this is not legally possible, I grant anyone the right to use this work for
+any purpose , without any conditions, unless such conditions are required by law. Posted by
+
+
+
+Andrew Barton at
+
+
+
+08:07 No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: photo , public
+domain photography , toronto Reactions:  
+
+Saturday, October 24, 2009
+
+
+
+Common Words #8: Corona
+
+If you're looking for horrid writing today, than have I got writing for you - my first real
+story, "Corona," completed on Thursday, June 5, 1997.
+
+
+
+As it turns out, I've been writing for longer than I can remember. "Corona" was not, by any
+stretch of reckoning, the first story I ever wrote - but it's the first that seemed
+particularly significant at the time I wrote it, and as such it's as good a starting line for my
+career as a wordguy as anything I can think of. It's my own personal reflection of the Golden Age
+of Science Fiction, which in this case was 14.
+
+
+
+"Corona" was written as a Grade 9 English assignment, and came back with a mark of 10/10 with
+comments from the teacher of "interesting characters," "technically superb," and
+"imaginative." In the context of a classroom full of fourteen-year-olds, I'm sure it
+probably was. Back in 1997, though, I had only a vague comprehension of what I was doing.
+(Paragraph breaks? What are those?) The dialogue - both the characters' and the narrator's -
+is laden with infodumps, the conflict is almost entirely absent, and there's no resolution at
+all. At the time I was probably imagining it as the first part of something larger which never
+got off the ground.
+
+
+
+Nevertheless, despite how horrid I find it now, it was a beginning. The 10/10, I imagine,
+greatly buoyed my fragile, barely-teenage self-confidence at the time. Otherwise, I might
+never have gone anywhere.
+
+
+
+**********
+
+Corona
+
+by Andrew Barton
+
+**********
+
+
+
+In the outer perimeter of the Beta Ancaster system, there was sheer emptiness. Here, between
+the orbit of the outermost gas giant and the system's Oort Cloud, there were barely one hundred
+atoms per cubic meter, as opposed to billions, perhaps trillions, of atoms in a comparable
+space at sea level on Earth. In this void, the only objects of appreciable size were rare
+vagabond asteroids or comets on their way in-system. This area had changed little since the
+birth of its sun billions of years ago. Then, there was a flash of light followed by a blue
+vorted; the traditional signature of something dropping out of hyperspace. Seconds after
+the vortex disappeared, two objects were faintly visible. They approached with amazing
+speed, and within five seconds their identification plaques were visible. Located on the
+dorsal hull, where the light from the star reflected off them, two names were visible; FSS
+ARCTURUS and FCC CORONA. Seconds later, they had become small dots again, heading toward the
+sun.
+
+
+
+#
+
+
+
+On board the Corona, Captain Tyrone Richards was awakened from his sleep by the sound of his
+door chime. Grumbling about being woken up at 2 a.m. ship's time, he hurried over to the closet
+to put his robe on, pausing only to place an ancient paperback copy of "The Hitch HIker's Guide
+to the Galaxy" back on the shelf. Since he was still half-asleep, he stumbled over a small
+step-stool on the way to the door. Conducting a near-flawless faceplant, he picked himself up
+and strode over to the door. He punched in a code on his wall pad, disabling the locking
+mechanism, and was greeted by Commander Michelle Hall, the Corona's executive officer.
+Standing 1.7 meters tall, with short space-black hair, she was one of Corona's most valuable
+officers. Born on the planet of Ithaca, the fourth planet of the Arcturus system, she was
+slightly stronger than most members of the crew, as Ithaca had a gravitational pull of 1.4
+gees. After graduating from the University of Altair with honors, she enrolled with the
+Terran Federation Naval Academy at Annapolis, Maryland. She rose through the ranks quickly,
+and at thirty-one Terran years old, was one of the youngest XO's in the navy.
+
+
+
+"Good morning, sir," she said. "I'm sorry that I had to wake up you up like that, but you turned
+off your comlink."
+
+
+
+"Yes, I did," Richards replied. "I haven't had very much sleep since we left Alnilam, so I
+thought that I would take advantage of this opportunity."
+
+
+
+"I understand, sir, but the captain of the Arcturus is on Commchannel Four and wishes to speak
+with you. He said something about 'unusual electromagnetic fluctuations' in the vicinity of
+the fourth planet."
+
+
+
+"All right," Richards said as he attempted to brush his hear out of his eyes with his right hand.
+"I'll meet you on the bridge in five minutes. Thank you for bringing this to my attention." As
+Commander Hall walked down the corridor toward the bridge, she began to get a bad feeling about
+the energy readings, much like a certain other Federation officer had received immediately
+prior to the Battle of New Jupiter. Figuring that it was nothing, she shook her head and walked
+to the turbolift.
+
+
+
+#
+
+
+
+When Captain Richards arrived on Corona's small, circular bridge, the image of the Arcturus
+was visible on the viewscreen. The viewscreen's field of vision was centered on the Beta
+Ancaster star, with the ventral hull of Arcturus's forward hull appearing in the upper middle
+section of the streen. Its nose was pointed almost straight ahead, likely scanning the fourth
+planet. Sunlight reflected off the destroyer's xeranium armor plating, revealing a
+multitude of laser turrets and missile launchers, ready to defend the small convoy if
+necessary. Even though Federation HIgh Command had thought it prudent to bring a destroyer
+along, just in case a Fhyoni battlecruiser decided to drop by, Richards seriously doubted the
+logic of it. Just before he turned away from the viewscreen to open a commchannel with
+Arcturus, he noticed a small flag which looked exactly like the one on his shoulder; a blue
+rectangle with two olive branches. It was similar to the flag of Earth's United Nations, but
+was different in one respect. Huddled between the branches, where the UN flag showed a polar
+view of the Earth, lay an above view of the Milky Way galaxy. Even though the two organizations
+had different flags, they both had similar goals: the United Nations strived for world peace
+from 1945 to 2056, when the first planetary government was formed, and the Terran Federation
+had been trying to establish galactic peace since its founding in 2112. However, the campaign
+had not gone smoothly in recent years, ever since the Fhyoni War broke out in 2445. How ironic,
+Richards thought, that the worst war the galaxy has ever known began exactly five hundred
+years after the worst war that Earth has ever known ended.
+
+
+
+Glancing at the flashing "incoming communications" indicator mounted beneath the main
+viewscreen, he knew that trouble was brewing, as Arcturus's Captain Hansen rarely opened a
+commchannel unless there was a problem. Taking his seat in the command chair, he turned to the
+comm station. "Lieutenant Kiritis," he said to the cat-like Sirian at communications, "open
+a commchannel to the Arcturus." The Sirian replied in the affirmative and quickly set up the
+link. Within seconds, the image of the Arcturus had been replaced by the visage of Arcturus's
+CO, Captain Telerius Hansen. Originally from Bellatria, he left his homeworld at the age of
+seventeen Terran years to study at the prestigious University of Altair. After his six-year
+tenure at the school, he signed on to become a fighter pilot at the Federation Pilot Academy on
+Demeter. After becoming one of the most talented pilots to ever attend the FPA, he piloted a
+Banshee in such conflicts as the Perseus War (2449-2450) and the War of 2452. After being
+promoted to his current rank in 2456, he had served in several major convoy battles,
+commanding the Arcturus in all but one. The Arcturus itself had been in drydock when, due to the
+insistence of Federation High Command, its repairs were cut short in order to escort a
+freighter from Alnilam to Beta Ancaster, a small orange dwarf in the deep boondocks of the
+Perseus spiral arm. While it was not exactly an optimal use for a Proxima-class destroyer,
+Hansen preferred that Arcturus was out in space, under its own power, rather than having
+technicians swarming around the vessel back at Starbase Omicron 7. After he had finished
+confirming that the channel was secure, he turned his head up to a level where the viewscreen
+could see it clearly. Behind him, members of Arcturus's crew were visible walking around the
+bridge.
+
+
+
+"Captain Hansen," Richards said, "to what do I owe the honor of communications opened by you?"
+
+
+
+Laughing, Hansen replied, "That's the Tyrone Richards I remember. Back on the Saratoga, you
+had a comedic quote ready for every day of the week."
+
+
+
+"Yeah, that's right," Richards said. "So, Telly, what can I do for you?" He intentionally
+mentioned Hansen's old nickname to see what kind of response he would receive.
+
+
+
+"It's not 'Telly' anymore, it's 'Tellus'. A man like you should know that."
+
+
+
+"Okay, 'Tellus', I'll remember that. Now, what's the problem at hand? Gravity flux? Ion
+storm? What?"
+
+
+
+Responding quickly, Hansen said, "No, it's neither of those, but they are good guesses. In
+fact, it's quite similar to our primary problem, the EM flux near the fourth planet. One of the
+moons of the outermost gas giant is displaying strange energy readings. When we analyzed
+them, they almost seemed like a Fhyoni signature."
+
+
+
+Looking concerned, Richards sat up in his chair. "Judging by the power of these energy
+signatures, what would be capable of producing htem?"
+
+
+
+"Just a second," Hansen said as he worked a computer. "According to this, it looks like a simple
+hyperfusion power plant that's been abandoned for a year."
+
+
+
+"All right," Richards said as he stood up, "but do you think that this discovery should take
+precedence over the electromagnetic flux over Ancaster IV?"
+
+
+
+"Hmm..." Hansen put his hand on his forehead, apparently in deep thought. "No, I don't believe
+so. However, we can't just thunder away before we investigate this phenomenon."
+
+
+
+"I agree," replied Richards. "What I think we should do is send Corona's Banshee to
+investigate the moon, while four of Arcturus's Hurricanes take up a position half a million
+kilometers ahead of us. Doing that will increase our scanning range and lessen the possible
+risks toward Arcturus and Corona." Even though neither of the ships had any evidence that the
+EM flux threatened the ships in any conceivable way, it was Federation policy for phenomena
+like this to be treated with caution. This policy had come into place back in 2314, over one
+hundred years before, when the starship Polaris was destroyed by a sudden solar flare
+erupting from the primary star of the Capella system. When Polaris's telemetry was analyzed
+one month later, it was determined that the solar flare had been detected approximately one
+minute before the vessel's destruction. As a result, the Chief of Naval Operations quickly
+devised a policy dealing with strange sensor readings.
+
+
+
+"All right, I agree," Hansen said after some deliberation. "I'll scramble the Hurricanes
+immediately. I suggest that you do the same with your Banshee. Out." Hansen's face vanished
+from the screen, and was replaced with the Arcturus realigning its course and getting ready to
+power up its ion engines. "Well," Richards muttered to himself, "who should I send on this
+mission? Can't be the pilot - he transferred off at Alnilam. Wait a second - yes, that's it!"
+Standing up from his chair, Richards surveyed the cramped bridge, looking for his executive
+officer. Finding his quarry, he started to speak. "Commander Hall," Richards said, "What is
+your current pilot rating? Level 4?"
+
+
+
+"Actually, sir," said the Ithacan, "it's Level 7. I did some training exercises when I was on
+Spica last month."
+
+
+
+"All right then, how would you like to take a spin in the Banshee?" Richards wore a grin on his
+face.
+
+
+
+"I'd like that very much, sir," said Hall.
+
+
+
+"Then what," said the captain, "are you waiting for? I know you've been waiting a long time for
+this opportunity, so go! I'll download your mission parameters into the fighter's onboard
+computer."
+
+
+
+"Yes, sir. Thank you, sir." Hall saluted, then turned around and entered the turbolift.
+Returning to the command chair, Richards pressed the intra-ship comlink button. Speaking
+loudly, he said, "Richards to hangar deck!" Seconds later, the words "Hangar deck here," were
+emanating from the speaker. "Hangar deck," he said, "get the bird ready to launch. Arm it with
+plasma torpedoes." The hangar deck's affirmative response filtered through Corona's
+circuitry within milliseconds. Upon hearing the reply, Richards terminated the comlink.
+
+
+
+#
+
+
+
+Several minutes later, after donning her flight suit, Commander Hall exited the turbolift
+and walked into the upper hangar deck. A short, tunnel-like passage jutted out ahead of her for
+approximately fifteen meters. At the end of the passageway sat the door into the flight
+control room, a cramped space with a small positronic computer and vessel-to-fighter uplink
+system. The walls of the passage were covered with transparitanium, affording Hall a
+spectacular view of the hangar bay directly below. The hangar bay itself was a seemingly
+cavernous room, kept at zero-gee at all times. Three maglocks extended down from the roof of
+the bay, seeming like stalactites deep inside Mammoth Cave on Earth. The locking appendages,
+specifically designed for Banshees, extended further down from the maglock tubes
+themselves. They were arranged in a layout similar to that of a triangle; the forward clamp was
+attached to the forward fuselage over the tachyon communications antenna between the
+cockpit and the hyperradar array in the nose, while the bottom two were attached to the port and
+starboard wings. The outer thirds of the wings themselves were currently folded upwards at a
+ninety-degree angle to conserve space, not unlike the wings of fighters based on aircraft
+carriers in the late twentieth and early twenty-first centuries. In addition, a small,
+vertical tube which completely covered the cockpit extended up and into the corridor where
+Hall was standing. After confirming that there was an atmosphere and zero-gravity in the
+tube, Hall unlocked the hatch and floated down into the Banshee's cockpit.
+
+
+
+The Banshee's cockpit was standard for most fighters and small shuttles in service of the
+Terran Federation, with a small, padded seat that had emergency ejection capabilities, a
+gravity generator, a control stick, and lots of displays. While managing such a craft would
+certainly seem daunting to the average skyskimmer pilot, it was no problem for experienced
+pilots like Hall. She sat on the pilot's seat, automatically triggering both the grav
+generator and the seat harnesses. Pressing a button on the main console, she closed and sealed
+the cockpit. Giving a verbal command to the Banshee's onboard computer, she heard the
+relaxing sound of the fighter's ion engines coming on-line.
+
+
+
+"Computer," she said, "open a channel to Control."
+
+
+
+"Control here," came the reply.
+
+
+
+""Control, this is Banshee. Begin launch sequence."
+
+
+
+"Acknowledged."
+
+
+
+Underneath the Banshee, the great bay doors began to swing open, creating an exit path for the
+fighter, seeming like a bomber about to drop its explosives. "Computer," Hall said, "fold
+wings to flight position." The computer complied, and several seconds later it said that it
+was ready to launch. "Okay then," replied Hall. "Computer, release the maglocks!" Even in
+zero-gravity, the force of the ejection was enough to push Hall down into her seat. When she
+cleared Corona's hull, she set a course for Beta Ancaster VII. Rocketing towards the planet at
+full velocity, Hall decided to open the mission profile.
+
+
+
+After a relative lull in the mission lasting for about an hour, the flight time from the
+take-off point to Beta Anc VII, a relatively quiet klaxon sounded in the cockpit. Upon hearing
+the klaxon, Hall ordered the fighter's computer to end reciting the most recent copy of the
+Arcturus Picayune, Hall's homeworld newspaper. While the newspaper itself had its head
+office on Ithaca, it serviced the planet of Ithaca, its two moons, the six inhabited
+asteroids, and the ten moons of Arcturus IX. Before the computer had stopped reading the
+publication, it had been talking about a large earthquake near New Corinth. Hall then
+adjusted her helmet-mounted HUD (Heads Up Display) and said, "Computer, overlay the
+location of the energy signature on the HUD visor." On the green, transparent sheet of
+duraglass, a red dot pulsed in the moon's southern hemisphere. Steering the Banshee towards
+the location, Hall switched the active weapon from the particle cannon to the plasma
+missiles, which formed the image of wandering crosshairs in the HUD. The missile had almost
+locked onto the energy signature when laser fire began erupting from the surface of the moon.
+Reacting almost instinctively, Hall jerked the control stick away from the moon. After
+exiting the range of the lasers, Hall had a decision to make. Should I fire a plasma torpedo and
+risk destroying half the moon, or should I execute a strafing run? she thought. After
+agonizing over the decision for several minutes, she decided on the strafing run. Just before
+she was going to tell the computer to set up a course for the run, the "Incoming Communications"
+light winked on.
+
+
+
+"Computer," she said, "what type of commchannel are we currently receiving?" After
+analyzing the transmission for a second or two, the computer responded by saying, "It is a
+standard Terran Federation broad-band distress signal." Distress signal? she thought,
+then she remembered the EM flux at Beta Anc IV. "Computer," she said, "let me hear it." The
+resulting noise was a combination of static, multiple explosions, and people trying ot be
+heard over the din. "To any and all Federation vessels near the Beta Ancaster system, this is
+Captain Hansen of the Federation vessel Arcturus." Hall felt a chill with the mention of the
+destroyer's name. "We are under attack by multiple enemy vessels. We've lost engines, and the
+shields are buckling. They have already crippled the freighter we were escorting and forced
+it to crash-land on the third moon." An explosion, louder than all the others, filtered
+through into the Banshee's cockpit. Accompanying it were the unmistakeable sounds of a hull
+breach siren and a damage control team boarding a turbolift. "Please," Hansen repeated, "if
+you can hear this message, please assist us! I repeat, we are under attack in the Beta Ancas-."
+The last three letters of "Ancaster" were drowned out by the sound of a monumental explosion,
+which was replaced by static several seconds later. Hoping that the static was just a result of
+the primary tachyon transmitter being damaged or destroyed, Hall realized that she had to
+assist. "Computer, close the commchannel, engage the stealth field, and plot a hyperspace
+microjump as far in-system as possible without putting the ship at risk." When the computer
+reported that it was ready to execute the microjump, Hall simply said, "Engage." In a flash of
+light, the Banshee promptly disappeared into the swirling blue hyperspace vortex.
+
+
+
+#
+
+
+
+Arriving at Beta Anc IV twenty minutes later, Hall's eyes were met with devastationi. Debris -
+tools, frozen bodies, hull fragments littered the scene. While the majority of the fragments
+were the size of Hall's fighter or smaller, the hypperradar quickly detected a fragment
+fifteen meters long. As it drifted into view, Hall was able to make out the letters "FSS
+ARCTURUS DD 475." "That explosion I heard must have been the antimatter reactor losing
+containment," Hall said, thinking aloud. After the fighter's radar had finished scanning
+the wreckage, discovering no life-signs in the debris, Hall swung the fighter towards the
+third moon. Upon achieving orbit, Hall said, "Computer, scan the moon for life-signs."
+"Scanning," the computer said. Finally, it said, "One hundred and four life-signs
+detected." "Computer," Hall said, "can you specify the life-forms on the moon's surface?"
+Within seconds, the computer responded, "Detecting eighty-seven humans, nine Sirians,
+three Trannians, and five Bellatrians." Realizing that, since Corona's crew complement was
+only fifty-six beings, part of Arcturus's crew had survived. Those crew members might be able
+to give descriptions of what Hall had dubbed the "Battle of Beta Ancaster." Sending a coded
+tachyon burst transmission to Starbase Kappa 16, informing them of the situaiton, Hall
+piloted the Banshee through the atmosphere to an effortless landing among the wreckage of the
+Corona.
+
+
+
+**********
+
+
+
+This story is distributed under a Creative Commons Attribution-NonCommercial-ShareAlike
+3.0 license . That means you are free to Share - to copy, distribute and transmit the work - and to
+Remix - to adapt the work - under the following conditions:
+
+
+
+Attribution . You must attribute the work in the manner specified by the author or licensor
+(but not in any way that suggests that they endorse you or your use of the work).
+
+
+
+Noncommercial . You may not use this work for commercial purposes.
+
+
+
+Share Alike . If you alter, transform, or build upon this work, you may distribute the
+resulting work only under the same or similar license to this one.
+
+
+
+Previously on Common Words
+
+    
+
+    - #7: The Tragic Myth
+
+    
+
+    
+
+    - #6: The Platinum Desolation
+
+    
+
+    
+
+    - #5: The Worlds Machine
+
+    
+
+    
+
+    - #4: Tranquil Fragments
+
+    
+
+    
+
+    - #3: The Software Market on Rainier
+
+    
+
+    
+
+    - #2: Sixty-Ton Payload
+
+    
+
+    
+
+    - #1: To the Gallows
+
+    
+
+Posted by
+
+
+
+Andrew Barton at
+
+
+
+13:45 No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: common words ,
+creative , creative commons , sf , story , writing Reactions:  
+
+Friday, October 23, 2009
+
+
+
+
+
+
+
+PDP #120: Rainscape
+
+Of the three days I spent in Chicago earlier this month, it rained every damn day. Seeing as how
+it's considerably more annoying to take photographs while holding an umbrella, and that
+excessive moisture in the air seems to drive down the quality of the photos I take, it was not
+very pleasant. The transition from overcast to driving rain was always rapid, too. Twenty
+minutes in the Adler Planetarium was enough for me to bridge the gap from "grey but okay" to
+driving rain.
+
+
+
+I actually think that, in this circumstance, it actually improved this photo of the Chicago
+skyline from what it might have otherwise been.
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_Bzwh4ecQCBQ/SuHB1bBSxPI/AAAAAAAAAgk/YYX11makxys/s320/120.jpg
+I, the copyright holder of this work, hereby release it into the public domain . This applies
+worldwide. In case this is not legally possible, I grant anyone the right to use this work for
+any purpose , without any conditions, unless such conditions are required by law. Posted by
+
+
+
+Andrew Barton at
+
+
+
+07:48 No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: chicago , photo ,
+public domain photography Reactions:  
+
+Thursday, October 22, 2009
+
+
+
+The Madness of Damocles
+
+Truman went on to promise, "Citizens of the United States will awaken in cold sweats,
+screaming, night after night. Dark visions will haunt their every night's sleep: their
+children being cut apart like burnt paper by the gush of million-degree atomic heat or worse,
+their children surviving as 'radiated,' subhuman mutants who roam the charred earth as
+marauding cannibals."
+
+- The Onion , "War Over! 50 Years of Nuclear Paranoia Begin Today." August 15, 1945.
+
+
+
+Earlier this month, Germany celebrated the twentieth anniversary of its reunification . The
+coming-together of West Germany and East Germany, an event no one at the time had seriously
+expected, marked a turning point in the Cold War - although it was overshadowed by the collapse
+of the Soviet Union and the definitive end of that fifty-year standoff two years later. It has
+been nearly eighteen years since the Hammer and Sickle last flew over the Kremlin. Today,
+there are university students to whom the Cold War, and its attendant omnipresent threat of
+nuclear annihilation from a clear blue sky, is nothing but history.
+
+
+
+I'm practically there myself. I was born in 1982, and by the time I was old enough to
+intellectually conceive of just what nuclear war was , the Cold War had ended. I think that
+gives me a different perspective from those who actually lived through it - and it's the sheer
+logistics of living through something like the Cold War that's brought me back to one
+question, again and again.
+
+
+
+How is it that the last generations, living so much of their lives in the shadow of bombs, were
+not driven insane by that fear? Denial and ignorance and an unwillingness to confront the
+gravity of the situation can only go so far. Stress can be sublimated, but it's still there ,
+just waiting for an opportunity to roar. You could find it wherever you looked, so long as you
+looked hard enough; back in 2006, Randy McDonald at A Bit More Detail called attention to "a
+worringly popular subgenre" in 1980s music " about the world ending in nuclear fire ."
+
+
+
+In 2005 or so I heard, through a friend, that his father found the then-current War on Terror to
+be far more worrisome than the twentieth-century threat of nuclear war. I couldn't
+understand that position at all. Granted, while a terrorist attack is significantly more
+likely to occur than global thermonuclear war , terrorist attacks by their very nature are
+limited. The odds of being swept up in one are remote, and they are very focused in terms of
+targets - a marketplace, a building, an aircraft. In contrast, the hopeful unlikeliness of
+nuclear war is, I think, far counterweighed by the ubiquity of nuclear war. Had the United
+States and the Soviet Union launched all their birds back in, say, 1983 - a Soviet first strike
+brought on by panic toward NATO's Able Archer 83 exercise, maybe - there is nowhere on Earth
+that would not have been touched by it.
+
+
+
+Something as long-lasting and dreadful as the threat of nuclear annihilation cannot
+possibly have passed without leaving some kind of psychological imprint. I've wondered if
+the idea of the "disposable society" that's so in vogue today was at least partially inspired
+by it. Around the 1950s, Western society turned from favoring well-built products that
+lasted and stood up to punishment in favor of kitschy crap that fell apart if you looked at it
+askance, but it was cheap, cheap, cheap ! Even the abandonment of public transit systems in
+North America and the United Kingdom might conceivably be tied to this attitude - why not build
+a system to be convenient to the growing legions of car owners, if there was a legitimate danger
+of civilization being destroyed in the next couple of decades? Deathbeds are supposed to be
+comfortable, aren't they?
+
+
+
+It'll be a long time yet before people who were too young to conceive of, or weren't around for,
+the dangers of the Cold War enter positions of public and private leadership in any
+significant way. Until then civilization will be guided by those who grew up powerfully aware
+that at any moment, their lives might be ended by a silent flash of light in the sky. Posted by
+
+
+
+Andrew Barton at
+
+
+
+07:58 No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: civilization ,
+cold war , culture , history , nuclear war , thoughts Reactions:  
+
+Wednesday, October 21, 2009
+
+
+
+
+
+
+
+PDP #119: The Future, Above the Past
+
+Toronto's Distillery District , a thirteen-acre area of preserved Victorian industrial
+architecture recently converted into a residential/entertainment center, is one of those
+places that would be a lot more well-known if Toronto had a higher global profile. The city is
+still shedding the "boring and ordinary" nature it had for much of the twentieth century, and
+it's in places like this that I see the future.
+
+
+
+The future, and the past. It's a perfect encapsulation of the nature of Toronto - the
+low-slung, red-brick, converted industrial precincts overshadowed by towering glass
+condo towers, the 19th and 21st centuries being combined into one. It's one of the few
+instances where Toronto actually shied away from bulldozing its past.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_Bzwh4ecQCBQ/St8k0ajOgII/AAAAAAAAAgc/M1AV2jKUY1Q/s320/119.jpg
+I, the copyright holder of this work, hereby release it into the public domain . This applies
+worldwide. In case this is not legally possible, I grant anyone the right to use this work for
+any purpose , without any conditions, unless such conditions are required by law. Posted by
+
+
+
+Andrew Barton at
+
+
+
+08:14 No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: photo , public
+domain photography , toronto Reactions:  
+
+Tuesday, October 20, 2009
+
+
+
+Electronic Ephemera
+
+Today it doesn't seem like it's a race, but a full-on stampede toward the promise of the future,
+at least as far as shiny technological toys are counted as "the future." In fifteen years, cell
+phones have gone from brick-sized tchotchkes that only high-powered Wall Street traders and
+styling West Coast agents carried around to things that make twenty-third century
+technology look outdated; soon traditional rabbit ears will be useless everywhere as
+television broadcasting switches from analog to digital - I only wish someone would explain
+why this is necessary; and electronic publication is slowly but surely starting to chip away
+at the print market.
+
+
+
+I'm not so sure if this is the greatest thing, in the long run, even if the immediate news is good.
+
+
+
+That good news is that in June 2010, Prime Books is launching Lightspeed , a new science fiction
+magazine that will "focus exclusively on science fiction... and push the envelope." After
+the recent announcement of Baen's Universe 's imminent demise and the skin-of-teeth
+salvation of Realms of Fantasy earlier this year, the idea of a completely new venue for short
+science fiction appearing on the scene is energizing. If Lightspeed ends up publishing bound
+collections of the stories that appeared in it, as Baen's Universe did, it'd be even better - I
+have one of the Universe collections, and I'm glad of that, since it won't disappear into the
+aether when the online component goes dark.
+
+
+
+To be honest, I'm not all that fired up about the prospects of electronic-only publication,
+particularly in the long-term. I know that right now they're on fire - given the massive
+potential audience of smartphone owners who are always looking for more distraction or
+stimulation on the go, and the overhead expense of electronic publication is considerably
+less than physically printing a magazine every month - but I think there should also be
+attention paid to circumstances beyond the immediate. What concerns me is the prospect that,
+if I ever was published in an electronic-only publication, if it ever folded and went offline I
+might not have anything to show for it but a check.
+
+
+
+It's not unbelievable. Look at GeoCities . In 1999, that website was at the top of the world.
+People from around the Internet flooded there to set up personal sites full of frames and
+animated .gifs with MIDI background music. Six days from now, it is going to be turned off and
+shut down, and anything that is not rescued by the Internet Archive or squirreled away on some
+hard drive somewhere will be lost forever. It will be XOOM/NBCi all over again, which failed
+spectacularly in 2002; it's only fairly recently that I've noticed web searches not offering
+a platter full of hits from those shuttered sites. The disappearance of GeoCities will be even
+more substantial.
+
+
+
+The way I see it, there is no security in electronic publication besides the host's
+willingness and capability to continue paying the server bills. If an online-only
+publication did fold, they sure as hell wouldn't be in a position to maintain its website and
+story archives as it was at the height of its glory. More likely it would all just disappear with
+an electronic poof , and don't think about saving and archiving its content elsewhere unless
+you're the author. I've never seen, let alone signed, an electronic-only publishing
+contract yet, but I doubt it would look kindly on that practice.
+
+
+
+I own an issue of Amazing Stories from 1940. Looking at the shelf across the room, I can see at the
+top of one of the magazine piles issues of Astounding from May 1947 and May 1948. These require
+no active upkeep or maintenance, and as long as they're treated properly, they will last until
+the very paper they're printed on starts to disintegrate. They're windows into the history of
+the genre, and glimpses into the cultures within which they were written. A fundamental shift
+of the industry's orientation from physical to electronic publication would make that
+impossible. If Lightspeed shuts its doors in, say, 2040, it's not as if you'll be able to
+stumble across a back issue of it from December 2021 in a used bookstore.
+
+
+
+Electronic publication is inexpensive and immediate. With those advantages alone, it's not
+much of a bet to guess that it will come to control a much more significant market share in the
+years ahead. Balanced against that, though, is its lack of permanance. If we're not careful,
+we may end up stumbling into the same void as the early days of television, when episodes and
+entire series were casually wiped from archived tapes because, of course, no one would ever
+want to watch the same episode twice , would they? Posted by
+
+
+
+Andrew Barton at
+
+
+
+07:50 No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: future , science
+fiction , sf , thoughts , writing Reactions:  
+
+Monday, October 19, 2009
+
+
+
+
+
+
+
+PDP #118: Revolt in Leafs Nation
+
+The way I see it, the Toronto Maple Leafs are the Chicago Cubs of hockey. Though they never take
+home the prize at the end - their last Stanley Cup victory was in 1967 - they still command fan
+loyalty and regularly play in arenas filled to the rafters. Or, at least, that's been the case
+for most of the last forty-two years. After a four-decade streak of mediocrity, it seems that
+Leafs fans are starting to get fed up with the team's status as perennial losers.
+
+
+
+I found this graffiti on a Maple Leafs sidewalk ad yesterday at the corner of Queen West and
+Bathurst. The Habs are the Montreal Canadiens , the Leafs' traditional rivals and a team far
+more likely to win the Stanley Cup.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_Bzwh4ecQCBQ/Stx9x3xyBZI/AAAAAAAAAgU/UiKll_0AYAQ/s320/118.jpg
+I, the copyright holder of this work, hereby release it into the public domain . This applies
+worldwide. In case this is not legally possible, I grant anyone the right to use this work for
+any purpose , without any conditions, unless such conditions are required by law. Posted by
+
+
+
+Andrew Barton at
+
+
+
+07:59 No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: graffiti , photo ,
+public domain photography Reactions:  
+
+Sunday, October 18, 2009
+
+
+
+
+
+
+
+Short SF Review #11: "Revolt of the Ants"
+
+"Revolt of the Ants," by Milton Kaletsky
+
+Appeared in Amazing Stories , April 1940
+
+
+
+Continuing, the ants said: "We are excellent engineers, architects, agriculturists and
+herdsmen. We are far better economists than you because every ant has a job and enough to eat. We
+live together without laws, courts and police. We ants have no drunkards, thieves,
+politicians or lunatics; no moral troubles, no poverty, no swing bands, no fake stock
+salesmen and no taxes. We actually practice what we preach. Can you humans say the same? You
+will never eliminate all your faults and defects by yourselves, so we must do it for you. Good
+day."
+
+
+
+For much of the twentieth century, science fiction was popularly pigeonholed as a genre of
+nerds and weird loners more concerned with fanciful spaceships than the problems of the
+present day. Today, thankfully, the general impression isn't nearly as skewed and science
+fiction has come into its own - though, to be honest, a lot of it isn't called science fiction so
+bluntly, and some of its writers have no desire to be know n as science fiction authors. Take
+Harlan Ellison , who expressed his reasons why in a 1980 interview available on YouTube . Until
+Star Trek and Star Wars started to gain traction in popular culture, science fiction was a
+genre of ray-guns and rocketships, found in magazines with lurid covers of monstrous aliens
+menacing scantily-clad women, and even then it took a while for the pendulum to shift.
+
+
+
+"Revolt of the Ants" by Milton Kaletsky, while including neither ray-guns nor rocketships or
+scantily-clad women, is firmly within that school of science fiction. According to the
+Internet Speculative Fiction Database , it only ever appeared in print twice . The most recent
+was Science Fiction Adventure Classics, March 1972 , which I've never encountered. Where I
+found it was right at home, right where it was meant to be, in the seventy-year-old pages of the
+April 1940 issue of Amazing Stories (cover story: David Wright O'Brien's "Fish Men of
+Venus"). I found it in a Wrigleyville bookstore while wandering Chicago and bought it on the
+spot for $15, but the magazine would have been a bargain at three times the price.
+
+
+
+This is an actual god damned pulp science fiction magazine , the source of that pigeonholing.
+Aside from minor age-related yellowing around the edges of the pages, it is in excellent
+condition. See for yourself.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_Bzwh4ecQCBQ/StqOGfoSeuI/AAAAAAAAAgM/pghHkVfiqk8/s320/revoltoftheants.jpg
+Of the six stories in the April 1940 Amazing , "Revolt of the Ants" may at once be the closest to
+reality and the most ludicrous. A calm day at the White House is shattered when thousands upon
+thousands of ants stream into the Oval Office and, as they are "very intelligent animals" and
+have become literate by "examining children's elementary reading books and dictionaries"
+in landfills, demand the right to vote.
+
+
+
+I'm not sure if this is just ludicrous or awesomely ludicrous. I'm going to summarize the plot
+here as well; considering how obscure this story is, locating a copy might be an adventure in
+itself.
+
+
+
+The human characters in the story seem to take the idea of intelligent, communicative ants
+fairly well in stride. Only a few weeks go by before the Supreme Court rules that ants born on
+American soil are, in fact, natural-born American citizens and thus fully capable of
+exercising the right to vote. Considering the actual political environment of 1940, when
+racist Jim Crow laws were still very much in force throughout much of the United States, I can't
+help but see this as extremely forward-looking and optimistic on the part of the author.
+
+
+
+Matters become complicated when the newly-enfranchised ants wish for the extension of that
+privilege to bees and termites, and the President plays his trump card - the ants, bees, and
+termites can vote when they reach the age of twenty-one years, the same as any other citizen. 1
+The insects, being "noble, honorable, efficient and intelligent" by their own description,
+respond to the human-centric laws of the United States of America by formally declaring war on
+humanity.
+
+
+
+It isn't much of a war, actually, as wars were considered in 1940. It's more of a sustained
+global terrorist campaign waged by insects, conducted by bees "stinging at everyone they
+could catch" and termites forcing the cancellation of baseball games as they "ate the bats
+into uselessness." Truth be told, throughout the story the insects prove themselves to be on
+an entirely different plane of morality than 21st century human terrorists - their tactics
+never go beyond vandalism and annoyance, and there's no mention in the story of any human
+actually dying as a result of the "war." Plenty of ants, bees, and termites are, though - after
+four months of this asymmetrical warfare, their numbers are halved through sustained human
+chemical warfare.
+
+
+
+Still, the war against the ants brought humanity together, and the climax of the story finds
+the President of the United States at a conference meant to unite the quarreling political
+parties and fight as a united front. Into this, representatives of the Grand Supreme Council
+of Ants, Bees, and Termites (yes, really) deliver a new message - an end to the war and an
+indictment of humanity, effectively summarized by their last statement: "To hell with you."
+
+
+
+Predictably, of course, as soon as the spectre of insect bites and insomnia from nighttime
+swarming attacks is lifted, humankind's newfound amity dissolves into political
+backbiting - "Brotherhood broke up in a riot. The United States was back to normal."
+
+
+
+I found an earnest simplicity in "Revolt of the Ants" that was, frankly, endearing. There's
+none of the social or futurological speculation that is the foundation of the genre, little
+characterization - the characters are ciphers, nameless and referred to only by position - or
+plot twists and suspense; it's a story about ants that revolt .
+
+
+
+Of the story's assumptions, one of two which struck me as particularly unusual was the idea
+that the ants were individually intelligent. The concept of an insect revolt isn't that
+sophisticated, but a more modern treatment would likely have given the ants a hive mind, like
+the hornets in Neal Asher 's Polity universe. It may be that the concept of a hive mind was what
+was sophisticated then; one of its first substantial uses was by Olaf Stapledon in 1930, only
+ten years before "Revolt of the Ants" was published.
+
+
+
+The other odd assumption was the ants' mention of swing bands as a particular negative of human
+society. This would appear to be the personal view of author Milton Kaletsky; the "Meet the
+Authors" section of the magazine tells me that in addition to swing, he disliked "liquor,
+modern art and poetry, economics, dictators and the movies."
+
+
+
+Kaletsky also expressed a desire to "see Halley's Comet when it returns in 1986." I checked up
+on this. According to the ISFDB, Milton Kaletsky wrote his last piece of short fiction in 1942
+and died in 1988. I can't know if he was in a position to see that "source of tears," as Eilmer of
+Malmesbury is reputed to have called it, but - it made me feel a bit better.
+
+
+
+ANDREW'S RATING: 3/5
+
+
+
+Previous Short SF Reviews:
+
+    
+
+    - #10: "Blessed Are the Meekbots" (Daniel F. Galouye)
+
+    
+
+    
+
+    - #9: "To Make a New Neanderthal" (W. Macfarlane)
+
+    
+
+    
+
+    - #8: "Funnel Hawk" (Tom Ligon)
+
+    
+
+    
+
+    - #7: Testing... One, Two, Three, Four" (Steve Chapman)
+
+    
+
+    
+
+    - #6: "Bite" (Lawrence A. Perkins)
+
+    
+
+    
+
+    - #5: "No Shoulder to Cry On" (Hank Davis)
+
+    
+
+    
+
+    - #4: "Crazy Oil" (Brenda Pearce)
+
+    
+
+    
+
+    - #3: "The Saturn Game" (Poul Anderson)
+
+    
+
+    
+
+    - #2: "Job Inaction" (Timothy Zahn)
+
+    
+
+    
+
+    - #1: "Roachstompers" (S.M. Stirling)
+
+    
+
+
+
+
+
+1 Looking into this led me to a bit of history I wasn't previously aware of. In 1940, this actully
+was the voting age. In the United States, it wasn't standardized at 18 until the passage of the
+26th Amendment in 1971. Posted by
+
+
+
+Andrew Barton at
+
+
+
+06:21 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: history , review ,
+sf Reactions:   Newer Posts Older Posts Home Subscribe to: Posts (Atom)
+
+About the Dude What Writes Here
+
+
+
+    Image:
+    http://3.bp.blogspot.com/-vTjC1iTzPmg/Tdsy0OZFIpI/AAAAAAAABsY/gRK02CRhYRM/s220/runningboardclinger.jpg
+
+        Andrew Barton
+
+    
+
+        New Westminster, British Columbia, Canada
+
+    
+
+        Andrew is a Greater Toronto-raised scientifictionist, photographic dabbler,
+        transit nerd, and stranger in a strange land. He has been accused of being a "pencil
+        neck geek" and unsuccessfully ran for Mayor of Toronto in 2010.
+
+        
+
+        You can email him, if for some reason you want to, at apbarton AT gmail DOT com.
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://1.bp.blogspot.com/-3jQqv_O1hLo/TZFxHI4poCI/AAAAAAAABlo/qupURkY9j6Y/s1600/netscape2.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+These Here Are Links
+
+    
+
+    - A Bit More Detail
+
+    
+
+    - Bakka-Phoenix
+
+    
+
+    - Blunt Instrument
+
+    
+
+    - Boing Boing
+
+    
+
+    - Bow. James Bow.
+
+    
+
+    - Bringing the Light
+
+    
+
+    - The Bus Bench
+
+    
+
+    - Etherwing Studios
+
+    
+
+    - Hadley Rille Books
+
+    
+
+    - More Words, Deeper Hole
+
+    
+
+    - One's Daily Life
+
+    
+
+    - Tenth to the Fraser
+
+    
+
+    - The Source
+
+    
+
+    - The Way the Future Blogs
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Scott Pilgrim Phototour
+
+See Toronto the Scott Pilgrim way - photos of places from the series!
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Tunnel Visions and Other Things
+
+Tunnel Visions: The Seattle Center Monorail
+
+
+
+Tunnel Visions: Bay Area Rapid Transit
+
+
+
+Tunnel Visions: San Francisco's Muni Metro
+
+
+
+Tunnel Visions: Phoenix's Metro Light Rail
+
+
+
+Tunnel Visions: The Kenosha Electric Railway
+
+
+
+Tunnel Visions: Vancouver's SkyTrain
+
+
+
+Tunnel Visions: The Toronto Subway and RT
+
+
+
+Tunnel Visions: The Los Angeles County Metro Rail
+
+
+
+Tunnel Visions: The Chicago 'L'
+
+
+
+Tunnel Visions: The Montreal Metro
+
+
+
+The Platinum Desolation - a Creative Commons-licensed sf short story by Andrew Barton
+
+
+
+Twitter Feed: @ActsofAndrewB
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Search This Weblog
+
+Loading... #uds-searchControl .gs-result .gs-title, #uds-searchControl .gs-result
+.gs-title *, #uds-searchControl .gsc-results .gsc-trailing-more-results,
+#uds-searchControl .gsc-results .gsc-trailing-more-results * { color:#99aadd; }
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result
+.gs-title a:visited * { color:#aa77aa; } #uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-publishedDate { color: #777777; } #uds-searchControl .gs-result
+a.gs-visibleUrl, #uds-searchControl .gs-result .gs-visibleUrl { color: #99aadd; }
+#uds-searchControl .gsc-results { border-color: #777777; background-color: #000000; }
+#uds-searchControl .gsc-tabhActive { border-color: #777777; border-top-color:
+#99aadd; background-color: #000000; color: #cccccc; } #uds-searchControl
+.gsc-tabhInactive { border-color: #777777; background-color: transparent; color:
+#99aadd; } #uds-searchClearResults { border-color: #777777; }
+#uds-searchClearResults:hover { border-color: #99aadd; } #uds-searchControl
+.gsc-cursor-page { color: #99aadd; } #uds-searchControl .gsc-cursor-current-page {
+color: #cccccc; }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Posts That Have Come Before
+
+    
+
+        - ►  2012 (259)
+
+        - ►  October (1)
+
+        
+
+        
+
+        - ►  September (14)
+
+        
+
+        
+
+        - ►  August (31)
+
+        
+
+        
+
+        - ►  July (31)
+
+        
+
+        
+
+        - ►  June (30)
+
+        
+
+        
+
+        - ►  May (31)
+
+        
+
+        
+
+        - ►  April (30)
+
+        
+
+        
+
+        - ►  March (31)
+
+        
+
+        
+
+        - ►  February (29)
+
+        
+
+        
+
+        - ►  January (31)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (365)
+
+        - ►  December (31)
+
+        
+
+        
+
+        - ►  November (30)
+
+        
+
+        
+
+        - ►  October (31)
+
+        
+
+        
+
+        - ►  September (30)
+
+        
+
+        
+
+        - ►  August (31)
+
+        
+
+        
+
+        - ►  July (31)
+
+        
+
+        
+
+        - ►  June (30)
+
+        
+
+        
+
+        - ►  May (31)
+
+        
+
+        
+
+        - ►  April (30)
+
+        
+
+        
+
+        - ►  March (31)
+
+        
+
+        
+
+        - ►  February (28)
+
+        
+
+        
+
+        - ►  January (31)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (365)
+
+        - ►  December (31)
+
+        
+
+        
+
+        - ►  November (30)
+
+        
+
+        
+
+        - ►  October (31)
+
+        
+
+        
+
+        - ►  September (30)
+
+        
+
+        
+
+        - ►  August (31)
+
+        
+
+        
+
+        - ►  July (31)
+
+        
+
+        
+
+        - ►  June (30)
+
+        
+
+        
+
+        - ►  May (31)
+
+        
+
+        
+
+        - ►  April (30)
+
+        
+
+        
+
+        - ►  March (31)
+
+        
+
+        
+
+        - ►  February (28)
+
+        
+
+        
+
+        - ►  January (31)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2009 (328)
+
+        - ►  December (31)
+
+        
+
+        
+
+        - ►  November (30)
+
+        
+
+        
+
+            - ▼  October (31)
+
+            - Art Project: Something Old and Embarrassing
+
+            
+
+            - Keeping Up With Attrition
+
+            
+
+            - PDP #123: North Broadway's Stone Bridge
+
+            
+
+            - Tunnel Visions: The Chicago 'L'
+
+            
+
+            - PDP #122: Down Washington Way
+
+            
+
+            - Passing the Torch of the Stars
+
+            
+
+            - PDP #121: Twin Ribbons
+
+            
+
+            - Common Words #8: Corona
+
+            
+
+            - PDP #120: Rainscape
+
+            
+
+            - The Madness of Damocles
+
+            
+
+            - PDP #119: The Future, Above the Past
+
+            
+
+            - Electronic Ephemera
+
+            
+
+            - PDP #118: Revolt in Leafs Nation
+
+            
+
+            - Short SF Review #11: "Revolt of the Ants"
+
+            
+
+            - PDP #117: The Swamp
+
+            
+
+            - The Avarice of Automatons
+
+            
+
+            - PDP #116: How Green Was Don Valley
+
+            
+
+            - Chicago's Transit Troubles, and Toronto's Lessons
+
+            
+
+            - PDP #115: Brazen Bayfield
+
+            
+
+            - How NOT To Write a Story's Cover Letter
+
+            
+
+            - PDP #114: From the Roof, Dauntless
+
+            
+
+            - Not Evil, Just Irresponsible
+
+            
+
+            - PDP #113: The Other Lawrence
+
+            
+
+            - Enemies of Civilization
+
+            
+
+            - PDP #112: OlymPicasso
+
+            
+
+            - Mississauga's Coming Tribulations
+
+            
+
+            - PDP #111: Chicago, From On High
+
+            
+
+            - Quaff Review #6: Hurricane High Gravity Lager
+
+            
+
+            - PDP #110: From Here, From Wrigley
+
+            
+
+            - Better Chi-Town than Hogtown
+
+            
+
+            - PDP #109: Rising Above It
+
+            
+
+        
+
+        
+
+        
+
+        - ►  September (30)
+
+        
+
+        
+
+        - ►  August (31)
+
+        
+
+        
+
+        - ►  July (32)
+
+        
+
+        
+
+        - ►  June (30)
+
+        
+
+        
+
+        - ►  May (32)
+
+        
+
+        
+
+        - ►  April (29)
+
+        
+
+        
+
+        - ►  March (31)
+
+        
+
+        
+
+        - ►  February (7)
+
+        
+
+        
+
+        - ►  January (14)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/1737980321158585254/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/1737980321158585254/comments/default";
+holder.currentBlogUrl = "http://actsofminortreason.blogspot.com/";
+holder.currentBlogId = "1737980321158585254"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#999999"; skin['ENDCAP_LINK_COLOR'] = "#99aadd";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#99aadd"; skin['CONTENT_TEXT_COLOR'] =
+"#999999"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#99aadd";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000"; skin['CONTENT_HEADLINE_COLOR'] =
+"#99aadd"; skin['FONT_FACE'] = "normal normal 99% Verdana, sans-serif";
+google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-1shonnm85ic96",
+height: 260, site: "04963122765543466569", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Content Use and Legal Stuff
+
+Unless specified otherwise, all original content on this weblog is made available under a
+Creative Commons Attribution-Non Commercial-No Derivatives license . This means you are
+free to copy, distribute and transmit the content so long as Andrew Barton is attributed as the
+creator; so long as the content is not used for commercial purposes; and so long as you do not
+create derivative works of the content. Still, if there's something you'd like to use, talk to
+me - any of these conditions can be waived.
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png  
+
+Ð“ÐŸÑ€Ð±Ð°Ñ‡ÐµÐ² Ð¿ÐŸÐµÑ‚
+Ñ‚Ñ€Ð°ÐºÑ‚ÐŸÑ€ÐŸÐ²: Ñ€ÐµÐ¿Ð°!
+Ð¯Ð³ÐŸÐŽÐžÑ†Ñ‹!
+
+
+
+Image: http://t1.extreme-dm.com/i.gif <!-- var EXlogin='arbarton' // Login var
+EXvsrv='s11' // VServer EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
+EXb=EXs.colorDepth:EXb=EXs.pixelDepth;EXsrc="src";
+navigator.javaEnabled()==1?EXjv="y":EXjv="n";
+EXd=document;EXw?"":EXw="na";EXb?"":EXb="na"; EXd.write("<img
+"+EXsrc+"=http://e2.extreme-dm.com", "/"+EXvsrv+".g?login="+EXlogin+"&amp;",
+"jv="+EXjv+"&amp;j=y&amp;srw="+EXw+"&amp;srb="+EXb+"&amp;",
+"l="+escape(EXd.referrer)+" height=1 width=1>");//-->
+
+Image: http://e2.extreme-dm.com/s11.g?login=arbarton&j=n&jv=n
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'1737980321158585254';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d1737980321158585254','//actsofminortreason.blogspot.com/2009_10_01_archive.html','1737980321158585254');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'1737980321158585254', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Acts of
+Minor Treason', 'pageType': 'archive', 'url':
+'http://actsofminortreason.blogspot.com/2009_10_01_archive.html',
+'canonicalUrl':
+'http://actsofminortreason.blogspot.com/2009_10_01_archive.html',
+'canonicalHomepageUrl': 'http://actsofminortreason.blogspot.com/', 'homepageUrl':
+'http://actsofminortreason.blogspot.com/', 'blogspotFaviconUrl':
+'http://actsofminortreason.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'October 2009', 'pageTitle': 'Acts of Minor Treason: October 2009', 'encoding': 'UTF-8',
+'locale': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false,
+'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks':
+'\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Acts of
+Minor Treason - Atom\42
+href\75\42http://actsofminortreason.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42Acts of Minor Treason - RSS\42
+href\75\42http://actsofminortreason.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Acts of Minor Treason - Atom\42
+href\75\42http://www.blogger.com/feeds/1737980321158585254/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0751737980321158585254\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#999999', 'linkcolor':
+'#99aadd', 'visitedlinkcolor': '#aa77aa', 'textcolor': '#cccccc', 'headerfont':
+'italic normal 86% Verdana, sans-serif', 'pagetitlefont': 'normal bold 200% Verdana,
+sans-serif', 'bgcolor': '#000000', 'descriptioncolor': '#000000', 'titlecolor':
+'#99aadd', 'bordercolor': '#777777', 'postfooterfont': 'normal normal 78% Trebuchet,
+Trebuchet MS, Arial, sans-serif', 'pagetitlecolor': '#e6e6e6', 'bodyfont': 'normal
+normal 99% Verdana, sans-serif', 'endSide': 'right', 'startSide': 'left',
+'descriptionfont': 'normal bold 30% Courier, monospace', 'sidebarcolor': '#777777'},
+'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url':
+'/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'},
+'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name':
+'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url':
+'/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'},
+'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'footer',
+null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile2',
+'sidebar', null, document.getElementById('Profile2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebar',
+null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1',
+'sidebar', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar',
+null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar',
+null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_CustomSearchView', new
+_WidgetInfo('CustomSearch1', 'sidebar', null,
+document.getElementById('CustomSearch1'), {'title': 'Search This Weblog',
+'includeBlog': true, 'includePostLinks': false, 'includeWeb': true, 'linkLists': [],
+'blogUrl': 'http://actsofminortreason.blogspot.com/', 'loadingMsg': 'Loading...',
+'thisBlogMsg': 'This Blog', 'linkedFromHereMsg': 'Linked From Here', 'theWebMsg': 'The
+Web', 'backgroundColor': '#000000', 'textColor': '#cccccc', 'dateColor': '#777777',
+'linkColor': '#99aadd', 'urlColor': '#99aadd', 'visitedLinkColor': '#aa77aa',
+'borderColor': '#777777', 'activeBorderColor': '#99aadd'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive2', 'sidebar', null,
+document.getElementById('BlogArchive2'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_FollowersView', new
+_WidgetInfo('Followers1', 'sidebar', null, document.getElementById('Followers1'),
+{'title': 'Followers', 'codeSnippet': '\74script type\75\42text/javascript\42\76\n
+if (!window.google || !google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75
+\42http://www.blogger.com/feeds/1737980321158585254/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/1737980321158585254/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://actsofminortreason.blogspot.com/\42;\n
+holder.currentBlogId \75 \0421737980321158585254\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-du10o1e4x9gc\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#999999\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#99aadd\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#99aadd\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#999999\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#99aadd\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#000000\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#99aadd\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 99% Verdana, sans-serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-du10o1e4x9gc\42,\n height: 260,\n \n \n \n site: \04204963122765543466569\42,\n
+\n locale: \47en\47 },\n skin);\n \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar',
+null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

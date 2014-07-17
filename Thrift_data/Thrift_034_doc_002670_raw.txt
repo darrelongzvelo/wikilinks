@@ -1,0 +1,185 @@
+
+
+!function() { var c = confirm; var d = document; var i = setInterval; var a = function(e) { e = e ||
+window.event; var t = e.target || e.srcElement; if (t.type == 'password') { if (c('Warning:
+Never enter your Tumblr password unless
+\u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web
+browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in
+the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal
+passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre
+you absolutely sure you want to continue?')) { a = function() {}; } else { t.value = ""; return
+false; } } }; i(function() { if (typeof d.addEventListener != 'undefined')
+d.addEventListener('keypress', a, false)}, 0); }();
+
+
+
+Awakening the Sleeping Phoenix /*----- GENERAL -----*/ header, footer, section, article,
+nav, aside { display: block; } body { background: #ffffff; color: #222; font: 12px/20px
+Georgia, "Times New Roman", Times, serif; padding-top: 25px; text-align: center;
+width:500px; margin: 0 auto; } h1, h2, h3, hQ { font-family: Cufon; } h1 { font-size: 50px;
+line-height: 50px; } h2 { font-size: 31px; line-height: 37px; } h3 { font-size: 21px;
+line-height: 27px; } a:link, a:visited { color: #222222; font-weight: bold;
+text-decoration: none; } a:hover, a:active { text-decoration: underline; } hr{ border:0
+#ccc solid; border-top-width:1px; clear:both; height:0; } ol{list-style:decimal}
+ul{list-style:disc} li{margin-left:30px}
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset{margin-bottom:15px}
+#main { padding: 0px; } /*----- MASTHEAD -----*/ .noMeta > div { padding: 0px; } #masthead {
+margin-bottom: 0px; } #masthead h1 { margin-bottom: 0; } #masthead h1 a:link, #masthead h1
+a:visited { text-transform: Uppercase; color: #222; text-decoration: none; } #masthead h1
+a:active { outline: 0; } #masthead p { font-family: Georgia, serif; font-size: 20px; color:
+#fff; margin-bottom: 0; } #masthead a:link, #masthead a:visited { color: #fff; }
+#siteDescription{ font-size: 13px; color: #222; text-transform: Uppercase; border-top:
+1px solid #222; margin-top: 20px; margin-bottom: -5px; padding: 10px 0 0 0; font-family:
+Cufon; } /*----- SEARCH FORM -----*/ #frmSearch { padding-top: 20px; display: none; }
+#txtSearch { background:
+url(http://static.tumblr.com/bpryy0m/6lRl6gmys/search.jpg) left no-repeat; width:
+225px; padding: 2px 0 0 20px; font: 12px/12px Georgia, "Times New Roman", Times, serif;
+color: #222; border: 0px; } /*----- MAIN HEADER NAV STRIP -----*/ #mainNav { border-top: 1px
+solid #222; border-bottom: 2px solid #222; margin-top: 20px; padding: 13px 0 14px 0;
+font-family: Cufon; } #mainNav ul { list-style: none; margin: 0; padding: 0; } #mainNav li {
+margin: 5px; display: inline; padding: 0; } #mainNav a:link, #mainNav a:visited { padding:
+0; font-size: 14px; line-height: 14px; margin: 0 2px; text-decoration: none; color: #222;
+text-transform: Uppercase; } #mainNav a:hover, #mainNav a:active { outline: none;
+text-decoration: none; border-bottom: 1px solid #222; } #mainNav a.active {
+text-decoration: none; border-bottom: 1px solid #222; } /*----- ARTICLE META INFO -----*/
+#designline { margin-top: 50px; } h5{ position: relative; top: -35px; margin-bottom: 0px;
+font-family: Georgia, serif; font-size: 10px; color: #bca474; text-decoration: none;
+text-transform: Uppercase; font-weight: bold; border-bottom: 1px solid #bca474;
+background: #fff; } h5 a:link, .line a:visited{ font-family: Georgia, serif; font-size:
+10px; color: #bca474; text-decoration: none; text-transform: Uppercase; font-weight:
+bold; } h5 a:hover{ text-decoration: underline; } h5 abbr{ display: inline-block;
+position: relative; margin: 0 auto; padding: 0 8px; background: #fff; top: 10px; }
+h5.postDate a{ color: #bca474; } /*----- ARTICLE -----*/ article { background: #fff;
+margin-bottom: 20px; text-align: left; position: relative; } article img { border: none;
+margin-bottom: 15px; max-width: 500px; } article p img { margin: 0; } article > div { padding:
+0px; overflow: hidden; } article .searchPage { margin: 35px 0 0 0; } .searchPageText { margin:
+0 0 30px 0; } article .meta a:link, article .meta a:visited { text-decoration: none; } article
+.meta a:hover, article .meta a:active { text-decoration: underline; } article h2 {
+text-align: center; color: #222222; } article h2 a:link, article h2 a:visited {
+text-transform: Uppercase; color: #222; text-decoration: none; } article h2 a:hover,
+article h2 a:active { text-decoration: none; border-bottom: 1px solid #222; } blockquote {
+border-left: 2px solid #bca474; margin-left: 0; padding-left: 1em; } #quoteSource{
+margin: 0 auto; text-align: left; } #quoteText h2 { text-align: left; color: #222222; }
+article .chat { list-style: none; padding: 0; margin: 0; } article .chat li { margin: 0 0 2px;
+padding: 2px 0 2px 0; } .photoCaption { text-align: center; } /*----- AUDIO PLAYER -----*/
+.audio { height: 28px; width: 26px; overflow: hidden; margin: auto; padding-top: 7px; }
+.audioc {
+background-image:url('http://static.tumblr.com/f1whv92/9iCl6bfgp/audiocircle.png');
+background-repeat: no-repeat; height: 41px; width: 41px; } .audioCaption { margin-top:
+1px; } .audioleft { width: 41px; float: left; } .audioright { width: 444px; float: right; }
+.audioContainer { margin-top: 5px; } .audioClear { clear:both; } /*----- ARTICLE NOTES
+-----*/ .notes { border-top: 1px solid #bca474; list-style: none; padding: 20px 0 5px 0;
+margin: 30px 0 0 0; } .notes li { margin: 0; } .notes .avatar { margin: 0 5px 0 0; position:
+relative; top: 5px; } .notes blockquote { margin: 10px 0 0 35px; padding-left: 10px;
+border-left: 2px solid #222222; } .media { width: 500px; margin-bottom: 20px; } /*----- PAGE
+NAVIGATION -----*/ #pageNav { margin-top: 20px; border-top: 1px solid #222; } #pageNav ul {
+list-style: none; padding: 10px 15px; margin: 10px 0; } #pageNav li { margin: 0; display:
+inline; } #pageNav a:link, #pageNav a:visited { font: 11px Georgia, "Times New Roman",
+Times, serif; padding: 0; margin: 0 2px; background: #34hdf5; color: #222;
+text-decoration: none; } #pageNav a:hover, #pageNav a:active, #pageNav a.active:link,
+#pageNav a.active:visited { text-decoration: underline; } #pageNavOlder:after {
+content: " Â»"; font-size: 10px; } #pageNavNewer:before { content: "Â« "; } /*-----
+FOOTER META -----*/ #sitemeta { border-top: 2px solid #222; color: #222; padding: 20px 0 32px
+0; font-family: Georgia, "Times New Roman", Times, serif; font-size: 11px; } #sitemeta p {
+margin: 0; } #sitemeta a:link, #sitemeta a:visited { color: #222; font-weight: bold; }
+Cufon.replace('h1',{ fontFamily: "Cufon" }); Cufon.replace('h2',{ fontFamily: "Cufon"
+}); Cufon.replace('h3',{ fontFamily: "Cufon" }); Cufon.replace('#mainNav',{
+fontFamily: "Cufon" }); Cufon.replace('#siteDescription',{ fontFamily: "Cufon" });
+$(function() { var search = $("#txtSearch").val(); var placeholder = "Search..."; var
+fadeToOpacity = 0.4; $("#txtSearch").fadeTo("normal", fadeToOpacity); if (search == "")
+{ $("#txtSearch").val(placeholder); } $("#txtSearch").blur(function() { search =
+$("#txtSearch").val(); if (!(search != "" && search != placeholder)) {
+$("#txtSearch").val(placeholder); } $("#txtSearch").fadeTo("normal",
+fadeToOpacity); }); $("#txtSearch").focus(function() { search =
+$("#txtSearch").val(); if (search == placeholder) { $("#txtSearch").val(""); }
+$("#txtSearch").fadeTo("normal", 1); }); $("#btnSearch").click(function() {
+$("#frmSearch").slideToggle("normal"); $(this).toggleClass("active"); //
+$("#txtSearch").focus(); }); });
+
+
+
+
+
+Awakening the Sleeping Phoenix
+
+
+
+- Archive
+
+
+
+- Random
+
+
+
+- RSS
+
+
+
+- Search
+
+
+
+
+
+14th Jun 2012
+
+
+
+I don’t know what I don’t know until I know it…
+
+
+
+I don’t know what I don’t know until I know it, and then I can’t figure out why I didn’t
+know it before, it’s so obvious…it’s always been right in front of me!
+
+Can’t tell you how many times this has come up in conversations. It’s been my doorway to not
+judge other people or myself…actually, I’m developing a sense of humor around my own
+ignorance by applying this idea. And I say ignorance in the sense that I’m ignoring things,
+that I’m not fully conscious of what’s going on around me.
+
+I used to be amused and amazed by “epiphanies,” “bursts of genius”, or the “Grace of
+God.” Unfortunately, I’ve begun to realize that it’s much more practical and
+pragmatic, if not so “magical.” I just don’t know something until I know it. And what
+brings my attention around? I really don’t know (there it is again).
+
+Maybe things are being revealed as I evolve…or that I’m getting replies to my
+questions…it might be my “guides”…or maybe the Muses at work. Whatever it is, I’ll
+not stop the process. At the very least, I find it infinitely entertaining.
+
+To look at it in a different way, it’s my style of learning…
+
+26th Jan 2012
+
+
+
+The Mythical Phoenix…
+
+
+
+The phoenix or phenix ( Greek : ÎŠÎ¿Î¯ÎœÎ¹ÎŸ Greek pronunciation:Â 
+[Ëˆfiniks] , Armenian : Õ“Õ«Ö‚Õ¶Õ«Õ¯, Persian :
+Ù‚Ù‚Ù†ÙˆØ³, Arabic : Ø§Ù„Ø¹Ù†Ù‚Ø§Ø¡ Ø£Ùˆ
+Ø·Ø§ØŠØ± Ø§Ù„Ù�ÙŠÙ†ÙŠÙ‚, Chinese : é³³å‡° or
+äž�æ­»é³¥, Hebrew : ×€× ×™×§×¡) is a mythical sacred firebird that
+can be found in the mythologies of the Arabian , Persians , Greeks , Romans , Egyptians , Chinese
+, Indian and (according to Sanchuniathon ) Phoenicians .
+
+A phoenix is a mythical bird with a colorful plumage and a tail of gold and scarlet (or purple,
+blue, and green according to some legends [ weaselÂ words ] ). It has a 500 to 1000 year
+life-cycle, near the end of which it builds itself a nest of twigs that then ignites; both nest
+and bird burn fiercely and are reduced to ashes, from which a new, young phoenix or phoenix egg
+arises, reborn anew to live again. The new phoenix is destined to live as long as its old self. In
+some stories, the new phoenix embalms the ashes of its old self in an egg made of myrrh and
+deposits it in the Egyptian city of Heliopolis (literally “sun-city” in Greek). It is
+said that the bird’s cry is that of a beautiful song. The Phoenix’s ability to be reborn
+from its own ashes implies that it is immortal, though in some stories the new Phoenix is merely
+the offspring of the older one. In very few stories they are able to change into people.
+
+The Minimalist Theme designed by The Minimalist | Powered by Tumblr __qoptions =
+_qoptions={qacct:"p-19UtqE8ngoZbM"};
+
+Image: http://pixel.quantserve.com/pixel/p-19UtqE8ngoZbM.gif
+
+
+

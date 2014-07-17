@@ -1,0 +1,3727 @@
+
+
+
+
+/* Copyright 2008 Google. */ (function() { var a=window,b="tick",c="start";var
+d=function(g){this.t={};this.tick=function(g,l,f){f=void 0!=f?f:(new
+Date).getTime();this.t[g]=[f,l]};this[b](c,null,g)},e=new
+d;a.jstiming={Timer:d,load:e};if(a.performance&&a.performance.timing){var
+h=a.performance.timing,i=a.jstiming.load,j=h.navigationStart,k=h.responseStart;0<j&&k>=j&&(i[b]("_wtsrt",void
+0,j),i[b]("wtsrt_","_wtsrt",k),i[b]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),i&&0<j&&(i[b]("_tbnd",void
+0,a.chrome.csi().startE),i[b]("tbnd_","_tbnd",j)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,i&&0<j&&(i[b]("_tbnd",void
+0,a.external.startE),i[b]("tbnd_","_tbnd",j)));m&&(a.jstiming.pt=m)}catch(n){};
+})() /* Copyright 2008 Google. */ (function() { var
+d=window,e="length",h="",i="__duration__",j="function";function k(c){return
+document.getElementById(c)}d.byId=k;function l(c){return
+c.replace(/^\s+|\s+$/g,h)}d.trim=l;var
+m=[],n=0;d.JOT_addListener=function(c,a,b){var f=new
+String(n++),c={eventName:c,handler:a,compId:b,key:f};m.push(c);return
+f};d.JOT_removeListenerByKey=function(c){for(var
+a=0;a<m[e];a++)if(m[a].key==c){m.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var
+a=0;a<m[e];a++)m[a].eventName==c&&m.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var
+f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded){a=m[e];for(b=0;b<a&&b<m[e];b++){var
+g=m[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof
+g.handler==j?g.handler:d[g.handler])&&g(f))}}else
+d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new
+Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var
+f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return
+a?d.JOT_siteRelTimeStrs[f].replace(i,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(i,Math.floor(b))};
+})() var webspace =
+{"scottyUrl":"/_/upload","isConsumer":true,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"https://gg.google.com/csi","sharingPolicy":"OPENED","analyticsAccountId":"UA-5886268-1","baseUri":"/site/chinhdangvu","name":"chinhdangvu","domain":"defaultdomain","features":{"scottyForTrogImageUpload":false,"pdfEmbedSupport":false,"docosCommenting":true,"useStandardEmbedsInSidebar":false,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"plusOneButtonOptions":true,"siteChromeSystemFooterDialog":true,"plusOneButton":true,"spreadsheetsEmbedLoadRedirect":true,"colorsAndFontsRefactor":false,"ieSevenUnsupportedError":false,"manageRedirects":false,"photoAlbumsInOnePick":true,"siteChromeInPlaceEditingProdLaunchPromo":true,"autoCompleteSearch":false,"goocitiesTheme":false,"editorKeyboardShortcuts":true,"experimental":{"displayEditorLockExceptions":false},"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"dataPropsForEmbeds":true,"autoAdjustSitemapSearchDepth":true,"userContentMetaTags":true,"htmlEmbed":true,"keyboardShortcuts":true,"siteChromeHeaderDialog":true,"stBtiWebspaceTitleSearch":true,"pageRedirects":false,"siteChromeCustomFooterDialog":true},"adsensePublisherId":null,"gvizVersion":1,"siteTitle":"\u0111\u1eb7ngv\u0169ch\u00ednh","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://www.google.com/sites/help/intl/en/terms.html","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isGoocities":false,"isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"enableAutoComplete":true,"isStartPageEnabled":false,"domainAnalyticsAccountId":""};
+webspace.gadgets =
+{"isGadgetDirectoryEnabled":true,"baseUri":"/site/chinhdangvu/system/app/pages/gadgets","isGgsRenderingEnabled":true};
+webspace.user =
+{"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+webspace.page =
+{"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:743445e6e0616be6","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:42b8c0c81c5dd46","revision":5,"title":"Belgrade
+on Google
+Earth","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"belgrade-on-google-earth","path":"/google-earth/serbia-on-google-earth/belgrade-on-google-earth","openMoreActionMenu":null,"isSiteRtlLocale":false,"parentPath":"/google-earth/serbia-on-google-earth"};
+webspace.page.breadcrumbs = [{"title":"Google
+Earth","dir":"ltr","path":"/site/chinhdangvu/google-earth","deleted":false},{"title":"Serbia
+on Google
+Earth","dir":"ltr","path":"/site/chinhdangvu/google-earth/serbia-on-google-earth","deleted":false},{"title":"Belgrade
+on Google
+Earth","dir":"ltr","path":"/site/chinhdangvu/google-earth/serbia-on-google-earth/belgrade-on-google-earth","deleted":false}];
+webspace.editorResources = { text: [
+'https://ssl.gstatic.com/sites/p/e2b29f/system/js/codemirror.js',
+'https://ssl.gstatic.com/sites/p/e2b29f/system/app/css/codemirror_css.css',
+'https://ssl.gstatic.com/sites/p/e2b29f/system/js/trog_edit__en.js',
+'https://ssl.gstatic.com/sites/p/e2b29f/system/app/css/trogedit.css',
+'/site/chinhdangvu/_/rsrc/1348697308000/system/app/css/editor.css',
+'https://ssl.gstatic.com/sites/p/e2b29f/system/app/css/codeeditor.css',
+'/site/chinhdangvu/_/rsrc/1348697308000/system/app/css/camelot/editor-jfk.css'
+], sitelayout: [
+'https://ssl.gstatic.com/sites/p/e2b29f/system/app/css/sitelayouteditor.css' ] };
+var JOT_clearDotPath =
+'https://ssl.gstatic.com/sites/p/e2b29f/system/app/images/cleardot.gif'; var
+JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour
+ago","__duration__ hours ago"]; webspace.siteTemplateId = false;
+webspace.page.currentTemplate = {"title":"Web
+Page","path":"/system/app/pagetemplates/text"}; var JOT_siteRelTimeStrs = ["a minute
+ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+window.jstiming.load.tick('scl'); Belgrade on Google Earth -
+Ä‘áº·ngvÅ©chÃ­nh window.jstiming.load.tick('cl');
+
+
+
+Ä‘áº·ngvÅ©chÃ­nh
+
+Search this site
+
+Navigation
+
+    
+
+    - Home - Contents of this Site
+
+    
+
+    - 2009 swine flu outbreak
+
+    
+
+    - 2010 Nobel Peace Prize / 2010å¹Žè¯ºèŽ�å°”å’Œå¹³å¥–
+
+    
+
+    - 20th century Western painting
+
+    
+
+    - 24 (TV series)
+
+    
+
+    - Aleksandr Solzhenitsyn / Ð�Ð»ÐµÐºÑ�Ð°Ì�ÐœÐŽÑ€
+    Ð˜Ñ�Ð°Ì�ÐµÐ²ÐžÑ‡
+    Ð¡ÐŸÐ»Ð¶ÐµÐœÐžÌ�Ñ†Ñ‹Ðœ
+
+    
+
+    - Amsterdam
+
+    
+
+    - Anna Akhmatova / Ð�Ì�ÐœÐœÐ°
+    Ð�Ñ…ÐŒÐ°Ì�Ñ‚ÐŸÐ²Ð°
+
+    
+
+    - Art museum
+
+    
+
+    - Athens
+
+    
+
+    - Aung San Suu Kyi
+
+    
+
+    - Bangkok
+
+    
+
+    - Barcelona
+
+    
+
+        - Berlin
+
+        - Berlin Wall
+
+        
+
+    
+
+    
+
+    - Birmingham
+
+    
+
+        - Biá»ƒn Ä�ÃŽng / South China Sea
+
+        - Battle of the Paracel Islands / Háº£i chiáº¿n HoÃ ng Sa 1974
+
+        
+
+        - Hainan Island incident
+
+        
+
+        - Hainan Submarine Base on Google Earth / CÄƒn cá»© tÃ u ngáº§m
+        Ä‘áº£o Háº£i Nam
+
+        
+
+        - Háº£i chiáº¿n TrÆ°á»�ng Sa 1988 / Naval battle in Spratly 1988
+
+        
+
+        - Spratly Islands
+
+        
+
+        - USNS Impeccable (T-AGOS-23)
+
+        
+
+    
+
+    
+
+    - Brisbane
+
+    
+
+    - Brussels
+
+    
+
+    - Budapest
+
+    
+
+    - Buddhism / Pháº­t giÃ¡o / Bouddhisme
+
+    
+
+    - Calgary
+
+    
+
+    - Canberra
+
+    
+
+    - Carla Bruni
+
+    
+
+        - China
+
+        - 2008 Chinese milk scandal
+        äž‰é¹¿å¥¶ç²‰æ±¡æŸ“äº‹ä»¶
+
+        
+
+        - 2008 Summer Olympics torch relay
+
+        
+
+        - Ba Jin å·Žé‡‘
+
+        
+
+        - Beijing Television Cultural Center fire
+        äž­å€®ç”µè§†å�°æ–°å€§æ¥ŒåŒ—é…�æ¥Œ
+
+        
+
+        - BÄ›ijÄ«ng
+
+        
+
+        - Chinaâ€“France relations
+
+        
+
+        - Chinese architecture
+
+        
+
+        - Chinese cuisine
+
+        
+
+        - Chinese New Year
+
+        
+
+        - Chinese painting
+
+        
+
+        - Cinema of China
+
+        
+
+        - Cinema of Hong Kong
+
+        
+
+        - Edison Chen photo scandal é™ˆå† åžŒè£žç…§äº‹ä»¶
+
+        
+
+        - Histoire de la Chine
+
+        
+
+        - History of China äž­å›œåŽ†å�²
+
+        
+
+        - Hong Kong
+
+        
+
+        - Human rights in the People's Republic of China
+        äž­å�Žäººæ°‘å…±å’Œå›œäººæ�ƒ
+
+        
+
+        - July 2009 ÃœrÃŒmqi riots
+
+        
+
+        - Jung Chang åŒ æˆŽ
+
+        
+
+        - Kim Dung / JÄ«n YÅ�ng é‡‘åºž
+
+        
+
+        - LÇ� BÃ¡i æ�Žç™œ
+
+        
+
+        - Lá»‹ch sá»­ Trung Quá»‘c
+
+        
+
+        - Sima Qian / TÆ° MÃ£ ThiÃªn
+
+        
+
+        - Tibet
+
+        
+
+        - TrÆ°Æ¡ng Tiá»ƒu VÅ© åŒ ç­±é›š
+
+        
+
+        - TÄƒng Tuyáº¿t Minh æ›Ÿé›ªæ˜Ž
+
+        
+
+        - XÄ« ShÄ« / TÃ¢y Thi è¥¿æ–œ
+
+        
+
+        - ZhÅ�u WÃšihuÃ¬ å‘šå�«æ…§ ChÃ¢u Vá»‡ Tuá»‡
+
+        
+
+    
+
+    
+
+        - Cinema of Taiwan
+
+        - Lust, Caution è‰², æˆ’
+
+        
+
+    
+
+    
+
+    - Contents of my 2nd Site
+
+    
+
+    - Copenhagen
+
+    
+
+    - Dublin
+
+    
+
+        - East Asian calligraphy
+
+        - Japanese calligraphy
+
+        
+
+        - SÅ« ShÃ¬ è‹�èœŒ
+
+        
+
+        - WÃ¡ng XÄ«zhÄ« çŽ‹çŸ²ä¹‹
+
+        
+
+        - Yan Zhenqing
+
+        
+
+    
+
+    
+
+        - Economic crisis of 2008
+
+        - Global financial crisis of Septemberâ€“October 2008
+
+        
+
+    
+
+    
+
+    - Edinburgh
+
+    
+
+    - EncyclopÃ©die ou Dictionnaire raisonnÃ© des sciences, des arts et des mÃ©tiers
+
+    
+
+    - Florence
+
+    
+
+    - FrÃ©dÃ©ric Bastiat
+
+    
+
+    - George Orwell
+
+    
+
+        - Google Earth
+
+        - Algeria on Google Earth
+
+        
+
+        - Argentina
+
+        
+
+        - Australia on Google Earth
+
+        
+
+        - Austria
+
+        
+
+        - Belgium on Google Earth
+
+        
+
+        - Brazil on Google Earth
+
+        
+
+        - Brunei on Google Earth
+
+        
+
+        - Bulgaria on Google Earth
+
+        
+
+        - Cambodia
+
+        
+
+        - Canada on Google Earth
+
+        
+
+        - China on Google Earth
+
+        
+
+        - Colombia on Google Earth
+
+        
+
+        - Costa Rica on Google Earth
+
+        
+
+        - Croatia on Google Earth
+
+        
+
+        - Czech Republic on Google Earth
+
+        
+
+        - CÃŽte d'Ivoire on Google Earth
+
+        
+
+        - Denmark on Google Earth
+
+        
+
+        - Egypt on Google Earth
+
+        
+
+        - Estonia on Google Earth
+
+        
+
+        - Finland on Google Earth
+
+        
+
+        - France on Google Earth
+
+        
+
+        - Germany on Google Earth
+
+        
+
+        - Ghana on Google Earth
+
+        
+
+        - Greece on Google Earth
+
+        
+
+        - Hungary on Google Earth
+
+        
+
+        - Iceland on Google Earth
+
+        
+
+        - India on Google Earth
+
+        
+
+        - Indonesia on Google Earth
+
+        
+
+        - Iran on Google Earth
+
+        
+
+        - Ireland on Google Earth
+
+        
+
+        - Israel on Google Earth
+
+        
+
+        - Italy on Google Earth
+
+        
+
+        - Japan on Google Earth
+
+        
+
+        - Jordan on Google Earth
+
+        
+
+        - Kazakhstan on Google Earth
+
+        
+
+        - Malaysia on Google Earth
+
+        
+
+        - Mexico on Google Earth
+
+        
+
+        - Morocco on Google Earth
+
+        
+
+        - Netherlands on Google Earth
+
+        
+
+        - New Zealand on Google Earth
+
+        
+
+        - Nigeria in Google Earth
+
+        
+
+        - Norway on Google Earth
+
+        
+
+        - Pakistan on Google Earth
+
+        
+
+        - Peru in Google Earth
+
+        
+
+        - Philippines on Google Earth
+
+        
+
+        - Poland on Google Earth
+
+        
+
+        - Portugal on Google Earth
+
+        
+
+        - Romania on Google Earth
+
+        
+
+        - Russia on Google Earth
+
+        
+
+        - Serbia on Google Earth
+
+        
+
+        - Singapore on Google Earth
+
+        
+
+        - Slovenia on Google Earth
+
+        
+
+        - South Korea on Google Earth
+
+        
+
+        - Spain on Google Earth
+
+        
+
+        - Sweden on Google Earth
+
+        
+
+        - Switzerland on Google Earth
+
+        
+
+        - Taiwan on Google Earth
+
+        
+
+        - Thailand on Google Earth
+
+        
+
+        - Turkey on Google Earth
+
+        
+
+        - UK on Google Earth
+
+        
+
+        - United Arab Emirates on Google Earth
+
+        
+
+        - USA on Google Earth + maps
+
+        
+
+        - Vietnam on Google Earth + maps
+
+        
+
+    
+
+    
+
+    - Google Street View
+
+    
+
+    - Goulag / Gulag / Ð“Ð£Ð›Ð�Ð“
+
+    
+
+    - History of Photography
+
+    
+
+        - India
+
+        - Indian Navy
+
+        
+
+        - Kama Sutra
+
+        
+
+        - Sino-Indian War
+
+        
+
+    
+
+    
+
+        - Internet
+
+        - History of the Internet
+
+        
+
+    
+
+    
+
+    - iPad 2
+
+    
+
+    - iPod Touch
+
+    
+
+    - Italian Renaissance
+
+    
+
+        - Japan
+
+        - Cinema of Japan
+
+        
+
+        - History of Japan
+
+        
+
+        - Imperial Japanese Navy
+
+        
+
+        - Japanese cuisine
+
+        
+
+        - Japanese painting
+
+        
+
+        - Pornography in Japan
+
+        
+
+        - Samurai
+
+        
+
+        - ShichirÅ� Fukazawa æ·±æ³œäžƒéƒŽ
+
+        
+
+        - Ukiyo-e
+
+        
+
+    
+
+    
+
+    - Katyn massacre
+
+    
+
+    - Korean War
+
+    
+
+    - Kuala Lumpur
+
+    
+
+    - Le Livre noir du communisme / The Black Book of Communism: Crimes, Terror, Repression
+
+    
+
+    - List of countries by GDP (nominal)
+
+    
+
+    - List of statues by height
+
+    
+
+    - Lists of countries with rankings and world maps
+
+    
+
+        - LiÃšge åˆ—æ—¥
+
+        - LiÃšge (texte franÃ§ais)
+
+        
+
+    
+
+    
+
+    - London
+
+    
+
+    - Madrid
+
+    
+
+    - Manila
+
+    
+
+    - Melbourne
+
+    
+
+    - Milan
+
+    
+
+    - Modern art
+
+    
+
+    - Moscow
+
+    
+
+        - My Music A-B
+
+        - Diá»…m LiÃªn
+
+        
+
+        - Faye Wong çŽ‹è�²
+
+        
+
+        - HÃ©lÃšne Grimaud
+
+        
+
+        - Há»“ HoÃ ng Yáº¿n
+
+        
+
+        - Há»“ Ngá»�c HÃ  èƒ¡çŽ‰è�·
+
+        
+
+        - KhÃ¡nh Ly
+
+        
+
+        - LÃª UyÃªn
+
+        
+
+        - Martha Argerich
+
+        
+
+        - Má»¹ TÃ¢m
+
+        
+
+        - Na Ying é‚£è‹±
+
+        
+
+        - Twelve Girls Band å¥³å­�å��äºŒä¹�å�Š
+
+        
+
+        - Ã� Lan
+
+        
+
+        - Ä�áº·ng ThÃ¡i SÆ¡n
+
+        
+
+        - Ä�á»©c Tuáº¥n
+
+        
+
+    
+
+    
+
+        - Navy
+
+        - Aircraft carrier
+
+        
+
+    
+
+    
+
+    - New Delhi
+
+    
+
+        - Overseas Vietnamese / Viá»‡t kiá»�u
+
+        - NgÆ°á»�i Kinh äº¬æ—� / The Jing
+
+        
+
+        - Vietnamese American
+
+        
+
+        - Vietnamese Australian / NgÆ°á»�i Ãšc gá»‘c Viá»‡t
+
+        
+
+        - Vietnamese Canadian
+
+        
+
+        - Vietnamese Norwegian
+
+        
+
+        - Vietnamese people in Bulgaria
+
+        
+
+        - Vietnamese people in France
+
+        
+
+        - Vietnamese people in Germany
+
+        
+
+        - Vietnamese people in Russia
+
+        
+
+        - Vietnamese people in Taiwan / NgÆ°á»�i Viá»‡t táº¡i Ä�Ã i
+        Loan
+
+        
+
+        - Vietnamese people in the Czech Republic
+
+        
+
+        - Vietnamese people in the United Kingdom
+
+        
+
+    
+
+    
+
+    - Prison Break
+
+    
+
+    - Quantum of Solace
+
+    
+
+    - Sandro Botticelli
+
+    
+
+    - Seoul
+
+    
+
+    - Serial killer
+
+    
+
+    - Singapore
+
+    
+
+    - Sydney
+
+    
+
+    - Tank
+
+    
+
+    - Tea èŒ¶
+
+    
+
+        - Tourism
+
+        - Australia travel guide
+
+        
+
+        - Canada travel guide
+
+        
+
+        - China travel guide
+
+        
+
+        - France travel guide
+
+        
+
+        - Italy travel guide
+
+        
+
+        - Japan travel guide
+
+        
+
+        - Singapore travel guide
+
+        
+
+        - Thailand travel guide
+
+        
+
+        - United Kingdom travel guide
+
+        
+
+        - United States of America travel guide
+
+        
+
+        - Vietnam travel guide
+
+        
+
+        - World Tourism rankings
+
+        
+
+    
+
+    
+
+    - United Kingdom
+
+    
+
+        - United States
+
+        - Atlanta
+
+        
+
+        - Austin, Texas
+
+        
+
+        - Barack Obama
+
+        
+
+        - Bernard Madoff
+
+        
+
+        - Boston
+
+        
+
+        - Chicago
+
+        
+
+        - Culture of the United States
+
+        
+
+        - Dallas
+
+        
+
+        - History of the United States
+
+        
+
+        - Houston
+
+        
+
+        - Iraq War
+
+        
+
+        - Los Angeles
+
+        
+
+        - Marilyn Monroe in Life
+
+        
+
+        - New York City
+
+        
+
+        - Portland, Oregon
+
+        
+
+        - Public image of George W. Bush
+
+        
+
+        - San Diego
+
+        
+
+        - San Francisco
+
+        
+
+        - War in Afghanistan (2001â€“present)
+
+        
+
+        - Washington, D.C.
+
+        
+
+    
+
+    
+
+    - Varlam Shalamov / Ð’Ð°Ñ€Ð»Ð°ÐŒ
+    Ð¢ÐžÑ…ÐŸÐœÐŸÐ²ÐžÑ‡ ÐšÐ°Ð»Ð°ÐŒÐŸÐ²
+
+    
+
+        - Vietnam
+
+        - Atlas of Vietnam
+
+        
+
+        - Culture of Vietnam
+
+        
+
+        - Da Nang
+
+        
+
+        - DÆ°Æ¡ng Thu HÆ°Æ¡ng
+
+        
+
+        - Gá»‘m BÃ¡t TrÃ ng
+
+        
+
+        - Hanoi
+
+        
+
+        - History of Vietnam
+
+        
+
+        - HoÃ ng ThÃ¹y Linh
+
+        
+
+        - Human rights in Vietnam
+
+        
+
+        - Pháº¡m VÄƒn Ä�á»“ng å�–å›œèŽŒ
+
+        
+
+        - Saigon
+
+        
+
+        - ThÃ¡i thÃº å€ªå®ˆ
+
+        
+
+        - Tráº­n mÆ°a á»Ÿ miá»�n Báº¯c vÃ  miá»�n Trung Viá»‡t
+        Nam 2008 / 2008 Vietnam floods
+
+        
+
+        - Vietnam maps
+
+        
+
+        - Vietnamese cuisine
+
+        
+
+        - Vung Tau
+
+        
+
+        - VÅ© ThÆ° HiÃªn / BÃ¹i TÃ­n
+
+        
+
+        - Váº¥n Ä‘á»� lÃ£nh thá»• biÃªn giá»›i Viá»‡t Nam -
+        Trung Quá»‘c
+
+        
+
+        - Ä�áº·ng-VÅ© KhiÃªu
+
+        
+
+    
+
+    
+
+    - Vietnam in Google Maps
+
+    
+
+    - Wolfgang Amadeus Mozart
+
+    
+
+        - World's largest urban agglomerations
+
+        - List of metropolitan areas by population
+
+        
+
+    
+
+    
+
+    - Sitemap
+
+    
+
+Google Earth â€Ž > â€Ž Serbia on Google Earth â€Ž > â€Ž
+
+Belgrade on Google Earth
+
+
+
+Image: http://docs.google.com/File?id=dfrj55h8_975hkvqphg6_b
+
+
+
+The City of Belgrade
+
+Ð“Ñ€Ð°ÐŽ Ð‘ÐµÐŸÐ³Ñ€Ð°ÐŽ Â  Â  Â Â  Grad Beograd
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/7/70/Flag_of_Belgrade.svg/100px-Flag_of_Belgrade.svg.png
+
+Flag
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Coat_of_Arms_Belgrade.png/100px-Coat_of_Arms_Belgrade.png
+
+Coat of arms
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Serbia_Belgrade.png/120px-Serbia_Belgrade.png
+Location of Belgrade within Serbia Coordinates:Â 
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Erioll_world.svg/18px-Erioll_world.svg.png
+44Â°49â€²14â€³NÂ 20Â°27â€²44â€³E Country
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/22px-Flag_of_Serbia.svg.png
+Â  Serbia District City of Belgrade Municipalities 17 Founded 269Â  B.C. City rights
+150Â  A.D. Unified 1918 Government Â -Â  Mayor Dragan Ä�ilas Â ( DS )
+Â -Â Deputy Mayor Milan KrkobabiÄ‡ Â ( PUPS ) Â -Â  RulingÂ parties DS /
+G17+ / SPS - PUPS / LDP Area Â -Â City 3,222.68Â km 2 Â (1,244.3Â sqÂ mi) Â -
+Urban 359.96Â km 2 Â (139Â sqÂ mi) Elevation Â  [ 1 ] 117Â m (384Â ft)
+Population Â (2007) [ 2 ] Â -Â City 1,630,000 Â -Â  Density 530.61/km 2
+Â (1,374.3/sqÂ mi) Â -Â  Urban 1,182,000 Â - Urban Density 3,560.95/km 2
+Â (9,222.8/sqÂ mi) Â -Â  Demonym Belgrader Time zone CET Â ( UTC+1 )
+Â -Â SummerÂ ( DST ) CEST Â ( UTC+2 ) Postal code 11000 Area code(s) (+381) 11 Car
+plates BG Website www.beograd.rs
+
+Belgrade Â ( Serbian :Â  Ð‘ÐµÐŸÐ³Ñ€Ð°ÐŽ ,Â  Beograd ) is theÂ 
+capital Â and largest city ofÂ  Serbia . The city lies onÂ  two international
+waterways , at the confluence of theÂ  Sava Â andÂ  Danube Â rivers, where the
+Pannonian Plain Â meets theÂ  Balkan Peninsula . With a population of 1,630,000
+(official estimate 2007) [ 3 ] , Belgrade is the largest city in the territory of theÂ  former
+Yugoslavia , second largest city on theÂ  Danube river [ 4 ] Â and the fourth largest
+inÂ  Southeastern Europe , afterÂ  Istanbul ,Â  Athens , andÂ  Bucharest .
+
+One of the oldest cities ofÂ  Europe , with archeological finds tracing settlements as
+early as 6th millennium BC, [ 5 ] [ 6 ] Â Belgrade's wider city area was the birthplace of
+theÂ  largest prehistoric culture [ 7 ] Â ofÂ  Europe , the VinÄ�a culture . [ 8 ]
+Â The city was discovered by theÂ  Greeks , [ 9 ] Â founded and named by theÂ  Celts
+Â ( White City , name it still bears), [ 10 ] Â awardedÂ  city rights Â by theÂ 
+Romans [ 11 ] Â before it was permanently settled byÂ  White Serbs Â from the 600s
+onwards. As a strategic key, the city was battled over in 140 separate wars since the ancient
+period by countless armies of theÂ  East Â andÂ  West . [ 12 ] Â In medieval times, it
+was in the possession ofÂ  Byzantine ,Â  Frankish ,Â  Bulgarian ,Â  Hungarian
+Â andÂ  Serbian Â rulers. In 1521 Belgrade was conquered by theÂ  Ottomans Â and
+became the seat of theÂ  Pashaluk of Belgrade , as the principal city of Ottoman Europe [ 13 ]
+Â and among the largest European cities. [ 14 ] Â Frequently passing fromÂ  Ottoman
+Â toÂ  Austrian rule , the status of Serbian capital would be regained only in 1841, after
+theÂ  Serbian revolution . Northern Belgrade , though, remained an Austrian outpost until
+the breakup ofÂ  Austria-Hungary Â in 1918. The united city then became the capital of
+several incarnations ofÂ  Yugoslavia , up to 2006, when Serbia became an independent state
+again.
+
+Belgrade has the status of a separate territorial unit in Serbia, with its own autonomous city
+government. [ 15 ] Â Its territory is divided intoÂ  17 municipalities , each having its
+own local council. [ 16 ] Â It covers 3.6% of the territory of Serbia, and 24% of the country's
+population lives in the city. [ 17 ] Â Belgrade is the central economic hub of Serbia, and the
+capital ofÂ  Serbian culture ,Â  education Â and science.
+
+Geography
+
+
+
+Belgrade lies 116.75Â metres (383Â ft) above Â  sea level Â and is located atÂ 
+confluence Â of theÂ  Danube Â andÂ  Sava Â rivers, atÂ  coordinates
+Â 44Â°49'14" North, 20Â°27'44" East. The historical core of Belgrade, today'sÂ 
+Kalemegdan , is on the right bank of the rivers. Since the 19th century, the city has been
+expanding to the south and east, and after World War II,Â  New Belgrade Â was built on the
+Sava's left bank, merging Belgrade withÂ  Zemun . Smaller, chiefly residential
+communities across the Danube, likeÂ  KrnjaÄ�a Â andÂ  OvÄ�a , also merged
+with the city. The city has an urban area of 360Â square kilometres (139Â sqÂ mi),
+while together with its metropolitan area it covers 3,223Â kmÂ²
+(1,244.4Â sqÂ mi). Throughout history, Belgrade has been a major crossroad between
+theÂ  West Â andÂ  the Orient . [ 18 ]
+
+On the right bank of the Sava, central Belgrade has hilly terrain, while the highest point of
+Belgrade proper isÂ  Torlak hill Â at 303Â m (994Â ft). The mountains ofÂ  Avala
+Â (511Â m (1,677Â ft)) andÂ  Kosmaj Â (628Â m (2,060Â ft)) lie south of
+the city. [ 19 ] Â Across the Sava and Danube, the land is mostly flat, consisting ofÂ 
+alluvial plains Â andÂ  loessial Â  plateaus .
+
+Climate
+
+Climate chart Â for Belgrade J F M A M J J A S O N D Â  Â  49 Â  4 -2 Â  Â  44 Â  6 0 Â 
+Â  50 Â  12 3 Â  Â  59 Â  18 8 Â  Â  71 Â  23 12 Â  Â  90 Â  25 15 Â  Â  66
+Â  27 16 Â  Â  51 Â  27 16 Â  Â  51 Â  24 13 Â  Â  40 Â  18 8 Â  Â  54 Â  11 4
+Â  Â  58 Â  5 0 average temperatures in Â°C
+
+precipitation totals in mm
+
+source:Â  Climate-Charts.com
+
+Belgrade has a moderateÂ  continental climate . The year-round average temperature is
+11.7Â Â°C (53.1Â Â°F), while the hottest month is July, with an average
+temperature of 22.1Â Â°C (71.8Â Â°F). There are, on average, 31 days a year when the
+temperature is above 30Â Â°C, and 95 days when the temperature is above 25Â Â°C.
+Belgrade receives about 700 millimetres (27.56 in) of precipitation a year. The average
+annual number of sunny hours is 2,096. The sunniest months are July and August, with an average
+of about 10 sunny hours a day, while December and January are the gloomiest, with an average of
+2â€“2.3 sunny hours a day. [ 20 ] Â The highest officially recorded temperature in
+Belgrade was +43.1Â Â°C, [ 21 ] while on the other end, the lowest temperature was
+-26.2Â Â°C on January 10, 1893. [ 22 ]
+
+History
+
+
+
+Ancient city
+
+
+
+TheÂ  Neolithic Â  StarÄ�evo Â andÂ  VinÄ�a cultures Â existed in or near
+Belgrade and dominated theÂ  Balkans Â (as well as parts ofÂ  Central Europe
+Â andÂ  Asia Minor ) about 7,000 years ago. [ 23 ] [ 24 ] Some scholars believe that the
+prehistoricÂ  VinÄ�a signs Â represent the earliest known form ofÂ  alphabet . [
+25 ] Â Many centuries later, the GreekÂ  Argonauts Â have discovered the riverÂ 
+Sava Â in ancient Belgrade (which they namedÂ  Cauliac ) while sailing from theÂ 
+Black Sea Â upstream ( Appolonius ). [ 9 ] Â Settled in the fourth century BC by aÂ 
+Celtic Â tribe, theÂ  Scordisci , the city's recorded name was SingidÅ«n, before
+becoming theÂ  romanized Â  Singidunum Â in the first century AD. In the mid 2nd
+century, the city was proclaimed aÂ  municipium Â by the Roman authorities, evolving
+into a full fledgedÂ  colonia Â (highest class Roman city) by the end of the century. [ 11 ]
+Â The firstÂ  Christian Â  Emperor of Rome Â was born in modernÂ  Serbia :Â 
+Constantine I known asÂ  Constantine the Great Â ( Naissus , 280 A.D. [ 26 ] ) and a Roman
+Emperor was born in Belgrade,Â  Jovian , the restorer ofÂ  Christianity ,Â  Flavius
+Iovianus , ( Singidunum , 332 A.D. [ 27 ] ) Jovian reestablished Christianity as the official
+religion of theÂ  Roman Empire , ending the brief revival of ism under his predecessorÂ 
+Julian . In 395Â AD, the site passed to the Eastern Roman orÂ  Byzantine Empire . [ 24 ]
+Â Across the Sava from Singidunum was the Celtic city ofÂ  Taurunum (Zemun) , that
+through Roman and Byzantine times shared a common fate with its "twin brother" (the two cities
+were connected by a bridge). [ 28 ]
+
+Middle Ages
+
+
+
+Singidunum was occupied and often ravaged by successive invasions ofÂ  Huns ,Â 
+Sarmatians ,Â  Gepids ,Â  Ostrogoths Â andÂ  Avars Â before the arrival of
+theÂ  Slavs Â around 630 AD. It served as the center of the Gepidean Kingdom Â in the
+early 500s, before being taken by the Avars. When theÂ  Avars Â were finally destroyed in
+the 9th century by theÂ  Frankish Kingdom , it fell back to Byzantine rule, whilstÂ 
+Taurunum Â became part of the Frankish realm (and was renamed to Malevilla). [ 29 ] Â At
+the same time (around 878), the first record of theÂ  Slavic nameÂ  Beligrad Â has
+appeared, during the rule of theÂ  First Bulgarian Empire . For about four centuries, the
+city remained a battleground between theÂ  Byzantine Empire , theÂ  Kingdom of Hungary
+Â and theÂ  First Bulgarian Empire . [ 30 ] Â The city hosted the armies of theÂ  First
+Â and theÂ  Second Crusade ; [ 31 ] Â while passing through during the Third Crusade
+,Â  Frederick Barbarossa Â and his 190,000Â  crusaders Â saw Belgrade in ruins. [
+32 ] Â Capital of theÂ  Kingdom of Syrmia Â since 1284, the firstÂ  Serbian king
+Â to rule over Belgrade wasÂ  Dragutin , who received it as a gift from hisÂ 
+father-in-law , the Hungarian kingÂ  Stephen V . [ 33 ] Â Following theÂ  Battle of
+Maritsa Â in 1371, and theÂ  Battle of Kosovo Â in 1389, theÂ  Serbian Empire
+Â began to crumble as theÂ  Ottoman Empire Â conquered its southern territory. [ 34 ] [
+35 ] Â The north, however, resisted through the Serbian Despotate , which had Belgrade as
+its capital. The city flourished underÂ  despot Â  Stefan LazareviÄ‡ , son of the
+famous Serbian rulerÂ  Lazar HrebeljanoviÄ‡ . LazareviÄ‡ built a castle with a
+citadel and towers, of which only theÂ  Despot's tower Â and the west wall remain. He also
+refortified the city's ancient walls, allowing the Despotate to resist the Ottomans for
+almost 70 years. During this time, Belgrade was a haven for the many Balkan peoples fleeing
+from Ottoman rule, and is thought to have had a population of some 40â€“50,000. [ 33 ]
+
+In 1427, Stefan's successorÂ  Ä�uraÄ‘ BrankoviÄ‡ Â had to return Belgrade to
+theÂ  Hungarians , and the capital was moved toÂ  Smederevo . During his reign, the
+Ottomans captured most of theÂ  Serbian Despotate , unsuccessfully besieging Belgrade
+first in 1440 [ 31 ] Â and again in 1456. [ 36 ] Â As it presented an obstacle to their further
+advance intoÂ  Central Europe , over 100,000 Ottoman solders [ 37 ] Â have launched the
+famous Siege of Belgrade , where theÂ  Christian Â army underÂ  John Hunyadi
+Â successfully defended the city from the Ottomans, wounding the SultanÂ  Mehmed II [ 38
+] Â This battle "decided the fate of Christendom"; [ 39 ] Â theÂ  noon bell Â ordered
+byÂ  Pope Callixtus III Â commemorates the victory throughout the Christian world to
+this day. [ 40 ] [ 31 ]
+
+Turkish conquest / Austrian invasions
+
+
+
+It wasn't until August 28, 1521 (7 decades after the last siege), that the fort was finally
+captured by SultanÂ  Suleyman the Magnificent Â and his 250,000 soldiers;
+subsequently, most of the city was razed to the ground and its entire Christian population
+(including Serbs, Hungarians, Greeks, Armenians etc) was deported to Istanbul , [ 31 ] Â to
+the area since known as theÂ  Belgrade forest . [ 41 ] Â Belgrade was made the seat of the
+district ( Sanjak ), attracting new inhabitantsâ€” Turks , Armenians ,Â  Greeks
+,Â  Ragusan Â traders, and others, and there was peace for the next 150 years. The city
+became the second largestÂ  Ottoman Â town inÂ  Europe Â at over 100,000 people,
+surpassed only byÂ  Constantinople . [ 37 ] Â Turkish rule also introducedÂ  Ottoman
+architecture Â to Belgrade and manyÂ  mosques Â were built, increasing the
+city'sÂ  Oriental Â influences. [ 42 ] Â In 1594, a majorÂ  Serb rebellion Â was
+crushed by the Turks. Further on,Â  Albanian - bornÂ  Grand vizier Â  Sinan Pasha [ 43 ]
+ordered theÂ  relics Â ofÂ  Saint Sava Â to be publicly torched on theÂ 
+VraÄ�ar plateau ; more recently, theÂ  Temple of Saint Sava Â was built to
+commemorate this event. [ 44 ] Â In retaliation for the rebellion, most of the city's
+population was deported toÂ  Istanbul ; theÂ  Belgrade Forest Â is, centuries on,
+still named after those Serbian refugees. [ 45 ]
+
+Occupied byÂ  Austria Â three times (1688â€“1690, 1717â€“1739,
+1789â€“1791), headed by theÂ  Holy Roman Princes Â  Maximilian of Bavaria
+Â andÂ  Eugene of Savoy , [ 46 ] Â respectively, Belgrade was quickly recaptured and
+substantially razed each time by the Ottomans. [ 42 ] Â During this period, the city was
+affected by the twoÂ  Great Serbian Migrations , in which hundreds of thousands of Serbs,
+led by theirÂ  patriarchs , retreated together with the Austrians into the Habsburg
+Empire, settling in today'sÂ  Vojvodina Â andÂ  Slavonia . [ 47 ]
+
+Serbian capital
+
+
+
+During theÂ  First Serbian Uprising , the Serbian revolutionaries held the city from
+January 8, 1807 until 1813, when it was retaken by the Ottomans. [ 48 ] Â After theÂ  Second
+Serbian Uprising Â in 1815, Serbia reached semi-independence, which was formally
+recognized by theÂ  Porte Â in 1830. [ 49 ] Â In 1841, PrinceÂ  Mihailo
+ObrenoviÄ‡ Â moved the capital fromÂ  Kragujevac Â to Belgrade. [ 50 ] [ 51 ]
+
+With theÂ  Principality 's full independence in 1878, and its transformation into theÂ 
+Kingdom of Serbia Â in 1882, Belgrade once again became a key city in the Balkans, and
+developed rapidly. [ 48 ] [ 52 ] Â Nevertheless, conditions in Serbia as a whole remained
+those of an overwhelmingly agrarian country, even with the opening of a railway toÂ  NiÅ¡
+, Serbia's second city, and in 1900 the capital had only 69,100 inhabitants. [ 53 ] Â Yet by
+1905 the population had grown to more than 80,000, and by the outbreak ofÂ  World War I Â in
+1914, it had surpassed the 100,000 citizens, not countingÂ  Zemun Â which then belonged
+toÂ  Austria-Hungary . [ 54 ]
+
+The first-ever projection of motion pictures in theÂ  Balkans Â andÂ  Central Europe
+Â was held in Belgrade in June 1896 by Andre Carr, a representative of the LumiÃšre
+brothers . He shot the first motion pictures of Belgrade in the next year; however, they have
+not been preserved. [ 55 ]
+
+World War I / Unified city
+
+" Kalemegdan Â is the prettiest and most courageous piece of optimism I know. "
+
+â€” Rebecca West Â in 1913 [ 56 ] Gavrilo Princip 'sÂ  assassination of Archduke
+Franz Ferdinand Â of Austria and his wife Sophie, Duchess of Hohenberg, inÂ  Sarajevo
+Â on June 28, 1914 triggeredÂ  World War I . Most of the subsequent Balkan offensives
+occurred near Belgrade.Â  Austro-Hungarian Â  monitors Â shelled Belgrade on July
+29, 1914, and it was taken by theÂ  Austro-Hungarian Army under GeneralÂ  Oskar Potiorek
+Â on November 30. On December 15, it was re-taken byÂ  Serbian troops Â under
+MarshalÂ  Radomir Putnik . After a prolonged battle which destroyed much of the city,
+between October 6 and October 9, 1915, Belgrade fell toÂ  German Â and Austro-Hungarian
+troops commanded by Field MarshalÂ  August von Mackensen Â on October 9, 1915. The city
+was liberated by Serbian andÂ  French troops Â on November 5, 1918, under the command of
+MarshalÂ  Louis Franchet d'EspÃ©rey Â ofÂ  France Â andÂ  Crown Prince
+Alexander of Serbia . Decimated as the front-line city, for a while it wasÂ  Subotica [ 57 ]
+Â that was the largest city in theÂ  Kingdom ; still, Belgrade grew rapidly, retrieving
+its position by the early 1920s.
+
+After the war, Belgrade became the capital of the new Kingdom of Serbs, Croats and Slovenes,
+renamed theÂ  Kingdom of Yugoslavia Â in 1929. The Kingdom was split intoÂ  banovinas
+, and Belgrade, together withÂ  Zemun Â andÂ  PanÄ�evo , formed a separate
+administrative unit. [ 58 ]
+
+During this period, the city experienced faster growth and significant modernisation.
+Belgrade's population grew to 239,000 by 1931 (incorporating the town ofÂ  Zemun ,
+formerly in Austria-Hungary), and 320,000 by 1940. The population growth rate between 1921
+and 1948 averaged 4.08% a year. [ 59 ] Â In 1927, Belgrade's first airport opened, and in
+1929, its first radio station began broadcasting. TheÂ  PanÄ�evo Bridge , which
+crosses the Danube, was opened in 1935. 60 ]
+
+World War II
+
+
+
+On March 25, 1941, the government ofÂ  regent Â  Crown Prince Paul Â signed theÂ 
+Tripartite Pact , joining theÂ  Axis powers Â in an effort to stay out of theÂ  Second
+World War . This was immediately followed by mass protests in Belgrade and a militaryÂ  coup
+d'Ã©tat Â led by Air Force commander GeneralÂ  DuÅ¡an SimoviÄ‡ , who
+proclaimedÂ  King Peter II Â to be of age to rule the realm. Consequently, the city
+wasÂ  heavily bombed Â by theÂ  Luftwaffe Â on April 6, 1941, and 24,000 people were
+killed.Â  [ 61 ] [ 62 ] Â  YugoslaviaÂ  was thenÂ  invaded Â byÂ  German ,Â 
+Italian ,Â  Hungarian , andÂ  Bulgarian Â forces, and suburbs as far east asÂ  Zemun
+, in the Belgrade metropolitan area, were incorporated into a NaziÂ  puppet state , theÂ 
+Independent State of Croatia . Belgrade became the seat ofÂ  another puppet government ,
+headed by GeneralÂ  Milan NediÄ‡ .
+
+During the summer and fall of 1941, in reprisal for guerrilla attacks, Germans carried out
+several massacres of Belgrade citizens; in particular, members of theÂ  Jewish
+Â community were subject to mass shootings at the order of GeneralÂ  Franz BÃ¶hme , the
+German Military Governor of Serbia. BÃ¶hme rigorously enforced the rule that for every
+German killed, 100 Serbs or Jews would be shot. [ 63 ]
+
+Belgrade was bombed Â by theÂ  Allies Â on April 16 [ citation needed ] , 1944, killing
+about 1,600 people. Both this and the earlier Luftwaffe bombing fell on theÂ  Orthodox
+Christian Â  Easter . Most of the city remained under German occupation until October 20,
+1944, when it was liberated byÂ  Communist Â  Yugoslav Partisans Â and theÂ  Red
+Army . On November 29, 1945, MarshalÂ  Josip Broz Tito Â proclaimed the Federal People's
+Republic of Yugoslavia Â in Belgrade (later to be renamed toÂ  Socialist Federal
+Republic of Yugoslavia Â on April 7, 1963).
+
+Communist Yugoslavia
+
+
+
+During the post-war period, Belgrade grew rapidly as the capital of the renewed Yugoslavia,
+developing as a major industrial centre. [ 52 ] Â In 1958, Belgrade's first television
+station began broadcasting. In 1961, the conference ofÂ  Non-Aligned Countries Â was
+held in Belgrade under Tito's chairmanship. In 1968, major student protests against Tito led
+to several street clashes between students and the police, ending with Tito's famous saying,
+"Students are right!". In March 1972, Belgrade was at the centre ofÂ  the last major
+outbreak of smallpox in Europe , which, through enforced quarantine and mass vaccination,
+was contained by late May. [ 64 ]
+
+Post-communist history
+
+
+
+On March 9, 1991,Â  massive demonstrations Â led byÂ  Vuk DraÅ¡koviÄ‡ Â were
+held in the city againstÂ  Slobodan MiloÅ¡eviÄ‡ . [ 65 ] Â According to various
+media outlets, there were between 100,000 and 150,000 people on the streets. [ 66 ] Â Two
+people were killed, 203 injured and 108 arrested during the protests, and later that day tanks
+were deployed onto the streets to restore order. [ 67 ] Â  Further protests Â were held in
+Belgrade from November 1996 to February 1997 against the same government after alleged
+electoral fraud at local elections. [ 68 ] Â These protests broughtÂ  Zoran
+Ä�inÄ‘iÄ‡ Â to power, the firstÂ  mayor of Belgrade Â sinceÂ  World War
+II Â who did not belong to theÂ  League of Communists of Yugoslavia Â or its later
+offshoot, theÂ  Socialist Party of Serbia . [ 69 ]
+
+TheÂ  NATO bombing Â during theÂ  Kosovo War Â in 1999 caused substantial damage to
+the city. Among the sites bombed were the buildings of several ministries, theÂ  RTS
+Â building, whichÂ  killed 16 technicians , several hospitals, the Jugoslavija Hotel,
+theÂ  Central Committee building , theÂ  Avala TV Tower , and theÂ  Chinese embassy . [
+70 ]
+
+After theÂ  elections in 2000 , Belgrade was the site of major street protests, with over
+half a million people on the streets (800,000 by police estimates, over 1,000,000 according
+toÂ  Misha Glenny ). These demonstrations resulted in theÂ  ousting of president
+MiloÅ¡eviÄ‡ . [ 71 ] [ 72 ]
+
+Names through history
+
+
+
+Belgrade has had many different names throughout history, and in nearly all languages could
+be translated into modern English "white city" (for slavic languages compareÂ  Belgorod ,
+a Russian city also called white city). Name Notes SingidÅ«n(o)- Named by the Celtic tribe
+of theÂ  Scordisci ;Â  dÅ«n(o)- Â means 'lodgment, enclosure, fort', and for word
+'singi' there are several theories - one being that it is a Celtic word for circle, hence "round
+fort", and the other that the name originated from the Sings, possibly a Thracian tribe that
+occupied the area prior to the arrival of the Scordisci. [ 73 ] SingidÅ«num Romans conquered
+the city and Romanised the Celtic name Beograd, Ð‘ÐµÐŸÐ³Ñ€Ð°ÐŽ Slavic
+name first mentioned in 878 asÂ  Beligrad Â in the letter ofÂ  Pope John VIII Â to
+Boris of Bulgaria which means "White city / white fortress". [ 74 ] Alba Graeca, "Alba" may be
+derived from theÂ  Latin Â word for "white" Latin Alba Bulgarica Latin name during the
+period of Bulgarian rule over the city [ 74 ] WeiÃŸenburg and Griechisch-WeiÃŸenburg
+German Â translation. Modern German is Belgrad. [ 74 ] Castelbianco Italian
+Â translation [ 74 ] Nandoralba InÂ  medieval Hungary Â up to the 14th century [ 74 ]
+NÃ¡ndorfehÃ©rvÃ¡r, LandorfehÃ©rvÃ¡r In medieval Hungary, means White
+Knight's City. ModernÂ  Hungarian Â is BelgrÃ¡d. [ 74 ] Veligrad(i)on or
+Velegrada/Î’ÎµÎ»Î­Î³Ï�Î±ÎŽÎ± Byzantine Â name. ModernÂ 
+Greek Â is Veligradi (Î’ÎµÎ»Î¹Î³Ï�Î¬ÎŽÎ¹). Dar AlÂ  Jihad
+Arabic name duringÂ  Ottoman empire . Prinz-Eugenstadt Planned German name of the city
+after the World War II, had it remained a part of theÂ  Third Reich . The city was to be named
+afterÂ  Prince Eugene of Savoy , the Austrian military commander who conquered the city
+from the Turks in 1717. [ 75 ]
+
+
+
+Government and politics
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Dragan_Djilas.jpg/250px-Dragan_Djilas.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png Dragan
+Ä�ilas Â is the incumbentÂ  Mayor of Belgrade
+
+Belgrade is a separate territorial unit in Serbia, with its own autonomous city government. [
+15 ] Â The post ofÂ  mayor Â was held by theÂ  Democratic Party Â memberÂ  Nenad
+BogdanoviÄ‡ Â from 2004 and until his death on September 27, 2007. The first mayor to
+beÂ  democratically Â elected afterÂ  World War II Â wasÂ  Dr. Zoran
+Ä�inÄ‘iÄ‡ , in 1996. Mayors were also elected democratically prior to the war.
+
+The Civic Assembly of Belgrade has 110 councilors who are elected for four-year terms. The
+current majority parties are the same as in theÂ  Parliament of Serbia Â ( Democratic
+Party - G17 Plus Â andÂ  Socialist Party of Serbia - Party of United Pensioners of Serbia
+Â with the support ofÂ  Liberal Democratic Party ), and in similar proportions, with
+theÂ  Serbian Radical Party Â and theÂ  Democratic Party of Serbia - New Serbia Â in
+opposition. [ 76 ]
+
+Municipalities
+
+
+
+The city is divided into 17 municipalities. [ 16 ]
+
+Most of the municipalities are situated on the southern side of theÂ  Danube Â andÂ 
+Sava Â rivers, in theÂ  Å umadija Â region. Three municipalities ( Zemun ,Â 
+Novi Beograd , andÂ  SurÄ�in ) are on the northern bank of the Sava, in theÂ  Syrmia
+Â region, and the municipality ofÂ  Palilula , spanning the Danube, is in both the
+Å umadija andÂ  Banat Â regions.
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/2/22/Belgrade_municipalities03.png/250px-Belgrade_municipalities03.png
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png Map of the
+municipalities of Belgrade Name Area (kmÂ²) Population (1991) Population (2002)
+Barajevo 213 20,846 24,641 ÄŒukarica 156 150,257 168,508 Grocka 289 65,735 75,466
+Lazarevac 384 57,848 58,511 Mladenovac 339 54,517 52,490 Novi Beograd 41 218,633 217,773
+Obrenovac 411 67,654 70,975 Palilula 451 150,208 155,902 Rakovica 31 96,300 99,000 Savski
+Venac 14 45,961 42,505 Sopot 271 19,977 20,390 Stari Grad 5 68,552 55,543 SurÄ�in 285 Part
+of Zemun
+
+municipality until 2004. 55,000 (est.) VoÅŸdovac 148 156,373 151,768 VraÄ�ar 3 67,438
+58,386 Zemun 154 176,158 136,645 Zvezdara 32 135,694 132,621 TOTAL 3227 1,552,151 1,576,124
+Source: Statistical Office of the Republic of Serbia [ 17 ]
+
+
+
+Demographics
+
+
+
+According to the Census 2002, the main population groups according to nationality in
+Belgrade areÂ  Serbs Â (1,417 187),Â  Yugoslavs Â (22,161),Â  Montenegrins
+Â (21,190),Â  Roma Â (19,191),Â  Croats Â (10,381),Â  Macedonians
+(8,372), andÂ  Muslims by nationality Â (4,617). [ 77 ] Â Recent polls (2007) show
+that Belgrade's population has increased by 400,000 in just five years since the last
+official Census was undertaken. [ 78 ] Â As of August 2, 2008, the city's Institute for
+Informatics and Statistics has registered 1,542,773 eligible voters, which confirms that
+Belgrade's population has risen dramatically since the 2002 Census, as the number of the
+registered voters has almost surpassed the entire population of the city six years before. [
+79 ] Â The official estimate for the end of 2007, according to the City's Institute for
+Informatics and Statistics, was 1,630,000. [ 3 ]
+
+Belgrade is home to many ethnicities from all over the former Yugoslavia. [ 2 ] Â Many people
+came to the city as economic migrants from smaller towns and the countryside, while thousands
+arrived as refugees fromÂ  Croatia ,Â  Bosnia-Herzegovina Â andÂ  Kosovo , as a
+result of theÂ  Yugoslav wars Â of the 1990s. [ 80 ] Â Between 10,000 and 20,000Â  [ 81
+] Â  Chinese Â are estimated to live in Belgrade; they began immigrating in theÂ 
+mid-1990s .Â  Blok 70 Â inÂ  New Belgrade Â is known locally as the Chinese quarter.
+[ 82 ] [ 83 ] Â Belgrade is also reported to have many IndonesianÂ  Indonesian
+Â people.Â  [ 84 ] Â ManyÂ  Middle Easterners , mainly fromÂ  Syria ,Â  Iran ,
+Jordan Â andÂ  Iraq , arrived in order to pursue their studies during the 1970s and 1980s,
+and have remained and started families in the city. [ 85 ] [ 86 ] Â Afghani and Iraqi Kurdish
+refugees are among some of the recent arrivals from the Middle East. [ 87 ]
+
+Although there are several historic religious communities in Belgrade, the religious
+makeup of the city is relatively homogenous. TheÂ  Serbian Orthodox Â community is by
+far the largest, with 1,429,170 adherents. There are also 20,366Â  Muslims , 16,305Â 
+Roman Catholics , and 3,796Â  Protestants . There used to be a significantÂ  Jewish Â 
+community , but following theÂ  Nazi occupation , and many Jews' subsequent emigration to
+Israel , their numbers have fallen to a mere 515. [ 2 ]
+
+Economy
+
+
+
+Belgrade is the mostÂ  economically developed Â part of Serbia, and is home to the
+country'sÂ  National Bank . Many notable companies are based in Belgrade, includingÂ 
+Jat Airways ,Â  Telekom Srbija ,Â  Telenor Serbia ,Â  Delta Holding , regional centers
+forÂ  SociÃ©tÃ© GÃ©nÃ©rale ,Â  Asus [2] ,Â  Intel , [ 88 ] Â  Motorola ,Â 
+Kraft Foods Â  [3] Â ,Â  Carlsberg Â  [4] Â ,Â  Microsoft ,Â  OMV ,Â 
+Unilever ,Â  Zepter ,Â  Japan Tobacco Â and many others. [ 89 ] [ 90 ]
+
+The troubled transition from theÂ  former Yugoslavia Â to theÂ  Federal Republic
+Â during the early 1990s left Belgrade, like the rest of the country, severely affected by
+an internationally imposedÂ  trade embargo . TheÂ  hyperinflation Â of theÂ 
+Yugoslav dinar , the highest inflation ever recorded in the world, [ 91 ] [ 92 ] Â decimated
+the city's economy. Yugoslavia overcame the problems of inflation in the mid 1990s, and
+Belgrade has been growing strongly ever since. Today, over 30% of Serbia'sÂ  GDP Â is
+generated by the city, which also has over 30% of Serbia's employed population. [ 93 ] Â The
+average monthly income per capita is 47.500 RSD (â‚¬572, $903). According to theÂ 
+Eurostat Â methodology, and contrasting sharply to the Balkan region, 53% of the city's
+households own a computer. [ 94 ] [ 95 ] Â According to the same survey, 39.1% of Belgrade's
+households have an internet connection; these figures are above those of the regional
+capitals such asÂ  Sofia ,Â  Bucharest Â andÂ  Athens . [ 94 ]
+
+Culture
+
+
+
+Belgrade hosts many annual cultural events, includingÂ  FEST Â (Belgrade Film
+Festival),Â  BITEF Â (Belgrade Theatre Festival),Â  BELEF Â (Belgrade Summer
+Festival),Â  BEMUS Â (Belgrade Music Festival),Â  Belgrade Book Fair , and theÂ 
+Belgrade Beer Festival . [ 96 ] Â TheÂ  Nobel prize Â winning authorÂ  Ivo
+AndriÄ‡ Â wrote his most famous work,Â  The Bridge on the Drina , in Belgrade. [ 97 ]
+Â Other prominent Belgrade authors includeÂ  Branislav NuÅ¡iÄ‡ ,Â  MiloÅ¡
+Crnjanski ,Â  Borislav PekiÄ‡ ,Â  Milorad PaviÄ‡ Â andÂ  MeÅ¡a
+SelimoviÄ‡ . [ 98 ] [ 99 ] [ 100 ] Â Most ofÂ  Serbia's film industry Â is based in
+Belgrade; the 1995Â  Palme d'Or Â winningÂ  Underground , directed byÂ  Emir
+Kusturica , was produced in the city.
+
+The city was one of the main centres of theÂ  Yugoslav New Wave Â in the 1980s:Â  VIS
+Idoli ,Â  Ekatarina Velika Â andÂ  Å arlo Akrobata Â were all from Belgrade.
+Other notable Belgrade rock acts includeÂ  Riblja ÄŒorba , Bajaga i Instruktori Â and
+others. [ 101 ] Â The city was the main centre former Yugoslavia of a musical style known
+asÂ  turbofolk , one of whose most famous stars isÂ  Ceca RaÅŸnatoviÄ‡ . Today, it is
+the centre of theÂ  Serbian hip hop Â scene, with acts such asÂ  Beogradski Sindikat
+,Â  Å kabo ,Â  MarÄ�elo , and most of theÂ  Bassivity Music Â stable hailing
+from or living in the city. [ 102 ] [ 103 ] Â There are numerous theatres, the most prominent of
+which areÂ  National Theatre ,Â  Theatre on Terazije ,Â  Yugoslav Drama Theatre ,Â 
+Zvezdara Theatre , andÂ  Atelier 212 . TheÂ  Serbian Academy of Sciences and Arts Â is
+also based in Belgrade, as well as the National Library of Serbia . Belgrade's two opera houses
+are:Â  National Theatre Â andÂ  Madlenijanum Opera House .
+
+There are many foreign cultural institutions in Belgrade, includingÂ  Instituto
+Cervantes ,Â  Goethe-Institut Â and theÂ  Centre Culturel FranÃ§ais , which are
+all located onÂ  Prince Michael Street . Other cultural centres in Belgrade areÂ 
+American Corner , theÂ  Austrian Cultural Forum Â ( Ã–sterreichischen
+Kulturforums ), theÂ  British Council , andÂ  Russian Center for Science and Culture
+Â (Ð ÐŸÑ�Ñ�ÐžÐ¹Ñ�ÐºÐžÐ¹ Ñ†ÐµÐœÑ‚Ñ€
+ÐœÐ°ÑƒÐºÐž Ðž ÐºÑƒÐ»ÑŒÑ‚ÑƒÑ€Ñ‹), the Confucius
+Institute , theÂ  Canadian Cultural Center , theÂ  Italian Cultural Institute Â (
+Istituto Italiano di Cultura ), theÂ  Hellenic House Â and theÂ  Culture Center of
+Islamic Republic of Iran .
+
+Following the victory of Serbia's representativeÂ  Marija Å erifoviÄ‡ Â at
+theÂ  Eurovision Song Contest Â  2007 , Belgrade hosted theÂ  Eurovision Song Contest
+2008 . [ 104 ]
+
+Museums
+
+
+
+The most prominent museum in Belgrade is theÂ  National Museum , founded in 1844; it houses a
+collection of more than 400,000 exhibits, (over 5600 paintings and 8400 drawings and prints)
+including many foreign masterpieces and the famousÂ  Miroslavljevo JevanÄ‘elje
+Â (Miroslav's Gospel). [ 105 ] Â TheÂ  Military Museum Â houses a wide range of more
+than 25,000 military exhibits dating as far back as to theÂ  Roman period , as well as parts of
+aÂ  F-117 Â stealth aircraft shot down by Yugoslav forces. [ 106 ] [ 107 ] Â TheÂ 
+Museum of Aviation in Belgrade Â has more than 200 aircraft, of which about 50 are on
+display, and a few of which are the only surviving examples of their type, such as theÂ  Fiat
+G.50 . This museum also displays parts of shot downÂ  US Â andÂ  NATO Â aircraft,
+such as theÂ  F117 Â andÂ  F16 [ 108 ] Â TheÂ  Ethnographic Museum , established in
+1901, contains more than 150,000 items showcasing the rural and urban culture of the Balkans,
+particularly the countries of theÂ  former Yugoslavia . [ 109 ] Â TheÂ  Museum of
+Contemporary Art Â has a collection of around 8,540 works of art produced inÂ 
+Yugoslavia since 1900. [ 110 ] Â TheÂ  Nikola Tesla Museum , founded in 1952, preserves
+the personal items ofÂ  Nikola Tesla , the inventor after whom theÂ  Tesla unit Â was
+named. It holds around 160,000 original documents and around 5,700 other items. [ 111 ]
+Â The last of the major Belgrade museums is theÂ  Museum of Vuk and Dositej , which
+showcases the lives, work and legacy of Vuk StefanoviÄ‡ KaradÅŸiÄ‡ Â andÂ 
+Dositej ObradoviÄ‡ , the 19th century reformer of the Serbian literary language and the
+first Serbian Minister of Education, respectively. [ 112 ] Â Belgrade also houses theÂ 
+Museum of African Art , founded in 1977, which has the large collection of art fromÂ  West
+Africa . [ 113 ]
+
+With around 95,000 copies of national and international films, theÂ  Yugoslav Film
+Archive Â is the largest in the region and amongst the 10 largest archives in the world. [ 114
+] Â The institution also operates the Museum of Yugoslav Film Archive, with movie theatre
+and exhibition hall. The archive's long-standing storage problems were finally solved in
+2007, when a new modern depository was opened. [ 115 ]
+
+Museum of the City of Belgrade Â will move in new building inÂ  Nemanjina Street Â in
+downtown. Museum has interesting exhibits such Belgrade Gospel (1503) ,Â  full plate
+armour Â fromÂ  Battle of Kosovo Â and various paintings and graphics. A newÂ 
+Museum of Science and Technology Â will begin construction in late 2008.
+
+Architecture
+
+
+
+Belgrade has wildly varyingÂ  architecture , from the centre ofÂ  Zemun , typical of
+aÂ  Central European Â town, [ 116 ] Â to the more modern architecture and spacious
+layout ofÂ  New Belgrade . The oldest architecture is found in Kalemegdan park. Outside of
+Kalemegdan, the oldest buildings date only from 19th century, due to its geographic position
+and frequent wars and destructions. [ 117 ] Â The oldest public structure in Belgrade is a
+nondescript TurkishÂ  turbe , while the oldest house is a modest clay house onÂ 
+DorÄ‡ol , from late 18th century. [ 118 ] Â Western influence began in the 19th century,
+when the city completely transformed from an oriental town to the contemporary architecture
+of the time, with influences fromÂ  neoclassicism ,Â  romanticism Â andÂ 
+academic art . Serbian architects took over the development from the foreign builders in the
+late 19th century, producing theÂ  National Theatre ,Â  Old Palace ,Â  Cathedral
+Church Â and later, in the early 20th century, theÂ  National Assembly Â andÂ 
+National Museum , influenced byÂ  art nouveau . [ 117 ] Â Elements ofÂ  Neo-Byzantine
+architecture Â are present in buildings such asÂ  Vuk's Foundation , old Post Office in
+Kosovska street, and sacral architecture, such asÂ  St. Mark's Church Â (based on
+theÂ  GraÄ�anica monastery ), and theÂ  Temple of Saint Sava . [ 117 ]
+
+During the period of Communist rule, much housing was built quickly and cheaply to house the
+huge influx of people from the countryside following World War II, sometimes resulting in
+theÂ  brutalist architecture Â of the blokovi Â (blocks) of New Belgrade; aÂ 
+socrealism Â trend briefly ruled, resulting in buildings like theÂ  Trade Union Hall . [
+117 ] Â However, in the mid-1950s, theÂ  modernist Â trends took over, and still
+dominate the Belgrade architecture. [ 117 ]
+
+Tourism
+
+
+
+The historic areas and buildings of Belgrade are among the city's premier attractions. They
+includeÂ  Skadarlija , theÂ  National Museum Â and adjacentÂ  National Theatre
+,Â  Zemun ,Â  Nikola PaÅ¡iÄ‡ Square ,Â  Terazije ,Â  Students' Square ,
+theÂ  Kalemegdan Fortress ,Â  Knez Mihailova Street , theÂ  Parliament , theÂ 
+Temple of Saint Sava , and theÂ  Old Palace . On top of this, there are many parks, monuments,
+museums, cafÃ©s, restaurants and shops on both sides of the river. The hilltopÂ  Avala
+Monument Â offers views over the city.Â  Josip Broz Tito 's mausoleum, calledÂ 
+KuÄ‡a CveÄ‡a Â ( The House of Flowers ), and the nearbyÂ  TopÄ�ider
+Â andÂ  KoÅ¡utnjak Â parks are also popular, especially among visitors from
+theÂ  former Yugoslavia .
+
+There is alsoÂ  Beli Dvor Â or 'White Palace',house of Royal familyÂ  Karadjordjevic
+Â ,open for visitors. The palace has many valuable works fromÂ  Rembrandt ,Â  Nicolas
+Poussin , Sebastien Bourdon ,Â  Paolo Veronese ,Â  Antonio Canaletto ,Â  Biagio
+d'Antonio ,Â  Giuseppe Crespi ,Â  Franz Xaver Winterhalter ,Â  Ivan Mestrovic , and
+others. 'White Palace' is open for visitors.
+
+Ada Ciganlija Â is a former island on theÂ  Sava river , and Belgrade's biggest sports and
+recreational complex. Today it is connected with the shore, creating an artificial lake on
+the river. It is the most popular destination for Belgraders during the city's hot summers.
+There are 7 kilometres of long beaches and sports facilities for various sports
+includingÂ  golf ,Â  football ,Â  basketball ,Â  volleyball ,Â  rugby union
+,Â  baseball , andÂ  tennis . [ 119 ] Â During summer there are between 200,000 and
+300,000 bathers daily. Clubs work 24 hours a day, organising live music and overnight beach
+parties. Extreme sports are available, such asÂ  bungee jumping ,Â  water skiing
+Â andÂ  paintballing . [ 120 ] Â There are numerous tracks on the island, where it is
+possible to ride a bike, go for a walk or go jogging. [ 121 ] [ 122 ] Â Apart from Ada, Belgrade
+has total of 16 islands [ 123 ] Â on the rivers, many still unused. Among them, theÂ  Great
+War Island Â at the confluence of Sava, stands out as an oasis of unshattered wildlife
+(especially birds). [ 124 ] Â These areas, along with nearbyÂ  Small War Island , are
+protected by the city's government as aÂ  nature preserve . [ 125 ]
+
+Nightlife
+
+
+
+Belgrade has a reputation for offering a vibrant nightlife, and many clubs that are open until
+dawn can be found throughout the city. The most recognizable nightlife features of Belgrade
+are the barges ( splavovi ) spread along the banks of the Sava and Danube Rivers. [ 126 ] [ 127 ] [
+128 ]
+
+Many weekend visitorsâ€”particularly fromÂ  Bosnia-Herzegovina ,Â  Croatia
+Â andÂ  Slovenia â€”prefer Belgrade nightlife to that of their own capitals, due
+to a perceived friendly atmosphere, great clubs and bars, cheap drinks, the lack of language
+difficulties, and the lack of restrictive night life regulation. [ 129 ] [ 130 ]
+
+Famous alternative clubs include Akademija and the famed KST ( Klub studenata tehnike )
+located in the basement of theÂ  University of Belgrade 's Faculty of Electrical
+Engineering. [ 131 ] [ 132 ] [ 133 ] Â One of the most famous sites for alternative cultural
+happenings in the city is the SKC (Student Cultural Centre), located right across from
+Belgrade's highrise landmark, theÂ  BeograÄ‘anka . Concerts featuring famous local
+and foreign bands are often held at the centre. SKC is also the site of various art exhibitions,
+as well as public debates and discussions. [ 134 ]
+
+A more traditional Serbian nightlife experience, accompanied by traditional music known
+asÂ  Starogradska Â (roughly translated asÂ  Old Town Music ), typical of northern
+Serbia's urban environments, is most prominent in Skadarlija , the city's oldÂ  bohemian
+Â neighbourhood where the poets and artists of Belgrade gathered in the nineteenth
+century and early twentieth century. Skadar Street (the centre of Skadarlija) and the
+surrounding neighbourhood are lined with some of Belgrade's best and oldest traditional
+restaurants (calledÂ  kafanas Â in Serbian), which date back to that period. [ 135 ]
+Â At one end of the neighborhood stands Belgrade's oldest beer brewery, founded in the
+first half of the nineteenth century. [ 136 ] Â One of the city's oldest kafanas is theÂ 
+Znak pitanja . [ 137 ]
+
+BritishÂ  Times Â proclaimed that it is Europe's best nightlife in buzzing Belgrade.
+Enjoy the finest nightclubs, bars and restaurants in Europe's new capital of cool [ 138 ]
+
+Sport
+
+
+
+There are around a thousand sports facilities in Belgrade, many of which are capable of
+serving all levels of sporting events. [ 139 ] Â Belgrade has hosted several relatively
+major sporting events recently, including Eurobasket 2005 , theÂ  2005 European
+Volleyball Championship , the 2006Â  European Water Polo Championship , and theÂ 
+European Youth Olympic Festival Â 2007. Belgrade will be the host city of theÂ  2009
+Summer Universiade Â chosen over the cities ofÂ  Monterrey Â andÂ  PoznaÅ„ . [
+140 ]
+
+The city launched two unsuccessful candidate bids to organize theÂ  Summer Olympic : for
+theÂ  1992 Summer Olympics Â Belgrade was eliminated in the third round ofÂ 
+International Olympic Committee Â voting, with the games going toÂ  Barcelona .
+TheÂ  1996 Summer Olympics Â ultimately went toÂ  Atlanta . [ 141 ] [ 142 ]
+
+The city is home to Serbia's two biggest and most successfulÂ  football Â clubs,Â  Red
+Star Belgrade Â andÂ  FK Partizan , as well as a few other first league clubs. The two major
+stadiums in Belgrade are theÂ  Marakana ( Red Star Stadium ) and theÂ  Partizan Stadium . [
+143 ] Â  Belgrade Arena Â is used for basketball matches, and in May 2008 it was the venue
+ofÂ  Eurovision Song Contest 2008 . Along withÂ  Pionir Hall Â forÂ  KK Partizan
+Â andÂ  KK Crvena zvezda . [ 144 ] [ 145 ] Â while theÂ  TaÅ¡majdan Sports Centre
+Â is used forÂ  water polo Â matches.
+
+
+
+Media
+
+
+
+Belgrade is the most important media hub in Serbia. The city is home to the main headquarters of
+the national broadcasterÂ  Radio Television Serbia - RTS , which is a public service
+broadcaster. [ 146 ] Â The RTS record label, PGP RTS, is also based in Belgrade. [ 147 ]
+Â The most popular commercial broadcaster isÂ  RTV Pink , a Serbian media
+multinational, known for its popular entertainment programs, which are considered by many
+to be sensationalist and of low quality. The most popular commercial "alternative"
+broadcaster isÂ  B92 , another media company, which has its own TV station, radio station,
+and music and book publishing arms, as well as the most popular website on the Serbian
+internet. [ 148 ] [ 149 ] Â Other TV stations broadcasting from Belgrade includeÂ 
+KoÅ¡ava ,Â  Avala ,Â  FOX Televizija Â and others which only cover the greater
+Belgrade municipal area, such asÂ  Studio B . Numerous specialised channels are also
+available:Â  SOS channel Â (sport),Â  Metropolis Â (music),Â  Art TV
+Â (art), Cinemania (film), andÂ  Happy TV Â (children's programs).
+
+High-circulation daily newspapers published in Belgrade includeÂ  Politika ,Â  Blic
+,Â  VeÄ�ernje novosti ,Â  Glas javnosti ,Â  Press (newspaper) Â andÂ 
+Sportski ÅŸurnal . Other dailies published in the city areÂ  Danas , andÂ  Kurir .Â 
+Novi Plamen Â is currently the most left-wing magazine. A new free distribution
+daily,Â  24 sata , was founded in the autumn of 2006.
+
+Education
+
+Belgrade has two state universities and several private institutions for higher education.
+TheÂ  Belgrade Higher School , founded in 1808, was the earliest location of higher
+education in Serbia and all of theÂ  Balkans . [ 150 ] Â TheÂ  Lyceum Â followed in
+1841, when it was moved fromÂ  Kragujevac Â to Belgrade, merging with theÂ  Great
+School Â into the precursor of theÂ  University of Belgrade , [ 151 ] Â one of the oldest
+educational institutions in the country (the oldest higher education facility, the
+Teacher's College inÂ  Subotica , dates from 1689). More than 90,000 students study at the
+University. [ 152 ] Â TheÂ  University of Belgrade's Law School Â is the one of the
+foremost institutions for legal education inÂ  Southeastern Europe .
+
+There are also 195 primary (elementary) schools and 85 secondary schools. Of the primary
+schools, there are 162 regular, 14 special, 15 art and 4 adult schools. The secondary school
+system has 51 vocational schools, 21 gymnasiums, 8 art schools and 5 special schools. The
+230,000 pupils are managed by 22,000 employees in over 500 buildings, covering around
+1,100,000Â mÂ². [ 153 ]
+
+Transportation
+
+
+
+Belgrade has an extensive public transport system based onÂ  buses Â (118 urban lines
+and more than 300 suburban lines),Â  trams Â (12 lines), andÂ  trolley buses Â (8
+lines). [ 154 ] Â It is run byÂ  GSP Beograd Â andÂ  SP Lasta , in cooperation with
+private companies on various bus routes. Belgrade also has aÂ  commuter rail
+Â network,Â  Beovoz , now run by city government. The main railway station connects
+Belgrade with other European capitals and many towns in Serbia. Travel byÂ  coach Â is
+also popular, and the capital is well-served with daily connections to every town in the
+country. TheÂ  motorway Â system provides for easy access toÂ  Novi Sad Â andÂ 
+Budapest , the capital ofÂ  Hungary , in the north;Â  NiÅ¡ Â to the south; andÂ 
+Zagreb , to the west. Situated at the confluence of two major rivers, the Danube and the Sava,
+Belgrade has not many bridgesâ€”the two main ones areÂ  Branko's bridge Â andÂ 
+Gazela , both of which connect the core of the city toÂ  New Belgrade . NewÂ  Ada Bridge
+Â is currently under construction.
+
+TheÂ  Port of Belgrade Â is on the Danube, and allows the city to receive goods by river. [
+155 ] Â The city is also served byÂ  Belgrade Nikola Tesla Airport ( IATA : BEG),
+12Â kilometres west of the city centre, nearÂ  SurÄ�in . At its peak in 1986, almost 3
+million passengers travelled through the airport, though that number dwindled to a trickle
+in the 1990s. [ 156 ] Â Following renewed growth in 2000, the number of passengers reached
+approximately 2 million in 2004 and 2005. [ 157 ] Â In 2006, 2 million passengers passed
+through the airport by mid-November, [ 158 ] Â while during the 2007 the figure peaked at 2,5
+million customers. [ 159 ]
+
+With the city's expansion and a substantial increase in the number of vehicles, congestion
+has become a major problem; this is expected to be alleviated by the construction of aÂ 
+bypass Â connecting theÂ  E70 Â andÂ  E75 Â highways. [ 160 ] Â Further, an
+"inner magistral semi-ring" is planned, including a new bridge across the Sava river, which
+is expected to easeÂ  commuting Â within the city and unload the Gazela and Branko's
+bridge. [ 161 ] Â Belgrade is going to start the construction of three new bridges in 2008,
+one over theÂ  Sava Â river, and two over theÂ  Danube Â river. Two additional
+bridges are planned, both over the Danube.
+
+Beovoz
+
+
+
+Beovoz Â is theÂ  suburban/commuter railway Â network that providesÂ 
+mass-transit Â service in the city, similar toÂ  Paris 'sÂ  RER Â andÂ  Toronto
+'sÂ  GO Transit . The main usage of today's system is to connect the suburbs with downtown.
+Beovoz is operated byÂ  Serbian Railways . [ 162 ] Â Belgrade suburban railway system
+connects suburbs and nearby cities to the west, north and south of the city. It began operation
+inÂ  1992 Â and currently has 5 lines with 41 stations divided in two zones. [ 163 ]
+Â Stations in the city center are built underground, out of which stationÂ  Vukov
+spomenik Â is the deepest at 40 meters. [ 164 ]
+
+
+
+International cooperation and honours
+
+
+
+These are the official sister cities of Belgrade: [ 165 ] [ 166 ] [ 167 ] Country City County /
+District / Region / State Date
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/22px-Flag_of_the_United_Kingdom.svg.png
+United Kingdom Coventry West Midlands 1957
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png
+United States Chicago Illinois 2005
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/22px-Flag_of_Pakistan.svg.png
+Pakistan Lahore Punjab 2007
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/22px-Flag_of_Israel.svg.png
+Israel Tel Aviv Tel Aviv 1990
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/22px-Flag_of_Austria.svg.png
+Austria Vienna Vienna 2003
+
+Some of the city's municipalities are also twinned to small cities or districts of other big
+cities, for details see their respective articles.
+
+Other similar forms of cooperation and city friendship: Country City County / District /
+Region / State Date Form
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png
+USA Dayton Ohio 1966 Agreement on Friendship and Cooperation
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/22px-Flag_of_Bosnia_and_Herzegovina.svg.png
+Bosnia and Herzegovina Banja Luka Republika Srpska 2005 Agreement on Cooperation
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/22px-Flag_of_Tunisia.svg.png
+Tunisia Tunis Tunis Governorate 2002 Agreement on Cooperation
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/22px-Flag_of_the_People%27s_Republic_of_China.svg.png
+China Beijing 1980 Agreement on Cooperation
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/22px-Flag_of_Turkey.svg.png
+Turkey Ankara Ankara 1978 Agreement on Cooperation and Friendship
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/22px-Flag_of_the_United_Arab_Emirates.svg.png
+United Arab Emirates Dubai ' 2004 Agreement on Cooperation
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/22px-Flag_of_Azerbaijan.svg.png
+Azerbaijan Baku Baku 2002 Agreement on Cooperation
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/22px-Flag_of_Pakistan.svg.png
+Pakistan Islamabad ' 2000 Memorandum of Agreement, City to City Programme
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/22px-Flag_of_Russia.svg.png
+Russia Moscow Central Federal District 2002 Programme of Cooperation
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/22px-Flag_of_Italy.svg.png
+Italy Rome Lazio 1971 Agreement on Friendship and Cooperation
+
+    Letters of Intent signed with capital cities of formerÂ  Yugoslavia :
+
+    -
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/22px-Flag_of_Slovenia.svg.png
+    Â  Ljubljana ,Â  Slovenia Â  (Letter of Intent, October 2003) Â  (Signed
+    together with Zagreb)
+
+    
+
+    -
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/22px-Flag_of_Macedonia.svg.png
+    Â  Skopje ,Â  Macedonia Â  (Letter of Intent, June 2006)
+
+    
+
+    -
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/22px-Flag_of_Croatia.svg.png
+    Â  Zagreb ,Â  Croatia Â  (Letter of Intent, October 2003) Â  (Signed together
+    with Ljubljana)
+
+    
+
+    -
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/22px-Flag_of_Montenegro.svg.png
+    Â  Podgorica ,Â  Montenegro Â  (2006)
+
+    
+
+
+
+The City of Belgrade has received various domestic and international honours, including
+theÂ  French Â  LÃ©gion d'honneur Â in 1920, theÂ  Czechoslovak Â  War Cross ,
+theÂ  Serbian Â  KaraÄ‘orÄ‘e's Star with Swords Â and theÂ  former
+Yugoslavian Â  Order of the National Hero (proclaimed on October 20, 1974, the anniversary
+of the overthrow ofÂ  Nazi German Â occupation duringÂ  World War II ). [ 168 ] Â In
+2006,Â  Financial Times ' Â magazineÂ  Foreign Direct Investment Â awarded
+Belgrade the title ofÂ  City of the Future of Southern Europe . [ 169 ] [ 170 ]
+
+
+
+References
+
+    
+
+    1 - ^ Â  "Geographical Position" . Official website of City of Belgrade . Retrieved on 10
+    July 2007 .
+
+    
+
+    2 - ^Â  a Â  b Â  c Â  Statistical Office of the Republic of Serbia (2006 estimate)
+    (in Serbian) (PDF).Â  Ð�Ð°Ñ†ÐžÐŸÐœÐ°Ð»ÐœÐ° ÐžÐ»Ðž
+    ÐµÑ‚ÐœÐžÑ‡ÐºÐ° Ð¿Ñ€ÐžÐ¿Ð°ÐŽÐœÐŸÑ�Ñ‚ -
+    Ð¿ÐŸÐŽÐ°Ñ†Ðž Ð¿ÐŸ ÐœÐ°Ñ�ÐµÑ™ÐžÐŒÐ°
+    Â (Procena stanovnistva 2007 ed.). Belgrade: Statistical Office of the Republic of
+    Serbia. p.Â 14 . Retrieved on 29 October 2006 .
+
+    
+
+    3 - ^Â  a Â  b Â  "StatistiÄ�ki godiÅ¡njak Beograda" Â (PDF). Zavod za
+    informatiku i statistiku Grada Beograda. 2007. 64.
+
+    
+
+    4 - ^ Â  http://www.budapestinfo.hu/en/
+
+    
+
+    5 - ^ Â  Discover Belgrade
+
+    
+
+    6 - ^ Â  Belgrade, capital city
+
+    
+
+    7 - ^ Â  http://www.stonepages.com/news/
+
+    
+
+    8 - ^ Â  Prehistoric women had passion for fashion | World | Reuters
+
+    
+
+    9 - ^Â  a Â  b Â 
+    http://p104.ezboard.com/Skordiski/fistorijabalkanafrm27.showMessage?topicID=209.topic
+
+    
+
+    10 - ^ Â 
+    http://www.qtours.dk/index.php?option=com_content&task=view&id=54&Itemid=97
+
+    
+
+    11 - ^Â  a Â  b Â  The City in Late Antiquity By John Rich
+
+    
+
+    12 - ^ Â 
+    http://www.timesonline.co.uk/tol/travel/holiday_type/music_and_travel/article4385812.ece
+
+    
+
+    13 - ^ Â  http://www.belgradenet.com/belgrade_history_middle_ages.html
+
+    
+
+    14 - ^ Â  http://www.beograd.rs/cms/view.php?id=201251
+
+    
+
+    15 - ^Â  a Â  b Â  "Assembly of the City of Belgrade" . Official website . Retrieved on
+    10 July 2007 .
+
+    
+
+    16 - ^Â  a Â  b Â  "Urban Municipalities" . Official website . Retrieved on 10 July
+    2007 .
+
+    
+
+    17 - ^Â  a Â  b Â  "2005 Municipal indicators of Republic of Serbia" . Statistical
+    Office of the Republic of Serbia . Retrieved on 17 May 2007 .
+
+    
+
+    18 - ^ Â  "Geographical Position" . Official website . Retrieved on 10 July 2007 .
+
+    
+
+    19 - ^ Â  "Natural Features" . Official site . Retrieved on 16 July 2007 .
+
+    
+
+    20 - ^ Â  "Climate" . Official website . Retrieved on 10 July 2007 .
+
+    
+
+    21 - ^ Â  m&c News (24 July 2007).Â  "Record-breaking heat measured in Belgrade" .
+    Retrieved on 10 August 2007 .
+
+    
+
+    22 - ^ Â  http://www.mherrera.org/temp.htm
+
+    
+
+    23 - ^ Â  Nikola TasiÄ‡; Dragoslav SrejoviÄ‡, Bratislav StojanoviÄ‡
+    (1990).Â  "VinÄ�a and its Culture" . in Vladislav PopoviÄ‡.Â  VinÄ�a:
+    Centre of the Neolithic culture of the Danubian region . Belgrade . Retrieved on 28
+    October 2006 .
+
+    
+
+    24 - ^Â  a Â  b Â  "History (Ancient Period)" . Official website . Retrieved on 10
+    July 2007 .
+
+    
+
+    25 - ^ Â 
+    http://books.google.com/books?id=iWlpqkVMX2YC&pg=PA5&lpg=PA5&dq=Vin%C4%8Da+signs+earliest+alphabet&source=web&ots=fujg0dANsG&sig=WIElz2jkSAwDGHT8dD4KJGcw6e4&hl=en&sa=X&oi=book_result&resnum=5&ct=result
+
+    
+
+    26 - ^ Â  Constantine I - Britannica Online Encyclopedia
+
+    
+
+    27 - ^ Â  Philologic Results
+
+    
+
+    28 - ^ Â  City of Belgrade - Ancient Period
+
+    
+
+    29 - ^ Â  History of Zemun
+
+    
+
+    30 - ^ Â  The History of Belgrade
+
+    
+
+    31 - ^Â  a Â  b Â  c Â  d Â  How to Conquer Belgrade - History
+
+    
+
+    32 - ^ Â  The History of Belgrade
+
+    
+
+    33 - ^Â  a Â  b Â  "History (Medieval Serbian Belgrade)" . Official website .
+    Retrieved on 10 July 2007 .
+
+    
+
+    34 - ^ Â  "Battle of Maritsa" . Encyclopaedia Britannica . Retrieved on 10 July 2007 .
+
+    
+
+    35 - ^ Â  "Battle of Kosovo" . Encyclopaedia Britannica . Retrieved on 10 July 2007 .
+
+    
+
+    36 - ^ Â  Ä†oroviÄ‡, Vladimir Â (1997).Â  "V. Despot Ä�uraÄ‘
+    BrankoviÄ‡" Â (in Serbian).Â  Istorija srpskog naroda . Banja Luka /
+    Belgrade:Â  Project Rastko .Â  ISBN 86-7119-101-X . Retrieved on 17 July 2007 .
+
+    
+
+    37 - ^Â  a Â  b Â  The History of Belgrade
+
+    
+
+    38 - ^ Â  Tom R. Kovach.Â  "Ottoman-Hungarian Wars: Siege of Belgrade in 1456" .
+    Military History magazine . Retrieved on 10 July 2007 .
+
+    
+
+    39 - ^ Â  Romanian Heritage | Heritage / JohnHunyadi
+
+    
+
+    40 - ^ Â  Hungary: A Brief History
+
+    
+
+    41 - ^ Â 
+    http://books.google.com/books?id=r0_gJ7wEXWsC&pg=PA145&lpg=PA145&dq=belgrade+forest+istanbul+serbs&source=web&ots=gXc8ac4BeK&sig=dXT7OkpPonyBeJFBbYL3wg9GP54&hl=en&sa=X&oi=book_result&resnum=2&ct=result
+
+    
+
+    42 - ^Â  a Â  b Â  "History (Turkish and Austrian Rule)" . Official website .
+    Retrieved on 10 July 2007 .
+
+    
+
+    43 - ^ Â  Welcome to Frosina.orgÂ :: An Albanian Immigrant and Cultural Resource
+
+    
+
+    44 - ^ Â  Amfilohije RadoviÄ‡ Â (1989).Â  "Duhovni smisao hrama Svetog Save na
+    VraÄ�aru (Online book reprint)" Â (in Serbian). Janus, Belgrade . Retrieved on 5
+    July 2007 .
+
+    
+
+    45 - ^ Â  University of BahÃ§eÅŸehir
+
+    
+
+    46 - ^ Â  Belgrade Fortress: History
+
+    
+
+    47 - ^ Â  MedakoviÄ‡, Dejan Â (1990).Â  "Tajne poruke svetog Save"
+    Svetosavska crkva i velika seoba Srba 1690. godine" .Â  OÄ�i u oÄ�i .
+    Belgrade:Â  BIGZ Â (online reprint by Serbian Unity Congress library).Â  ISBN
+    978-8613009030 . Retrieved on 17 May 2007 .
+
+    
+
+    48 - ^Â  a Â  b Â  "History (Liberation of Belgrade)" . Official website . Retrieved
+    on 10 July 2007 .
+
+    
+
+    49 - ^ Â Pavkovic, Aleksandar ( 2001 - 10-19 ). " Nations into States: National
+    Liberations in Former Yugoslavia ". The Australian National University.Â 
+    Retrieved on 2007-07-21.
+
+    
+
+    50 - ^ Â  "History of Kragujevac" . Official website of Kragujevac . Retrieved on 17 May
+    2007 .
+
+    
+
+    51 - ^ Â  "History (Important Years Through City History)" . Official website .
+    Retrieved on 10 July 2007 .
+
+    
+
+    52 - ^Â  a Â  b Â  "History (The Capital of Serbia and Yugoslavia)" . Official
+    website . Retrieved on 10 July 2007 .
+
+    
+
+    53 - ^ Â  Jan Lahmeyer (3 February 2003).Â  "The Yugoslav Federation: Historical
+    demographical data of the urban centers" . www.populstat.info . Retrieved on 17 May 2007
+    .
+
+    
+
+    54 - ^ Â 
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/15px-Wikisource-logo.svg.png
+    Â " Belgrade and Smederevo " in the 1913Â  Catholic Encyclopedia Â - Retrieved on
+    2007-10-16.
+
+    
+
+    55 - ^ Â  Kosanovic, Dejan.Â  "Serbian Film and Cinematography (1896-1993)" .Â 
+    The history of Serbian Culture . Porthill Publishers.Â  ISBN 1-870732-31-6 .
+    Retrieved on 10 July 2007 .
+
+    
+
+    56 - ^ Â  BalkanologyÂ :: SerbiaÂ :: Belgrade
+
+    
+
+    57 - ^ Â  BalkanologyÂ :: SerbiaÂ :: Vojvodina
+
+    
+
+    58 - ^ Â  ISBN 86-17-09287-4 : Kosta NikoliÄ‡, Nikola ÅœutiÄ‡, MomÄ�ilo
+    PavloviÄ‡, Zorica Å padijer: Ð˜Ñ�Ñ‚ÐŸÑ€ÐžÑ˜Ð° Ð·Ð°
+    Ñ‚Ñ€ÐµÑ›Ðž Ñ€Ð°Ð·Ñ€ÐµÐŽ
+    Ð³ÐžÐŒÐœÐ°Ð·ÐžÑ˜Ðµ, Belgrade, 2002, pg. 144
+
+    
+
+    59 - ^ Â  PetroviÄ‡, Dragan (2001). " Industrija i urbani razvoj Beograda "
+    (PDF).Â  Industrija Â  21, No. 1â€“4 : 87â€“94.Â  ISSN Â  0350-0373
+    . Retrieved on 10 July 2007 .
+
+    
+
+    60 - ^ Â  "Twentieth Century - Innovations in Belgrade" . Serbia-info.com (Government
+    of Serbia website) . Retrieved on 21 July 2007 .
+
+    
+
+    61 - ^ Â  Stevenson, William (1976).Â  A Man Called Intrepid, The Secret War . New
+    York: Ballantine Books. pp.Â 230. ISBN 345-27254-4-250.
+
+    
+
+    62 - ^ Â  THE GERMAN CAMPAIGN IN THE BALKANS (SPRING 1941): PART II
+
+    
+
+    63 - ^ Â  Rubenstein, Richard L; Roth, John king (2003).Â  Approaches to Auschwitz:
+    The Holocaust and Its Legacy . Westminster John Knox Press. pp.Â 170.Â  ISBN
+    0664223532 .
+
+    
+
+    64 - ^ Â  "Bioterrorism: Civil Liberties Under Quarantine" .Â  NPR . 23 October 2001 .
+    Retrieved on 19 May 2007 .
+
+    
+
+    65 - ^ Â  "Prvi udarac MiloÅ¡eviÄ‡evom reÅŸimu" Â (in Serbian).Â  Danas .
+    9 March 2006 . Retrieved on 10 July 2007 .
+
+    
+
+    66 - ^ Â  James L. Graff (25 March 1991).Â  "Yugoslavia: Mass bedlam in Belgrade"
+    .Â  TIME . Retrieved on 10 July 2007 .
+
+    
+
+    67 - ^ Â  "Srbija na mitinzima (1990â€“1999)" Â (in Serbian).Â  Vreme . 21
+    August 1999 . Retrieved on 10 July 2007 .
+
+    
+
+    68 - ^ Â  "History (Disintegration Years 1988â€“2000)" . Official website .
+    Retrieved on 10 July 2007 .
+
+    
+
+    69 - ^ Â  Jane Perlez (23 February 1997).Â  "New Mayor of Belgrade: A Serbian
+    Chameleon" . The New York Times . Retrieved on 17 May 2007 .
+
+    
+
+    70 - ^ Â  "NATO bombing" . Official website . Retrieved on 17 May 2007 .
+
+    
+
+    71 - ^ Â  Ð�ÐœÑ‚ÐŸÐœÐžÑ›, Ð¡Ð»ÐŸÐ±ÐŸÐŽÐ°Ðœ (15
+    March 2001).Â  ""Ð¡Ñ€Ð±ÐžÑ˜Ð° Ð¿ÐŸÑ�Ð»Ðµ
+    ÐœÐžÐ»ÐŸÑˆÐµÐ²ÐžÑ›Ð°"" Â (in Serbian).
+    Ð�ÐŸÐ²Ð° Ñ�Ñ€Ð¿Ñ�ÐºÐ°
+    Ð¿ÐŸÐ»ÐžÑ‚ÐžÑ‡ÐºÐ° ÐŒÐžÑ�Ð°ÐŸ.
+
+    
+
+    72 - ^ Â  Glenny, Misha (30 October 2000).Â  "Can Serbia's new leaders overcome the
+    legacy of Slobodan Milosevic?" .Â  The New Yorker . Retrieved on 10 July 2007 .
+
+    
+
+    73 - ^ Â  "Ancient Period" . Official website . Retrieved on 31 January 2009 .
+
+    
+
+    74 - ^Â  a Â  b Â  c Â  d Â  e Â  f Â  "History (Byzantine Empire)" . Official
+    website . Retrieved on 17 May 2007 .
+
+    
+
+    75 - ^ Â  "Opasno neznanje ili neÅ¡to viÅ¡e" .Â  Danas . Retrieved on 29 December
+    2008 .
+
+    
+
+    76 - ^ Â  "Councilors of the Assembly of the City of Belgrade" . Official site . Retrieved
+    on 16 July 2007 .
+
+    
+
+    77 - ^ Â  "Facts (Population)" . Official website . Retrieved on 10 July 2007 .
+
+    
+
+    78 - ^ Â  Blic Online | Tema dana | Svi putevi vode u Beograd
+
+    
+
+    79 - ^ Â  "BiraÄ�ki spisak" . Zavod za informatiku i statistiku Grada Beograda.
+    2007.
+
+    
+
+    80 - ^ Â  Refugee Serbs Assail Belgrade Government :Â  The Washington Post , Tuesday,
+    June 22, 1999.
+
+    
+
+    81 - ^ Â  [1]
+
+    
+
+    82 - ^ Â  "Kinezi Marko, MiloÅ¡ i Ana" Â (in Serbian).Â  Kurir . 20 February 2005 .
+    Retrieved on 18 July 2007 .
+
+    
+
+    83 - ^ Â  Biljana VasiÄ‡ (15 January 2001).Â  "Kineska Ä�etvrt u bloku 70"
+    Â (in Serbian).Â  Vreme . Retrieved on 18 July 2007 .
+
+    
+
+    84 - ^ Â  [http:// . . /watch?v=aZy-cnhMBTg "Jeffrey Polonia"] (in Serbian).Â 
+    Youtube . 2008 . Retrieved on 12 November 2008 .
+
+    
+
+    85 - ^ Â  Vesna Peric Zimonjic (7 December 2005).Â  "A unique friendship club in
+    Belgrade" . Dawn - International . Retrieved on 17 July 2007 .
+
+    
+
+    86 - ^ Â  Francesca Ciriaci (11 April 1999).Â  "Government, public diverge in
+    assessment of Kosovo crisis" .Â  Jordan Times . Retrieved on 18 July 2007 .
+
+    
+
+    87 - ^ Â  "CHINESE AND IRAQI IMMIGRANTS RECEIVE QUIET WELCOME" . international. 31 May
+    2007 . Retrieved on 4 October 2007 .
+
+    
+
+    88 - ^ Â  E kapija - Centar kompanije `Intel` za Balkan u Beogradu - Srbija deo `Intel
+    World Ahead Program`
+
+    
+
+    89 - ^ Â  "JTI u Srbiju ulaÅŸe oko $100 mil." Â (in Serbian). B92 Biz. 24 April 2007 .
+    Retrieved on 19 May 2007 .
+
+    
+
+    90 - ^ Â  "Beograd - Bankarski razvojni centar" Â (in Serbian). 24x7 business news.
+    29 March 2006 . Retrieved on 19 May 2007 .
+
+    
+
+    91 - ^ Â  Watkins, Thayer.Â  "The Worst Episode of Hyperinflation in History:
+    Yugoslavia 1993-94" .Â  Episodes of Hyperinflation . San JosÃ© State University
+    Department of Economics . Retrieved on 26 July 2007 .
+
+    
+
+    92 - ^ Â  Taylor, Bryan.Â  "Countries that Suffered the Greatest Inflation in the
+    Twentieth century" Â ( Word document ).Â  The Century of Inflation . Global
+    Financial Data. 8, 10 . Retrieved on 26 July 2007 .
+
+    
+
+    93 - ^ Â  "Privreda Beograda" Â (in Serbian). Economic Chamber of Belgrade .
+    Retrieved on 10 July 2007 .
+
+    
+
+    94 - ^Â  a Â  b Â 
+    http://www.politika.rs/rubrike/Drustvo/U-Srbiji-sve-vishe-rachunara.sr.html
+
+    
+
+    95 - ^ Â  Almost 98% of companies in Serbia are computerised Â - Economy.co.yu
+
+    
+
+    96 - ^ Â  "ure and Art (Cultural Events)" . Official website . Retrieved on 10 July 2007 .
+
+    
+
+    97 - ^ Â  "The biography of Ivo AndriÄ‡" . The Ivo AndriÄ‡ Foundation . Retrieved
+    on 18 May 2007 .
+
+    
+
+    98 - ^ Â  "Borislav PekiÄ‡ - Biografija" Â (in Serbian).Â  Project Rastko .
+    Retrieved on 19 May 2007 .
+
+    
+
+    99 - ^ Â  Joseph Tabbi (26 July 2005).Â  "MiloÅ¡ Crnjanski and his descendents" .
+    Electronic Book Review . Retrieved on 10 July 2007 .
+
+    
+
+    100 - ^ Â  . /~eteia/kitabhana/Selimovic_Mehmed_Mesa/Biografija.html "MeÅ¡a
+    SelimoviÄ‡ - Biografija" Â (in Bosnian). Kitabhana.net . Retrieved on 10 July
+    2007 .
+
+    
+
+    101 - ^ Â  "Riblja ÄŒorba" Â (in Serbian). Balkan Media.com . Retrieved on 10 July
+    2007 .
+
+    
+
+    102 - ^ Â  Aleksandar PavliÄ‡ (9 February 2005).Â  "Beogradski Sindikat:Â 
+    Svi Zajedno " Â (in Serbian). Popboks magazine . Retrieved on 23 May 2007 .
+
+    
+
+    103 - ^ Â  S. S. TodoroviÄ‡ (30 January 2004).Â  "LiriÄ�ar meÄ‘u reperima"
+    Â (in Serbian). Balkanmedia . Retrieved on 23 May 2007 .
+
+    
+
+    104 - ^ Â  "Serbian ballad wins Eurovision Song Contest - Belgrade hosts in 2008" .Â 
+    Helsingin Sanomat . 14 May 2007 . Retrieved on 10 July 2007 .
+
+    
+
+    105 - ^ Â  Tatjana CvjetiÄ‡anin.Â  "From the history of the National Museum in
+    Belgrade" . National Museum of Serbia . Retrieved on 27 July 2007 .
+
+    
+
+    106 - ^ Â  "Museums" . Official website . Retrieved on 10 July 2007 .
+
+    
+
+    107 - ^ Â  "World Guide:Belgrade" .Â  Lonely Planet . Retrieved on 27 July 2007 .
+
+    
+
+    108 - ^ Â  "LiÄ�na karta Muzeja ratnog vazduhoplovstva" Â (in Serbian). Museum
+    of Air force Belgrade . Retrieved on 19 May 1007 .
+
+    
+
+    109 - ^ Â  "Museums 3" . Official website . Retrieved on 10 July 2007 .
+
+    
+
+    110 - ^ Â  "Museums 2" . Official website . Retrieved on 10 July 2007 .
+
+    
+
+    111 - ^ Â  "About the museum" . Nikola Tesla Museum . Retrieved on 10 July 2007 .
+
+    
+
+    112 - ^ Â  "City of Belgrade - Museums 1" . Official website . Retrieved on 10 July 2007 .
+
+    
+
+    113 - ^ Â  "ural institutions:Museum of African Art" . Official website . Retrieved on
+    10 July 2007 .
+
+    
+
+    114 - ^ Â  "Action programme 2006 for Serbia: Support to the Yugoslav Film Archive"
+    Â (PDF). European Agency for Reconstruction. 1 January 2006 . Retrieved on 10 July
+    2007 .
+
+    
+
+    115 - ^ Â  "New Depository for the Yugoslav Film Archiveâ€™s treasure" .
+    SEECult.org, Culture Portal of Southeastern Europe. 7 June 2007 . Retrieved on 10 July
+    2007 .
+
+    
+
+    116 - ^ Â  Nicholas Comrie, Lucy Moore (1 October 2007).Â  "Zemun: The Town Within the
+    City" .Â  B92 Â Travel . Retrieved on 17 May 2007 .
+
+    
+
+    117 - ^Â  a Â  b Â  c Â  d Â  e Â  Zoran ManeviÄ‡.Â  "Architecture and
+    Building" .Â  MIT Â website . Retrieved on 19 May 2007 .
+
+    
+
+    118 - ^ Â  Prof. Dr. Mihajlo MitroviÄ‡ (27 June 2003).Â  "Seventh Belgrade
+    triennial of world architecture" . ULUS . Retrieved on 19 May 2007 .
+
+    
+
+    119 - ^ Â  "Sportski tereni" Â (in Serbian). Public utility "Ada Ciganlija" .
+    Retrieved on 19 May 2007 .
+
+    
+
+    120 - ^ Â  "Ada Ciganlija" .Â  Tourism Organisation of Belgrade . Retrieved on 19 May
+    2007 .
+
+    
+
+    121 - ^ Â  "O Adi" Â (in Serbian). Public utility "Ada Ciganlija" . Retrieved on 19 May
+    2007 .
+
+    
+
+    122 - ^ Â  "KupaliÅ¡te" Â (in Serbian). Public utility "Ada Ciganlija" .
+    Retrieved on 19 May 2007 .
+
+    
+
+    123 - ^ Â Ana Nikolov ( 2005 - 07-29 ). " Beograd â€“ grad na rekama ". Institut za
+    Arhitekturu i Urbanizam Srbije.Â  Retrieved on 2007-06-05.
+
+    
+
+    124 - ^ Â  "Zbogom, oazo!" Â (in Serbian).Â  Kurir . 23 May 2006 . Retrieved on 5 June
+    2007 .
+
+    
+
+    125 - ^ Â  Beoinfo (4 August 2005).Â  "Prirodno dobro "Veliko ratno ostrvoâ€�
+    stavljeno pod zaÅ¡titu SkupÅ¡tine grada" Â (in Serbian). Ekoforum . Retrieved
+    on 5 June 2007 .
+
+    
+
+    126 - ^ Â  Eve-Ann Prentice (10 August 2003).Â  ""Why I love battered Belgrade""
+    .Â  The Guardian Â Travel . Retrieved on 19 May 2007 .
+
+    
+
+    127 - ^ Â  Seth Sherwood (16 October 2005).Â  "Belgrade Rocks" .Â  The New York
+    Times . Retrieved on 19 May 2007 .
+
+    
+
+    128 - ^ Â  Barbara Gruber (22 August 2006).Â  "Belgrade's Nightlife Floats on the
+    Danube" .Â  Deutsche Welle . Retrieved on 19 May 2007 .
+
+    
+
+    129 - ^ Â  "Slovenci dolaze u jeftin provod" Â (in Serbian).Â  Glas Javnosti . 21
+    December 2004 . Retrieved on 10 July 2007 .
+
+    
+
+    130 - ^ Â  "U Beograd na vikend-zabavu" Â (in Croatian).Â  VeÄ�ernji list . 6
+    January 2006. Archived fromÂ  the original Â on 6 January 2006 . Retrieved on 15 June
+    2007 .
+
+    
+
+    131 - ^ Â  Gordy, Eric D. (1999).Â  "The Destruction of Musical Alternatives" .Â 
+    The Culture of Power in Serbia: Nationalism and the Destruction of Alternatives . Penn
+    State Press. pp.Â 121â€“122.Â  ISBN 0271019581 . Retrieved on 10 July 2007 .
+
+    
+
+    132 - ^ Â  "Intro" . Club "Akademija" . Retrieved on 10 July 2007 .
+
+    
+
+    133 - ^ Â  "Klub Studenata Tehnike - O nama" Â (in Serbian).
+
+    
+
+    134 - ^ Â  "Student cultural center" . SKC . Retrieved on 19 May 2007 .
+
+    
+
+    135 - ^ Â  "Skadarlija" .Â  Tourist Organisation of Belgrade . Retrieved on 19 May
+    2007 .
+
+    
+
+    136 - ^ Â  "History" . BiP (Belgrade Brewery) . Retrieved on 19 May 2007 .
+
+    
+
+    137 - ^ Â  "Znamenite graÄ‘evine 3" Â (in Serbian). Official site . Retrieved on
+    10 July 2007 .
+
+    
+
+    138 - ^ Â  "Europe's best nightlife" Â (in English). Official site . Retrieved on 11
+    April 2008 .
+
+    
+
+    139 - ^ Â  "Sport and Recreation" . Official website . Retrieved on 10 July 2007 .
+
+    
+
+    140 - ^ Â  "Universiade 2009 (Belgrade)" .Â  FISU . Retrieved on 19 May 2007 .
+
+    
+
+    141 - ^ Â  "History of the Olympic Committee of Serbia" . Olympic Committee of Serbia .
+    Retrieved on 19 May 2007 .
+
+    
+
+    142 - ^ Â  /past/index_uk.asp?OLGT=1&OLGY=1996 "Atlanta 1996" . Official Website of
+    the Olympic Movement . Retrieved on 19 May 2007 .
+
+    
+
+    143 - ^ Â  "Sport and Recreation (Stadiums)" . Official website . Retrieved on 10 July
+    2007 .
+
+    
+
+    144 - ^ Â  "Sport and Recreation (Sport Centers and Halls)" . Official website .
+    Retrieved on 10 July 2007 .
+
+    
+
+    145 - ^ Â  "Venues" .Â  EYOF Â Belgrade 2007 . Retrieved on 30 July 2007 .
+
+    
+
+    146 - ^ Â  "Samo RTS moÅŸe da bude javni servis" . Radio Television of Serbia. 23 August
+    2005.
+
+    
+
+    147 - ^ Â  "ÐŸÐ“ÐŸ - Ð Ð¢Ð¡ (ÐŸÑ€ÐžÑ‡Ð° ÐŸ
+    ÐœÐ°ÐŒÐ°)" . PGP RTS.
+
+    
+
+    148 - ^ Â  Jared Manasek (2005-01).Â  "The Paradox of Pink" . Columbia Journalism
+    Review . Retrieved on 19 May 2007 .
+
+    
+
+    149 - ^ Â  "B92 na 8.598. mestu na svetu" Â (in Serbian). B92. 1 September 2006 .
+    Retrieved on 19 May 2007 .
+
+    
+
+    150 - ^ Â  "The University of Belgrade â€“ The Seedbed of University Education" .
+    Faculty of Law of University of Belgrade . Retrieved on 18 May 2007 .
+
+    
+
+    151 - ^ Â  "History of The University" .Â  University of Belgrade . Retrieved on 18 May
+    2007 .
+
+    
+
+    152 - ^ Â  "Ð£ÐœÐžÐ²ÐµÑ€Ð·ÐžÑ‚ÐµÑ‚ Ñƒ
+    Ð‘ÐµÐŸÐ³Ñ€Ð°ÐŽÑƒ - Ð‘Ñ€ÐŸÑ˜
+    Ð¡Ñ‚ÑƒÐŽÐµÐœÐ°Ñ‚Ð°" Â (in Serbian) (HTML).Â  University
+    of Belgrade . Retrieved on 16 October 2008 .
+
+    
+
+    153 - ^ Â  "Education and Science" . Official website . Retrieved on 10 July 2007 .
+
+    
+
+    154 - ^ Â  "Statistics" . Public Transport Company "Belgrade" . Retrieved on 19 May 2007
+    .
+
+    
+
+    155 - ^ Â  "History of the Port of Belgrade" . Port of Belgrade . Retrieved on 18 May 2007 .
+
+    
+
+    156 - ^ Â  "Aerodromi i leteliÅ¡ta" Â (in Serbian). Vazduhoplovni vodiÄ� kroz
+    Beograd. Archived fromÂ  the original Â on 3 May 2006.
+
+    
+
+    157 - ^ Â  "Regionalni centar putniÄ�kog i kargo saobraÄ‡aja" Â (in
+    Serbian). Danas. 20 May 2005 . Retrieved on 10 July 2007 .
+
+    
+
+    158 - ^ Â  ""Nikola Tesla" Airport received its two millionth passenger" . Belgrade
+    Nikola Tesla Airport. 14 November 2006 . Retrieved on 18 May 2006 .
+
+    
+
+    159 - ^ Â  www.beg.aero | Nikola Tesla Belgrade Airport | News
+
+    
+
+    160 - ^ Â  "Belgrade Bypass, Serbia" . CEE Bankwatch network . Retrieved on 19 May 2007 .
+
+    
+
+    161 - ^ Â  "1. faza prve deonice UnutraÅ¡njeg magistralnog poluprstena" Â (in
+    Serbian) (PDF). Belgrade Direction for Building and Real Estate Land/EBRD. 1 July 2005 .
+    Retrieved on 15 September 2007 .
+
+    
+
+    162 - ^ Â  Åœeleznice Srbije - Red voznje Beovoz-a
+
+    
+
+    163 - ^ Â  Grad Beograd - Beovoz
+
+    
+
+    164 - ^ Â  â€œVukov Spomenikâ€� Beograd, Srbija
+
+    
+
+    165 - ^ Â  "International Cooperation" . Official website . Retrieved on 10 July 2007 .
+
+    
+
+    166 - ^ Â  "Beograd: MeÄ‘unarodni odnosi" . Stalna konferencija gradova i
+    opÅ¡tina Srbije . Retrieved on 18 June 2007 . .
+
+    
+
+    167 - ^ Â  "Council okays peace committees: Lahore and Chicago to be declared twin
+    cities." .Â  The Post . 28 January 2007 . Retrieved on 16 May 2007 .
+
+    
+
+    168 - ^ Â  "Received Decorations" . Official website . Retrieved on 16 May 2007 .
+
+    
+
+    169 - ^ Â  "European Cities of the Future 2006/07" . fDi magazine. 6 February 2006 .
+    Retrieved on 10 July 2007 .
+
+    
+
+    170 - ^ Â  Aleksandar MiloradoviÄ‡ (1 September 2006).Â  "Belgrade - City of the
+    Future in Southern Europe" Â (PDF). TheRegion, magazine of SEE Europe . Retrieved on
+    10 July 2007 .
+
+    
+
+
+
+
+
+Further reading
+
+    
+
+    - PaviÄ‡, Milorad Â (2000).Â  A Short History of Belgrade . Belgrade:
+    Dereta.Â  ISBN 86-7346-117-0 .
+
+    
+
+    - TeÅ¡anoviÄ‡, Jasmina Â (2000).Â  The Diary of a Political Idiot: Normal
+    Life in Belgrade .Â  Cleis Press .Â  ISBN 1-57344-114-7 .
+
+    
+
+    - Levinsohn, Florence Hamlish Â (1995).Â  BelgradeÂ : among the Serbs .
+    Chicago: Ivan R. Dee.Â  ISBN 1-56663-061-4 .
+
+    
+
+    - Paton, Andrew Archibald Â (4 November 2005) [1845] (Reprint byÂ  Project
+    Gutenberg / Project Rastko ).Â  Servia, Youngest Member of the European Family: or, A
+    Residence in Belgrade, and Travels in the Highlands and Woodlands of the Interior,
+    during the years 1843 and 1844. . London: Longman, Brown, Green and Longmans.
+
+    
+
+
+
+External links
+
+    
+
+    - City of Belgrade Official Website
+
+    
+
+    - Tourist Organization of Belgrade
+
+    
+
+    - Belgrade, host to Eurosong 2008
+
+    
+
+    - Photo gallery of Belgrade
+
+    
+
+    - Old photos of Belgrade
+
+    
+
+    - Standing Conference of Towns and Municipalities
+
+    
+
+    - City of Belgrade Secretariat for Environmental Protection
+
+    
+
+    - Architecture of Belgrade
+
+    
+
+    - BeoBuild (Construction projects)
+
+    
+
+    - Medieval Belgrade - belgradexv.com
+
+    
+
+    - Environmental Atlas of Belgrade , Institute of Public Health of Belgrade
+
+    
+
+    - Belgrade in Old Postcards
+
+    
+
+    - Belgrade Travel Guide, Serbia
+
+    
+
+    - Belgrade travel guide Â fromÂ  Wikitravel
+
+    
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Beovoz_Karadordev_park.JPG/800px-Beovoz_Karadordev_park.JPG
+Underground stationÂ  KaraÄ‘orÄ‘ev park
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/a/a3/Fk_Red_Star_stadium.jpg
+Stadion Crvena Zvezda
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/c/c9/Le_Nouveau_Belgrade.jpg New
+Belgrade
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/b/b3/Aerodrom_Nikola_Tesla_Beograd_Terminal_2.jpg
+Belgrade Nikola Tesla Airport
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/0/07/Le_Danube_entre_Novi_Beograd_et_Zemun.jpg
+Danube river inÂ  Zemun
+
+Image: http://upload.wikimedia.org/wikipedia/en/8/8f/Terazije6.jpg Terazije
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/1/18/Gardos_tower_Janos_Hunyadi.jpg
+GardoÅ¡ Â tower in Zemun
+
+Image: http://upload.wikimedia.org/wikipedia/commons/c/c8/Dizd_ops.jpg Belgrade
+Fortress -Â  Despot Stefan Tower
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/0/0f/Beograd_-_National_Theater_02.jpg
+National Theatre in Belgrade , mid 19th century
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/a/a6/Serbia_Beograd_SANU_-_Feb_2006.jpg
+The building of theÂ  Serbian Academy of Sciences and Arts , erected in 1922
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/1/18/Belgrade_Arena_north.jpg
+Belgrade Arena
+
+Image: http://upload.wikimedia.org/wikipedia/commons/a/af/ParlamentBelgrad.jpg
+TheÂ  Parliament of Serbia , and the headquarters of the Serbian Post , erected in 1938
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/e/e0/Sava_river_in_Belgrade%2C_Serbia.jpg
+River Sava in Belgrade, joins the Danube (far right)
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/4/47/Vukov_spomenik_plato.png
+Underground station vestibule
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/8/84/Vukov_spomenik_Beovoz_envi.png
+Underground stationÂ  Vukov spomenik
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/f/f3/Serbian_Government_building.jpg
+Building of theÂ  Government of Serbia
+
+Image: http://www.belgrade-gay.com/photos/belgrade_map.jpg
+
+Image: http://business.clemson.edu/polisci/belgrade_2007_4.jpg
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/3/37/Belgrade_NATO_bombardment_damage2.JPG
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/2/2b/View_of_Belgrade_from_Zemun.JPG
+
+Image:
+http://www.northwestern.edu/provost/students/circum2006/images_2006/Belgrade%20Bomb%20damage.jpg
+
+Image:
+http://betweenthewoodsandthewater.files.wordpress.com/2007/05/belgrade-066.jpg
+
+Image: http://www.furiouscylon.com/uploaded_images/IMG_0951-740715.jpg
+
+Image: http://cewqo08.phy.bg.ac.yu/UserFiles/File/DowntownBelgrade.JPG
+
+Image: http://www.chem.bg.ac.yu/~szaric/Vrsac2007/BelgradeMapa.jpg
+
+Image:
+http://www.raiffeisenevolution.com/uploads/File/EuropeBusinessCenterBelgrade.jpg
+
+Image:
+http://lh5.ggpht.com/_-CJECAz4Whw/Rl0hktpVJJI/AAAAAAAAAvM/kUqlM1FA4rw/DSCN1055.JPG
+
+Image: http://www.yourpamperedhome.com/pictures/100_0560.jpg
+
+Image:
+http://ec.europa.eu/enlargement/images/press_corner/photo_gallery/serbia/belgrade075_h.jpg
+
+Image:
+http://ec.europa.eu/enlargement/images/press_corner/photo_gallery/serbia/belgrade084_h.jpg
+
+Image:
+http://ec.europa.eu/enlargement/images/press_corner/photo_gallery/serbia/belgrade080_h.jpg
+
+Image:
+http://ec.europa.eu/enlargement/images/press_corner/photo_gallery/serbia/belgrade099_h.jpg
+
+Image:
+http://lh3.ggpht.com/_LRYHdGX0QJg/R4pM8Jgk8MI/AAAAAAAAB6M/exshKkYfqVc/Krovovi+Beograda013.JPG
+
+Image: http://www.lib.utexas.edu/maps/europe/beograd_1999.jpg
+
+Image:
+http://straight2bosphorus.files.wordpress.com/2008/09/novi-sad-to-belgrade.jpg
+
+Image: http://img223.imageshack.us/img223/8828/000cbgdpanjg2.jpg
+
+Image: http://img255.imageshack.us/img255/8017/000nbgdpanwd6.jpg
+
+Image: http://scharing.com/images/IMG_0592.JPG
+
+Image:
+http://lh6.ggpht.com/_LRYHdGX0QJg/R4pM65gk8LI/AAAAAAAAB6E/GktBhHuu4Aw/Krovovi+Beograda011.JPG
+
+Image: http://farm2.static.flickr.com/1230/1311784736_b1ccca44b1_o.jpg
+
+Image: http://farm3.static.flickr.com/2009/2265928531_b80b62ba2b_o.jpg
+
+Image: http://farm4.static.flickr.com/3262/3184664203_b3cf07b3b4_o.jpg
+
+Image: http://farm4.static.flickr.com/3405/3233970054_2f1eeaf18d_o.jpg
+
+Image: http://farm4.static.flickr.com/3349/3233968854_1cd5de0988_o.jpg
+
+Image: http://farm4.static.flickr.com/3086/3233119333_18f96bc085_o.jpg
+
+Image: http://farm4.static.flickr.com/3095/3233125031_4874ba08f7_o.jpg
+
+Image: http://farm4.static.flickr.com/3369/3233122215_9bc9895561_o.jpg
+
+Image: http://farm4.static.flickr.com/3524/3233121049_f7cd697edd_o.jpg
+
+Image: http://farm4.static.flickr.com/3343/3233118161_2f0193f828_o.jpg
+
+Image: http://farm4.static.flickr.com/3513/3233972694_e85122a5f1_o.jpg
+
+Image: http://farm4.static.flickr.com/3088/3233121919_09398c8619_o.jpg
+
+Image: http://farm4.static.flickr.com/3325/3233967294_3049646592_o.jpg
+
+Image: http://farm4.static.flickr.com/3087/3233117693_26ceaf80a9_o.jpg
+
+Image: http://farm4.static.flickr.com/3407/3233966734_eb4695a940_o.jpg
+
+Image: http://farm4.static.flickr.com/3324/3233965930_e6688ec53c_o.jpg
+
+Image: http://farm4.static.flickr.com/3447/3233117273_82a8f0892b_o.jpg
+
+Image: http://farm4.static.flickr.com/3331/3216040436_64caa926e4_o.jpg
+
+Image: http://farm4.static.flickr.com/3329/3215183241_2ed9798836_o.jpg
+
+Image: http://farm4.static.flickr.com/3360/3216034798_57e7a674ce_o.jpg
+
+Image: http://farm4.static.flickr.com/3475/3216035772_6e78cb51f6_o.jpg
+
+Image: http://farm4.static.flickr.com/3519/3216032146_cda74e9d98_o.jpg
+
+Image: http://farm4.static.flickr.com/3507/3215194209_5f5cfd2898_o.jpg
+
+Image: http://farm4.static.flickr.com/3429/3216033592_1d415a3b42_o.jpg
+
+Image: http://farm4.static.flickr.com/3370/3215175771_7a266f4636_o.jpg
+
+Image: http://farm4.static.flickr.com/3478/3216021090_6497dec673_o.jpg
+
+Image: http://farm4.static.flickr.com/3443/3216020556_cebcd79d46_o.jpg
+
+Image: http://farm4.static.flickr.com/3430/3198929423_0ee8f400ec_o.jpg
+
+Image: http://farm4.static.flickr.com/3116/3199779092_0da323dccd_o.jpg
+
+Image: http://farm4.static.flickr.com/3380/3198934185_436a150105_o.jpg
+
+Image: http://farm4.static.flickr.com/3471/3199774268_2266d425b9_o.jpg
+
+Image: http://farm4.static.flickr.com/3453/3199777486_ec3471c51f_o.jpg
+
+Image: http://farm4.static.flickr.com/3394/3199776062_c05d349172_o.jpg
+
+Image: http://farm4.static.flickr.com/3398/3199781744_0596154100_o.jpg
+
+Image: http://farm4.static.flickr.com/3132/3198916711_6b8aee01df_o.jpg
+
+Image: http://farm4.static.flickr.com/3403/3199765134_2a53e49e5e_o.jpg
+
+Image: http://farm4.static.flickr.com/3445/3198920097_95d938c4a4_o.jpg
+
+Image: http://farm4.static.flickr.com/3464/3198911859_743d43e73c_o.jpg
+
+Image: http://farm4.static.flickr.com/3331/3199773014_a736a34bf3_o.jpg
+
+Image: http://farm4.static.flickr.com/3300/3199759798_77e16b0722_o.jpg
+
+Image: http://farm4.static.flickr.com/3114/3199768406_33b9ab63af_o.jpg
+
+Image: http://farm4.static.flickr.com/3533/3198918743_a6ab3549dd_o.jpg
+
+Image: http://farm4.static.flickr.com/3490/3199766850_ffc0d31b6b_o.jpg
+
+Image: http://farm4.static.flickr.com/3512/3199761742_be07092fbb_o.jpg
+
+Image: http://farm4.static.flickr.com/3316/3198922147_1712c544bc_o.jpg
+
+Image: http://farm4.static.flickr.com/3494/3199763894_57dff56d56_o.jpg
+
+Image: http://farm4.static.flickr.com/3311/3198917871_4a8c13c711_o.jpg
+
+Image: http://farm4.static.flickr.com/3335/3199761168_3d1f64fc4f_o.jpg
+
+Image: http://farm4.static.flickr.com/3100/3198912617_d2ce392b2d_o.jpg
+
+Image: http://farm4.static.flickr.com/3127/3198923351_60c82d03a6_o.jpg
+
+Image: http://farm4.static.flickr.com/3517/3185506874_f88b80377a_o.jpg
+
+Image: http://farm4.static.flickr.com/3383/3185507454_e2de7d4d31_o.jpg
+
+Image: http://farm4.static.flickr.com/3303/3184661971_2a84d8936f_o.jpg
+
+Image: http://farm4.static.flickr.com/3376/3185501078_c10540b6c8_o.jpg
+
+Image: http://farm4.static.flickr.com/3441/3185510176_4e7b4b8c03_o.jpg
+
+Image: http://farm4.static.flickr.com/3516/3185503264_cbb251d316_o.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Image: http://upload.wikimedia.org/wikipedia/commons/d/d1/Belgrade_iz_balona.jpg
+Aerial view of Belgrade downtown and river shores
+
+Image: http://upload.wikimedia.org/wikipedia/commons/d/d2/Jovian1.jpg
+
+Flavius Iovanus ,Â  Roman Emperor Â fromÂ  Singidunum
+
+Image: http://upload.wikimedia.org/wikipedia/commons/c/c4/Beograd_Sat.jpg
+Satellite view of Belgrade
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/f/ff/Siege_of_N%C3%A1ndorfeh%C3%A9rv%C3%A1r.jpg
+TheÂ  Siege of Belgrade (NÃ¡ndorfehÃ©rvÃ¡r) Â in 1456
+
+Image: http://upload.wikimedia.org/wikipedia/commons/a/ac/Fortress_Belgrade.jpg
+Belgrade in the 16th century
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/e/e4/Belagerung_belgrad_1717.jpg
+Austrian conquest of Belgrade: 1717 by Eugene of Savoy, during the Austro-Turkish War of
+1716-18
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/a/a5/Knez_Mihailo%2C_Republic_Square.jpg
+The statue ofÂ  Prince Mihailo III Â on Republic Square , mid 19th century.
+
+Image: http://upload.wikimedia.org/wikipedia/commons/9/96/Knez_stara.jpg Knez
+Mihailova street at the end of the 19th century
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/8/83/Belgrade_Kalemegdan%26Pobednik.JPG
+Pobednik Â ( The Victor ), a symbol of Belgrade
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/6/6c/Belgrade_Old_Court_1.jpg
+TheÂ  Old Palace , seat of theÂ  Assembly of the City of Belgrade
+
+Image: http://upload.wikimedia.org/wikipedia/commons/3/36/Miroslavs_Gospel.jpg
+Miroslav's Gospel, 12th century manuscript entered the UNESCO'sMemory of the World
+Programme in 2005
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/5/58/Saint_Sava_et_Partizan_stadium.jpg
+Cathedral of Saint Sava and the National Library of Serbia
+
+Image: http://upload.wikimedia.org/wikipedia/commons/0/07/Belgrade_Rail_HQ.JPG
+Railway Museum
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/9/90/Beogradjanka%2C_Belgrade%2C_Serbia.jpg
+TheÂ  BeograÄ‘anka
+
+Image: http://upload.wikimedia.org/wikipedia/commons/6/6e/Kalemegdan_park_1.jpg
+Kalemegdan Â park
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/7/7a/Street_Knez_Mihailova.png
+Knez Mihailova (Prince Mihailo) Street , main pedestrian area in the city
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/5/5f/Skadarlija_Blgrade_2.jpg
+Skadarlija, the city's old bohemian neighbourhood
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/3/31/Faculty_of_Architecture_and_Civil_Engineering%2C_Belgrade%2C_Serbia.jpg
+Faculty of Electrical Engineering, Architecture and Structural Engineering, University
+of Belgrade
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/f/f0/Belgrade_Sava_bridge.jpg
+OldÂ  Sava Â bridge
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/New_Railway_Bridge_1.jpg/800px-New_Railway_Bridge_1.jpg
+New Railroad Bridge
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Prokop_Beovoz.png/800px-Prokop_Beovoz.png
+Underground stationÂ  Beograd-Centar
+
+Image: http://upload.wikimedia.org/wikipedia/commons/2/23/NoviBG_Nov30_2005.jpg
+Belgrade panorama
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/5/53/La_place_de_la_R%C3%A9publique..jpg
+TheÂ  Republic Square
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/3/32/Vue_depuis_Forteresse_Kalemegdan.jpg
+Kalemegdan Â Park
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/5/59/Nikole_Pasica_Beograd.jpg
+Nikola PaÅ¡iÄ‡ Square
+
+Image: http://upload.wikimedia.org/wikipedia/en/2/22/SFD.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TaÅ¡majdan park
+
+
+
+
+
+
+
+
+
+Comments
+
+Sign in | Report Abuse | Print Page | Remove Access | Powered By Google Sites
+window.jstiming.load.tick('sjl'); window.jstiming.load.tick('jl');
+sites.Searchbox.initialize( 'sites-searchbox-search-button', true,
+{"object":[]}['object'], 'search-site', {"label":"Configure search
+options...","url":"/site/chinhdangvu/system/app/pages/admin/appearance/pageElements"});
+gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown',
+false); JOT_setupNav("36025064438581467", "Navigation", true);
+JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange',
+'COMP_36025064438581467'); new
+sites.CommentPane('//docs.google.com/comments/d/AAHRpnXsyO8Rt87TTHQ1KkSdlmryU6aAo5EgYA7G2J79BynNxVcMHZMCW8pNK-gdxYlQHhYL-xCMrWfPBbLuPALTBJbiijJGpepzceBOjILo6SJrmGtnAllkix4GsjweIM5nkPPHzE68q/api/js?anon=true',
+true, true, false, false); setTimeout(function() { var fingerprint =
+gsites.date.TimeZone.getFingerprint([]);
+gsites.Xhr.send('https://sites.google.com/site/chinhdangvu/_/tz', null, null,
+'GET', null, null, { afjstz: fingerprint }); }, 500); window.onload = function() { if (false)
+{ JOT_setMobilePreview(); } var loadTimer = window.jstiming.load;
+loadTimer.tick("ol"); loadTimer["name"] = "load," + webspace.page.type;
+window.jstiming.report(loadTimer, {}, 'https://gg.google.com/csi'); }
+JOT_insertAnalyticsCode(false); var maestroRunner = new
+gsites.pages.view.SitesMaestroRunner( webspace, "en");
+maestroRunner.initListeners(); maestroRunner.installEditRender(); //<![CDATA[ //
+Decorate any fastUI buttons on the page with a class of 'goog-button'. if
+(webspace.user.hasWriteAccess) { JOT_decorateButtons(); } // Fires delayed events.
+(function() { JOT_fullyLoaded = true; var delayedEvents = JOT_delayedEvents; for (var x = 0;
+x < delayedEvents.length; x++) { var event = delayedEvents[x];
+JOT_postEvent(event.eventName, event.eventSrc, event.payload); } JOT_delayedEvents =
+null; JOT_postEvent('pageLoaded'); })(); //]]> JOT_postEvent('decorateGvizCharts');
+sites.util.Plus.go('sites-chrome-main'); window.jstiming.load.tick('render');
+

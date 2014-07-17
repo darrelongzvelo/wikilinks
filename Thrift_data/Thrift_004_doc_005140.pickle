@@ -1,0 +1,1148 @@
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+WikiLinkItem
+p0
+(dp1
+S'url'
+p2
+S'http://janedeau.wordpress.com/'
+p3
+sS'content'
+p4
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+PageContentItem
+p5
+(dp6
+S'articleText'
+p7
+NsS'raw'
+p8
+NsS'fullText'
+p9
+NsS'dom'
+p10
+S'<html lang="en" dir="ltr">\n  <head profile="http://gmpg.org/xfn/11">\n    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"></meta>\n    <title>Sincerely, Jane Deau</title>\n    <link media="screen" type="text/css" href="http://s0.wp.com/wp-content/themes/pub/mistylook/style.css?m=1340298656g" rel="stylesheet"></link>\n    <link href="http://janedeau.wordpress.com/xmlrpc.php" rel="pingback"></link>\n    <link href="http://janedeau.wordpress.com/feed/" title="Sincerely, Jane Deau \xc2\xbb Feed" type="application/rss+xml" rel="alternate"></link>\n    <link href="http://janedeau.wordpress.com/comments/feed/" title="Sincerely, Jane Deau \xc2\xbb Comments Feed" type="application/rss+xml" rel="alternate"></link>\n    <script type="text/javascript">\n      //&lt;![CDATA[\n\t\tvar infiniteScroll = {&quot;settings&quot;:{&quot;id&quot;:&quot;content-main&quot;,&quot;ajaxurl&quot;:&quot;http:\\/\\/janedeau.wordpress.com\\/?infinity=scrolling&quot;,&quot;type&quot;:&quot;scroll&quot;,&quot;wrapper&quot;:true,&quot;wrapper_class&quot;:&quot;infinite-wrap&quot;,&quot;text&quot;:&quot;Load more posts&quot;,&quot;totop&quot;:&quot;Scroll back to top&quot;,&quot;stats&quot;:&quot;blog=27558011&amp;v=wpcom&amp;user_id=0&amp;subd=janedeau&quot;}};\n\t\t//]]&gt;\n    </script>\n    <script type="text/javascript"> /* &lt;![CDATA[ */ function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!=\'function\'){window.onload=func;}else{window.onload=function(){oldonload();func();}}} /* ]]&gt; */ </script>\n    <link \n    media="all" type="text/css" href="http://s1.wp.com/_static/??/wp-content/blog-plugins/loggedout-follow/widget.css,/wp-content/mu-plugins/infinity/infinity.css,/wp-content/mu-plugins/infinity/themes/pub/mistylook.css,/wp-content/mu-plugins/slideshow/slideshow.css,/wp-content/mu-plugins/post-flair/style.css,/wp-content/mu-plugins/post-flair/sharing/sharing.css,/wp-content/mu-plugins/carousel/jetpack-carousel.css,/wp-content/themes/h4/global.css?m=1347477931j" rel="stylesheet" id="all-css-0">\n</link>\n    <link media="print" type="text/css" href="http://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1335386953g" rel="stylesheet" id="print-css-0"></link>\n    <script type="text/javascript"> /* &lt;![CDATA[ */ var LoggedOutFollow = {&quot;invalid_email&quot;:&quot;Your subscription did not succeed, please try again with a valid email address.&quot;}; /* ]]&gt; */ </script>\n    <script \n    src="http://s2.wp.com/_static/??/wp-includes/js/jquery/jquery.js,/wp-content/blog-plugins/loggedout-follow/widget.js,/wp-content/mu-plugins/infinity/infinity.js,/wp-includes/js/spin.js,/wp-includes/js/jquery/jquery.spin.js,/wp-includes/js/swfobject.js,/wp-content/plugins/video/assets/js/videopress.js?m=1349207858j" type="text/javascript">\n</script>\n    <link href="http://janedeau.wordpress.com/xmlrpc.php?rsd" title="RSD" type="application/rsd+xml" rel="EditURI"></link>\n    <link href="http://janedeau.wordpress.com/wp-includes/wlwmanifest.xml" type="application/wlwmanifest+xml" rel="wlwmanifest"></link>\n    <meta content="WordPress.com" name="generator"></meta>\n    <link href="http://wp.me/1RD63" rel="shortlink"></link>\n    <meta content="blog" property="og:type"></meta>\n    <meta content="Sincerely, Jane Deau" property="og:title"></meta>\n    <meta content="http://janedeau.wordpress.com/" property="og:url"></meta>\n    <meta content="Nothing but sincerity as far as the eye can see..." property="og:description"></meta>\n    <meta content="Sincerely, Jane Deau" property="og:site_name"></meta>\n    <meta content="249643311490" property="fb:app_id"></meta>\n    <link sizes="16x16 24x24 32x32 48x48" href="http://s2.wp.com/i/favicon.ico?m=1311976024g" type="image/x-icon" rel="shortcut icon"></link>\n    <link sizes="16x16 24x24 32x32 48x48" href="http://s2.wp.com/i/favicon.ico?m=1311976024g" type="image/x-icon" rel="icon"></link>\n    <link href="http://s0.wp.com/i/webclip.png?m=1311618091g" rel="apple-touch-icon-precomposed"></link>\n    <link href="http://janedeau.wordpress.com/?openidserver=1" rel="openid.server"></link>\n    <link href="http://janedeau.wordpress.com/" rel="openid.delegate"></link>\n    <link title="Sincerely, Jane Deau" href="http://janedeau.wordpress.com/osd.xml" type="application/opensearchdescription+xml" rel="search"></link>\n    <link title="WordPress.com" href="http://wordpress.com/opensearch.xml" type="application/opensearchdescription+xml" rel="search"></link>\n    <style>\n      /* &lt;![CDATA[ */\n\t\t/* Block: reblog */\n\t\t\n\t\t.reblog-from img                   { margin: 0 10px 0 0; vertical-align: middle; padding: 0; border: 0; }\n\t\t.reblogger-note img.avatar         { float: left; padding: 0; border: 0; }\n\t\t.reblogger-note-content            { margin: 0 0 20px; }\n\t\t.reblog-post .wpcom-enhanced-excerpt-content { border-left: 3px solid #eee; padding-left: 15px; }\n\t\t.reblog-post ul.thumb-list         { display: block; list-style: none; margin: 2px 0; padding: 0; clear: both; }\n\t\t.reblog-post ul.thumb-list li      { display: inline; margin: 0; padding: 0 1px; border: 0; }\n\t\t.reblog-post ul.thumb-list li a    { margin: 0; padding: 0; border: 0; }\n\t\t.reblog-post ul.thumb-list li img  { margin: 0; padding: 0; border: 0; }\n\t\t\n\t\t.reblog-post .wpcom-enhanced-excerpt { clear: both; }\n\t\t\n\t\t.reblog-post .wpcom-enhanced-excerpt address,\n\t\t.reblog-post .wpcom-enhanced-excerpt li,\n\t\t.reblog-post .wpcom-enhanced-excerpt h1,\n\t\t.reblog-post .wpcom-enhanced-excerpt h2,\n\t\t.reblog-post .wpcom-enhanced-excerpt h3,\n\t\t.reblog-post .wpcom-enhanced-excerpt h4,\n\t\t.reblog-post .wpcom-enhanced-excerpt h5,\n\t\t.reblog-post .wpcom-enhanced-excerpt h6,\n\t\t.reblog-post .wpcom-enhanced-excerpt p { font-size: 100% !important; }\n\t\t\n\t\t.reblog-post .wpcom-enhanced-excerpt blockquote,\n\t\t.reblog-post .wpcom-enhanced-excerpt pre,\n\t\t.reblog-post .wpcom-enhanced-excerpt code,\n\t\t.reblog-post .wpcom-enhanced-excerpt q { font-size: 98% !important; }\n\t\t\n\n\t\t/* ]]&gt; */\n    </style>\n    <meta content="Sincerely, Jane Deau" name="application-name"></meta>\n    <meta content="width=device-width;height=device-height" name="msapplication-window"></meta>\n    <meta content="Nothing but sincerity as far as the eye can see..." name="msapplication-tooltip"></meta>\n    <meta content="name=Subscribe;action-uri=http://janedeau.wordpress.com/feed/;icon-uri=http://s2.wp.com/i/favicon.ico" name="msapplication-task"></meta>\n    <meta content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico" name="msapplication-task"></meta>\n    <meta content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" name="msapplication-task"></meta>\n    <meta content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" name="msapplication-task"></meta>\n    <meta content="Sincerely, Jane Deau on WordPress.com" name="title"></meta>\n    <meta content="Nothing but sincerity as far as the eye can see..." name="description"></meta>\n    <style type="text/css"> #header h1 a, #header h2 { color: #265E15 !important; } #headerimage { background: url(\'http://janedeau.files.wordpress.com/2012/08/cropped-img_1858.jpg\') no-repeat; height: 200px; } </style>\n    <script type="text/javascript">\n      /*&lt;![CDATA[*/if(typeof(addLoadEvent)!=\'undefined\'){addLoadEvent(function(){if(top==self){i=document.createElement(\'img\');i.src=\'http://botd.wordpress.com/botd.gif?blogid=27558011&amp;postid=0&amp;lang=1&amp;date=1348153662&amp;ip=128.119.246.79&amp;url=http://janedeau.wordpress.com/&amp;loc=\'+document.location;i.style.width=\'0px\';i.style.height=\'0px\';i.style.overflow=\'hidden\';document.body.appendChild(i);}});}/*]]&gt;*/\n    </script>\n    <script type="text/javascript">\n      /*&lt;![CDATA[*/if(typeof(addLoadEvent)!=\'undefined\'){addLoadEvent(function(){if(top==self){i=document.createElement(\'img\');i.src=\'http://botd2.wordpress.com/botd.gif?blog=27558011&amp;post=0&amp;lang=en&amp;date=1348153662&amp;ip=128.119.246.79&amp;url=http://janedeau.wordpress.com/\';i.style.width=\'0px\';i.style.height=\'0px\';i.style.overflow=\'hidden\';document.body.appendChild(i);}});}/*]]&gt;*/\n    </script>\n  </head>\n  <body id="section-index" class="home blog highlander-enabled highlander-light infinite-scroll neverending">\n    <div id="navigation" class="clearfix">\n      <div class="menu">\n        <ul>\n          <li class="current_page_item">\n            <a title="Home" href="http://janedeau.wordpress.com/" shape="rect">Home</a>\n          </li>\n          <li class="page_item page-item-2">\n            <a href="http://janedeau.wordpress.com/about/" shape="rect">About\xc2\xa0Jane</a>\n          </li>\n          <li class="search">\n            <form action="http://janedeau.wordpress.com" id="searchform" method="get" enctype="application/x-www-form-urlencoded">\n              <input name="s" value="" id="s" class="textbox" type="text"></input>\n              <input value="Search" id="searchsubmit" type="submit"></input>\n            </form>\n          </li>\n        </ul>\n      </div>\n    </div>\n    <div id="container">\n      <div id="header">\n        <h1>\n          <a title="Sincerely, Jane Deau" href="http://janedeau.wordpress.com/" shape="rect">Sincerely, Jane Deau</a>\n        </h1>\n        <h2>Nothing but sincerity as far as the eye can see\xe2\x80\xa6</h2>\n      </div>\n      <div id="feedarea">\n        <dl>\n          <dt>\n            <strong>Feeds:</strong>\n          </dt>\n          <dd>\n            <a href="http://janedeau.wordpress.com/feed/" shape="rect">Posts</a>\n          </dd>\n          <dd>\n            <a href="http://janedeau.wordpress.com/comments/feed/" shape="rect">Comments</a>\n          </dd>\n        </dl>\n      </div>\n      <div id="headerimage"> </div>\n      <div id="content">\n        <div id="content-main">\n          <div id="post-925" class="post-925 post type-post status-publish format-standard hentry category-homeschoolings category-link-about-it category-lists category-love category-next-steps category-philadelphia">\n            <div class="posttitle">\n              <h2>\n                <a title="Permanent Link to Homeschooling Schedule Fall\xc2\xa02012" rel="bookmark" href="http://janedeau.wordpress.com/2012/09/20/homeschooling-schedule-fall-2012/" shape="rect">Homeschooling Schedule Fall\xc2\xa02012</a>\n              </h2>\n              <p class="postmetadata">\n                September 20, 2012 by\n                <a title="Posts by janedeau" href="http://janedeau.wordpress.com/author/janedeau/" shape="rect">janedeau</a>\n              </p>\n            </div>\n            <div class="entry">\n              <p>\n                Why do we even call it homeschooling at this point? I guess our home is still our base, the HQ of her education, but this year, more than ever, Z is ranging out far and wide to meet her educational needs. She is actually taking more classes outside of the house than in and I am only teaching five of her seventeen subjects.\n              </p>\n              <p>\n                Seventeen? Really? Wow! How are we managing that? I don\xe2\x80\x99t know! I have been really lucky finding local resources that are a good fit for Z, especially her homeschooling school, which is she going to two full days a week this year. This year she is doing more subjects but spending less time on each of them. We will see how that works out.\n              </p>\n              <p>Here they are:</p>\n              <p>Math: Holt Fuse Algebra app for the iPad\xc3\x82\xc2\xa0 \xe2\x80\x93 3 x wk</p>\n              <p>Piano: private lesson -\xc3\x82\xc2\xa0 1 x wk + practice -\xc3\x82\xc2\xa0 3-4 x wk</p>\n              <p>History/Geography : Post Revolution stuff I\xe2\x80\x99m cobbling together/ Around the World in 180 Days \xe2\x80\x93 2x wk</p>\n              <p>\n                Current Events:\n                <a href="http://www.onlineg3.com/" shape="rect">OnlineG3</a>\n                \xe2\x80\x93 1x wk + homewrk (With Z\xe2\x80\x99s favorite teacher Headmistress Guinevere.)\n              </p>\n              <p>\n                Reading: Right now we are reading The Great Gatsby and various poetry. After TGG we will start on\n                <a href="http://www.thegreatcourses.com/tgc/courses/course_detail.aspx?cid=2317" oncontextmenu="mugicRightClick(this);" onclick="return mugicPopWin(this,event);" shape="rect">Master Pieces of Short Fiction</a>\n                from The Great Courses.\n              </p>\n              <p>\n                Language Arts: Another one that I am teaching, we are still using\n                <a href="http://www.rfwp.com/package/mct-level-5-complete-homeschool-package" shape="rect">Michael Clay Thompson Word within the Word, Advanced Academic Writing, Magic Lens, and Poetry</a>\n                - 2x wk\n              </p>\n              <p>\n                <a href="http://www.odysseyofthemind.com/" shape="rect">Odyssey of the Mind</a>\n                : a collaborative creative problem solving class she is taking at our local homeschool school. \xe2\x80\x93 1x wk\n              </p>\n              <p>\n                <a href="http://www.unausa.org/global-classrooms-model-un/how-to-participate" shape="rect">Model U.N.</a>\n                : another collaborative class at her homeschool school where the students are doing hands-on/roleplaying learning about current events, international relations, diplomacy and problem solving. \xe2\x80\x93 1x wk\n              </p>\n              <p>\n                Naturalist Training: Her 3rd class at the homeschooling school. Described online as teaching an awareness of the patterns of animal behavior and the key characteristics of plants, maintaining a nature journal, creating a plant and animal census, participating in a Hawk Watch, learning to use a variety of field guides, using a compass, making watercolors and sketches, and drawing maps. \xe2\x80\x93 1x wk\n              </p>\n              <p>\n                Writing Workshop: Her 4th class at the school. This is the same class she took last year where the students made their own newspapers, wrote lots of poetry, participated in Nanowrimo, and wrote and performed a 45min play. I don\xe2\x80\x99t know what they are going to do this year but I expect it will be great. \xe2\x80\x93 1x wk\n              </p>\n              <p>Biology: a high school class for homeschoolers. Most of it is stuff she already knows but it is cool for her to have access to labs.- 1x wk + homewrk</p>\n              <p>French: private lessons \xe2\x80\x93 1x wk +homewrk</p>\n              <p>Musical Theater: Z is finally getting to fulfill a dream she had since she was 3 or 4 to be in Les Miserables. This is a local theater production for middle and high school students. \xe2\x80\x93 1x wk</p>\n              <p>Circus Aerials: Z moved up to the advanced class this year. \xe2\x80\x93 1x wk</p>\n              <p>Art: Another class I facilitate. We just do a lot of random projects. Zoe enjoys anything hands-on. \xe2\x80\x93 1x wk</p>\n              <p>Girl\xe2\x80\x99s Choir: This is Z\xe2\x80\x99s second year at Girl Choir. \xe2\x80\x93 1x wk</p>\n              <p>\n                Hebrew/Religious School: When we changed temples I moved Zoe back a year (she was grade skipped) so that she (actually so I) would have another year to get ready for her Bat Mitzvah. The verdict is still out on this new Temple. . . but I feel like we just need to stick with it. We can\xe2\x80\x99t keep changing communities this close to her Bat Mitzvah. \xe2\x80\x93 2x wk\n              </p>\n              <p>\n                Don\xe2\x80\x99t those classes look great?! Some of those might need to drop off in the Spring if, as I fear, we over-scheduled ourselves.\xc3\x82\xc2\xa0 But, even with all those classes, I have managed to protect some free time for her every day. She uses it to write music or stories, read, swim, design outfits, hang out with her friends, play, etc. She is a creative girl and she needs that downtime to create, to be herself, find herself, create herself, etc.\n              </p>\n              <script>\n                WP_SLIDESHOW_IMAGES = {\n\t\tload: \'http://s1.wp.com/wp-content/mu-plugins/slideshow/slideshow-loader.gif?m=1289605033g\',\n\t};\n\tWP_SLIDESHOW_LABELS = {\n\t\tnext: \'Next\',\n\t\tprev: \'Previous\',\n\t\tstop: \'Toggle Playback\'\n\t};\n\tWP_SLIDESHOW_BLOG_INFO = {\n\t\tblogId: \'27558011\',\n\t\tsubDomain: \'janedeau\',\n\t\tuserId: \'0\'\n\t};\n              </script>\n              <p class="noscript robots-nocontent">This slideshow requires JavaScript.</p>\n              <div id="gallery-925-1-slideshow" class="slideshow-window"></div>\n              <style> #gallery-925-1-slideshow .slideshow-slide img { max-height: 410px; /* Emulate max-height in IE 6 */ _height: expression(this.scrollHeight &gt;= 410 ? \'410px\' : \'auto\'); } </style>\n              <script charset="utf-8" type="text/javascript">\n                jQuery( \'.noscript\' ).remove();\n\tjQuery( document).ready( function() {\n\t\tif(typeof SlideShow == \'undefined\') return;\n\t\tvar slideShow = new SlideShow( jQuery(\'#gallery-925-1-slideshow\'), 460, 410, \'fade\' );\n\t\tslideShow.images = [ { \'src\': \'http://janedeau.files.wordpress.com/2012/09/img_2331.jpg\', \'id\': \'926\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/09/img_2341.jpg\', \'id\': \'927\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/09/photo.jpg\', \'id\': \'928\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/09/img_2398.jpg\', \'id\': \'929\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/09/img_2404.jpg\', \'id\': \'930\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/09/img_2426.jpg\', \'id\': \'931\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/09/img_2574.jpg\', \'id\': \'932\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/09/img_2575.jpg\', \'id\': \'933\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/09/img_2576.jpg\', \'id\': \'934\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/09/img_2578.jpg\', \'id\': \'935\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/09/img_2584.jpg\', \'id\': \'936\', \'caption\': \'\'} ] ;\n\t\tslideShow.init();\n\t} );\n              </script>\n              <div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"></div>\n            </div>\n            <p class="post-info">\n              Posted in\n              <a rel="category tag" title="View all posts in homeschoolings" href="http://janedeau.wordpress.com/category/homeschoolings/" shape="rect">homeschoolings</a>\n              ,\n              <a rel="category tag" title="View all posts in Link about it" href="http://janedeau.wordpress.com/category/link-about-it/" shape="rect">Link about it</a>\n              ,\n              <a rel="category tag" title="View all posts in Lists" href="http://janedeau.wordpress.com/category/lists/" shape="rect">Lists</a>\n              ,\n              <a rel="category tag" title="View all posts in love" href="http://janedeau.wordpress.com/category/love/" shape="rect">love</a>\n              ,\n              <a rel="category tag" title="View all posts in next steps" href="http://janedeau.wordpress.com/category/next-steps/" shape="rect">next steps</a>\n              ,\n              <a rel="category tag" title="View all posts in Philadelphia" href="http://janedeau.wordpress.com/category/philadelphia/" shape="rect">Philadelphia</a>\n              |\n              <a title="Comment on Homeschooling Schedule Fall\xc2\xa02012" href="http://janedeau.wordpress.com/2012/09/20/homeschooling-schedule-fall-2012/#respond" shape="rect">Leave a Comment \xc2\xbb</a>\n            </p>\n          </div>\n          <div id="post-883" class="post-883 post type-post status-publish format-standard hentry category-love category-nature category-spirituality">\n            <div class="posttitle">\n              <h2>\n                <a title="Permanent Link to Longwood Gardens: Lights by Bruce\xc2\xa0Munro" rel="bookmark" href="http://janedeau.wordpress.com/2012/08/19/longwood-gardens-lights-by-bruce-munro/" shape="rect">Longwood Gardens: Lights by Bruce\xc2\xa0Munro</a>\n              </h2>\n              <p class="postmetadata">\n                August 19, 2012 by\n                <a title="Posts by janedeau" href="http://janedeau.wordpress.com/author/janedeau/" shape="rect">janedeau</a>\n              </p>\n            </div>\n            <div class="entry">\n              <script>\n                WP_SLIDESHOW_IMAGES = {\n\t\tload: \'http://s1.wp.com/wp-content/mu-plugins/slideshow/slideshow-loader.gif?m=1289605033g\',\n\t};\n\tWP_SLIDESHOW_LABELS = {\n\t\tnext: \'Next\',\n\t\tprev: \'Previous\',\n\t\tstop: \'Toggle Playback\'\n\t};\n\tWP_SLIDESHOW_BLOG_INFO = {\n\t\tblogId: \'27558011\',\n\t\tsubDomain: \'janedeau\',\n\t\tuserId: \'0\'\n\t};\n              </script>\n              <p class="noscript robots-nocontent">This slideshow requires JavaScript.</p>\n              <div id="gallery-883-2-slideshow" class="slideshow-window"></div>\n              <style> #gallery-883-2-slideshow .slideshow-slide img { max-height: 410px; /* Emulate max-height in IE 6 */ _height: expression(this.scrollHeight &gt;= 410 ? \'410px\' : \'auto\'); } </style>\n              <script charset="utf-8" type="text/javascript">\n                jQuery( \'.noscript\' ).remove();\n\tjQuery( document).ready( function() {\n\t\tif(typeof SlideShow == \'undefined\') return;\n\t\tvar slideShow = new SlideShow( jQuery(\'#gallery-883-2-slideshow\'), 460, 410, \'fade\' );\n\t\tslideShow.images = [ { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2207.jpg\', \'id\': \'884\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2210.jpg\', \'id\': \'885\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2213.jpg\', \'id\': \'886\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2217.jpg\', \'id\': \'887\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2228.jpg\', \'id\': \'888\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2232.jpg\', \'id\': \'889\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2234.jpg\', \'id\': \'890\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2237.jpg\', \'id\': \'891\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2242.jpg\', \'id\': \'892\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2246.jpg\', \'id\': \'893\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2248.jpg\', \'id\': \'894\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2250.jpg\', \'id\': \'895\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2251.jpg\', \'id\': \'896\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2252.jpg\', \'id\': \'897\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2254.jpg\', \'id\': \'898\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2255.jpg\', \'id\': \'899\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2256.jpg\', \'id\': \'900\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2258.jpg\', \'id\': \'901\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2259.jpg\', \'id\': \'902\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2260.jpg\', \'id\': \'903\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2261.jpg\', \'id\': \'904\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2262.jpg\', \'id\': \'905\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2263.jpg\', \'id\': \'906\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2264.jpg\', \'id\': \'907\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2272.jpg\', \'id\': \'908\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2275.jpg\', \'id\': \'909\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2276.jpg\', \'id\': \'910\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2277.jpg\', \'id\': \'911\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2278.jpg\', \'id\': \'912\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2283.jpg\', \'id\': \'913\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2287.jpg\', \'id\': \'914\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2294.jpg\', \'id\': \'915\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2299.jpg\', \'id\': \'916\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2300.jpg\', \'id\': \'917\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2301.jpg\', \'id\': \'918\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2302.jpg\', \'id\': \'919\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2304.jpg\', \'id\': \'920\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2308.jpg\', \'id\': \'921\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2309.jpg\', \'id\': \'922\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_2311.jpg\', \'id\': \'923\', \'caption\': \'\'} ] ;\n\t\tslideShow.init();\n\t} );\n              </script>\n              <div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"></div>\n            </div>\n            <p class="post-info">\n              Posted in\n              <a rel="category tag" title="View all posts in love" href="http://janedeau.wordpress.com/category/love/" shape="rect">love</a>\n              ,\n              <a rel="category tag" title="View all posts in Nature" href="http://janedeau.wordpress.com/category/nature/" shape="rect">Nature</a>\n              ,\n              <a rel="category tag" title="View all posts in spirituality" href="http://janedeau.wordpress.com/category/spirituality/" shape="rect">spirituality</a>\n              |\n              <a title="Comment on Longwood Gardens: Lights by Bruce\xc2\xa0Munro" href="http://janedeau.wordpress.com/2012/08/19/longwood-gardens-lights-by-bruce-munro/#respond" shape="rect">Leave a Comment \xc2\xbb</a>\n            </p>\n          </div>\n          <div id="post-837" class="post-837 post type-post status-publish format-standard hentry category-home">\n            <div class="posttitle">\n              <h2>\n                <a title="Permanent Link to Remodel, before and\xc2\xa0after" rel="bookmark" href="http://janedeau.wordpress.com/2012/08/08/remodel-before-and-after/" shape="rect">Remodel, before and\xc2\xa0after</a>\n              </h2>\n              <p class="postmetadata">\n                August 8, 2012 by\n                <a title="Posts by janedeau" href="http://janedeau.wordpress.com/author/janedeau/" shape="rect">janedeau</a>\n              </p>\n            </div>\n            <div class="entry">\n              <p>\n                <a href="http://janedeau.files.wordpress.com/2012/08/img_21003.jpg" shape="rect">\n                  <img height="300" width="225" alt="" src="http://janedeau.files.wordpress.com/2012/08/img_21003.jpg?w=225&amp;h=300" title="IMG_2100" class="aligncenter size-medium wp-image-872"></img>\n                </a>\n              </p>\n              <p>\n                <a href="http://janedeau.files.wordpress.com/2012/08/photo3.jpg" shape="rect">\n                  <img height="300" width="225" alt="" src="http://janedeau.files.wordpress.com/2012/08/photo3.jpg?w=225&amp;h=300" title="photo" class="aligncenter size-medium wp-image-873"></img>\n                </a>\n              </p>\n              <p>\n                <a href="http://janedeau.files.wordpress.com/2012/08/img_21142.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/img_21142.jpg?w=300&amp;h=225" title="IMG_2114" class="aligncenter size-medium wp-image-874"></img>\n                </a>\n              </p>\n              <p>\n                <a href="http://janedeau.files.wordpress.com/2012/08/img_21362.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/img_21362.jpg?w=300&amp;h=225" title="IMG_2136" class="aligncenter size-medium wp-image-875"></img>\n                </a>\n              </p>\n              <p>\n                <a href="http://janedeau.files.wordpress.com/2012/08/img_21152.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/img_21152.jpg?w=300&amp;h=225" title="IMG_2115" class="aligncenter size-medium wp-image-876"></img>\n                </a>\n              </p>\n              <p>\n                <a href="http://janedeau.files.wordpress.com/2012/08/img_21342.jpg" shape="rect">\n                  <img height="300" width="225" alt="" src="http://janedeau.files.wordpress.com/2012/08/img_21342.jpg?w=225&amp;h=300" title="IMG_2134" class="aligncenter size-medium wp-image-877"></img>\n                </a>\n              </p>\n              <p>Deconstructor</p>\n              <p>\n                <a href="http://janedeau.files.wordpress.com/2012/08/img_2125.jpg" shape="rect">\n                  <img height="300" width="225" alt="" src="http://janedeau.files.wordpress.com/2012/08/img_2125.jpg?w=225&amp;h=300" title="IMG_2125" class="aligncenter size-medium wp-image-878"></img>\n                </a>\n              </p>\n              <p>\n                <a href="http://janedeau.files.wordpress.com/2012/08/img_21292.jpg" shape="rect">\n                  <img height="300" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/img_21292.jpg?w=300&amp;h=300" title="IMG_2129" class="aligncenter size-medium wp-image-879"></img>\n                </a>\n              </p>\n              <p>Make shift kitchen in the garage</p>\n              <p>\n                <a href="http://janedeau.files.wordpress.com/2012/08/img_2096.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/img_2096.jpg?w=300&amp;h=225" title="IMG_2096" class="aligncenter size-medium wp-image-838"></img>\n                </a>\n              </p>\n              <p>\n                <a href="http://janedeau.files.wordpress.com/2012/08/img_2097.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/img_2097.jpg?w=300&amp;h=225" title="IMG_2097" class="aligncenter size-medium wp-image-839"></img>\n                </a>\n              </p>\n              <p>\n                <a href="http://janedeau.files.wordpress.com/2012/08/img_2098.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/img_2098.jpg?w=300&amp;h=225" title="IMG_2098" class="aligncenter size-medium wp-image-840"></img>\n                </a>\n              </p>\n              <div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"></div>\n            </div>\n            <p class="post-info">\n              Posted in\n              <a rel="category tag" title="View all posts in Home" href="http://janedeau.wordpress.com/category/home/" shape="rect">Home</a>\n              |\n              <a title="Comment on Remodel, before and\xc2\xa0after" href="http://janedeau.wordpress.com/2012/08/08/remodel-before-and-after/#respond" shape="rect">Leave a Comment \xc2\xbb</a>\n            </p>\n          </div>\n          <div id="post-812" class="post-812 post type-post status-publish format-standard hentry category-holidays category-homeschoolings category-nature">\n            <div class="posttitle">\n              <h2>\n                <a title="Permanent Link to A place in the\xc2\xa0sun" rel="bookmark" href="http://janedeau.wordpress.com/2012/08/05/a-place-in-the-sun/" shape="rect">A place in the\xc2\xa0sun</a>\n              </h2>\n              <p class="postmetadata">\n                August 5, 2012 by\n                <a title="Posts by janedeau" href="http://janedeau.wordpress.com/author/janedeau/" shape="rect">janedeau</a>\n              </p>\n            </div>\n            <div class="entry">\n              <p style="text-align:center;">\n                Hail to Camp \xe2\x80\x93 - \xe2\x80\x93 -\n                <br clear="none"></br>\n                Hail to her colors true\n                <br clear="none"></br>\n                Oh, cherished Camp \xe2\x80\x93 - \xe2\x80\x93 -\n                <br clear="none"></br>\n                Our thought is all for you\n              </p>\n              <p>\n                <a href="http://janedeau.files.wordpress.com/2012/08/history_img.jpg" shape="rect">\n                  <img height="142" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/history_img.jpg?w=300&amp;h=142" title="history_img" class="aligncenter size-medium wp-image-813"></img>\n                </a>\n              </p>\n              <p>Going to an all-girl camp that was founded in 1908 on the shore of a lake up in the mountainous woods of the Northeast is like joining a sisterhood that stretches back over a hundred years with very deep roots and wide far reaching branches, and also a little bit like joining a cult.</p>\n              <p style="text-align:left;">\n                <a href="http://janedeau.files.wordpress.com/2012/08/camparts.jpg" shape="rect">\n                  <img height="142" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/camparts.jpg?w=300&amp;h=142" title="CampArts" class="aligncenter size-medium wp-image-814"></img>\n                </a>\n              </p>\n              <p>There are ceremonies of initiation, with special handshakes and mythological stories. The girls are inducted into one of two teams, which they will stay a member of for life. There is even a totem animal, the turtle.</p>\n              <p style="text-align:left;">\n                Every morning Z and her five cabin mates had Cabin Inspections, which they were graded on. Besides the normal keeping the bathroom and cabin clean and tidy they had to make their beds with square corners and line up their shoes using a straight edge. The girls traded off jobs each day. Apparently lining up the shoes was the hardest thing. (I am going to have to make Zoe demonstrate this for me, because I just don\xe2\x80\x99t see how lining up shoes could be that difficult.)\n              </p>\n              <p>\n                Actually, the one thing harder than lining up shoes were the warm-up laps at the beginning of each daily swim. Zoe, who is spoiled by the crystal clear waters of our heated pool, found the lake waters to be \xe2\x80\x9cgross\xe2\x80\x9d and \xe2\x80\x9ccold.\xe2\x80\x9d To warm the girls up they had to swim laps: freestyle, backstroke, and breaststroke.\n                <br clear="none"></br>\n                <a href="http://janedeau.files.wordpress.com/2012/08/directions_img.jpg" shape="rect">\n                  <img height="142" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/directions_img.jpg?w=300&amp;h=142" title="directions_img" class="aligncenter size-medium wp-image-818"></img>\n                </a>\n                <br clear="none"></br>\n                They built a lot of routine into camp life. The girls got up to the sound of a bugle horn at seven a.m. every morning, except Sundays. After breakfast and inspections they all met in the Lodge for assembly where they would sing camp songs, celebrate birthdays and listen to important announcements.\n              </p>\n              <p>\n                Then they had three activities before lunch, two were assigned but the third was their own choice. There is climbing tower, archery, camping skills, art and crafts, cooking, tennis, volleyball, kickball, soccer, hiking, field hockey, mountain biking, and yoga to choose from. Being on a lake there were also tons of waterfront sports like swimming, water-skiing, sailing, canoeing, paddleboarding, taking rides on the sea wasp or jumping on the water trampoline. Zoe\xe2\x80\x99s favorites were the sea wasp, water trampoline, archery, and sailing.\n              </p>\n              <p style="text-align:left;">\n                <a href="http://janedeau.files.wordpress.com/2012/08/resize-4-web-11-11.jpg" shape="rect">\n                  <img height="165" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/resize-4-web-11-11.jpg?w=300&amp;h=165" title="resize 4 web 1(1)-1" class="aligncenter size-medium wp-image-825"></img>\n                </a>\n              </p>\n              <p>After lunch in the lodge-like dining hall there was a built in rest hour. For the first half hour the girls had to stay silent and on their bunks in their cabin, the second half they were allowed to talk. Zoe seemed to treasure this time to read and write in her journal.</p>\n              <p>The afternoon had three more assigned activities, one of which was always swimming. Zoe is such a strong swimmer now and she is brown as a little nut.</p>\n              <p>\n                At quarter to five it is time for the counselors to get a break and go swimming and the girls all run for the showers because there isn\xe2\x80\x99t enough hot water for everyone. Zoe told me that only a third of her showers had hot water. It was not something she complained too much about though. Makes me wonder if she wasn\xe2\x80\x99t really taking that many showers\xc3\xa2\xe2\x82\xac\xc5\xa0\n                <br clear="none"></br>\n                <a href="http://janedeau.files.wordpress.com/2012/08/campregist.jpg" shape="rect">\n                  <img height="142" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/campregist.jpg?w=300&amp;h=142" class="aligncenter size-medium wp-image-815"></img>\n                </a>\n                <br clear="none"></br>\n                After supper was something different every night, like camp wide capture the flag, trivia contests, the masquerade, crafts, canoeing out for a sunset ride. They also had their plays, talent shows, and campfires.\n              </p>\n              <p style="text-align:left;">\n                <a href="http://janedeau.files.wordpress.com/2012/08/img_78891.jpg" shape="rect">\n                  <img height="200" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/img_78891.jpg?w=300&amp;h=200" title="IMG_78891" class="aligncenter size-medium wp-image-821"></img>\n                </a>\n              </p>\n              <p>\n                Before the early taps the girls were all fed a bedtime snack of milk and cookies at the Milkline. Zoe and the other youngest girls had Milkline at the Crow\xe2\x80\x99s Nest overlooking the river. Every night, somewhere not too far away on the lake, fireworks flashed and banged as the girls tried to fall asleep in their lakeside cabins.\n              </p>\n              <p>\n                I chose this camp after much research. There were many camps where Zoe might flourish. Theatre camp, French camp, music composition camp, math camp, science camp, CSI camp, circus camp and more. But Zoe devotes a lot of time during the school year to those things and I wanted her to have a different experience this summer. My main goal was for Zoe to experience independence, to get outdoors, and to get a sense of and grow in her capabilities. I decided a traditional outdoor camp was the place. This camp doesn\xe2\x80\x99t have a state of the art gym or Olympic swimming pool. It has a trees and a lake. Not only do they not have computers, they don\xe2\x80\x99t allow them, or cellphones or iPads, or anything that can get you online. The cabins aren\xe2\x80\x99t air-conditioned, the lake isn\xe2\x80\x99t heated, and the music you hear you are making yourself. It is life unplugged.\n              </p>\n              <p>\n                <a href="http://janedeau.files.wordpress.com/2012/08/img_0870.jpg" shape="rect">\n                  <img height="200" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/img_0870.jpg?w=300&amp;h=200" title="IMG_0870" class="aligncenter size-medium wp-image-822"></img>\n                </a>\n              </p>\n              <p>\n                One of the things I think this camp did extremely well was to create a sense of belonging\xc3\x82\xc2\xa0 and camaraderie. The history is thick and palatable and it gives the girls the feeling that they are joining something special. There are so many traditions, like signing the walls and ceiling of the cabins, the pageant, songs with hand gestures, and the milkline . There was also the experience of being at a camp where all the decision makers are girls, and all the winners are girls. There was plenty of competition but Zoe said it was friendly, with a lot of fun being had dressing up in your teams colors and cheering for your side. She also said that the losing team didn\xe2\x80\x99t feel bad because the whole thing was just too much fun. But it wasn\xe2\x80\x99t all lighthearted. Zoe pushed herself hard to qualify for and move up to higher levels in various sports. She was testing herself, literally, proving she could tread water, work the tiller on the sailboat, tie knots and light a campfire.\n              </p>\n              <p style="text-align:left;">\n                <a href="http://janedeau.files.wordpress.com/2012/08/camponekaphoto.jpg" shape="rect">\n                  <img height="142" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/camponekaphoto.jpg?w=300&amp;h=142" class="aligncenter size-medium wp-image-817"></img>\n                </a>\n              </p>\n              <p>\n                As far as she could tell Zoe was the only PG girl, the only home schooled girl, the only geeky girl, and the only Jewish girl. But this W.A.S.P.y sisterhood was more than welcoming. When we came to pick her up on Saturday she took us on a tour of the camp and everywhere we went girls, her age and older, and counselors were calling out \xe2\x80\x9cZoe!\xe2\x80\x9d, \xe2\x80\x9cHi Zoe!\xe2\x80\x9d \xe2\x80\x9cZoooooeeeee!\xe2\x80\x9d I asked, \xe2\x80\x9cHow does everyone know you??\xe2\x80\x9d and she answered, with a wink, \xe2\x80\x9cI\xe2\x80\x99m kind of a big deal.\xe2\x80\x9d LOL! She was joking. Probably. She has gotten pretty good at those pop-culture referencing one-liners.\n              </p>\n              <p>\n                She taught her cabin mates Pink Fluffy Unicorns and they taught her The Sprinkler and Motorcycle Cat. She bonded with a geeky counselor from Britain over Doctor Who, Firefly, and Buffy. She got a little homesick, especially when she and the other youngest girls spent the night in an old creepy house on Lake Wallenpaupack the night the derecho storm blew through Pennsylvania. The Spyglass house had no electricity, only a fireplace to offer a sense of protection from the hair-raising thunder and lightning.\n              </p>\n              <p>\n                Zoe was happy to see us and come home after two weeks, but she already asked if she can go back for three weeks next year. I\xe2\x80\x99d love to send her and maybe that will be the best place for her to go, year after year. But I can\xe2\x80\x99t say for sure at this point. Summer is an exciting time to try new things.\xc3\x82\xc2\xa0 Or maybe it\xe2\x80\x99s a time for traditions and seeing old friends.\n              </p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/08/homeimage4.jpg" shape="rect">\n                  <img height="142" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/08/homeimage4.jpg?w=300&amp;h=142" title="HomeImage4" class="aligncenter size-medium wp-image-816"></img>\n                </a>\n              </p>\n              <p style="text-align:center;">\n                Remember beside the campfire\n                <br clear="none"></br>\n                Beneath the mountains blue\n                <br clear="none"></br>\n                That you\xe2\x80\x99re part of Camp \xe2\x80\x93 - \xe2\x80\x93 -\n                <br clear="none"></br>\n                And it is part of you.\n              </p>\n              <div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"></div>\n            </div>\n            <p class="post-info">\n              Posted in\n              <a rel="category tag" title="View all posts in holidays" href="http://janedeau.wordpress.com/category/holidays/" shape="rect">holidays</a>\n              ,\n              <a rel="category tag" title="View all posts in homeschoolings" href="http://janedeau.wordpress.com/category/homeschoolings/" shape="rect">homeschoolings</a>\n              ,\n              <a rel="category tag" title="View all posts in Nature" href="http://janedeau.wordpress.com/category/nature/" shape="rect">Nature</a>\n              |\n              <a title="Comment on A place in the\xc2\xa0sun" href="http://janedeau.wordpress.com/2012/08/05/a-place-in-the-sun/#comments" shape="rect">3 Comments \xc2\xbb</a>\n            </p>\n          </div>\n          <div id="post-778" class="post-778 post type-post status-publish format-standard hentry category-health category-holidays category-home category-love category-next-steps">\n            <div class="posttitle">\n              <h2>\n                <a title="Permanent Link to This was a\xc2\xa0triumph." rel="bookmark" href="http://janedeau.wordpress.com/2012/08/03/this-was-a-triumph/" shape="rect">This was a\xc2\xa0triumph.</a>\n              </h2>\n              <p class="postmetadata">\n                August 3, 2012 by\n                <a title="Posts by janedeau" href="http://janedeau.wordpress.com/author/janedeau/" shape="rect">janedeau</a>\n              </p>\n            </div>\n            <div class="entry">\n              <p>\n                I guess everyone knew it was going to be harder for me when Zoe went to sleep-away summer camp for two weeks than it was going to be for her. Not that Zoe isn\xe2\x80\x99t adorably attached to me, we are still as we have ever been, the closest companions. But going away on an exciting adventure is fun and diverting in a way that being left behind usually isn\xe2\x80\x99t. Except it was.\n              </p>\n              <p>\n                The initial five days were easy. Brian and I had our first alone-for-longer-than-a-weekend vacation\xc3\x82\xc2\xa0 in years and years. We slept in every morning. We spent some part of each day outside, hiking up to waterfalls, riding zip lines, or ski-dooing around the lake. Every evening we ate and drank at a fine French restaurant. It was decadent.\n              </p>\n              <p>And the next week, all alone during the day, my time was my own. I could go when and where I wanted, eat where and when I wanted, watch British movies on Netflix, read, write, and nap. And that felt even more decadent!</p>\n              <p>\n                I was totally prepared to miss Zoe fiercely and painfully. Her summer camp doesn\xe2\x80\x99t allow cellphones or email. I thought I might only hear from her two or three times and, in between, I would be worried and wondering if she was happy and safe. But her camp has this cool system where I can send her an email and they print it out and give it to her and she hand writes me a letter and they fax it to me. My dear girl sent me nine letters in two weeks. They were short but long enough to let me know she was happy and having loads of fun. So there was nothing to worry about.\n              </p>\n              <p>\n                So, this little experiment of mine, has been a success, at least on my side, and by all accounts, for Zoe as well. I decided to celebrate this last afternoon of my vacation with a slice of cake. I\xe2\x80\x99m not celebrating Zoe\xe2\x80\x99s absence or her return, but the not small triumph of things turning out better than you thought they would.\n              </p>\n              <script>\n                WP_SLIDESHOW_IMAGES = {\n\t\tload: \'http://s1.wp.com/wp-content/mu-plugins/slideshow/slideshow-loader.gif?m=1289605033g\',\n\t};\n\tWP_SLIDESHOW_LABELS = {\n\t\tnext: \'Next\',\n\t\tprev: \'Previous\',\n\t\tstop: \'Toggle Playback\'\n\t};\n\tWP_SLIDESHOW_BLOG_INFO = {\n\t\tblogId: \'27558011\',\n\t\tsubDomain: \'janedeau\',\n\t\tuserId: \'0\'\n\t};\n              </script>\n              <p class="noscript robots-nocontent">This slideshow requires JavaScript.</p>\n              <div id="gallery-778-3-slideshow" class="slideshow-window"></div>\n              <style> #gallery-778-3-slideshow .slideshow-slide img { max-height: 410px; /* Emulate max-height in IE 6 */ _height: expression(this.scrollHeight &gt;= 410 ? \'410px\' : \'auto\'); } </style>\n              <script charset="utf-8" type="text/javascript">\n                jQuery( \'.noscript\' ).remove();\n\tjQuery( document).ready( function() {\n\t\tif(typeof SlideShow == \'undefined\') return;\n\t\tvar slideShow = new SlideShow( jQuery(\'#gallery-778-3-slideshow\'), 460, 410, \'fade\' );\n\t\tslideShow.images = [ { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1773.jpg\', \'id\': \'786\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1774.jpg\', \'id\': \'787\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1775.jpg\', \'id\': \'788\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1776.jpg\', \'id\': \'789\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1777.jpg\', \'id\': \'790\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1778.jpg\', \'id\': \'791\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1779.jpg\', \'id\': \'792\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1780.jpg\', \'id\': \'793\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1783.jpg\', \'id\': \'794\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1787.jpg\', \'id\': \'795\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1789.jpg\', \'id\': \'796\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1792.jpg\', \'id\': \'797\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1836.jpg\', \'id\': \'798\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1847.jpg\', \'id\': \'799\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1868.jpg\', \'id\': \'800\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1881.jpg\', \'id\': \'801\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1888.jpg\', \'id\': \'802\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1890.jpg\', \'id\': \'803\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1896.jpg\', \'id\': \'804\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1897.jpg\', \'id\': \'805\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1899.jpg\', \'id\': \'806\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/img_1901.jpg\', \'id\': \'807\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/sam_1810.jpg\', \'id\': \'808\', \'caption\': \'\'} ,  { \'src\': \'http://janedeau.files.wordpress.com/2012/08/imgp0086.jpg\', \'id\': \'809\', \'caption\': \'\'} ] ;\n\t\tslideShow.init();\n\t} );\n              </script>\n              <div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"></div>\n            </div>\n            <p class="post-info">\n              Posted in\n              <a rel="category tag" title="View all posts in health" href="http://janedeau.wordpress.com/category/health/" shape="rect">health</a>\n              ,\n              <a rel="category tag" title="View all posts in holidays" href="http://janedeau.wordpress.com/category/holidays/" shape="rect">holidays</a>\n              ,\n              <a rel="category tag" title="View all posts in Home" href="http://janedeau.wordpress.com/category/home/" shape="rect">Home</a>\n              ,\n              <a rel="category tag" title="View all posts in love" href="http://janedeau.wordpress.com/category/love/" shape="rect">love</a>\n              ,\n              <a rel="category tag" title="View all posts in next steps" href="http://janedeau.wordpress.com/category/next-steps/" shape="rect">next steps</a>\n              |\n              <a title="Comment on This was a\xc2\xa0triumph." href="http://janedeau.wordpress.com/2012/08/03/this-was-a-triumph/#respond" shape="rect">Leave a Comment \xc2\xbb</a>\n            </p>\n          </div>\n          <div id="post-776" class="post-776 post type-post status-publish format-standard hentry category-lists category-movies">\n            <div class="posttitle">\n              <h2>\n                <a title="Permanent Link to Why you should take your son to see\xc2\xa0Brave:" rel="bookmark" href="http://janedeau.wordpress.com/2012/07/06/why-you-should-take-your-son-to-see-brave/" shape="rect">Why you should take your son to see\xc2\xa0Brave:</a>\n              </h2>\n              <p class="postmetadata">\n                July 6, 2012 by\n                <a title="Posts by janedeau" href="http://janedeau.wordpress.com/author/janedeau/" shape="rect">janedeau</a>\n              </p>\n            </div>\n            <div class="entry">\n              <p>1. If he grows up to be a writer he should watch movies written by women, movies with female protagonists, and movies that tell women\xe2\x80\x99s stories so that he will also be able to write complex realistic female characters because that is just better writing.</p>\n              <p>\n                2. If he grows up to be a video game designer he will be able to design games that have cross-over appeal, tapping into a larger market, making games that are accessible to the other half of the population, or at least people his games with females that are there for more than just their T&amp;A.\n              </p>\n              <p>3. If he is a teacher or coach he will be able to understand his female students better. He will be more comfortable and effective teaching to them.</p>\n              <p>4. If he is a manager he will see the value in hiring women and paying them equally to what he pays men. He will create and uphold a professional environment where women are treated with respect and given equal opportunities.</p>\n              <p style="text-align:left;">5. If he grows up and falls in love women won\xe2\x80\x99t seem so mysterious. He will have some understanding of what makes them tick. He will be more comfortable with her needs and feelings, because they won\xe2\x80\x99t be foreign. He will be a better husband.</p>\n              <p>6. If he has a daughter he can be more to her. She will feel like she can share her interests, likes, loves, and feelings with him and he will be better able to advise, comfort and support her. He can help her dream big and reach those dreams. He will be a better father.</p>\n              <p>7. The more accurate representations of females that he sees in the media the more he will see women as real people, equals and peers. He will be able to be a more fully developed person and a better man.</p>\n              <p>Seeing Brave wont accomplish all this, but it is a start. Here are some other movies I recommend you watch with your son,the earlier you start the better:</p>\n              <p>\n                Spirited Away by Miyazaki\n                <br clear="none"></br>\n                Howl\xe2\x80\x99s Moving Castle by Miyazaki\n                <br clear="none"></br>\n                Ponyo by Miyazaki\n                <br clear="none"></br>\n                Nausicca by Miyazaki\n                <br clear="none"></br>\n                My Neighbor Totoro by Miyazaki\n                <br clear="none"></br>\n                Kiki\xe2\x80\x99s Delivery Service by Miyazaki\n              </p>\n              <p>Pippi Longstocking</p>\n              <p>\n                Coraline\n                <br clear="none"></br>\n                The Secret of Nymh\n                <br clear="none"></br>\n                Inkheart\n                <br clear="none"></br>\n                Labyrinth\n                <br clear="none"></br>\n                Whale Rider\n                <br clear="none"></br>\n                Annie\n              </p>\n              <p>\n                Matilda\n                <br clear="none"></br>\n                Beetlejuice\n                <br clear="none"></br>\n                And when they get older pretty much anything by Joss Whedon.\n              </p>\n              <div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"></div>\n            </div>\n            <p class="post-info">\n              Posted in\n              <a rel="category tag" title="View all posts in Lists" href="http://janedeau.wordpress.com/category/lists/" shape="rect">Lists</a>\n              ,\n              <a rel="category tag" title="View all posts in Movies" href="http://janedeau.wordpress.com/category/movies/" shape="rect">Movies</a>\n              |\n              <a title="Comment on Why you should take your son to see\xc2\xa0Brave:" href="http://janedeau.wordpress.com/2012/07/06/why-you-should-take-your-son-to-see-brave/#respond" shape="rect">Leave a Comment \xc2\xbb</a>\n            </p>\n          </div>\n          <div id="post-727" class="post-727 post type-post status-publish format-standard hentry category-friends category-link-about-it category-lists category-nature category-parties category-philadelphia">\n            <div class="posttitle">\n              <h2>\n                <a title="Permanent Link to You\xe2\x80\x99ve Got a Friend in\xc2\xa0Pennsylvania" rel="bookmark" href="http://janedeau.wordpress.com/2012/05/30/youve-got-a-friend-in-pennsylvania/" shape="rect">You\xe2\x80\x99ve Got a Friend in\xc2\xa0Pennsylvania</a>\n              </h2>\n              <p class="postmetadata">\n                May 30, 2012 by\n                <a title="Posts by janedeau" href="http://janedeau.wordpress.com/author/janedeau/" shape="rect">janedeau</a>\n              </p>\n            </div>\n            <div class="entry">\n              <p style="text-align:left;">Yeah, it\xe2\x80\x99s me. We are all moved into our new house and looking forward to visits from our friends. I know the promise of spending time with me is enough of a reason to make the trip. But Philadelphia has more to offer than my charm and wit.</p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_15402.jpg" shape="rect">\n                  <img height="300" width="225" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_15402.jpg?w=225&amp;h=300" title="IMG_1540" class="size-medium wp-image-728 aligncenter"></img>\n                </a>\n              </p>\n              <div style="height:8px;visibility:hidden;">-</div>\n              <p style="text-align:left;">\n                Philadelphia has a wealth of history and historical sites. You could easily spend your days learning about the American Revolution where it actually happened. We have the\n                <a href="http://en.wikipedia.org/wiki/Liberty_Bell" shape="rect">Liberty Bell</a>\n                ,\n                <a href="http://en.wikipedia.org/wiki/Betsy_Ross_House" shape="rect">Betsey Ross\xe2\x80\x99s House</a>\n                ,\n                <a href="http://en.wikipedia.org/wiki/Independence_Hall_%28United_States%29" shape="rect">Independence Hall</a>\n                ,\n                <a href="http://en.wikipedia.org/wiki/National_Constitution_Center" shape="rect">The Constitution Center</a>\n                ,\n                <a href="http://en.wikipedia.org/wiki/Elfreth%27s_Alley" shape="rect">Elfreth\xe2\x80\x99s Alley</a>\n                ,\n                <a href="http://en.wikipedia.org/wiki/Valley_Forge_National_Historical_Park" shape="rect">Valley Forge</a>\n                , and many more sites of historical significance.\n              </p>\n              <div style="height:8px;visibility:hidden;">-</div>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/dsc_0086.jpg" shape="rect">\n                  <img height="200" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/dsc_0086.jpg?w=300&amp;h=200" title="DSC_0086" class="size-medium wp-image-729 aligncenter"></img>\n                </a>\n              </p>\n              <div style="height:8px;visibility:hidden;">-</div>\n              <p style="text-align:justify;">\n                Depending on when you come you might even get to experience a live action reenactment. They are having them somewhere around here all the time. There is also areas of\n                <a href="http://en.wikipedia.org/wiki/Civil_War_and_Underground_Railroad_Museum_of_Philadelphia" shape="rect">civil war history and underground railroad history sites </a>\n                and reenactments.\n              </p>\n              <div style="height:8px;visibility:hidden;">-</div>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_1571.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_1571.jpg?w=300&amp;h=225" title="IMG_1571" class="size-medium wp-image-730 aligncenter"></img>\n                </a>\n              </p>\n              <div style="height:8px;visibility:hidden;">-</div>\n              <p style="text-align:justify;">Yep, Philadelphia really loves and appreciates it\xe2\x80\x99s history. But we also have a pretty cool modern city too.</p>\n              <div style="height:8px;visibility:hidden;">-</div>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_1537.jpg" shape="rect">\n                  <img height="300" width="225" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_1537.jpg?w=225&amp;h=300" title="IMG_1537" class="size-medium wp-image-731 aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:left;">\n                This is the view from B\xe2\x80\x99s homebase in the\n                <a href="http://en.wikipedia.org/wiki/Comcast_Center_%28Philadelphia%29" shape="rect">Comcast Building</a>\n                , the tallest building in the city. I\xe2\x80\x99m so jealous that he gets to work in the city and be near all the great shops and restaurants.\n              </p>\n              <div style="height:8px;visibility:hidden;">-</div>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_1538.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_1538.jpg?w=300&amp;h=225" title="IMG_1538" class="size-medium wp-image-732 aligncenter"></img>\n                </a>\n              </p>\n              <div style="height:8px;visibility:hidden;">-</div>\n              <p style="text-align:justify;">\n                Downtown Philly is great for sight seeing, especially if you like art and architecture. This\n                <a href="http://en.wikipedia.org/wiki/Swann_Memorial_Fountain" shape="rect">Swann Memorial Fountain</a>\n                symbolizes Philadelphia\xe2\x80\x99s three major waterways, The Delaware, The Schuykill and the Wissahickon.\n              </p>\n              <div style="height:8px;visibility:hidden;">-</div>\n              <p style="text-align:justify;">\n                We also have\n                <a href="http://en.wikipedia.org/wiki/Christ_Church_%28Philadelphia%29" shape="rect">Christ Church</a>\n                ,\n                <a href="http://en.wikipedia.org/wiki/Philadelphia_City_Hall" shape="rect">City Hall</a>\n                ,\n                <a href="http://en.wikipedia.org/wiki/Eastern_State_Penitentiary" shape="rect">Eastern State Penitentiary</a>\n                and and many buildings by\n                <a href="http://en.wikipedia.org/wiki/Frank_Furness" shape="rect">Frank Furness</a>\n                . Here is more info about the\n                <a href="http://en.wikipedia.org/wiki/Architecture_of_Philadelphia" shape="rect">architecture of Philadelphia.</a>\n              </p>\n              <div style="height:8px;visibility:hidden;">-</div>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0325.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0325.jpg?w=300&amp;h=225" title="IMG_0325" class="size-medium wp-image-737 aligncenter"></img>\n                </a>\n              </p>\n              <div style="height:8px;visibility:hidden;">-</div>\n              <p style="text-align:justify;">I love the old architecture of the city and surrounding areas. Building\xe2\x80\x99s like this are common place.</p>\n              <div style="height:8px;visibility:hidden;">-</div>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_1587.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_1587.jpg?w=300&amp;h=225" title="IMG_1587" class="size-medium wp-image-736 aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">This was someone\xe2\x80\x99s house. Now it is a Catholic Home for Children.</p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0098.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0098.jpg?w=300&amp;h=225" title="IMG_0098" class="size-medium wp-image-735 aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">An example of Victorian Architecture in Wyncote.</p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_1566.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_1566.jpg?w=300&amp;h=225" title="IMG_1566" class="size-medium wp-image-734 aligncenter"></img>\n                </a>\n                There are several castle type buildings in the area. This one of Chestnut Hill College.\n              </p>\n              <p style="text-align:justify;">\n                Here is a list of\n                <a href="http://united-states-canada.knoji.com/19-beautiful-famous-castles-in-pennsylvania/" shape="rect">19 Beautiful Castles in Pennsylvania</a>\n                , many of these are close to where I live.\n              </p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0789.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0789.jpg?w=300&amp;h=225" title="IMG_0789" class="size-medium wp-image-738 aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">\n                If you are also into art\n                <a href="http://en.wikipedia.org/wiki/Philadelphia_Museum_of_Art" shape="rect">The Philadelphia Museum of Art</a>\n                is one of the largest art museums in the United States.\xc3\x82\xc2\xa0 Many great artists are represented; Monet, Picasso, Dali, Rubens, Renoir, Van Gogh, Toulouse-Lautrec, Cezanne, etc.\n              </p>\n              <p style="text-align:justify;">The museum also has sculpture, tapestries, and other decorative arts as well as the second-largest collection of arms and armor in the United States.</p>\n              <p style="text-align:justify;">\n                For more art, you could visit the\n                <a href="http://en.wikipedia.org/wiki/Pennsylvania_Academy_of_the_Fine_Arts" shape="rect">Pennsylvania Academy of Fine Arts</a>\n                ,\n                <a href="http://en.wikipedia.org/wiki/Barnes_Foundation" shape="rect">The Barnes</a>\n                , and\n                <a href="http://en.wikipedia.org/wiki/Rodin_Museum" shape="rect">The Rodin Museum</a>\n                .\n              </p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0616.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0616.jpg?w=300&amp;h=225" title="IMG_0616" class="size-medium wp-image-739 aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">\n                It\xe2\x80\x99s not Broadway but Philadelphia also has some great\n                <a href="http://en.wikipedia.org/wiki/Walnut_Street_Theatre" shape="rect">theaters</a>\n                ,\n                <a href="http://en.wikipedia.org/wiki/Philadelphia_Orchestra" shape="rect">orchestras</a>\n                , and operas. All the big name bands and the\n                <a href="http://philly.worldcafelive.com/" shape="rect">small \xe2\x80\x9calt rock\xe2\x80\x9d groups</a>\n                come here too. It\xe2\x80\x99s a great place to catch a live show.\n              </p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0548.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0548.jpg?w=300&amp;h=225" title="IMG_0548" class="size-medium wp-image-742 aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">\n                Besides being home to the first\n                <a href="http://en.wikipedia.org/wiki/Free_Library_of_Philadelphia" shape="rect">public library</a>\n                , post office, savings bank,\n                <a href="http://en.wikipedia.org/wiki/University_of_Pennsylvania" shape="rect">university</a>\n                , and\n                <a href="http://en.wikipedia.org/wiki/Pennsylvania_Hospital" shape="rect">hospital</a>\n                in the United States, Philadelphia also had the first\n                <a href="http://en.wikipedia.org/wiki/Philadelphia_Zoo" shape="rect">zoo</a>\n                . There is also an\n                <a href="http://en.wikipedia.org/wiki/Adventure_Aquarium" shape="rect">aquarium</a>\n                (um\xe2\x80\xa6 over the river in New Jersey, but close enough). For kids there is also the\n                <a href="http://en.wikipedia.org/wiki/Please_Touch_Museum" shape="rect">Please Touch Museum</a>\n                .\n              </p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0674.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0674.jpg?w=300&amp;h=225" title="IMG_0674" class="size-medium wp-image-740 aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">\n                For science lovers will love\n                <a href="http://en.wikipedia.org/wiki/Franklin_Institute" shape="rect">The Franklin Institute</a>\n                where Zoe and friend are pictured here, riding inside a flight simulator.\n                <a href="http://en.wikipedia.org/wiki/Academy_of_Natural_Sciences" shape="rect"> The Academy of Natural Sciences </a>\n                right down the boulevard has collections containing more than 17 million specimens. There are several botanical gardens and\n                <a href="http://en.wikipedia.org/wiki/Morris_Arboretum" shape="rect">arboretums</a>\n                to visit, as well as sites along with rivers, like the\n                <a href="http://en.wikipedia.org/wiki/Independence_Seaport_Museum" shape="rect">Seaport Museum</a>\n                .\n              </p>\n              <p style="text-align:justify;">\n                If you are looking for something a little more unusual Philadelphia has that too. One of my favorites is the\n                <a href="http://en.wikipedia.org/wiki/M%C3%BCtter_Museum" shape="rect">Mutter Museum</a>\n                which contains a collection of medical oddities. It is really gross but quite unique.\n              </p>\n              <p style="text-align:center;">\n                <a href="http://www.davehousley.com/bhouse/backup/www.barrelhousemag.com/word/wp-content/uploads/2010/01/mutter-museum.jpg" shape="rect">\n                  <img height="332" width="415" alt="" src="http://www.davehousley.com/bhouse/backup/www.barrelhousemag.com/word/wp-content/uploads/2010/01/mutter-museum.jpg" class="aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">\n                <a href="http://en.wikipedia.org/wiki/Laurel_Hill_Cemetery" shape="rect">Laurel Hills Cemetery</a>\n                is a huge, grand cemetery overlooking the Schuylkill River, with over 33,000 monuments. It is really an amazing place to visit.\n              </p>\n              <p style="text-align:justify;">\n                Literature buffs would like\n                <a href="http://en.wikipedia.org/wiki/Edgar_Allan_Poe_National_Historic_Site" shape="rect">The Edgar Allen Poe House</a>\n                ,\n                <a href="http://www.rosenbach.org/" shape="rect">The Rosenbach Museum &amp; Library</a>\n                (which has the largest collection of the late, great Maurice Sendak\xe2\x80\x99s illustrations and manuscripts), and\n                <a href="http://en.wikipedia.org/wiki/Free_Library_of_Philadelphia" shape="rect">The Free Library</a>\n                , who\xe2\x80\x99s Rare Book Department features a Charles Dickens collections with first editions, personal letters, and Dickens\xc3\xa2\xe2\x82\xac\xe2\x84\xa2s stuffed pet raven, Grip.\n              </p>\n              <p style="text-align:justify;">\n                <a href="http://thatsenuff.com/wp-content/uploads/2010/10/easternstate1.jpg" shape="rect">\n                  <img height="310" width="460" alt="" src="http://thatsenuff.com/wp-content/uploads/2010/10/easternstate1.jpg" class="aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">\n                The historic\n                <a href="http://www.easternstate.org/" shape="rect">Eastern State Penitentiary</a>\n                is also open for tours and has an amazing Halloween event.\n              </p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0273.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0273.jpg?w=300&amp;h=225" title="IMG_0273" class="size-medium wp-image-743 aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">\n                Other places of interest in the city are The Comcast Center, with it\xe2\x80\x99s 2000 sqft television screen,\n                <a href="http://en.wikipedia.org/wiki/Philadelphia_Chinatown" shape="rect">Chinatown</a>\n                , the\n                <a href="http://en.wikipedia.org/wiki/Reading_Terminal_Market" shape="rect">Reading Terminal Market</a>\n                (a truly fantastic farmer\xe2\x80\x99s market),\n                <a href="http://en.wikipedia.org/wiki/Rittenhouse_Square" shape="rect">Rittenhouse Square</a>\n                and\n                <a href="http://en.wikipedia.org/wiki/Franklin_Square_%28Philadelphia%29" shape="rect">Franklin Square</a>\n                .\n              </p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0770.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0770.jpg?w=300&amp;h=225" title="IMG_0770" class="size-medium wp-image-749 aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">\n                Philly is also fun for foodies. Every kind of food is represented, at every price point. Max Brenner is a favorite of ours. It is a chocolate restaurant and that is a chocolate hamburger with marshmallow mayo, raspberry ketchup, and white chocolate mustard and it is even better tasting than it looks.\n              </p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0727.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0727.jpg?w=300&amp;h=225" title="IMG_0727" class="size-medium wp-image-733 aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">\n                If you know me then you know that my favorite place in Philadelphia is the\n                <a href="http://en.wikipedia.org/wiki/Wissahickon_Creek" shape="rect">Wissahickon Creek</a>\n                and the parkland that surrounds it.\n              </p>\n              <p style="text-align:justify;">\n                It is kinda of ridiculously cool. The path along it is called Forbidden Drive. It has a cave that an early American mystic lived in. There is Devil\xe2\x80\x99s Pool, Hermit\xe2\x80\x99s Lane Bridge, Lover\xe2\x80\x99s Leap, Ma Rinker\xe2\x80\x99s Rock, a 15ft sculpture of a Lenape Indian warrior, many bridges, trails and ruins of old mills.\n              </p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0870.jpg" shape="rect">\n                  <img height="300" width="225" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0870.jpg?w=225&amp;h=300" title="IMG_0870" class="size-medium wp-image-752 aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">Forbidden Drive</p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0763.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0763.jpg?w=300&amp;h=225" title="IMG_0763" class="size-medium wp-image-751 aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">Devil\xe2\x80\x99s Pool</p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0245.jpg" shape="rect">\n                  <img height="300" width="225" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0245.jpg?w=225&amp;h=300" title="IMG_0245" class="size-medium wp-image-746 aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">I think it is so amazing that you can just be walking on a trail and come to something like this. What is more amazing is that this huge wooded place is right in the city.</p>\n              <p style="text-align:center;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0289.jpg" shape="rect">\n                  <img height="300" width="225" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0289.jpg?w=225&amp;h=300" title="IMG_0289" class="size-medium wp-image-755 aligncenter"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">\n                In Philly you can be driving in the city or a close suburb and suddenly find yourself in a rural scene, like a Revolution era barn, or a ruined structure of Wissahickon schist. Sometimes the wildlife comes right up to your door, like these deer in the front yard of a suburban neighborhood, or the red fox that was on our doorstep last night.\n              </p>\n              <p style="text-align:justify;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0047.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0047.jpg?w=300&amp;h=225" title="IMG_0047" class="aligncenter size-medium wp-image-758"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">Speaking of our doorstep, come inside Gnarlwood and let us entertain you. B loves cooking for company and I love it when he does. You will too.</p>\n              <p style="text-align:justify;">\n                <a href="http://janedeau.files.wordpress.com/2012/05/img_0890.jpg" shape="rect">\n                  <img height="225" width="300" alt="" src="http://janedeau.files.wordpress.com/2012/05/img_0890.jpg?w=300&amp;h=225" title="IMG_0890" class="aligncenter size-medium wp-image-756"></img>\n                </a>\n              </p>\n              <p style="text-align:justify;">Right outside the back door we have the Coop/Scoop where we serve food off the grill and ice cream, as well the hot tub, and the pool. Come on in, the water is fine.</p>\n              <div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"></div>\n            </div>\n            <p class="post-info">\n              Posted in\n              <a rel="category tag" title="View all posts in Friends" href="http://janedeau.wordpress.com/category/friends/" shape="rect">Friends</a>\n              ,\n              <a rel="category tag" title="View all posts in Link about it" href="http://janedeau.wordpress.com/category/link-about-it/" shape="rect">Link about it</a>\n              ,\n              <a rel="category tag" title="View all posts in Lists" href="http://janedeau.wordpress.com/category/lists/" shape="rect">Lists</a>\n              ,\n              <a rel="category tag" title="View all posts in Nature" href="http://janedeau.wordpress.com/category/nature/" shape="rect">Nature</a>\n              ,\n              <a rel="category tag" title="View all posts in parties" href="http://janedeau.wordpress.com/category/parties/" shape="rect">parties</a>\n              ,\n              <a rel="category tag" title="View all posts in Philadelphia" href="http://janedeau.wordpress.com/category/philadelphia/" shape="rect">Philadelphia</a>\n              |\n              <a title="Comment on You\xe2\x80\x99ve Got a Friend in\xc2\xa0Pennsylvania" href="http://janedeau.wordpress.com/2012/05/30/youve-got-a-friend-in-pennsylvania/#respond" shape="rect">Leave a Comment \xc2\xbb</a>\n            </p>\n          </div>\n          <p class="posts-nav-link" align="center">\n            <a href="http://janedeau.wordpress.com/page/2/" shape="rect">Older Posts \xc2\xbb</a>\n          </p>\n        </div>\n        <div id="sidebar">\n          <ul>\n            <li class="sidebox">\n              <h2>Recent Posts</h2>\n              <ul>\n                <li>\n                  <a title="Homeschooling Schedule Fall\xc2\xa02012" href="http://janedeau.wordpress.com/2012/09/20/homeschooling-schedule-fall-2012/" shape="rect">Homeschooling Schedule Fall\xc2\xa02012</a>\n                </li>\n                <li>\n                  <a title="Longwood Gardens: Lights by Bruce\xc2\xa0Munro" href="http://janedeau.wordpress.com/2012/08/19/longwood-gardens-lights-by-bruce-munro/" shape="rect">Longwood Gardens: Lights by Bruce\xc2\xa0Munro</a>\n                </li>\n                <li>\n                  <a title="Remodel, before and\xc2\xa0after" href="http://janedeau.wordpress.com/2012/08/08/remodel-before-and-after/" shape="rect">Remodel, before and\xc2\xa0after</a>\n                </li>\n                <li>\n                  <a title="A place in the\xc2\xa0sun" href="http://janedeau.wordpress.com/2012/08/05/a-place-in-the-sun/" shape="rect">A place in the\xc2\xa0sun</a>\n                </li>\n                <li>\n                  <a title="This was a\xc2\xa0triumph." href="http://janedeau.wordpress.com/2012/08/03/this-was-a-triumph/" shape="rect">This was a\xc2\xa0triumph.</a>\n                </li>\n              </ul>\n            </li>\n            <li class="sidebox">\n              <h2>Archives</h2>\n              <ul>\n                <li>\n                  <a title="September 2012" href="http://janedeau.wordpress.com/2012/09/" shape="rect">September 2012</a>\n                </li>\n                <li>\n                  <a title="August 2012" href="http://janedeau.wordpress.com/2012/08/" shape="rect">August 2012</a>\n                </li>\n                <li>\n                  <a title="July 2012" href="http://janedeau.wordpress.com/2012/07/" shape="rect">July 2012</a>\n                </li>\n                <li>\n                  <a title="May 2012" href="http://janedeau.wordpress.com/2012/05/" shape="rect">May 2012</a>\n                </li>\n                <li>\n                  <a title="March 2012" href="http://janedeau.wordpress.com/2012/03/" shape="rect">March 2012</a>\n                </li>\n                <li>\n                  <a title="February 2012" href="http://janedeau.wordpress.com/2012/02/" shape="rect">February 2012</a>\n                </li>\n                <li>\n                  <a title="January 2012" href="http://janedeau.wordpress.com/2012/01/" shape="rect">January 2012</a>\n                </li>\n                <li>\n                  <a title="December 2011" href="http://janedeau.wordpress.com/2011/12/" shape="rect">December 2011</a>\n                </li>\n                <li>\n                  <a title="November 2011" href="http://janedeau.wordpress.com/2011/11/" shape="rect">November 2011</a>\n                </li>\n                <li>\n                  <a title="October 2011" href="http://janedeau.wordpress.com/2011/10/" shape="rect">October 2011</a>\n                </li>\n                <li>\n                  <a title="September 2011" href="http://janedeau.wordpress.com/2011/09/" shape="rect">September 2011</a>\n                </li>\n              </ul>\n            </li>\n            <li id="linkcat-1356" class="linkcat widget sidebox">\n              <h2>Blogroll</h2>\n              <ul class="xoxo blogroll">\n                <li>\n                  <a title="Another blog I write on" href="http://40questions.wordpress.com/" shape="rect">40 Questions</a>\n                </li>\n                <li>\n                  <a title="My husband\xe2\x80\x99s music blog" href="http://sites.google.com/site/briangraymusic/" shape="rect">Brian Gray\'s Music</a>\n                </li>\n                <li>\n                  <a title="My old blog" href="http://chermerecafe.blogspot.com/" shape="rect">Cher Mere Care</a>\n                </li>\n                <li>\n                  <a href="http://growinginthegardenstate.blogspot.com/" shape="rect">Growing in the Garden State</a>\n                </li>\n                <li>\n                  <a href="http://patrice-makingpeace.blogspot.com/" shape="rect">Making Peace</a>\n                </li>\n                <li>\n                  <a href="http://miakoda.net/" shape="rect">My eyes are filled with gods</a>\n                </li>\n                <li>\n                  <a href="http://redseahomeschool.wordpress.com/" shape="rect">Red Sea School</a>\n                </li>\n                <li>\n                  <a href="http://sothethingisblog.blogspot.com/2011/09/settling-in.html" shape="rect">So, the thing is. . . blog</a>\n                </li>\n                <li>\n                  <a href="http://qcreport.blogspot.com/" shape="rect">The QC Report</a>\n                </li>\n                <li>\n                  <a title="My sister-in-laws food blog" href="http://pantrycreations.blogspot.com/2010/09/three-shelves.html" shape="rect">The Yellow Apron</a>\n                </li>\n              </ul>\n            </li>\n            <li class="sidebox">\n              <h2>Category Cloud</h2>\n              <div style="overflow: hidden">\n                <a title="40questionsblog (2)" style="font-size: 107.95454545455%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/40questionsblog/" shape="rect">40questionsblog</a>\n                <a title="Books (1)" style="font-size: 100%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/books/" shape="rect">Books</a>\n                <a title="cancer (4)" style="font-size: 123.86363636364%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/cancer/" shape="rect">cancer</a>\n                <a title="Food (3)" style="font-size: 115.90909090909%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/food/" shape="rect">Food</a>\n                <a title="Friends (5)" style="font-size: 131.81818181818%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/friends/" shape="rect">Friends</a>\n                <a title="health (5)" style="font-size: 131.81818181818%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/health/" shape="rect">health</a>\n                <a title="holidays (4)" style="font-size: 123.86363636364%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/holidays/" shape="rect">holidays</a>\n                <a title="Home (7)" style="font-size: 147.72727272727%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/home/" shape="rect">Home</a>\n                <a title="homeschoolings (7)" style="font-size: 147.72727272727%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/homeschoolings/" shape="rect">homeschoolings</a>\n                <a title="Link about it (4)" style="font-size: 123.86363636364%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/link-about-it/" shape="rect">Link about it</a>\n                <a title="Lists (8)" style="font-size: 155.68181818182%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/lists/" shape="rect">Lists</a>\n                <a title="love (7)" style="font-size: 147.72727272727%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/love/" shape="rect">love</a>\n                <a title="meditations (3)" style="font-size: 115.90909090909%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/meditations/" shape="rect">meditations</a>\n                <a title="Movies (4)" style="font-size: 123.86363636364%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/movies/" shape="rect">Movies</a>\n                <a title="Music (2)" style="font-size: 107.95454545455%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/music/" shape="rect">Music</a>\n                <a title="Nature (14)" style="font-size: 203.40909090909%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/nature/" shape="rect">Nature</a>\n                <a title="next steps (11)" style="font-size: 179.54545454545%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/next-steps/" shape="rect">next steps</a>\n                <a title="parties (2)" style="font-size: 107.95454545455%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/parties/" shape="rect">parties</a>\n                <a title="Philadelphia (23)" style="font-size: 275%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/philadelphia/" shape="rect">Philadelphia</a>\n                <a title="Spin (4)" style="font-size: 123.86363636364%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/spin/" shape="rect">Spin</a>\n                <a title="spirituality (7)" style="font-size: 147.72727272727%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/spirituality/" shape="rect">spirituality</a>\n                <a title="Uncategorized (10)" style="font-size: 171.59090909091%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/uncategorized/" shape="rect">Uncategorized</a>\n                <a title="Writing (3)" style="font-size: 115.90909090909%; padding: 1px; margin: 1px;" href="http://janedeau.wordpress.com/category/writing/" shape="rect">Writing</a>\n              </div>\n            </li>\n            <li class="sidebox">\n              <form action="http://janedeau.wordpress.com/" role="search" id="searchform" method="get" enctype="application/x-www-form-urlencoded">\n                <div>\n                  <label class="screen-reader-text" for="s">Search for:</label>\n                  <input name="s" value="" id="s" type="text"></input>\n                  <input value="Search" id="searchsubmit" type="submit"></input>\n                </div>\n              </form>\n            </li>\n          </ul>\n        </div>\n      </div>\n    </div>\n    <div id="infinite-footer">\n      <div class="container">\n        <div class="blog-info">\n          <a rel="home" title="Sincerely, Jane Deau" href="http://janedeau.wordpress.com/" id="infinity-blog-title" shape="rect"> Sincerely, Jane Deau </a>\n        </div>\n        <div class="blog-credits">\n          <a rel="generator" href="http://wordpress.com/?ref=footer" shape="rect">Blog at WordPress.com</a>\n          .\n\t\t\t\t\tTheme:\n          <a title="Learn more about this theme" href="http://theme.wordpress.com/themes/mistylook/" shape="rect">MistyLook</a>\n          .\n        </div>\n      </div>\n    </div>\n    <div id="footer">\n      <div id="colophon">\n        <p>\n          <a rel="generator" href="http://wordpress.com/?ref=footer" shape="rect">Blog at WordPress.com</a>\n          .\n        </p>\n        <p>\n          Theme:\n          <a title="Learn more about this theme" href="http://theme.wordpress.com/themes/mistylook/" shape="rect">MistyLook</a>\n          by WPThemes.\n        </p>\n        <br class="clear" clear="none"></br>\n      </div>\n    </div>\n    <script type="text/javascript">\n      var _qevents = _qevents || [], wpcomQuantcastData = {&quot;qacct&quot;:&quot;p-18-mFEk4J448M&quot;,&quot;labels&quot;:&quot;,language.en,type.wpcom&quot;};\nfunction wpcomQuantcastPixel( labels, options ) {\n\tvar i, defaults = wpcomQuantcastData, data = { event: \'ajax\' };\n\n\tlabels  = labels  || \'\';\n\toptions = options || {};\n\n\tif ( typeof labels != \'string\' )\n\t\toptions = labels;\n\n\tfor ( i in defaults ) {\n\t\tdata[i] = defaults[i];\n\t}\n\n\tfor ( i in options ) {\n\t\tdata[i] = options[i];\n\t}\n\n\tif ( data.labels ) {\n\t\tdata.labels += \',\' + labels;\n\t} else {\n\t\tdata.labels = labels;\n\t}\n\n\t_qevents.push( data );\n};\n(function() {var elem = document.createElement(\'script\');elem.src = (document.location.protocol == &quot;https:&quot; ? &quot;https://secure&quot; : &quot;http://edge&quot;) + &quot;.quantserve.com/quant.js&quot;;elem.async = true;elem.type = &quot;text/javascript&quot;;var scpt = document.getElementsByTagName(\'script\')[0];scpt.parentNode.insertBefore(elem, scpt);  })();\n_qevents.push( wpcomQuantcastData );\n    </script>\n    <noscript>\n      <div style="display: none;">\n        <img alt="" width="1" height="1" src="//pixel.quantserve.com/pixel/p-18-mFEk4J448M.gif?labels=%2Clanguage.en%2Ctype.wpcom"></img>\n      </div>\n    </noscript>\n    <script src="http://s.gravatar.com/js/gprofiles.js?ver=201240ab" type="text/javascript"></script>\n    <script type="text/javascript"> /* &lt;![CDATA[ */ var WPGroHo = {&quot;my_hash&quot;:&quot;&quot;}; /* ]]&gt; */ </script>\n    <script src="http://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1318621548g" type="text/javascript"></script>\n    <script>jQuery(document).ready(function($){ Gravatar.profile_cb = function( h, d ) { WPGroHo.syncProfileData( h, d ); }; Gravatar.my_hash = WPGroHo.my_hash; Gravatar.init( \'body\', \'#wp-admin-bar-my-account\' ); });</script>\n    <div style="display:none"> </div>\n    <div id="bit" class="loggedout-follow-normal">\n      <a href="javascript:void(0)" class="bsub" shape="rect">\n        <span id="bsub-text">Follow</span>\n      </a>\n      <div id="bitsubscribe">\n        <h3>\n          <label for="loggedout-follow-field">Follow \xe2\x80\x9cSincerely, Jane Deau\xe2\x80\x9d</label>\n        </h3>\n        <form accept-charset="utf-8" action="https://subscribe.wordpress.com" id="loggedout-follow" method="post" enctype="application/x-www-form-urlencoded">\n          <p>Get every new post delivered to your Inbox.</p>\n          <p style="display: none;" id="loggedout-follow-error"></p>\n          <p>\n            <input \n            onblur="this.value=(this.value==&quot;&quot;) ? &quot;Enter email address&quot; : this.value;" onfocus="this.value=(this.value==&quot;Enter your email address&quot;) ? &quot;&quot; : this.value;" value="Enter your email address" style="width: 95%; padding: 1px 2px" name="email" id="loggedout-follow-field" type="email">\n</input>\n          </p>\n          <input value="subscribe" name="action" type="hidden"></input>\n          <input value="27558011" name="blog_id" type="hidden"></input>\n          <input value="http://janedeau.wordpress.com/" name="source" type="hidden"></input>\n          <input value="loggedout-follow" name="sub-type" type="hidden"></input>\n          <input value="cb8dbc69d7" name="_wpnonce" id="_wpnonce" type="hidden"></input>\n          <input value="/" name="_wp_http_referer" type="hidden"></input>\n          <p id="bsub-subscribe-button">\n            <input value="Sign me up" type="submit"></input>\n          </p>\n        </form>\n        <div id="bsub-credit">\n          <a href="http://wordpress.com/signup/?ref=lof" shape="rect">Powered by WordPress.com</a>\n        </div>\n      </div>\n    </div>\n    <script src="http://s.skimresources.com/js/wordpress.js" type="text/javascript"></script>\n    <script type="text/javascript"> var skimlinks_pub_id = &quot;725X584219&quot; var skimlinks_sitename = \'janedeau.wordpress.com\'; skimlinks(); </script>\n    <div id="carousel-reblog-box">\n      <form name="carousel-reblog" action="" method="get" enctype="application/x-www-form-urlencoded">\n        <textarea onblur="if ( this.value == \'\' || this.value == \'\' ) { this.value = \'Add your thoughts here... (optional)\'; }" onclick="if ( this.value == \'Add your thoughts here... (optional)\' ) { this.value = \'\'; }" name="carousel-reblog-content" id="carousel-reblog-content">\n          Add your thoughts here... (optional)\n        </textarea>\n        <label id="carousel-reblog-lblogid" for="carousel-reblog-to-blog-id">Post to</label>\n        <select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id"></select>\n        <div class="submit">\n          <input value="Reblog Post" name="carousel-reblog-submit" id="carousel-reblog-submit" class="button" type="submit"></input>\n          <span class="canceltext">\n            or\n            <a href="" class="cancel" shape="rect">Cancel</a>\n          </span>\n          <input value="27558011" id="carousel-reblog-blog-id" type="hidden"></input>\n          <input value="http://janedeau.wordpress.com" id="carousel-reblog-blog-url" type="hidden"></input>\n          <input value="Sincerely, Jane Deau" id="carousel-reblog-blog-title" type="hidden"></input>\n          <input value="" id="carousel-reblog-post-url" type="hidden"></input>\n          <input value="" id="carousel-reblog-post-title" type="hidden"></input>\n        </div>\n        <input value="0a8526e882" name="_wpnonce" id="_wpnonce" type="hidden"></input>\n        <input value="/" name="_wp_http_referer" type="hidden"></input>\n      </form>\n      <div class="arrow"></div>\n    </div>\n    <script src="http://b.scorecardresearch.com/beacon.js" type="text/javascript"></script>\n    <script type="text/javascript">try{COMSCORE.beacon({c1:2,c2:7518284});}catch(e){}</script>\n    <noscript>\n      <p class="robots-nocontent">\n        <img height="1" width="1" style="display:none" alt="" src="http://b.scorecardresearch.com/p?cj=1c1=2&amp;c2=7518284"></img>\n      </p>\n    </noscript>\n    <script type="text/javascript">\n      /* &lt;![CDATA[ */\nvar jetpackCarouselStrings = {&quot;widths&quot;:[370,700,1000,1200,1400,2000],&quot;is_logged_in&quot;:&quot;&quot;,&quot;ajaxurl&quot;:&quot;http:\\/\\/janedeau.wordpress.com\\/wp-admin\\/admin-ajax.php&quot;,&quot;nonce&quot;:&quot;aea2db8bf0&quot;,&quot;display_exif&quot;:&quot;1&quot;,&quot;display_geo&quot;:&quot;1&quot;,&quot;background_color&quot;:&quot;black&quot;,&quot;comment&quot;:&quot;Comment&quot;,&quot;post_comment&quot;:&quot;Post Comment&quot;,&quot;loading_comments&quot;:&quot;Loading Comments...&quot;,&quot;download_original&quot;:&quot;View full size &lt;span class=\\&quot;photo-size\\&quot;&gt;{0}&lt;span class=\\&quot;photo-size-times\\&quot;&gt;\\u00d7&lt;\\/span&gt;{1}&lt;\\/span&gt;&quot;,&quot;no_comment_text&quot;:&quot;Please be sure to submit some text with your comment.&quot;,&quot;no_comment_email&quot;:&quot;Please provide an email address to comment.&quot;,&quot;no_comment_author&quot;:&quot;Please provide your name to comment.&quot;,&quot;comment_post_error&quot;:&quot;Sorry, but there was an error posting your comment. Please try again later.&quot;,&quot;comment_approved&quot;:&quot;Your comment was approved.&quot;,&quot;comment_unapproved&quot;:&quot;Your comment is in moderation.&quot;,&quot;camera&quot;:&quot;Camera&quot;,&quot;aperture&quot;:&quot;Aperture&quot;,&quot;shutter_speed&quot;:&quot;Shutter Speed&quot;,&quot;focal_length&quot;:&quot;Focal Length&quot;,&quot;local_comments_commenting_as&quot;:&quot;&lt;fieldset&gt;&lt;label for=\\&quot;email\\&quot;&gt;Email (Required)&lt;\\/label&gt; &lt;input type=\\&quot;text\\&quot; name=\\&quot;email\\&quot; class=\\&quot;jp-carousel-comment-form-field jp-carousel-comment-form-text-field\\&quot; id=\\&quot;jp-carousel-comment-form-email-field\\&quot; \\/&gt;&lt;\\/fieldset&gt;&lt;fieldset&gt;&lt;label for=\\&quot;author\\&quot;&gt;Name (Required)&lt;\\/label&gt; &lt;input type=\\&quot;text\\&quot; name=\\&quot;author\\&quot; class=\\&quot;jp-carousel-comment-form-field jp-carousel-comment-form-text-field\\&quot; id=\\&quot;jp-carousel-comment-form-author-field\\&quot; \\/&gt;&lt;\\/fieldset&gt;&lt;fieldset&gt;&lt;label for=\\&quot;url\\&quot;&gt;Website&lt;\\/label&gt; &lt;input type=\\&quot;text\\&quot; name=\\&quot;url\\&quot; class=\\&quot;jp-carousel-comment-form-field jp-carousel-comment-form-text-field\\&quot; id=\\&quot;jp-carousel-comment-form-url-field\\&quot; \\/&gt;&lt;\\/fieldset&gt;&quot;,&quot;like&quot;:&quot;Like&quot;,&quot;unlike&quot;:&quot;Unlike&quot;,&quot;reblog&quot;:&quot;Reblog&quot;,&quot;reblogged&quot;:&quot;Reblogged&quot;,&quot;reblog_add_thoughts&quot;:&quot;Add your thoughts here... (optional)&quot;,&quot;reblogging&quot;:&quot;Reblogging...&quot;,&quot;post_reblog&quot;:&quot;Post Reblog&quot;,&quot;stats_query_args&quot;:&quot;blog=27558011&amp;v=wpcom&amp;user_id=0&amp;subd=janedeau&quot;,&quot;is_public&quot;:&quot;1&quot;};\nvar jetpackCarouselStrings = {&quot;widths&quot;:[370,700,1000,1200,1400,2000],&quot;is_logged_in&quot;:&quot;&quot;,&quot;ajaxurl&quot;:&quot;http:\\/\\/janedeau.wordpress.com\\/wp-admin\\/admin-ajax.php&quot;,&quot;nonce&quot;:&quot;aea2db8bf0&quot;,&quot;display_exif&quot;:&quot;1&quot;,&quot;display_geo&quot;:&quot;1&quot;,&quot;background_color&quot;:&quot;black&quot;,&quot;comment&quot;:&quot;Comment&quot;,&quot;post_comment&quot;:&quot;Post Comment&quot;,&quot;loading_comments&quot;:&quot;Loading Comments...&quot;,&quot;download_original&quot;:&quot;View full size &lt;span class=\\&quot;photo-size\\&quot;&gt;{0}&lt;span class=\\&quot;photo-size-times\\&quot;&gt;\\u00d7&lt;\\/span&gt;{1}&lt;\\/span&gt;&quot;,&quot;no_comment_text&quot;:&quot;Please be sure to submit some text with your comment.&quot;,&quot;no_comment_email&quot;:&quot;Please provide an email address to comment.&quot;,&quot;no_comment_author&quot;:&quot;Please provide your name to comment.&quot;,&quot;comment_post_error&quot;:&quot;Sorry, but there was an error posting your comment. Please try again later.&quot;,&quot;comment_approved&quot;:&quot;Your comment was approved.&quot;,&quot;comment_unapproved&quot;:&quot;Your comment is in moderation.&quot;,&quot;camera&quot;:&quot;Camera&quot;,&quot;aperture&quot;:&quot;Aperture&quot;,&quot;shutter_speed&quot;:&quot;Shutter Speed&quot;,&quot;focal_length&quot;:&quot;Focal Length&quot;,&quot;local_comments_commenting_as&quot;:&quot;&lt;fieldset&gt;&lt;label for=\\&quot;email\\&quot;&gt;Email (Required)&lt;\\/label&gt; &lt;input type=\\&quot;text\\&quot; name=\\&quot;email\\&quot; class=\\&quot;jp-carousel-comment-form-field jp-carousel-comment-form-text-field\\&quot; id=\\&quot;jp-carousel-comment-form-email-field\\&quot; \\/&gt;&lt;\\/fieldset&gt;&lt;fieldset&gt;&lt;label for=\\&quot;author\\&quot;&gt;Name (Required)&lt;\\/label&gt; &lt;input type=\\&quot;text\\&quot; name=\\&quot;author\\&quot; class=\\&quot;jp-carousel-comment-form-field jp-carousel-comment-form-text-field\\&quot; id=\\&quot;jp-carousel-comment-form-author-field\\&quot; \\/&gt;&lt;\\/fieldset&gt;&lt;fieldset&gt;&lt;label for=\\&quot;url\\&quot;&gt;Website&lt;\\/label&gt; &lt;input type=\\&quot;text\\&quot; name=\\&quot;url\\&quot; class=\\&quot;jp-carousel-comment-form-field jp-carousel-comment-form-text-field\\&quot; id=\\&quot;jp-carousel-comment-form-url-field\\&quot; \\/&gt;&lt;\\/fieldset&gt;&quot;,&quot;like&quot;:&quot;Like&quot;,&quot;unlike&quot;:&quot;Unlike&quot;,&quot;reblog&quot;:&quot;Reblog&quot;,&quot;reblogged&quot;:&quot;Reblogged&quot;,&quot;reblog_add_thoughts&quot;:&quot;Add your thoughts here... (optional)&quot;,&quot;reblogging&quot;:&quot;Reblogging...&quot;,&quot;post_reblog&quot;:&quot;Post Reblog&quot;,&quot;stats_query_args&quot;:&quot;blog=27558011&amp;v=wpcom&amp;user_id=0&amp;subd=janedeau&quot;,&quot;is_public&quot;:&quot;1&quot;};\n/* ]]&gt; */\n    </script>\n    <script src="http://s2.wp.com/_static/??/wp-content/js/devicepx.js,/wp-content/mu-plugins/slideshow/jquery.cycle.js,/wp-content/mu-plugins/slideshow/slideshow.js,/wp-content/mu-plugins/carousel/jetpack-carousel.js?m=1349105731j" type="text/javascript"></script>\n    <script src="http://platform.twitter.com/widgets.js?ver=20111117" type="text/javascript"></script>\n    <script src="http://s2.wp.com/_static/??/wp-content/mu-plugins/twitter-blackbird-pie/neverending.js,/wp-content/mu-plugins/twitter-blackbird-pie/pending.js?m=1342628662j" type="text/javascript"></script>\n    <script type="text/javascript">\n      // &lt;![CDATA[\n(function() {\ntry{\n  if ( window.external &amp;&amp;\'msIsSiteMode\' in window.external) {\n    if (window.external.msIsSiteMode()) {\n      var jl = document.createElement(\'script\');\n      jl.type=\'text/javascript\';\n      jl.async=true;\n      jl.src=\'/wp-content/plugins/ie-sitemode/custom-jumplist.php\';\n      var s = document.getElementsByTagName(\'script\')[0];\n      s.parentNode.insertBefore(jl, s);\n    }\n  }\n}catch(e){}\n})();\n// ]]&gt;\n    </script>\n    <script type="text/javascript" src="http://s.stats.wordpress.com/w.js?21"></script>\n    <script type="text/javascript">\n      st_go({\'blog\':\'27558011\',\'v\':\'wpcom\',\'user_id\':\'0\',\'subd\':\'janedeau\'});\nex_go({\'crypt\':\'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzR6MmRGQV0tJmwxeTZPSWdXbX5VeUlNVHNzOW5fMHouZnxGMVt5Ti4rJWFaWk0udVZUNSUsdCZDP3hvVlt+WF13aHQ/OD13Z21Ma2ZEPXRQUGg2TzVKa0xiSU90Zlh8LVolSEtxNWVEcVQ9T2FNdUFtcnBOd0pIRk9FTXhaODR4XXVXJl9ZYVNIL3xNaFEya1pQfkhCblR0WlQ2bHdDQk5pRyZ8eE9FUGVTXWpnVm4xWz03fjBsa0M/cCZTVHZBMmd3L1dTbEZXXUZnZDc/SUFbL0g=\'});\naddLoadEvent(function(){linktracker_init(\'27558011\',0);});\n    </script>\n    <noscript>\n      <img alt="" style="height:0px;width:0px;overflow:hidden" src="http://stats.wordpress.com/b.gif?v=noscript"></img>\n    </noscript>\n  </body>\n</html>'
+p11
+sbsS'mentions'
+p12
+(lp13
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p14
+(dp15
+S'anchor_text'
+p16
+S'Liberty Bell'
+p17
+sS'context'
+p18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p19
+(dp20
+S'middle'
+p21
+S'Liberty Bell'
+p22
+sS'right'
+p23
+S', Betsey Ross\xe2\x80\x99s House , Independence Hall , The Constitution Center , Elfreth\xe2\x80\x99s Alley , Valley Forge , and many more sites of historical significance.'
+p24
+sS'left'
+p25
+S'a wealth of history and historical sites. You could easily spend your days learning about the American Revolution where it actually happened. We have the'
+p26
+sbsS'freebase_id'
+p27
+S'9202a8c04000641f8000000000113c6f'
+p28
+sS'raw_text_offset'
+p29
+I41282
+sS'wiki_url'
+p30
+S'http://en.wikipedia.org/wiki/Liberty_Bell'
+p31
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p32
+(dp33
+g16
+S'The Constitution Center'
+p34
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p35
+(dp36
+g21
+S'The Constitution Center'
+p37
+sg23
+S', Elfreth\xe2\x80\x99s Alley , Valley Forge , and many more sites of historical significance. - - Depending on when you come you might even get'
+p38
+sg25
+S'spend your days learning about the American Revolution where it actually happened. We have the Liberty Bell , Betsey Ross\xe2\x80\x99s House , Independence Hall ,'
+p39
+sbsg27
+S'9202a8c04000641f80000000002300fb'
+p40
+sg29
+I41555
+sg30
+S'http://en.wikipedia.org/wiki/National_Constitution_Center'
+p41
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p42
+(dp43
+g16
+S'Valley Forge'
+p44
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p45
+(dp46
+g21
+S'Valley Forge'
+p47
+sg23
+S', and many more sites of historical significance. - - Depending on when you come you might even get to experience a live action reenactment.'
+p48
+sg25
+S'Revolution where it actually happened. We have the Liberty Bell , Betsey Ross\xe2\x80\x99s House , Independence Hall , The Constitution Center , Elfreth\xe2\x80\x99s Alley ,'
+p49
+sbsg27
+S'9202a8c04000641f80000000045bdae9'
+p50
+sg29
+I41745
+sg30
+S'http://en.wikipedia.org/wiki/Valley_Forge_National_Historical_Park'
+p51
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p52
+(dp53
+g16
+S'civil war history and underground railroad history sites'
+p54
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p55
+(dp56
+g21
+S'civil war history and underground railroad history sites'
+p57
+sg23
+S'and reenactments. - - Yep, Philadelphia really loves and appreciates it\xe2\x80\x99s history. But we also have a pretty cool modern city too. - This is'
+p58
+sg25
+S'you might even get to experience a live action reenactment. They are having them somewhere around here all the time. There is also areas of'
+p59
+sbsg27
+S'9202a8c04000641f8000000000bd3a03'
+p60
+sg29
+I42494
+sg30
+S'http://en.wikipedia.org/wiki/Civil_War_and_Underground_Railroad_Museum_of_Philadelphia'
+p61
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p62
+(dp63
+g16
+S'Swann Memorial Fountain'
+p64
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p65
+(dp66
+g21
+S'Swann Memorial Fountain'
+p67
+sg23
+S'symbolizes Philadelphia\xe2\x80\x99s three major waterways, The Delaware, The Schuykill and the Wissahickon. - We also have Christ Church , City Hall , Eastern State Penitentiary'
+p68
+sg25
+S'be near all the great shops and restaurants. - - Downtown Philly is great for sight seeing, especially if you like art and architecture. This'
+p69
+sbsg27
+S'9202a8c04000641f80000000007cfcd6'
+p70
+sg29
+I44327
+sg30
+S'http://en.wikipedia.org/wiki/Swann_Memorial_Fountain'
+p71
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p72
+(dp73
+g16
+S'City Hall'
+p74
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p75
+(dp76
+g21
+S'City Hall'
+p77
+sg23
+S', Eastern State Penitentiary and and many buildings by Frank Furness . Here is more info about the architecture of Philadelphia. - - I love'
+p78
+sg25
+S'and architecture. This Swann Memorial Fountain symbolizes Philadelphia\xe2\x80\x99s three major waterways, The Delaware, The Schuykill and the Wissahickon. - We also have Christ Church ,'
+p79
+sbsg27
+S'9202a8c04000641f8000000000284068'
+p80
+sg29
+I44711
+sg30
+S'http://en.wikipedia.org/wiki/Philadelphia_City_Hall'
+p81
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p82
+(dp83
+g16
+S'Eastern State Penitentiary'
+p84
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p85
+(dp86
+g21
+S'Eastern State Penitentiary'
+p87
+sg23
+S'and and many buildings by Frank Furness . Here is more info about the architecture of Philadelphia. - - I love the old architecture of'
+p88
+sg25
+S'Swann Memorial Fountain symbolizes Philadelphia\xe2\x80\x99s three major waterways, The Delaware, The Schuykill and the Wissahickon. - We also have Christ Church , City Hall ,'
+p89
+sbsg27
+S'9202a8c04000641f80000000002493f2'
+p90
+sg29
+I44792
+sg30
+S'http://en.wikipedia.org/wiki/Eastern_State_Penitentiary'
+p91
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p92
+(dp93
+g16
+S'Frank Furness'
+p94
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p95
+(dp96
+g21
+S'Frank Furness'
+p97
+sg23
+S'. Here is more info about the architecture of Philadelphia. - - I love the old architecture of the city and surrounding areas. Building\xe2\x80\x99s like'
+p98
+sg25
+S'The Delaware, The Schuykill and the Wissahickon. - We also have Christ Church , City Hall , Eastern State Penitentiary and and many buildings by'
+p99
+sbsg27
+S'9202a8c04000641f80000000001bb00e'
+p100
+sg29
+I44902
+sg30
+S'http://en.wikipedia.org/wiki/Frank_Furness'
+p101
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p102
+(dp103
+g16
+S'architecture of Philadelphia.'
+p104
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p105
+(dp106
+g21
+S'architecture of Philadelphia.'
+p107
+sg23
+S'- - I love the old architecture of the city and surrounding areas. Building\xe2\x80\x99s like this are common place. - This was someone\xe2\x80\x99s house. Now'
+p108
+sg25
+S'also have Christ Church , City Hall , Eastern State Penitentiary and and many buildings by Frank Furness . Here is more info about the'
+p109
+sbsg27
+Nsg29
+I45017
+sg30
+S'http://en.wikipedia.org/wiki/Architecture_of_Philadelphia'
+p110
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p111
+(dp112
+g16
+S'The Philadelphia Museum of Art'
+p113
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p114
+(dp115
+g21
+S'The Philadelphia Museum of Art'
+p116
+sg23
+S'is one of the largest art museums in the United States.\xc3\x82\xc2\xa0 Many great artists are represented; Monet, Picasso, Dali, Rubens, Renoir, Van Gogh, Toulouse-Lautrec, Cezanne,'
+p117
+sg25
+S'is a list of 19 Beautiful Castles in Pennsylvania , many of these are close to where I live. If you are also into art'
+p118
+sbsg27
+S'9202a8c04000641f8000000000221aef'
+p119
+sg29
+I47391
+sg30
+S'http://en.wikipedia.org/wiki/Philadelphia_Museum_of_Art'
+p120
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p121
+(dp122
+g16
+S'Pennsylvania Academy of Fine Arts'
+p123
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p124
+(dp125
+g21
+S'Pennsylvania Academy of Fine Arts'
+p126
+sg23
+S', The Barnes , and The Rodin Museum . It\xe2\x80\x99s not Broadway but Philadelphia also has some great theaters , orchestras , and operas. All'
+p127
+sg25
+S'and other decorative arts as well as the second-largest collection of arms and armor in the United States. For more art, you could visit the'
+p128
+sbsg27
+S'9202a8c04000641f80000000004e2270'
+p129
+sg29
+I47931
+sg30
+S'http://en.wikipedia.org/wiki/Pennsylvania_Academy_of_the_Fine_Arts'
+p130
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p131
+(dp132
+g16
+S'The Barnes'
+p133
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p134
+(dp135
+g21
+S'The Barnes'
+p136
+sg23
+S', and The Rodin Museum . It\xe2\x80\x99s not Broadway but Philadelphia also has some great theaters , orchestras , and operas. All the big name'
+p137
+sg25
+S'as the second-largest collection of arms and armor in the United States. For more art, you could visit the Pennsylvania Academy of Fine Arts ,'
+p138
+sbsg27
+S'9202a8c04000641f80000000005eaf19'
+p139
+sg29
+I48027
+sg30
+S'http://en.wikipedia.org/wiki/Barnes_Foundation'
+p140
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p141
+(dp142
+g16
+S'The Rodin Museum'
+p143
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p144
+(dp145
+g21
+S'The Rodin Museum'
+p146
+sg23
+S'. It\xe2\x80\x99s not Broadway but Philadelphia also has some great theaters , orchestras , and operas. All the big name bands and the small \xe2\x80\x9calt'
+p147
+sg25
+S'of arms and armor in the United States. For more art, you could visit the Pennsylvania Academy of Fine Arts , The Barnes , and'
+p148
+sbsg27
+S'9202a8c04000641f8000000000a7aa2e'
+p149
+sg29
+I48099
+sg30
+S'http://en.wikipedia.org/wiki/Rodin_Museum'
+p150
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p151
+(dp152
+g16
+S'public library'
+p153
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p154
+(dp155
+g21
+S'public library'
+p156
+sg23
+S', post office, savings bank, university , and hospital in the United States, Philadelphia also had the first zoo . There is also an aquarium'
+p157
+sg25
+S'bands and the small \xe2\x80\x9calt rock\xe2\x80\x9d groups come here too. It\xe2\x80\x99s a great place to catch a live show. Besides being home to the first'
+p158
+sbsg27
+S'9202a8c04000641f8000000000307cb0'
+p159
+sg29
+I49257
+sg30
+S'http://en.wikipedia.org/wiki/Free_Library_of_Philadelphia'
+p160
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p161
+(dp162
+g16
+S'university'
+p163
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p164
+(dp165
+g21
+S'university'
+p166
+sg23
+S', and hospital in the United States, Philadelphia also had the first zoo . There is also an aquarium (um\xe2\x80\xa6 over the river in New'
+p167
+sg25
+S'come here too. It\xe2\x80\x99s a great place to catch a live show. Besides being home to the first public library , post office, savings bank,'
+p168
+sbsg27
+S'9202a8c04000641f800000000003e598'
+p169
+sg29
+I49370
+sg30
+S'http://en.wikipedia.org/wiki/University_of_Pennsylvania'
+p170
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p171
+(dp172
+g16
+S'hospital'
+p173
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p174
+(dp175
+g21
+S'hospital'
+p176
+sg23
+S'in the United States, Philadelphia also had the first zoo . There is also an aquarium (um\xe2\x80\xa6 over the river in New Jersey, but close'
+p177
+sg25
+S'It\xe2\x80\x99s a great place to catch a live show. Besides being home to the first public library , post office, savings bank, university , and'
+p178
+sbsg27
+S'9202a8c04000641f800000000039167f'
+p179
+sg29
+I49451
+sg30
+S'http://en.wikipedia.org/wiki/Pennsylvania_Hospital'
+p180
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p181
+(dp182
+g16
+S'zoo'
+p183
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p184
+(dp185
+g21
+S'zoo'
+p186
+sg23
+S'. There is also an aquarium (um\xe2\x80\xa6 over the river in New Jersey, but close enough). For kids there is also the Please Touch Museum'
+p187
+sg25
+S'being home to the first public library , post office, savings bank, university , and hospital in the United States, Philadelphia also had the first'
+p188
+sbsg27
+S'9202a8c04000641f8000000000265a59'
+p189
+sg29
+I49574
+sg30
+S'http://en.wikipedia.org/wiki/Philadelphia_Zoo'
+p190
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p191
+(dp192
+g16
+S'aquarium'
+p193
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p194
+(dp195
+g21
+S'aquarium'
+p196
+sg23
+S'(um\xe2\x80\xa6 over the river in New Jersey, but close enough). For kids there is also the Please Touch Museum . For science lovers will love'
+p197
+sg25
+S'library , post office, savings bank, university , and hospital in the United States, Philadelphia also had the first zoo . There is also an'
+p198
+sbsg27
+S'9202a8c04000641f800000000077ed38'
+p199
+sg29
+I49658
+sg30
+S'http://en.wikipedia.org/wiki/Adventure_Aquarium'
+p200
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p201
+(dp202
+g16
+S'Please Touch Museum'
+p203
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p204
+(dp205
+g21
+S'Please Touch Museum'
+p206
+sg23
+S'. For science lovers will love The Franklin Institute where Zoe and friend are pictured here, riding inside a flight simulator. The Academy of Natural'
+p207
+sg25
+S'the first zoo . There is also an aquarium (um\xe2\x80\xa6 over the river in New Jersey, but close enough). For kids there is also the'
+p208
+sbsg27
+S'9202a8c04000641f8000000007b63e9f'
+p209
+sg29
+I49817
+sg30
+S'http://en.wikipedia.org/wiki/Please_Touch_Museum'
+p210
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p211
+(dp212
+g16
+S'The Franklin Institute'
+p213
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p214
+(dp215
+g21
+S'The Franklin Institute'
+p216
+sg23
+S'where Zoe and friend are pictured here, riding inside a flight simulator. The Academy of Natural Sciences right down the boulevard has collections containing more'
+p217
+sg25
+S'(um\xe2\x80\xa6 over the river in New Jersey, but close enough). For kids there is also the Please Touch Museum . For science lovers will love'
+p218
+sbsg27
+S'9202a8c04000641f8000000000178443'
+p219
+sg29
+I50246
+sg30
+S'http://en.wikipedia.org/wiki/Franklin_Institute'
+p220
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p221
+(dp222
+g16
+S'The Academy of Natural Sciences'
+p223
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p224
+(dp225
+g21
+S'The Academy of Natural Sciences'
+p226
+sg23
+S'right down the boulevard has collections containing more than 17 million specimens. There are several botanical gardens and arboretums to visit, as well as sites'
+p227
+sg25
+S'the Please Touch Museum . For science lovers will love The Franklin Institute where Zoe and friend are pictured here, riding inside a flight simulator.'
+p228
+sbsg27
+S'9202a8c04000641f80000000002e473e'
+p229
+sg29
+I50414
+sg30
+S'http://en.wikipedia.org/wiki/Academy_of_Natural_Sciences'
+p230
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p231
+(dp232
+g16
+S'Seaport Museum'
+p233
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p234
+(dp235
+g21
+S'Seaport Museum'
+p236
+sg23
+S'. If you are looking for something a little more unusual Philadelphia has that too. One of my favorites is the Mutter Museum which contains'
+p237
+sg25
+S'collections containing more than 17 million specimens. There are several botanical gardens and arboretums to visit, as well as sites along with rivers, like the'
+p238
+sbsg27
+S'9202a8c04000641f8000000005688426'
+p239
+sg29
+I50767
+sg30
+S'http://en.wikipedia.org/wiki/Independence_Seaport_Museum'
+p240
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p241
+(dp242
+g16
+S'Mutter Museum'
+p243
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p244
+(dp245
+g21
+S'Mutter Museum'
+p246
+sg23
+S'which contains a collection of medical oddities. It is really gross but quite unique. Laurel Hills Cemetery is a huge, grand cemetery overlooking the Schuylkill'
+p247
+sg25
+S'like the Seaport Museum . If you are looking for something a little more unusual Philadelphia has that too. One of my favorites is the'
+p248
+sbsg27
+Nsg29
+I50989
+sg30
+S'http://en.wikipedia.org/wiki/M%C3%BCtter_Museum'
+p249
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p250
+(dp251
+g16
+S'Laurel Hills Cemetery'
+p252
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p253
+(dp254
+g21
+S'Laurel Hills Cemetery'
+p255
+sg23
+S'is a huge, grand cemetery overlooking the Schuylkill River, with over 33,000 monuments. It is really an amazing place to visit. Literature buffs would like'
+p256
+sg25
+S'has that too. One of my favorites is the Mutter Museum which contains a collection of medical oddities. It is really gross but quite unique.'
+p257
+sbsg27
+S'9202a8c04000641f8000000000931bef'
+p258
+sg29
+I51530
+sg30
+S'http://en.wikipedia.org/wiki/Laurel_Hill_Cemetery'
+p259
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p260
+(dp261
+g16
+S'The Edgar Allen Poe House'
+p262
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p263
+(dp264
+g21
+S'The Edgar Allen Poe House'
+p265
+sg23
+S', The Rosenbach Museum & Library (which has the largest collection of the late, great Maurice Sendak\xe2\x80\x99s illustrations and manuscripts), and The Free Library ,'
+p266
+sg25
+S'is a huge, grand cemetery overlooking the Schuylkill River, with over 33,000 monuments. It is really an amazing place to visit. Literature buffs would like'
+p267
+sbsg27
+S'9202a8c04000641f80000000007a7669'
+p268
+sg29
+I51825
+sg30
+S'http://en.wikipedia.org/wiki/Edgar_Allan_Poe_National_Historic_Site'
+p269
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p270
+(dp271
+g16
+S'The Free Library'
+p272
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p273
+(dp274
+g21
+S'The Free Library'
+p275
+sg23
+S', who\xe2\x80\x99s Rare Book Department features a Charles Dickens collections with first editions, personal letters, and Dickens\xc3\xa2\xe2\x82\xac\xe2\x84\xa2s stuffed pet raven, Grip. The historic Eastern State'
+p276
+sg25
+S'Edgar Allen Poe House , The Rosenbach Museum & Library (which has the largest collection of the late, great Maurice Sendak\xe2\x80\x99s illustrations and manuscripts), and'
+p277
+sbsg27
+S'9202a8c04000641f8000000000307cb0'
+p278
+sg29
+I52111
+sg30
+S'http://en.wikipedia.org/wiki/Free_Library_of_Philadelphia'
+p279
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p280
+(dp281
+g16
+S'Chinatown'
+p282
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p283
+(dp284
+g21
+S'Chinatown'
+p285
+sg23
+S', the Reading Terminal Market (a truly fantastic farmer\xe2\x80\x99s market), Rittenhouse Square and Franklin Square . Philly is also fun for foodies. Every kind of'
+p286
+sg25
+S'for tours and has an amazing Halloween event. Other places of interest in the city are The Comcast Center, with it\xe2\x80\x99s 2000 sqft television screen,'
+p287
+sbsg27
+S'9202a8c04000641f80000000007333ab'
+p288
+sg29
+I53196
+sg30
+S'http://en.wikipedia.org/wiki/Philadelphia_Chinatown'
+p289
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p290
+(dp291
+g16
+S'Reading Terminal Market'
+p292
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p293
+(dp294
+g21
+S'Reading Terminal Market'
+p295
+sg23
+S'(a truly fantastic farmer\xe2\x80\x99s market), Rittenhouse Square and Franklin Square . Philly is also fun for foodies. Every kind of food is represented, at every'
+p296
+sg25
+S'has an amazing Halloween event. Other places of interest in the city are The Comcast Center, with it\xe2\x80\x99s 2000 sqft television screen, Chinatown , the'
+p297
+sbsg27
+S'9202a8c04000641f8000000000692ac9'
+p298
+sg29
+I53278
+sg30
+S'http://en.wikipedia.org/wiki/Reading_Terminal_Market'
+p299
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p300
+(dp301
+g16
+S'Rittenhouse Square'
+p302
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p303
+(dp304
+g21
+S'Rittenhouse Square'
+p305
+sg23
+S'and Franklin Square . Philly is also fun for foodies. Every kind of food is represented, at every price point. Max Brenner is a favorite'
+p306
+sg25
+S'interest in the city are The Comcast Center, with it\xe2\x80\x99s 2000 sqft television screen, Chinatown , the Reading Terminal Market (a truly fantastic farmer\xe2\x80\x99s market),'
+p307
+sbsg27
+S'9202a8c04000641f8000000000434ff0'
+p308
+sg29
+I53407
+sg30
+S'http://en.wikipedia.org/wiki/Rittenhouse_Square'
+p309
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p310
+(dp311
+g16
+S'Wissahickon Creek'
+p312
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p313
+(dp314
+g21
+S'Wissahickon Creek'
+p315
+sg23
+S'and the parkland that surrounds it. It is kinda of ridiculously cool. The path along it is called Forbidden Drive. It has a cave that'
+p316
+sg25
+S'mustard and it is even better tasting than it looks. If you know me then you know that my favorite place in Philadelphia is the'
+p317
+sbsg27
+S'9202a8c04000641f8000000000289347'
+p318
+sg29
+I54597
+sg30
+S'http://en.wikipedia.org/wiki/Wissahickon_Creek'
+p319
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p320
+(dp321
+g16
+S'Franklin Square'
+p322
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p323
+(dp324
+g21
+S'Franklin Square'
+p325
+sg23
+S'. Philly is also fun for foodies. Every kind of food is represented, at every price point. Max Brenner is a favorite of ours. It'
+p326
+sg25
+S'city are The Comcast Center, with it\xe2\x80\x99s 2000 sqft television screen, Chinatown , the Reading Terminal Market (a truly fantastic farmer\xe2\x80\x99s market), Rittenhouse Square and'
+p327
+sbsg27
+S'9202a8c04000641f8000000000dc6c9f'
+p328
+sg29
+I53508
+sg30
+S'http://en.wikipedia.org/wiki/Franklin_Square_(Philadelphia)'
+p329
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p330
+(dp331
+g16
+S'Comcast Building'
+p332
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p333
+(dp334
+g21
+S'Comcast Building'
+p335
+sg23
+S', the tallest building in the city. I\xe2\x80\x99m so jealous that he gets to work in the city and be near all the great shops'
+p336
+sg25
+S'loves and appreciates it\xe2\x80\x99s history. But we also have a pretty cool modern city too. - This is the view from B\xe2\x80\x99s homebase in the'
+p337
+sbsg27
+S'9202a8c04000641f80000000007594f2'
+p338
+sg29
+I43593
+sg30
+S'http://en.wikipedia.org/wiki/Comcast_Center_(Philadelphia)'
+p339
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p340
+(dp341
+g16
+S"Betsey Ross's House"
+p342
+sg18
+Nsg27
+S'9202a8c04000641f8000000000c83e98'
+p343
+sg29
+I41356
+sg30
+S'http://en.wikipedia.org/wiki/Betsy_Ross_House'
+p344
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p345
+(dp346
+g16
+S'Independence Hall'
+p347
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p348
+(dp349
+g21
+S'Independence Hall'
+p350
+sg23
+S', The Constitution Center , Elfreth\xe2\x80\x99s Alley , Valley Forge , and many more sites of historical significance. - - Depending on when you come'
+p351
+sg25
+S'You could easily spend your days learning about the American Revolution where it actually happened. We have the Liberty Bell , Betsey Ross\xe2\x80\x99s House ,'
+p352
+sbsg27
+S'9202a8c04000641f80000000001ff5e5'
+p353
+sg29
+I41464
+sg30
+S'http://en.wikipedia.org/wiki/Independence_Hall_(United_States)'
+p354
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p355
+(dp356
+g16
+S"Elfreth's Alley"
+p357
+sg18
+Nsg27
+S'9202a8c04000641f80000000004ce5a6'
+p358
+sg29
+I41641
+sg30
+S"http://en.wikipedia.org/wiki/Elfreth's_Alley"
+p359
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p360
+(dp361
+g16
+S'Christ Church'
+p362
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p363
+(dp364
+g21
+S'Christ Church'
+p365
+sg23
+S', City Hall , Eastern State Penitentiary and and many buildings by Frank Furness . Here is more info about the architecture of Philadelphia. -'
+p366
+sg25
+S'you like art and architecture. This Swann Memorial Fountain symbolizes Philadelphia\xe2\x80\x99s three major waterways, The Delaware, The Schuykill and the Wissahickon. - We also have'
+p367
+sbsg27
+S'9202a8c04000641f8000000000da2b53'
+p368
+sg29
+I44630
+sg30
+S'http://en.wikipedia.org/wiki/Christ_Church_(Philadelphia)'
+p369
+sbasS'doc_id'
+p370
+I314659
+sS'rare_words'
+p371
+(lp372
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p373
+(dp374
+S'word'
+p375
+S"Crow's"
+p376
+sS'offset'
+p377
+I24085
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p378
+(dp379
+g375
+S'help'
+p380
+sg377
+I38252
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p381
+(dp382
+g375
+S'teaching'
+p383
+sg377
+I37507
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p384
+(dp385
+g375
+S'bedtime'
+p386
+sg377
+I23981
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p387
+(dp388
+g375
+S'fox'
+p389
+sg377
+I56791
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p390
+(dp391
+g375
+S'blog'
+p392
+sg377
+I64222
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p393
+(dp394
+g375
+S'various'
+p395
+sg377
+I26251
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p396
+(dp397
+g375
+S'grill'
+p398
+sg377
+I57691
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p399
+(dp400
+g375
+S'oddities'
+p401
+sg377
+I51046
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p402
+(dp403
+g375
+S'celebrating'
+p404
+sg377
+I31745
+sbasb.

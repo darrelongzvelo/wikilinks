@@ -1,0 +1,2544 @@
+
+
+
+
+Genuine Observations var tb_pathToImage =
+"http://blog.genuineobservations.com/wp-includes/js/thickbox/loadingAnimation.gif";
+var tb_closeImage =
+"http://blog.genuineobservations.com/wp-includes/js/thickbox/tb-close.png";
+body{text-align:center;margin:0;padding:0;font-family:tahoma,arial,sans-serif;font-size:0.8em;color:#000000;background:#ffffff}a:link,a:visited,a:active{color:#141433;font-weight:bold;text-decoration:none;}a:hover{color:#CC0000;font-weight:bold;text-decoration:underline}ul,ol,dl,p,h1,h2,h3,h4,h5,h6{margin-top:10px;margin-bottom:10px;padding-top:0;padding-bottom:0;}ul
+ul,ul ol,ol ul,ol
+ol{margin-top:0;margin-bottom:0}h1,h2,h3,h4,h5,h6{color:#000;display:block;font-smooth:always}h1{font-size:34px;line-height:1.2;margin:0.3em
+0 10px;}h2{font-size:28px;line-height:1.3;margin:1em 0
+.2em;}h3{font-size:24px;line-height:1.3;margin:1em 0
+.2em;}h4{font-size:19px;margin:1.33em 0 .2em;}h5{font-size:1.3em;margin:1.67em
+0;font-weight:bold;}h6{font-size:1.15em;margin:1.67em 0;font-weight:bold;}h1 a,h2
+a,h1 a:link,h2 a:link,h1 a:visited,h2 a:visited{color:#000;}h1 a:active,h2
+a:active,h1 a:focus,h2 a:focus,h1 a:hover,h2
+a:hover{color:#669900;}code,pre{font-family:"Courier
+New",Courier,monospace;font-size:1em}pre{overflow:auto;word-wrap:normal;padding-bottom:1.5em;overflow-y:hidden;width:99%}abbr[title],acronym[title]{border-bottom:1px
+dotted}hr{display:block;height:2px;border:none;margin:0.5em
+auto;color:#cccccc;background-color:#cccccc}table{font-size:1em;}div.post,ul.commentlist
+li,ol.commentlist
+li{word-wrap:break-word;}pre,.wp_syntax{word-wrap:normal;}div#wrapper{text-align:center;margin-left:auto;margin-right:auto;display:block;width:99%}div#container{padding:0;width:auto;margin-left:auto;margin-right:auto;text-align:left;display:block}table#layout{font-size:100%;width:100%;table-layout:fixed}.colone{width:200px}.colone-inner{width:200px}.coltwo{width:100%
+}.colthree-inner{width:220px}.colthree{width:220px}td#header{width:auto;padding:0}table#logoarea,table#logoarea
+tr,table#logoarea
+td{margin:0;padding:0;background:none;border:0}table#logoarea{width:100%;border-spacing:0px}img.logo{display:block;margin:0
+10px 0 0}td.logoarea-logo{width:1%}h1.blogtitle,h2.blogtitle{
+display:block;margin:0;padding:0;letter-spacing:-1px;line-height:1.0em;font-family:tahoma,arial,sans-serif;font-size:240%;font-smooth:always}h1.blogtitle
+a:link,h1.blogtitle a:visited,h1.blogtitle a:active,h2.blogtitle
+a:link,h2.blogtitle a:visited,h2.blogtitle a:active{
+text-decoration:none;color:#064C02;font-weight:bold;font-smooth:always}h1.blogtitle
+a:hover,h2.blogtitle a:hover{
+text-decoration:none;color:#000000;font-weight:bold}p.tagline{margin:0;padding:0;font-size:1.2em;font-weight:bold;color:#666666}td.feed-icons{white-space:nowrap;}div.rss-box{height:1%;display:block;padding:10px
+0 10px
+10px;margin:0;width:280px}a.comments-icon{height:22px;line-height:22px;margin:0
+5px 0
+5px;padding-left:22px;display:block;text-decoration:none;float:right;white-space:nowrap}a.comments-icon:link,a.commentss-icon:active,a.comments-icon:visited{background:transparent
+url(http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/comment-gray.png)
+no-repeat scroll center left}a.comments-icon:hover{background:transparent
+url(http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/comment.png)
+no-repeat scroll center left}a.posts-icon{height:22px;line-height:22px;margin:0 5px
+0
+0;padding-left:20px;display:block;text-decoration:none;float:right;white-space:nowrap}a.posts-icon:link,a.posts-icon:active,a.posts-icon:visited{background:transparent
+url(http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/rss-gray.png)
+no-repeat scroll center left}a.posts-icon:hover{background:transparent
+url(http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/rss.png)
+no-repeat scroll center left}a.email-icon{height:22px;line-height:22px;margin:0 5px
+0
+5px;padding-left:24px;display:block;text-decoration:none;float:right;white-space:nowrap}a.email-icon:link,a.email-icon:active,a.email-icon:visited{background:transparent
+url(http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/email-gray.png)
+no-repeat scroll center left}a.email-icon:hover{background:transparent
+url(http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/email.png)
+no-repeat scroll center
+left}td.search-box{height:1%}div.searchbox{height:35px;border:1px dashed
+#cccccc;border-bottom:0;width:200px;margin:0;padding:0}div.searchbox-form{margin:5px
+10px 5px
+10px}div.horbar1,div.horbar2{font-size:1px;clear:both;display:block;position:relative;padding:0;margin:0;width:100%;}div.horbar1{height:5px;background:#ffffff;border-top:dashed
+1px #cccccc}div.horbar2{height:5px;background:#ffffff;border-bottom:dashed 1px
+#cccccc}div.header-image-container{position:relative;margin:0;padding:0;height:150px;}div.opacityleft{position:absolute;z-index:2;top:0;left:0;background-color:#FFFFFF;height:150px;width:200px;filter:alpha(opacity=40);-moz-opacity:.40;opacity:.40}div.opacityright{position:absolute;z-index:2;top:0;right:0;background-color:#FFFFFF;height:150px;width:220px;filter:alpha(opacity=40);-moz-opacity:.40;opacity:.40}a.divclick:link,a.divclick:visited,a.divclick:active,a.divclick:hover{width:100%;height:100%;display:block;text-decoration:none}td#left{vertical-align:top;border-right:dashed
+1px #CCCCCC;padding:10px 10px 10px
+10px;background:#ffffff}td#left-inner{vertical-align:top;border-right:dashed 1px
+#CCCCCC;padding:10px 10px 10px
+10px;background:#ffffff}td#right{vertical-align:top;border-left:dashed 1px
+#CCCCCC;padding:10px 10px 10px
+10px;background:#ffffff}td#right-inner{vertical-align:top;border-left:dashed 1px
+#CCCCCC;padding:10px 10px 10px
+10px;background:#ffffff}td#middle{vertical-align:top;width:100%;padding:10px
+15px}td#footer{width:auto;background-color:#ffffff;border-top:dashed 1px
+#cccccc;padding:10px;text-align:center;color:#777777;font-size:95%}td#footer
+a:link,td#footer a:visited,td#footer
+a:active{text-decoration:none;color:#777777;font-weight:normal}td#footer
+a:hover{text-decoration:none;color:#777777;font-weight:normal}div.widget{display:block;width:auto;margin:0
+0 15px 0}div.widget-title{display:block;width:auto}div.widget-title h3,td#left
+h3.tw-widgettitle,td#right h3.tw-widgettitle,td#left ul.tw-nav-list,td#right
+ul.tw-nav-list{padding:0;margin:0;font-size:1.6em;font-weight:bold}div.widget
+ul,div.textwidget{display:block;width:auto}div.widget
+select{width:98%;margin-top:5px;}div.widget
+ul{list-style-type:none;margin:0;padding:0;width:auto}div.widget ul
+li{display:block;margin:2px 0 2px 0px;padding:0 0 0 5px;border-left:solid 7px
+#cccccc}div.widget ul li:hover,div.widget ul
+li.sfhover{display:block;width:auto;border-left:solid 7px #000000;}div.widget ul li
+ul li{margin:2px 0 2px 5px;padding:0 0 0 5px;border-left:solid 7px #cccccc;}div.widget ul
+li ul li:hover,div.widget ul li ul li.sfhover{border-left:solid 7px #000000;}div.widget
+ul li ul li ul li{margin:2px 0 2px 5px;padding:0 0 0 5px;border-left:solid 7px
+#cccccc;}div.widget ul li ul li ul li:hover,div.widget ul li ul li ul
+li.sfhover{border-left:solid 7px #000000;}div.widget ul li a:link,div.widget ul li
+a:visited,div.widget ul li
+a:active{text-decoration:none;font-weight:normal;color:#666666;font-weight:normal;}div.widget
+ul li ul li a:link,div.widget ul li ul li a:visited,div.widget ul li ul li
+a:active{color:#666666;font-weight:normal;}div.widget ul li ul li ul li
+a:link,div.widget ul li ul li ul li a:visited,div.widget ul li ul li ul li
+a:active{color:#666666;font-weight:normal;}div.widget ul li
+a:hover{color:#000000;}div.widget ul li ul li a:hover{color:#000000;}div.widget ul li
+ul li ul li a:hover{color:#000000;}div.widget ul li a:link,div.widget ul li
+a:visited,div.widget ul li a:active,div.widget ul li a:hover{display:inline}* html
+div.widget ul li a:link,* html div.widget ul li a:visited,* html div.widget ul li a:active,*
+html div.widget ul li a:hover{height:1%; } div.widget_pages ul li,div.widget_categories
+ul li{border-left:0 !important;padding:0 !important}div.widget_pages ul li
+a:link,div.widget_pages ul li a:visited,div.widget_pages ul li
+a:active,div.widget_categories ul li a:link,div.widget_categories ul li
+a:visited,div.widget_categories ul li a:active{padding:0 0 0 5px;border-left:solid 7px
+#cccccc}div.widget_pages ul li a:hover,div.widget_categories ul li
+a:hover{border-left:solid 7px #000000;}div.widget_pages ul li ul li
+a:link,div.widget_pages ul li ul li a:visited,div.widget_pages ul li ul li
+a:active,div.widget_categories ul li ul li a:link,div.widget_categories ul li ul li
+a:visited,div.widget_categories ul li ul li a:active{padding:0 0 0
+5px;border-left:solid 7px #cccccc}div.widget_pages ul li ul li
+a:hover,div.widget_categories ul li ul li a:hover{border-left:solid 7px
+#000000;}div.widget_pages ul li ul li ul li a:link,div.widget_pages ul li ul li ul li
+a:visited,div.widget_pages ul li ul li ul li a:active,div.widget_categories ul li ul li ul
+li a:link,div.widget_categories ul li ul li ul li a:visited,div.widget_categories ul li ul
+li ul li a:active{padding:0 0 0 5px;border-left:solid 7px #cccccc}div.widget_pages ul li
+ul li ul li a:hover,div.widget_categories ul li ul li ul li a:hover{border-left:solid 7px
+#000000;}div.widget_pages ul li a:link,div.widget_pages ul li
+a:active,div.widget_pages ul li a:visited,div.widget_pages ul li
+a:hover{display:block !important}div.widget_categories ul li
+a:link,div.widget_categories ul li a:active,div.widget_categories ul li
+a:visited,div.widget_categories ul li a:hover{display:inline
+!important}table.subscribe{width:100%}table.subscribe td.email-text{padding:0 0
+5px 0;vertical-align:top}table.subscribe
+td.email-field{padding:0;width:100%}table.subscribe td.email-button{padding:0 0 0
+5px}table.subscribe td.post-text{padding:7px 0 0
+0;vertical-align:top}table.subscribe td.comment-text{padding:7px 0 0
+0;vertical-align:top}div.post,div.page{display:block;margin:0 0 30px
+0}div.sticky{background:#eee
+url(http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/sticky.gif)
+99% 5% no-repeat;border:dashed 1px #cccccc;padding:10px}div.post-kicker{margin:0 0
+5px 0}div.post-kicker a:link,div.post-kicker a:visited,div.post-kicker
+a:active{color:#000000;text-decoration:none;text-transform:uppercase}div.post-kicker
+a:hover{color:#cc0000}div.post-headline{color:#064C02}div.post-headline
+h1,div.post-headline h2{ margin:0; padding:0;padding:0;margin:0}div.post-headline
+h2 a:link,div.post-headline h2 a:visited,div.post-headline h2
+a:active,div.post-headline h1 a:link,div.post-headline h1
+a:visited,div.post-headline h1
+a:active{color:#064C02;text-decoration:none}div.post-headline h2
+a:hover,div.post-headline h1
+a:hover{color:#000000;text-decoration:none}div.post-byline{margin:5px 0 10px
+0}div.post-byline a:link,div.post-byline a:visited,div.post-byline
+a:active{}div.post-byline a:hover{}div.post-bodycopy{}div.post-bodycopy
+p{margin:1em
+0;padding:0;display:block}div.post-pagination{}div.post-footer{clear:both;display:block;margin:0;padding:5px;background:#eeeeee;color:#666;line-height:18px}div.post-footer
+a:link,div.post-footer a:visited,div.post-footer
+a:active{color:#333;font-weight:normal;text-decoration:none}div.post-footer
+a:hover{color:#333;font-weight:normal;text-decoration:underline}div.post-kicker
+img,div.post-byline img,div.post-footer img{border:0;padding:0;margin:0 0 -1px
+0;background:none}span.post-ratings{display:inline-block;width:auto;white-space:nowrap}div.navigation-top{display:block;width:100%;margin:0
+0 10px 0;padding:0 0 10px 0;border-bottom:dashed 1px
+#cccccc}div.navigation-middle{display:block;width:100%;margin:10px 0 20px
+0;padding:10px 0 10px 0;border-top:dashed 1px #cccccc;border-bottom:dashed 1px
+#cccccc}div.navigation-bottom{display:block;width:100%;margin:20px 0 0
+0;padding:10px 0 0 0;border-top:dashed 1px
+#cccccc}div.navigation-comments-above{display:block;width:100%;margin:0 0 10px
+0;padding:5px 0 5px
+0}div.navigation-comments-below{display:block;width:100%;margin:0 0 10px
+0;padding:5px 0 5px
+0}div.older{float:left;width:49%;text-align:left;margin:0;padding:0}div.newer{float:right;width:49%;text-align:right;margin:0;padding:0;}div.older-home{float:left;width:45%;text-align:left;margin:0;padding:0}div.newer-home{float:right;width:45%;text-align:right;margin:0;padding:0;}div.home{float:left;width:9%;text-align:center;margin:0;padding:0}form,.feedburner-email-form{margin:0;padding:0;}fieldset{border:1px
+solid #cccccc;width:auto;padding:0.35em 0.625em
+0.75em;display:block;}legend{color:#000000;background:#f4f4f4;border:1px solid
+#cccccc;padding:2px 6px;margin-bottom:15px;}form p{margin:5px 0 0
+0;padding:0;}label{margin-right:0.5em;font-family:arial;cursor:pointer;}input.text,input.textbox,input.password,input.file,input.TextField,textarea{padding:3px;color:#000000;border-top:solid
+1px #333333;border-left:solid 1px #333333;border-right:solid 1px
+#999999;border-bottom:solid 1px
+#cccccc;background:url(http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/inputbackgr.gif)
+top left
+no-repeat}textarea{width:96%;}input.inputblur{color:#777777;width:95%}input.inputfocus{color:#000000;width:95%}input.highlight,textarea.highlight{background:#e8eff7;border-color:#37699f}.button,.Button{padding:0
+2px;height:24px;line-height:16px;background-color:#777777;color:#ffffff;border:solid
+2px #555555;font-weight:bold}.buttonhover{padding:0
+2px;cursor:pointer;background-color:#6b9c6b;color:#ffffff;border:solid 2px
+#496d49}form#commentform input#submit{padding:4px 10px 4px
+10px;font-size:1.2em;line-height:1.5em;height:36px}table.searchform{width:100%}table.searchform
+td.searchfield{padding:0;width:100%}table.searchform td.searchbutton{padding:0 0 0
+5px}table.searchform td.searchbutton input{padding:0 0 0
+5px}blockquote{height:1%;display:block;clear:both;font:italic 1.1em
+georgia,serif;margin:15px 10px 0
+30px;padding-left:5px;padding-right:20px;border-left:5px solid
+#ddd;border-right:0 none}blockquote
+blockquote{height:1%;display:block;clear:both;font:italic 1.1em
+georgia,serif;margin:15px 10px 0
+30px;padding-left:5px;padding-right:20px;border-left:5px solid
+#ddd;border-right:0 none}div.post table{border-collapse:collapse;margin:10px
+0}div.post table caption{width:auto;margin:0
+auto;background:#eeeeee;border:#999999;padding:4px 8px;color:#666666}div.post
+table
+th{background:#888888;color:#ffffff;font-weight:bold;font-size:90%;padding:4px
+8px;border:solid 1px #ffffff;text-align:left}div.post table td{padding:4px
+8px;background-color:#ffffff;border-bottom:1px solid
+#dddddd;text-align:left}div.post table tfoot td{}div.post table tr.alt
+td{background:#f4f4f4}div.post table tr.over
+td{background:#e2e2e2}#calendar_wrap{padding:0;border:none}table#wp-calendar{width:100%;font-size:90%;border-collapse:collapse;background-color:#ffffff;margin:0
+auto}table#wp-calendar
+caption{width:auto;background:#eeeeee;border:none;;padding:3px;margin:0
+auto;font-size:1em}table#wp-calendar th{border:solid 1px
+#eeeeee;background-color:#999999;color:#ffffff;font-weight:bold;padding:2px;text-align:center}table#wp-calendar
+td{padding:0;line-height:18px;background-color:#ffffff;border:1px solid
+#dddddd;text-align:center}table#wp-calendar tfoot td{border:solid 1px
+#eeeeee;background-color:#eeeeee}table#wp-calendar td
+a{display:block;background-color:#eeeeee;width:100%;height:100%;padding:0}div#respond{margin:25px
+0;padding:25px;background:#eee;-moz-border-radius:8px;-khtml-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;}p.thesetags{margin:10px
+0}h3.reply{margin:0;padding:0 0 10px 0}ol.commentlist{margin:15px 0 25px
+0;list-style-type:none;padding:0;display:block;border-top:dotted 1px
+#cccccc}ol.commentlist li{padding:15px
+10px;display:block;height:1%;margin:0;background-color:#ffffff;border-bottom:dotted
+1px #cccccc}ol.commentlist
+li.alt{display:block;height:1%;background-color:#eeeeee;border-bottom:dotted 1px
+#cccccc}ol.commentlist
+li.authorcomment{display:block;height:1%;background-color:#ffecec}ol.commentlist
+span.authorname{font-weight:bold;font-size:110%}ol.commentlist
+span.commentdate{color:#666666;font-size:90%;margin-bottom:5px;display:block}ol.commentlist
+span.editcomment{display:block}ol.commentlist li p{margin:2px 0 5px
+0}div.comment-number{float:right;font-size:2em;line-height:2em;font-family:georgia,serif;font-weight:bold;color:#ddd;margin:-10px
+0 0 0;position:relative;height:1%}div.comment-number a:link,div.comment-number
+a:visited,div.comment-number
+a:active{color:#ccc}textarea#comment{width:98%;margin:10px
+0;display:block}ul.commentlist{margin:15px 0 15px
+0;list-style-type:none;padding:0;display:block;border-top:dotted 1px
+#cccccc}ul.commentlist
+ul{margin:0;border:none;list-style-type:none;padding:0}ul.commentlist
+li{padding:0; margin:0;display:block;clear:both;height:1%;}ul.commentlist
+ul.children li{ margin-left:30px}ul.commentlist
+div.comment-container{padding:10px;margin:0}ul.children
+div.comment-container{background-color:transparent;border:dotted 1px
+#ccc;padding:10px;margin:0 10px 8px 0; -moz-border-radius:5px;
+-khtml-border-radius:5px; -webkit-border-radius:5px;
+border-radius:5px}ul.children div.bypostauthor{}ul.commentlist
+li.thread-even{background-color:#ffffff;border-bottom:dotted 1px
+#cccccc}ul.commentlist
+li.thread-odd{background-color:#eeeeee;border-bottom:dotted 1px
+#cccccc}ul.commentlist div.bypostauthor{background-color:#ffecec}ul.children
+div.bypostauthor{border:dotted 1px #ffbfbf}ul.commentlist
+span.authorname{font-size:110%}div.comment-meta a:link,div.comment-meta
+a:visited,div.comment-meta a:active,div.comment-meta
+a:hover{font-weight:normal}div#cancel-comment-reply{margin:-5px 0 10px
+0}div.comment-number{float:right;font-size:2em;line-height:2em;font-family:georgia,serif;font-weight:bold;color:#ddd;margin:-10px
+0 0 0;position:relative;height:1%}div.comment-number a:link,div.comment-number
+a:visited,div.comment-number a:active{color:#ccc}.page-numbers{padding:2px
+6px;border:solid 1px
+#000000;-moz-border-radius:6px;-khtml-border-radius:6px;-webkit-border-radius:6px;border-radius:6px}span.current{background:#ddd}a.prev,a.next{border:none}a.page-numbers:link,a.page-numbers:visited,a.page-numbers:active{text-decoration:none;color:#141433;border-color:#141433}a.page-numbers:hover{text-decoration:none;color:#CC0000;border-color:#CC0000}div.xhtml-tags{display:none}abbr
+em{border:none !important;border-top:dashed 1px #aaa
+!important;display:-moz-inline-box !important;display:inline-block
+!important;background:url(http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/commentluv.gif)
+0% 90% no-repeat;margin-top:8px;padding:5px 5px 2px 20px
+!important;font-style:normal}p.subscribe-to-comments{margin-bottom:10px}div#gsHeader{display:none;}div.g2_column{margin:0
+!important;width:100% !important;font-size:1.2em}div#gsNavBar{border-top-width:0
+!important}p.giDescription{font-size:1.2em;line-height:1
+!important}p.giTitle{margin:0.3em 0
+!important;font-size:1em;font-weight:normal;color:#666}div#wp-email
+img{border:0;padding:0}div#wp-email input,div#wp-email
+textarea{margin-top:5px;margin-bottom:2px}div#wp-email
+p{margin-bottom:10px}input#wp-email-submit{ padding:0; font-size:30px;
+height:50px; line-height:50px; overflow:visible;}img.WP-EmailIcon{
+vertical-align:text-bottom !important}.tw-accordion .tw-widgettitle,.tw-accordion
+.tw-widgettitle:hover,.tw-accordion .tw-hovered,.tw-accordion
+.selected,.tw-accordion .selected:hover{ background:transparent !important;
+background-image:none !important}.tw-accordion .tw-widgettitle span{ padding-left:0
+!important}.tw-accordion h3.tw-widgettitle{border-bottom:solid 1px
+#ccc}.tw-accordion h3.selected{border-bottom:none}td#left .without_title,td#right
+.without_title{ margin-top:0;margin-bottom:0}ul.tw-nav-list{border-bottom:solid
+1px #999;display:block;margin-bottom:5px !important}td#left ul.tw-nav-list
+li,td#right ul.tw-nav-list li{padding:0 0 1px 0;margin:0 0 -1px 5px; border:solid 1px
+#ccc;border-bottom:none;-moz-border-radius:5px;-khtml-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;-moz-border-radius-bottomright:0;-moz-border-radius-bottomleft:0;-webkit-border-bottom-right-radius:0;-webkit-border-bottom-left-radius:0;border-bottom-right-radius:0;border-bottom-left-radius:0;background:#eee}td#left
+ul.tw-nav-list li.ui-tabs-selected,td#right ul.tw-nav-list li.ui-tabs-selected{
+background:none;border:solid 1px #999;border-bottom:solid 1px #fff
+!important}ul.tw-nav-list li a:link,ul.tw-nav-list li a:visited,ul.tw-nav-list li
+a:active,ul.tw-nav-list li a:hover{padding:0 8px
+!important;background:none;border-left:none !important;outline:none}td#left
+ul.tw-nav-list li.ui-tabs-selected a,td#left li.ui-tabs-selected a:hover,td#right
+ul.tw-nav-list li.ui-tabs-selected a,td#right li.ui-tabs-selected a:hover{
+color:#000000; text-decoration:none;font-weight:bold;background:none
+!important;outline:none}td#left .ui-tabs-panel,td#right .ui-tabs-panel{ margin:0;
+padding:0}img{border:0}#dbem-location-map img{ background:none !important}.post
+img{padding:5px;border:solid 1px
+#dddddd;background-color:#f3f3f3;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}.post
+img.size-full{max-width:96%;width:auto 100%;margin:5px 0 5px 0}div.post
+img[class~=size-full]{height:auto;}.post img.alignleft{float:left;margin:10px
+10px 5px 0;}.post img.alignright{float:right;margin:10px 0 5px 10px;}.post
+img.aligncenter{display:block;margin:10px auto}.aligncenter,div.aligncenter{
+display:block; margin-left:auto;
+margin-right:auto}.alignleft,div.alignleft{float:left;margin:10px 10px 5px
+0}.alignright,div.alignright{ float:right; margin:10px 0 5px 10px}div.archives-page
+img{border:0;padding:0;background:none;margin-bottom:0;vertical-align:-10%}.wp-caption{max-width:96%;width:auto
+100%;height:auto;display:block;border:1px solid
+#dddddd;text-align:center;background-color:#f3f3f3;padding-top:4px;margin:10px 0
+0
+0;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}*
+html .wp-caption{height:100%;}.wp-caption img{ margin:0 !important; padding:0
+!important; border:0 none !important}.wp-caption
+p.wp-caption-text{font-size:0.8em;line-height:13px;padding:2px 4px
+5px;margin:0;color:#666666}img.wp-post-image{float:left;border:0;padding:0;background:none;margin:0
+10px 5px 0}img.wp-smiley{ float:none;border:none !important;margin:0 1px -1px
+1px;padding:0 !important;background:none
+!important}img.avatar{float:left;display:block;margin:0 8px 1px
+0;padding:3px;border:solid 1px
+#ddd;background-color:#f3f3f3;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}#comment_quicktags{text-align:left;padding:10px
+0 2px 0;display:block}#comment_quicktags
+input.ed_button{background:#f4f4f4;border:2px solid
+#cccccc;color:#444444;margin:2px 4px 2px 0;width:auto;padding:0
+4px;height:24px;line-height:16px}#comment_quicktags
+input.ed_button_hover{background:#dddddd;border:2px solid
+#666666;color:#000000;margin:2px 4px 2px 0;width:auto;padding:0
+4px;height:24px;line-height:16px;cursor:pointer}#comment_quicktags
+#ed_strong{font-weight:bold}#comment_quicktags #ed_em{font-style:italic}@media
+print{body{background:white;color:black;margin:0;font-size:10pt
+!important;font-family:arial,sans-serif;}div.post-footer{line-height:normal
+!important;color:#555 !important;font-size:9pt
+!important}a:link,a:visited,a:active,a:hover{text-decoration:underline
+!important;color:#000}h2{color:#000;font-size:14pt !important;font-weight:normal
+!important}h3{color:#000;font-size:12pt
+!important;}#header,#footer,.colone,.colthree,.navigation,.navigation-top,.navigation-middle,.navigation-bottom,.wp-pagenavi-navigation,#comment,#respond,.remove-for-print{display:none}td#left,td#right,td#left-inner,td#right-inner{width:0}td#middle{width:100%}*:lang(en)
+td#left{ display:none}*:lang(en) td#right{ display:none}*:lang(en) td#left-inner{
+display:none}*:lang(en) td#right-inner{ display:none}td#left:empty{
+display:none}td#right:empty{ display:none}td#left-inner:empty{
+display:none}td#right-inner:empty{ display:none}}ul.rMenu,ul.rMenu ul,ul.rMenu
+li,ul.rMenu a{display:block;margin:0;padding:0}ul.rMenu,ul.rMenu li,ul.rMenu
+ul{list-style:none}ul.rMenu ul{display:none}ul.rMenu
+li{position:relative;z-index:1}ul.rMenu li:hover{z-index:999}ul.rMenu li:hover >
+ul{display:block;position:absolute}ul.rMenu li:hover{background-position:0 0}
+ul.rMenu-hor li{float:left;width:auto}ul.rMenu-hRight li{float:right}ul.rMenu-ver
+li{float:none}div#menu1 ul.rMenu-ver,div#menu1 ul.rMenu-ver
+ul{width:11em}div#menu2 ul.rMenu-ver,div#menu2 ul.rMenu-ver
+ul{width:11em}ul.rMenu-wide{width:100%}ul.rMenu-vRight{float:right}ul.rMenu-lFloat{float:left}ul.rMenu-noFloat{float:none}div.rMenu-center
+ul.rMenu{float:left;position:relative;left:50%}div.rMenu-center ul.rMenu
+li{position:relative;left:-50%}div.rMenu-center ul.rMenu li
+li{left:auto}ul.rMenu-hor
+ul{top:auto;right:auto;left:auto;margin-top:-1px}ul.rMenu-hor ul
+ul{margin-top:0;margin-left:0px}ul.rMenu-ver
+ul{left:100%;right:auto;top:auto;top:0}ul.rMenu-vRight ul,ul.rMenu-hRight
+ul.rMenu-ver ul{left:-100%;right:auto;top:auto}ul.rMenu-hRight
+ul{left:auto;right:0;top:auto;margin-top:-1px}div#menu1
+ul.rMenu{background:#ffffff;border:dashed 1px #cccccc}div#menu2
+ul.rMenu{background:#777777;border:solid 1px #000000}div#menu1 ul.rMenu li
+a{border:dashed 1px #cccccc}div#menu2 ul.rMenu li a{border:solid 1px
+#000000}ul.rMenu-hor
+li{margin-bottom:-1px;margin-top:-1px;margin-left:-1px}ul#rmenu li{}ul#rmenu li ul
+li{}ul.rMenu-hor{padding-left:1px }ul.rMenu-ver li{margin-left:0;margin-top:-1px;
+}div#menu1 ul.rMenu-ver{border-top:dashed 1px #cccccc}div#menu2
+ul.rMenu-ver{border-top:solid 1px #000000}div#menu1 ul.rMenu li a{padding:4px
+5px}div#menu2 ul.rMenu li a{padding:4px 5px}div#menu1 ul.rMenu li a:link,div#menu1
+ul.rMenu li a:hover,div#menu1 ul.rMenu li a:visited,div#menu1 ul.rMenu li
+a:active{text-decoration:none;margin:0;padding:4px
+5px;color:#777777;text-transform:uppercase;font:11px
+Arial,Verdana,sans-serif;}div#menu2 ul.rMenu li a:link,div#menu2 ul.rMenu li
+a:hover,div#menu2 ul.rMenu li a:visited,div#menu2 ul.rMenu li
+a:active{text-decoration:none;margin:0;padding:4px
+5px;color:#ffffff;text-transform:uppercase;font:11px
+Arial,Verdana,sans-serif;}div#menu1 ul.rMenu
+li{background-color:#ffffff}div#menu2 ul.rMenu
+li{background-color:#777777}div#menu1 ul.rMenu li:hover,div#menu1 ul.rMenu
+li.sfhover{background:#dddddd}div#menu2 ul.rMenu li:hover,div#menu2 ul.rMenu
+li.sfhover{background:#000000}div#menu1 ul.rMenu li.current_page_item >
+a:link,div#menu1 ul.rMenu li.current_page_item > a:active,div#menu1 ul.rMenu
+li.current_page_item > a:hover,div#menu1 ul.rMenu li.current_page_item >
+a:visited{background-color:#eeeeee;color:#000000}div#menu1 ul.rMenu
+li.current_page_item a:link,div#menu1 ul.rMenu li.current_page_item
+a:active,div#menu1 ul.rMenu li.current_page_item a:hover,div#menu1 ul.rMenu
+li.current_page_item a:visited,div#menu1 ul.rMenu li
+a:hover{background-color:#eeeeee;color:#000000}div#menu2 ul.rMenu li.current-cat >
+a:link,div#menu2 ul.rMenu li.current-cat > a:active,div#menu2 ul.rMenu li.current-cat
+> a:hover,div#menu2 ul.rMenu li.current-cat >
+a:visited{background-color:#cc0000;color:#ffffff}div#menu2 ul.rMenu
+li.current-cat a:link,div#menu2 ul.rMenu li.current-cat a:active,div#menu2 ul.rMenu
+li.current-cat a:hover,div#menu2 ul.rMenu li.current-cat a:visited,div#menu2
+ul.rMenu li a:hover{background-color:#cc0000;color:#ffffff}div#menu1 ul.rMenu
+li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand a,div#menu1
+ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+a{padding-right:15px;padding-left:5px;background-repeat:no-repeat;background-position:100%
+50%;background-image:url(http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/expand-right.gif)}div#menu2
+ul.rMenu li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand
+a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2
+ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2
+ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand
+a{padding-right:15px;padding-left:5px;background-repeat:no-repeat;background-position:100%
+50%;background-image:url(http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/expand-right-white.gif)}ul.rMenu-vRight
+li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight
+li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight
+li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight
+li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+a{padding-right:5px;padding-left:20px;background-image:url(http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/expand-left.gif);background-repeat:no-repeat;background-position:-5px
+50%}div#menu1 ul.rMenu-hor li.rMenu-expand a{padding-left:5px;padding-right:15px
+!important;background-position:100%
+50%;background-image:url(http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/expand-down.gif)}div#menu2
+ul.rMenu-hor li.rMenu-expand a{padding-left:5px;padding-right:15px
+!important;background-position:100%
+50%;background-image:url(http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/expand-down-white.gif)}div#menu1
+ul.rMenu li.rMenu-expand li a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li
+a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,div#menu1
+ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li
+a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li
+a{background-image:none;padding-right:5px;padding-left:5px}div#menu2 ul.rMenu
+li.rMenu-expand li a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li a,div#menu2
+ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,div#menu2 ul.rMenu
+li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,div#menu2
+ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand
+li.rMenu-expand li a{background-image:none;padding-right:5px;padding-left:5px}*
+html
+ul.rMenu{display:inline-block;display:block;position:relative;position:static}*
+html ul.rMenu ul{float:left;float:none}ul.rMenu ul{}* html ul.rMenu-ver li,* html
+ul.rMenu-hor li ul.rMenu-ver
+li{width:100%;float:left;clear:left}*:first-child+html ul.rMenu-ver >
+li{width:100%;float:left;clear:left}ul.rMenu li a{position:relative;min-width:0}*
+html ul.rMenu-hor li{width:11em;width:auto}* html
+div.rMenu-center{position:relative;z-index:1}* html ul.rMenu
+ul{display:block;position:absolute}* html ul.rMenu ul,* html ul.rMenu-hor ul,* html
+ul.rMenu-ver ul,* html ul.rMenu-vRight ul,* html ul.rMenu-hRight ul.rMenu-ver ul,* html
+ul.rMenu-hRight ul{left:-10000px}* html ul.rMenu li.sfhover{z-index:999}* html
+ul.rMenu li.sfhover ul{left:auto}* html ul.rMenu li.sfhover ul ul,* html ul.rMenu
+li.sfhover ul ul ul,* html ul.rMenu li.sfhover ul ul ul ul,* html ul.rMenu li.sfhover ul ul ul
+ul ul,* html ul.rMenu li.sfhover ul ul ul ul ul ul{display:none}* html ul.rMenu li.sfhover
+ul,* html ul.rMenu li li.sfhover ul,* html ul.rMenu li li li.sfhover ul,* html ul.rMenu li li
+li li.sfhover ul,* html ul.rMenu li li li li li.sfhover ul{display:block}* html
+ul.rMenu-ver li.sfhover ul{left:100%}* html ul.rMenu-vRight li.sfhover ul,* html
+ul.rMenu-hRight ul.rMenu-ver li.sfhover ul{left:-100%}* html ul.rMenu
+iframe{position:absolute;left:0;top:0;z-index:-1}* html
+ul.rMenu{margin-left:1px}* html ul.rMenu ul,* html ul.rMenu ul ul,* html ul.rMenu ul ul
+ul,* html ul.rMenu ul ul ul ul{margin-left:0}* html
+ul.rMenu{display:inline-block;display:block;position:relative;position:static}*
+html ul.rMenu ul{float:left;float:none}ul.rMenu ul{background-color:#fff}* html
+ul.rMenu-ver li,* html ul.rMenu-hor li ul.rMenu-ver
+li{width:100%;float:left;clear:left}*:first-child+html ul.rMenu-ver > li:hover
+ul{min-width:0}ul.rMenu li a{position:relative;min-width:0}* html ul.rMenu-hor
+li{width:6em;width:auto}* html
+div.rMenu-center{position:relative;z-index:1}html:not([lang*=""])
+div.rMenu-center ul.rMenu li a:hover{height:100%}html:not([lang*=""])
+div.rMenu-center ul.rMenu li a:hover{height:auto}* html ul.rMenu
+ul{display:block;position:absolute}* html ul.rMenu ul,* html ul.rMenu-hor ul,* html
+ul.rMenu-ver ul,* html ul.rMenu-vRight ul,* html ul.rMenu-hRight ul.rMenu-ver ul,* html
+ul.rMenu-hRight ul{left:-10000px}* html ul.rMenu li.sfhover{z-index:999}* html
+ul.rMenu li.sfhover ul{left:auto}* html ul.rMenu li.sfhover ul ul,* html ul.rMenu
+li.sfhover ul ul ul{display:none}* html ul.rMenu li.sfhover ul,* html ul.rMenu li
+li.sfhover ul,* html ul.rMenu li li li.sfhover ul{display:block}* html ul.rMenu-ver
+li.sfhover ul{left:60%}* html ul.rMenu-vRight li.sfhover ul,* html ul.rMenu-hRight
+ul.rMenu-ver li.sfhover ul{left:-60%}* html ul.rMenu
+iframe{position:absolute;left:0;top:0;z-index:-1}.clearfix:after{
+content:".";display:block;height:0;clear:both;visibility:hidden}.clearfix{min-width:0;display:inline-block;display:block}*
+html .clearfix{height:1%;}* html
+a.posts-icon,a.comments-icon,a.email-icon,img.logo{behavior:url("http://blog.genuineobservations.com/wp-content/themes/atahualpa/js/iepngfix.php")
+}.clearfix:after{
+content:".";display:block;height:0;clear:both;visibility:hidden}.clearfix{min-width:0;display:inline-block;display:block}*
+html
+.clearfix{height:1%;}.clearboth{clear:both;height:1%;font-size:1%;line-height:1%;display:block;padding:0;margin:0}
+//<![CDATA[ /* JQUERY */ jQuery(document).ready(function(){ /* For IE6 */ if
+(jQuery.browser.msie && /MSIE 6\.0/i.test(window.navigator.userAgent) && !/MSIE
+7\.0/i.test(window.navigator.userAgent) && !/MSIE
+8\.0/i.test(window.navigator.userAgent)) { /* Max-width for images in IE6 */ var
+centerwidth = jQuery("td#middle").width(); /* Images without caption */ jQuery(".post
+img").each(function() { var maxwidth = centerwidth - 10 + 'px'; var imgwidth =
+jQuery(this).width(); var imgheight = jQuery(this).height(); var newimgheight =
+(centerwidth / imgwidth * imgheight) + 'px'; if (imgwidth > centerwidth) {
+jQuery(this).css({width: maxwidth}); jQuery(this).css({height: newimgheight}); } });
+/* Images with caption */ jQuery("div.wp-caption").each(function() { var captionwidth =
+jQuery(this).width(); var maxcaptionwidth = centerwidth + 'px'; var captionheight =
+jQuery(this).height(); var captionimgwidth = jQuery("div.wp-caption img").width();
+var captionimgheight = jQuery("div.wp-caption img").height(); if (captionwidth >
+centerwidth) { jQuery(this).css({width: maxcaptionwidth}); var newcaptionheight =
+(centerwidth / captionwidth * captionheight) + 'px'; var newcaptionimgheight =
+(centerwidth / captionimgwidth * captionimgheight) + 'px'; jQuery(this).css({height:
+newcaptionheight}); jQuery("div.wp-caption img").css({height:
+newcaptionimgheight}); } }); /* sfhover for LI:HOVER support in IE6: */ jQuery("ul li").
+hover( function() { jQuery(this).addClass("sfhover") }, function() {
+jQuery(this).removeClass("sfhover") } ); /* End IE6 */ } jQuery(".post table tr").
+mouseover(function() { jQuery(this).addClass("over"); }). mouseout(function() {
+jQuery(this).removeClass("over"); }); jQuery(".post table tr:even").
+addClass("alt"); jQuery("input.text, input.TextField, input.file, input.password,
+textarea"). focus(function () { jQuery(this).addClass("highlight"); }). blur(function
+() { jQuery(this).removeClass("highlight"); }) jQuery("input.inputblur").
+focus(function () { jQuery(this).addClass("inputfocus"); }). blur(function () {
+jQuery(this).removeClass("inputfocus"); }) jQuery("input.button, input.Button").
+mouseover(function() { jQuery(this).addClass("buttonhover"); }).
+mouseout(function() { jQuery(this).removeClass("buttonhover"); }); /* toggle "you can
+use these xhtml tags" */ jQuery("a.xhtmltags"). click(function(){
+jQuery("div.xhtml-tags").slideToggle(300); }); /* For the Tabbed Widgets plugin: */
+jQuery("ul.tw-nav-list"). addClass("clearfix"); }); //]]>
+
+    
+
+    - Home
+
+    
+
+    - About this blogger
+
+    
+
+    - Purpose of this blog
+
+    
+
+    - Yoga
+
+    
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/logo_arms_small.png
+
+Genuine Observations
+
+
+
+Words are spirit vibrating into reality Comments Posts        
+
+Welcome to Genuine Observations.
+
+
+
+The ideas and information that you'll find on this website are posted with the hope of sparking
+conversations with like minded people. My wish is that you'll find as much inspiration
+reading these postings as I've had putting them together.
+
+When our thoughts and actions align in harmony, what we do feels right. Let the right feelings
+come forth!
+
+Recent Posts
+
+    
+
+    - The Next Step â€“Yoga!
+
+    
+
+    - Garden Zucchini with Raw Marinara
+
+    
+
+    - A plant based diet
+
+    
+
+    - Celebrate yourself and reach others
+
+    
+
+    - Triple Berry Swiss Chard Smoothie
+
+    
+
+
+
+Image: https://www.paypal.com/en_US/i/scr/pixel.gif
+
+Reading:
+
+#iar_box_outer { width: 100%; text-align: center; } #iar_box_inner { display: table;
+display: inline-block; margin: 5px auto; color: #777777; font: 10px Verdana; }
+.iar_cover_img { max-width: 115px; } .iar_progressbar { height: 5px; background-color:
+#CCCCCC; font: 1px Arial,Verdana,sans-serif; } .iar_progressbar_inner { position:
+relative; height: 5px; width: 100%; background-color: #008000; font: 1px
+Arial,Verdana,sans-serif; float: left; } .iar_progressbar_text { padding-top: 4px;
+font: 10px Verdana; color: #777777; text-align: left; max-width: 200px; }
+
+Image: http://ecx.images-amazon.com/images/I/412b5arjMNL._SL160_.jpg
+
+276 / 276 Pages Reading History
+
+Financial Links
+
+    
+
+    - Financial Sense
+
+    
+
+    - FOFOA
+
+    
+
+    - George Ure's UrbanSurvival
+
+    
+
+    - Jesse's Cafe Americain
+
+    
+
+    - Jim Sinclair's JSMindSet
+
+    
+
+    - The Economic Collapse
+
+    
+
+    - USA Gold
+
+    
+
+    - Zero Hedge
+
+    
+
+
+
+24hr Silver Chart
+
+
+
+Image: http://www.24hgold.com/ChartImages/usSilvern.png
+
+Tag Cloud:
+
+Agave Almonds Apple apricots Bananas Beet greens Blueberries Cacao Butter cacao powder
+Carrots Cashews Cherries coconut Coconut ice Coconut milk coconut oil Deglet Noor Dates
+Garlic Grapes honey honeydew melon kale lemon Lettuce Mango Medjool dates mint Olive oil
+Orange oranges Ormus Greens Parsley Peaches Pears Pineapple Rejuvelac Reliv sesame milk
+Spinach strawberries Sunflower seeds Swiss chard vanilla powder watermelon Zucchini
+
+NASA satellite falls to earth
+
+
+
+This one is well worth the few minutes.Â Â I knew there was a coverup!
+
+
+
+Now, back to some more serious workâ€Š October 1st, 2011 | Category: General Comments | 2
+comments
+
+Send
+
+Image:
+http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/icons/email-gray.gif
+comments to: David at GenuineObservations dot com
+
+Is the sun hollow?
+
+
+
+Earlier today I took a couple minutes to visit SpaceWeather.com to see if there was anything
+unusual happening overhead. After skimming over the text, I left the webpage up while I was
+distracted with some other task. All the while, this picture of the sun sat on the screen.
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/09/magnificent_sunspots-300x136.jpg
+
+A short while later I found myself looking at the picture asking myself â€“ why is there no
+light coming from that â€˜spotâ€™ on the sun?
+
+Take another look at that picture. It looks almost organic. Itâ€™s like something broke
+the surface of the sun like you might clear the surface of a pond. After it had been opened up, it
+looks like the sun â€˜growsâ€™ back to cover the scar.
+
+The first thought that came to me was â€“ the sun is hollow! Wow, could it be?
+
+That seems kind of crazy, for weâ€™ve all been taught that the sun is so solid that the
+pressure induces nuclear reactions. Heck, here is a picture from the Wikipedia on its Sun page
+:
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/09/Wikipedia_sun.bmp
+
+Yet, if the sun is rolling plasma, why does it get black spots? Shouldnâ€™t there be
+plasma underneath?
+
+Or, I thought, maybe itâ€™s a tick with regards to how the picture is taken. So I looked
+that up. When you take a picture of the sun you use a filter to remove 99% of the light. So, in the
+picture weâ€™re seeing nearly 100 percent more light from the surface of the sun than in
+the â€˜spotâ€™.
+
+This is kind of weird. If the cooler shell of the sun has been removed, wouldnâ€™t you
+think weâ€™d see the hotter interior? One would expect that it would probably give off
+more light than the surface?
+
+So then I threw all caution to the wind and ask Google. Google seems omniscient sometimes. The
+question I typed was â€œIs the sun hollow?â€� The first site that it found was one
+with the title â€œFree Planetâ€� and the article was The Sun is Hollow . I actually
+laughed when that page came up.
+
+I read some of the words, but the best part is the video included on the page. Itâ€™s titled
+An Empty Sun â€“ Is Gravity being Induced? And Iâ€™ve embedded it here for your
+enjoyment. Itâ€™s just ten minutes and itâ€™s worth the time.
+
+
+
+I love the comparisons that are done between what is classically known as part of the saying
+â€“ so above as below.
+
+About a 1:10 in the narrator shows that when things spin around (in a coffee cup) whatâ€™s
+in the center is an absence of matter. He relates that to the center of our solar system. Which
+means what? â€Š
+
+The part about the ear having two functional attributes â€“ detecting pressure waves
+and gravitational alignment â€“ is also rather interesting. About 3:45 in, the
+narrator asks, â€œAre pressure and gravity to manifestations of the same
+force?â€�
+
+And the bits about vacuum in space.Â  Lol. There is lots of stuff in space always. This leads
+the Goodfellow to state that the lows of pressure apply to outer space just like they do in the
+boundaries of our own atmosphere! What a brilliant observation (Just over 5 minutes in).
+
+Itâ€™s amazing whenever I see something so simply put that it challenges conventional
+knowledge. This little video does exactly that. Itâ€™s almost like the expanding
+planet video that I came across in a previous posting ( An Expando Planet Theory ).
+
+This video also seems to align with another series that I put up a while ago in the article Plasma
+interactions create light? Iâ€™m going to have to revisit that series and see how it
+relates.
+
+For now, I think I got my question answered. It seems that Iâ€™m not the only one that has
+questioned why there are â€˜spotsâ€™ on the sun! September 26th, 2011 | Category:
+Weird Science | Leave a comment
+
+Send
+
+Image:
+http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/icons/email-gray.gif
+comments to: David at GenuineObservations dot com
+
+Quick and Easy Garden Hummus
+
+
+
+Some days I feel more creative than others. Yesterdayâ€™s creativity has bleed over
+into today and I have to admit that this Hummus is just as good today as it was last night. Yet this
+time, Iâ€™ve got pictures and the recipe to share!
+
+Last night I wanted a heavier salad. I wanted something with substance that would last a few
+hours for I didnâ€™t want to find myself snacking throughout the evening. Thus, I
+reached for one of my favorite things: sunflower seeds! I figured Iâ€™d just blend them
+up in a salad dressing and pour it over my salad.
+
+Well, it turned out pasty and it sat like a pile of green **** in the center of the bowl. Lori
+looked at it and shook her head no without even giving it a try. I think the light green color
+turned her off. After a little convincing, she gave it a try and, even though she
+doesnâ€™t like hummus (and thatâ€™s what she called it) she took a big spoonful as
+her salad dressing.
+
+And it was great!
+
+I made this again for lunch today and it tasted just as good. Yum. So, Iâ€™m writing it down
+so it will be around for next summer.
+
+Recipe:
+
+
+
+    Image:
+    http://blog.genuineobservations.com/wp-content/uploads/2011/09/IMG_8686_ingredients-300x225.jpg
+    1 small (normal) zucchini pealed
+
+    - The tops of 7 or 8 basil plants
+
+    
+
+    - 1 cup course chopped carrots
+
+    
+
+    - Âœ cup sunflower seeds
+
+    
+
+    - 2 Tbs cold pressed olive oil
+
+    
+
+    - Âœ Tb balsamic vinegar
+
+    
+
+    - Bit of salt (little bit on spoon)
+
+    
+
+
+
+As you can see, Iâ€™ve got oil, vinegar, salt and Basil as if itâ€™s a salad
+dressing. But the rest gives it body that makes it more hummus like than salad dressing like.
+So, place it all in the blender.
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/09/IMG_8687_stacked-300x225.jpg
+
+I put the zucchini in first for the bulk of the water is going to come from there.
+
+Now, blend. Youâ€™ll need your tamper for this is just like making hummusâ€ŠÂ 
+Well, it is hummus! Press the veggies down into the blades until it starts to turn. At that
+point, youâ€™re going to let it blend for about 30 seconds on â€˜10â€™ (if you
+have a Vita-mix). During this time I make sure the blender doesnâ€™t suck air down to the
+blades stopping the spin. To do this, you hold the tamper right down to where the mixture turns
+over. The temper gently plugs the hole preventing air while letting the blender turn the
+ingredients.
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/09/IMG_8689_finished-300x225.jpg
+
+As you can see, I got just a little over two cups from this ingredient list. And itâ€™s
+wonderful!
+
+The best part about this is that itâ€™s really easy and fast. If you donâ€™t mind the
+green color, you donâ€™t even have to peal the zucchini. The sunflower seeds are also
+straight out of the bag â€“ no soaking or sprouting! From start to finish itâ€™s
+probably 10 minutes.
+
+Also note that the ingredients were mostly from the garden â€“ that is, the carrots,
+zucchini and basil. I love it when I get the opportunity to eat suck fresh living foods. I can
+basically pick the produce, wash, blend and enjoy in the matter of minutes. The vitality
+contained in the plants never gets lost. Eat living foods and youâ€™ll find your own
+vitality will increase.
+
+Good day! September 25th, 2011 | Tags: Basil , Carrots , Sunflower seeds , Zucchini | Category:
+Raw Food | Leave a comment
+
+Send
+
+Image:
+http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/icons/email-gray.gif
+comments to: David at GenuineObservations dot com
+
+Peach Spinach Smoothie
+
+
+
+Every time I tell Lori that Iâ€™m going to introduce someone new to green smoothies she
+says, â€œYouâ€™ve got to make them the Peach Spinach one!â€� If Lori could
+have it her way, this would be the only green smoothie that sheâ€™d drink. Iâ€™ve
+got a lot of favorites, and this one is right up there on the top of the list.
+
+If youâ€™re new to green smoothies or if you want to introduce a friend to how good they can
+be, consider making them this one. Itâ€™s easy, quick and tastes like desert!
+
+Recipe:
+
+
+
+    Image:
+    http://blog.genuineobservations.com/wp-content/uploads/2011/09/IMG_8678_ingredients-300x225.jpg
+
+    - 2 ripe peaches (maybe three)
+
+    
+
+    - 2 Medjool dates
+
+    
+
+    - 1 cup coconut milk
+
+    
+
+    - Âœ lb Fresh young baby spinach
+
+    
+
+    - Âœ cup rejuvelac (optional)
+
+    
+
+
+
+Add liquids, pit the fruit and add it. Blend for about 10 seconds.
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/09/IMG_8679_fruit-300x225.jpg
+
+Pack in as much spinach as will fit. I generally recommend Âœ lb. Remember, green smoothies
+are all about getting the greens! Thus, donâ€™t skimp.
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/09/IMG_8681_greens-225x300.jpg
+
+Now, use the tamper and blend for another 50-60 seconds until itâ€™s creamy smooth.
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/09/IMG_8683_finished-225x300.jpg
+
+I used three fairly large peaches and a little over a cup liquid and Iâ€™ve got a fancy
+glass for the princess and a quart jar for myself. If you cut back to just two peaches,
+youâ€™ll probably just get a quart of smoothie.
+
+Remember â€“ a quart a day keeps the doctor away! September 25th, 2011 | Tags: Coconut
+milk , Medjool dates , Peaches , Rejuvelac , Spinach | Category: Raw Green Smoothies | Leave a
+comment
+
+Send
+
+Image:
+http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/icons/email-gray.gif
+comments to: David at GenuineObservations dot com
+
+Strawberry Pear Apple Parsley Smoothie
+
+
+
+Whatâ€™s in a name? How about, surprise goodness. Or smoothie by happenstance. Maybe, I
+canâ€™t believe this mixes together so nicely.Â  lol!
+
+I have to say that I was a bit surprised by this combination. The first one I tried happened
+because I was hutting around for fruit and, well, all the exotic stuff was gone and all I had left
+where pieces that I was tied of eating. I had a beat-up pear, an older kind of soft apple but that
+wasnâ€™t enough. I dug around in the freezer and found some strawberries and thought
+what the heck.
+
+That adventurous happenstance turned out nice enough to want to share with the rest of the
+world. And, well, here it is!
+
+
+
+    Image:
+    http://blog.genuineobservations.com/wp-content/uploads/2011/09/IMG_8670_ingredients-300x225.jpg
+
+    - 1 pear
+
+    
+
+    - 1 apple
+
+    
+
+    - 10 frozen (or fresh) Strawberries
+
+    
+
+    - 2 Medjool dates
+
+    
+
+    - ÂŸ cup coconut milk
+
+    
+
+    - ÂŸ cup rejuvelac
+
+    
+
+    - 1 bunch fresh garden picked parsley
+
+    
+
+
+
+Add everything but the greens to you high speed blender. Grind to a liquid. That might take
+about 10 seconds.
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/09/IMG_8671_halfway-300x225.jpg
+Next, add your greens. Remember, green smoothies are all about getting your greens in a way
+that is raw and enjoyable. As you can see, I try to always use a â€˜bunchâ€™ of
+parsley. The stores are pretty good about selling bunches in the size that works perfect in a
+smoothie.
+
+Now blend again. This time, after the greens are chopped, youâ€™ll want to spin the
+blender on high for about a minute. The longer you go, the smoother the smoothie. At the same
+time, the longer you go the warmer it gets. Because weâ€™re using frozen strawberries,
+you shouldnâ€™t notice any heating in that 60 seconds.
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/09/IMG_8673_finished-300x225.jpg
+
+In the end, depending on the size of the fruit that you use, youâ€™ll get 4 to 5 cups.
+
+Even if you have an aversion to parsley, you might find this one a little more tolerable. If
+youÂ  like parsley, youâ€™ll probably really enjoy this one. If you love parsley
+(like me!) youâ€™ll want to make this smoothie a number of days in a row!
+
+Remember, if you get to experimenting with green smoothies, it always helps to keep the Green
+Smoothie Basics in mind. They taste best when balancing sweet, sour, salty and bitter. Once
+the balance if found, it then a matter of accentuating the flavor!
+
+Good day! September 24th, 2011 | Tags: Apple , Coconut milk , Medjool dates , Parsley , Pears ,
+Rejuvelac , strawberries | Category: Raw Green Smoothies | Leave a comment
+
+Send
+
+Image:
+http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/icons/email-gray.gif
+comments to: David at GenuineObservations dot com
+
+What is The Philosopher’s Stone?
+
+
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/09/JosephWright-Alchemist-211x300.jpg
+I would love to be able to truthfully tell you â€“ exactly – what The
+Philosopherâ€™s Stone is, but, the simple fact is that you would be hard pressed to find
+anyone that could tell you. At least, if Iâ€™ve run into someone that has experienced The
+Philosopherâ€™s Stone, they didnâ€™t share that fact with me. When you really
+think about it, youâ€™d have to ask yourself – why would they? What would they have to
+gain from telling anyone? Or, probably more importantly, would they stand to lose anything?
+The later seems more probable. Yet, there still may be clues that we can follow that will help us
+understand.
+
+As many of you know, I came across The Book of Aquarius a few months back and mentioned that I
+would keep you informed regarding my observations in the forum. If you havenâ€™t read
+the book, I highly encourage you to give it a few hours. Itâ€™s a free download and an easy
+read. Also, visit the forum if you have questions and, or, if youâ€™re like me,
+youâ€™ll visit the forum in order to get a better understanding with regards to what
+people are thinking.
+
+Of all the questions that people mention in the forum, the thing that surprises me the most is
+that there are a lot of questions that seem to indicated that the readers have not picked up a
+basic understanding of what The Philosopherâ€™s Stone is. But can you blame them? The
+information that can be found on the net is pretty vague. The definitions describe that it can
+do, but do not really describe what it is.
+
+Letâ€™s look at what it can do and then see if we can get some hints about its true nature
+from its actions.
+
+As much as people hate Wikipedia, I love the fact that itâ€™s a data source created by
+multiple people. It may or may not be the absolute truth, but it should give us the general
+concept (if nothing else) from which we can continue our search. So, here is a bit from
+Wikipediaâ€™s Philosopherâ€™s Stone section.
+
+The philosopher’s stone ( Latin : lapis philosophorum ) is a legendary alchemical
+substance said to be capable of turning base metals ( lead , for example) into gold (
+chrysopoeia ) or silver . It was also sometimes believed to be an elixir of life , useful for
+rejuvenation and possibly for achieving immortality . For many centuries, it was the most
+sought-after goal in Western alchemy . The philosopher’s stone was the central symbol of
+the mystical terminology of alchemy, symbolizing perfection at its finest, enlightenment ,
+and heavenly bliss. Efforts to discover the philosopher’s stone were known as the Magnum
+Opus . [1]
+
+To help us come to a better understanding regarding this substance/item, Iâ€™m going to
+track some key points so that we can review them later. When looking at the above paragraph, I
+find, 1) It can turn base metals into gold (or silver), 2) it is useful for rejuvenation, 3) it
+may help someone achieve immortality, 4) It is believed to be an elixir of life. Weâ€™ll
+keep this list and add to it as we come across other definitions.
+
+From the same Wikipedia link above , letâ€™s read more about its properties.
+
+The philosopher’s stone has been attributed with many mystical and magical properties.
+The most commonly mentioned properties are the ability to transmute base metals into gold or
+silver, and the ability to heal all forms of illness and prolong the life of any person who
+consumes a small part of the philosopher’s stone. [12] Other mentioned properties
+include: creation of perpetually burning lamps, [12] transmutation of common crystals into
+precious stones and diamonds, [12] reviving of dead plants, [12] creation of flexible or
+malleable glass, [13] or the creation of a clone or golem . [14]
+
+Letâ€™s add to our list 5) creation of perpetually burning lamps, 6) transmutation of
+common crystals into precious stones, 7) reviving dead plants,
+
+Image:
+http://blog.genuineobservations.com/wp-includes/images/smilies/icon_cool.gif
+creation of flexible glass, 9) creation of a clone.
+
+The appearance, from what I read at the same link, is pretty specific.
+
+Descriptions of the Philosopher’s Stone are numerous and various. [18] According to
+alchemical texts, the philosopher’s stone came in two varieties, prepared by an almost
+identical method: white (for the purpose of making silver), and red (for the purpose of making
+gold), the white stone being a less matured version of the red stone. [19] Some ancient and
+medieval alchemical texts leave clues to the supposed physical appearance of the
+philosopher’s stone, specifically the red stone. It is often said to be orange (saffron
+colored) or red when ground to powder. Or in a solid form, an intermediate between red and
+purple, transparent and glass-like. [20] The weight is spoken of as being heavier than gold,
+[21] and it is said to be soluble in any liquid, yet incombustible in fire. [22]
+
+We can add to its attributes that it is 10) White, or 11) Red. 12) It is prepared, rather than
+found. 13) It is glass like and can be ground into a powder. 14) It is heavier than gold. 15) It is
+soluble in any liquid. 16) It is incombustible in fire.
+
+So far, it doesnâ€™t seem like there is anything specific that contradicts the other
+attributes. That physical description seems pretty believable. Itâ€™s almost as if
+someoneâ€™s seen The Philosopherâ€™s Stone and actually ground it into a powder!
+
+Letâ€™s dig around and see what else we can find.
+
+The Crystalinks website has an interesting page about The Philosopherâ€™s Stone . What
+surprises me is that it mirrors much of the data found on Wikipedia. I couldnâ€™t tell you
+which location would be the source. There is also a nice page of links to other alchemy related
+pages. Youâ€™ll have to be careful surfing through these links for you might be there for
+days!
+
+On the little more bazaar side of things, I found a channeling of Atun-Re by Kevin Ryerson .
+
+The philosopher’s stone that was sought so long by the alchemists of Egypt, Atlantis,
+Babylon, and amongst the kings in the farthermost reaches of the East and West, is your own
+consciousness. Yes, my children, the philosopher’s stone is your own consciousness.
+
+Iâ€™m open minded with regards to people channeling stuff, but Iâ€™m always
+finding myself looking to validate this type of information. Iâ€™m going to add this
+attribute to the list unless we can find something that is conflicts with. For now 17) it is your
+own consciousness.
+
+The next quote is a blurb from AlchemyLab.com . This one is a little more personal for it is the
+stone according to the Sufis (a Muslim ascetic and mystic) point of view. Here we find:
+
+The stone according to the Sufis, is the dhat , the essence, which is so powerful that it can
+transform whatever comes into contact with it.Â  It is the essence of man, which partakes of
+what people call the divine.Â  It is â€œsunshine,â€� capable of uplifting
+humanity to the next stage….
+
+â€Š
+
+This Philosopherâ€™s Stone or Universal Elixir was an alchemical preparation made
+from the mineral kingdom. The Medieval philosoÂ­phers claimed that when properly
+prepared the mineral stone could transmute base metals into gold; in minute dilutions it
+could end sickness and retard aging indefinitely, transmuting the human organism into an
+immortal being. [1] [31]
+
+â€Š
+
+In what indicates a continuity of traditions, like the Hindu and Chinese alchemistsâ€™
+sacred elixir of immortality , the adepts claimed that when taken in a minute dose, this
+substance would cause the inbiberâ€™s hair and teeth to fall out, later new hair and
+teeth grow in and the successful alchemist became immortal.
+
+To these mystics, it is 18) â€˜the essenceâ€™ that can transform whatever come into
+contact with it. It is also 19) the essence of man, which partakes of what people call the
+divine. And 20) it is â€œsunshineâ€� capable of uplifting humanity.
+
+The interesting thing about these mystics is that they put a little more thought into
+describing what it is rather than simply what it does, for with these additions to the list we
+get both a description of what it is along with its action.
+
+Oh, and, 21) it will make your hair and teeth fall out as they will be replaced.
+
+Stepping outside the world of words, we can also find audio clips. A few days ago, The Book of
+Aquarius was mentioned on the Coast to Coast show with Jay Weidner . Itâ€™s pretty clear
+that Jay hasnâ€™t created The Philosopherâ€™s Stone, but he has put time into
+studying its properties. If youâ€™ve got time, the first 15 minutes are so of the show is
+where itâ€™s discussed.
+
+If youâ€™re looking for the condensed version, Jay sees it as concentrated Chi. It is the
+life force Prana that many different philosophies talk about.Â  Here is a link that might
+give you a better idea of what Chi is: The Buddha Garden .
+
+Jay might be onto something, so Iâ€™m going to add that to our list: 22) It is concentrated
+Chi energy.
+
+And then, of course, there is the definition in The Book of Aquarius which reads (Page 11, first
+addition. Start of chapter 4.)
+
+The Philosopherâ€™s Stone is energy, concentrated and purified to a massively high
+degree. This is the same energy that you are taking in when you breathe, and when you eat and
+drink. It is the energy that powers all forms of life, and so I will call it life-energy (since I
+have to call is something and â€œlife-energyâ€� is self-explanatory.)
+
+This definition seems to fit what Jayâ€™s figured out. What I find fascinating in this
+definition is that there are no physical characteristics described; no color, no mass, no
+texture. Itâ€™s just purified energy.
+
+After poking around a bit more, I found another website that has a pretty good write up
+regarding The Stone. Itâ€™s on MonTalk under The Philosopherâ€™s Stone page .
+Here, itâ€™s not specifically about The Philosopherâ€™s Stone, but rather
+general about Alchemy.
+
+Alchemical achievements require successful gathering, concentrating, and multiplying of
+etheric energy. When this energy reaches a critical threshold, it overpowers the normal laws
+of physics and allows seemingly miraculous processes to take place.
+
+…
+
+Alchemy does not violate the laws of physics, nor does it always follow them, rather it bends
+them as needed. It operates upon the quantum foundation from which these laws arise in the
+first place, via etheric energy affecting the probability of quantum events.
+
+The idea here is that The Philosopherâ€™s Stone is a product of Alchemy which is the act of
+concentrating (etheric) energy. This implies that The Philosopherâ€™s Stone is
+concentrated etheric energy. Iâ€™m not sure how to differentiate that from Chi, so
+Iâ€™m going to keep this in the same category.
+
+You can search around the web and find a lot more examples, but they all seem to come to the same
+basic description and characteristics. Now is probably a good time to list what weâ€™ve
+discovered.
+
+    What it can do:
+
+    - It can turn base metals into gold (or silver)
+
+    
+
+    - It is useful for rejuvenation
+
+    
+
+    - It may help someone achieve immortality
+
+    
+
+    - Creation of perpetually burning lamps
+
+    
+
+    - Transmutation of common crystals into precious stones
+
+    
+
+    - Reviving dead plants
+
+    
+
+    - Creation of flexible glass
+
+    
+
+    - Creation of a clone
+
+    
+
+    - It will make your hair and teeth fall out as they will be replaced
+
+    
+
+
+
+    What itâ€™s described as:
+
+    - It is believed to be an elixir of life
+
+    
+
+    - It is White
+
+    
+
+    - It is Red
+
+    
+
+    - It is prepared, rather than found
+
+    
+
+    - It is glass like and can be ground into a powder
+
+    
+
+    - It is heavier than gold
+
+    
+
+    - It is soluble in any liquid
+
+    
+
+    - It is incombustible in fire
+
+    
+
+    - It is your own consciousness
+
+    
+
+    - It is concentrated Chi energy
+
+    
+
+
+
+    What is it and does together
+
+    - It is â€˜the essenceâ€™ that can transform whatever come into contact with it
+
+    
+
+    - It is the essence of man, which partakes of what people call the divine
+
+    
+
+    - It is â€œsunshineâ€� capable of uplifting humanity
+
+    
+
+
+
+As I promised above, itâ€™s now time to look to see if we can get a better picture of what it
+is based upon what The Philosopherâ€™s Stone can do. But first, letâ€™s make some
+assumptions based on the actual descriptions that have been recorded over time.
+
+It is pretty clear that The Stone has physical characteristics. It has color, mass and
+texture. Unlike conceptual things like awareness, which canâ€™t be seen or touched,
+The Stone is an actual object which can be touched. It is also described as an elixir, in its
+simplest terms, is a potion.
+
+Where things get a little fuzzy is when itâ€™s described as consciousness, Chi and life.
+Yeah, I might have stretched that last point just a little, but what really is an â€˜elixir
+of lifeâ€™? Forever, The Stone has been called â€˜an elixir of lifeâ€™. When
+you think about that statement, the typical response is that itâ€™s a magic potion that
+gives you more life. Well, how can it give you more life if it is not life itself?
+
+It makes me think of The Stone as a magic potion that is life. At the same time, it makes you wonder
+what life is also. When we look life up in the Wikipedia we see that others ponder this thought
+too:
+
+It is still a challenge for scientists and philosophers to define life in unequivocal terms.
+[12] [13] [14]
+
+And, why is it a challenging exercise? Well, as I see it, life is a concept rather than an object.
+Life is like awareness. Awareness is not a thing, but an action. Life seems to be in that same
+type of category. It is what is done. We live life. All things live life.
+
+So, in this sense, when The Philosopherâ€™s Stone is through of as â€˜an elixir of
+lifeâ€™, I would guess that it could be thought of as a potion that gives you more of what
+you do â€“ you live your life. Â 
+
+How does that align with the other descriptions? Well, Chi (Qi) is generally thought of as:
+
+In traditional Chinese culture , qÃ¬ (also chi or ch’i ) is an active principle forming
+part of any living thing. Qi is frequently translated as “lifeforce” or “ energy
+flow”, and is comparable to the Hindu yogic science of prana , meaning “life force” in
+Sanskrit .
+
+And Prana is:
+
+In Vedantic philosophy, prana is the notion of a vital, life -sustaining force of living
+beings and vital energy , comparable to the Chinese notion of Qi . Prana is a central concept in
+Ayurveda and Yoga , where it is believed to flow through a network of fine subtle channels
+called nadis . Its most subtle material form is the breath, but it is also to be found in the
+blood, and its most concentrated form is semen in men and vaginal fluid in women. [1]
+
+So when thought of as â€˜an elixir of lifeâ€™, I translate this statement into
+something like â€“ it is a concentrated form of the vital energy that living entities
+need and use at all times.
+
+Now, how does all this relate to what The Philosopherâ€™s Stone is known to do?
+
+Well, this should seem obvious when we look at rejuvenation, immortality, reviving dead
+plants and creating clones. When you think about reviving a plant, you canâ€™t help but
+think that youâ€™ve got to give it â€˜lifeâ€™. If The Stone is life, then you
+would give it some of the stone and, well, youâ€™d probably see the plant come back to
+life. Regarding rejuvenation, if someone gets to the point where the Chi doesnâ€™t flow
+through them very well, in Chinese medicine, they would be considered sick. Many sicknesses
+have been linked to poorly flowing Chi or very low levels of vitality. If thatâ€™s what
+The Stone is, it would make total sense that the poorly flowing Chi would now become super
+amplified â€“ or more present throughout the body â€“ thus leading to
+rejuvenation (health). The immortality issue seems a little strange, but natural at the same
+time. If death is the lack of life and the elixir is life, one would thing that youâ€™d
+never run out of life. Finally, regarding making a clone, well, thatâ€™s just weird! The
+only thing I have to say about that is in order to create a living thing; youâ€™ve got to
+give it life. If The Stone can do this, it must be life itself.
+
+Now what about transmuting metals and crystals? Well, this would imply that the metals and
+crystals are living entities â€“ at least, at one time there were living. It might be
+similar to working with wood. When the wood is in the form of a tree, it is living. Itâ€™s
+only after processing it into standard lumber that itâ€™s considered dead and stable.
+This could very well be the same for metals. When you think about crystals, they form in geodes
+given the proper conditions. Scientists tend to think of these conditions as heat, pressure
+and purity. They donâ€™t think of one of the conditions as being â€“ living. My
+guess would be that when the stone is added to these elements, they are brought back to life and
+they continue to grow towards their final destination. Who would have thought that metals
+where once alive?
+
+What is interesting about transmuting different substances is that there is not just one
+substance that it works on! The Stone is said to work on humans as well as plants and now it works
+on different metals and crystals. This might just imply that the vital life energy can be
+imprinted (or seeded) with some specific type of life form. That might imply that if you want to
+grow emeralds, you would have to concentrate this vital life force energy and imprint it with
+the â€˜essenceâ€™ of emeralds. The Alchemical texts talk about a fermenting
+process that needs to be done before The Stone will make more of itself. It would seem that this
+might be a simple, doable, operation.
+
+Lastly, it is considered the â€˜essence.â€™ If you look up a common definition of
+essence, you will find that it is â€œA property or group of properties of something
+without which it would not exist or be what it is.â€� (See Googleâ€™s Define:
+essence functionality.) One of the attributes that I included above mention that it is the
+divine essence of man. In other words, man would not be what he is if this vital life force energy
+was not present.
+
+In a fairly quick overview, it seems that the mystery of The Philosopherâ€™s Stone is not
+all that much of a mystery. It is both an object and a concept at the same time. It is something
+that can be understood and, hopefully, concentrated. I am excited that there are people that
+are actively participating in the quest for The Philosopherâ€™s Stone. It seems like
+such a private quest, yet to those in The Book of Aquarius forum, it is public for the entire
+world to see!
+
+So, if you find yourself wondering what exactly is The Philosopherâ€™s Stone, the first
+thing that I would do is to think of it as concentrated life sustaining energy like Chi (or
+Prana). When thinking about how it might be used, you would administer it to objects that you
+want to give more life too. When you think about how it might affect a person in the forms of
+â€˜an elixir of lifeâ€™ you would think that it would super-saturate the human body
+with Chi. If sickness is related to poor Chi, sickness would no longer be an issue.
+
+Make sense?
+
+Now, the next step is making The Philosopherâ€™s Stone.Â  â€Š September 18th,
+2011 | Category: Alchemy , Human Energy , Philosophy | One comment
+
+Send
+
+Image:
+http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/icons/email-gray.gif
+comments to: David at GenuineObservations dot com
+
+Inner Sight & Memory
+
+
+
+Here is another characteristic of Your Being that you may take for granted; visualization!
+How visions are formed is a direct reflection between who you are and what youâ€™ve
+experienced (or going to experience).
+
+Yet, before we really get into this posting, I would encourage you to review a couple posting
+that are very similar. They are Input & Output â€“ Perceiving and Creating and Intuition
+& Ego . The only real difference here is that weâ€™ll be investigating vision and a bit
+about how that personal tool works.
+
+Everyone knows that when light reflects off something it can be seen. The sensing process
+takes place with the eyes. The general process has been outlined fairly well on Wikipedia
+under Visual Perception :
+
+The visual system in humans allows individuals to assimilate information from the
+environment. The act of seeing starts when the lens of the eye focuses an image of its
+surroundings onto a light-sensitive membrane in the back of the eye, called the retina . The
+retina is actually part of the brain that is isolated to serve as a transducer [ citation needed
+] for the conversion of patterns of light into neuronal signals. The lens of the eye focuses
+light on the photoreceptive cells of the retina, which detect the photons of light and respond
+by producing neural impulses . These signals are processed in a hierarchical fashion by
+different parts of the brain, from the retina upstream to central ganglia in the brain .
+
+This first part of the definition of Visual Perception really only seems to cover the
+mechanics of how the body receives the light â€“ the sensory side of things. Sure, that
+photon of light gets converted from one form of energy into another as it enters the body, but
+how do we actually see? Where is the perception based on that collection of photons?
+
+If you follow the link on Wikipedia to Perception , we read:
+
+Perception (from the Latin perceptio, percipio ) is the process of attaining awareness or
+understanding of the environment by organizing and interpreting sensory information . [1]
+[2]
+
+So, the perception part would be tied in with the understanding that we get from the visual
+sensory information. This would imply that there is action involved (on our part) with
+regards to being aware of what is seen rather than simply seeing it.
+
+This kind makes sense when you think about the philosophical idea that when two people look at
+the same painting, they see to different things (stories, impressions, etc.). Basically, if
+you show two different people the exact same item (painting, photo or something else fairly
+large in visual imagery) they will â€˜seeâ€™ different things in the picture. When
+you look closer at how the person actually goes about â€˜seeingâ€™ what is in that
+picture, what gets seen is what the personâ€™s awareness is focused on. As the
+personâ€™s awareness moves from one area of the picture (image) to another, they become
+consciously aware of what is in this new area.
+
+So, even though light enters the eyes, the only thing that is â€˜seenâ€™ is what you
+are aware of.
+
+This reminds me of adventures that Iâ€™ve had frogginâ€™. At different points in
+my life Iâ€™ve had time to walk streams (or ponds) in order to spot frogs. There have been
+many times when Iâ€™ve stood (or squatted) at the waterâ€™s edge and intently
+looked for frogs with no success. I would thoroughly look over every spot where a frog might sit
+(or hide) and not see anything â€“ until the frog moved! It is amazing how well (and long) a
+frog can remain outside of someoneâ€™s awareness. They can be sitting right in front of
+you and you just canâ€™t see it. Even after it moves, if you take your eyes off it, that frog
+has the magic of blending which can make it really hard to continually remain aware if
+itâ€™s location.
+
+So even though are light organ (eyes) receives light, it is what our Being is aware of that
+determines if we actually see it or not.
+
+This gets really interesting when you close your eyes and still experience
+â€˜seeingâ€™ things. How is it that we can get the sense of seeing when weâ€™re
+not receiving light directly thorough our eyes?
+
+The first thing that would come to mind is that you remember the image. This idea is based upon
+memory. You simply remember what it looked like. The concept here is that at the moment you
+remember the image, you are once again bringing your awareness to that experience. This is a
+situation where, in your mind (where ever that may be) your awareness explores the details of
+the image a second time.
+
+It would seem that if this is the case â€“ people have the ability to remember an image
+â€“ it might imply that the light from the original experience becomes part of us.
+Itâ€™s like we eat photons! As we see, that light enters the body and gets stored. This
+might be more supporting data for the fact that we are light Beings (maybe see Living on
+Sunlight and the referenced postings). Or, maybe, itâ€™s not the light that is stored,
+but rather the experience â€“ as part of your awareness. The light was used as a tool so
+that your awareness could grow.
+
+The end result of taking in all this light really has little to do with the act of visualization.
+The process of visualizing something is very similar to the process of intuiting something.
+Visualization is a direct exchange of information from Your Being into the physical world. It
+is the same whether youâ€™re remembering something or visualizing something.
+
+Maybe a simple exercise could help.
+
+Sense we know that in order to â€˜seeâ€™ something we have to bring our awareness to
+it, weâ€™ll want to do just that. What Iâ€™ve found is that there are different
+types of sensual stimulation that overpowers the subtle energies so you have to make a
+conscious effort to â€˜remove the noiseâ€™. Thus, Iâ€™ve found a technique
+during meditation that works pretty good for me right now. It goes like this.
+
+Assume a meditative posture (this is one of the key reasons why I do yoga). You want to be
+sitting, maybe cross-legged or in a chair, but the most important part is that you have to be
+able to completely relax. I sit in Easy Pose . Some days Iâ€™ll turn my palms up, other days
+Iâ€™ll cup my knees. But, like I said earlier, the key thing is to be able to get relaxed.
+This only really happens when you have a straight vertical spine. Now close your eyes and then
+breathe slow and steady. Your breathing should fill your lungs but only to the point just
+before you feel the muscles tense up. Now breathe for a while.
+
+During this breathing time where you make a conscious effort to remain completely relaxed,
+you should feel a change in energy. Or, said differently (and maybe a little more accurately),
+the energy that you normally use to sense everything on a daily basis is no longer needed and
+your awareness can expand beyond itâ€™s normal â€˜confinesâ€™. That is, if
+you no longer place energy into using your eyes, your sense of hearing becomes heightened. If
+you no longer place energy into moving your muscles, that energy doesnâ€™t
+â€˜cloud the pondâ€™ so to speak allowing your awareness to explore other subtle
+energies.
+
+After a little time, youâ€™ll notice that youâ€™re doing the right thing when you
+start becoming aware of things that you previously didnâ€™t sense. An example might be
+that when you first start your meditation, you were aware of your posture and breathing. Yet,
+after a while, the sound of the birds chirping outside resonate loud and clear. Before you got
+into this relaxed state you had no idea about the birds playing outside, yet after minimizing
+the dominate energies that rule your life, the sounds they make come to the foreground and grab
+your attention.
+
+It is at this point where visualizations become easy. It is at this point where youâ€™ve
+calmed the energy that you emit to the point where subtle energies can be recognized. In other
+words, itâ€™s like once youâ€™ve removed the energy that creates big waves in a
+pond, youâ€™re able to see the little waves. (Or when you remove the waves you make you can
+detect the waves others make.)
+
+The next step is that you have to set an intention for the visualization. If you want to remember
+something, you have to â€˜wantâ€™ to remember it. You have to have some type of
+desire to kick start the communication. For me, this is the point where I use the translator in
+my head to help drive the experience â€“ yet only in a limited fashion for the energy used
+by the ego is a crude noisy energy that can create â€˜larger waves in the pond.â€™
+Thus, you ask, and then clean the slate so the visualization can occur. Said differently, you
+make room for your awareness to go to a previous experience and feel it again. Or, you make room
+for Your Being to share energies about what will be. In either case, if youâ€™re in the
+state where youâ€™re not putting out much energy (youâ€™re calm) you
+wonâ€™t blow away the imaging that Your Being experiences.
+
+What you might find is that this exercise is very similar to dreaming. But it is a conscious
+dream where you can either manipulate it or simply experience it. When you relate this to
+dreaming, Your Being shares visualizations with you in some type of sequence and, at some
+point, you become conscious that youâ€™re dreaming. At that point, you can either let
+the dream continue uninterrupted or you might replay it slightly differently if you
+didnâ€™t like the way it was playing out. In the dream, the visions that you have up to the
+point of conscious manipulation are an unaltered communication from Your Being . At and after
+the point of manipulation the dream is a creation influenced by the ego.
+
+Regardless to whether you spend time visualizing or remembering, the art of getting to the
+point where this can happen is the same and the act of doing it is a matter of bring your awareness
+to that experience or desire.
+
+After all this, the question should arise, why is this important?
+
+Because time is immaterial to Your Being !
+
+What does that have to do with the price of tea in China? Well, when you visualize something it
+may or may not have actually occurred. If it did occur, itâ€™s a memory. If it has not
+occurred, itâ€™s a projection. In either case, the visualization energy can stimulate
+a physical response allowing you to relive the feeling of a past experience or allow you to
+generate feelings for a future experience! The energy that generates a physical response is
+the energy that will fulfill your desire.
+
+Thatâ€™s right. You can visualize events that you want to experience. When your
+visualizations generate an emotional or physical response, you know that the experience is
+strong. The stronger the energy that you use for projection, the more likely (or faster) that
+experience will become reality.
+
+Your inner sight is a wonderful tool that you have to relive previous experiences or shape new
+ones. This sight is a direct link between Your Being and your physical experiences. If you
+remove the noise of everyday life, you will see that your awareness can be brought to this
+aspect of Your Being so as to enrich your experiences and relive treasured emotional
+experiences. September 11th, 2011 | Category: Human Energy , Light is Life , Philosophy |
+Leave a comment
+
+Send
+
+Image:
+http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/icons/email-gray.gif
+comments to: David at GenuineObservations dot com
+
+Raw Cantaloupe Sorbet
+
+
+
+What a great way to finish a scorching hot weekend â€“ fresh raw ice cold sorbet! And,
+seeing that weâ€™re rounding out the last really nice days of the summer, the melons are
+sweet and plentiful. Thus, tonight, I whipped up some fresh raw cantaloupe sorbet.
+
+If youâ€™re not a big cantaloupe fan, thereâ€™s nothing about this sorbet that
+will make it less â€Š well, â€Š cantaloupe tasting. But, if you are a fan, this will be a
+summer treat unlike any other sorbet. Thereâ€™s nothing like light, fluffy, creamy,
+soft, cold sweet melon to top off the night with a smile.
+
+Oh, before the pictures, I canâ€™t believe how hard it is to find a raw cantaloupe sorbet
+recipe on the web. I guess people really donâ€™t like this stuff â€“ or â€“ at
+least the raw folks havenâ€™t really figured this one out yet. Iâ€™ll post it and
+hopefully the world of folks reading here can conspire to enhance this recipe so as to really
+make this melon flavor pop!
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/09/IMG_8659_ingredients-300x225.jpg
+
+    Recipe:
+
+    - Âœ ripe cantaloupe melon
+
+    
+
+    - 1 Mireâ€™s lemon
+
+    
+
+    - ÂŒ cup pure raw agave syrup
+
+    
+
+
+
+As you can see, the ingredient list is really simple. Make sure that you donâ€™t use a
+large melon, but simply a great ripe medium size one. Cut it in half, remove the seeds and
+proceed to slice the melon into small cubes for youâ€™re going to place it in the freezer
+for 1 hour. If you space them out well, they will cool faster.
+
+Once lightly frozen, squeeze the juice of the lemon and add the agave syrup to your high powered
+blender (a cheap blender wonâ€™t have the muscle to liquefy this fruit when itâ€™s
+frozen). Using the tamper, quickly grind the melon chunks into your sorbet. Itâ€™s
+going to be thick, so youâ€™ll have to work hard and fast.
+
+One trick is to quickly get it mixed up and turn the blender off. At this point, there will still
+be really small chunks, but you can taste it to see if itâ€™s got the right amount of
+sweetener. If the fruit is really ripe, youâ€™ll want to use less syrup. Once it tastes
+right, youâ€™ll want to get back to blending; but this time on high so it can be really
+fluffed up. This shouldnâ€™t take more than about 20 seconds. If you blend too long,
+youâ€™ll melt it into juice â€“ so be quick!
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/09/IMG_8662_Finished-300x225.jpg
+
+In the end, youâ€™ll get a great soft-serve that will slowly melt in a room temperature
+bowl.
+
+I have to admit that this recipe doesnâ€™t knock your socks off, but if you like melon
+(like I do) youâ€™ll get a great cold melon surprise that will satisfy any late night
+craving!
+
+Enjoyâ€Š
+
+Oh, and like I said above, if you give this one a try and find something to add that would
+complement the cantaloupe, please feel free to share! Next time I might add a couple
+strawberries or maybe a spoon full of powdered cacao. Iâ€™ll update this posting if
+(when) I do. September 5th, 2011 | Tags: Agave , cantaloupe , lemon | Category: Raw Food , Raw
+Sorbet | One comment
+
+Send
+
+Image:
+http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/icons/email-gray.gif
+comments to: David at GenuineObservations dot com
+
+Input & Output – Perceiving and Creating
+
+
+
+There might have been a bit of confusion when trying to understand my precious article
+Intuition & Ego . In that posting, I didnâ€™t clearly define the terms that I used and used
+a number of different words in order to try to explain the same (or similar) thing. Hopefully,
+the information below will help clarify what Iâ€™d intended to say.
+
+To begin, Iâ€™d like to make sure my understanding of Your Being is clear. To help,
+Iâ€™d like to bring in what the Wikipedia has to say as a reference. But, in doing so, we
+have to look at how they describe Being , for I want to deal with the concept Your Being . So, the
+Wikipedia states:
+
+Being (i.e. be + -ing , by synecdoche ), is an English word used for conceptualizing subjective
+and objective aspects of reality, including those fundamental to the self â€”related
+to and somewhat interchangeable with terms like “ existence ” and “ living “. In its
+objective usage â€”as in “a being,” or “[a] human being ” â€”it refers to a
+discrete life form that has properties of mind ( sentience ), which are deemed to constitute a
+more complex state than simple organisms (i.e. that have only “ life functions “). [
+citation needed ]
+
+In abstract usage, “the being” or “one’s being” is the mind’s concept of the self
+as a whole entity â€”including both mind and body â€”wherein the being is in the
+mind , and the “body” is all sensory aspects within the being . Heidegger coined the
+Germanic term “ dasein ” for this property of being in his influential work Sein und Zeit
+(“this entity which each of us is himselfâ€Šwe shall denote by the term “dasein.”"
+[1] ), in which he argued that being or “dasein” links one’s sense of one’s body to
+one’s perception of world . Heidegger, amongst others, referred to an innate language as
+the foundation of being , which gives signal to (and from, cf. cognition ) all aspects of being .
+
+The way that I used the word Being in the previous posting fit directly with the first part of the
+second paragraph where it refers to the â€œconcept of the selfâ€�. The difference
+is that in that quote itâ€™s stated that â€œâ€Š the being is in the mind , and the
+“body” is all sensory aspects within the being .â€�
+
+With my current understanding, I would word this differently. Something like: Your Being
+encompasses all that you are including your mind, body and everything else that makes up who
+and what You are. Your Being is the root of who you are. Your Being is the â€˜ Iâ€™ in I am
+. In the context in which Iâ€™ll write, Your Being is a unique living entity that has a
+whole bunch of tools at its disposal in which to enhance the experience of life.
+
+I would also like to clarify what it means to sense something for itâ€™s a pretty abstract
+concept that most people have come to understand as being fairly limited. To me, there are
+clear differences between a sense organ and the act of sensing . One is the tool and the other is
+how it interacts with Your Being . The Wikipedia has also made the distinction where they list
+â€œSenseâ€� and â€œSense (disambiguation)â€�. From Sense , we read the
+sense organ type definition:
+
+Senses are the physiological capacities within organisms that provide inputs for
+perception .
+
+From Sense (disambiguation) we read:
+
+A sense in biology and psychology, is a physiological method of perception. In common usage, a
+sense may also mean an understanding or awareness of something in particular.
+
+This second definition is in line with what Iâ€™m referring to when I write sensing . But
+to fill it out more, sensing, and the act of perception, are really closely intertwined. For
+when you perceive something, youâ€™ve applied your understanding to what
+youâ€™ve sensed. The semiformal definition of perception comes across like:
+
+Perception (from the Latin perceptio, percipio ) is the process of attaining awareness or
+understanding of the environment by organizing and interpreting sensory information . [1]
+[2] All perception involves signals in the nervous system , which in turn result from physical
+stimulation of the sense organs. [3] For example, vision involves light striking the retinas
+of the eyes, smell is mediated by odor molecules and hearing involves pressure waves .
+Perception is not the passive receipt of these signals, but can be shaped by learning , memory
+and expectation . [4] [5] Perception involves these “top-down” effects as well as the
+“bottom-up” process of processing sensory input. [5] Perception depends on complex
+functions of the nervous system, but subjectively seems mostly effortless because this
+processing happens outside conscious awareness. [3]
+
+This definition is mostly in line with my understanding. The part that I somewhat disagree
+with is the part â€œAll perception involves signals in the nervous system , which in turn
+result from physical stimulation of the sense organs. [3] â€�. If the definition of
+nervous system was Your Being and they dropped the part about â€œâ€Š which in turn
+result from physical stimulation of the sense organsâ€� I might feel better about
+whatâ€™s been collectively written.
+
+I might write the definition like; Perception is the process of understanding or becoming
+aware of sensory information. Perception is a conscious activity, yet sensory stimulation
+quite often happens outside of conscious awareness.
+
+    Letâ€™s now bring these three together.
+
+    - Your Being perceives by sensing.Â Â 
+
+    
+
+
+
+That came together pretty easy! In a way, it seems so simple. This, to me, is the input side of
+life.
+
+Because during the process of life we interact with our environment, there is a similar path
+for the output side of life.
+
+To get a better feel for this letâ€™s play with the idea of creativity. What does it mean to
+create? The common idea for creativity (similar to the common five senses) comes across like
+this:
+
+Creativity refers to the phenomenon whereby a person creates something new (a product, a
+solution, a work of art, a novel, a joke, etc.) that has some kind of value. What counts as
+“new” may be in reference to the individual creator, or to the society or domain within
+which the novelty occurs. What counts as “valuable” is similarly defined in a variety of
+ways.
+
+If you look at this common definition while keeping the idea of senses in mind, youâ€™ll
+get the feeling that the type of things that they list as being â€˜createdâ€™ are
+things that are clearly discoverable by the standard five senses.
+
+To get a better feel for how Iâ€™m using it, we want to go a little deeper.
+
+It is generally thought that “creativity” in Western culture was originally seen as a
+matter of divine inspiration . [1]
+
+Following the link to divine inspiration we can see that they broke it up into different
+sections. The one that looks most promising is:
+
+Epiphany (feeling) , the sudden realization or comprehension of the essence or meaning of
+something
+
+Linking again:
+
+An epiphany (from the ancient Greek áŒ�Ï€Î¹Ï†Î¬ÎœÎµÎ¹Î±,
+epiphaneia , “manifestation, striking appearance”) is the sudden realization or
+comprehension of the (larger) essence or meaning of something. The term is used in either a
+philosophical or literal sense to signify that the claimant has “found the last piece of the
+puzzle and now sees the whole picture,” or has new information or experience, often
+insignificant by itself, that illuminates a deeper or numinous foundational frame of
+reference .
+
+What we see here is that when someone has an epiphany, they have a sudden realization or
+comprehension of something. Simply put, how I would interpret this is that Your Being
+suddenly becames conscious of something (new). The knowledge or understanding that already
+existed now becomes something you can consciously act upon.
+
+And if youâ€™re taking notes, this is similar to what we saw in the previous posting
+regarding intuition!
+
+When we go to put these ideas together, I generally refer to creativity as the process by which
+Your Being transfers knowledge or understanding (which is generally thought of as an
+epiphany or intuitive understanding ) where you actively express that new understanding in
+some form. Typically, someone may verbalize the experience to someone, it may be written down
+or acted out or felt. In general, it is the act where Your Being communicates in a way that is
+detected consciously and acted upon.
+
+    Thus we have our output path:
+
+    - Your Being creates consciously.
+
+    
+
+
+
+Â 
+
+The thing that unites these two different key characteristics that make up how you function is
+energy! I will leave the energy discussion for another day, but for Your Being to be able to
+either receive or transmit information, that information, however subtle it is, needs to
+flow to the tools that we have that can interpret it.
+
+The most interesting part is not the energy, but rather the energy flow. The energy flow is what
+we experience and call life! That is what needs to happen for us to either sense or create
+something. The stronger the energy flow, the larger the impression on Your Being . If the
+energy flow is subtle, than the more stimulating energy flows need to be calmed so that the
+tools that receive the subtle flows can actually sense or intuit it!
+
+I am so looking forward to expanding upon these ideas with more detailed postings. For now, I
+hope you have a better understanding with regards to the words I used in my previous posting
+(and some even earlier postings). August 21st, 2011 | Category: Human Energy , Light is Life ,
+Philosophy | One comment
+
+Send
+
+Image:
+http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/icons/email-gray.gif
+comments to: David at GenuineObservations dot com
+
+Intuition & Ego
+
+
+
+I love exploring the intricate aspects of what it means to be human. Sure, we are made of flesh
+and bone, but there is so much more that really goes into defining how we experience life than
+the simple senses : taste, touch, smell, seeing and hearing! We are highly developed sensory
+Beings that can â€“ not only sense whatâ€™s going on around us – but actually
+shape our own experience. Itâ€™s subtle, but observable â€“ if you put the effort
+into watching, practicing and consciously participating in what you do and how the world
+responds to what you do.
+
+In order to really do this, one needs to understand what and who they are.
+
+A great book to help the reader get a better understanding of who they are can be found in just
+about any bookstore today.Â  It is:
+
+Eckhart Tolle distills complex spiritual theory down into common truth. That common truth
+can forever change the way you perceive your world – if you understand what heâ€™s
+saying. Fortunately for us, his words have been viewed by so many that itâ€™s easy to find
+some of this key ideas on the web.
+
+Looking at Wikipedia, Iâ€™d like to repeat the following section on the ego and internal
+presence :
+
+The ego and the deeper Presence
+
+The book begins with Tolle recalling his initial transformational experience when he was
+twenty-nine. This spiritual experience was one that not only jolted him into an intense
+awareness of the present moment, but also one that suggested his inner being or self had
+hitherto unsuspected depths: “am I one or two? If I cannot live with myself, there must be two
+of me: the ‘I’ and the ‘self’ that ‘I’ cannot live with.” [15]
+
+For Tolle the ego is a sense of self derived from the content and activity of the mind. It is “a
+mental image of who you are, based on your personal and cultural conditioning.” [16] He
+notes that virtually everyone hears a “voice” in their head all the time, the involuntary
+and often repetitive thought-processes of our minds. As we live “the voice comments,
+speculates, judges, compares, complains, likes, dislikes, and so on.” It may be reliving
+the past or rehearsing imagined future situations. [17]
+
+Tolle claims there is a deeper sense of self than the ego, a conscious presence which may be
+known in various ways. One method he recommends is simply to listen to the voice in the head
+without judging it in any way or getting caught up in its contents. Just by ‘watching the
+thinker’ in the head, he says, “You’ll soon realise: there is the voice, and here I am
+listening to it.” That I am realisation is “a sense of your own presence … (arising) from
+beyond the mind.” [18] And as one becomes aware of this deeper self as a conscious presence,
+so the involuntary thinking begins to subside, giving way to stillness, peace and what he
+calls “the joy of Being.” [19]
+
+To me, the most important thing that he presents really well is all summed up on the last
+paragraph (where I quote the quote): â€œYou’ll soon realise: there is the voice, and
+here I am listening to it.â€�
+
+A twisted interpretation might be, not only do I have the sense of touch, the sense of smell and
+the sense of sight, but I have the sense of self! Thatâ€™s right, itâ€™s another
+attribute of our being human! That voice in your head is no more evil than your sense of smell. It
+is â€Š what it is.
+
+That sense of smell can sense small amounts of vapors or various substances but there are a
+sequence of events that occur based upon that stimuli. To start with, if youâ€™ve never
+smelt a rotting animal, the experience upon detecting this smell is immediately emotional.
+The smell is repulsive. Instinctively, you would step away from the smell. Meanwhile, as soon
+as the smell is detected, the voice in your head might say â€œOh my God! What a foul smell.
+What could that be? Itâ€™s disgustingâ€Šâ€� Then, through a little bit of
+investigation you discover the source of the foul smell. At that point, an association is made
+between the smell and the source of the smell. Depending on the level education (ability to
+label things), you may be able to describe the experience well. If you donâ€™t have any
+idea what it is, all you can go on is the emotional experience.
+
+The key thing to notice in this discovery process is that when you sense something it is your
+Being that experiences what the senses provide. The voice in your head is a side show that may or
+may not fully understand what is being sensed. To me, this is a very strong statement that you
+might not want to simply breeze by.
+
+Your Being receives what you sense. The voice in your head does not! Your Being acts upon the
+stimuli in a pure unhindered way. The voice in your head responds to what your Being
+experiences in order to enhance it. The voice in your head adds an intellectual understanding
+to the raw experience.
+
+That voice in your head, because it is language based, can also be thought of as a translator. It
+is used to â€˜label experiencesâ€™ in ways that can be shared with others. Note that
+the voice in your head didnâ€™t cause the experience, it just translates (or maybe
+narrates) the experience.
+
+The experience still happens to the Being.
+
+Thinking back to the smell example above, how is it that the Being (you) first react to the
+smell? Does your body process the smell, associate it with rotting flesh and the voice in your
+head yells danger – danger? No. You immediately feel repulsed by the smell. You have an
+emotional reaction. If the smell had been that of a ripe cantaloupe, the emotional response
+would most likely be attractive. The smell would make you feel good. Upon investigating the
+smell, you may discover something wonderful to eat. But in every case, the response is
+emotional.
+
+Senses generate emotional responses.
+
+Now, what are emotions?
+
+Emotions arenâ€™t something you can touch, smell or see, but there are none-the-less
+sensed! You might say that we have the sense of emotion! Ha! Weâ€™ve found another human
+sense!
+
+When dealing with emotions, we generally feel either attracted or repealed (to some degree).
+Itâ€™s only when the translator gets involved that we start thinking about it as love or
+hate, or happiness or sadness, etc.. Keeping the translator aside, the sense of emotion is
+normally strong or weak rather than good or bad.
+
+Physically speaking, emotions take the form of energy (light or electrical pulse) more-so
+then just about anything. When you deal with the five primary senses, a scientist would say
+that the vapor triggers the receptors in your nose to send a signal (via your nervous system) to
+your brain where it is processed. If you where to ask me, Iâ€™d say that the vapor triggers
+a receptor that sparks the flow of emotion which is understandable by your Being
+(consciousness).
+
+This brings us around to how your Being communicates.
+
+If you â€˜listen to the voice in your headâ€™ â€“ how do you hear it?
+Youâ€™re ears translate sound waves into electrical impulses (energy, light) that
+enters your nervous system that get processed by your Being. It would seem that the voice in
+your head would do the same thing if it wanted to be heard (sorry about talking about it as if it
+had a â€˜mindâ€™ of its own). In other words, the evidence suggests that your Being
+doesnâ€™t hear sound, it senses energy. The voice in your head is simply energy shaped by
+your Being.
+
+Converting physical sensations into energy is the technique by which the Being realizes its
+experience in the world. The Being doesnâ€™t use organs like eyes and ears, but rather
+has eyes and ears and crude ways to sense specific types of energy.
+
+The reverse process: Creation (part of communication).
+
+If you turn this process around, it would make sense that the Being also uses energy to
+communicate. If you want to convey something that you â€˜knowâ€™ to someone else,
+it generally has to be translated by physical senses (created) so that it can be shared. This
+would involve describing a smell or texture in a way that someone else can relate. If they
+donâ€™t have an understanding of the words (or the other means of expression) they will
+not understand what youâ€™re trying to communicate.
+
+Yet, when you look at how the senses are designed, there are unique paths for input and output.
+
+For instance, even though we hear with our ears (which are considered sensory organs) we speak
+to generate sound. The sound that we generate is a direct reflection of our Being. There is
+nothing stopping you from saying whatever it is that you want to say. The only time your sound is
+censored is when your Being consults the translator (voice in your head) to make sure that what
+will be said is exactly what you intend to say.
+
+There is also movement and expression. Your body will naturally reflect your current
+emotional state. It is pretty easy to physically see the difference between someone that is
+happy and someone that is sad. These are universal traits that form a layer of communication
+â€“ weather you are aware if it or not.
+
+When it comes to communication, the energy flows from your Being and gets translated as that
+energy makes it into physical form. If the energy can make it through unedited, itâ€™s a
+pure reflection or manifestation of your Being. Singing, dancing, making something
+(creating) and intuition are quite often considered uninterrupted.
+
+Now, how does all this related back to the title intuition and ego? Well, letâ€™s look at
+the widely accepted public definition from the Wikipedia for Intuition :
+
+Intuition is the ability to acquire knowledge without inference or the use of reason. [1]
+
+Considering this, along with my interpretation above, when you intuit something you
+experience pure understanding from your Being without having to translate it through the
+ego. That understanding comes from pure energy. As that energy leaves the spirit (Being) it
+enters the body and gets processed by the appropriate â€˜toolâ€™. If it comes
+through as logical energy, it might feed the â€˜translatorâ€™ in such a way that the
+energy is intellectualized so that it can be recorded or spoken. That energy may also come
+through as a feeling, which, rather than being intellectualized, it is expressed through the
+body.
+
+In any case, it is energy that you share with yourself. It is a very subtle energy that many
+people overlook, or undervalue, yet it is there always available for the observant.
+
+Meditation, as it turns out, is a conscious practice where major energy components of the body
+(and mind) are energetically reduced in order to allow essence of your Being shine through. As
+you reduce the energy flows to places like your ego, the synchronicity of the underlying
+subtle energies (like emotions) become more predominant. When the energy flows slow, the
+affect is like removing all the big waves from a pond. After doing so, any small wave can be
+observed and explored.
+
+It is in these states that the Being can sense subtle energies that donâ€™t normally come
+through the standard sensory paths (eyes, ears, etc.). It is in this calm that things like
+intuition can be felt. Or, more importantly, the emotional energy that surrounds you. Or
+even, it is in this calm that you can sense the energy of others!
+
+Yes, that is correct. The energy that you give out influences your environment. Likewise, the
+energy that others give out also influence the environment and you can pick this up just like
+you sense your own energy! The problem most people experience is that they canâ€™t tell
+the difference between weather itâ€™s their emotion or if itâ€™s someone
+elseâ€™s emotion.
+
+This is where intuition and ego (the translator) get involved. If you are in harmony with
+yourself, you should intuitively know if the emotion is yours or not. If there is too much noise
+preventing the intuitive understanding from coming through, consult the translator. The
+ego is a good consultant that should be able to help you identify the source of the emotional
+energy.
+
+A couple key things that the ego and intuition show us is that at our core, the I am inside each one
+of us receives and emits energy as itâ€™s form of perception and creation. We sense
+energy. We have physical tools that help us sense energy. We are not simply hands and feet
+(flesh and bone) but the core spirit uses energy as its key interface into our physical world.
+
+So, even though you may not make a sound, you can still be heard.
+
+Sending an emotion is much stronger than sending a thought.
+
+Calming yourself helps you feel other energies.
+
+*
+
+Wow.Â  I loved writing this. I hope you can feel the energy too! August 15th, 2011 | Category:
+Human Energy , Light is Life , Philosophy , Vibrational energy | 2 comments
+
+Send
+
+Image:
+http://blog.genuineobservations.com/wp-content/themes/atahualpa/images/icons/email-gray.gif
+comments to: David at GenuineObservations dot com « Newer Entries     Older Entries »
+
+24hr Gold Chart
+
+
+
+Image: http://www.24hgold.com/ChartImages/usGoldn.png
+
+Categories
+
+    
+
+    - Alchemy (21)
+
+    
+
+    - Gardening (12)
+
+    
+
+    - General Comments (27)
+
+    
+
+    - Healthy Lifestyle (20)
+
+    
+
+    - Human Energy (45)
+
+    
+
+    - Light is Life (34)
+
+    
+
+    - Philosophy (33)
+
+    
+
+    - Raw Food (47)
+
+    
+
+    - Raw Green Smoothies (60)
+
+    
+
+    - Raw Sorbet (4)
+
+    
+
+    - Sprouting (7)
+
+    
+
+    - Vibrational energy (19)
+
+    
+
+    - Weird Science (7)
+
+    
+
+    - Yoga (13)
+
+    
+
+
+
+To recieve email notifications of new articles, register here:
+
+
+
+Delivered by FeedBurner
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/12/FlowYogaLogo1.jpg
+
+Hometown Links
+
+    
+
+    - 8 Limbs Yoga
+
+    
+
+    - Flow Yoga
+
+    
+
+    - Herban Wellness
+
+    
+
+    - House of the Sun
+
+    
+
+    - Mahalas Astrology
+
+    
+
+    - Massage Therapist
+
+    
+
+    - Raw Vegan Source
+
+    
+
+    - Two Rivers Yoga and Massage
+
+    
+
+    - Yoga Instructor Reiki specialist
+
+    
+
+
+
+Metaphysical links
+
+    
+
+    - Divine Light Healing
+
+    
+
+    - Mahalas Astrology
+
+    
+
+    - Sacredre Connections
+
+    
+
+    - ZenHabits
+
+    
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/01/DelightfullyRawCoverReduced.gif
+
+Raw Food Links
+
+    
+
+    - (red)efining reality
+
+    
+
+    - barefoot and frolicking
+
+    
+
+    - Charis Melina
+
+    
+
+    - Ginger is the New Pink
+
+    
+
+    - Gone Raw
+
+    
+
+    - Kimberly Snyder
+
+    
+
+    - Kirsten Gum
+
+    
+
+    - Love Raw blog
+
+    
+
+    - Raw Family
+
+    
+
+    - Raw Food Rehab
+
+    
+
+    - Raw on $10 a Day
+
+    
+
+    - RawketScience
+
+    
+
+    - Real Food Tulsa
+
+    
+
+    - Shell's Kitchen
+
+    
+
+    - Sweetly Raw
+
+    
+
+    - The Live Green Smoothie Diet
+
+    
+
+    - The Raw Seed
+
+    
+
+    - The Sunny Raw Kitchen
+
+    
+
+
+
+Image:
+http://blog.genuineobservations.com/wp-content/uploads/2011/10/RawVeganSource.png
+
+Youtube channels
+
+    
+
+    - Love, Light & Laughter!
+
+    
+
+    - Perfect 10 Lifestyle
+
+    
+
+    - The Raw Food World TV Show
+
+    
+
+    - The Renegade Health Show
+
+    
+
+
+
+
+
+Image: http://www.feedburner.com/fb/images/pub/feed-icon32x32.png   Subscribe in a
+reader
+
+Trial Links
+
+    
+
+    - Angelic Monkey
+
+    
+
+    - Find A Spring
+
+    
+
+    - FlowMotion
+
+    
+
+    - Kula Movement
+
+    
+
+    - Lit Corner
+
+    
+
+    - The Book of Aquarius
+
+    
+
+    - Vipassana Meditation
+
+    
+
+
+
+Archives
+
+    
+
+    - August 2012
+
+    
+
+    - June 2012
+
+    
+
+    - May 2012
+
+    
+
+    - April 2012
+
+    
+
+    - March 2012
+
+    
+
+    - February 2012
+
+    
+
+    - January 2012
+
+    
+
+    - December 2011
+
+    
+
+    - November 2011
+
+    
+
+    - October 2011
+
+    
+
+    - September 2011
+
+    
+
+    - August 2011
+
+    
+
+    - July 2011
+
+    
+
+    - June 2011
+
+    
+
+    - May 2011
+
+    
+
+    - April 2011
+
+    
+
+    - March 2011
+
+    
+
+    - February 2011
+
+    
+
+    - January 2011
+
+    
+
+    - December 2010
+
+    
+
+    - November 2010
+
+    
+
+    - October 2010
+
+    
+
+    - September 2010
+
+    
+
+    - August 2010
+
+    
+
+    - July 2010
+
+    
+
+    - June 2010
+
+    
+
+    - May 2010
+
+    
+
+    - April 2010
+
+    
+
+    - March 2010
+
+    
+
+
+
+Personal Links
+
+    
+
+    - Moroccan Mishaps
+
+    
+
+
+
+Alt Health
+
+    
+
+    - Dr. Fred Bisci
+
+    
+
+    - Ormus Minerals
+
+    
+
+    - Reflexology – foot
+
+    
+
+    - Reflexology – hand
+
+    
+
+rmm_ki101('0',130,'1q8wlnu5onr','ff0000');
+
+Copyright © 2012 Genuine Observations - All Rights Reserved
+
+Powered by WordPress & the Atahualpa Theme by BytesForAll . Discuss on our WP Forum
+

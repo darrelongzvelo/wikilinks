@@ -1,0 +1,3226 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Chelsea fc lover: Agustus 2010 if (navigator.userAgent.indexOf('MSIE 6') == -1) {
+WebFontConfig = { google: { families: [ 'Cherry Cream Soda', 'Kranky', 'Crafty Girls',
+'Walter Turncoat' ], api:
+'//themes.googleusercontent.com/fonts/css?kit=OrD-AUnFcZeeKa6F_c0_W0eA-lLQhd3UTPMfknTfccYbAeAsMTGF81PUAj4-3uUXIisCuMdlRHBHwh_v6EwdJC7GVHdFWW3a1uSQzptEqzM'
+}, loading: function() { if (window.jstiming)
+window.jstiming.load.tick('webfontLoading'); }, active: function() { if
+(window.jstiming) window.jstiming.load.tick('webfontActive'); } }; (function() { var
+wf = document.createElement('script'); wf.src =
+'//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type =
+'text/javascript'; wf.async = 'true'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s);
+})(); } else { document.documentElement.className = 'wf-inactive'; } .wf-inactive
+.header h1, .wf-cherrycreamsoda-n4-loading .header h1,
+.wf-cherrycreamsoda-n4-inactive .header h1 { font-family: cursive; } .wf-inactive
+h2.date-header, .wf-craftygirls-n4-loading h2.date-header,
+.wf-craftygirls-n4-inactive h2.date-header { font-family: cursive; } .wf-inactive
+h3.post-title, .wf-walterturncoat-n4-loading h3.post-title,
+.wf-walterturncoat-n4-inactive h3.post-title, .wf-inactive .comments h4,
+.wf-walterturncoat-n4-loading .comments h4, .wf-walterturncoat-n4-inactive
+.comments h4 { font-family: cursive; } .wf-inactive h2, .wf-kranky-n4-loading h2,
+.wf-kranky-n4-inactive h2 { font-family: cursive; } <!-- /*
+----------------------------------------------- Blogger Template Style Name:
+Watermark Designer: Josh Peterson URL: www.noaesthetic.com
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="keycolor" description="Main Color" type="color"
+default="#c0a154"/> <Group description="Page Text" selector="body"> <Variable
+name="body.font" description="Font" type="font" default="normal normal 14px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="body.text.color"
+description="Text Color" type="color" default="#333333"/> </Group> <Group
+description="Backgrounds" selector=".main-inner"> <Variable
+name="body.background.color" description="Outer Background" type="color"
+default="#c0a154"/> <Variable name="footer.background.color" description="Footer
+Background" type="color" default="transparent"/> </Group> <Group description="Links"
+selector=".main-inner"> <Variable name="link.color" description="Link Color"
+type="color" default="#cc3300"/> <Variable name="link.visited.color"
+description="Visited Color" type="color" default="#993322"/> <Variable
+name="link.hover.color" description="Hover Color" type="color" default="#ff3300"/>
+</Group> <Group description="Blog Title" selector=".header h1"> <Variable
+name="header.font" description="Title Font" type="font" default="normal normal 60px
+Georgia, Utopia, 'Palatino Linotype', Palatino, serif"/> <Variable
+name="header.text.color" description="Title Color" type="color" default="#ffffff" />
+</Group> <Group description="Blog Description" selector=".header .description">
+<Variable name="description.text.color" description="Description Color"
+type="color" default="#997755" /> </Group> <Group description="Tabs Text"
+selector=".tabs-inner .widget li a"> <Variable name="tabs.font" description="Font"
+type="font" default="normal normal 20px Georgia, Utopia, 'Palatino Linotype', Palatino,
+serif"/> <Variable name="tabs.text.color" description="Text Color" type="color"
+default="#0b5394"/> <Variable name="tabs.selected.text.color"
+description="Selected Color" type="color" default="#000000"/> </Group> <Group
+description="Tabs Background" selector=".tabs-outer .PageList"> <Variable
+name="tabs.background.color" description="Background Color" type="color"
+default="transparent"/> <Variable name="tabs.separator.color"
+description="Separator Color" type="color" default="#437eb5"/> </Group> <Group
+description="Date Header" selector="h2.date-header"> <Variable name="date.font"
+description="Font" type="font" default="normal normal 16px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif"/> <Variable name="date.text.color" description="Text Color"
+type="color" default="#997755"/> </Group> <Group description="Post"
+selector="h3.post-title, .comments h4"> <Variable name="post.title.font"
+description="Title Font" type="font" default="normal normal 30px Georgia, Utopia,
+'Palatino Linotype', Palatino, serif"/> <Variable name="post.background.color"
+description="Background Color" type="color" default="transparent"/> <Variable
+name="post.border.color" description="Border Color" type="color" default="#ccbb99"
+/> </Group> <Group description="Post Footer" selector=".post-footer"> <Variable
+name="post.footer.text.color" description="Text Color" type="color"
+default="#997755"/> </Group> <Group description="Gadgets" selector="h2"> <Variable
+name="widget.title.font" description="Title Font" type="font" default="normal normal
+20px Georgia, Utopia, 'Palatino Linotype', Palatino, serif"/> <Variable
+name="widget.title.text.color" description="Title Color" type="color"
+default="#000000"/> <Variable name="widget.alternate.text.color"
+description="Alternate Color" type="color" default="#777777"/> </Group> <Group
+description="Footer" selector=".footer-inner"> <Variable name="footer.text.color"
+description="Text Color" type="color" default="#000000"/> <Variable
+name="footer.widget.title.text.color" description="Gadget Title Color" type="color"
+default="#073763"/> </Group> <Group description="Footer Links"
+selector=".footer-inner"> <Variable name="footer.link.color" description="Link
+Color" type="color" default="#0b5394"/> <Variable name="footer.link.visited.color"
+description="Visited Color" type="color" default="#6fa8dc"/> <Variable
+name="footer.link.hover.color" description="Hover Color" type="color"
+default="#9fc5e8"/> </Group> <Variable name="body.background" description="Body
+Background" type="background" color="#437eb5" default="$(color)
+url(//www.blogblog.com/1kt/watermark/body_background_birds.png) repeat scroll top
+left"/> <Variable name="body.background.overlay" description="Overlay Background"
+type="background" color="#437eb5" default="transparent
+url(//www.blogblog.com/1kt/watermark/body_overlay_birds.png) no-repeat scroll top
+right"/> <Variable name="body.background.overlay.height" description="Overlay
+Background Height" type="length" default="121px"/> <Variable
+name="tabs.background.inner" description="Tabs Background Inner" type="url"
+default="none"/> <Variable name="tabs.background.outer" description="Tabs
+Background Outer" type="url" default="none"/> <Variable name="tabs.border.size"
+description="Tabs Border Size" type="length" default="0"/> <Variable
+name="tabs.shadow.spread" description="Tabs Shadow Spread" type="length"
+default="0"/> <Variable name="main.padding.top" description="Main Padding Top"
+type="length" default="30px"/> <Variable name="main.cap.height" description="Main
+Cap Height" type="length" default="0"/> <Variable name="main.cap.image"
+description="Main Cap Image" type="url" default="none"/> <Variable
+name="main.cap.overlay" description="Main Cap Overlay" type="url" default="none"/>
+<Variable name="main.background" description="Main Background" type="background"
+default="transparent none no-repeat scroll top left"/> <Variable
+name="post.background.url" description="Post Background URL" type="url"
+default="url(//www.blogblog.com/1kt/watermark/post_background_birds.png)"/>
+<Variable name="post.border.size" description="Post Border Size" type="length"
+default="1px"/> <Variable name="post.border.style" description="Post Border Style"
+type="string" default="dotted"/> <Variable name="post.shadow.spread"
+description="Post Shadow Spread" type="length" default="0"/> <Variable
+name="footer.background" description="Footer Background" type="background"
+color="#3d85c6" default="$(color)
+url(//www.blogblog.com/1kt/watermark/body_background_navigator.png) repeat scroll
+top left"/> <Variable name="mobile.background.overlay" description="Mobile
+Background Overlay" type="string" default="transparent none repeat scroll top left"/>
+<Variable name="startSide" description="Side where text starts in blog language"
+type="automatic" default="left"/> <Variable name="endSide" description="Side where
+text ends in blog language" type="automatic" default="right"/> */ /* Use this with
+templates/1ktemplate-*.html */ /* Content
+----------------------------------------------- */ body { font: normal normal 14px
+Arial, Tahoma, Helvetica, FreeSans, sans-serif; color: #000000; background: #437eb5
+url(http://themes.googleusercontent.com/image?id=0BwVBOzw_-hbMNjQyMWIwNGYtYWVjMi00YzJhLWIwMTQtZjdjZTI0YzhhN2Zh)
+repeat scroll top center /* Credit: Ollustrator
+(http://www.istockphoto.com/googleimages.php?id=9505737&platform=blogger) */; }
+html body .content-outer { min-width: 0; max-width: 100%; width: 100%; } .content-outer {
+font-size: 92%; } a:link { text-decoration:none; color: #0b5394; } a:visited {
+text-decoration:none; color: #6fa8dc; } a:hover { text-decoration:underline; color:
+#9fc5e8; } .body-fauxcolumns .cap-top { margin-top: 30px; background: transparent none
+no-repeat scroll center center; height: 121px; } .content-inner { padding: 0; } /* Header
+----------------------------------------------- */ .header-inner .Header
+.titlewrapper, .header-inner .Header .descriptionwrapper { padding-left: 20px;
+padding-right: 20px; } .Header h1 { font: normal bold 50px Cherry Cream Soda; color: #073763;
+text-shadow: 2px 2px rgba(0, 0, 0, .1); } .Header h1 a { color: #073763; } .Header .description
+{ font-size: 140%; color: #0b5394; } /* Tabs
+----------------------------------------------- */ .tabs-inner .section { margin: 0
+20px; } .tabs-inner .PageList, .tabs-inner .LinkList, .tabs-inner .Labels { margin-left:
+-11px; margin-right: -11px; background-color: transparent; border-top: 0 solid #ffffff;
+border-bottom: 0 solid #ffffff; -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .3);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .3); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .3);
+box-shadow: 0 0 0 rgba(0, 0, 0, .3); } .tabs-inner .PageList .widget-content, .tabs-inner
+.LinkList .widget-content, .tabs-inner .Labels .widget-content { margin: -3px -11px;
+background: transparent none no-repeat scroll right; } .tabs-inner .widget ul { padding:
+2px 25px; max-height: 34px; background: transparent none no-repeat scroll left; }
+.tabs-inner .widget li { border: none; } .tabs-inner .widget li a { display: inline-block;
+padding: .25em 1em; font: normal normal 20px Arial, Tahoma, Helvetica, FreeSans,
+sans-serif; color: #cc3300; border-right: 1px solid #c0a154; } .tabs-inner .widget
+li:first-child a { border-left: 1px solid #c0a154; } .tabs-inner .widget li.selected a,
+.tabs-inner .widget li a:hover { color: #000000; } /* Headings
+----------------------------------------------- */ h2 { font: normal bold 20px Kranky;
+color: #073763; margin: 0 0 .5em; } h2.date-header { font: normal bold 16px Crafty Girls;
+color: #6fa8dc; } /* Main ----------------------------------------------- */
+.main-inner .column-center-inner, .main-inner .column-left-inner, .main-inner
+.column-right-inner { padding: 0 5px; } .main-outer { margin-top: 0; background:
+transparent none no-repeat scroll top left; } .main-inner { padding-top: 30px; }
+.main-cap-top { position: relative; } .main-cap-top .cap-right { position: absolute;
+height: 0; width: 100%; bottom: 0; background: transparent none repeat-x scroll bottom
+center; } .main-cap-top .cap-left { position: absolute; height: 245px; width: 280px;
+right: 0; bottom: 0; background: transparent none no-repeat scroll bottom left; } /* Posts
+----------------------------------------------- */ .post-outer { padding: 15px 20px;
+margin: 0 0 25px; background: transparent
+url(//www.blogblog.com/1kt/watermark/post_background_birds.png) repeat scroll top
+left; _background-image: none; border: dotted 1px #8eaec6; -moz-box-shadow: 0 0 0 rgba(0,
+0, 0, .1); -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0,
+.1); box-shadow: 0 0 0 rgba(0, 0, 0, .1); } h3.post-title { font: normal normal 30px Walter
+Turncoat; margin: 0; } .comments h4 { font: normal normal 30px Walter Turncoat; margin: 1em 0
+0; } .post-body { font-size: 105%; line-height: 1.5; position: relative; } .post-header {
+margin: 0 0 1em; color: #0b5394; } .post-footer { margin: 10px 0 0; padding: 10px 0 0; color:
+#0b5394; border-top: dashed 1px #636363; } #blog-pager { font-size: 140% } #comments
+.comment-author { padding-top: 1.5em; border-top: dashed 1px #636363;
+background-position: 0 1.5em; } #comments .comment-author:first-child { padding-top: 0;
+border-top: none; } .avatar-image-container { margin: .2em 0 0; } /* Comments
+----------------------------------------------- */ .comments .comments-content
+.icon.blog-author { background-repeat: no-repeat; background-image:
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+} .comments .comments-content .loadmore a { border-top: 1px solid #636363; border-bottom:
+1px solid #636363; } .comments .continue { border-top: 2px solid #636363; } /* Widgets
+----------------------------------------------- */ .widget ul, .widget #ArchiveList
+ul.flat { padding: 0; list-style: none; } .widget ul li, .widget #ArchiveList ul.flat li {
+padding: .35em 0; text-indent: 0; border-top: dashed 1px #636363; } .widget ul
+li:first-child, .widget #ArchiveList ul.flat li:first-child { border-top: none; }
+.widget .post-body ul { list-style: disc; } .widget .post-body ul li { border: none; } .widget
+.zippy { color: #636363; } .post-body img, .post-body .tr-caption-container, .Profile
+img, .Image img, .BlogList .item-thumbnail img { padding: 5px; background: #fff;
+-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5); -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0,
+.5); -goog-ms-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5); box-shadow: 1px 1px 5px rgba(0, 0, 0,
+.5); } .post-body img, .post-body .tr-caption-container { padding: 8px; } .post-body
+.tr-caption-container { color: #333333; } .post-body .tr-caption-container img {
+padding: 0; background: transparent; border: none; -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1); } /* Footer
+----------------------------------------------- */ .footer-outer { color:#0b5394;
+background: #3d85c6
+url(//www.blogblog.com/1kt/watermark/body_background_navigator.png) repeat scroll
+top left; } .footer-outer a { color: #0b5394; } .footer-outer a:visited { color: #0b5394; }
+.footer-outer a:hover { color: #3d85c6; } .footer-outer .widget h2 { color: #0b5394; } /*
+Mobile ----------------------------------------------- */ body.mobile {
+background-size: 100% auto; } .mobile .body-fauxcolumn-outer { background: transparent
+none repeat scroll top left; } html .mobile .mobile-date-outer { border-bottom: none;
+background: transparent
+url(//www.blogblog.com/1kt/watermark/post_background_birds.png) repeat scroll top
+left; _background-image: none; margin-bottom: 10px; } .mobile .main-cap-top { z-index:
+-1; } .mobile .content-outer { font-size: 100%; } .mobile .post-outer { padding: 10px; }
+.mobile .main-cap-top .cap-left { background: transparent none no-repeat scroll bottom
+left; } .mobile .body-fauxcolumns .cap-top { margin: 0; } .mobile-link-button {
+background: transparent
+url(//www.blogblog.com/1kt/watermark/post_background_birds.png) repeat scroll top
+left; } .mobile-link-button a:link, .mobile-link-button a:visited { color: #0b5394; }
+.mobile-index-date .date-header { color: #6fa8dc; } .mobile-index-contents { color:
+#000000; } .mobile .tabs-inner .section { margin: 0; } .mobile .tabs-inner .PageList {
+margin-left: 0; margin-right: 0; } .mobile .tabs-inner .PageList .widget-content {
+margin: 0; color: #000000; background: transparent
+url(//www.blogblog.com/1kt/watermark/post_background_birds.png) repeat scroll top
+left; } .mobile .tabs-inner .PageList .widget-content .pagelist-arrow { border-left: 1px
+solid #c0a154; } --> <!-- body { min-width: 930px; } .content-outer,
+.content-fauxcolumn-outer, .region-inner { min-width: 930px; max-width: 930px; _width:
+930px; } .main-inner .columns { padding-left: 180px; padding-right: 180px; } .main-inner
+.fauxcolumn-center-outer { left: 180px; right: 180px; /* IE6 does not respect left and right
+together */ _width: expression(this.parentNode.offsetWidth - parseInt("180px") -
+parseInt("180px") + 'px'); } .main-inner .fauxcolumn-left-outer { width: 180px; }
+.main-inner .fauxcolumn-right-outer { width: 180px; } .main-inner .column-left-outer {
+width: 180px; right: 100%; margin-left: -180px; } .main-inner .column-right-outer {
+width: 180px; margin-right: -180px; } #layout { min-width: 0; } #layout .content-outer {
+min-width: 0; width: 800px; } #layout .region-inner { min-width: 0; width: auto; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0753976528714726311942\46blogName\75Chelsea+fc+lover\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://adriauliachelsea.blogspot.com/search\46blogLocale\75in\46v\0752\46homepageUrl\75http://adriauliachelsea.blogspot.com/\46vt\0752679885377537244006',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+
+
+Chelsea fc lover
+
+
+
+
+
+
+
+Senin, 30 Agustus 2010
+
+
+
+adidas champions league balls
+
+adidas matchballs
+
+
+
+
+
+The adidas Starball has been synonymous with the UEFA Champions League since its
+introduction, with FC Bayern MÃŒnchen's 2001 victory against Valencia CF.
+
+
+
+ .adidas matchballsrate galleryrate photo
+
+
+
+adidas matchballs
+
+
+
+
+
+ The trophy The UEFA Champions League Trophy
+
+
+
+"It may not be an artistic masterpiece," said the maker of the UEFA Champions League Trophy,
+"but everybody in football is keen to get their hands on it."
+
+
+
+Moreadidas matchballsThe adidas Starball has been synonymous with the UEFA Champions
+League since its introduction, with FC Bayern MÃŒnchen's 2001 victory against Valencia
+CF. Read more
+
+
+
+The adidas Starball has been synonymous with the UEFA Champions League since its
+introduction, with FC Bayern MÃŒnchen's 2001 victory against Valencia CF in Milan the
+first final to be contested using one of the iconic balls.
+
+
+
+
+
+
+
+Those early balls were hand-stitched, but technology has evolved season on season since
+then, with the 2004 Finale ball, launched ahead of the 2004 UEFA Champions League final in
+Gelsenkirchen, representing a major breakthrough; the 32-panel ball adopted the Roteiro
+construction and, in a break with tradition, used thermal bonding technology, rather than
+being hand-stitched.
+
+
+
+
+
+
+
+Balls launched for UEFA Champions League finals were originally used in standard
+competition the following season - with the Starball being a different colour for most
+campaigns. However, a new tradition began in 2006 with the launch of the Finale Paris - the
+first ball that was designed specifically for the final, to be used exclusively by the
+eventual winners for the following season.
+
+
+
+
+
+
+
+Thermal bonded, like all subsequent final balls, the Finale Paris represented a break with
+design tradition, pioneering a new 14-panel design making the ball rounder, smoother and
+thus easier to control than any previous ball.
+
+
+
+
+
+
+
+The Finale 7, used for the Athens final of 2007, further honed these developments, with 2008's
+Finale 8 ball used in Moscow introducing the new PSC-Texture, with the dimpled surface
+further enhancing control. Innovation continued with the Finale Rome for the 2009 decider.
+Like previous final balls, it incorporated elements of the related to the final's branding
+and was marked with the location of the crucial game.
+
+
+
+
+
+
+
+The launch of the Finale Madrid marked the ten-year anniversary of adidas as the official
+match ball supplier of the UEFA Champions League. It was therefore fitting that this ball
+introduced yet another chapter in the development of ball technology.
+
+
+
+
+
+
+
+Under the motto "design becomes technology" adidas succeeded in adjusting the technology of
+the ball to a star-panel design, making the adidas Finale ball and UEFA Champions League logo
+inseparable and providing the truest possible ball flight.
+
+
+
+
+
+
+
+The adidas Finale 10, the official ball for the 2010/11 UEFA Champions League, retains the
+materials and technology of the previous edition, with the iconic star panels decorated in
+classic UEFA Champions League colours.
+
+
+
+
+
+
+
+As official supplier of the UEFA Champions League, adidas will continue to bring the best
+technological and design features to future balls, creating a new Starball for every season
+of the competition as well as a special ball for every final. Diposkan oleh
+
+
+
+Adri Aulia di
+
+
+
+03:35 Tidak ada komentar:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Kirimkan Ini lewat Email
+BlogThis! Berbagi ke Twitter Berbagi ke Facebook
+
+Minggu, 29 Agustus 2010
+
+
+
+macth reports vs stoke city
+
+Scorer: Malouda (31)
+
+
+
+
+
+Scorer: Drogba (76 pen.)
+
+
+
+Attendance: 40,931 FT (16:53)
+
+
+
+
+
+
+
+Match Gallery
+
+
+
+
+
+
+
+Match Reports
+
+
+
+
+
+
+
+
+
+
+
+It is now 14 goals without reply from three games as the strong start continues.
+
+
+
+
+
+
+
+The Blues were afforded the luxury of a missed Frank Lampard penalty before Florent Malouda
+opened the scoring for the third game running, again with a right-foot finish.
+
+
+
+
+
+
+
+Chelsea then hit the bar, a feat also performed by Stoke with the score still 1-0. Didier Drogba
+sealed the win from the penalty spot with quarter-of-an-hour to go, followed soon after by a
+debut for Ramires.
+
+
+
+
+
+
+
+This was never the fireworks of the last home game versus West Brom, or the second half at Wigan.
+Stoke showed limited ambition and kept players massed at the back. Kenywne Jones up front
+looked a man just back from injury.
+
+
+
+
+
+
+
+
+
+
+
+Carlo Ancelotti was able to field a settled side, just one change forced upon him by Branislav
+Ivanovic's back injury. Paulo Ferreira came in. It was in fact the same side that started the
+first game of the season, here at the Bridge two weeks ago.
+
+
+
+
+
+
+
+We've already seen John Mikel Obi create a goal with his long passing this season and he almost
+did so again on four minutes, sliding one out to a flying Ashley Cole who shot across goal and
+just wide.
+
+
+
+
+
+
+
+On seven minutes Stoke midfielder Dean Whitehead linked with Jones and shot powerfully at
+Petr Cech who gathered at the second attempt. Then Walters lobbed onto the roof of the net after
+Etherington had got the better of Ferreira and crossed. That was a genuine scare.
+
+
+
+
+
+
+
+Nerves should have been settled three minutes later when Stoke skipper Shawcross brought
+down Malouda in the box but Lampard's poor run from the penalty spot continued. He hit it low but
+too close to Sorensen who saved. That is three in a row spurned for club and country.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In fact Drogba tested the keeper more with a 30-yard free-kick soon after that was beaten away
+by Sorensen's stinging fists.
+
+
+
+
+
+
+
+The Ivorian later couldn't work the ball away from his feet for an effective shot after Michael
+Essien had played it through. Essien himself then headed over a corner.
+
+
+
+
+
+
+
+Approaching the half-hour, Chelsea began to put pressure on, winning a succession of corners
+but the tall Stoke defence stood strong. They were finally ripped apart by Chelsea's
+counter-attacking play 31 minutes in.
+
+
+
+
+
+
+
+The defence pounced as Jones tried to hold the ball up, Terry and Alex snapping into the
+challenge.
+
+
+
+
+
+
+
+The captain snaffled up the loose ball and raced away before slipping the perfect pass on to
+Malouda for an emphatic finish.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cole almost made it a rapid 2-0 when he swivelled on Drogba's high ball in to rap the crossbar
+with a shot. Cole was then the recipient of a nasty sliding challenge which earned Whitehead a
+booking.
+
+
+
+
+
+
+
+Our left-back was forward again just before the break, almost teeing up Drogba, and when the
+ball was played back in by Anelka, Lampard volleyed over.
+
+
+
+
+
+
+
+Etherington became the game's second booking just before the interval for tripping a
+fast-breaking Anelka. Chelsea may have been the home side, but Stoke were looking vulnerable
+to us on the counter-attack.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Drogba was guilty of passing up a chance he normally buries just four minutes after the
+restart. Anelka looped a cross onto his forehead but from just eight yards out he nodded it
+straight at the keeper.
+
+
+
+
+
+
+
+There was better work from the man with the Golden Boot in his own penalty area soon after as he
+blocked an Etherington shot following Cech's fist away.
+
+
+
+
+
+
+
+Stoke by this time had made a change through injury, Glenn Whelan now on for Whitehead.
+
+
+
+
+
+
+
+The game fell into the doldrums. Chelsea's tempo was slow and Terry took a bash sliding into a
+50-50 in the Stoke half. He was clearly troubled as he played on.
+
+
+
+
+
+
+
+Whelan then hit the bar for Stoke having advanced into a big gap after Anelka lost the ball, the
+25-yard effort rebounding back with Cech struggling. That was one strike of the woodwork
+each.
+
+
+
+
+
+
+
+Salomon Kalou replaced Lampard on 71 minutes, Malouda dropping back into the deeper midfield
+role he played at the close of last season.
+
+
+
+
+
+
+
+On 75 minutes came the game-clinching foul. The Blues broke out once again through Anelka and
+as he beat Sorensen to the ball, the keeper brought him down. The Frenchman had been heading
+wide of the goal which saved Sorensen a card, and Lampard's substitution saved a decision over
+whether he should take the penalty. Drogba powered it in.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Alex did his bit to preserve the season's clean sheet with an excellent challenge in Chelsea's
+area, met by a high-volume singing of the Brazilian's name.
+
+
+
+
+
+
+
+Another Brazilian, Ramires, was met with an equally-loud cheer when he made his debut with
+seven minutes of the 90 left. Essien made way.
+
+
+
+
+
+
+
+Sturridge had also come on for Anelka and shot across the face of goal before the end and also
+smashed one from distance into Sorensen's midriff.
+
+
+
+
+
+
+
+Kalou should have made it 3-0 with normal time up having bustled through the challenge of the
+last defender but one-on-one with Sorensen, he couldn't finish.
+
+
+
+
+
+
+
+
+
+
+
+Chelsea (4-3-3): Cech; Ferreira , Alex, Terry (c), Cole; Essien (Ramires 84), Mikel, Lampard
+(Kalou 71); Anelka (Sturridge 80), Drogba, Malouda.
+
+
+
+Scorers Malouda 31, Drogba pen 76.
+
+
+
+Unused subs Turnbull, van Aanholt, Zhirkov , Benayoun.
+
+
+
+
+
+
+
+Stoke (4-4-2): Sorensen; Huth, Shawcross (c), Ab Faye, Collins; Wilkinson, Delap (Pugh 83),
+Whitehead, (Whelan 50), Etherington; Walters, Jones (Fuller 67).
+
+
+
+Unused subs Begovic, Higginbotham, Tonge, Tuncay.
+
+
+
+Booked Whitehead 36, Etherington 44.
+
+
+
+
+
+
+
+Referee Martin Atkinson
+
+
+
+Crowd 40,931
+
+
+
+
+
+
+
+Shots on Chelsea 6 Stoke 3
+
+
+
+Corners Chelsea 6 Stoke 1
+
+
+
+Fouls Chelsea 5 Stoke 10
+
+
+
+Offsides Chelsea 2 Stoke 1 Diposkan oleh
+
+
+
+Adri Aulia di
+
+
+
+08:36 Tidak ada komentar:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Kirimkan Ini lewat Email
+BlogThis! Berbagi ke Twitter Berbagi ke Facebook
+
+
+
+
+
+10 stadion termegah di dunia
+
+&amp;amp;lt;p&amp;amp;gt;Your browser does not support
+iframes.&amp;amp;lt;/p&amp;amp;gt;
+
+Image:
+http://4.bp.blogspot.com/_oQGx3yTv_Ss/TAOTonugycI/AAAAAAAAAC0/4jbbhRX9ml8/S640/close.gif
+
+
+
+
+
+&amp;amp;lt;p&amp;amp;gt;Your browser does not support iframes.&amp;amp;lt;/p
+
+1. Rungrado May Day Stadium (Pyongyang, Korea Utara) 150.000 penonton
+
+Image:
+http://www.worldstadiums.com/stadium_pictures/asia/north_korea/pyongyang_may_day1.jpg
+
+2. Salt Lake Stadium (Calcutta, India) 120,000 penonton
+
+Image: http://www.kolkatafootball.com/new/shaji-stadium.jpg
+
+3. Estadio Azteca (Mexico City, Mexico Mexico) 114,465 penonton
+
+
+
+Image: http://www.esmexico.com/fotos/09_ciudad_de_mexico_estadio_azteca_14.jpg
+
+
+
+4. Bukit Jalil National Stadium (Kuala Lumpur, Malaysia) 110,000 penonton
+
+
+
+Image:
+http://1.bp.blogspot.com/_AWSiIgJl_04/SUDLTI1ipqI/AAAAAAAAAY4/HoJhyYdUsLo/s400/Bukit+Jalil1.jpg
+
+
+
+5. Jawaharlal Nehru Stadium (New Delhi, India) 100,000 penonton
+
+
+
+Image: http://www.schundler.com/pg13-1p.jpg
+
+
+
+5. Melbourne Cricket Ground (Melbourne, Australia) 100,000 penonton
+
+
+
+Image:
+http://www.risingsunofnihon.com/wp-content/uploads/2008/12/melbourne-cricket-ground.jpg
+
+
+
+7. Camp Nou (Barcelona, Spain) 98,772 penonton
+
+
+
+Image:
+http://www.beerandfootball.org.uk/Tour%202002/photos.rhodes.james/Nou%20Camp.400x300.jpg
+
+
+
+8. Estdio do Maracan (Rio de Janeiro, Brazil) 95,000 penonton
+
+
+
+Image: http://www.renabranstengallery.com/Images/JPEGs/Hall_Maracana.jpg
+
+9. Wembley Stadium (London, England) 90,000 penonton
+
+
+
+Image: http://www.ichauffeur.co.uk/a/i/wembley-stadium.jpg
+
+10. Azadi Stadium (Teheran, Iran) 90,000 penonton
+
+
+
+Image: http://www.payvand.com/news/07/feb/Azadi-stadium-Tehran.jpg Diposkan oleh
+
+
+
+Adri Aulia di
+
+
+
+01:03 Tidak ada komentar:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Kirimkan Ini lewat Email
+BlogThis! Berbagi ke Twitter Berbagi ke Facebook
+
+Rabu, 18 Agustus 2010
+
+
+
+Roman Abramovich Not Involved In Vitesse Takeover
+
+ 
+
+Image: http://foreign.peacefmonline.com/ver1/images/spacer.gif
+
+Image: http://foreign.peacefmonline.com/ver1/images/spacer.gif
+
+Image: http://photos.peacefmonline.com/photos/news/201008/924638598_24776.jpg
+Roman Abramovich    
+
+  A spokesperson for Roman Abramovich has denied the billionaire is behind a takeover of
+Eredivisie outfit Vitesse.
+
+
+
+Georgian businessman Merab Jordania had apparently taken over the Dutch side, but Quote had
+suggested that Abramovich was in fact facilitating the deal.
+
+
+
+However, that information is incorrect as a representative of the Chelsea owner from his
+private investment company Millhouse LLC explained that the report run by the financial
+magazine was "based on anonymous sources" and "misinformed", adding that the 43-year-old is
+"not involved".
+
+
+
+Vitesse have struggled during these tougher economic times, selling off a majority of their
+stars over the last few season and building a team based on youth. Diposkan oleh
+
+
+
+Adri Aulia di
+
+
+
+23:36 Tidak ada komentar:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Kirimkan Ini lewat Email
+BlogThis! Berbagi ke Twitter Berbagi ke Facebook
+
+Chelsea eyeing new players
+
+
+
+Chelsea eyeing new players
+
+2010-08-18 12:04
+
+Image:
+http://cdn.24.com/files/Cms/General/d/850/1bef55eff2b34e2baad9461b66ccbdb1.jpg
+Carlo Ancelotti (File)
+
+Cape Town - Defending English Premiership champions Chelsea are looking to bolster their
+squad ahead of the transfer market deadline on August 31.
+
+
+
+Chelsea manager Carlo Ancelotti has fuelled speculation that he may be preparing a bid for
+Everton midfielder Jack Rodwell after he picked out the 19-year-old for praise, according to
+the Daily Mail website .
+
+
+
+The Everton midfielder has been linked with a move to Stamford Bridge in the past with reports
+that a £16m bid had been turned down last year.
+
+
+
+The Blues are also planning a move for Real Madrid midfielder Rafael Van der Vaart and are
+refusing to give up in their pursuit of Stoke goalkeeper Asmir Begovic.
+
+
+
+Chelsea opening their 2010/11 campaign with an emphatic 6-0 drubbing of WBA at home last
+Saturday.
+
+
+
+Chelsea travel to the The DW Stadium to play Wigan on Saturday. Diposkan oleh
+
+
+
+Adri Aulia di
+
+
+
+23:34 Tidak ada komentar:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Kirimkan Ini lewat Email
+BlogThis! Berbagi ke Twitter Berbagi ke Facebook
+
+Minggu, 15 Agustus 2010
+
+
+
+
+
+
+
+stadium terindah..
+
+
+
+Stamford Bridge Stadium
+
+
+
+Image:
+http://2.bp.blogspot.com/_mitEPGK03V8/SnEIsZrtDZI/AAAAAAAAAHw/yML7hCaZcpg/s320/chelsea+fc.jpg
+S tamford Bridge  adalah stadion sepak bola yang terletak di kota London. Stamford Bridge
+merupakan kandang dari klub kaya raya Chelsea Football Club. Dinamai "The Bridge" oleh
+penggemar klub tersebut.
+
+
+
+
+
+Berdiri: 1905
+
+Alamat : Stamford Bridge, London SW6 1HS England
+
+Telpon : 0870 300 1212
+
+Ketua : Roman Abramovich
+
+Stadion: Stamford Bridge
+
+
+
+
+
+Beberapa nama yang sempat menjadi calon bagi klub ini adalah Stamford Bridge FC, Kensington
+FC, dan London FC hingga akhirnya Chelsea FC menjadi pilihan tetap.
+
+
+
+Image:
+http://3.bp.blogspot.com/_mitEPGK03V8/SnEI5rclDgI/AAAAAAAAAH4/6DIzVzRuInU/s320/Stamford+Bridge.GIF
+
+
+
+Chelsea bermarkas di stadion Stamford Bridge yang secara resmi dibuka pada 28 Apri l 1877.
+Stadion tersebut dirancang oleh arsitek asal Skotlandia Archibald Leitch yang juga
+merancang banyak stadion sepakbola lain di Inggris seperti Old Trafford (Manchester
+United), Celtic Park (Glasgow Celtic), Anfield (Liverpool), dan White Hart Lane (Tottenham
+Hotspur). Tadinya kapasitas awal Stamford Bridge dapat menampung 100 ribu penonton dan
+akhirnya mengalami berbagai perubahan hingga kapasitas akhir bagi 42.055 penonton
+sekarang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Old Trafford Stadium
+
+
+
+Image:
+http://4.bp.blogspot.com/_mitEPGK03V8/Sm1Ot7QFDcI/AAAAAAAAAHg/BneriZFobcs/s320/Manchester+United.jpg
+Old Trafford adalah sebuah stadion sepak bola di kota Stretford, Trafford, Manchester,
+Inggris. Stadion Old Trafford merupakan kandang dari klub Manchester United F.C.
+
+
+
+
+
+Sir Bobby Charlton memberikan julukan Old Trafford sebagai The Theatre of Dreams. Lapangan
+ini menjadi permanen milik Manchester United F.C. sejak 1910 (sempat absen pada tahun
+1941-1949 karena dibom saat Perang Dunia Kedua).
+
+
+
+
+
+Stadion ini terletak kira-kira setengah mil dari Lapangan Kriket Old Trafford dan
+Manchester Metrolink. Old Trafford sering dipakai menjadi tuan rumah pertandingan
+semi-final Piala FA (sebagai tempat netral), dan sebagai markas tim nasional sepak sepak
+bola Inggris ketika Stadion Wembley dalam proses renovasi. Stadion Old Trafford juga
+menjadi salah satu tempat pertandingan pada piala dunia 1966 dan Euro 1996. Dengan
+terpilihnya london sebagai tuan rumah olimpiade 2012, stadion ini direncanakan untuk
+beberapa pertandingan penyisihan sepak bola pria dan wanita.
+
+
+
+Image:
+http://2.bp.blogspot.com/_mitEPGK03V8/Sm5sUmjLYkI/AAAAAAAAAHo/oo3E6zpSzgk/s320/Manchester+United.jpg
+Old Trafford memiliki kapasitas 76.000, dan menjadi satu-satunya stadion di Inggris yang
+memiliki rating 5 bintang. Namun, dalam 3 - 4 tahun mendatang stadion ini tidak akan menjadi
+markas dari  Inggris  karena akan adanya penilaian penentuan rating bintang oleh UEFA
+dalam 3 - 4 tahun mendatang dan kemungkinan besar stadion Wembley akan mendapatkan rating 5
+bintang karena oleh beberapa media dianggap layak memenuhi syarat stadion 5 bintang UEFA
+
+
+
+
+
+Giuseppe Meazza
+
+
+
+Image:
+http://1.bp.blogspot.com/_mitEPGK03V8/Sm1FxU-gNqI/AAAAAAAAAHA/8J62XXSvCwc/s320/San+Siro.JPG
+Stadion Giuseppe Meazza  dalam bahasa Italia dikenal dengan  Stadio Giuseppe Meazza ,
+juga dikenal dengan nama  San Siro . Stadion ini adalah kandang dari dua klub besar di Italia
+yaitu  A.C Milan  dan Internazionale Milan.
+
+
+
+
+
+
+
+
+
+Stadion  Giuseppe Meazza  dibangun pada tahun 1925 di distrik San Siro di Milan. Pada tahun
+1979 namanya diubah menjadi Giuseppe Meazza untuk menghormati saeorang pemain Inter pada
+tahun 1920-an.
+
+
+
+
+
+Dalam rangka persiapan piala dunia 1990 di Italia, pada tahun 1987 pemerintah memberikan
+dewan kota  Milan  dana sebesar $30 juta untuk memodernisasikan stadion tersebut.
+
+    Pada tahun 1990 , stadion ini menjadi tempat pertandingan final Piala Dunia antara
+    Jerman Barat dan Argentina.
+
+    - Kapasitas:  85.700
+
+    
+
+    - Lapangan
+
+        
+
+        - Panjang:  105 meter
+
+        
+
+        - Lebar:  68 meter
+
+        
+
+        
+
+        - Permukaan:  Rumput
+
+        
+
+    
+
+    
+
+    - Peresmian:   19 September 1926
+
+    
+
+
+
+
+
+
+
+Santiago Bernabeu
+
+Spanyol baru saja meraih gelar kedua mereka dengan menjuarai piala eropa 2008. Sedangkan di
+pentas piala dunia, Spanyol belum pernah merengkuh gelar di pentas Piala Dunia. Namun,
+Negeri Matador itu punya sumbangsih besar dalam perjalanan sejarah Piala Dunia. Sumbangsih
+itu berupa Stadion Santiago Bernabeu.
+
+
+
+Sejarah stadion Santiago Bernabeu memang tak bisa dipisahkan dengan perjalanan Real
+Madrid, klub raksasa di pentas Liga Spanyol. Santiago Bernabeu berdiri seiring pesatnya
+prestasi dan fanatisme publik pada El Real. Real Madrid sendiri berdiri pada 1902. Saat
+pertama kali eksis di pentas Liga Spanyol, Real tak memiliki stadion yang representatif.
+Mereka hanya memanfaatkan stadion kecil bernama Campo de O'Donnel yang hanya memiliki
+kapasitas 8.000 penonton. Sebelas tahun Real memanfaatkan Campo de O'Donnel. Pada 1912,
+mereka hijrah ke komplek stadion yang lebih luas di Estadio de Chamartin. Real resmi memakai
+Estadio de Chamartin sejak 17 Mei 1923 yang sekaligus menandai gelar pertama Real di pentas
+Liga Spanyol. Laga pembuka pemakaian Estadio de Chamartin ditandai dengan laga lawan
+Newcastle United yang disaksikan 22.500 suporter. Seiring perjalanan waktu, prestasi Real
+semakin membaik. Dukungan publik pun terus melimpah. Ini yang kemudian memunculkan gagasan
+pada Don Santiago Bernabeu, yang terpilih sebagai presiden Real pada 1943, untuk merenovasi
+Estadio de Chamartin. Bernabeu melihat, Estadio de Chamartin tak cukup untuk menampung
+luapan pendukung yang ingin melihat langsung penampilan tim kesayangan mereka di lapangan.
+
+
+
+"Ini bukan ambisi pribadi saya. Tapi, ambisi klub dan pendukungnya. Real klub besar. Kami
+butuh stadion yang megah sebagai representasi kebesaran Real Madrid," papar Bernabeu
+kepada situs resmi Real.
+
+
+
+Ucapan Bernabeu seolah titah yang tak boleh dibantah. Setelah dana terkumpul sebanyak 3 juta
+pesetas (sekitar USD20 Ribu atau Rp184 Juta) untuk pembangunan lapangan, serta 37 juta
+pesetas (USD 275 Ribu atau Rp2,5 M) untuk pembangunan fisik stadion, pada 17 Oktober 1944
+peletakan batu pertama yang menandai renovasi total Estadio de Chamartin dimulai.
+
+
+
+Sebagai desainer, pengurus Real menunjuk dua arsitek Luis Alemany Soler dan Manuel Munoz
+Monasterio. Setelah tiga tahun berjalan, wajah baru Estadio de Chamartin yang awalnya hanya
+sebuah stadion kecil dengan model bangunan yang kaku, berubah menjadi stadion yang lebih
+modern. Daya tampungnya juga lebih luas, yakni mencapai 73.300. Pada awal Desember 1947,
+stadion dinyatakan siap pakai. Untuk menunjukkan bahwa stadion sudah layak pakai, pada 14
+Desember 1947, digelar laga pembukaan antara Real Madrid menjamu klub Portugal, OS
+Belenenses. Laga tersebut dimenangkan Real 3-1. Sabino Barinaga tercatat sebagai pencetak
+gol pertama di stadion baru Real. Nah, untuk menghargai ide besar Santiago Bernabeu, sejak 4
+Januari 1955, stadion tak lagi memakai nama Estadio de Chamartin. Nama itu berubah menjadi
+Estadio Santiago Bernabeu.
+
+
+
+Seiring perkembangan zaman, stadion sempat beberapa kali direnovasi. Daya tampung terus
+diperluas. Bahkan, pernah mencapai 120.000. Namun, daya tampung kembali diperkecil
+menjadi 80.000 karena terbentur regulasi baru UEFA musim 1998-1999 soal kapasitas stadion
+yang tak boleh lebih dari 100.000.
+
+
+
+Pemandangan Stadion  Santiago BernabÃ©u  dari luar
+
+
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_mitEPGK03V8/Sm0BPgXmRUI/AAAAAAAAAGY/aU0YqVX6uOU/s320/Santiago+Bernabeu+Stadium.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gambar dibawah adalah pemandangan dari Sektor 516-S, salah satu titik tertinggi di Sayap
+Selatan Lingkar-3 yang berada 50 meter di atas lapangan. Di renovasi pada 2003 silam, stadion
+yang namanya diambil dari nama Presiden FC Madrid tersebut untuk pertama-kalinya dibangun
+pada 27 Oktober 1944.
+
+
+
+
+
+
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_mitEPGK03V8/Sm0PfwXzzxI/AAAAAAAAAG4/F80OHZkNUtg/s320/Santiago+Bernabeu+Madrid.jpg
+
+Diposkan oleh
+
+
+
+Adri Aulia di
+
+
+
+04:48 Tidak ada komentar:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Kirimkan Ini lewat Email
+BlogThis! Berbagi ke Twitter Berbagi ke Facebook
+
+Sabtu, 14 Agustus 2010
+
+
+
+match report chelsea vs west brom
+
+
+
+MATCH REPORT: CHELSEA 6 WEST BROMWICH ALBION 0
+
+Posted on: Sat 14 Aug 2010 A  Didier Drogba  hat-trick,  Frank Lampard  among the
+goals, a mighty home win and Chelsea on top of the table. No it is not a reposting of the report
+from the final league game of last season, but happily the first one of this campaign. Just six
+minutes of league football was played by Chelsea since the final goal against Wigan back in May
+and  Florent Malouda  netting the first against West Brom at the Bridge today. The dodgy
+pre-season results were quickly forgotten and although the rest of the play between that
+Malouda strike and Drogba's first goal just before the interval was a little uninspiring, in
+the second half the Blues put the ragged Baggies to the sword, Drogba scoring a further two,
+Lampard opening his account for the season and Malouda wrapping up the match as he began it when
+he netted his second. The afternoon had begun with good news with Lampard declared over his
+injury suffered on duty with England and he was named in the starting line up, as were  Petr
+Cech  and Alex whose recoveries came just in time for the 'big kick-off'.
+
+Image: http://www.chelseafc.com/javaImages/e1/eb/0,,10268~8973281,00.jpg Didier
+Drogba  was also handed a start following his appearance off the bench in the Community
+Shield. Paulo Ferreira  was rewarded for his pre-season form by retaining the right-back
+shirt so  Branislav Ivanovic  dropped to the bench.  Salomon Kalou  made space for
+Drogba in the front three with  Nicolas Anelka  moving wide right. Before kick-off there
+was the expected and totally deserved warm reception for Chelsea cup final heroes Roberto Di
+Matteo and Eddie Newton (their manager in 1997, Ruud Gullit, was an on-pitch guest at
+half-time to similar applause). The first shot of the game was from Di Matteo's team - sliced
+well wide by Morrison. Anelka was the first to let fly for Chelsea - his on target but straight at
+Carson. That was on three minutes and less than two minutes later the former England keeper
+made a double save but still could not prevent Malouda from opening his account for 2010/11. It
+was the same Frenchman who initially won a free-kick in a central position when his run was
+blocked by Ibanez. Di Matteo's hopes that his side could survive an early storm on the pitch as
+the rain poured down from above evaporated when Drogba's attempt was pushed out to Mikel and
+although Carson intervened again, the ball fell to Malouda just two yards out. The chance was
+unmissable. Cole, a persistent attacking presence in the early stages, flashed a dangerous
+ball across the area soon after before Cech made his first save to keep out Dorran's deflected
+shot. Bednar had the ball in the net for West Brom on 18 minutes but the Baggies' lone striker was
+offside when receiving the ball. The biggest supply of danger in the midway part of the first
+half was from the two keepers - both escaping when under-hitting clearances. Chelsea were
+failing to follow up strongly on the good start. With Malouda and Anelka tucked in behind
+Drogba - the shape looking more Yuletide decoration than genuine 4-3-3 -  Stamford Bridge
+ was looking a very congested pitch. On 34 minutes Cole showed he is far more than just an
+attacking instrument in a narrow game when he was back with a timely intervention when West
+Brom threatened a break with Bedner found quickly. Then the game became the  Florent Malouda
+ show for a four-minute period.
+
+Image: http://www.chelseafc.com/javaImages/e4/eb/0,,10268~8973284,00.jpg First he
+crashed a shot against the post as the flag was going up - a tight offside call. Then the number 15
+was almost the beneficiary of an expertly-executed Lampard back heel but was strongly
+resisted by Jara's challenge. Then Drogba was dumped to the turf and this time Lampard stung
+Carson's hands with a free-kick. It came Malouda's way once more but this time the opening
+goalscorer headed over. Right on the stroke of half-time came Chelsea's third free-kick
+within shooting range. The rotation put Drogba back on strike and it was third time lucky for
+the Blues as West Brom's wall let Carson down badly by letting the ball straight through,
+giving the keeper no chance of making it. The ball flew just inside the right-hand post at the
+Shed End. Last season's Golden Boot winner was off and running.
+
+Image: http://www.chelseafc.com/javaImages/df/eb/0,,10268~8973279,00.jpg There was
+a spot of good fortune six minutes into the second half when Dorrans' deflected shot dropped a
+couple of yards wide after Ferreira had been caught in possession. Cech would have struggled
+had it been on target. Any chance of West Brom getting back into the game was ended soon after
+when Drogba netted his second, gobbling up his chance from inside the six-yard box when West
+Brom missed their chance to clear, a Terry header having been stopped on the line. That made it
+3-0. With our run of good opening day results now certain to continue, Ancelotti began to
+change his team - Ivanovic coming on for Ferreira shortly after the right-back had collected
+the game's only booking. Benyoun would soon follow on to the pitch for his home debut but not
+before goal number four. A Chelsea hatful without a Lampard goal is always unlikely and this
+was not to be such an occasion. Lamps took Cole's square pass after Anelka had made an incision
+and wrong-footed Carson before rolling the ball home. Drogba completed his hat-trick on 67
+minutes when he both tried and received his luck with a shot from 25 yards out - the ball taking a
+heavy deflection off Tamas on its way into the net. Now one of the major tasks remaining was to
+preserve a clean sheet that an all-round solid defensive display deserved. Alex did his bit
+with a headed deflection on a shot with five minutes remaining, and then substitute Cox shot
+wide when well placed. Then on 89 minutes at the other end a France combination ended the day -
+Malouda taking Anelka's beautifully-judged pass on the right and finishing off the inside of
+the post.
+
+Image: http://www.chelseafc.com/javaImages/d8/eb/0,,10268~8973272,00.jpg Chelsea
+had recorded our biggest top-flight opening day win.  Chelsea  (4-3-3): Cech; Ferreira
+(Ivanovic 59), Alex, Terry (c), Cole; Essien, Mikel, Lampard (Benayoun 63); Anelka, Drogba
+(Kalou 69), Malouda.
+
+Scorers  Malouda 5, 89, Drogba 45, 55, 67, Lampard 61.
+
+Booked  Ferreira 57. West Brom  (4-2-3-1): Carson (c); Jara, Tamas, Ibanez, Cech;
+Mulumbu, Brunt; Morrison, Dorrans (Cox 67), Thomas (Barnes 83); Bednar (Miller 67). Referee
+ Mark Clattenburg Shots on target  Chelsea 13 West Brom 5
+
+Corners  Chelsea 3 West Brom 1
+
+Fouls  Chelsea 13 West Brom 10
+
+Offsides  Chelsea 2 West Brom 1 Diposkan oleh
+
+
+
+Adri Aulia di
+
+
+
+23:48 Tidak ada komentar:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Kirimkan Ini lewat Email
+BlogThis! Berbagi ke Twitter Berbagi ke Facebook
+
+CHELSEA HISTORY
+
+
+
+For information on the current season, see  Chelsea F.C. season 2009–10 . This article
+documents the  History of  Chelsea Football Club , an English  association football
+ team based in Fulham, West London. For a general overview of the club, see  Chelsea F.C.
+Founded in 1905, Chelsea quickly gained a reputation for signing big name players and for
+attracting large crowds, but failed to win a major trophy in their first fifty years. They
+spent thirty of their first forty seasons in the First Division, although often found
+themselves finishing in mid-table or battling relegation. The closest Chelsea came to
+success was in the  FA Cup ; they were runners-up in  1915  and losing semi-finalists in
+1911, 1920, 1932, 1950 and 1952. The duck was finally broken by manager  Ted Drake , who
+introduced a series of changes at the club and led Chelsea to the league championship in  1955
+. The period 1963–72 saw Chelsea regularly challenge for honours for the first time,
+although they often narrowly missed out. The  League Cup  was won in  1965 , the FA Cup in 
+1970  and the  UEFA Cup Winners' Cup  in  1971 ; they were also FA Cup runners-up in  1967
+ and League Cup runners-up in  1972 . Several problems over the next decade, principally
+the debt burden caused by an ambitious attempt to redevelop Stamford Bridge, brought the club
+to the brink of extinction, before a revival under  John Neal  in the mid-1980s saw the club
+win the  Second Division  title and ultimately re-establish itself in the top flight. A
+further revival under managers  Ruud Gullit  and  Gianluca Vialli  from 1996–2000
+saw Chelsea win the FA Cup in  1997  and  2000 , the League Cup and UEFA Cup Winners' Cup in
+1998, and qualify for the Champions League for the first time; the club have not finished
+outside of the top six in the Premier League since the  1995–96  season. In 2003, Chelsea
+were bought by Russian billionaire  Roman Abramovich , ushering in the club's current phase
+of success.  JosÃ© Mourinho  led them to two league titles, an FA Cup and two League Cups in
+three seasons. The club added a further FA Cup in  2009 , a league and FA Cup " Double " in 2010 and
+reached their first UEFA Champions League final in  2008 .
+
+Contents
+
+      [ hide ]
+
+    - 1   Pre-1905
+
+    
+
+    - 2   Early Years (1905–15)
+
+    
+
+    - 3   Between the wars
+
+    
+
+    - 4   The War, Dynamo and the new youth system (1940–52)
+
+    
+
+    - 5   Ted Drake: Modernisation and the Championship (1952–61)
+
+    
+
+        - 6   Emergence (1963–71)
+
+        - 6.1   Tommy Docherty
+
+        
+
+        - 6.2   Dave Sexton
+
+        
+
+    
+
+    
+
+    - 7   Decline (1972–83)
+
+    
+
+    - 8   Battle for the Bridge
+
+    
+
+    - 9   Revival (1983–89)
+
+    
+
+    - 10   The 1990s: Back On Track
+
+    
+
+    - 11   Renaissance: Gullit, Vialli and Zola (1996–2000)
+
+    
+
+    - 12   Claudio Ranieri (2000–2004)
+
+    
+
+    - 13   JosÃ© Mourinho: Double League Champions (2004–2007)
+
+    
+
+    - 14   Grant, Scolari and Hiddink (2007–2009)
+
+    
+
+    - 15   The Ancelotti Era (Since 2009)
+
+    
+
+    - 16   See also
+
+    
+
+    - 17   Notes
+
+    
+
+    - 18   References
+
+    
+
+
+
+[ edit ] Pre-1905
+
+File:Cfcpensioner.png Chelsea's first  crest In 1896,  Henry Augustus "Gus" Mears ,
+football enthusiast and businessman, along with his brother,  Joseph Mears , purchased
+the  Stamford Bridge Athletics Ground  in  Fulham , West London, with the intention of
+staging first-class  football  matches there, though they had to wait until 1904 to buy the
+freehold, when the previous owner died. They failed to persuade  Fulham Football Club  to
+adopt the ground as their home after a dispute over the rent, so Mears considered selling to
+the  Great Western Railway Company , who wanted to use the land as a  coal -dumping yard.
+Mears' colleague Fred Parker was trying unsuccessfully to dissuade him. Parker later
+recounted what happened next: Feeling sad that the old ground would be no more, I walked slowly
+by his [Mears'] side when his dog, coming up from behind unobserved, bit me so severely through
+my cycling stockings as to draw blood freely. On telling the owner "Your damned dog has bitten
+me, look!" and showing him the blood, instead of expressing concern he casually observed,
+"Scotch terrier; always bites before he speaks." The utter absurdity of the remark struck me
+as so genuinely funny that although hopping about on one foot and feeling blood trickling
+down, I had to laugh heartily and tell him he was the "coolest fish" I'd ever met. A minute later
+he surprised me by slapping me on the shoulder and saying, "You took that bite damned well, most
+men would have kicked up hell about it. Look here, I'll stand on you; never mind the others. Go to
+the chemists and get that bite seen to and meet me here at nine tomorrow morning and we'll get
+busy". [ 1 ] Thus on a whim, Mears changed his mind and decided to take Parker's advice to instead
+found his own football club to occupy Stamford Bridge.
+
+[ edit ] Early Years (1905–15)
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/1905squad.jpg/295px-1905squad.jpg
+
+Image: http://bits.wikimedia.org/skins-1.5/common/images/magnify-clip.png
+Chelsea's squad in 1905 Chelsea Football Club were founded on 10 March 1905 [ 2 ]  at The Rising
+Sun pub, (now The Butcher's Hook) opposite today's main entrance to the ground on the Fulham
+Road. Since there was already a team named Fulham in the  borough , the name of the adjacent
+borough, the  Royal Borough of Kensington and Chelsea , was settled on after  London FC , 
+Kensington FC  and  Stamford Bridge FC  had been rejected. [ 3 ]  Blue shirts were adopted
+by Mears, after the  racing  colors of  Lord Chelsea , along with white shorts  and dark
+blue  socks . Chelsea were denied entry to the  Southern League  following objections
+from Fulham and  Tottenham Hotspur , so instead applied for admission to the  Football
+League . Their candidacy was endorsed at the Football League  AGM  on 29 May 1905, with a
+speech by Parker, which emphasised the new club's financial stability and its impressive new
+stadium and team playing an important part. Scottish international half-back  John
+Robertson  was hired as the club's first player-manager. The club began with established
+players recruited from other teams, such as 22 stone goalkeeper  William "Fatty" Foulke ,
+who was an  FA Cup  winner with  Sheffield United , and inside forward  Jimmy Windridge
+ who came from  Small Heath . Chelsea's first league match took place away at  Stockport
+County  on 2 September 1905. They lost the game 1–0. [ 4 ]  Their first home match was
+against Liverpool  in a friendly. They won 4–0. Robertson also scored Chelsea's first
+competitive goal, in a 1–0 win against  Blackpool . [ 5 ] Chelsea finished a respectable 3rd
+in the  Second Division  in their first season, but Robertson steadily saw his position
+undermined by board room interference. He lost the power to select the team in November 1906,
+and by January 1907 he had left for  Glossop . [ 6 ]  Club secretary  William Lewis  took
+temporary charge and led the team to promotion at the end of the season, thanks largely to the
+goals of Windridge and  George "Gatling Gun" Hilsdon . The latter was the first of many
+prolific strikers/forwards to play for Chelsea; he scored five goals on his debut and 27 in the
+promotion season en route to becoming the first player to score 100 goals for the club.
+
+Image: http://upload.wikimedia.org/wikipedia/commons/e/e7/Chelsea-ilkmac.jpg
+Chelsea beat West Brom at  Stamford Bridge  in September 1905 Lewis was succeeded by 
+David Calderhead , who was to manage Chelsea for the next 26 years. The club's early seasons
+produced little success, and they yo-yoed between the First and Second divisions. They were
+relegated in  1909–10 , promoted in  1911–12  and finished second-bottom in 
+1914–15 , the final competitive season before football in England was abandoned owing to
+World War I. The club would normally have been relegated, but the league was expanded after the
+war, and Chelsea were invited to re-join the First Division. In spite of their checkered
+fortunes, Chelsea became one of the best-supported teams in the country, with fans attracted
+by the team's reputation for playing entertaining attacking football and for signing star
+players, notably defensive back  Ben Warren  and striker  Bob Whittingham . 67,000
+people attended a league game against  Manchester United  on Good Friday 1906, a
+then-record for a football match in London. [ 7 ]  55,000 attended the first-ever  London
+derby  in the top division, against  Woolwich Arsenal , a record for a First Division match.
+77,952 attended a fourth round FA Cup tie against Swindon on 13 April 1911. In 1915, under the
+shadow of the First World War, Chelsea reached their first  FA Cup  final, the so-called 
+"Khaki" cup final , owing to the large number of uniformed  soldiers  in attendance. The
+match against Sheffield United was played in a sombre atmosphere and staged at  Old Trafford
+ in  Manchester  to avoid disruption in London. Chelsea, minus their top amateur
+striker, Vivian Woodward , who had sportingly insisted that the team who reached the final
+ought to keep their places, were seemingly unnerved by the occasion and outplayed for much of
+the match. Goalkeeper  Jim Molyneux 's mistake allowed United to score before half-time,
+but the Blues held out until the final six minutes, when their opponents added two more to win
+3–0.
+
+[ edit ] Between the wars
+
+1919–20 , the first full season following the war, was Chelsea's most successful up to that
+point. Led by 24 goal striker  Jack Cock , the club's latest glamour signing, they finished
+3rd in the league – then the highest league finish for a London club – and reached the FA Cup
+semi-finals, only to be denied by eventual winners  Aston Villa , which saw them miss out on a
+chance to play in the final at  Stamford Bridge . The club were relegated again in  1923–24
+ and in four of the next five seasons were to narrowly miss out on promotion, finishing 5th,
+3rd, 4th and 3rd. With long serving mainstays including  Willie Ferguson ,  Tommy Law
+ and  Andy Wilson , Chelsea finally reached the First Division again in  1929–30 , where
+the club was to remain for the next 32 years. To capitalise on the 1930 promotion, the club spent
+£25,000 ($49,000) on three big-name players; Scots  Hughie Gallacher ,  Alex Jackson
+ and  Alec Cheyne . Gallacher in particular was one of the biggest talents of his era, known
+for his goalscoring and for having captained Newcastle to a championship in  1926–27 . He
+and Jackson had also been members of the Wembley Wizards  team (as had Law), the Scotland team
+which beat England 5–1 at Wembley in 1928. However, though the team occasionally clicked,
+such as in a 6–2 win over  Manchester United  and a 5–0 win over  Sunderland , none of the
+trio had the desired impact. Gallacher was Chelsea's top scorer in each of his four seasons,
+scoring 81 goals in total, but his time in west  London  was hindered by his personal
+troubles and punctuated by long suspensions for indiscipline, including a two month ban for
+swearing at a referee. [ 8 ]  Jackson and Cheyne struggled to settle at the club and were unable
+re-capture their previous achievements. The trio didn't make 300 appearances between them
+and by 1936 all had left at a significant financial loss to the club. [ 9 ]  Their
+disappointment epitomised Chelsea's flaws throughout the decade, whereby performances
+and results rarely matched the calibre of players at the club. Money was spent, but some feel it
+was too often spent on inappropriate players, especially forwards, while the defence
+remained neglected. The FA Cup was to be the closest the club came to silverware. In 1932, the
+team secured impressive wins over  Liverpool  and  Sheffield Wednesday , and were drawn
+against Newcastle United in the semi-finals.  Tommy Lang  inspired Newcastle to a 2–0
+lead, before Gallacher pulled one back for Chelsea. The Blues laid siege to the United goal in
+the second half, but were unable to make a breakthrough and the Geordies went on to lift the
+trophy. Calderhead stepped down in 1933 and was replaced by  Leslie Knighton , but the
+appointment saw little change in Chelsea's fortunes. At different times during the decade
+the club had on its books such players as  Tommy Law ,  Sam Weaver ,  Syd Bishop ,  Harry
+Burgess ,  Dick Spence  and  Joe Bambrick , all established internationals, yet their
+highest league finish in the decade was 8th. Ironically, two of the club's most reliable
+players during the decade cost them nothing: goalkeeper  Vic Woodley , who was to win 19
+consecutive caps for England, and centre-forward  George Mills , the first player to score
+100 league goals for Chelsea. They avoided relegation by two points in  1932–33  and 
+1933–34 , and by one point in  1938–39 . Another promising cup run in 1939, which included
+wins over Arsenal and Sheffield Wednesday, petered out with a home loss to  Grimsby Town  in
+the quarter-finals. The club continued to be one of the country's best-supported teams. The
+visit of Arsenal on 12 October 1935 attracted a crowd 82,905 to Stamford Bridge, which remains
+a club record and the second highest ever attendance at an English league match. Crowds of
+almost 50,000 attended Gallacher and Jackson's home debuts. In 1939, with the club having
+come no closer to on-field success, Knighton stepped down. He was succeeded by Scotsman and
+former  Queens Park Rangers  manager,  Billy Birrell .
+
+[ edit ] The War, Dynamo and the new youth system (1940–52)
+
+Birrell was appointed Chelsea manager shortly before the outbreak of the Second World War.
+Three games into the  1939–40  season, first class football was abandoned in Britain for
+the duration of the conflict, meaning that all wartime results are only regarded as
+unofficial. Chelsea competed in a series of regional competitions and, like every other
+club, saw their squad severely depleted by the war effort (only two members of Chelsea's 
+1938–39  team ever played for them again). The club thus fielded a series of "guest"
+players, most notably  Matt Busby , Walter Winterbottom  and  Eddie Hapgood . They also
+competed in the  Football League War Cup , during which they made their  Wembley  debut,
+losing 1–3 to  Charlton Athletic  in the 1944 final, and beating  Millwall  2–0 a
+year later in front of crowds of over 80,000. After the latter match,  John Harris  became
+the first Chelsea captain to lift a trophy at Wembley, receiving the cup from  Prime Minister
+  Winston Churchill .
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/13_November_1945_Stamford_Bridge_Chelsea_F.C_-_FC_Dynamo_Moscow.Players_of_club_Dynamo_Moscow.png/300px-13_November_1945_Stamford_Bridge_Chelsea_F.C_-_FC_Dynamo_Moscow.Players_of_club_Dynamo_Moscow.png
+
+Image: http://bits.wikimedia.org/skins-1.5/common/images/magnify-clip.png Dynamo
+Moscow  at the bridge In October 1945, with the War having just ended, the English football
+authorities sought a way to celebrate the return of the peace-time game. As part of a 
+goodwill  gesture, it was announced that  FC Dynamo Moscow , reigning champions of the
+Soviet Union, would tour the United Kingdom and play several home teams, including Chelsea.
+The match took place on 13 November at Stamford Bridge with Chelsea wearing an unfamiliar red
+strip due to a clash with Dynamo's blue kit. Before kick-off, the Dynamo players presented a
+bouquet of flowers to their opposite number. [ 10 ]  The Russian team surprised many
+observers with their talent and tenacity by fighting back from 0–2 and 2–3 down to earn a
+3–3 draw. An estimated crowd of over 100,000 people attended the match, with thousands
+entering the ground illegally. This crowd is the highest ever recorded at Stamford Bridge.
+Spectators watched from numerous obscure places, including many on the dog track and on the
+top of stands. [ 11 ] Following the war, Chelsea again spent big, and again bought three
+big-name forwards, this time  Tommy Lawton ,  Len Goulden  and  Tommy Walker , for around
+£22,000. The trio provided both goals and entertainment – Lawton set a new club record by
+scoring 26 goals in 34 league games in  1946–47 [ 4 ]  – but Chelsea finished 15th that
+season and never finished above 13th under Birrell. After a falling out with Birrell, Lawton
+was sold to  Notts County  for £20,000; his replacement was  Roy Bentley , signed from 
+Newcastle United  for £11,500 in 1948. 1950 saw Chelsea enjoy another run in the  FA Cup .
+After beating  Manchester United  2–0 in a pulsating quarter-final, they were drawn to
+face London rivals  Arsenal  at  White Hart Lane . Two goals from Bentley put Chelsea in
+control, but a freak goal from Arsenal (Chelsea's goalkeeper misjudged a corner and punched
+it into his own net) just before half-time turned the game. Arsenal equalised 15 minutes from
+full-time and then won the replay 1–0. A year later , Chelsea seemed destined for
+relegation: with four games remaining, they were six points behind, at the bottom of the
+table, and without a win in fourteen matches. After unexpectedly winning the first three,
+Chelsea went into their final match needing to beat  Bolton Wanderers  and hoping for the
+right result between fellow relegation candidates  Everton  and Sheffield Wednesday .
+Chelsea won 4–0 and Wednesday beat Everton 6–0, thus ensuring Chelsea's survival on 
+goal average  by 0.044 of a goal. [ 4 ]  In 1952, Chelsea again faced Arsenal in the FA Cup
+semi-finals and after a 1–1 tie in the first match, lost the replay 3–0. Birrell resigned
+shortly afterwards. Birrell's biggest contribution to Chelsea was off the field. In a bid to
+counter the spiraling cost of  transfer fees  in football, he oversaw the development of an
+extensive new youth and scouting programme, headed by ex-players  Dickie Foss ,  Dick
+Spence  and  Jimmy Thompson , which would ultimately see the club produce its own players. [
+12 ]  The policy would provide the core of Chelsea's first team for the next three decades in
+particular, producing such players as  Jimmy Greaves ,  Bobby Smith ,  Peter Osgood , 
+Peter Bonetti ,  Ray Wilkins ,  Ron Harris , Bobby Tambling ,  Alan Hudson ,  Terry
+Venables  and  John Hollins .
+
+[ edit ] Ted Drake: Modernisation and the Championship (1952–61)
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/5/59/Chelsea_FC_52-53.png/160px-Chelsea_FC_52-53.png
+
+Image: http://bits.wikimedia.org/skins-1.5/common/images/magnify-clip.png Club
+crest 1952–1953 In 1952, former  Arsenal  and  England  striker  Ted Drake  was
+appointed manager. One of the first "tracksuit managers" who used to shake each player by the
+hand and wish them "all the best" before each match, Drake proceeded to modernise the club,
+both on and off the field. One of his first actions was to remove the image of a  Chelsea
+pensioner  from the match programme and the club's old  nickname  was no more. From then on
+they were to be known as the Blues . This also led to the introduction of a new "lion rampant"
+crest. [ 13 ] He improved the training  regime , introducing ballwork to training sessions, a
+practice rare in England at the time; the youth and scouting systems begun by his predecessor
+were extended and he abandoned the club's old recruiting policy of signing often unreliable
+stars, opting instead for lesser known but more reliable players from the lower divisions. [ 4
+]  He also urged the club's fans to be more partisan and to get behind the team. [ 4 ]  Drake's
+early years were unpromising, as Chelsea finished 19th and just a point away from relegation
+in his first season and 8th in his second. In  1954–55 , the club's  jubilee  year,
+everything clicked. The team found a consistency rate not previously there as Chelsea
+unexpectedly won the  First Division  title. It included  goalkeeper   Charlie 'Chic'
+Thomson , amateur players  Derek Saunders  and  Jim Lewis , central midfielder  Johnny
+'Jock' McNichol , wingers  Eric "Rabbit" Parsons  and  Frank Blunstone , defender 
+Peter Sillett  and future  England  manager  Ron Greenwood  in central defence, as
+well old club stalwarts, right back  Ken Armstrong , left-back  Stan Willemse  and 
+veteran  defender  John Harris . Perhaps the only genuine star in the side was captain ,
+top-scorer (with 21 league goals) and England international  Roy Bentley .
+
+Image: http://upload.wikimedia.org/wikipedia/en/f/f6/Chelsea%27s_old_badge.jpg
+
+Image: http://bits.wikimedia.org/skins-1.5/common/images/magnify-clip.png
+During  Ted Drake 's reign as manager, the club's old Chelsea pensioner  badge was
+abandoned at his insistence in favor of this, the "Lion Rampant Regardant" Chelsea had begun
+the season much as they had finished the last, with four consecutive defeats, including a
+thrilling 5–6 loss to Manchester United, which left them 12th in November. From there the
+team went on a remarkable run, losing just 3 of the next 25 games and secured the title with a game
+to spare after a 3–0 win against  Sheffield Wednesday  on  St George's Day . Key to the
+success were two league wins against principal rivals and eventual runners-up
+Wolverhampton Wanderers . The first was a dramatic 4–3 win at  Molineux  – a game in
+which Chelsea were trailing 2–3 going into stoppage time – and a 1–0 win at  Stamford
+Bridge  in April, secured with a Sillett  penalty  awarded after Wolves captain  Billy
+Wright  had punched a goal-bound shot over the bar. [ 14 ] Chelsea's points total of 52 for that
+season remains one of the lowest to have secured the English League title since the First World
+War. In the final game of the season, Chelsea, now champions, were given a guard of honour by 
+Matt Busby 's Manchester United  Busby Babes . That same season saw the club complete a unique
+quadruple, with the reserve, 'A' and junior sides also winning their respective leagues.
+Winning the Championship should have ensured that Chelsea became the first English
+participants in the inaugural  European Champions' Cup  competition to be staged the
+following season. Indeed, they were drawn to face  Swedish champions   DjurgÃ¥rdens
+ in the first round. However, Chelsea were denied by the intervention of the  Football
+League  and the  F.A. , many of whose leading members were opposed to the idea and felt that
+primacy should be given to domestic competitions, so the club were persuaded to withdraw. [ 15
+]  Chelsea did play an unofficial UK championship  friendly  against Scottish 
+champions Aberdeen , which Aberdeen won. Chelsea presented a plate with the club crest to
+Aberdeen as a reward. Chelsea were unable to build on their title success, and finished a
+disappointing 16th the following season. The team was aging and there followed a succession
+of uninspiring mid-table finishes; one bright spot in this period was the emergence of the
+prolific goalscorer  Jimmy Greaves , who scored 122 league goals in four seasons. Along with
+Greaves, a series of other promising youngsters, informally known as  Drake's Ducklings ,
+emerged in the first team, though their inexperience ensured that performances remained
+erratic. One of the lowest points for the club in this period was being knocked out of the  FA
+Cup  in the 3rd round by  Fourth Division  side,  Crewe Alexandra , in January 1961. When
+Greaves was sold to  AC Milan  in June 1961 the writing was on the wall and, without his goals,
+results slumped. Drake was sacked in September after a 4–0 loss to  Blackpool  with
+Chelsea bottom of the league table. He was replaced by 33-year-old player-coach  Tommy
+Docherty .
+
+[ edit ] Emergence (1963–71)
+
+
+
+[ edit ] Tommy Docherty
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Bobby_Tambling_and_Barry_Bridges.jpg/200px-Bobby_Tambling_and_Barry_Bridges.jpg
+
+Image: http://bits.wikimedia.org/skins-1.5/common/images/magnify-clip.png Bobby
+Tambling  and  Barry Bridges , two key players in the Chelsea side of the 1960s, pictured at
+Stamford Bridge in 2009. The  swinging sixties  ushered in an era that saw football and
+inimitable style merge in the heart of London; with the fashionable  King's Road  at the
+heart of the swagger. Superstars of the time, including  Michael Caine ,  Steve McQueen , 
+Raquel Welch ,  Terence Stamp  and  Richard Attenborough (now Life Vice President of the
+club) were regularly seen at Stamford Bridge as the team became one of the most glamorous and
+fashionable in the country. A 60s Chelsea side that oozed charisma and class established the
+club as a big name for the first time, but ultimately failed to match its swagger with on-field
+triumphs, and endured several near-misses. Docherty imposed a regime of strict discipline,
+sold off many of the club's older players, and replaced them with the new generation of
+talented youngsters emerging from the youth system, supplemented by some shrewd transfers.
+By the time he took over in January 1962, the team were already all but doomed to relegation and
+he used the time to experiment and plan for the future. Chelsea were duly relegated and in
+Docherty's first full season as manager he led them back to promotion as  Second Division
+ runners-up, secured with a crucial and hard-fought 1–0 win at rivals Sunderland  (and a
+goal scored via  Tommy Harmer 's groin) and a 7–0 final day win over  Portsmouth . Chelsea
+thus returned to the First Division with a new, youthful team which included the
+uncompromising  Ron "Chopper" Harris ,  goalkeeper   Peter Bonetti , prolific
+goalscoring winger  Bobby Tambling  (whose 202 goals remain a  club record ),
+midfielder  John Hollins , full-back  Ken Shellito , striker Barry Bridges , winger  Bert
+Murray  and  captain  and playmaker  Terry Venables , all products of the youth system.
+To these, Docherty added striker George Graham , left-back  Eddie McCreadie  and elegant
+defender  Marvin Hinton  for minimal fees to complete the  Diamonds  line-up –
+Docherty had referred to the team as his "little diamonds" during a TV documentary and the name
+stuck. [ 16 ] Chelsea finished a credible 5th in their first season back in the top-flight, and
+in the next were on course for a domestic "treble" of league,  FA Cup  and  League Cup ,
+playing a brand of football based on high energy and quick passing and utilising innovative
+tactics – they were one of the first English teams to use overlapping full-backs. [ 17 ]
+ Chelsea set the early pace and emerged in a three-way tussle for the league title with
+Manchester United and  Leeds United . The  League Cup  was secured thanks to a 3–2 first
+leg win against  Leicester City , with a memorable solo effort from McCreadie proving to be
+the difference between the sides, and then a hard-fought 0–0 draw in the second leg at 
+Filbert Street . However, cracks were also beginning to appear, as the temperamental
+Docherty increasingly clashed with some of the strong personalities within the dressing
+room, particularly Venables. The team were beaten by title rivals Manchester United in March
+and lost 2–0 in their  FA Cup  semi-final against  Liverpool , despite going into the
+latter match as favourites. They were nonetheless top with four games remaining. Docherty
+then sent home eight key players (Venables, Graham, Bridges, Hollins, McCreadie, Hinton,
+Murray and  Joe Fascione ) for breaking a  curfew  before a crucial match against 
+Burnley . [ 18 ]  The bare bones of the team that remained, a collection of reserves and
+youngsters, were beaten 6–2 as the title challenge collapsed; Chelsea eventually
+finished 3rd. The following season proved equally eventful, if ultimately unsuccessful,
+with Chelsea challenging in the League, the FA Cup and the  Fairs Cup . Playing a then-club
+record total of 60 games in the three competitions in the days before substitutes, the team
+were hit hard by the fixture pile-up. They finished 5th in the League, while in the FA Cup,
+Chelsea gained revenge for their semi-final defeat by knocking-out holders Liverpool at 
+Anfield  en route to another semi-final, where they were drawn to face  Sheffield
+Wednesday , again at Villa Park. Favourites to reach the final, the side froze on the day and
+were beaten 2–0 by the  Yorkshire  club. Their Fairs Cup run, taking in wins over  AS Roma
+ (a violent encounter, during which the Chelsea team coach was ambushed by Roma fans),  TSV
+1860 MÃŒnchen  and  AC Milan  (the last on the toss of a coin after the teams had finished
+level), ended in a semi-final loss to  FC Barcelona . Both home sides won 2–0 and on
+another  coin toss , the replay was staged at the Nou Camp , with Barca winning 5–0.
+Docherty, his relationship with several players having reached breaking point, then made
+the decision to break up a team with an average age of 21. Venables, Graham, Bridges and Murray
+were all sold during the close-season. Scottish winger  Charlie Cooke  joined for
+£72,000, as did striker  Tommy Baldwin , who arrived in part-exchange for Graham. Also
+emerging from the youth set-up was a highly-rated teenage striker named  Peter Osgood .
+Docherty's transfer manoeuvrings initially paid off. Chelsea, with Osgood at the heart of
+the team, topped the league table in October 1966, the only unbeaten side after ten league
+games. But Osgood broke his leg in a League Cup tie and the side's momentum was disrupted. To
+replace Osgood, Docherty immediately signed striker  Tony Hateley  for a club record
+£100,000, but Hateley's aerial game didn't suit Chelsea's style and he struggled to fit in. [
+19 ]  They drifted down the league and finished 9th. The highlight of that season was reaching
+the FA Cup final. En route to that final was a win over  Leeds United  in the semis, the game
+widely seen [ 20 ]  as the one which kicked off the fierce rivalry between the two clubs. In his
+finest moment for Chelsea, Hateley headed in what proved to be the winner, but in a
+hotly-contested match, Leeds had two goals disallowed, one for offside and one for a  Peter
+Lorimer  free-kick taken too quickly. Chelsea competed with  Tottenham Hotspur  in the
+first all-London  FA Cup  final, known as the  Cockney Cup Final . It was Chelsea's first
+appearance in the final since  1915  and their first ever appearance in the final at 
+Wembley . In leading out the side, Ron Harris, at 22, was the youngest ever captain to take to the
+field in the competition's finale. In a game which failed to match the anticipation, Chelsea
+underperformed and a late Tambling header was not enough to prevent a 2–1 loss to a Spurs side
+containing both Venables and  Jimmy Greaves . Docherty was sacked shortly into the next
+season with the team having won only two of their opening ten games, which included a 6–2 home
+loss to  Southampton , amidst rumours of dressing room unrest over bonus payments and whilst
+serving a 28-day ban from football management handed out by the  FA . [ 21 ]
+
+[ edit ] Dave Sexton
+
+After Docherty's departure, his assistant  Ron Suart  was placed in temporary charge of
+the first team. Chelsea lost their next game 7–0 against Leeds United, equalling the club's
+highest-ever margin of defeat (in  1953–54 , they had lost 8–1 to Wolves).  Dave Sexton
+, ex-Chelsea coach and  Leyton Orient  manager, and a character far more calm and reserved
+than Docherty, was appointed manager. The core of the side inherited from Docherty remained
+largely unchanged, although he added more steel to the defence with the signings of  John
+Dempsey  and David Webb , as well as signing striker  Ian Hutchinson , giving mercurial
+midfielder  Alan Hudson  his debut and recalling winger  Peter Houseman . Sexton proved a
+stabilising influence and led Chelsea to two more top six finishes, as well as a brief foray
+into the Fairs Cup in  1968–69 , where they were knocked out by  DWS Amsterdam  on a coin
+toss.
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Soccer.Field_Transparant.png/200px-Soccer.Field_Transparant.png
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/22px-Flag_of_England.svg.png
+Bonetti
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/22px-Flag_of_England.svg.png
+Harris
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/22px-Flag_of_Ireland.svg.png
+Dempsey
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/22px-Flag_of_England.svg.png
+Webb
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/22px-Flag_of_Scotland.svg.png
+McCreadie
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/22px-Flag_of_England.svg.png
+Baldwin
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/22px-Flag_of_England.svg.png
+Hollins
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/22px-Flag_of_Scotland.svg.png
+Cooke
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/22px-Flag_of_England.svg.png
+Houseman
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/22px-Flag_of_England.svg.png
+Osgood
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/22px-Flag_of_England.svg.png
+Hutchinson 1970 FA Cup Final  starting lineup. In the  1969–70  season Osgood and
+Hutchinson scored 53 goals between them, helping the club finish 3rd in the league and reach
+another FA Cup final. This time the opponents were  Leeds United , reigning league champions
+and one of the dominant sides of the era. Chelsea were generally second best in the first match
+at Wembley played on a boggy pitch, but twice came from behind to gain a 2–2 draw, first
+through Houseman and then a late headed equaliser (four minutes from full time) from
+Hutchinson. The replay was staged at  Old Trafford  a fortnight later and is as well known
+for the uncompromising tactics employed by both sides as the skill and talent on display. [ 22 ]
+ Chelsea again went behind but equalised for the third time in the match with a diving header
+from Osgood from a Cooke cross. As the game went into  extra time , Chelsea took the lead for the
+first time when Webb headed in a Hutchinson  throw-in  to seal a  2–1 win . Winning the Cup
+qualified Chelsea to play in the  UEFA Cup Winners' Cup  for the first time.
+Straightforward wins over  Aris Thessaloniki  and  CSKA Sofia  took them to the
+quarter-finals, where they knocked out  Club Brugge  thanks to a dramatic comeback.
+Trailing 2–0 after the first leg, it took an Osgood goal nine minutes from the end of normal
+time in a tense match to put Chelsea level on aggregate. They went on to win the game 4–0 after
+extra time. Fellow English side (and holders)  Manchester City  were dispatched in the
+semi-final. The first final match against  Real Madrid  finished 1–1 but a rare goal from
+Dempsey and another strike from Osgood in the replay – played just two days later – were
+enough to secure a 2–1 win and Chelsea's first European honour. The song  Blue is the Colour
+ was released in 1972 with members of the squad singing, and it reached number five in the  UK
+Singles Chart . [ 23 ]  The song was to become one of the most famous English football songs, and
+forever associated with the Chelsea team of that  era .
+
+[ edit ] Decline (1972–83)
+
+The Cup Winners' Cup triumph proved to be the last of Chelsea's successes in the decade, as a
+series of problems combined to almost bring the club to its knees. From the early 1970s, the
+discipline of the team began to degenerate, as Sexton fell out with several key players, most
+notably Osgood, Hudson and Baldwin over their attitude and lifestyle. As the spirit of the
+team declined, so too did results. Chelsea set two records in defence of the Cup Winners' Cup
+in  1971–72 : a 21–0 aggregate win over  Luxembourg  side  Jeunesse Hautcharage ,
+which remains a record scoreline in European competition. [ 24 ]  The result included a
+13–0 home win over Jeunesse, the biggest winning scoreline in Chelsea's history. However,
+the team were knocked out of the competition by little-known  Ã…tvidabergs FF  under
+the  away goals rule  in the next round. In the same season, Chelsea were knocked out of the FA
+Cup by Second Division  Leyton Orient  despite having led 2–0, and lost in the  League
+Cup final  to underdogs  Stoke City . They finished 12th in  1972–73  and 17th the
+following season. The feud between Sexton and Osgood and Hudson reached its apogee after a
+4–2 home defeat to  West Ham United  on  Boxing Day  1973, after Chelsea had led 2–0 at
+half-time; [ 25 ]  the pair were both sold a few months later. Sexton himself was sacked early
+into the  1974–75  season after a poor start, and succeeded by his assistant,  Ron Suart
+, who was unable to reverse the club's decline and they were relegated in 1975. The building of
+the pioneering East Stand (which retains its place even in the modern stadium) as part of a plan
+to create a 60,000 all-seater stadium added to the club's woes. The project had been described
+as "the most ambitious ever undertaken in Britain". [ 26 ]  It coincided with a  world
+economic crisis  and was hit by delays, a builders' strike and shortages of materials, all of
+which sent the cost escalating out of control, to the extent that the club's debts stood at £4m
+by 1977. [ 27 ]  As a result, between August 1974 and June 1978, Chelsea were unable to buy a
+single player. The decline of the team was matched by a decline in attendances – those who
+remained were marred by a fierce reputation for  violence  amongst a section of the Chelsea
+support (the boundary between passion and  hooliganism  being dangerously narrow in
+those days). The late 1970s and the 1980s were the " golden age " of  football firms  in
+England; Chelsea's own such firm, the  Chelsea Headhunters , were particularly notorious,
+known for their violence and links to extremist political groups and would blight the club
+throughout the following years. [ 28 ]
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Chelsea_stand.jpg/200px-Chelsea_stand.jpg
+
+Image: http://bits.wikimedia.org/skins-1.5/common/images/magnify-clip.png The East
+Stand, one of the main causes of Chelsea's financial problems in the 1970s and 1980s Former
+left-back  Eddie McCreadie  became manager shortly before Chelsea's relegation in 1975
+and, after a year of consolidation in  1975–76 , led the side to promotion again in 
+1976–77  with a team composed of youth players, most notably  Ray Wilkins  and 24-goal
+striker  Steve Finnieston , and veterans from more successful times like Cooke, Harris and
+Bonetti. But McCreadie left following a contract dispute with chairman  Brian Mears  over
+a company car [ 29 ]  and another ex-player was appointed, this time former right-back  Ken
+Shellito . Shellito kept Chelsea in the  First Division  in  1977–78 , though the
+highlight of that season was a 4–2 win over  European  champions Liverpool in the FA Cup.
+Shellito resigned midway through the following season with the club having won just three
+league games by  Christmas . Even the brief return of Osgood did little to improve the club's
+fortunes. Shellito's successor, former  double -winning  Tottenham Hotspur   captain
+  Danny Blanchflower  was unable to stem the slump and the club were  relegated  again
+with just five league wins and 27 defeats, ushering in one of the bleakest periods in Chelsea's
+history. Wilkins, one of the club's few remaining stars, was sold to  Manchester United
+ and  England 's  1966 World Cup final  hero  Geoff Hurst  became manager in September
+1979 with  Bobby Gould  as his assistant. Their arrival saw an immediate upturn in
+Chelsea's form, and for a large period Chelsea topped the Second Division table, but a late
+collapse saw them finish 4th, meaning the club missed out on promotion on  goal difference .
+In the next season the team struggled to score goals, going on a nine-match run without one,
+winning only three matches in twenty and finishing 12th in  1980–81 . [ 30 ]  Hurst was
+sacked. In 1981 Mears resigned as chairman, ending his family's 76-year association with the
+club. One of Mears' last actions was to appoint former  Wrexham  boss  John Neal  as
+manager. A year later,  Chelsea Football & Athletic Company , heavily in debt and unable to
+pay its players, was acquired from the Mears family interests by businessman and one-time
+chairman of Oldham Athletic ,  Ken Bates , for the sum of £1, though for reasons which remain
+disputed, he did not buy  SB Properties , the company which now owned the Stamford Bridge
+freehold. By this point, Chelsea were in a parlous financial state and losing £12,000 a week.
+[ 31 ]  Bates would later describe what he took over as "a social club with a little football
+played on a Saturday". [ 4 ] There were hangers-on in the wrong areas, all over the club. I wrote
+everything off and started again. Chelsea used to have a bootman to clean the boots. The
+apprentices just stood around watching him clean away. He went. The directors had their own
+chauffeur to drive them around town. He went. Even the lottery lost money. How? There were just
+two birds selling tickets. They went. [ 32 ] 1981–82 , an otherwise forgettable season
+during which Chelsea again finished 12th, Chelsea went on their first significant FA Cup run
+for years and drew European champions Liverpool in the fifth round. They outplayed their
+illustrious opponents and won 2–0. In the quarter-finals, they were pitted against old
+rivals  Tottenham Hotspur  who, in a pulsating game, won 3–2, despite Chelsea taking the
+lead through  Mike Fillery . The  1982–83  season proved to be the worst in Chelsea's
+history. Following a bright start, the team slumped dramatically, going on a nine-match
+winless run as the season drew to a close and faced relegation to the  Third Division  which,
+given the club's financial troubles, could well have dealt it a killer blow. In the
+penultimate game of the season at fellow strugglers  Bolton Wanderers ,  Clive Walker
+ hit a last-minute winner from 25 yards (23 m) to ensure a crucial 1–0 win. A draw at home
+to Middlesbrough  in the final game ensured the club's survival by two points.
+
+[ edit ] Battle for the Bridge
+
+As noted above, when Bates bought Chelsea in 1982 he only bought the club and not  SB
+Properties , the company which now owned the freehold of Stamford Bridge; the club and the
+stadium had been separated in financial restructuring during the late 1970s. [ 33 ]  Bates
+initially agreed a seven year lease, which would keep Chelsea at Stamford Bridge while its
+future was decided. [ 34 ] According to Bates, he and David Mears, the majority shareholder
+of  SB Properties , shook hands on a deal which would see Chelsea acquire Mears' stake in  SB
+Properties  for £450,000. [ 35 ]  However, Bates later discovered that Mears was also in
+discussions with  Crystal Palace  owner  Ron Noades , with a view to moving Chelsea away
+from Stamford Bridge and have them ground share with Palace at  Selhurst Park . [ 36 ]  Mears
+and  Lord Chelsea  subsequently sold their shares in  SB Properties  to property
+developers Marler Estates, giving Marler a 70% stake. [ 35 ] Over the next decade, Bates waged a
+war of attrition against Marler, acquiring a minority stake in  SB Properties  and
+initiating a series of court injunctions and delaying tactics, designed to wear them down. [
+37 ]  He also launched the "Save the Bridge" campaign, with the aim of raising £15m to acquire
+the freehold from Marler. Marler in turn put forward several schemes which would see Chelsea
+removed from Stamford Bridge. David Bulstrode, chairman of Marler, proposed a merger
+between  Fulham  and  Queens Park Rangers , with Chelsea then relocating to Rangers' 
+Loftus Road  stadium. In March 1986, Marler's plans to redevelop the Stamford Bridge site
+without Chelsea were approved by  Hammersmith and Fulham Council ; the council reversed its
+policy when the  Labour Party  gained control of it in May 1986. [ 38 ]  In December 1987, in a
+"momentous decision", Bates' own plans to redevelop Stamford Bridge into a modern football
+stadium were approved by the council's planning committee. [ 39 ] Chelsea were nonetheless
+served notice to quit Stamford Bridge, upon the expiry of the lease in 1989. [ 37 ]  However,
+Cabra Estates, which had purchased Marler in 1989, were eventually bankrupted in the
+property market crash of 1992. This enabled Bates to do a deal with their creditors, the 
+Royal Bank of Scotland , and reunite the freehold with the club. [ 40 ]  Bates then created
+the  Chelsea Pitch Owners , a non-profit organisation owned by the fans which in 1997
+purchased the  freehold  of the stadium, the club's  naming rights  and the pitch to
+ensure that property developers could never again try to purchase Stamford Bridge.
+Following this, work was begun to renovate the entire stadium (bar the East Stand), making it
+all-seater and bringing the stands closer to the pitch and under cover, which was finally
+completed by the  millennium .
+
+[ edit ] Revival (1983–89)
+
+The summer of 1983 marked a turning point in Chelsea's history. Manager  John Neal  made a
+series of signings who were to be crucial in turning around the club's fortunes. In came
+striker  Kerry Dixon  from  Reading , skillful winger  Pat Nevin  from  Clyde ,
+midfielder  Nigel Spackman  from  Bournemouth  and  goalkeeper   Eddie Niedzwiecki
+ from  Wrexham  in addition to  John Hollins  returning as player-coach, all for a
+combined total of less than  £ 500,000. Dixon struck up a prolific strike partnership with
+fellow Neal signing  David Speedie  and both linked up well with Nevin, a combination that
+would produce almost 200 goals in three years. The new-look Chelsea began the  1983–84
+ season with a 5–0 win against  Derby County  on the opening day and romped to promotion;
+among the highlights were a 5–3 at  Fulham  and a 4–0 win over  Kevin Keegan 's 
+Newcastle United . After a dip in form around Christmas, Neal signed winger  Mickey Thomas
+ and Chelsea didn't lose another game that season. Dixon hit 36 goals in all competitions –
+a seasonal tally bettered only by  Bobby Tambling  and  Jimmy Greaves  – and promotion
+was sealed with another 5–0 win over old adversaries  Leeds United . The team were
+crowned  Second Division  champions on the final day with a win away at  Grimsby Town , with
+some 10,000 Chelsea fans making the trip to  Lincolnshire . [ 41 ] Upon their return to the 
+First Division , Chelsea were unlikely European contenders in  1984–85 , eventually
+finishing 6th, although the events at  Heysel  that season rendered European
+qualification moot. They were also on course to reach their third  League Cup  final,
+drawing relegation candidates  Sunderland  in the semi-finals. However, ex-Chelsea
+winger  Clive Walker inspired his team to a 3–2 win at Stamford Bridge to seal a 5–2
+aggregate win for Sunderland, which was followed by a near-riot; the game continued with 
+mounted police  and supporters on the pitch, with the violence later spilling over onto the
+streets. [ 42 ]  Neal retired at the end of the season due to ill health, and was replaced by
+Hollins.
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Chelsea_FC_1986-2005.png/160px-Chelsea_FC_1986-2005.png
+
+Image: http://bits.wikimedia.org/skins-1.5/common/images/magnify-clip.png Club
+crest 1986–2005 In  Hollins'  first season, Chelsea challenged for the title, topping
+the table in February, but long-term injuries to Dixon and Niedzwiecki, combined with a poor
+run of results, especially during the  Easter  period, during which the side conceded ten
+goals in two games, appeared to end their chances. A 2–1 win over  Manchester United  at 
+Old Trafford  and another by the same scoreline over  West Ham  at  Upton Park  –
+effectively denying the latter the title – left Chelsea three points behind leaders
+Liverpool with five games remaining. One point from the remaining fixtures, however, denied
+them and another 6th place finish was the result. In the same season, the inaugural  Full
+Members Cup  was won with a 5–4 win over  Manchester City  at  Wembley , thanks to a
+Speedie  hat-trick  and in spite of the opposition fighting back from 1–5 down.
+Following this new beginning, the form of the side slumped again, finishing 14th in the next
+season. The spirit of the side began to disintegrate after Hollins and his assistant  Ernie
+Walley  fell out with several key players, notably Speedie and Spackman, who were
+subsequently sold. [ 43 ]  Hollins was sacked in March the following season with the side
+again in  relegation  trouble.  Bobby Campbell  took over in March but couldn't prevent
+Chelsea's relegation via the short-lived play-off system with a loss to  Middlesbrough , a
+match which was again followed by crowd trouble and an attempted pitch invasion, resulting in
+a six-match closure of the terraces the following season. Nevertheless, the club bounced
+back immediately and emphatically, despite failing to win any of their opening six league
+games, and were promoted as Second Division champions with 99 points, 17 points clear of
+nearest rivals  Manchester City .
+
+[ edit ] The 1990s: Back On Track
+
+Chelsea had an impressive return to the First Division in 1989–90. Campbell guided a squad
+of mostly unremarkable players to a creditable fifth place in the final table. Although the
+ban on English clubs in European football was lifted that year, Chelsea missed out on a  UEFA
+Cup  place because the only English place in the competition that year went to league
+runners-up  Aston Villa . In the same season, he led Chelsea to their second  Full Members
+Cup  success, with a 1–0 win over  Middlesbrough  in the final at  Wembley . Despite
+recruiting the club's first million pound players,  Dennis Wise  and  Andy Townsend , the
+next season proved a disappointment, as Chelsea finished 11th in the First Division and were
+knocked out of both cups by lower league opposition. Campbell was promoted to general manager
+at the end of the season; he was succeeded as team manager by first team coach  Ian Porterfield
+, who helped Chelsea finish high enough in 1991–92 to qualify for the first-ever season of
+the  Premier League . Porterfield was sacked halfway through the  1992–93  season,
+with the team having not won a league match for two months. He was replaced on a caretaker basis
+by 1970 FA Cup hero,  David Webb , who steered the club clear of relegation and eventually
+secured an 11th place finish. Webb was replaced by 35-year-old former England midfielder 
+Glenn Hoddle , who had just won promotion to the Premiership as player-manager of  Swindon
+Town . Hoddle's first season as manager saw Chelsea's league form dip slightly, and for a time
+they were threatened by relegation, with the goals of  £ 1.5m signing  Mark Stein
+ playing an important part in survival. In the same season Chelsea reached the  FA Cup Final
+, where they faced  Premiership  champions  Manchester United , a team Chelsea had beaten
+1–0 in both league games that season. After going in 0–0 at half-time, United were awarded
+two second-half penalties by referee  David Elleray  in the space of five minutes, both of
+which were scored. With Chelsea having to attack, it left gaps in defence and United
+eventually won 4–0. This was nevertheless sufficient for Chelsea to compete in the 
+1994–95 Cup Winners Cup , since United had already qualified for the Champions League. They
+reached the semi-finals of that competition, going out 3–2 on aggregate to eventual
+winners  Real Zaragoza . With Chelsea's future at Stamford Bridge now secure, Bates and
+millionaire director  Matthew Harding  were now making money available for the club to
+spend on players. In the summer of 1995, Chelsea recruited two world-famous players,  Dutch
+ legend  Ruud Gullit , on a free transfer from  Sampdoria , and Manchester United
+striker  Mark Hughes  (£1.5 m), both of whom would play a significant role in the club's
+future success. Hoddle also signed talented  Romanian  full-back  Dan Petrescu  for
+£2.3m. Hoddle guided Chelsea to another 11th place finish in 1995–96 , and another FA Cup
+semi-final, and then resigned to become manager of the  England national team .
+
+[ edit ] Renaissance: Gullit, Vialli and Zola (1996–2000)
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Zola_at_Lazio.JPG/155px-Zola_at_Lazio.JPG
+
+Image: http://bits.wikimedia.org/skins-1.5/common/images/magnify-clip.png
+Gianfranco Zola Gullit was appointed player-manager for the  1996–97  season, and
+added several top-class players to the side, including European Cup-winning  Juventus
+striker  Gianluca Vialli , cultured French defender  Frank Leboeuf  and  Italian
+internationals   Gianfranco Zola  (whose skill would make him a firm favourite with the
+crowd and see him become one of Chelsea's greatest ever players) and  Roberto Di Matteo
+ (the latter for a club record £4,900,000). They were later joined by the powerful and
+prolific  Uruguayan  midfielder  Gustavo Poyet  and  Norwegian  "super-sub" 
+Tore AndrÃ© Flo . With such players, it was under Gullit and his successor that Chelsea
+emerged as one of England's top sides again and gained a reputation for playing a neat,
+entertaining and attractive passing game performed by technically gifted players, which
+was informally dubbed "sexy football", though the club's inconsistency against supposed
+"smaller" teams remained. Gullit capped an impressive first season in management by leading
+Chelsea to their highest league placing since 1990 (6th) and winning the FA Cup, ending the
+club's 26-year wait for a major trophy. The most memorable match of the run was a 4th round
+comeback against  Liverpool , in which Chelsea, inspired by Hughes, overturned a 2–0
+half-time deficit to win 4–2. The  2–0  victory over  Middlesbrough  in the final
+at  Wembley  got off to a frantic start with Di Matteo scoring after 43 seconds;  Eddie
+Newton 's late goal clinched it. The win was a happy end to a season which had looked to be
+dominated by sadness after the death in October of popular director and financial
+benefactor  Matthew Harding  in a  helicopter  crash following a League Cup match
+against  Bolton Wanderers . Gullit was suddenly sacked in February 1998, ostensibly after a
+contract dispute, [ 44 ]  with the team 2nd in the Premiership, and in the semi-finals of two
+cup competitions. Another  player-manager  was appointed – the 33-year-old Vialli.
+Vialli began his management career in style by winning two trophies in two months. The League
+Cup was secured with another 2–0 win over Middlesbrough at Wembley (with Di Matteo again on
+the scoresheet). Chelsea reached the  Cup Winners' Cup  final following a dramatic
+semi-final win against  Vicenza . Having lost the away leg 1–0 and then conceded an away
+goal, Chelsea bounced back to win 3–1 on the night and go through, with Hughes again the
+catalyst. They won their second Cup Winners' Cup title with a 1–0 victory against  VfB
+Stuttgart  at the  RÃ¥sunda Stadium  in Stockholm , with Zola scoring with his first
+touch having been on the pitch for just 17 seconds. Following that, Vialli led the club to a
+1–0 win over European champions  Real Madrid  in the Super Cup  at the  Stade Louis II
+ in  Monaco . During the  1998–99 Premiership  campaign, Chelsea made their first
+sustained challenge for the title for years. Despite an opening day loss against  Coventry
+City , the side were not beaten in the League again until January and topped the table at 
+Christmas . Their title chances eventually disappeared after a home loss to  West Ham United
+ and consecutive draws against Middlesbrough,  Leicester City  and  Sheffield
+Wednesday  in April, which saw the Blues finish 3rd, four points behind winners Manchester
+United. A season which promised much ultimately ended trophyless, with Chelsea's defence of
+their Cup Winners' Cup title ending in a semi-final loss against  RCD Mallorca  while they
+were knocked out of both the other cups in the quarter-finals. Third place in the league was
+nevertheless high enough for a first-ever appearance in the  Champions League .
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Soccer.Field_Transparant.png/200px-Soccer.Field_Transparant.png
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/22px-Flag_of_the_Netherlands.svg.png
+De Goey
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/22px-Flag_of_the_Netherlands.svg.png
+Melchiot
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/22px-Flag_of_France.svg.png
+Desailly
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/22px-Flag_of_France.svg.png
+Leboeuf
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/22px-Flag_of_Nigeria.svg.png
+Babayaro
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/22px-Flag_of_Uruguay.svg.png
+Poyet
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/22px-Flag_of_England.svg.png
+Wise
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/22px-Flag_of_France.svg.png
+Deschamps
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/22px-Flag_of_Italy.svg.png
+Di Matteo
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/22px-Flag_of_Italy.svg.png
+Zola
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/22px-Flag_of_Liberia.svg.png
+Weah 2000 FA Cup Final  starting lineup. 44 years after being denied entry to the inaugural
+championship, Chelsea made their debut in Europe's premier competition in August 1999 and
+they put in a series of impressive performances en route to a quarter-final tie against  FC
+Barcelona . It included memorable draws at the  San Siro  and the Stadio Olimpico
+ against  AC Milan  and  SS Lazio  respectively, as well as a thumping 5–0 win
+against  Turkish  side  Galatasaray  at the  Ali Sami Yen Stadium . During the first leg
+of the quarter-final against Barcelona at Stamford Bridge, Chelsea took a 3–0 lead, only to
+concede a late  LuÃ­s Figo   away goal . Trailing 2–1 during the second leg at the  Camp
+Nou , the team were just seven minutes away from the semi-finals, but conceded a third and were
+eventually beaten 5–1 after  extra time , losing 6–4 on  aggregate . By now, Chelsea had
+a top-notch multi-national squad which included Zola, Di Matteo, Poyet,  Dutch
+ goalkeeper  Ed de Goey , and French  World Cup -winning trio Frank Leboeuf,  Marcel
+Desailly  and  Didier Deschamps . Under Vialli, Chelsea would become the first side in
+English football to field a starting 11 composed entirely of foreign players, highlighting
+the increasing internationalization of the game. The  1999–2000  season saw
+inconsistency return to Chelsea's league form as the side struggled to juggle Premier League
+and Champions League commitments, ultimately finishing a disappointing 5th. Vialli did
+lead the team to a second  FA Cup win  in four years that season – this time against  Aston
+Villa , with Di Matteo again scoring the winner – in the last final to be played at Wembley
+before its redevelopment. The  Charity Shield  was added in August with a 2–0 win
+against  Manchester United , to make Vialli Chelsea's then most successful manager.
+
+[ edit ] Claudio Ranieri (2000–2004)
+
+Vialli spent almost £26m on new players during the summer, including high-scoring 
+Dutchman   Jimmy Floyd Hasselbaink  and talented  Icelandic striker  EiÃ°ur
+GuÃ°johnsen , but was dismissed in September 2000 after winning just one of the opening five
+matches and, once again, with rumours circulating that the manager had fallen out with
+important players. [ 45 ]  He was replaced by another Italian,  Claudio Ranieri , who, in
+spite of his initial problems with the English language, guided them to another top six finish
+in his first season. Ranieri gradually re-built the side, reducing the average age of the
+squad by selling some older players, including Wise and Poyet, and replacing them with  John
+Terry , William Gallas ,  Frank Lampard  and  Jesper GrÃžnkjÃŠr .
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Roman_Abramovich_2.jpg/220px-Roman_Abramovich_2.jpg
+
+Image: http://bits.wikimedia.org/skins-1.5/common/images/magnify-clip.png Roman
+Abramovich Ranieri's second season saw some more progress, mainly in the cups, with Chelsea
+reaching the League Cup semi-finals and another FA Cup final, but was unable to prevent them
+from losing to  double  winners  Arsenal  in the latter. League form saw little
+improvement, though, and Chelsea again finished 6th. With rumours of the club's perilous
+financial state circulating, Ranieri was unable to sign any more players. As a result,
+expectations of Chelsea in the  2002–03  season were more limited. Chelsea
+nevertheless made an unexpected title challenge and, in perhaps one of the most significant
+matches in the club's history, defeated Liverpool 2–1 in the final game of the season to
+finish 4th and secure the final Champions League berth ahead of the  Merseysiders . With the
+club facing an apparent financial crisis, [ 46 ]  Bates unexpectedly sold Chelsea F.C. in
+June 2003 for £60 million. [ 47 ]  In so doing, he reportedly recognised a personal profit of
+£17 million on the club he had bought for £1 in 1982 (his stake had been diluted to just below
+30% over the years). The club's new owner was Russian billionaire  Roman Abramovich , who
+also took on responsibility for the club's £80 million of debt, quickly paying most of it. He
+then went on a £100 million spending spree before the start of the season and landed players
+like  Claude MakÃ©lÃ©lÃ© ,  Geremi ,  Glen Johnson ,  Joe Cole  and  Damien Duff
+. The spending saw a good return, with Chelsea finishing as Premiership runners-up (their
+best league finish for 49 years) and reaching the Champions League  semi-finals after
+dramatically beating Arsenal in the quarter-finals. But Ranieri may have been sacked
+because of some bizarre tactical decisions in the semi-final loss against  AS Monaco  (for
+example, switching central midfielder  Scott Parker  to right-back and right-back Glen
+Johnson to centre-back to accommodate more attackers in the team) and for ending the season
+trophyless. Nevertheless, Ranieri was given a hero's send-off in his final match in charge.
+That match also gave Chelsea fans a glimpse of what could easily have been if not for
+Abramovich's takeover, as Chelsea handily beat Leeds United, who were relegated,
+managerless, virtually bankrupt and seemingly destined for oblivion. In Ranieri's place,
+Abramovich recruited  JosÃ© Mourinho  (who had lifted two  Portuguese league
+ titles, a  Portuguese Cup , a European Cup  and a  UEFA Cup  with  FC Porto ) as the
+club's new manager. Abramovich also brought legendary Dutch scout  Piet de Visser , who
+scouted  Ronaldo  and  Romario  for  PSV Eindhoven , and is considered one of the
+greatest scouts in history.
+
+[ edit ] JosÃ© Mourinho: Double League Champions (2004–2007)
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Vilogo.png/160px-Vilogo.png
+
+Image: http://bits.wikimedia.org/skins-1.5/common/images/magnify-clip.png Club
+crest 2005–2006
+
+(centenary) 2004–05 was the most successful season in the history of Chelsea Football
+Club. After a slow start to the league season, scoring eight goals in their first nine games and
+trailing leaders Arsenal by five points, Chelsea's title campaign gradually picked up
+momentum, driven by the high-scoring  Frank Lampard  and the return from injury of
+brilliant young Dutch winger  Arjen Robben  – with the latter in the side, Chelsea both
+won more and scored more. They topped the table after a win against  Everton  in November
+2004 and never relinquished their lead, losing only one league game all season and winning a
+record 29, gaining a record 95 points in the process. A record-breaking defence, led by
+captain  John Terry  and his new partnership with  Ricardo Carvalho , the versatile 
+William Gallas , the brilliant fullback  Paulo Ferreira , midfield linchpin  Claude
+MakÃ©lÃ©lÃ©  and talented goalkeeper  Petr ÄŒech , provided the backbone of the
+side, conceding just 15 goals all season and keeping 25  clean sheets  while ÄŒech went
+a  Premiership -record 1025 minutes without conceding a goal. Chelsea eventually secured
+the title with a 2–0 away win at  Bolton Wanderers  thanks to two goals from Lampard,
+almost fifty years to the day since they had won their last league title. Winning the league
+completed a domestic double for the club, since Chelsea had already won the League Cup in
+February after a thrilling  3–2 win  over Liverpool in the final at the  Millennium
+Stadium .
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/JoseMourinho.jpg/180px-JoseMourinho.jpg
+
+Image: http://bits.wikimedia.org/skins-1.5/common/images/magnify-clip.png
+Mourinho was a major figure during his time with Chelsea In the Champions League, Chelsea
+coasted through the group stages, qualifying for the knockout phase with two games to spare,
+and were drawn against  FC Barcelona , one of the strongest sides in Europe. In the first leg at
+the Nou Camp , Chelsea took a 1–0 lead but had  Didier Drogba  controversially sent-off in
+the second half with Chelsea still ahead, and the  Catalans eventually won 2–1. Mourinho
+claimed that Barcelona manager  Frank Rijkaard  had spoken to referee  Anders Frisk  at
+half-time – a claim later proved correct – and that the result had been "adulterated". [ 48
+]  After receiving  death threats  from Chelsea fans, Frisk retired and Mourinho
+received a two-match touchline ban for bringing the game into disrepute. Chelsea won a
+pulsating return leg 4–2 at Stamford Bridge, with John Terry heading in a controversial
+winner to send them through. In the quarter-finals, a 4–2 home win over German champions 
+Bayern Munich  and a 3–2 loss in Germany were enough to ensure passage through to the
+semi-finals, where they faced Liverpool. Following a 0–0 draw at Stamford Bridge,
+Liverpool went 1–0 up at  Anfield  thanks to a disputed goal from  Luis GarcÃ­a  and
+Chelsea were unable to break down a resilient defence, thus missing out on the chance of a
+treble. A year later Chelsea retained their league title, setting more records in the
+process. Winning their first nine games, the side emphatically set the pace in the 
+Premiership  – including a 4–1 win over Liverpool at  Anfield  – and at one stage
+were 18 points ahead of nearest rivals  Manchester United . Following a late-season blip,
+and with United on a run of nine consecutive wins, the points gap was closed to seven points as
+Chelsea went into a key match with  West Ham United . A goal down after ten minutes and a man down
+after 17 following  Maniche 's  sending off , the side bounced back to win 4–1 and maintain
+the gap. The title was eventually secured with a 3–0 win over United at  Stamford Bridge .
+They became the first London club to win back-to-back league titles since the 1930s, and only
+the fifth side to do so since the Second World War. They also set the record for the most clean
+sheets (six) from the start of the season and equalled the best home record for a top division
+team since  Newcastle United  in  1906–07  (18 wins and 1 draw from 19 games). In the
+cups, however, there was less success as they were knocked out of the  Champions League
+ by  FC Barcelona  and the FA Cup  semi-final by  Liverpool . The 2006–07 season saw
+Chelsea relinquish the Premier League trophy to Manchester United after remaining second in
+the league for the majority of the season. The club were still in the running to achieve an
+unprecedented  quadruple  at the end of April, and played all but one of the maximum 63
+possible games at the start of the season. They won the  League Cup  by beating  Arsenal
+ 2–1 in the last ever English cup final at the Millennium Stadium, and beat United 1–0 in
+the first  FA Cup final  at the new Wembley Stadium; Chelsea were also the last team to win it
+at the old Wembley. They reached the semi-finals of the Champions League, only to be knocked
+out again by Liverpool, this time in a penalty shoot-out.
+
+[ edit ] Grant, Scolari and Hiddink (2007–2009)
+
+On 20 September 2007, Mourinho left Chelsea by "mutual consent" [ 49 ]  following an
+indifferent start to the season and after several months of well-documented friction
+between Mourinho and Abramovich. [ 50 ]  Shortly afterwards  Israeli   Avram Grant , who
+had been appointed Chelsea's director of football on 8 July 2007, [ 51 ]  was announced as
+Mourinho's successor. [ 52 ] Despite the managerial upheaval and a high level of player
+absence (in all, members of the team were unavailable for selection 286 times in the 62
+fixtures), [ 53 ]  Chelsea were on course to win  three different competitions , a feat
+previously achieved by only two other English clubs, Liverpool in 1983–84 and Manchester
+United in 1998–99, but ultimately finished as runners-up in all three. Chelsea reached
+their third  League Cup final  in four years, but suffered a surprise 2–1 defeat to
+mid-table Tottenham Hotspur at Wembley. Chelsea emerged as United's closest rivals in the
+title race; a 2–1 victory over United at Stamford Bridge in April left the teams level on
+points with four games remaining. [ 54 ]  The teams were still level on points going into the
+final game of the season, although United's superior goal difference meant Chelsea had to
+better their result; in the event, Chelsea drew 1–1 with  Bolton Wanderers  and United
+beat  Wigan Athletic  to take the title. Grant also led Chelsea to their fourth Champions
+League semi-final in five years, and they were again drawn to face Liverpool, although this
+time it was Chelsea who prevailed, winning 4–3 on aggregate to reach the final for the first
+time in their history. Their opponents in the final were Manchester United, making it the
+first all-English final in the competition's history. [ 55 ]  In an even game, Lampard's
+first-half strike cancelled out  Cristiano Ronaldo 's opener, and the teams remained at
+1–1 for the rest of the match, taking the final to a  penalty shootout , where John Terry
+and  Nicolas Anelka 's misses from the spot gave United victory. After the conclusion of the
+2007–08 season, Chelsea became the highest ranked club under  UEFA 's five-year 
+coefficient  system used in the seeding of European club competitions in the following
+season, a sign of the consistency of the club's performance over the first five years of Roman
+Abramovich's ownership. [ 56 ] Grant was sacked as Chelsea manager three days later. [ 57 ]
+ Grant's replacement was Brazilian  Luiz Felipe Scolari , who had guided  Brazil  to
+victory at the  2002 FIFA World Cup  and Portugal  to runners-up at  Euro 2004 . [ 58 ]
+ However, despite a bright start which saw Chelsea top the league table early in the season,
+Scolari was sacked on 9 February 2009 due to "results and performances of the team...
+deteriorating at a key time in the season", and with the club lying 4th in the Premier League. [
+59 ]   Russia  coach  Guus Hiddink  was appointed caretaker manager until the end of the
+season. Under Hiddink, performances and results improved; Chelsea lost just one more game
+all season, eventually finishing 3rd in the league and reaching the FA Cup final. In the
+Champions League, a 7–5 aggregate win over Liverpool in the quarter-finals, including an
+epic 4–4 draw at Stamford Bridge, took Chelsea to another semi-final, against  FC
+Barcelona . After drawing 0–0 in the first leg at the  Nou Camp , Chelsea took an early lead in
+the second through Essien, but in a controversial game, in which Chelsea squandered numerous
+chances and had several penalty appeals turned down, a  stoppage time  equaliser from 
+AndrÃ©s Iniesta  sent Barcelona through on away goals. In the immediate aftermath,
+Drogba caused more controversy after swearing at referee  Tom Henning Ã˜vrebÃž . [ 60 ]
+ In consolation, goals from Drogba and Lampard gave Chelsea a 2–1 victory over  Everton
+ in the  FA Cup Final  at Wembley on 30 May, the club's second FA Cup triumph in three years. [
+61 ]
+
+[ edit ] The Ancelotti Era (Since 2009)
+
+Former  AC Milan  coach  Carlo Ancelotti  was confirmed as Hiddink's successor on 1 June
+2009. [ 62 ]  He started his career by winning the  World Football Challenge  in the  USA .
+In Ancelotti's first competitive match Chelsea met Manchester United in the  Community
+Shield . The game ended in a 2–2 draw, with Chelsea winning 4–1 on penalties to take the
+trophy, the club's first victory in a shoot-out since beating  Ipswich Town  in the League
+Cup in January 1998. [ 63 ] On 3 September 2009, in a rare but not unprecedented punishment,
+Chelsea were  banned  from registering any new players for the next two  transfer windows
+, in January and Summer 2010, after  FIFA 's dispute resolution chamber (DRC) ruled that
+French winger  GaÃ«l Kakuta  had  breached his contract  with French club  RC Lens
+ when he joined Chelsea in 2007, and that Chelsea had induced him to do so. [ 64 ]  The club were
+subsequently cleared by the  Court of Arbitration for Sport  and the transfer ban was
+lifted. [ 65 ] At the end of a season where Chelsea exchanged places at the top of the table with
+Manchester United several times, and were briefly leapfrogged by Arsenal, they sealed their
+third Premier League title in six seasons with an 8–0 home win over  Wigan Athletic  on the
+final day of the season. The win also took Chelsea's league goal tally for the season to 103, the
+highest since  Tottenham Hotspur  in 1963, and the very first time in Premier League
+history that a club had scored 100 or more goals in a season. [ 66 ]  A week later, Chelsea
+completed the first " league title and FA Cup double " in the club's history by beating 
+Portsmouth  1–0 in the  FA Cup final , thanks to a  Didier Drogba  free-kick, his
+seventh goal in six cup finals for Chelsea. [ 67 ]
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Chelsea_double_winner_2009-10.JPG/300px-Chelsea_double_winner_2009-10.JPG
+
+Image: http://bits.wikimedia.org/skins-1.5/common/images/magnify-clip.png Chelsea
+FC parade through the streets of Fulham and Chelsea after winning their league and cup double,
+May 2010
+
+[ edit ] See also
+
+    
+
+    - Chelsea F.C.
+
+    
+
+[[Image:Chelsea double winner 2009-10.JPG|right|thumb|300px|Chelsea FC parade through
+the streets of Fulham and Chelsea after winning their league and cup double, May 2010
+
+[ edit ] Notes
+
+    
+
+    1 - ^   Glanvill, Rick (2006).  Chelsea FC: The Official Biography – The Definitive
+    Story of the First 100 Years . Headline Book Publishing Ltd. p. 71.  ISBN  
+    0-7553-1466-2 .
+
+    
+
+    2 - ^   "Team History" . Chelsea F.C. official website . Retrieved 2010-03-11 .
+
+    
+
+    3 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . p. 55.
+
+    
+
+    4 - ^  a   b   c   d   e   f   "Team History" .  chelseafc.com . Retrieved 2009-08-11 .
+
+    
+
+    5 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . p. 170.
+
+    
+
+    6 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . pp. 172–73.
+
+    
+
+    7 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . p. 73.
+
+    
+
+    8 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . p. 124.
+
+    
+
+    9 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . pp. 187–88.
+
+    
+
+    10 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . pp. 128.
+
+    
+
+    11 - ^  The Stamford Bridge turnstiles were closed with 74,496 in the stadium, but
+    thousands continued to enter illegally. The actual attendance is invariably put at
+    100,000. See Chelsea's  Official website . For a firsthand account of the match, see
+    Mears (2004) pp 81–88.
+
+    
+
+    12 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . p. 37.
+
+    
+
+    13 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . p. 42.
+
+    
+
+    14 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . pp. 44–45.
+
+    
+
+    15 - ^  The pressure put on club chairman Joe Mears by the English footballing
+    authorities to withdraw is referenced in this  Telegraph  article . The objections of
+    Football League Secretary Alan Hardaker are discussed  here .
+
+    
+
+    16 - ^   Batty, Clive (2007).  Kings of the King's Road: The Great Chelsea Team of the 60s &
+    70s . Vision Sports Publishing. p. 19.  ISBN   978-1-905326-22-8 .
+
+    
+
+    17 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . pp. 243–44.
+
+    
+
+    18 - ^   Batty (2007).  Kings of the King's Road . pp. 28–33.
+
+    
+
+    19 - ^   Batty (2007).  Kings of the King's Road . pp. 43–44.
+
+    
+
+    20 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . p. 321.
+
+    
+
+    21 - ^   Batty (2007).  Kings of the King's Road . pp. 67–69.
+
+    
+
+    22 - ^   "Chelsea ready for grudge Cup clash" . ESPN. 2001-11-28 . Retrieved 2009-08-11 .
+
+    
+
+    23 - ^   "Blue Is The Colour" .  Chart Stats . Retrieved 2009-08-11 .
+
+    
+
+    24 - ^   "Cup Winners' Cup Trivia" .  RSSSF . Retrieved 2009-08-09 .
+
+    
+
+    25 - ^   Batty (2007).  Kings of the King's Road . pp. 244–245.
+
+    
+
+    26 - ^  John Parsons,  Daily Mail . Quoted Mears (2002), p. 192.
+
+    
+
+    27 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . p. 87.
+
+    
+
+    28 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . pp. 143–157.
+
+    
+
+    29 - ^   Batty, Clive (2006).  A Serious Case of the Blues: Chelsea in the 80s . Vision
+    Sports Publishing. pp. 41–42.  ISBN   1-905326-02-5 .
+
+    
+
+    30 - ^   Batty (2006).  A Serious Case of the Blues . p. 83.  ISBN   1-905326-02-5 .
+
+    
+
+    31 - ^   Woolnough, Brian (1998).  Ken Bates: My Chelsea Dream . Virgin Books. p. 39. 
+    ISBN   1-85227-737-8 .
+
+    
+
+    32 - ^   Woolnough (1998).  Ken Bates: My Chelsea Dream . p. 39.
+
+    
+
+    33 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . p. 88.
+
+    
+
+    34 - ^   Batty (2006).  A Serious Case of the Blues . p. 191.
+
+    
+
+    35 - ^  a   b   Batty (2006).  A Serious Case of the Blues . p. 190.
+
+    
+
+    36 - ^   Glanvill (2006).  Chelsea FC: The Official Biography . p. 89.
+
+    
+
+    37 - ^  a   b   Glanvill (2006).  Chelsea FC: The Official Biography . p. 90.
+
+    
+
+    38 - ^   Batty (2006).  A Serious Case of the Blues . p. 193.
+
+    
+
+    39 - ^   Batty (2006).  A Serious Case of the Blues . p. 194.
+
+    
+
+    40 - ^   Batty (2006).  A Serious Case of the Blues . p. 195.
+
+    
+
+    41 - ^   Batty (2006).  A Serious Case of the Blues . p. 120.
+
+    
+
+    42 - ^   Batty (2006).  A Serious Case of the Blues . p. 137.
+
+    
+
+    43 - ^   Batty (2006).  A Serious Case of the Blues . pp. 159–160.
+
+    
+
+    44 - ^   Gullit sacked . URL accessed on 18 May 2006.
+
+    
+
+    45 - ^   Dressing-room support sapped in Zola backlash . URL accessed 11 August 2006
+
+    
+
+    46 - ^   Chelsea saviour arrived in time for £23 m bill . URL accessed on 11 April 2006.
+
+    
+
+    47 - ^   Bates sells off Chelsea to a Russian billionaire . URL accessed on 11 April 2006.
+
+    
+
+    48 - ^   "Uefa: Rijkaard did approach Frisk" .  The Guardian  (London). 2005-04-07 .
+    Retrieved 5 October 2006 .
+
+    
+
+    49 - ^   "Chelsea Statement" . Official Chelsea FC website. 2007-09-20 . Retrieved
+    2007-09-21 .
+
+    
+
+    50 - ^   "Mourinho makes shock Chelsea exit" . BBC. 2007-09-20 . Retrieved 2007-09-21 .
+
+    
+
+    51 - ^   "Grant given position at Chelsea" . BBC. 2007-07-08 . Retrieved 2007-09-21 .
+
+    
+
+    52 - ^   "Chelsea name Grant as new manager" . BBC. 2007-09-20 . Retrieved 2007-09-21 .
+
+    
+
+    53 - ^   "Post-season Briefing" . Official Chelsea FC website. 2008-06-01 . Retrieved
+    2007-09-21 .
+
+    
+
+    54 - ^   Tongue, Steve (2008-04-27).  "Chelsea 2 Manchester United 1: Ballack puts race
+    in balance" .  The Independent  (London) . Retrieved 2009-08-13 .
+
+    
+
+    55 - ^   "Chelsea and Man Utd set for final" .  BBC Sport . 2008-05-21 . Retrieved
+    2009-08-13 .
+
+    
+
+    56 - ^   Kassies, Bert.  "UEFA Team Ranking 2008" .  UEFA European Cup Football:
+    Results and Qualification . Retrieved 2 June 2008 .
+
+    
+
+    57 - ^   "Post-season Briefing" . Grant sacked as Chelsea manager. 2008-05-24 .
+    Retrieved 2007-09-21 .
+
+    
+
+    58 - ^   "Scolari named as Chelsea manager" .  BBC Sport . 2008-06-11 . Retrieved
+    2009-08-13 .
+
+    
+
+    59 - ^   "Chelsea sack Scolari" . fifa.com. 2009-02-09 . Retrieved 2009-08-13 .
+
+    
+
+    60 - ^   "Chelsea 1–1 Barcelona (agg 1–1)" .  BBC Sport . 2009-05-06 . Retrieved
+    2009-08-13 .
+
+    
+
+    61 - ^   "Chelsea 2 – 1 Everton" .  ESPN.com . 2009-05-30 . Retrieved 2009-11-10 .
+
+    
+
+    62 - ^   "Carlo Ancelotti signs three-year deal with Chelsea" .  The Guardian
+     (London). 2009-01-06 . Retrieved 2009-08-13 .
+
+    
+
+    63 - ^   "ASK STATMAN" .  chelseafc.com . Retrieved 13 August 2009 .
+
+    
+
+    64 - ^   "Chelsea hit by new signings ban" .  BBC Sport . 2009-09-03. Archived from  the
+    original  on 2009-09-03 . Retrieved 2009-09-03 .
+
+    
+
+    65 - ^   "Statement on Kakuta Decision" . Chelseafc.com. 2010-03-04 . Retrieved
+    2010-02-04 .
+
+    
+
+    66 - ^   "Chelsea 8–0 Wigan" . BBC. 9 May 2010 . Retrieved 22 May 2010 .
+
+    
+
+    67 - ^   "Chelsea 1–0 Portsmouth" . BBC. 15 May 2010 . Retrieved 22 May 2010 .
+
+    
+
+
+
+[ edit ] References
+
+    
+
+    - Batty, Clive (2004).  Kings of the King's Road: The Great Chelsea Team of the 60s and 70s
+    . Vision Sports Publishing Ltd.  ISBN   0-9546428-1-3 .
+
+    
+
+    - Batty, Clive (2005).  A Serious Case of the Blues: Chelsea in the 80s . Vision Sports
+    Publishing Ltd.  ISBN   1-905326-02-5 .
+
+    
+
+    - Cheshire, Scott (1998).  Chelsea: an Illustrated History . Breedon Books.  ISBN  
+    1-85983-143-5 .
+
+    
+
+    - Glanvill, Rick (2005).  Chelsea FC: The Official Biography – The Definitive Story
+    of the First 100 Years . Headline Book Publishing Ltd.  ISBN   0-7553-1465-4 .
+
+    
+
+    - Hadgraft, Rob (2004).  Chelsea: Champions of England 1954–55 . Desert Island Books
+    Limited.  ISBN   1-874287-77-5 .
+
+    
+
+    - Harris, Harry (2005).  Chelsea's Century . Blake Publishing.  ISBN  
+    1-84454-110-X .
+
+    
+
+    - Mears, Brian (2004).  Chelsea: A 100-year History . Mainstream Sport.  ISBN  
+    1-84018-823-5 .
+
+    
+
+    - Mears, Brian (2002).  Chelsea: Football Under the Blue Flag . Mainstream Sport. 
+    ISBN   1-84018-658-5 .
+
+    
+
+    - Woolnough, Brian (1998).  Ken Bates: My Chelsea Dream . Virgin Books.  ISBN  
+    1-85227-737-8 .
+
+    
+
+Diposkan oleh
+
+
+
+Adri Aulia di
+
+
+
+12:31 Tidak ada komentar:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Kirimkan Ini lewat Email
+BlogThis! Berbagi ke Twitter Berbagi ke Facebook Posting Lebih Baru Posting Lama Beranda
+Langganan: Entri (Atom) window.___gcfg = {'lang': 'in'};window.___gapisync =
+false;(function() {var po = document.createElement('script');po.type =
+'text/javascript';po.async = true;po.src =
+'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+My Clock
+
+obj=new
+Object;obj.clockfile="1001-blue.swf";obj.TimeZone="ICT";obj.width=150;obj.height=150;obj.wmode="transparent";showClock(obj);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/3976528714726311942/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/3976528714726311942/comments/default";
+holder.currentBlogUrl = "http://adriauliachelsea.blogspot.com/";
+holder.currentBlogId = "3976528714726311942"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#000000"; skin['ENDCAP_LINK_COLOR'] = "#0b5394";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#0b5394"; skin['CONTENT_TEXT_COLOR'] =
+"#000000"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#0b5394";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#636363"; skin['CONTENT_HEADLINE_COLOR'] =
+"#073763"; skin['FONT_FACE'] = "normal normal 14px Arial, Tahoma, Helvetica, FreeSans,
+sans-serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-19b4j8okuc42b",
+height: 260, site: "15338870437086567823", locale: 'in' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png body, a, a:hover
+{cursor: url(http://cur.cursors-4u.net/sports/spo-6/spo604.cur), progress;}
+
+Image: http://cursors-4u.com/support.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+My Profile
+
+
+
+    Image:
+    http://4.bp.blogspot.com/_nselRqyID9o/TGfn5vfs5VI/AAAAAAAAAAY/egNPqIh-k-s/S220/kudroV.JPG
+
+        Adri Aulia
+
+    
+
+        SAYA GANTENG HE.....
+
+    
+
+Lihat profil lengkapku
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+My Facebook
+
+Adrimonious Aulia
+
+
+
+Image: http://badge.facebook.com/badge/100000444627580.690.1228420588.png
+
+Create Your Badge
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Arsip Blog
+
+    
+
+    - Februari (19)
+
+    
+
+    - Agustus (18)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Share it
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/3976528714726311942/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/3976528714726311942/comments/default";
+holder.currentBlogUrl = "http://adriauliachelsea.blogspot.com/";
+holder.currentBlogId = "3976528714726311942"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "200"; skin['TITLE'] = "Share it";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#000000"; skin['ENDCAP_LINK_COLOR'] = "#0b5394";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#0b5394"; skin['CONTENT_TEXT_COLOR'] =
+"#000000"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#0b5394";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#636363"; skin['CONTENT_HEADLINE_COLOR'] =
+"#073763"; skin['FONT_FACE'] = "normal normal 14px Arial, Tahoma, Helvetica, FreeSans,
+sans-serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderOpenSocialGadget"]( {id:
+"div-15nccunv2jzs0", height: 200, url:
+"http://fcgadgets.appspot.com/spec/shareit.xml", "view-params": {}, "prefs": {},
+site: "15338870437086567823", locale: 'in' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Template Watermark.
+Gambar template oleh Ollustrator . Diberdayakan oleh Blogger .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+window.setTimeout(function() { document.body.className =
+document.body.className.replace('loading', ''); }, 10); if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV2";window['blogger_blog_id'] =
+'3976528714726311942';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d3976528714726311942','//adriauliachelsea.blogspot.com/2010_08_01_archive.html','3976528714726311942');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'3976528714726311942', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Chelsea fc
+lover', 'pageType': 'archive', 'url':
+'http://adriauliachelsea.blogspot.com/2010_08_01_archive.html', 'canonicalUrl':
+'http://adriauliachelsea.blogspot.com/2010_08_01_archive.html',
+'canonicalHomepageUrl': 'http://adriauliachelsea.blogspot.com/', 'homepageUrl':
+'http://adriauliachelsea.blogspot.com/', 'blogspotFaviconUrl':
+'http://adriauliachelsea.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'Agustus 2010', 'pageTitle': 'Chelsea fc lover: Agustus 2010', 'encoding': 'UTF-8',
+'locale': 'in', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false,
+'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks':
+'\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42Chelsea fc lover - Atom\42
+href\75\42http://adriauliachelsea.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42Chelsea fc lover - RSS\42
+href\75\42http://adriauliachelsea.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Chelsea fc lover - Atom\42
+href\75\42http://www.blogger.com/feeds/3976528714726311942/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0753976528714726311942\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if
+IE]\76\74script type\75\42text/javascript\42
+src\75\42//www.blogger.com/static/v1/jsbin/3651483553-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076',
+'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'tabs_border_size': '0', 'tabs_shadow_spread': '0',
+'link_visited_color': '#6fa8dc', 'post_title_font': 'normal normal 30px Walter
+Turncoat', 'tabs_separator_color': '#c0a154', 'tabs_text_color': '#cc3300',
+'post_shadow_spread': '0', 'body_background_overlay_height': '121px',
+'main_cap_height': '0', 'widget_title_font': 'normal bold 20px Kranky',
+'body_background_overlay': 'transparent none no-repeat scroll center center',
+'tabs_background_outer': 'none', 'keycolor': '#073763', 'main_background':
+'transparent none no-repeat scroll top left', 'header_font': 'normal bold 50px Cherry
+Cream Soda', 'post_border_style': 'dotted', 'footer_link_visited_color': '#0b5394',
+'post_background_url':
+'url(//www.blogblog.com/1kt/watermark/post_background_birds.png)',
+'footer_link_hover_color': '#3d85c6', 'mobile_background_overlay': 'transparent
+none repeat scroll top left', 'tabs_background_color': 'transparent',
+'link_hover_color': '#9fc5e8', 'footer_link_color': '#0b5394',
+'description_text_color': '#0b5394', 'body_text_color': '#000000',
+'post_border_color': '#8eaec6', 'footer_text_color': '#0b5394',
+'post_background_color': 'transparent', 'endSide': 'right',
+'post_footer_text_color': '#0b5394', 'tabs_background_inner': 'none', 'tabs_font':
+'normal normal 20px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'startSide':
+'left', 'body_font': 'normal normal 14px Arial, Tahoma, Helvetica, FreeSans,
+sans-serif', 'main_cap_overlay': 'none', 'date_text_color': '#6fa8dc',
+'widget_title_text_color': '#073763', 'link_color': '#0b5394',
+'footer_widget_title_text_color': '#0b5394', 'post_border_size': '1px',
+'main_cap_image': 'none', 'footer_background_color': '#3d85c6',
+'header_text_color': '#073763', 'date_font': 'normal bold 16px Crafty Girls',
+'main_padding_top': '30px', 'tabs_selected_text_color': '#000000',
+'body_background_color': '#437eb5', 'widget_alternate_text_color': '#636363'},
+'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url':
+'/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'},
+'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name':
+'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url':
+'/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'},
+'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3',
+'sidebar-right-1', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1',
+'sidebar-right-1', null, document.getElementById('Profile1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'sidebar-right-1', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar-right-1', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML2', 'sidebar-left-1', null, document.getElementById('HTML2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_FollowersView', new
+_WidgetInfo('Followers1', 'sidebar-left-1', null,
+document.getElementById('Followers1'), {'title': 'Followers', 'codeSnippet':
+'\74script type\75\42text/javascript\42\76\n if (!window.google ||
+!google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75
+\42http://www.blogger.com/feeds/3976528714726311942/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/3976528714726311942/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://adriauliachelsea.blogspot.com/\42;\n
+holder.currentBlogId \75 \0423976528714726311942\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-19ja95dnnoqr4\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#000000\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#0b5394\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#0b5394\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#000000\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#0b5394\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#636363\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#073763\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-19ja95dnnoqr4\42,\n height: 260,\n \n \n \n site:
+\04215338870437086567823\42,\n \n locale: \47in\47 },\n skin);\n \74/script\076'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'footer-3', null,
+document.getElementById('Attribution1'), {'attribution': 'Template Watermark.
+Gambar template oleh \74a
+href\75\47http://www.istockphoto.com/googleimages.php?id\759505737\46platform\75blogger\46langregion\75in\47
+target\75\47_blank\47\76Ollustrator\74/a\76. Diberdayakan oleh \74a
+href\75\47http://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_GadgetView', new
+_WidgetInfo('Gadget1', 'footer-1', null, document.getElementById('Gadget1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

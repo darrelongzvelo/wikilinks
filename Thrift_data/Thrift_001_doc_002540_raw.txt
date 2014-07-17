@@ -1,0 +1,1497 @@
+
+
+
+
+adriel'newwwwwwwwwwws!: August 2012 (function() { var
+a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; /*
+----------------------------------------------- Blogger Template Style Name: Dots
+Dark Designer: Douglas Bowman URL: www.stopdesign.com Date: 27 Feb 2004
+----------------------------------------------- */ body { background:#123
+url("http://www.blogblog.com/dots_dark/bg_minidots.gif") 50% 0; margin:0; padding:0
+10px; text-align:center; font:x-small Verdana,Arial,Sans-serif; color:#abc;
+font-size/* */:/**/small; font-size: /**/small; } /* Page Structure
+----------------------------------------------- */ @media all { #content {
+background:url("http://www.blogblog.com/dots_dark/bg_3dots.gif") no-repeat 250px
+50px; width:700px; margin:0 auto; padding:50px 0; text-align:left; } #main { width:450px;
+float:right; padding:50px 0 0; font-size:85%; } #main2 {
+background:url("http://www.blogblog.com/dots_dark/bg_minidots2.gif") -100px
+-100px; padding:20px 10px 15px; } #sidebar { width:200px; float:left; font-size:85%;
+padding-bottom:20px; } #sidebar2 {
+background:url("http://www.blogblog.com/dots_dark/bg_minidots2.gif") 150px -50px;
+padding:5px 10px 15px; width:200px; width/* */:/**/180px; width: /**/180px; } } @media
+handheld { #content { width:90%; } #main { width:100%; float:none; } #sidebar { width:100%;
+float:none; } #sidebar2 { width:100%; } } /* Title & Description
+----------------------------------------------- */ @media all { #blog-title { margin:0
+0 .5em; font:bold 250%/1.4em Helvetica,Arial,Sans-serif; color:#8dd;
+text-transform:lowercase; } #blog-title a { color:#8cc; text-decoration:none; }
+#description { margin:0 0 1.75em; color:#9c7; } #blog-mobile-title { display:none; }
+#description-mobile { display:none; } } @media handheld { #blog-title { display:none; }
+#description { display:none; } #blog-mobile-title { display:block; margin:0 0 .5em;
+font:bold 250%/1.4em Helvetica,Arial,Sans-serif; color:#8dd;
+text-transform:lowercase; } #blog-mobile-title a { color:#8cc; text-decoration:none; }
+#description-mobile { display:block; margin:0 0 1.75em; color:#9c7; } } /* Links
+----------------------------------------------- */ a:link { color:#da7; } a:visited {
+color:#799; } a:hover { color:#fff; } a img { border-width:0; } /* Posts
+----------------------------------------------- */ .date-header { margin:0 0 .75em;
+padding-bottom:.35em; border-bottom:1px dotted #567; font:bold 100%/1.4em
+Verdana,San-serif; text-transform:lowercase; color:#7bc; } .post { margin:0 0 2.5em;
+line-height:1.6em; } .post-title { margin:.25em 0; font:bold 130%/1.4em
+Verdana,San-serif; color:#ad8; } .post-title a, .post-title strong {
+background:url("http://www.blogblog.com/dots_dark/bg_post_title.gif") no-repeat 0
+.25em; display:block; color:#ad8; text-decoration:none; padding:0 0 1px 45px; }
+.post-title a:hover { color:#fff; } .post p { margin:0 0 .75em; } p.post-footer { margin:0;
+text-align:right; } p.post-footer em { display:block; float:left; text-align:left;
+font-style:normal; color:#9c7; } a.comment-link { /* IE5.0/Win doesn't apply padding to
+inline elements, so we hide these two declarations from it */ background/*
+*/:/**/url("http://www.blogblog.com/dots_dark/icon_comment.gif") no-repeat 0
+.25em; padding-left:15px; } html>body a.comment-link { /* Respecified, for IE5/Mac's
+benefit */ background:url("http://www.blogblog.com/dots_dark/icon_comment.gif")
+no-repeat 0 .25em; padding-left:15px; } .post img { margin:0 0 5px 0; padding:4px;
+border:1px solid #567; } /* Comments -----------------------------------------------
+*/ #comments { margin:0; } #comments h4 { margin:0 0 10px; border-top:1px dotted #567;
+padding-top:.5em; font:bold 110%/1.4em Verdana,Sans-serif; color:#9c7; }
+#comments-block { line-height:1.6em; } .comment-poster {
+background:url("http://www.blogblog.com/dots_dark/icon_comment.gif") no-repeat
+2px .35em; margin:.5em 0 0; padding:0 0 0 20px; font-weight:bold; color:#9ab; }
+.comment-body { margin:0; padding:0 0 0 20px; } .comment-body p { margin:0 0 .5em; }
+.comment-timestamp { margin:0 0 .5em; padding:0 0 .75em 20px; color:#996; }
+.comment-timestamp a:link { color:#996; } .deleted-comment { font-style:italic;
+color:gray; } .paging-control-container { float: right; margin: 0px 6px 0px 0px;
+font-size: 80%; } .unneeded-paging-control { visibility: hidden; } /* More Sidebar Content
+----------------------------------------------- */ .sidebar-title { margin:2em 0
+.75em; padding-bottom:.35em; border-bottom:1px dotted #567; font:bold 100%/1.4em
+Verdana,San-serif; text-transform:lowercase; color:#7bc; } #sidebar p { margin:0 0
+.75em; line-height:1.6em; } #sidebar ul { margin:.5em 0 1em; padding:0 0px;
+list-style:none; line-height:1.5em; } #sidebar ul li {
+background:url("http://www.blogblog.com/dots_dark/bullet.gif") no-repeat 3px
+.45em; margin:0; padding:0 0 5px 15px; } #sidebar p { margin:0 0 .6em; } /* Profile
+----------------------------------------------- */ .profile-datablock { margin:0 0
+1em; } .profile-img { display:inline; } .profile-img img { float:left; margin:0 8px 5px 0;
+border:4px solid #345; } .profile-data { margin:0; line-height:1.5em; } .profile-data
+strong { display:block; } .profile-textblock { clear:left; } /* Footer
+----------------------------------------------- */ #footer { clear:both;
+padding:15px 0 0; } #footer hr { display:none; } #footer p { margin:0; } /* Feeds
+----------------------------------------------- */ #blogfeeds { } #postfeeds {
+padding-left: 20px } @import
+url(http://www.blogger.com/static/v1/v-css/navbar/3334278262-classic.css);
+div.b-mobile {display:none;}
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0753623279009594814316\46blogName\75adriel\47newwwwwwwwwwws!\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75CLASSIC\46searchRoot\75http://adrielmarie.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://adrielmarie.blogspot.com/\46vt\75-8015385734319026087',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } });
+
+adriel'newwwwwwwwwwws!
+
+
+
+newwwwwwwwwwwwwws!i love making painting read to know! i love making news flash!
+
+Friday, August 24, 2012
+
+
+
+dont read
+
+
+
+The new guide isÂ  coming!But,According to the results of the players viewing, The peoples
+that is viewing right now is not enough.However,the guide will stay put on place that will not
+come out unless 5 peoples has to view before the guide has come out Â  Â  Â  Â  Â  Â 
+Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â 
+Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â 
+Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â  Â Â  Make sure to invite players of
+poptropica to read this so they will have their Â medallions! So are you,From now on,Keep
+inviting! 100 viewers needed for the WHOLE guide of Poptropica,Now that is great! Which takes
+time!
+
+
+
+
+
+Read more Â»
+
+posted by Adriel Marie @ 11:27 AM   0 Comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Tuesday, August 21, 2012
+
+
+
+Counterfeit island guide
+
+
+
+CounterFeit island guide
+
+
+
+
+
+Go back to menu: http://adrielmarie.blogspot.com/2012/07/dont-read.html
+
+
+
+Yay!
+
+It is available
+
+
+
+        I        The missing Photo:ï»¿
+                                                                 V
+Find it?ï»¿
+
+Image:
+http://3.bp.blogspot.com/-0WzUwEZYRSU/UD_hHshoqEI/AAAAAAAAAFE/YnlSk8LrBVs/s320/Untitled.png
+
+Full walkthrough guide (That is not me) Yay!
+
+
+
+
+
+
+                                                                        
+I will write the walkthrough,COMING SOON!!!:)
+
+
+
+
+
+Walkthroughs Steam works guide
+
+All  NEW !         ->   Lunar colony 
+
+Wimpy board walk
+
+Counterfeit island
+
+Superpower island
+
+Sharktooth island       
+
+Early poptropica island
+
+Astro knight island       Special walkthroughs  
+
+Coming VERY SOON!                                
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/-Q4GCT334bCs/UD_dLptyJmI/AAAAAAAAAE0/Y84LHHId1Qc/s320/nted.png
+
+___________________________________________________________ Website Questions &
+Others
+
+Normal FAQ    During Guide Maintenence Secret website Back up Guide maintence Secret
+website ___________________________________________________________ Secure &
+Safetys 
+
+Safety FAQ  
+
+
+
+___________________________________________________________ Guides &Walkthroughs
+
+Steam works guide          All  NEW !         ->   Lunar colony           Wimpy board
+walk       Counterfeit island      Sharkto oth island
+
+
+
+Early poptropica island   
+______________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+posted by Adriel Marie @ 5:31 PM   0 Comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Do not read!!!!!
+
+
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/-Q4GCT334bCs/UD_dLptyJmI/AAAAAAAAAE0/Y84LHHId1Qc/s320/nted.png
+
+___________________________________________________________ Website Questions &
+Others
+
+Normal FAQ    During Guide Maintenence Secret website Back up Guide maintence Secret
+website ___________________________________________________________ Secure &
+Safetys 
+
+Safety FAQ  
+
+
+
+___________________________________________________________ Guides &Walkthroughs
+
+Steam works guide          All  NEW !         ->   Lunar colony           Wimpy board
+walk       Counterfeit island      Sharkto oth island
+
+
+
+Early poptropica island   
+______________________________________________________________
+
+The newest and first Contest :
+
+
+
+You can read
+
+
+
+The Drawin contest
+
+
+
+Draw a thing and show
+
+it And see if you win on the article
+
+next
+
+month Anyone can win!
+
+
+
+And,If you enter,Your name will get mentioned on the article even you dont win!Win now And your
+
+drawing   can be mentioned alot of times! and more!
+
+Enter contest now!
+
+
+
+
+
+
+
+Walkthroughs Steam works guide
+
+All  NEW !         ->   Lunar colony 
+
+Wimpy board walk
+
+Counterfeit island
+
+Superpower island
+
+Sharktooth island       
+
+Early poptropica island
+
+Astro knight island       Special walkthroughs  
+
+Coming VERY SOON!                                
+
+posted by Adriel Marie @ 5:06 PM   0 Comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Monday, August 20, 2012
+
+
+
+DO NOT READ!
+
+
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/-Q4GCT334bCs/UD_dLptyJmI/AAAAAAAAAE0/Y84LHHId1Qc/s320/nted.png
+
+___________________________________________________________ Website Questions &
+Others
+
+Normal FAQ    During Guide Maintenence Secret website Back up Guide maintence Secret
+website ___________________________________________________________ Secure &
+Safetys 
+
+Safety FAQ  
+
+
+
+___________________________________________________________ Guides &Walkthroughs
+
+Steam works guide          All  NEW !         ->   Lunar colony           Wimpy board
+walk       Counterfeit island      Sharkto oth island
+
+
+
+Early poptropica island   
+______________________________________________________________
+
+Biography
+
+
+
+JUST READ IT!!!
+
+
+
+
+
+Minas live in america florida.She lives near the lake.She has an older sister name
+azalena.Azalena is scared the ducks near.She imagined that the ducks will bite her and
+others.While minas keep her fear of ducks in mind.She is a girl and her name means something
+Strange.
+
+
+
+
+
+
+
+
+
+
+
+More Coming soon!
+
+
+
+
+
+Walkthroughs Steam works guide
+
+All  NEW !         ->   Lunar colony 
+
+Wimpy board walk
+
+Counterfeit island
+
+Superpower island
+
+Sharktooth island       
+
+Early poptropica island
+
+Astro knight island       Special walkthroughs  
+
+Coming VERY SOON!                                
+
+posted by Adriel Marie @ 5:42 PM   0 Comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Sunday, August 19, 2012
+
+
+
+DO NOT READ!
+
+
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/-Q4GCT334bCs/UD_dLptyJmI/AAAAAAAAAE0/Y84LHHId1Qc/s320/nted.png
+
+___________________________________________________________ Website Questions &
+Others
+
+Normal FAQ    During Guide Maintenence Secret website Back up Guide maintence Secret
+website ___________________________________________________________ Secure &
+Safetys 
+
+Safety FAQ  
+
+
+
+___________________________________________________________ Guides &Walkthroughs
+
+Steam works guide          All  NEW !         ->   Lunar colony           Wimpy board
+walk       Counterfeit island      Sharkto oth island
+
+
+
+Early poptropica island   
+______________________________________________________________
+
+Walkthroughs Steam works guide
+
+All  NEW !         ->   Lunar colony 
+
+Wimpy board walk
+
+Counterfeit island
+
+Superpower island
+
+Sharktooth island       
+
+Early poptropica island
+
+Astro knight island       Special walkthroughs  
+
+Coming VERY SOON!                                
+
+
+
+Terms
+
+Of use of  Blogger Writer's Walkthrough of Poptropica
+
+And you can read -_-Unless your Permitted!
+
+
+
+Anyway,The Following Terms of use is Valueable to Poptropica walkthrough of this blogger.As
+surely,The newest and only Blog that is Walkthrough of poptropica! Anyway,Please keep
+
+in mind this Rules:
+
+
+
+
+
+    
+
+    - Your child has chosen this blog used as a walkthrough.We are secured that we keep this
+    walkthrough Bad peoples-free and a secret.To save the blog,Spread the world with this
+    Secret blog to Archive Victory and continue the walkthrough.Peoples and child of yours
+    must be 6 or older to watch and read this blog and walk through.The only reason why cuase'
+    they can be confusing words in here and bad words can happend.6 or above dont worry about
+    it.They will tell there 
+
+    
+
+
+
+parents.Lower than 6 can be in searious danger.We respect you for only players 6 or above.
+
+We trust you!
+
+
+
+
+
+
+
+Only use kind words.We will.The staff of this blog will never ever share Personal information
+and they should be kind.As we report the things that is inappropriate,Please leave the
+internet for 1 hour.We will do something about it.Things can get worse.Something make you
+un-comfortable?
+
+Dont take it from us,But we do care,Take it from your parents.They will comment the things that
+we make you comfortable.Then,We will make it with more care.
+
+
+
+
+
+
+
+We deal some problems seariously.Thank you for reading!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+posted by Adriel Marie @ 2:18 PM   0 Comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Advanced walkthrough of Poptropica List!
+
+
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/-Q4GCT334bCs/UD_dLptyJmI/AAAAAAAAAE0/Y84LHHId1Qc/s320/nted.png
+
+___________________________________________________________ Website Questions &
+Others
+
+Normal FAQ    During Guide Maintenence Secret website Back up Guide maintence Secret
+website ___________________________________________________________ Secure &
+Safetys 
+
+Safety FAQ  
+
+
+
+___________________________________________________________ Guides &Walkthroughs
+
+Steam works guide          All  NEW !         ->   Lunar colony           Wimpy board
+walk       Counterfeit island      Sharkto oth island
+
+
+
+Early poptropica island   
+______________________________________________________________
+
+The Advanced Walkthrough of Poptropica List!
+
+
+
+The Advance way!The original is crumbly!Now get a chance to se the Advanced way!
+
+
+
+Steamwork islands:
+
+http://adrielmarie.blogspot.com/2012/08/steam-works-guide.html
+
+Lunar colony:
+
+http://adrielmarie.blogspot.com/2012/08/poptropica-lunar-colony-guide.html Super
+power : http://adrielmarie.blogspot.com/2012/07/super-power-isleguide.html
+
+wimpy board walk
+
+http://adrielmarie.blogspot.com/2012/07/wimpy-boardwalk-guide_26.html
+
+Shark tooth
+
+http://adrielmarie.blogspot.com/2012/07/poptropica-sharktooth-isleguide.html
+
+Go back to the main menu?
+
+  http://adrielmarie.blogspot.com/2012/07/dont-read.html
+
+
+
+Walkthroughs Steam works guide
+
+All  NEW !         ->   Lunar colony 
+
+Wimpy board walk
+
+Counterfeit island
+
+Superpower island
+
+Sharktooth island       
+
+Early poptropica island
+
+Astro knight island       Special walkthroughs  
+
+Coming VERY SOON!                                
+
+posted by Adriel Marie @ 9:05 AM   0 Comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Steam works guide
+
+
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/-Q4GCT334bCs/UD_dLptyJmI/AAAAAAAAAE0/Y84LHHId1Qc/s320/nted.png
+
+___________________________________________________________ Website Questions &
+Others
+
+Normal FAQ    During Guide Maintenence Secret website Back up Guide maintence Secret
+website ___________________________________________________________ Secure &
+Safetys 
+
+Safety FAQ  
+
+
+
+___________________________________________________________ Guides &Walkthroughs
+
+Steam works guide          All  NEW !         ->   Lunar colony           Wimpy board
+walk       Counterfeit island      Sharkto oth island
+
+
+
+Early poptropica island   
+______________________________________________________________
+
+Steam works guide now available! For more walkthroughs:
+http://adrielmarie.blogspot.com/2012/07/dont-read.html
+
+Read here:
+
+
+
+
+
+Walkthroughs Steam works guide
+
+All  NEW !         ->   Lunar colony 
+
+Wimpy board walk
+
+Counterfeit island
+
+Superpower island
+
+Sharktooth island       
+
+Early poptropica island
+
+Astro knight island       Special walkthroughs  
+
+Coming VERY SOON!                                
+
+
+
+Main Street
+
+    
+
+    - Walk over to the Clockwork Cantina and complete the gear puzzle. Place the two brown
+    gears on the ends and the three blue gears go in the middle. Turn the crank when
+    theyâ€™re all in place. Now pick up the  Multi-Tool  that just appeared on the
+    ground.
+
+    
+
+    - Now walk to the right and youâ€™ll see a garbage bin. Jump up on it to get the  Steam
+    Battery .
+
+    
+
+    - Walk to the right again and go inside the Museum. Run to the right and youâ€™ll see a
+    big yellow machine. Click on the blue lever to raise the arm. Then jump up on the platforms
+    and make your way to the upper-right corner. Watch out for the darker platforms which will
+    crumble and fall when you step on them. Grab the  dirty beaker  out of the display case in
+    top right. Then exit the museum.
+
+    
+
+    - Go back to the Clockwork Cantina. Jump up and click on the blue lever here. A mechanical
+    ramp will extend. Run up it and then jump onto the steam chutes to fly up and over the tower.
+    You should land on top of a glass dome. Use your multi-tool to open it and then go down
+    inside.
+
+    
+
+    - Youâ€™re now inside the Mayorâ€™s office. Check out the painting and the
+    note on the typewriter, which give you an important number to remember for later:  0516 .
+    Leave the office, jump back down to the street and run to the left to enter the next zone.
+
+    
+
+
+
+Gear Alley
+
+    
+
+    - Pass by Sullyâ€™s shop and go to the blue building in the middle. This is the living
+    quarters. Jump up the platforms on the left side and then run past the door. Youâ€™ll
+    see a  robot crab  here. Jump up and land on top of him to make him bounce and flip over.
+    When he does, heâ€™ll drop  Sullyâ€™s key . Pick up both the key and the robot
+    crab.
+
+    
+
+    - Drop down to the street and go to the next building on the left. Jump up on to the steam chute
+    and leap up to the roof. Youâ€™ll find an  old vine  here. Pick it up to place it in
+    your backpack.
+
+    
+
+    - Run to the right until you get in front of Sullyâ€™s Steam Powered Paraphernalia
+    store. Thereâ€™s a Steam Terminal here. Use the steam battery in your backpack.
+    Youâ€™ll get a puzzle here where you have to regulate the steam pressure in the
+    terminal. The starting pressure is 10 and the ending pressure needs to be 5. You need to
+    adjust the valves so that the pressure will lose five points as it travels to the end.
+
+    
+
+
+
+Sullyâ€™s Shop
+
+    
+
+    - Once you get inside Sullyâ€™s youâ€™ll find a robot in the right corner.
+    Itâ€™s  Sprocket ! Ring the bell on the desk next to him to wake him up. Then go pick up
+    the  rubber mallet  from the junk box in the left corner.
+
+    
+
+    - Leave Sullyâ€™s and Sprocket will follow you. If you click on him you can ask him
+    some questions. Heâ€™s not very talkative right now but youâ€™ll hear a lot
+    more from him later.
+
+    
+
+    - Head to the right to return to Main Street. Run all the way to the right side and then
+    proceed onto the next zone, known as the Hub.
+
+    
+
+
+
+The Hub
+
+    
+
+    - When you arrive in the Hub, run along the ramp until you get to a metal hatch that is glowing
+    red-hot. If you try to click it, youâ€™ll see itâ€™s much too hot to touch. Walk
+    up to it and use the robot crab in your backpack. Sprocket the robot will take it from you and
+    then drop the poor crab on top of the hatch. The water from the robot will cool down the hatch
+    so that you can open it up.
+
+    
+
+    - Go down the hatch. When you get to the bottom of the ladder, Sprocket will look pretty
+    scared. Make your way down the pipes until you run into a plant monster living inside them.
+    Use the old vine from your backpack underneath the sign that says,  Caution: Hot Steam .
+    This will spray steam onto the plant monster and kill it. Move along to the bottom left of
+    the room and youâ€™ll find the bottom of an elevator. Click on the round hatch above.
+
+    
+
+    - Now youâ€™ll need to solve three levels of a ball tilt maze game thatâ€™s a lot
+    like the classic wooden box  Labyrinth game . Spin the wheel either clockwise or
+    counter-clockwise with your cursor to get the ball to the center. After you complete all
+    three levels, the elevator will power up.
+
+    
+
+    - Go back up out of this area to the street. Go a few steps to the right and jump up onto the
+    spring. After three jumps, you should land up next to another blue lever. Click the lever
+    and the giant Hub wheel will start to move.
+
+    
+
+    - Go back down onto the street and run to the left. Jump up and grab the vines and climb up to a
+    platform. Wait for the moving platform on the Hub wheel to come around and then jump onto
+    it. Then jump off in the upper right corner (aim for the yellow pipe). Walk to the right and
+    use the steam valve to jump up and to the left. Continue moving until you get to the elevator
+    entrance to the Captainâ€™s Cabin. Then go inside.
+
+    
+
+    - A soon as you enter, Sprocket will be captured by some plant vines. Go down and click on the
+    metal window shutters to snap the vines and free him. When you do, heâ€™ll speak to
+    you for the first time and say, â€œThank you.â€� Now you can talk to him and ask
+    him questions and hear his story.
+
+    
+
+    - Run to the right and use the moving platforms to get up to the large painting. Itâ€™s
+    a copy of the painting you saw in the mayorâ€™s office.
+
+    
+
+    - Click on the dial at the bottom of the picture. This is a combination lock. The
+    combination is the number from the mayorâ€™s office: 0516. Starting with the
+    innermost ring, click on each triangle to get the wheel to spin. Then click on it again when
+    itâ€™s pointing to the right number. The rings get faster so this can be tricky.
+
+    
+
+    - When you get the combination right, a secret door will open. Go inside and youâ€™ll
+    be in Captain Ziggsâ€™ room. Go to the left and pick up the  bridge key  (on the
+    floor) and the  Weed Whacker  (up on the wall). Then leave the room.
+
+    
+
+    - Go down and to the right and jump off the patio to return to the Hub zone. Go right until you
+    get to the Steam Terminal at the end. Use the steam battery and then solve the puzzle.
+    Itâ€™s just like the first one, but now you need to adjust the pressure from 10 to 16
+    (+6). Once youâ€™re successful, the bridge will lower and you can run across.
+
+    
+
+
+
+Production Zone
+
+    
+
+    - Take a few steps to the right and jump on the spring to get to the platform above.
+    Thereâ€™s a control panel here with three red levers and a green button. Move all the
+    levers to the down position and then press the green button. The giant wrecking ball will
+    drop and hit the ground, creating a hole.
+
+    
+
+
+
+Factory
+
+    
+
+    - Jump down and go through the hole. Make your way down and to the right and youâ€™ll
+    enter a mechanical room. First, press the three red pressure pads on each side of the
+    machine. Then youâ€™ll need to press the two remaining pads (the ones on the
+    machine) at the same time. Sprocket will offer to hold down one while you get the other.
+
+    
+
+    - The machine will turn on and the moving platforms above will start turning. Use this to
+    get up to the top of the room. Thereâ€™s a lever on the left wall. Click it to get
+    another platform to move up and down. Then jump up to the right and use the platforms and
+    vines to get to a moving conveyer belt. Here youâ€™ll need to avoid blobs that drop
+    from a plant monster.
+
+    
+
+    - Continue across the vines and soon youâ€™ll find the  Mech Steam Motor , one of two
+    parts youâ€™ll need to repair the Mech in Sullyâ€™s shop garage. Continue up
+    on the vines and go up to the Greenhouse.
+
+    
+
+
+
+Greenhouse
+
+    
+
+    - Walk to the left and youâ€™ll find an area for mixing Herbicide. Pay attention to
+    the chart on the wall. Use the dirty beaker from your backpack and then fill it with three
+    parts blue, two parts green and four parts red. When youâ€™re done, youâ€™ll
+    have some  Herbicide Mixture .
+
+    
+
+    - Go to the right and then up to the platform above. Use the herbicide on the plant monster.
+    It will shrink and disappear, revealing a maintenance closet. Go inside.
+
+    
+
+    - Thereâ€™s an old custodian robot here. Heâ€™s holding onto the  Living
+    Quarters Access Key . Take it from him and then heâ€™ll wake up and the alarm system
+    will go off. You canâ€™t leave the way you came because the security system has a
+    pressure hose that knocks you back. This is where I got stuck on this walkthrough. Special
+    thanks to  DR3  from the PoptropicaSecrets.com community who provided the next step.
+
+    
+
+    - Go back out of the maintenance closet and then climb the vines above. Go to the left and
+    youâ€™ll see that the glass dome has some tiny white cracks here. Use the rubber
+    mallet from your backpack to smash a hole in the dome and escape.
+
+    
+
+    - Now run all the way back to Gear Alley, which is on the left of Main Street.
+
+    
+
+
+
+Gear Alley Redux
+
+    
+
+    - When you arrive, go to the bottom of the living quarters building (blue) and jump on the
+    right platform of the lever on the gear. This will raise the one on the left.
+
+    
+
+    - Take a few steps to the left, then jump up the platforms to arrive at the doorway to the
+    living quarters. Use your steam battery on the terminal and then solve the steam valve
+    puzzle again. This time, you need to adjust the steam by -3 to get it from 10 to 7. The door
+    will open. Go inside.
+
+    
+
+
+
+Living Quarters
+
+    
+
+    - Go click on the blue lever on the left to make the platform rise. Use it to get up to the next
+    level and continue making your way up. Jump on the blue button on the floor to make the
+    ladder rise. Youâ€™ll need to quickly jump up the ladder because it falls back down a
+    second or two later. When you get to the top left, thereâ€™s another door leading to
+    Zackâ€™s room. Go through it.
+
+    
+
+
+
+Zackâ€™s Room
+
+    
+
+    - Go up to the top left corner and click on the wall to solve the next puzzle, which is a timed
+    game where you have to get the steam to move safely from one corner to the other. You must
+    click on the squares to reveal pipes underneath and then swap the pipes around to create a
+    clear path. There are three levels to get through.
+
+    
+
+    - Go outside and then cross over the vine that acts as a tightrope all the way to the left,
+    where youâ€™ll find the Mech Crank  which is the second piece you need to repair the
+    Mech in Sullyâ€™s Garage.
+
+    
+
+    - Jump down to the street below and then go to Sullyâ€™s Garage.
+
+    
+
+
+
+Sullyâ€™s Garage
+
+    
+
+    - Use both the Mech Crank and the Steam Motor from your backpack on the Mech. It will be
+    repaired and now you can walk around in the Mech. Is this the  coolest thing ever  in
+    Poptropica or what? Youâ€™ll also get a teleporter device that you can use to
+    instantly travel back to the Mech from anywhere you go on Steamworks.
+
+    
+
+    - Walking in the Mech, head out of the garage and over to the left. Thereâ€™s a big
+    doorway covered by vines. Attach the weed whacker from your backpack to the Mech and then
+    use the spacebar to smash all the vines. Go through the door when itâ€™s clear.
+
+    
+
+
+
+Storage Room
+
+    
+
+    - Now youâ€™re inside a storage area. Make your way through, using the space bar to
+    smash plant monsters that attack. At one point, youâ€™ll need to leave your Mech and
+    power up one of the lifts. Then get back in the Mech and ride it up to the next platform.
+
+    
+
+    - Continue through this zone, killing plant monsters as you go until you get to the final
+    plant monster in the room and get rid of him. Go through the doorway to the next zone.
+
+    
+
+
+
+Wind Zone
+
+    
+
+    - Go down the ramp to the left and youâ€™ll find a giant windmill. Walk all the way up to
+    the blades and then Sprocket will offer to help.
+
+    
+
+    - Exit the Mech and stand on the blades as they spin to ride almost to the top. Then jump onto
+    the platform above. Use your multi-tool to stop the blades. Sprocket will open the door.
+
+    
+
+    - Get back in the Mech and go through the doorway.
+
+    
+
+
+
+Hibernation Center
+
+    
+
+    - And now we finally learn the secret of what happened to all the inhabitants of Steamworks
+    Island. First, exit the Mech and go to the machine. Use the multi-tool on it and the room
+    will light up.
+
+    
+
+    - Zack will emerge from hid hibernation chamber and he and Sprocket will be re-united. How
+    sweet!
+
+    
+
+    - The mayor will also appear and tell you the story of what happened. Then youâ€™ll
+    see and hear bumps from below. Thereâ€™s still work to be done.
+
+    
+
+    - Jump up to the platforms on the right and get the  Toxic Blaster . Then get back in your
+    Mech and attach it.
+
+    
+
+    - Take the elevator down to the next zone.
+
+    
+
+
+
+Tunnel System
+
+    
+
+    - Move through the room and shoot down the attacking plants by aiming with the mouse and
+    using the spacebar to fire. Kill all the plants.
+
+    
+
+    - You want to end up on the platform just above the floor. If you miss it, youâ€™ll need
+    to stand on the bolt/screw thing and spin it to raise yourself up.
+
+    
+
+    - Thereâ€™s a moving platform here. Wait for it and then ride it across to the doorway
+    and prepare for the final battleâ€Š
+
+    
+
+
+
+Plant Hive
+
+    
+
+    - Youâ€™re now in the final boss battle. There are three boss monsters to kill and to
+    make things even tougher, acid starts to fill the room from below. If you touch the acid,
+    you lose and have to start over. You only have a short time to defeat each boss monster.
+
+    
+
+    - The basic technique for all three monsters is to get up close enough so that they try to
+    strike you with their heads. Itâ€™s kind of like the Hydra from  Mythology Island .
+    When they do, you can shoot them, causing a splat. Each monster needs to be splatted three
+    times and then it will disappear and you can move on. There are some basic moves for each
+    monster: move into position so that he starts to attack, then duck and wait for his head to
+    snap back, then shoot. For the second and third monsters, you need to avoid the seed pods
+    and bombs they hurl at you. If youâ€™re still having problems with this, read my
+    complete  Final Boss Cheats Guide for Steamworks , which has a step-by-step video.
+
+    
+
+    - After you defeat the final plant monster, youâ€™ll re-appear next to the mayor,
+    who will present you with the island medallion. Congratulations!
+
+    
+
+The official Poptropica  Steamworks promo page  is also available and it has a short teaser
+summary of the plot, which is as follows: The silence of empty streets welcomes you. Metal and
+machines fill the lonely halls, and a growing mystery lurks behind a shroud of steam. Can you
+uncover what happened to the inhabitants of this ancient island? Gear up for a steam-powered
+adventure you will never forget!
+
+Image:
+http://poptropicasecrets.com/wp-content/uploads/2010/06/poptropica-steamworks-island-promo.png
+
+Poptropica Steamworks Island Promo The Creators posted the official trailer for the island
+on August 4, 2010 and it reveals a few more details about the soon-to-be-released quest
+including the names of some of the buildings and the different machines youâ€™ll
+encounter along the way. Here are a few screenshots from the island:
+
+Image:
+http://poptropicasecrets.com/wp-content/uploads/2010/06/poptropica-steamworks-production-zone.png
+
+Exploring the Production Zone after crossing the drawbridge at the Hub.
+
+Image:
+http://poptropicasecrets.com/wp-content/uploads/2010/06/poptropica-rustyrobot.png
+
+Rusty Robot in Poptropica
+
+Image:
+http://poptropicasecrets.com/wp-content/uploads/2010/06/steamshipmultitool2.png
+
+The multi-tool for Steamworks Island
+
+Image:
+http://poptropicasecrets.com/wp-content/uploads/2010/06/poptropicamultiTool.png
+
+The Multi Tool is a collection of Gizmos that you'll use on the new island.
+
+Image:
+http://poptropicasecrets.com/wp-content/uploads/2010/06/poptropica-snuggles.png
+
+There's a plant monster on the new island.
+
+
+
+Image:
+http://poptropicasecrets.com/wp-content/uploads/2010/06/poptropica-steamworks-greenhouse.png
+
+Inside the Greenhouse in Poptropica Steamworks Island. Hey, Hazmat was here!
+
+
+
+Thank you!But no offense,I did not finish the island...
+
+posted by Adriel Marie @ 8:42 AM   0 Comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Poptropica Lunar colony guide
+
+
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/-x8I5qUONv7M/UCUu9Mf2MUI/AAAAAAAABqY/sAk8lDtreK8/s320/lunarColony-logo.png
+ guide          Walkthroughs Steam works guide
+
+All  NEW !         ->   Lunar colony 
+
+Wimpy board walk
+
+Counterfeit island
+
+Superpower island
+
+Sharktooth island       
+
+Early poptropica island
+
+Astro knight island       Special walkthroughs  
+
+Coming VERY SOON!                                
+
+Red words mean Quest item.
+
+ For more Walkthroughs: http://adrielmarie.blogspot.com/2012/07/dont-read.html
+
+
+
+Anyway,I was late  making this island becuase was still new -_-
+
+But anyway,This is gonna be my best one....I guess....
+
+
+
+
+
+Image:
+http://www.poptropicans.com/wp-content/uploads/Lunar-Colony-Poptropica-468x257.jpg
+Blast off !!!
+
+If you haven't go to lunar colony,Go to your blimp and then go to lunar colony.(When you are a
+member!) Then,you will land on Lunar colony frontier gift shop which is a gift shop.Go down
+then go to the left until you see a banner that says, "Meet an astronuat.Then,Talk to him.Then
+take a look on his stuffs and pictures. He won't give you his Ginger Ale .Then go to the left and go
+to the mission control.Then go to the poptropica Academy of Exploration.Seariously,Is that
+what they called,"Security system"...A dog?Talk to the woman inside the Poptropica academy
+of Exploration that is the mission control and the rocket.The woman said that they have ran out
+of money for the uh...Machine??? Then,The instructer will come in.In the screen, Shows the
+astronuat.He dosen't look good...Go back to the stage with the banner "Meet the
+astronuat".Then,You will see he left his Ginger Ale . He said that will keep the astronuat's
+tummy fine.Then,Take the Ginger Ale . Go back to the mission control and go to the rocket next to
+the Academy.Then enter the rocket and then use the Ginger Ale  so he will feel better.He will
+trick you into Forgetting his wallet on his car.You will replace him as a astronuat!( Ginger
+Ale  is still needed for the quest).Then,Follow the instrutor's Instruction in order to
+blast off.4,150 each rocket.112 Degrees and Release Tank one if 5 %  fuel.Then switch it to #2
+tank fuel.On the top of Tank 1 and 2.Then click the button #1 and  click the switch on the buttom
+of #1 tank.Then use tank #2.If it rans out like 20% or 0%,Release it.(By the way,I skip the part
+how to get up to the rocket entrance.Use the elevator).Just for fun,Click the Morale
+boost.Then,After you did ,You gonna have to Watch out for the meteors and repair your space
+ship.
+
+
+
+
+
+Image:
+http://poptropicaguides.com/wp-content/uploads/2012/08/rocketRepair-300x225.jpg
+
+This is a picture somebody Repairing the damaged space ship with the toolkit on the top left on
+the ship side that says,"Tool kit" That is where you have to locate for the tool kit.Then hold
+your mouse or click to fill the damaged Spots.Then,Auto pilot and Drop of the machine to the
+moon And make sure it landed on its feet with the blue fire on his bottom.Then you will
+suceed.Then,Go to the entrance then click the door knob then the air lock will detect you and
+will open the door.There will be 2 doors.Go to the barracks.Then go to flooor 3 Left # 8 bed on the
+top bed,then get the book.Then go to floor 2 right and try the  spinning wheel.Don't use the
+spinning wheel  when you are dizzy.You have to refresh and go back to the beggining where you
+have to give the astronuat the Ginger Ale .Then try the excersise where you can walk and
+run.Dont double click the red button or it will be hard to run!!!Click tripple to stop.Click
+once to walk.Exit the barracks and go to the next door.The Vechile bay.Then go to the left.Then
+if you flip the switch.You will see it is still closed.It is jamed.The instructor will give you
+tips.Go to the top right then click the switch.Which is on the wall.Then it will show
+light.Then,It will lead light to another way.Just pass the machine to the same machine on the
+bottom right.Make sure it goes thorugh the rover.Then it will charge the rover's energy.Then
+if you charged it,Go to the lockers on the top right.Then click the opened locker to get the
+manual.Then go back to the barracks.Then go to the last floor on the left.Then choose the
+monitor .The opened monitor.But first,Go to the manual and remember the restart
+pattern.Or,Write in a paper.Then,It will put a warning.Turn the switch up to the maximum in
+the side of the computer.Then it will open.Then go back to the bay and enter the rover.OFF WE
+GO!!!Then click the map on the top right bottom.Then if you found the Research facility
+infirmary at the top.Go there.When you get there,You saw that the meteor blocking the
+entrance.Use the hook on the bottom end on the right.Click it.Then click on the robot on the
+left side of the meteor. The hook will pull  the meteor aside to go to the entrance!Go to the top
+and go to the right next to the pressure chamber.Then change your eyes into purple Eye color
+changing station.(You are gonna need it).It looks bad,I know.Go back to the pressure chamber
+next to the eye changer on the top right.First enter it and put it on high mode.You will be
+thin!Then go to the bottom then go on top of the blocks becuase you are thin enough to go through.
+(You will change back.Dont worry!Maybe minutes or if you enter the door).Enter the
+door.Then,If you go in,Go to the left.Use the Medi-Hose.It will last long.But,WILL
+last.Then go move alittle left.Then bounce up.Bounce to the left.Bounce up.Bounce
+up.(Bounce to the left and bounce up if you cant reach it).Go to the left and fall out,And bounce
+to the left,And go down,Then finally,Go to the right and you will heard a beeping sound.Put the
+Medi-Hose on the bent next to it.Then,The tracking device will come out.Go to the bio-waste
+for short cut.And go back to your rover.Click the map on the top right and,You will see your
+target.Go there.When you enter,There will be no Gravity.go to the left.and when you go
+up,There is  water Spraying,Go back down  and click the Emergency Cork
+Dispenser.Then,Click the Cork and put it on the target that is spraying water.Try putting all
+of them.Then go up and,Click on Salerno.She got away!Go back to the rover.Dont even think
+about losing her again!then your rover will try to follow her.Then,You will see a eye scan and
+key card.Key card required?I forgot that.Go back to the barrack.Go  to Bed number 8.beside
+it,Is a broken machine.Click on it to get the card.Go to the top.Then,Try to
+Remember..."Scan" Sequence.Then,The Computer will scan you.Go to the Emails.You can read
+the emails.It is sad they are Sending Salerno home becuase her behavior is not
+Acceptable.Well anyway,Go back to your rover.Then,look around and see if you can find a green
+rock.Click the green rock when you see it.Exmaine it.Then,When you exmaine it,Click on it
+again.Then go to the lft until you see...A Pink rock.And go to the very top On the right
+way.Until you see a yellow rock.Which is behind the building.Then exmaine around the
+rock.Oh!Now i know the card is...Go back to the Place where salerno gotten away,Then,On the
+side,Will be a card,Click on it and go back to eye scanner and key scan.Then scan
+yourself.Then,It will let you in!Finally!!!!Click the switch up so the elevator will go
+up.Go in the elevator.Nothing there,Switch it back.Then switch it down.Then switch
+down.Find a door.then go in.Go to the top.The very top and take off a cover and you found a
+machine.It is kind of heavy and you dont wanna break it.Go jump on the other platform then take
+of the cover.click the sticks and it will fall down.Bring the machine down to your
+hover.Then,Look at the machine on the bottom right.Make it blink.Means something
+unusual.Then,if you find the unusual thing,click to Exmaine.Go to the left.You will see a
+rock that is burried deeply to the ground.Go to your hover.Then click on a hook.Attach it to the
+rock and it will pull it up.Then you will see a rock that is large.It might be weird....Go back to
+your hover.Follow the line until u see a cross.then click on it to exmaine.Then,go to the cross
+part,And salerno will come out.She will dig unless she wont go back home.She will dig.Go to the
+right until salerno will think it is not safe.Then go to the right and you will find
+something.Salerno will say something.open the switch on the right.Then,tere will be a
+PORTAL!Then,Salerno is gonna jump in.She is...Gone.You will get home.They will find a
+Transmission.We found Salerno!YAY!Find out the Bonus part :)
+
+
+
+
+
+
+
+http://adrielmarie.blogspot.com/2012/07/dont-read.html The Main Menu Video!
+
+
+
+The Insider network,The most usual um,guide i guess,Maybe not,I've heard of it,but i did
+lunar colony myself,But my sister help me with some.Take a look!!!!!!
+
+
+
+
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/-Q4GCT334bCs/UD_dLptyJmI/AAAAAAAAAE0/Y84LHHId1Qc/s320/nted.png
+
+___________________________________________________________ Website Questions &
+Others
+
+Normal FAQ    During Guide Maintenence Secret website Back up Guide maintence Secret
+website ___________________________________________________________ Secure &
+Safetys 
+
+Safety FAQ  
+
+
+
+___________________________________________________________ Guides &Walkthroughs
+
+Steam works guide          All  NEW !         ->   Lunar colony           Wimpy board
+walk       Counterfeit island      Sharkto oth island
+
+
+
+Early poptropica island   
+______________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+posted by Adriel Marie @ 7:23 AM   0 Comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+adriel'newwwwwwwwwwws!
+
+
+
+newwwwwwwwwwwwwws!i love making painting read to know! i love making news flash!
+
+About Me
+
+    
+
+        Name: Adriel Marie
+
+    
+
+        Location: ???, florida, United States
+
+    
+
+
+
+I write poptropicas guides.Which is free.As a small child,i am now!
+
+View my complete profile
+
+Previous Posts
+
+    
+
+    - Not available
+
+    
+
+    - Help retreive your account back!!!
+
+    
+
+    - Guides
+
+    
+
+    - Meet us
+
+    
+
+    - About us
+
+    
+
+    - Super villain island
+
+    
+
+    - Run!Little run!
+
+    
+
+    - Swim!Swim!
+
+    
+
+    - Healthy
+
+    
+
+    - CCCCCCCCCCCCCCCCCCCCCCCCU!
+
+    
+
+
+
+Archives
+
+    
+
+    - June 2012
+
+    
+
+    - July 2012
+
+    
+
+    - August 2012
+
+    
+
+    - September 2012
+
+    
+
+    - October 2012
+
+    
+
+
+
+
+
+Image: http://buttons.blogger.com/bloggerbutton1.gif
+
+Subscribe to
+
+Posts [ Atom ]
+
+
+
+
+
+  BLOG_initCsi('classic_blogspot');
+

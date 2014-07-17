@@ -1,0 +1,3173 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Latest Gallery Photo <!-- /* -----------------------------------------------
+Blogger Template Style Name: Minibox Designer: James William URL: www.2600degrees.com
+Date: 26 May 2008 Based on: Minima By: Douglas Bowman Of: www.stopdesign.com
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#135"> <Variable name="textcolor" description="Text Color"
+type="color" default="#ccc"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#9bd"> <Variable name="pagetitlecolor" description="Title
+Color" type="color" default="#eee"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#79b"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#fc6">
+<Variable name="bordercolor" description="Border Color" type="color" default="#468">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#579"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#ccc"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#a7a"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif"> <Variable name="headerfont"
+description="Sidebar Title Font" type="font" default="normal bold 78% 'Trebuchet
+MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable name="pagetitlefont"
+description="Blog Title Font" type="font" default="normal bold 200% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif"> <Variable name="descriptionfont"
+description="Blog Description Font" type="font" default="normal normal 78% 'Trebuchet
+MS', Trebuchet, Verdana, Sans-serif"> <Variable name="postfooterfont"
+description="Post Footer Font" type="font" default="normal normal 78% 'Trebuchet MS',
+Trebuchet, Verdana, Sans-serif"> */ body { background:#000000; margin:0; color:#ffffff;
+font: x-small normal normal 100% Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+font-size/* */:/**/small; font-size: /**/small; text-align: center; } a:link {
+color:#ffffff; text-decoration:none; } a:visited { color:#ffffff;
+text-decoration:none; } a:hover { color:#ffffff; text-decoration:underline; } a img {
+border-width:0; } /* Header ----------------------------------------------- */
+#header-wrapper { width:958px; margin:0 auto 10px; border:1px solid #00ff00; }
+#header-inner { background-position: center; margin-left: auto; margin-right: auto; }
+#header { margin: 5px; border: 1px solid #00ff00; text-align: center; color:#ffffff; }
+#header h1 { margin:5px 5px 0; padding:15px 20px .25em; line-height:1.2em;
+text-transform:uppercase; letter-spacing:.2em; font: normal bold 30px Georgia, Utopia,
+'Palatino Linotype', Palatino, serif; } #header a { color:#ffffff; text-decoration:none;
+} #header a:hover { color:#ffffff; } #header .description { margin:0 5px 5px; padding:0 20px
+15px; max-width:900px; text-transform:uppercase; letter-spacing:.2em; line-height:
+1.4em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Verdana, Sans-serif; color:
+#ffffff; } #header img { margin-left: auto; margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 960px;
+margin: 0 auto; padding: 10px 0px; text-align: left; font: normal normal 100% Georgia,
+Utopia, 'Palatino Linotype', Palatino, serif; } #main-wrapper { width: 514px; margin: 0
+10px 0; } #left-sidebar-wrapper, #right-sidebar-wrapper { width: 180px; } #main-wrapper,
+#left-sidebar-wrapper, #right-sidebar-wrapper { border: 1px solid #00ff00; word-wrap:
+break-word; /* fix for long text breaking sidebar float in IE */ overflow: hidden; /* fix for
+long non-text content breaking IE sidebar float */ } #left-sidebar-wrapper, #main-wrapper
+{ float: left; } #right-sidebar-wrapper { float: right; } .crosscol { text-align: center;
+margin: 10px; } /* Headings ----------------------------------------------- */ h2 {
+margin:1.5em 0 .75em; font:normal bold 78% Georgia, Utopia, 'Palatino Linotype',
+Palatino, serif; line-height: 1.4em; text-transform:uppercase; letter-spacing:.2em;
+color:#ffffff; } /* Posts ----------------------------------------------- */
+h2.date-header { margin:1.5em 0 .5em; } .post-wrapper { padding: 5px 10px; } .post {
+margin:.5em 0 1.5em; border-bottom:1px dotted #00ff00; padding-bottom:1.5em;
+text-align:center; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#ffffff; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#ffffff;
+font-weight:bold; } .post h3 strong, .post h3 a:hover { color:#ffffff; } .post p { margin:0 0
+.75em; line-height:1.6em; } .post-footer { margin: .75em 0; color:#ffffff;
+text-transform:uppercase; letter-spacing:.1em; font: normal normal 78% Georgia,
+Utopia, 'Palatino Linotype', Palatino, serif; line-height: 1.4em; } .comment-link {
+margin-left:.6em; } .post img { padding:4px; border:1px solid #00ff00; } .post blockquote {
+margin:1em 20px; } .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #ffffff; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+.feed-links { clear: both; line-height: 2.5em; } #blog-pager-newer-link { float: left; }
+#blog-pager-older-link { float: right; } #blog-pager { text-align: center; } /* Sidebar
+Content ----------------------------------------------- */ .left-sidebar-wrapper,
+.right-sidebar-wrapper { color: #ffffff; line-height: 1.5em; } .sidebar { padding: 5px
+10px; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; } .sidebar li { margin:0;
+padding:0 0 .25em 15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #00ff00; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin: 0 5px 5px 0; padding: 4px; border: 1px solid #00ff00; } .profile-data { margin:0;
+text-transform:uppercase; letter-spacing:.1em; font: normal normal 78% Georgia,
+Utopia, 'Palatino Linotype', Palatino, serif; color: #ffffff; font-weight: bold;
+line-height: 1.6em; } .profile-datablock { margin:.5em 0 .5em; } .profile-textblock {
+margin: 0.5em 0; line-height: 1.6em; } .profile-link { font: normal normal 78% Georgia,
+Utopia, 'Palatino Linotype', Palatino, serif; text-transform: uppercase;
+letter-spacing: .1em; } /* Footer ----------------------------------------------- */
+#footer { width: 958px; clear:both; margin: 0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } .fineprint {
+font-size: 80%; } /** Page structure tweaks for layout editor wireframe */ body#layout
+#header { margin-left: 0px; margin-right: 0px; } --> var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21873637-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})(); var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0756139797846216555849\46blogName\75Latest+Gallery+Photo\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://latestgalleryphoto.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://latestgalleryphoto.blogspot.com/\46targetPostID\0755168463170748222111\46blogPostOrPageUrl\75http://latestgalleryphoto.blogspot.com/2010/09/092310-ring-cycle.html\46vt\75-6684426562456866798',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to left sidebar skip to right sidebar
+
+Latest Gallery Photo
+
+
+
+celebrity pictures |photos | gallery | hollywood celebrity pictures | picture gallery |
+latest celebrity photos | celebrity Magazine if (!window.google ||
+!google.friendconnect) { document.write('<script type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.currentPost =
+"http://www.blogger.com/feeds/6139797846216555849/posts/default/5168463170748222111";
+holder.currentComments =
+"http://www.blogger.com/feeds/6139797846216555849/5168463170748222111/comments/default";
+holder.currentPostUrl = ""; holder.currentPostId = 5168463170748222111
+holder.postFeed =
+"http://www.blogger.com/feeds/6139797846216555849/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/6139797846216555849/comments/default";
+holder.currentBlogUrl = "http://latestgalleryphoto.blogspot.com/";
+holder.currentBlogId = "6139797846216555849"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "200"; skin['TITLE'] = "";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#ffffff"; skin['ENDCAP_LINK_COLOR'] = "#ffffff";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#ffffff"; skin['CONTENT_TEXT_COLOR'] =
+"#ffffff"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#ffffff";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#ffffff"; skin['CONTENT_HEADLINE_COLOR'] =
+"#ffffff"; skin['FONT_FACE'] = "normal normal 100% Georgia, Utopia, \x27Palatino
+Linotype\x27, Palatino, serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderOpenSocialGadget"]( {id:
+"div-1f72s20ttfm77", height: 200, url:
+"http://bloggerplugins.org/scripts/recent_posts_with_thumbnails_and_more_from_www.bloggerplugins.org.xml",
+"view-params":
+{"f":false,"g":"3","d":false,"e":"150","b":"60","c":"2","a":"10","n":"yellow","l":false,"m":"green","k":"7","h":false,"i":false,"p":false},
+"prefs":
+{"f":"0","g":"3","d":"0","e":"150","b":"60","c":"2","a":"10","n":"yellow","o":"","l":"0","m":"green","j":"","k":"7","h":"0","i":"0","q":"","p":"0"},
+site: "07181844598561547464", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2011
+
+        - ►  October
+
+        
+
+        
+
+        - ►  May
+
+        
+
+        
+
+        - ►  April
+
+        
+
+        
+
+        - ►  March
+
+        
+
+        
+
+        - ►  February
+
+        
+
+        
+
+        - ►  January
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2010
+
+        - ►  December
+
+        
+
+        
+
+        - ►  November
+
+        
+
+        
+
+        - ►  October
+
+        
+
+        
+
+            - ▼  September
+
+            - samvritha sunil hot photos
+
+            
+
+            - 10.01.10 — Thrilla in Manila
+
+            
+
+            - Kelly Brook has the best bikini body
+
+            
+
+            - SsangYong Korando platform to underpin two new mod...
+
+            
+
+            - The Goldfish Bowl
+
+            
+
+            - On the Street...15th St., NYC
+
+            
+
+            - At Rochas
+
+            
+
+            - Fall's Top Trends #2 - The Cape Coat
+
+            
+
+            - At Dries Van Noten
+
+            
+
+            - bhama hot photos
+
+            
+
+            - bhama hot videos
+
+            
+
+            - shriya saran
+
+            
+
+            - shriya saran hot pictures
+
+            
+
+            - 09.30.10 — "Uh-uh!"
+
+            
+
+            - Maky Soler (Galeria 1)
+
+            
+
+            - Denise Milani photos
+
+            
+
+            - On the Street...After Ralph Lauren, New York
+
+            
+
+            - At Dries Van Noten
+
+            
+
+            - Fiat 500 to retain its shape for next refresh
+
+            
+
+            - Dream Cat
+
+            
+
+            - On the Street...Little Manu, Milan
+
+            
+
+            - meera nandan sexy
+
+            
+
+            - mallu hot aunty
+
+            
+
+            - remya nambeesan hot
+
+            
+
+            - The Sartorialist Turns 5 Years Old!
+
+            
+
+            - On the Bus...OVS ads, Milan
+
+            
+
+            - 09.29.10 — Now Showing
+
+            
+
+            - Beyonce Sexiest Bikini Moments
+
+            
+
+            - Selita Ebanks sizzles in Macy’s Lingerie
+
+            
+
+            - On the Street...Little Moments, Milan
+
+            
+
+            - 2011 Chevrolet Volt could receive 25% electric ran...
+
+            
+
+            - On the Street...The House Painter, Savannah, Georg...
+
+            
+
+            - Jennifer Walcott
+
+            
+
+            - Primary
+
+            
+
+            - At Fendi
+
+            
+
+            - The Great And Strong Cars Of Suzuki Equator Quay C...
+
+            
+
+            - The Sporty Cars Of Suzuki Equator RMZ-4 Concept
+
+            
+
+            - Trendy And Elegant Cars Of Suzuki Kizashi 3 Concep...
+
+            
+
+            - Super Cars Of Suzuki SXForce Concept
+
+            
+
+            - The Cute And Luxury Cars Of Suzuki Splash
+
+            
+
+            - Augustine update
+
+            
+
+            - Augustine's update
+
+            
+
+            - Beatboxing flute — Video
+
+            
+
+            - The Girl who Cries Blood
+
+            
+
+            - Shruti Hassan at Lakme Fashion Week
+
+            
+
+            - Who's there on the Bridge
+
+            
+
+            - Top 10 Cities in China with the Most Beautiful Wom...
+
+            
+
+            - Cow fights off Bear
+
+            
+
+            - Pocket Scooters
+
+            
+
+            - Everything Is Looking Better With An Oversized Whi...
+
+            
+
+            - At Dolce & Gabbana
+
+            
+
+            - Sexy Bollywood babes cover their assets
+
+            
+
+            - 09.28.10 — NO PAR
+
+            
+
+            - Leighton Meester
+
+            
+
+            - A Vintage Vibe......
+
+            
+
+            - Ke$ha Talks Britney Spears, Justin Bieber
+
+            
+
+            - Bar Refaeli Sizzles As 2009’s Sports Illustrated S...
+
+            
+
+            - Mulberry Dog / Margiela Cat
+
+            
+
+            - On the Street...Matt, Atlanta
+
+            
+
+            - Denise Milani's Hot & Sexy
+
+            
+
+            - Wardrobe malfunctions of Celebrities Part-1
+
+            
+
+            - On the Street...via Alserio, Milan
+
+            
+
+            - kavya madhavan hot pictures
+
+            
+
+            - 09.27.10 — Baseball
+
+            
+
+            - Bar Refaeli: Covergirl Cutie
+
+            
+
+            - Brooklyn Decker The 2010 Sports Illustrated Swims
+
+            
+
+            - A beauty called Lara Dutta
+
+            
+
+            - Denise Milani - Sexy Photoshoot
+
+            
+
+            - On the Street...Anna & Viv, Milan
+
+            
+
+            - Modern Body Painting
+
+            
+
+            - Renault plans affordable rear-wheel-drive sports c...
+
+            
+
+            - Photo Gallery: 2011 Mercedes Viano/Vito facelift
+
+            
+
+            - MKA Shopping @ Alexander McQueen
+
+            
+
+            - The Angel Fall — Video
+
+            
+
+            - What Is This ?
+
+            
+
+            - There is Hope for the Rest of Us
+
+            
+
+            - Shreya Saran at South Scope Cine Awards
+
+            
+
+            - New Way to Demolish a Pipe House
+
+            
+
+            - Book Desk — The Perfect Piece of Library Furniture...
+
+            
+
+            - At Jil Sander
+
+            
+
+            - 09.26.10 — Amsterdam — the Acrostic
+
+            
+
+            - 09.26.10 — Dislocation
+
+            
+
+            - Miranda Kerr: Swim Sexy
+
+            
+
+            - Best photos of the most famous blonde ever, Marily...
+
+            
+
+            - Bollywood Stars on shoes !
+
+            
+
+            - Elegant Cars Of Suzuki Alto
+
+            
+
+            - The Big Family Cars: Suzuki Grand Vitara 3-door
+
+            
+
+            - Suzuki SX4 Car Review
+
+            
+
+            - Scarlett Johansson Isn’t Going Nude
+
+            
+
+            - Bipasha Basu Vogue Photoshoot
+
+            
+
+            - Mini rejects the idea of British design studio (UK...
+
+            
+
+            - The Role Model - Angela Ahrendts
+
+            
+
+            - 2011 Nissan Micra platform to underpin sedan and s...
+
+            
+
+            - Audi could sell 10,000 more cars (UK)
+
+            
+
+            - Summer Snow Art Exhibit
+
+            
+
+            - Summer Snow Art Exhibit
+
+            
+
+            - News in brief
+
+            
+
+            - At Michael Kors
+
+            
+
+            - 09.25.10 — Playing Out September
+
+            
+
+            - June's Update at GimmeLove 2 Dunlop Street
+
+            
+
+            - Paola NuÃ±ez (Galeria 2)
+
+            
+
+            - Cindy Crawford: Harper's Bazaar Russia Babe
+
+            
+
+            - Subaru to launch Impreza WRX STI saloon in Britain...
+
+            
+
+            - On the Street...Via Fogazzaro, Milan
+
+            
+
+            - Is Everyone Going Bananas?
+
+            
+
+            - On the Street...Via Senato, Milan
+
+            
+
+            - 09.24.10 — Peach
+
+            
+
+            - At Prada, Milano
+
+            
+
+            - Vanilla Haus Maus
+
+            
+
+            - Chrysler suspends several employees for disobedien...
+
+            
+
+            - Cadillac recalls 2009 - '10 CTS AWD and CTS-V (U.S...
+
+            
+
+            - On the Street...Milan V., Milano
+
+            
+
+            - Dedicated to Lionel!
+
+            
+
+            - Shawn's updates from Gimmelove1 @ 40b Sago Street
+
+            
+
+            - Welcome to Milano!
+
+            
+
+            - your moment is waiting Kerala Tourism campaign fi...
+
+            
+
+            - Pamela Anderson: Heading to Dancing With the Stars...
+
+            
+
+            - bhavana hot photos
+
+            
+
+            - At Gucci
+
+            
+
+            - 09.23.10 — RING CYCLE
+
+            
+
+            - Giorgia Palmas (Galeria 2)
+
+            
+
+            - Doutzen Kroes: Numero Tokyo Temptress
+
+            
+
+            - Jennifer Lopez Named Style Icon of the Decade
+
+            
+
+            - And The Winner Is.........
+
+            
+
+            - Uma Thurman's Breasts Are Saggy
+
+            
+
+            - Cameron Diaz forgets her bra
+
+            
+
+            - RIHANNA 'OBSESSED' WITH HER LEGS
+
+            
+
+            - Springtime Randoms
+
+            
+
+            - On the Street...Wide Leg Jeans Shorts, London
+
+            
+
+            - At Jonathan Saunders, London
+
+            
+
+            - bhavana navel hot video
+
+            
+
+            - 2-Piece Halter Chemise and G-String Set
+
+            
+
+            - On the Street...West End, London
+
+            
+
+            - Heidi Montag Makes Fun of Her Surgeries
+
+            
+
+            - malayalam actress akhila hot
+
+            
+
+            - muktha hot photos
+
+            
+
+            - ananya hot
+
+            
+
+            - bhavana hot videos
+
+            
+
+            - 09.22.10 — E-I-E-I-O
+
+            
+
+            - Shocking & Controversial Pictures from bollywood
+
+            
+
+            - Collien Fernandes: FHM Germany Fabulous
+
+            
+
+            - Peugeot 206 production terminated (EU)
+
+            
+
+            - Giulia Siegel German Maxim Magazine
+
+            
+
+            - Anna Kournikova: Maxim Amazing
+
+            
+
+            - Megan Fox - July GQ Magazine
+
+            
+
+            - Jessica Biel looks totally hot at the beach in thi...
+
+            
+
+            - Land Rover Defender sales become sluggish
+
+            
+
+            - Scarlett Johansson - Parade Magazine Photoshoot
+
+            
+
+            - Natasha Henstridge showed up to the Hollywood Hero...
+
+            
+
+            - Roselyn Sanchez Maxim Magazine Pictures
+
+            
+
+            - Diesel engines unlikely to power Bentleys
+
+            
+
+            - Halle Berry takes off some of her clothes after a ...
+
+            
+
+            - Danii Minogue - Very Sexy Photo Shoot (X5 HQ)
+
+            
+
+            - PSA Peugeot, Citroen & Mitsubishi mid-sized SUV pr...
+
+            
+
+            - On the Street...Euclid Avenue, Atlanta
+
+            
+
+            - At Paul Smith, London
+
+            
+
+            - Erdem SS11
+
+            
+
+            - Dogs Feeding — Video
+
+            
+
+            - Top 10 Places To Visit In Ukraine
+
+            
+
+            - South side — Sakshi
+
+            
+
+            - Leather Pictures
+
+            
+
+            - SaiL Amsterdam — Parade of ships
+
+            
+
+            - 09.21.10 — Strokes
+
+            
+
+            - More Transitional Dressing, London
+
+            
+
+            - genelia hot in malayalam movie urumi
+
+            
+
+            - malayalam movie ANWAR songs videos
+
+            
+
+            - shriya saran hot
+
+            
+
+            - Hope Dworaczyk Named 2010 Playboy Playmate of the ...
+
+            
+
+            - Ciara: Maxim Swimsuit Sexiness
+
+            
+
+            - On the Street...Black & Red, London
+
+            
+
+            - Last Word on NYFW
+
+            
+
+            - Fashion Week Spring 2011 Wrap Up
+
+            
+
+            - Fashion Week Spring 2011 Wrap Up
+
+            
+
+            - monica hot photos
+
+            
+
+            - Jinxedaposed Shows Collection in New York
+
+            
+
+            - On the Street...The Young Square Dancer, Atlanta
+
+            
+
+            - 09.20.10 — Apostrophe Ess
+
+            
+
+            - endhiran booking
+
+            
+
+            - enthiran new trailer
+
+            
+
+            - meera nandan kissing
+
+            
+
+            - meera nandan hot video
+
+            
+
+            - Patricia Navidad (Galeria 3)
+
+            
+
+            - mallu actress hot photos
+
+            
+
+            - Tory Burch Spring 2011 Collection
+
+            
+
+            - Tory Burch Spring 2011 Collection
+
+            
+
+            - Lady GaGa: CKM Sexy
+
+            
+
+            - Accessories After The Fact
+
+            
+
+            - Watermelon Back to the Face — Video
+
+            
+
+            - Mobile Cinema
+
+            
+
+            - Shanghai — Then and Now
+
+            
+
+            - Katy Perry in Santa Barbara
+
+            
+
+            - Guess who's This ?
+
+            
+
+            - Indian Baby Plays with Snakes
+
+            
+
+            - The trolly and Bridge
+
+            
+
+            - 13 Year Old Boy Makes Friends with Killer Buffaloe...
+
+            
+
+            - endhiran trailer
+
+            
+
+            - 09.19.10 — Musical Play
+
+            
+
+            - 09.19.10 — Stylish in the Past — Cryptic Crossword...
+
+            
+
+            - KIA Sportage full-line-up pricing announced (UK)
+
+            
+
+            - Audrina Patridge Goes Topless for Ralph Magazine
+
+            
+
+            - Kia replaces Cee'd Strike special edition with VR-...
+
+            
+
+            - Smart Fortwo pricing announced (UK)
+
+            
+
+            - Gabriela Spanic (H Extremo)
+
+            
+
+            - Modern Friendship Bracelets
+
+            
+
+            - 09.18.10 — Building Support...
+
+            
+
+            - Hey guys, it's been quite awhile since i updated s...
+
+            
+
+            - International Talk Like a Pirate Day
+
+            
+
+            - Kate Moss: French Vogue Fabulous
+
+            
+
+            - On the Street...West 36th St., New York
+
+            
+
+            - Freida Pinto: GQ Gorgeous
+
+            
+
+            - Amanda Harrington (Galeria 2)
+
+            
+
+            - New ribbed lace thigh highs, just in time for the ...
+
+            
+
+            - Time to Transition, Light Jackets and Long Legs
+
+            
+
+            - nayanthara prabhu deva marriage
+
+            
+
+            - 09.17.10 — BLOOD MOON, Etc.
+
+            
+
+            - malayalam film "Best Actor" actress shruthi hot
+
+            
+
+            - Olivia Wilde Goes Topless For GQ Russia
+
+            
+
+            - Honda to recall Accord Crosstour due to defective ...
+
+            
+
+            - Malin Akerman's Sexy Details Spread
+
+            
+
+            - Copycats
+
+            
+
+            - Suzuki SX4 SZ-L special edition launched (UK)
+
+            
+
+            - Anna Sizing Up The Competition, New York
+
+            
+
+            - White on White - Interior Design Inspiration
+
+            
+
+            - On the Street....70's Denim, New York
+
+            
+
+            - 09.16.10 — BERLIN WALL
+
+            
+
+            - Altair Jarabo (Galeria 5)
+
+            
+
+            - On the Street....The Bicycle Thief, New York
+
+            
+
+            - Kelly Brook Inks $500,000 Playboy Stripdown Deal
+
+            
+
+            - BMW to increase testing on British roads (UK)
+
+            
+
+            - Daria for Elle Canada
+
+            
+
+            - On the Street....The Boys Department, New York
+
+            
+
+            - Beautiful Leighton Meester
+
+            
+
+            - Truck Crossing The Road — Video
+
+            
+
+            - World’s Top 10 Fastest Roller Coasters
+
+            
+
+            - Original Beard and Mustache
+
+            
+
+            - Keira Knightley on Bike
+
+            
+
+            - 09.15.10 — B, Quiet...
+
+            
+
+            - nayanthara hot video interview
+
+            
+
+            - sheela hot videos in maska
+
+            
+
+            - sheela hot
+
+            
+
+            - sheela hot videos in adurs
+
+            
+
+            - Heidi Klum: German GQ Hottie
+
+            
+
+            - Kanye West, New York
+
+            
+
+            - ALK for RUSSH
+
+            
+
+            - On the Street....Broadway, New York
+
+            
+
+            - The Sartorialist in Atlanta, Georgia
+
+            
+
+            - On the Street....West 63rd St., New York
+
+            
+
+            - 09.14.10 — BREAKABLES
+
+            
+
+            - Best of New York - Marc Jacobs Spring 2011
+
+            
+
+            - renjini haridas hot in a dubai party
+
+            
+
+            - gopika hot videos
+
+            
+
+            - Nothing But Blue Skys
+
+            
+
+            - Eva Mendes: No Problem With Nudity
+
+            
+
+            - Beetlejuice
+
+            
+
+            - On the Street....Lauren Santo Domingo, New York
+
+            
+
+            - Ford C-Max & Grand C-Max pricing announced (UK)
+
+            
+
+            - Cars sales down across Europe (EU)
+
+            
+
+            - Guess Who ?
+
+            
+
+            - Ashley Greene in Paris
+
+            
+
+            - Grass Roofs in Norway
+
+            
+
+            - Iguazu Falls — South America's Mightiest Waterfall...
+
+            
+
+            - Smallest functional steam locomotive enlivens the ...
+
+            
+
+            - Multi - Million Luxury House — Famous People in th...
+
+            
+
+            - Typewriter Drawings
+
+            
+
+            - On the Street....Modern Young Lady, New York
+
+            
+
+            - At Preen
+
+            
+
+            - Larissa Riquelme (Galeria 5)
+
+            
+
+            - ANWAR malayalam songs videos
+
+            
+
+            - anwar malayalam songs video
+
+            
+
+            - 09.13.10 — BROWN
+
+            
+
+            - Taylor Lautner: GQ Stud
+
+            
+
+            - Candice Swanepoel: Selling Swimsuits Made Simple
+
+            
+
+            - Nicole Scherzinger: Maxim Bikini Babe
+
+            
+
+            - Katy Perry Goes Topless For Esquire
+
+            
+
+            - Olivia Collins (Playboy)
+
+            
+
+            - Still Some Summer Left, New York
+
+            
+
+            - Toy Story
+
+            
+
+            - 09.12.10 — What Fresh Hell Is This? — the Acrostic...
+
+            
+
+            - Welcome to Fashion Week!, New York
+
+            
+
+            - Bollywood Best Hot Wet Show
+
+            
+
+            - 09.12.10 — It's Going to Cost You!
+
+            
+
+            - Opening Ceremony and Pendelton
+
+            
+
+            - Opening Ceremony and Pendelton
+
+            
+
+            - News in brief
+
+            
+
+            - Daihatsu to recall 581,000 K-cars (JP)
+
+            
+
+            - On the Street....Gansevoort Street, New York
+
+            
+
+            - 09.11.10 — HUNH?
+
+            
+
+            - Jimena Navarrete (Galeria 2)
+
+            
+
+            - On the Street....All About The Hair, New York
+
+            
+
+            - On the Street....Chelsea Piers, New York
+
+            
+
+            - 09.10.10 — HOW-D'YE-DO!
+
+            
+
+            - Shawn's updates from GimmeLove1 @ 40b Sago Street
+
+            
+
+            - Yen's updates from GimmeLove1 @ 40b Sago Street
+
+            
+
+            - Cindy's updates from GimmeLove1 @ 40b Sago Street
+
+            
+
+            - Bar, Devon And Noemie: V Magazine Vixens
+
+            
+
+            - Marisa Miller: FHM Flirt
+
+            
+
+            - Lindsay Lohan Talks Career With German GQ
+
+            
+
+            - Sam's updates from GimmeLove1 @ 40b Sago Street
+
+            
+
+            - Irina Shayk: GQ South Africa Sheer Sexiness
+
+            
+
+            - Kelly Brook: Topless Biking Beauty
+
+            
+
+            - JWoww: "I Get Ready Faster Than Most Of The Boys"
+
+            
+
+            - Katy Perry: No Playboy For Me!
+
+            
+
+            - Lady Gaga Goes Topless For Vanity Fair
+
+            
+
+            - Gisele Bundchen Talks Breastfeeding, Meditation
+
+            
+
+            - Katy Perry: Rolling Stone Sexy
+
+            
+
+            - Grace Park: "Hawaii Five-O" Bikini Babe
+
+            
+
+            - The City Beat
+
+            
+
+            - On the Street....Ninth Ave., NYC
+
+            
+
+            - Fall's Top Trends - Leopard Print
+
+            
+
+            - Sushmita Sen at Blenders Pride Fashion Show
+
+            
+
+            - Venice Regatta Storica
+
+            
+
+            - India's purchase of anti-missile system to counter...
+
+            
+
+            - The world's shortest living man
+
+            
+
+            - Cascamorras — Festival Celebrated in Spain
+
+            
+
+            - Obelisk Out of Hundreds of Bicycles
+
+            
+
+            - Jennifer Aniston's Alluring Beach Shoot
+
+            
+
+            - sexy cars girls , cool cars
+
+            
+
+            - 09.09.10 — Typography
+
+            
+
+            - Elba Jimenez (Galeria 3)
+
+            
+
+            - Peep Toe Shoes and Tights
+
+            
+
+            - Peep Toe Shoes and Tights
+
+            
+
+            - Ponytailing It
+
+            
+
+            - Vogue UK Vixen
+
+            
+
+            - Land Rover having problems with Defender replaceme...
+
+            
+
+            - On the Street...Alice, New York
+
+            
+
+            - Aston Martin pondering Lagonda sedan, Cygnet confi...
+
+            
+
+            - BMW M6 production ceased
+
+            
+
+            - Portraits By Marco Calcinaro
+
+            
+
+            - Miranda Kerr Confirms Pregnancy, 4 Months Along
+
+            
+
+            - Katrina Kaif Pantene's New Brand Ambassador
+
+            
+
+            - Emma Watson People Tree Autumn Winter Collection
+
+            
+
+            - Pigeon Clock
+
+            
+
+            - New Life
+
+            
+
+            - Maxim Russia Ravishing
+
+            
+
+            - ann augustine hot
+
+            
+
+            - 09.08.10 — Catching Some ZZ
+
+            
+
+            - Irina Shayk's Stunning New GQ Spread
+
+            
+
+            - Miranda Kerr's Topless 3D Shoot
+
+            
+
+            - I Had No Idea That Drive-In Theaters Were Still Ar...
+
+            
+
+            - Bikini Flawlessness
+
+            
+
+            - Heidi Montag’s Mammary Massage
+
+            
+
+            - Olivia Munn for GQ Magazine
+
+            
+
+            - Lash Out
+
+            
+
+            - What Chic American Women Wear To Work Out, New Yor...
+
+            
+
+            - 2011 KIA Picanto spied in Southern Spain
+
+            
+
+            - Kia Sportage launched with 2.0 litre petrol engine...
+
+            
+
+            - Roxanne Pallett cools off from the Spanish heat in...
+
+            
+
+            - Rihanna showed off her incredible figure in a tiny...
+
+            
+
+            - Maybach brand to continue; hybrid, four-door coupe...
+
+            
+
+            - Lisa Snowdon showed off her model figure in a tiny...
+
+            
+
+            - Ford agrees to $131m settlement after 2001 acciden...
+
+            
+
+            - What Chic French Women Wear To Kayak, Adirondacks,...
+
+            
+
+            - Ford launches '11 F-150 SVT Raptor SuperCrew (U.S)...
+
+            
+
+            - Chevrolet Spark launches in Uzbekistan (UZ)
+
+            
+
+            - 09.07.10 — In and Out LET
+
+            
+
+            - Ana Sofia Henao (Galeria 2)
+
+            
+
+            - Nicole Kidman
+
+            
+
+            - My Desert Serenade
+
+            
+
+            - kavya madhavan hot video interview
+
+            
+
+            - The Forbidden City of China — Zijin Cheng
+
+            
+
+            - Selena Gomez — Music Video Promos
+
+            
+
+            - Top 10 most creative people in business
+
+            
+
+            - World’s 10 Most Colorful Chinatowns
+
+            
+
+            - Shraddha Das latest stills
+
+            
+
+            - Cargo Loading
+
+            
+
+            - Mazda reaches MX-5 milestone (UK)
+
+            
+
+            - Photo Gallery: 2011 CitroÃ«n C4 Picasso facelift
+
+            
+
+            - girls of frankfurt auto show 2009
+
+            
+
+            - 09.06.10 — Saturday Night
+
+            
+
+            - Luxury Cars Of Audi A7 Sportback
+
+            
+
+            - Exotic And New Cars Of HSV Grange WM 3
+
+            
+
+            - New Cars Of Infiniti EX30d
+
+            
+
+            - 09.05.10 — Hurly-Burly — the Diagramless
+
+            
+
+            - contest auto girls hot pose
+
+            
+
+            - My First Give Away
+
+            
+
+            - Eva Herzigova on Elle France June 2010
+
+            
+
+            - Elly Kim Hong – the most sexy 2010 Fifa World Cup ...
+
+            
+
+            - Oxana Fedorova in Bikini Photos
+
+            
+
+            - Laetitia Casta for Vogue Russia, August 2010 Issue...
+
+            
+
+            - Larissa Riquelme provocative on H Para Hombres
+
+            
+
+            - Photos of Megan Fox wedding in Hawaii
+
+            
+
+            - Nicole Richie
+
+            
+
+            - Cristiano Ronaldo provocative in Emporio Armani Un...
+
+            
+
+            - Sneijder sweet honeymoon photos
+
+            
+
+            - Amreen Satia - Hottest Bollywood Page 3 Girl
+
+            
+
+            - Vietnamese Model Hong Que
+
+            
+
+            - Jessica Alba on FHM Australia Magazine September 2...
+
+            
+
+            - Larissa Riquelme on El Mundo Deportivo
+
+            
+
+            - BFFs
+
+            
+
+            - La Mer Watch Contest Giveaway
+
+            
+
+            - Gabby Logan tops up her sun cream on holiday in Cy...
+
+            
+
+            - Nissan debating on next-generation Z powertrain
+
+            
+
+            - 09.05.10 — Turning Back
+
+            
+
+            - Top Ten Best Brad Pitt Movies Posters
+
+            
+
+            - Mary Elizabeth Winstead
+
+            
+
+            - Carmen Electra
+
+            
+
+            - Kim Basinger
+
+            
+
+            - priyamani hot photos
+
+            
+
+            - kavya madhavan hot photos
+
+            
+
+            - namitha hot videos
+
+            
+
+            - 09.04.10 — Anesthesia
+
+            
+
+            - Aislinn Derbez
+
+            
+
+            - Sophia Loren
+
+            
+
+            - Brazilian Teddy Lingerie Model
+
+            
+
+            - Tube Top Dress Black and White
+
+            
+
+            - NHTSA investigates 2011 Sonata sedan, GM recalls '...
+
+            
+
+            - fishnet lingerie For Women
+
+            
+
+            - Tie Front Restraints Lingerie
+
+            
+
+            - Shannon Tweed
+
+            
+
+            - Julia Louis-Dreyfus
+
+            
+
+            - Emma Watson
+
+            
+
+            - Samantha Fox
+
+            
+
+            - Paula Patton
+
+            
+
+            - Ford recalls '98 - '03 Windstar MPV (U.S)
+
+            
+
+            - The Button-Up, Florence
+
+            
+
+            - All time Pictures of Jennifer Aniston
+
+            
+
+            - The World’s Most Spectacular Roads
+
+            
+
+            - How Morgan Cars Are Made Out of Wood
+
+            
+
+            - 2010 - Celebrity Weddings
+
+            
+
+            - Top 10 Generals of Western History
+
+            
+
+            - Amazing Moments
+
+            
+
+            - 09.03.10 — Far Out
+
+            
+
+            - Minx Nail Decals
+
+            
+
+            - Second Chances.....
+
+            
+
+            - Backtrack
+
+            
+
+            - Luxury And Fast Cars Of Suzuki Kizashi Sport
+
+            
+
+            - New Cars And Elegant Concept Of Suzuki Swift
+
+            
+
+            - Fast And Exotic Cars Of SsangYong Rodius
+
+            
+
+            - Luxury Cars Of Ssangyong Kyron
+
+            
+
+            - The Sports Cars Of SsangYong Musso Sports
+
+            
+
+            - Classic Cars Of SsangYong Rexton
+
+            
+
+            - Hot Cars SsangYong Actyon
+
+            
+
+            - Muscle Cars Of SsangYong Actyon Sports
+
+            
+
+            - On the Street....Summer Suited, Milan
+
+            
+
+            - Exotic Cars Of SsangYong C200 Concept
+
+            
+
+            - Cool Cars Of SsangYong Rexton R-Line
+
+            
+
+            - nayanthara hot videos
+
+            
+
+            - 09.02.10 — Nothing At All
+
+            
+
+            - Patricia Navidad (Galeria 2)
+
+            
+
+            - Julia sports the unshaven look she showcased at th...
+
+            
+
+            - Paris On My Mind
+
+            
+
+            - Nissan LEAF order book opens today (UK)
+
+            
+
+            - Ferrari to contact all 458 Italia owners
+
+            
+
+            - Mitsubishi i-MiEV pricing announced (EU)
+
+            
+
+            - Paris in Fall...
+
+            
+
+            - Priyanka Chopra Photoshoot for Her Website
+
+            
+
+            - Celebrity Pets
+
+            
+
+            - Audi increasing A1 production
+
+            
+
+            - Top 10 countries where average age is too High
+
+            
+
+            - Curiosity on the Beach
+
+            
+
+            - Six Wheel Suv — Video
+
+            
+
+            - On the Street....City Surfing, New York
+
+            
+
+        
+
+        
+
+        
+
+        - ►  August
+
+        
+
+        
+
+        - ►  July
+
+        
+
+        
+
+        - ►  June
+
+        
+
+        
+
+        - ►  May
+
+        
+
+        
+
+        - ►  April
+
+        
+
+        
+
+        - ►  March
+
+        
+
+        
+
+        - ►  February
+
+        
+
+        
+
+        - ►  January
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009
+
+        - ►  December
+
+        
+
+        
+
+        - ►  November
+
+        
+
+        
+
+        - ►  October
+
+        
+
+        
+
+        - ►  September
+
+        
+
+        
+
+        - ►  August
+
+        
+
+        
+
+        - ►  July
+
+        
+
+        
+
+        - ►  June
+
+        
+
+        
+
+        - ►  May
+
+        
+
+        
+
+        - ►  April
+
+        
+
+        
+
+        - ►  March
+
+        
+
+        
+
+        - ►  February
+
+        
+
+        
+
+        - ►  January
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2008
+
+        - ►  December
+
+        
+
+        
+
+        - ►  November
+
+        
+
+        
+
+        - ►  October
+
+        
+
+        
+
+        - ►  September
+
+        
+
+        
+
+        - ►  August
+
+        
+
+        
+
+        - ►  July
+
+        
+
+        
+
+        - ►  June
+
+        
+
+        
+
+        - ►  May
+
+        
+
+        
+
+        - ►  April
+
+        
+
+        
+
+        - ►  March
+
+        
+
+        
+
+        - ►  February
+
+        
+
+        
+
+        - ►  January
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2007
+
+        - ►  December
+
+        
+
+        
+
+        - ►  November
+
+        
+
+        
+
+        - ►  October
+
+        
+
+        
+
+        - ►  September
+
+        
+
+        
+
+        - ►  August
+
+        
+
+        
+
+        - ►  July
+
+        
+
+        
+
+        - ►  June
+
+        
+
+        
+
+        - ►  May
+
+        
+
+        
+
+        - ►  April
+
+        
+
+        
+
+        - ►  March
+
+        
+
+        
+
+        - ►  February
+
+        
+
+        
+
+        - ►  January
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2006
+
+        - ►  December
+
+        
+
+        
+
+        - ►  November
+
+        
+
+        
+
+        - ►  October
+
+        
+
+        
+
+        - ►  September
+
+        
+
+        
+
+        - ►  August
+
+        
+
+        
+
+        - ►  July
+
+        
+
+        
+
+        - ►  June
+
+        
+
+        
+
+        - ►  May
+
+        
+
+        
+
+        - ►  April
+
+        
+
+        
+
+        - ►  March
+
+        
+
+        
+
+        - ►  February
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2005
+
+        - ►  October
+
+        
+
+        
+
+        - ►  January
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2003
+
+        - ►  March
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2002
+
+        - ►  October
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+09.23.10 — RING CYCLE
+
+
+
+
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_WsE6M_RjBIY/TJrpqSSaKeI/AAAAAAAAcQc/GKehvgYHSAM/s400/Das+Rheingold+Scene+1.jpg
+
+
+
+
+
+
+
+
+
+Das Rheingold, Scene 1.
+
+
+
+(From the original sketch for the scenery used at Bayreuth, by J. Hoffmann.)
+
+
+
+
+
+
+
+
+
+————————
+
+
+
+
+
+
+
+
+
+Thursday, September 23 , 2010 — Autumnal Equinox
+
+
+
+
+
+
+
+
+
+Puzzle by David J. Kahn, edited by Will Shortz
+
+
+
+
+
+
+
+Today’s crossword is headed with the note: When this puzzle is completed, the circled
+letters starting at 21-Across and reading clockwise, will reveal the first part of 17-Across
+. Well, that’s DAS RHEINGOLD . 17-Across, clued as Musical work in four parts, with its first
+part opening the Met’s 2010-11 season is RING CYCLE . From there, OPERA GOER (35A. Attendee
+at a 17-Across), BARITONES (59A. Singing voices in the 17-Across), 11D. “Die WALKÃœRE
+” (Second part of the 17-Across), LEVINE (13D. Met maestro James, longtime conductor of the
+17-Across), SOPRANO (39D. Singing voice in the 17-Across), and WAGNER (44D. Composer of the
+17-Across) complete the interrelated entries of this excellent Thursday crossword.
+
+
+
+
+
+
+
+
+
+The Metropolitan Opera web site proclaims: The Met’s 2010–11 season kicks off on
+September 27 with the gala premiere of Robert Lepage's new production of Wagner’s "Das
+Rheingold." James Levine, celebrating his 40th anniversary with the Met, will conduct, and
+Bryn Terfel stars as Wotan. Curtain time is 6.45pm .
+
+
+
+
+
+
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_WsE6M_RjBIY/TJrp4xLf2GI/AAAAAAAAcQk/C43mjjQnMpA/s400/Wagners+Das+Rheingold+Metropolitan+Opera+2010.jpg
+
+
+
+
+
+
+
+
+
+In this Sept. 13, 2010 photo (above) provided by the Metropolitan Opera, a scene from Wagner's
+"Das Rheingold" is rehearsed at the Metropolitan Opera in New York. The set, created by
+director Robert Lepage and unlike any ever seen on an opera stage, will be put on public view for
+the first time Monday night Sept. 27, when the company opens its season with “Das
+Rheingold," first of the four operas that make up the "Ring" cycle. From left are Eric Owens as
+Alberich, Bryn Terfel as Wotan, and Richard Croft as Loge. (AP Photo/Metropolitan Opera, Ken
+Howard) — The Canadian Press .
+
+
+
+
+
+
+
+
+
+Must-read article "The Valhalla Machine" with photographs and video in The New York Times
+ —  HERE . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_WsE6M_RjBIY/TJrqOqMWHSI/AAAAAAAAcQs/UDVG22YfC7Q/s400/Das+Rheingold+Metropolitan+Opera+2010.jpg
+
+
+
+ 
+
+
+
+Other — ABSENCE (2D. It may be excused), ARCADE (10D. Pac-Man centers), CONGEST (45A. Clog
+up), DINE OUT (1D. Patronize a bistro, say), DOWSERS (29A. Divining rods), NUCLEIC ACIDS
+(27A. With 6-Down, genetic carriers), ORIOLES (43D. Birds with hanging nests), ROTH IRA
+(49A. Savings vehicle), TIPTOES (42D. Sneaks [around]), UNTIRED (40D. Peppy).
+
+
+
+
+
+
+
+
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_WsE6M_RjBIY/TJrxY42bGfI/AAAAAAAAcRM/fqH98z6OrYo/s200/Ancient+Sound+Abstract+on+Black+1925+Paul+Klee.jpg
+
+Mid-size — COMBAT, DRIVE, Yankee ELSTON Howard, 1963 A.L. M.V.P. , ENSUE, FLEER (65A. First
+company to successfully manufacture bubblegum) , HASSLE, IN NEED, KNEADS, LEGATO (8D.
+Smooth and connected), LIBEL, LIE TO, MOULIN Rouge , NEURAL (3D. Kind of network) , Down ON ONE
+knee, RISE TO (24A Meet, as expectations), VEERED, TURNER (48D. Hurt‘s “Body Heat“
+co-star) , VEERED.
+
+
+
+
+
+
+
+
+
+Short stuff — ACNE, AKA, ANEW, Ireland’s ARAN Islands , Eat like A PIG, AROW, CROW, DANK,
+DEAR, DUD, EMIT, ESP, ETE, EXT, GENX, GERI, HAWK, HAY (9D. Mudders fodder), ICER, INRI (56A.
+Letters on a crucifix) , IONA, IWO, JAIL (5A. “The Usual Suspects“ setting) , JAR, Artist
+Paul KLEE , LOFT, METE, MRI, NAG, OMG. OPT, “ O SOLE Mio”, SEW, SUM, Big SUR, SVEN Kramer ,
+2010 Dutch Olympic gold medalist in speed skating, TESS (68A. Trueheart of the comics) , TODO,
+TOW, USE .
+
+
+
+
+
+
+
+
+
+————————
+
+
+
+
+
+
+
+
+
+
+
+
+
+An Autumnal Equinox Prayer
+
+
+
+
+
+
+
+
+
+May we know the depth and width of the patterns that hold us today. May we recognize the
+preciousness of each atom that, by being right where it needs to be, creates balance and
+stability and wholeness. May we be awed by the sheer beauty in the wholeness of it all. — Rev.
+Meg Riley, Church of the Larger Fellowship  
+
+
+
+
+
+
+
+————————
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_WsE6M_RjBIY/TJrqft38T2I/AAAAAAAAcQ8/RjfAodig7rk/s400/N+Y+Times+Crossword+by+David+J+Kahn+September+23+2010.jpg
+
+
+
+
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_WsE6M_RjBIY/TJrqm0io1RI/AAAAAAAAcRE/e57j75TwWuA/s200/New+York+Times+Crossword+September+23+2010.jpg
+
+
+
+
+
+Click on image to enlarge.
+
+
+
+
+
+
+
+Puzzle available on the internet at
+
+
+
+
+
+
+
+THE NEW YORK TIMES — Crossword Puzzles and Games .
+
+
+
+
+
+
+
+If you subscribe to home delivery of The New York Times you are eligible to access the daily
+crossword via The New York Times - Times Reader, without additional charge, as part of your
+home delivery.
+
+
+
+
+
+
+
+Remaining clues — ACROSS: 1. Like many a cellar; 9. Peddle; 13. Suit material?; 14. Unwanted
+spots; 16. Come next; 19. Went off on a tangent; 21. Sugar; 22. Letters between a name and a
+nickname; 23. Hebrides isle; 26. Turkey; 31. Somme time; 34. Practice; 39. Bottom line; 41.
+Boomers’ kids; 42. What you might need after a breakdown; 51. Decide; 55. Hosp. test in a
+tube; 63. All over; 64. Parcel (out); 65. Bother; 67. In ranks. — DOWN: 5. It might get tips; 7.
+Strapped; 12. Folds, presses and stretches; 18. Exult; 20. Motivation; 25. “Happy
+Birthday” writer, say; 28. Medium strength?; 33. Kvetch; 35. “Yikes!,” online; 36.
+Spice Girl Halliwell; 38. No. after a no.; 45. Fighting; 46. Issue; 47. County next to Napa; 50.
+Bother; 53. Mislead, and more; 58. Artist’s pad?; 60. W.W. II site, briefly; 61. Clinch,
+with “up”.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Newer Post Older Post Home window.___gcfg = {'lang':
+'en'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})(); var linkwithin_site_id = 537927;
+
+    Image: http://www.linkwithin.com/pixel.png
+
+    -
+
+    Image:
+    http://2.bp.blogspot.com/_lD1Sq6JG8NI/SVSisfgqhcI/AAAAAAAABAs/qni9oYZw6DA/s72-c/amanda-bynes-pictures.jpg
+    Amanda Bynes Pictures Amanda Bynes Pictures Amanda Bynes latest hot Pictures Amanda
+    Bynes Hot Pics Amanda Bynes Bikini Pictures Amanda Bynes latest Cool Images Am...
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/_XmYwA_GdPeo/THrqwDOURhI/AAAAAAAAHuo/KzFPH7WY-Cw/s72-c/miranda_kerr_victoria_secrets_sweetest_angel.jpg
+    Miranda Kerr "A Timeless Beauty" Although she's a personal fan of the beautiful Christy
+    Turlington, Miranda Kerr has been compared on a physical level with classic and curre...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/_XmYwA_GdPeo/TDwrs-8J9PI/AAAAAAAAGfM/xgaAd4dtv3k/s72-c/salma-hayek-picture-2.jpg
+    Salma Hayek Name : Salma Hayek Real Name : Salma Hayek Jimenez Date Of Birth : September 2,
+    1966 Place of Birth : Coatzacoalcos, Veracruz, Mexico Height...
+
+    
+
+    -
+
+    Image:
+    http://2.bp.blogspot.com/_XmYwA_GdPeo/THruZGEVDlI/AAAAAAAAHvw/3etepoJeTxo/s72-c/bianca_beauchamp_latex_6.jpg
+    Bianca Beauchamp Bianca Stephanie Beauchamp was born on October 14, 1977, in Montreal,
+    Quebec. A self-described “scrapper,” Bianca spent most of her childhoo...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/_TuwCTIrN1AU/TMUpQcmWc6I/AAAAAAAAAzw/hCdbeNWyg9k/s72-c/63825_445751740368_19614945368_5249304_2016480_n.jpg
+    Taylor Swift Quotes and Sayings Taylor Swift Quotes and Sayings Love and Life Sayings ·
+    Quotes Love Quotes - I'd Lie By Taylor Swift. 11810 shouts cute.png quotes ...
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/_zCn7EvpR3yY/S7OTr8fUSjI/AAAAAAAAA-4/hn9_prYpGIo/s72-c/17279-hustler-fine-mesh-lingerie-set.jpg
+    (no title) Sexy Lingerie Pink: So sweet and so young.  The sexy pink dress for women of
+    ingenuity and sensitivity.  A morsel of pleasure that nobody wa...
+
+    
+
+    -
+
+    Image:
+    http://4.bp.blogspot.com/_yberMRekEGc/SHwzflLjEgI/AAAAAAAAHaQ/Uk0YUa610Mk/s72-c/Lili+Brillanti-38.jpg
+    Lili Brillanti Fotos: Revista Maxim y H para Hombres Otras fotos: Lili Brillanti (H
+    Xtremo) LilÃ­ Billanti & Anais (Fotos H Extremo) LilÃ­ Billanti & Anais ...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/_XmYwA_GdPeo/TIFfQY8yTSI/AAAAAAAAINc/lGJJfVHMVQQ/s72-c/Sam%2520Fox.jpg
+    Samantha Fox As an unknown 16 year old she came in second in a topless photograph
+    competition organised by The Sunday People in 1983. She soon became nat...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/_vGgulG2Zn6Y/TEu7kd9sgsI/AAAAAAAAEd0/70TshR1yfVg/s72-c/A1%25252BSingapore%25252BCalendas%25252B2011%25252BTemplates.jpg
+    2011 Calendar With Public Holidays NSW Check 2011 Canada Public Holidays and Calendar.
+    2011 calendar with Canadian events: Public holidays - nsw industrial relations The
+    isla...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/_2T3fS0kT2vc/S7qzHqv8ayI/AAAAAAAAQ0o/_MMEnbM-FuM/s72-c/2.jpg
+    Dianna Agron Age Age: 19. Played By: Dianna Agron Known Family: Dr. Damon Jacoby - Father
+    As a biography, Dianna Agron was born in Savannah, Georgia on Ap...
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://geoloc14.geovisite.com/private/geoglobe.php?compte=116815981405
+
+
+
+Image: http://stats.topofblogs.com/send/77557
+
+
+
+Image: http://buttons.googlesyndication.com/fusion/add.gif
+
+
+
+Image: http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif
+
+
+
+Image:
+http://favorites.my.aol.com/ffclient/webroot/0.2.1/locale/en_US/aol/images/myAOLButtonSmall.gif
+
+
+
+Image: http://www.netvibes.com/img/add2netvibes.gif
+
+
+
+Image: http://www.bloglines.com/images/sub_modern11.gif
+
+
+
+Image: http://www.blogflare.com/flare_15784.gif
+
+Image: http://www.blogflare.com/world.png
+
+Image: http://www.bloggapedia.com/bp_small_images/blog-gapedia6.png
+
+Image: http://i155.photobucket.com/albums/s282/theviejo/recurso_10_6.jpg
+
+Image: http://www.mynewblog.com/tracker.php?id=17847
+
+Image:
+http://www.ybotvisit.com/services/yblv/dyblv.php?s=c5470a53bcfb73950e8dfb8948351d0d454a4436a97bf209355129df81f251
+
+Image:
+http://www.gbotvisit.com/services/gblv/gblv.php?s=c5470a53bcfb73950e8dfb8948351d0d454a4436a97bf209355129df81f251
+
+Image: http://www.feedage.com/images/grade_b_m.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png  
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png var ad_pid = "559"; var
+ad_nti = "TRFR"; var ad_width = "728"; var ad_height = "90"; var ad_format = "728x90"; var
+ad_cat = "0"; var ad_retbase = document.referrer; var ad_rettop = top.document.referrer;
+var ad_retpar = parent.document.referrer; var ad_loc = document.location.href; var
+ad_class = "NTU5fDcyOHg5MA==";
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Sitemap . Minibox 3 Column Blogger Template by James William at 2600 Degrees if
+(window.jstiming) window.jstiming.load.tick('widgetJsBefore'); if
+(typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'6139797846216555849';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d6139797846216555849','//latestgalleryphoto.blogspot.com/2010/09/092310-ring-cycle.html','6139797846216555849');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'6139797846216555849', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Latest
+Gallery Photo', 'pageType': 'item', 'url':
+'http://latestgalleryphoto.blogspot.com/2010/09/092310-ring-cycle.html',
+'canonicalUrl':
+'http://latestgalleryphoto.blogspot.com/2010/09/092310-ring-cycle.html',
+'canonicalHomepageUrl': 'http://latestgalleryphoto.blogspot.com/', 'homepageUrl':
+'http://latestgalleryphoto.blogspot.com/', 'blogspotFaviconUrl':
+'http://latestgalleryphoto.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'09.23.10 &#8212; RING CYCLE', 'pageTitle': 'Latest Gallery Photo: 09.23.10 &#8212; RING
+CYCLE', 'encoding': 'UTF-8', 'locale': 'en', 'isPrivate': false, 'isMobile': false,
+'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false,
+'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42
+type\75\42application/atom+xml\42 title\75\42Latest Gallery Photo - Atom\42
+href\75\42http://latestgalleryphoto.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42Latest Gallery Photo - RSS\42
+href\75\42http://latestgalleryphoto.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Latest Gallery Photo - Atom\42
+href\75\42http://www.blogger.com/feeds/6139797846216555849/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0756139797846216555849\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42Latest Gallery Photo - Atom\42
+href\75\42http://latestgalleryphoto.blogspot.com/feeds/5168463170748222111/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'postImageThumbnailUrl':
+'http://4.bp.blogspot.com/_WsE6M_RjBIY/TJrpqSSaKeI/AAAAAAAAcQc/GKehvgYHSAM/s72-c/Das+Rheingold+Scene+1.jpg',
+'imageSrcTag': '\74link rel\75\42image_src\42
+href\75\42http://4.bp.blogspot.com/_WsE6M_RjBIY/TJrpqSSaKeI/AAAAAAAAcQc/GKehvgYHSAM/s72-c/Das+Rheingold+Scene+1.jpg\42
+/\76\n', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#ffffff', 'linkcolor':
+'#ffffff', 'visitedlinkcolor': '#ffffff', 'textcolor': '#ffffff', 'headerfont':
+'normal bold 78% Georgia, Utopia, \47Palatino Linotype\47, Palatino, serif',
+'pagetitlefont': 'normal bold 30px Georgia, Utopia, \47Palatino Linotype\47, Palatino,
+serif', 'bgcolor': '#000000', 'descriptioncolor': '#ffffff', 'titlecolor': '#ffffff',
+'bordercolor': '#00ff00', 'postfooterfont': 'normal normal 78% Georgia, Utopia,
+\47Palatino Linotype\47, Palatino, serif', 'pagetitlecolor': '#ffffff', 'bodyfont':
+'normal normal 100% Georgia, Utopia, \47Palatino Linotype\47, Palatino, serif',
+'descriptionfont': 'normal normal 78% \47Trebuchet MS\47, Trebuchet, Verdana,
+Sans-serif', 'sidebarcolor': '#ffffff'}, 'override': ''}}, {'name': 'view', 'data':
+{'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name':
+'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'footer', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML4', 'footer', null, document.getElementById('HTML4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_GadgetView', new
+_WidgetInfo('Gadget1', 'sidebar1', null, document.getElementById('Gadget1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar1', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PopularPostsView', new
+_WidgetInfo('PopularPosts1', 'sidebar2', null,
+document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar2',
+null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML3', 'main', null, document.getElementById('HTML3'), {},
+'displayModeFull'));
+

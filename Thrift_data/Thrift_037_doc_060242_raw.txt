@@ -1,0 +1,509 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Yossy: Jazz <!-- /* ----------------------------------------------- Blogger
+Template Style Name: Thisaway Date: 29 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="textColor" description="Text Color"
+type="color" default="#634320"> <Variable name="blogTitleColor" description="Blog
+Title Color" type="color" default="#fef6ee"> <Variable name="blogDescriptionColor"
+description="Blog Description Color" type="color" default="#fef6ee"> <Variable
+name="postTitleColor" description="Post Title Color" type="color" default="#ba8247">
+<Variable name="dateHeaderColor" description="Date Header Color" type="color"
+default="#c8ab8f"> <Variable name="sidebarHeaderColor" description="Sidebar Title
+Color" type="color" default="#bd9e80"> <Variable name="mainLinkColor"
+description="Link Color" type="color" default="#bf4e27"> <Variable
+name="mainVisitedLinkColor" description="Visited Link Color" type="color"
+default="#8f3213"> <Variable name="sidebarLinkColor" description="Sidebar Link
+Color" type="color" default="#e2a059"> <Variable name="sidebarVisitedLinkColor"
+description="Sidebar Visited Link Color" type="color" default="#ba742a"> <Variable
+name="bodyFont" description="Text Font" type="font" default="normal normal 100%
+Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif"> <Variable name="headerFont"
+description="Sidebar Title Font" type="font" default="normal bold 100%
+Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif"> <Variable name="pageTitleFont"
+description="Blog Title Font" type="font" default="normal bold 200%
+Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif"> <Variable
+name="blogDescriptionFont" description="Blog Description Font" type="font"
+default="normal normal 80% Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif">
+<Variable name="startSide" description="Start side in blog language" type="automatic"
+default="left"> <Variable name="endSide" description="End side in blog language"
+type="automatic" default="right"> */ /* global
+----------------------------------------------- */ body { margin: 0; text-align:
+center; min-width: 760px; background: #ce8b43
+url(http://www.blogblog.com/thisaway/bg_body.gif) repeat-x left top; color: #634320;
+font-size: small; } blockquote { margin: 0; padding-top: 0; padding-right: 10px;
+padding-bottom: 0; padding-left: 10px; border-left: 6px solid #f7e8d8; border-right: 6px
+solid #f7e8d8; color: #ba8247; } code { color: #ba8247; } hr { display: none; } /* layout
+----------------------------------------------- */ #outer-wrapper { margin: 0 auto;
+width: 760px; text-align: left; font: normal normal 100%
+Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif; } #header-wrapper {
+padding-bottom: 15px; background:
+url(http://www.blogblog.com/thisaway/bg_header_bottom.gif) no-repeat left bottom; }
+#header { background: #634320 url(http://www.blogblog.com/thisaway/bg_header.gif)
+repeat-x left bottom; } #content-wrapper { position: relative; width: 760px; background:
+#f7f0e9 url(http://www.blogblog.com/thisaway/bg_main_wrapper.gif) repeat-y left
+top; } #main-wrapper { display: inline; /* fixes a strange ie margin bug */ float: left;
+margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 3px; padding: 0; width:
+483px; word-wrap: break-word; /* fix for long text breaking sidebar float in IE */ overflow:
+hidden; /* fix for long non-text content breaking IE sidebar float */ } #main { padding-top:
+22px; padding-right: 8px; padding-bottom: 0; padding-left: 8px; background:
+url(http://www.blogblog.com/thisaway/bg_content.gif) repeat-x left top; } .post {
+margin-top: 0; margin-right: 8px; margin-bottom: 14px; margin-left: 21px; padding: 0;
+border-bottom: 3px solid #f7e8d8; } #comments { margin-top: 0; margin-right: 16px;
+margin-bottom: 14px; margin-left: 29px; padding: 10px; border: 1px solid #f0e0ce;
+background-color: #f5ede4; } #sidebar-wrapper { display: inline; /* fixes a strange ie
+margin bug */ float: right; margin-top: 0; margin-right: 3px; margin-bottom: 0;
+margin-left: 0; width: 269px; color: #634320; line-height: 1.4em; font-size: 90%;
+background: url(http://www.blogblog.com/thisaway/bg_sidebar.gif) repeat-x left top;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */ overflow: hidden;
+/* fix for long non-text content breaking IE sidebar float */ } #sidebar { padding-top: 7px;
+padding-right: 11px; padding-bottom: 0; padding-left: 14px; background:
+url(http://www.blogblog.com/thisaway/bg_sidebar_arrow.gif) repeat-y 179px 0; }
+#sidebar .widget { margin-bottom: 20px; } #footer-wrapper { padding-top: 15px;
+background: url(http://www.blogblog.com/thisaway/bg_footer_top.gif) no-repeat left
+top; clear: both; } #footer { background: #493015
+url(http://www.blogblog.com/thisaway/bg_footer.gif) repeat-x left top; text-align:
+center; min-height: 2em; } /* headings
+----------------------------------------------- */ #header h1 { margin: 0;
+padding-top: 24px; padding-right: 0; padding-bottom: 0; padding-left: 84px; background:
+url(http://www.blogblog.com/thisaway/icon_header_left.gif) no-repeat 16px 26px; }
+h2.date-header { margin: 0; padding-top: 0; padding-right: 0; padding-bottom: 0;
+padding-left: 29px; text-transform: uppercase; color: #c8ab8f; background:
+url(http://www.blogblog.com/thisaway/icon_date.gif) no-repeat 13px 0; font-size:
+80%; font-weight: normal; } .date-header span { margin-top: 0; margin-right: 0;
+margin-bottom: 0; margin-left: 5px; padding-top: 0; padding-right: 25px;
+padding-bottom: 0; padding-left: 25px; background:
+url(http://www.blogblog.com/thisaway/bg_date.gif) no-repeat left 0; } .sidebar h2 {
+padding-top: 1px; padding-right: 0; padding-bottom: 0; padding-left: 36px; color:
+#bd9e80; background:
+url(http://www.blogblog.com/thisaway/icon_sidebar_heading_left.gif) no-repeat
+left 45%; font: normal bold 100% Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif; }
+.sidebar .Profile h2 { color: #957252; background:
+url(http://www.blogblog.com/thisaway/icon_sidebar_profileheading_left.gif)
+no-repeat left 45%; } .post h3 { margin-top: 13px; margin-right: 0; margin-bottom: 13px;
+margin-left: 0; padding: 0; color: #ba8247; font-size: 140%; } .post h3 a, .post h3 a:visited
+{ color: #ba8247; } #comments h4 { margin-top: 0; font-size: 120%; } /* text
+----------------------------------------------- */ #header h1 { color: #fef6ee; font:
+normal bold 200% Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif; } #header
+.description { margin: 0; padding-top: 7px; padding-right: 16px; padding-bottom: 0;
+padding-left: 84px; color: #fef6ee; font: normal normal 80%
+Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif; } .post-body p { line-height:
+1.4em; /* Fix bug in IE5/Win with italics in posts */ margin: 0; height: 1%; overflow: visible;
+} .post-footer { font-size: 80%; color: #c8ab8f; } .uncustomized-post-template
+.post-footer { text-align: right; } .uncustomized-post-template .post-footer
+.post-author, .uncustomized-post-template .post-footer .post-timestamp { display:
+block; float: left; text-align: left; margin-right: 4px; } p.comment-author { font-size:
+83%; } .deleted-comment { font-style:italic; color:gray; } .comment-body p { line-height:
+1.4em; } .feed-links { clear: both; line-height: 2.5em; margin-bottom: 0.5em;
+margin-left: 29px; } #footer .widget { margin: 0; padding-top: 0; padding-right: 0;
+padding-bottom: 15px; padding-left: 55px; color: #fef6ee; font-size: 90%; line-height:
+1.4em; background: url(http://www.blogblog.com/thisaway/icon_footer.gif) no-repeat
+16px 0; } /* lists ----------------------------------------------- */ .post ul {
+padding-left: 32px; list-style-type: none; line-height: 1.4em; } .post li { padding-top:
+0; padding-right: 0; padding-bottom: 4px; padding-left: 17px; background:
+url(http://www.blogblog.com/thisaway/icon_list_item_left.gif) no-repeat left 3px; }
+#comments ul { margin: 0; padding: 0; list-style-type: none; } #comments li { padding-top: 0;
+padding-right: 0; padding-bottom: 1px; padding-left: 17px; background:
+url(http://www.blogblog.com/thisaway/icon_comment_left.gif) no-repeat left 3px; }
+.sidebar ul { padding: 0; list-style-type: none; line-height: 1.2em; margin-left: 0; }
+.sidebar li { padding-top: 0; padding-right: 0; padding-bottom: 4px; padding-left: 17px;
+background: url(http://www.blogblog.com/thisaway/icon_list_item.gif) no-repeat
+left 3px; } #blog-pager-newer-link { float: left; margin-left: 29px; }
+#blog-pager-older-link { float: right; margin-right: 16px; } #blog-pager { text-align:
+center; } /* links ----------------------------------------------- */ a { color:
+#bf4e27; font-weight: bold; } a:hover { color: #8f3213; } a.comment-link { /* ie5.0/win
+doesn't apply padding to inline elements, so we hide these two declarations from it */
+background/* */:/**/url(http://www.blogblog.com/thisaway/icon_comment_left.gif)
+no-repeat left 45%; padding-left: 14px; } html>body a.comment-link { /* respecified, for
+ie5/mac's benefit */ background:
+url(http://www.blogblog.com/thisaway/icon_comment_left.gif) no-repeat left 45%;
+padding-left: 14px; } .sidebar a { color: #e2a059; } .sidebar a:hover { color: #ba742a; }
+#header h1 a { color: #fef6ee; text-decoration: none; } #header h1 a:hover { color: #d9c6b4; }
+.post h3 a { text-decoration: none; } a img { border-width: 0; } .clear { clear: both;
+line-height: 0; height: 0; } .profile-textblock { clear: both; margin-bottom: 10px;
+margin-left: 0; } .profile-img { float: left; margin-top: 0; margin-right: 5px;
+margin-bottom: 5px; margin-left: 0; padding: 3px; border: 1px solid #ebd4bd; }
+.profile-link { padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 17px;
+background: url(http://www.blogblog.com/thisaway_blue/icon_profile_left.gif)
+no-repeat left 0; } /** Page structure tweaks for layout editor wireframe */ body#layout
+#main, body#layout #sidebar { padding: 0; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\758630045044527541459\46blogName\75Yossy\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLACK\46layoutType\75LAYOUTS\46searchRoot\75http://musicjazzy.blogspot.com/search\46blogLocale\75in\46v\0752\46homepageUrl\75http://musicjazzy.blogspot.com/\46targetPostID\075742104222851437546\46blogPostOrPageUrl\75http://musicjazzy.blogspot.com/2010/01/jazz.html\46vt\0755954320855552711596',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Yossy
+
+
+
+
+
+Rabu, 20 Januari 2010
+
+
+
+
+
+
+
+Jazz
+
+
+
+Image:
+http://4.bp.blogspot.com/_zmPp9Gbwr_4/S1b7oZESLKI/AAAAAAAAAGg/cZMblGWlvzM/s320/0511-0707-1915-4459_Jazz_Logo_clipart_image.jpg
+Jazz
+
+
+
+Jazz is a music genre that originated at the beginning of the 20th century in African American
+communities in the Southern United States from a confluence of African and European music
+traditions.
+
+From its early development until the present, jazz has incorporated music from 19th and 20th
+century American popular music . [ 1 ] Its West African pedigree is evident in its use of blue
+notes , improvisation , polyrhythms , syncopation , and the swung note [ 2 ] but one of jazz's
+iconic figures Art Blakey has been quoted as saying, "No America, no jazz. I’ve seen people
+try to connect it to other countries, for instance to Africa, but it doesn’t have a damn thing
+to do with Africa". [ 3 ]
+
+The word "jazz" began as a West Coast slang term of uncertain derivation and was first used to
+refer to music in Chicago in about 1915.
+
+From its beginnings in the early 20th century, Jazz has spawned a variety of subgenres, from
+New Orleans Dixieland dating from the early 1910s, big band -style swing from the 1930s and
+1940s, bebop from the mid-1940s, a variety of Latin jazz fusions such as Afro-Cuban and
+Brazilian jazz , and free jazz from the 1950s and 1960s, jazz fusion from the 1970s and late
+1980s developments such as acid jazz , which blended funk and hip-hop influences into jazz.
+
+As the music has spread around the world it has drawn on local national and regional musical
+cultures, its aesthetics being adapted to its varied environments and giving rise to many
+distinctive styles.
+
+Ragtime
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_zmPp9Gbwr_4/S1b8qi3uEEI/AAAAAAAAAGo/M9OvSW5qcGY/s320/Scott_Joplin_19072.jpg
+The abolition of slavery led to new opportunities for the education of freed
+African-Americans. Although strict segregation limited employment opportunities for
+most blacks, many were able to find work in entertainment. Black musicians were able to
+provide "low-class" entertainment in dances, minstrel shows , and in vaudeville , by which
+many marching bands formed. Black pianists played in bars, clubs, and brothels, as ragtime
+developed. [ 21 ] [ 22 ] Ragtime appeared as sheet music, popularized by African American
+musicians such as the entertainer Ernest Hogan , whose hit songs appeared in 1895; two years
+later Vess Ossman recorded a medley of these songs as a banjo solo "Rag Time Medley". [ 23 ] [ 24 ]
+Also in 1897, the white composer William H. Krell published his "Mississippi Rag" as the first
+written piano instrumental ragtime piece, and Tom Turpin published his Harlem Rag, that was
+the first rag published by an African-American. The classically-trained pianist Scott
+Joplin produced his "Original Rags" in the following year, then in 1899 had an international
+hit with " Maple Leaf Rag ." He wrote numerous popular rags, including, " The Entertainer ",
+combining syncopation, banjo figurations and sometimes call-and-response, which led to
+the ragtime idiom being taken up by classical composers including Claude Debussy and Igor
+Stravinsky . Blues music was published and popularized by W. C. Handy , whose " Memphis Blues "
+of 1912 and " St. Louis Blues " of 1914 both became jazz standards .
+
+
+
+Swing
+
+
+
+Image:
+http://1.bp.blogspot.com/_zmPp9Gbwr_4/S1b-MLW0hhI/AAAAAAAAAGw/Ups8oP9oWHw/s320/770px-Louis_Armstrong_restored.jpg
+
+
+
+
+
+The 1930s belonged to popular swing big bands , in which some virtuoso soloists became as
+famous as the band leaders. Key figures in developing the "big" jazz band included
+bandleaders and arrangers Count Basie , Cab Calloway , Jimmy and Tommy Dorsey , Duke Ellington
+, Benny Goodman , Fletcher Henderson , Earl Hines , Glenn Miller , and Artie Shaw .
+
+
+
+
+
+
+
+
+
+Latin jazz
+
+
+
+Image:
+http://3.bp.blogspot.com/_zmPp9Gbwr_4/S1b_Gvp812I/AAAAAAAAAG4/2TMg3T7UEcQ/s320/img_1_pr.jpg
+
+
+
+Latin jazz combines rhythms from African and Latin American countries, often played on
+instruments such as conga , timbale , gÃŒiro , and claves , with jazz and classical harmonies
+played on typical jazz instruments (piano, double bass, etc.). There are two main varieties:
+Afro-Cuban jazz was played in the US right after the bebop period, while Brazilian jazz became
+more popular in the 1960s. Afro-Cuban jazz began as a movement in the mid-1950s as bebop
+musicians such as Dizzy Gillespie and Billy Taylor started Afro-Cuban bands influenced by
+such Cuban and Puerto Rican musicians as Xavier Cugat , Tito Puente , and Arturo Sandoval .
+Brazilian jazz such as bossa nova is derived from samba , with influences from jazz and other
+20th century classical and popular music styles. Bossa is generally moderately paced, with
+melodies sung in Portuguese or English. The style was pioneered by Brazilians JoÃ£o
+Gilberto and AntÃŽnio Carlos Jobim . The related term jazz-samba describes an adaptation
+of bossa nova compositions to the jazz idiom by American performers such as Stan Getz and
+Charlie Byrd .
+
+Bossa nova was made popular by Elizete Cardoso 's recording of Chega de Saudade on the
+CanÃ§Ã£o do Amor Demais LP , composed by VinÃ­cius de Moraes (lyrics) and Antonio
+Carlos Jobim (music). The initial releases by Gilberto and the 1959 film Black Orpheus
+brought significant popularity in Brazil and elsewhere in Latin America , which spread to
+North America via visiting American jazz musicians. The resulting recordings by Charlie
+Byrd and Stan Getz cemented its popularity and led to a worldwide boom with 1963's
+Getz/Gilberto , numerous recordings by famous jazz performers such as Ella Fitzgerald ( Ella
+AbraÃ§a Jobim ) and Frank Sinatra ( Francis Albert Sinatra & AntÃŽnio Carlos Jobim ), and
+the entrenchment of the bossa nova style as a lasting influence in world music for several
+decades and even up to the present. Diposkan oleh
+
+
+
+Yossy di
+
+
+
+04:44
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Label: Jazz
+
+1 komentar:
+
+    (function() { var items = [{'id': '6052861870952097228', 'body': 'please post the task
+    not the article. ok\74br /\76ms.tya', 'timestamp': '1264086146652', 'permalink':
+    'http://musicjazzy.blogspot.com/2010/01/jazz.html?showComment\0751264086146652#c6052861870952097228',
+    'author': {'name': 'English Corner', 'avatarUrl':
+    'http://img2.blogblog.com/img/b16-rounded.gif', 'profileUrl':
+    'http://www.blogger.com/profile/06706479108779950443'}, 'displayTime': '21
+    Januari 2010 07:02', 'deleteclass': 'item-control blog-admin pid-1651331417'}];
+    var msgs = {'loadMore': 'Muat yang lain...', 'loading': 'Memuat...', 'loaded': 'Tidak
+    ada lagi!', 'addComment': 'Tambahkan komentar', 'reply': 'Balas', 'delete':
+    'Hapus'}; var config = {'blogId': '8630045044527541459', 'postId':
+    '742104222851437546', 'feed':
+    'http://musicjazzy.blogspot.com/feeds/742104222851437546/comments/default',
+    'authorName': 'Yossy', 'authorUrl':
+    'http://www.blogger.com/profile/17135107716729527855', 'baseUri':
+    'http://www.blogger.com', 'maxThreadDepth': 2}; // <![CDATA[ var cursor = null; if
+    (items && items.length > 0) { cursor = parseInt(items[items.length - 1].timestamp) + 1;
+    } var bodyFromEntry = function(entry) { if (entry.gd$extendedProperty) { for (var k in
+    entry.gd$extendedProperty) { if (entry.gd$extendedProperty[k].name ==
+    'blogger.contentRemoved') { return '<span class="deleted-comment">' +
+    entry.content.$t + '</span>'; } } } return entry.content.$t; } var parse =
+    function(data) { cursor = null; var comments = []; if (data && data.feed &&
+    data.feed.entry) { for (var i = 0, entry; entry = data.feed.entry[i]; i++) { var comment =
+    {}; // comment ID, parsed out of the original id format var id =
+    /blog-(\d+).post-(\d+)/.exec(entry.id.$t); comment.id = id ? id[2] : null;
+    comment.body = bodyFromEntry(entry); comment.timestamp =
+    Date.parse(entry.published.$t) + ''; if (entry.author && entry.author.constructor
+    === Array) { var auth = entry.author[0]; if (auth) { comment.author = { name: (auth.name ?
+    auth.name.$t : undefined), profileUrl: (auth.uri ? auth.uri.$t : undefined),
+    avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined) }; } } if (entry.link) { if
+    (entry.link[2]) { comment.link = comment.permalink = entry.link[2].href; } if
+    (entry.link[3]) { var pid =
+    /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href); if (pid && pid[1]) {
+    comment.parentId = pid[1]; } } } comment.deleteclass = 'item-control blog-admin'; if
+    (entry.gd$extendedProperty) { for (var k in entry.gd$extendedProperty) { if
+    (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+    comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value; } else if
+    (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+    comment.displayTime = entry.gd$extendedProperty[k].value; } } }
+    comments.push(comment); } } return comments; }; var paginator = function(callback) {
+    if (hasMore()) { var url = config.feed +
+    '?alt=json&v=2&orderby=published&reverse=false&max-results=50'; if (cursor) {
+    url += '&published-min=' + new Date(cursor).toISOString(); }
+    window.bloggercomments = function(data) { var parsed = parse(data); cursor =
+    parsed.length < 50 ? null : parseInt(parsed[parsed.length - 1].timestamp) + 1
+    callback(parsed); window.bloggercomments = null; } url +=
+    '&callback=bloggercomments'; var script = document.createElement('script');
+    script.type = 'text/javascript'; script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script); } }; var hasMore =
+    function() { return !!cursor; }; var getMeta = function(key, comment) { if ('iswriter'
+    == key) { var matches = !!comment.author && comment.author.name == config.authorName
+    && comment.author.profileUrl == config.authorUrl; return matches ? 'true' : ''; } else
+    if ('deletelink' == key) { return config.baseUri + '/delete-comment.g?blogID=' +
+    config.blogId + '&postID=' + comment.id; } else if ('deleteclass' == key) { return
+    comment.deleteclass; } return ''; }; var replybox = null; var replyUrlParts = null; var
+    replyParent = undefined; var onReply = function(commentId, domId) { if (replybox ==
+    null) { // lazily cache replybox, and adjust to suit this style: replybox =
+    document.getElementById('comment-editor'); if (replybox != null) {
+    replybox.height = '250px'; replybox.style.display = 'block'; replyUrlParts =
+    replybox.src.split('#'); } } if (replybox && (commentId !== replyParent)) {
+    document.getElementById(domId).insertBefore(replybox, null); replybox.src =
+    replyUrlParts[0] + (commentId ? '&parentID=' + commentId : '') + '#' +
+    replyUrlParts[1]; replyParent = commentId; } }; var hash = (window.location.hash ||
+    '#').substring(1); var startThread, targetComment; if
+    (/^comment-form_/.test(hash)) { startThread =
+    hash.substring('comment-form_'.length); } else if (/^c[0-9]+$/.test(hash)) {
+    targetComment = hash.substring(1); } // Configure commenting API: var configJso = {
+    'maxDepth': config.maxThreadDepth }; var provider = { 'id': config.postId, 'data':
+    items, 'loadNext': paginator, 'hasMore': hasMore, 'getMeta': getMeta, 'onReply':
+    onReply, 'rendered': true, 'initComment': targetComment, 'initReplyThread':
+    startThread, 'config': configJso, 'messages': msgs }; var render = function() { if
+    (window.goog && window.goog.comments) { var holder =
+    document.getElementById('comment-holder');
+    window.goog.comments.render(holder, provider); } }; // render now, or queue to render
+    when library loads: if (window.goog && window.goog.comments) { render(); } else {
+    window.goog = window.goog || {}; window.goog.comments = window.goog.comments || {};
+    window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+    window.goog.comments.loadQueue.push(render); } })(); // ]]>
+
+    1 -
+
+    Image: http://img2.blogblog.com/img/b36-rounded.png English Corner 21 Januari
+    2010 07:02
+
+    please post the task not the article. ok
+
+    ms.tya Balas Hapus
+
+    
+
+Tambahkan komentar Muat yang lain...
+
+
+
+BLOG_CMT_createIframe('http://www.blogger.com/rpc_relay.html',
+'08308561199346107723'); Posting Lama Beranda Langganan: Poskan Komentar (Atom) Ada
+kesalahan di dalam gadget ini
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Ada kesalahan di dalam
+gadget ini
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Mengenai Saya
+
+
+
+    Image:
+    http://4.bp.blogspot.com/_zmPp9Gbwr_4/Sxr-83vkQZI/AAAAAAAAAEU/dJGBmLWJcFw/S220/Car_Tour_1_Drift_Nissan_S14_3.jpg
+
+        Yossy
+
+    
+
+Lihat profil lengkapku
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png   if
+(window.jstiming) window.jstiming.load.tick('widgetJsBefore'); if
+(typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'8630045044527541459';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d8630045044527541459','//musicjazzy.blogspot.com/2010/01/jazz.html','8630045044527541459');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'8630045044527541459', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Yossy',
+'pageType': 'item', 'url': 'http://musicjazzy.blogspot.com/2010/01/jazz.html',
+'canonicalUrl': 'http://musicjazzy.blogspot.com/2010/01/jazz.html',
+'canonicalHomepageUrl': 'http://musicjazzy.blogspot.com/', 'homepageUrl':
+'http://musicjazzy.blogspot.com/', 'blogspotFaviconUrl':
+'http://musicjazzy.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'Jazz', 'pageTitle': 'Yossy: Jazz', 'encoding': 'UTF-8', 'locale': 'in', 'isPrivate':
+false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Yossy - Atom\42
+href\75\42http://musicjazzy.blogspot.com/feeds/posts/default\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Yossy - RSS\42
+href\75\42http://musicjazzy.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Yossy - Atom\42
+href\75\42http://www.blogger.com/feeds/8630045044527541459/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\758630045044527541459\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42Yossy - Atom\42
+href\75\42http://musicjazzy.blogspot.com/feeds/742104222851437546/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'postImageThumbnailUrl':
+'http://4.bp.blogspot.com/_zmPp9Gbwr_4/S1b7oZESLKI/AAAAAAAAAGg/cZMblGWlvzM/s72-c/0511-0707-1915-4459_Jazz_Logo_clipart_image.jpg',
+'imageSrcTag': '\74link rel\75\42image_src\42
+href\75\42http://4.bp.blogspot.com/_zmPp9Gbwr_4/S1b7oZESLKI/AAAAAAAAAGg/cZMblGWlvzM/s72-c/0511-0707-1915-4459_Jazz_Logo_clipart_image.jpg\42
+/\76\n', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'textColor': '#634320', 'mainVisitedLinkColor':
+'#8f3213', 'sidebarVisitedLinkColor': '#ba742a', 'pageTitleFont': 'normal bold 200%
+Helvetica,Arial,Verdana,\47Trebuchet MS\47, Sans-serif', 'blogDescriptionFont':
+'normal normal 80% Helvetica,Arial,Verdana,\47Trebuchet MS\47, Sans-serif',
+'postTitleColor': '#ba8247', 'sidebarLinkColor': '#e2a059', 'mainLinkColor':
+'#bf4e27', 'sidebarHeaderColor': '#bd9e80', 'headerFont': 'normal bold 100%
+Helvetica,Arial,Verdana,\47Trebuchet MS\47, Sans-serif', 'bodyFont': 'normal normal
+100% Helvetica,Arial,Verdana,\47Trebuchet MS\47, Sans-serif',
+'blogDescriptionColor': '#fef6ee', 'dateHeaderColor': '#c8ab8f', 'endSide': 'right',
+'startSide': 'left', 'blogTitleColor': '#fef6ee'}, 'override': ''}}, {'name': 'view',
+'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard':
+{'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine',
+'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_GadgetView', new
+_WidgetInfo('Gadget1', 'sidebar', null, document.getElementById('Gadget1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ProfileView', new
+_WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_GadgetView', new
+_WidgetInfo('Gadget2', 'main', null, document.getElementById('Gadget2'), {},
+'displayModeFull'));
+

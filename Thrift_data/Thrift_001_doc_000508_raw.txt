@@ -1,0 +1,898 @@
+
+
+
+
+What Is That Orange Horse Thing in Mora? (function() { var cx =
+'016474116467456296202:zcdp2tq_pxi' var gcse = document.createElement('script');
+gcse.type = 'text/javascript'; gcse.async = true; gcse.src =
+(document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_logo.png?1348685588
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets0.ar-img.com/images/headers/ar_home_b_search.png?1348685588
+    var currentIndex = -1 var default_phrase = "Find Homes for Sale in your city"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets0.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348685588
+        Consumer
+
+        - Home Improvement
+
+        
+
+        - Home Buying
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Home Selling
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets0.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348685588
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  body { background: #734629
+url(/image_store/customizer/joslynpanka_background_27030_mintchocolate.jpg)
+repeat fixed center top; margin: 0; padding: 0; } table#blog_content { width: 960px; margin:
+0 auto; } td.blog_content_td { background: #ffffff; } #top_menu { border: none;
+background-color:#734629; background-image: none; } #top_menu li a, #top_menu li
+span.fake_menu_item { color: #83D790; text-shadow: none; } #top_menu .top_dropdown ul li
+a:hover { background: none !important; } #logo_wrapper { background: white; } #header {
+margin-top: 0; padding-top: 0; border: none !important; } .nav { margin: 0 !important;
+border-width: 0 !important; } #top_menu .top_dropdown { border: none;
+background-color:#734629; } #top_menu .top_dropdown a, #top_menu .top_dropdown
+.inner_menu_header { color:#83D790 !important; } #top_menu .top_dropdown
+.inner_menu_header { text-decoration: underline; } #top_menu .top_dropdown ul li a:hover
+{ background-color:#734629; font-weight: bold; } .top_dropdown { margin-top: 5px; } * html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * + html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * html
+.top_dropdown { margin-top: 3px; z-index: 1000; } * + html .top_dropdown { margin-top: 19px;
+z-index: 1000; } Home : Blogs : Joslyn Panka Solomon - Mora Minnesota - Minnesota's One Way
+Ticket to SOLD! : Joslyn's Central Minnesota Real Estate Blog .reblog { margin-left: 4px; }
+Tweet
+
+What Is That Orange Horse Thing in Mora?
+
+
+
+What a great question!
+
+First, I'll show you what Wikipedia says:
+
+"A Dalecarlian horse (Swedish: Dalahäst ) is a traditional wooden statuette of a horse
+originating in the Swedish province of Dalarna . In the older days the dala horse was mostly a
+toy for children, but nowadays it is used as a symbol for Dalarna or sometimes the whole of
+Sweden ."
+
+ 
+
+The Dala Horse was originally a toy, created by woodworkers for their children.  Most often
+they were made of scraps left over from the creation of clocks, since that was a primary source
+of income in that era.
+
+Horses were important, also, in that time period, and since so many relied on the horses, the
+wooden dala horses were a great toy for children. 
+
+Its roots are Swedish, and because Mora Minnesota is the sister town of Mora, Sweden, you will
+see many dala horses around our wonderful little town. 
+
+Why is it so important in Mora, and not other towns?  I'll quote  Wikipedia again.
+
+"The earliest references to wooden horses for sale are from 1623 -- nearly 400 years ago. The
+pattern of today is about 150 years old, and it reflects a style of painting known as kurbits . In
+the 19th century, Stickå-Erik Hansson from Mora introduced the technique of painting with
+two colours on the same brush, still used today. The Dalecarlian horse of today is still a
+handcrafted article, made of pine. At least nine different people contribute their skills to
+create each horse."
+
+Dala horse production flourished in the 1800's, and the horses were used as payment for
+household goods and groceries.  Decoration of the toys were of the utmost importance,
+because the most beautiful ones brought the most value. 
+
+The colors of our Dala Horses are very traditional, and our are based on Erik Hansson's
+original colors.  He was one of the most prominant Dala Horse painters in history.   
+
+Hopefully this will give you a little bit of insight into the history of "that orange donkey"
+(as I've heard so many people say),  a great piece of heritage and pride here in the Mora
+area. 
+
+ 
+
+
+
+Image: http://i114.photobucket.com/albums/n248/Josiemichelle/JoslynPanka.png
+
+
+
+ 
+
+For more information on real estate in the Mora Minnesota area, visit my website! 
+
+Joslyn Panka Solomon - Realtor
+
+Century 21 Moline Realty
+
+Looking for an East Central Minnesota home?  Start your search here and find the perfect
+property!  www.century21moline.com
+
+Friend me on facebook!  www.facebook.com/joslynsolomon
+
+ 
+
+    Posted by Joslyn Panka Solomon - Mora Minnesota - Minnesota's One Way Ticket to SOLD! on
+07/10/2007 03:57 PM   Comments (1)   mora minnesota , mora minnesota real estate , dala horse
+, kanabec county real estate , mora sweden   Generate short URL This post has been included in
+Minnesota Real Estate News Kanabec County, MN Real Estate News Mora, MN Real Estate News
+
+
+
+1 Comments on What Is That Orange Horse Thing in Mora? JUL 29 2008
+
+Best thing about it is that you learn about one of the well known wooden dala hors.  I am finding
+valuable information on Dala Horse  through this blog.
+
+http://www.swedsnus.com
+
+  Anders 4:33pm • #1 Notify me of new comments: Email:
+
+Image: /images/24-message-info.png What does the graphic say?
+
+Image: /plugin_assets/fruit_captcha/images/f119.gif Leave a response… var
+RecaptchaOptions = { theme : 'custom', custom_theme_widget: 'recaptcha_widget' };
+
+Name:
+
+Email:
+
+(optional) Comment: //<![CDATA[ tinyMCE.init( { mode:'exact', convert_urls: false,
+elements:'blog_comment_comment', theme:'advanced', plugins: 'spellchecker',
+theme_advanced_toolbar_location: 'top', theme_advanced_buttons1 : 'bold, italic,
+underline, strikethrough, justifyleft, justifycenter, justifyright, justifyfull,
+outdent,indent, bullist, numlist,preview,spellchecker', extended_valid_elements:
+'object[classid|codebase|width|height|align|embed|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata],param[name|value],embed[quality|type|pluginspage|width|height|src|align|wmode|flashvars|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata]',
+plugin_preview_width : '600', plugin_preview_height : '600', theme_advanced_buttons2 :
+'', theme_advanced_buttons3 : '', file_browser_callback : 'fileBrowserCallBack',
+spellchecker_rpc_url : '/action/spellcheck' }); //]]> Spam Prevention: Incorrect please
+try again Type the two words above Type the numbers you hear
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/sound.gif?1348685588
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/photo.gif?1348685588
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/reload.gif?1348685588
+Event.observe(window, 'load', initLazyLoad); function initLazyLoad() {
+$$("div.comment_image").each(function(e){ e.style.backgroundImage =
+"url("+e.getAttribute('imagesrc')+")" }) }   function contact(aid) { //documentation
+on this: http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/244/31244/large/Solomon_31.jpg?1299690781
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/rainmaker_large.png?1348685588
+
+Joslyn Panka Solomon - Mora Minnesota - Minnesota's One Way Ticket to SOLD!
+
+Mora , MN
+
+More about me…
+
+Century 21 Moline Realty
+
+Address: 202 South Main Street, Cambridge, MN, 55008
+
+Office Phone: (763) 689-3593
+
+Cell Phone: (612) 850-3153
+
+Email Me Welcome to Joslyn's blog. Feel free to comment, read, and visit regularly!
+Questions? Call or e-mail me anytime! .
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/minus.gif?1348685588
+Listings
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/minus.gif?1348685588
+Links
+
+
+
+    
+
+    - Join Active Rain Now!
+
+    
+
+    - Joslyn Panka on Twitter
+
+    
+
+    - Explore Minnesota - Camping, Fishing, and more!
+
+    
+
+    - Mora, Minnesota, Real Estate info and more!
+
+    
+
+    - Kanabec County Tax Records Online
+
+    
+
+    - The City Of Mora
+
+    
+
+    - Vasaloppet - Mora's Annual Ski Race
+
+    
+
+    - Kanabec History Center
+
+    
+
+    - Mora School District #332
+
+    
+
+    - Reservations - AmericInn Mora Minnesota
+
+    
+
+    - Ogilvie Public Schools
+
+    
+
+    - Studio One Portraits, Mora Minnesota
+
+    
+
+    - Caswell Cycle Mora Minnesota
+
+    
+
+    - Mora Minnesota on Wikipedia
+
+    
+
+    - Kanabec Systems - Computers, Technology, and More!
+
+    
+
+    - Historic Paradise Theater, Mora Minnesota
+
+    
+
+    - Like My Background? Get Your Own!
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/minus.gif?1348685588
+Archives
+
+
+
+    
+
+    - July 2011 (2)
+
+    
+
+    - April 2011 (1)
+
+    
+
+    - February 2011 (2)
+
+    
+
+    - October 2010 (1)
+
+    
+
+    - August 2010 (4)
+
+    
+
+    - May 2010 (1)
+
+    
+
+    - September 2009 (1)
+
+    
+
+    - July 2009 (3)
+
+    
+
+    - May 2009 (1)
+
+    
+
+    - April 2009 (2)
+
+    
+
+    - March 2009 (4)
+
+    
+
+    - February 2009 (4)
+
+    
+
+    - January 2009 (4)
+
+    
+
+    - December 2008 (12)
+
+    
+
+    - November 2008 (6)
+
+    
+
+    - October 2008 (1)
+
+    
+
+    - July 2008 (10)
+
+    
+
+    - June 2008 (3)
+
+    
+
+    - May 2008 (4)
+
+    
+
+    - April 2008 (10)
+
+    
+
+    - February 2008 (1)
+
+    
+
+    - January 2008 (9)
+
+    
+
+    - December 2007 (11)
+
+    
+
+    - November 2007 (9)
+
+    
+
+    - October 2007 (24)
+
+    
+
+    - September 2007 (19)
+
+    
+
+    - August 2007 (11)
+
+    
+
+    - July 2007 (45)
+
+    
+
+    - June 2007 (48)
+
+    
+
+    - May 2007 (42)
+
+    
+
+    - April 2007 (8)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find MN real estate agents and Mora real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/new_design/eho.gif?1348685588
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

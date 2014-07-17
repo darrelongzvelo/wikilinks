@@ -1,0 +1,1814 @@
+
+
+
+
+7-7-07 Lucky or Unlucky? (function() { var cx = '016474116467456296202:zcdp2tq_pxi' var
+gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async =
+true; gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_logo.png?1348685588
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets0.ar-img.com/images/headers/ar_home_b_search.png?1348685588
+    var currentIndex = -1 var default_phrase = "Find Homes for Sale in your city"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets0.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348685588
+        Consumer
+
+        - Home Improvement
+
+        
+
+        - Home Buying
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Home Selling
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets0.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348685588
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  body { background: #990000
+url(http://www.activeraincustomizer.com/img/444-background.jpg) repeat fixed
+center top; margin: 0; padding: 0; } table#blog_content { width: 960px; margin: 0 auto; }
+td.blog_content_td { background: #ffffff; } #custom_blog_header { display: block;
+background:#1C16A3
+url(/image_store/customizer/jeffmortgageman_header_17055_jeff_belongers_active_rain_header.jpg)
+no-repeat scroll left top; height: 130px; margin-top: 0px; } #top_menu { border: none;
+background-color:#CC3300; background-image: none; } #top_menu li a, #top_menu li
+span.fake_menu_item { color: #000080; text-shadow: none; } #top_menu .top_dropdown ul li
+a:hover { background: none !important; } #logo_wrapper { background: white; } #header {
+margin-top: 0; padding-top: 0; border: none !important; } .nav { margin: 0 !important;
+border-width: 0 !important; } #top_menu .top_dropdown { border: none;
+background-color:#CC3300; } #top_menu .top_dropdown a, #top_menu .top_dropdown
+.inner_menu_header { color:#000080 !important; } #top_menu .top_dropdown
+.inner_menu_header { text-decoration: underline; } #top_menu .top_dropdown ul li a:hover
+{ background-color:#CC3300; font-weight: bold; } .top_dropdown { margin-top: 5px; } * html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * + html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * html
+.top_dropdown { margin-top: 3px; z-index: 1000; } * + html .top_dropdown { margin-top: 19px;
+z-index: 1000; } Home : Blogs : Jeff Belonger-The FHA Expert - FHA Loans - FHA mortgages - USDA
+loans - VA Loans : Mortgage Knowledge at its BEST!!!! (Jeff Belonger) .reblog { margin-left:
+4px; } Tweet
+
+7-7-07 Lucky or Unlucky?
+
+
+
+
+
+Image: /image_store/uploads/9/4/6/1/1/ar118363862711649.gif
+
+ 
+
+How many of you have a lucky number? How many of you are true believers in the horseshoe. If you
+noticed the picture to the right, the horseshoe is facing down. Some believe that it needs to be
+pointing up so the luck doesn't fall out.
+
+This Saturday will be July 7th, 2007 which will show up as 7/7/07 . Believers are calling this
+day the Magnificent Seven because it could possibly be the luckiest day of the century. 
+
+They are talking about wedding chapels and casinos being busier than normal with an onslaught
+of fortune-seekers. People will be seeking positive vibes, betting on 777 , and gamblers will
+be enjoying 777 which is the top slot machine jackpot.
+
+ 
+
+    The number seven arises so often, you would be surprised on how many things will represent
+    the number 7 . Let's take a look. 
+
+    - The seven wonders of the World
+
+    
+
+    - The Seven Dwarfs
+
+    
+
+    - The Seven Deadly Sins
+
+    
+
+    
+
+    - Seven days of the week (each day named for one of the seven Roman gods
+
+    
+
+    
+
+    - Mickey Mantle wore the number 7
+
+    
+
+    - The Bible says that God rested on the seventh day
+
+    
+
+    - The earth has seven seas
+
+    
+
+
+
+And so much more.......
+
+ 
+
+But, there will be those that don't believe in this and that seven will not be all things to all
+people. For some, 7/7/07 is a day to look back, not forward.
+
+ 
+
+Overall.....   how many of you will be hitting the casinos?  How many will be getting
+married? It so happens, my lucky number is 7 . Will I strike it rich?  Just for the fact that I am
+10 miles from Atlantic City.  hhhhmmmm  And don't forget, shattering a mirror brings seven
+years of bad luck. Myself? It is more a mind over matter approach. What se thee?
+
+
+
+
+_____________________________________________________________________________________________________________________________
+
+ 
+
+ 
+
+
+
+Image: ../../image_store/uploads/8/1/1/8/1/ar128354219918118.jpg
+
+ 
+
+
+
+Image: ../../image_store/uploads/1/9/9/5/7/ar128354181275991.jpg     
+
+Image: ../../image_store/uploads/9/7/3/6/0/ar12835420506379.jpg
+
+
+                                                                            
+FOLLOW ME ON FACEBOOK
+
+ 
+
+ 
+
+- FHA Loans - USDA Loans - VA Loans -
+
+- Energy Efficient Mortgages - 
+
+- Conventional Loans - 203 k loans -
+
+- FHA Home Loans - Mortgages -
+
+ 
+
+Experience & Knowledge at its BEST !!!
+
+ 
+
+ 
+
+Follow me on:
+
+
+
+
+
+Image: /image_store/uploads/4/5/8/0/4/ar128570908640854.png
+
+ 
+
+
+______________________________________________________________________________________________________________
+
+For more information on FHA loans , please go to this link. The FHA Expert
+
+For important mortgage insight to watch for, please read : Consumers need to be aware of these
+Red Flags!
+
+
+
+Image: ../../image_store/uploads/9/4/3/2/2/ar128404332722349.jpg
+
+ 
+
+For information about FHA myths & FHA rumors , please read : FHA Myths & Rumors
+
+ 
+
+Copyright © 2011 by Jeff Belonger of Infinity Home Mortgage Company, Inc   Posted by Jeff
+Belonger-The FHA Expert - FHA Loans - FHA mortgages - USDA loans - VA Loans on 07/05/2007 08:33
+AM   Comments (31)   lucky numbers , 777 , horseshoe   Generate short URL
+
+31 Comments on 7-7-07 Lucky or Unlucky? JUL 05 2007
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/21b71b9f37edbedc44f411197b05e07357b2bf9f.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686621
+
+I had heard Saturday was 7-7-07. Well, I hate to gamble, so no casino's for me. I'm already
+married for 30 years in August. So I guess I'll just see how the day unfolds.
+
+Hey you forgot Chad Henne is Number 7 !! Go Blue !!! Missy Caulk-Ann Arbor-RealtorÂ® Ann
+Arbor Real Estate (Keller Williams-Ann Arbor) 8:36am • #1
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+Jeff - I had no plans for Saturday... but it seems now... maybe a trip to Atlantic City is in
+order... hey what do I have to lose...   Money you say... ehhh its mindless fun.   Thanks
+for the post and the "luck" reminder..  How about you?   Doing anything Luck related?
+Desiree Daniels (RE/MAX Tri County) 8:37am • #2
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685093
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685093
+
+Missy....  Yes, I forgot about Chad Henne....  soooo sorry. ;o)  He was good, but they had
+good receivers, right?  Which can make the QB better at times.
+
+Desiree....  right now, still down at the shore with my nieces and nephews and family.  We
+are leaving Saturday and it happens to be my nieces b-day. Not sure if I will get down there. 
+But good luck if you go. Jeff Belonger-The FHA Expert - FHA Loans - FHA mortgages - USDA loans - VA
+Loans ( Social Media - Infinity Home Mortgage Company, Inc) 8:43am • #3
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Don't know about the triple sevens being lucky but just in case I will get up at 7:07 a.m. on
+7-07-07! Gary L Waters PLLC- Broker Associate RealtorÂ® Melbourne Viera Rockledge FL
+(Serving Brevard Realty, Merritt Island) 8:49am • #4
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Saturday?
+
+Hehe..... I have a poker game. But doesn't that mean that everyone else is lucky too? Tom Burris
+| Texas Mortgage Dallas Mortgage FHA (DallasLoanGuy.com (214) 763-4629
+cell/text/nights/weekends) 9:18am • #5
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Jeff,
+
+How cool is that! I haven't given it much thought but I am attracted to the 7's! Good luck! :)
+Somerset MA Real Estate ~ Suzanne Sands (Pavao Real Estate) 9:20am • #6
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686621
+Our entire church has been on a 40 day fast (it doesn't have to be food) that ends on the 7th. We're
+having a big service Saturday night. And You Tube is having a huge get-together in New York this
+weekend for everyone who's really active there, to meet each other face-to-face. And I'm
+entered in a contest that ends on 7-7-07 also.  Seems everyone's cashing in on this one =) Lisa
+Hill (Daytona Beach Real Estate) (Florida Property Experts) 11:07am • #7
+
+Well - togetherness isn't so bad since everyone is betting the same number :^)
+
+http://en.wikipedia.org/wiki/Numbers_in_Chinese_culture
+
+Lucky numbers
+
+Lucky numbers are based on Chinese words that sound similar to other Chinese words. The
+numbers 6 , 8 , and 9 are believed to have auspicious meanings because their names sound similar
+to words that have positive meanings.
+
+
+
+[ edit ] One
+
+The number 1 Can represent unity. 168 being "to continue being prosperous" (see below).
+
+
+
+[ edit ] Two
+
+The number 2 (äºŒ, èr ) is a good number in Chinese culture. There is a Chinese saying "good
+things come in pairs". It is common to use double symbols in product brandnames, e.g. double
+happiness, double coin, double elephants etc. Cantonese speaking people like the number two
+because it sounds the same as the word "easy" (æ˜“) in Cantonese.
+
+
+
+[ edit ] Four
+
+The number 4 is considered lucky in some regions of China where it is homonymous in the local
+dialect to the word "äº‹" (job, business, or task). When the number 4 is encountered
+during a celebration, people would often remark "å››å››åŠ‚æ„�",
+which would also refer to "äº‹äº‹åŠ‚æ„�" (Everything done as wished);
+however, it is more commonly seen as bad luck in modern times, especially in dialects where its
+pronunciation is homonymic to the word "death" (æ­»).
+
+
+
+[ edit ] Six
+
+The number 6 , pronounced "liu", sounds like the word for "flowing", "smooth" or "slippery"
+which can mean "everything goes smoothly".
+
+The number 666 is considered one of the luckiest numbers. It can be seen prominently in many
+shop windows across the country, and people there often pay extra to get a mobile phone number
+including this string of digits. Coincidentally, that number is considered to be demonic in
+Western culture , as it is the Number of the Beast .
+
+License plate number AW6666 was bought for 272,000 yuan (US$34,000) in an auction by an
+anonymous bidder on behalf of a motorcycle dealership in Zengcheng, Guangzhou . [1]
+
+
+
+[ edit ] Seven
+
+The number 7 symbolizes "togetherness". This is shown in the Chinese mythology of Cowherd and
+Weaver Girl . The seventh day of the seventh month is The Night of Sevens .
+
+
+
+[ edit ] Eight
+
+The word for "eight" in Chinese ( Pinyin : bÄ�) sounds similar to the word which means
+"fortune", "prosper" or " wealth " ( å�‘ , Pinyin : fÄ�). In regional dialects the
+words for "eight" and "fortune" are also similar, eg Cantonese "baat" and "faat".
+
+There is also a resemblance between two digits, "88", and the shuang xi (å›� -- 'double
+joy'), a popular decorative design composed of two stylized characters å–œ ( xi , 'joy',
+'happiness').
+
+Some people also think that 8 can be associated with the symbol meaning infinity (an 8 turned 90
+degrees).
+
+Telephone number 8888-8888 was sold for USD $270,723 in Chengdu , China .
+
+The Summer Olympics in Beijing are scheduled to open on 8/8/08 at 8:08:08 p.m. [2]
+
+A man in Hangzhou offered to sell his license plate reading A88888 for 1.12 million yuan . [2]
+
+Dragon Fish Industry in Singapore , a breeder of rare Asian Arowanas (which are "lucky fish"
+themselves, and, being a rare species, are required to be microchipped ), makes sure to use
+numbers with plenty of eights in their microchip tag numbers, and appears to reserve
+particularly numbers especially rich in eights and sixes (e.g. 702088880006688) for
+particularly valuable specimens. [3] [4]
+
+
+
+[ edit ] Nine
+
+The number 9 (jiu) , sounds like the word for "longlasting" (ä¹… pinyin jiÇ”). 11:16am
+• #8
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/21e6146e6d58d44845c14df53012b05d033db2c4.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686979
+Who knows. My daughter was born on Friday the 13th ...25 years ago. And I claim that was a lucky
+day! Celeste "SALLY" Cheeseman, RA, CRS, HAWAII Real Estate & Relocations (Century 21
+Liberty Homes) 11:42am • #9
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/cfd6897ece0ce65b25f37d4a35cb171252c00107.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/21b71b9f37edbedc44f411197b05e07357b2bf9f.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+Well, I live kinda close to a casino or two.  One that I know of is having something special on
+7-7-07 - a drawing for $7,777 cash.  Plus they have Bingo and they are having some special
+prizes on that day too.  Might have to put AR down for a day or at least until I come back.
+
+I know Sunday I will reach my 100th post and I am definitely going to be here at AR to celebrate. 
+I would do my 2 remaining posts today or tomorrow but I will only get 18 points for them because I
+have used up my week's allowance.  So I will wait.  I already have the posts written.  Am I
+good or what????
+
+SO I am asking early.... I need readers and comments for my celebration. plz Rosemary
+Brooks-The Mother & Daughter Realty Team (EMBARCADERO Investments - 866-543-0461) 11:54am
+• #10
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685093
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685093
+
+Gary.....    well, that's a start. Maybe it will get better throughout the day.
+
+
+
+Tom....   I would guess that someone would have to lose. Just put a bunch of 7's in your
+pockets.  ;o)
+
+
+
+Suzanne... .  that's cool, because I have two lucky numbers and 7 is one of them. I guess time
+will tell.
+
+
+
+Lisa..... this sounds interesting. I just hope it didn't have to be food, that would be tough
+for me. ;o)
+
+Overall, yes, it seems like so many are cashing in on this.  thanks for sharing... 
+
+Rob.....    thanks for all of that information. I'll have to take a look at it later this
+evening.
+
+Sally.... . that could still be lucky. Again, everyone has their different days, lucky
+charms, etc etc.
+
+
+
+Rosemary....   there are several around here having prizes of $7,777 and $777. In regards to
+your 100th post coming up, congrats. I'll keep an eye out for it. Jeff Belonger-The FHA Expert -
+FHA Loans - FHA mortgages - USDA loans - VA Loans ( Social Media - Infinity Home Mortgage
+Company, Inc) 12:14pm • #11
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Hey Jeff, I try and be optimistic but i just don't think it will work :0)
+
+So much for being funny, I think it's time I retire,my jokes are lacking humor :0)
+
+Nice post though, I think i'll play the lottery...
+
+ 
+
+Tom Weiss Thomas Weiss (Thomas R. Weiss) 12:38pm • #12
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685093
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685093
+Thomas.... . so, going to give up the comical side?   That might be good.... ;o)  In any
+case, good luck with playing the lottery on Saturday.
+
+Jeff Belonger-The FHA Expert - FHA Loans - FHA mortgages - USDA loans - VA Loans ( Social Media -
+Infinity Home Mortgage Company, Inc) 2:37pm • #13
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+ok, so you convinced my. i got $1 on a paly three lottery ticket.. 777 it is! :) Nick M
+-RealtorÂ®-Appraiser in West Palm- South Florida Real Estate Appraiser (Certified
+Residential Appraiser- West Palm Beach Real Estate) 3:43pm • #14
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+I was just telling Peggy Edwards on her post that my birthday is 6-6-69.  It's a lucky
+number.  Just don't watch The Omen with me.   Sarah Cooper (Real Estate Shows) 3:46pm • #15
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+Jeff - Fun post.  In scripture, seven is the number of completion.  God rested on the seventh
+day after creating the world.  Wonder what God does for rest?  Hmmm, never thought about
+that one before. Laguna Homes|Laguna Condos| Laguna Real Estate|Marlene Bridges (Village
+Real Estate Services, Inc.) 7:35pm • #16
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/cfd6897ece0ce65b25f37d4a35cb171252c00107.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/21b71b9f37edbedc44f411197b05e07357b2bf9f.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+Jeff found something for you.
+
+
+
+Image: /image_store/uploads/6/8/3/3/4/ar118368248443386.jpg
+
+See you at my post party celebration (100th post) on Sunday! I'm so excited!
+
+Hope I get some comments that day. (smile) Rosemary Brooks-The Mother & Daughter Realty Team
+(EMBARCADERO Investments - 866-543-0461) 7:42pm • #17 I might play 777 myself.  I do
+believe that 7 is a powerful number and triple 7's is a divine connotation.   Treci
+Cauthen (Metro Brokers/GMAC Real Estate) 7:56pm • #18
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Jeff,
+
+I'll have to buy a lottery ticket on Saturday.....  07/07/07 will be a luckier day than last
+year's 06/06/06.
+
+Thanks for the post....I never realized how significant the number 7 is. 
+
+  Harold Watts' Palm Springs Real Estate Blog (Scott Lyle Realtors) 7:58pm • #19
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Hey Jeff,
+
+If I win the lottery I am buying you something, I don't know exactly what, but something :0)
+
+Good night..
+
+Tom Weiss Thomas Weiss (Thomas R. Weiss) 9:56pm • #20
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/cfd6897ece0ce65b25f37d4a35cb171252c00107.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/21b71b9f37edbedc44f411197b05e07357b2bf9f.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+I didn't know 7 was that powerful either.  I just might have to change my 100 post party to
+07-07-07 so that I can get some more luck in my life.  I consider luck blessings so I should say
+blessings.
+
+Stay tuned because there just may be a post party schedule change.  Which means I have 1 more
+post to go and I just might have to give up the 200 points (and get something like 18) because this
+of all weeks is the week I have done my 10 postings and that is the limit.   Stay tuned.
+
+
+
+Image: /image_store/uploads/5/8/9/6/7/ar118369075576985.jpg  
+
+  Rosemary Brooks-The Mother & Daughter Realty Team (EMBARCADERO Investments -
+866-543-0461) 9:59pm • #21 JUL 06 2007
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/31c0417b26cd6f5e946c2056e1bcbb328d041df4.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+too funny you would write about this - I remember 7/7/77 - just can not remember if I went to a
+Dodger game or watched it on TV if they were at home I went - but - my step dad always loved numbers
+and he said it was my number since I was 7 lbs 7 oz when I was born... Thesa Chambers, Principal
+Broker Licensed in Oregon, with (Alpine Real Estate) 1:40am • #22
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685093
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685093
+
+Nick....   good luck with that $1, I'll be cheering for you.
+
+
+
+Sarah....  I'll remember that, thanks for the warning.  ;o)
+
+
+
+Marlene.... . not sure, I haven't had time to ask him. ;o)   But it is an interesting thought
+which I did not think of until you mentioned it.  
+
+Rosemary.... wow, three 7's, thanks. And I'll check in on that 100th.
+
+Treci.... . as I mentioned, it so happens to be my lucky number. Well, I have 2...   3 & 7.
+
+Harold.....   there was a lot more to this of what the number 7 represents. But the post would
+have been twice as long. Thanks for stopping by.
+
+
+
+Thomas.....   hey, when someone gives me something, I am just grateful. But how will I know if
+you win.  lol
+
+
+
+Rosemary.....  I am staying tuned. I'll be watching....
+
+
+
+Thesa....   do you have a time machine?  Was that 2077 or 1977?  lol   Seriously though,
+it seems that you have a few lucky numbers in there also Jeff Belonger-The FHA Expert - FHA Loans
+- FHA mortgages - USDA loans - VA Loans ( Social Media - Infinity Home Mortgage Company, Inc)
+7:35am • #23
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+hey Jeff.. i went to play and go sidetracked with the 'sure thing' and got a candy bar instead.
+i'll try again later :) Nick M -RealtorÂ®-Appraiser in West Palm- South Florida Real Estate
+Appraiser (Certified Residential Appraiser- West Palm Beach Real Estate) 7:57am • #24 JUL
+07 2007
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/cfd6897ece0ce65b25f37d4a35cb171252c00107.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+I am going to go out for my run and only run 7.7 miles.  I will then take 7 hits off of my inhaler and
+wish I had 7 more hours of sleep than I actually had this week.  I will end this day by having
+sitting on the 7th chair at the bar at Tommy Bahama, in Naples, Florida.  I will fall asleep at
+11:07 p.m. Chris Elizabeth Griffith ~ Bonita Springs Fl Real Estate (Downing-Frye Realty,
+Bonita Springs, FL) 5:06am • #25
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/cfd6897ece0ce65b25f37d4a35cb171252c00107.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/21b71b9f37edbedc44f411197b05e07357b2bf9f.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+Jeff, the party is all set up on Mother and Daughter blog, check us out. For this lucky day....
+I will celebrate my milestone with as many ARs as come.  I will also go play Bingo at the
+casino.... uh oh did I say thatJ??? yes and I will hope to see the
+
+Image: /image_store/uploads/7/4/0/4/0/ar118380383904047.jpg  and win some money
+honey.  I will also enter the drawing that will pay one lucky winner $7,777 and I want that
+winner to be me. 
+
+I hope to see you at my celebration later.  And thank you for letting me share it on your blog. 
+Bring something, surprise me! smile
+
+Enjoy your day. Rosemary Brooks-The Mother & Daughter Realty Team (EMBARCADERO Investments
+- 866-543-0461) 5:25am • #26
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+At the very least, it makes for some fun dialogue back and forth.  I believe it was Thomas
+Jefferson who said, "I believe very much in luck, and I find that the harder I work, the more I
+have of it" (or something to that effect)
+
+A lot of time, your luck is a state of mind and what you make of it.  It will be interesting to see
+how many people bet the farm on 777. Steven Shewell, The Mortgage Maverick (Primary
+Residential Mortgage, Inc.) 6:49am • #27
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685093
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685093
+
+Nick.....  yummy.  lol  Well, good luck with that dollar later.
+
+
+
+Chris....  how funny. It's so nice to see your true colors shine. When you are on that 7th bar
+stool, don't forget to have a Seagram's 7 drink and then take a 7 minute cat nap...  lol
+
+
+
+Rosemary.... .  as I stated before, I will check it out. thanks  And good luck with your
+drawing.
+
+
+
+Steven.....   I agree with some of what Thomas Jefferson has said. Even those that are good
+or great always needs some luck. Jeff Belonger-The FHA Expert - FHA Loans - FHA mortgages - USDA
+loans - VA Loans ( Social Media - Infinity Home Mortgage Company, Inc) 12:17pm • #28
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/cfd6897ece0ce65b25f37d4a35cb171252c00107.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+I was thinking there was some sort of drink, but I couldn't remember.  LOL  I already had the
+nap!  Chris Elizabeth Griffith ~ Bonita Springs Fl Real Estate (Downing-Frye Realty,
+Bonita Springs, FL) 12:28pm • #29 JUL 08 2007
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685093
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685093
+
+Chris......    well, you remember now.  ;o)
+
+ 
+
+So...any stories to tell? Anyone win any money?  Me?  I just went home after the shore and my
+vacation yesterday. Oh well......    Jeff Belonger-The FHA Expert - FHA Loans - FHA
+mortgages - USDA loans - VA Loans ( Social Media - Infinity Home Mortgage Company, Inc) 3:07pm
+• #30
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/cfd6897ece0ce65b25f37d4a35cb171252c00107.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/21b71b9f37edbedc44f411197b05e07357b2bf9f.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+Jeff, I promised I'd let you know if 7-7-07 was a lucky day for me. 
+
+    Except for (THIS IS IMPORTANT) : the blessing of getting up and in good health and finding
+    my family and friends all in good health and in tack, I had my "pretend party" and I also went
+    to the casino near me.
+
+    - we rode the bus for only $5 with a $10 off the bingo game- return upon arrive.  Well we
+    arrived and got that $10. Plus I won the raffle on the bus and got an additional whopping $5
+    off my bingo
+
+    
+
+    - All was going great up to this point, until we got to the bingo and found out they had ran out
+    of machines and I had to purchase paper (which means you do alot of dobbing or is it
+    bobbing)  So I wasn't going to go sit in the bus and wait for everyone that got a machine to
+    come out so I purchased the paper.
+
+    
+
+    - Then.... no seats available or so it seemed until I spotted a lady with a seat for her
+    purse.  I kindly asked her if I could use the seat and the look she gave me wasn't nice....
+    not at all
+
+    
+
+    - Then the game begin... none of my numbers came up.  In a death lineup that would be great
+    but at bingo that is not good.
+
+    
+
+    - After I gave up and realized I wasn't winning a dime in bingo, I gathered my nerves and
+    headed for a 777 machine.  Oh did I forget to tell you that there were more people there
+    than machines by at least 5 times??? so no machine to sit at.  Had to stand for what seemed
+    like a lifetime, just to see if I was going to be lucky and win something.  I finally got a
+    machine and got down to a low $$ amount (so low I can't print it) and WHAM! the machine heated
+    up..... HOWEVER....
+
+    
+
+
+
+it was time for my bus to leave.
+
+So in summary.  Was 7-7-07 lucky day for me.  YES, I'm still living. I TOLD YOU THE
+EXCEPTION WAS IMPORTANT.     lol
+
+  Rosemary Brooks-The Mother & Daughter Realty Team (EMBARCADERO Investments -
+866-543-0461) 3:26pm • #31 Notify me of new comments: Email:
+
+Image: /images/24-message-info.png What does the graphic say?
+
+Image: /plugin_assets/fruit_captcha/images/f190.gif Leave a response… var
+RecaptchaOptions = { theme : 'custom', custom_theme_widget: 'recaptcha_widget' };
+
+Name:
+
+Email:
+
+(optional) Comment: //<![CDATA[ tinyMCE.init( { mode:'exact', convert_urls: false,
+elements:'blog_comment_comment', theme:'advanced', plugins: 'spellchecker',
+theme_advanced_toolbar_location: 'top', theme_advanced_buttons1 : 'bold, italic,
+underline, strikethrough, justifyleft, justifycenter, justifyright, justifyfull,
+outdent,indent, bullist, numlist,preview,spellchecker', extended_valid_elements:
+'object[classid|codebase|width|height|align|embed|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata],param[name|value],embed[quality|type|pluginspage|width|height|src|align|wmode|flashvars|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata]',
+plugin_preview_width : '600', plugin_preview_height : '600', theme_advanced_buttons2 :
+'', theme_advanced_buttons3 : '', file_browser_callback : 'fileBrowserCallBack',
+spellchecker_rpc_url : '/action/spellcheck' }); //]]> Spam Prevention: Incorrect please
+try again Type the two words above Type the numbers you hear
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/sound.gif?1348685588
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/photo.gif?1348685588
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/reload.gif?1348685588
+Event.observe(window, 'load', initLazyLoad); function initLazyLoad() {
+$$("div.comment_image").each(function(e){ e.style.backgroundImage =
+"url("+e.getAttribute('imagesrc')+")" }) }   function contact(aid) { //documentation
+on this: http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/218/8218/large/Jeff_Belonger_DC_another_same_with_background_10-10-09_HD_Active_Rain_pic.jpg?1284334192
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/ambassador_large.png?1348685588
+
+Jeff Belonger-The FHA Expert - FHA Loans - FHA mortgages - USDA loans - VA Loans
+
+Cherry Hill , NJ
+
+More about me…
+
+Social Media - Infinity Home Mortgage Company, Inc
+
+Address: Cherry Hill New Jersey 08034 08002 08003, Haddon Heights New Jersey 08035,
+Haddonfield, NJ, 08033
+
+Cell Phone: (609) 440-5133
+
+Email Me
+
+
+
+Image: http://c36.statcounter.com/3246372/0/6cc2d7f9/0/
+
+
+
+Image: http://badge.facebook.com/badge/1073916250.215.12736418.png
+
+
+
+Subscribe to Mortgage Knowledge at its BEST!!!! (Jeff Belonger)
+
+I just want to educate people about mortgages and the process. In regards to lending, I am very
+creative, intuitive, honest, and one who communicates information, may it be good or bad. I am
+a loan officer that looks out for your best interest.
+
+
+
+
+
+
+
+The FHA Expert - About Mortgages on Facebook
+
+
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/minus.gif?1348685588
+Listings
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/minus.gif?1348685588
+Links
+
+
+
+    
+
+    - All About Philadelphia - MyPhillyAlive
+
+    
+
+    - The FHA Expert
+
+    
+
+    - Information on FHA programs
+
+    
+
+    - Different mortgage options!!!
+
+    
+
+    - Jeff Belonger's Controversial Posts
+
+    
+
+    - Mortgage Myths - Educating Mortgage Posts - The Mortgage Myth Busters
+
+    
+
+    - Agent Genius
+
+    
+
+    - Mortgages Unzipped @ Zillow
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/minus.gif?1348685588
+Archives
+
+
+
+    
+
+    - June 2012 (1)
+
+    
+
+    - December 2011 (2)
+
+    
+
+    - October 2011 (2)
+
+    
+
+    - September 2011 (3)
+
+    
+
+    - July 2011 (2)
+
+    
+
+    - June 2011 (7)
+
+    
+
+    - May 2011 (5)
+
+    
+
+    - April 2011 (6)
+
+    
+
+    - March 2011 (22)
+
+    
+
+    - February 2011 (22)
+
+    
+
+    - January 2011 (30)
+
+    
+
+    - December 2010 (38)
+
+    
+
+    - November 2010 (18)
+
+    
+
+    - October 2010 (35)
+
+    
+
+    - September 2010 (30)
+
+    
+
+    - August 2010 (11)
+
+    
+
+    - July 2010 (20)
+
+    
+
+    - June 2010 (12)
+
+    
+
+    - May 2010 (4)
+
+    
+
+    - April 2010 (4)
+
+    
+
+    - March 2010 (5)
+
+    
+
+    - February 2010 (15)
+
+    
+
+    - January 2010 (12)
+
+    
+
+    - December 2009 (1)
+
+    
+
+    - October 2009 (12)
+
+    
+
+    - September 2009 (18)
+
+    
+
+    - August 2009 (11)
+
+    
+
+    - July 2009 (8)
+
+    
+
+    - June 2009 (10)
+
+    
+
+    - May 2009 (22)
+
+    
+
+    - April 2009 (9)
+
+    
+
+    - March 2009 (13)
+
+    
+
+    - February 2009 (31)
+
+    
+
+    - January 2009 (21)
+
+    
+
+    - December 2008 (23)
+
+    
+
+    - November 2008 (20)
+
+    
+
+    - October 2008 (22)
+
+    
+
+    - September 2008 (20)
+
+    
+
+    - August 2008 (19)
+
+    
+
+    - July 2008 (6)
+
+    
+
+    - June 2008 (16)
+
+    
+
+    - May 2008 (29)
+
+    
+
+    - April 2008 (25)
+
+    
+
+    - March 2008 (19)
+
+    
+
+    - February 2008 (32)
+
+    
+
+    - January 2008 (32)
+
+    
+
+    - December 2007 (32)
+
+    
+
+    - November 2007 (30)
+
+    
+
+    - October 2007 (6)
+
+    
+
+    - September 2007 (9)
+
+    
+
+    - August 2007 (43)
+
+    
+
+    - July 2007 (37)
+
+    
+
+    - June 2007 (40)
+
+    
+
+    - May 2007 (21)
+
+    
+
+    - April 2007 (29)
+
+    
+
+    - March 2007 (35)
+
+    
+
+    - February 2007 (33)
+
+    
+
+    - January 2007 (34)
+
+    
+
+    - December 2006 (27)
+
+    
+
+    - November 2006 (27)
+
+    
+
+    - October 2006 (30)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find NJ real estate agents and Cherry Hill real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/new_design/eho.gif?1348685588
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

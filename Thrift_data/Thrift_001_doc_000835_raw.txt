@@ -1,0 +1,1901 @@
+
+
+
+
+Oak Park and Red Oak Neighborhoods, Blaine Minnesota, Reference and General Info
+(function() { var cx = '016474116467456296202:zcdp2tq_pxi' var gcse =
+document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/headers/ar_home_logo.png?1348686621
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_b_search.png?1348686621
+    var currentIndex = -1 var default_phrase = "Home Listings by City"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686621
+        Consumer
+
+        - Home Buying
+
+        
+
+        - Home Improvement
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Home Selling
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686621
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  body { background: #010208 ; margin: 0; padding: 0; } table#blog_content { width: 960px;
+margin: 0 auto; } td.blog_content_td { background: #ffffff; } #custom_blog_header {
+display: block; background:#000000
+url(/image_store/customizer/navelinski_header_37261_minneapolis_mn_reo_specialist_real_estate_homes_for_sale_header_4.jpg)
+no-repeat scroll left top; height: 130px; margin-top: 0px; } #top_menu { border: none;
+background-color:#000708; background-image: none; } #top_menu li a, #top_menu li
+span.fake_menu_item { text-shadow: none; } #top_menu .top_dropdown ul li a:hover {
+background: none !important; } #logo_wrapper { background: white; } #header { margin-top:
+0; padding-top: 0; border: none !important; } .nav { margin: 0 !important; border-width: 0
+!important; } #top_menu .top_dropdown { border: none; background-color:#000708; }
+#top_menu .top_dropdown a, #top_menu .top_dropdown .inner_menu_header { } #top_menu
+.top_dropdown .inner_menu_header { text-decoration: underline; } #top_menu
+.top_dropdown ul li a:hover { background-color:#000708; font-weight: bold; }
+.top_dropdown { margin-top: 5px; } * html ul.top_level_menu { display: inline-block;
+position: relative; z-index: 1000; } * + html ul.top_level_menu { display: inline-block;
+position: relative; z-index: 1000; } * html .top_dropdown { margin-top: 3px; z-index: 1000;
+} * + html .top_dropdown { margin-top: 19px; z-index: 1000; } Home : Blogs : PATTI ANN KASPER,
+Blaine & North Metro Minneapolis St Paul Real Estate Resource : Blaine & North Metro
+Minneapolis Twin Cities Homes for Sale MN & member of MLS .reblog { margin-left: 4px; } Tweet
+
+Oak Park and Red Oak Neighborhoods, Blaine Minnesota, Reference and General Info
+
+
+
+
+
+Image: http://activerain.com/image_store/uploads/4/7/5/8/6/ar120450968368574.jpg
+Welcome to Blaine , Minnesota
+
+
+
+A booming business and residential community, Blaine is one of the Twin Cities' largest and
+fastest growing communities. From 2002-2006 Blaine had 3,774 new housing units constructed
+in the city, the most in Minnesota. This north metro 34-square-mile city has become a viable
+business and residential area. Blaine is also the home of Minnesota's Olympic-class
+facility; the National Sports Center (NSC), an athletic facility designed for training,
+competition and accommodating a variety of activities and events. The NSC hosts the USA Cup,
+the world's second largest youth soccer tournament each July. Also the NSC has the Schwann's
+Super Rink, eight Olympic sized ice sheets under one roof. The NSC draws over 4 million people
+to Blaine each year. Blaine is home to the TPC of the Twin Cities, a private 18-hole
+professional golf course, designed and owned by the PGA. This course is home to the 3M
+Champion's Tour held each August.
+
+
+
+Blaine History:
+
+
+
+
+
+Image: http://activerain.com/image_store/uploads/5/5/6/7/9/ar120450987797655.jpg
+Until 1877 Blaine was considered to be part of the city of Anoka, Minnesota .  Phillip Laddy, a
+native of Ireland , is recognized as the first settler in Blaine. He settled near the lake that
+now bears his name, Laddie Lake, in 1862 . Laddy died shortly after his arrival and his
+survivors moved on to Minneapolis . He was followed by Englishman George Townsend, who lived
+for a short time in the area of Lever St. and 103rd Ave.
+
+
+
+It was not until 1865 that Blaine's first permanent resident, Green Chambers, settled on the
+old Townsend claim. Chambers was a former slave who moved north from Barren County, Kentucky ,
+following the Civil War . In 1870 George Wall, Joseph Gagner, and some others settled in the
+area and it began to grow.
+
+
+
+In 1877 Blaine separated from Anoka and organized as a Township of its own. That year the first
+election was held and Moses Ripley was elected as the first Chairman of the Board of
+Supervisors. Ripley, who had come to Minnesota from Maine, persuaded his fellow Board
+Members to name the new Township in honor of James G. Blaine , a senator and three-time
+presidential candidate from Maine. By the year 1880 Blaine's population had reached 128.
+
+
+
+While many of the other communities in Anoka County experienced growth due to farming,
+Blaine's sandy soils and abundant wetlands discouraged would-be farmers and it remained a
+prime hunting area. Blaine's growth remained slow until after World War II when starter home
+developments began to spring up in the southern part of town.
+
+
+
+Image: http://activerain.com/image_store/uploads/2/9/2/5/9/ar120451004095292.jpg
+
+Blaine's population went from 1,694 in 1950 to 20,640 in 1970 . As the Minneapolis/St. Paul
+area began to enjoy rapid growth, Blaine's wide open spaces became attractive to many people
+looking for the suburban life style just a short distance from both downtown Minneapolis and
+St. Paul. Its population in 2005 is estimated to be 54,020. [1]
+
+
+
+With the development of Interstate 35-W , State Hwy. 65 , and U.S. Route 10 , Blaine's
+accessibility to the twin cities was greatly increased. Because of this, Blaine has become a
+very attractive location for business and residential development. Blaine has attracted
+many new corporate residents, such as the Aveda Corporation , MagnetStreet and Dayton Rogers
+Manufacturing. Blaine is also home to the National Sports Center, an Olympic class training
+facility, as well as home to a TPC golf course.
+
+
+
+
+
+Demographics and Reference Information:
+
+
+
+Population (year 2005): 54,020
+
+Major Employers
+
+Products/Services
+
+Employee Count
+
+Aveda Corporation
+
+Scientific Research & Development Services
+
+450
+
+General Pattern
+
+Other Fabricated Metal Product Manufacturing
+
+170
+
+National Sports Center
+
+Promoters of Performing Arts, Sports, & Similar Events
+
+137
+
+Carley Foundry Inc
+
+Foundries
+
+130
+
+Bermo Inc
+
+Scientific Research & Development Services
+
+120
+
+Parker Hannifin Corp.
+
+Miscellaneous Durable Goods Merchant Wholesalers
+
+102
+
+Dayton Rogers Mfg Co
+
+Scientific Research & Development Services
+
+101
+
+Advance Tool Inc
+
+Machine Shops;Turned Prod.;& Screw,Nut & Bolt Mfg.
+
+100
+
+John's Auto Parts
+
+Auto Parts & Accessories Stores
+
+96
+
+Excel Dental Studios, Inc.
+
+Medical Equipment & Supplies Manufacturing
+
+90
+
+Arrow Cryogenics Inc
+
+Coating, Engraving, Heat Treating & Allied Activities
+
+80
+
+Sunrise Packaging, Inc
+
+Resin, Synth. Rubber & Art. Synth. Fibers & Fil. Mfg.
+
+70
+
+Earle M. Jorgensen Co.
+
+Support Activities for Mining
+
+68
+
+Turfco Manufacturing Inc
+
+Machinery, Equipment, & Supplies Merchant Wholesalers
+
+65
+
+Green Lights Recycling, Inc.
+
+Miscellaneous Durable Goods Merchant Wholesalers
+
+60
+
+Utility Type
+
+Utility Name
+
+Utility Phone
+
+Contact
+
+Contact Phone
+
+Electricity 
+
+Connexus Energy  
+
+763-323-2719 
+
+Duane Arens 
+
+763-323-2719 
+
+Electricity 
+
+Xcel Energy  
+
+800-895-4999 
+
+Cusomer Service 
+
+800-895-4999 
+
+Natural Gas 
+
+CenterPoint Energy/Minnegasco  
+
+800-269-1114 
+
+Arne Hendrickson 
+
+(612) 321-5375 
+
+Wastewater 
+
+Blaine Public Services  
+
+763-785-6123 
+
+Bob Therres 
+
+763-785-6123 
+
+Water 
+
+Blaine Public Utilities  
+
+763-784-6700 
+
+Mike Ulrich 
+
+763-785-6166 
+
+
+
+Water Information
+
+Water Source:
+
+Wells
+
+Storage Capacity:
+
+8,000,000 gal.
+
+Pumping Capacity:
+
+15,400 gal./minute
+
+Average Demand:
+
+3,950,000 gal./day
+
+Peak Demand:
+
+15,273,000 gal./day
+
+Total Water Hardness:
+
+185 ppm
+
+Industrial Water Rate:
+
+No base chg.; $1.06/1,000 gal. < 50,000 gal./month
+
+
+
+Wastewater Information
+
+Treatment Type:
+
+Mechanical Plant
+
+Capacity of Plant:
+
+251,000,000 gal./day
+
+Average Demand:
+
+220,000,000 gal./day
+
+Peak Demand:
+
+0 gal./day
+
+Usage Charge:
+
+Base chg. $14.90; $2.55/1,000 gal. of water > 5,83
+
+Newspapers Information
+
+Newspaper Name
+
+Telephone
+
+Frequency
+
+Blaine Life
+
+763-421-4444
+
+Weekly
+
+Minneapolis StarTribune
+
+612-673-4000
+
+Daily
+
+St. Paul Pioneer Press
+
+651-222-5011
+
+Daily
+
+Blaine/Spring Lake Park Focus
+
+651-633-3434
+
+Weekly
+
+Air Service Information
+
+ 
+
+International
+
+Local Regional
+
+Name
+
+Mpls./St. Paul Intl. Airport
+
+Anoka Co.-Blaine Airport
+
+Location
+
+Bloomington
+
+Blaine
+
+Miles to
+
+20
+
+0
+
+Longest Runway Length
+
+10,000 Feet
+
+4,855 Feet
+
+Surface Type
+
+Paved
+
+Paved
+
+Lighted
+
+Yes
+
+Yes
+
+Customs
+
+Yes
+
+No
+
+Service Type
+
+Charter, Commercial, Freight, Jet
+
+Charter, Freight, Jet
+
+Navigational Aids
+
+BEACON, DME, ILS, VOR/DME
+
+BEACON, VOR/DME
+
+Weather Info Systems
+
+AWOSA/MNWAS, SAWRS
+
+AWOSA/MNWAS, AWOSIII, PUBLICTV, SAWRS
+
+Major Airlines
+
+American, Continental, Delta, Northwest, TWA, United Airlines, US Air
+
+ 
+
+ 
+
+Additional Commercial Transportation Providers
+
+
+
+Transportation Type
+
+Provider Name
+
+Phone
+
+Air
+
+Anoka Air Charter
+
+763-783-1866
+
+Air
+
+Cirrus Flight Operations
+
+763-784-6614
+
+Air
+
+Crossroads Aviation
+
+763-783-1866
+
+Air
+
+Lewis Truck Lines
+
+701-282-5330
+
+Air
+
+Old Dominion Freight Line
+
+763-786-6335
+
+Truck
+
+Manning Transfer
+
+763-784-4022
+
+Truck
+
+Overnite Transportation
+
+763-780-9800
+
+Truck
+
+United Trailer Leasing
+
+763-786-3345
+
+ 
+
+Housing & Commercial Activity
+
+
+
+Housing Information
+
+Single Family Units:
+
+12,400
+
+Percentage Owner Occupied:
+
+90
+
+Multiple Family Units:
+
+3,453
+
+Median Sales Price:
+
+$225,000.00
+
+Mobile Homes:
+
+2,332
+
+Median Assessed Value:
+
+- - -
+
+Number of Units Built Since Last Census:
+
+Median Rent:
+
+$650
+
+ 
+
+Number of Residential Building Permits for 2004:
+
+649
+
+Vacancy Rate:
+
+2
+
+Value of Residential Building Permits for 2004:
+
+$130,000,000
+
+ 
+
+ 
+
+Source: Met Council/Blaine Bldg Department
+
+Commercial Activity Information
+
+Number of Commercial Building Permits for 2004:
+
+1,503
+
+Value of Commercial Building Permits for 2004:
+
+$36,900,000
+
+  Retail Sales Information
+
+Year
+
+Community Sales
+
+County Sales
+
+2004
+
+$834,951,664
+
+$3,280,021,063
+
+2003
+
+$710,096,987
+
+$3,063,346,188
+
+2000
+
+$580,816,433
+
+$2,570,893,149
+
+Source: MN Dept. of Revenue
+
+Library Information
+
+Name
+
+Phone
+
+Internet Access
+
+Anoka County Library Northtown
+
+763-717-3267
+
+Yes
+
+Johnsville Branch Library
+
+763-767-3853
+
+Yes
+
+ 
+
+Education
+
+Post-Secondary Information
+
+
+
+Nearest Technical College & Specialty
+
+Location
+
+Miles To
+
+Anoka Technical College
+
+Anoka
+
+8
+
+Graduates of ATC have a long track record of landing great jobs. In recent years, graduates of
+our Electronics program have been recruited by companies offering $45,000 in base salary,
+profit sharing and stock options. Graduates of our Machine Trades program have reported
+salaries of $40,000 and up. Air Traffic Controllers from our Aviation program have the
+ability to exceed $100,000 in annual salary. Our graduates have proven, time and again, that a
+technical degree is a great launching pad for successful careers. Students have the option of
+working towards certificates, diplomas and degrees. In some industries, the 2-year
+Associate of Applied Science degree is the preferred credential. 9/05
+
+ 
+
+Nearest Community College & Specialty
+
+Location
+
+Miles To
+
+Anoka-Ramsey Community College
+
+Cambridge & Coon Rapids
+
+6
+
+Anoka-Ramsey Community College is committed to developing articulate, critical and
+creative thinkers who are responsible contributors to the community. With campuses in Coon
+Rapids and Cambridge, it has been a leading provider of higher education and training in the
+north suburban area of Minneapolis/St. Paul and East Central Minnesota since 1965.
+Annually, the college serves over 9,000 learners of all ages as they pursue associate degrees
+that transfer as the first two years of a bachelor's degree, or certificate programs that lead
+immediately to rewarding careers. 9/05
+
+ 
+
+Nearest Public College/University & Specialty
+
+Location
+
+Miles To
+
+University of Minnesota - Twin Cities metro
+
+Minneapolis, Saint Paul
+
+12
+
+The University of Minnesota is one of the most comprehensive public universities in the
+United States and ranks among the most prestigious. It is both the state land-grant
+university, with a strong tradition of education and public service, and the state's primary
+research university, with faculty of national and international reputation.
+
+ 
+
+Nearest Private College/University & Specialty
+
+Location
+
+Miles To
+
+Hamline University
+
+St. Paul
+
+12
+
+150 years ago, Methodist pioneers founded Hamline University as the first institution of
+higher education in the state. Today, it is a high-quality, nationally ranked,
+comprehensive university with more than 4,000 students in its undergraduate college, law
+school, and graduate schools. Hamline provides not a typical college education, but an
+extraordinary one. Bright and talented students come from all over the country and the world
+to study here. Together, they form a community of scholars, vibrant leaders, compassionate
+citizens, and lifelong friends. Hamline will challenge you to broaden your mind and
+appreciate the pursuit of knowledge as something that enriches us all. 10/05
+
+ 
+
+Telecommunications Use Available at Area Post-Secondary Institutions:
+
+Yes
+
+Local K-12 Information
+
+School Type
+
+# of Schools
+
+Enrollment
+
+Grades
+
+Pupil to
+
+Teacher Ratio
+
+Elementary
+
+6
+
+4,000
+
+K-6
+
+25:1
+
+Middle School
+
+2
+
+2,100
+
+6-8
+
+23:1
+
+Junior High
+
+1
+
+1,223
+
+7-9
+
+29:1
+
+Senior High
+
+2
+
+3,600
+
+9-12
+
+23:1
+
+Private/Parochial
+
+2
+
+300
+
+PreK-7
+
+20:1
+
+ 
+
+ 
+
+School District:
+
+11, 12 and 16
+
+Telecommunications Use Available at Local K-12:
+
+Yes
+
+High School Graduates Attending Post-Secondary:
+
+65%
+
+State Wide Average:
+
+64%
+
+
+
+Organization:
+
+Council\Manager
+
+Budget:
+
+$21,336,889
+
+Community Bond Rating:
+
+Moody's - - AA3
+
+Comprehensive Land Use Plan:
+
+Yes
+
+Locally Controlled Loan Program:
+
+Yes
+
+Recycling:
+
+Yes
+
+Fire Insurance Rating:
+
+4
+
+Industrial Plans Approved By:
+
+City Building Official, Design Review Board
+
+
+
+Public Protection Services
+
+Service Type
+
+Regular
+
+Part-Time
+
+Volunteer
+
+Seasonal
+
+Fire
+
+5
+
+1
+
+74
+
+- - -
+
+Police
+
+52
+
+5
+
+20
+
+- - -
+
+Sheriff
+
+- - -
+
+- - -
+
+- - -
+
+- - -
+
+EMT
+
+2
+
+- - -
+
+- - -
+
+- - -
+
+
+
+Disaster & Emergency Services
+
+Name
+
+Phone Number(s)
+
+Public Safety emergency resources
+
+1-800-422-0798 or metro 651-649-5451
+
+Federal Emergency Management Agency
+
+Region V FEMA 312-408-5500
+
+Small Business Administration Disaster Resources
+
+Disaster Area Offices 404-347-3771
+
+
+
+
+
+It is a great time to be involved in real estate.  Great deals are available in all price
+ranges.
+
+For more information about my services, guarantees or how I can help you find your next home,
+
+sell your home, buy a business or investment property - Just call me today at 763-548-1418!
+
+
+
+To view my interactive on-line real estate magazine with listings, select the banner below:
+
+
+
+Image: /image_store/uploads/6/7/2/1/4/ar122604217641276.gif
+
+
+
+Touch the banner below to send this information to your friends or family!
+
+
+
+Image: /image_store/uploads/1/1/9/8/0/ar122604193308911.gif
+
+ 
+
+Image: http://activerain.com/image_store/uploads/8/4/4/2/5/ar123509147252448.JPG
+  
+
+Image: http://activerain.com/image_store/uploads/5/3/8/8/5/ar123459064758835.JPG
+
+Patti Ann Kasper , Your Minnesota , North Metro Minneapolis / Saint Paul Twin Cities ,
+
+and Blaine MN Real Estate Expert ! Associates of Science Degree in
+
+Geographic Information Systems and Cartography from
+
+Anoka Ramsey Community College in Coon Rapids , Minnesota .
+
+© Copyright Patti Ann Kasper 2009 All Right Reserved.
+
+
+...............................................................................................................................................................
+
+
+
+Image: http://v2.sharperagent.com/eNewsletter/sign_up-off.img  
+
+Image: /image_store/uploads/6/3/5/4/3/ar132130015534536.jpg  
+
+Image:
+http://resources.pureagent.net/exitnexus/images/facebook_patti_ann_kasper_mn_real_estate_short_sale_foreclosure_sfr_homes_for_sale.gif
+
+I'm armed to the teeth with Real Estate Technology, and when it comes to
+
+negotiating on behalf of my clients, I'm a tenacious little pit bull!
+
+Patti Ann Kasper, REALTOR®
+
+EXIT REALTY NEXUS
+
+763-498-2088 cell    763-548-1418 office
+
+www.HouseHuntingHound.com   Posted by PATTI ANN KASPER, Blaine & North Metro Minneapolis
+St Paul Real Estate Resource on 05/01/2007 10:53 PM   Comments (37)   Red Oak Neighborhood +
+Blaine MN Information, 55434, 55449 in the Regional (Localism) Channel   blaine , mn , 55434 ,
+55449 , oak , park , neighborhood , red , minnesota , reference , demographics , statistics ,
+history , homes for sale , real estate , mls , house   Generate short URL This post has been
+included in Minnesota Real Estate News Anoka County, MN Real Estate News Blaine, MN Real
+Estate News Red Oak (Blaine, MN) Real Estate News
+
+Post is included in group: EXIT REALTY ACTIVE RAIN BLOGGERS
+
+Post is included in group: EXIT Realty Minnesota Wisconsin
+
+Post is included in group: Minnesota Bloggers (Don'cha know)
+
+Post is included in group: Minnesota's Nice :)
+
+Post is included in group: ReBlog Me! EXIT Realty Re-Blogging Opportunities
+
+
+
+37 Comments on Oak Park and Red Oak Neighborhoods, Blaine Minnesota, Reference and General
+Info NOV 25 2008 NOV 26 2008 NOV 27 2008 NOV 28 2008 DEC 01 2008 DEC 02 2008 DEC 03 2008 DEC 04 2008 DEC
+05 2008 Notify me of new comments: Email:
+
+Image: /images/24-message-info.png What does the graphic say?
+
+Image: /plugin_assets/fruit_captcha/images/f112.gif Leave a response… var
+RecaptchaOptions = { theme : 'custom', custom_theme_widget: 'recaptcha_widget' };
+
+Name:
+
+Email:
+
+(optional) Comment: //<![CDATA[ tinyMCE.init( { mode:'exact', convert_urls: false,
+elements:'blog_comment_comment', theme:'advanced', plugins: 'spellchecker',
+theme_advanced_toolbar_location: 'top', theme_advanced_buttons1 : 'bold, italic,
+underline, strikethrough, justifyleft, justifycenter, justifyright, justifyfull,
+outdent,indent, bullist, numlist,preview,spellchecker', extended_valid_elements:
+'object[classid|codebase|width|height|align|embed|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata],param[name|value],embed[quality|type|pluginspage|width|height|src|align|wmode|flashvars|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata]',
+plugin_preview_width : '600', plugin_preview_height : '600', theme_advanced_buttons2 :
+'', theme_advanced_buttons3 : '', file_browser_callback : 'fileBrowserCallBack',
+spellchecker_rpc_url : '/action/spellcheck' }); //]]> Spam Prevention: Incorrect please
+try again Type the two words above Type the numbers you hear
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/sound.gif?1348686621
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/photo.gif?1348686621
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/reload.gif?1348686621
+Event.observe(window, 'load', initLazyLoad); function initLazyLoad() {
+$$("div.comment_image").each(function(e){ e.style.backgroundImage =
+"url("+e.getAttribute('imagesrc')+")" }) }   function contact(aid) { //documentation
+on this: http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/711/34711/large/Minneapolis_Saint_Paul_Blaine_MN_55434_Homes_for_Sale_Re_1_.jpg?1253576958
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/rainmaker_large.png?1348686621
+
+PATTI ANN KASPER, Blaine & North Metro Minneapolis St Paul Real Estate Resource
+
+Blaine , MN
+
+More about me…
+
+EXIT REALTY NEXUS
+
+Address: 2143 Northdale Blvd., Coon Rapids, MN, 55433
+
+Office Phone: (763) 548-1418
+
+Email Me
+
+
+
+Image: http://v2.sharperagent.com/eNewsletter/sign_up-off.img
+
+
+
+
+
+Image: http://cdn-img1.imagechef.com/w/090404/anme7e05a039d6bf368.gif
+
+
+
+Image: http://www.feedburner.com/fb/images/pub/feed-icon32x32.png   Subscribe in a
+reader Mortgage Rates
+
+
+
+
+
+Image: http://www.escapesomewhere.com/mort_images/mortgagerates_allrates.png
+
+Historical Mortgage Rates
+
+
+
+
+
+
+
+
+
+
+
+
+
+Patti Ann Kasper
+
+
+
+Image: http://badge.facebook.com/badge/1475052860.1577.1485994621.png
+
+Create Your Badge
+
+
+
+Real Estate Advice & Opinions Get this Widget
+
+Image: http://images.trulia.com/images/widgets/voices_small_logo.gif
+
+
+
+Image:
+http://www4.clustrmaps.com/counter/index2.php?url=http://activerain.com/blogs/navelinski
+
+
+
+
+
+Search Engine Submission
+
+
+
+Image: http://www.activesearchresults.com/images/asrbutton.png
+
+
+
+Image: http://banners.copyscape.com/images/cs-ye-88x31.gif
+
+mls online realtor.com realestate blaine mn housing realty minneapolis realty realtors in
+minnesota looking for house for sale in minnesota real estate homes properties
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Listings
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Links
+
+
+
+    
+
+    - Minnesota Home and Real Estate Information
+
+    
+
+    - Patti Ann Kasper's Real Estate Website
+
+    
+
+    - Lino Lakes Real Estate Blog
+
+    
+
+    - Oak Park Neighborhood (Blaine MN) Information
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Archives
+
+
+
+    
+
+    - August 2012 (2)
+
+    
+
+    - June 2012 (22)
+
+    
+
+    - March 2012 (5)
+
+    
+
+    - February 2012 (4)
+
+    
+
+    - January 2012 (2)
+
+    
+
+    - December 2011 (2)
+
+    
+
+    - November 2011 (5)
+
+    
+
+    - October 2011 (2)
+
+    
+
+    - September 2011 (7)
+
+    
+
+    - August 2011 (2)
+
+    
+
+    - July 2011 (7)
+
+    
+
+    - June 2011 (5)
+
+    
+
+    - May 2011 (12)
+
+    
+
+    - April 2011 (19)
+
+    
+
+    - March 2011 (9)
+
+    
+
+    - February 2011 (6)
+
+    
+
+    - January 2011 (8)
+
+    
+
+    - November 2010 (1)
+
+    
+
+    - October 2010 (8)
+
+    
+
+    - September 2010 (18)
+
+    
+
+    - August 2010 (11)
+
+    
+
+    - July 2010 (20)
+
+    
+
+    - June 2010 (5)
+
+    
+
+    - May 2010 (2)
+
+    
+
+    - April 2010 (6)
+
+    
+
+    - March 2010 (7)
+
+    
+
+    - February 2010 (21)
+
+    
+
+    - January 2010 (15)
+
+    
+
+    - December 2009 (5)
+
+    
+
+    - November 2009 (8)
+
+    
+
+    - October 2009 (2)
+
+    
+
+    - September 2009 (9)
+
+    
+
+    - August 2009 (7)
+
+    
+
+    - July 2009 (24)
+
+    
+
+    - June 2009 (2)
+
+    
+
+    - May 2009 (14)
+
+    
+
+    - April 2009 (1)
+
+    
+
+    - March 2009 (16)
+
+    
+
+    - February 2009 (30)
+
+    
+
+    - January 2009 (25)
+
+    
+
+    - December 2008 (23)
+
+    
+
+    - November 2008 (26)
+
+    
+
+    - October 2008 (45)
+
+    
+
+    - September 2008 (20)
+
+    
+
+    - August 2008 (29)
+
+    
+
+    - July 2008 (10)
+
+    
+
+    - June 2008 (12)
+
+    
+
+    - May 2008 (4)
+
+    
+
+    - March 2008 (16)
+
+    
+
+    - February 2008 (54)
+
+    
+
+    - January 2008 (46)
+
+    
+
+    - December 2007 (34)
+
+    
+
+    - November 2007 (20)
+
+    
+
+    - October 2007 (10)
+
+    
+
+    - September 2007 (14)
+
+    
+
+    - August 2007 (52)
+
+    
+
+    - July 2007 (11)
+
+    
+
+    - May 2007 (4)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find MN real estate agents and Blaine real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/new_design/eho.gif?1348686621
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

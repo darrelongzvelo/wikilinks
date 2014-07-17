@@ -1,0 +1,1558 @@
+
+
+
+
+/** * vBulletin 3.8.6 CSS * Style: 'TM'; Style ID: 5 */ body { background: #d3d3d3
+url(http://trackmill.com/images/background.gif); color: #919191; font: 9pt
+font-family: 'Open Sans', sans-serif; margin: 0; padding: 0px; /*"Lucida Sans Unicode",
+"Lucida Grande", sans-serif;*/ /*Georgia, "Times New Roman", Times, serif*/ } a:link,
+body_alink { color: #3b86c0; text-decoration: none; } a:visited, body_avisited { color:
+#3b86c0; text-decoration: none; } a:hover, a:active, body_ahover { color: #585858;
+text-decoration: none; } .tborder { background: #d9d9d9; color: #000000; border:1px solid
+#cdcdcd; } .tcat { background: #869BBF
+url(images/styles/TM/gradients/gradient_tcat.gif) repeat-x top left; color: #FFFFFF;
+font: bold 9pt font-family: 'Open Sans', sans-serif; } .tcat a:link, .tcat_alink { color:
+#ffffff; text-decoration: none; } .tcat a:visited, .tcat_avisited { color: #ffffff;
+text-decoration: none; } .tcat a:hover, .tcat a:active, .tcat_ahover { color: #FFFF66;
+text-decoration: underline; } .thead { background: #fdfdfd
+url(images/styles/TM/gradients/gradient_thead.gif) repeat-x top left; color:
+#3d3d3d; font: 11px font-family: 'Open Sans', sans-serif; } .thead a:link, .thead_alink {
+color: #3d3d3d; } .thead a:visited, .thead_avisited { color: #3d3d3d; } .thead a:hover,
+.thead a:active, .thead_ahover { color: #3d3d3d; } .tfoot { background: #cdcdcd; color:
+#3d3d3d; } .tfoot a:link, .tfoot_alink { color: #3d3d3d; } .tfoot a:visited,
+.tfoot_avisited { color: #3d3d3d; } .tfoot a:hover, .tfoot a:active, .tfoot_ahover {
+color: #3d3d3d; } .alt1, .alt1Active { background: #e1e1e1
+url(images/styles/TM/style/altBG.gif) repeat-x top left; color: #000000; } .alt2,
+.alt2Active { background: #e1e1e1 url(images/styles/TM/style/altBG.gif) repeat-x top
+left; color: #000000; } .inlinemod { background: #FFFFCC; color: #000000; } .wysiwyg {
+background: #F5F5FF; color: #000000; font: 10pt verdana, geneva, lucida, 'lucida grande',
+arial, helvetica, sans-serif; margin: 5px 10px 10px 10px; padding: 0px; } .wysiwyg a:link,
+.wysiwyg_alink { color: #22229C; } .wysiwyg a:visited, .wysiwyg_avisited { color:
+#22229C; } .wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover { color: #FF4400; }
+textarea, .bginput { font: 10pt arial, helvetica, sans-serif; } .bginput option, .bginput
+optgroup { font-size: 10pt; font-family: arial, helvetica, sans-serif; } .button { font:
+11px arial, helvetica, sans-serif; } select { font: 11px arial, helvetica, sans-serif; }
+option, optgroup { font-size: 11px; font-family: arial, helvetica, sans-serif; }
+.smallfont { font: 11px font-family: 'Open Sans', sans-serif; } .navbar { font: 11px
+font-family: 'Open Sans', sans-serif; } .highlight { color: #FF0000; font-weight: bold; }
+.fjsel { background: #3E5C92; color: #E0E0F6; } .fjdpth0 { background: #F7F7F7; color:
+#000000; } .panel { color: #919191; padding: 10px; } .panelsurround { background: #e1e1e1
+url(images/styles/CityNight/style/altBG.gif) repeat-x top left; color: #919191; }
+legend { color: #3b86c0; font: 11px "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+.vbmenu_control { background: #869BBF
+url(images/styles/TM/gradients/gradient_tcat.gif) repeat-x top left; color: #FFFFFF;
+font: bold 11px font-family: 'Open Sans', sans-serif; padding: 3px 6px 3px 6px;
+white-space: nowrap; } .vbmenu_control a:link, .vbmenu_control_alink { color: #FFFFFF;
+text-decoration: none; } .vbmenu_control a:visited, .vbmenu_control_avisited { color:
+#FFFFFF; text-decoration: none; } .vbmenu_control a:hover, .vbmenu_control a:active,
+.vbmenu_control_ahover { color: #FFFFFF; text-decoration: underline; } .vbmenu_popup {
+background: #fff; color: #000000; border: 1px solid #bab6b6; } .vbmenu_option {
+background: #e1e1e1 url(images/styles/TM/style/altBG.gif) repeat-x top left; color:
+#919191; font: 11px font-family: 'Open Sans', sans-serif; white-space: nowrap; cursor:
+pointer; } .vbmenu_option a:link, .vbmenu_option_alink { color: #919191;
+text-decoration: none; } .vbmenu_option a:visited, .vbmenu_option_avisited { color:
+#919191; text-decoration: none; } .vbmenu_option a:hover, .vbmenu_option a:active,
+.vbmenu_option_ahover { color: #919191; text-decoration: none; } .vbmenu_hilite {
+background: #8A949E; color: #FFFFFF; font: 11px font-family: 'Open Sans', sans-serif;
+white-space: nowrap; cursor: pointer; } .vbmenu_hilite a:link, .vbmenu_hilite_alink {
+color: #FFFFFF; text-decoration: none; } .vbmenu_hilite a:visited,
+.vbmenu_hilite_avisited { color: #FFFFFF; text-decoration: none; } .vbmenu_hilite
+a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover { color: #FFFFFF;
+text-decoration: none; } /* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; } /* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; } /* ***** basic styles for multi-page nav
+elements */ .pagenav a { text-decoration: none; } .pagenav td { padding: 2px 4px 2px 4px; } /*
+***** de-emphasized text */ .shade, a.shade:link, a.shade:visited { color: #777777;
+text-decoration: none; } a.shade:active, a.shade:hover { color: #FF4400;
+text-decoration: underline; } .tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD;
+} /* ***** define margin and font-size for elements inside panels ***** */ .fieldset {
+margin-bottom: 6px; } .fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px;
+} /* Misc Resets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+img { border:0; } .verticalAlign { vertical-align:middle; } /* Page Wrapper
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.pageWrapper { margin:0 50px; } /* Header
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#header { background:#fff url(images/styles/TM/style/headerBG.gif) repeat-x top left;
+height:50px; } .headerWrapper { } .logo { float:left; } .logo img { display:block; } /*
+Navigation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#navigation { font:bold 9pt "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+text-align:center; height:16px; } #navigation ul { list-style:none; padding:0;
+margin:0; } #navigation li { display:inline; padding:0 9px; } #navigation a:link,
+#navigation a:visited { color:#5e5e5e; } #navigation a:hover { color:#3b87c2;
+border-bottom:1px solid #bfbfbf; } /* Content
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#contentMain { padding:22px 0; } #welcomeBar {
+background:url(images/styles/TM/style/welcomeBG.gif) repeat-x top left;
+height:143px; } .welcomeLeft {
+background:url(images/styles/TM/style/welcomeLeft.gif) no-repeat top left;
+height:143px; } .welcomeRight {
+background:url(images/styles/TM/style/welcomeRight.gif) no-repeat top right;
+height:143px; padding:0 5px; } .welcomeTxt { font:bold italic 10pt "Lucida Sans Unicode",
+"Lucida Grande", sans-serif; color:#fff; padding:0 20px; line-height:20px; }
+.welcomeTxt a:link, .welcomeTxt a:visited { color:#adcae0; } .welcomeTxt a:hover {
+color:#fff; } .welcomeInfo { background:url(images/styles/TM/style/welcomeInfo.gif)
+repeat-x top left; width:285px; height:143px; border-left:1px solid #666;
+text-align:center; } .memberBox { padding:10px 0 0 10px; text-align:left; } .userBox {
+background: url(images/styles/TM/style/userInput.gif) no-repeat top left;
+width:212px; height:22px; } .passBox { background:
+url(images/styles/TM/style/userInput.gif) no-repeat top left; width:212px;
+height:22px; } .userinput { border:0; background:transparent; font:8pt "Lucida Sans
+Unicode", "Lucida Grande", sans-serif; color: #808080; padding:3px 0 2px 0; width:202px;
+margin:1px 5px 0 5px; } .memberLinks {
+background:url(images/styles/TM/style/memberBullet.gif) no-repeat left;
+padding:1px 0 1px 12px; } .memberLinks a:link, .memberLinks a:visited { font:8pt "Lucida
+Sans Unicode", "Lucida Grande", sans-serif; color:#fff; text-decoration:none; }
+.memberLinks a:hover { color:#adcae0; } /* Footer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*#footer { background:#2a4d67 url(images/styles/TM/style/footerBG.gif) repeat-x top
+left; height:40px; color:#fff; text-align: center; margin-left:auto;
+margin-right:auto; } #footer a:link, #footer a:visited { color:#fff; } #footer a:hover {
+color:#428dc5; } .footerNav { font:bold 9pt "Lucida Sans Unicode", "Lucida Grande",
+sans-serif; color:#fff; padding:10px 0 10px 0; text-align: center; margin-left:auto;
+margin-right:auto; } .footerNav ul { list-style:none; padding:0; margin:0 auto; }
+.footerNav li { float:left; padding:0 15px 0 0; } .footerNav a:link, .footerNav a:visited {
+color:#fff; } .footerNav a:hover { color:#449cdf; background:transparent
+url(images/styles/TM/style/tcatBG.gif) repeat-x; }*/ #footer { background:#2a4d67
+url(images/styles/TM/style/footerBG.gif) repeat-x top left; font:bold 9pt "Lucida Sans
+Unicode", "Lucida Grande", sans-serif; height:40px; color:#fff; text-align:center; }
+#footer ul { list-style:none; padding:0; margin:0; } #footer li { display:inline;
+padding:0 9px; } #footer a:link, #footer a:visited { color:#fff; } #footer a:hover {
+color:#428dc5; border-bottom:1px solid #bfbfbf; } .footerNav { font:bold 9pt "Lucida Sans
+Unicode", "Lucida Grande", sans-serif; color:#fff; padding:10px 0 10px 0; text-align:
+center; margin-left:auto; margin-right:auto; } /* Category Strips
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.tcat_alt { background:transparent url(images/styles/TM/style/tcatBG.gif) repeat-x
+top left; height:45px; } .tcat_alt a, .tcat_alt a:visited,.tcat_alt:hover { color:#fff; }
+.tcat_alt_right { background: transparent url(images/styles/TM/style/tcatRight.gif)
+no-repeat top right; height: 36px; } .tcat_alt_title { background: transparent
+url(images/styles/TM/style/tcatLeft.gif) no-repeat top left; float: left; height:
+30px; text-align: left; padding: 15px 0 0 10px; font:bold 11pt "Lucida Sans Unicode",
+"Lucida Grande", sans-serif; color:#ffffff; } .tcat_alt_title a, .tcat_alt_title
+a:visited { color:#fff; text-decoration:none; } .tcat_alt_title a:hover { color:#fff;
+text-decoration:underline; } .tcat_alt_collapse { padding:18px 16px 0 0; float:right; }
+.tcat_alt_collapse a, .tcat_alt_collapse a:visited { color:#fff;
+text-decoration:none; } .tcat_alt_collapse a:link { color:#fff; text-decoration:none;
+} .tcat_alt_collapse a:hover { color:#fff; text-decoration:underline; } .vbmenu_alt {
+height: 28px; float:right; padding: 17px 8px 0 8px; font:bold 9pt "Lucida Sans Unicode",
+"Lucida Grande", sans-serif; color:#fff; } .vbmenu_alt a:link { color:#fff;
+text-decoration: none; } .vbmenu_alt a:visited { color: #fff; text-decoration: none; }
+.vbmenu_alt a:hover, .vbmenu_alt a:active { color: #fff; text-decoration: none; }
+.vbmenu_alt img { vertical-align:middle; padding:0 0 3px 4px; } .bigfont a:link,.bigfont
+a:visited { font: bold 10pt "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color:#585858; text-decoration:none; } .bigfont a:hover { color:#3b86c0;
+text-decoration:none; } .bigusername { font: bold 13pt "Lucida Sans Unicode", "Lucida
+Grande", sans-serif; color:#585858; } a.bigusername,a:visited.bigusername { font: bold
+13pt "Lucida Sans Unicode", "Lucida Grande", sans-serif; color:#585858; }
+a:hover.bigusername { font: bold 13pt "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+color:#3b86c0; } .smallfont a strong,.smallfont a:visited strong { color:#585858; }
+.smallfont a:hover strong { color:#3b86c0; } .lastpost_user a:link { color:#3b86c0; }
+.lastpost_user a:hover a,.lastpost_user a:visited { color:#585858; } .lastpost_user
+a:hover { color:#585858; } .post_field, .post_field2 { background: #fff
+url(images/styles/TM/style/post_field_bg.gif) repeat-x bottom left; color: #757575;
+border: 1px solid #c7c7c7; padding: 3px 3px 3px 10px; margin-top: 4px; text-align:left; }
+.post_field strong { color: #3b86c0; } .post_field2 strong { color: #3b86c0; } .rowTop {
+background:url(images/styles/TM/style/rowTBG.gif) repeat-x top left; height:6px;
+padding:0; font-size:0; } .rowTL { background:url(images/styles/TM/style/rowTL.gif)
+no-repeat top left; height:6px; } .rowTR {
+background:url(images/styles/TM/style/rowTR.gif) no-repeat top right; height:6px; }
+.rowBottom { background:url(images/styles/TM/style/rowBBG.gif) repeat-x top left;
+height:4px; padding:0; font-size:0; } .rowBL {
+background:url(images/styles/TM/style/rowBL.gif) no-repeat top left; height:4px; }
+.rowBR { background:url(images/styles/TM/style/rowBR.gif) no-repeat top right;
+height:4px; } .row3px { height:6px; padding:0; font-size:0; } .rowBorderLeft {
+border-left:1px solid #cbcbcb; } .rowBorderRight { border-right:1px solid #cbcbcb; }
+.tborder2 { } .tborder2 .alt1, .tborder2 .alt2, .tborder2 .alt1Active, .tborder2
+.alt2Active { border-top:0; border-bottom:0; } .alt1 strong, .alt2 strong, .alt1 b, .alt2 b
+{ color:#434343; } .loggedIN { font-size:8pt; color:#dadada; padding-bottom:8px; }
+.loggedIN a:link, .loggedIN a:visited { color:#fff; } .loggedIN a:hover { color:#bbe1ff; }
+/* Page Navigation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.pagenav .tborder { background:transparent; border:0; height:18px; line-height:18px; }
+.pagenav .vbmenu_control { background:transparent; color:#3d3d3d; } .pagenav .alt1,
+.pagenav .alt2 { background:transparent; border:0; padding:0; } .pagenav a { height:14px;
+line-height:14px; padding: 2px 5px 2px 5px; margin-right: 2px; border: 1px solid #cdcdcd;
+background-color:#ededed; text-decoration: none; color: #3d3d3d; display:block; }
+.pagenav a:hover, .pagenav a:active { border:1px solid #c6c4c4; color: #3d3d3d;
+background-color: #dfdede; } .pagenav span strong { height:14px; line-height:14px;
+padding: 2px 5px 2px 5px; margin-right: 2px; border: 1px solid #707070; font-weight: bold;
+background-color: #707070; color: #fff; display:block; } .postbitAlt {
+background:#e1e1e1; } #topBar-right-in { background-image:
+url(http://trackmill.com/images/trackmill_topthing-right-in.png); height: 92px;
+width: 298px; float:right; background-position: right; color: #FFFFFF; font-size:14px;
+} div.topBar-right-inLink{ border-bottom-width: 1px; border-bottom-style: solid;
+border-bottom-color: #000000; width:140px; padding-bottom: 3px; margin-top: 2px;
+color: #FFFFFF; } #topBar-right-in a, #topBar-right-in a:link, #topBar-right-in
+a:active, #topBar-right-in a:visited { width:100px; color: #FFFFFF; } #topBar-right {
+background-image:
+url(http://trackmill.com/images/trackmill_topthing-right-out.png); height: 92px;
+width: 298px; float:right; background-position: right; } #topBar-left {
+background-image: url(http://trackmill.com/images/trackmill_topthing-right.png);
+height: 92px; background-repeat: repeat-x; } #topBar { height: 92px; margin: 0px; }
+#vmooods { position:absolute; right:300px; top:4px; width:175px; height:25px;
+z-index:1; padding-left:80px; } .adminBG { z-index:1; background:
+url(http://trackmill.com/forums/images/stafficons/icon_admin.png) no-repeat left
+center; display:inline-block; padding-left: 12px; margin:0 5px 0 0; color:
+#262626;font-weight: bold; } .modBG { z-index:1; background:
+url(http://trackmill.com/forums/images/stafficons/icon_moderator.png) no-repeat
+left center; display:inline-block; padding-left: 12px; margin:0 5px 0 0; color:
+#262626;font-weight: bold; } .devBG { z-index:1; background:
+url(http://trackmill.com/forums/images/stafficons/icon_developer.png) no-repeat
+left center; display:inline-block; padding-left: 12px; margin:0 5px 0 0; color:
+#262626;font-weight: bold; } .proBG { z-index:1; background:
+url(http://trackmill.com/forums/images/stafficons/icon_pro2.png) no-repeat left
+center; display:inline-block; padding-left: 12px; margin:0 5px 0 0; color:
+#262626;font-weight: bold; } .userBG { z-index:1; display:inline-block; padding-left:
+0px; margin:0 5px 0 0; color: #262626;font-weight: bold; } .retiredBG{ background:
+url(http://trackmill.com/forums/images/stafficons/icon_retired.png) no-repeat
+left center; display:inline-block; padding-left: 12px; margin:0 5px 0 0; color:
+#262626;font-weight: bold; } #topNav{text-align:center;margin:15px 0}#topNav
+ul{padding:0;background:transparent
+url(http://trackmill.com/forums/images/styles/TM/style/footerBG.gif)
+repeat-x;height:35px;margin:0 auto;}#topNav ul li{display:inline-block;}#topNav ul
+li a{font-family:"Lucida Sans Unicode","Lucida
+Grande",sans-serif;font-size:11px;text-decoration:none;padding:10px 0px 0
+0px;margin:0px 0px 0 -5px;background:transparent
+url(http://trackmill.com/forums/images/styles/TM/style/footerBG.gif)
+repeat-x;color:#fff;font-weight:400;width:120px;height:25px;border-top:1px none
+#CCC;border-right:1px solid #CCC;border-bottom:1px none #CCC;border-left:1px none
+#CCC;display:inline-block}#topNav ul li
+a:hover{background-color:#2586d7;margin-top:-8px;padding-bottom:1px;border-top:1px
+solid #1855a5;border-bottom:1px solid #1855a5;width:120px} /**** ***/
+#topBar{position:absolute;left:0;top:0;width:100%;height:42px;z-index:27;background:url(http://trackmill.com/images/trackmill_topthing-right.png)
+repeat-x}#topCorner{position:absolute;right:0;top:0;width:295px;height:92px;z-index:28;background:transparent
+url(http://trackmill.com/newimages/viewstyle.png) no-repeat 0px -59px}#topCorner
+ol{margin:6px 0 0 16px;list-style-type:none;text-align:center}#topCorner
+li{margin:0;padding:0;height:18px}.cornerButton{border-top:1px solid
+#96d1f8;background:#86c4e6;background:-webkit-gradient(linear,left top,left
+bottom,from(#b5dbf0),to(#86c4e6));background:-webkit-linear-gradient(top,#b5dbf0,#86c4e6);background:-moz-linear-gradient(top,#b5dbf0,#86c4e6);background:-ms-linear-gradient(top,#b5dbf0,#86c4e6);background:-o-linear-gradient(top,#b5dbf0,#86c4e6);padding:1px
+15px;margin:0
+4px;width:135px;display:block;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;color:white;font-color:#fff;font-size:11px;font-family:"Lucida
+Grande",Helvetica,Arial,Sans-Serif;text-decoration:none;vertical-align:middle;text-align:center;-khtml-user-select:none;-o-user-select:none;-moz-user-select:none;-moz-user-focus:ignore;-moz-user-input:disabled}.cornerButton:link{color:#ccc;text-decoration:none}.cornerButton:hover{border-top-color:#28597a;background:#28597a;color:#ccc;text-transform:none;text-decoration:none;cursor:pointer}.cornerButton:active{border-top-color:#1b435e;background:#1b435e;text-decoration:none}#topBar
+#logo{background:transparent url(http://trackmill.com/newimages/viewstyle.png)
+no-repeat -174px
+0px;float:left;display:block;height:32px;width:95px;text-indent:-2000px;text-align:center}#topBar
+li.topDrop{float:left;display:block;height:32px;font-size:20px;color:#FFF;margin-left:6px;text-align:left;border-bottom:1px
+solid #FFF;border-top:1px solid transparent;border-left:1px solid
+transparent;border-right:1px solid
+transparent;font-weight:300;letter-spacing:-1px;text-decoration:none;overflow:hidden;width:70px;text-align:center;font-family:'Open
+Sans',sans-serif;-khtml-user-select:none;-o-user-select:none;-moz-user-select:none;-moz-user-focus:ignore;-moz-user-input:disabled}#topBar
+li.topDrop:hover{border-bottom:1px solid
+#021d6b;background:url(http://trackmill.com/newimages/dropDownBG.png);border-top:1px
+solid #FFF;border-right:1px solid #FFF;border-left:1px solid
+#FFF;padding-bottom:3px;overflow:visible;cursor:arrow}#topBar li.topDrop
+div{position:relative;left:0;top:7px;width:0;height:0;z-index:3;color:#000;padding:0;margin:2px
+0 1px 0}#topBar li.topDrop div
+dd{position:absolute;left:-1px;top:0;width:533px;height:600px;z-index:3;color:#000;margin:0px;padding:0px;background:url(http://trackmill.com/newimages/dropDownBG.png);border-top:1px
+solid #FFF;border-right:1px solid #FFF;border-bottom:1px solid #FFF;border-left:1px
+solid #FFF;text-align:left}.topDrop div dd oi{position:relative;padding:2px 0 8px
+7px;background:url(http://trackmill.com/newimages/dropDownBG.png);width:200px;display:block;height:32px;margin-left:2px;text-indent:-70px;left:0px}.topDrop
+div dd oi:hover{background:url(http://trackmill.com/newimages/roundShadow.png)
+no-repeat 2px 24px}.topDrop div dd oi
+a{text-indent:1px;height:42px;display:block;vertical-align:bottom;text-decoration:none;color:#FFF;font-size:14px}.topDrop
+div dd oi a span{color:#FFF;font-size:14px}.topDrop div dd oi
+a:hover{text-decoration:underline}.topDrop div dd oi
+a:active{text-decoration:underline;background:#6eabcc}.topDrop div dd oi a
+p{background:#fff url(http://trackmill.com/newimages/viewstyle.png)
+no-repeat;float:left;height:30px;width:30px;margin:0 4px 0 0;padding:0}.topDrop div
+dd oi a span{padding-top:6px;display:block}.topDrop div dd oi a
+#freeRider2{background-position: -563px 0px}.topDrop div dd oi a
+#coloraze{background-position: -593px 0px}.topDrop div dd oi a
+#derpyshapegame{background-position: -593px -30px}.topDrop div dd oi a
+#izzi{background-position: -533px -60px}.topDrop div dd oi a
+#steelSuperstructure{background-position: -534px -122px}.topDrop div dd oi a
+#freeWires{background-position: -563px -30px}.topDrop div dd oi a
+#freeRider1{background-position: -533px -30px}.topDrop div dd oi a
+#DUI{background-position: -533px 0px}.topDrop div dd oi a
+#bitAddiction{background-position: -564px -92px}.topDrop div dd oi a
+#foxNRoll{background-position: -564px -122px}.topDrop div dd oi a
+#forum{background-position: -404px -120px}.topDrop div dd oi a
+#chat{background-position: -404px -56px}.topDrop div dd oi a
+#facebook{background-position: -404px -24px}.topDrop div dd oi a
+#youTube{background-position: -436px -24px}.topDrop div dd oi a
+#twitter{background-position: -404px -88px}.topDrop div dd oi a
+#googleplus{background-position: -436px
+-56px}#gamesMenueRight{position:absolute;right:0px;top:0;height:592px;width:318px;z-index:1;display:block;padding:3px;margin:0px;text-align:center;color:#fff;background:url(http://trackmill.com/newimages/dropDownBG.png);font-size:14px}#topBar
+#welcomeArea{float:right;margin-right:300px;margin-top:3px;color:#fff}#gamesDropDownNew
+li a:link{text-decoration:none}#gamesDropDownNew li
+a:hover{text-decoration:underline}#topCorner
+#username{position:absolute;right:71px;top:20px;width:150px;height:20px;z-index:3;color:#6eabcc;outline:none;padding-left:12px;padding-right:12px;background:transparent
+url(http://trackmill.com/newimages/viewstyle.png) no-repeat 0px -37px;border:1px
+none #0CC}#topCorner
+#paswd{position:absolute;right:71px;top:45px;width:150px;height:20px;z-index:3;padding-left:12px;padding-right:12px;color:#000;background:transparent
+url(http://trackmill.com/newimages/viewstyle.png) no-repeat 0px -37px;border:1px
+none #0CC}#topCorner
+#passwordLbl{position:absolute;right:71px;top:48px;width:150px;height:20px;z-index:4;padding-left:12px;padding-right:12px;color:#6eabcc;border:1px
+none #0CC;font-size:11px}#topCorner
+#remember{position:absolute;right:5px;top:1px;width:200px;height:15px;z-index:1;color:#6eabcc;font-size:12px}#login{position:absolute;right:2px;top:24px;width:60px;height:40px;z-index:3;border:1px
+none #033}#topCorner
+#registerForget{position:absolute;right:4px;top:65px;width:200px;height:15px;z-index:3;color:#6eabcc;font-size:12px}#topCorner
+#registerForget a{color:#FFF;font-size:12px;padding-left:8px}#topCorner
+#registerForget a:hover{color:#6eabcc} /** **/
+#TMheader{width:720px;background:#CCC;margin:44px 15px 0
+15px;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;border:1px
+solid #1855a5;font-size:12px;font-family:'Varela Round',sans-serif;color:
+#000;}#TMheader h1{margin:0;padding:0;color: #000;} <!-- var SESSIONURL =
+"s=92b02472492bfaecfef49e2c7e777317&"; var SECURITYTOKEN = "guest"; var IMGDIR_MISC =
+"images/styles/TM/misc"; var vb_disable_ajax = parseInt("0", 10); // --> var
+_sf_startpt=(new Date()).getTime() $(document).ready(function() { $("#gamesList
+oi").gamesDropdown(); }); rune mysteries - The TrackMill.com Forums <!-- #tag_edit_list {
+list-style:none; margin:0px; padding:0px; } #tag_edit_list li { float:left;
+display:block; width:200px; } #tag_edit_list li.mine { font-weight:bold; } #links div {
+white-space: nowrap; } #links img { vertical-align: middle; } -->
+
+
+
+TrackMill Forums
+
+Looking for help? Want to get to know other users? Then welcome to the TrackMill Forums, here
+you can look for help, report a bug, or simply get to know many of the other fans of TrackMill.
+
+Remember Me?    
+
+Image: http://trackmill.com/images/trackmill_logo.png
+
+Image: http://trackmill.com/images/Games.png
+
+Image: http://trackmill.com/images/Socialbtn.png Roll-over a game link to get more info
+or click to go directly to that game's main page.
+
+    
+
+        Free Rider 2 Coloraze iZZi Steel Superstructure Free Wires Free Rider 1 DUI Bit
+        Addiction Fox N' Roll
+
+    
+
+
+
+    Image: http://trackmill.com/images/TM_loading.gif
+
+        Forums YouTube Facebook ChatBox Twitter
+
+    
+
+
+
+    Image: http://trackmill.com/images/TM_loading.gif
+
+    - Register
+
+    
+
+    - Calendar
+
+    
+
+    - Mark Forums Read
+
+    
+
+    - Contact Us
+
+    
+
+
+
+The TrackMill.com Forums » General Discussion » Off Topic » Ball Pit » rune mysteries
+
+
+
+Notices Hello, and welcome to the TrackMill.com forums. Please make sure to read up on the
+rules before you begin posting. They can be found HERE .
+
+Before you begin, we would like to thank you for coming to TrackMill. You will be unable to post
+images or links up until you have 10 posts. We have this rule in place to stop people from
+spamming.
+
+Don't know where to post first? Make a new thread in the Introduce Yourself forum and tell us a
+bit about yourself!
+
+Hey guys. Goose here. I just want to write a quick apology. I have been "neglecting" TrackMill
+for the last few months. I am sorry about that, there has been a lot going on in my "irl" that has
+been distracting me from this, and other online projects(I may make a post in the future with
+details, but not yet). Things are starting to settle down and I am feeling better, so I hope to
+come back, improve the current games (*cough* FR2) and release some new games that I have been
+working on. Thanks for your continued support. yall are fantastic.
+
+
+
+Image: images/styles/TM/buttons/threadclosed.gif Display Modes Thread Tools   skye's
+the best vbmenu_register("postmenu_26872", true); Cogwheel
+
+
+
+Image: http://trackmill.com/forums/vmoods/tm_titles/RocketMan.gif  
+
+Book wrighter Join Date: Jan 2009 Location: salt lake city Posts: 231
+
+Image: images/styles/TM/misc/im_yahoo.gif
+
+
+
+06-06-2009, 07:55 PM   # 1
+
+Image: images/icons/icon14.gif rune mysteries
+
+
+
+The runic alphabets are a set of related alphabets using letters known as runes to write
+various Germanic languages prior to the adoption of the Latin alphabet and for specialized
+purposes thereafter. The Scandinavian variants are also known as futhark (or fuþark ,
+derived from their first six letters of the alphabet: F , U , Þ , A , R , and K ); the Anglo-Saxon
+variant is futhorc (due to sound changes undergone in Old English by the same six letters).
+Runology is the study of the runic alphabets, runic inscriptions , runestones , and their
+history. Runology forms a specialized branch of Germanic linguistics .
+
+The earliest runic inscriptions date from around 150 AD, and the alphabet was generally
+replaced by the Latin alphabet along with Christianization by around 700 AD in central Europe
+and by around 1100 AD in Scandinavia; however, the use of runes persisted for specialized
+purposes in Scandinavia, longest in rural Sweden until the early twentieth century (used
+mainly for decoration as runes in Dalarna and on Runic calendars ).
+
+The three best-known runic alphabets are the Elder Futhark (around 150 to 800 AD), the Old
+English Futhorc (400 to 1100 AD), and the Younger Futhark (800–1100). The Younger Futhark
+is further divided into the long-branch runes (also called Danish , although they were also
+used in Norway and Sweden), short-twig or Rök runes (also called Swedish-Norwegian ,
+although they were also used in Denmark), and the Hälsinge runes ( staveless runes ). The
+Younger Futhark developed further into the Marcomannic runes, the Medieval runes (1100 AD to
+1500 AD), and the Dalecarlian runes (around 1500 to 1800 AD).
+
+The origins of the runic alphabet are uncertain. Many characters of the Elder Futhark bear a
+close resemblance to characters from the Latin alphabet. Other candidates are the 5th to 1st
+century BC Northern Italic alphabets: Lepontic , Rhaetic and Venetic , all of which are
+closely related to each other and descend from the Old Italic alphabet .
+
+The runes were in use among the Germanic peoples from the 1st or 2nd century AD. [1] This period
+corresponds to the late Common Germanic stage linguistically, with a continuum of dialects
+not yet clearly separated into the three branches of later centuries; North Germanic , West
+Germanic , and East Germanic .
+
+No distinction is made in surviving runic inscriptions between long and short vowels,
+although such a distinction was certainly present phonologically in the spoken languages of
+the time. Similarly, there are no signs for labiovelars in the Elder Futhark (such signs were
+introduced in both the Anglo-Saxon futhorc and the Gothic alphabet as variants of p ; see
+peorð .)
+
+The name runes contrasts with Latin or Greek letters . It is attested on a 6th century Alammanic
+runestaff as runa , and possibly as runo on the 4th century Einang stone . The name is from a root
+run- (Gothic runa ), meaning "secret" or "whisper".
+
+
+
+[ edit ] Origins
+
+
+
+Main article: Elder Futhark
+
+The runes developed centuries after the Old Italic alphabets from which they are
+historically derived. The debate on the development of the runic script concerns the
+question which of the Italic alphabets should be taken as their point of origin, and which, if
+any, signs should be considered original innovations added to the letters found in the Italic
+scripts. The historical context of the script's origin is the cultural contact between
+Germanic people, who often served as mercenaries in the Roman army , and the Italic peninsula
+during the Roman imperial period (1st c. BC to 5th c. AD). The formation of the Elder Futhark was
+complete by the early 5th century, with the Kylver Stone being the first evidence of the
+futhark ordering as well as of the p rune.
+
+Specifically, the Raetic alphabet of Bolzano , is often advanced as a candidate for the origin
+of the runes, with only five Elder Futhark runes having no counterpart in the Bolzano alphabet
+(Mees 2000). Scandinavian scholars tend to favour derivation from the Latin alphabet itself
+over Raetic candidates. [2] A "North Etruscan" thesis is supported by the inscription on the
+Negau helmet dating to the 2nd century BC [3] This is in a northern Etruscan alphabet, but
+features a Germanic name, Harigast . New archaeological evidence came from Monte Calvario
+
+
+
+(Auronzo di Cadore). The angular shapes of the runes are shared with most contemporary
+alphabets of the period used for carving in wood or stone. A peculiarity of the runic alphabet
+is the absence of horizontal strokes, although this characteristic is also shared by other
+alphabets, such as the early form of the Latin alphabet used for the Duenos inscription , and it
+is not universal especially among early runic inscriptinos, which frequently have variant
+rune shapes including horizontal strokes.
+
+The " West Germanic hypothesis" speculates on an introduction by West Germanic tribes . This
+hypothesis is based on claiming that the earliest inscriptions of around 200 AD, found in bogs
+and graves around Jutland (the Vimose inscriptions ), exhibit word endings that, being
+interpreted by Scandinavian scholars to be Proto-Norse , are considered unresolved and
+having been long the subject of discussion. Inscriptions like wagnija , niþijo , and harija
+are supposed to incarnate tribenames, tentatively proposed to be Vangiones , the Nidensis
+and the Harii , tribes located in the Rhineland. [4] Since names ending in -io reflect Germanic
+morphology representing the Latin ending -ius , and the suffix -inius was reflected by
+Germanic -inio- , [5] the question of the problematic ending -ijo in masculine Proto-Norse
+would be resolved by assuming Roman (Rhineland) influences, while "the awkward ending -a of
+laguþewa (cf. Syrett 1994:44f.) can be solved by accepting the fact that the name may indeed
+be West Germanic;" [6] however, it should be noted that in the early Runic period differences
+between Germanic languages are generally assumed to be small. Another theory assumes a
+Northwest Germanic unity preceding the emergence of Proto-Norse proper from roughly the 5th
+century. [7] An alternative suggestion explaining the impossibility to classify the
+earliest inscriptions as either North or West Germanic is forwarded by È. A. Makaev, who
+assumes a "special runic koine ", an early "literary Germanic" employed by the entire Late
+Common Germanic linguistic community after the separation of Gothic (2nd to 5th centuries),
+while the spoken dialects may already have been more diverse. [8]
+
+
+
+[ edit ] Early inscriptions
+
+
+
+
+
+An illustration of the Ring of Pietroassa (from between 250 to 400 AD) by Henri Trenk, 1875.
+
+
+
+
+
+Runic inscriptions from the 400 year period of c. 150 to 550 AD are referred to as "Period I"
+inscriptions. These inscriptions are generally in Elder Futhark , but the set of letter
+shapes and bindrunes employed is far from standardized. Notably the j , s and ŋ runes undergo
+considerable modifications, while others, such as PHP Code: P 
+
+and ï , remain unattested altogether prior the first full futhark row on the Kylver Stone (ca.
+400 AD).
+
+Theories of the existence of separate Gothic runes have been advanced, even identifying them
+as the original alphabet from which the Futhark were derived, but these have little support in
+actual findings (mainly the spearhead of Kovel , with its right-to-left inscription, its
+T-shaped tiwaz and its rectangular dagaz ). If there ever were genuinely Gothic runes, they
+were soon replaced by the Gothic alphabet . The letters of the Gothic alphabet, however, as
+given by the Alcuin manuscript (9th century), are obviously related to the names of the
+Futhark. The names are clearly Gothic, but it is impossible to say whether they are as old as, or
+even older than, the letters themselves. A handful of Elder Futhark inscriptions were found
+in Gothic territory, such as the 3rd to fifth century Ring of Pietroassa .
+
+
+
+[ edit ] Magical or divinatory use
+
+
+
+
+
+
+
+
+
+
+
+Main article: Runic divination
+
+In stanza 157 of Hávamál , the runes are attributed with the power to bring that which is dead
+to life. In this stanza, Odin recounts a spell:
+
+Þat kann ek it tolfta, ef ek sé á tré uppi váfa virgilná,: svá ek ríst ok í rúnum fák,
+at sá gengr gumi ok mælir við mik. [9] I know a twelfth one if I see,up in a tree,a dangling
+corpse in a noose,I can so carve and colour the runes,that the man walksAnd talks with me. [10]
+The earliest runic inscriptions found on artifacts give the name of either the craftsman or
+the proprietor, or, sometimes, remain a linguistic mystery. Due to this, it is possible that
+the early runes were not so much used as a simple writing system, but rather as magical signs to
+be used for charms. Although some say the runes were used for divination , there is no direct
+evidence to suggest they were ever used in this way. The name rune itself, taken to mean
+"secret, something hidden", seems to indicate that knowledge of the runes was originally
+considered esoteric, or restricted to an elite. The 6th century Björketorp Runestone warns
+in Proto-Norse using the word rune in both senses: Haidzruno runu, falahak haidera,
+ginnarunaz. Arageu haeramalausz uti az. Weladaude, sa'z þat barutz. Uþarba spa.
+
+I, master of the runes(?) conceal here runes of power. Incessantly (plagued by) maleficence,
+(doomed to) insidious death (is) he who breaks this (monument). I prophesy destruction /
+prophecy of destruction. [11]
+
+The same curse and use of the word rune is also found on the Stentoften Runestone . There are also
+some inscriptions suggesting a medieval belief in the magical significance of runes, such as
+the Franks Casket (700 AD) panel.
+
+Charm words, such as auja , laþu , laukaR and most commonly, alu , [12] appear on a number of
+Migration period Elder Futhark inscriptions as well as variants and abbreviations of them.
+Much speculation and study has been produced on the potential meaning of these inscriptions.
+Rhyming groups appear on some early bracteates that may also be magic in purpose, such as
+salusalu and luwatuwa . Further, an inscription on the Gummarp Runestone (500 to 700 AD) gives
+a cryptic inscription describing the use of three staves (runic letters) followed by the
+Elder Futhark f-rune written three times in succession. [13]
+
+Nevertheless, it has proven difficult to find unambiguous traces of runic "oracles":
+Although Norse literature is full of references to runes, it nowhere contains specific
+instructions on divination. There are at least three sources on divination with rather vague
+descriptions that may or may not refer to runes: Tacitus 's 1st century Germania , Snorri
+Sturluson's 13th century Ynglinga saga and Rimbert 's 9th century Vita Ansgari .
+
+The first source, Tacitus's Germania , describes "signs" chosen in groups of three and cut
+from "a nut-bearing tree," although the runes do not seem to have been in use at the time of
+Tacitus' writings. A second source is the Ynglinga saga , where Granmar , the king of
+Södermanland , goes to Uppsala for the blót . There, the "chips" fell in a way that said that he
+would not live long ( Féll honum þá svo spánn sem hann mundi eigi lengi lifa ). These
+"chips," however, are easily explainable as a blótspánn (sacrificial chip), which was
+"marked, possibly with sacrificial blood, shaken and thrown down like dice, and their
+positive or negative significance then decided." [14]
+
+The third source is Rimbert's Vita Ansgari , where there are three accounts of what some
+believe to be the use of runes for divination, but Rimbert calls it "drawing lots". One of these
+accounts is the description of how a renegade Swedish king Anund Uppsale first brings a Danish
+fleet to Birka , but then changes his mind and asks the Danes to "draw lots". According to the
+story, this "drawing of lots" was quite informative, telling them that attacking Birka would
+bring bad luck and that they should attack a Slavic town instead. The tool in the "drawing of
+lots," however, is easily explainable as a hlautlein (lot-twig), which according to Foote
+and Wilson [14] would be used in the same manner as a blótspánn .
+
+The lack of extensive knowledge on historical usage of the runes has not stopped modern
+authors from extrapolating entire systems of divination from what few specifics exist,
+usually loosely based on the runes' reconstructed names and additional outside influence.
+
+A recent study of runic magic suggests that runes were used to create magical objects such as
+amulets (MacLeod and Mees 2006), but not in a way that would indicate that runic writing was any
+more inherently magical than were other writing systems such as Latin or Greek.
+
+
+
+[ edit ] Medieval use
+
+
+
+
+
+Codex Runicus , a vellum manuscript from around 1300 AD containing one of the oldest and best
+preserved texts of the Scanian Law , written entirely in runes.
+
+
+
+
+
+As Proto-Germanic evolved into its later language groups, the words assigned to the runes and
+the sounds represented by the runes themselves began to diverge somewhat, and each culture
+would either create new runes, rename or rearrange its rune names slightly, or even stop using
+obsolete runes completely, to accommodate these changes. Thus, the Anglo-Saxon futhorc has
+several runes peculiar to itself to represent diphthongs unique to (or at least prevalent in)
+the Anglo-Saxon dialect.
+
+Nevertheless, the fact that the Younger Futhark has 16 runes, while the Elder Futhark has 24,
+is not fully explained by the some 600 years of sound changes that had occurred in the North
+Germanic language group. The development here might seem rather astonishing, since the
+younger form of the alphabet came to use fewer different rune signs at the same time as the
+development of the language led to a greater number of different phonemes than had been
+present at the time of the older futhark. For example, voiced and unvoiced consonants merged
+in script, and so did many vowels, while the number of vowels in the spoken language increased.
+From about 1100, this disadvantage was eliminated in the medieval runes, which again
+increased the number of different signs to correspond with the number of phonemes in the
+language.
+
+Some later runic finds are on monuments ( runestones ), which often contain solemn
+inscriptions about people who died or performed great deeds. For a long time it was assumed
+that this kind of grand inscription was the primary use of runes, and that their use was
+associated with a certain societal class of rune carvers.
+
+In the mid-1950s, however, about 600 inscriptions known as the Bryggen inscriptions were
+found in Bergen . These inscriptions were made on wood and bone, often in the shape of sticks of
+various sizes, and contained inscriptions of an everyday nature—ranging from name tags,
+prayers (often in Latin ), personal messages, business letters and expressions of affection
+to bawdy phrases of a profane and sometimes even vulgar nature. Following this find, it is
+nowadays commonly assumed that at least in late use, Runic was a widespread and common writing
+system.
+
+In the later Middle Ages, runes were also used in the Clog almanacs (sometimes called Runic
+staff , Prim or Scandinavian calendar ) of Sweden and Estonia. The authenticity of some
+monuments bearing Runic inscriptions found in Northern America is disputed, but most of them
+date from modern times.
+
+
+
+[ edit ] Runes in Eddic lore
+
+
+
+In Norse mythology , the runic alphabet is attested to a divine origin ( Old Norse : reginkunnr
+). This is attested as early as on the Noleby Runestone from around 600 CE that reads Runo fahi
+raginakundo toj[e'k]a... , meaning "I prepare the suitable divine rune ..." [15] and in an
+attestation from the 9th century on the Sparlösa Runestone which reads Ok rað runaR þaR
+rægi[n]kundu , meaning "And interpret the runes of divine origin". [16] More notably, in the
+Poetic Edda poem Hávamál , Stanza 80, the runes are also described as reginkunnr :
+
+Þat er þá reynt, er þú að rúnum spyrr inum reginkunnum, þeim er gerðu ginnregin ok
+fáði fimbulþulr, þá hefir hann bazt, ef hann þegir . [17] That is now proved,what you
+asked of the runes,of the potent famous ones,which the great gods made,and the mighty sage
+stained,that it is best for him if he stays silent. [18]
+
+The poem Hávamál explains that the originator of the runes was the major god Odin . Stanza 138
+describes how Odin received the runes through self-sacrifice:
+
+Veit ek at ek hekk vindga meiði a netr allar nío, geiri vndaþr ok gefinn Oðni, sialfr
+sialfom mer, a þeim meiþi, er mangi veit, hvers hann af rótom renn. I know that I hung on a
+windy tree nine long nights,wounded with a spear, dedicated to Odin,myself to myself,on that
+tree of which no man knows from where its roots run. [19] In stanza 139, Odin continues:
+
+Við hleifi mik seldo ne viþ hornigi, nysta ek niþr, nam ek vp rvnar, opandi nam, fell ek aptr
+þaðan. No bread did they give me nor a drink from a horn ,downwards I peered;I took up the
+runes,screaming I took them,then I fell back from there. [19] In the Poetic Edda poem
+Rígsþula another origin is related of how the runic alphabet became known to man. The poem
+relates how Ríg , identified as Heimdall in the introduction, sired three sons ( Thrall
+(slave), Churl (freeman) and Jarl (noble)) on human women. These sons became the ancestors of
+the three classes of men indicated by their names. When Jarl reached an age when he began to
+handle weapons and show other signs of nobility, Rig returned and, having claimed him as a son,
+taught him the runes. In 1555, the exiled Swedish archbishop Olaus Magnus recorded a
+tradition that a man named Kettil Runske had stolen three rune staffs from Odin and learned the
+runes and their magic.
+
+
+
+[ edit ] Script variants
+
+
+
+
+
+[ edit ] Elder Futhark (2nd to 8th c.)
+
+
+
+
+
+.
+
+
+
+
+
+Main article: Elder Futhark
+
+The Elder Futhark, used for writing Proto-Norse , consists of 24 runes that are often arranged
+in three groups of eight; each group is referred to as an Ætt . The earliest known sequential
+listing of the full set of 24 runes dates to around 400 AD and is found on the Kylver Stone in
+Gotland , Sweden.
+
+Each rune most probably had a name, chosen to represent the sound of the rune itself. The names
+are, however, not directly attested for the Elder Futhark themselves. Reconstructed names
+in Proto-Germanic have been produced, based on the names given for the runes in the later
+alphabets attested in the rune poems and the linked names of the letters of the Gothic alphabet
+. The asterisk before the rune names means that they are unattested reconstructions. The 24
+Elder Futhark runes are: [20]
+
+
+
+
+
+
+
+
+
+
+
+
+
+The futhorc are an extended alphabet, consisting of 29, and later even 33 characters. It was
+probably used from the 5th century onward. There are competing theories as to the origins of
+the Anglo-Saxon Fuþorc. One theory proposes that it was developed in Frisia and later spread
+to England . Another holds that runes were introduced by Scandinavians to England where the
+fuþorc was modified and exported to Frisia. Both theories have their inherent weaknesses
+and a definitive answer likely awaits more archaeological evidence. Futhorc inscriptions
+are found e.g. on the Thames scramasax , in the Vienna Codex , in Cotton Otho B.x ( Anglo-Saxon
+rune poem ) and on the Ruthwell Cross .
+
+The Anglo-Saxon rune poem gives the following characters and names:
+
+The expanded alphabet features the additional letters ᛢ cweorth, ᛣ calc, ᛤ cealc and
+ᛥ stan- these additional letters have only been found in manuscripts. Feoh, þorn, and
+sigel stood for [f], [þ], and [s] in most environments, but voiced to [v], [ð], and [z]
+between vowels or voiced consonants. Gyfu and wynn stood for the letters yogh and wynn , which
+became [g] and [w] in Middle English .
+
+
+
+
+
+[ edit ] "Marcomannic runes" (8th to 9th c.)
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Marcomannic.PNG/410px-Marcomannic.PNG
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Marcomannic runes.
+
+
+
+
+
+In a treatise called De Inventione Litterarum , preserved in 8th and 9th century manuscripts,
+mainly from the southern part of the Carolingian Empire ( Alemannia , Bavaria ), ascribed to
+Hrabanus Maurus , a runic alphabet consisting of a curious mixture of Elder Futhark with
+Anglo-Saxon futhorc is recorded. The manuscript text ascribes the runes to the Marcomanni,
+quos nos Nordmannos vocamus , and the alphabet is hence traditionally called "Marcomannic
+runes", but it has no connection with the Marcomanni and is rather an attempt of Carolingian
+scholars to represent all letters of the Latin alphabets with runic equivalents.
+
+Wilhelm Grimm discussed these runes in 1821 ( Ueber deutsche Runen , chapter 18, pp. 149-159).
+
+
+
+
+
+[ edit ] Younger Fuþark (9th to 11th c.)
+
+
+
+Main article: Younger Futhark
+
+
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+
+
+
+
+
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+While also featuring a runic inscription detailing the erection of a bridge for a loved one,
+the 11th century Ramsung carving is a Sigurd stone that depicts the legend of Sigurd .
+
+
+
+
+
+The Younger Fuþark, also called Scandinavian Fuþark, is a reduced form of the Elder Futhark
+, consisting of only 16 characters. The reduction correlates with phonetic changes when
+Proto-Norse evolved into Old Norse . They are found in Scandinavia and Viking Age settlements
+abroad, probably in use from the 9th century onward. They are divided into long-branch
+(Danish) and short-twig (Swedish and Norwegian) runes. The difference between the two
+versions has been a matter of controversy. A general opinion is that the difference was
+functional; i.e. the long-branch runes were used for documentation on stone, whereas the
+short-branch runes were in everyday use for private or official messages on wood.
+
+
+
+
+
+[ edit ] Medieval runes (12th to 15th c.)
+
+
+
+Main article: Medieval runes
+
+
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Medieval runes .
+
+
+
+
+
+
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+A church bell from Saleby, Västergötland , Sweden, containing a runic inscription from
+1228.
+
+
+
+
+
+In the Middle Ages, the Younger Futhark in Scandinavia was expanded, so that it once more
+contained one sign for each phoneme of the Old Norse language. Dotted variants of voiceless
+signs were introduced to denote the corresponding voiced consonants, or vice versa,
+voiceless variants of voiced consonants, and several new runes also appeared for vowel
+sounds. Inscriptions in medieval Scandinavian runes show a large number of variant rune
+forms, and some letters, such as s, c and z, were often used interchangeably. [21] [22]
+
+Medieval runes were in use until the 15th century. Of the total number of Norwegian runic
+inscriptions preserved today, most are medieval runes. Notably, more than 600 inscriptions
+using these runes have been discovered in Bergen since the 1950s, mostly on wooden sticks (the
+so-called Bryggen inscriptions ). This indicates that runes were in common use side by side
+with the Latin alphabet for several centuries. Indeed, some of the medieval runic
+inscriptions are actually in Latin language.
+
+
+
+
+
+[ edit ] Dalecarlian runes (16th to 19th c.)
+
+
+
+Main article: Dalecarlian runes
+
+
+
+
+
+
+
+According to Carl-Gustav Werner, "In the isolated province of Dalarna in Sweden a mix of runes
+and Latin letters developed."(Werner 2004, p. 7) The Dalecarlian runes came into use in the
+early 16th century and remained in some use up to the 20th century. Some discussion remains on
+whether their use was an unbroken tradition throughout this period or whether people in the
+19th and 20th centuries learned runes from books written on the subject. The character
+inventory was mainly used for transcribing Elfdalian .
+
+
+
+
+
+[ edit ] Academic study
+
+
+
+Main article: Runology
+
+The modern study of runes was initiated in the Renaissance, by Johannes Bureus (1568-1652).
+Bureus viewed runes as holy or magical in a kabbalistic sense. The study of runes was continued
+by Olof Rudbeck Sr (1630-1702) and presented in his collection Atlantica . Anders Celsius
+(1701-44) further extended the science of runes and travelled around the whole of Sweden to
+examine the bautastenar ( runestones ). From the "golden age of philology " in the 19th
+century, runology formed a specialized branch of Germanic linguistics .
+
+
+
+[ edit ] Body of inscriptions
+
+
+
+
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+The Vimose Comb from the island of Funen , Denmark features the earliest known runic
+inscription (150 to 200 AD) and simply reads "Harja", a male name.
+
+
+
+
+
+The largest group of surviving Runic inscription are Viking Age Younger Futhark runestones,
+most commonly found in Sweden. Another large group are medieval runes, most commonly found on
+small objects, often wooden sticks. The largest concentration of runic inscriptions are the
+Bryggen inscriptions found in Bergen , more than 650 in total. Elder Futhark inscriptions
+number around 350, about 260 of which are from Scandinavia, of which about half are on
+bracteates . Anglo-Saxon futhorc inscriptions number around 100 items.
+
+The following table lists the number of known inscriptions (in any alphabet variant) by
+geographical region:[ citation needed ]
+
+Area Number of runic inscriptions Sweden 3,432 Norway 1,552 Denmark 844 Scandinavian total
+5,826 Continental Europe except Scandinavia and Frisia 80 Frisia 20 The British Isles except
+Ireland > 200 Greenland > 100 Iceland < 100 Ireland 16 Faroes 9 Non-Scandinavian total > 500
+Total > 6,400
+
+[ edit ] Modern use
+
+
+
+Runic alphabets have seen numerous usages in since the 18th century Viking revival , in
+Scandinavian Romantic nationalism ( Gothicismus ) and Germanic occultism in the 19th
+century, and in the context of the Fantasy genre and of Germanic Neopaganism in the 20th.
+
+
+
+[ edit ] Occultism and Nazi Germany
+
+
+
+Further information: Runosophy , Armanen runes , Wiligut runes , and Runengymnastik
+
+
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+From 1933, Schutzstaffel unit insignia displayed two Sig Runes .
+
+
+
+
+
+The pioneer of the Armanist branch of Ariosophy and one of the more important figures in
+esotericism in Germany and Austria in the late 19th and early 20th century was the Austrian
+occultist, mysticist and völkisch author Guido von List . In 1908, he published in Das
+Geheimnis der Runen ("The Secret of the Runes") a set of 18 so-called " Armanen runes ", based on
+the Younger Futhark and runes of List's own introduction, which were allegedly revealed to
+him in a state of temporary blindness after a cataract operation on both eyes in 1902.
+
+Runes have been used in Nazi symbolism by Nazis and Neo-Nazi groups that associate themselves
+with Germanic traditions, mainly the Sig , Eihwaz , Tiwaz , Odal and Algiz runes.
+
+The fascination that runes seem to have exerted on the Nazis can be traced to Guido von List . His
+rune row, however, was later rejected by the Nazis in favor of the Wiligut runes created by the
+official Nazi Runologist Karl Maria Wiligut .
+
+In Nazi contexts, the s rune is referred to as " Sig " (after List, probably from Anglo-Saxon
+Sigel). The " Wolfsangel ", while not a rune historically, has the shape of List's " Gibor "
+rune; however, it should be noted that the shape of the Armanen rune "Gibor", as envisaged by
+von List, is substantially different from the form currently used. Who exactly it is that
+changed the shape of Gibor is open to debate, but it appeared in its "new form" in the early
+1930s. Nevertheless, if one examines Von List's original documents, one will find a somewhat
+different design, one that bears little resemblance to the "Wolfsangel".
+
+Another modern-day runic row is the Uthark , commonly known through the work of the Swedish
+scholar and occultist Thomas Karlsson , founder of the Ordo Draconis et Atri Adamantis (or
+Dragon Rouge ), who refers to them as the "night side of the runes". This runic row and theory had
+however been the subject of an earlier study by the Swedish philologist Sigurd Agrell .
+
+
+
+[ edit ] J. R. R. Tolkien
+
+
+
+In J. R. R. Tolkien 's novel The Hobbit (1937), the Anglo-Saxon runes are used on a map to
+emphasize its connection to the Dwarves . They were also used in the initial drafts of The Lord
+of the Rings , but later were replaced by the Cirth rune-like alphabet invented by Tolkien.
+
+Following Tolkien, historical and fictional runes appear commonly in modern popular
+culture, particularly in fantasy literature , video games , and various other forms of media.
+
+
+
+[ edit ] Neopaganism and New Age
+
+
+
+As forms of Neopaganism can be quite different and have distinctive origins, recognition and
+usage of runes can vary considerably.
+
+As with Germanic paganism in general, the runes are a major element in Germanic neopaganism
+used for a wide variety of purposes in varying senses of reconstructionism , depending on the
+type of group. The more academic adherents of Germanic neopaganism eschew any use of runes
+outside of writing and magic.
+
+New Agers and some Wiccans may also sometimes use runes under various (generally
+non-reconstructive) conditions, such as divination .
+
+
+
+[ edit ] Typesetting and encoding
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Runen_Schlagstempel.jpg/180px-Runen_Schlagstempel.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Runic Steel Stamps, Norwegian
+
+
+
+
+
+Runic alphabets are assigned Unicode range 16A0–16FF. This block is intended to encode all
+shapes of runic letters. Each letter is encoded only once, regardless of the number of
+alphabets in which it occurs.
+
+The block contains 81 symbols: 75 runic letters (16A0–16EA), three punctuation marks
+(Runic Single Punctuation 16EB ᛫, Runic Multiple Punctuation 16EC ᛬ and Runic Cross
+Punctuation 16ED ᛭), and three runic symbols that are used in mediaeval calendar staves
+("Golden number Runes", Runic Arlaug Symbol 16EE ᛮ, Runic Tvimadur Symbol 16EF ᛯ and
+Runic Belgthor Symbol 16F0 ᛰ). Characters 16F1–16FF are unassigned (as of Unicode
+Version 5.0).
+
+Unicode fonts that support the runic range include the following Free Unicode fonts ;
+Junicode , Free Mono , and Caslon Roman and the following non-free Unicode fonts; Code2000 ,
+Everson Mono , and TITUS Cyberbit Basic .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[ edit ] See also
+
+
+
+    
+
+    - Codex Runicus
+
+    
+
+    - Computus Runicus
+
+    
+
+    - Erilaz
+
+    
+
+    - Runamo – a false runic inscription
+
+    
+
+    - Rundata
+
+    
+
+    - Solomon and Saturn
+
+    
+
+Other scripts, reminiscent of, based on or related to runes:
+
+    
+
+    - Ogham , the early Irish monumental alphabet
+
+    
+
+    - Old Italic alphabet
+
+    
+
+    - Orkhon script and Old Hungarian script (sometimes referred to as Turkic and Hungarian
+    runes)
+
+    
+
+    - Siglas Poveiras
+
+    
+
+    - Slavic runes (unattested sign system postulated from medieval accounts)
+
+    
+
+    
+
+    - the " Armanen runes ", invented by Guido von List
+
+    
+
+    - the Cirth "runes", invented by J. R. R. Tolkien
+
+    
+
+
+
+[ edit ] References
+
+
+
+
+
+
+
+
+
+[ edit ] Bibliography
+
+
+
+    
+
+    - Bammesberger, A and G. Waxenberger (eds), Das fuþark und seine einzelsprachlichen
+    Weiterentwicklungen , Walter de Gruyter (2006), ISBN 3-11-019008-7 .
+
+    
+
+    - Blum, Ralph. (1932. The Book of Runes - A Handbook for the use of Ancient Oracle : The
+    Viking Runes ,Oracle Books, St. Martin's Press, New York, ISBN 0-312-00729-9 .
+
+    
+
+    - Brate, Erik (1922). Sveriges runinskrifter , ( online text
+
+    in Swedish )
+
+    
+
+    - Düwel, Klaus (2001). Runenkunde , Verlag J.B. Metzler (In German).
+
+    
+
+    - Foote, P.G., and Wilson, D.M. (1970), page 401. The Viking Achievement , Sidgwick &
+    Jackson: London, UK, ISBN 0-283-97926-7
+
+    
+
+    - Jacobsen, Lis; Erik Moltke (1941–42). Danmarks runeindskrifter . Copenhagen:
+    Ejnar Munksgaards Forlag.
+
+    
+
+    - Looijenga, J. H. (1997). Runes around the North Sea and on the Continent AD 150-700
+
+    , dissertation, Groningen University.
+
+    
+
+    - MacLeod, Mindy, and Bernard Mees (2006). Runic Amulets and Magic Objects
+
+    " . The Boydell Press: Woodbridge, UK; Rochester, NY, ISBN 1843832054 .
+
+    
+
+    - Markey, T.L. (2001). A tale of the two helmets: Negau A and B. Journal of Indo-European
+    Studies 29: 69-172.
+
+    
+
+    - McKinnell, John and Rudolf Simek, with Klaus Düwel (2004). Runes, Magic, and
+    Religion: A Sourcebook . Wien: Fassbaender, ISBN 3900538816 .
+
+    
+
+    - Mees, Bernard (200). The North Etruscan thesis of the origin of the runes. Arkiv for
+    nordisk fililogi 115: 33-82.
+
+    
+
+    - Odenstedt, Bengt (1990). On the Origin and Early History of the Runic Script , Uppsala,
+    ISBN 9185352209 .
+
+    
+
+    - Page, R.I. (1999). An Introduction to English Runes
+
+    , The Boydell Press, Woodbridge. ISBN 0-85115-946-X .
+
+    
+
+    - Prosdocimi, A.L. (2003-4). Sulla formazione dell'alfabeto runico. Promessa di
+    novità documentali forse decisive. Archivio per l'Alto Adige . XCVII-XCVIII:427-440
+
+    
+
+    - Robinson, Orrin W. (1992). Old English and its Closest Relatives: A Survey of the
+    Earliest Germanic Languages Stanford University Press. ISBN 0-8047-1454-1
+
+    
+
+    - Spurkland, Terje (2005). Norwegian Runes and Runic Inscriptions , Boydell Press. ISBN
+    1-84383-186-4
+
+    
+
+    - Stoklund, M. (2003). The first runes - the literary language of the Germani in The Spoils
+    of Victory - the North in the Shadow of the Roman Empire Nationalmuseet (?)
+
+    
+
+    - Thorsson, Edred (1987), Runelore: a handbook of esoteric runology , United States:
+    Samuel Weiser, Inc., ISBN 0-87728-667-1
+
+    
+
+    - Werner, Carl-Gustav (2004). The allrunes Font and Package [1]
+
+    PDF .
+
+    
+
+    - Williams, Henrik. (1996). The origin of the runes. Amsterdamer Beiträge zur älteren
+    Germanistik 45: 211-18.
+
+    
+
+    - Williams, Henrik (2004). "Reasons for runes," in The First Writing: Script Invention
+    as History and Process , Cambridge University Press, pp. 262-273. ISBN 0-521-83861-4
+
+    
+
+
+
+
+
+[ edit ] External links
+
+
+
+    Wikimedia Commons has media related to: Runes
+
+    - Ancientscripts.com Futhark entry.
+
+    
+
+    - Omniglot.com runic alphabet entry.
+
+    
+
+    - Nytt om Runer Magazine.
+
+    
+
+    - Bibliography of Runic Scholarship
+
+    
+
+    - Unicode Code Chart
+
+    PDF (68.3 KB)
+
+    
+
+
+
+
+
+Runes See also: Rune poems · Runestones · Runology · Runic divination v • d • e Elder
+Fuþark : ᚠ ᚢ
+
+
+
+
+
+o
+
+
+
+feel free to ask about runes in this topic. __________________
+
+Quote: Originally Posted by jch789
+
+Image: images/styles/TM/buttons/viewpost.gif Screw the world of worries! wth.
+
+Quote: Originally Posted by hosh_man
+
+Image: images/styles/TM/buttons/viewpost.gif what are we talking about? i dunno????
+
+
+
+Image: images/smilies/smiley_ownz.gif
+
+Image: http://www.trackmill.com/forums/images/smilies/rofl.gif
+
+Image: images/smilies/emot-argh.gif
+
+Image: http://trackmill.com/forums/images/smilies/party.gif
+
+
+
+Last edited by skye's the best; 06-06-2009 at 07:57 PM .
+
+Image: images/styles/TM/statusicon/user_offline.gif     skye's the best View Public
+Profile Send a private message to skye's the best Visit skye's the best's homepage! Find all
+posts by skye's the best   haxor vbmenu_register("postmenu_26873", true); TrackMill Pro
+
+Engineer  
+
+
+
+Image: image.php?s=92b02472492bfaecfef49e2c7e777317&u=77120&dateline=1309403842
+
+
+
+Image: http://trackmill.com/forums/vmoods/tm_titles/EverythingIsTerrible.gif  
+
+Lights is my bitch Join Date: Feb 2009 Location: Ontario, Canada Eh? Posts: 4,843 Fav. Game:
+Free Rider 2
+
+
+
+Image: /forums/images/awards/freerider2_pro.png
+
+Total Awards : 1
+
+
+
+Image: images/styles/TM/misc/im_msn.gif
+
+
+
+06-06-2009, 08:00 PM   # 2
+
+Image: images/icons/icon1.gif
+
+
+
+All you did was copy this from wikiapedia. What was the point of it anyways __________________
+
+
+
+Image: http://upurs.us/image/28012.jpeg
+
+Image: images/styles/TM/statusicon/user_offline.gif     haxor View Public Profile
+Send a private message to haxor Find all posts by haxor   Isenki
+vbmenu_register("postmenu_26874", true); TrackMill Admin
+
+Engineer  
+
+
+
+Image: image.php?s=92b02472492bfaecfef49e2c7e777317&u=22944&dateline=1285862806
+
+
+
+Image: http://trackmill.com/forums/vmoods/tm_titles/CleverGirl.gif  
+
+
+E̸̴̛̱̘͍̖̗̯̙͕͒̅̐̌̋̏̕V̆́́̔͌̾̅̈̏̅͒҉̜͚̗͓͉̣̻̻̙̪̼&
+Join Date: Oct 2008 Location: <?error> Posts: 2,982
+
+Image: images/styles/TM/misc/im_msn.gif
+
+Image: images/styles/TM/misc/im_yahoo.gif
+
+Image: http://mystatus.skype.com/smallicon/isenki
+
+
+
+06-06-2009, 08:06 PM   # 3
+
+Image: images/icons/icon1.gif
+
+
+
+Wow... just wow. Imagine if everyone posted threads like this. __________________
+
+
+
+Image: http://www.lowbird.com/data/images/2009/07/3.jpg
+
+Image: images/styles/TM/statusicon/user_offline.gif     Isenki View Public Profile
+Send a private message to Isenki Find all posts by Isenki   xDS64x
+vbmenu_register("postmenu_26946", true); Engineer  
+
+
+
+Image: image.php?s=92b02472492bfaecfef49e2c7e777317&u=78739&dateline=1331417977
+
+ 
+
+Retired Staff Member Join Date: Nov 2008 Location: New Brunswick, Canada Posts: 3,181 Fav.
+Game: Free Rider 2
+
+Image: images/styles/TM/misc/im_msn.gif
+
+Image: http://mystatus.skype.com/smallicon/GalaxyXBL
+
+
+
+06-07-2009, 01:19 AM   # 4
+
+Image: images/icons/icon1.gif
+
+
+
+Our Heads Would Blow
+
+Image: http://trackmill.com/forums/images/smilies/tongue.gif __________________
+
+★ So What's The Deal Ridaz! ★
+
+
+
+Image: http://upurs.us/image/36978.png
+
+Image: images/styles/TM/statusicon/user_offline.gif     xDS64x View Public Profile
+Send a private message to xDS64x Visit xDS64x's homepage! Find all posts by xDS64x
+
+
+
+Image: images/styles/TM/buttons/threadclosed.gif
+
+Tags rune mysteries
+
+Image: images/styles/TM/misc/11x11progress.gif
+
+« Previous Thread | Next Thread » Thread Tools
+
+Image: images/styles/TM/buttons/printer.gif Show Printable Version
+
+Image: images/styles/TM/buttons/sendtofriend.gif Email this Page Display Modes
+
+Image: images/styles/TM/buttons/mode_linear.gif Linear Mode
+
+Image: images/styles/TM/buttons/mode_hybrid.gif Switch to Hybrid Mode
+
+Image: images/styles/TM/buttons/mode_threaded.gif Switch to Threaded Mode
+
+
+
+Image: images/styles/TM/buttons/collapse_thead.gif Posting Rules You may not post new
+threads You may not post replies You may not post attachments You may not edit your posts
+
+
+
+BB code is On Smilies are On [IMG] code is On HTML code is Off
+
+
+
+Forum Rules Forum Jump
+
+User Control Panel Private Messages Subscriptions Who's Online Search Forums Forums Home
+The Fine Print     Forum Rules     News & Announcements     Frequently Asked Questions  
+  Support Area Spotlight Games     Coloraze         User Galleries (Coloraze)     Free
+Rider 2         User Galleries (FR2)         Pro Galleries (FR2)         Track Sharing
+(FR2)         Collaborations (FR2)         Ideas/Feedback (FR2)     Etchbox        
+User Galleries (EB) General Discussion     Off Topic         Ball Pit         Serious
+Business     Introduce Yourself     Personal Projects     Technology And Media     User
+Submitted Contests     TM Games Workshop TrackMill Games     Bit Addiction         User
+Galleries (BA)     DUI         User Galleries (DUI)     Derpy Shape Game         User
+Galleries (DSG)     Fox N' Roll         User Galleries (FNR)     Free Rider 1         User
+Galleries (FR1)     Free Wires         User Galleries (FW)     iZZi         User
+Galleries (iZZi)     Steel Superstructure         User Galleries (SSS)
+
+
+
+All times are GMT. The time now is 10:21 PM .
+
+-- TM *TESTING PURPOSES ONLY* -- TM
+
+Powered by vBulletin® Version 3.8.6
+
+    Copyright ©2000 - 2012, Jelsoft Enterprises Ltd.
+
+    - Home
+
+    
+
+    - Register
+
+    
+
+    - Members List
+
+    
+
+    - Calendar
+
+    
+
+    - Mark Forums Read
+
+    
+
+    - Contact Us
+
+    
+
+    - Archive
+
+    
+
+
+
+<!-- // Main vBulletin Javascript Initialization vBulletin_init(); //-->
+

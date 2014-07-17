@@ -1,0 +1,813 @@
+
+
+
+
+Emiliano Aguero (Weichert Realtors) - Real Estate Agent - Fort Lee, NJ (function() { var cx =
+'016474116467456296202:zcdp2tq_pxi' var gcse = document.createElement('script');
+gcse.type = 'text/javascript'; gcse.async = true; gcse.src =
+(document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/headers/ar_home_logo.png?1348686267
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_b_search.png?1348686267
+    var currentIndex = -1 var default_phrase = "Find Homes for Sale in your city"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686267
+        Consumer
+
+        - Home Buying
+
+        
+
+        - Home Improvement
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Home Selling
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686267
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+.my_home_nav_link { padding-left: 11px; background:
+url(/images/blue_arrow_right.gif) no-repeat left; } function
+toggle_my_home_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none" $(link_id).style.backgroundImage =
+"url(/images/blue_arrow_right.gif)" } else { $(sub_nav_id).style.display = "block"
+$(link_id).style.backgroundImage = "url(/images/blue_down_arrow.gif)" } } My Profile
+
+My AR Blog
+
+    
+
+        - Associates
+
+        - Associates
+
+        
+
+    
+
+    
+
+My Comments
+
+Points Summary
+
+    function contact(aid) { //documentation on this:
+    http://prototype-window.xilinus.com/documentation.html var win = new
+    Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+    width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+    resizable: true}) win.setDestroyOnClose(); win.show(true); } Home : New Jersey :
+    Bergen County : Fort Lee : Emiliano Aguero 2,371 Points
+
+        Name
+
+    
+
+        Emiliano Aguero
+
+    
+
+        Company
+
+    
+
+        Weichert Realtors
+
+    
+
+        E-mail
+
+    
+
+        Contact Emiliano Aguero (Weichert Realtors)
+
+    
+
+        Website
+
+    
+
+        http://www.njmls.com
+
+    
+
+        Office Phone
+
+    
+
+        (201) 592-1400 x 102
+
+    
+
+        Cell Phone
+
+    
+
+        (201) 970-1158
+
+    
+
+        Fax
+
+    
+
+        (201) 592-9208
+
+    
+
+        Address
+
+    
+
+        310 Main Street, Fort Lee, NJ, 07024
+
+    
+
+        Description
+
+    
+
+        I strive to provide the highest quality of service to all my clients while making each
+        transaction as profitable, professional, successful and stress-free as
+        possible.
+
+    
+
+
+
+
+
+Use this section to write about yourself - don't be shy - Why sh
+
+
+
+Member of The New Jersey Board of Realtors
+
+Member of The New Jersey MLS
+
+Weichert Million Dollar Marketing & Sales Club 2004-2008
+
+ 
+
+ 
+
+
+
+
+
+Cliffside Park
+
+Edgewater
+
+Englewood Cliffs
+
+Elmwood Park
+
+Fort Lee
+
+Leonia
+
+Little Ferry
+
+Maywood
+
+New Milford
+
+Palisades Park
+
+Paramus
+
+Ridgefield
+
+Ridgefield Park
+
+ 
+
+ 
+
+Fort Lee, NJ
+
+
+
+Geography
+
+Fort Lee is located at 40°51′12.32″N 73°58′29.32″Wï»¿ /
+ï»¿40.8534222°N 73.9748111°Wï»¿ / 40.8534222; -73.9748111 (40.853423,
+-73.97481). [12] It is north of Edgewater, New Jersey and is on the Hackensack Peninsula
+between the Hackensack River and the Hudson River .
+
+According to the United States Census Bureau , the borough has a total area of 2.9 square
+miles (7.5 km²), of which, 2.5 square miles (6.6 km²) of it is land and 0.3 square
+miles (0.9 km²) of it (12.15%) is water.
+
+History
+
+Fort Lee is named as a result of George Washington and named after General Charles Lee , who
+camped in this area, defending New York City . George Washington and his troops actually
+walked on a road which is called Main Street in Fort Lee. In fact, it was during Washington's
+retreat from Fort Lee in November 1776 that Thomas Paine composed his pamphlet, "The American
+Crisis", which began with the recognized phrase, "These are the times that try men's souls". A
+statue of Thomas Paine will soon be installed in Monument Park in Fort Lee. The George
+Washington Bridge , which connects New Jersey to the Washington Heights neighborhood in
+uptown Manhattan , New York City , has its western terminus located in Fort Lee.
+
+In recent years, Fort Lee has seen a surge of residents of Korean origin which has led to the
+conversion of much of the town into a large Koreatown , similar to Chinatowns of such cities as
+New York and San Francisco in that many traditional Korean stores and restaurants may be seen
+in Fort Lee, and the hangul letters of the Korean alphabet are as common as signs in English in
+parts of the downtown area.
+
+The rapid increase of the Korean population has seen the decline of many other immigrant
+communities once centered in Fort Lee, notably the Greek and Italian communities, once quite
+large but now all but extinct. Luxury high-rises built near the George Washington Bridge have
+attracted many New York City residents to the city as well, as Fort Lee offers some relief from
+the stresses and prices of living in New York City. A sizable Russian immigrant community has
+also sprung up in recent years, also attracted by the urban setting of Fort Lee.
+
+America's First Motion Picture Industry
+
+The history of cinema in the United States can trace its roots to the East Coast where at one
+time, Fort Lee was the motion picture capital of America. The industry got its start at the end
+of the 19th century with the construction of Thomas Edison 's "Black Maria", the first motion
+picture studio in West Orange, New Jersey . Cities in New Jersey offered land at costs
+considerably less than New York City , and the cities and towns of New Jersey near New York
+benefited greatly as a result of the phenomenal growth of the film industry at the turn of the
+20th century.
+
+Filmmaking began attracting both capital and an innovative workforce and when the Kalem
+Company began using Fort Lee in 1907 as a location for filming in the area, other filmmakers
+quickly followed. In 1909, a forerunner of Universal Studios , the Champion Film Company ,
+built the first studio. They were quickly followed by others who either built new studios or
+who leased facilities in Fort Lee. In the 1910s and 1920s, film companies such as the
+Independent Moving Pictures Company , Peerless Studios , The Solax Company , Éclair Studios
+, Goldwyn Picture Corporation , American Méliès (Star Films), World Pictures , Biograph
+Studios , Fox Film Corporation , Pathé Frères , Metro Pictures Corporation , Victor Film
+Company , Selznick Pictures Corporation were all making pictures in Fort Lee. Such notables
+as Mary Pickford and Miles Remy got their start at Biograph Studios.
+
+With the offshoot businesses that sprang up to service the film studios, for nearly two
+decades Fort Lee experienced unrivaled prosperity. However, just as the development of Fort
+Lee production facilities was gaining strength, Nestor Studios of Bayonne, New Jersey ,
+built the first studio in Hollywood in 1911. Nestor Studios owned by David and William
+Horsley, later merged with Universal Studios, and William Horsley's other company
+Hollywood Film Laboratory is now the oldest existing company in Hollywood, now called the
+Hollywood Digital Laboratory. California 's more hospitable and cost effective climate led
+to the eventual shift of virtually all filmmaking to the West Coast by the 1930s. Some
+companies, such as American Méliès, moved to San Antonio, Texas , and others moved to
+Jacksonville, Florida .
+
+Since 2000 the Fort Lee film commission has been charged with celebrating the history of film
+in Fort Lee as well as to attract film and television production companies to the borough.
+
+Transportation
+
+Fort Lee is served by Palisades Interstate Parkway , New Jersey Route 4 , New Jersey Route 5 , New
+Jersey Route 67 , Interstate 95 / New Jersey Turnpike , U.S. Route 9W , U.S. Route 1-9 , U.S. Route
+46 , and County Route 505 . The George Washington Bridge crosses the Hudson River from Fort Lee
+to Manhattan .
+
+Fort Lee is also served by New Jersey Transit buses 154 , 156 , 158 and 159 to the Port Authority
+Bus Terminal in Midtown Manhattan ; the 171 , 175 , 178 , 181 , 182 , 186 and 188 lines to the George
+Washington Bridge Bus Terminal ; and local service on the 751 , 753 , 755 and 756
+
+    Links
+
+    - The Borough's web site
+
+    
+
+    - Fort Lee Police Department
+
+    
+
+    - Fort Lee Volunteer Fire Department
+
+    
+
+    - Fort Lee Volunteer Ambulance Corps
+
+    
+
+    - Fort Lee School District
+
+    
+
+    - Fort Lee School District's 2006-07 School Report Card from the New Jersey Department of
+    Education
+
+    
+
+    - Data for the Fort Lee School District , National Center for Education Statistics
+
+    
+
+    - Fort Lee Online community web site
+
+    
+
+    - Fort Lee Film Commission web site
+
+    
+
+    - an enlarged view of road jurisdiction at the Fort Lee approaches to the George
+    Washington Bridge
+
+    
+
+    
+
+    - Fort Lee, New Jersey is at coordinates 40°51′12″N 73°58′29″Wï»¿ /
+    ï»¿40.853423°N 73.97481°Wï»¿ / 40.853423; -73.97481ï»¿ (Fort Lee, New
+    Jersey) Coordinates : 40°51′12″N 73°58′29″Wï»¿ / ï»¿40.853423°N
+    73.97481°Wï»¿ / 40.853423; -73.97481ï»¿ (Fort Lee, New Jersey)
+
+    
+
+
+
+  Pictures
+
+
+
+Image: http://pics4.city-data.com/cpicv/vfiles16383.jpg
+
+
+
+Image: http://www.revolutionaryday.com/usroute9w/ftlee/brupalsd.jpg
+
+
+
+    Image: http://farm1.static.flickr.com/212/499013773_75631fe572.jpg?v=0
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/new_design/eho.gif?1348686267
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

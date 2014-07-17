@@ -1,0 +1,2275 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); thus spake drake: 02/01/2006 - 03/01/2006 <!-- /*
+----------------------------------------------- Blogger Template Style Name: Awesome
+Inc. Designer: Tina Chen URL: tinachen.org
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="keycolor" description="Main Color" type="color"
+default="#ffffff"/> <Group description="Page" selector="body"> <Variable
+name="body.font" description="Font" type="font" default="normal normal 13px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="body.background.color"
+description="Background Color" type="color" default="#000000"/> <Variable
+name="body.text.color" description="Text Color" type="color" default="#ffffff"/>
+</Group> <Group description="Links" selector=".main-inner"> <Variable
+name="link.color" description="Link Color" type="color" default="#888888"/>
+<Variable name="link.visited.color" description="Visited Color" type="color"
+default="#444444"/> <Variable name="link.hover.color" description="Hover Color"
+type="color" default="#cccccc"/> </Group> <Group description="Blog Title"
+selector=".header h1"> <Variable name="header.font" description="Title Font"
+type="font" default="normal bold 40px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="header.text.color" description="Title Color" type="color"
+default="#4b4b4b" /> <Variable name="header.background.color" description="Header
+Background" type="color" default="transparent" /> </Group> <Group description="Blog
+Description" selector=".header .description"> <Variable name="description.font"
+description="Font" type="font" default="normal normal 14px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif"/> <Variable name="description.text.color" description="Text
+Color" type="color" default="#4b4b4b" /> </Group> <Group description="Tabs Text"
+selector=".tabs-inner .widget li a"> <Variable name="tabs.font" description="Font"
+type="font" default="normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color"
+default="#4b4b4b"/> <Variable name="tabs.selected.text.color"
+description="Selected Color" type="color" default="#4b4b4b"/> </Group> <Group
+description="Tabs Background" selector=".tabs-outer .PageList"> <Variable
+name="tabs.background.color" description="Background Color" type="color"
+default="#141414"/> <Variable name="tabs.selected.background.color"
+description="Selected Color" type="color" default="#444444"/> <Variable
+name="tabs.border.color" description="Border Color" type="color"
+default="#eeeeee"/> </Group> <Group description="Date Header" selector=".main-inner
+.widget h2.date-header, .main-inner .widget h2.date-header span"> <Variable
+name="date.font" description="Font" type="font" default="normal normal 14px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="date.text.color"
+description="Text Color" type="color" default="#666666"/> <Variable
+name="date.border.color" description="Border Color" type="color"
+default="#eeeeee"/> </Group> <Group description="Post Title"
+selector="h3.post-title, h4, h3.post-title a"> <Variable name="post.title.font"
+description="Font" type="font" default="normal bold 22px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif"/> <Variable name="post.title.text.color" description="Text
+Color" type="color" default="#4b4b4b"/> </Group> <Group description="Post Background"
+selector=".post"> <Variable name="post.background.color" description="Background
+Color" type="color" default="#ffffff" /> <Variable name="post.border.color"
+description="Border Color" type="color" default="#eeeeee" /> <Variable
+name="post.border.bevel.color" description="Bevel Color" type="color"
+default="#eeeeee"/> </Group> <Group description="Gadget Title" selector="h2">
+<Variable name="widget.title.font" description="Font" type="font" default="normal
+bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable
+name="widget.title.text.color" description="Text Color" type="color"
+default="#4b4b4b"/> </Group> <Group description="Gadget Text" selector=".sidebar
+.widget"> <Variable name="widget.font" description="Font" type="font"
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable
+name="widget.text.color" description="Text Color" type="color" default="#4b4b4b"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color"
+type="color" default="#666666"/> </Group> <Group description="Gadget Links"
+selector=".sidebar .widget"> <Variable name="widget.link.color" description="Link
+Color" type="color" default="#3a7acd"/> <Variable name="widget.link.visited.color"
+description="Visited Color" type="color" default="#4e47a0"/> <Variable
+name="widget.link.hover.color" description="Hover Color" type="color"
+default="#3a7acd"/> </Group> <Group description="Gadget Background"
+selector=".sidebar .widget"> <Variable name="widget.background.color"
+description="Background Color" type="color" default="#141414"/> <Variable
+name="widget.border.color" description="Border Color" type="color"
+default="#222222"/> <Variable name="widget.border.bevel.color" description="Bevel
+Color" type="color" default="#000000"/> </Group> <Group description="Sidebar
+Background" selector=".column-left-inner .column-right-inner"> <Variable
+name="widget.outer.background.color" description="Background Color" type="color"
+default="transparent" /> </Group> <Group description="Images"
+selector=".main-inner"> <Variable name="image.background.color"
+description="Background Color" type="color" default="transparent"/> <Variable
+name="image.border.color" description="Border Color" type="color"
+default="transparent"/> </Group> <Group description="Feed" selector=".blog-feeds">
+<Variable name="feed.text.color" description="Text Color" type="color"
+default="#4b4b4b"/> </Group> <Group description="Feed Links" selector=".blog-feeds">
+<Variable name="feed.link.color" description="Link Color" type="color"
+default="#3a7acd"/> <Variable name="feed.link.visited.color" description="Visited
+Color" type="color" default="#4e47a0"/> <Variable name="feed.link.hover.color"
+description="Hover Color" type="color" default="#3a7acd"/> </Group> <Group
+description="Pager" selector=".blog-pager"> <Variable
+name="pager.background.color" description="Background Color" type="color"
+default="#ffffff" /> </Group> <Group description="Footer" selector=".footer-outer">
+<Variable name="footer.background.color" description="Background Color"
+type="color" default="#ffffff" /> <Variable name="footer.text.color"
+description="Text Color" type="color" default="#4b4b4b" /> </Group> <Variable
+name="title.shadow.spread" description="Title Shadow" type="length"
+default="-1px"/> <Variable name="body.background" description="Body Background"
+type="background" color="#eeeeee" default="$(color) none repeat scroll top left"/>
+<Variable name="body.background.gradient.cap" description="Body Gradient Cap"
+type="url" default="none"/> <Variable name="body.background.size" description="Body
+Background Size" type="string" default="auto"/> <Variable
+name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="none"/> <Variable name="header.background.gradient" description="Header
+Background Gradient" type="url" default="none" /> <Variable name="header.padding.top"
+description="Header Top Padding" type="length" default="22px" /> <Variable
+name="header.margin.top" description="Header Top Margin" type="length" default="0" />
+<Variable name="header.margin.bottom" description="Header Bottom Margin"
+type="length" default="0" /> <Variable name="widget.padding.top" description="Widget
+Padding Top" type="length" default="8px" /> <Variable name="widget.padding.side"
+description="Widget Padding Side" type="length" default="15px" /> <Variable
+name="widget.outer.margin.top" description="Widget Top Margin" type="length"
+default="0" /> <Variable name="widget.outer.background.gradient"
+description="Gradient" type="url" default="none" /> <Variable
+name="widget.border.radius" description="Gadget Border Radius" type="length"
+default="0" /> <Variable name="outer.shadow.spread" description="Outer Shadow Size"
+type="length" default="0" /> <Variable name="date.header.border.radius.top"
+description="Date Header Border Radius Top" type="length" default="0" /> <Variable
+name="date.header.position" description="Date Header Position" type="length"
+default="15px" /> <Variable name="date.space" description="Date Space" type="length"
+default="30px" /> <Variable name="date.position" description="Date Float"
+type="string" default="static" /> <Variable name="date.padding.bottom"
+description="Date Padding Bottom" type="length" default="0" /> <Variable
+name="date.border.size" description="Date Border Size" type="length" default="0" />
+<Variable name="date.background" description="Date Background" type="background"
+color="transparent" default="$(color) none no-repeat scroll top left" /> <Variable
+name="date.first.border.radius.top" description="Date First top radius"
+type="length" default="0" /> <Variable name="date.last.space.bottom"
+description="Date Last Space Bottom" type="length" default="20px" /> <Variable
+name="date.last.border.radius.bottom" description="Date Last bottom radius"
+type="length" default="0" /> <Variable name="post.first.padding.top"
+description="First Post Padding Top" type="length" default="0" /> <Variable
+name="image.shadow.spread" description="Image Shadow Size" type="length"
+default="0"/> <Variable name="image.border.radius" description="Image Border Radius"
+type="length" default="0"/> <Variable name="separator.outdent"
+description="Separator Outdent" type="length" default="15px" /> <Variable
+name="title.separator.border.size" description="Widget Title Border Size"
+type="length" default="1px" /> <Variable name="list.separator.border.size"
+description="List Separator Border Size" type="length" default="1px" /> <Variable
+name="shadow.spread" description="Shadow Size" type="length" default="0"/> <Variable
+name="startSide" description="Side where text starts in blog language" type="automatic"
+default="left"/> <Variable name="endSide" description="Side where text ends in blog
+language" type="automatic" default="right"/> <Variable name="date.side"
+description="Side where date header is placed" type="string" default="right"/>
+<Variable name="pager.border.radius.top" description="Pager Border Top Radius"
+type="length" default="0" /> <Variable name="pager.space.top" description="Pager Top
+Space" type="length" default="1em" /> <Variable name="footer.background.gradient"
+description="Background Gradient" type="url" default="none" /> <Variable
+name="mobile.background.size" description="Mobile Background Size" type="string"
+default="auto"/> <Variable name="mobile.background.overlay" description="Mobile
+Background Overlay" type="string" default="transparent none repeat scroll top left"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color"
+default="#ffffff" /> */ /* Content ----------------------------------------------- */
+body { font: normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif; color:
+#4b4b4b; background: #fcfcfc
+url(http://themes.googleusercontent.com/image?id=1hKuNWa-RMhkZRZU_qyuDQ9_4yvj2Fl-Dilg1122rUH0dmH45Sjd3Rq9sQv312QsBr45s)
+no-repeat fixed top center /* Credit: follow777
+(http://www.istockphoto.com/googleimages.php?id=3018650&platform=blogger) */; }
+html body .content-outer { min-width: 0; max-width: 100%; width: 100%; } a:link {
+text-decoration: none; color: #3a7acd; } a:visited { text-decoration: none; color:
+#4e47a0; } a:hover { text-decoration: underline; color: #3a7acd; }
+.body-fauxcolumn-outer .cap-top { position: absolute; z-index: 1; height: 276px; width:
+100%; background: transparent none repeat-x scroll top left; _background-image: none; } /*
+Columns ----------------------------------------------- */ .content-inner { padding:
+0; } .header-inner .section { margin: 0 16px; } .tabs-inner .section { margin: 0 16px; }
+.main-inner { padding-top: 30px; } .main-inner .column-center-inner, .main-inner
+.column-left-inner, .main-inner .column-right-inner { padding: 0 5px; } *+html body
+.main-inner .column-center-inner { margin-top: -30px; } #layout .main-inner
+.column-center-inner { margin-top: 0; } /* Header
+----------------------------------------------- */ .header-outer { margin: 0 0 0 0;
+background: transparent none repeat scroll 0 0; } .Header h1 { font: normal bold 24px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif; color: #1d3d66; text-shadow: 0 0 -1px #000000; }
+.Header h1 a { color: #1d3d66; } .Header .description { font: normal normal 14px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif; color: #4b4b4b; } .header-inner .Header
+.titlewrapper, .header-inner .Header .descriptionwrapper { padding-left: 0;
+padding-right: 0; margin-bottom: 0; } .header-inner .Header .titlewrapper { padding-top:
+22px; } /* Tabs ----------------------------------------------- */ .tabs-outer {
+overflow: hidden; position: relative; background: #eeeeee
+url(http://www.blogblog.com/1kt/awesomeinc/tabs_gradient_light.png) repeat scroll
+0 0; } #layout .tabs-outer { overflow: visible; } .tabs-cap-top, .tabs-cap-bottom {
+position: absolute; width: 100%; border-top: 1px solid #9a9a9a; } .tabs-cap-bottom {
+bottom: 0; } .tabs-inner .widget li a { display: inline-block; margin: 0; padding: .6em
+1.5em; font: normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif; color:
+#4b4b4b; border-top: 1px solid #9a9a9a; border-bottom: 1px solid #9a9a9a; border-left:
+1px solid #9a9a9a; height: 16px; line-height: 16px; } .tabs-inner .widget li:last-child a {
+border-right: 1px solid #9a9a9a; } .tabs-inner .widget li.selected a, .tabs-inner .widget
+li a:hover { background: #696969
+url(http://www.blogblog.com/1kt/awesomeinc/tabs_gradient_light.png) repeat-x
+scroll 0 -100px; color: #ffffff; } /* Headings
+----------------------------------------------- */ h2 { font: normal bold 14px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif; color: #4b4b4b; } /* Widgets
+----------------------------------------------- */ .main-inner .section { margin: 0
+27px; padding: 0; } .main-inner .column-left-outer, .main-inner .column-right-outer {
+margin-top: 0; } #layout .main-inner .column-left-outer, #layout .main-inner
+.column-right-outer { margin-top: 0; } .main-inner .column-left-inner, .main-inner
+.column-right-inner { background: transparent none repeat 0 0; -moz-box-shadow: 0 0 0
+rgba(0, 0, 0, .2); -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2); -goog-ms-box-shadow: 0 0 0
+rgba(0, 0, 0, .2); box-shadow: 0 0 0 rgba(0, 0, 0, .2); -moz-border-radius: 0;
+-webkit-border-radius: 0; -goog-ms-border-radius: 0; border-radius: 0; } #layout
+.main-inner .column-left-inner, #layout .main-inner .column-right-inner { margin-top:
+0; } .sidebar .widget { font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans,
+sans-serif; color: #4b4b4b; } .sidebar .widget a:link { color: #3a7acd; } .sidebar .widget
+a:visited { color: #4e47a0; } .sidebar .widget a:hover { color: #3a7acd; } .sidebar .widget
+h2 { text-shadow: 0 0 -1px #000000; } .main-inner .widget { background-color: #ffffff;
+border: 1px solid #eeeeee; padding: 0 15px 15px; margin: 20px -16px; -moz-box-shadow: 0 0
+20px rgba(0, 0, 0, .2); -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2); -goog-ms-box-shadow:
+0 0 20px rgba(0, 0, 0, .2); box-shadow: 0 0 20px rgba(0, 0, 0, .2); -moz-border-radius: 0;
+-webkit-border-radius: 0; -goog-ms-border-radius: 0; border-radius: 0; } .main-inner
+.widget h2 { margin: 0 -15px; padding: .6em 15px .5em; border-bottom: 1px solid transparent;
+} .footer-inner .widget h2 { padding: 0 0 .4em; border-bottom: 1px solid transparent; }
+.main-inner .widget h2 + div, .footer-inner .widget h2 + div { border-top: 1px solid #eeeeee;
+padding-top: 8px; } .main-inner .widget .widget-content { margin: 0 -15px; padding: 7px
+15px 0; } .main-inner .widget ul, .main-inner .widget #ArchiveList ul.flat { margin: -8px
+-15px 0; padding: 0; list-style: none; } .main-inner .widget #ArchiveList { margin: -8px 0 0;
+} .main-inner .widget ul li, .main-inner .widget #ArchiveList ul.flat li { padding: .5em
+15px; text-indent: 0; color: #696969; border-top: 1px solid #eeeeee; border-bottom: 1px
+solid transparent; } .main-inner .widget #ArchiveList ul li { padding-top: .25em;
+padding-bottom: .25em; } .main-inner .widget ul li:first-child, .main-inner .widget
+#ArchiveList ul.flat li:first-child { border-top: none; } .main-inner .widget ul
+li:last-child, .main-inner .widget #ArchiveList ul.flat li:last-child { border-bottom:
+none; } .post-body { position: relative; } .main-inner .widget .post-body ul { padding: 0
+2.5em; margin: .5em 0; list-style: disc; } .main-inner .widget .post-body ul li { padding:
+0.25em 0; margin-bottom: .25em; color: #4b4b4b; border: none; } .footer-inner .widget ul {
+padding: 0; list-style: none; } .widget .zippy { color: #696969; } /* Posts
+----------------------------------------------- */ body .main-inner .Blog { padding:
+0; margin-bottom: 1em; background-color: transparent; border: none; -moz-box-shadow: 0 0
+0 rgba(0, 0, 0, 0); -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0); -goog-ms-box-shadow: 0 0 0
+rgba(0, 0, 0, 0); box-shadow: 0 0 0 rgba(0, 0, 0, 0); } .main-inner .section:last-child
+.Blog:last-child { padding: 0; margin-bottom: 1em; } .main-inner .widget h2.date-header {
+margin: 0 -15px 1px; padding: 0 0 0 0; font: normal normal 14px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif; color: #4897ff; background: transparent none no-repeat scroll top
+left; border-top: 0 solid #eeeeee; border-bottom: 1px solid transparent;
+-moz-border-radius-topleft: 0; -moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 0;
+border-top-left-radius: 0; border-top-right-radius: 0; position: static; bottom: 100%;
+right: 15px; text-shadow: 0 0 -1px #000000; } .main-inner .widget h2.date-header span {
+font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif; display: block;
+padding: .5em 15px; border-left: 0 solid #eeeeee; border-right: 0 solid #eeeeee; }
+.date-outer { position: relative; margin: 30px 0 20px; padding: 0 15px; background-color:
+#ffffff; border: 1px solid #eeeeee; -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2); -goog-ms-box-shadow: 0 0 20px rgba(0, 0, 0,
+.2); box-shadow: 0 0 20px rgba(0, 0, 0, .2); -moz-border-radius: 0; -webkit-border-radius:
+0; -goog-ms-border-radius: 0; border-radius: 0; } .date-outer:first-child { margin-top:
+0; } .date-outer:last-child { margin-bottom: 20px; -moz-border-radius-bottomleft: 0;
+-moz-border-radius-bottomright: 0; -webkit-border-bottom-left-radius: 0;
+-webkit-border-bottom-right-radius: 0; -goog-ms-border-bottom-left-radius: 0;
+-goog-ms-border-bottom-right-radius: 0; border-bottom-left-radius: 0;
+border-bottom-right-radius: 0; } .date-posts { margin: 0 -15px; padding: 0 15px; clear:
+both; } .post-outer, .inline-ad { border-top: 1px solid #eeeeee; margin: 0 -15px; padding:
+15px 15px; } .post-outer { padding-bottom: 10px; } .post-outer:first-child { padding-top:
+0; border-top: none; } .post-outer:last-child, .inline-ad:last-child { border-bottom:
+none; } .post-body { position: relative; } .post-body img { padding: 8px; background:
+transparent; border: 1px solid transparent; -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2); box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; } h3.post-title, h4 {
+font: normal bold 19px Arial, Tahoma, Helvetica, FreeSans, sans-serif; color: #252525; }
+h3.post-title a { font: normal bold 19px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #252525; } h3.post-title a:hover { color: #3a7acd; text-decoration: underline; }
+.post-header { margin: 0 0 1em; } .post-body { line-height: 1.4; } .post-outer h2 { color:
+#4b4b4b; } .post-footer { margin: 1.5em 0 0; } #blog-pager { padding: 15px; font-size: 120%;
+background-color: #ffffff; border: 1px solid #eeeeee; -moz-box-shadow: 0 0 20px rgba(0, 0,
+0, .2); -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2); -goog-ms-box-shadow: 0 0 20px rgba(0,
+0, 0, .2); box-shadow: 0 0 20px rgba(0, 0, 0, .2); -moz-border-radius: 0;
+-webkit-border-radius: 0; -goog-ms-border-radius: 0; border-radius: 0;
+-moz-border-radius-topleft: 0; -moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 0;
+-goog-ms-border-top-left-radius: 0; -goog-ms-border-top-right-radius: 0;
+border-top-left-radius: 0; border-top-right-radius-topright: 0; margin-top: 1em; }
+.blog-feeds, .post-feeds { margin: 1em 0; text-align: center; color: #4b4b4b; }
+.blog-feeds a, .post-feeds a { color: #3a7acd; } .blog-feeds a:visited, .post-feeds
+a:visited { color: #4e47a0; } .blog-feeds a:hover, .post-feeds a:hover { color: #3a7acd; }
+.post-outer .comments { margin-top: 2em; } /* Comments
+----------------------------------------------- */ .comments .comments-content
+.icon.blog-author { background-repeat: no-repeat; background-image:
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+} .comments .comments-content .loadmore a { border-top: 1px solid #9a9a9a; border-bottom:
+1px solid #9a9a9a; } .comments .continue { border-top: 2px solid #9a9a9a; } /* Footer
+----------------------------------------------- */ .footer-outer { margin: -20px 0
+-1px; padding: 20px 0 0; color: #4b4b4b; overflow: hidden; } .footer-fauxborder-left {
+border-top: 1px solid #eeeeee; background: #ffffff none repeat scroll 0 0;
+-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .2); -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 20px rgba(0, 0, 0, .2); box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+margin: 0 -20px; } /* Mobile ----------------------------------------------- */
+body.mobile { background-size: auto; } .mobile .body-fauxcolumn-outer { background:
+transparent none repeat scroll top left; } *+html body.mobile .main-inner
+.column-center-inner { margin-top: 0; } .mobile .main-inner .widget { padding: 0 0 15px; }
+.mobile .main-inner .widget h2 + div, .mobile .footer-inner .widget h2 + div { border-top:
+none; padding-top: 0; } .mobile .footer-inner .widget h2 { padding: 0.5em 0; border-bottom:
+none; } .mobile .main-inner .widget .widget-content { margin: 0; padding: 7px 0 0; } .mobile
+.main-inner .widget ul, .mobile .main-inner .widget #ArchiveList ul.flat { margin: 0 -15px
+0; } .mobile .main-inner .widget h2.date-header { right: 0; } .mobile .date-header span {
+padding: 0.4em 0; } .mobile .date-outer:first-child { margin-bottom: 0; border: 1px solid
+#eeeeee; -moz-border-radius-topleft: 0; -moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 0;
+-goog-ms-border-top-left-radius: 0; -goog-ms-border-top-right-radius: 0;
+border-top-left-radius: 0; border-top-right-radius: 0; } .mobile .date-outer {
+border-color: #eeeeee; border-width: 0 1px 1px; } .mobile .date-outer:last-child {
+margin-bottom: 0; } .mobile .main-inner { padding: 0; } .mobile .header-inner .section {
+margin: 0; } .mobile .blog-posts { padding: 0 10px; } .mobile .post-outer, .mobile
+.inline-ad { padding: 5px 0; } .mobile .tabs-inner .section { margin: 0 10px; } .mobile
+.main-inner .widget h2 { margin: 0; padding: 0; } .mobile .main-inner .widget
+h2.date-header span { padding: 0; } .mobile .main-inner .widget .widget-content { margin:
+0; padding: 7px 0 0; } .mobile #blog-pager { border: 1px solid transparent; background:
+#ffffff none repeat scroll 0 0; } .mobile .main-inner .column-left-inner, .mobile
+.main-inner .column-right-inner { background: transparent none repeat 0 0;
+-moz-box-shadow: none; -webkit-box-shadow: none; -goog-ms-box-shadow: none;
+box-shadow: none; } .mobile .date-posts { margin: 0; padding: 0; } .mobile
+.footer-fauxborder-left { margin: 0; border-top: inherit; } .mobile .main-inner
+.section:last-child .Blog:last-child { margin-bottom: 0; } .mobile-index-contents {
+color: #4b4b4b; } .mobile .mobile-link-button { background: #3a7acd
+url(http://www.blogblog.com/1kt/awesomeinc/tabs_gradient_light.png) repeat scroll
+0 0; } .mobile-link-button a:link, .mobile-link-button a:visited { color: #ffffff; }
+.mobile .tabs-inner .PageList .widget-content { background: transparent; border-top:
+1px solid; border-color: #9a9a9a; color: #4b4b4b; } .mobile .tabs-inner .PageList
+.widget-content .pagelist-arrow { border-left: 1px solid #9a9a9a; } --> <!-- body {
+min-width: 960px; } .content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 960px; max-width: 960px; _width: 960px; } .main-inner .columns { padding-left:
+0px; padding-right: 250px; } .main-inner .fauxcolumn-center-outer { left: 0px; right:
+250px; /* IE6 does not respect left and right together */ _width:
+expression(this.parentNode.offsetWidth - parseInt("0px") - parseInt("250px") + 'px');
+} .main-inner .fauxcolumn-left-outer { width: 0px; } .main-inner
+.fauxcolumn-right-outer { width: 250px; } .main-inner .column-left-outer { width: 0px;
+right: 100%; margin-left: -0px; } .main-inner .column-right-outer { width: 250px;
+margin-right: -250px; } #layout { min-width: 0; } #layout .content-outer { min-width: 0;
+width: 800px; } #layout .region-inner { min-width: 0; width: auto; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\759018189\46blogName\75thus+spake+drake\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://drakelelane.blogspot.com/search\46blogLocale\75en_US\46v\0752\46homepageUrl\75http://drakelelane.blogspot.com/\46vt\75-609802177218872871',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+
+
+thus spake drake
+
+
+
+Life happens... and there's usually a soundtrack to it if you look hard enough.
+
+
+
+Tuesday, February 28, 2006
+
+
+
+He gave up GBV for lent
+
+Play it: Just a few requests for tonight's show
+
+
+
+
+
+Image: http://static.flickr.com/52/105588773_9f08a6966f_m.jpg So tonight is Fat
+Tuesday, and tomorrow's the beginning of Lent. Well... tonight I celebrate by seeing Robert
+Pollard sing close to 50 songs with a great backing band (guitarist Tommy Keene and Superchunk
+drummer Jon Wurster, among others.) Since Uncle Bob has another album already in the can
+awaiting release later this year, and he's got a double-album he's touring in support of, I
+suspect they'll take up the bulk of the show, but I'll still find myself yelling out a few tunes
+that I hope he'll play tonight.
+
+
+
+* "Do Something Real" (Not in Rhapsody)
+
+* "Subspace Biographies"
+
+* "I'm A Widow"
+
+* "Maggie Turns To Flies"
+
+* "I Expect A Kill" (Not in Rhapsody)
+
+* "Conquerer Of The Moon"
+
+* "Get Under It"
+
+* "Kick Me And Cancel"
+
+
+
+More photos (like above) from show in S.F., 2/25/06 (by billyverde )
+
+Concert review from Cat's Cradle (Chapel Hill, NC) 1/27/2006 ( Harp )
+
+Set list from that show (gvvdb.com)
+
+
+
+Previously:
+
+2nd Impressions of 2006
+
+Early surprise from Uncle Bob ( FaCE review, 11/11/05)
+
+The Electrifying Conclusion Part I , Part II , Part III , Part IV
+
+
+
+tags: playlist , music , robert pollard , guided by voices , tommy keene Posted by Shawn
+Anderson at 2/28/2006 04:11:00 PM 2 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post <!--
+google_ad_client="pub-7871716684542451"; google_ad_host="pub-1556223355139109";
+google_ad_width=234; google_ad_height=60; google_ad_format="234x60_as";
+google_ad_type="text"; google_ad_host_channel="0001";
+google_color_border="FFFFFF"; google_color_bg="FFFFFF";
+google_color_link="333333"; google_color_url="2D8930";
+google_color_text="4C4C4C"; //-->
+
+If the USA doesn't bomb you
+
+Play it: Morrissey " I Will See You in Far Off Places"
+
+Stream the single "You Have Killed Me" at Myspace
+
+Download: "You Have Killed Me" ( scoops the podcast ) If your God bestows protection upon you
+
+And the U.S.A. doesn't bomb you
+
+I believe I will see you someplace safe
+
+- "I Will See You in Far Off Places" - Morrissey
+
+Image: http://image.listen.com/img/170x170/5/7/9/3/783975_170x170.jpg [The titles
+on these tracks are wrong (should be reversed,) for those who play it in Rhapsody.]
+
+
+
+Recently, Morrissey claims to have been investigated by both the FBI and UK Intelligence
+(Special Branch,) concerning his threat to both governments. "They were trying to determine
+if I was a threat to the government, and similarly in England," the 46-year-old singer told
+NME. "But it didn't take them very long to realize that I'm not."
+
+
+
+By the looks of the first track (from the forthcoming Ringleader Of The Tormentors ) leaked
+earlier, "I Will See You in Far Off Places," Moz probably bought himself a ticket for
+(unwanted/warranted) cavity searches. In it, his lyrics align himself with the Muslim world
+- following the lyrics profiled above, religious chants are layered into the song, just in
+case we didn't get the idea.)
+
+
+
+As most know, I'm as anti-Bush as they come, and am forever critical of US foreign policy, but
+these lyrics and the song itself feel very naive and misplaced. At it's heart, I imagine, is
+less a real belief then an intention to say 'bugger off' to America, and rile some folks up. In
+that I think he might be successful, although I wonder if the label (Sanctuary) is hesitant, as
+they've been militant about stopping the leak of the track , and the lead single title has
+switched to "You Have Killed Me," which is much lighter fare even considering the metaphoric
+title.
+
+
+
+Elsewhere:
+
+Stereogum Readers Suggest Fake Moz Song Titles
+
+
+
+tags: playlist , music , morrissey , moz Posted by Shawn Anderson at 2/28/2006 02:27:00 PM 0
+comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post <!--
+google_ad_client="pub-7871716684542451"; google_ad_host="pub-1556223355139109";
+google_ad_width=234; google_ad_height=60; google_ad_format="234x60_as";
+google_ad_type="text"; google_ad_host_channel="0001";
+google_color_border="FFFFFF"; google_color_bg="FFFFFF";
+google_color_link="333333"; google_color_url="2D8930";
+google_color_text="4C4C4C"; //-->
+
+Monday, February 27, 2006
+
+
+
+How's my hair?
+
+Play it: Rhett Miller The Believer It was less a matter of me putting myself into someone's
+hands and more a matter of me using this system, where I had written these songs, but I was now
+also interpreting them, like I was Bing Crosby or something.
+
+- Rhett Miller on recording the album
+
+Image: http://image.listen.com/img/170x170/1/9/6/2/782691_170x170.jpg The story
+goes, producer George Drakoulias ( The Jayhawks , Black Crowes , Tom Petty ) saw Old 97's
+frontman Rhett Miller performing his songs solo/acoustic, and he was busting strings, and
+generally acting frustrated. Drakoulias sees this and decides on the spot that for this
+album, he should be Frank Sinatra . Lose the guitar, forget that you wrote the songs, and
+instead just sing and interpret them, backed by a top-notch studio session band.
+
+
+
+
+
+Image: http://i.realone.com/assets/rn/img/7/6/3/4/9404367.jpg Forget for a second
+that the band included friend (and producer of previous album, The Instigator ) Jon Brion , the
+end result sounds like session musicians, quite unlike the 'warts-and-all' appeal of the Old
+97s. Other helping hands include Rachel Yamagota (duet on "Fireflies") and Gary Louris
+(singing backup througout.) His previous album saw Brion holding back on his magic (until the
+beautiful closer, "Terrible Vision,") whereas this album feels more spit-n-polished then
+anything he's done. Don't get me wrong, there are some great songs here ("Brand New Way," the
+Brion/Aimee Mann penned "I Believe She's Lying") it's a bit too MOR of the Adult-Alternative
+genre.
+
+
+
+Miller is now L.A.-based, and his latest photos relect that change. He's ready for his
+close-up (literally... he's already got the Old 97's appearing in the forthcoming Jennifer
+Aniston/Vince Vaughn comedy The Break-Up.) Check out that hair! This album has a bit of that
+hair goop sheen to it, and I'm hoping he washes it out and sleeps on it for the next Old 97's
+release.
+
+
+
+tags: playlist , music , rhett miller , old 97s , jon brion , george drakoulias , album review
+Posted by Shawn Anderson at 2/27/2006 09:44:00 PM 2 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+What Kurt Cobain couldn't do
+
+Play it: Os Mutantes Tecnicolor
+
+
+
+
+
+Image: http://photos1.blogger.com/blogger/6860/639/200/osmutantes.jpg For one night
+only, the Brazilian band Os Mutantes will reunite to perform at Barbicon Art Gallery/Hall in
+London (May 22nd ,) as part of Tropicalia: A Revolution in Brazilian Culture , a festival
+celebrating the Brazilian art movement Tropicalia , that arose in the late 1960s and
+encompassed theatre, poetry and music. Os Mutantes , along with Caetano Velaso , Gilberto Gil
+, Gal Costa and Tom ZÃ© , were all heavies in the movement and will all be performing. The
+lineup for the show includes brothers Sergio and Arnaldo Baptista along with drummer Dinho,
+but no Rita Lee, unfortunately. Kurt Cobain tried to get them to reunite in '93 for Nirvana 's
+South American tour, but was flatly turned down. A later compilation released by David Byrne
+'s Luaka Bop ( Everything is Possible , 1999) drummed up even more interest w/ them reuniting,
+and have since been name-dropped by Beck (see song "Tropicalia" on Mutations ) Mac McCaughan
+(Superchunk, Merge Records, and Portastatic - see his cover of "Baby" on the De Mel, De Melao
+EP)
+
+
+
+
+
+Image: http://image.listen.com/img/170x170/3/1/4/3/773413_170x170.jpg This past
+week saw the reissue of the Os Mutantes album Tecnicolor , which was originally released in
+1970. It's a collection of their best work reworked in the English language, hoping to crack
+the American and European market. Some of the tracks lose a lot of their appeal w/o the beauty of
+the Portuguese language, but for the most part, they all still stand on their own. The
+hilarious "El Justicero" (sung in Spanish) and psych-Beatles songs "Tecnicolor" and
+"Virginia" would later appear on Jardim Eletrico (1971.) The Luaka Bop compilation is still
+the best place to start with their catalogue, but for long-time fans it's nice to finally have
+something else digitally available.
+
+
+
+More:
+
+Pitchfork News reports Os Mutantes Reunites
+
+
+
+tags: playlist , music , brazil , os mutantes , tropicalia , tropicalismo , kurt cobain Posted
+by Shawn Anderson at 2/27/2006 03:57:00 PM 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Farewell Leilani Lanes
+
+Play it: A Karaoke farewell to Leilani Lanes
+
+
+
+
+
+Image: http://static.flickr.com/39/104956217_3d6fa57e1a_m.jpg As many of you know,
+Drake Lelane is actually my nickname, but many aren't aware of it's origin. Years ago (what is
+it...seven now?) I chose the name 'Drake' as my karaoke (stage) name (at the Lani Kai Lounge,
+Leilani Lanes ) in honor of "The Drake" from a classic Seinfeld episode ( "The Labelmaker," )
+and also in reference to Spoon frontman Britt Daniels' solo name, Drake Tungsten . The last
+name (used only for bowling at the time,) was homage to the place the alias was born: Leilani
+Lanes. The moniker became my nickname following a spirited performance of "The Safety Dance"
+(at the aforementioned Lani Kai Lounge.) The (I assumed drunken) crowd started a "Drake"
+chant, and the rest is history.
+
+
+
+Well, speaking of history, these beloved Leilani Lanes are soon to be history, following the
+sale to a developer who plans to level it and put in an apartment/retail structure. After 44
+years (and famous Earl Anthony / Dick Weber bowling face-offs) Leilani is closing it's doors
+forever, and like any relationship, you have to make sure to say goodbye to them (before they
+say goodbye to you.) So Saturday night (babysitters in tow,) a bunch of us did our best to send
+Leilani Lanes off.
+
+
+
+
+
+Image: http://static.flickr.com/34/104946604_7e93646f0b_m.jpg The drink of the night
+was the Pink Pussycat (gin, grapefruit juice, and a little extra 'meow') so I just had to start
+the evening off with a couple of them and the Tom Jones / Burt Bacharach classic "What's New
+Pussycat." There were only three notebooks (w/ song choices) available to peruse and the
+choices were much more limited then in the past, so it wasn't nearly as good as we remember it
+being - like where was my new fave "Just Dropped In (To See What Condition My Condition Was In)" ?
+and old standby "Rock the Casbah" ? I ended up singing the former w/o the aid of Karaoke (and w/
+the aid of much alcohol.)
+
+
+
+Anyway, much fun was had - that is until morning, when Eli's 5AM wake-up call was very
+unsympathetic to the condition my condition was in .
+
+
+
+"What's New Pussycat" - Tom Jones
+
+"Burning Down the House" - Talking Heads
+
+"Don't Go Breaking My Heart" - Elton John w/ Kiki Dee (duet w/ my Tootie)
+
+"Brandy" - Looking Glass
+
+"Just Dropped In (To See What Condition My Condition Was In)" - Kenny Rogers & the First Edition
+
+
+
+More:
+
+It's a turbulent farewell for Leilani Lanes bowling alley (Seattle-PI)
+
+Tiki Central message board laments the closure
+
+
+
+Some great pics of Leilani from other flickr folks :
+
+The 360 degree open fireplace, with waterfall (by goldberg )
+
+The Lanes (by leff )
+
+More lanes w/ bowlers and balls (by ntisocl )
+
+
+
+tags: playlist , music , karaoke , leilani lanes , kenny rogers , tom jones , the drake , seinfeld
+, drake tungsten Posted by Shawn Anderson at 2/27/2006 11:01:00 AM 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Sunday, February 26, 2006
+
+
+
+Winter games walks on the wild side
+
+Play it: Lou Reed rocks the Winter Olympics
+
+
+
+
+
+Image: http://photos1.blogger.com/blogger/6860/639/200/loureed_olyrings.jpg We
+started it off with a little Carla Bruni flag-handling , so why not end the games with the
+cult-icon Lou Reed .
+
+
+
+Friday night, Reed performed at the Olympic medals ceremony , keeping his usual low profile.
+There was concern that he wouldn't make it, after he cancelled several NY shows leading up to
+the performance, but in the end, his show exceeded all expectations. Besides his first-rate
+backing band ( Rob Wasserman , Tony Thunder Smith , Fernando Saunders , Mike Rathke) he also
+included his Tai Chi master, a discipline from which Reed now finds inspiration, even writing
+music to accompany the moves.
+
+
+
+tags: playlist , music , lou reed , winter olympics , torino Posted by Shawn Anderson at
+2/26/2006 10:44:00 PM 1 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Friday, February 24, 2006
+
+
+
+The man who loved music
+
+Play it: Essential Scott McCaughey The only reason I'm still playing music is because I get
+along with people...I know for sure that I wouldn't be in R.E.M. except for the fact that I'm a
+fun person to hang out with and have a drink with. That's my biggest qualification over my
+musicianly skills.
+
+- Scott McCaughey
+
+Image: http://i.realone.com/assets/rn/img/4/7/9/5/9385974.jpg Rhapsody just added
+three Young Fresh Fellows albums... couple that with the recent release of The Minus 5 's s/t
+release and you suddenly have a plethora of releases from McCaughey to choose from. The YFF and
+Minus 5 frontman has been a Seattle music scene fixture since the early 80's, both as popular
+musican/singer and as columnist for local music rag, The Rocket . After connecting later with
+Peter Buck , McCaughey not only had him playing in his side project, The Minus 5, but also
+booking shows for his wife's rock club, The Crocodile.
+
+
+
+
+
+Image: http://image.listen.com/img/170x170/3/3/2/4/524233_170x170.jpg The Young
+Fresh Fellows were everyone's favorite party band, often getting compared to The
+Replacements . Paul Westerberg was a fan and even had them play at his wedding. Westerberg,
+NRBQ and They Might Be Giants all were name-dropping them, and while it was flattering, it did
+little for album sales. Their album The Men Who Loved Music ( Play it ) was a top-to-bottom
+masterpiece of fun rock. It almost even garnered them a hit (college radio airplay, anyway)
+with "Amy Grant" ( Play it ) which famously confessed "when she comes home from church/she's
+gotta take off those pants/that's what I like about Amy Grant." Co-founding member Chuck
+Carroll left shortly after, needing to feed his family, and was replaced by Fastback
+guitarist/songwriter Kurt Bloch . It took a couple albums for them to gell as a band (as they did
+with Electric Bird Digest ,) but by then, a lot of momentum was lost, and grunge had taken over
+the city.
+
+
+
+
+
+Image: http://image.listen.com/img/170x170/1/4/0/0/560041_170x170.jpg Meanwhile,
+McCaughey had already recorded a solo album ( My Chartreuse Opinion , 1989) and had enjoyed the
+collaborative feel of the process. In 1992, R.E.M. mixed Automatic for the People in Seattle,
+and Peter Buck met his wife Stephanie, co-owner of the Crocodile Cafe. Buck became a
+Seattlite, and when your a musician in Seattle, you get to know McCaughey. By '94 McCaughey had
+already recruited him for a new collaborative project he called The Minus 5. They released the
+Old Liquidator , which featured Buck, The Posies , and members of NRBQ . McCaughey soon found
+himself as a touring member of REM, but continued to be dedicated to releasing a Minus 5 album
+with regularity. In 2000, McCaughey hooked up with Wilco (after meeting at a Lounge Axe
+benefit) to record the Minus 5 album, Down With Wilco ( Play it ,) which promptly got mired in
+similar major label difficulty like Wilco's Yankee Hotel Foxtrot , which was making the
+rounds at the time. McCaughey songwriting has become more and more meloncholy over the years,
+and remains knee-deep in 60's pop.
+
+
+
+The Young Fresh Fellows also continue to get together and perform to the delight of rapid fans
+here (and in Japan.)
+
+
+
+Previously:
+
+Out there on the Maroon (Minus 5 S-T/Gun Album )
+
+
+
+tags: playlist , music , scott mccaughey , wilco , peter buck , young fresh fellows , rem Posted
+by Shawn Anderson at 2/24/2006 05:06:00 PM 2 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Thursday, February 23, 2006
+
+
+
+Kite gets Smoosh ed
+
+Play it: Head Like a Kite Random Portraits of the Home Movie
+
+Download: "Noisy at the Circus" (feat. Asya from Smoosh) ( Pattern 25 )
+
+
+
+
+
+Image: http://image.listen.com/img/170x170/9/9/3/2/782399_170x170.jpg I was
+checking out the band Head Like a Kite today, not knowing anything about them other then having
+heard the name somewhere before, when the nifty song "Noisy at the Circus" came up, and heard
+the distinct voice of 13-year old Asya from the sister band Smoosh . Turns out Head Like a Kite is
+Dave Einmo, guitarist for local band Sushirobo .
+
+
+
+
+
+Image: http://www.pattern25.com/graphics/hlak/IMG_7938.jpg Recorded by Brian Deck (
+Iron & Wine , Modest Mouse , Red Red Meat ) in Chicago, Random Portraits samples from Einmo's old
+Super 8 home movies and wires his keyboards into a collection of old, analog guitar effects for
+a disjointed, yet organic original sound. Some of it comes across as Kraftwerk -like
+experimental journeys ("Tell Mommy You Want a Sip of Beer,") while elsewhere it's more
+straight ahead indie guitar power pop ("Noisy at the Circus.")
+
+
+
+
+
+Image: http://photos1.blogger.com/blogger/6860/639/200/smoosh.jpg For those not
+initiated into the phenomenon of Smoosh, they're a Seattle-based sister duo, ages 11 and 13,
+who play endearingly happy (and sloppy) indie rock. Jason McGerr (now drummer for Death Cab
+for Cutie,) was 8-year old Chloe's teacher and suggested she play with other musicians to get
+an idea of how percussion works in rock, so she went home and nabbed her 10-year old sister
+keyboardist/singer-songwriter sister Asya and Smoosh was born. They're wonderful 2004
+debut She Like Electric (on Pattern 25 records, like Head like a Kite,) is in Rhapsody and worth
+your listen (below.) They've finished recording their new album (as of 01/10/06,) showing
+amazing balance between middle school and indie rock.
+
+
+
+Play it: Smoosh She Like Electric
+
+Download: "Massive Cure" ( Pattern 25 )
+
+
+
+
+
+Image: http://www.smoosh.com/chloclaydrums.jpg Also, you have to check out their video
+that made rotation on MTV2 last year, if for no other reason then to see some of the cheesiest
+clay animation ever (and, of course, Asya and Chloe rocking 'Musicland.')
+
+
+
+Video: "La Push" (Quicktime)
+
+
+
+tags: playlist , music , head like a kite , smoosh , sushirobo , seattle music , indie rock Posted
+by Shawn Anderson at 2/23/2006 03:06:00 PM 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Wednesday, February 22, 2006
+
+
+
+Novel Sndtrck: Glass Soup
+
+Play it: Novel Sndtrck: Glass Soup
+
+
+
+
+
+Image: http://photos1.blogger.com/blogger/6860/639/200/glasssoup.jpg Jonathan
+Carroll's Glass Soup is a sequel (of sorts) to his novel White Apples (which I Novel Sndtrck'd
+last month .) Whereas White Apples dealt with the living realm, Glass Soup spends much of it's
+time in the land of the dead. The realm of the dead is built from the dreams - and nightmares - of
+the living. Octopuses drive buses. God is a polar bear. And a crowded highway literally leads
+to hell (where AC/DC 's "Highway to Hell" blasts from all passing cars.) Main characters
+Vincent and Isabelle are back, as well as chaos' form and of course the concept of life as a
+mosaic (glass soup.)
+
+
+
+Not as much music this time around, especially considering Rhapsody's AC/DC hole ("Highway
+to Hell" is prominent.) But not a song is wasted here.
+
+
+
+* "Eggs And Sausage (In A Cadillac With Susan Michelson)" - Tom Waits (referencing the album
+Nighthawks at the Diner )
+
+* "Raindrops Keep Fallin' On My Head" - B.J. Thomas ( Butch Cassidy & The Sundance Kid )
+
+* "I've Been Loving You Too Long (To Stop Now)" - Otis Redding
+
+
+
+Official site for Glass Soup
+
+
+
+Previously
+
+Novel Sndtrck: White Apples
+
+Novel Sndtrck: Kafka On The Shore ( Ribaldry and Schmaltz 's J Shifty )
+
+Novel Sndtrck: Killing Yourself To Live ( Drive Like Hell 's Dallas Hudgens )
+
+Novel Sndtrck: Drive Like Hell
+
+Novel Sndtrck: Fortress of Solitude
+
+James Frey's My Friend Leonard
+
+Jonathon Lethem's The Disappointment Artist
+
+
+
+tags: playlist , books , jonathan carroll , acdc Posted by Shawn Anderson at 2/22/2006
+12:58:00 PM 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Bad name, overhyped, and now toast
+
+Play it: Test Icicles For Screening Purposes Only
+
+
+
+
+
+Image: http://image.listen.com/img/170x170/0/9/4/3/773490_170x170.jpg Test Icicles
+' debut (finally made it to our shores a couple weeks ago (and to Rhapsody this week) and in
+response, they've, well... broken up ... not even going to bother with their scheduled US
+tour.
+
+
+
+Speaks volumes of how they sound as a band... like three people pulling in different
+directions at all times... pure pandemonium, and for the most part - overhyped shite. Add them
+to the growing list of NME and internet-created iPop 's (bands hyped to the point that their
+albums have to disappoint upon release.)
+
+
+
+RIP. Good riddance. Hasta la never.
+
+
+
+tags: playlist , music , test icicles , nme , ipop , indie rock Posted by Shawn Anderson at
+2/22/2006 12:07:00 PM 1 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Tuesday, February 21, 2006
+
+
+
+A gorge-ous lineup
+
+Play it: Sasquatch Music Festival 2006
+
+
+
+
+
+Image: http://myspace-483.vo.llnwd.net/00504/38/46/504396483_l.jpg The lineup for
+this year's Sasquatch Music Festival has been announced , and like last year , it kicks some
+serious ass. Unlike last year, they've made this Memorial Day weekend festival stretch out
+over three days ( last year was a Saturday-only event .)
+
+
+
+I'm not excited about Friday's lineup ( Nine Inch Nails ) but Saturday and Sunday promise
+serious listening pleasures. Saturday features The Flaming Lips , The Shins , Neko Case , Iron
+& Wine , Sufjan Stevens , Rogue Wave , Sam Roberts , Constantines and Architecture In Helsinki ;
+while Sunday features Beck , Death Cab For Cutie , Queens of the Stone Age , The Decemberists ,
+Nada Surf , Clap Your Hands Say Yeah , Arctic Monkeys , Chad Vangaalen , Rocky Votolato and Laura
+Veirs .
+
+
+
+
+
+Image: http://static.flickr.com/13/16526438_ac75f93471_m.jpg If you have the chance,
+it's an absolutely gorgeous backdrop ( The Gorge Ampitheatre , WA,) to hear great music like
+this. And if you do go... I may recruit you to give your report on it, as I'm going to be at my
+nephew's Bar Mitzvah in Minneapolis.
+
+I'm just a victim of bad timing.
+
+
+
+Previously:
+
+An amazing day (Sasquatch 2005 recap)
+
+Sasquatch, Yeti... Wookie?
+
+Sasquatch Music Festival 2005 lineup announced
+
+
+
+tags: playlist , music , sasquatch , gorge , northwest , sasquatch music festival Posted by
+Shawn Anderson at 2/21/2006 12:56:00 PM 1 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+As the wealthy American underground wept
+
+Play it: Destroyer Destroyer's Rubies
+
+
+
+
+
+Image: http://photos1.blogger.com/blogger/6860/639/200/destroyersrubies.jpg Two of
+the best albums of the year were dropped on us today, Two Gallants What the Toll Tells (not
+Rhapavailable) and the much anticipated Destroyer's Rubies from Dan Bejar's Destroyer .
+Taking the sentiments and pop structures of Streethawk ; and the instrumentation and
+looseness of This Night ; (and borrowing phrases and more from every previous Destroyer
+album;) Destroyer's Rubies is like a mosaic of all of Dan Bejar's best work as Destroyer.
+Lyrically, the Vancouver, B.C. native has always been a giant, but seemed (at times) barely
+able to keep up with himself, whereas now his usual poetic couplets are tossed off with such
+swagger and confidence, it's hard not to fall in-step behind his every stacatto'd syllable.
+
+
+
+I have this theory that when The New Pornographers formed and Bejar made his power pop
+contributions, his own Destroyer project moved further away from pop as a result, whether
+consious or not. I'd argue now that the Pornographers, with Twin Cinema , have themselves
+moved a little away from their poppier beginnings, Bejar's able to go back to
+pre-Pornographer ways, ala Streethawk and the like. Not that a person has only a finite amount
+of pop they can write in a year, or anything, but it's only natural to keep them differentiated,
+dontcha think?
+
+
+
+Regardless of where Bejar's head was at in the authoring, it's an amazing album. But don't take
+my word for it:
+
+
+
+The Onion A/V club gives it a score of 100
+
+Dusted gives it a 90
+
+Pitchfork explains why they didn't give it a 10.0
+
+
+
+More:
+
+Already a Destroyer's Rubies Drinking Game?
+
+Bejar-O-Matic Lyric Dispenser
+
+The Destroyer Wiki
+
+Six Eyes' Dan Bejar Interview (Feb 6, 2006)
+
+"The Enigma Next Door" Discorder (February, 2006)
+
+
+
+Previously
+
+No, I wasn't born to rock (Destroyer This Night )
+
+The New Pornographers' Twin Cinema
+
+
+
+tags: playlist , music , dan bejar , destroyer , new pornographers Posted by Shawn Anderson at
+2/21/2006 10:51:00 AM 1 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Monday, February 20, 2006
+
+
+
+Two days short tomorrow
+
+Play it: Two Gallants The Throes
+
+
+
+
+
+Image: http://image.listen.com/img/170x170/6/2/3/5/775326_170x170.jpg Tomorrow
+sees the second release from the S.F. duo , Two Gallants ( What the Toll Tells ) but since it's on
+Saddle Creek Records , I hold little hope for it being Rhapavailable (although, I have secured
+my copy.)
+
+
+
+Don't get your head down, though Rhapsodoggies, as their fine 2004 debut snuck in recently,
+and it's far too heady and gut-wrenching to have been made by two 20 year-olds, but alas, these
+prodigies done did it. The Throes kicks like The Pogues funneled through The Grapes of Wrath ,
+but still rockin' West Coast... and all just good old guitar and drums.
+
+
+
+It's little wonder the Steinbeck lyrical nature is making a comeback, as during the 30's, the
+working class was ravaged by floods, drought , massive layoffs and mismanagement by our
+government, which sounds kind of familiar now. Something to think about as this President's
+Day winds down .
+
+
+
+Previously:
+
+Two Gallants' What the Toll Tells streamed
+
+"Las Cruces Jail" Single and Two Gallants profile
+
+
+
+More:
+
+Pitchfork gave The Throes an 8.5 last year.
+
+
+
+tags: playlist , music , two gallants , saddle creek , presidents day , john steinbeck , the
+pogues Posted by Shawn Anderson at 2/20/2006 05:57:00 PM 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Sunday, February 19, 2006
+
+
+
+Maybe partying will help
+
+Play it: Minutemen "Maybe Partying Will Help"
+
+
+
+
+
+Image: http://i.realone.com/assets/rn/img/5/2/0/2/9352025.jpg How best to bring
+everyone together after a major tragedy like Hurricane Katrina? Throw a big ass party like
+Mardi Gras.
+
+
+
+New Orleans is back... alcohol, masks, beads, alcohol, bared-breasts, more beads and more
+alcohol. Can't blame 'em... it's in the air.
+
+
+
+Know why I'm partying? The Minutemen are in Rhapsody! Apparently they snuck in while I was on
+vacation ( late January? ) Thankfully, J Shifty noticed last night , otherwise I'd still be in
+the dark. Best I can tell, SST is making baby steps into being Rhapavailable. So far it's only
+the Minutemen, Black Flag , and the Descendents . We're missing the other big guns, though,
+with Husker Du (and don't forget Soundgarden and Screaming Trees released some great albums
+on SST.) A couple other great SST bands already had their SST albums sold off... Meat Puppets
+(to Rykodisc) and Dinosaur Jr. (to Merge Records,) so we're pretty close to having a decent
+size SST sampler. Other SST artists I'm looking forward to are Bad Brains , ALL , Leaving Trains
+and fIREHOSE .
+
+
+
+We'll put together a proper SST post when a few more roll in... and try to not take Greg Ginn too
+much to task for his mistakes with the label.
+
+
+
+More:
+
+SST signs with The Orchard for digital distribution (Yahoo News, 01/11/06)
+
+
+
+tags: playlist , music , sst , mardi gras , new orleans , minutemen , black flag , descendents ,
+husker du Posted by Shawn Anderson at 2/19/2006 10:52:00 AM 3 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Friday, February 17, 2006
+
+
+
+Flotsam, jetsam and Curtom
+
+Play it: Curtom Records
+
+
+
+Last week I was alerted by the illustrious J Shifty of the treasure trove of material that
+washed up on the shores of the Rhapsody library recently, was much of the Curtom Records
+library ( owned now by Rhino .) Since we love indie record labels, and it's black history month,
+Curtom Records is a good fit for a playlist/profile.
+
+
+
+
+
+Image: http://i.realone.com/assets/rn/img/0/8/1/1/9331180.jpg Curtis Mayfield
+started Curtom Records when he left The Impressions to go solo in 1970, and his first batch of
+solo releases ( Curtis , Roots , and Superfly ) on that imprint are the cream of the crop as far as
+soul goes. Consequently, Curtom was the most important black-owned record label of the
+1970's. Curtom Records initially got off the ground so well because of Mayfield's experience
+as the staff producer on the famous Chi-town OKeh label , and he knew to surround him with
+talented people like Dony Hathaway and Leroy Hutson . Hathaway worked on staff as a musician,
+singer and songwriter, while Hutson (who took Mayfield's spot in The Impressions) was given
+his own imprint (Gemigo) on the label as an outlet for his activities as a producer and
+arranger.
+
+
+
+Other artists on the label included the tragic Baby Huey (born James Ramey) who died of a drug
+overdose before his album was even released. His backing band, The Babysitters, continued on
+oddly enough with a teen-aged Chaka Khan taking over his vocal duties ( Baby Huey and the
+Babysitters continue to perform , at a Bar Mitzvah near you.)
+
+
+
+
+
+Image: http://i.realone.com/assets/rn/img/3/3/6/1/9331633.jpg Linda Clifford was
+Miss New York State at one time, and recorded six albums on Curtom, with "Runaway Love" as her
+biggest hit (peaked at number three on the R&B charts, 1978.)
+
+
+
+Other acts include The Natural Four (who were produced by LeRoy Hutson,) The Five Stairsteps ,
+Ed Townshend (co-wrote "Let's Get it On,") Billy Butler (younger brother to the great Jerry
+"Ice Man" Butler ,) Mavis Staples , The Staple Singers , and of course, The Impressions.
+
+
+
+Discography of the Curtom Label
+
+The Curtom Story is an import-only 51-song double CD on Charly Records.
+
+
+
+tags: playlist , music , curtom records , curtis mayfield , the impressions , leroy hutson ,
+baby huey , linda clifford , donny hathaway Posted by Shawn Anderson at 2/17/2006 04:09:00 PM 2
+comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Thursday, February 16, 2006
+
+
+
+No, I wasn't born to rock
+
+Play it: Destroyer This Night
+
+Stream: "Here Comes the Night"
+
+Stream: "Trembling Peacock"
+
+Play it: New Pornographers - Bejar Contributions Relax trembling peacock
+
+No I wasn't born to rock
+
+Oh I was just plain born
+
+and then I kinda grew
+
+and then, well Vancouver made me, I guess it's true
+
+Image: http://i.realone.com/assets/rn/img/7/6/1/6/9326167.jpg That shaking you feel
+is the rumbling of the impending release of Destroyer's Rubies , from New Pornographer Dan
+Bejar's outfit Destroyer . Many believe it to be his breakthrough, and it is quite good, from
+the half of the album I've been listening to. In anticipation of that, I thought I'd tackle the
+first two-thirds of his Vancouver trilogy ( City Of Daughters and Thief ,) as they were in
+Rhapsody when I last wrote about Bejar (for The New Pornographers Twin Cinema release.) But,
+alas, at some point since then, they've been removed from the Rhaplibrary. All that's left is
+Destroyer's Merge debut, This Night (2002,) and while it's an excellent album (many folks'
+fave) with plenty to write about, it wasn't what I was prepared for, so forgive this quickly
+put-together fumbled review/profile.
+
+
+
+
+
+Image: http://image.listen.com/img/170x170/9/2/9/0/560929_170x170.jpg To talk about
+This Night , you have to go back to the previous three albums ( City Of Daughters , Thief , and
+Streethawk: A Seduction ) for the back story. This trilogy about his home city of Vancouver was
+obviously a labor of love for Bejar, and when it was finished, I suppose it's appropriate that
+he had to get out of his beloved city for the next album. Bejar spent a lot of time in the Mile-End
+neighborhood Montreal, and much of This Night reflects that (like "Here Comes the Night:") So
+you stole that Schwinn and rode out into the Winner's Circle of the Sun
+
+Now Mile-End is claiming ‘Hey you're one of those! Take off those clothes! You're one of
+them! Where previous releases felt very calculated (and Bowie-esque) Bejar here finds
+himself trying to both stretch out and contract Destroyer's sound, adding more 'rock' to it,
+yet keeping it as loose as possible (perhaps Neil Young-esqe?) I liken it to Neil Young's
+Tonight's The Night , and Bejar kind of acknowledges (and refutes) it with his "Tonight is not
+your Night" refrain in "Self Portrait With Thing" ( visit Bejar-O-Matic for more obtuse
+lyrical fun .)
+
+
+
+This Night not the best starting point for the unitiated (until this coming Tuesday's
+release, that honor goes to Streethawk: A Seduction ,) as it's sprawling and unfocused,
+almost as if listening to songs still being worked out. But it is the best precursor,
+style-wise, to ever approaching Rubies , with it's rock instrumentation. Tracks like "Here
+Comes the Night" and "Trembling Peacock" contain some of Bejar's best moments caught on tape,
+and the album, while excessively long in all respects, has a lot to offer the patient listener -
+especially given all it's context, both chronologically in Destroyer's cannon, and
+geographically in Bejar's head.
+
+
+
+More:
+
+Already a Destroyer's Rubies Drinking Game?
+
+Bejar-O-Matic Lyric Dispenser
+
+The Destroyer Wiki
+
+Six Eyes' Dan Bejar Interview (Feb 6, 2006)
+
+"The Enigma Next Door" Discorder (February, 2006)
+
+
+
+Previously
+
+The New Pornographers' Twin Cinema
+
+
+
+tags: playlist , music , dan bejar , destroyer , new pornographers Posted by Shawn Anderson at
+2/16/2006 03:16:00 PM 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Wednesday, February 15, 2006
+
+
+
+Fighting off the pricks
+
+Play it: New Radiant Storm Kings The Steady Hand
+
+Download: "The Winding Staircase" ( Darla Records )
+
+
+
+
+
+Image: http://image.listen.com/img/170x170/8/9/0/4/774098_170x170.jpg I already
+laid out my love for New Radiant Storm King last June, not realizing they were going to be
+putting out another excellent album ( The Steady Hand , released yesterday,) to reinforce
+that sentiment. It's been six years since their last ( Winter's Kill , Play It ) was recorded
+(1999,) released (2002,) and subsequentially ignored, during which time guitarist/singer
+Peyton Pinkerton has had success playing (and recently engineering) with The Pernice
+Brothers . Going further back, it's been 17 years since Matt Hunter and Peyton Pinkerton
+formed New Radiant Storm King at Hampshire College (Northampton, Ma,) and each record has
+shown a growth in maturity (especially since the past few have been spaced out so much.)
+Looking back at all the bad luck they've endured ( see their incredible timeline ,) it's
+amazing they're even still a band ( especially considering this .)
+
+
+
+
+
+Image: http://i.realone.com/assets/rn/img/4/2/4/8/9318424.jpg Peyton Pinkerton's
+songs (full band credited for songwriting, but Peyton sings these ones) encompass most of the
+highlights here. "The Winding Staircase," "Fighting Off the Pricks," "Quicksand Under
+Carpet" and "Come On And Let Yourself Win" are some of the best work Pinkerton's ever written,
+immediately brash and pop-y at the same time (much like Bob Mould 's Sugar .) Meanwhile, Matt
+Hunter's work here serves more as a change of pace and are slower to grow on you, however "Hands
+and Eyes" has already taken up residence in my brain. I remember gravitating to Hunter's work
+earlier on in their releases, and it wasn't until '96's amazing Hurricane Necklace before
+Pinkerton's songs hit me the way they continue to now.
+
+
+
+I'll still take the immaculate Hurricane Necklace as my fave, but this Steady Hand is nearly as
+good, and is the perfect time capsule back to mid-90's noise rock... and it sounds as good now as
+it would've then.
+
+
+
+Maybe this will be their Meadowlands , since they've had a similar story to The Wrens,
+especially w/r/t Alan Meltzer and Grass/Wind-Up Records . They could tour together on the
+"Screw You Alan Meltzer! Tour." Just an idea.
+
+
+
+More:
+
+Darla Records, NRSK's current label, has talked of releasing their out-of-print back
+catalogue , specifically My Little Bastard Soul (1992), Rival Time (1993) and Singular, No
+Article (1998); each disc replete with bonus tracks including (but not limited to) demos,
+singles and hopefully a video or two.
+
+
+
+Previously:
+
+The Unheard Gem: NRSK
+
+A Sad Status Quotient (The Pernice Brothers Discover a Lovelier You )
+
+
+
+tags: playlist , music , new radiant storm king , noise rock , pernice brothers , peyton
+pinkerton , the wrens , alan meltzer Posted by Shawn Anderson at 2/15/2006 11:23:00 AM 0
+comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Tuesday, February 14, 2006
+
+
+
+Sweet heart said
+
+Play it: Shelley Short Captain Wild Horse (Rides The Heart Of Tomorrow)
+
+Download: "Tomorrow Night" , "Like Anything, It's Small"
+
+
+
+
+
+Image: http://image.listen.com/img/170x170/8/1/1/4/774118_170x170.jpg One final
+sweet note for your Valentine's day. Shelley Short 's second release, Captain Wild Horse
+(Rides the Heart of Tomorrow) (Hush Records,) is a like a little Valentine for your ear. Think
+Be Good Tanyas , with a little Patsy Cline thrown in for good measure. Short began her musical
+career in Portland but has since moved to Chicago, following a similar trajectory of one Neko
+Case (Pacific NW to Windy City,) and perhaps is not such a bad comparison to add as well...with a
+bit less of vocal prowess, and more... well... sweetness thrown in.
+
+
+
+Enjoy... oh, and Happy Valentine's Day.
+
+
+
+tags: playlist , music , shelly short , americana , chicago Posted by Shawn Anderson at
+2/14/2006 03:40:00 PM 1 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+The Transfiguration of John Fahey
+
+Play it: I Am The Resurrection: A Tribute to John Fahey
+
+Play it: John Fahey's Original Versions from Tribute
+
+Play it: Return of the Repressed - The John Fahey Anthology
+
+(mostly reassembled from great Rhino compilation)
+
+
+
+
+
+Image: http://photos1.blogger.com/blogger/6860/639/200/iamtheresurrection.jpg Any
+tribute album of John Fahey is bound to fall short of his growing legend. I Am The Resurrection,
+however, does achieve one very important thing. It makes you want to hear the real thing. With
+contributions from indie stars like Sufjan Stevens , Devendra Banhart and M. Ward , it's
+apparent where his influence lies (see Freak Folk Beginnings .)
+
+
+
+
+
+Image: http://photos1.blogger.com/blogger/6860/639/200/johnfahey.jpg Naturally,
+since guitar is the focal point with Fahey, the tribute follows suit (with the exception of
+Howie Gelb , who understands that Fahey plays guitar like the piano, and thus interprets "My
+Grandfather's Clock" so succinctly.) Other standout tracks include Pelt 's run through
+"Sunflower River Blues," Calexico 's "Dance of Death" and the courageous "When the Catfish is
+in Bloom" from Peter Case . The rest are a mixed bag (Stevens decides to play up the hymn buried in
+"Commemorative Transfiguration and Communion at Magruder Park,") mostly reminding you
+just how good Fahey was at his craft. The tracks selected lack the full range of his catalogue
+(Native American, Raga, Tibetan chants, sounds of nature, etc.,) and instead focus on what
+only influenced them (blues picking,)
+
+Image: http://image.listen.com/img/170x170/6/3/8/6/386836_170x170.jpg which is fair
+enough... but it begs a listen to the original ' Blind Joe Death ' himself. An excellent
+compilation is Rhino's Return of the Repressed: The John Fahey Anthology , which isn't in
+Rhapsody, but I've mostly reassembled here for you ( Play it .)
+
+
+
+Also listen to selections from the tribute on Myspace.com's site for the album .
+
+
+
+tags: playlist , music , folk music , john fahey , sufjan stevens , devendra banhart , pelt ,
+calexico , peter case , howie gelb Posted by Shawn Anderson at 2/14/2006 11:06:00 AM 7 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+My obligatory V-Day post
+
+Play it: Conversation Hearts
+
+
+
+
+
+Image:
+http://i.realone.com/assets/rn/cms/2005/realguide_162x198/hol_valentine_convhearts_tall.5149957.jpg
+So love is in the air... I'm feeling it. Buying my chocolates, thinking of my sweetie-pie,
+anticipating putting my son to sleep tonight, etc. That's all you need to know.
+
+
+
+I put the above playlist together last year, but never bothered to post on it for some reason.
+Looking back now, it just might be one the best playlists I've ever done. Certainly not a
+romantic one, but...any playlist that can get Billie Holiday , Drive-By Truckers , Prince ,
+David Bowie , King's X , Blondie , Syd Barrett , Of Montreal , Buddy Holly , Yaz and Beat Happening
+all together under one tent deserves some sort of pat on the back, even if it's my own hand doing
+the patting ;)
+
+
+
+( The RealGuide is using it today as a Rhapsody.com featured playlist .)
+
+
+
+tags: playlist , music , valentines day , conversation hearts , blondie , billie holiday ,
+king's x , drive-by truckers Posted by Shawn Anderson at 2/14/2006 09:20:00 AM 3 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Monday, February 13, 2006
+
+
+
+Can't stop walking
+
+Play it: Eli's Walking
+
+
+
+
+
+Image: http://static.flickr.com/26/99039796_1c611341d2_m.jpg Ok... first off, the kid
+took his first steps almost a month ago, but I was waiting to capture it on camera. Problem is,
+anytime you pull out the camera, Eli stops and walking and poses. Anway, this weekend he
+started pulling himself up on his own and walking all over the place. Now you can't keep in a
+stroller/high chair/backpack, etc. for very long because he demands to be untethered and
+walking.
+
+
+
+So here's a tribute to first steps, with The Flaming Stars and I Can Lick Any Sonofabitch in the
+House . I've thrown in some Robert Pollard because Eli's got Pollard's rock pose down now (like
+a "50-Year Old Baby,") complete with spilling his bottle down his chin. I'm also anticipating
+seeing Pollard live two weeks from tomorrow night.
+
+
+
+tags: playlist , music , baby , first steps , robert pollard Posted by Shawn Anderson at
+2/13/2006 11:30:00 AM 1 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Sunday, February 12, 2006
+
+
+
+Accidental Akron/Family gathering
+
+Play it: Akron/Family Akron/Family
+
+
+
+
+
+Image: http://static.flickr.com/30/99110395_6b3f2592fb_m.jpg Last night, quite
+unplanned, I ended up at an Akron/Family show. It was our monthly wine club get-together ( wine
+from the Languedoc region of France for this go 'round,) this time w/o wife and child (wife
+feeling under the weather, child ready for bedtime.) Following our wine guzzling, our
+excellent host (Kevin) informed us that the band Akron/Family was playing across the street,
+the prospect of which made me very happy. Their self-titled debut has been haunting me for the
+past couple months, and I was eager to see what was behind this Brooklyn quartet's compelling
+freak folk sound.
+
+
+
+The band deftly employs dynamics, which can be a challenge live as there were some talkative
+attendees who were making it difficult to pick up some of the quieter moments. But outside of
+that, the intensity and enthusiasm that Akron/Family displayed were contagious, and I found
+myself swept up in their soundscape (with help, no doubt, from a belly full of good wine.) Much
+of the performance is improvisational in nature, which is briefly disconcerting, but then
+out of the blue they'll join lockstep in beautiful 4-part harmony.
+
+
+
+
+
+Image: http://static.flickr.com/40/99110898_6f5e3ed83d_m.jpg At the end of the show,
+they wandered into the audience w/ acoustic instruments and hand percussion, and by the end,
+all of us were giddily adding our voices to the harmony of "peace and distance."
+
+
+
+A lot of wine, a few tall PBR's and an amazing live performance had this music fan staggering
+home in the cold with a smile on his face.
+
+
+
+Akron/Family also appeared on Michael Gira 's Angels of Light album The Angels Of Light Sing
+"Other People" ( Play the album .)
+
+
+
+Video from an instore performance in Minneapolis ( Schedule Two - thanks to Steven for
+pointing out)
+
+
+
+tags: playlist , music , akronfamily , tractor tavern , angels of light , michael gira Posted by
+Shawn Anderson at 2/12/2006 05:45:00 PM 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Friday, February 10, 2006
+
+
+
+How to warm up the winter games
+
+Play it: Carla Bruni Quelqu'un M'a Dit
+
+Download: Carla Bruni "Le Ciel Dans Une Chambre"
+
+
+
+
+
+Image: http://photos1.blogger.com/blogger/6860/639/200/carlabruni.jpg The Winter
+Olympics opening ceremony got a much needed boost from the appearance of Turin-born model
+turned singer Carla Bruni . She carried the Italian flag in for the ceremony, which is fine if
+you forget the fact that she was raised in France and considers her primary language to be
+French (she sings in French anway.) But what other Turin native is gonna fill that Armani gown
+but Bruni?
+
+
+
+Really, this is just an excuse to put her mug on the page. You may remember Carla as Mick Jagger's
+mistress , or her liasons with Eric Clapton, Donald Trump or Kevin Costner . Well, she left the
+modeling (and mistress) world awhile ago, and has since used her well-earned connections to
+break into the music biz. Her album, Quelqu'un M'a Dit , was released last year and actually is
+pretty good (even if her face wasn't on the cover.) Her breath-y vocal delivery is incredibly
+pleasant, and most of the album is quite captivating, like Bruni herself . Just take a listen to
+the opening and title track ("Quelqu'un M'a Dit") and be swept up in it.... like a luge (or
+something segue-ish back to the Winter Olympics ;)
+
+
+
+tags: playlist , music , winter olympics , carla bruni , model Posted by Shawn Anderson at
+2/10/2006 05:19:00 PM 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post
+
+Mucha Lucha Libre!
+
+Play it: Viaje de Puerto Vallarta
+
+Video: Nacho Libre Trailer
+
+Download: "Mucha Lucha" by Chicos de Barrio
+
+Play it: Mucha Lucha (Soundtrack selections)
+
+
+
+
+
+Image: http://static.flickr.com/24/96243239_d55eb90dc1_m.jpg I just got back from
+Puerto Vallarta, and I've got Lucha Libre fever! I didn't actually witness any while I was
+there, but saw plenty of the Lucha masks for sale (and I did buy my son a Mucha Lucha hat .) One of
+the reasons I didn't buy a mask, is on my way home from my half-bro's wedding (at the beautiful
+Quinta Maria Cortez B&B,) I lost my wallet in the cab (not, as legend has it, in El Segundo .) And
+since my wife left her wallet at home, we were in a pickle. Thankfully, my newly discovered
+family was able to come to our rescue... I guess borrowing money really makes us family now.
+
+
+
+
+
+Image: http://photos1.blogger.com/blogger/6860/639/200/luchavavoom_vday06.jpg
+Back to the hook of the post, Lucha Libre is loosely translated as 'freestyle wrestling' and in
+Mexico has a rich tradition involving masks and signature moves. The wrestlers are called
+"luchadores" (or singularly, a "luchador",) and are commonly divided in two groups - the
+rudos (bad guys) and the tÃ©cnicos (good guys.) There's a couple federations in Mexico ( the
+AAA , and the CMLL ,) but have found popular offshoot shows in the US as well, specifically Lucha
+Va Voom ( who has an annual Valentine's 3-Day Show coming up this week in LA .)
+
+
+
+
+
+Image: http://i.realone.com/assets/rn/img/0/6/4/4/9274460.jpg When I got back earlier
+this week, one of the first things I noticed forwarded to me via email, was the trailer for the
+new movie Nacho Libre , starring Jack Black . Directed by Jared and Jerusha Hess ( Napoleon
+Dynamite ) and written by Mike White ( School of Rock , Orange County , Jack Black's next door
+neighbor ) and that's pretty much all you need to know to want to watch. It's about time someone
+capitalized on the Lucha Libre phenomenon , and I'm glad it's this triumvirant (Hess, White,
+Black) that's doing it (and not Ben Stiller, for instance.) ( Play video trailer .)
+
+
+
+
+
+Image: http://photos1.blogger.com/blogger/6860/639/200/muchalucha.jpg But it's been
+ripe for some time, even a kid's cartoon has made a go of it. Mucha Lucha started in 2002, and it
+became an international hit (it's getting huge in Mexico, and it's even in Gaelic now .) I've
+got the DVD of the first six seasons on hold for me at the library, so I'm stoked for that.
+
+
+
+Download: "Mucha Lucha" theme song by Chicos de Barrio
+
+Play: Mucha Lucha soundtrack selections from the cartoon
+
+
+
+More: Desayuno @ La Casa de los Hot Cakes
+
+
+
+tags: playlist , music , lucha libre , puerto vallarta , nacho libre , mucha lucha , jack black ,
+chicos de barrio , mexico Posted by Shawn Anderson at 2/10/2006 09:42:00 AM 4 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Links to this post Newer Posts Older Posts Home Subscribe
+to: Posts (Atom) window.___gcfg = {'lang': 'en_US'};window.___gapisync =
+false;(function() {var po = document.createElement('script');po.type =
+'text/javascript';po.async = true;po.src =
+'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+Who?
+
+
+
+Image:
+http://bp0.blogger.com/_TwhMBcTHza8/SDSNsUFVTII/AAAAAAAAATM/eJ0Oy15w0_E/S220/2505091592_6c2346969c_b-1.jpg
+drake (aka shawn)
+
+
+
+view profile
+
+
+
+more bite-sized updates via
+
+
+
+Image: http://i.realone.com/assets/rn/img/4/0/4/1/25441404.jpg
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+LOOKING / LISTENING
+
+
+
+Image:
+https://lh3.googleusercontent.com/Cti-X1dTW5SqVfB4qZJZzOK1djQHYWAd_yWXX2VCCSNZmq4ALFd0O3ffLVhfB47ZUD9ZF141=w128
+
+Image: http://images.insound.com/177/INS111241.jpg
+
+Image: http://images.insound.com/177/INS108107.jpg
+
+Image: http://images.insound.com/177/INS110842.jpg
+
+Image:
+https://lh3.googleusercontent.com/FU2zFgsiFDM30IwWB1Pctelriyie6ybbOnvV_1nXfC8aq9oNGUDAn68WSnyRcE1PMUkGBWi14Co=w128
+
+Image:
+https://lh6.googleusercontent.com/yOt9tCDEmW2GBohYKFS59PYarThOUllLNMHQf1QsOUhy32oN7izujbvuExu5n8xK0o0h3akCTw=w128
+
+
+
+Image:
+https://encrypted.google.com/books?id=-sapXk7dWcAC&printsec=frontcover&img=1&zoom=1&source=ge-market
+
+Image:
+https://lh5.ggpht.com/j3sSA9kdzTxAbm4sWjPZIxNca-uFGQWZJc5rTSruu9Iq6YGWKwG5XcJt9ksxJHLbEWlg=h230
+
+FLICKR PHOTOSTREAM
+
+
+
+Image: http://www.feedburner.com/fb/images/pub/feed-icon32x32.png   Subscribe
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Twitter Updates
+
+
+
+Twitter Updates
+
+    
+
+follow me on Twitter
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+Blog Archive October 2012 (1) September 2012 (5) August 2012 (5) July 2012 (7) June 2012 (11)
+May 2012 (10) April 2012 (12) March 2012 (11) February 2012 (9) January 2012 (13) December 2011
+(11) November 2011 (13) October 2011 (16) September 2011 (13) August 2011 (13) July 2011 (10)
+June 2011 (12) May 2011 (12) April 2011 (13) March 2011 (10) February 2011 (14) January 2011
+(13) December 2010 (12) November 2010 (25) October 2010 (22) September 2010 (27) August 2010
+(13) July 2010 (15) June 2010 (15) May 2010 (24) April 2010 (19) March 2010 (21) February 2010
+(13) January 2010 (19) December 2009 (24) November 2009 (21) October 2009 (23) September 2009
+(25) August 2009 (24) July 2009 (31) June 2009 (21) May 2009 (23) April 2009 (25) March 2009 (30)
+February 2009 (25) January 2009 (17) December 2008 (28) November 2008 (22) October 2008 (31)
+September 2008 (29) August 2008 (20) July 2008 (24) June 2008 (19) May 2008 (15) April 2008 (17)
+March 2008 (14) February 2008 (24) January 2008 (24) December 2007 (18) November 2007 (14)
+October 2007 (24) September 2007 (20) August 2007 (23) July 2007 (16) June 2007 (20) May 2007
+(22) April 2007 (21) March 2007 (21) February 2007 (29) January 2007 (31) December 2006 (22)
+November 2006 (25) October 2006 (37) September 2006 (34) August 2006 (30) July 2006 (25) June
+2006 (22) May 2006 (30) April 2006 (23) March 2006 (32) February 2006 (29) January 2006 (28)
+December 2005 (23) November 2005 (32) October 2005 (27) September 2005 (44) August 2005 (30)
+July 2005 (35) June 2005 (30) May 2005 (18) April 2005 (14) March 2005 (18) February 2005 (36)
+January 2005 (21) December 2004 (14) November 2004 (18)
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/9018189/posts/default"; holder.commentFeed =
+"http://www.blogger.com/feeds/9018189/comments/default"; holder.currentBlogUrl =
+"http://drakelelane.blogspot.com/"; holder.currentBlogId = "9018189"; return holder;
+}); } if (!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#4b4b4b"; skin['ENDCAP_LINK_COLOR'] = "#3a7acd";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#3a7acd"; skin['CONTENT_TEXT_COLOR'] =
+"#4b4b4b"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#3a7acd";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#696969"; skin['CONTENT_HEADLINE_COLOR'] =
+"#000000"; skin['FONT_FACE'] = "normal normal 13px Arial, Tahoma, Helvetica, FreeSans,
+sans-serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-12sckc68d2dpg",
+height: 260, site: "05206208004702326806", locale: 'en_US' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+DAILY READS
+
+    
+
+    - Alternadad
+
+    
+
+    - An Aquarium Drunkard
+
+    
+
+    - Basket of Kisses (Mad Men fans)
+
+    
+
+    - BowlingstoneStone
+
+    
+
+    - BrooklynVegan
+
+    
+
+    - Bumpershine
+
+    
+
+    - Deadspin
+
+    
+
+    - Film.com
+
+    
+
+    - FiveThirtyEight
+
+    
+
+    - Fluxblog
+
+    
+
+    - I Wanna See Movies of my Dreams
+
+    
+
+    - Largehearted Boy
+
+    
+
+    - Line Out (The Stranger)
+
+    
+
+    - Obscure Sound
+
+    
+
+    - Pitchfork
+
+    
+
+    - Said the Grammaphone
+
+    
+
+    - Sound on the Sound
+
+    
+
+    - Stereogum
+
+    
+
+    - Strollerderby
+
+    
+
+    - Televisionary
+
+    
+
+    - the allmusic blog
+
+    
+
+    - The Daily Kos
+
+    
+
+    - The Fien Print
+
+    
+
+    - The House Next Door (Slant)
+
+    
+
+    - U.S.S. Mariner
+
+    
+
+    - What's Alan Watching
+
+    
+
+    - zentronix: dubwise & hiphopcentric
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png <!--
+google_ad_client="pub-7871716684542451"; google_ad_host="pub-1556223355139109";
+google_ad_width=160; google_ad_height=600; google_ad_format="160x600_as";
+google_ad_type="text_image"; google_ad_host_channel="0001+S0004+L0006";
+google_color_border="EEEEEE"; google_color_bg="EEEEEE";
+google_color_link="3A7ACD"; google_color_url="4B4B4B";
+google_color_text="4B4B4B"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+<!--.networkedblogs_widget a
+{text-decoration:none;color:#3B5998;font-weight:normal;}.networkedblogs_widget
+.networkedblogs_footer a
+{text-decoration:none;color:#FFFFFF;font-weight:normal;}--> Blog Networks Blog:
+thus spake drake Topics: music , television , film   Join my network <!--
+if(typeof(networkedblogs)=="undefined"){networkedblogs =
+{};networkedblogs.blogId=98694;networkedblogs.shortName="thus_spake_drake";} -->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Hit Counter
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png var gaJsHost =
+((&quot;https:&quot; == document.location.protocol) ? &quot;https://ssl.&quot; :
+&quot;http://www.&quot;); document.write(unescape(&quot;%3Cscript src=&#39;&quot;
++ gaJsHost + &quot;google-analytics.com/ga.js&#39;
+type=&#39;text/javascript&#39;%3E%3C/script%3E&quot;)); try{ var pageTracker =
+_gat._getTracker(&quot;UA-7941845&quot;); pageTracker._trackPageview(); }
+catch(err) {}
+
+Image: http://www.assoc-amazon.com/s/noscript?tag=thusspakedrak-20
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Awesome Inc. template.
+Template images by follow777 . Powered by Blogger .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+window.setTimeout(function() { document.body.className =
+document.body.className.replace('loading', ''); }, 10); if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV2";window['blogger_blog_id'] =
+'9018189';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d9018189','//drakelelane.blogspot.com/2006_02_01_archive.html','9018189');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '9018189',
+'bloggerUrl': 'http://www.blogger.com', 'title': 'thus spake drake', 'pageType':
+'archive', 'url': 'http://drakelelane.blogspot.com/2006_02_01_archive.html',
+'canonicalUrl': 'http://drakelelane.blogspot.com/2006_02_01_archive.html',
+'canonicalHomepageUrl': 'http://drakelelane.blogspot.com/', 'homepageUrl':
+'http://drakelelane.blogspot.com/', 'blogspotFaviconUrl':
+'http://drakelelane.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+false, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'02/01/2006 - 03/01/2006', 'pageTitle': 'thus spake drake: 02/01/2006 - 03/01/2006',
+'encoding': 'UTF-8', 'locale': 'en-US', 'isPrivate': false, 'isMobile': false,
+'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false,
+'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42
+type\75\42application/atom+xml\42 title\75\42thus spake drake - Atom\42
+href\75\42http://drakelelane.blogspot.com/feeds/posts/default\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42thus spake drake -
+RSS\42
+href\75\42http://drakelelane.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42thus spake drake - Atom\42
+href\75\42http://www.blogger.com/feeds/9018189/posts/default\42 /\76\n\74link
+rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\759018189\42 /\076', 'meTag': '',
+'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId':
+'pub-7871716684542451', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script
+type\75\42text/javascript\42
+src\75\42//www.blogger.com/static/v1/jsbin/3651483553-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076',
+'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'date_border_size': '0', 'description_font':
+'normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif',
+'body_background_gradient_cap': 'none', 'tabs_selected_background_color':
+'#696969', 'footer_background_gradient': 'none', 'date_background': 'transparent
+none no-repeat scroll top left', 'widget_border_radius': '0', 'post_title_text_color':
+'#252525', 'widget_font': 'normal normal 14px Arial, Tahoma, Helvetica, FreeSans,
+sans-serif', 'widget_link_hover_color': '#3a7acd', 'link_visited_color': '#4e47a0',
+'mobile_background_size': 'auto', 'date_space': '30px', 'post_title_font': 'normal
+bold 19px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'tabs_text_color':
+'#4b4b4b', 'title_separator_border_size': '1px', 'header_background_gradient':
+'none', 'widget_outer_background_gradient': 'none', 'widget_link_color': '#3a7acd',
+'mobile_button_color': '#ffffff', 'widget_title_font': 'normal bold 14px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif', 'widget_outer_background_color':
+'transparent', 'date_last_border_radius_bottom': '0', 'widget_outer_margin_top':
+'0', 'shadow_spread': '20px', 'title_shadow_spread': '-1px', 'body_background':
+'#fcfcfc
+url(http://themes.googleusercontent.com/image?id\0751hKuNWa-RMhkZRZU_qyuDQ9_4yvj2Fl-Dilg1122rUH0dmH45Sjd3Rq9sQv312QsBr45s)
+no-repeat fixed top center /* Credit: follow777
+(http://www.istockphoto.com/googleimages.php?id\0753018650\46platform\75blogger)
+*/', 'outer_shadow_spread': '0', 'keycolor': '#fcfcfc', 'image_shadow_spread': '0',
+'image_background_color': 'transparent', 'header_font': 'normal bold 24px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif', 'header_background_color': 'transparent',
+'date_header_border_radius_top': '0', 'widget_border_bevel_color': 'transparent',
+'tabs_border_color': '#9a9a9a', 'widget_background_color': '#ffffff',
+'date_position': 'static', 'post_first_padding_top': '0',
+'tabs_background_gradient':
+'url(http://www.blogblog.com/1kt/awesomeinc/tabs_gradient_light.png)',
+'mobile_background_overlay': 'transparent none repeat scroll top left',
+'date_border_color': '#eeeeee', 'tabs_background_color': '#eeeeee',
+'widget_link_visited_color': '#4e47a0', 'feed_text_color': '#4b4b4b',
+'header_margin_top': '0', 'link_hover_color': '#3a7acd', 'date_last_space_bottom':
+'20px', 'header_margin_bottom': '0', 'date_padding_bottom': '0',
+'list_separator_border_size': '1px', 'description_text_color': '#4b4b4b',
+'body_text_color': '#4b4b4b', 'header_padding_top': '22px', 'post_border_color':
+'#eeeeee', 'footer_text_color': '#4b4b4b', 'post_background_color': '#ffffff',
+'pager_space_top': '1em', 'endSide': 'right', 'startSide': 'left',
+'body_background_size': 'auto', 'tabs_font': 'normal bold 14px Arial, Tahoma,
+Helvetica, FreeSans, sans-serif', 'body_font': 'normal normal 13px Arial, Tahoma,
+Helvetica, FreeSans, sans-serif', 'date_first_border_radius_top': '0',
+'date_header_position': '15px', 'date_text_color': '#4897ff',
+'widget_title_text_color': '#4b4b4b', 'image_border_color': 'transparent',
+'separator_outdent': '15px', 'widget_text_color': '#4b4b4b', 'link_color':
+'#3a7acd', 'widget_border_color': '#eeeeee', 'pager_border_radius_top': '0',
+'feed_link_color': '#3a7acd', 'header_text_color': '#1d3d66',
+'footer_background_color': '#ffffff', 'widget_padding_top': '8px',
+'feed_link_visited_color': '#4e47a0', 'feed_link_hover_color': '#3a7acd',
+'date_font': 'normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif',
+'tabs_selected_text_color': '#ffffff', 'date_side': 'right',
+'post_border_bevel_color': '#eeeeee', 'widget_padding_side': '15px',
+'body_background_color': '#eeeeee', 'image_border_radius': '0',
+'pager_background_color': '#ffffff', 'widget_alternate_text_color': '#696969'},
+'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url':
+'/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'},
+'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name':
+'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url':
+'/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'},
+'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5',
+'sidebar-right-1', null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2',
+'sidebar-right-1', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7',
+'sidebar-right-1', null, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar-right-1', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_FollowersView', new
+_WidgetInfo('Followers1', 'sidebar-right-1', null,
+document.getElementById('Followers1'), {'title': 'Followers', 'codeSnippet':
+'\74script type\75\42text/javascript\42\76\n if (!window.google ||
+!google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75 \42http://www.blogger.com/feeds/9018189/posts/default\42;\n \n
+\n \n holder.commentFeed \75
+\42http://www.blogger.com/feeds/9018189/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://drakelelane.blogspot.com/\42;\n
+holder.currentBlogId \75 \429018189\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-xha267o37m6c\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#4b4b4b\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#3a7acd\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#3a7acd\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#4b4b4b\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#3a7acd\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#696969\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#000000\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-xha267o37m6c\42,\n height: 260,\n \n \n \n site: \04205206208004702326806\42,\n
+\n locale: \47en_US\47 },\n skin);\n \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList2',
+'sidebar-right-1', null, document.getElementById('LinkList2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_AdSenseView', new
+_WidgetInfo('AdSense1', 'sidebar-right-1', null,
+document.getElementById('AdSense1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6',
+'sidebar-right-1', null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4',
+'sidebar-right-1', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'footer-3', null,
+document.getElementById('Attribution1'), {'attribution': 'Awesome Inc. template.
+Template images by \74a
+href\75\47http://www.istockphoto.com/googleimages.php?id\0753018650\46platform\75blogger\46langregion\75en_US\47
+target\75\47_blank\47\76follow777\74/a\76. Powered by \74a
+href\75\47http://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML3', 'footer-1', null, document.getElementById('HTML3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'),
+{'title': 'Pages', 'links': [{'href': 'http://drakelelane.blogspot.com/', 'title':
+'Home', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+

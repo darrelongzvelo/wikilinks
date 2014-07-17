@@ -1,0 +1,1333 @@
+
+
+
+
+An Introduction to Haddonfield New Jersey..... (function() { var cx =
+'016474116467456296202:zcdp2tq_pxi' var gcse = document.createElement('script');
+gcse.type = 'text/javascript'; gcse.async = true; gcse.src =
+(document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/headers/ar_home_logo.png?1348686621
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_b_search.png?1348686621
+    var currentIndex = -1 var default_phrase = "Find Homes for Sale in your city"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686621
+        Consumer
+
+        - Home Buying
+
+        
+
+        - Home Improvement
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Home Selling
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686621
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  body { background: #990000
+url(http://www.activeraincustomizer.com/img/444-background.jpg) repeat fixed
+center top; margin: 0; padding: 0; } table#blog_content { width: 960px; margin: 0 auto; }
+td.blog_content_td { background: #ffffff; } #custom_blog_header { display: block;
+background:#1C16A3
+url(/image_store/customizer/jeffmortgageman_header_17055_jeff_belongers_active_rain_header.jpg)
+no-repeat scroll left top; height: 130px; margin-top: 0px; } #top_menu { border: none;
+background-color:#CC3300; background-image: none; } #top_menu li a, #top_menu li
+span.fake_menu_item { color: #000080; text-shadow: none; } #top_menu .top_dropdown ul li
+a:hover { background: none !important; } #logo_wrapper { background: white; } #header {
+margin-top: 0; padding-top: 0; border: none !important; } .nav { margin: 0 !important;
+border-width: 0 !important; } #top_menu .top_dropdown { border: none;
+background-color:#CC3300; } #top_menu .top_dropdown a, #top_menu .top_dropdown
+.inner_menu_header { color:#000080 !important; } #top_menu .top_dropdown
+.inner_menu_header { text-decoration: underline; } #top_menu .top_dropdown ul li a:hover
+{ background-color:#CC3300; font-weight: bold; } .top_dropdown { margin-top: 5px; } * html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * + html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * html
+.top_dropdown { margin-top: 3px; z-index: 1000; } * + html .top_dropdown { margin-top: 19px;
+z-index: 1000; } Home : Blogs : Jeff Belonger-The FHA Expert - FHA Loans - FHA mortgages - USDA
+loans - VA Loans : Mortgage Knowledge at its BEST!!!! (Jeff Belonger) .reblog { margin-left:
+4px; } Tweet
+
+An Introduction to Haddonfield New Jersey.....
+
+
+
+
+
+Image: /image_store/uploads/1/5/6/1/3/ar117539519431651.jpg
+
+Haddonfield , New Jersey is located in Camden County which is located in Southern New Jersey.
+As of the United States 2000 Census , the borough had a total population of 11,659.
+
+Haddonfield is an unique town because of it's friendly residents, the close knit community,
+and because of its many special events that it holds each year. It has a an old, rustic look
+because of the many old homes that have been maintained throughout the years. As a resident of
+Haddonfield for 3 years now, I have grown to love this town and just enjoy the people and events
+that take place each year.
+
+One interesting fact that is unknown is that   Steven Spielberg was raised in Haddonfield,
+New Jersey at one point in his life.
+http://www.wireimage.com/Celebrities/Steven-Spielberg 
+
+ 
+
+
+
+Image: /image_store/uploads/9/7/5/7/3/ar117539701837579.jpg
+
+ 
+
+Kings Highway is the main artery that runs through downtown and actually connects to several
+other towns. Both Cherry Hill and Haddon Heights are the two towns on either side that are
+connected by Kings Highway. 
+
+The picture that is seen is where most of the yearly activities take place in Haddonfield.
+There are events such as the townwide sidewalk sale in the summer, and the fall festival in
+October. The fall festival is an event where community organizations may have booths along
+Kings Highway and there is scarecrow-making for kids. There is also the famous Haddonfield
+Crafts & Fine Arts Festival, where a large variety of vendors line the main street. One of the
+more major events is First Night , a New Year's Eve celebration of the arts, with a variety of
+performances. There is also the car show. This information was taken from Wikipedia .
+
+ 
+
+
+                                                                      
+
+
+
+
+
+Image: /image_store/uploads/9/8/0/8/4/ar11753981548089.jpg
+
+Image: /image_store/uploads/2/4/1/4/6/ar117539825464142.jpg
+
+ Haddonfield was the second municipality in New Jersey (after Cape May ) to set up a
+historical preservation district. In keeping with the historic appearance of the borough,
+some candidates for commissioner give out colored ribbons to their supporters in lieu of the
+more common yard signs.
+
+These are the types of homes that can be found as you drive through the heart of Haddonfield
+while on Kings Highway.
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+Image: /image_store/uploads/5/2/4/3/9/ar117539829893425.jpg
+
+
+
+Overall, Haddonfield is a great location because of its school system and because of its
+transportation center. Hi-Speedline station that links it directly to Philadelphia ,
+Pennsylvania and other towns in Camden County. New Jersey Transit runs several bus lines
+through Haddonfield, most of which stop at the PATCO
+station.                                
+
+ 
+
+As you can see, Haddonfield is a great town and community that offers many different
+varieties, keeping it a simplistic town to live in. One that can feel safe and to be able to move
+about the town freely during anytime from morning to late evening. It has the old style of
+housing in the center of town while new housing in other areas that gives someone looking for a
+new home different options. Just a great place to grow up in, rich in history, from the late
+1700's to present time.
+
+ 
+
+My series on Haddonfield :
+
+The Churches of Haddonfield, New Jersey -- Series of Haddonfield -- Part 1
+
+ 
+
+Needing a mortgage in Haddonfield , New Jersey or the surrounding areas, please don't
+hesitate to call me : 
+
+Jeff Belonger
+
+Branch Manager 
+
+Office  : 888-835-1663
+
+Cell     : 609-440-5133
+
+e-mail : jbelonger@nationalfuturemortgage.com
+
+
+_____________________________________________________________________________________________________________________________
+
+ 
+
+ 
+
+
+
+Image: ../../image_store/uploads/8/1/1/8/1/ar128354219918118.jpg
+
+ 
+
+
+
+Image: ../../image_store/uploads/1/9/9/5/7/ar128354181275991.jpg     
+
+Image: ../../image_store/uploads/9/7/3/6/0/ar12835420506379.jpg
+
+
+                                                                            
+FOLLOW ME ON FACEBOOK
+
+ 
+
+ 
+
+- FHA Loans - USDA Loans - VA Loans -
+
+- Energy Efficient Mortgages - 
+
+- Conventional Loans - 203 k loans -
+
+- FHA Home Loans - Mortgages -
+
+ 
+
+Experience & Knowledge at its BEST !!!
+
+ 
+
+ 
+
+Follow me on:
+
+
+
+
+
+Image: /image_store/uploads/4/5/8/0/4/ar128570908640854.png
+
+ 
+
+
+______________________________________________________________________________________________________________
+
+For more information on FHA loans , please go to this link. The FHA Expert
+
+For important mortgage insight to watch for, please read : Consumers need to be aware of these
+Red Flags!
+
+
+
+Image: ../../image_store/uploads/9/4/3/2/2/ar128404332722349.jpg
+
+ 
+
+For information about FHA myths & FHA rumors , please read : FHA Myths & Rumors
+
+ 
+
+Copyright © 2011 by Jeff Belonger of Infinity Home Mortgage Company, Inc   Posted by Jeff
+Belonger-The FHA Expert - FHA Loans - FHA mortgages - USDA loans - VA Loans on 03/31/2007 10:53
+PM   Comments (12)   haddonfield new jersey , jeffbelonger , jeffmortgageman , fha , camden
+county new jersey , cherry hill , haddon heights , real estate   Generate short URL This post
+has been included in New Jersey Real Estate News Camden County, NJ Real Estate News
+Haddonfield, NJ Real Estate News
+
+
+
+12 Comments on An Introduction to Haddonfield New Jersey..... APR 01 2007
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348615406
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348615406
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348615406
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348615406
+Jeff, that makes me want to come and visit!  I remember our sidewalk sales in the sleepy little
+town I came from!  We didn't have Spielberg though... Chris Tesch College Station, Texas
+Real Estate (RE/MAX Select) 12:32am • #1 Jeff - great pics of those historic homes.  Sounds
+like a great place to live. Overland Park Real Estate :: Paul Korodaj (Overland Park Real
+Estate :: Keller Williams Platinum) 8:43am • #2
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+
+Chris..... I feel like Bob Barker now, but come on down....  lol  I love the different
+activities that take place each year. It's just nice to walk around, something different to
+do. 
+
+I only found out about Spielberg when I was doing my research. Pretty cool, huh. 
+
+Paul.....   thanks for the compliments and for stopping by.
+
+Jeff Belonger-The FHA Expert - FHA Loans - FHA mortgages - USDA loans - VA Loans ( Social Media -
+Infinity Home Mortgage Company, Inc) 10:24am • #3
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+You did a great job Jeff - I love the photos of the historic homes and the downtown area is
+beautiful. Rick & Ines - Miami Beach Real Estate (Majestic Properties) 10:59pm • #4 APR 02
+2007
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+Ines... . thanks, especially coming from someone that does a lot of these...
+
+Jeff Belonger-The FHA Expert - FHA Loans - FHA mortgages - USDA loans - VA Loans ( Social Media -
+Infinity Home Mortgage Company, Inc) 12:37pm • #5 APR 06 2007
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+
+Nice post Jeff.... I have to admit .. its alittle late and my eyes are blurry...  I thought i was
+reading BB's Blog   and I am thinking Haddonfield.... what the hell???   then of course I
+scrolled back up..
+
+Have a great holiday weekend. Desiree Daniels (RE/MAX Tri County) 10:43pm • #6 APR 11 2007
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+I'm homesick.  I love the pictures.  Haddonfield is one of the nicest towns I've seen in the
+country
+
+San Diego VA Home Loans/858-777-9751 11:15pm • #7 APR 13 2007
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+I love these posts Jeff.  It's great to find out about other parts of the country.  Thanks!
+Caleb Mardini 12:54pm • #8
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+
+Desiree.... thanks for teh compliment.   Funny about who you thought wrote this at first.
+Thanks for the comments.
+
+
+
+Brian....   thanks Brian and I agree. I truly enjoy it here, the people, and the town itself.
+So, if you miss it, make a trip. We still need to catch up.
+
+
+
+Caleb.....  I enjoyed writing this also. I even learned a little bit that I didn't know about.
+Thanks for stopping by.
+
+Jeff Belonger-The FHA Expert - FHA Loans - FHA mortgages - USDA loans - VA Loans ( Social Media -
+Infinity Home Mortgage Company, Inc) 1:15pm • #9 APR 15 2007
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Great houses!
+
+I have a good friend in Cherry Hill - he teaches in Philly @ Drexel - Marketing
+
+I also have family all over those parts now... My cousin lives in Maplewood - nearby? His inlaws
+are in Princeton where my brother may relocate to next year David A. Podgursky, PA (Boynton
+Beach & Lake Worth Florida Real Estate Broker Associ) 10:06am • #10
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+David... thanks for the compliments. Maplewood sounds familiar, I think it's in North
+Jersey. And a FYI... Timothy Ball was from Maplewood. He was a revolutionary war figure and a
+cousin of George Washington.  ;o) And if your brother relocates and needs a mortgage, I could
+help him out. Jeff Belonger-The FHA Expert - FHA Loans - FHA mortgages - USDA loans - VA Loans (
+Social Media - Infinity Home Mortgage Company, Inc) 12:17pm • #11
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/cfd6897ece0ce65b25f37d4a35cb171252c00107.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+
+I'd put three bold bullet points that are hyper links something like:
+
+    Read also:
+
+    - Haddonfield Mortage
+
+    
+
+    - Haddonfield Home Loans
+
+    
+
+    - Haddonfield Home Equity Loans
+
+    
+
+
+
+Make each of them a hyper link to your site or a blog about "Haddonfield Home Loans" (if you
+already posted one) Chris Elizabeth Griffith ~ Bonita Springs Fl Real Estate (Downing-Frye
+Realty, Bonita Springs, FL) 1:49pm • #12 Notify me of new comments: Email:
+
+Image: /images/24-message-info.png What does the graphic say?
+
+Image: /plugin_assets/fruit_captcha/images/f79.gif Leave a response… var
+RecaptchaOptions = { theme : 'custom', custom_theme_widget: 'recaptcha_widget' };
+
+Name:
+
+Email:
+
+(optional) Comment: //<![CDATA[ tinyMCE.init( { mode:'exact', convert_urls: false,
+elements:'blog_comment_comment', theme:'advanced', plugins: 'spellchecker',
+theme_advanced_toolbar_location: 'top', theme_advanced_buttons1 : 'bold, italic,
+underline, strikethrough, justifyleft, justifycenter, justifyright, justifyfull,
+outdent,indent, bullist, numlist,preview,spellchecker', extended_valid_elements:
+'object[classid|codebase|width|height|align|embed|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata],param[name|value],embed[quality|type|pluginspage|width|height|src|align|wmode|flashvars|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata]',
+plugin_preview_width : '600', plugin_preview_height : '600', theme_advanced_buttons2 :
+'', theme_advanced_buttons3 : '', file_browser_callback : 'fileBrowserCallBack',
+spellchecker_rpc_url : '/action/spellcheck' }); //]]> Spam Prevention: Incorrect please
+try again Type the two words above Type the numbers you hear
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/sound.gif?1348686621
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/photo.gif?1348686621
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/reload.gif?1348686621
+Event.observe(window, 'load', initLazyLoad); function initLazyLoad() {
+$$("div.comment_image").each(function(e){ e.style.backgroundImage =
+"url("+e.getAttribute('imagesrc')+")" }) }   function contact(aid) { //documentation
+on this: http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/218/8218/large/Jeff_Belonger_DC_another_same_with_background_10-10-09_HD_Active_Rain_pic.jpg?1284334192
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/ambassador_large.png?1348686621
+
+Jeff Belonger-The FHA Expert - FHA Loans - FHA mortgages - USDA loans - VA Loans
+
+Cherry Hill , NJ
+
+More about me…
+
+Social Media - Infinity Home Mortgage Company, Inc
+
+Address: Cherry Hill New Jersey 08034 08002 08003, Haddon Heights New Jersey 08035,
+Haddonfield, NJ, 08033
+
+Cell Phone: (609) 440-5133
+
+Email Me
+
+
+
+Image: http://c36.statcounter.com/3246372/0/6cc2d7f9/0/
+
+
+
+Image: http://badge.facebook.com/badge/1073916250.215.12736418.png
+
+
+
+Subscribe to Mortgage Knowledge at its BEST!!!! (Jeff Belonger)
+
+I just want to educate people about mortgages and the process. In regards to lending, I am very
+creative, intuitive, honest, and one who communicates information, may it be good or bad. I am
+a loan officer that looks out for your best interest.
+
+
+
+
+
+
+
+The FHA Expert - About Mortgages on Facebook
+
+
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Listings
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Links
+
+
+
+    
+
+    - All About Philadelphia - MyPhillyAlive
+
+    
+
+    - The FHA Expert
+
+    
+
+    - Information on FHA programs
+
+    
+
+    - Different mortgage options!!!
+
+    
+
+    - Jeff Belonger's Controversial Posts
+
+    
+
+    - Mortgage Myths - Educating Mortgage Posts - The Mortgage Myth Busters
+
+    
+
+    - Agent Genius
+
+    
+
+    - Mortgages Unzipped @ Zillow
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Archives
+
+
+
+    
+
+    - June 2012 (1)
+
+    
+
+    - December 2011 (2)
+
+    
+
+    - October 2011 (2)
+
+    
+
+    - September 2011 (3)
+
+    
+
+    - July 2011 (2)
+
+    
+
+    - June 2011 (7)
+
+    
+
+    - May 2011 (5)
+
+    
+
+    - April 2011 (6)
+
+    
+
+    - March 2011 (22)
+
+    
+
+    - February 2011 (22)
+
+    
+
+    - January 2011 (30)
+
+    
+
+    - December 2010 (38)
+
+    
+
+    - November 2010 (18)
+
+    
+
+    - October 2010 (35)
+
+    
+
+    - September 2010 (30)
+
+    
+
+    - August 2010 (11)
+
+    
+
+    - July 2010 (20)
+
+    
+
+    - June 2010 (12)
+
+    
+
+    - May 2010 (4)
+
+    
+
+    - April 2010 (4)
+
+    
+
+    - March 2010 (5)
+
+    
+
+    - February 2010 (15)
+
+    
+
+    - January 2010 (12)
+
+    
+
+    - December 2009 (1)
+
+    
+
+    - October 2009 (12)
+
+    
+
+    - September 2009 (18)
+
+    
+
+    - August 2009 (11)
+
+    
+
+    - July 2009 (8)
+
+    
+
+    - June 2009 (10)
+
+    
+
+    - May 2009 (22)
+
+    
+
+    - April 2009 (9)
+
+    
+
+    - March 2009 (13)
+
+    
+
+    - February 2009 (31)
+
+    
+
+    - January 2009 (21)
+
+    
+
+    - December 2008 (23)
+
+    
+
+    - November 2008 (20)
+
+    
+
+    - October 2008 (22)
+
+    
+
+    - September 2008 (20)
+
+    
+
+    - August 2008 (19)
+
+    
+
+    - July 2008 (6)
+
+    
+
+    - June 2008 (16)
+
+    
+
+    - May 2008 (29)
+
+    
+
+    - April 2008 (25)
+
+    
+
+    - March 2008 (19)
+
+    
+
+    - February 2008 (32)
+
+    
+
+    - January 2008 (32)
+
+    
+
+    - December 2007 (32)
+
+    
+
+    - November 2007 (30)
+
+    
+
+    - October 2007 (6)
+
+    
+
+    - September 2007 (9)
+
+    
+
+    - August 2007 (43)
+
+    
+
+    - July 2007 (37)
+
+    
+
+    - June 2007 (40)
+
+    
+
+    - May 2007 (21)
+
+    
+
+    - April 2007 (29)
+
+    
+
+    - March 2007 (35)
+
+    
+
+    - February 2007 (33)
+
+    
+
+    - January 2007 (34)
+
+    
+
+    - December 2006 (27)
+
+    
+
+    - November 2006 (27)
+
+    
+
+    - October 2006 (30)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find NJ real estate agents and Cherry Hill real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/new_design/eho.gif?1348686621
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

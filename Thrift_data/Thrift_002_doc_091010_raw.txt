@@ -1,0 +1,1142 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); The New York Times Crossword in Gothic: 08.17.12 — Aoxomoxoa and Other Stuff <!-- /*
+----------------------------------------------- Blogger Template Style Name: Minima
+Black Designer: Douglas Bowman URL: www.stopdesign.com Date: 26 Feb 2004 Updated by:
+Blogger Team ----------------------------------------------- */ /* Variable
+definitions ==================== <Variable name="bgcolor" description="Page
+Background Color" type="color" default="#000"> <Variable name="textcolor"
+description="Text Color" type="color" default="#ccc"> <Variable name="linkcolor"
+description="Link Color" type="color" default="#9ad"> <Variable
+name="pagetitlecolor" description="Blog Title Color" type="color" default="#ccc">
+<Variable name="descriptioncolor" description="Blog Description Color" type="color"
+default="#777"> <Variable name="titlecolor" description="Post Title Color"
+type="color" default="#ad9"> <Variable name="bordercolor" description="Border Color"
+type="color" default="#333"> <Variable name="sidebarcolor" description="Sidebar
+Title Color" type="color" default="#777"> <Variable name="sidebartextcolor"
+description="Sidebar Text Color" type="color" default="#999"> <Variable
+name="visitedlinkcolor" description="Visited Link Color" type="color"
+default="#a7a"> <Variable name="bodyfont" description="Text Font" type="font"
+default="normal normal 100% 'Trebuchet MS',Trebuchet,Verdana,Sans-serif"> <Variable
+name="headerfont" description="Sidebar Title Font" type="font" default="normal bold
+78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable
+name="pagetitlefont" description="Blog Title Font" type="font" default="normal bold
+200% 'Trebuchet MS',Trebuchet,Verdana,Sans-serif"> <Variable name="descriptionfont"
+description="Blog Description Font" type="font" default="normal normal 78% 'Trebuchet
+MS', Trebuchet, Verdana, Sans-serif"> <Variable name="postfooterfont"
+description="Post Footer Font" type="font" default="normal normal 78% 'Trebuchet MS',
+Trebuchet, Arial, Verdana, Sans-serif"> <Variable name="startSide" description="Start
+side in blog language" type="automatic" default="left"> <Variable name="endSide"
+description="End side in blog language" type="automatic" default="right"> */ /* Use this
+with templates/template-twocol.html */ body { background:#000000; margin:0;
+color:#ffffff; font: x-small "Trebuchet MS", Trebuchet, Verdana, Sans-serif;
+font-size/* */:/**/small; font-size: /**/small; text-align: center; } a:link {
+color:#d5aad5; text-decoration:none; } a:visited { color:#aa77aa;
+text-decoration:none; } a:hover { color:#aadd99; text-decoration:underline; } a img {
+border-width:0; } /* Header ----------------------------------------------- */
+#header-wrapper { width:660px; margin:0 auto 10px; border:1px solid #333333; }
+#header-inner { background-position: center; margin-left: auto; margin-right: auto; }
+#header { margin: 5px; border: 1px solid #333333; text-align: center; color:#ffffff; }
+#header h1 { margin:5px 5px 0; padding:15px 20px .25em; line-height:1.2em;
+text-transform:uppercase; letter-spacing:.2em; font: normal normal 266% Trebuchet,
+Trebuchet MS, Arial, sans-serif; } #header a { color:#ffffff; text-decoration:none; }
+#header a:hover { color:#ffffff; } #header .description { margin:0 5px 5px; padding:0 20px
+15px; max-width:700px; text-transform:uppercase; letter-spacing:.2em; line-height:
+1.4em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Verdana, Sans-serif; color:
+#ffe5ff; } #header img { margin-left: auto; margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 660px;
+margin:0 auto; padding:10px; text-align:left; font: normal normal 99% Times, serif; }
+#main-wrapper { width: 410px; float: left; word-wrap: break-word; /* fix for long text
+breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE
+sidebar float */ } #sidebar-wrapper { width: 220px; float: right; word-wrap: break-word; /*
+fix for long text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text
+content breaking IE sidebar float */ } /* Headings
+----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+font:normal bold 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif; line-height:
+1.4em; text-transform:uppercase; letter-spacing:.2em; color:#bcd5aa; } /* Posts
+----------------------------------------------- */ h2.date-header { margin:1.5em 0
+.5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #333333;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#aadd99; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#aadd99;
+font-weight:bold; } .post h3 strong, .post h3 a:hover { color:#ffffff; } .post-body {
+margin:0 0 .75em; line-height:1.em; } .post-body blockquote { line-height:1.em; }
+.post-footer { margin: .75em 0; color:#bcd5aa; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; line-height: 1.4em; } .comment-link { margin-left:.6em; } .post img {
+padding:4px; border:1px solid #333333; } .post blockquote { margin:1em 20px; } .post
+blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #bcd5aa; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+.feed-links { clear: both; line-height: 2.5em; } #blog-pager-newer-link { float: left; }
+#blog-pager-older-link { float: right; } #blog-pager { text-align: center; } /* Sidebar
+Content ----------------------------------------------- */ .sidebar { color: #ffe5ff;
+line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; } .sidebar
+li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #333333; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #333333; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; color: #bcd5aa; font-weight: bold; line-height: 1.6em; } .profile-datablock
+{ margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:660px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0756925686079259728342\46blogName\75The+New+York+Times+Crossword+in+Gothic\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLACK\46layoutType\75LAYOUTS\46searchRoot\75http://donaldsweblog.blogspot.com/search\46blogLocale\75en_US\46v\0752\46homepageUrl\75http://donaldsweblog.blogspot.com/\46targetPostID\0754130459984016711711\46blogPostOrPageUrl\75http://donaldsweblog.blogspot.com/2012/08/aoxomoxoa-and-other-stuff.html\46vt\758019458801233354176',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Image:
+http://2.bp.blogspot.com/--veLKAsmsfQ/T-l-a18fr-I/AAAAAAAAhoA/3xv8hr-tfLo/s660/New%2BYork%2BTimes%2BCrossword%2Bin%2BGothic%2Bheader.jpg
+
+08.17.12 — Aoxomoxoa and Other Stuff
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/-kLs_epAYU00/UC3fwcyEm_I/AAAAAAAAiGo/OYtMuNEb9Uw/s320/aoxomoxoa+poster.jpg
+
+Friday, August 17 , 2012
+
+Puzzle by Peter Wentz / Edited by Will Shortz
+
+There's some tough stuff in this otherwise friendly Friday crossword.
+
+Across — 1. Modern mail?, FLAK JACKET ; 11. British RAJ; 14. It ends at 12, SENIOR HIGH ; 15.
+Main part, often, HERO ; 16. The Bay of Fundy has the largest one in the world, TIDAL RANGE ; 17.
+Judicial administration?, OATH ;18. Estadio call , OLE ; 19. Tall and thin, LANK ; 20.
+Complete, as a crossword, FILL IN ; 22. Like A through D, PASSING ; 24. Having a bad trip, maybe,
+CAR SICK ; 25. Examine carefully, VET ; 26. QB who threw a record-tying seven touchdown passes
+in a single game (1962), Y A TITTLE ; 27. W-2-figure, WAGES ; 30. Pitcher’s stat, SAVES ; 31.
+“ YER out!”; 32. Somalia’s locale in Africa, HORN ; 33. Compromise of 1877 figure, HAYES
+; 34. To-do, STIR ; 35. Split, in a way, AXE ; 36. Southern writer William Gilmore SIMMS ; 37.
+Split (up), DIVVY; 38. Fighting directly, TOE-TO-TOE ; 40. Nickname in classic jazz, DIZ ; 41.
+“The Bourne Identity” plot device, AMNESIA; 42 Makes sense of, DIGESTS; 46. Commercial
+miscellany, JOB LOT ; 47. Cartoonist WALT Kelly ; 48. Bug, TAP; 49. Director-type, EXEC ; 50.
+View from the Sydney Harbour Bridge, OPERA HOUSE ; 53. Hershey brand, ROLO; 54. What a drawer
+may hold, FELT-TIP PEN ; 55. Animal in a comic strip title, KAT; 56. Running too quickly?, FALSE
+START.
+
+
+
+Image:
+http://3.bp.blogspot.com/-D6MAn6kYbTE/UC3frqqhqhI/AAAAAAAAiGg/ql8wjgDu9sc/s200/Cho_Chang.jpg
+Down — 1. It controls the amount of light admitted, F STOP ; 2. “The Pearl Fishers”
+soprano, LEILA ; 3. Altiplano locale, ANDES ; 4. Soul producer, KIA ; 5. Kicks, JOLLIES ; 6.
+Downright, ARRANT ; 7. Cho CHANG, romantic interest for Harry Potter ; 8. Twist, KINK; 9. EGG
+-shaped; 10. Moirai, in Greek myth, THE FATES ; 11. “Big Brother,” for example, REALITY TV
+; 12. It includes provision for the admission of new states, ARTICLE IV; 13. “A stronger
+America” sloganeer, JOHN KERRY; 15. “The Planets” composer, HOLST ; 21. It controls
+the amount of light admitted, IRIS; 23. SVEN Kramer, 2010 Dutch speed-skating gold medalist ;
+24. Gives in under pressure, CAVES; 26. “Lookie what I did!”, YAY ME ; 27. “Can you
+BELIEVE that guy?!”, WHAT A JERK; 29. Grateful Dead album whose title reads the same forward
+and backward, AOXOMOXOA ; 29. Intermediate level in karate, GREEN BELT; 30. Navigator
+Islands, now, SAMOA ; 33. Clicked, HIT IT OFF ; 34. One criterion for sorting, SIZE; 36. Fair,
+SO-SO ; 37. “Dude, I got something to tell you …”, DIG THIS; 39. Verizon, e.g.., TELCO;
+40. Widen, DILATE; 42. Short-range missiles, DARTS ; 43. Buddhist shrine, STUPA ; 44. Big
+stinger, TASER ; 45. Dog-tired, SPENT; 47. “Now that you mention it …”, WELL; 51. Sugar
+PEA; 52. Vote (for), OPT.
+
+————————
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/-SQCJJdK2jc0/UC3fmPmwAEI/AAAAAAAAiGY/FvhpaFt02qM/s400/New+York+Times+Crossword+by+Peter+Wentz+edited+by+Will+Shortz+Friday+August+17+2012.jpg
+
+
+
+Click on image to enlarge.
+
+Puzzle available on the internet at THE NEW YORK TIMES — Crossword Puzzles and Games .
+
+
+
+Posted by DONALD
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+No comments:
+
+    
+
+
+
+Post a Comment Newer Post Older Post Home Subscribe to: Post Comments (Atom)
+
+LInk for this Blog (and today's post):
+
+The New York Times Crossword in Gothic
+
+
+
+You may not have reached today's post or the article you wish -- for the most recent post use the
+above link -- for all others, see Archives below.
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+For the puzzle in syndication appearing Tuesday, October 2, 2012, click on the following
+link:
+
+
+
+08.28.12 — Heaven and Hell
+
+
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+BLOG ARCHIVE
+
+    
+
+        - ▼  2012 (307)
+
+        - ►  October (2)
+
+        
+
+        
+
+        - ►  September (32)
+
+        
+
+        
+
+            - ▼  August (33)
+
+            - 08.31.12 — Extras
+
+            
+
+            - 08.30.12 — Eggs
+
+            
+
+            - 08.29.12 — Trading Post
+
+            
+
+            - 08.28.12 — Heaven and Hell
+
+            
+
+            - 08.27.12 — Lou and Company
+
+            
+
+            - 08.26.12 — Take in the State Fair — the Acrostic
+
+            
+
+            - 08.26.12 — Put a Lid in It
+
+            
+
+            - 08.25.12 — Title Character
+
+            
+
+            - 08.24.12 — The Friday Crossword
+
+            
+
+            - 08.23.12 — ×ž× ×� ,×ž× ×�, ×ª×§×œ,
+            ×•×€×š×¡×™×Ÿ
+
+            
+
+            - 08.22.12 — Sturm und Drang
+
+            
+
+            - 08.21.12 — PLunder the Sea, etc..
+
+            
+
+            - 08.20.12 — LUCK
+
+            
+
+            - 08.19.12 — OH, REALLY!
+
+            
+
+            - 08.18.12 — At Liberty
+
+            
+
+            - 08.17.12 — Aoxomoxoa and Other Stuff
+
+            
+
+            - 08.16.12 — Keys
+
+            
+
+            - 08.15.12 — Town Squares
+
+            
+
+            - 08.14.12 — Inner City
+
+            
+
+            - 08.13.12 — Makeup
+
+            
+
+            - 08.12.12 — The Naked Olympics — the Acrostic
+
+            
+
+            - 08.12.12 — The Meaning of IT
+
+            
+
+            - 08.11.12 — A Prominent Bust
+
+            
+
+            - 08.10.12 — The Friday Crossword
+
+            
+
+            - 08.09.12 — X's and O's
+
+            
+
+            - 08.08.12 — Ladder
+
+            
+
+            - 08.07.12 — Twitter
+
+            
+
+            - 08.06.12 — Olympics
+
+            
+
+            - 08.05.12 — Single-Minded
+
+            
+
+            - 08.04.12 — The Saturday Crossword
+
+            
+
+            - 08.03.12 — Tomfoolery
+
+            
+
+            - 08.02.12 — Duck, Duck, Goose
+
+            
+
+            - 08.01.12 — O K
+
+            
+
+        
+
+        
+
+        
+
+        - ►  July (35)
+
+        
+
+        
+
+        - ►  June (34)
+
+        
+
+        
+
+        - ►  May (35)
+
+        
+
+        
+
+        - ►  April (34)
+
+        
+
+        
+
+        - ►  March (36)
+
+        
+
+        
+
+        - ►  February (32)
+
+        
+
+        
+
+        - ►  January (34)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (407)
+
+        - ►  December (33)
+
+        
+
+        
+
+        - ►  November (32)
+
+        
+
+        
+
+        - ►  October (35)
+
+        
+
+        
+
+        - ►  September (32)
+
+        
+
+        
+
+        - ►  August (34)
+
+        
+
+        
+
+        - ►  July (35)
+
+        
+
+        
+
+        - ►  June (33)
+
+        
+
+        
+
+        - ►  May (35)
+
+        
+
+        
+
+        - ►  April (35)
+
+        
+
+        
+
+        - ►  March (35)
+
+        
+
+        
+
+        - ►  February (31)
+
+        
+
+        
+
+        - ►  January (37)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (424)
+
+        - ►  December (35)
+
+        
+
+        
+
+        - ►  November (35)
+
+        
+
+        
+
+        - ►  October (36)
+
+        
+
+        
+
+        - ►  September (35)
+
+        
+
+        
+
+        - ►  August (36)
+
+        
+
+        
+
+        - ►  July (36)
+
+        
+
+        
+
+        - ►  June (35)
+
+        
+
+        
+
+        - ►  May (36)
+
+        
+
+        
+
+        - ►  April (35)
+
+        
+
+        
+
+        - ►  March (35)
+
+        
+
+        
+
+        - ►  February (33)
+
+        
+
+        
+
+        - ►  January (37)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (419)
+
+        - ►  December (36)
+
+        
+
+        
+
+        - ►  November (34)
+
+        
+
+        
+
+        - ►  October (35)
+
+        
+
+        
+
+        - ►  September (35)
+
+        
+
+        
+
+        - ►  August (34)
+
+        
+
+        
+
+        - ►  July (36)
+
+        
+
+        
+
+        - ►  June (35)
+
+        
+
+        
+
+        - ►  May (37)
+
+        
+
+        
+
+        - ►  April (33)
+
+        
+
+        
+
+        - ►  March (36)
+
+        
+
+        
+
+        - ►  February (32)
+
+        
+
+        
+
+        - ►  January (36)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2008 (399)
+
+        - ►  December (34)
+
+        
+
+        
+
+        - ►  November (34)
+
+        
+
+        
+
+        - ►  October (34)
+
+        
+
+        
+
+        - ►  September (35)
+
+        
+
+        
+
+        - ►  August (34)
+
+        
+
+        
+
+        - ►  July (33)
+
+        
+
+        
+
+        - ►  June (32)
+
+        
+
+        
+
+        - ►  May (32)
+
+        
+
+        
+
+        - ►  April (31)
+
+        
+
+        
+
+        - ►  March (36)
+
+        
+
+        
+
+        - ►  February (31)
+
+        
+
+        
+
+        - ►  January (33)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2007 (327)
+
+        - ►  December (35)
+
+        
+
+        
+
+        - ►  November (32)
+
+        
+
+        
+
+        - ►  October (33)
+
+        
+
+        
+
+        - ►  September (34)
+
+        
+
+        
+
+        - ►  August (33)
+
+        
+
+        
+
+        - ►  July (33)
+
+        
+
+        
+
+        - ►  June (32)
+
+        
+
+        
+
+        - ►  May (35)
+
+        
+
+        
+
+        - ►  April (35)
+
+        
+
+        
+
+        - ►  March (25)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+DONALD
+
+
+
+    Image:
+    http://3.bp.blogspot.com/_WsE6M_RjBIY/SaTyzxNBycI/AAAAAAAAT_E/uo0PHKJnvbM/S220/lion.jpg
+
+        DONALD
+
+    
+
+        New York, New York, United States
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Crossword Links
+
+    
+
+    - THE NEW YORK TIMES -- Crossword Puzzles and Games
+
+    
+
+    - Wordplay -- the Crossword Blog of the NYT
+
+    
+
+    - The Further Adventures of Jim Horne
+
+    
+
+    - Patrick Merrell
+
+    
+
+    - XWord Info
+
+    
+
+    - Crossword Blogs by Elizabeth C. Gorski at Crossword Nation
+
+    
+
+    - Crossword Nation
+
+    
+
+    - Crossword City -- Elizabeth C. Gorski
+
+    
+
+    - Cruciverb.com
+
+    
+
+    - An Englishman Solves American Crosswords
+
+    
+
+    - Brendan Emmett Quigley
+
+    
+
+    - Rex Parker
+
+    
+
+    - American Crossword Puzzle Tournament 2012 & 2013
+
+    
+
+    - American Crossword Puzzle Tournament -- Crossword Links
+
+    
+
+    - Crosswords by Ray Hamel
+
+    
+
+    - Crossword Bebop
+
+    
+
+    - The New York Times Crossword In Gothic
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Will Shortz
+
+
+
+A Day with Will Shortz
+
+Ask?Will
+
+How Will Shortz Edits a Crossword Puzzle (The Atlantic)
+
+NPR Sunday Edition Puzzles
+
+Will Shortz interview
+
+Will Shortz on solving
+
+Will Shortz’s Favorites (Puzzle book)
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Fellowship of Gothic:
+
+    
+
+    - G. W. Brooks, Poet
+
+    
+
+    - MICHAELWRITES: Poet and Wordsmith
+
+    
+
+    - Robert Loy's "Green Genius"
+
+    
+
+    - Leon - BBQ, Beer and Books
+
+    
+
+    - rick b's "what in the cornbread hell?"
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+MACABRE LINKS
+
+    
+
+    - Rocking Chair Crossword
+
+    
+
+    - Death Clock
+
+    
+
+    - Dead or Alive?
+
+    
+
+    - Alice Solves The Puzzle (1925)
+
+    
+
+    - The Gashlycrumb Tinies
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+WORD LINKS
+
+    
+
+    - Click here for Reference Links
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+How to Solve the New York Times Crossword Puzzle
+
+
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Life is Shortz
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Copyright © by Donald
+L. Brooks, All Rights Reserved
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png  
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://s37.sitemeter.com/meter.asp?site=s37donald if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'6925686079259728342';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d6925686079259728342','//donaldsweblog.blogspot.com/2012/08/aoxomoxoa-and-other-stuff.html','6925686079259728342');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'6925686079259728342', 'bloggerUrl': 'http://www.blogger.com', 'title': 'The New York
+Times Crossword in Gothic', 'pageType': 'item', 'url':
+'http://donaldsweblog.blogspot.com/2012/08/aoxomoxoa-and-other-stuff.html',
+'canonicalUrl':
+'http://donaldsweblog.blogspot.com/2012/08/aoxomoxoa-and-other-stuff.html',
+'canonicalHomepageUrl': 'http://donaldsweblog.blogspot.com/', 'homepageUrl':
+'http://donaldsweblog.blogspot.com/', 'blogspotFaviconUrl':
+'http://donaldsweblog.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'08.17.12 &#8212; Aoxomoxoa and Other Stuff', 'pageTitle': 'The New York Times Crossword in
+Gothic: 08.17.12 &#8212; Aoxomoxoa and Other Stuff', 'encoding': 'UTF-8', 'locale':
+'en-US', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false,
+'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks':
+'\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42The New
+York Times Crossword in Gothic - Atom\42
+href\75\42http://donaldsweblog.blogspot.com/feeds/posts/default\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42The New York Times
+Crossword in Gothic - RSS\42
+href\75\42http://donaldsweblog.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42The New York Times Crossword in Gothic - Atom\42
+href\75\42http://www.blogger.com/feeds/6925686079259728342/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0756925686079259728342\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42The New York Times Crossword in Gothic - Atom\42
+href\75\42http://donaldsweblog.blogspot.com/feeds/4130459984016711711/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'postImageThumbnailUrl':
+'http://2.bp.blogspot.com/-kLs_epAYU00/UC3fwcyEm_I/AAAAAAAAiGo/OYtMuNEb9Uw/s72-c/aoxomoxoa+poster.jpg',
+'imageSrcTag': '\74link rel\75\42image_src\42
+href\75\42http://2.bp.blogspot.com/-kLs_epAYU00/UC3fwcyEm_I/AAAAAAAAiGo/OYtMuNEb9Uw/s72-c/aoxomoxoa+poster.jpg\42
+/\76\n', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#ffe5ff', 'linkcolor':
+'#d5aad5', 'visitedlinkcolor': '#aa77aa', 'textcolor': '#ffffff', 'headerfont':
+'normal bold 78% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif',
+'pagetitlefont': 'normal normal 266% Trebuchet, Trebuchet MS, Arial, sans-serif',
+'bgcolor': '#000000', 'descriptioncolor': '#ffe5ff', 'titlecolor': '#aadd99',
+'bordercolor': '#333333', 'postfooterfont': 'normal normal 78% \47Trebuchet MS\47,
+Trebuchet, Arial, Verdana, Sans-serif', 'pagetitlecolor': '#ffffff', 'bodyfont':
+'normal normal 99% Times, serif', 'endSide': 'right', 'startSide': 'left',
+'descriptionfont': 'normal normal 78% \47Trebuchet MS\47, Trebuchet, Verdana,
+Sans-serif', 'sidebarcolor': '#bcd5aa'}, 'override': ''}}, {'name': 'view', 'data':
+{'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name':
+'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'footer', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextView', new
+_WidgetInfo('Text5', 'sidebar', null, document.getElementById('Text5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextView', new
+_WidgetInfo('Text1', 'sidebar', null, document.getElementById('Text1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ProfileView', new
+_WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList1', 'sidebar', null, document.getElementById('LinkList1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextView', new
+_WidgetInfo('Text6', 'sidebar', null, document.getElementById('Text6'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList4', 'sidebar', null, document.getElementById('LinkList4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList3', 'sidebar', null, document.getElementById('LinkList3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList2', 'sidebar', null, document.getElementById('LinkList2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextView', new
+_WidgetInfo('Text7', 'sidebar', null, document.getElementById('Text7'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextView', new
+_WidgetInfo('Text2', 'sidebar', null, document.getElementById('Text2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextView', new
+_WidgetInfo('Text4', 'sidebar', null, document.getElementById('Text4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'),
+{'title': 'Pages', 'links': [{'href': 'http://donaldsweblog.blogspot.com/', 'title':
+'Home', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+

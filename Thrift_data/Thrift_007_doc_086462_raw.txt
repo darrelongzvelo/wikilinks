@@ -1,0 +1,1790 @@
+
+
+
+
+/* Copyright 2008 Google. */ (function() { var a=window,b="tick",c="start";var
+d=function(g){this.t={};this.tick=function(g,l,f){f=void 0!=f?f:(new
+Date).getTime();this.t[g]=[f,l]};this[b](c,null,g)},e=new
+d;a.jstiming={Timer:d,load:e};if(a.performance&&a.performance.timing){var
+h=a.performance.timing,i=a.jstiming.load,j=h.navigationStart,k=h.responseStart;0<j&&k>=j&&(i[b]("_wtsrt",void
+0,j),i[b]("wtsrt_","_wtsrt",k),i[b]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),i&&0<j&&(i[b]("_tbnd",void
+0,a.chrome.csi().startE),i[b]("tbnd_","_tbnd",j)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,i&&0<j&&(i[b]("_tbnd",void
+0,a.external.startE),i[b]("tbnd_","_tbnd",j)));m&&(a.jstiming.pt=m)}catch(n){};
+})() /* Copyright 2008 Google. */ (function() { var
+d=window,e="length",h="",i="__duration__",j="function";function k(c){return
+document.getElementById(c)}d.byId=k;function l(c){return
+c.replace(/^\s+|\s+$/g,h)}d.trim=l;var
+m=[],n=0;d.JOT_addListener=function(c,a,b){var f=new
+String(n++),c={eventName:c,handler:a,compId:b,key:f};m.push(c);return
+f};d.JOT_removeListenerByKey=function(c){for(var
+a=0;a<m[e];a++)if(m[a].key==c){m.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var
+a=0;a<m[e];a++)m[a].eventName==c&&m.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var
+f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded){a=m[e];for(b=0;b<a&&b<m[e];b++){var
+g=m[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof
+g.handler==j?g.handler:d[g.handler])&&g(f))}}else
+d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new
+Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var
+f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return
+a?d.JOT_siteRelTimeStrs[f].replace(i,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(i,Math.floor(b))};
+})() var webspace =
+{"scottyUrl":"/_/upload","isConsumer":true,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED","analyticsAccountId":"UA-24262485-1","baseUri":"","name":"bradfordlabourers","domain":"defaultdomain","features":{"scottyForTrogImageUpload":false,"pdfEmbedSupport":false,"docosCommenting":true,"useStandardEmbedsInSidebar":false,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"plusOneButtonOptions":true,"siteChromeSystemFooterDialog":true,"plusOneButton":true,"spreadsheetsEmbedLoadRedirect":true,"colorsAndFontsRefactor":false,"ieSevenUnsupportedError":false,"manageRedirects":false,"photoAlbumsInOnePick":true,"siteChromeInPlaceEditingProdLaunchPromo":true,"autoCompleteSearch":false,"goocitiesTheme":false,"editorKeyboardShortcuts":true,"experimental":{"displayEditorLockExceptions":false},"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"dataPropsForEmbeds":true,"autoAdjustSitemapSearchDepth":true,"userContentMetaTags":true,"htmlEmbed":true,"keyboardShortcuts":true,"siteChromeHeaderDialog":true,"stBtiWebspaceTitleSearch":true,"pageRedirects":false,"siteChromeCustomFooterDialog":true},"adsensePublisherId":null,"gvizVersion":1,"siteTitle":"Bradford
+Labourers","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://www.google.com/sites/help/intl/en/terms.html","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isGoocities":false,"isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"enableAutoComplete":true,"isStartPageEnabled":false,"domainAnalyticsAccountId":""};
+webspace.gadgets =
+{"isGadgetDirectoryEnabled":true,"baseUri":"/system/app/pages/gadgets","isGgsRenderingEnabled":true};
+webspace.user =
+{"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+webspace.page =
+{"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:3b985eaae74aeac2","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:7f0e98b4e822aacc","revision":5,"title":"About
+Bradford","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en_GB","name":"about-bradford","path":"/local/about-bradford","openMoreActionMenu":null,"isSiteRtlLocale":false,"parentPath":"/local"};
+webspace.page.breadcrumbs =
+[{"title":"Local...","dir":"ltr","path":"/local","deleted":false},{"title":"About
+Bradford","dir":"ltr","path":"/local/about-bradford","deleted":false}];
+webspace.editorResources = { text: [
+'http://www.gstatic.com/sites/p/e2b29f/system/js/codemirror.js',
+'http://www.gstatic.com/sites/p/e2b29f/system/app/css/codemirror_css.css',
+'http://www.gstatic.com/sites/p/e2b29f/system/js/trog_edit__en.js',
+'http://www.gstatic.com/sites/p/e2b29f/system/app/css/trogedit.css',
+'/_/rsrc/1348697308000/system/app/css/editor.css',
+'http://www.gstatic.com/sites/p/e2b29f/system/app/css/codeeditor.css',
+'/_/rsrc/1348697308000/system/app/css/camelot/editor-jfk.css' ], sitelayout: [
+'http://www.gstatic.com/sites/p/e2b29f/system/app/css/sitelayouteditor.css' ] };
+var JOT_clearDotPath =
+'http://www.gstatic.com/sites/p/e2b29f/system/app/images/cleardot.gif'; var
+JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour
+ago","__duration__ hours ago"]; webspace.siteTemplateId = false;
+webspace.page.currentTemplate = {"title":"Web
+Page","path":"/system/app/pagetemplates/text"}; var JOT_siteRelTimeStrs = ["a minute
+ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+window.jstiming.load.tick('scl'); About Bradford - Bradford Labourers
+window.jstiming.load.tick('cl');
+
+
+
+
+
+Image: /_/rsrc/1307577514244/config/customLogo.gif?revision=2 Bradford Labourers
+
+    Search this site
+
+    - About Us
+
+    
+
+    - Services We Offer... ...for Homeowners ...for Landlords ...for Tradesmen ...for
+    Contractors
+
+    
+
+    - What Jobs We Do Excavations Landscaping Building Gutting Felling Tree Stump Removal
+    Lath & Plaster Removal Chimney Breast Removal Wallpaper Stripping Painting Carpet
+    Removal Clearances ...for Homeowners ...for Tradesmen ...for Contractors
+
+    
+
+    - Man With A Van Services Partner With Us
+
+    
+
+    - Cleaning Services Partner With Us
+
+    
+
+    - Handymen Services Our Customers Who Are They? Partner With Us
+
+    
+
+    - Removals Services Moving Home Partner With Us
+
+    
+
+    - Areas We Cover
+
+    
+
+    - Gallery Photographs Videos Before & After
+
+    
+
+    - Testimonials
+
+    
+
+    - Skip Hire Local Skip Hire Sizes Roll On Roll Off Containers FAQs
+
+    
+
+    - Guide to... Moving Home Skip Hire Planning Permission Having Work Done
+
+    
+
+    - How to find us... Map Directions
+
+    
+
+    - Local... About Bradford News Weather Local Skip Hire Waste Management Tradesmen
+    Contractors
+
+    
+
+    - Recruitment
+
+    
+
+    - Coming Soon...
+
+    
+
+    - Environmental Policy
+
+    
+
+    - Useful Links Social Media
+
+    
+
+    - Contact Us Social Media
+
+    
+
+    - Legal Disclaimer Privacy Policy Terms of Use
+
+    
+
+Local... â€Ž > â€Ž
+
+About Bradford
+
+
+
+From Wikipedia, the free encyclopedia
+
+
+
+
+
+Coordinates :Â 
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/5/55/WMA_button2b.png/17px-WMA_button2b.png
+53.8000Â°N 1.75206Â°W Bradford
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bradford_Town_Hall.jpg/250px-Bradford_Town_Hall.jpg
+
+Bradford City Hall
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/West_Yorkshire_UK_location_map.svg/240px-West_Yorkshire_UK_location_map.svg.png
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/6px-Red_pog.svg.png
+Bradford
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Red_pog.svg/6px-Red_pog.svg.png
+Â Bradford shown withinÂ  West Yorkshire Area Â  24.85Â sqÂ mi (64.4Â km 2 )
+Population 293,717Â  [ 1 ] Â Â Â Â -Â  Density Â  8,981 /sqÂ mi (3,468
+Â /km 2 ) OSÂ gridÂ reference SE163329 Â Â Â Â -Â  London
+Â 174Â mi (280Â km)Â  S Â  MetropolitanÂ borough City of Bradford
+MetropolitanÂ county West Yorkshire Region Yorkshire and the Humber Country England
+SovereignÂ state United Kingdom Post town BRADFORD PostcodeÂ district BD1-BD15
+DiallingÂ code 01274 Police West Yorkshire Fire West Yorkshire Ambulance Yorkshire
+EUÂ Parliament Yorkshire and the Humber UKÂ Parliament Bradford North Bradford West
+Bradford South List of places:Â  UK Â â€¢Â  England Â â€¢Â  Yorkshire
+
+Bradford Â (pronouncedÂ  /ËˆbrÃŠdfÉ™d/ Â (
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Speaker_Icon.svg/13px-Speaker_Icon.svg.png
+Â  listen ) ) lies at the heart of theÂ  City of Bradford , aÂ  metropolitan borough
+Â ofÂ  West Yorkshire , inÂ  Northern England . It is situated in the foothills of
+theÂ  Pennines , 8.6Â miles (13.8Â km) west ofÂ  Leeds , and 16Â miles
+(25.7Â km) northwest ofÂ  Wakefield . Bradford became aÂ  municipal borough Â in
+1847, and received its charter as a city in 1897. FollowingÂ  local government reform
+Â in 1974,Â  city status Â was bestowed upon theÂ  wider metropolitan borough .
+
+Bradford has a population of 293,717, [ 1 ] Â making it theÂ  fourteenth-most populous
+Â settlement in the UK. Bradford forms part of theÂ  West Yorkshire Urban Area
+Â conurbation which in 2001 had a population of 1.5 million [ 2 ] Â and is part of the
+Leeds-Bradford Larger Urban Zone (LUZ), the third largest in the UK after London and
+Manchester, with an estimated population in the 2004Â  Urban Audit Â of 2.4 million. [ 3 ]
+
+Historically Â a part of theÂ  West Riding of Yorkshire , Bradford rose to prominence
+during the 19th century as an international centre ofÂ  textile manufacture ,
+particularlyÂ  wool . It was aÂ  boomtown Â of theÂ  Industrial Revolution , and
+amongst the earliestÂ  industrialised Â settlements, rapidly becoming the "wool
+capital of the world". [ 4 ] Â The area's access to a supply of coal, iron ore and soft water
+facilitated the growth of Bradford's manufacturing base, which, as textile manufacture
+grew, led to an explosion in population and was a stimulus to civic investment; Bradford has
+fineÂ  Victorian architecture Â including the grand ItalianateÂ  City Hall .
+
+The textile sector in Bradford fell into a terminal decline from the mid-20th century. Since
+this time, Bradford has emerged as a tourist destination with attractions such as theÂ 
+National Media Museum Â andÂ  Cartwright Hall . However, Bradford has faced similar
+challenges to the rest of theÂ  post-industrial area ofÂ  Northern England ,
+includingÂ  deindustrialisation , housing problems, social unrest and economic
+deprivation.
+
+Since the 1950s Bradford has experienced significant levels of immigration, particularly
+fromÂ  Mirpur, Pakistan . Bradford has the second highest proportion ofÂ  Muslims
+Â inÂ  England and Wales Â outside London. An estimated 101,967 people ofÂ  Asian
+Â origin reside in the city, [ 5 ] Â representing around 20.5% of the city's population,
+with this figure projected to rise to 28% by 2011. [ 6 ] Â Bradford is often cited as one of the
+prime examples of 'parallel communities', where the population is effectively segregated
+along ethnic, cultural and faith lines. [ 7 ]
+
+Contents
+
+    Â  [ hide ]
+
+    - 1 Â  Etymology
+
+    
+
+        - 2 Â  History
+
+        - 2.1 Â  Early history
+
+        
+
+        - 2.2 Â  19th century and the Industrial Revolution
+
+        
+
+        - 2.3 Â  Recent history
+
+        
+
+    
+
+    
+
+    - 3 Â  Government
+
+    
+
+        - 4 Â  Geography
+
+        - 4.1 Â  Climate
+
+        
+
+    
+
+    
+
+        - 5 Â  Demographics
+
+        - 5.1 Â  Ethnicity
+
+        
+
+        - 5.2 Â  Religion
+
+        
+
+    
+
+    
+
+    - 6 Â  UNESCO City of Film
+
+    
+
+    - 7 Â  Economy
+
+    
+
+        - 8 Â  Landmarks
+
+        - 8.1 Â  Memorials
+
+        
+
+    
+
+    
+
+    - 9 Â  Transport
+
+    
+
+    - 10 Â  Education
+
+    
+
+    - 11 Â  Culture and recreation
+
+    
+
+    - 12 Â  Museums and art galleries
+
+    
+
+    - 13 Â  Sport
+
+    
+
+    - 14 Â  Religion
+
+    
+
+    - 15 Â  City of Sanctuary
+
+    
+
+    - 16 Â  Public services
+
+    
+
+    - 17 Â  Carnivals and festivals
+
+    
+
+        - 18 Â  Crime
+
+        - 18.1 Â  Manningham Riots
+
+        
+
+        - 18.2 Â  Bradford Riots
+
+        
+
+    
+
+    
+
+    - 19 Â  Notable Bradfordians
+
+    
+
+    - 20 Â  In popular culture
+
+    
+
+    - 21 Â  International relations
+
+    
+
+    - 22 Â  See also
+
+    
+
+    - 23 Â  References
+
+    
+
+    - 24 Â  Further reading
+
+    
+
+    - 25 Â  External links
+
+    
+
+
+
+Etymology
+
+
+
+The name Bradford is derived from the "broadÂ  ford " at Church Bank (below the site ofÂ 
+Bradford Cathedral ) around which a settlement had begun to appear before the time of theÂ 
+Norman Conquest ("Bradeford" in theÂ  Domesday book Â of 1086). The ford crossed the
+stream calledÂ  Bradford Beck .
+
+History
+
+
+
+Early history
+
+
+
+Bradford was first settled inÂ  Saxon Â times and by theÂ  middle ages , had become a
+small town centred on Kirkgate, Westgate and Ivegate. [ 8 ] Â Destroyed after an uprising in
+1070 against theÂ  Norman conquest . [ 9 ] Â Bradford grew slowly over the next
+two-hundred years as theÂ  woollen trade Â gained in prominence. TheÂ  Civil War
+Â caused a decline in the industry but with the accession ofÂ  William and Mary in 1689
+prosperity began to return. [ 8 ] Â The launch of manufacturing in the early 18th century
+marked the start of the town's development while newÂ  canal Â andÂ  turnpike road
+Â links encouraged trade.
+
+19th century and the Industrial Revolution
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Creighton_bradford_1835.jpg/220px-Creighton_bradford_1835.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png
+Bradford Boundaries 1835.
+
+At the turn of the 19th century, Bradford was a small ruralÂ  market town Â of 16,000
+people, where wool spinning and cloth weaving was carried out in local cottages and farms.
+TheÂ  Industrial Revolution Â led to rapid growth, with wool imported in vast
+quantities for the manufacture ofÂ  worsted Â cloth in which Bradford specialised, and
+the town soon became known as the wool capital of the world. [ 10 ] Â Yorkshire had plentiful
+supplies ofÂ  soft water , which was needed in the cleaning of raw wool, and locally mined
+coal provided the power that the industry needed. LocalÂ  sandstone Â was an excellent
+resource for the building of the mills, and with a population of 182,000 by 1850, [ 11 ] Â the
+town grew rapidly as workers were attracted by jobs in the textile mills. [ 10 ] Â Such
+unprecedented growth did create problems, however. With over 200 factory chimneys
+continually churning out black, sulphurous smoke, Bradford gained the reputation of being
+the most polluted town in England. There were frequent outbreaks of cholera and typhoid, and
+only 30% of children born to textile workers reached the age of fifteen. Life expectancy, of
+just over eighteen years, was one of the lowest in the country. [ 12 ]
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Listermillsbradford.jpg/220px-Listermillsbradford.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png
+Lister's Mill
+
+To support the textileÂ  mills , a large manufacturing base grew up in the town providing
+textile machinery, and this led to diversification with different industries thriving side
+by side. [ 10 ] Â Bradford's manufacturing history includes theÂ  Jowett Â Motor
+Company, which had many great achievements during its 50 years of existence. [ 13 ]
+
+Recent history
+
+
+
+The textile industry began to fall into terminal decline in the 20th century. A culture of
+innovation had been fundamental to Bradford's dominance, with new textile technologies
+being invented in the city; a prime example being the work ofÂ  Samuel Lister . This
+innovation culture continues today throughout Bradford's economy, from automotive (Kahn
+Design) [ 14 ] Â to electronics ( Pace Micro Technology ).Â  Wm Morrison Supermarkets
+Â was founded byÂ  William Morrison Â in 1899, initially as an egg and butter merchant
+in Rawson Market, operating under the name ofÂ  Wm Morrison (Provisions) Limited . [ 15 ]
+
+The grandest of the mills (no longer used for textile production) isÂ  Lister's Mill , the
+chimney of which can be seen from most places in Bradford. It has recently become a beacon of
+regeneration in the city after a Â£100Â million conversion to apartment blocks by
+property developersÂ  Urban Splash . [ 16 ]
+
+By 2001 Bradford had the second largest population of Asians of any UK city, with
+approximately 68,000Â  Pakistanis , 12,500Â  Indians , 5,000Â  Bangladeshis
+Â and 3,000 other Asians. However, the majority of people in the city are white (Ethnicity:
+78.3% White, and 18.9% S.Asian). In January 1989, copies ofÂ  Salman Rushdie 'sÂ  The
+Satanic Verses Â were publicly burnt in Bradford, and the city'sÂ  Muslim
+Â community took the lead in the campaign against the book in the UK. In July 2001, ethnic
+tensions led to seriousÂ  rioting in Bradford , leading to a report describing Bradford as
+fragmented [ 17 ] Â and as a city of segregated ethnic communities. [ 18 ] Â Bradford has
+suffered from deep-rooted de-industrialisation, and has some of the poorest levels of
+social deprivation in the UK, [ 19 ] Â with widespread pockets of exclusion and rates of
+unemployment in some wards exceeding 25%. [ 17 ]
+
+Government
+
+See also:Â  City of Bradford
+
+Bradford is represented by three MPs: for the constituencies ofÂ  Bradford East Â (
+David Ward , Liberal Democrat),Â  Bradford South Â ( Gerry Sutcliffe , Labour), andÂ 
+Bradford West Â ( Marsha Singh , Labour). Bradford is within theÂ  Yorkshire and the
+Humber Â European constituency, which is represented by twoÂ  Conservative , oneÂ 
+Labour , oneÂ  UKIP , oneÂ  Liberal Democrat Â and oneÂ  BNP Â  MEPs . The voting
+figures for Bradford in theÂ  European Parliament election Â in June 2009 were:
+Conservative 24.7%, Labour 22.6%, UKIP 14.9%, Lib Dem 13.4%, BNP 9.4%,Â  Green Â 8.8%. [
+20 ]
+
+The city played an important part in the early history of theÂ  Labour Party . A mural on the
+back of the Priestley Centre For The Arts (visible from Leeds Road) commemorates the
+centenary of the founding of theÂ  Independent Labour Party Â in 1893. [ 21 ]
+
+Geography
+
+
+
+Bradford is located atÂ 
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/5/55/WMA_button2b.png/17px-WMA_button2b.png
+53Â°45â€²00â€³N Â  01Â°50â€²00â€³W Â (53.7500, -1.8333) 1 .
+Topographically, it is located in the eastern part of the moorland region called theÂ 
+South Pennines .
+
+
+
+Unusually for a major city, Bradford is not built on any substantial body of water. TheÂ 
+ford Â from which it takes its name (Broad-Ford) was a crossing of the stream called
+Bradford Beck. The beck rises in the Pennine hills to the west of the city, and is swelled by
+tributaries such as Horton Beck, Westbrook, Bowling Beck and Eastbrook. At the site of the
+originalÂ  ford , just below the presentÂ  Bradford Cathedral , it turns north, and flows
+more or less straight towards theÂ  River Aire Â atÂ  Shipley . Bradfordale (or
+Bradforddale) is a name given by geographers to the valley of Bradford Beck (see for example
+Firth 1997 [2] ). It can reasonably be regarded as one of theÂ  Yorkshire Dales , though as the
+site of a big city, it is often not recognised as such.
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Barges_in_the_Leeds_and_Liverpool_Canal%2C_Bingley_%286th_November_2010%29.jpg/220px-Barges_in_the_Leeds_and_Liverpool_Canal%2C_Bingley_%286th_November_2010%29.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png Leeds
+and Liverpool Canal Â ( Bingley )
+
+The beck's course through the city centre is entirely underground, and was mostly so by the
+middle of the 19th century. On the 1852Â  Ordnance Survey Â map of Bradford [3] Â it is
+visible as far as Sun Bridge, at the end of Tyrrell Street, and then again from beside theÂ 
+railway station Â at the bottom of Kirkgate. On the 1906 Ordnance Survey, [4] Â it
+disappears at Tumbling Hill Street, off Thornton Road, and first appears again north of Cape
+Street, off Valley Road, though there are further culverts as far as Queens Road. This is
+substantially the position today.
+
+TheÂ  Bradford Canal , built in 1774, took its water from Bradford Beck and its tributaries.
+This supply was often inadequate to feed the locks, and the polluted state of the canal led to
+its temporary closure in 1866: the canal was closed in the early 20th century as uneconomic.
+'The Channel' is another facet of the Alsop plan, envisaging the creation of a new canal-side
+community through its reopening. Destinations from Bradford
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/8/8b/Compass_rose_pale-50x50.png
+The Yorkshire Dales ,Â  Skipton ,Â  Keighley ,Â  Bingley , Cottingley ,Â  Heaton The
+Yorkshire Dales ,Â  Ilkley ,Â  Otley ,Â  Guiseley , Baildon ,Â  Shipley ,Â 
+Saltaire York ,Â  Wetherby ,Â  Harrogate ,Â  Leeds Bradford Airport ,Â  Greengates
+,Â  Eccleshill
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/8/8b/Compass_rose_pale-50x50.png
+University of Bradford ,Â  Thornton ,Â  Denholme , Oxenhope ,Â  Haworth ,Â  Hebden
+Bridge , Todmorden ,Â  Burnley
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/4/44/North.svg/17px-North.svg.png
+Thornbury ,Â  Pudsey ,Â  Leeds ,Â  Selby
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/West.svg/17px-West.svg.png
+Â Â Â  Bradford Â Â Â Â 
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Boxed_East_arrow.svg/17px-Boxed_East_arrow.svg.png
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/South.svg/17px-South.svg.png
+Wibsey ,Â  Buttershaw ,Â  Clayton ,Â  Queensbury , Halifax ,Â  Rochdale ,Â 
+Oldham ,Â  Manchester Wyke ,Â  Oakenshaw ,Â  Bailiff Bridge ,Â  Cleckheaton ,
+Brighouse ,Â  Huddersfield ,Â  Holmfirth East Bowling ,Â  Tong ,Â  Morley ,Â 
+Batley ,Â  Dewsbury , Ossett ,Â  Wakefield
+
+Climate
+
+
+
+As with the rest of the UK, Bradford benefits from aÂ  maritime climate , with limited
+seasonal temperature ranges, and generally moderate rainfall throughout the year.
+
+The absolute maximum temperature recorded wasÂ  32.2 Â°C Â  (90.0Â Â°F) Â in
+August 1990. [ 22 ] Â In an 'average' year, the warmest day should attain a temperature
+ofÂ  27.2 Â°C Â  (81.0Â Â°F) , [ 23 ] Â with a total of 6 days [ 24 ] Â rising to a
+maximum ofÂ  25.1 Â°C Â  (77.2Â Â°F) Â or above.
+
+The absolute minimum temperature recorded wasÂ  âˆ’13.9 Â°C Â  (7Â Â°F)
+Â during February 1947. The weather station's elevated suburban location means notably
+low temperatures are unknown. Typically, 42.8 nights of the year will record an air frost.
+
+Rainfall averages 870mm per year with over 1mm falling on 139 daysÂ  [ 25 ]
+
+Sunshine, at little in excess of 1200 hours per year is low, as one would expect of an inland
+location in Northern England located amongst upland areas. [ hide ] Climate data for
+Bradford, elevation 134m,1971-2000, extremes 1947- Month Jan Feb Mar Apr May Jun Jul Aug Sep
+Oct Nov Dec Year Record high Â°C (Â°F) 14.6
+
+(58.3) 16.7
+
+(62.1) 21.7
+
+(71.1) 23.9
+
+(75) 25.6
+
+(78.1) 29.3
+
+(84.7) 30.5
+
+(86.9) 32.2
+
+(90) 26.1
+
+(79) 23.3
+
+(73.9) 17.1
+
+(62.8) 15.0
+
+(59) 32.2
+
+(90) Average high Â°C (Â°F) 6.1
+
+(43) 6.3
+
+(43.3) 8.7
+
+(47.7) 11.0
+
+(51.8) 14.8
+
+(58.6) 17.3
+
+(63.1) 19.7
+
+(67.5) 19.4
+
+(66.9) 16.4
+
+(61.5) 12.8
+
+(55) 8.9
+
+(48) 7.0
+
+(44.6) 12.37
+
+(54.26) Average low Â°C (Â°F) 1.1
+
+(34) 1.2
+
+(34.2) 2.6
+
+(36.7) 3.9
+
+(39) 6.5
+
+(43.7) 9.4
+
+(48.9) 11.7
+
+(53.1) 11.5
+
+(52.7) 9.4
+
+(48.9) 6.5
+
+(43.7) 3.5
+
+(38.3) 2.0
+
+(35.6) 5.78
+
+(42.4) Record low Â°C (Â°F) âˆ’11.1
+
+(12) âˆ’13.9
+
+(7) âˆ’8.3
+
+(17.1) âˆ’5.8
+
+(21.6) âˆ’3.0
+
+(27) 0.6
+
+(33.1) 5.0
+
+(41) 3.9
+
+(39) 0.3
+
+(32.5) âˆ’4.1
+
+(24.6) âˆ’7.0
+
+(19) âˆ’13.1
+
+(8.4) âˆ’13.9
+
+(7) Precipitation Â mm (inches) 93.10
+
+(3.6654) 68.26
+
+(2.6874) 71.80
+
+(2.8268) 62.41
+
+(2.4571) 57.15
+
+(2.25) 67.01
+
+(2.6382) 49.61
+
+(1.9531) 65.33
+
+(2.572) 70.87
+
+(2.7902) 80.57
+
+(3.172) 83.39
+
+(3.2831) 98.35
+
+(3.872) 867.85
+
+(34.1673) Sunshine hours 36.77 56.04 89.55 122.27 163.14 154.20 165.87 156.43 115.75 84.15
+54.53 29.41 1,228.11 Source: Calculated from Met Office Long term data [ 26 ]
+
+Demographics
+
+
+
+As of theÂ  2001 UK census , Bradford had a population of 293,277. [ 27 ] Â There were
+106,680Â  households Â in Bradford, and theÂ  population density Â was 4,560
+inhabitants per square kilometre (11,820/sq mi). For every 100 females, there were 92.9
+males. [ 27 ] Â Bradford has the youngest, fastest growing population outside London. [ 28 ]
+
+Ethnicity
+
+
+
+The census showed that 69.3% of Bradford's population wasÂ  White , 1.9%Â  Mixed Race ,
+26.1%Â  Asian , 1.3%Â  Black Â and 1.4% from other races. 22.1% of the population are
+ofÂ  British Asian Â origin, the highest percentage of South Asians in a single
+settlement inÂ  England and Wales Â except in theÂ  London Borough of Tower Hamlets .
+Nearly half of all Asians living inÂ  Yorkshire and the Humber Â live in Bradford, with
+the central wards ofÂ  Bradford Moor ,Â  City ,Â  Little Horton ,Â  Manningham
+Â andÂ  Toller Â each having large majority Asian populations. [ 29 ] Â It is
+forecast that a combination of growing population movement, large-scale immigration and
+the phenomenon ofÂ  white flight Â will mean that no race will hold a demographic
+majority in Bradford by 2016. [ 30 ]
+
+Religion
+
+
+
+Bradford has a largeÂ  Muslim Â population, with 16.08% of the wider city identifying
+themselves asÂ  Muslim Â in the 2001 census. [ 31 ] Â 60.14% identified themselves
+asÂ  Christians , 1.02%Â  Sikhs Â and 0.95% Hindus . 13.3% identified themselves as
+having no religion and 8.1% did not state a religious affiliation. The percentage ofÂ  Jews
+,Â  Buddhists Â and those following other religions each amounted to fewer than 0.5% of
+the city's population. [ 31 ]
+
+The ONS Regional Trends report, published in June 2009, showed that most of Bradford suffers
+from the highest levels of deprivation in the country. [ 32 ] [ 33 ] Â Infant mortality stands
+at double the national average, [ 34 ] Â and life expectancy is slightly lower than in other
+parts of theÂ  district . [ 35 ]
+
+UNESCO City of Film
+
+
+
+In June 2009 Bradford was announced as the worldâ€™s firstÂ  UNESCO Â City of
+Film.Â  UNESCO , the United Nations' cultural arm, said it was awarding Bradford the title
+on the basis of its historic links to the production Â and distribution of films, its media
+and film museum and its "cinematographic legacy".
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nationalmediamuseum_02dec2006.jpg/220px-Nationalmediamuseum_02dec2006.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png
+TheÂ  National Media Museum , Bradford
+
+Bradford is also known for its various film festivals hosted by the National Media Museum.
+These includeÂ  The Bradford International Film Festival Â in March, which since it
+began in 1995, has continued to be one of the outstanding events in the UKâ€™s film
+calendar.
+
+"Becoming the world's first City of Film is the ultimate celebration of Bradford's
+established and dynamic history in film and media," said Colin Philpott, director of
+Bradford's highly regardedÂ  National Media Museum . "With theÂ  UNESCO Â City of
+Film designation, Bradford will now go on to achieve inspirational projects in film." [ 36 ]
+
+The city has a rich heritage inÂ  film Â production and many films andÂ  TV
+Â productions have been filmed in the city includingÂ  Room at the Top ,Â  Billy Liar
+Â and The Red Riding Â Trilogy. [ 37 ]
+
+Bradford has also been the location for the filmsÂ  Yanks , starringÂ  Richard Gere ,
+andÂ  The Railway Children , a 1970s classic about the tribulations ofÂ  Victorian
+children whose father goes missing.Â  Monty Python 's ground-breakingÂ  The Meaning of
+Life Â and the controversial hitÂ  Rita, Sue and Bob Too , about a married man who cannot
+choose between two teenage lovers, were also filmed in the city.
+
+In recent years Bradford has developed a close relationship withÂ  Bollywood Â too,
+hosting theÂ  International Indian Film Festival Â awards in 2007.
+
+Simon Beaufoy , the Oscar-winning screenwriter ofÂ  Slumdog Millionaire Â who
+originally hails from Bradford, said the city had played a crucial role in the story ofÂ 
+cinema Â and deserved to be recognised. [ 36 ]
+
+Economy
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Thomas_Cook%2C_Bradford.jpg/220px-Thomas_Cook%2C_Bradford.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png Thomas
+Cook Â Tour Operators Head Office, Godwin Street.
+
+The economy of Bradford is worth around Â£7 billion, contributing around 8.4% of the
+region's output, and making the district the third largest after Leeds and Sheffield in
+Yorkshire & Humber.
+
+Bradford's traditional textile industry has been in decline for many years. However,
+Bradford's economy has diversified and the city is now home to several major companies,
+notably in Finance ( Yorkshire Building Society ,Â  Provident Financial ), Electronics (
+Pace Micro , Filtronic), Engineering (NG Bailey, Powell Switchgear), Manufacturing (Denso
+Marston, BASF, Bailey Offsite). [ 38 ] Â Supermarket chainÂ  Morrisons Â has its head
+office in the Hilmore House in Bradford. [ 39 ]
+
+One of the cities biggest employers isÂ  Provident Financial plc , a financial services
+group that specialises inÂ  Home Collected Credit (HCC) Â and also owns Vanquis
+Â which offersÂ  credit cards . It is listed on theÂ  London Stock Exchange Â and is a
+constituent of theÂ  FTSE 250 Index . The Company was established in Bradford in 1880 by
+Joshua Kelley Waddilove to provide affordable credit to families inÂ  West Yorkshire . [ 40
+] Â The Company has recently moved into a new 250,000 sq ft, Â£45 million flagshipÂ 
+headquarters Â building in the city centre on the corner of Godwin Street and Thornton
+Road, creating hundreds of jobs for the city. The new buildingâ€™s structure, also
+houses a 200-bedÂ  Juryâ€™s Hotel . [ 40 ]
+
+Thomas Cook Â also has its Tour Operators Head Office, which employs about 1000 staff in the
+City.
+
+Landmarks
+
+See also:Â  List of Grade I listed buildings in City of Bradford
+
+Bradford's oldest building is theÂ  cathedral , which for most of its life was a parish
+church. Few otherÂ  Medieval Â buildings have survived apart fromÂ  Bolling Hall ,
+which has been preserved as a museum.
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Woolexchange.jpg/220px-Woolexchange.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png
+TheÂ  Wool Exchange, Bradford
+
+There are some fineÂ  Victorian buildings : apart from the abundance of mills, there is
+theÂ  City Hall Â (with statues of rulers of England unusually includingÂ  Oliver
+Cromwell ), the formerÂ  Wool Exchange , and a large Victorian cemetery at
+Undercliffe.Â  Little Germany Â is a splendid Victorian commercial district just east
+of the city centre which takes its name from 19th century immigrants who ran businesses from
+some of the manyÂ  listed buildings . Following decades of decay there have been successful
+conversions to office and residential use. In mid-2005 renovation began on the prominent
+Eastbrook Hall in Little Germany. Bradford also has a number ofÂ  architecturally
+Â historic hotels that date back to the establishment of the two railway lines into the city
+centre, back inÂ  Victorian times. The Victoria Hotel and theÂ  Midland Hotel Â were
+built to accommodate business travellers to the city during the height of the woollen trade.
+
+Like many cities, Bradford lost a number of notable buildings toÂ  developers Â in the
+1960s and 1970s: particularly mourned at the time were theÂ  Swan Arcade and the old
+Kirkgate Market. In recent years some buildings from that era have themselves been
+demolished and replaced: Provincial House, next to Centenary Square, was demolished by
+controlled explosion in 2002, [ 41 ] Â and Forster House was pulled down in 2005 as part of
+theÂ  Broadway development .
+
+Bradford's main art gallery is housed in the grand EdwardianÂ  Cartwright Hall Â inÂ 
+Lister Park . TheÂ  National Media Museum Â celebrates cinema and movies, and is the most
+visited museum outside London. It contains anÂ  Imax Â cinema, theÂ  Cubby Broccoli
+Â Cinema, and theÂ  Pictureville Â CinemaÂ â€” described by David Puttnam
+as the best cinema in Britain. [ 42 ]
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Bradford_Odeon.jpg/220px-Bradford_Odeon.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png The
+Bradford Odeon, now closed and faced with the possibility of an unpopular demolition.
+
+Also in the city is TheÂ  St George's Hall Â - a grand concert hall dating from 1853 making
+it the oldest concert hall in Britain and the third oldest in the whole of Europe. [ citation
+needed ] Â The former Odeon cinema was the recent focus of protests by Bradfordians who did
+not wish to see the old building close. Adjacent is theÂ  Alhambra Â theatre, built in
+1914 for theatre impresario Frank Laidler, and later owned by the Moss Empire group ( Oswald
+Stoll Â andÂ  Edward Moss ). The theatre was refurbished in 1986.
+
+Memorials
+
+    
+
+    - Bradford City Fire Â Memorial
+
+    
+
+    - Bradford City of Peace
+
+    
+
+    - Bhopal Workers' Memorial Day Plaque
+
+    
+
+    - Bradford Pals Headstone
+
+    
+
+    - The CityÂ  Cenotaph
+
+    
+
+    
+
+    - Hiroshima Â &Â  Nagasaki Â Plaque
+
+    
+
+    - Ukrainian Grove, Jacobs Well
+
+    
+
+    - 1932Â  Ukrainian Famine Â Memorial
+
+    
+
+    - 1986Â  Chernobyl Disaster Â Memorial
+
+    
+
+
+
+Transport
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bradford_Forster_Square_Station%2C_Summer_2004_-_geograph.org.uk_-_84057.jpg/220px-Bradford_Forster_Square_Station%2C_Summer_2004_-_geograph.org.uk_-_84057.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png
+Bradford Forster Square railway station
+
+In past centuries Bradford's location in Bradfordale made communications difficult,
+except from the north. Nonetheless, Bradford is now well-served by transport systems.
+Bradford was first connected to the developingÂ  turnpike Â network in 1734, when the
+firstÂ  Yorkshire Â turnpike was built betweenÂ  Manchester andÂ  Leeds
+Â viaÂ  Halifax Â and Bradford.
+
+    Today Bradford lies on severalÂ  trunk roads :
+
+    - TheÂ  A647 Â betweenÂ  Leeds Â andÂ  Halifax , viaÂ  Queensbury
+
+    
+
+    - TheÂ  A650 Â betweenÂ  Wakefield Â andÂ  Keighley
+
+    
+
+    - TheÂ  A658 Â toÂ  Harrogate
+
+    
+
+    - TheÂ  A6036 Â toÂ  Halifax Â viaÂ  Shelf
+
+    
+
+
+
+TheÂ  M606 , a spur off theÂ  M62 Â  motorway , connects Bradford with the national
+motorway network. Although it was originally planned to go directly into the city centre,
+this has never been built and is unlikely now ever to be, as a hotel has been built across the
+proposed route.
+
+TheÂ  Bradford Canal Â was a 4-mile (6.4Â km) long spur off theÂ  Leeds and
+Liverpool Canal Â atÂ  Shipley . It was planned and built as part of the original Leeds and
+Liverpool project, to connect Bradford with theÂ  limestone Â  quarries Â ofÂ 
+north Yorkshire , the industrial towns on both sides of theÂ  Pennines Â and the ports on
+each coast. It opened in 1774, closed in 1866, reopened in 1871, and finally closed in 1922.
+There are plans to rebuild the canal as a key part of the regeneration of the city centre (see
+theÂ  main article ).
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Bradford_station_entrance.jpg/220px-Bradford_station_entrance.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png
+Entrance to theÂ  Bradford Interchange
+
+TheÂ  Leeds and Bradford Railway Â opened Bradford's first railway station on 1 July
+1846. It offered a service viaÂ  Shipley Â toÂ  Leeds . The station was rebuilt in the
+early 1850s and again, in 1890. Today it is a smaller railway station dating from 1990,
+calledÂ  Forster Square railway station Â though it is somewhat distant fromÂ 
+Forster Square Â itself.
+
+TheÂ  Lancashire and Yorkshire Railway Â opened its station at Drake Street on 9 May
+1850, on its line betweenÂ  Manchester Â andÂ  Leeds . TheÂ  Great Northern Railway
+Â opened a third terminus atÂ  Adolphus Street Â to serve Leeds and places on its
+network in 1854, but the station was located too far from the centre, and the two companies
+eventually agreed to build a joint station to replace the L&Y's station at Drake Street. This
+station was namedÂ  Bradford Exchange railway station , and opened in 1867. [ 43 ]
+Â Adolphus Street remained as a goods terminal. By 1973, The Exchange Station was deemed
+too large and was rebuilt on a different site. In 1983 that station was renamedÂ  Bradford
+Interchange Â when a large bus station was built alongside. BothÂ  Forster Square
+Â andÂ  Bradford Interchange Â stations are under the control of the West Yorkshire
+Metro as part of the Leeds-Bradford Line routes.
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Bradford_Trolleybus_in_Leeds_Road%2C_Greengates_-_geograph.org.uk_-_1463093.jpg/220px-Bradford_Trolleybus_in_Leeds_Road%2C_Greengates_-_geograph.org.uk_-_1463093.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png
+Bradford trolleybus Â in Leeds Road, Greengates, in May 1971.
+
+There have been many schemes to build a link between Bradford's main railway terminals, but
+none has ever come to fruition. The major redevelopment of the city centre in the 1960s
+provided an opportunity to connect the two termini but this was not pursued. A limitation
+currently exists with such a connection in that large buildings were constructed on the
+alignment in the 1990s. The main practical difficulty in connecting the termini is the great
+difference in elevation: theÂ  Interchange Â station is already at the bottom of a long
+slope, steep by railway standards, but is still many feet higher thanÂ  Forster Square
+Station . However, this gradient is not unprecedented in railway construction terms and the
+relocation of Forster Square Station further from the city centre has provided additional
+space in which the transition could be accomplished.
+
+Bradford'sÂ  tram Â system was begun byÂ  Bradford Corporation Â in 1882. At first
+the vehicles wereÂ  horse-drawn Â but were replaced byÂ  steam-driven Â trams in
+1883, and byÂ  electric Â ones in 1898. On 20 June 1911, Britain's firstÂ  trolleybus
+Â systems opened simultaneouslyÂ  in Bradford , between Laisterdyke and Dudley Hill,
+andÂ  in Leeds . [ 44 ] Â The last service in BradfordÂ â€” and indeed in
+BritainÂ â€” ceased operation on 26 March 1972. [ 44 ] [ 45 ] Â Ten Bradford
+trolleybuses are now preserved at theÂ  Trolleybus Museum Â atÂ  Sandtoft ,Â 
+Lincolnshire . [ 46 ] Â In 1974 Bradford's municipal buses were taken over by theÂ  West
+Yorkshire Metro .Â  First Bradford Â andÂ  Arriva Â are now the chief operators of
+buses in Bradford, with some routes usingÂ  guided buses .
+
+Bradford is served byÂ  Leeds Bradford International Airport , 6Â miles (9.7Â km) to
+the north east of the city. Bradford and Leeds councils jointly opened the airport in 1931.
+There has been rapid expansion in recent years, and is the home base of economy AirlineÂ 
+Jet2.com . In May 2007 the joint councils sold the airport toÂ  Bridgepoint Capital Â for
+Â£145.5Â million. Bridgepoint announced that a further Â£70Â million would be
+invested in airport improvements, to boost passenger figures to over 7Â million by 2015. [
+47 ] Â The airport has recently announced a new long-haul route toÂ  Islamabad Â using
+wide-bodiedÂ  Airbus A310 Â aircraft. [ 48 ]
+
+Education
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/University_of_Bradford_Richmond_Building.jpg/220px-University_of_Bradford_Richmond_Building.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png
+University of Bradford
+
+TheÂ  University of Bradford Â which has over 10,000 students received itsÂ  Royal
+Charter Â in 1966, but traces its history back to the 1860s. It has always been a technical
+and technological institution, and has no true arts faculties; yet it still covers a wide
+range of subjects including technology & management science, optometry, pharmacy, medical
+sciences, nursing studies, archaeology and modern languages. ItsÂ  Peace Studies
+Â Department, founded withÂ  Quaker Â support in 1973, was for a long time the only
+such institution in the UK.
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/University_of_Bradford_school_of_management.jpg/220px-University_of_Bradford_school_of_management.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png
+University of Bradford School of Management
+
+In terms of nationally recognised leading areas of research there are various departments
+such as Institute of Pharmaceutical Innovation, Institute of Cancer Therapeutics,
+Bradford School of Pharmacy, Peace Studies, Archaeology, Engineering, Management,
+Biochemistry, amongst others. The university balances academic research and teaching
+quality with a strong tradition of social inclusion. TheÂ  University of Bradford Â was
+ranked second in the UK for graduate employment by theÂ  Times Â Higher Education
+Supplement. [ 49 ]
+
+In December 2010, TheÂ  University of Bradford Â was named as the greenest university in
+the UK for the second year running. [ 50 ]
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Bradford_College.JPG/220px-Bradford_College.JPG
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png The Old
+Building atÂ  Bradford College founded in 1832
+
+University of Bradford School of Management Â located near Lister Park, in 2008, was rated
+the 11th best business school in the UK by theÂ  Financial Times [ 51 ] Â and 21st best
+byÂ  The Economist . [ 52 ]
+
+Bradford College Â has around 26,000 students. It developed from the 19th century
+technical college whose buildings it has inherited. It now offers a wide range of further and
+higher educational courses, and is an Associate College ofÂ  Leeds Metropolitan
+University . It has absorbed the Art School whose most famous alumnus isÂ  David Hockney .
+Bradford College is also the UKâ€™s largest provider of higher-education courses
+outside the university sector, with 23,000 students and 1,800 staff. [ 49 ]
+
+RecentÂ  Ofsted Â reports rank many Bradford schools as amongst the UKâ€™s
+finest. [ 49 ]
+
+Culture and recreation
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Alhambra%2C_Bradford.jpg/220px-Alhambra%2C_Bradford.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png
+TheÂ  Alhambra Â theatre in Bradford city centre
+
+There are four theatres in Bradford: aside from TheÂ  Alhambra , there is a smaller Studio
+theatre in the same complex. Both of these are operated byÂ  City of Bradford Metropolitan
+District Council . The Theatre in the Mill is a small studio theatre at theÂ  University of
+Bradford Â which presents both student and community shows and small-scale touring
+professional work.Â  The Priestley Â Theatre is a privately run venue with a
+medium-sized proscenium theatre and a small studio.
+
+Among the professional theatre companies based in Bradford areÂ  Kala Sangam , theÂ 
+satirical Â madcap comedy troop,Â  Komedy Kollective ,Â  Lost Dog Â (based at
+Theatre In The Mill) andÂ  Mind the Gap , one of the longest established, who have always
+worked with a mixture ofÂ  disabled Â and able-bodied performers. Groups and
+organisations teaching theatre include TheÂ  Asian Theatre School , Bradford Stage and
+Theatre School andÂ  Stage 84 . There are also a number of amateur theatre groups.
+
+St George's Hall Â is a grand concert hall dating from 1853 making it the oldest concert hall
+in Britain and the third oldest in the whole of Europe. [ citation needed ] TheÂ  HallÃ©
+Orchestra Â have been regular visitors over the years, as have a wide range of popular
+musicians, bands, entertainers and comedians. It is sometimes used for theatrical
+productions. Although Bradford was home to composerÂ  Frederick Delius , there are
+currently no prominent professional music ensembles based in Bradford, though there are
+some prominent amateur groups such as theÂ  Bradford Festival Chorus .
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/St_georges_hall.jpg/220px-St_georges_hall.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png St.
+George's Hall
+
+Bradford is the birthplace of rock bandsÂ  New Model Army ,Â  Anti System ,Â  Smokie
+,Â  Southern Death Cult / The Cult , The Scene,Â  One Minute Silence ,Â  Terrorvision
+and AsianÂ  hip hop Â groupÂ  Fun-Da-Mental .
+
+TraditionalÂ  cinemas Â have been replaced by vast entertainment complexes with
+multi-screen cinemas. TheÂ  Leisure Exchange Â in the city centre is home to a 16 screen
+Cineworld and atÂ  Thornbury , on the outskirts of Bradford, stands theÂ  Odeon
+Leeds-Bradford Â with 13 screens. The latter replaced the old Odeon next to the Alhambra
+which is the continuing focus of protests by Bradfordians who do not wish to see the old
+building demolished. [ 53 ] Â The University of Bradford also has a cinema run by the
+Students' Union, operating from the University's Great Hall. [ 54 ]
+
+Nightlife in Bradford has traditionally centred around Manor Row and Manningham Lane. More
+recently, several clubs andÂ  pubs Â have opened in the West End of Bradford, around
+theÂ  Alhambra Theatre , turning what was previously a fairly quiet area into one that is
+often crowded and vibrant at night.
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cartright_Hall_from_Peel_Park.jpg/220px-Cartright_Hall_from_Peel_Park.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png A view
+over Bradford fromÂ  Peel Park .
+
+Within the city district there are 37 parks and gardens.Â  Lister Park , with its boating
+lake and Mughal Water Gardens, was voted Britain's Best Park for 2006. [ 55 ] Â Peel Park is
+the venue for the annual MelaÂ â€” a celebration of eastern culture, and Bowling Park
+inÂ  East Bowling Â is the site where the annual Bradford Carnival takes place,
+celebrating local African and Caribbean culture. Beauty spot, Chellow Dene, has two
+VictorianÂ  reservoirs Â set in pleasant woodland. To the west and north of Bradford are
+picturesque and atmospheric moorlands: the famousÂ  Ilkley Moor Â and moors aboveÂ 
+Haworth Â known internationally for its connection with the BrontÃ« sisters .
+
+Bradford was one of the first areas of the UK to get a local commercial radio stationÂ 
+Pennine Radio Â in September 1975. Today this isÂ  The Pulse of West Yorkshire
+Â andÂ  Pulse Classic Gold . As of 2006Â Bradford Community Broadcasting based in the
+city centre has broadcast on full-time Community Radio license around Bradford and the Aire
+Valley, whilst the University radio stationÂ  Ramair Â broadcasts to the student
+population. Bradford's only Television station AAP TV Â caters for Bradford's large
+Asian community. TheÂ  Telegraph and Argus Â is Bradford's daily newspaper, published
+six days each week from Monday to Saturday.
+
+Museums and art galleries
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Cartwright_Hall.jpg/220px-Cartwright_Hall.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png
+Cartwright Hall
+
+Bradford is home to the acclaimedÂ  National Media Museum Â (previously the National
+Museum of Photography, Film & Television) which celebrates cinema and movies, and is the most
+visited museum outside London. It contains the UK's firstÂ  IMAX Â theatre, theÂ 
+Cubby Broccoli Â Cinema, and theÂ  Pictureville Â CinemaÂ â€” described by
+David Puttnam as the best cinema in Britain. [ 42 ] Â The museum has a rich and varied
+programme of films from around the world. Bradford's contribution to the world of film has
+been recognised internationally as it becameÂ  UNESCO 's firstÂ  City of Film Â in
+2009. [ 56 ]
+
+Bradford Industrial Museum Â was established in 1974 at Moorside Mills, an original
+spinning mill inÂ  Eccleshill . The Museum celebrates and explains the significant
+achievements in Bradford's industrial past, from textiles and printing to the manufacture
+of motor cars. [ 57 ]
+
+Situated just a mile from Bradford city centre isÂ  Bolling Hall Â Museum, a partÂ 
+medieval Â building which offers visitors a fascinating journey through the lives and
+times of the Bradford families for whom it provided a home over five hundred years. Rooms are
+furnished and decorated to give an accurate taste of life at different periods of the house's
+history. [ 58 ]
+
+Bradford's main art gallery is housed in the grand EdwardianÂ  Cartwright Hall Â in the
+award winningÂ  Lister Park .
+
+Bradford 1 Gallery Â is Bradford Councilâ€™s free city centreÂ  art gallery .
+Opened in October 2007, in a new building development in Centenary Square, the gallery shows
+four temporaryÂ  exhibitions Â a year. [ 59 ]
+
+Sport
+
+
+
+Bradford has a long sporting tradition, andÂ  Bradford Bulls Â (formerly Bradford
+Northern) are one of the most successfulÂ  rugby league Â clubs in the world, winning the
+World Club Championship three times since 2002 and also seven times winners of theÂ  Rugby
+Football League Championship . The home of the Bulls isÂ  Grattan Stadium, Odsal
+Â (formerly Odsal Stadium) to the south of the city. The city is also home to a number of rugby
+union clubsÂ â€”Â  Bradford and Bingley RFC Â (The Bees) are based in Bingley;
+Bradford Salem are based in the Heaton area and Wibsey RFC can be found to the south of the city
+centre. TheÂ  Richard Dunn Â Sports Centre is located close to the Odsal and the sports
+facilities at the university are also open to the public at certain times.
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Valley_Parade%2C_Bradford.jpg/220px-Valley_Parade%2C_Bradford.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png
+Bradford City's Â  Valley Parade Â  football stadium
+
+League football Â was introduced toÂ  West Yorkshire Â in Bradford, whenÂ 
+Bradford City Â were formed inÂ  1903 . James Whyte, a sub-editor of theÂ  Bradford
+Observer had met withÂ  Football Association Â representative John Brunt in January to
+discuss the plans, and in May, Manningham RFC, a rugby league side decided to change codes
+toÂ  association football . [ 60 ] Â The Football League subsequently elected Bradford
+City to the league, with a total of 30 votes to replaceÂ  Doncaster Rovers , [ 61 ] Â because
+it saw the invitation as a chance to introduce football to the rugby-dominated county. [ 62 ]
+Â Just eight years after they were elected to the league, City won theÂ  FA Cup Â and
+recorded the highest league position in their history. [ 63 ] Â The club now plays inÂ  the
+bottom tier Â of The Football League following two periods ofÂ  administration , [ 64 ] [
+65 ] [ 66 ] Â but their ground suffered one of theÂ  worst all-time sporting disasters in
+the world Â after 56Â people died atÂ  Valley Parade Â on 11 May 1985. [ 67 ] Â A
+second side from the city,Â  Bradford Park Avenue Â were successful inÂ  The Football
+League Â until they dropped out of the Football League in 1970. They now play in theÂ 
+Northern Premier League , which means theÂ  Bradford derby Â has not been played in
+years. Their ground hosted county cricket forÂ  Yorkshire Â as well as football.
+
+Bradford was once home to the now-defunctÂ  Bradford Dukes Â  speedway Â team, which
+raced at Odsal. Speedway was staged at Greenfields Stadium in the pioneer days, when it was
+known as the Autodrome, and it was used for a couple of seasons in the early 1960s. Odsal opened
+its doors soon after the war in Europe ended in 1945 and continued in the late 1950s. It entered a
+team in the 1960 Provincial League then fell dormant until the 1970s when it re-opened and ran
+for many years. The track staged a number of big meetings including Speedway World Finals. The
+speedway team rode under a number of names - probably the longest running was Bradford
+Northern - in common with the Rugby League team at the same venue. This was changed after years
+of decline to Bradford Barons - emulating the more successful Halifax Dukes. Eventually the
+Halifax team was brought to Bradford under the name Bradford Dukes.
+
+Bradford is also home to theÂ  Bradford Dragons Â basketball team who are currently
+playing in the EBL2 and play there home games at Bradford Sports college in the Trinity Green
+campus on Saturday nights. They are coached by former England under 23 player Chris Mellor.
+
+Religion
+
+See also:Â  Bradford Cathedral Â andÂ  Al Mahdi Mosque
+
+The most prominent Christian church in Bradford isÂ  Bradford Cathedral , originally
+theÂ  Parish Church Â of St Peter. The parish of Bradford was in existence by 1283, and
+there was a stone church on the shelf above Bradford Beck by 1327. TheÂ  Diocese of Bradford
+Â was created from part of theÂ  Diocese of Ripon Â in 1919, and the church became a
+cathedral at that time.
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hanfia_Mosque%2C_Carlisle_Road_-_geograph.org.uk_-_34415.jpg/220px-Hanfia_Mosque%2C_Carlisle_Road_-_geograph.org.uk_-_34415.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png Hanfia
+Mosque in Carlisle Road
+
+With such a significant Pakistani population,Â  Islam Â has become prominent
+throughout Bradford. This is particularly the case in inner city areas such as Manningham ,
+where a majority of the population are Muslim. [ 68 ] Â Accordingly, there are a substantial
+number of mosques. Some were converted from churches or other buildings, but there are also
+several that have been purpose-built. The largest of these is the Hanfia Masjid inÂ 
+Manningham . Another large mosque in Bradford is theÂ  Al Mahdi Mosque Â of theÂ 
+Ahmadiyya Muslim Community Â and the Madni Jamia Masjid which recently won the Model
+Mosque (Islam Channel) award.
+
+The city also has a sizeable Indian community, and there are a significant number ofÂ 
+Hindus Â in the area. TheÂ  Lakshmi Narayan mandir Â opened officially on 20 April
+2008 [ 69 ] Â and is the largest Hindu temple in Northern England. [ 70 ] Â Also in Bradford
+is the Hindu Temple and Community Centre on Thornton Lane. [ 71 ] There are also smaller
+house-based mandirs, as shown in theÂ  List of Hindu Temples .
+
+There is also a prominentÂ  Sikh Â community in Bradford, with sixÂ  gurudwaras
+Â (Sikh places of worship) around the city. The Sikh festival ofÂ  Vaisakhi
+Â (alternative spelling of Baisakhi) is also celebrated on 14 April every year, this sees
+Sikhs from Bradford and the surrounding area travel to each of the gurudwaras in the city in a
+procession called a nagar kirtan. There are three gurudwaras in the Leeds Road area of
+Bradford alone, Guru Gobind Singh Gurudwara, on Gobind Marg, being the largest of these.
+There is a Ramgharia Gurudwara on Bolton Road and Guru Nanak Gurudwara is on Wakefield Road. [
+72 ]
+
+Over the years, most of theÂ  Jewish Â population have migrated toÂ  Leeds . TheÂ 
+Jewish Â community in Bradford was strong in the middle to late 19th century, and there is a
+19th centuryÂ  Reform Â  synagogue Â in Bowland Street in theÂ  Manningham
+Â area. This, "The oldest Reform synagogue outside London", [ 73 ] Â was established by
+German Jews who had moved to Bradford for the wool trade. According to historian Shatman
+Kadish, "The city of Bradford was unique in that it boasted a Reform synagogue before it
+acquired an Orthodox one". [ 74 ]
+
+The district has a tradition ofÂ  nonconformity Â which is reflected in the number of
+chapels erected byÂ  Congregationalists ,Â  Baptists ,Â  Methodists Â etc. The
+city was a major centre of theÂ  House Church movement in the 1980s, and the Christian
+charityÂ  Christians Against Poverty Â was founded in the city. Other house churches in
+the city includeÂ  El Shaddai International Christian Centre Â and the World Outreach
+Church. Bradford is also home to theÂ  Abundant Life Church , a large nonconforming Church,
+that has around 3,000 members. [ 75 ]
+
+Two carved stones, probably parts of aÂ  Saxon Â preaching cross, were found on the site
+of Bradford Cathedral. They indicate that Christians may have worshipped here sinceÂ 
+Paulinus of York Â came to the north of England in ADÂ 627 on aÂ  mission Â to
+convertÂ  Northumbria . He preached inÂ  Dewsbury Â and it was from there that
+Bradford was first evangelised. The vicars of Bradford later paid dues to thatÂ  parish .
+
+City of Sanctuary
+
+
+
+On 18 November 2010, Bradford was officially recognized as a â€˜City ofÂ  Sanctuary
+â€™Â : â€œ.. a place where a broad range of local organizations,Â  community
+Â groups andÂ  faith Â communities, as well asÂ  local government , are publicly
+committed to welcoming and including people seeking sanctuary.â€�
+
+The city of Bradford has a proud history of welcoming and including newcomers from all corners
+of the world and The City ofÂ  Sanctuary Â Bradford campaign was officially launched on 1
+October 2008, with a vision to see thisÂ  culture Â of welcome andÂ  hospitality
+Â extended to include those seeking sanctuary in the city. [ 76 ]
+
+"The recognition of Bradford as a City ofÂ  Sanctuary Â will be a huge boost for the city",
+said Will Sutcliffe, chairman of Bradfordâ€™s project. â€œThere are a lot of very
+good voluntary projects for people seeking sanctuary. â€œPeople who have fled for their
+lives from some of the worst trouble spots in the world are more likely to find a welcome and help
+in Bradford than in many other cities. Bradford can stand up and be proud of itself." [ 77 ]
+
+Public services
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bradford_Royal_Infirmary_-_geograph.org.uk_-_34416.jpg/220px-Bradford_Royal_Infirmary_-_geograph.org.uk_-_34416.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png
+Bradford Royal Infirmary
+
+There are two major hospitals in Bradford:Â  Bradford Royal Infirmary Â andÂ  St
+Luke's Hospital . Both are teaching hospitals and are operated by Bradford Teaching
+Hospitals NHS trust. Over the years the Trust has subsumed a number of smaller hospitals;
+these include Woodlands Orthopaedic Hospital, Northern View and Bierley Hall.
+
+Bradford is the focus of one of the UK's largest ever birth cohort studies, known asÂ  Born in
+Bradford . Partly supported by European funding, it is the result of close collaboration
+between theÂ  University of Bradford , theÂ  NHS Â and other institutions in West
+Yorkshire. It will track the lives of all the babies born in the city from 2006 to 2008 and aims to
+provide a wealth of data, allowing health researchers the opportunity to investigate many
+different aspects of health and wellbeing.
+
+Carnivals and festivals
+
+
+
+Each year Bradford hosts several successful festivals.
+
+TheÂ  Bradford Mela , [ 78 ] Â the biggest of its kind outsideÂ  Asia , takes place in
+June. The wordÂ  Mela Â comes from Sanskrit language meaning â€˜a
+gatheringâ€™ or â€˜to meetâ€™. In the UK, Melas provide an opportunity for
+communities to come together to celebrate and share their cultures. Mela festivals include a
+combination ofÂ  markets , funfairs, food and drink, arts and workshops,
+childrenâ€™s activities, strolling entertainment and a variety of music and dance
+performances on a number of stages. Bradford held the firstÂ  Mela Â in Europe in
+September 1988 and has been held inÂ  Peel Park Â since 1998. As the most established
+event of its kind in the UK, Bradford Mela leads the way, and has served as the model for Mela
+events in other cities.
+
+Bradford is also known for its various film festivals hosted by theÂ  National Media Museum
+. These include TheÂ  Bradford International Film Festival Â in March, which since it
+began in 1995, has continued to be one of the outstanding events in the UKâ€™s film
+calendar, [ 79 ] Â plus the Bradford Animation Festival - The UK's longest-running and
+biggestÂ  animation Â festival, held each November which sees an array of screentalks,
+workshops and special events led by some of the industry's top names. The festival culminates
+in the annual BAF Awards which celebrate the very best in new animation from around the world. [
+80 ]
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/BingleyMusicLive.jpg/150px-BingleyMusicLive.jpg
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png
+Bingley Music Live Â logo
+
+The city council also organises annual music festivalÂ  Bingley Music Live Â held in
+nearby Myrtle Park,Â  Bingley . TheÂ  festival Â features a range of musical genres
+including rock ,Â  alternative rock ,Â  indie rock Â andÂ  pop music . It is held on
+the Saturday and Sunday and since the 2009 event, also on the Friday at the end of August, with
+one of the days having free admission. First held in 2007, it was shortlisted in the
+â€˜Best New Festivalâ€™ category of the Virtual Festival Awards [ 81 ] Â The
+ethos of the event is to present high quality music at an affordable price and give a platform
+for local bands from across West Yorkshire to a large audience. [ 82 ]
+
+Bingley Music Live Â evolved from a previous event at the same venue called Music At Myrtle.
+Artists such asÂ  The Charlatans ,Â  Happy Mondays ,Â  Scouting for Girls ,Â  The
+Automatic ,Â  Echo & The Bunnymen ,Â  Doves ,Â  The Zutons ,Â  Editors ,Â  Calvin
+Harris ,Â  James ,Â  The Enemy [ disambiguation needed ] ,Â  Seasick Steve Â andÂ 
+Professor Green Â have performed atÂ  Bingley Music Live Â since 2007.
+
+Crime
+
+
+
+Bradford, has been the scene of some high profile crimes, such as the shooting of PCÂ  Sharon
+Beshenivsky Â when she responded to a burglary at a travel agents in the city centre. [ 83 ]
+Â In May 2010, Stephen Griffiths, the self proclaimed 'Crossbow Cannibal' was charged
+with theÂ  murders of 3 sex workers in the Bradford Â area, with some of the victims body
+parts found in the localÂ  River Aire . [ 84 ]
+
+Manningham Riots
+
+
+
+TheÂ  Manningham Riot Â was a short but intense period ofÂ  rioting Â which took
+place from 10 to 12 June 1995, in the district ofÂ  Manningham Â in Bradford.
+
+Bradford Riots
+
+Main article:Â  2001 Bradford race riots
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/The_Upper_Globe_Pub_2006.JPG/220px-The_Upper_Globe_Pub_2006.JPG
+
+Image: http://bits.wikimedia.org/skins-1.17/common/images/magnify-clip.png The
+Upper Globe pub was attacked during the riot and has since lain derelict.
+
+The Bradford Riots were a short but intense period ofÂ  rioting Â which began on 7 July
+2001, in Bradford,Â  West Yorkshire , England. It occurred as a result of heightened
+tension betweenÂ  ethnic minority Â communities and the city's white majority, stoked
+by confrontation between theÂ  Anti-Nazi League Â andÂ  far right groups such as
+theÂ  National Front . [ 85 ] [ 86 ] Â SimilarÂ  race riots Â had occurred a few days
+earlier in other parts ofÂ  northern England . More than 300 police officers were hurt
+during the riot. There were 297 arrests in total; 187 people were charged with riot, 45 with
+violent disorder and 200 jail sentences totalling 604 years were handed down, the most ever
+handed out for public disturbance by some margin. [ 87 ]
+
+Notable Bradfordians
+
+Main article:Â  List of people from Bradford
+
+    Only a few particularly notable names are listed here. SeeÂ  Category:People from
+    Bradford Â for a fuller list Â The people in this list were either born or brought up
+    in Bradford (not necessarily both), or had a significant connection with the city later
+    in life. Those marked with an asterisk ('*') are described in Lister, 2004. [5]
+
+    - Sir Edward Appleton Â â€“ Discoverer of theÂ  ionosphere Â andÂ  Nobel
+    Prize Â winner.
+
+    
+
+    - TheÂ  BrontÃ« Â sisters,Â  Anne ,Â  Emily *, andÂ  Charlotte
+    *Â â€“ born inÂ  Thornton Â on the outskirts of Bradford, but later lived
+    inÂ  Haworth .
+
+    
+
+    - Joe Johnson Â World snooker champion (1986) and finalist in 1987.
+
+    
+
+    - Kiki Dee Â â€“ Born Pauline MatthewsÂ  singer
+
+    
+
+    - Frederick Delius Â â€“ Composer.
+
+    
+
+    - Joolz Denby Â â€“ Poet and novelist.
+
+    
+
+    - William Henry Drew Â â€“ Trade unionist and founder of theÂ  Independent
+    Labour Party .
+
+    
+
+    - W.E. Forster Â MP for BradfordÂ â€“ Commemorated by statue, and is the
+    namesake of Forster Square.
+
+    
+
+    - Peter Firth Â â€“ Actor who appeared inÂ  Here Come the Double Deckers .
+
+    
+
+    - Gareth Gates Â â€“ Singer.
+
+    
+
+    - Barbara Jane Harrison Â - Air stewardess who was awarded theÂ  George Cross
+    Â for heroism, was born in Bradford.
+
+    
+
+    - David Hockney Â â€“ Artist.
+
+    
+
+    - Allan Holdsworth Â - Jazz Guitarist.
+
+    
+
+    - Chris Norman Â â€“ Singer.
+
+    
+
+    - Benjamin and William Jowett Â â€“ Car manufacturers and inventors.
+
+    
+
+    - Samuel Lister Â â€“Â  Industrialist Â andÂ  inventor , commemorated
+    by a statue.
+
+    
+
+    - Joel York member of Pittsburgh. (USA) based bandÂ  Gramsci Melodic
+
+    
+
+    - Chantel McGregor Â - Musician/blues/rock guitarist
+
+    
+
+    - Brian Noble Â -Â  Crusaders Â head coach and formerÂ  Bradford Bulls ,Â 
+    Wigan Warriors Â &Â  Great Britain Â head coach.
+
+    
+
+    - Richard Oastler Â â€“ Social reformer; statue in Northgate.
+
+    
+
+    - Nikki Patel Â -Â  Coronation Street Â actress.
+
+    
+
+    - Edward Petherbridge Â - Television, film and theatre actor. Notable for
+    playingÂ  Lord Peter Wimsey Â in the televised adaptations of Dorothy L. Sayer's
+    novels.
+
+    
+
+    - Albert Pierrepoint Â â€“ Famous British executioner.
+
+    
+
+    - Anthony Price Â - Fashion designer, working relationships withÂ  Roxy Music
+    ,Â  Bryan Ferry ,Â  David Bowie Â andÂ  Topman .
+
+    
+
+    - J. B. Priestley Â â€“ Writer, commemorated by a statue.
+
+    
+
+    - Sarah-Jane Potts Â â€“ Actress.
+
+    
+
+    - Andrew-Lee Potts Â â€“ Actor.
+
+    
+
+    - Michael Rennie Â â€“ Actor.
+
+    
+
+    - RDB (Rhythm Dhol Bass) Â â€“ Punjabi (Indian) bhangra group.
+
+    
+
+    - Tony Richardson Â â€“ Academy award winning film director and producer.
+
+    
+
+    - Simon Rouse Â â€“ actor.
+
+    
+
+    - James Sammon A.K.A Pianoman Â - Music producer and song writer.
+
+    
+
+    - Justin Sullivan Â â€“ Musician and lyricist; lead singer and founder of
+    Bradford-based cult rock bandÂ  New Model Army .
+
+    
+
+    - Peter Sutcliffe Â â€“ Serial killer
+
+    
+
+    - Benson Taylor Â â€“ Composer.
+
+    
+
+    - Mike Turner Â â€“ Musician and producer; former lead guitarist of Canadian
+    Alternative bandÂ  Our Lady Peace .
+
+    
+
+    - Kimberley Walsh Â â€“ Member ofÂ  Girls Aloud .
+
+    
+
+    - Sally Walsh Â â€“ Sister ofÂ  Girls Aloud Â MemberÂ  Kimberley Walsh
+    Â also an Actress who has played Lyn Hutchingson in popular TV showÂ  Emmerdale .
+
+    
+
+    - Timothy West Â â€“ Actor and president of theÂ  London Academy of Music and
+    Dramatic Art .
+
+    
+
+    - Richard Whiteley Â â€“ Television presenter.
+
+    
+
+    - Junior Witter Â â€“ Professional boxer.
+
+    
+
+    - Adrian Edmondson Â â€“ Actor/Comedian.
+
+    
+
+    - James Thornton Â Â - Actor
+
+    
+
+    - Zayn Malik Â - Member of boybandÂ  One Direction Â on the seventh series ofÂ 
+    The X Factor
+
+    
+
+    - Natalia Kills Â - Musician.
+
+    
+
+
+
+In popular culture
+
+
+
+In the BBC political satireÂ  The Amazing Mrs Pritchard , Â the Prime Minister considers
+a proposal to move Parliament to Bradford, as it is closer to the geographic centre of the
+country than London. The Buttershaw Â area of the city featured in the 1986 filmÂ  Rita,
+Sue and Bob Too , in which two 16-year-old girls were involved in a love triangle with a wealthy
+married man (played byÂ  George Costigan ). The film was created byÂ  Andrea Dunbar , who
+died four years after it was made. It was initially unpopular with local residents due to its
+negative image of the area, but has since earned itself a good reputation in the local
+community as Buttershaw's claim to fame. [ 88 ] [ 89 ]
+
+Bradford features in the 1983 filmÂ  Monty Python's The Meaning of Life Â with footage
+filmed inÂ  Lister Park . [ 90 ] Â The newÂ  Spooks Â spin-off forÂ  BBC Three ,Â 
+Spooks: Code 9 Â was filmed in Bradford. [ 91 ]
+
+Bradford is also in the filmÂ  East is East . Oak Lane is shown in the film when the family go to
+Bradford to visit Mr.Shahand his family. [ 92 ]
+
+International relations
+
+
+
+    Bradford is twinned with a number of places around the world: [ 93 ]
+
+    -
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/22px-Flag_of_Macedonia.svg.png
+    Â  Skopje ,Â  Macedonia Â (since 1963)
+
+    
+
+    -
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/22px-Flag_of_France.svg.png
+    Â  Roubaix ,Â  France Â (since 1969)
+
+    
+
+    -
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/22px-Flag_of_Belgium_%28civil%29.svg.png
+    Â  Verviers ,Â  Belgium Â (since 1970)
+
+    
+
+    -
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/22px-Flag_of_Germany.svg.png
+    Â  MÃ¶nchengladbach ,Â  Germany Â (since 1971)
+
+    
+
+    -
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/22px-Flag_of_Ireland.svg.png
+    Â  Galway ,Â  Ireland Â (since 1987)
+
+    
+
+    -
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/22px-Flag_of_Pakistan.svg.png
+    Â  Mirpur ,Â  Pakistan Â (friendship agreement in 1998)
+
+    
+
+
+
+
+
+
+
+Bradford Links
+
+
+
+
+
+www.BradfordLabourers.co.uk
+
+
+
+Â© 2011 Bradford Labourers. All rights reserved.
+
+
+
+Sign in | Report Abuse | Print Page | Remove Access | Powered By Google Sites
+window.jstiming.load.tick('sjl'); window.jstiming.load.tick('jl');
+sites.Searchbox.initialize( 'sites-searchbox-select-button', true,
+{"object":[{"id":"search-site","action":"/system/app/pages/search","label":"Search
+this
+site"},{"id":"search-web","action":"/system/app/pages/customSearch","label":"Search
+web"}]}['object'], 'search-site', {"label":"Configure search
+options...","url":"/system/app/pages/admin/appearance/pageElements"});
+gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown',
+false); setTimeout(function() { var fingerprint =
+gsites.date.TimeZone.getFingerprint([]);
+gsites.Xhr.send('http://www.bradfordlabourers.co.uk/_/tz', null, null, 'GET', null,
+null, { afjstz: fingerprint }); }, 500); window.onload = function() { if (false) {
+JOT_setMobilePreview(); } var loadTimer = window.jstiming.load; loadTimer.tick("ol");
+loadTimer["name"] = "load," + webspace.page.type; window.jstiming.report(loadTimer,
+{}, 'http://csi.gstatic.com/csi'); } JOT_insertAnalyticsCode(false); var
+maestroRunner = new gsites.pages.view.SitesMaestroRunner( webspace, "en_GB");
+maestroRunner.initListeners(); maestroRunner.installEditRender(); //<![CDATA[ //
+Decorate any fastUI buttons on the page with a class of 'goog-button'. if
+(webspace.user.hasWriteAccess) { JOT_decorateButtons(); } // Fires delayed events.
+(function() { JOT_fullyLoaded = true; var delayedEvents = JOT_delayedEvents; for (var x = 0;
+x < delayedEvents.length; x++) { var event = delayedEvents[x];
+JOT_postEvent(event.eventName, event.eventSrc, event.payload); } JOT_delayedEvents =
+null; JOT_postEvent('pageLoaded'); })(); //]]> JOT_postEvent('decorateGvizCharts');
+sites.util.Plus.go('sites-chrome-main'); window.jstiming.load.tick('render');
+

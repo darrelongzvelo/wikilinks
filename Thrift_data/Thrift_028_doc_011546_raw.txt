@@ -1,0 +1,1475 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); WORLD LITERATURE <!-- /* -----------------------------------------------
+Blogger Template Style Name: Travel Designer: Sookhee Lee URL: www.plyfly.net
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="keycolor" description="Main Color" type="color"
+default="#539bcd"/> <Group description="Page Text" selector="body"> <Variable
+name="body.font" description="Font" type="font" default="normal normal 13px
+'Trebuchet MS',Trebuchet,sans-serif"/> <Variable name="body.text.color"
+description="Text Color" type="color" default="#bbbbbb"/> </Group> <Group
+description="Backgrounds" selector=".body-fauxcolumns-outer"> <Variable
+name="body.background.color" description="Outer Background" type="color"
+default="#539bcd"/> <Variable name="content.background.color" description="Main
+Background" type="color" default="transparent"/> </Group> <Group description="Links"
+selector=".main-outer"> <Variable name="link.color" description="Link Color"
+type="color" default="#ff9900"/> <Variable name="link.visited.color"
+description="Visited Color" type="color" default="#b87209"/> <Variable
+name="link.hover.color" description="Hover Color" type="color" default="#ff9900"/>
+</Group> <Group description="Blog Title" selector=".header h1"> <Variable
+name="header.font" description="Font" type="font" default="normal normal 60px
+'Trebuchet MS',Trebuchet,sans-serif"/> <Variable name="header.text.color"
+description="Text Color" type="color" default="#ffffff" /> </Group> <Group
+description="Blog Description" selector=".header .description"> <Variable
+name="description.text.color" description="Description Color" type="color"
+default="#b8b8b8" /> </Group> <Group description="Tabs Text" selector=".tabs-inner
+.widget li a"> <Variable name="tabs.font" description="Font" type="font"
+default="normal bold 16px 'Trebuchet MS',Trebuchet,sans-serif"/> <Variable
+name="tabs.text.color" description="Text Color" type="color" default="#ffffff"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color"
+default="#ffffff"/> </Group> <Group description="Tabs Background"
+selector=".tabs-outer .PageList"> <Variable name="tabs.background.color"
+description="Background Color" type="color" default="transparent"/> <Variable
+name="tabs.selected.background.color" description="Selected Color" type="color"
+default="transparent"/> </Group> <Group description="Date Header"
+selector=".main-inner h2.date-header"> <Variable name="date.font"
+description="Font" type="font" default="normal normal 14px 'Trebuchet
+MS',Trebuchet,sans-serif"/> <Variable name="date.text.color" description="Text
+Color" type="color" default="#b8b8b8"/> </Group> <Group description="Post Title"
+selector="h3.post-title a"> <Variable name="post.title.font" description="Font"
+type="font" default="normal bold 20px 'Trebuchet MS',Trebuchet,sans-serif"/>
+<Variable name="post.title.text.color" description="Text Color" type="color"
+default="#ffffff"/> </Group> <Group description="Post Background"
+selector=".column-center-inner"> <Variable name="post.background.color"
+description="Background Color" type="color" default="transparent"/> <Variable
+name="post.background.url" description="Post Background URL" type="url"
+default="none"/> </Group> <Group description="Gadget Title Color" selector="h2">
+<Variable name="widget.title.font" description="Font" type="font" default="normal
+bold 14px 'Trebuchet MS',Trebuchet,sans-serif"/> <Variable
+name="widget.title.text.color" description="Title Color" type="color"
+default="#ffffff"/> </Group> <Group description="Gadget Text"
+selector=".footer-inner .widget, .sidebar .widget"> <Variable name="widget.font"
+description="Font" type="font" default="normal normal 13px Georgia, Utopia, 'Palatino
+Linotype', Palatino, serif"/> <Variable name="widget.text.color" description="Text
+Color" type="color" default="#b8b8b8"/> </Group> <Group description="Gadget Links"
+selector=".sidebar .widget"> <Variable name="widget.link.color" description="Link
+Color" type="color" default="#b8b8b8"/> <Variable name="widget.link.visited.color"
+description="Visited Color" type="color" default="#0828a7"/> <Variable
+name="widget.alternate.text.color" description="Alternate Color" type="color"
+default="#ffffff"/> </Group> <Group description="Sidebar Background"
+selector=".column-left-inner .column-right-inner"> <Variable
+name="widget.outer.background.color" description="Background Color" type="color"
+default="transparent" /> <Variable name="widget.border.bevel.color"
+description="Bevel Color" type="color" default="transparent" /> </Group> <Variable
+name="body.background" description="Body Background" type="background"
+color="#cb9a4d" default="$(color) none repeat-x scroll top center"/> <Variable
+name="content.background" description="Content Background" type="background"
+color="transparent" default="$(color) none repeat scroll top center"/> <Variable
+name="comments.background" description="Comments Background" type="background"
+default="#cccccc none repeat scroll top center"/> <Variable
+name="content.imageBorder.top.space" description="Content Image Border Top Space"
+type="length" default="0"/> <Variable name="content.imageBorder.top"
+description="Content Image Border Top" type="url" default="none"/> <Variable
+name="content.margin" description="Content Margin Top" type="length"
+default="20px"/> <Variable name="content.padding" description="Content Padding"
+type="length" default="20px"/> <Variable name="content.posts.padding"
+description="Posts Content Padding" type="length" default="10px"/> <Variable
+name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/> <Variable
+name="tabs.selected.background.gradient" description="Tabs Selected Background
+Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/> <Variable
+name="widget.outer.background.gradient" description="Sidebar Gradient" type="url"
+default="url(//www.blogblog.com/1kt/travel/bg_black_50.png)"/> <Variable
+name="footer.background.gradient" description="Footer Background Gradient"
+type="url" default="none"/> <Variable name="mobile.background.overlay"
+description="Mobile Background Overlay" type="string" default="transparent none
+repeat scroll top left"/> <Variable name="mobile.button.color" description="Mobile
+Button Color" type="color" default="#ffffff" /> <Variable name="startSide"
+description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language"
+type="automatic" default="right"/> */ /* Content
+----------------------------------------------- */ body { font: normal normal 13px
+Georgia, Utopia, 'Palatino Linotype', Palatino, serif; color: #b8b8b8; background:
+#eb8f00
+url(http://themes.googleusercontent.com/image?id=17AET9jq8MwaopDcGuJxZfnsugStU4sqWiJ7b_6HZ2zZaANe_xhCWQDa7efxGNS9mOetq)
+no-repeat fixed top center /* Credit: Cimmerian
+(http://www.istockphoto.com/googleimages.php?id=1833969&platform=blogger) */; }
+html body .region-inner { min-width: 0; max-width: 100%; width: auto; } a:link {
+text-decoration:none; color: #0031f5; } a:visited { text-decoration:none; color:
+#0828a7; } a:hover { text-decoration:underline; color: #0031f5; } .content-outer
+.content-cap-top { height: 0; background: transparent none repeat-x scroll top center; }
+.content-outer { margin: 0 auto; padding-top: 20px; } .content-inner { background:
+transparent url(http://blogblog.com/1kt/travel/bg_black_70.png) repeat scroll top
+left; background-position: left -0; background-color: transparent; padding: 20px; }
+.main-inner .date-outer { margin-bottom: 2em; } /* Header
+----------------------------------------------- */ .header-inner .Header
+.titlewrapper, .header-inner .Header .descriptionwrapper { padding-left: 10px;
+padding-right: 10px; } .Header h1 { font: normal normal 60px 'Trebuchet
+MS',Trebuchet,sans-serif; color: #ffffff; } .Header h1 a { color: #ffffff; } .Header
+.description { font-size: 130%; } /* Tabs
+----------------------------------------------- */ .tabs-inner { margin: 1em 0 0;
+padding: 0; } .tabs-inner .section { margin: 0; } .tabs-inner .widget ul { padding: 0;
+background: transparent url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat
+scroll top center; } .tabs-inner .widget li { border: none; } .tabs-inner .widget li a {
+display: inline-block; padding: 1em 1.5em; color: #ffffff; font: normal bold 16px
+'Trebuchet MS',Trebuchet,sans-serif; } .tabs-inner .widget li.selected a, .tabs-inner
+.widget li a:hover { position: relative; z-index: 1; background: transparent
+url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center; color:
+#ffffff; } /* Headings ----------------------------------------------- */ h2 { font:
+normal bold 14px 'Trebuchet MS',Trebuchet,sans-serif; color: #ffffff; } .main-inner
+h2.date-header { font: normal normal 14px 'Trebuchet MS',Trebuchet,sans-serif; color:
+#bbbbbb; } .footer-inner .widget h2, .sidebar .widget h2 { padding-bottom: .5em; } /* Main
+----------------------------------------------- */ .main-inner { padding: 20px 0; }
+.main-inner .column-center-inner { padding: 10px 0; } .main-inner .column-center-inner
+.section { margin: 0 10px; } .main-inner .column-right-inner { margin-left: 20px; }
+.main-inner .fauxcolumn-right-outer .fauxcolumn-inner { margin-left: 20px;
+background: transparent url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat
+scroll top left; } .main-inner .column-left-inner { margin-right: 20px; } .main-inner
+.fauxcolumn-left-outer .fauxcolumn-inner { margin-right: 20px; background:
+transparent url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top
+left; } .main-inner .column-left-inner, .main-inner .column-right-inner { padding: 15px
+0; } /* Posts ----------------------------------------------- */ h3.post-title {
+margin-top: 20px; } h3.post-title a { font: normal bold 20px 'Trebuchet
+MS',Trebuchet,sans-serif; color: #ffffff; } h3.post-title a:hover { text-decoration:
+underline; } .main-inner .column-center-outer { background: transparent none repeat
+scroll top left; _background-image: none; } .post-body { line-height: 1.4; position:
+relative; } .post-header { margin: 0 0 1em; line-height: 1.6; } .post-footer { margin: .5em 0;
+line-height: 1.6; } #blog-pager { font-size: 140%; } #comments { background: transparent
+url(http://blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center;
+padding: 15px; } #comments .comment-author { padding-top: 1.5em; } #comments h4, #comments
+.comment-author a, #comments .comment-timestamp a { color: #ffffff; } #comments
+.comment-author:first-child { padding-top: 0; border-top: none; }
+.avatar-image-container { margin: .2em 0 0; } /* Comments
+----------------------------------------------- */ #comments a { color: #ffffff; }
+.comments .comments-content .icon.blog-author { background-repeat: no-repeat;
+background-image:
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+} .comments .comments-content .loadmore a { border-top: 1px solid #ffffff; border-bottom:
+1px solid #ffffff; } .comments .comment-thread.inline-thread { background: transparent;
+} .comments .continue { border-top: 2px solid #ffffff; } /* Widgets
+----------------------------------------------- */ .sidebar .widget { border-bottom:
+2px solid transparent; padding-bottom: 10px; margin: 10px 0; } .sidebar
+.widget:first-child { margin-top: 0; } .sidebar .widget:last-child { border-bottom:
+none; margin-bottom: 0; padding-bottom: 0; } .footer-inner .widget, .sidebar .widget {
+font: normal normal 13px Georgia, Utopia, 'Palatino Linotype', Palatino, serif; color:
+#bbbbbb; } .sidebar .widget a:link { color: #bbbbbb; text-decoration: none; } .sidebar
+.widget a:visited { color: #b87209; } .sidebar .widget a:hover { color: #bbbbbb;
+text-decoration: underline; } .footer-inner .widget a:link { color: #0031f5;
+text-decoration: none; } .footer-inner .widget a:visited { color: #0828a7; }
+.footer-inner .widget a:hover { color: #0031f5; text-decoration: underline; } .widget
+.zippy { color: #ffffff; } .footer-inner { background: transparent none repeat scroll top
+center; } /* Mobile ----------------------------------------------- */ body.mobile {
+padding: 0 10px; background-size: 100% auto; } body.mobile .AdSense { margin: 0 -10px; }
+.mobile .body-fauxcolumn-outer { background: transparent none repeat scroll top left; }
+.mobile .footer-inner .widget a:link { color: #bbbbbb; text-decoration: none; } .mobile
+.footer-inner .widget a:visited { color: #b87209; } .mobile-post-outer a { color: #ffffff;
+} .mobile-link-button { background-color: #0031f5; } .mobile-link-button a:link,
+.mobile-link-button a:visited { color: #ffffff; } .mobile-index-contents { color:
+#b8b8b8; } .mobile .tabs-inner .PageList .widget-content { background: transparent
+url(//www.blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center; color:
+#ffffff; } .mobile .tabs-inner .PageList .widget-content .pagelist-arrow { border-left:
+1px solid #ffffff; } --> <!-- body { min-width: 1220px; } .content-outer,
+.content-fauxcolumn-outer, .region-inner { min-width: 1220px; max-width: 1220px;
+_width: 1220px; } .main-inner .columns { padding-left: 200px; padding-right: 250px; }
+.main-inner .fauxcolumn-center-outer { left: 200px; right: 250px; /* IE6 does not respect
+left and right together */ _width: expression(this.parentNode.offsetWidth -
+parseInt("200px") - parseInt("250px") + 'px'); } .main-inner .fauxcolumn-left-outer {
+width: 200px; } .main-inner .fauxcolumn-right-outer { width: 250px; } .main-inner
+.column-left-outer { width: 200px; right: 100%; margin-left: -200px; } .main-inner
+.column-right-outer { width: 250px; margin-right: -250px; } #layout { min-width: 0; }
+#layout .content-outer { min-width: 0; width: 800px; } #layout .region-inner { min-width:
+0; width: auto; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0752601221748947486661\46blogName\75WORLD+LITERATURE\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://sydneyworlit.blogspot.com/search\46blogLocale\75fil\46v\0752\46homepageUrl\75http://sydneyworlit.blogspot.com/\46vt\0753697896785182128987',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+
+
+
+
+
+
+WORLD LITERATURE
+
+
+
+World Literature
+
+
+
+Mga Pahina
+
+    
+
+    - Home
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Huwebes, Mayo 17 2012
+
+
+
+
+
+Hebrew Literature
+
+
+
+Image:
+http://1.bp.blogspot.com/-TlhSVSjrAUI/T6_Ik5D8GDI/AAAAAAAAADk/mfWVH07J3U4/s1600/images.jpg
+Hebrew literature consists of ancient, medieval, and modern writings in the Hebrew language
+. It is one of the primary forms of Jewish literature , though there have been cases of
+literature written in Hebrew by non-Jews . Hebrew literature was produced in many different
+parts of the world throughout the medieval and modern eras, while contemporary Hebrew
+literature is largely Israeli literature .
+
+
+
+Ancient Hebrew literature
+
+Beyond comparison, the most important such work is the Hebrew Bible ( Tanakh ).
+
+The Mishna , compiled around 200 CE, is the primary rabbinic codification of laws as derived
+from the Torah . It was written in Mishnaic Hebrew , but the major commentary on it, the Gemara ,
+was largely written in Aramaic . Many works of classical midrash were written in Hebrew.
+
+
+
+Medieval Hebrew literature
+
+Many works of medieval rabbinic literature were written in Hebrew, including: Torah
+commentaries by Abraham ibn Ezra , Rashi and others; codifications of Jewish law , such as
+Maimonides ' Mishneh Torah , the Arba'ah Turim , and the Shulchan Aruch ; and works of Musar
+literature (didactic ethical literature) such as Bahya ibn Paquda 's Chovot ha-Levavot ( The
+Duties of the Heart ). Many works of medieval philosophical literature such as the Guide to the
+Perplexed and The Kuzari , as well as many works of fiction, were written in Judeo-Arabic. One
+work of fiction which was written in Hebrew was the "Fox Fables" by Berechiah ben Natronai
+ha-Nakdan , Hebrew fables which resemble Aesop's fables .
+
+Much medieval Jewish poetry was written in Hebrew, including liturgical piyyutim in
+Palestine in the seventh and eighth centuries by Yose ben Yose, Yanai , and Eleazar Kalir .
+These poems were added to the Hebrew-language liturgy. This liturgy was compiled in book form
+as "the siddur" by rabbis including Amram Gaon and Saadia Gaon .
+
+Later Spanish, Provencal, and Italian poets wrote both religious and secular poems;
+particularly prominent poets were Solomon ibn Gabirol and Yehuda Halevi .
+
+
+
+Modern Hebrew literature
+
+In addition to writing traditional rabbinic literature in Hebrew, modern Jews developed new
+forms of fiction, poetry, and essay-writing, which are typically called "Modern Hebrew
+Literature."
+
+
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/-IX_D2_-GWeA/T7TQ43ICE8I/AAAAAAAAAGg/i7DusZNj5r0/s1600/200px-Agnon.jpg
+Shmuel Yosef Agnon - Hebrew Writer
+
+His works deal with the conflict between the traditional Jewish life and language and the
+modern world . They also attempt to recapture the fading traditions of the European shtetl
+(village). In a wider context, he also contributed to broadening the characteristic
+conception of the narrator 's role in literature. Agnon shared the Nobel Prize with the poet
+Nelly Sachs in 1966.
+
+
+
+Literary themes and influences
+
+    Agnon's writing has been the subject of extensive academic research . Many leading
+    scholars of Hebrew literature have published books and papers on his work, among them
+    Baruch Kurzweil , Dov Sadan , Nitza Ben-Dov , Dan Miron , and Dan Laor . Agnon writes about
+    Jewish life, but with his own unique perspective and special touch. In his Nobel
+    acceptance speech, Agnon claimed "Some see in my books the influences of authors whose
+    names, in my ignorance, I have not even heard, while others see the influences of poets
+    whose names I have heard but whose writings I have not read." He went on to detail that his
+    primary influences were the stories of the Bible . Agnon acknowledged that he was also
+    influenced by German literature and culture, and European literature in general, which
+    he read in German translation. A collection of essays on this subject, edited in part by
+    Hillel Weiss , with contributions from Israeli and German scholars, was published in
+    2010: Agnon and Germany: The Presence of the German World in the Writings of S.Y. Agnon.
+    The budding Hebrew literature also influenced his works, notably that of his friend,
+    Yosef Haim Brenner . In Germany, Agnon also spent time with the Hebraists Hayim Nahman
+    Bialik and Ahad Ha'am . The communities he passed through in his life are reflected in his
+    works:
+
+    - Galicia: in the books The Bridal Canopy , A City and the Fullness Thereof and A Guest for
+    the Night.
+
+    
+
+    - Germany: in the stories "Fernheim", "Thus Far" and "Between Two Cities".
+
+    
+
+    - Jaffa: in the stories "Oath of Allegiance", "Tmol Shilshom" and "The Dune".
+
+    
+
+    - Jerusalem: "Tehilla", "Tmol Shilshom", "Ido ve-Inam" and "Shira".
+
+    
+
+Nitza Ben-Dov writes about Agnon's use of allusiveness, free-association and imaginative
+dream-sequences, and discusses how seemingly inconsequential events and thoughts
+determine the lives of his characters. Some of Agnon's works, such as The Bridal Canopy, And
+the Crooked Shall Be Made Straight, and The Doctor and His Ex-Wife, have been adapted for
+theatre . A play based on Agnon's letters to his wife, "Esterlein Yakirati", was performed at
+the Khan Theater in Jerusalem.
+
+
+
+Ipinaskil ni
+
+
+
+Sydney Torre Garcia sa
+
+
+
+03:17 Walang mga komento:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif I-email Ito BlogThis!
+Ibahagi sa Twitter Ibahagi sa Facebook
+
+
+
+
+
+Egyptian Literature
+
+
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/-nD2hJYuGZfE/T6_GAziN9lI/AAAAAAAAADM/o2Pkm8lfADM/s1600/220px-Edwin_Smith_Papyrus_v2.jpg
+Egyptian literature traces its beginnings to ancient Egypt and is some of the earliest known
+literature. Indeed, the Egyptians were the first culture to develop literature as we know it
+today, that is, the book . [
+
+
+
+   
+
+Ancient Egyptian literature
+
+
+
+Plates vi & vii of the Edwin Smith papyrus at the Rare Book Room, New York Academy of Medicine See
+also: Ancient Egyptian literature The ancient Egyptians wrote works on papyrus as well as
+walls, tombs, pyramids, obelisks and more. Perhaps the best known example of ancient
+Egyptian literature is the Story of Sinuhe ; other well known works include the Westcar
+Papyrus and the Ebers papyrus , as well as the famous Book of the Dead . While most literature in
+ancient Egypt was so-called " Wisdom literature " (that is, literature meant for instruction
+rather than entertainment), there also existed myths, stories and biographies solely for
+entertainment purposes. The autobiography has been called the oldest form of Egyptian
+literature.
+
+The Nile had a strong influence on the writings of the ancient Egyptians, as did Greco-Roman
+poets who came to Alexandria to be supported by the many patrons of the arts who lived there, and
+to make use of the resources of the Library of Alexandria . Many great thinkers from around the
+ancient world came to the city, including Callimachus of Libya and Theocritus of Syracuse .
+Not all of the great writers of the period came from outside of Egypt , however; one notable
+Egyptian poet was Apollonius of Rhodes .
+
+
+
+Image:
+http://1.bp.blogspot.com/-Rlv0WK78uuI/T6_Ge1hUgMI/AAAAAAAAADU/AcG9wwOXoQA/s320/28_-_Sphinx_and_Pyramid.jpg
+
+Christian Egyptian literature
+
+Alexandria became an important center in early Christianity during roughly the 1st to 4th
+century CE. Coptic works were an important contribution to Christian literature of the
+period and the Nag Hammadi library helped preserve a number of books that would otherwise have
+been lost.
+
+
+
+Islamic Egyptian literature
+
+See also: Arabic literature  and Islamic literature By the eighth century Egypt had been
+conquered by the Muslim Arabs . Literature, and especially libraries, thrived under the new
+Egypt brought about by the Muslim conquerors. Several important changes occurred during
+this time which affected Egyptian writers. Papyrus was replaced by cloth paper , and
+calligraphy was introduced as a writing system. Also, the focus of writing shifted almost
+entirely to Islam . The earliest novel written in Egypt was Ibn al-Nafis ' Theologus
+Autodidactus , the earliest example of a science fiction and theological novel . The concept
+of a "brief statement praising a literary product", now known as a blurb , also dates back to
+medieval Egyptian literature from the 14th century, and was known as taqriz in medieval
+Arabic literature .
+
+Many tales of the One Thousand and One Nights ( Arabian Nights ) can be traced to medieval
+Egyptian storytelling traditions. These tales were probably in circulation before they
+were collected and codified into a single collection. Medieval Egyptian folklore was one of
+three distinct layers of storytelling which were incorporated into the Nights by the 15th
+century, the other two being ancient Indian and Persian folklore, and stories from Abbasid
+-era Baghdad .
+
+Writing first appeared in association with kingship on labels and tags for items found in
+royal tombs It was primarily an occupation of the scribes, who worked out of the Per Ankh
+institution or the House of Life. The latter comprised offices, libraries (called House of
+Books), laboratories and observatories. Some of the best-known pieces of ancient Egyptian
+literature, such as the Pyramid and Coffin Texts, were spoken from the New Kingdom onward and
+is represented in Ramesside administrative documents, love poetry and tales, as well as in
+Demotic and Coptic texts. During this period, the tradition of writing had evolved into the
+tomb autobiography, such as those of Harkhufand Weni. The genre known as Sebayt
+(Instructions) was developed to communicate teachings and guidance from famous nobles;
+thelpuwer papyrus, a poem of lamentations describing natural disasters and social
+upheaval, is a famous example.
+
+The Story of Sinuhe, written in Middle Egyptian, might be the classic of Egyptian literature.
+Also written at this time was the Westcar Papyrus, a set of stories told to Khufu by his sons
+relating the marvels performed by priests. The Instruction of Amenemope is considered a
+masterpiece of near-eastern literature. Towards the end of the New Kingdom, the vernacular
+language was more often employed to write popular pieces like the Story of Wenamun and the
+Instruction of Any. The former tells the story of a noble who is robbed on his way to buy cedar
+from Lebanon and of his struggle to return to Egypt. From about 700 BC, narrative stories and
+instructions, such as the popular Instructions of Onchsheshonqy, as well as personal and
+business documents were written in the demotic script and phase of Egyptian. Many stories
+written in demotic during the Graeco-Roman period were set in previous historical eras, when
+Egypt was an independent nation ruled by great pharaohs such as Ramesses II.
+
+
+
+Modern Egyptian literature
+
+In the late nineteenth and early twentieth centuries, the Arab world experienced a al-Nahda ,
+a Renaissance -esque movement which touched nearly all areas of life, including literature.
+[10] One of the most important figures from this time was Naguib Mahfouz , the first Egyptian to
+win the Nobel Prize in Literature . In 1914 Muhammad Husayn Haykal wrote Zaynab , considered
+the first modern Egyptian as well as Islamic novel.
+
+
+
+
+
+
+
+
+
+
+
+Ipinaskil ni
+
+
+
+Sydney Torre Garcia sa
+
+
+
+03:07 Walang mga komento:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif I-email Ito BlogThis!
+Ibahagi sa Twitter Ibahagi sa Facebook
+
+
+
+Sumerian Literature
+
+
+
+
+
+Sumerian literature is the literature written in the Sumerian language during the Middle
+Bronze Age . Most Sumerian literature is preserved indirectly, via Assyrian or Babylonian
+copies.
+
+The Sumerians invented the first writing system, developing Sumerian cuneiform writing out
+of earlier proto-writing systems by about the 30th century BCE. The earliest literary texts
+appear from about the 27th century BCE.
+
+
+
+Image:
+http://4.bp.blogspot.com/-1fJ_RugvFsM/T6_FujO0DYI/AAAAAAAAADE/flyrhmIJ9R4/s1600/220px-Sumerian_26th_c_Adab.jpg
+The Sumerian language remained in official and literary use in the Akkadian and Babylonian
+empires, even after the spoken language disappeared from the population; literacy was
+widespread, and the Sumerian texts that students copied heavily influenced later
+Babylonian literature .
+
+Sumerian literature has not been handed down to us directly, rather it has been rediscovered
+through archaeology . Nevertheless, the Akkadians and Babylonians borrowed much from the
+Sumerian literary heritage, and spread these traditions throughout the Middle East,
+influencing much of the literature that followed in this region. Ipinaskil ni
+
+
+
+Sydney Torre Garcia sa
+
+
+
+03:07 Walang mga komento:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif I-email Ito BlogThis!
+Ibahagi sa Twitter Ibahagi sa Facebook
+
+
+
+
+
+  Persia Literature
+
+
+
+Image:
+http://1.bp.blogspot.com/-j9qh4pPxL44/T6_E8Mbex6I/AAAAAAAAAC0/73hlFhqqfSo/s1600/220px-Nizami_Mausoleum.jpg
+
+Persian literature ( Persian : Ø§Ø¯ØšÛŒØ§Øª Ù�Ø§Ø±Ø³ÛŒ ‎ or
+Ø§Ø¯ØšÛŒØ§Øª ÙŸØ§Ø±Ø³ÛŒ ) spans two-and-a-half millennia,
+though much of the pre- Islamic material has been lost. Its sources have been within
+historical Persia including present-day Iran as well as regions of Central Asia where the
+Persian language has historically been the national language. For instance, Molana (Rumi),
+one of Persia's best-loved poets, born in Balkh (in what is now Afghanistan ), wrote in
+Persian, and lived in Konya then the capital of the Seljuks . The Ghaznavids conquered large
+territories in Central and South Asia and adopted Persian as their court language. There is
+thus Persian literature from Iran , Afghanistan , Pakistan , Tajikistan and other parts of
+Central Asia . Not all this literature is written in Persian , as some consider works written by
+ethnic Persians in other languages, such as Greek and Arabic , to be included. At the same time,
+not all literature written in Persian is written by ethnic Persians/Iranians. Particularly
+Indic and Turkic poets and writers have also used the Persian language in the environment of
+Persianate cultures.
+
+Described as one of the great literatures of mankind, Persian literature has its roots in
+surviving works of Middle Persian and Old Persian , the latter of which date back as far as 522
+BCE (the date of the earliest surviving Achaemenid inscription, the Behistun Inscription ).
+The bulk of the surviving Persian literature, however, comes from the times following the
+Islamic conquest of Persia circa 650 CE. After the Abbasids came to power (750 CE), the
+Persians became the scribes and bureaucrats of the Islamic empire and, increasingly, also
+its writers and poets. The New Persian literature arose and flourished in Khorasan and
+Transoxiana because of political reasons - the early Iranian dynasties such as Tahirids and
+Samanids were based in Khorasan.
+
+Persians wrote both in Persian and Arabic; Persian predominated in later literary circles.
+Persian poets such as Ferdowsi , Sa'di , Hafiz , Rumi and Omar Khayyam are also known in the West
+and have influenced the literature of many countries.
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/-N21a_T7nydo/T6_FCKlOYrI/AAAAAAAAAC8/JiLht0ArfrE/s320/220px-Shahnameh3-5.jpg
+
+Pre-Islamic Persian literature
+
+Nizami Mausoleum in the Republic of Azerbaijan .
+
+Very few literary works of Achaemenid Persia have survived, due partly to the destruction of
+the library at Persepolis.Most of what remains consists of the royal inscriptions of
+Achaemenid kings, particularly Darius I (522–486 BC) and his son Xerxes . Many Zoroastrian
+writings were destroyed in the Islamic conquest of Persia in the 7th century. The Parsis who
+fled to India , however, took with them some of the books of the Zoroastrian canon, including
+some of the Avesta and ancient commentaries ( Zend ) thereof. Some works of Sassanid geography
+and travel also survived, albeit in Arabic translations.
+
+
+
+No single text devoted to literary criticism has survived from pre-Islamic Persia. However,
+some essays in Pahlavi , such as "Ayin-e name nebeshtan" (Principles of Writing Book) and
+"Bab-e edteda’I-ye" ( Kalileh o Demneh ), have been considered as literary criticism
+(Zarrinkoub, 1959). [5]
+
+Some researchers have quoted the Sho'ubiyye as asserting that the pre-Islamic Persians had
+books on eloquence, such as 'Karvand'. No trace remains of such books. There are some
+indications that some among the Persian elite were familiar with Greek rhetoric and literary
+criticism (Zarrinkoub, 1947).
+
+
+
+Persian literature of the medieval and pre-modern periods
+
+While initially overshadowed by Arabic during the Umayyad and early Abbasid caliphates, New
+Persian soon became a literary language again of the Central Asian lands. The rebirth of the
+language in its new form is often accredited to Ferdowsi , Unsuri , Daqiqi , Rudaki , Taleb Amoli
+and their generation, as they used pre-Islamic nationalism as a conduit to revive the
+language and customs of ancient Persia.
+
+In particular, says Ferdowsi himself in his Shahnama :
+
+ØšØ³ÛŒ Ø±Ù†Ø¬ ØšØ±Ø¯Ù… Ø¯Ø± Ø§ÛŒÙ† Ø³Ø§Ù„
+Ø³ÛŒ
+
+Ø¹Ø¬Ù… Ø²Ù†Ø¯Ù‡ Ú©Ø±Ø¯Ù… ØšØ¯ÛŒÙ†
+ÙŸØ§Ø±Ø³ÛŒ
+
+"For thirty years, I endured much pain and strife,
+
+I awaken the Ajam by this Persian [book]."
+
+
+
+Poetry
+
+So strong is the Persian aptitude for versifying everyday expressions that one can encounter
+poetry in almost every classical work, whether from Persian literature, science, or
+metaphysics. In short, the ability to write in verse form was a pre-requisite for any scholar.
+For example, almost half of Avicenna 's medical writings are in verse.
+
+
+
+Works of the early era of Persian poetry are characterized by strong court patronage, an
+extravagance of panegyrics , and what is known as Ø³ØšÚ© Ù�Ø§Ø®Ø± "exalted
+in style". The tradition of royal patronage began perhaps under the Sassanid era and carried
+over through the Abbasid and Samanid courts into every major Persian dynasty . The Qasida was
+perhaps the most famous form of panegyric used, though quatrains such as those in Omar Khayyam
+'s Ruba'iyyat are also widely popular.
+
+Khorasani style, whose followers mostly were associated with Greater Khorasan , is
+characterized by its supercilious diction, dignified tone, and relatively literate
+language. The chief representatives of this lyricism are Asjadi , Farrukhi Sistani , Unsuri ,
+and Manuchehri . Panegyric masters such as Rudaki were known for their love of nature, their
+verse abounding with evocative descriptions.
+
+Through these courts and system of patronage emerged the epic style of poetry, with Ferdowsi
+'s Shahnama at the apex. By glorifying the Iranian historical past in heroic and elevated
+verses, he and other notables such as Daqiqi and Asadi Tusi presented the " Ajam " with a source
+of pride and inspiration that has helped preserve a sense of identity for the Iranian peoples
+over the ages. Ferdowsi set a model to be followed by a host of other poets later on.
+
+The 13th century marks the ascendancy of lyric poetry with the consequent development of the
+ghazal into a major verse form, as well as the rise of mystical and Sufi poetry . This style is
+often called "Araqi style" , (western provinces of Iran were known as Araq-e-Ajam or Persian
+Iraq) and is known by its emotional lyric qualities, rich meters, and the relative simplicity
+of its language. Emotional romantic poetry was not something new however, as works such as Vis
+o Ramin by Asad Gorgani , and Yusof o Zoleikha by Am'aq Bokharai exemplify. Poets such as Sana'i
+and Attar (who ostensibly have inspired Rumi ), Khaqani Shirvani , Anvari , and Nizami , were
+highly respected ghazal writers. However, the elite of this school are Rumi , Sadi , and Hafiz
+Shirazi .
+
+
+
+Regarding the tradition of Persian love poetry during the Safavid era, Persian historian
+Ehsan Yarshater notes, "As a rule, the beloved is not a woman, but a young man. In the early
+centuries of Islam, the raids into Central Asia produced many young slaves . Slaves were also
+bought or received as gifts. They were made to serve as pages at court or in the households of the
+affluent, or as soldiers and bodyguards. Young men, slaves or not, also, served wine at
+banquets and receptions, and the more gifted among them could play music and maintain a
+cultivated conversation. It was love toward young pages, soldiers, or novices in trades and
+professions which was the subject of lyrical introductions to panegyrics from the beginning
+of Persian poetry, and of the ghazal.
+
+In the didactic genre one can mention Sanai 's Hadiqat-ul-Haqiqah (Garden of Truth) as well as
+Nizami 's Makhzan-ul-AsrÄ�r (Treasury of Secrets). Some of Attar 's works also belong to
+this genre as do the major works of Rumi , although some tend to classify these in the lyrical
+type due to their mystical and emotional qualities. In addition, some tend to group Naser
+Khosrow 's works in this style as well; however true gems of this genre are two books by Sadi , a
+heavyweight of Persian literature, the Bustan and the Gulistan .
+
+After the 15th century, the Indian style of Persian poetry (sometimes also called Isfahani or
+Safavi styles) took over. This style has its roots in the Timurid era and produced the likes of
+Amir Khosrow Dehlavi , and Bhai Nand Lal Goya .
+
+
+
+
+
+
+
+Ipinaskil ni
+
+
+
+Sydney Torre Garcia sa
+
+
+
+03:06 Walang mga komento:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif I-email Ito BlogThis!
+Ibahagi sa Twitter Ibahagi sa Facebook
+
+
+
+Indian Literature
+
+
+
+Image:
+http://3.bp.blogspot.com/-K6ljl9KwKEI/T6_D-MWxj8I/AAAAAAAAACk/fIInhlojfu8/s1600/literature.jpg
+Indian literature refers to the literature produced on the Indian subcontinent until 1947
+and in the Republic of India thereafter. The Republic of India has 22 officially recognized
+languages .
+
+The earliest works of Indian literature were oraly transmitted. Sanskrit literature begins
+with the Rig Veda a collection of sacred hymns dating to the period 1500–1200 BCE. The
+Sanskrit epics Ramayana and Mahabharata appeared towards the end of the first millennium
+BCE. Classical Sanskrit literature flourished in the first few centuries of the first
+millennium CE [ citation needed ] , as did the Tamil literature and the PÄ�li Canon  
+
+
+
+In the medieval period, literature in Kannada and Telugu appeared in the 5th and 11th
+centuries respectively.Later, literature in Marathi , Bengali , various dialects of Hindi ,
+Persian and Urdu began to appear as well. Early in the 20th century, Bengali poet Rabindranath
+Tagore became India's first Nobel laureate . In contemporary Indian literature, there are
+two major literary awards; these are the Sahitya Akademi Fellowship and the Jnanpith Award .
+Eight Jnanpith awards each have been awarded in Hindi and Kannada , followed by five in Bengali
+, four in Malayalam , and three in Gujarati , Marathi and Urdu and 2 each in Assamese , Tamil and
+Telegu
+
+
+
+Image:
+http://2.bp.blogspot.com/-F-3lKzHmsrY/T6_EWHrxO8I/AAAAAAAAACs/-223M35pZaU/s320/Message_of_Bhagavad_Gita3%5B1%5D.jpg
+
+
+
+Classical Sanskrit literature
+
+Main article: Sanskrit literature The famous poet and playwright KÄ�lidÄ�sa wrote
+two epics: Raghuvamsha ( Dynasty of Raghu ) and Kumarasambhava ( Birth of Kumar Kartikeya );
+they were written in Classical Sanskrit rather than Epic Sanskrit. Other examples of works
+written in Classical Sanskrit include the PÄ�á¹‡ini 's Ashtadhyayi which
+standardized the grammar and phonetics of Classical Sanskrit. The Laws of Manu is an
+important text in Hinduism. KÄ�lidÄ�sa is often considered to be the greatest
+playwright in Sanskrit literature, and one of the greatest poets in Sanskrit literature,
+whose Recognition of Shakuntala and Meghaduuta are the most famous Sanskrit plays. He
+occupies the same position in Sanskrit literature that Shakespeare occupies in English
+literature . Some other famous plays were Mricchakatika by Shudraka, Svapna Vasavadattam by
+Bhasa , and Ratnavali by Sri Harsha. Later poetic works include Geeta Govinda by Jayadeva .
+Some other famous works are Chanakya 's Arthashastra and Vatsyayana 's Kamasutra .
+
+
+
+Prakrit literature
+
+The most notable Prakrit languages were the Jain Prakrit (Ardhamagadhi), Pali , Maharashtri
+and Shauraseni .
+
+One of the earliest extant Prakrit works is HÄ�la 's anthology of poems in Maharashtri, the
+GÄ�hÄ� SattasaÄ« , dating to the 3rd to 5th century CE. KÄ�lidÄ�sa and Harsha
+also used Maharashtri in some of their plays and poetry. In Jainism , many Svetambara works
+were written in Maharashtri.
+
+Many of AÅ›vaghoá¹£a 's plays were written in Shauraseni as were a sizable number of
+Jain works and Rajasekhara 's Karpuramanjari . Canto 13 of the Bhaá¹­á¹­ikÄ�vya is
+written in what is called "like the vernacular" ( bhÄ�á¹£Ä�sama ), that is, it can be
+read in two languages simultaneously: Prakrit and Sanskrit .
+
+
+
+Pali literature
+
+Main article: Pali Canon The Pali Canon is mostly of Indian origin. Later Pali literature
+however was mostly produced outside of the mainland Indian subcontinent , particularly in
+Sri Lanka and Southeast Asia .
+
+Pali literature includes Buddhist philosophical works, poetry and some grammatical works.
+Major works in Pali are Jataka tales , Dhammapada , Atthakatha , and Mahavamsa . Some of the
+major Pali grammarians were Kaccayana, Moggallana and Vararuci (who wrote Prakrit Prakash
+).
+
+
+
+
+
+Ipinaskil ni
+
+
+
+Sydney Torre Garcia sa
+
+
+
+03:06 Walang mga komento:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif I-email Ito BlogThis!
+Ibahagi sa Twitter Ibahagi sa Facebook
+
+
+
+
+
+Japanese Literature
+
+
+
+Image:
+http://4.bp.blogspot.com/-ZY_dbyMML9I/T6_JEQjYeDI/AAAAAAAAADs/tNNAAi8rv-0/s320/istockphoto_3042966-japanese-literature.jpg
+Early works of Japanese literature were heavily influenced by cultural contact with China
+and Chinese literature , often written in Classical Chinese . Indian literature also had an
+influence through the diffusion of Buddhism in Japan . Eventually, Japanese literature
+developed into a separate style in its own right as Japanese writers began writing their own
+works about Japan, although the influence of Chinese literature and Classical Chinese
+remained until the end of the Edo period . Since Japan reopened its ports to Western trading and
+diplomacy in the 19th century, Western and Eastern literature have strongly affected each
+other and continue to do so.
+
+
+
+Ancient literature (until 794)
+
+Before the introduction of kanji from China, Japanese had no writing system. At first,
+Chinese characters were used in Japanese syntactical formats, and the result was sentences
+that look like Chinese but were read phonetically as Japanese. Chinese characters were
+further adapted, creating what is known as man'yÅ�gana , the earliest form of kana , or
+syllabic writing. The earliest works were created in the Nara period . These include Kojiki
+(712), a work recording Japanese mythology and legendary history; Nihon Shoki (720), a
+chronicle with a slightly more solid foundation in historical records than Kojiki ; and
+Man'yÅ�shÅ« (759), a poetry anthology. One of the stories they describe is the tale of
+Urashima TarÅ� , which has been identified as the earliest example of a story involving
+time travel
+
+
+
+
+
+Classical literature (794–1185)
+
+Classical Japanese literature generally refers to literature produced during the Heian
+period , referred to as the golden era of art and literature. Genji Monogatari (early 11th
+century) by a woman named Murasaki Shikibu is considered the pre-eminent masterpiece of
+Heian fiction and an early example of a work of fiction in the form of a novel . Other important
+writings of this period include the Kokin WakashÅ« (905), a waka -poetry anthology, and
+Makura no SÅ�shi (990s), the latter written by Murasaki Shikibu's contemporary and
+rival, Sei ShÅ�nagon , as an essay about the life, loves, and pastimes of nobles in the
+Emperor's court. The iroha poem, now one of two standard orderings for the Japanese syllabary
+, was also developed during the early part of this period.
+
+The 10th century Japanese narrative, Taketori Monogatari , can be considered an early
+example of proto- science fiction . The protagonist of the story, Kaguya- hime , is a princess
+from the Moon who is sent to Earth for safety during a celestial war, and is found and raised by a
+bamboo cutter. She is later taken back to her extraterrestrial family in an illustrated
+depiction of a disc-shaped flying object similar to a flying saucer .Another notable piece of
+fictional Japanese literature was Konjaku MonogatarishÅ« , a collection of over a
+thousand stories in 31 volumes. The volumes cover various tales from India , China and Japan.
+In this time, the imperial court particularly patronized the poets, most of whom were
+courtiers or ladies-in-waiting. Reflecting the aristocratic atmosphere, the poetry was
+elegant and sophisticated and expressed emotions in a rhetorical style. Editing the
+resulting anthologies of poetry soon became a national pastime.
+
+
+
+Medieval literature (1185–1603)
+
+During this period, Japan experienced many civil wars which led to the development of a
+warrior class, and subsequent war tales, histories, and related stories. Work from this
+period is notable for its insights into life and death, simple lifestyles, and redemption
+through killing. A representative work is The Tale of the Heike (1371), an epic account of the
+struggle between the Minamoto and Taira clans for control of Japan at the end of the twelfth
+century. Other important tales of the period include Kamo no ChÅ�mei's HÅ�jÅ�ki
+(1212) and Yoshida KenkÅ�'s Tsurezuregusa (1331).
+
+Other notable genres in this period were renga , or linked verse, and Noh theater. Both were
+rapidly developed in the middle of the 14th century, the early Muromachi period .
+
+
+
+
+
+Early-modern literature (1603–1868)
+
+Literature during this time was written during the largely peaceful Tokugawa Period
+(commonly referred to as the Edo Period ). Due in large part to the rise of the working and middle
+classes in the new capital of Edo (modern Tokyo ), forms of popular drama developed which would
+later evolve into kabuki . The jÅ�ruri and kabuki dramatist Chikamatsu Monzaemon became
+popular at the end of the 17th century. Matsuo BashÅ� wrote Oku no Hosomichi (1702), a
+travel diary. Hokusai , perhaps Japan's most famous woodblock print artist, also
+illustrated fiction as well as his famous 36 Views of Mount Fuji .
+
+Many genres of literature made their dÃ©but during the Edo Period, helped by a rising
+literacy rate among the growing population of townspeople, as well as the development of
+lending libraries. Although there was a minor Western influence trickling into the country
+from the Dutch settlement at Nagasaki , it was the importation of Chinese vernacular fiction
+that proved the greatest outside influence on the development of Early Modern Japanese
+fiction. Ihara Saikaku might be said to have given birth to the modern consciousness of the
+novel in Japan, mixing vernacular dialogue into his humorous and cautionary tales of the
+pleasure quarters. Jippensha Ikku wrote TÅ�kaidÅ�chÅ« Hizakurige , which is a mix
+of travelogue and comedy. Tsuga Teisho, Takebe Ayatari, and Okajima Kanzan were
+instrumental in developing the yomihon , which were historical romances almost entirely in
+prose, influenced by Chinese vernacular novels such as Three Kingdoms and Shui hu zhuan . Two
+yomihon masterpieces were written by Ueda Akinari : Ugetsu monogatari and Harusame
+monogatari wrote the extremely popular fantasy/historical romance NansÅ� Satomi
+Hakkenden in addition to other yomihon. SantÅ� KyÅ�den wrote yomihon mostly set in the
+gay quarters until the Kansei edicts banned such works, and he turned to comedic kibyÅ�shi
+. Genres included horror, crime stories, morality stories, comedy, and
+pornography—often accompanied by colorful woodcut prints.
+
+Nevertheless, in the Tokugawa, as in earlier periods, scholarly work continued to be
+published in Chinese, which was the language of the learned much as Latin was in Europe
+
+
+
+
+
+Modern literature (1868–1945)
+
+
+
+
+
+The Meiji period marks the re-opening of Japan to the West, and a period of rapid
+industrialization. The introduction of European literature brought free verse into the
+poetic repertoire; it became widely used for longer works embodying new intellectual
+themes. Young Japanese prose writers and dramatists struggled with a whole galaxy of new
+ideas and artistic schools, but novelists were the first to successfully assimilate some of
+these concepts.
+
+
+
+A new colloquial literature developed centering on the " I novel ", with some unusual
+protagonists such as the cat narrator of Natsume SÅ�seki 's Wagahai wa neko de aru ( I Am a Cat
+). [ dubious – discuss ] Natsume SÅ�seki also wrote the famous novels Botchan and Kokoro
+(1914). Shiga Naoya , the so called "god of the novel," and Mori ÅŒgai were instrumental in
+adopting and adapting Western literary conventions and techniques. RyÅ«nosuke
+Akutagawa is known especially for his historical short stories. Ozaki KÅ�yÅ� ,
+KyÅ�ka Izumi , and Ichiyo Higuchi represent a strain of writers whose style hearkens back
+to early-Modern Japanese literature.
+
+
+
+In the early Meiji period (1868–1880s), Fukuzawa Yukichi authored Enlightenment
+literature, while pre-modern popular books depicted the quickly changing country. Then
+Realism was brought in by Tsubouchi ShÅ�yÅ� and Futabatei Shimei in the mid-Meiji
+(late 1880s–early 1890s) while the Classicism of Ozaki KÅ�yÅ� , Yamada Bimyo and
+KÅ�da Rohan gained popularity. IchiyÅ� Higuchi , a rare woman writer in this era, wrote
+short stories on powerless women of this age in a simple style in between literary and
+colloquial. KyÅ�ka Izumi , a favored disciple of Ozaki, pursued a flowing and elegant
+style and wrote early novels such as The Operating Room (1895) in literary style and later ones
+including The Holy Man of Mount Koya (1900) in colloquial.
+
+
+
+Romanticism was brought in by Mori ÅŒgai with his anthology of translated poems (1889) and
+carried to its height by TÅ�son Shimazaki etc. and magazines MyÅ�jÅ� and
+Bungaku-kai in early 1900s. Mori also wrote some modern novels including The Dancing Girl
+(1890), Wild Geese (1911), then later wrote historical novels. Natsume SÅ�seki , who is
+often compared with Mori ÅŒgai, wrote I Am a Cat (1905) with humor and satire, then depicted
+fresh and pure youth in Botchan (1906) and SanshirÃŽ (1908). He eventually pursued
+transcendence of human emotions and egoism in his later works including Kokoro (1914) his
+last and unfinished novel Light and darkness (1916).
+
+
+
+Shimazaki shifted from Romanticism to Naturalism which was established with his The Broken
+Commandment (1906) and Katai Tayama 's Futon (1907). Naturalism hatched " I Novel "
+(Watakushi-shÃŽsetu) that describes about the authors themselves and depicts their own
+mental states. Neo-romanticism came out of anti-naturalism and was led by KafÅ« Nagai ,
+Jun'ichirÅ� Tanizaki , KÅ�tarÅ� Takamura , HakushÅ« Kitahara and so on in the
+early 1910s. Saneatsu MushanokÅ�ji , Naoya Shiga and others founded a magazine Shirakaba
+in 1910. They shared a common characteristic, Humanism. Shiga's style was autobiographical
+and depicted states of his mind and sometimes classified as "I Novel" in this sense.
+RyÅ«nosuke Akutagawa , who was highly praised by Soseki, wrote short stories including
+RashÅ�mon (1915) with an intellectual and analytic attitude, and represented
+Neo-realism in the mid 1910s.
+
+
+
+During the 1920s and early 1930s the proletarian literary movement, comprising such writers
+as Takiji Kobayashi , Denji Kuroshima , Yuriko Miyamoto , and Ineko Sata produced a
+politically radical literature depicting the harsh lives of workers, peasants, women, and
+other downtrodden members of society, and their struggles for change.
+
+
+
+War-time Japan saw the dÃ©but of several authors best known for the beauty of their language
+and their tales of love and sensuality, notably Jun'ichirÅ� Tanizaki and Japan's first
+winner of the Nobel Prize for Literature , Yasunari Kawabata , a master of psychological
+fiction. Ashihei Hino wrote lyrical bestsellers glorifying the war, while TatsuzÅ�
+Ishikawa attempted to publish a disturbingly realistic account of the advance on Nanjing.
+Writers who opposed the war include Denji Kuroshima , Mitsuharu Kaneko , Hideo Oguma , and Jun
+Ishikawa .
+
+
+
+Post-war literature
+
+
+
+World War II , and Japan's defeat, deeply influenced Japanese literature. Many authors wrote
+stories of disaffection, loss of purpose, and the coping with defeat. Osamu Dazai 's novel The
+Setting Sun tells of a soldier returning from Manchukuo . ShÅ�hei ÅŒoka won the Yomiuri
+Prize for his novel Fires on the Plain about a Japanese deserter going mad in the Philippine
+jungle. Yukio Mishima , well known for both his nihilistic writing and his controversial
+suicide by seppuku , began writing in the post-war period. Nobuo Kojima 's short story "The
+American School" portrays a group of Japanese teachers of English who, in the immediate
+aftermath of the war, deal with the American occupation in varying ways.
+
+Prominent writers of the 1970s and 1980s were identified with intellectual and moral issues
+in their attempts to raise social and political consciousness. One of them, KenzaburÅ�
+ÅŒe wrote his best-known work, A Personal Matter in 1964 and became Japan's second winner of
+the Nobel Prize for Literature.
+
+Mitsuaki Inoue had long been concerned with the atomic bomb and continued in the 1980s to write
+on problems of the nuclear age, while Shusaku Endo depicted the religious dilemma of the
+Kakure Kirishitan , Roman Catholics in feudal Japan, as a springboard to address spiritual
+problems. Yasushi Inoue also turned to the past in masterful historical novels of Inner Asia
+and ancient Japan, in order to portray present human fate.
+
+
+
+Avant-garde writers, such as KÅ�bÅ� Abe , who wrote fantastic novels such as Woman in
+the Dunes (1960), wanted to express the Japanese experience in modern terms without using
+either international styles or traditional conventions, developed new inner visions.
+Yoshikichi Furui tellingly related the lives of alienated urban dwellers coping with the
+minutiae of daily life, while the psychodramas within such daily life crises have been
+explored by a rising number of important women novelists. The 1988 Naoki Prize went to Shizuko
+Todo for Ripening Summer , a story capturing the complex psychology of modern women. Other
+award-winning stories at the end of the decade dealt with current issues of the elderly in
+hospitals, the recent past (Pure- Hearted Shopping District in KÅ�enji , Tokyo), and the
+life of a Meiji period ukiyo-e artist. In international literature, Kazuo Ishiguro , a native
+of Japan, had taken up residence in Britain and won Britain's prestigious Booker Prize .
+
+
+
+Haruki Murakami is one of the most popular and controversial of today's Japanese authors. His
+genre-defying, humorous and surreal works have sparked fierce debates in Japan over whether
+they are true "literature" or simple pop-fiction: KenzaburÅ� ÅŒe has been one of his
+harshest critics. Some of Murakami's best-known works include Norwegian Wood (1987) and The
+Wind-Up Bird Chronicle (1994–1995). Another best-selling contemporary author is Banana
+Yoshimoto .
+
+Although modern Japanese writers covered a wide variety of subjects, one particularly
+Japanese approach stressed their subjects' inner lives, widening the earlier novel's
+preoccupation with the narrator's consciousness. In Japanese fiction, plot development
+and action have often been of secondary interest to emotional issues. In keeping with the
+general trend toward reaffirming national characteristics, many old themes re-emerged,
+and some authors turned consciously to the past. Strikingly, Buddhist attitudes about the
+importance of knowing oneself and the poignant impermanence of things formed an
+undercurrent to sharp social criticism of this material age. There was a growing emphasis on
+women's roles, the Japanese persona in the modern world, and the malaise of common people lost
+in the complexities of urban culture.
+
+Popular fiction, non-fiction, and children's literature all flourished in urban Japan in
+the 1980s. Many popular works fell between "pure literature" and pulp novels, including all
+sorts of historical serials, information-packed docudramas, science fiction, mysteries,
+detective fiction , business stories, war journals, and animal stories. Non-fiction
+covered everything from crime to politics. Although factual journalism predominated, many
+of these works were interpretive, reflecting a high degree of individualism. Children's
+works re-emerged in the 1950s, and the newer entrants into this field, many of them younger
+women, brought new vitality to it in the 1980s.
+
+
+
+Manga (comic books) have penetrated almost every sector of the popular market. They include
+virtually every field of human interest, such as a multivolume high-school history of Japan
+and, for the adult market, a manga introduction to economics, and pornography. Manga
+represented between 20 and 30 percent of annual publications at the end of the 1980s, in sales
+of some ¥ 400 billion per year.
+
+Cell phone novels appeared in the early 21st century. Written by and for cell phone users , the
+novels—typically romances read by young women—have become very popular both online and
+in print. Some, such as Love Sky , have sold millions of print copies, and at the end of 2007 cell
+phone novels comprised four of the top five fiction best sellers.
+
+
+
+
+
+
+
+Ipinaskil ni
+
+
+
+Sydney Torre Garcia sa
+
+
+
+03:05 Walang mga komento:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif I-email Ito BlogThis!
+Ibahagi sa Twitter Ibahagi sa Facebook Arabic Literature
+
+Arabic literature ( Arabic : Ø§Ù„Ø£Ø¯Øš Ø§Ù„Ø¹Ø±ØšÙŠ, al-Adab
+al-‘ArabÄ« ‎) is the writing produced, both prose and poetry , by writers in the Arabic
+language . The Arabic word used for literature is adab which is derived from a meaning of
+etiquette , and implies politeness, culture and enrichment.
+
+Arabic literature emerged in the 5th century with only fragments of the written language
+appearing before then. The Qur'an , widely regarded as the finest piece of literature work in
+the Arabic language , would have the greatest lasting effect on Arabic culture and its
+literature. Arabic literature flourished during the Islamic Golden Age , but has remained
+vibrant to the present day, with poets and prose-writers across the Arab world achieving
+increasing success.
+
+
+
+
+
+Pre-Islamic literature
+
+Further information: Pre-Islamic poetry
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Antarah_ibn_Shaddad_%26_Abla.jpg/220px-Antarah_ibn_Shaddad_%26_Abla.jpg
+
+
+
+Image:
+http://bits.wikimedia.org/static-1.20wmf2/skins/common/images/magnify-clip.png
+Antara Ibn Shadad, a slave who loved Abla, a wealthy woman. The period before the writing of the
+Qur'an and the rise of Islam is known to Muslims as Jahiliyyah or period of ignorance. Whilst
+this ignorance refers mainly to religious ignorance, there is little literature before this
+time, although significant oral tradition is postulated. Tales like those about Sinbad and
+Antar bin Shaddad were probably current, but were recorded later. The final decades of the 6th
+century, however, begin to show the flowering of a lively written tradition. This tradition
+was captured over two centuries later with two important compilations of the Mu'allaqat and
+the Mufaddaliyat .
+
+
+
+The Qur'an and Islam
+
+
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/NaskhQ.JPG/220px-NaskhQ.JPG
+
+The Qur'an was one of the first major works of Arabic literature and definitely the most
+influential. The Qur'an had a significant influence on the Arab language. The language used
+in the Qur'an is called classical Arabic and while modern Arabic is very similar, the
+classical is still the style to be admired. Not only is the Qur'an the first work of any
+significant length written in the language it also has a far more complicated structure than
+the earlier literary works with its 114 suras (chapters) which contain 6,236 ayat (verses).
+It contains injunctions , narratives , homilies , parables , direct addresses from God,
+instructions and even comments on itself on how it will be received and understood. It is also,
+paradoxically, admired for its layers of metaphor as well as its clarity, a feature it
+mentions itself in sura 16:103.
+
+Although it contains elements of both prose and poetry, and therefore is closest to Saj or
+rhymed prose , the Qur'an is regarded as entirely apart from these classifications. The text
+is believed to be divine revelation and is seen by Muslims as being eternal or 'uncreated'.
+This leads to the doctrine of i'jaz or inimitability of the Qur'an which implies that nobody
+can copy the work's style.
+
+This doctrine of i'jaz possibly had a slight limiting effect on Arabic literature;
+proscribing exactly what could be written. The Qur'an itself criticises poets in the 26th
+sura, actually called Ash-Shu'ara or The Poets:
+
+
+
+
+
+
+
+
+
+This may have exerted dominance over the pre-Islamic poets of the 6th century whose
+popularity may have vied with the Qur'an amongst the people. There were a marked lack of
+significant poets until the 8th century. One notable exception was Hassan ibn Thabit who
+wrote poems in praise of Muhammad and was known as the "prophet's poet". Just as the Bible has
+held an important place in the literature of other languages, The Qur'an is important to
+Arabic. It is the source of many ideas, allusions and quotes and its moral message informs many
+works.
+
+Aside from the Qur'an the hadith or tradition of what Muhammed is supposed to have said and done
+are important literature. The entire body of these acts and words are called sunnah or way and
+the ones regarded as sahih or genuine of them are collected into hadith. Some of the most
+significant collections of hadith include those by Muslim ibn al-Hajjaj and Muhammad ibn
+Isma'il al-Bukhari .
+
+The other important genre of work in Qur'anic study is the tafsir or commentaries Arab
+writings relating to religion also includes many sermons and devotional pieces as well as the
+sayings of Ali which were collected in the 10th century as Nahj al-Balaghah or The Peak of
+Eloquence .
+
+
+
+
+
+Ipinaskil ni
+
+
+
+Sydney Torre Garcia sa
+
+
+
+03:04 Walang mga komento:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif I-email Ito BlogThis!
+Ibahagi sa Twitter Ibahagi sa Facebook Mga Lumang mga Post Home Mag-subscribe sa: Mga Post
+(Atom) window.___gcfg = {'lang': 'fil'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+Hanapan ang Blog na Ito
+
+Ikinakarga... #uds-searchControl .gs-result .gs-title, #uds-searchControl .gs-result
+.gs-title *, #uds-searchControl .gsc-results .gsc-trailing-more-results,
+#uds-searchControl .gsc-results .gsc-trailing-more-results * { color:#0031f5; }
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result
+.gs-title a:visited * { color:#0828a7; } #uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-publishedDate { color: #bbbbbb; } #uds-searchControl .gs-result
+a.gs-visibleUrl, #uds-searchControl .gs-result .gs-visibleUrl { color: #0031f5; }
+#uds-searchControl .gsc-results { border-color: #bbbbbb; background-color:
+transparent; } #uds-searchControl .gsc-tabhActive { border-color: #bbbbbb;
+border-top-color: #bbbbbb; background-color: transparent; color: #b8b8b8; }
+#uds-searchControl .gsc-tabhInactive { border-color: #bbbbbb; background-color:
+transparent; color: #0031f5; } #uds-searchClearResults { border-color: #bbbbbb; }
+#uds-searchClearResults:hover { border-color: #bbbbbb; } #uds-searchControl
+.gsc-cursor-page { color: #0031f5; } #uds-searchControl .gsc-cursor-current-page {
+color: #b8b8b8; }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ▼  2012 (11)
+
+            - ▼  May (11)
+
+            -  My Auto-Biography I, Sydney Torre Garcia was bor...
+
+            
+
+            - Tourist Spots in Aklan Sampaguita GardenFamed as...
+
+            
+
+            - American Literature & Writers American literatur...
+
+            
+
+            - Poem Bad Idea I heard a...
+
+            
+
+            - Arabic Literature Arabic literature (Arabic: Ø§Ù„Ø£Ø¯Øš...
+
+            
+
+            - Japanese Literature Early works of Japanese liter...
+
+            
+
+            - Indian Literature Indian literature refers to the...
+
+            
+
+            -  Persia Literature Persian literature (Persian: ...
+
+            
+
+            - Sumerian Literature Sumerian literature is the ...
+
+            
+
+            - Egyptian Literature Egyptian literature traces ...
+
+            
+
+            - Hebrew Literature Hebrew literature consists of an...
+
+            
+
+        
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Sydney Garcia
+
+
+
+    Image:
+    http://3.bp.blogspot.com/-CspbGTiTSRk/T6-xvyc-zdI/AAAAAAAAAAc/K7vxoL2S3IQ/s220/62909_1629048408863_1316169252_31732236_926140_n.jpg
+
+        Sydney Torre Garcia
+
+    
+
+Tingnan ang aking kumpletong profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Travel na template. Mga
+larawan ng template ni Cimmerian . Pinagana ng Blogger .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+window.setTimeout(function() { document.body.className =
+document.body.className.replace('loading', ''); }, 10); if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV2";window['blogger_blog_id'] =
+'2601221748947486661';BLOG_attachCsiOnload('');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d2601221748947486661','//sydneyworlit.blogspot.com/','2601221748947486661');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'2601221748947486661', 'bloggerUrl': 'http://www.blogger.com', 'title': 'WORLD
+LITERATURE', 'pageType': 'index', 'url': 'http://sydneyworlit.blogspot.com/',
+'canonicalUrl': 'http://sydneyworlit.blogspot.com/', 'canonicalHomepageUrl':
+'http://sydneyworlit.blogspot.com/', 'homepageUrl':
+'http://sydneyworlit.blogspot.com/', 'blogspotFaviconUrl':
+'http://sydneyworlit.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': '',
+'pageTitle': 'WORLD LITERATURE', 'encoding': 'UTF-8', 'locale': 'fil', 'isPrivate':
+false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42WORLD
+LITERATURE - Atom\42
+href\75\42http://sydneyworlit.blogspot.com/feeds/posts/default\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42WORLD LITERATURE
+- RSS\42
+href\75\42http://sydneyworlit.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42WORLD LITERATURE - Atom\42
+href\75\42http://www.blogger.com/feeds/2601221748947486661/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0752601221748947486661\42 /\076',
+'meTag': '\74link rel\75\42me\42
+href\75\42http://www.blogger.com/profile/09865599003227618776\42 /\76\n',
+'openIdOpTag': '\74link rel\75\42openid.server\42
+href\75\42http://www.blogger.com/openid-server.g\42 /\76\n\74link
+rel\75\42openid.delegate\42 href\75\42http://sydneyworlit.blogspot.com/\42
+/\76\n', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if
+IE]\76\74script type\75\42text/javascript\42
+src\75\42//www.blogger.com/static/v1/jsbin/3651483553-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076',
+'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'mobile_background_overlay': 'transparent none
+repeat scroll top left', 'tabs_selected_background_gradient':
+'url(//www.blogblog.com/1kt/travel/bg_black_50.png)', 'tabs_background_color':
+'transparent', 'content_padding': '20px', 'widget_link_visited_color': '#b87209',
+'tabs_selected_background_color': 'transparent', 'footer_background_gradient':
+'none', 'link_hover_color': '#0031f5', 'post_title_text_color': '#ffffff',
+'content_background': 'transparent
+url(http://blogblog.com/1kt/travel/bg_black_70.png) repeat scroll top left',
+'description_text_color': '#bbbbbb', 'widget_font': 'normal normal 13px Georgia,
+Utopia, \47Palatino Linotype\47, Palatino, serif', 'body_text_color': '#b8b8b8',
+'link_visited_color': '#0828a7', 'post_background_color': 'transparent',
+'post_title_font': 'normal bold 20px \47Trebuchet MS\47,Trebuchet,sans-serif',
+'tabs_text_color': '#ffffff', 'endSide': 'right', 'startSide': 'left', 'tabs_font':
+'normal bold 16px \47Trebuchet MS\47,Trebuchet,sans-serif',
+'widget_outer_background_gradient':
+'url(//www.blogblog.com/1kt/travel/bg_black_50.png)', 'content_posts_padding':
+'10px', 'widget_link_color': '#bbbbbb', 'body_font': 'normal normal 13px Georgia,
+Utopia, \47Palatino Linotype\47, Palatino, serif', 'content_imageBorder_top': 'none',
+'comments_background': 'transparent
+url(http://blogblog.com/1kt/travel/bg_black_50.png) repeat scroll top center',
+'date_text_color': '#bbbbbb', 'mobile_button_color': '#ffffff',
+'widget_outer_background_color': 'transparent', 'widget_title_font': 'normal bold
+14px \47Trebuchet MS\47,Trebuchet,sans-serif', 'widget_title_text_color':
+'#ffffff', 'widget_text_color': '#bbbbbb', 'content_margin': '20px',
+'body_background': '#eb8f00
+url(http://themes.googleusercontent.com/image?id\07517AET9jq8MwaopDcGuJxZfnsugStU4sqWiJ7b_6HZ2zZaANe_xhCWQDa7efxGNS9mOetq)
+no-repeat fixed top center /* Credit: Cimmerian
+(http://www.istockphoto.com/googleimages.php?id\0751833969\46platform\75blogger)
+*/', 'keycolor': '#eb8f00', 'link_color': '#0031f5', 'content_background_color':
+'transparent', 'header_font': 'normal normal 60px \47Trebuchet
+MS\47,Trebuchet,sans-serif', 'header_text_color': '#ffffff',
+'widget_border_bevel_color': 'transparent', 'content_imageBorder_top_space': '0',
+'date_font': 'normal normal 14px \47Trebuchet MS\47,Trebuchet,sans-serif',
+'tabs_selected_text_color': '#ffffff', 'body_background_color': '#cb9a4d',
+'post_background_url': 'none', 'tabs_background_gradient':
+'url(//www.blogblog.com/1kt/travel/bg_black_50.png)',
+'widget_alternate_text_color': '#ffffff'}, 'override': ''}}, {'name': 'view', 'data':
+{'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name':
+'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'crosscol', null, document.getElementById('PageList1'),
+{'title': 'Mga Pahina', 'links': [{'href': 'http://sydneyworlit.blogspot.com/',
+'title': 'Home', 'isCurrentPage': true}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'footer-3', null,
+document.getElementById('Attribution1'), {'attribution': 'Travel na template. Mga
+larawan ng template ni \74a
+href\75\47http://www.istockphoto.com/googleimages.php?id\0751833969\46platform\75blogger\46langregion\75fil\47
+target\75\47_blank\47\76Cimmerian\74/a\76. Pinagana ng \74a
+href\75\47http://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/4198168804-lbx_fil.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_CustomSearchView', new
+_WidgetInfo('CustomSearch1', 'sidebar-left-1', null,
+document.getElementById('CustomSearch1'), {'title': 'Hanapan ang Blog na Ito',
+'includeBlog': true, 'includePostLinks': true, 'includeWeb': true, 'linkLists': [],
+'blogUrl': 'http://sydneyworlit.blogspot.com/', 'loadingMsg': 'Ikinakarga...',
+'thisBlogMsg': 'Ang Blog na Ito', 'linkedFromHereMsg': 'Naka-link Mula Dito',
+'theWebMsg': 'Ang Web', 'backgroundColor': 'transparent', 'textColor': '#b8b8b8',
+'dateColor': '#bbbbbb', 'linkColor': '#0031f5', 'urlColor': '#0031f5',
+'visitedLinkColor': '#0828a7', 'borderColor': '#bbbbbb', 'activeBorderColor':
+'#bbbbbb'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar-right-1', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ProfileView', new
+_WidgetInfo('Profile1', 'sidebar-right-2-1', null,
+document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+

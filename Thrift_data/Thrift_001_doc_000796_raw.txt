@@ -1,0 +1,2803 @@
+
+
+
+
+It's Not About SEO. It's About YEO. (function() { var cx =
+'016474116467456296202:zcdp2tq_pxi' var gcse = document.createElement('script');
+gcse.type = 'text/javascript'; gcse.async = true; gcse.src =
+(document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_logo.png?1348684471
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_b_search.png?1348684471
+    var currentIndex = -1 var default_phrase = "Find Homes for Sale in your city"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets2.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348684471
+        Consumer
+
+        - Home Buying
+
+        
+
+        - Home Improvement
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Home Selling
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets2.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348684471
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  body { background: #000000
+url(http://www.activeraincustomizer.com/img/228-background.jpg) repeat fixed
+center top; margin: 0; padding: 0; } table#blog_content { width: 960px; margin: 0 auto; }
+td.blog_content_td { background: #ffffff; } #custom_blog_header { display: block;
+background:#000000 url(http://www.activeraincustomizer.com/img/228-header.jpg)
+no-repeat scroll left top; height: 130px; margin-top: 0px; } #top_menu { border: none;
+background-color:#22639B; background-image: none; } #top_menu li a, #top_menu li
+span.fake_menu_item { color: #FFFFFF; text-shadow: none; } #top_menu .top_dropdown ul li
+a:hover { background: none !important; } #logo_wrapper { background: white; } #header {
+margin-top: 0; padding-top: 0; border: none !important; } .nav { margin: 0 !important;
+border-width: 0 !important; } #top_menu .top_dropdown { border: none;
+background-color:#22639B; } #top_menu .top_dropdown a, #top_menu .top_dropdown
+.inner_menu_header { color:#FFFFFF !important; } #top_menu .top_dropdown
+.inner_menu_header { text-decoration: underline; } #top_menu .top_dropdown ul li a:hover
+{ background-color:#22639B; font-weight: bold; } .top_dropdown { margin-top: 5px; } * html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * + html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * html
+.top_dropdown { margin-top: 3px; z-index: 1000; } * + html .top_dropdown { margin-top: 19px;
+z-index: 1000; } Home : Blogs : Jeff Turner : Turner's Perspective .reblog { margin-left: 4px;
+} Tweet
+
+It's Not About SEO. It's About YEO.
+
+
+
+The focus on search engine optimization in blogging is a distraction.
+
+
+
+
+
+Image: /image_store/uploads/9/1/1/4/2/ar117486365424119.jpg For the Project Blogger
+competition, I've actually told Julie Ferenzi to stop thinking about it. She was becoming a
+little fixated on the search engines finding her and was spending a lot of time reading about
+how to get good search engine placement. It didn't surprise me.
+
+SEO tends to dominate discussions about the benefits of blogging and it shouldn't. Don't get
+me wrong, I'm a geek. (Did I say that out loud?) I like the "science" of SEO. I read as much as I can
+on the topic. It helps keep Alzheimer's at bay. So I know it plays a role in a blogs success. I'm
+not saying SEO isn't important. I'm just quite certain that all too often it's prominence in
+our conversations leads us away from the meat of the issue. Successful blogging, in the long
+run, has nothing to do with search engines or the bots they send out each night to scrape our
+sites.
+
+Focusing so much on SEO seems like a good deal of overkill anyway. A good blog platform, like
+Wordpress , does most of the SEO heavy lifting for you. Use a blog platform like WordPress and
+consistently write a lot of original text about your topics and search engines will like you.
+Let me say that agin... write good content, make sure you are talking about what you want to be
+found for, do it consistently, do it frequently, and the search engines will find you. I know
+that's over simplifying things a quite a bit, but it's not far from pure fact.
+
+Case in point: Julie hasn't been writing that long, but today if you search on family
+activities in plainfield, il , her not very populated Living In Plainfied, Illinois blog
+comes up as the number 2 unpaid link. If she doesn't continue to write consistently, it won't
+stay that way. But her blog is already working for her, without really focusing on SEO.
+
+Besides, I'm not sure the way SEO works today will be the way it works tomorrow. And if everyone
+starts blogging it may become harder and harder to get consistently good SEO position. So,
+I'll say it again, in the long run, success in blogging has nothing to do with search engines. 
+It has everything to do with relationships and seeing your blog as a way to enhance and add value
+to those relationships.
+
+Relationships won't be impacted by changes in how Google ranks pages. 
+
+
+
+Image: /image_store/uploads/4/2/1/5/2/ar117486382625124.jpg So, as we officially kick
+off Project Blogger , allow me introduce a new acronym into the discussion: YEO
+
+YEO: You Engaging Others.
+
+If you want to be successful in blogging, you need to understand how to engage others in every
+aspect of the blogging experience.
+
+Where Engagement Begins
+
+Of course content is important, but it has to go beyond that. And it starts before you begin to
+write a single word.   .
+
+You live in the area you write about. So it's the people that really matter. The relationships
+you develop as you go out and meet the folks at the new home sites, at local businesses, at
+association meetings and anywhere else you choose to focus your writing, those real, live
+human beings are your ultimate target. Why wait for them to find you in a search?
+
+Introduce Yourself & Your Blog
+
+Before you write a single word, make sure you introduce yourself, tell the people who are
+associated with your post that will be writing about them. Explain why. Explain the purpose of
+your blog and why people want to read it and why you think people will be interested in them,
+their business or their mission. Ask if you can quote them. Take their picture. More often than
+not, they'll be more than willing to talk to you and share information you may not be able to
+obtain any other way. 
+
+Harness The Power Of Their Relationships
+
+Obtain their email address and phone number, then send them the link to your post. Be sure to use
+their name in the posts and a photo if you took one. Most people don't get to see their name in
+print very often, so it's a big deal to be written about by someone else. They WILL remember you
+for that. Here's something else they will do, they'll forward the link to friends, family and
+business associates. You extend your reach virally. And you don't have to just depend on
+someone finding the story on Google to make it happen. 
+
+That's the point. Other people know other people. Connect with them and they'll connect you.
+This works whether you're writing about a local restaurant or whether you're writing about a
+historic building. Put the focus on them. If you engage the people behind the stories, the
+chance that they will actively participate in your success, in spreading the story, go up
+dramatically.
+
+Follow Up... But Not Via The Internet
+
+I'm an internet junkie. I love all the gadgets and goodies and ideas . But nothing replaces a
+telephone call, a handwritten note or a personal follow up visit to say "thank you." Treating
+them like your customer before they're your customer. Show them, by your actions, how you
+would work with anyone they might consider referring. If you can execute on the actions around
+writing the post, engage them and keep them informed, they will rightly assume you'd do the
+same thing in a real estate transaction.
+
+Meet the people behind the stories and they'll be happy to share. Share the stories with them
+and they'll share them with their friends and business associates. Go out of your way to treat
+them with respect and those same friends and business associates will hear about that as well.
+Your actions will do all your evangelizing for you.
+
+SEO is great, YEO is better.
+
+You Engaging Others. That's what this is really about.
+
+Jeff Turner aka respres  
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/star.gif?1348684471
+Posted by Jeff Turner on 04/09/2007 07:23 PM   Comments (144)   SEO in the Online Marketing
+Channel   seo , yeo , project blogger , julie ferenzi , jeff turner   Generate short URL Post is
+included in group: Active Rain Newbies
+
+Post is included in group: Blogging & SEO
+
+Post is included in group: Project Blogger
+
+Post is included in group: Rainmaking - Internet Marketing Strategies
+
+Post is included in group: The Art Of Marketing You
+
+
+
+144 Comments on It's Not About SEO. It's About YEO. APR 09 2007
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/31c0417b26cd6f5e946c2056e1bcbb328d041df4.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686979
+Jeff - I am a firm believer in the best SEO you can do is create unique content - with all the
+changes that happen with the big hitters unique content will never go away.  If we blog about
+our area, our market and so on we will naturally move up in the ranks.  Of course there are
+always those little things we can do to help us along that should not be over looked... but in
+general you are so correct YEO is much better. (pst I am a geek too) Thesa Chambers, Principal
+Broker Licensed in Oregon, with (Alpine Real Estate) 6:55pm • #1
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+I love it Jeff. Why worry so much... just write good original content and write often...you'll
+be found, How very true.
+
+  Monika McGillicuddy~NH Real Estate Broker (Prudential Verani Realty) 6:56pm • #2
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685093
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685093
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685093
+Jeff:  You know I am one of your biggest fans and that is what it was about for me when I
+started!  I think SEO is important but you need to find your audience and keep them
+captivated!
+
+Renee Burrows - Las Vegas Real Estate - (702-580-1783) www.ShackDiva.com (BrokerThe Force
+Realty-REALTOR-Estate-Probate-REO-Short Sale) 6:58pm • #3
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+I couldn't agree more!  I'm seeing it happen before my very eyes. Julie Ferenzi (Real People
+Realty, Inc.) 6:58pm • #4
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+Jeff: Here is a real beginner question..are using Wordpress and using Blogger.com the same
+idea? Is one much better than the other? Thanks. Diana Corcoran - Rhinebeck Real Estate
+(Prudential Serls Prime Properties) 7:02pm • #5
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+Jeff- I like the way you think. No matter the medium you use- keep it personal. Mary De Luca (Long
+& Foster) 7:03pm • #6 That is a great way of thinking about it!  Thanks for pointing it out to
+Julie and sharing it with us! 7:30pm • #7
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+This is an outstanding post and I love the creativity of YEO (the graphic is hot!) Kelly
+Kilpatrick, Broker-Associate (Gold Coast Realty) 7:50pm • #8
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685093
+Thanks an excellent point and I'm glad that you pointed it out. It's true what everyone has
+said...just be original in your content when blogging and do it often. That should be enough!
+     Ricardo Bueno (Diverse Solutions) 7:55pm • #9
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+Jeff: What you are saying really make sense.  SEO as we know it will be done differently in the
+near future; so although important is not what the focus should be on.  Yes blogging
+consistently and good local contents is key.  Great Post Jennifer Fivelsdal Rhinebeck Real
+Estate (Serving Dutchess| Columbia|Ulster Ctys (LIC. R.E. Broker JFIVE Home Realty LLC )
+7:58pm • #10
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/31c0417b26cd6f5e946c2056e1bcbb328d041df4.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+Jeff, I am NOT an internet junkie. What little I know I picked up here on A.R. I know I should be
+blogging and I write about the area I live in because that's what I know. So is this a good thing? I
+know when I google my name I find me listed on the top 3-6  because of A.R. and Localism.
+What is my goal? I'm getting about a contact a week from A.R. And does the amount of comments you
+have relate to SEO / YEO? Dena Stevens ~ Putting the 'real' into REALTOR (Century 21 Canon Land &
+Investment) 8:02pm • #11
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/21e6146e6d58d44845c14df53012b05d033db2c4.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685093
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685093
+Jeff, I've never given SEO much thought at all and my rankings are outstanding. I think it's
+because I write about what I know, real estate and Poinciana. Just by being consistent my SEO
+takes care of itself. I think.   Bryant Tutas-Tutas Towne Realty, Inc 8:04pm • #12
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+Jeff, You are the master of engaging others.  I feel you are talking directly to me through all
+of your posts.  Your topics are always captivating.  I seriously don't know how you stay on
+top of it all.  You have definitely made it easier for me to become an AR addict.  I absolutely
+appreciate all you do.  Thank you! Bob Carney Licensed MD/PA Real Estate Agent (Long & Foster
+Real Estate, Inc.) 8:05pm • #13
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/21b71b9f37edbedc44f411197b05e07357b2bf9f.gif?1348684471
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348684471
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348684471
+Thanks for reminding me. YEO is so important and I need to send out the blogs where I mention my
+sellers and friends. Missy Caulk-Ann Arbor-RealtorÂ® Ann Arbor Real Estate (Keller
+Williams-Ann Arbor) 8:06pm • #14
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+Jeff, you've got 51 votes and only 9 comments.  Folks are voting!  I agree with your topic
+110%  I'm often forgetting about SEO but still do well in my local ranking.  How does #1, #2,
+#4, #5 & #6 grab you?  WOOO HOOOO!  umm, on aother note, I know I'm one of the 8 who spends 3+
+hrs here, Sarah may be another.  lol  That leaves another 6 hard core AR folks out there who
+were willing to admit it.  Where'd you get the cool voting thingie?  Pinecrest | Palmetto
+Bay | Maggie Dokic, SFR (Keller Williams Realty Premier Properties) 8:07pm • #15
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+Thanks Jeff for another GREAT post and a new acrynum.  I have done a little of what you've
+suggest with production builders.  I also have asked a few people from time to time to tell me
+about their business so I can include it on my blog.  I need to follow up with that and start
+using that technique more so.  Looking forward to the project blogger posts. Cynthia Sloop
+(Community Association Manager) 8:07pm • #16 Great point. I'm thankful that my site has
+generated a modest bit of traffic.  Most of it is generated from my on-line 'contributions'
+in areas where a more local audience is likely to find me.  I have to say, it's been more
+effective than SEO, though I am greatful for any traffic the search engines send my way as well.
+
+David Smith (Fillmore Realty) 8:17pm • #17
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+Jeff: Great information.  I have spent hours and hours this week thinking, talking and
+learning about SEO and now I think I am convince I should have been writing blogs for Localism
+instead.  It is so very hard for a new person to figure out how to best spend their time.  Thank
+you presenting the other side of the SEO coin. Diana Corcoran - Rhinebeck Real Estate
+(Prudential Serls Prime Properties) 8:37pm • #18
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348684471
+The more I read about blogging and YEOing and SEOing and Googling, the more time I spend
+thinking of original content for my blog and how to get it seen.  So excuse me, I need to go and do
+some RSSing. Eliese Pivarnik, Colorado Group Realty, GRI, RSPS, CDPE Steamboat Real Estate
+(Colorado Group Realty, LLC) 9:06pm • #19
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+
+Yeo Jeff, Another fabulous post for my Bookmarks. Your blog hits is on the nail for me. I have
+been thinking about this very topic. Not as a post that I would write but as a new beggining for
+one of my other blogs. I have one other blog and a new domain name that intend to use for a new blog.
+I need more help.
+
+  Downtown Portland Real Estate Broker~Herb Hamilton,CDPE (RE/MAX Preferred Inc.
+Realtors) 9:10pm • #20
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+
+Thanks, Jeff, for the encouragement to NOT focus on SEO, at least excessively. It all makes
+sense - you engaging others, and it DOES work. I really enjoy the community profiles and
+getting down to the very local level by engaging those that you want to know, or want to write
+about, is an outstanding idea. Plus it's just good relationship building. Who knows where it
+can lead?
+
+Jeff Jeff Dowler ~ Carlsbad Homes for Sale ~ 760-840-1360 (Solutions Real Estate (CA DRE Lic. #
+01490977)) 9:16pm • #21
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+This is good information.  Thank you for sharing . I keep learning more about this great
+issue. Dave Cheatham (INC Financial ) 9:30pm • #22
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+once again you have passed along some great information.  Thanks again Jeff for sharing
+valuable information.  I for one appreciate it. Desiree Daniels (RE/MAX Tri County)
+10:04pm • #23
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685093
+
+YEO is the best thing to focus on.  When you do, you attract consumers not repell them.
+
+kk Kristal Kraft ~Denver Real Estate~720-279-4599 (The Berkshire Group Realtors) 10:18pm
+• #24
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+Wow Jeff!  You are making this so very simple.  Thank you for your wonderful post! Pasadena
+CA Real Estate - Irina Netchaev (John Aaroe Group) 10:32pm • #25
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+All... I hope I didn't give the impression that SEO doesn't matter, it certainly does. I just
+feel strongly that the volume of conversation around it can be a distraction from what makes it
+work on levels beyond the search engines. It's all about relationships.
+
+  Jeff Turner (Real Estate Shows) 10:42pm • #26 Jeff Excellent post -- you shoud have 3
+stars! Its easier for me to understand YEO than SEO anyway --its what I do best. You just gave me a
+myriad of ideas for an upcoming speech I have at a conference -- MUCHOS KUDOS
+
+Aziz Abdur-Raoof,Howard Co. Real Estate Scoop (RE/MAX Rewards) 10:45pm • #27
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Thesa, Moniks, & Renee... I think this can, at times, seem much harder than it really is.
+Finding a way to make the blogging a part of your daily relationship building activities has to
+be a goal.
+
+Julie... you're doing great!
+
+Diana... Dustin Luther said this to me at lunch a few weeks ago, and I'm not quoting exactly, but
+it went something like this... Wordpress does such a good job of serving information the way
+the search engines like it you almost don't need to think about SEO. Dustin... if I've
+misquoted you and you're reading this, PLEASE correct me. I think he's right. I'm not a fan of
+blogger, personally, but I have no reasons other than personal preference.
+
+Mary, Deborah, Kelly, Ricardo, Jennifer... thank you.
+
+Dena... one contact per week? I don't know about the rest of the gang here on AR, but that's
+sounds pretty good to me.  Jeff Turner (Real Estate Shows) 10:50pm • #28
+
+Jeff,
+
+Excellent post. Confirms what I've been thinking. Relationships are the key. We are in th
+rewlationship business, after all.
+
+Tom Sinclair
+
+Fairhope, Alabama Tom Sinclair (About the House - Home Inspections) 10:50pm • #29
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Bryant... you epitomize YEO to me. Why? Because you are clear with your sellers. You're going
+to be writing about them and you write it straight. What seller wouldn't check to see what
+you're saying? What seller wouldn't tell others if they see you talking about them? You
+concentrate on the relationship in your stories and it translates well to the reader. You
+don't need to think about SEO. You got the YEO down.
+
+  Jeff Turner (Real Estate Shows) 10:53pm • #30
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Bob... thank you.
+
+Missy... yes!
+
+Maggie... the cool voting this is from PollDaddy.com. See this post .
+
+Cynthia... I'm looking forward to them as well. It's going to be an interesting journey.
+
+David... I would expect exactly what you're describing.
+
+Diana... keep reading, but definitely start writing. As you go through your day, look at what
+interests you, who you meet. Think about how you can HELP THEM. Think about how YOUR blog can
+help them grow, give them publicity, etc. Focus on how you can add value to those
+relationships. The writing can come from that.
+
+  Jeff Turner (Real Estate Shows) 10:58pm • #31
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Ellese... glad to help! :)
+
+Herb... do share this other blog when it's ready. Please.
+
+Jeff... you know I follow your other blog. I think you do a great job of hitting on the local
+flavor. Who do you want to konw? is a good question for everyone to ask. Find the answer, then use
+your blog to break the ice.
+
+Dave & Desiree, thank you.
+
+Kristal... you're another of those that just consistently does it right. And that's the
+really hard part, doing it consistently.
+
+Irina... I think it is simple. We make it way more complicated than it really is.
+
+Tom, you're right. It's all about relationships.
+
+  Jeff Turner (Real Estate Shows) 11:04pm • #32
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+Aziz, please let me know what creative juices flow into that speech! Jeff Turner (Real Estate
+Shows) 11:04pm • #33
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+Great advice, Jeff.  I have to admit that I have focused more on SEO than YEO.  Now that I have
+most of my SEO bases covered, I look forward to moving more in the direction of engaging my
+readers. Buyer's Broker of Northern Michigan, LLC 11:11pm • #34
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Jeff - You're a GEEK!!!  : )
+
+I have to say that there is a major advantage to getting coached by non-real estate agents - we
+get to see the "human" side and the "consumer" side of the coaching which is so key to
+successfull blogging.  I loved everything you had to say here...from the introduction
+on....I can't wait to get that blogsite going.....I'm getting anxious now. Rick & Ines - Miami
+Beach Real Estate (Majestic Properties) 11:14pm • #35
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348615406
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348615406
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348615406
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348615406
+
+Jeff,
+
+Focusing on people is a great idea and is what makes real estate the best job in the world.  We
+get to help people make the American Dream of home ownership a reality and your way of going
+about it is right on.
+
+Fran Fran Gatti - RealtorÂ®, CDPEÂ®, RDCProÂ®, Crescent City CA Real Estate (RE/MAX
+Coastal Redwoods) 11:19pm • #36
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+Jeff, this has to be one of the best posts I've read in a LONG time. Kudos to you! You've nailed
+what many of us miss in our attempts, including me. I tend to get caught up in the SEO game also and
+forget sometimes that the basic, simple things like you mentioned are really what will drive
+my blogs to where I need them. Thanks for a GREAT post! Ryan Hukill - Edmond RealtorÂ®
+(ShowMeOKC Team of Paradigm AdvantEdge) 11:19pm • #37
+
+Jeff,
+
+Great post! Thanks for the insights. I have a fairly successful blog now with 300 visits a day
+but am getting ready to launch a new one and I'm struggling what that first post should be. YOu
+got me thinking in new direction now. THanks 11:25pm • #38
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Jeff, great post. As with all marketing, it needs to get personal. If we are blogging only to
+gain "market share" it still needs to be relevant to our audience. While the techniques might
+change (blogging vs. direct mail), the result still needs to be focused on the needs of our
+intended audience. SEO helps that, but only to the degree that sending direct mail to a zip code
+does.
+
+I can type Larry Morris in google and I'll never be the top guy. There's a famous recording
+artist from down under who stole my name and a congressman. There's even a Larry Morris in
+Oregon who writes on history... But as you get more specific with items I've blogged on then the
+listings get higher.
+
+Most blogs seem informational and disconnected, your seem much more like a column where you
+are writing to me. The key is how do we get readers to come back for more... YEO have mastered
+it... Larry Morris, Oregon Mortgages (HomeStreet Bank) 11:27pm • #39 APR 10 2007
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+Jeff-I got some great new ideas to use from this blog.  I especially like the idea about
+introducing the people that I work with and are part of the neighborhood.  Thank goodness
+there are people like you out there to let people like me know about opportunities like that
+because I would have never thought of that.  Aloha! 1SG (Ret) David Kucic, President and
+Owner (Hawaii Military Realty, Inc.) 12:40am • #40
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+Excellent Article...YEO...helps to have those Engaging big baby blues.  I'm interested in
+your take on how Dooce.com became so engaging.  What hooked everyone? ARDELL DellaLoggia
+(Sound Realty) 1:00am • #41
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Hey Jeff,
+
+Thanks for always educating me...so much to learn.  I especially liked what you had to say
+about others not seeing their names in print all that often, so true. Orange Co. Real
+Estate~Lynda Eisenmann, Broker-Owner,CRS,CDPE,GRI,SRES, Brea,CA (Preferred Home
+Brokers) 1:09am • #42
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+JT
+
+Well put..
+
+You've certainly shown me how to make the most of this.   I don't read too much about SEO
+because most of that jargon is over my head, but knowing how to talk with people and build
+relationships is something I do understand.  Blogging helps cultivate these
+relationships, do it well and the relationships grow and so does the readership, and the SEO
+rankings.   What else do I need to know...
+
+You said to me once before,  "CONENT IS KING".. Its that simple.
+
+Thanks
+
+Martin. Martin Rodriguez - Senior Loan Consultant (Pacific Funding) 1:34am • #43
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348615406
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348615406
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348615406
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348615406
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348615406
+Excellent perspective on how online success starts with offline, real world connections.
+And in just going about our daily activities there are so many opportunities to engage others.
+John Novak - Las Vegas and Henderson NV Real Estate (Keller Williams Realty The Marketplace)
+1:42am • #44
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Jeff,
+
+Thank you for providing some very valuable information as well as great ideas!  You have
+actually inspired me to focus a little more on Localism.com and getting some information,
+stories, and pictures together about my area.  I could also spotlight some local
+businesses, attractions and history.
+
+Thanks!
+
+VAL Val Allocco, HSE; ASHSR - Home Stager for Manhattan, Brooklyn & Long Island (Staged 2 Sell
+New York & Long Island) 7:06am • #45
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+Jeff: Just last week I started walking around my little town and taking photos of shops or
+service peple or locations that could be grouped together in a blog.  I introduced myself to
+each pers, left them a card and asked permission to put them in a post.  People seemed thrilled
+and many offered to exchange links with me.  As a new realtor, new website owner and new AR
+member I think it was a very positive experience.  Imagine  my pleasure when someone as
+higly regarded on AR as yourself validated my efforts.  I read all of your posts.  Thanks for
+all the great contributions. Diana Corcoran - Rhinebeck Real Estate (Prudential Serls Prime
+Properties) 7:55am • #46
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Ines, yes. I am a geek. There I said it. Are you happy now? :)
+
+Fran, people matter. Writing about them authentically will create an energy that is
+powerful.
+
+Ryan, thank you.
+
+Darin, if I got you thinking, then I've accomplished my goal.  Thank you.  Jeff Turner (Real
+Estate Shows) 8:24am • #47
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+Larry, I feel your pain. Jeff Turner is also a former NBA basketball player and ESPN analyst.
+But even harder for me, in terms of google, is that another Jeff Turner created Blogbeat and is
+now the lead enginerr at Feedburner . How do you compete for google juice with a guy who created a
+blog analytics company?  :) Jeff Turner (Real Estate Shows) 8:29am • #48
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+David & Tonya, thank you.
+
+Ardell, interesting question. I found dooce.com years ago before I even knew what a blog was. I
+was doing a search for wedding photos and found hers. They were amazing by the way. I emailed her
+and asked permission to use them in a demo of a very, very beta version of RealEstateShows.com.
+She was kind enough to be gentle with me (if you read her often you know that she can be un-gentle)
+and tell me her wedding photos were very personal, declined,  but that she loved the idea.
+This, of course, was long before her Federated Media deals and her 1,000,000 visits per month.
+She's transparent to a fault and just flippin hilarious. Reading her is voyeurism.
+
+Lynda, we all like to be recognized.
+
+Martin, :)
+
+John, the real world connections are the goal... why not start there?
+
+Val... and my guess is you'd get tremendous enjoyment from meeting the people behind those
+stories. Bonus.
+
+Diana... excellent way to execute on that! Well done! 
+
+  Jeff Turner (Real Estate Shows) 8:35am • #49
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+
+
+Image: /image_store/uploads/7/5/5/8/3/ar117621236838557.jpg
+
+ 
+
+ 
+
+Hey Jeff.. funny how it seems like your writing just for me. i was starting to get tunnel vision!
+1,000,000 thanks.
+
+here is my handwritten note.. (although i know some folks are gonna freak out about the size of
+this here)..
+
+peace brother. Nick M -RealtorÂ®-Appraiser in West Palm- South Florida Real Estate
+Appraiser (Certified Residential Appraiser- West Palm Beach Real Estate) 8:40am • #50
+Great Post. I like the YEO acronym. I am going to start using it. Thanks! 8:48am • #51
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Nick... you seriously rock! ROCK!
+
+Annonymous... thank you. Just remember, you heard it here first. :)  Jeff Turner (Real
+Estate Shows) 9:07am • #52
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/cfd6897ece0ce65b25f37d4a35cb171252c00107.gif?1348615406
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348615406
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348615406
+Jeff-This is great stuff as usual.  Thank You!  I am going to use it in an upcoming training
+session. I agree with you in regards to building relationships and not focus on SEO. 
+The SEO will come..... Also, you choice for your "Apprentice,"  Julie, Awesome!  I
+cannot wait to read her posts!  Midori Miller - Ormond Beach | Daytona Businesses And Area
+Information (Midori Miller @ Coastal Results Referral Company) 9:27am • #53
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+Jeff, that was a great pointer...YEO instead of SEO. I like that...you have something there!
+Your apprentice is very lucky to have you. Gena Riede, Real Estate Broker Sacramento CA Real
+Estate (916) 417-2699 (Riede Real Estate, Lic. 01310792) 9:33am • #54
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+{SVW Hubba}...
+
+I am so YEO'd that I think the proposals are right around the corner. LOL.
+
+I'll serve Google Juice at the reception. Wink. Wink.
+
+TLW...ROAR! "The Lovely Wife" (Broker Bryant's Wife) The One And Only TLW. (President-Tutas
+Towne Realty, Inc.) 10:07am • #55
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Midori... I agree. Julie is awesome!
+
+Gena... thank you and thank you for being so kind to Deborah Hurwitz in your lunch meeting. She
+told me how helpful you were.
+
+TLW [SVW]... yeah, you got YEO coming out of your ears.  Jeff Turner (Real Estate Shows)
+10:19am • #56
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+NOTE TO ALL: Less than 24 hours later, if you now search on Google for family activities in
+plainfield, il , her not very populated Living In Plainfied, Illinois blog comes up as the
+number 5 and 6 links, not number 2. Still good, but vastly different in a very short time span.
+SEO is fickle, folks.
+
+Jeff Turner (Real Estate Shows) 10:21am • #57
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+{SVW Hubba}...
+
+You and I both know that I do not blog for the same reasons as other members here. But, this post
+got me a little curious.
+
+As curiosity always kills the cat, I decided to google "The Lovely Wife". I have never done that
+before.
+
+But guess what? I am #4 and #5 on the front page of Google. Not that it matters but it was
+interesting.
+
+It means that my YEO does come with Google Juice :)
+
+Shaken or Stirred Sir? SVVW. (Engaging enough for ya?)  LOL. Okay. This is a serious
+post. I'll go away now. I think? :)  
+
+TLW...ROAR! "The Lovely Wife" (Broker Bryant's Wife) The One And Only TLW. (President-Tutas
+Towne Realty, Inc.) 10:48am • #58 At last!  Somebody with common sense.  Richard Clafton
+(rirocIMAGING) 1:59pm • #59
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Thanks, Richard. 
+
+TLW [SVW[... you were #3 and #4 when I just did it and the two who were above you.... well, they're
+just pretenders! :) Jeff Turner (Real Estate Shows) 3:03pm • #60
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+Jeff, as long as we keep reading your blogs here at AR, none of us will develop Alzheimer's! You
+present us with stimulating discussion and new ideas, week after week.  Sue Argue - NH Home
+Stager (Staged First Impressions) 3:05pm • #61
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348615406
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348615406
+I love the idea and the post. I just rated your post, something I just learned today. I am
+learning so much. I was temporarily fixated on it until I read and read and still nothing made
+sense....LOL Christy Powers - Pooler, Savannah Real Estate Agent (Keller Williams Coastal
+Area Partners) 3:57pm • #62
+
+A genius article, on such a simple idea. Write a blog for reader, not search engines. It is
+difficult to grasp for some, because the final goal of many RE Bloggers is to increase PR or SEO
+or whatever, to convert to sales. As a marketing coordinator for a Realty Group, I am supposed
+to focus on SEO. However, the steps involved in increasing a website ranking are tedious and
+boring... writing good content is a great way to improve SEO without falling into the monotony
+of link management, etc... Jared Loss (The OC Coastal Group) 4:26pm • #63
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+I'm just getting started in researching all this and this is great advice, thank you! Burbank
+Real Estate Agent Ana Connell (G & C Properties/John Aaroe Group) 5:32pm • #64
+
+Hi,
+
+Believe it or not - this is only the second time I've posted to a blog.  
+
+Great advice, and I believe it 100%.  EVERYTHING comes down to relationships.
+
+That said, and I'm not paid to say this, I LOVE Real Estate Shows and, by the way, so do my
+clients.  Jeff is a genius.  I get so bored with some virtual tours, I can't finish them.  So
+for the time and vertigo-challenged, it's the best product for the money out there.
+
+There, I said it.  An unpaid and unsolicited endorsement.
+
+Fellow bloggers, please don't kill me.
+
+Tina 
+
+ 
+
+  Tina McManus 6:40pm • #65
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+I'm new to Actice Rain, new to blogging, and went to school when we were taught how to make clean
+carbon copy erasures (did I admit to that?).  I love the advice you give about YEO.  It seems
+much less intimidating than all of the algorithms of SEO.  Thanks.  lea deo Lea Deo, Shawnee
+Ks Real Estate, Shawnee Mission Homes (Keller Williams Legacy Partners, Inc.) 6:48pm • #66
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+YEO...I love it! Did you come up with that?
+
+I think it's here to stay! Joan Mirantz GRI CBR SRES- Concord New Hampshire Realtor (Homequest
+Real Estate) 9:27pm • #67
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+Joan, yes I did. Thanks... I thought it had a nice ring to it. :) Jeff Turner (Real Estate Shows)
+10:20pm • #68 Hi Jeff.  I loved this blog! My question though is, how can using a platform
+like wordpress help more for this type of blogging then AR and Localism? Is it because AR is a
+real estate networking and wordpress is more generalized? Thanks :D Julie McLaughlin
+(Staging Chico) 11:30pm • #69 APR 12 2007
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+Julie's new blog is now located here: http://www.livinginplainfield.com/ Jeff Turner
+(Real Estate Shows) 11:47am • #70
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+Julie McLaughlin, I'm NOT ignoring you. I just want to answer your question thoughtfully.
+I'll be back. Jeff Turner (Real Estate Shows) 11:47am • #71
+
+Great Advice.  I am just starting to do my first blog,  I will keep what you said in mind.  you
+have a bookmark.  Thanks, 
+
+ 
+
+your new friend from Canada. Steven Campbell, Sales Representative, Toronto Condos (RE/MAX
+West Realty Inc., Brokerage*) 3:56pm • #72 Jeff, great post!  I agree with your
+sentiments.  It's so much more important to write about something that will keep people
+interested in coming back for more.  4:02pm • #73
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Steve, good luck and please come back here and show us what you come up with. 
+
+Michael, people matter. That's the bottom line. 
+
+Jeff Turner (Real Estate Shows) 5:32pm • #74 APR 15 2007 Seo isnt that fickle. It has
+relatively predictable results, but it is more than just publishing page after page.
+
+San Diego Short Sales (San Diego Homes) 9:04pm • #75 APR 16 2007
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Jeff . it took me 4 days to get back to this.. i loved your 'people matter' comment. give a
+high-5 on that one brother. that should be a bumper sticker.. i called it, i called it..
+®© & TM  rights over here dude!  haha ok, ok, let me relax. nick says back to work. gotta go!
+:) Nick M -RealtorÂ®-Appraiser in West Palm- South Florida Real Estate Appraiser
+(Certified Residential Appraiser- West Palm Beach Real Estate) 5:44pm • #76
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+YEOw!  What a concept! In today's WIIFM culture, this is a great way to involve others. I've
+used buy-ins for print materials - how blind I've been not to include it for internet as well.
+
+Sharon Simms St Pete FL - CRS CIPS CLHMS RSPS (ALVA International, Inc.) 8:00pm • #77
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Bob... hyperbole for effect.
+
+Nick... thanks. The bumper sticker is a great idea. You can have the copyright, just give me
+props at parties and I'm good.  :)
+
+Sharon... thank you. This is a way to create relationships that generate leads.  Jeff Turner
+(Real Estate Shows) 10:09pm • #78 APR 17 2007
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Jeff, thank you for this...  I'm a self-proclaimed techno-idiot that has spent the last
+month trying to GRASP the whole SEO thing: what it is and what I can do to promote mine, blah,
+blah, blah.  Blogging is a new one for me too.  The YEO concept makes much more sense to
+me...so I am gonna go with that and let the rest fall into place behind it.  It is people matter
+...right on.  Thanks again for the info!
+
+Abby Abby Roselli, Staten Island Home Stager (ALR Home Staging and Showcasing, LLC) 2:34pm
+• #79
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+Abby... the key is doing it. Consistently doing it. And doing it on a blog platform that will
+make sure you don't have to worry about it. One of the reasons why people are finding success
+with their posts here on AR is that AR takes care of the mechanical details for you. So, you can
+concentrate on other things. Both Wordpress and Typepad will do similarly well if set up
+properly.  Jeff Turner (Real Estate Shows) 4:05pm • #80 Great post Jeff. Glad I caught the
+link from Julie. Can't believe I missed it the first time around. 4:50pm • #81
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+Keith, glad you found it. I appreciate you stopping by.
+
+Jeff Turner (Real Estate Shows) 10:44pm • #82 APR 18 2007
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/cfd6897ece0ce65b25f37d4a35cb171252c00107.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686621
+Love it Jeff...can I stop sleeping in the tent now?  P L E A S E .  St.Cloud Homes 8:39am • #83
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+You have my permission. :)
+
+Jeff Turner (Real Estate Shows) 1:11pm • #84
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Jeff : I cant agree with you more.... YEO to go... LOL!!! Coincidentally, that's my last name
+too. I got to tell my husband about this. Loreena Yeo, RealtorÂ®| Frisco TX Community
+Advocate (214)783-2210 (3:16 team REALTY ~ Locally-owned Frisco TX Real Estate Co.) 2:26pm
+• #85
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+Yeo... YEO! Yeah! :)
+
+Jeff Turner (Real Estate Shows) 3:09pm • #86 MAY 14 2007
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+Excellent and to the point! Chris Lengquist (Keller Williams Realty) 4:33pm • #87
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+Chris... thanks.
+
+Jeff Turner (Real Estate Shows) 6:10pm • #88 MAY 15 2007
+
+Thank you for the post Chris. Julio Anchante, CRS (Century 21 M & M and Associates) 3:43am •
+#89 JUN 27 2007
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348684471
+Great post. I was wondering what YEO meant. I am going to ask some small  local businesses if I
+can post about them on localism . GITA BANTWAL, REALTOR,ABR,CRS,SRES,GRI BUCKS County &
+Philadelphia, PA HOMES (RE/MAX Centre Realtors) 6:20am • #90
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+Gita... excellent idea. If you interview them and get them involved, they will respond by
+alerting their friends and family. Guaranteed.  Jeff Turner (Real Estate Shows) 2:30pm •
+#91 JUN 28 2007
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/31c0417b26cd6f5e946c2056e1bcbb328d041df4.gif?1348615406
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348615406
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348615406
+You're right on.  Developing a personal relationship with that goes beyond the internet is
+what it's all about.  Tracy Santrock-Cary NC Realtor (Fonville Morisey/Santrock Realty
+Group, Inc. ) 7:26pm • #92 JUN 29 2007
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+Tracy... it seems so natural, that beyond the connection that comes from your voice, there is
+the opportunity for the blog to be an ice breaker for live interaction.
+
+Jeff Turner (Real Estate Shows) 1:00am • #93 MAY 08 2008
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+{SVW Hubba}.. .
+
+I just linked to this post in a comment...
+
+And of course I feel this topic needs me to give it a bump :)
+
+There's so much more to all of this than SEO. But you know that :) 
+
+TLW...ROAR! "The Lovely Wife" (Broker Bryant's Wife) The One And Only TLW. (President-Tutas
+Towne Realty, Inc.) 10:59am • #94
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Great post! Keep up the good work. As long as we focus on our client's and what is in their best
+interest we shall always succeed! SEO is obviously very important but relationships with our
+clients is Gold.Having your site optimized and at the top will no doubt lead to more leads and
+possibly more clients but if we take care of the one's we have been working with we wouldn't need
+to search for new ones so much!
+
+ 
+
+Regards,
+
+ 
+
+Rick Goates  Richard Goates Redding Ca Real Estate (Richard Earl Goates-Broker) 11:14am
+• #95 MAY 17 2008
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+I've just linked to this in a comment again.
+
+I think I just need to shove this puppy up to my bookmarks :)
+
+TLW...ROAR! "The Lovely Wife" (Broker Bryant's Wife) The One And Only TLW. (President-Tutas
+Towne Realty, Inc.) 6:37am • #96
+
+I would really appreciate some input on why my Wordpress blog seems to be invisible to
+Google. I have consistently posted about Cape San Blas Real Estate at capesanblasblog.com
+ since September, have included applicable keywords and tags, etc. etc., and yet when I
+Google "Cape San Blas real estate" I can go 6 or 7 pages deep and still not show up, while someone
+writing in a single personal blog about their vacation at Cape San Blas and later mentioning
+all the real estate signs, does show up. Have I somehow offended the Google gods? Sherri
+Dodsworth PA (Boardwalk Realty of NW FL) 7:00pm • #97 AUG 01 2008
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/21b71b9f37edbedc44f411197b05e07357b2bf9f.gif?1348684471
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348684471
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348684471
+
+GREAT advice!  Frankly, I'm SICK of reading about SEO--and you're right, it is exhausting
+and FAR too time-consuming!!
+
+
+
+Image: http://i261.photobucket.com/albums/ii72/DebeMaxwell/Signature.png Debe
+Maxwell - Search Charlotte Homes for Sale - Charlotte NC Neighborhoods
+(iCharlotteRealEstate.com Savvy + Company Real Estate) 4:38pm • #99
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+{SVW Hubba}...
+
+For as long as I am able to breathe breath into the Rain I will continue to point folks right over
+here. This is where they learn that YEO...Matters :)
+
+TLW...ROAR! "The Lovely Wife" (Broker Bryant's Wife) The One And Only TLW. (President-Tutas
+Towne Realty, Inc.) 5:22pm • #100 AUG 02 2008
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+I believe this more now than I did when I wrote it. Jeff Turner (Real Estate Shows) 9:22am •
+#101 AUG 04 2008
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Jeff,
+
+Exellent reminder. Connect with others. Like Julie did, pick something you know about, and
+blog about it in addition to real estate. Know the school system? Write about education in your
+area. Understand the local politics? Compare candidates and platforms. Think it's
+important your readers understand how the economy and unemployment affects interest rates?
+Explain it to them.
+
+They'll back to you for that info, and engage with you. Thanks again!
+
+Rich Rich Rogala - Real Estate Marketing Coach (Consistent Clients) 10:21am • #102 AUG 07
+2008
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Thanks, Rich. Jeff Turner (Real Estate Shows) 11:59am • #103 AUG 18 2008
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685941
+
+YEO. I like that. If you came up with this on your own, you'd better trademark it, quickly ;) You
+never know where it might turn up.... very soon.  :P Lisa Hill (Daytona Beach Real Estate)
+(Florida Property Experts) 5:46am • #104 AUG 19 2008
+
+Great blog
+
+Thanks Shannon Shannon Aronson Short Hills Millburn Real Estate Agent (Keller Williams
+Realty Premier Properties) 11:04pm • #105 AUG 25 2008
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686621
+
+How in the world can you add or take away from that Jeff! Love the YEO concept, so much more
+powerful Redding CA Real Estate Couple ~ Chris and Maria Jeantet (Coldwell Banker C&C
+Properties) 1:20am • #106 OCT 07 2008
+
+That is a great post!  networking is so key in our business - thanks for sharing! Sonja Adams
+(Samson Proprties) 11:36am • #107
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Sonja... this business is about relationships. It's always been about relationships. It's
+always going to be about relationships. Period. Jeff Turner (Real Estate Shows) 11:43am •
+#108
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Jeff, I love it!  Thanks for another reminder to stay in touch with actual people and not just
+the spiders on the internet.  Charlie Harden 12:56pm • #109
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+:) "The Lovely Wife" (Broker Bryant's Wife) The One And Only TLW. (President-Tutas Towne
+Realty, Inc.) 1:53pm • #110
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+relationships, relationships, relationships!!  double : ) from here Rick & Ines - Miami
+Beach Real Estate (Majestic Properties) 2:20pm • #111
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+The Lovely Wife and Ines back-to-back in blog comments... feels like old times. :) Jeff Turner
+(Real Estate Shows) 2:29pm • #112
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+When TLW is all better the 3 of us should go have some fun!  (TLW, I think tool boy feels
+comfortable around LEO's.....brave guy, no?) Rick & Ines - Miami Beach Real Estate (Majestic
+Properties) 2:37pm • #113
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+I have concluded he is either brave or he's just a glutton for punishment :) "The Lovely Wife"
+(Broker Bryant's Wife) The One And Only TLW. (President-Tutas Towne Realty, Inc.) 3:01pm •
+#114
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+It is also possible that I could just be stupid. Jeff Turner (Real Estate Shows) 3:22pm • #115
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+not a chance!!  you just like living on the edge Rick & Ines - Miami Beach Real Estate (Majestic
+Properties) 3:35pm • #116
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Hubba...
+
+I considered that and thought it best not to say it out loud :) "The Lovely Wife" (Broker
+Bryant's Wife) The One And Only TLW. (President-Tutas Towne Realty, Inc.) 3:50pm • #117
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+I cracked myself up with that one...But we all know I am easily amused...Must be the meds :) "The
+Lovely Wife" (Broker Bryant's Wife) The One And Only TLW. (President-Tutas Towne Realty,
+Inc.) 3:51pm • #118
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+:) I don't think you were the only one thinking it. Is this now officially hijacked. If so, it's a
+perfect example of relationships, IMHO. I met you two here, online, and grew to love you both as
+a result of hijacked posts. It's PERFECT! Jeff Turner (Real Estate Shows) 4:10pm • #119
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Okay...
+
+Let's call it a hijack. I agree that ... It's PURRFECT!
+
+It's a curious thing that we have not already hijacked this one. 
+
+TLW...ROAR!
+
+  "The Lovely Wife" (Broker Bryant's Wife) The One And Only TLW. (President-Tutas Towne
+Realty, Inc.) 4:17pm • #120
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+What are you two talking about? I even called jeff a GEEK in the comments! and you are WACKED!
+Rick & Ines - Miami Beach Real Estate (Majestic Properties) 4:24pm • #121
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+oh wait......does this mean we're doing the three-way now? Rick & Ines - Miami Beach Real
+Estate (Majestic Properties) 4:26pm • #122 OCT 16 2008
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Did I totally scare you guys off or what? ; )  (chickens) Rick & Ines - Miami Beach Real Estate
+(Majestic Properties) 12:00am • #123
+
+Jeff,
+
+Here is a question for you.  I have four sites, www.koleabeachvillas.com ,
+www.haliikaioceanfrontrentals.com , www.waikoloavacationrentals.com ,
+www.hawaiivacationstop.com .  The first three contain vacation rentals.  The last one
+contains vacation rentals along with activities. 
+
+I want to start a blog using wordpress.  What is your recommendation?  To have a blog on each
+site specifically about what is on that site or to have a blog on one site about everything? 
+
+
+
+Any input would be helpful.  Thanks! Rob Dalton (Waikoloa Vacation Rentals) 12:27am •
+#124
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+It is SO easy to get carried away with SEO and you are right, blogging is totally about
+relationships.  Wonderfully said Jeff!  I have to agree, the more and more people blog for
+Google ranks, Google will change things up. Colorado Springs Realty Patricia Beck (Re/Max
+Real Estate Group, GRI, CDPE) 9:54pm • #125 OCT 17 2008
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/21b71b9f37edbedc44f411197b05e07357b2bf9f.gif?1348684471
+
+Jeff,
+
+I guess in blogging it works like this. You need a appropriate title with description in it, H1
+for matching sake, keywords that are focused on the content and title, and good content. The
+content will broaden the search keywords. The last thing is good links to the site.
+
+Simple SEO.
+
+Richard Richard Stabile Bergen County New Homes Builder Realtor (REMAX real estate
+associates) 8:20am • #127
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Richard, thanks. I kinda get SEO. The point of this post is that it's not the most important
+thing to be thinking about when you're blogging. Jeff Turner (Real Estate Shows) 9:48am •
+#128
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Excellent points Jeff.  I still remember the time you returned my call when I called you just
+to introduce myself.  You sure practice what you preach here my friend.  Thanks for sharing
+this info. Cedric (Ced) Reynolds - (909) 263-4569 10:14am • #129 DEC 21 2008
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+Jeff - great post and you are right about "you engaging others". This is great information and
+glad I found the post! Sharon Paxson Newport Beach Real Estate (Prudential California
+Realty, DRE License 01501912) 9:13am • #130 JAN 07 2009
+
+I was in your audience at Bloggers Connect today, and really appreciate your presentation. 
+I was given instruction to sign up in many of the media hotspots, and aggregate all of them to one
+another.  Fortunately for me, my blog is still under construction so I haven't irked people
+to death.  I thought the point was blog, and send it to all my followers in twitter, and my
+stardom would eventually get me rich.
+
+The funny thing is your way is a much simpler method, say hello, how are you, did you see this,
+tell a joke, share a gift and be yourself.  Much less stressful.  I am engaged to a few people
+at my table without any plan for nuptials-we'll see how it goes.
+
+Thanks,
+
+Joanne Joanne Brown 7:55pm • #131 JAN 29 2009
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+Hi Jeff:  What a great post.  It only took me almost two years to find it... but hopefully
+better late than never.  This is such a great presentation for me to use in showing some of my
+non-blogging friends just what all of this can accomplish.  I love your comparison on YEO vs
+SEO.  Very inspiring for non-techies like me.  Thanks so much for sharing, and for being so
+inventive.  Give Sarah a hug and tell her Karen Anne says hi... if she remembers me.  Take
+care... Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant
+County) 10:05am • #132 MAR 03 2009
+
+I totally agree with your post. Content is king in my eyes. Of course, on occasion I'll throw an
+entry in The Keys to New Jersey for SEO purposes -- but that's on a rare occasion. I think it's
+really important to let down your guard as human being. Show people that you have a sense of
+humor -- that you're not just about the money. Jesse Kaye 3:01pm • #133 APR 10 2009
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+You Engaging Others, 2 years later: YEO - Take Control Of The Machine
+
+  Jeff Turner (Real Estate Shows) 12:37am • #134
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685093
+
+Jeff - You are right, as usual!  I wasn't on AR two years ago and have not read this post! 
+Thanks!
+
+Mary Bruce & Mary Smith REALTORSÂ® Savannah Lakes Village McCormick SC (Savannah Lakes
+Homes) 5:21am • #135
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Mary... thanks for stepping back in time to take a look. :) Jeff Turner (Real Estate Shows)
+7:37am • #136 JUN 18 2009
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+Good point about "not sure the way SEO works today will work tomorrow" - I always say, once you
+get them there, there's gotta be good content to keep 'em/ Steve Kappre | NMLS# 217008 NJ
+Mortgage Loan Officer | 856-419-3561 (Treasury Mortgage | Mortgage Company - New Jersey)
+12:29pm • #137 JUL 01 2009
+
+Well thank you very much - I just found this article by reading another of yours. This was "SPOT
+ON" terrific infomration and great view-point!Again thanks for sharing... Phillip Cross,
+ePRO REALTORÂ® - Relocation Spec (TBD - In transition...) 10:27am • #138 JUL 23 2009
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/cfd6897ece0ce65b25f37d4a35cb171252c00107.gif?1348615406
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348615406
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348615406
+
+At the end of the day, it's developing relationships that brings real business.  And as a side
+benefit, real friends! Brian Schulman - Your Lancaster County, PA Real Estate Expert
+(Coldwell Banker Select Professionals, Lancaster PA) 8:56am • #139 AUG 19 2010
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686621
+
+Three years later, this is still very much a topic of much interest!  Thanks for the tips!
+Kathy Kenney, Realtor Princeton & Central NJ Homes for Sale (Keller Williams, Princeton, NJ)
+10:47am • #140
+
+Engagement is not a fad. Jeff Turner 11:26am • #141
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Hubba...
+
+Are you sure? It's my understanding that if we wait long enough, Web 2.0 is going to go away :)
+
+TLW...ROAR! "The Lovely Wife" (Broker Bryant's Wife) The One And Only TLW. (President-Tutas
+Towne Realty, Inc.) 2:53pm • #142
+
+Oh. My bad, forgot that engagement is a Web 2.0 thing. I keep thinking it's just a life thing. :)
+Jeff Turner 3:14pm • #143
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/31c0417b26cd6f5e946c2056e1bcbb328d041df4.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686621
+
+Thanks to Jeff Dowler for pointing out this blog.  And thank you, Jeff Turner! Fred Griffin
+Real Estate LLC 7:32pm • #144
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/21b71b9f37edbedc44f411197b05e07357b2bf9f.gif?1348684471
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348684471
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348684471
+
+I wondered where all of these comments were coming from!  I thought TLW stirred the pot
+again!!
+
+
+
+Image: http://i261.photobucket.com/albums/ii72/DebeMaxwell/Signature.png Debe
+Maxwell - Search Charlotte Homes for Sale - Charlotte NC Neighborhoods
+(iCharlotteRealEstate.com Savvy + Company Real Estate) 8:27pm • #145 FEB 04 2012
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686621
+
+Thanks, Jeff.  I was also brought here from Jeff Dowler's blog.  I guess the key is both -
+getting found and engaging.  I've bookmarked so I can reblog later.  I have a few AR friends
+who are just starting WP blogs, and this will really come in handy for them and for me. Debbie
+Gartner - Westchester Flooring -Hardwood Floors Carpet Tile Refinish - (Floor Coverings
+International Westchester NY & Stamford CT) 6:27am • #146 Notify me of new comments: Email:
+
+Image: /images/24-message-info.png What does the graphic say?
+
+Image: /plugin_assets/fruit_captcha/images/f70.gif Leave a response… var
+RecaptchaOptions = { theme : 'custom', custom_theme_widget: 'recaptcha_widget' };
+
+Name:
+
+Email:
+
+(optional) Comment: //<![CDATA[ tinyMCE.init( { mode:'exact', convert_urls: false,
+elements:'blog_comment_comment', theme:'advanced', plugins: 'spellchecker',
+theme_advanced_toolbar_location: 'top', theme_advanced_buttons1 : 'bold, italic,
+underline, strikethrough, justifyleft, justifycenter, justifyright, justifyfull,
+outdent,indent, bullist, numlist,preview,spellchecker', extended_valid_elements:
+'object[classid|codebase|width|height|align|embed|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata],param[name|value],embed[quality|type|pluginspage|width|height|src|align|wmode|flashvars|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata]',
+plugin_preview_width : '600', plugin_preview_height : '600', theme_advanced_buttons2 :
+'', theme_advanced_buttons3 : '', file_browser_callback : 'fileBrowserCallBack',
+spellchecker_rpc_url : '/action/spellcheck' }); //]]> Spam Prevention: Incorrect please
+try again Type the two words above Type the numbers you hear
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/sound.gif?1348684471
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/photo.gif?1348684471
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/reload.gif?1348684471
+Event.observe(window, 'load', initLazyLoad); function initLazyLoad() {
+$$("div.comment_image").each(function(e){ e.style.backgroundImage =
+"url("+e.getAttribute('imagesrc')+")" }) }   function contact(aid) { //documentation
+on this: http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/507/12507/large/J2_600.jpg?1287188405
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/rainmaker_large.png?1348684471
+
+Jeff Turner
+
+Santa Clarita , CA
+
+More about me…
+
+Real Estate Shows
+
+Office Phone: (661) 244-5812
+
+Email Me Jeff Turner helps people grow their business through the effective use of emerging
+technologies. I am the President of Zeek Interactive and Founder of RealEstateShows.com .
+Father of 6. Husband of 1.
+
+
+
+
+
+Image: http://create.realestateshows.com/jeff/ARMembersDiscount.jpg
+
+
+
+
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/minus.gif?1348684471
+Listings
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/minus.gif?1348684471
+Links
+
+
+
+    
+
+    - <big>Evocative Real Estate Tours</big>
+
+    
+
+    - Getting The Most From RealEstateShows.com
+
+    
+
+    - Mothers Fighting For Others
+
+    
+
+    - Muthahood.com
+
+    
+
+    - Stop Child Slavery
+
+    
+
+    - JustDugUp.com
+
+    
+
+    - The World Through My Eyes
+
+    
+
+    - Jeff Turner's Twitter Stream
+
+    
+
+    - Living In Plainfield
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/minus.gif?1348684471
+Archives
+
+
+
+    
+
+    - August 2011 (1)
+
+    
+
+    - July 2011 (1)
+
+    
+
+    - December 2010 (1)
+
+    
+
+    - August 2010 (1)
+
+    
+
+    - May 2010 (1)
+
+    
+
+    - April 2010 (1)
+
+    
+
+    - December 2009 (1)
+
+    
+
+    - October 2009 (1)
+
+    
+
+    - August 2009 (1)
+
+    
+
+    - June 2009 (2)
+
+    
+
+    - May 2009 (2)
+
+    
+
+    - April 2009 (4)
+
+    
+
+    - March 2009 (2)
+
+    
+
+    - November 2008 (4)
+
+    
+
+    - October 2008 (5)
+
+    
+
+    - September 2008 (2)
+
+    
+
+    - August 2008 (4)
+
+    
+
+    - June 2008 (3)
+
+    
+
+    - May 2008 (10)
+
+    
+
+    - April 2008 (6)
+
+    
+
+    - March 2008 (4)
+
+    
+
+    - February 2008 (7)
+
+    
+
+    - January 2008 (2)
+
+    
+
+    - December 2007 (8)
+
+    
+
+    - November 2007 (6)
+
+    
+
+    - October 2007 (11)
+
+    
+
+    - September 2007 (13)
+
+    
+
+    - August 2007 (12)
+
+    
+
+    - July 2007 (11)
+
+    
+
+    - June 2007 (27)
+
+    
+
+    - May 2007 (27)
+
+    
+
+    - April 2007 (15)
+
+    
+
+    - March 2007 (20)
+
+    
+
+    - February 2007 (14)
+
+    
+
+    - January 2007 (14)
+
+    
+
+    - December 2006 (23)
+
+    
+
+    - November 2006 (11)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find CA real estate agents and Santa Clarita real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/new_design/eho.gif?1348684471
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

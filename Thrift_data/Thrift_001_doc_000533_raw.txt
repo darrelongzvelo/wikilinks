@@ -1,0 +1,1021 @@
+
+
+
+
+Season Opener / The St. George RoadRunners / Bruce Hurst Field ~ Dixie State College / May 21,
+2010 at 7:05 p.m. (function() { var cx = '016474116467456296202:zcdp2tq_pxi' var gcse =
+document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_logo.png?1348686979
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_b_search.png?1348686979
+    var currentIndex = -1 var default_phrase = "Find Homes for Sale in your city"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686979
+        Consumer
+
+        - Home Improvement
+
+        
+
+        - Home Buying
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Home Selling
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686979
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  body { background:
+url(/image_store/customizer/soutah_background_50057_background-blue.jpg) repeat
+fixed center top; margin: 0; padding: 0; } table#blog_content { width: 960px; margin: 0 auto;
+} td.blog_content_td { background: #ffffff; } #custom_blog_header { display: block;
+background:url(/image_store/customizer/soutah_header_34996_header-active_rain-new_6-09.jpg)
+no-repeat scroll left top; height: 130px; margin-top: 0px; } #top_menu { border: none; }
+#top_menu li a, #top_menu li span.fake_menu_item { } #top_menu .top_dropdown ul li a:hover {
+background: none !important; } #logo_wrapper { background: white; } #header { margin-top:
+0; padding-top: 0; border: none !important; } .nav { margin: 0 !important; border-width: 0
+!important; } #top_menu .top_dropdown { border: none; } #top_menu .top_dropdown a,
+#top_menu .top_dropdown .inner_menu_header { } #top_menu .top_dropdown
+.inner_menu_header { text-decoration: underline; } #top_menu .top_dropdown ul li a:hover
+{ font-weight: bold; } .top_dropdown { margin-top: 5px; } * html ul.top_level_menu {
+display: inline-block; position: relative; z-index: 1000; } * + html ul.top_level_menu {
+display: inline-block; position: relative; z-index: 1000; } * html .top_dropdown {
+margin-top: 3px; z-index: 1000; } * + html .top_dropdown { margin-top: 19px; z-index: 1000; }
+Home : Blogs : Wanda Kubat-Nerdin, REALTORÂ® St. George, Utah : Wanda's Real Estate Blog.
+Southern Utah Insights and Information! .reblog { margin-left: 4px; } Tweet
+
+Season Opener / The St. George RoadRunners / Bruce Hurst Field ~ Dixie State College / May 21,
+2010 at 7:05 p.m.
+
+
+
+
+
+Image: /image_store/uploads/4/8/0/0/1/ar127431897210084.gif
+
+Season Opener / The St. George RoadRunners / Bruce Hurst Field ~ Dixie State College ~ St.
+George, Utah / Friday, May 21, 2010 at 7:05 p.m.
+
+Will you be there?
+
+We will!
+
+For $5 you can sit in the cheap seats, while enjoying a drink and a hot dog or two and cheering for
+the RoadRunners along with the rest of the crowd! This is going to be a great season with plenty
+of action on the field and plenty of between innings entertainment for the whole family!
+
+
+
+Image: /image_store/uploads/7/9/4/5/2/ar127431839725497.jpg
+
+Darrel Evans , former MLB player with Atlanta and the Giants spoke today during the St.
+George Area Chamber of Commerce at the Santa Clara Town Hall and his passion and love for
+baseball is still a driving factor in why he still takes an active role in the
+team. Everyone is looking forward to a packed stadium for the opening series against the
+Orange County Flyers.
+
+It's important for communities to rally together in support their local teams because,
+without that, the teams will not survive!
+
+So Come on ya'll, let's watch some ball! And cheer our team on! 
+
+The RoadRunners will play at Bruce Hurst Field , Friday, May 21, 2010 at 7:05 p.m. on the campus
+of Dixie State College of Utah .
+
+For more information on the St. George RoadRunners and to get their 2010 game schedule, go to:
+http://www.stgeorgeroadrunners.com/
+
+ <<<0>>>
+
+
+
+Image: /image_store/uploads/3/6/7/3/4/ar127594628543763.png
+
+Looking for an experienced real estate professional in southern Utah? Click here
+
+To discover sunny southern Utah for yourself, go to: www.buynsellutah.com
+
+
+
+Image: /image_store/uploads/8/9/1/6/7/ar132405629776198.jpg
+
+Member of the St. George Area Chamber of Commerce
+
+I, Wanda Kubat-Nerdin at Prado & Kramer Real Estate am responsible for my opinions
+expressed in this blog. Information herein is deemed to be reliable but not guaranteed and
+may change due to market conditions. Please do not take my pictures or artwork and use them as
+your own, they are my property,  Copyright ©   Posted by Wanda Kubat-Nerdin, REALTORÂ®
+St. George, Utah on 05/19/2010 10:26 PM   Comments (5)   Season Opener / the St. George
+RoadRunners / Bruce Hurst Field ~ Dixie State College / May 21, 2010 in the ActiveRain Channel
+  southern utah entertainment , local baseball , st george roadrunners , posts to localism ,
+sunny southern utah , sunny st george utah   Generate short URL This post has been included in
+Utah Real Estate News Washington County, UT Real Estate News Saint George, UT Real Estate News
+
+Post is included in group: Baseball Talk 101
+
+Post is included in group: Observances and Celebrations
+
+Post is included in group: Posts to Localism
+
+
+
+5 Comments on Season Opener / The St. George RoadRunners / Bruce Hurst Field ~ Dixie State
+College / May 21, 2010 at 7:05 p.m. MAY 19 2010
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348684471
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348684471
+
+Sure looks like fun, Wanda!   Go season opener!  Go Road Runners!  Play ball! Dagny Eason
+Lower Fairfield County CT CDPE Homes For Sale and Condos (Dagny's Real Estate LLC) 10:30pm •
+#1
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+Woohoo! It should be a lot of FUN Dagny! Wanda Kubat-Nerdin, REALTORÂ® St. George, Utah
+(Prado & Kramer Real Estate, St. George, UT 435.632.9374) 10:46pm • #2
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/21b71b9f37edbedc44f411197b05e07357b2bf9f.gif?1348686979
+
+Wanda
+
+Looks like a very good time and that bird seems to be warming up to you. Nothing like beer, hot
+dogs, baseball, and more beer. Tom Braatz,Waukesha County Realtor Real Estate
+agent,Waukesha Cty WI Real Estate (Re/Max Realty Center 262-377-1459) 11:49pm • #3 MAY 20
+2010
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/21b71b9f37edbedc44f411197b05e07357b2bf9f.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686621
+
+We have two minor league teams in our area that both enjoy solid support from the community.
+Both stadiums have a been a financial boom to the downtown economies of both city centers...
+Gerry Michaels GettysburgGerry (Studmuffin Media) 7:56am • #4
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+Tom, I love watching Live Baseball! The excitement of the crowds, the food and drinks, all of
+it!
+
+I'm glad we have the team here. You've got to love having TWO TEAMS Gerry! Wanda Kubat-Nerdin,
+REALTORÂ® St. George, Utah (Prado & Kramer Real Estate, St. George, UT 435.632.9374)
+7:19pm • #5
+
+Login or register to leave a comment Event.observe(window, 'load', initLazyLoad);
+function initLazyLoad() { $$("div.comment_image").each(function(e){
+e.style.backgroundImage = "url("+e.getAttribute('imagesrc')+")" }) }   function
+contact(aid) { //documentation on this:
+http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/196/152196/large/Wanda_Can.jpg?1320089338
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/rainmaker_large.png?1348686979
+
+Wanda Kubat-Nerdin, REALTORÂ® St. George, Utah
+
+Saint George , UT
+
+More about me…
+
+Prado & Kramer Real Estate, St. George, UT 435.632.9374
+
+Address: 21 North Main Street, St. George, UT, 84770
+
+Office Phone: (435) 251-8092
+
+Cell Phone: (435) 632-9374
+
+Email Me Southern Utah has over 300 days of sunshine per year while offering mild winter
+temperatures for outdoor activities every day! Add that to the picturesque canyons, red rock
+cliffs, sandstone bluffs, clean air plus small town atmosphere you’re Home, Sweet Home!
+Come and experience Southern Utah for yourself! I cover the following areas: St. George
+Hurricane Washington City Santa Clara Ivins Central New Harmony Pine Valley Toquerville
+Veyo Central Pine Valley Follow @soutah
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686979
+Listings
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686979
+Links
+
+
+
+    
+
+    - New to Southern Utah? Click here!
+
+    
+
+    - City of St. George Information
+
+    
+
+    - Washington County School District
+
+    
+
+    - Washington County Information
+
+    
+
+    - Southern Utah Fishing!
+
+    
+
+    - State of Utah Information
+
+    
+
+    - Red Cliffs Desert Reserve
+
+    
+
+    - Zion National Park
+
+    
+
+    - Tuacahn Ampitheatre
+
+    
+
+    - 10 ways to ensure a successful 2012
+
+    
+
+    - You either make the commitment by Jumping In! or you don't!
+
+    
+
+    - Linkedin
+
+    
+
+    - Activerain
+
+    
+
+    - Plaxo
+
+    
+
+    - Twitter
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686979
+Archives
+
+
+
+    
+
+    - October 2012 (3)
+
+    
+
+    - September 2012 (33)
+
+    
+
+    - August 2012 (33)
+
+    
+
+    - July 2012 (24)
+
+    
+
+    - June 2012 (25)
+
+    
+
+    - May 2012 (38)
+
+    
+
+    - April 2012 (30)
+
+    
+
+    - March 2012 (40)
+
+    
+
+    - February 2012 (29)
+
+    
+
+    - January 2012 (36)
+
+    
+
+    - December 2011 (36)
+
+    
+
+    - November 2011 (31)
+
+    
+
+    - October 2011 (29)
+
+    
+
+    - September 2011 (33)
+
+    
+
+    - August 2011 (28)
+
+    
+
+    - July 2011 (37)
+
+    
+
+    - June 2011 (30)
+
+    
+
+    - May 2011 (31)
+
+    
+
+    - April 2011 (35)
+
+    
+
+    - March 2011 (39)
+
+    
+
+    - February 2011 (38)
+
+    
+
+    - January 2011 (35)
+
+    
+
+    - December 2010 (37)
+
+    
+
+    - November 2010 (27)
+
+    
+
+    - October 2010 (44)
+
+    
+
+    - September 2010 (34)
+
+    
+
+    - August 2010 (36)
+
+    
+
+    - July 2010 (37)
+
+    
+
+    - June 2010 (24)
+
+    
+
+    - May 2010 (47)
+
+    
+
+    - April 2010 (36)
+
+    
+
+    - March 2010 (51)
+
+    
+
+    - February 2010 (41)
+
+    
+
+    - January 2010 (32)
+
+    
+
+    - December 2009 (21)
+
+    
+
+    - November 2009 (30)
+
+    
+
+    - October 2009 (39)
+
+    
+
+    - September 2009 (30)
+
+    
+
+    - August 2009 (38)
+
+    
+
+    - July 2009 (47)
+
+    
+
+    - June 2009 (37)
+
+    
+
+    - May 2009 (25)
+
+    
+
+    - April 2009 (7)
+
+    
+
+    - March 2009 (5)
+
+    
+
+    - February 2009 (3)
+
+    
+
+    - January 2009 (1)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find UT real estate agents and Saint George real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/new_design/eho.gif?1348686979
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

@@ -1,0 +1,1369 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); ARCHITECTURE OF SOUND <!-- /* -----------------------------------------------
+Blogger Template Style Name: Awesome Inc. Designer: Tina Chen URL: tinachen.org
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="keycolor" description="Main Color" type="color"
+default="#ffffff"/> <Group description="Page" selector="body"> <Variable
+name="body.font" description="Font" type="font" default="normal normal 13px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="body.background.color"
+description="Background Color" type="color" default="#000000"/> <Variable
+name="body.text.color" description="Text Color" type="color" default="#ffffff"/>
+</Group> <Group description="Links" selector=".main-inner"> <Variable
+name="link.color" description="Link Color" type="color" default="#888888"/>
+<Variable name="link.visited.color" description="Visited Color" type="color"
+default="#444444"/> <Variable name="link.hover.color" description="Hover Color"
+type="color" default="#cccccc"/> </Group> <Group description="Blog Title"
+selector=".header h1"> <Variable name="header.font" description="Title Font"
+type="font" default="normal bold 40px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="header.text.color" description="Title Color" type="color"
+default="#444444" /> <Variable name="header.background.color" description="Header
+Background" type="color" default="transparent" /> </Group> <Group description="Blog
+Description" selector=".header .description"> <Variable name="description.font"
+description="Font" type="font" default="normal normal 14px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif"/> <Variable name="description.text.color" description="Text
+Color" type="color" default="#444444" /> </Group> <Group description="Tabs Text"
+selector=".tabs-inner .widget li a"> <Variable name="tabs.font" description="Font"
+type="font" default="normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color"
+default="#444444"/> <Variable name="tabs.selected.text.color"
+description="Selected Color" type="color" default="#444444"/> </Group> <Group
+description="Tabs Background" selector=".tabs-outer .PageList"> <Variable
+name="tabs.background.color" description="Background Color" type="color"
+default="#141414"/> <Variable name="tabs.selected.background.color"
+description="Selected Color" type="color" default="#444444"/> <Variable
+name="tabs.border.color" description="Border Color" type="color"
+default="#eeeeee"/> </Group> <Group description="Date Header" selector=".main-inner
+.widget h2.date-header, .main-inner .widget h2.date-header span"> <Variable
+name="date.font" description="Font" type="font" default="normal normal 14px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="date.text.color"
+description="Text Color" type="color" default="#666666"/> <Variable
+name="date.border.color" description="Border Color" type="color"
+default="#eeeeee"/> </Group> <Group description="Post Title"
+selector="h3.post-title, h4, h3.post-title a"> <Variable name="post.title.font"
+description="Font" type="font" default="normal bold 22px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif"/> <Variable name="post.title.text.color" description="Text
+Color" type="color" default="#444444"/> </Group> <Group description="Post Background"
+selector=".post"> <Variable name="post.background.color" description="Background
+Color" type="color" default="#ffffff" /> <Variable name="post.border.color"
+description="Border Color" type="color" default="#eeeeee" /> <Variable
+name="post.border.bevel.color" description="Bevel Color" type="color"
+default="#eeeeee"/> </Group> <Group description="Gadget Title" selector="h2">
+<Variable name="widget.title.font" description="Font" type="font" default="normal
+bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable
+name="widget.title.text.color" description="Text Color" type="color"
+default="#444444"/> </Group> <Group description="Gadget Text" selector=".sidebar
+.widget"> <Variable name="widget.font" description="Font" type="font"
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable
+name="widget.text.color" description="Text Color" type="color" default="#444444"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color"
+type="color" default="#666666"/> </Group> <Group description="Gadget Links"
+selector=".sidebar .widget"> <Variable name="widget.link.color" description="Link
+Color" type="color" default="#ff00ff"/> <Variable name="widget.link.visited.color"
+description="Visited Color" type="color" default="#6fa8dc"/> <Variable
+name="widget.link.hover.color" description="Hover Color" type="color"
+default="#3778cd"/> </Group> <Group description="Gadget Background"
+selector=".sidebar .widget"> <Variable name="widget.background.color"
+description="Background Color" type="color" default="#141414"/> <Variable
+name="widget.border.color" description="Border Color" type="color"
+default="#222222"/> <Variable name="widget.border.bevel.color" description="Bevel
+Color" type="color" default="#000000"/> </Group> <Group description="Sidebar
+Background" selector=".column-left-inner .column-right-inner"> <Variable
+name="widget.outer.background.color" description="Background Color" type="color"
+default="transparent" /> </Group> <Group description="Images"
+selector=".main-inner"> <Variable name="image.background.color"
+description="Background Color" type="color" default="transparent"/> <Variable
+name="image.border.color" description="Border Color" type="color"
+default="transparent"/> </Group> <Group description="Feed" selector=".blog-feeds">
+<Variable name="feed.text.color" description="Text Color" type="color"
+default="#444444"/> </Group> <Group description="Feed Links" selector=".blog-feeds">
+<Variable name="feed.link.color" description="Link Color" type="color"
+default="#ff00ff"/> <Variable name="feed.link.visited.color" description="Visited
+Color" type="color" default="#6fa8dc"/> <Variable name="feed.link.hover.color"
+description="Hover Color" type="color" default="#3778cd"/> </Group> <Group
+description="Pager" selector=".blog-pager"> <Variable
+name="pager.background.color" description="Background Color" type="color"
+default="#ffffff" /> </Group> <Group description="Footer" selector=".footer-outer">
+<Variable name="footer.background.color" description="Background Color"
+type="color" default="#ffffff" /> <Variable name="footer.text.color"
+description="Text Color" type="color" default="#444444" /> </Group> <Variable
+name="title.shadow.spread" description="Title Shadow" type="length"
+default="-1px"/> <Variable name="body.background" description="Body Background"
+type="background" color="#ffffff" default="$(color) none repeat scroll top left"/>
+<Variable name="body.background.gradient.cap" description="Body Gradient Cap"
+type="url" default="none"/> <Variable name="body.background.size" description="Body
+Background Size" type="string" default="auto"/> <Variable
+name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="none"/> <Variable name="header.background.gradient" description="Header
+Background Gradient" type="url" default="none" /> <Variable name="header.padding.top"
+description="Header Top Padding" type="length" default="22px" /> <Variable
+name="header.margin.top" description="Header Top Margin" type="length" default="0" />
+<Variable name="header.margin.bottom" description="Header Bottom Margin"
+type="length" default="0" /> <Variable name="widget.padding.top" description="Widget
+Padding Top" type="length" default="8px" /> <Variable name="widget.padding.side"
+description="Widget Padding Side" type="length" default="15px" /> <Variable
+name="widget.outer.margin.top" description="Widget Top Margin" type="length"
+default="0" /> <Variable name="widget.outer.background.gradient"
+description="Gradient" type="url" default="none" /> <Variable
+name="widget.border.radius" description="Gadget Border Radius" type="length"
+default="0" /> <Variable name="outer.shadow.spread" description="Outer Shadow Size"
+type="length" default="0" /> <Variable name="date.header.border.radius.top"
+description="Date Header Border Radius Top" type="length" default="0" /> <Variable
+name="date.header.position" description="Date Header Position" type="length"
+default="15px" /> <Variable name="date.space" description="Date Space" type="length"
+default="30px" /> <Variable name="date.position" description="Date Float"
+type="string" default="static" /> <Variable name="date.padding.bottom"
+description="Date Padding Bottom" type="length" default="0" /> <Variable
+name="date.border.size" description="Date Border Size" type="length" default="0" />
+<Variable name="date.background" description="Date Background" type="background"
+color="transparent" default="$(color) none no-repeat scroll top left" /> <Variable
+name="date.first.border.radius.top" description="Date First top radius"
+type="length" default="0" /> <Variable name="date.last.space.bottom"
+description="Date Last Space Bottom" type="length" default="20px" /> <Variable
+name="date.last.border.radius.bottom" description="Date Last bottom radius"
+type="length" default="0" /> <Variable name="post.first.padding.top"
+description="First Post Padding Top" type="length" default="0" /> <Variable
+name="image.shadow.spread" description="Image Shadow Size" type="length"
+default="0"/> <Variable name="image.border.radius" description="Image Border Radius"
+type="length" default="0"/> <Variable name="separator.outdent"
+description="Separator Outdent" type="length" default="15px" /> <Variable
+name="title.separator.border.size" description="Widget Title Border Size"
+type="length" default="1px" /> <Variable name="list.separator.border.size"
+description="List Separator Border Size" type="length" default="1px" /> <Variable
+name="shadow.spread" description="Shadow Size" type="length" default="0"/> <Variable
+name="startSide" description="Side where text starts in blog language" type="automatic"
+default="left"/> <Variable name="endSide" description="Side where text ends in blog
+language" type="automatic" default="right"/> <Variable name="date.side"
+description="Side where date header is placed" type="string" default="right"/>
+<Variable name="pager.border.radius.top" description="Pager Border Top Radius"
+type="length" default="0" /> <Variable name="pager.space.top" description="Pager Top
+Space" type="length" default="1em" /> <Variable name="footer.background.gradient"
+description="Background Gradient" type="url" default="none" /> <Variable
+name="mobile.background.size" description="Mobile Background Size" type="string"
+default="auto"/> <Variable name="mobile.background.overlay" description="Mobile
+Background Overlay" type="string" default="transparent none repeat scroll top left"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color"
+default="#ffffff" /> */ /* Content ----------------------------------------------- */
+body { font: normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif; color:
+#444444; background: #ffffff none repeat scroll top left; } html body .content-outer {
+min-width: 0; max-width: 100%; width: 100%; } a:link { text-decoration: none; color:
+#ff00ff; } a:visited { text-decoration: none; color: #6fa8dc; } a:hover { text-decoration:
+underline; color: #3778cd; } .body-fauxcolumn-outer .cap-top { position: absolute;
+z-index: 1; height: 276px; width: 100%; background: transparent none repeat-x scroll top
+left; _background-image: none; } /* Columns
+----------------------------------------------- */ .content-inner { padding: 0; }
+.header-inner .section { margin: 0 16px; } .tabs-inner .section { margin: 0 16px; }
+.main-inner { padding-top: 30px; } .main-inner .column-center-inner, .main-inner
+.column-left-inner, .main-inner .column-right-inner { padding: 0 5px; } *+html body
+.main-inner .column-center-inner { margin-top: -30px; } #layout .main-inner
+.column-center-inner { margin-top: 0; } /* Header
+----------------------------------------------- */ .header-outer { margin: 0 0 0 0;
+background: #ffffff none repeat scroll 0 0; } .Header h1 { font: normal normal 50px 'Times New
+Roman', Times, FreeSerif, serif;; color: #000000; text-shadow: 0 0 -1px #000000; } .Header
+h1 a { color: #000000; } .Header .description { font: normal normal 12px 'Times New Roman',
+Times, FreeSerif, serif;; color: #000000; } .header-inner .Header .titlewrapper,
+.header-inner .Header .descriptionwrapper { padding-left: 0; padding-right: 0;
+margin-bottom: 0; } .header-inner .Header .titlewrapper { padding-top: 22px; } /* Tabs
+----------------------------------------------- */ .tabs-outer { overflow: hidden;
+position: relative; background: #ffffff
+url(http://www.blogblog.com/1kt/awesomeinc/tabs_gradient_light.png) repeat scroll
+0 0; } #layout .tabs-outer { overflow: visible; } .tabs-cap-top, .tabs-cap-bottom {
+position: absolute; width: 100%; border-top: 1px solid #999999; } .tabs-cap-bottom {
+bottom: 0; } .tabs-inner .widget li a { display: inline-block; margin: 0; padding: .6em
+1.5em; font: normal bold 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif; color:
+#444444; border-top: 1px solid #999999; border-bottom: 1px solid #999999; border-left:
+1px solid #999999; height: 16px; line-height: 16px; } .tabs-inner .widget li:last-child a {
+border-right: 1px solid #999999; } .tabs-inner .widget li.selected a, .tabs-inner .widget
+li a:hover { background: #666666
+url(http://www.blogblog.com/1kt/awesomeinc/tabs_gradient_light.png) repeat-x
+scroll 0 -100px; color: #ffffff; } /* Headings
+----------------------------------------------- */ h2 { font: normal bold 14px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif; color: #444444; } /* Widgets
+----------------------------------------------- */ .main-inner .section { margin: 0
+27px; padding: 0; } .main-inner .column-left-outer, .main-inner .column-right-outer {
+margin-top: 0; } #layout .main-inner .column-left-outer, #layout .main-inner
+.column-right-outer { margin-top: 0; } .main-inner .column-left-inner, .main-inner
+.column-right-inner { background: #ffff00 none repeat 0 0; -moz-box-shadow: 0 0 0 rgba(0, 0,
+0, .2); -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0,
+.2); box-shadow: 0 0 0 rgba(0, 0, 0, .2); -moz-border-radius: 0; -webkit-border-radius: 0;
+-goog-ms-border-radius: 0; border-radius: 0; } #layout .main-inner .column-left-inner,
+#layout .main-inner .column-right-inner { margin-top: 0; } .sidebar .widget { font: normal
+normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif; color: #444444; } .sidebar
+.widget a:link { color: #3778cd; } .sidebar .widget a:visited { color: #4d469c; } .sidebar
+.widget a:hover { color: #3778cd; } .sidebar .widget h2 { text-shadow: 0 0 -1px #000000; }
+.main-inner .widget { background-color: #ffffff; border: 1px solid #eeeeee; padding: 0
+15px 15px; margin: 20px -16px; -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2); -goog-ms-box-shadow: 0 0 20px rgba(0, 0, 0,
+.2); box-shadow: 0 0 20px rgba(0, 0, 0, .2); -moz-border-radius: 0; -webkit-border-radius:
+0; -goog-ms-border-radius: 0; border-radius: 0; } .main-inner .widget h2 { margin: 0 -15px;
+padding: .6em 15px .5em; border-bottom: 1px solid transparent; } .footer-inner .widget h2 {
+padding: 0 0 .4em; border-bottom: 1px solid transparent; } .main-inner .widget h2 + div,
+.footer-inner .widget h2 + div { border-top: 1px solid #eeeeee; padding-top: 8px; }
+.main-inner .widget .widget-content { margin: 0 -15px; padding: 7px 15px 0; } .main-inner
+.widget ul, .main-inner .widget #ArchiveList ul.flat { margin: -8px -15px 0; padding: 0;
+list-style: none; } .main-inner .widget #ArchiveList { margin: -8px 0 0; } .main-inner
+.widget ul li, .main-inner .widget #ArchiveList ul.flat li { padding: .5em 15px;
+text-indent: 0; color: #666666; border-top: 1px solid #eeeeee; border-bottom: 1px solid
+transparent; } .main-inner .widget #ArchiveList ul li { padding-top: .25em;
+padding-bottom: .25em; } .main-inner .widget ul li:first-child, .main-inner .widget
+#ArchiveList ul.flat li:first-child { border-top: none; } .main-inner .widget ul
+li:last-child, .main-inner .widget #ArchiveList ul.flat li:last-child { border-bottom:
+none; } .post-body { position: relative; } .main-inner .widget .post-body ul { padding: 0
+2.5em; margin: .5em 0; list-style: disc; } .main-inner .widget .post-body ul li { padding:
+0.25em 0; margin-bottom: .25em; color: #444444; border: none; } .footer-inner .widget ul {
+padding: 0; list-style: none; } .widget .zippy { color: #666666; } /* Posts
+----------------------------------------------- */ body .main-inner .Blog { padding:
+0; margin-bottom: 1em; background-color: transparent; border: none; -moz-box-shadow: 0 0
+0 rgba(0, 0, 0, 0); -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0); -goog-ms-box-shadow: 0 0 0
+rgba(0, 0, 0, 0); box-shadow: 0 0 0 rgba(0, 0, 0, 0); } .main-inner .section:last-child
+.Blog:last-child { padding: 0; margin-bottom: 1em; } .main-inner .widget h2.date-header {
+margin: 0 -15px 1px; padding: 0 0 0 0; font: normal normal 14px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif; color: #444444; background: transparent none no-repeat scroll top
+left; border-top: 0 solid #eeeeee; border-bottom: 1px solid transparent;
+-moz-border-radius-topleft: 0; -moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 0;
+border-top-left-radius: 0; border-top-right-radius: 0; position: static; bottom: 100%;
+right: 15px; text-shadow: 0 0 -1px #000000; } .main-inner .widget h2.date-header span {
+font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif; display: block;
+padding: .5em 15px; border-left: 0 solid #eeeeee; border-right: 0 solid #eeeeee; }
+.date-outer { position: relative; margin: 30px 0 20px; padding: 0 15px; background-color:
+#ffffff; border: 1px solid #eeeeee; -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2); -goog-ms-box-shadow: 0 0 20px rgba(0, 0, 0,
+.2); box-shadow: 0 0 20px rgba(0, 0, 0, .2); -moz-border-radius: 0; -webkit-border-radius:
+0; -goog-ms-border-radius: 0; border-radius: 0; } .date-outer:first-child { margin-top:
+0; } .date-outer:last-child { margin-bottom: 20px; -moz-border-radius-bottomleft: 0;
+-moz-border-radius-bottomright: 0; -webkit-border-bottom-left-radius: 0;
+-webkit-border-bottom-right-radius: 0; -goog-ms-border-bottom-left-radius: 0;
+-goog-ms-border-bottom-right-radius: 0; border-bottom-left-radius: 0;
+border-bottom-right-radius: 0; } .date-posts { margin: 0 -15px; padding: 0 15px; clear:
+both; } .post-outer, .inline-ad { border-top: 1px solid #eeeeee; margin: 0 -15px; padding:
+15px 15px; } .post-outer { padding-bottom: 10px; } .post-outer:first-child { padding-top:
+0; border-top: none; } .post-outer:last-child, .inline-ad:last-child { border-bottom:
+none; } .post-body { position: relative; } .post-body img { padding: 8px; background:
+transparent; border: 1px solid transparent; -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .2); box-shadow: 0 0 0 rgba(0, 0, 0, .2);
+-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; } h3.post-title, h4 {
+font: normal bold 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif; color: #444444; }
+h3.post-title a { font: normal bold 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #444444; } h3.post-title a:hover { color: #3778cd; text-decoration: underline; }
+.post-header { margin: 0 0 1em; } .post-body { line-height: 1.4; } .post-outer h2 { color:
+#444444; } .post-footer { margin: 1.5em 0 0; } #blog-pager { padding: 15px; font-size: 120%;
+background-color: #ffffff; border: 1px solid #eeeeee; -moz-box-shadow: 0 0 20px rgba(0, 0,
+0, .2); -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2); -goog-ms-box-shadow: 0 0 20px rgba(0,
+0, 0, .2); box-shadow: 0 0 20px rgba(0, 0, 0, .2); -moz-border-radius: 0;
+-webkit-border-radius: 0; -goog-ms-border-radius: 0; border-radius: 0;
+-moz-border-radius-topleft: 0; -moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 0;
+-goog-ms-border-top-left-radius: 0; -goog-ms-border-top-right-radius: 0;
+border-top-left-radius: 0; border-top-right-radius-topright: 0; margin-top: 1em; }
+.blog-feeds, .post-feeds { margin: 1em 0; text-align: center; color: #444444; }
+.blog-feeds a, .post-feeds a { color: #3778cd; } .blog-feeds a:visited, .post-feeds
+a:visited { color: #4d469c; } .blog-feeds a:hover, .post-feeds a:hover { color: #3778cd; }
+.post-outer .comments { margin-top: 2em; } /* Comments
+----------------------------------------------- */ .comments .comments-content
+.icon.blog-author { background-repeat: no-repeat; background-image:
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+} .comments .comments-content .loadmore a { border-top: 1px solid #999999; border-bottom:
+1px solid #999999; } .comments .continue { border-top: 2px solid #999999; } /* Footer
+----------------------------------------------- */ .footer-outer { margin: -20px 0
+-1px; padding: 20px 0 0; color: #444444; overflow: hidden; } .footer-fauxborder-left {
+border-top: 1px solid #eeeeee; background: #ffffff none repeat scroll 0 0;
+-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .2); -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+-goog-ms-box-shadow: 0 0 20px rgba(0, 0, 0, .2); box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+margin: 0 -20px; } /* Mobile ----------------------------------------------- */
+body.mobile { background-size: auto; } .mobile .body-fauxcolumn-outer { background:
+transparent none repeat scroll top left; } *+html body.mobile .main-inner
+.column-center-inner { margin-top: 0; } .mobile .main-inner .widget { padding: 0 0 15px; }
+.mobile .main-inner .widget h2 + div, .mobile .footer-inner .widget h2 + div { border-top:
+none; padding-top: 0; } .mobile .footer-inner .widget h2 { padding: 0.5em 0; border-bottom:
+none; } .mobile .main-inner .widget .widget-content { margin: 0; padding: 7px 0 0; } .mobile
+.main-inner .widget ul, .mobile .main-inner .widget #ArchiveList ul.flat { margin: 0 -15px
+0; } .mobile .main-inner .widget h2.date-header { right: 0; } .mobile .date-header span {
+padding: 0.4em 0; } .mobile .date-outer:first-child { margin-bottom: 0; border: 1px solid
+#eeeeee; -moz-border-radius-topleft: 0; -moz-border-radius-topright: 0;
+-webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 0;
+-goog-ms-border-top-left-radius: 0; -goog-ms-border-top-right-radius: 0;
+border-top-left-radius: 0; border-top-right-radius: 0; } .mobile .date-outer {
+border-color: #eeeeee; border-width: 0 1px 1px; } .mobile .date-outer:last-child {
+margin-bottom: 0; } .mobile .main-inner { padding: 0; } .mobile .header-inner .section {
+margin: 0; } .mobile .blog-posts { padding: 0 10px; } .mobile .post-outer, .mobile
+.inline-ad { padding: 5px 0; } .mobile .tabs-inner .section { margin: 0 10px; } .mobile
+.main-inner .widget h2 { margin: 0; padding: 0; } .mobile .main-inner .widget
+h2.date-header span { padding: 0; } .mobile .main-inner .widget .widget-content { margin:
+0; padding: 7px 0 0; } .mobile #blog-pager { border: 1px solid transparent; background:
+#ffffff none repeat scroll 0 0; } .mobile .main-inner .column-left-inner, .mobile
+.main-inner .column-right-inner { background: #ffff00 none repeat 0 0; -moz-box-shadow:
+none; -webkit-box-shadow: none; -goog-ms-box-shadow: none; box-shadow: none; } .mobile
+.date-posts { margin: 0; padding: 0; } .mobile .footer-fauxborder-left { margin: 0;
+border-top: inherit; } .mobile .main-inner .section:last-child .Blog:last-child {
+margin-bottom: 0; } .mobile-index-contents { color: #444444; } .mobile
+.mobile-link-button { background: #ff00ff
+url(http://www.blogblog.com/1kt/awesomeinc/tabs_gradient_light.png) repeat scroll
+0 0; } .mobile-link-button a:link, .mobile-link-button a:visited { color: #ffffff; }
+.mobile .tabs-inner .PageList .widget-content { background: transparent; border-top:
+1px solid; border-color: #999999; color: #444444; } .mobile .tabs-inner .PageList
+.widget-content .pagelist-arrow { border-left: 1px solid #999999; } --> <!-- body {
+min-width: 930px; } .content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 930px; max-width: 930px; _width: 930px; } .main-inner .columns { padding-left:
+0px; padding-right: 230px; } .main-inner .fauxcolumn-center-outer { left: 0px; right:
+230px; /* IE6 does not respect left and right together */ _width:
+expression(this.parentNode.offsetWidth - parseInt("0px") - parseInt("230px") + 'px');
+} .main-inner .fauxcolumn-left-outer { width: 0px; } .main-inner
+.fauxcolumn-right-outer { width: 230px; } .main-inner .column-left-outer { width: 0px;
+right: 100%; margin-left: -0px; } .main-inner .column-right-outer { width: 230px;
+margin-right: -230px; } #layout { min-width: 0; } #layout .content-outer { min-width: 0;
+width: 800px; } #layout .region-inner { min-width: 0; width: auto; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0754553352133749829824\46blogName\75ARCHITECTURE+OF+SOUND\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://architectureofsound.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://architectureofsound.blogspot.com/\46vt\75-5573261721337727819',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+
+
+
+
+
+
+ARCHITECTURE OF SOUND
+
+
+
+The Culture of Art and Music.
+
+
+
+Sunday, November 21, 2010
+
+
+
+ZEITGEIST 1981 Post Punk
+
+
+
+Image:
+http://1.bp.blogspot.com/_X3rYXG9xth8/TOtNsGFky4I/AAAAAAAAASo/_jp4NbWn3MA/s400/zg.jpg
+Zeitgeist - Stop/Time won't Tell 12" Jamming Records 1982 Zeitgeist,  originally from
+Cornwall, England relocated to London around 1979-1980. They put out a handful of incredible
+dancy post punk singles on Jamming Records in the vain of A Certain Ratio
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B0000631RR
+, Au Pairs
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B000EMSTWA
+, and Pop Group
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B000N3TYII
+. The band had dropped a demo by Tony Fletcher who was the founder of Jamming Fanzine in hopes of a
+record review and some good press to get them some London shows. Zeitgeist had self pressed an
+impressive 7" single titled "Shake-Rake" which garnered the attention of Human records that
+re-released "Shake-Rake" as well as a new single called "Touch" before the label went out of
+business.  Fletcher had recently partnered up with Paul Weller
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B000001E9W
+from The Jam
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B000006TZ9
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B000006TZ9
+to form Jamming Records and decided Zeitgeist would be an excellent second release.
+Zeitgeist released a few more singles for Jamming before Fletcher and Weller went their
+separate ways.
+
+
+
+Image:
+http://3.bp.blogspot.com/_X3rYXG9xth8/TOtCYtgu39I/AAAAAAAAASY/cwZX33tybYM/s1600/zeitgt5011234351794700.jpg
+Zeitgeist - Touch 7" Human Records 1980 Line-Up:
+
+Boasting two lead singers Jaf and Zaz, Apparently they had a sense of humor and used
+abbreviated names: Jaf (vocals), Zaz Detroit (bass), Chris (percussion) and Dynamite
+(drums). (vocals), Tex (guitar), T.C. (sax)
+
+
+
+
+
+Zeitgeist singles:
+
+Sniper/Shake-Rake 1980 (Enchaine)
+
+Shake-Rake 1980 (Human)
+
+Touch 7" (Human) 1980
+
+Ball of Confusion 7" 1981 (Jamming)
+
+Over Againn/Ripped 12" 1982 (Jamming)
+
+Over Again 7" 1982 (Jamming)
+
+Stop/Time Won't Tell 7" 1982 (Jamming)
+
+Time Wont Tell/ Stop 12" 1982 (Jamming)
+
+
+
+Image:
+http://1.bp.blogspot.com/_X3rYXG9xth8/TOtP8-M9qFI/AAAAAAAAASs/NVEdJXi0fZU/s320/Jamming-11.gif
+Jamming Fanzine No.11
+
+Image:
+http://1.bp.blogspot.com/_X3rYXG9xth8/TOtDPKyjmEI/AAAAAAAAASg/_3rjjzc-GdQ/s320/4e_1.JPG.jpeg
+Zeitgeist - Ball of Confusion 7" Jamming Records 1981
+
+For more info about Zeigeist and hear the cover of "Ball of Confusion" from this article on
+Zeitgeist by Tony Fletcher at his website   ijamming.com .
+
+
+
+Posted by Architecture of Sound at 8:52 PM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: 1981 , Post Punk , Zeitgeist
+
+Friday, November 19, 2010
+
+
+
+Y PANTS
+
+
+
+Image:
+http://3.bp.blogspot.com/_X3rYXG9xth8/TOblHCYwtjI/AAAAAAAAASQ/AIDt4EqHNFQ/s320/l_7c91a1fcc936bcb83bf38117714570e5.jpg
+Y PANTS
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B0026EQD0Y
+
+Y Pants were an all girl three piece art-rock band from New York city in the late seventies early
+80's known for stripped down art-performance no wave minus the jagged screeching guitars but
+rather using a much quieter assult of t humb drums
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B0009VCQ4S
+, ukeles
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B001EL6I8W
+and various toy instruments
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B00000K3PW
+. Formed by Gail Vachon, Virginia "Verge" Piersol, and Barbara Ess who was an integral part of
+the NYC no wave emergence having been a prior member of Theoretical Girls
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B001EJRK1I
+and Static with her then boyfriend Glenn Branca
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B00009EIPG
+. Branca produced their rare 1980 debut Ep on 99 records with the Rolling Stones
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B00006AW2T
+cover "Off the Hook' reminiscent of The Slits
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B002J8LVNQ
+, The RainCoats
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B002RW69LI
+, and ESG
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B00004TJ4D
+. The band Later recorded a full length album titled Beat it Down produced by Wharton Tiers and
+released on Glenn Brancas Neutral Label in 1982. The Band was short lived as the broke up to
+follow their careers in Film, and Writing.
+
+Barbars Ess ( bass, ukulele, thumb drum, vocals) Verge Piersol (drums, vocals) Gail Vachon
+(keyboards, ukulele, vocals
+
+
+
+
+
+Buy It Here.
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B0026EQD0Y
+Posted by Architecture of Sound at 1:23 PM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: 1979 , Glenn Branca , Music , no wave , Y Pants
+
+Glenn Branca
+
+
+
+Image:
+http://3.bp.blogspot.com/_X3rYXG9xth8/TObBQiajUnI/AAAAAAAAASI/o-8d7S1KZBE/s320/Glenn+Branca_Lesson+No.+1.jpg
+
+
+
+Image:
+http://4.bp.blogspot.com/_X3rYXG9xth8/TObBVzsc0tI/AAAAAAAAASM/KHFBWcYZmrk/s320/ascension.jpg
+
+
+
+In terms of musical architecture its hard to imagine what our record collections would look
+like without the first two albums by Glenn Branca Lesson No.1
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B001EJDFFI
+and The Ascension
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B001EJFC7W
+. Glenn Branca is an extremely influential avant-garde composer who's experimental roots in
+the  No Wave
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=190615502X
+band The Theoretical Girls
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B001EJRK1I
+ formed in 1977 with friend and producer Wharton Teirs laid the foundation for No Wave bands
+in New York City in the late seventies and the 1980's post-punk noise rock to follow. Forming
+his first avant-garde experimental guitar orchestra in the early 80's Branca's line-up of
+musicians included Lee Renaldo, Thurston Moore, and Michael Gira which spawned Sonic Youth
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B000W1VDZI
+and Swans
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B001HDUQ8A
+and paved the way for much of the indie rock as we know it today. Around 1980 Branca created
+compositions for guitar ensembles and orchestras of droning electric guitars and
+percussion. On Lesson No.1 and The Ascension,  Branca's first two solo albums, the chiming,
+droning guitars, squalls of feedback, sledgehammers, dissonance, mallet guitars, and
+cacophonous tribal rhythms mark Branca's work as the first of its kind in rock music mixing
+composers like La Monte Young , Steve Reich
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B000XUHWO4
+and Philip Glass with guitar work of the likes of Captain Beefheart
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B0010WN8DI
+, Joy Division
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B00122OPYW
+.  Lesson No.1 was the first album released on NYC no-wave label Ze records
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B002HQ9PTW
+and is a suiting title for an album as important in experimental music as it is. Branca has gone
+on to create 15 symphonies including a remarkable piece written for a French Organization
+called 2000 Guitars in celebration for the millenium that Branca was not excited about so he
+scrapped it because of the technical monstrosity of orchestrating 2000 guitars. He
+reluctantly later performed the piece as Symphony No.13: Hallucination City stripped down
+for 100 Guitars for the Lower Manhattan Cultural Council in New York City consisting of a
+phenomenal group of 100 guitarists and a single drummer.  Glenn Branca Website  |  Glenn
+Branca Info
+
+
+
+
+
+Amazon.com Widgets
+
+
+
+
+
+
+
+
+
+Posted by Architecture of Sound at 11:22 AM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: avant-garde , composer , Glenn Branca , no wave ,
+Noise , Sonic Youth
+
+Tuesday, November 16, 2010
+
+
+
+Image:
+http://4.bp.blogspot.com/_X3rYXG9xth8/TOLHcXB5ZeI/AAAAAAAAAR4/AcVxgEiG19U/s1600/byrne-david1.jpg
+David Byrne, "More Songs About Buildings and Food," 1978. Polaroid SX-70 prints
+
+(photomontage for album cover), 90 x 90 inches. Courtesy of the artist/nasher.duke.edu
+David Byrne's original 90x90 in polaroid photo montage artwork for the 1978 Talking Heads
+album "More Songs About Buildings and Food"
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B000002KNV
+goes on display this month until Febuary 6th, 2011 at The Nasher Museum of Art at Duke Universit
+y. The group exhibistion The Record: Contemporary Art and Vinyl explores the culture of Vinyl
+records through 50 years of contemporary art. 41 Artists from the 60's to the present exhibit
+painting, sculpture, sound work, video and performance, illustation, drawing and
+photography.  
+
+
+
+Image:
+http://2.bp.blogspot.com/_X3rYXG9xth8/TOLHmsXe8vI/AAAAAAAAAR8/8l096y9c6Kc/s1600/harrison-on-byrne.jpg
+                  
+
+Image:
+http://4.bp.blogspot.com/_X3rYXG9xth8/TOLHveIzjfI/AAAAAAAAASA/jFvprzjL-UA/s1600/ei-ichi-deforest-kevin2.jpg
+ Kevin Ei-ichi deForest,  The Record Shop  series ( 1/2 the Jap ), 2005. Pencil on record
+cover,
+
+ 12 x 12 inches. Courtesy of the artist.  Photo by Brian Hudesmyth Photography
+
+Image:
+http://4.bp.blogspot.com/_X3rYXG9xth8/TOLISPs3nKI/AAAAAAAAASE/0ZlvwH36I2k/s1600/wagner-alice5.jpg
+ Alice Wagner, "Serie PercusiÃ³n (Percussion Series)" (detail) 2009. Colored thread,
+wax on five
+
+canvas panels, 12.5 x 12.5 in ea.
+
+ Courtesy of the artist and Galeria Lucia de la Puente, Lima. Photo by Peter Paul Geoffrion.
+Artists in the exhibition include Laurie Anderson, Felipe Barbosa, David Byrne, William
+Cordova, Moyra Davey, Kevin Ei-ichi deForest, Jeroen Diepenmaat, Sean Duffy, Yukio
+Fujimoto, Jack Goldstein, Gregor Hildebrandt, Satch Hoyt, Jasper Johns, Taiyo Kimura, Tim
+Lee, Ralph Lemon, Christian Marclay, David McConnell, Mingering Mike, Dave Muller, Ujino
+Muneteru, Robin Rhode, Dario Robleto, Ed Ruscha, Malick SidibÃ©, Xaviera Simmons, Mark
+Soo, Meredyth Sparks, Su-Mei Tse, Fatimah Tuggar, Alice Wagner, Carrie Mae Weems and Lyota
+Yagi.
+
+The Nasher Museum of Art  at Duke University  is located on central campus, at Duke
+University Road and Anderson Street, adjacent to the Sarah P. Duke Gardens. The street
+address is 2001 Campus Drive, Durham, NC, 27705. The mailing address is Box 90732, Durham, NC,
+27708. Reach the Nasher Museum by phone at (919) 684-5135.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Talking Heads "More Songs About Buildings and Food"
+
+
+
+
+
+The Jam "In The City"
+
+
+
+
+
+
+
+Amazon.com Widgets Posted by Architecture of Sound at 10:45 AM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: art , David Byrne , Talking Heads , The Jam
+
+Monday, November 15, 2010
+
+
+
+Gang Of Four Go on Tour
+
+
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_X3rYXG9xth8/TOIglFWo5tI/AAAAAAAAARk/0RoxD9VQFNY/s400/51pLMSm9aNL.jpg
+
+
+
+Gang of Four have announced a headlining tour of North America beginning in Toronto, ON
+starting Febuary 4th. The band will be supporting their first album with new material in 16
+years, titled  CONTENT, with a release date set for January 25th, 2012 on Yep Roc Records.
+ Gang of Four released their first album ENTERTAINMENT! in 1979 and since has influenced
+decades of new wave, punk, and post-punk bands including Sonic Youth, Minutemen, Fugazi,
+Liars, and Blonde Redhead to majors like U2, R.E.M, Rage against the Machine and Red Hot
+Chili Peppers.   
+
+Tour Dates.
+
+02/04 - Toronto, ON - Phoenix Concert Theatre 
+
+02/05 - Philadelphia, PA - Theatre of Living Arts 
+
+02/07 - Boston, MA - Paradise 
+
+02/08 - New York, NY - Webster Hall 
+
+02/09 - Washington, DC - 9:30 Club 
+
+02/11 - Chicago, IL - Metro 
+
+02/12 - Minneapolis, MN - First Avenue 
+
+02/15 - Vancouver, BC - Venue 
+
+02/16 - Seattle, WA - Showbox @ the Market 
+
+02/17 - Portland, OR - Wonder Ballroom 
+
+02/19 - San Francisco, CA - The Fillmore 
+
+02/20 - Anaheim, CA - House of Blues 
+
+02/21 - Los Angeles, CA - Music Box
+
+
+
+
+
+More info ant The Gang Of Four Website
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amazon.com Widgets Amazon.com Widgets Posted by Architecture of Sound at 10:48 PM No
+comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: 1979 , Gang of Four
+
+Book: Touchable Sound
+
+
+
+Image:
+http://3.bp.blogspot.com/_X3rYXG9xth8/TOFnLYbDQfI/AAAAAAAAARM/15-P9sg4bx8/s1600/artbook_2126_379284701.jpeg
+
+Touchable Sound : A Collection of 7-inch records - from the USA.
+
+
+
+Soundscreen's next book, Touchable Sound: A Collection of 7-inch Records from the USA, is an
+exciting celebration of nearly 25 years of labor intensive 7-inch record packaging and
+design. Curated by Brian Roettinger, Mike Treff, and Diego Hadis, Touchable Sound features
+over 300 records and 600 bands, with an introduction from the always insightful Henry H.
+Owings, and essay contributions from Simple Machine's founder Kristin Thomson,
+Amphetamine Reptile founder Tom Hazelmyer, Three One G founder Justin Pearson, and many
+more.
+
+
+
+Conceived and compiled by Brian Roettinger, Mike Treff and Diego Hadis.
+
+
+
+Designed by Brian Roettinger .
+
+
+
+Introduction by Henry Owings .
+
+
+
+Editorial contributions from Mike Amezcua, Tom Hazelmyer, Sam McPheeters, Mark Owens,
+Justin Pearson, Brian Roettinger and Kristin Thompson .
+
+
+
+Image:
+http://3.bp.blogspot.com/_X3rYXG9xth8/TOFqeQdB_9I/AAAAAAAAARg/s89ocaZbVcw/s640/touchablesound2-thumb-941x683-23611.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+By: Soundscreen Design
+
+
+
+
+
+Get It! Insound  | Amazon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Amazon.com Widgets Posted by Architecture of Sound at 9:34 AM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: Books , Design
+
+Sunday, November 14, 2010
+
+
+
+Marine
+
+
+
+Image:
+http://2.bp.blogspot.com/_X3rYXG9xth8/TOC6gRCz8kI/AAAAAAAAARI/s4k_Z3AIQpw/s200/LTM2396F.JPG.jpeg
+Formed in Brussels in 1980, Marine played experimental & funk influenced post punk. Their
+brand of punk-funk was said to have influenced Josef K .  The short lived Belgian band reached
+mild success in 1981 when their single on record label  Les Disques du Crepuscule    "Life
+in Reverse" hit number 6 in the UK on the NME indie top ten charts and captured the attention of
+John Peel . Having booked a session with Peel in conjunction with label mates and fellow
+Beligians The Names,  Marine disbanded during the recording of their first Peel Session.
+Splitting up over creative differences, singer Mark Demarais went on to form La Muerte
+influenced by The Birthday Party and The Stooges .
+
+
+
+
+
+
+
+
+
+
+
+Amazon.com Widgets Posted by Architecture of Sound at 8:47 PM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: 1981 , Belgian , Dance Punk , Marine , Music , no wave
+
+Saturday, November 13, 2010
+
+
+
+Photographer: Brian Griffin
+
+
+
+Image:
+http://3.bp.blogspot.com/_X3rYXG9xth8/TN8goMJe-xI/AAAAAAAAAQM/vLvxhhPaYBE/s640/home_image.jpg
+
+Brian Griffin celebrates his  retrospective  titled Face to Face from September 30, 2010
+until November 21, 2010 at Snow Hill Plaza in Birmingham. The outdoor exhibition focuses on
+his portraiture showcasing some of his influences that inspired his creativity and work over
+his career of photography, film and Audio-Visual Art. Brian Griffins body of work is
+inspiring and influential and he is considered one of the most influential British
+Photographers creating colorful iconic imagery for music, commercial, and film from the
+seventies until today. Although he mainly focuses on commercial and Film these days, it's
+hard to forget the iconic imagery he created for some of the great musical artists in the 80's
+including  Echo and The Bunnymen
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B000WTNDQ2
+,  Depeche Mode ,  Elvis Costello and The Attractions,  and  Joe Jackson  to name a few.
+
+
+
+Image:
+http://4.bp.blogspot.com/_X3rYXG9xth8/TN8Oyhk4rlI/AAAAAAAAAP4/ZU4N8ngVg_8/s320/Echo_y_The_Bunnymen-Crocodiles_%25281980%2529-Frontal.jpg
+Echo & The Bunnymen 'Crocodiles'
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B0000E2PY3
+Photography by Brian Griffin 198 0
+
+
+
+Image:
+http://2.bp.blogspot.com/_X3rYXG9xth8/TN8YXNwnS9I/AAAAAAAAAQI/evWCLUhFmU8/s320/Echo+And+The+Bunnymen+-+Heaven+Up+Here+-+Front.jpg
+E cho & The Bunnymen 'Heaven up Here'
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B0000E2Y8Z
+Photography by Brian Griffin 1981
+
+Image:
+http://4.bp.blogspot.com/_X3rYXG9xth8/TN8W2O6xo6I/AAAAAAAAAQE/NEsGlNQ38bA/s320/Echo_y_The_Bunnymen-Porcupine_%25282003%2529-Frontal.jpg
+Echo & The Bunnymen 'Porcupine'
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B0000E2PY4
+Photography by Brian Griffin 198 3
+
+
+
+Image:
+http://1.bp.blogspot.com/_X3rYXG9xth8/TN8SAyCZ-3I/AAAAAAAAAP8/Ydqk0TC8IWo/s320/Echo_And_The_Bunnymen-Ocean_Rain.jpg
+Echo and & Bunnymen 'Ocean Rain'
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B0000E2PY6
+Photography by Brian Griffin 1984
+
+
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_X3rYXG9xth8/TN8zscjaRTI/AAAAAAAAAQY/j2SRRNCKWZk/s320/joe-jackson-look-sharp.jpg
+
+Brians image for Joe Jacksons  Look Sharp
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=architectureo-20&l=btl&camp=213689&creative=392969&o=1&a=B000026GYE
+ is considered by many to be one of the greatest album covers of the seventies.
+
+Image:
+http://3.bp.blogspot.com/_X3rYXG9xth8/TN81E3UfBBI/AAAAAAAAAQc/ZmGlW4FC2F8/s320/barney-bubbles-elvis-costello.jpg
+Brian worked with co-conspiritor and genius graphic designer  Barney Bubbles  on many
+photo and design projects during the seventies and eighties creating album covers for many
+great artists including Elvis Costello and Depeche Mode. Barney passed away in 1983 but his
+work is still inspiring and influencing designers and artists today. A Barney Bubbles post
+will sure to be up soon!
+
+
+
+Image:
+http://1.bp.blogspot.com/_X3rYXG9xth8/TN81XJYyKnI/AAAAAAAAAQg/kGwDzFDzgP4/s320/mbhk_dm_speakandspellcover-450x404.jpg
+                                   
+
+Echo & the Bunnymen "The Killing Moon" Directed by Brian Griffin 1984
+
+
+
+
+
+
+
+
+
+The exhibition Brian Griffin: Face to Face, a retrospective runs until November 21 and
+showcases portraiture from the last 38 years. For more information on Brian Griffin and his
+work visit  www.briangriffin.co.uk www.briangriffin-facetoface.co.uk
+
+
+
+Posted by Architecture of Sound at 4:20 PM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: 80's , Photography Older Posts Home Subscribe to:
+Posts (Atom) window.___gcfg = {'lang': 'en'};window.___gapisync = false;(function()
+{var po = document.createElement('script');po.type = 'text/javascript';po.async =
+true;po.src = 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+Labels
+
+1979 Music Post Punk no wave 80's Dance Punk 1981 athens Art Rock Books Glenn Branca New Wave
+Photography art jean-michael basquiat 70's Artists Belgian David Byrne Design Dub
+Experimental Family Fodder Fire Engines Gang of Four James Chance Josef K Joy Division
+Krautrock Love Tractor Marine Medium Medium Method Actors Modern English Neu Noise
+ProtoWave Pylon Sonic Youth Talking Heads The Contortions The Jam The Raincoats Wire Y Pants
+Zeitgeist avant-garde colin newman composer graffiti
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Music Library
+
+Amazon.com Widgets
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Links
+
+    
+
+    - 99 Records
+
+    
+
+    - Brian Griffin
+
+    
+
+    - DFA
+
+    
+
+    - Eames
+
+    
+
+    - Ecstatic Peace!
+
+    
+
+    - Factory Records
+
+    
+
+    - Giant Robot
+
+    
+
+    - Malcolm Garrett
+
+    
+
+    - Oh My Rockness! indie rock show list
+
+    
+
+    - Peter Saville
+
+    
+
+    - Post Punk Kitchen
+
+    
+
+    - Reasons To Be Cheerful
+
+    
+
+    - Yay! Everyday
+
+    
+
+    - Ze Records
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/4553352133749829824/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/4553352133749829824/comments/default";
+holder.currentBlogUrl = "http://architectureofsound.blogspot.com/";
+holder.currentBlogId = "4553352133749829824"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#444444"; skin['ENDCAP_LINK_COLOR'] = "#ff00ff";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#ff00ff"; skin['CONTENT_TEXT_COLOR'] =
+"#444444"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#ff00ff";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#666666"; skin['CONTENT_HEADLINE_COLOR'] =
+"#444444"; skin['FONT_FACE'] = "normal normal 13px Arial, Tahoma, Helvetica, FreeSans,
+sans-serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-1qenvv9d1225g",
+height: 260, site: "05103140906447880596", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+About
+
+
+
+    Image:
+    http://1.bp.blogspot.com/_X3rYXG9xth8/TNtjtKcnv_I/AAAAAAAAAKo/yKmehVDk1eI/S220/aos.jpg
+
+        Architecture of Sound
+
+    
+
+        The albums, artists, and products posted here are meant for the general purpose of
+        previewing and reviewing only. This blog is created out my love for the arts and
+        encourage you to do your own research and purchase original copies of the artists and
+        works displayed on this blog. This is basic" best of" list from my personal taste and
+        is done for fun. If there is anything that is offensive or needs to be removed please
+        contact me and it will be removed imediately! I try to only post items that are easily
+        and readily available through legitimate sources and are credited when possible. -
+        thanks!
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Awesome Inc. template.
+Powered by Blogger .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+Blog Archive November (23)
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+window.setTimeout(function() { document.body.className =
+document.body.className.replace('loading', ''); }, 10); if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV2";window['blogger_blog_id'] =
+'4553352133749829824';BLOG_attachCsiOnload('');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d4553352133749829824','//architectureofsound.blogspot.com/','4553352133749829824');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'4553352133749829824', 'bloggerUrl': 'http://www.blogger.com', 'title':
+'ARCHITECTURE OF SOUND', 'pageType': 'index', 'url':
+'http://architectureofsound.blogspot.com/', 'canonicalUrl':
+'http://architectureofsound.blogspot.com/', 'canonicalHomepageUrl':
+'http://architectureofsound.blogspot.com/', 'homepageUrl':
+'http://architectureofsound.blogspot.com/', 'blogspotFaviconUrl':
+'http://architectureofsound.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': '',
+'pageTitle': 'ARCHITECTURE OF SOUND', 'encoding': 'UTF-8', 'locale': 'en', 'isPrivate':
+false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42ARCHITECTURE OF
+SOUND - Atom\42
+href\75\42http://architectureofsound.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42ARCHITECTURE OF SOUND - RSS\42
+href\75\42http://architectureofsound.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42ARCHITECTURE OF SOUND - Atom\42
+href\75\42http://www.blogger.com/feeds/4553352133749829824/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0754553352133749829824\42 /\076',
+'meTag': '\74link rel\75\42me\42
+href\75\42http://www.blogger.com/profile/12205677432171244214\42 /\76\n',
+'openIdOpTag': '\74link rel\75\42openid.server\42
+href\75\42http://www.blogger.com/openid-server.g\42 /\76\n\74link
+rel\75\42openid.delegate\42
+href\75\42http://architectureofsound.blogspot.com/\42 /\76\n', 'imageSrcTag': '',
+'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if
+IE]\76\74script type\75\42text/javascript\42
+src\75\42//www.blogger.com/static/v1/jsbin/3651483553-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076',
+'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'date_border_size': '0', 'description_font':
+'normal normal 12px \47Times New Roman\47, Times, FreeSerif, serif;',
+'body_background_gradient_cap': 'none', 'tabs_selected_background_color':
+'#666666', 'footer_background_gradient': 'none', 'date_background': 'transparent
+none no-repeat scroll top left', 'widget_border_radius': '0', 'post_title_text_color':
+'#444444', 'widget_font': 'normal normal 14px Arial, Tahoma, Helvetica, FreeSans,
+sans-serif', 'widget_link_hover_color': '#3778cd', 'link_visited_color': '#6fa8dc',
+'mobile_background_size': 'auto', 'date_space': '30px', 'post_title_font': 'normal
+bold 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'tabs_text_color':
+'#444444', 'title_separator_border_size': '1px', 'header_background_gradient':
+'none', 'widget_outer_background_gradient': 'none', 'widget_link_color': '#3778cd',
+'mobile_button_color': '#ffffff', 'widget_title_font': 'normal bold 14px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif', 'widget_outer_background_color':
+'#ffff00', 'date_last_border_radius_bottom': '0', 'widget_outer_margin_top': '0',
+'shadow_spread': '20px', 'title_shadow_spread': '-1px', 'outer_shadow_spread': '0',
+'keycolor': '#eeeeee', 'image_shadow_spread': '0', 'image_background_color':
+'transparent', 'header_font': 'normal normal 50px \47Times New Roman\47, Times,
+FreeSerif, serif;', 'header_background_color': '#ffffff',
+'date_header_border_radius_top': '0', 'widget_border_bevel_color': 'transparent',
+'tabs_border_color': '#999999', 'widget_background_color': '#ffffff',
+'date_position': 'static', 'post_first_padding_top': '0',
+'tabs_background_gradient':
+'url(http://www.blogblog.com/1kt/awesomeinc/tabs_gradient_light.png)',
+'mobile_background_overlay': 'transparent none repeat scroll top left',
+'date_border_color': '#eeeeee', 'tabs_background_color': '#ffffff',
+'widget_link_visited_color': '#4d469c', 'feed_text_color': '#444444',
+'header_margin_top': '0', 'link_hover_color': '#3778cd', 'date_last_space_bottom':
+'20px', 'header_margin_bottom': '0', 'date_padding_bottom': '0',
+'list_separator_border_size': '1px', 'description_text_color': '#000000',
+'body_text_color': '#444444', 'header_padding_top': '22px', 'post_border_color':
+'#eeeeee', 'footer_text_color': '#444444', 'post_background_color': '#ffffff',
+'pager_space_top': '1em', 'endSide': 'right', 'startSide': 'left',
+'body_background_size': 'auto', 'tabs_font': 'normal bold 14px Arial, Tahoma,
+Helvetica, FreeSans, sans-serif', 'body_font': 'normal normal 13px Arial, Tahoma,
+Helvetica, FreeSans, sans-serif', 'date_first_border_radius_top': '0',
+'date_header_position': '15px', 'date_text_color': '#444444',
+'widget_title_text_color': '#444444', 'image_border_color': 'transparent',
+'separator_outdent': '15px', 'widget_text_color': '#444444', 'link_color':
+'#ff00ff', 'widget_border_color': '#eeeeee', 'pager_border_radius_top': '0',
+'feed_link_color': '#3778cd', 'header_text_color': '#000000',
+'footer_background_color': '#ffffff', 'widget_padding_top': '8px',
+'feed_link_visited_color': '#4d469c', 'feed_link_hover_color': '#3778cd',
+'date_font': 'normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif',
+'tabs_selected_text_color': '#ffffff', 'date_side': 'right',
+'post_border_bevel_color': '#eeeeee', 'widget_padding_side': '15px',
+'body_background_color': '#ffffff', 'image_border_radius': '0',
+'pager_background_color': '#ffffff', 'widget_alternate_text_color': '#666666'},
+'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url':
+'/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'},
+'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name':
+'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url':
+'/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'},
+'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1',
+'sidebar-right-1', null, document.getElementById('Label1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'sidebar-right-1', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList2', 'sidebar-right-1', null,
+document.getElementById('LinkList2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'footer-3', null,
+document.getElementById('Attribution1'), {'attribution': 'Awesome Inc. template.
+Powered by \74a href\75\47http://www.blogger.com\47
+target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'footer-3', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_FollowersView', new
+_WidgetInfo('Followers1', 'footer-1', null, document.getElementById('Followers1'),
+{'title': 'Followers', 'codeSnippet': '\74script type\75\42text/javascript\42\76\n
+if (!window.google || !google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75
+\42http://www.blogger.com/feeds/4553352133749829824/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/4553352133749829824/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://architectureofsound.blogspot.com/\42;\n
+holder.currentBlogId \75 \0424553352133749829824\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-93rqbsqranem\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#444444\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#ff00ff\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#ff00ff\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#444444\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#ff00ff\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#666666\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#444444\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-93rqbsqranem\42,\n height: 260,\n \n \n \n site: \04205103140906447880596\42,\n
+\n locale: \47en\47 },\n skin);\n \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1',
+'footer-1', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/2030570962-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

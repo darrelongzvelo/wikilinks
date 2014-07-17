@@ -1,0 +1,1101 @@
+
+
+
+
+/** * vBulletin 3.7.3 CSS * Style: 'Straight Dope v3.7.3'; Style ID: 12 */ body { background:
+#FFFFFF; color: #000000; font: 10pt Trebuchet MS, Arial, Verdana, sans-serif; margin: 5px
+10px 10px 10px; padding: 0px; border: 1px solid #E0E0E0; } a:link, body_alink { color:
+#22229C; } a:visited, body_avisited { color: #22229C; } a:hover, a:active, body_ahover {
+color: #FF4400; } .page { background: #FFFFFF; color: #000000; } td, th, p, li { font: 10pt
+Trebuchet MS, Arial, sans-serif; } .tborder { background: #FFFFFF; color: #000000; border:
+1px solid #E0E0E0; } .tcat { background: #330099; color: #FFFFFF; font: bold 10pt Trebuchet
+MS, Arial, sans-serif; } .tcat a:link, .tcat_alink { color: #ffffff; text-decoration:
+none; } .tcat a:visited, .tcat_avisited { color: #ffffff; text-decoration: none; } .tcat
+a:hover, .tcat a:active, .tcat_ahover { color: #FFFF66; text-decoration: underline; }
+.thead { background: #EAEAEA; color: #666666; font: bold 11px Trebuchet MS, Arial,
+sans-serif; } .thead a:link, .thead_alink { color: #666666; } .thead a:visited,
+.thead_avisited { color: #666666; } .thead a:hover, .thead a:active, .thead_ahover {
+color: #FFFFFF; } .tfoot { background: #330099; color: #FFFFFF; } .tfoot a:link,
+.tfoot_alink { color: #FFFFFF; } .tfoot a:visited, .tfoot_avisited { color: #FFFFFF; }
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover { color: #FFFF66; } .alt1, .alt1Active {
+background: #F8F8F8; color: #000000; } .alt2, .alt2Active { background: #F8F8F8; color:
+#000000; } .inlinemod { background: #FFFFCC; color: #000000; } .wysiwyg { background:
+#F8F8F8; color: #000000; font: 10pt Trebuchet MS, Arial, sans-serif; margin: 5px 10px 10px
+10px; padding: 0px; } textarea, .bginput { font: 10pt Trebuchet MS, Arial, sans-serif; }
+.bginput option, .bginput optgroup { font-size: 10pt; font-family: Trebuchet MS, Arial,
+sans-serif; } .button { font: 11px Trebuchet MS, Arial, sans-serif; } select { font: 11px
+verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; } option,
+optgroup { font-size: 11px; font-family: verdana, geneva, lucida, 'lucida grande', arial,
+helvetica, sans-serif; } .smallfont { font: 11px verdana, geneva, lucida, 'lucida grande',
+arial, helvetica, sans-serif; } .time { color: #000000; } .navbar { font: 11px verdana,
+geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; } .highlight { color:
+#FF0000; font-weight: bold; } .fjsel { background: #3E5C92; color: #E0E0F6; } .fjdpth0 {
+background: #F7F7F7; color: #000000; } .panel { background: #EAEAEA; color: #000000;
+padding: 10px; border: 2px outset; } .panelsurround { background: #D1D4E0
+url(images/gradients/gradient_panelsurround.gif) repeat-x top left; color: #000000; }
+legend { color: #22229C; font: 11px tahoma, verdana, geneva, lucida, 'lucida grande',
+arial, helvetica, sans-serif; } .vbmenu_control { background: #330099; color: #FFFFFF;
+font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica,
+sans-serif; padding: 3px 6px 3px 6px; white-space: nowrap; } .vbmenu_control a:link,
+.vbmenu_control_alink { color: #FFFFFF; text-decoration: none; } .vbmenu_control
+a:visited, .vbmenu_control_avisited { color: #FFFFFF; text-decoration: none; }
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover { color:
+#FFFFFF; text-decoration: underline; } .vbmenu_popup { background: #FFFFFF; color:
+#000000; border: 1px solid #0B198C; } .vbmenu_option { background: #BBC7CE; color:
+#000000; font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica,
+sans-serif; white-space: nowrap; cursor: pointer; } .vbmenu_option a:link,
+.vbmenu_option_alink { color: #22229C; text-decoration: none; } .vbmenu_option
+a:visited, .vbmenu_option_avisited { color: #22229C; text-decoration: none; }
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover { color:
+#FFFFFF; text-decoration: none; } .vbmenu_hilite { background: #E1E1E1; color: #FFFFFF;
+font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+white-space: nowrap; cursor: pointer; } .vbmenu_hilite a:link, .vbmenu_hilite_alink {
+color: #FFFFFF; text-decoration: none; } .vbmenu_hilite a:visited,
+.vbmenu_hilite_avisited { color: #FFFFFF; text-decoration: none; } .vbmenu_hilite
+a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover { color: #FFFFFF;
+text-decoration: none; } /* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; } /* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; } /* ***** basic styles for multi-page nav
+elements */ .pagenav a { text-decoration: none; } .pagenav td { padding: 2px 4px 2px 4px; } /*
+***** de-emphasized text */ .shade, a.shade:link, a.shade:visited { color: #777777;
+text-decoration: none; } a.shade:active, a.shade:hover { color: #FF4400;
+text-decoration: underline; } .tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD;
+} /* ***** define margin and font-size for elements inside panels ***** */ .fieldset {
+margin-bottom: 6px; } .fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px;
+} BODY { SCROLLBAR-BASE-COLOR: {categorybackcolor}; SCROLLBAR-ARROW-COLOR:
+{categoryfontcolor}; } SELECT { FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif;
+FONT-SIZE: 11px; COLOR: #000000; BACKGROUND-COLOR: #CFCFCF } TEXTAREA, .bginput {
+FONT-SIZE: 12px; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; COLOR: #000000;
+BACKGROUND-COLOR: #CFCFCF } A:link, A:active { COLOR: {linkcolor}; } A:visited { color:
+#666666; } A:hover { COLOR: {hovercolor}; } #cat A:link, #cat A:visited, #cat A:active {
+COLOR: {categoryfontcolor}; TEXT-DECORATION: none; } #cat A:hover { COLOR:
+{categoryfontcolor}; TEXT-DECORATION: underline; } #ltlink A:link, #ltlink A:visited,
+#ltlink A:active { COLOR: {linkcolor}; TEXT-DECORATION: none; } #ltlink A:hover { COLOR:
+{hovercolor}; TEXT-DECORATION: underline; } .thtcolor { COLOR: {tableheadtextcolor}; }
+.sdmbHeader { FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; FONT-SIZE: 11px;
+COLOR: #000000; BACKGROUND-COLOR: #990000 } .borders { border-left: 1px solid #CFCFCF;
+border-right: 1px solid #CFCFCF; } <!-- var SESSIONURL =
+"s=8ab58bae7da2379787805d7fdb118480&"; var SECURITYTOKEN = "guest"; var IMGDIR_MISC =
+"images/misc"; var vb_disable_ajax = parseInt("0", 10); // --> Do states other than New York
+have an "Upstate"? - Straight Dope Message Board <!-- #links div { white-space: nowrap; }
+#links img { vertical-align: middle; } -->
+
+<!-- writeAdNew('tsd', 'l', 'bboard', 'bboard'); // -->  
+
+Image: /sdmb/sdmb_images/thead_pixel.gif
+
+Image: /sdmb/sdmb_images/thead_pixel.gif
+
+Image: /sdmb/sdmb_images/reader/tsdbanner.gif
+
+Image: /sdmb/sdmb_images/reader/ignorance2lines.gif
+
+
+
+Image: images/misc/navbits_start.gif   Straight Dope Message Board > Main > General
+Questions
+
+Image: images/misc/navbits_finallink_ltr.gif Do states other than New York have an
+"Upstate"? User Name Remember Me? Password Register FAQ Calendar Mark Forums Read
+
+
+
+Image: images/buttons/reply.gif Page 1 of 2 1 2 >   Thread Tools Display Modes   # 1  
+
+Image: images/statusicon/post_old.gif 05-29-2012, 08:00 PM An Gadaí
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15112890",
+true); Guest   Join Date: Mar 2007 Do states other than New York have an "Upstate"?
+
+
+
+You always hear the term Upstate New York, are there other Upstates? I have heard the term
+downstate a few times but I'm not aware of any Downstate X as a common name for a place. Please
+enlighten me.
+
+Image: images/buttons/quote.gif An Gadaí View Public Profile Visit An Gadaí's homepage!
+Find all posts by An Gadaí Advertisement <!-- writeAdNew('tsd', 'r', 'bboard', 'bboard');
+// -->   # 2  
+
+Image: images/statusicon/post_old.gif 05-29-2012, 08:08 PM missred
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15112911",
+true); Guest   Join Date: Jul 2007 Illinois has a downstate, but I've never heard of the
+northern part being called upstate.
+
+Image: images/buttons/quote.gif missred View Public Profile Find all posts by missred   # 3
+ 
+
+Image: images/statusicon/post_old.gif 05-29-2012, 08:09 PM DCnDC
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15112914",
+true); Guest   Join Date: Feb 2010 According to Wikipedia, there's an " Upstate South
+Carolina " (The Upcountry) and an " Upstate California " but personally I've never heard that
+term used in reference to anywhere besides New York.
+
+
+
+Last edited by DCnDC; 05-29-2012 at 08:10 PM .
+
+Image: images/buttons/quote.gif DCnDC View Public Profile Find all posts by DCnDC   # 4  
+
+Image: images/statusicon/post_old.gif 05-29-2012, 08:13 PM johnpost
+
+Image: images/statusicon/user_online.gif vbmenu_register("postmenu_15112924",
+true); Guest   Join Date: Jul 2009 Illinois has downstate as a common term. California has a
+north and south divide. Michigan is a divided state.
+
+Image: images/buttons/quote.gif johnpost View Public Profile Find all posts by johnpost  
+# 5  
+
+Image: images/statusicon/post_old.gif 05-29-2012, 08:18 PM Bijou Drains
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15112942",
+true); Guest   Join Date: Sep 2008 The people in SC do use upstate to talk about that part of SC
+
+Image: images/buttons/quote.gif Bijou Drains View Public Profile Find all posts by Bijou
+Drains   # 6  
+
+Image: images/statusicon/post_old.gif 05-29-2012, 08:19 PM cochrane
+
+Image: images/statusicon/user_online.gif vbmenu_register("postmenu_15112945",
+true); Guest   Join Date: Jun 2006 There's Upstate Pennsylvania .
+
+Image: images/buttons/quote.gif cochrane View Public Profile Find all posts by cochrane  
+# 7  
+
+Image: images/statusicon/post_old.gif 05-29-2012, 08:25 PM dan1500
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15112961",
+true); Guest   Join Date: Apr 2009 There's been an effort to brand northeast Indiana as
+upstate Indiana around Fort Wayne, but it hasn't really caught on.
+
+Image: images/buttons/quote.gif dan1500 View Public Profile Find all posts by dan1500   # 8
+ 
+
+Image: images/statusicon/post_old.gif 05-29-2012, 08:25 PM President Johnny Gentle
+
+Image: images/statusicon/user_online.gif vbmenu_register("postmenu_15112962",
+true); Guest   Join Date: May 2007 Quote: Originally Posted by Bijou Drains
+
+Image: images/buttons/viewpost.gif The people in SC do use upstate to talk about that part of
+SC And in fact there's a University of South Carolina Upstate branch.
+
+
+
+I'm not familiar with other uses of "Upstate", but there's heavy use of the term "Outstate" in
+Minnesota. (The opposite is "the Metro" or "the Cities").
+
+Image: images/buttons/quote.gif President Johnny Gentle View Public Profile Find all
+posts by President Johnny Gentle   # 9  
+
+Image: images/statusicon/post_old.gif 05-29-2012, 08:32 PM picker
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15112980",
+true); Guest   Join Date: Sep 2003 In Wisconsin, we have "Up North".
+
+Image: images/buttons/quote.gif picker View Public Profile Find all posts by picker   # 10
+ 
+
+Image: images/statusicon/post_old.gif 05-29-2012, 08:35 PM Lukeinva
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15112995",
+true); Guest   Join Date: Mar 2009 In Maine they have "down east." Virginia has "northern
+virginia."
+
+Image: images/buttons/quote.gif Lukeinva View Public Profile Find all posts by Lukeinva  
+# 11  
+
+Image: images/statusicon/post_old.gif 05-29-2012, 08:43 PM BigT
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15113012",
+true); Guest   Join Date: Aug 2008 Arkansas has that divide, but we never use the term. It's jut
+Northern and Southern. The division is caused by the geography it's hill country versus
+mostly flat lands. The former kept most of Northern Arkansas isolated for quite a while. It's
+still pretty dadblasted white--though there's an additional reason for that.
+
+Image: images/buttons/quote.gif BigT View Public Profile Find all posts by BigT   # 12  
+
+Image: images/statusicon/post_old.gif 05-29-2012, 08:48 PM Bijou Drains
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15113035",
+true); Guest   Join Date: Sep 2008 NC also has down east which means east of I-95
+
+
+
+The dumbest thing is Charlotte only has uptown, they decided the word "downtown" was
+
+"too negative"
+
+Image: images/buttons/quote.gif Bijou Drains View Public Profile Find all posts by Bijou
+Drains   # 13  
+
+Image: images/statusicon/post_old.gif 05-29-2012, 09:01 PM Athena
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15113077",
+true); Charter Member   Join Date: May 1999 Quote: Originally Posted by johnpost
+
+Image: images/buttons/viewpost.gif IMichigan is a divided state. True, but I've never
+heard the term "Upstate" here.
+
+
+
+There's "Downstate", which describes everything in the southern peninsula.
+
+
+
+There's "Northern Michigan", which describes everything in the northern half of the
+southern peninsula.
+
+
+
+And then there's the "Upper Peninsula" aka "UP", which is the northern peninsula. And yeah, we
+think it's funny that we're north of "Northern Michigan."
+
+Image: images/buttons/quote.gif Athena View Public Profile Find all posts by Athena   # 14
+ 
+
+Image: images/statusicon/post_old.gif 05-29-2012, 09:10 PM Shagnasty
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15113105",
+true); Charter Member   Join Date: May 2000 No, it is just New York as used as a common term. I
+heard it first when I went to college in the South but still with a large New York population.
+People from upper New York state used that term all the time to distinguish themselves from the
+very large population of people from New York City and Long Island that were also there but had
+little in with common otherwise.
+
+
+
+It makes sense. Northern New York State is closer in culture to New England or the industrial
+rust-belt depending on the part you are talking about than it is to New York City. A lot of it is
+quite rural. NYC can be a 6 hour drive and world away if you live in Buffalo or Rochester so they
+have to head off the confusion when they say they are from 'New York' for people that assume they
+know all about the latest Broadway shows. 'Upstate' is the short-hand term they use for it.
+People from other states have versions of the same problems but not nearly as large.
+
+
+
+Last edited by Shagnasty; 05-29-2012 at 09:13 PM .
+
+Image: images/buttons/quote.gif Shagnasty View Public Profile Find all posts by Shagnasty
+  # 15  
+
+Image: images/statusicon/post_old.gif 05-29-2012, 09:17 PM elfkin477
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15113124",
+true); Member   Join Date: Apr 2001 Upstate is so pedestrian. I prefer the terms we use around
+here, like the north country and the northeast kingdom .
+
+Image: images/buttons/quote.gif elfkin477 View Public Profile Visit elfkin477's
+homepage! Find all posts by elfkin477   # 16  
+
+Image: images/statusicon/post_old.gif 05-29-2012, 09:35 PM Pai325
+
+Image: images/statusicon/user_online.gif vbmenu_register("postmenu_15113167",
+true); Guest   Join Date: Jul 2010 Quote: Originally Posted by missred
+
+Image: images/buttons/viewpost.gif Illinois has a downstate, but I've never heard of the
+northern part being called upstate. As someone who grew up in northern Illinois and now lives
+downstate, I have to agree with this.
+
+Image: images/buttons/quote.gif Pai325 View Public Profile Find all posts by Pai325   # 17
+ 
+
+Image: images/statusicon/post_old.gif 05-29-2012, 10:04 PM 5 time champ
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15113267",
+true); Charter Member   Join Date: Oct 2001 In Missouri we have "outstate," areas not in
+either the St Louis or Kansas City metro.
+
+Image: images/buttons/quote.gif 5 time champ View Public Profile Find all posts by 5 time
+champ   # 18  
+
+Image: images/statusicon/post_old.gif 05-29-2012, 10:12 PM StrangerThanFiction
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15113291",
+true); Guest   Join Date: Jul 2008 Quote: Originally Posted by Pai325
+
+Image: images/buttons/viewpost.gif As someone who grew up in northern Illinois and now
+lives downstate, I have to agree with this. Yeah, it's "southern Illinois," and it's defined
+as anything south of I-80
+
+Image: images/smilies/biggrin.gif
+
+
+
+Last edited by StrangerThanFiction; 05-29-2012 at 10:12 PM .
+
+Image: images/buttons/quote.gif StrangerThanFiction View Public Profile Find all posts
+by StrangerThanFiction   # 19  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 12:56 AM R. P. McMurphy
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15113675",
+true); Charter Member   Join Date: Jun 2002 Quote: Originally Posted by Athena
+
+Image: images/buttons/viewpost.gif True, but I've never heard the term "Upstate" here.
+
+
+
+There's "Downstate", which describes everything in the southern peninsula.
+
+
+
+There's "Northern Michigan", which describes everything in the northern half of the
+southern peninsula.
+
+
+
+And then there's the "Upper Peninsula" aka "UP", which is the northern peninsula. And yeah, we
+think it's funny that we're north of "Northern Michigan." As a kid I can remember my confusion
+as to everything outside of Detroit (when it was the 5th largest city in the US) as "upstate".
+Maybe it was "out of state", can't actually recall, but there was a clear distinction between
+Detroit and the rest of Michigan.
+
+Image: images/buttons/quote.gif R. P. McMurphy View Public Profile Find all posts by R. P.
+McMurphy   # 20  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 01:25 AM Little Nemo
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15113711",
+true); Charter Member   Join Date: Dec 1999 Quote: Originally Posted by Shagnasty
+
+Image: images/buttons/viewpost.gif No, it is just New York as used as a common term. I heard it
+first when I went to college in the South but still with a large New York population. People from
+upper New York state used that term all the time to distinguish themselves from the very large
+population of people from New York City and Long Island that were also there but had little in
+with common otherwise.
+
+
+
+It makes sense. Northern New York State is closer in culture to New England or the industrial
+rust-belt depending on the part you are talking about than it is to New York City. A lot of it is
+quite rural. NYC can be a 6 hour drive and world away if you live in Buffalo or Rochester so they
+have to head off the confusion when they say they are from 'New York' for people that assume they
+know all about the latest Broadway shows. 'Upstate' is the short-hand term they use for it.
+People from other states have versions of the same problems but not nearly as large. In common
+usage, Upstate New York is everything north of New York City (which is the entire state except
+for NYC and Long Island).
+
+
+
+Northern New York is generally the area north of Albany and Syracuse. So places like Albany,
+Syracuse, Buffalo, Rochester, Binghamton, and Poughkeepsie are in Upstate New York but
+aren't in Northern New York.
+
+
+
+Western New York is everything to the west of Route 81 (except for the strip that's in Northern
+New York).
+
+
+
+You'll occasionally hear references to Downstate New York but it's not a common term. Mainly
+because the area that would normally be considered Downstate New York falls inside the area
+that's commonly called Upstate New York. We realize that makes no sense so we just call the area
+that should be Downstate New York the Hudson Valley.
+
+
+
+Central New York is the area between Western New York, Northern New York, and the Hudson
+Valley.
+
+
+
+The Catskills are maybe part of Central New York or maybe part of the Hudson Valley. It's an
+unsolved mystery.
+
+
+
+There are no Eastern or Southern parts of New York.
+
+Image: images/buttons/quote.gif Little Nemo View Public Profile Find all posts by Little
+Nemo   # 21  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 01:44 AM Shinna Minna Ma
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15113739",
+true); Guest   Join Date: Nov 2008 Let's not forget Downstate Medical Center , which is in
+Brooklyn, NY - which is downstate. Is there an Upstate Medical Center as well?
+
+Image: images/buttons/quote.gif Shinna Minna Ma View Public Profile Find all posts by
+Shinna Minna Ma   # 22  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 05:11 AM t-bonham@scc.net
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15113919",
+true); Guest   Join Date: Mar 2003 Quote: Originally Posted by 5 time champ
+
+Image: images/buttons/viewpost.gif In Missouri we have "outstate," areas not in either the
+St Louis or Kansas City metro. Minnesota also has an 'outstate', referring to the mostly rural
+part of the state outside the Twin Cities metro area.
+
+
+
+Though the current politically correct term is "Greater Minnesota". But because that'as
+longer & harder to say, most people still use 'outstate' in everything except political
+speeches or fromal writings.
+
+Image: images/buttons/quote.gif t-bonham@scc.net View Public Profile Find all posts by
+t-bonham@scc.net   # 23  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 05:22 AM Polycarp
+
+Image: images/statusicon/user_online.gif vbmenu_register("postmenu_15113930",
+true); Charter Member   Join Date: Aug 1999 Quote: Originally Posted by Shinna Minna Ma
+
+Image: images/buttons/viewpost.gif Let's not forget Downstate Medical Center , which is in
+Brooklyn, NY - which is downstate. Is there an Upstate Medical Center as well? Yes, in
+Syracuse.
+
+
+
+    On the Upstate/Downstate line, I have seen it drawn
+
+    - on the northern Brons boundary;
+
+    
+
+    - north of the heavily urbanized group of cities and towns just north of the Bronx
+    (Yonkers, Mount Vernon, Rye, etc.);
+
+    
+
+    - north of Westchester County;
+
+    
+
+    - north of Rockland and Puytnam Counties.
+
+    
+
+
+
+Image: images/buttons/quote.gif Polycarp View Public Profile Find all posts by Polycarp  
+# 24  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 07:19 AM postcards
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15114069",
+true); Charter Member   Join Date: Aug 2001 Quote: Originally Posted by Little Nemo
+
+Image: images/buttons/viewpost.gif In common usage, Upstate New York is everything north
+of New York City (which is the entire state except for NYC and Long Island).
+
+
+
+[snip]
+
+
+
+There are no Eastern or Southern parts of New York. Two minor nitpicks:
+
+
+
+Everything north of Westchester County, as Polycarp suggests above.
+
+
+
+There are also the Southern Tier and the East End of Long Island (pretty much everything east of
+the Shinnecock canal ). __________________
+
+Talking Pictures
+
+Image: images/buttons/quote.gif postcards View Public Profile Visit postcards's
+homepage! Find all posts by postcards   # 25  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 07:20 AM Happy Lendervedder
+
+Image: images/statusicon/user_online.gif vbmenu_register("postmenu_15114073",
+true); Guest   Join Date: Dec 2001 Quote: Originally Posted by picker
+
+Image: images/buttons/viewpost.gif In Wisconsin, we have "Up North". Ditto Michigan.
+
+
+
+"Going Up North this weekend."
+
+Image: images/buttons/quote.gif Happy Lendervedder View Public Profile Find all posts by
+Happy Lendervedder   # 26  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 08:13 AM Pai325
+
+Image: images/statusicon/user_online.gif vbmenu_register("postmenu_15114205",
+true); Guest   Join Date: Jul 2010 Quote: Originally Posted by StrangerThanFiction
+
+Image: images/buttons/viewpost.gif Yeah, it's "southern Illinois," and it's defined as
+anything south of I-80
+
+Image: images/smilies/biggrin.gif So true! To my family, I live in southern Illinois. To the
+people here, it's central Illinois.
+
+
+
+Depending on the laws they're passing, Springfield can be Chicago or downstate. Usually it's
+a Chicago clone.
+
+Image: images/buttons/quote.gif Pai325 View Public Profile Find all posts by Pai325   # 27
+ 
+
+Image: images/statusicon/post_old.gif 05-30-2012, 08:41 AM Zsofia
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15114289",
+true); Guest   Join Date: Feb 2001 We do in fact have an Upstate here in South Carolina but we
+would never say "Upstate South Carolina" like they do in New York. We say "the Upstate", as in "I
+heard it might snow tonight, but that's just in the Upstate."
+
+
+
+ETA - we definitely also have a Lowcountry, and people say that a lot. Probably more than
+"upstate", actually. That has a cultural meaning as well as a geographical one, though.
+Additionally, people do use the geographical divisions we learned in school (mountains,
+piedmont, sandhills, etc.) as well as "Midlands", which is where I live and is also a widely
+used term.
+
+
+
+Last edited by Zsofia; 05-30-2012 at 08:43 AM .
+
+Image: images/buttons/quote.gif Zsofia View Public Profile Find all posts by Zsofia   # 28
+ 
+
+Image: images/statusicon/post_old.gif 05-30-2012, 08:57 AM Jack Batty
+
+Image: images/statusicon/user_online.gif vbmenu_register("postmenu_15114329",
+true); Cynicism for Fun and Profit   Join Date: Jun 2000 Maine doesn't have an "upstate"
+because, besides Portland, it's all upstate. We do have a "downeast." We also have "The
+County," referring to Aroostook County (where I grew up) that encompasses pretty much most of
+the northern tip of the state and consists mostly of trees.
+
+
+
+I thought it was the largest county (in area) in the states, but apparently there's one bigger
+in Missouri.
+
+
+
+But I digress ... as usual.
+
+Image: images/buttons/quote.gif Jack Batty View Public Profile Find all posts by Jack Batty
+  # 29  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 09:11 AM Acsenray
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15114386",
+true); Charter Member   Join Date: Apr 2002 Quote: Originally Posted by Bijou Drains
+
+Image: images/buttons/viewpost.gif NC also has down east which means east of I-95
+
+
+
+The dumbest thing is Charlotte only has uptown, they decided the word "downtown" was "too
+negative" There are plenty of cities with a downtown but no uptown. Oxford, Ohio, has an uptown
+but no downtown.
+
+Image: images/buttons/quote.gif Acsenray View Public Profile Find all posts by Acsenray  
+# 30  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 09:19 AM Elendil's Heir
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15114405",
+true); SDSAB   Join Date: Jun 2004 Northern Ohioans will sometimes refer to "downstate" Ohio
+(i.e. the realm of hicks, rednecks and hillbillies), but I don't know if the reverse is true.
+
+Image: images/buttons/quote.gif Elendil's Heir View Public Profile Find all posts by
+Elendil's Heir   # 31  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 09:26 AM Qadgop the Mercotan
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15114432",
+true); Charter Member   Join Date: Apr 2000 Quote: Originally Posted by picker
+
+Image: images/buttons/viewpost.gif In Wisconsin, we have "Up North". Actually, we have "up
+nort dere".
+
+
+
+
+
+Image: images/smilies/biggrin.gif
+
+Image: images/buttons/quote.gif Qadgop the Mercotan View Public Profile Find all posts by
+Qadgop the Mercotan   # 32  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 09:28 AM Acsenray
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15114438",
+true); Charter Member   Join Date: Apr 2002 Quote: Originally Posted by Elendil's Heir
+
+Image: images/buttons/viewpost.gif Northern Ohioans will sometimes refer to "downstate"
+Ohio (i.e. the realm of hicks, rednecks and hillbillies), but I don't know if the reverse is
+true. As a southern Ohioan, I have never heard anyone use "downstate" or "upstate." We just say
+"northern" and "southern."
+
+Image: images/buttons/quote.gif Acsenray View Public Profile Find all posts by Acsenray  
+# 33  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 09:34 AM Cheesesteak
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15114468",
+true); Guest   Join Date: Jan 2001 Quote: Originally Posted by Polycarp
+
+    Image: images/buttons/viewpost.gif On the Upstate/Downstate line, I have seen it
+    drawn
+
+    - on the northern Brons boundary;
+
+    
+
+    - north of the heavily urbanized group of cities and towns just north of the Bronx
+    (Yonkers, Mount Vernon, Rye, etc.);
+
+    
+
+    - north of Westchester County;
+
+    
+
+    - north of Rockland and Puytnam Counties.
+
+    
+
+I prefer to think of it as
+
+
+
+Upstate = north of where I live
+
+Image: images/buttons/quote.gif Cheesesteak View Public Profile Find all posts by
+Cheesesteak   # 34  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 09:34 AM ElvisL1ves
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15114469",
+true); Charter Member   Join Date: Jul 2000 So what's the etymology - that upstate NY and SC are
+literally at higher elevations than the coastal cities, or that they're upriver?
+
+
+
+Side note: Columbus native here. There's northern, central , and southern Ohio to us. We
+resent being lumped in with the real rednecks in southern Ohio, even though we say the world
+"Ahia" in the same Appalachian accent they use. We grew up hearing West Virginian jokes, too.
+
+Image: images/buttons/quote.gif ElvisL1ves View Public Profile Find all posts by
+ElvisL1ves   # 35  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 09:36 AM Acsenray
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15114478",
+true); Charter Member   Join Date: Apr 2002 Quote: Originally Posted by ElvisL1ves
+
+Image: images/buttons/viewpost.gif Side note: Columbus native here. There's northern,
+central , and southern Ohio to us. We resent being lumped in with the real rednecks in southern
+Ohio, even though we say the world "Ahia" in the same Appalachian accent they use. We grew up
+hearing West Virginian jokes, too. Come to think of it, those of us from Dayton and Cincinnati
+tend to refer to "southwestern" Ohio, because we don't want to be lumped in with Appalachia
+either.
+
+
+
+And we also say "Ahia." "Date Nahia."
+
+Image: images/buttons/quote.gif Acsenray View Public Profile Find all posts by Acsenray  
+# 36  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 09:46 AM yabob
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15114517",
+true); Charter Member   Join Date: Mar 2000 Quote: Originally Posted by postcards
+
+Image: images/buttons/viewpost.gif Two minor nitpicks:
+
+
+
+Everything north of Westchester County, as Polycarp suggests above.
+
+
+
+There are also the Southern Tier and the East End of Long Island (pretty much everything east of
+the Shinnecock canal ). I once had a "New York City Centrist" coworker who denied the existence
+of "Southern Tier" as a term, as he'd never heard it. I'd brought it up because I went to school in
+the region, and was describing where the school was. When pressed, he eventually retreated
+into the "That's all upstate, who cares?" ploy.
+
+
+
+Last edited by yabob; 05-30-2012 at 09:47 AM .
+
+Image: images/buttons/quote.gif yabob View Public Profile Find all posts by yabob   # 37  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 10:15 AM TriPolar
+
+Image: images/statusicon/user_online.gif vbmenu_register("postmenu_15114641",
+true); Member   Join Date: Oct 2007 In New York, upstate means anything north of NYC, except
+for Long Island. In usage, anything north of where you are in NY is upstate. Your next door
+neighbor on the north side lives upstate. Long Island is excepted, even though much of it is
+further north than upstate areas in Westchester. Since NYC is the southernmost part of the
+state, I think it was intended to refer to the mainland part of the state north of the city.
+
+Image: images/buttons/quote.gif TriPolar View Public Profile Find all posts by TriPolar  
+# 38  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 10:18 AM Kimstu
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15114655",
+true); Guest   Join Date: Dec 1999 Quote: Originally Posted by ElvisL1ves
+
+Image: images/buttons/viewpost.gif So what's the etymology - that upstate NY and SC are
+literally at higher elevations than the coastal cities, or that they're upriver? Here in
+upstate NY, both are true. (And come to think of it, being at a higher elevation very often goes
+with being upriver, doesn't it? Water flowing downhill and all.)
+
+
+
+Last edited by Kimstu; 05-30-2012 at 10:20 AM .
+
+Image: images/buttons/quote.gif Kimstu View Public Profile Find all posts by Kimstu   # 39
+ 
+
+Image: images/statusicon/post_old.gif 05-30-2012, 10:43 AM Zsofia
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15114763",
+true); Guest   Join Date: Feb 2001 Quote: Originally Posted by ElvisL1ves
+
+Image: images/buttons/viewpost.gif So what's the etymology - that upstate NY and SC are
+literally at higher elevations than the coastal cities, or that they're upriver?
+
+
+
+Side note: Columbus native here. There's northern, central , and southern Ohio to us. We
+resent being lumped in with the real rednecks in southern Ohio, even though we say the world
+"Ahia" in the same Appalachian accent they use. We grew up hearing West Virginian jokes, too.
+Both, and also in shape, what with South Carolina being shaped like a piece of pie. Mmm, pie.
+
+Image: images/buttons/quote.gif Zsofia View Public Profile Find all posts by Zsofia   # 40
+ 
+
+Image: images/statusicon/post_old.gif 05-30-2012, 11:25 AM tallcoldone
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15114932",
+true); Guest   Join Date: Apr 2008 Quote: Originally Posted by Athena
+
+Image: images/buttons/viewpost.gif True, but I've never heard the term "Upstate" here.
+
+
+
+There's "Downstate", which describes everything in the southern peninsula.
+
+
+
+There's "Northern Michigan", which describes everything in the northern half of the
+southern peninsula.
+
+
+
+And then there's the "Upper Peninsula" aka "UP", which is the northern peninsula. And yeah, we
+think it's funny that we're north of "Northern Michigan." Living in MI for 27 years, I've also
+heard 'outstate' - anything that's not meto Detroit. Haven't heard that so much recently,
+maybe because Detroit ain't what it used to be.
+
+Image: images/buttons/quote.gif tallcoldone View Public Profile Find all posts by
+tallcoldone   # 41  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 11:27 AM An Gadaí
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15114944",
+true); Guest   Join Date: Mar 2007 Quote: Originally Posted by tallcoldone
+
+Image: images/buttons/viewpost.gif Living in MI for 27 years, I've also heard 'outstate' -
+anything that's not meto Detroit. Haven't heard that so much recently, maybe because Detroit
+ain't what it used to be. Do you also refer to the state as the Murder Mitten?
+
+Image: images/buttons/quote.gif An Gadaí View Public Profile Visit An Gadaí's homepage!
+Find all posts by An Gadaí   # 42  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 11:42 AM Maggie the Ocelot
+
+Image: images/statusicon/user_online.gif vbmenu_register("postmenu_15115001",
+true); Draped casually over a branch.   Join Date: Aug 2004 I have never, EVER heard anyone use
+"Upstate" to refer to Northern California. There's NoCal, and SoCal, and the Central Valley
+(which is different from The Valley.)
+
+
+
+Upstate. Pshaw.
+
+Image: images/buttons/quote.gif Maggie the Ocelot View Public Profile Find all posts by
+Maggie the Ocelot   # 43  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 11:51 AM Diceman
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15115022",
+true); Guest   Join Date: Mar 1999 Quote: Originally Posted by An Gadaí
+
+Image: images/buttons/viewpost.gif Do you also refer to the state as the Murder Mitten? Is
+trolling really necessary?
+
+Image: images/smilies/rolleyes.gif
+
+
+
+With Michigan, Northern Michigan is the northern part of the Lower Penninsula, essentially
+everything north of the Detroit metropolitan area. The Upper Penninsula is the UP, and is not
+considered "Northern Michigan." Western Michigan is basically the southwest corner of the
+Lower Penninsula.
+
+Image: images/buttons/quote.gif Diceman View Public Profile Find all posts by Diceman   #
+44  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 11:55 AM Little Nemo
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15115035",
+true); Charter Member   Join Date: Dec 1999 Quote: Originally Posted by postcards
+
+Image: images/buttons/viewpost.gif Two minor nitpicks:
+
+
+
+Everything north of Westchester County, as Polycarp suggests above.
+
+
+
+There are also the Southern Tier and the East End of Long Island (pretty much everything east of
+the Shinnecock canal ). It depends. I've certainly heard people call Westchester County
+Upstate. Heck, there are people who think Upstate starts at 125th Street.
+
+
+
+I'm familiar with the Southern Tier (used to live in it). Never been in the East End. But those
+are local expressions used by people in that part of the state not statewide expressions.
+
+Image: images/buttons/quote.gif Little Nemo View Public Profile Find all posts by Little
+Nemo   # 45  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 12:00 PM An Gadaí
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15115054",
+true); Guest   Join Date: Mar 2007 Quote: Originally Posted by Diceman
+
+Image: images/buttons/viewpost.gif Is trolling really necessary?
+
+Image: images/smilies/rolleyes.gif I don't appreciate your accusation of trolling, it was
+what used to be called a joke.
+
+Image: images/buttons/quote.gif An Gadaí View Public Profile Visit An Gadaí's homepage!
+Find all posts by An Gadaí   # 46  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 01:18 PM Rhythmdvl
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15115427",
+true); Charter Member   Join Date: Oct 1999 Quote: Originally Posted by postcards
+
+Image: images/buttons/viewpost.gif Two minor nitpicks:
+
+
+
+Everything north of Westchester County, as Polycarp suggests above. Odd thing to call a
+nitpick. Those are usually small bits of fact that someone got wrong. There's nothing
+approaching a consensus as to what comprises up/down state.
+
+
+
+Brewster is 'upstate'? Going to tell someone from Buffalo that Newburgh is 'upstate'? People
+from Albany barely qualify for upstate, and mostly when they want to be considered as far from
+the city as possible. When we left the city for a bit of forest in Sullivan county no one knew the
+name of our town, but easily distinguished between up- and downstate.
+
+
+
+Sure there are people who think anything outside of the city limits is upstate, but it's pretty
+far from a nitpick.
+
+Image: images/buttons/quote.gif Rhythmdvl View Public Profile Visit Rhythmdvl's
+homepage! Find all posts by Rhythmdvl   # 47  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 02:11 PM Scumpup
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15115672",
+true); Guest   Join Date: Mar 2003 Quote: Originally Posted by cochrane
+
+Image: images/buttons/viewpost.gif There's Upstate Pennsylvania .
+
+There is? I've lived here most of my life and never heard the term even once.
+
+Image: images/buttons/quote.gif Scumpup View Public Profile Find all posts by Scumpup   #
+48  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 02:20 PM LawMonkey
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15115705",
+true); Guest   Join Date: Mar 2006 A mildly amusing anecdote: My mother, an educational aide,
+once mentioned to some kid who'd transferred in from NY(C?) that she had some relative or
+friend in "upstate" New York. The kid was all
+
+Image: images/smilies/eek.gif . Apparently, to him, "upstate" was synonymous with "in
+prison."
+
+Image: images/smilies/smile.gif
+
+Image: images/buttons/quote.gif LawMonkey View Public Profile Find all posts by LawMonkey
+  # 49  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 03:00 PM Jenaroph
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15115877",
+true); Guest   Join Date: Mar 2003 Quote: Originally Posted by R. P. McMurphy
+
+Image: images/buttons/viewpost.gif As a kid I can remember my confusion as to everything
+outside of Detroit (when it was the 5th largest city in the US) as "upstate". Maybe it was "out of
+state", can't actually recall, but there was a clear distinction between Detroit and the rest
+of Michigan. Most people I grew up with called it "outstate." Mostly referring to parts of the
+LP that aren't Southeastern Michigan. You probably wouldn't refer to the UP as outstate, just
+"the UP." I've heard outstate less over the last several years.
+
+
+
+Quote: Originally Posted by An Gadaí
+
+Image: images/buttons/viewpost.gif Do you also refer to the state as the Murder Mitten?
+Michigan has 3 times the area of Ireland. Would you refer to the entire country by one
+unflattering characteristic of, say, Dublin?
+
+
+
+Last edited by Jenaroph; 05-30-2012 at 03:05 PM .
+
+Image: images/buttons/quote.gif Jenaroph View Public Profile Find all posts by Jenaroph  
+# 50  
+
+Image: images/statusicon/post_old.gif 05-30-2012, 03:07 PM Cheesesteak
+
+Image: images/statusicon/user_offline.gif vbmenu_register("postmenu_15115903",
+true); Guest   Join Date: Jan 2001 Quote: Originally Posted by Jenaroph
+
+Image: images/buttons/viewpost.gif Michigan has 3 times the area of Ireland. Would you
+refer to the entire country by one unflattering characteristic of, say, Dublin? Is this a
+trick question?
+
+Image: images/buttons/quote.gif Cheesesteak View Public Profile Find all posts by
+Cheesesteak
+
+Image: images/buttons/reply.gif Page 1 of 2 1 2 >
+
+    Bookmarks
+
+    -
+
+    Image: images/misc/bookmarksite_delicious.gif del.icio.us
+
+    
+
+    -
+
+    Image: images/misc/bookmarksite_digg.gif Digg
+
+    
+
+    -
+
+    Image: images/misc/bookmarksite_facebook.gif Facebook
+
+    
+
+    -
+
+    Image: images/misc/bookmarksite_google.gif Google
+
+    
+
+    -
+
+    Image: images/misc/bookmarksite_reddit.gif reddit
+
+    
+
+    -
+
+    Image: images/misc/bookmarksite_stumbleupon.gif StumbleUpon
+
+    
+
+    -
+
+    Image: images/misc/bookmarksite_twitter.gif Twitter
+
+    
+
+
+
+« Previous Thread | Next Thread » Thread Tools
+
+Image: images/buttons/printer.gif Show Printable Version
+
+Image: images/buttons/sendtofriend.gif Email this Page Display Modes
+
+Image: images/buttons/mode_linear.gif Linear Mode
+
+Image: images/buttons/mode_hybrid.gif Switch to Hybrid Mode
+
+Image: images/buttons/mode_threaded.gif Switch to Threaded Mode
+
+
+
+Image: images/buttons/collapse_thead.gif Posting Rules You may not post new threads You
+may not post replies You may not post attachments You may not edit your posts
+
+
+
+BB code is On Smilies are On [IMG] code is Off HTML code is Off Forum Jump
+
+User Control Panel Private Messages Subscriptions Who's Online Search Forums Forums Home
+Main     About This Message Board     Comments on Cecil's Columns/Staff Reports    
+Straight Dope Chicago     General Questions     Great Debates     Elections     Cafe
+Society     The Game Room     In My Humble Opinion (IMHO)     Mundane Pointless Stuff I Must
+Share (MPSIMS)     Marketplace     The BBQ Pit Side Conversations     The Barn House
+
+<!-- writeAdNew('tsd', 's', 'bboard', 'bboard'); // -->
+
+All times are GMT -5. The time now is 05:34 PM .
+
+Contact Us - Straight Dope Homepage - Archive - Top
+
+Powered by vBulletin® Version 3.7.3
+
+Copyright ©2000 - 2012, Jelsoft Enterprises Ltd.
+
+Send questions for Cecil Adams to: cecil@chicagoreader.com
+
+
+
+Send comments about this website to: webmaster@straightdope.com
+
+
+
+Terms of Use / Privacy Policy
+
+
+
+Advertise on the Straight Dope!
+
+(Your direct line to thousands of the smartest, hippest people on the planet, plus a few total
+dipsticks.)
+
+
+
+Publishers - interested in subscribing to the Straight Dope?
+
+Write to: sdsubscriptions@chicagoreader.com .
+
+
+
+Copyright © 2012 Sun-Times Media, LLC. <!-- // Main vBulletin Javascript Initialization
+vBulletin_init(); //--> _qacct="p-f7Nas-_ZQTIUY";quantserve();
+
+Image: http://pixel.quantserve.com/pixel/p-f7Nas-_ZQTIUY.gif _uacct =
+"UA-652476-2"; urchinTracker(); var vglnk = { api_url: '//api.viglink.com/api', key:
+'ce270d38103a630c3181db372a25a052' }; (function(d, t) { var s = d.createElement(t);
+s.type = 'text/javascript'; s.async = true; s.src = ('https:' ==
+document.location.protocol ? vglnk.api_url : '//cdn.viglink.com/api') + '/vglnk.js';
+var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r); }(document,
+'script'));
+

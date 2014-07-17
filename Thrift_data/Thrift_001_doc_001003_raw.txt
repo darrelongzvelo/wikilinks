@@ -1,0 +1,1549 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Acts of Minor Treason: Phototour: Expressing Spadina <!-- /*
+----------------------------------------------- Blogger Template Style Name: Minima
+Black Date: 26 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#000"> <Variable name="textcolor" description="Text Color"
+type="color" default="#ccc"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#9ad"> <Variable name="pagetitlecolor" description="Blog Title
+Color" type="color" default="#ccc"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#777"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#ad9">
+<Variable name="bordercolor" description="Border Color" type="color" default="#333">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#777"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#999"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#a7a"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif"> <Variable name="headerfont"
+description="Sidebar Title Font" type="font" default="normal bold 78% 'Trebuchet
+MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable name="pagetitlefont"
+description="Blog Title Font" type="font" default="normal bold 200% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif"> <Variable name="descriptionfont"
+description="Blog Description Font" type="font" default="normal normal 78% 'Trebuchet
+MS', Trebuchet, Verdana, Sans-serif"> <Variable name="postfooterfont"
+description="Post Footer Font" type="font" default="normal normal 78% 'Trebuchet MS',
+Trebuchet, Arial, Verdana, Sans-serif"> <Variable name="startSide" description="Start
+side in blog language" type="automatic" default="left"> <Variable name="endSide"
+description="End side in blog language" type="automatic" default="right"> */ /* Use this
+with templates/template-twocol.html */ body { background:#000000; margin:0;
+color:#cccccc; font: x-small "Trebuchet MS", Trebuchet, Verdana, Sans-serif;
+font-size/* */:/**/small; font-size: /**/small; text-align: center; } a:link {
+color:#99aadd; text-decoration:none; } a:visited { color:#aa77aa;
+text-decoration:none; } a:hover { color:#99aadd; text-decoration:underline; } a img {
+border-width:0; } /* Header ----------------------------------------------- */
+#header-wrapper { width:660px; margin:0 auto 10px; border:1px solid #777777; }
+#header-inner { background-position: center; margin-left: auto; margin-right: auto; }
+#header { margin: 5px; border: 1px solid #777777; text-align: center; color:#e6e6e6; }
+#header h1 { margin:5px 5px 0; padding:15px 20px .25em; line-height:1.2em;
+text-transform:uppercase; letter-spacing:.2em; font: normal bold 200% Verdana,
+sans-serif; } #header a { color:#e6e6e6; text-decoration:none; } #header a:hover {
+color:#e6e6e6; } #header .description { margin:0 5px 5px; padding:0 20px 15px;
+max-width:700px; text-transform:uppercase; letter-spacing:.2em; line-height: 1.4em;
+font: normal bold 30% Courier, monospace; color: #000000; } #header img { margin-left: auto;
+margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 660px;
+margin:0 auto; padding:10px; text-align:left; font: normal normal 99% Verdana,
+sans-serif; } #main-wrapper { width: 410px; float: left; word-wrap: break-word; /* fix for
+long text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content
+breaking IE sidebar float */ } #sidebar-wrapper { width: 220px; float: right; word-wrap:
+break-word; /* fix for long text breaking sidebar float in IE */ overflow: hidden; /* fix for
+long non-text content breaking IE sidebar float */ } /* Headings
+----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+font:italic normal 86% Verdana, sans-serif; line-height: 1.4em;
+text-transform:uppercase; letter-spacing:.2em; color:#777777; } /* Posts
+----------------------------------------------- */ h2.date-header { margin:1.5em 0
+.5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #777777;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#99aadd; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#99aadd;
+font-weight:bold; } .post h3 strong, .post h3 a:hover { color:#cccccc; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#777777; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% Trebuchet, Trebuchet MS, Arial, sans-serif;
+line-height: 1.4em; } .comment-link { margin-left:.6em; } .post img,
+table.tr-caption-container { padding:4px; border:1px solid #777777; }
+.tr-caption-container img { border: none; padding: 0; } .post blockquote { margin:1em 20px;
+} .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #777777; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+.feed-links { clear: both; line-height: 2.5em; } #blog-pager-newer-link { float: left; }
+#blog-pager-older-link { float: right; } #blog-pager { text-align: center; } /* Sidebar
+Content ----------------------------------------------- */ .sidebar { color: #999999;
+line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; } .sidebar
+li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #777777; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #777777; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% Trebuchet, Trebuchet MS, Arial, sans-serif;
+color: #777777; font-weight: bold; line-height: 1.6em; } .profile-datablock {
+margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 78% Trebuchet, Trebuchet MS, Arial, sans-serif;
+text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:660px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0751737980321158585254\46blogName\75Acts+of+Minor+Treason\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://actsofminortreason.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://actsofminortreason.blogspot.com/\46targetPostID\0752098892556511112969\46blogPostOrPageUrl\75http://actsofminortreason.blogspot.com/2010/04/phototour-expressing-spadina.html\46vt\75-4745911182654193565',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Image:
+http://1.bp.blogspot.com/-GpM-7eQhv5A/T8AEgZzVgQI/AAAAAAAACxU/lsqMyVs9SbQ/s1600/quebecheader.jpg
+
+Sunday, April 4, 2010
+
+
+
+
+
+
+
+Phototour: Expressing Spadina
+
+While the Gardiner brings the people to the heart of downtown and the DVP lets them idle in a sea
+of brake lights while they dream of going up north and away, they would never live up to their
+full potential without the Spadina Expressway .
+
+
+
+By the middle 1950s, with the end of the Second World War and the growth of the suburban dream,
+Metropolitan Toronto had a problem. In North York, what had once been rolling agricultural
+land dotted with village clusters was being divided into new residential subdivisions with
+such a fury that the world might as well have been ending in 1970. While downtown North York
+today is dominated by skyscrapers and condo towers to such a degree that the resemblance to
+downtown Toronto is eerie - so long as you don't journey more than five hundred meters east or
+west of Yonge Street, at least - it wasn't so back then. Just as was the case in cities across the
+free world, there were plenty of people clamoring for a patch of land and a home to call their
+own, but the jobs remained in the old central core.
+
+
+
+North York's far enough removed from Toronto's core that walking's not really an option.
+Neither, at the time, was the subway - it wasn't until 1974 that it reached into North York
+proper, and the old Yonge streetcar had always looped right at the border between North York
+and Toronto. North York, like Etobicoke and Scarborough and Toronto's modern suburbs in York
+Region and Durham and Peel, owe more to the automobile than mass transit in terms of getting
+around. Highway 401 , that great Windsor-to-Quebec motorway once thought of as the "Toronto
+Bypass," opened to traffic in Metropolitan Toronto in stages through the 1950s. The people
+who'd sought new lives in the suburbs were quick to take advantage - and Metro's planners were
+not slow to realize that there was work to be done to make sure all these people and their
+automobiles could get around.
+
+
+
+The first projects were the Gardiner Expressway and the Don Valley Parkway . Picking up where
+the Queen Elizabeth Way - one of the first modern highways in Canada - left off, the Gardiner
+followed the shore of Lake Ontario into downtown Toronto, where today its elevated lanes
+remain as a psychological barrier between the core and the waterfront. East of the financial
+district's gleaming towers, it linked up with the Don Valley Parkway. The DVP, laid out next to
+the Don River in the largest of Toronto's many ravines, wound its way north to Highway 401 and
+would eventually be extended even further north, as Highway 404, to Newmarket in York Region.
+
+
+
+These two expressways were only the beginning. Metro Council, led by Fred Gardiner - he for
+whom those elevated lanes were eventually named - believed that the automobile was the
+future, and sought to smooth out the city for it. Highway 400 , which ran from the 401 north to
+Barrie, was to have been extended south to meet the Gardiner, linking along the way with the
+Crosstown Expressway , meant to connect to the Don Valley Parkway and thus encircle downtown
+Toronto with expressways. Personally, when I look at the maps, it reminds me more of a noose.
+
+
+
+But the keystone to the whole project rested on one route - the Spadina Expressway. From
+Downsview it would plunge south through neighborhoods and parklands to Bloor Street.
+Construction began in 1963, and though it proceeded south as the years went on, popular
+opposition to the project mounted. Pro-urban activist Jane Jacobs , who was no stranger to
+standing in the paths of expressways , played a significant role in it. The great fear was not
+only that it would devastate the neighborhoods through which it passed, but that it would
+encourage the hollowing-out of inner Toronto, with the expressway providing a quick path to
+the outer suburbs.
+
+
+
+It happened in many other cities across North America, but whether it would've happened to
+Toronto is a question for the alternate historians. On June 3, 1971, the Spadina Expressway
+was cancelled by the provincial government. None of the other planned expressways were ever
+more than lines on maps. The completed portion, which went no further south than Eglinton
+Avenue , is known today as Allen Road . For me, it was always the gateway to Toronto - my father
+would always turn off the 401 there, take it to the end, then navigate through a twisted skein of
+Forest Hill roads to the downtown core.
+
+
+
+To some degree, the shadow of the Spadina Expressway still falls upon Toronto even today.
+Depending on who you talk to, it's either the great victory over encroaching car culture and
+one of Toronto's seminal moments in urban planning, or a great lost hope that has doomed the
+city to ever-increasing traffic congestion. It's become mythologized, something larger
+than life, bigger than it ever could have been in reality. So, given that this weekend brought
+the first breaths of summer to Toronto, I went to chart the expressway - both what had been
+built, and what never was.
+
+
+
+Thanks go to TheCharioteer on the SkyscraperCity forums for providing scans of a planning
+document from 1961 for the route of the expressway. They were invaluable in figuring out just
+where the lanes would have gone.
+
+
+
+Phase 1 - What's Done is Done
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_Bzwh4ecQCBQ/S7irc7GNIWI/AAAAAAAAA1Y/bV-jGYJso-k/s320/spex2.jpg
+North of Downsview subway station, Dufferin Street forks, and one of the paths becomes
+William R. Allen Road. I checked up on it where it intersects with Sheppard Avenue, mostly
+because that point was conveniently accessible from Downsview station, and at that point
+there's nothing to distinguish it from any other wide suburban throughfare beginning to
+experience a boom in condo development. It's not until you go further south, to Wilson, that
+Allen Road really rises above the rest - seriously, since it's elevated by the point - and when
+it interchanges with the 401 at Yorkdale in a sweeping, swooping series of ramps and dips like
+bird's flight paths immortalized in concrete, it comes into its own.
+
+
+
+If you've ever shopped at Yorkdale, by the way, you indirectly have the Spadina Expressway
+project to thank. It wasn't until the beginning phases of it were approved, funnelling
+motorists directly past its inviting signs, that construction on what was for a short time the
+world's largest shopping mall began.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_Bzwh4ecQCBQ/S7ircFqp7pI/AAAAAAAAA1Q/4rlo1SIuUuY/s320/spex3.jpg
+This view, looking south from Viewmount Avenue at Glencairn station, is typical of Allen Road
+today, and had the Spadina Expressway been completed its surface sections likely would have
+resembled this. The subway right-of-way in the median echoes Chicago's Red and Blue Lines ,
+and was really the prime beneficiary of the expressway project - even though the road was
+cancelled the subway continued on, and the route of the subway still parallels what the route
+of the road would have been. From what I understand, that's the reason why that particular line
+is called the University- Spadina Line. Being at the surface, not only was it inexpensive to
+construct compared to tunneling, but it also allows one to make faces at the motorists stuck in
+traffic on the other side of the barbed-wire fences.
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_Bzwh4ecQCBQ/S7irb3mgE9I/AAAAAAAAA1I/yWFg--whFgs/s320/spex1.jpg
+At Eglinton Avenue, the lanes turn into off-ramps and Allen Road comes to an end, just as the
+subway enters Eglinton West station and from there the tunnels that continue uninterrupted
+to Finch, on the other end of the line. Traffic there is no surprise - after all, light cycles
+only last for so long. It's a brief journey, but it was intended to be much more. If the planners
+had had their way, there still would have been off-ramps but the lanes of the expressway would
+have kept on going.
+
+
+
+Phase 2 - There But for Grace
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_Bzwh4ecQCBQ/S7iqyt0oBnI/AAAAAAAAA1A/Lk2-kJG-iDY/s320/spex4.jpg
+Everden Road is a quiet, unremarkable residential street stretching south of Eglinton, and
+taking into consideration the layout of Allen Road as it was construction, it would have been
+obliterated had the expressway come through. It would, most likely, have been given over to
+the median, and this picture would then be looking right down the tracks - though the subway
+line may still have gone underground at Eglinton West. Still, Metro planners at the time
+didn't lose sleep over the expropriations and demolitions they had to conduct in the names of
+progress and traffic flow. A significant chunk of Parkdale , not to mention almost the entire
+Sunnyside Amusement Park , were demolished in order to build the Gardiner Expressway. For the
+most part, though, Everden was an outlier - the majority of demolition would have occured
+around the southern limits of the Expressway.
+
+
+
+Demolition, but not destruction.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_Bzwh4ecQCBQ/S7iqyKUeMJI/AAAAAAAAA04/piPI5z9yTjk/s320/spex5.jpg
+Everden ends at Ava Road, but the path beyond leads into Cedarvale Park . Occupying one of the
+city's many ravines carved in the wake of glacial action, it's a rolling, forested, wild
+expanse of greenspace left almost untouched. Aside from subway emergency exits and some
+tennis courts at the north end, very little has been built within it. Had the Spadina
+Expressway gone through, it would quite literally have gone through Cedarvale Park, the
+ravine transformed into asphalt and concrete. It's an understandable route - the scale of
+expropriation and demolition of existing properties elsewhere might have been politically
+unpalatable, and to say that nature was given short shrift back then would be putting it
+generously. The 1961 planning documents suggest that this area, photographed from the
+century-old Glencedar Bridge, might have been underground and roofed over - nevertheless,
+the construction would have changed the ravine, perhaps irreparably. The chirping birds,
+the wind rustling through trees, the buzz of bicycles passing fast on the path - none of it would
+be the same.
+
+
+
+
+
+
+
+Cedarvale Park ends at Heath Street, as well as a convenient secondary entrance to St. Clair
+West station. The highway would have continued - likely to a degree underground, if only to
+prevent a rather expensive reconstruction that section of St. Clair Avenue - and into
+Nordheimer Ravine, smaller and more densely forested than Cedarvale. More importantly,
+Nordheimer marks where the route leaves York and enters Toronto, and the city of Toronto's
+strident opposition to the Spadina Expressway project was another significant factor in its
+cancellation. After briefly following the Nordheimer Ravine, the route turns south at
+Spadina Road, finally meeting its namesake and origin - the whole project, starting in the
+1940s, was originally floated as a northward improvement of Spadina Road.
+
+
+
+This area is a wealthy one, named after its most eye-catching residence - Casa Loma . Toronto's
+twentieth-century castle would have survived the coming of the Spadina Expressway, but only
+just, with artist's impressions I've seen perching it on the edge of an open-roofed, trenched
+highway. The Baldwin Steps , the pedestrian access from Davenport Road to Casa Loma up the edge
+of the Iroquois Shoreline, and which I commented on in my Scott Pilgrim phototour two weeks
+ago, would have have been destroyed.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_Bzwh4ecQCBQ/S7iqw2zKmWI/AAAAAAAAA0w/71Wpc_E1uXM/s320/spex6.jpg
+This photo looks south along Spadina Road from the Baldwin Steps, and this perspective would
+have been utterly , absolutely transformed by the Spadina Expressway. If I read the maps
+correctly, Davenport Road would have been rebuilt to be carried over the Expressway here.
+Where the road is now would have been the northbound lanes, while the subway line would have
+been built in an open trench along the right side of the photo. The potential route of
+southbound lanes, crashing through the middle of existing construction, aren't visible.
+They would pass beneath the railway bridge you can see further down. Beyond that,
+approximately where the center line splits to form a peanut-like shape in the middle of the
+road, where some of the grand historic residences of the Annex still stand - it would have been
+entirely obliterated, because this is where the Spadina Expressway was to interchange with
+the Crosstown Expressway.
+
+
+
+There's almost a grim beauty in the audacity of the plans, of the degree to which the planners
+wanted to smooth the ground for progress. Between the lanes themselves and the network of
+sweeping on-ramps and off-ramps necessary to guide motorists from the Spadina to the
+Crosstown, the Crosstown to the Spadina, or onto whatever residential roads survived the
+construction, it might be that no building photographed here would have still been standing
+had the projects all come to fruition.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_Bzwh4ecQCBQ/S7iqufdRXqI/AAAAAAAAA0o/ZAl1tQXuXMc/s320/spex7.jpg
+After meeting the Crosstown the Spadina would split and separate out, in preparation for its
+planned Bloor Street terminus - while the southbound lanes would remain on Spadina, the
+northbound lanes would split to bury Madison Avenue. The number of heritage properties I
+passed in just a couple of blocks wasn't surprising - this is the Annex, after all, one of the
+historic residential centers of Toronto. It's a quiet street in terms of traffic, but
+considering how many of these houses are probably subdivided residences for students of the
+nearby University of Toronto, probably not as peaceful once exams are over. I doubt it ever
+gets even close to what it would've been like had the Spadina's northbound lanes come through
+here.
+
+
+
+It was the residents of the Annex, Jane Jacobs among them, who were instrumental in pushing
+back against the suburban interests that sought to push the expressway through.
+Understandably, as in terms of the unbuilt portion, the neighborhood would have been
+bisected and possibly devastated - though the damage to Forest Hill and Cedarvale Park
+wouldn't have been small change either.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_Bzwh4ecQCBQ/S7iqtlCruqI/AAAAAAAAA0g/ZNIud2vB4Fw/s320/spex8.jpg
+Here, at Bloor Street West, the Spadina Expressway would come to an end and the commuters would
+have to make the rest of their way downtown - an admittedly short way, mind you - on city streets.
+I can only imagine how clogged and congested this intersection would be if that had been the
+case. It would've transformed the area around it and beyond, that much is certain. It's safe to
+say that the Expressway would, among other things, mean that there would be no Spadina
+streetcar today - anyone trying to lock up two lanes in a right-of-way for transit vehicles
+along such a busy corridor, in the more car-centric Metro Toronto a completed expressway
+network would have fostered, probably would have been crucified. There are a number of
+possibilities for what could have happened beyond here - I've seen references to express
+lanes south, but I've also seen artist's impressions of the Spadina being taken south to meet
+the Gardiner, crashing through Chinatown and Kensington Market to get to the lakeshore.
+
+
+
+I believe it's for the better that the Spadina Expressway was never built. It would have cut
+through established communities, reduced valuable greenspace to asphalt, and encouraged
+more and more people to quit Toronto for the suburbs and their siren song. Nor would have it
+solved any long-term congestion issues - congestion is never solved by just building more
+expressways. The phenomenon of induced demand is particularly noteworthy in terms of
+automobile infrastructure - new expressways would encourage more use of the system,
+ultimately to the extent that Metro's traffic troubles would just be larger and spread out
+over more of the city. The implementation of an auto-centric policy, such as the one behind the
+Spadina Expressway, would encourage people to use cars who might not have otherwise done so.
+
+
+
+The Spadina Expressway was the keystone, and it's arguable that because of its absence, the
+Gardiner Expressway and the Don Valley Parkway never did live up to their potential. Today,
+every once in a while you can still hear people calling for a demolition of the Gardiner in
+downtown, nd the sheer weight of traffic it sees in rush hour should make it no surprise that the
+DVP's unofficial nickname is the "Don Valley Parking Lot."
+
+
+
+There's always a cost to everything. Myself - I do believe that, in the end, it was one worth
+paying.
+
+
+
+Previously Booked Tours:
+
+    
+
+    - A Scott Pilgrim-age
+
+    
+
+    
+
+    - Climbing Mount Pleasant
+
+    
+
+    
+
+    - On the Waterfront: Oshawa to Toronto
+
+    
+
+    
+
+Posted by
+
+
+
+Andrew Barton at
+
+
+
+08:38
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: cars , history ,
+phototour , toronto Reactions:  
+
+5 comments:
+
+    (function() { var items = [{'id': '3764877807155466348', 'body': 'Unfortunately, (as
+    i\46#39;ve said before) had the Spadina/Crosstown and 400 been built to the extent that
+    they were supposed to be, we wouldn\46#39;t have had the kind of traffic that we have now
+    today. Instead of dividing up 1million cars on to 8 highways, we have 1million cars
+    divided on to 4 highways.\74br /\76\74br /\76The 407 is a prime example of
+    infrastructure blunder. Oh sorry... I meant Highway 7 and 16th Avenue, which are virtual
+    parking lots during most rush-hours, on account of the large amount of cars crossing
+    through Markham to get to the 404, instead of taking the 407 across.', 'timestamp':
+    '1270398513044', 'permalink':
+    'http://actsofminortreason.blogspot.com/2010/04/phototour-expressing-spadina.html?showComment\0751270398513044#c3764877807155466348',
+    'author': {'name': 'Tesseract', 'avatarUrl':
+    'http://img2.blogblog.com/img/b16-rounded.gif', 'profileUrl':
+    'http://www.blogger.com/profile/06343032891408606148'}, 'displayTime':
+    '4/04/2010 9:28 AM', 'deleteclass': 'item-control blog-admin pid-2121185476'},
+    {'id': '2310880831078035383', 'body': 'Though I do complain that it\46#39;s hard to
+    get around the city sometimes, I\46#39;m glad all these expressways never came to be.',
+    'timestamp': '1270418921221', 'permalink':
+    'http://actsofminortreason.blogspot.com/2010/04/phototour-expressing-spadina.html?showComment\0751270418921221#c2310880831078035383',
+    'author': {'name': 'Teena in Toronto', 'avatarUrl':
+    'http://4.bp.blogspot.com/_Yzrr6ahynLM/SbxpJiGPU1I/AAAAAAAAMKo/nnz10FauQ_8/S45/Copy%2Bof%2BP5260022.JPG',
+    'profileUrl': 'http://www.blogger.com/profile/14875608173791872449'},
+    'displayTime': '4/04/2010 3:08 PM', 'deleteclass': 'item-control blog-admin
+    pid-1200721787'}, {'id': '3165126167306319229', 'body': 'I knew this would bring you
+    out, Tesseract. While my opinions are hopefully perfectly obvious, the problem is that
+    in yours, I don\46#39;t think you\46#39;re taking the induced demand of a completed
+    Metro expressway system fully into account. If Toronto today had eight expressways
+    instead of four, there wouldn\46#39;t be just a million cars on them. You\46#39;d also
+    have to account for the people who, given the greater motoring convenience in Expressway
+    World, went that route there but not in this one. If it\46#39;s so much easier to get to
+    downtown from the suburbs, a lot more people probably would have chosen to live in the
+    suburbs.', 'timestamp': '1270435304895', 'permalink':
+    'http://actsofminortreason.blogspot.com/2010/04/phototour-expressing-spadina.html?showComment\0751270435304895#c3165126167306319229',
+    'author': {'name': 'Andrew', 'avatarUrl':
+    'http://3.bp.blogspot.com/_Bzwh4ecQCBQ/SjWS8FfrdyI/AAAAAAAAAO0/Vf0cr05c1nQ/S45/nieuwblog.jpg',
+    'profileUrl': 'http://www.blogger.com/profile/10457452561340581723'},
+    'displayTime': '4/04/2010 7:41 PM', 'deleteclass': 'item-control blog-admin
+    pid-443424643'}, {'id': '2418964994479551603', 'body': 'Great history lesson. I
+    always wondered how and why Allen Rd / Spadina expressway would have but didn\46#39;t
+    change Toronto.\74br /\76Andrew I bet you\46#39;re a SIM CITY fan. You know while
+    I\46#39;m rambling away on the subject let me make a prediction - tunnels. They\46#39;re
+    coming to Toronto soon cause its getting cheaper and cheaper to make em, and I predict a
+    private contractor will try to do one from 401 / Kingston rd to downtown, say Richmond a
+    Queen / Bayview south entrance. What do you think? If you lived in Pickering, Ajax, or
+    Oshawa would you pay $10 to skip the DVP every morning?', 'timestamp': '1270502696359',
+    'permalink':
+    'http://actsofminortreason.blogspot.com/2010/04/phototour-expressing-spadina.html?showComment\0751270502696359#c2418964994479551603',
+    'author': {'name': 'Robert Campbell', 'avatarUrl':
+    'http://4.bp.blogspot.com/_GhenxMnhqDo/Sr9fpnikQZI/AAAAAAAACKE/bWYwujELXV8/S45/rob%2Bw%2Bshovel%2Bpot.jpg',
+    'profileUrl': 'http://www.blogger.com/profile/14934159418646747117'},
+    'displayTime': '4/05/2010 2:24 PM', 'deleteclass': 'item-control blog-admin
+    pid-1912820668'}, {'id': '5576201361776053125', 'body': 'SimCity on the SNES, and
+    SimCity 2000 and later SimCity 4 for PC. Still awesome soundtracks.\74br /\76\74br
+    /\76Hmm - I\46#39;m not that familiar with tunnel construction, but given the costs
+    associated with new subway construction - tens of millions, if not hundreds of millions,
+    of dollars per kilometer - I don\46#39;t think they\46#39;ll exactly be cheap unless we
+    use those mobile atomic reactors applying incredible heat from \46quot;Magic Highway
+    U.S.A.\46quot; to melt their way underneath the city.\74br /\76\74br /\76Though a
+    transition between an underground highway and the existing infrastruture at Richmond
+    and Queen wouldn\46#39;t exactly be clean, either. There\46#39;s a lot of
+    built-up-ness around.', 'timestamp': '1270525907004', 'permalink':
+    'http://actsofminortreason.blogspot.com/2010/04/phototour-expressing-spadina.html?showComment\0751270525907004#c5576201361776053125',
+    'author': {'name': 'Andrew', 'avatarUrl':
+    'http://3.bp.blogspot.com/_Bzwh4ecQCBQ/SjWS8FfrdyI/AAAAAAAAAO0/Vf0cr05c1nQ/S45/nieuwblog.jpg',
+    'profileUrl': 'http://www.blogger.com/profile/10457452561340581723'},
+    'displayTime': '4/05/2010 8:51 PM', 'deleteclass': 'item-control blog-admin
+    pid-443424643'}]; var msgs = {'loadMore': 'Load more...', 'loading': 'Loading...',
+    'loaded': 'No more!', 'addComment': 'Add comment', 'reply': 'Reply', 'delete':
+    'Delete'}; var config = {'blogId': '1737980321158585254', 'postId':
+    '2098892556511112969', 'feed':
+    'http://actsofminortreason.blogspot.com/feeds/2098892556511112969/comments/default',
+    'authorName': 'Andrew Barton', 'authorUrl':
+    'http://www.blogger.com/profile/10457452561340581723', 'baseUri':
+    'http://www.blogger.com', 'maxThreadDepth': 2}; // <![CDATA[ var cursor = null; if
+    (items && items.length > 0) { cursor = parseInt(items[items.length - 1].timestamp) + 1;
+    } var bodyFromEntry = function(entry) { if (entry.gd$extendedProperty) { for (var k in
+    entry.gd$extendedProperty) { if (entry.gd$extendedProperty[k].name ==
+    'blogger.contentRemoved') { return '<span class="deleted-comment">' +
+    entry.content.$t + '</span>'; } } } return entry.content.$t; } var parse =
+    function(data) { cursor = null; var comments = []; if (data && data.feed &&
+    data.feed.entry) { for (var i = 0, entry; entry = data.feed.entry[i]; i++) { var comment =
+    {}; // comment ID, parsed out of the original id format var id =
+    /blog-(\d+).post-(\d+)/.exec(entry.id.$t); comment.id = id ? id[2] : null;
+    comment.body = bodyFromEntry(entry); comment.timestamp =
+    Date.parse(entry.published.$t) + ''; if (entry.author && entry.author.constructor
+    === Array) { var auth = entry.author[0]; if (auth) { comment.author = { name: (auth.name ?
+    auth.name.$t : undefined), profileUrl: (auth.uri ? auth.uri.$t : undefined),
+    avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined) }; } } if (entry.link) { if
+    (entry.link[2]) { comment.link = comment.permalink = entry.link[2].href; } if
+    (entry.link[3]) { var pid =
+    /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href); if (pid && pid[1]) {
+    comment.parentId = pid[1]; } } } comment.deleteclass = 'item-control blog-admin'; if
+    (entry.gd$extendedProperty) { for (var k in entry.gd$extendedProperty) { if
+    (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+    comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value; } else if
+    (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+    comment.displayTime = entry.gd$extendedProperty[k].value; } } }
+    comments.push(comment); } } return comments; }; var paginator = function(callback) {
+    if (hasMore()) { var url = config.feed +
+    '?alt=json&v=2&orderby=published&reverse=false&max-results=50'; if (cursor) {
+    url += '&published-min=' + new Date(cursor).toISOString(); }
+    window.bloggercomments = function(data) { var parsed = parse(data); cursor =
+    parsed.length < 50 ? null : parseInt(parsed[parsed.length - 1].timestamp) + 1
+    callback(parsed); window.bloggercomments = null; } url +=
+    '&callback=bloggercomments'; var script = document.createElement('script');
+    script.type = 'text/javascript'; script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script); } }; var hasMore =
+    function() { return !!cursor; }; var getMeta = function(key, comment) { if ('iswriter'
+    == key) { var matches = !!comment.author && comment.author.name == config.authorName
+    && comment.author.profileUrl == config.authorUrl; return matches ? 'true' : ''; } else
+    if ('deletelink' == key) { return config.baseUri + '/delete-comment.g?blogID=' +
+    config.blogId + '&postID=' + comment.id; } else if ('deleteclass' == key) { return
+    comment.deleteclass; } return ''; }; var replybox = null; var replyUrlParts = null; var
+    replyParent = undefined; var onReply = function(commentId, domId) { if (replybox ==
+    null) { // lazily cache replybox, and adjust to suit this style: replybox =
+    document.getElementById('comment-editor'); if (replybox != null) {
+    replybox.height = '250px'; replybox.style.display = 'block'; replyUrlParts =
+    replybox.src.split('#'); } } if (replybox && (commentId !== replyParent)) {
+    document.getElementById(domId).insertBefore(replybox, null); replybox.src =
+    replyUrlParts[0] + (commentId ? '&parentID=' + commentId : '') + '#' +
+    replyUrlParts[1]; replyParent = commentId; } }; var hash = (window.location.hash ||
+    '#').substring(1); var startThread, targetComment; if
+    (/^comment-form_/.test(hash)) { startThread =
+    hash.substring('comment-form_'.length); } else if (/^c[0-9]+$/.test(hash)) {
+    targetComment = hash.substring(1); } // Configure commenting API: var configJso = {
+    'maxDepth': config.maxThreadDepth }; var provider = { 'id': config.postId, 'data':
+    items, 'loadNext': paginator, 'hasMore': hasMore, 'getMeta': getMeta, 'onReply':
+    onReply, 'rendered': true, 'initComment': targetComment, 'initReplyThread':
+    startThread, 'config': configJso, 'messages': msgs }; var render = function() { if
+    (window.goog && window.goog.comments) { var holder =
+    document.getElementById('comment-holder');
+    window.goog.comments.render(holder, provider); } }; // render now, or queue to render
+    when library loads: if (window.goog && window.goog.comments) { render(); } else {
+    window.goog = window.goog || {}; window.goog.comments = window.goog.comments || {};
+    window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+    window.goog.comments.loadQueue.push(render); } })(); // ]]>
+
+    1 -
+
+    Image: http://img2.blogblog.com/img/b36-rounded.png Tesseract 4/04/2010 9:28 AM
+
+    Unfortunately, (as i've said before) had the Spadina/Crosstown and 400 been built to the
+    extent that they were supposed to be, we wouldn't have had the kind of traffic that we have
+    now today. Instead of dividing up 1million cars on to 8 highways, we have 1million cars
+    divided on to 4 highways.
+
+    
+
+    The 407 is a prime example of infrastructure blunder. Oh sorry... I meant Highway 7 and
+    16th Avenue, which are virtual parking lots during most rush-hours, on account of the
+    large amount of cars crossing through Markham to get to the 404, instead of taking the 407
+    across. Reply Delete
+
+    
+
+    2 -
+
+    Image:
+    http://4.bp.blogspot.com/_Yzrr6ahynLM/SbxpJiGPU1I/AAAAAAAAMKo/nnz10FauQ_8/S45/Copy%2Bof%2BP5260022.JPG
+    Teena in Toronto 4/04/2010 3:08 PM
+
+    Though I do complain that it's hard to get around the city sometimes, I'm glad all these
+    expressways never came to be. Reply Delete
+
+    
+
+    3 -
+
+    Image:
+    http://3.bp.blogspot.com/_Bzwh4ecQCBQ/SjWS8FfrdyI/AAAAAAAAAO0/Vf0cr05c1nQ/S45/nieuwblog.jpg
+    Andrew 4/04/2010 7:41 PM
+
+    I knew this would bring you out, Tesseract. While my opinions are hopefully perfectly
+    obvious, the problem is that in yours, I don't think you're taking the induced demand of a
+    completed Metro expressway system fully into account. If Toronto today had eight
+    expressways instead of four, there wouldn't be just a million cars on them. You'd also
+    have to account for the people who, given the greater motoring convenience in Expressway
+    World, went that route there but not in this one. If it's so much easier to get to downtown
+    from the suburbs, a lot more people probably would have chosen to live in the suburbs.
+    Reply Delete
+
+    
+
+    4 -
+
+    Image:
+    http://4.bp.blogspot.com/_GhenxMnhqDo/Sr9fpnikQZI/AAAAAAAACKE/bWYwujELXV8/S45/rob%2Bw%2Bshovel%2Bpot.jpg
+    Robert Campbell 4/05/2010 2:24 PM
+
+    Great history lesson. I always wondered how and why Allen Rd / Spadina expressway would
+    have but didn't change Toronto.
+
+    Andrew I bet you're a SIM CITY fan. You know while I'm rambling away on the subject let me
+    make a prediction - tunnels. They're coming to Toronto soon cause its getting cheaper and
+    cheaper to make em, and I predict a private contractor will try to do one from 401 / Kingston
+    rd to downtown, say Richmond a Queen / Bayview south entrance. What do you think? If you
+    lived in Pickering, Ajax, or Oshawa would you pay $10 to skip the DVP every morning? Reply
+    Delete
+
+    
+
+    5 -
+
+    Image:
+    http://3.bp.blogspot.com/_Bzwh4ecQCBQ/SjWS8FfrdyI/AAAAAAAAAO0/Vf0cr05c1nQ/S45/nieuwblog.jpg
+    Andrew 4/05/2010 8:51 PM
+
+    SimCity on the SNES, and SimCity 2000 and later SimCity 4 for PC. Still awesome
+    soundtracks.
+
+    
+
+    Hmm - I'm not that familiar with tunnel construction, but given the costs associated with
+    new subway construction - tens of millions, if not hundreds of millions, of dollars per
+    kilometer - I don't think they'll exactly be cheap unless we use those mobile atomic
+    reactors applying incredible heat from "Magic Highway U.S.A." to melt their way
+    underneath the city.
+
+    
+
+    Though a transition between an underground highway and the existing infrastruture at
+    Richmond and Queen wouldn't exactly be clean, either. There's a lot of built-up-ness
+    around. Reply Delete
+
+    
+
+Add comment Load more...
+
+
+
+BLOG_CMT_createIframe('http://www.blogger.com/rpc_relay.html',
+'04963122765543466569'); Newer Post Older Post Home Subscribe to: Post Comments (Atom)
+
+About the Dude What Writes Here
+
+
+
+    Image:
+    http://3.bp.blogspot.com/-vTjC1iTzPmg/Tdsy0OZFIpI/AAAAAAAABsY/gRK02CRhYRM/s220/runningboardclinger.jpg
+
+        Andrew Barton
+
+    
+
+        New Westminster, British Columbia, Canada
+
+    
+
+        Andrew is a Greater Toronto-raised scientifictionist, photographic dabbler,
+        transit nerd, and stranger in a strange land. He has been accused of being a "pencil
+        neck geek" and unsuccessfully ran for Mayor of Toronto in 2010.
+
+        
+
+        You can email him, if for some reason you want to, at apbarton AT gmail DOT com.
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://1.bp.blogspot.com/-3jQqv_O1hLo/TZFxHI4poCI/AAAAAAAABlo/qupURkY9j6Y/s1600/netscape2.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+These Here Are Links
+
+    
+
+    - A Bit More Detail
+
+    
+
+    - Bakka-Phoenix
+
+    
+
+    - Blunt Instrument
+
+    
+
+    - Boing Boing
+
+    
+
+    - Bow. James Bow.
+
+    
+
+    - Bringing the Light
+
+    
+
+    - The Bus Bench
+
+    
+
+    - Etherwing Studios
+
+    
+
+    - Hadley Rille Books
+
+    
+
+    - More Words, Deeper Hole
+
+    
+
+    - One's Daily Life
+
+    
+
+    - Tenth to the Fraser
+
+    
+
+    - The Source
+
+    
+
+    - The Way the Future Blogs
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Scott Pilgrim Phototour
+
+See Toronto the Scott Pilgrim way - photos of places from the series!
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Tunnel Visions and Other Things
+
+Tunnel Visions: The Seattle Center Monorail
+
+
+
+Tunnel Visions: Bay Area Rapid Transit
+
+
+
+Tunnel Visions: San Francisco's Muni Metro
+
+
+
+Tunnel Visions: Phoenix's Metro Light Rail
+
+
+
+Tunnel Visions: The Kenosha Electric Railway
+
+
+
+Tunnel Visions: Vancouver's SkyTrain
+
+
+
+Tunnel Visions: The Toronto Subway and RT
+
+
+
+Tunnel Visions: The Los Angeles County Metro Rail
+
+
+
+Tunnel Visions: The Chicago 'L'
+
+
+
+Tunnel Visions: The Montreal Metro
+
+
+
+The Platinum Desolation - a Creative Commons-licensed sf short story by Andrew Barton
+
+
+
+Twitter Feed: @ActsofAndrewB
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Search This Weblog
+
+Loading... #uds-searchControl .gs-result .gs-title, #uds-searchControl .gs-result
+.gs-title *, #uds-searchControl .gsc-results .gsc-trailing-more-results,
+#uds-searchControl .gsc-results .gsc-trailing-more-results * { color:#99aadd; }
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result
+.gs-title a:visited * { color:#aa77aa; } #uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-publishedDate { color: #777777; } #uds-searchControl .gs-result
+a.gs-visibleUrl, #uds-searchControl .gs-result .gs-visibleUrl { color: #99aadd; }
+#uds-searchControl .gsc-results { border-color: #777777; background-color: #000000; }
+#uds-searchControl .gsc-tabhActive { border-color: #777777; border-top-color:
+#99aadd; background-color: #000000; color: #cccccc; } #uds-searchControl
+.gsc-tabhInactive { border-color: #777777; background-color: transparent; color:
+#99aadd; } #uds-searchClearResults { border-color: #777777; }
+#uds-searchClearResults:hover { border-color: #99aadd; } #uds-searchControl
+.gsc-cursor-page { color: #99aadd; } #uds-searchControl .gsc-cursor-current-page {
+color: #cccccc; }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Posts That Have Come Before
+
+    
+
+        - ►  2012 (259)
+
+        - ►  October (1)
+
+        
+
+        
+
+        - ►  September (14)
+
+        
+
+        
+
+        - ►  August (31)
+
+        
+
+        
+
+        - ►  July (31)
+
+        
+
+        
+
+        - ►  June (30)
+
+        
+
+        
+
+        - ►  May (31)
+
+        
+
+        
+
+        - ►  April (30)
+
+        
+
+        
+
+        - ►  March (31)
+
+        
+
+        
+
+        - ►  February (29)
+
+        
+
+        
+
+        - ►  January (31)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (365)
+
+        - ►  December (31)
+
+        
+
+        
+
+        - ►  November (30)
+
+        
+
+        
+
+        - ►  October (31)
+
+        
+
+        
+
+        - ►  September (30)
+
+        
+
+        
+
+        - ►  August (31)
+
+        
+
+        
+
+        - ►  July (31)
+
+        
+
+        
+
+        - ►  June (30)
+
+        
+
+        
+
+        - ►  May (31)
+
+        
+
+        
+
+        - ►  April (30)
+
+        
+
+        
+
+        - ►  March (31)
+
+        
+
+        
+
+        - ►  February (28)
+
+        
+
+        
+
+        - ►  January (31)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2010 (365)
+
+        - ►  December (31)
+
+        
+
+        
+
+        - ►  November (30)
+
+        
+
+        
+
+        - ►  October (31)
+
+        
+
+        
+
+        - ►  September (30)
+
+        
+
+        
+
+        - ►  August (31)
+
+        
+
+        
+
+        - ►  July (31)
+
+        
+
+        
+
+        - ►  June (30)
+
+        
+
+        
+
+        - ►  May (31)
+
+        
+
+        
+
+            - ▼  April (30)
+
+            - An Old-Fashioned Hand
+
+            
+
+            - PDP #213: Move Along Home
+
+            
+
+            - The Power of One
+
+            
+
+            - PDP #212: Structural Integrity
+
+            
+
+            - A Problem of Memetic Discrimination
+
+            
+
+            - PDP #211: A Lonely Street in Pompeii
+
+            
+
+            - A Way of the Future: Planned Decrepitude
+
+            
+
+            - PDP #210: A Bridge to Nowhere
+
+            
+
+            - It's Old, Not Worthless
+
+            
+
+            - PDP #209: It's Not Any Bluer Underneath
+
+            
+
+            - Toronto's Unfortunate Transit Classism
+
+            
+
+            - PDP #208: The Gates of the Village
+
+            
+
+            - Crumbling Bricks, Crumbling History
+
+            
+
+            - PDP #207: Mies' Monolithic Mirror
+
+            
+
+            - An Inability to Consider Implications
+
+            
+
+            - PDP #206: A Common Canvas
+
+            
+
+            - To Your Scattered Panels Go: Ad Astra 2010
+
+            
+
+            - PDP #205: Ain't Nothin' Gonna Get In Our Way
+
+            
+
+            - Rob Ford's Proposed Democratic Deficit
+
+            
+
+            - PDP #204: A Man of Steam-Powered Science
+
+            
+
+            - Common Words #11: A Scene from the West
+
+            
+
+            - PDP #203: And the Streets Were As Water
+
+            
+
+            - Looking Beyond the Next Ballot
+
+            
+
+            - PDP #202: I Get What You're Implying
+
+            
+
+            - A Target-Rich Environment
+
+            
+
+            - PDP #201: Streetcars of Bathurst
+
+            
+
+            - Phototour: Expressing Spadina
+
+            
+
+            - PDP #200: Spadina Bus
+
+            
+
+            - Thoughts on a Suburban Walkabout
+
+            
+
+            - PDP #199: The Great Fish of Gladstone Avenue
+
+            
+
+        
+
+        
+
+        
+
+        - ►  March (31)
+
+        
+
+        
+
+        - ►  February (28)
+
+        
+
+        
+
+        - ►  January (31)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (328)
+
+        - ►  December (31)
+
+        
+
+        
+
+        - ►  November (30)
+
+        
+
+        
+
+        - ►  October (31)
+
+        
+
+        
+
+        - ►  September (30)
+
+        
+
+        
+
+        - ►  August (31)
+
+        
+
+        
+
+        - ►  July (32)
+
+        
+
+        
+
+        - ►  June (30)
+
+        
+
+        
+
+        - ►  May (32)
+
+        
+
+        
+
+        - ►  April (29)
+
+        
+
+        
+
+        - ►  March (31)
+
+        
+
+        
+
+        - ►  February (7)
+
+        
+
+        
+
+        - ►  January (14)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.currentPost =
+"http://www.blogger.com/feeds/1737980321158585254/posts/default/2098892556511112969";
+holder.currentComments =
+"http://www.blogger.com/feeds/1737980321158585254/2098892556511112969/comments/default";
+holder.currentPostUrl = ""; holder.currentPostId = 2098892556511112969
+holder.postFeed =
+"http://www.blogger.com/feeds/1737980321158585254/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/1737980321158585254/comments/default";
+holder.currentBlogUrl = "http://actsofminortreason.blogspot.com/";
+holder.currentBlogId = "1737980321158585254"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#999999"; skin['ENDCAP_LINK_COLOR'] = "#99aadd";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#99aadd"; skin['CONTENT_TEXT_COLOR'] =
+"#999999"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#99aadd";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000"; skin['CONTENT_HEADLINE_COLOR'] =
+"#99aadd"; skin['FONT_FACE'] = "normal normal 99% Verdana, sans-serif";
+google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-15x7bzwjnrx5u",
+height: 260, site: "04963122765543466569", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Content Use and Legal Stuff
+
+Unless specified otherwise, all original content on this weblog is made available under a
+Creative Commons Attribution-Non Commercial-No Derivatives license . This means you are
+free to copy, distribute and transmit the content so long as Andrew Barton is attributed as the
+creator; so long as the content is not used for commercial purposes; and so long as you do not
+create derivative works of the content. Still, if there's something you'd like to use, talk to
+me - any of these conditions can be waived.
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png  
+
+Ð“ÐŸÑ€Ð±Ð°Ñ‡ÐµÐ² Ð¿ÐŸÐµÑ‚
+Ñ‚Ñ€Ð°ÐºÑ‚ÐŸÑ€ÐŸÐ²: Ñ€ÐµÐ¿Ð°!
+Ð¯Ð³ÐŸÐŽÐžÑ†Ñ‹!
+
+
+
+Image: http://t1.extreme-dm.com/i.gif <!-- var EXlogin='arbarton' // Login var
+EXvsrv='s11' // VServer EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
+EXb=EXs.colorDepth:EXb=EXs.pixelDepth;EXsrc="src";
+navigator.javaEnabled()==1?EXjv="y":EXjv="n";
+EXd=document;EXw?"":EXw="na";EXb?"":EXb="na"; EXd.write("<img
+"+EXsrc+"=http://e2.extreme-dm.com", "/"+EXvsrv+".g?login="+EXlogin+"&amp;",
+"jv="+EXjv+"&amp;j=y&amp;srw="+EXw+"&amp;srb="+EXb+"&amp;",
+"l="+escape(EXd.referrer)+" height=1 width=1>");//-->
+
+Image: http://e2.extreme-dm.com/s11.g?login=arbarton&j=n&jv=n
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'1737980321158585254';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d1737980321158585254','//actsofminortreason.blogspot.com/2010/04/phototour-expressing-spadina.html','1737980321158585254');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'1737980321158585254', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Acts of
+Minor Treason', 'pageType': 'item', 'url':
+'http://actsofminortreason.blogspot.com/2010/04/phototour-expressing-spadina.html',
+'canonicalUrl':
+'http://actsofminortreason.blogspot.com/2010/04/phototour-expressing-spadina.html',
+'canonicalHomepageUrl': 'http://actsofminortreason.blogspot.com/', 'homepageUrl':
+'http://actsofminortreason.blogspot.com/', 'blogspotFaviconUrl':
+'http://actsofminortreason.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'Phototour: Expressing Spadina', 'pageTitle': 'Acts of Minor Treason: Phototour:
+Expressing Spadina', 'encoding': 'UTF-8', 'locale': 'en', 'isPrivate': false,
+'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog':
+false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42
+type\75\42application/atom+xml\42 title\75\42Acts of Minor Treason - Atom\42
+href\75\42http://actsofminortreason.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42Acts of Minor Treason - RSS\42
+href\75\42http://actsofminortreason.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Acts of Minor Treason - Atom\42
+href\75\42http://www.blogger.com/feeds/1737980321158585254/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0751737980321158585254\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42Acts of Minor Treason - Atom\42
+href\75\42http://actsofminortreason.blogspot.com/feeds/2098892556511112969/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'postImageThumbnailUrl':
+'http://3.bp.blogspot.com/_Bzwh4ecQCBQ/S7irc7GNIWI/AAAAAAAAA1Y/bV-jGYJso-k/s72-c/spex2.jpg',
+'imageSrcTag': '\74link rel\75\42image_src\42
+href\75\42http://3.bp.blogspot.com/_Bzwh4ecQCBQ/S7irc7GNIWI/AAAAAAAAA1Y/bV-jGYJso-k/s72-c/spex2.jpg\42
+/\76\n', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#999999', 'linkcolor':
+'#99aadd', 'visitedlinkcolor': '#aa77aa', 'textcolor': '#cccccc', 'headerfont':
+'italic normal 86% Verdana, sans-serif', 'pagetitlefont': 'normal bold 200% Verdana,
+sans-serif', 'bgcolor': '#000000', 'descriptioncolor': '#000000', 'titlecolor':
+'#99aadd', 'bordercolor': '#777777', 'postfooterfont': 'normal normal 78% Trebuchet,
+Trebuchet MS, Arial, sans-serif', 'pagetitlecolor': '#e6e6e6', 'bodyfont': 'normal
+normal 99% Verdana, sans-serif', 'endSide': 'right', 'startSide': 'left',
+'descriptionfont': 'normal bold 30% Courier, monospace', 'sidebarcolor': '#777777'},
+'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url':
+'/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'},
+'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name':
+'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url':
+'/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'},
+'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'footer',
+null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile2',
+'sidebar', null, document.getElementById('Profile2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebar',
+null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1',
+'sidebar', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar',
+null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar',
+null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_CustomSearchView', new
+_WidgetInfo('CustomSearch1', 'sidebar', null,
+document.getElementById('CustomSearch1'), {'title': 'Search This Weblog',
+'includeBlog': true, 'includePostLinks': false, 'includeWeb': true, 'linkLists': [],
+'blogUrl': 'http://actsofminortreason.blogspot.com/', 'loadingMsg': 'Loading...',
+'thisBlogMsg': 'This Blog', 'linkedFromHereMsg': 'Linked From Here', 'theWebMsg': 'The
+Web', 'backgroundColor': '#000000', 'textColor': '#cccccc', 'dateColor': '#777777',
+'linkColor': '#99aadd', 'urlColor': '#99aadd', 'visitedLinkColor': '#aa77aa',
+'borderColor': '#777777', 'activeBorderColor': '#99aadd'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive2', 'sidebar', null,
+document.getElementById('BlogArchive2'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_FollowersView', new
+_WidgetInfo('Followers1', 'sidebar', null, document.getElementById('Followers1'),
+{'title': 'Followers', 'codeSnippet': '\74script type\75\42text/javascript\42\76\n
+if (!window.google || !google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.currentPost \75
+\42http://www.blogger.com/feeds/1737980321158585254/posts/default/2098892556511112969\42;\n
+\n \n \n holder.currentComments \75
+\42http://www.blogger.com/feeds/1737980321158585254/2098892556511112969/comments/default\42;\n
+\n holder.currentPostUrl \75 \42\42;\n holder.currentPostId \75 2098892556511112969\n
+\n \n \n holder.postFeed \75
+\42http://www.blogger.com/feeds/1737980321158585254/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/1737980321158585254/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://actsofminortreason.blogspot.com/\42;\n
+holder.currentBlogId \75 \0421737980321158585254\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-tasoc8scr7w3\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#999999\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#99aadd\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#99aadd\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#999999\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#99aadd\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#000000\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#99aadd\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 99% Verdana, sans-serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-tasoc8scr7w3\42,\n height: 260,\n \n \n \n site: \04204963122765543466569\42,\n
+\n locale: \47en\47 },\n skin);\n \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar',
+null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

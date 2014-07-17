@@ -1,0 +1,1078 @@
+
+
+
+
+Memories of...Cherry Hill, NJ in the 70s (My Childhood Home) (function() { var cx =
+'016474116467456296202:zcdp2tq_pxi' var gcse = document.createElement('script');
+gcse.type = 'text/javascript'; gcse.async = true; gcse.src =
+(document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/headers/ar_home_logo.png?1348686621
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_b_search.png?1348686621
+    var currentIndex = -1 var default_phrase = "Home Listings by City"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686621
+        Consumer
+
+        - Home Improvement
+
+        
+
+        - Home Buying
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Home Selling
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686621
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  body { background:
+url(/image_store/customizer/azbrady_background_88841_flag2wm.jpg) repeat fixed
+center top; margin: 0; padding: 0; } table#blog_content { width: 960px; margin: 0 auto; }
+td.blog_content_td { background: #ffffff; } #top_menu { border: none;
+background-color:#000000; background-image: none; } #top_menu li a, #top_menu li
+span.fake_menu_item { text-shadow: none; } #top_menu .top_dropdown ul li a:hover {
+background: none !important; } #logo_wrapper { background: white; } #header { margin-top:
+0; padding-top: 0; border: none !important; } .nav { margin: 0 !important; border-width: 0
+!important; } #top_menu .top_dropdown { border: none; background-color:#000000; }
+#top_menu .top_dropdown a, #top_menu .top_dropdown .inner_menu_header { } #top_menu
+.top_dropdown .inner_menu_header { text-decoration: underline; } #top_menu
+.top_dropdown ul li a:hover { background-color:#000000; font-weight: bold; }
+.top_dropdown { margin-top: 5px; } * html ul.top_level_menu { display: inline-block;
+position: relative; z-index: 1000; } * + html ul.top_level_menu { display: inline-block;
+position: relative; z-index: 1000; } * html .top_dropdown { margin-top: 3px; z-index: 1000;
+} * + html .top_dropdown { margin-top: 19px; z-index: 1000; } Home : Blogs : Brian Brady-VA Home
+Loans/San Diego : America's #1 Mortgage Broker .reblog { margin-left: 4px; } Tweet
+
+Memories of...Cherry Hill, NJ in the 70s (My Childhood Home)
+
+
+
+
+
+Image: /image_store/uploads/2/0/8/9/8/ar124832679089802.jpg
+
+Image: /image_store/uploads/8/0/5/2/4/ar124859035242508.gif I grew up in a
+neighborhood of minor celebrities, in Cherry Hill, NJ.  My mother was a REALTOR who sold many
+of the Philadelphia Flyers' players their homes. Hockey players were the lunch-pail
+professional athletes in the 70s; they didn't get huge contracts.  They lived amongst the
+lawyers, engineers, and doctors but make no mistake about it; these guys were blue-collar. 
+Reggie Leach lived around the corner from us.  "The Rifle" was an aboriginal Canadian from
+the oil fields of Manitoba.  Often, he and fellow Manitoban Bobby Clarke would be watching us
+play street hockey from Reg's front yard, offering a tip or two.  Of course, we didn't know
+that the pair would be future Hockey Hall of Famers; we just thought of them as the guys that
+brought the Stanley Cup to Philly.
+
+
+
+Image: /image_store/uploads/6/1/6/0/1/ar12485904010616.jpg My love of R&B, soul, and
+funk music (and later hip-hop) was rooted in the neighborly encouragement from Rock and Roll
+Hall of Famer Leon Huff .  Mr. Huff's daughter was a classmate of my younger sister's.  He
+would occasionally reward me for washing his car or cutting his lawn with 15-20 minutes of The
+Sound of Philadelphia.   What I thought of as a special treat was really market research for Mr
+Huff; he was wondering if pre-teens would buy music from Philadelphia International Records
+rather than competitior Motown.
+
+Muhammad Ali bought a Cherry Hill home in the early 70s to rattle Philadelphian Smokin' Joe
+Frazier's cage.  Ali would live in that home when he trained at the Cherry Hill Inn.  While
+Ali billed himself as "The Greatest", most of the Cherry Hill kids villified our neighbor for
+his derogatory remarks towards Smokin' Joe's looks and actions during the Vietnam War.
+
+
+
+Speaking of boxing, middle-weight champ Joey Giardello was a regular at the 11AM Mass at Queen
+of Heaven Church.
+
+
+
+Image: /image_store/uploads/2/8/9/8/5/ar12483278958982.jpg The Garden State Park was
+across Route 70 from the Latin Casino .  Frank Sinatra et al played "The Latin" and were often
+seen "betting the ponies" at "The Track".  Philadelphia Phillie great Dick Allen would show
+up there and was great to all of the kids accompanying their parents for an afternoon at the
+Track.  Later in life, I'd meet Dick Allen in Phoenix , and thank him for the great memories. 
+Allen had a rough go of it ,  in the 60s as a Phillie but I reminded him that his stint in the 70s
+influenced a generation of Little Leaguers.  I'd like to think the tear in his eye, when we
+embraced some 20 years later, was a positive feeling that his legacy as a Phillie would be for
+his second tour of duty.
+
+Cherry Hill was a melting pot and nothing proved it more than the influx of Tran and Nguyen
+families to our churches.  While our parish priests were criticizing the Viet Nam War, the
+casualties of Communist aggression were sitting in the pews, soon after the Fall of Saigon .
+
+I described THIS Cherry Hill, on Bloodhound Blog, when I told REALTORs to stop selling houses
+and start selling memories :
+
+I grew up in the Jersey rendition, Cherry Hill. I’m the product of immigrants’ kids who got
+out of their ethnic “neighborhoods” and made it to the holy ground; the suburb.
+
+Cherry Hill was great place to live in the 70s because it was the ultimate social experiment.
+Kids of all colors, creeds, religions, and ethnicities mixed together in a damned good public
+school system. We celebrated bar
+
+Image: /image_store/uploads/3/0/1/9/4/ar124859046849103.jpg mitzvahs and first
+communions, ate pasta with gravy, danced the polka, and listened to Motown, Disco, and
+eventually hip-hop music. I call it the ultimate social experiment because you had these kids
+running around, learning tolerance and cultural respect, amid the conflict of the
+generational prejudices of our parents and grandparents. The enlightened ones were our
+parents. They bucked the clannish “trust nobody unlike you” mantras of the ethnic
+ghettoes in hopes of a better life for their offspring.
+
+Cherry Hill was a white-collar town with blue-collar thoughts. The parents were lawyers,
+engineers, salespeople, skilled tradespeople, doctors, and middle managers at the RCA
+plant. They were mostly educated because their parents insisted, through broken English,
+that “an education was the ticket to the American Dream”. The blue collar roots came from
+our grandparents. They taught us how to curse in Italian, wax poetically like Joyce, and dance
+to Marvin Gaye, all while sprinkling in the Yiddish word or two.
+
+How about another example of diversity?
+
+Cherry Hill was home to the combination Chinese restaurant/ Jewish delicatessan, Ginsberg
+and Wong .  Few places were as rich with diversity as Cherry Hill in the 70s and that experience
+has had a profound impact on me.  So...
+
+...if you ever see me dancing to the O'Jays at a Bar Mitzvah or playing street hockey in Orange
+County's Little Saigon , don't think of me as odd.
+
+I just grew up in Cherry Hill.   Posted by Brian Brady-VA Home Loans/San Diego on 07/23/2009
+12:36 AM   Comments (10)   cherry hill , nj   Generate short URL Post is included in group:
+Dedicated Bloggers
+
+Post is included in group: Family Ties
+
+
+
+10 Comments on Memories of...Cherry Hill, NJ in the 70s (My Childhood Home) JUL 23 2009
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686621
+
+A wonderful description of Americana.  I love it.
+
+Our area is similar and more because we are not only a melting pot, we are "international" with
+many lovely immigrants melting in our local pots and contributing spice and flavor. 
+
+  Lenn Harley, Real Estate Broker, Virginia & Maryland (Lenn Harley, Homefinders.com, MD &
+VA Homes and Real Estate) 4:45am • #1
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+B: I love that you are a combination of East Coast/West Coast. It kind of makes you a
+ambidextrous thinker.
+
+Will I see you and Inman?
+
+PS I have Southern roots. Lenn and I always joke about being raised as Southern ladies. Janet
+Guilbault California Mortgage Banker ( RPM Mortgage) 8:12am • #2
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/cfd6897ece0ce65b25f37d4a35cb171252c00107.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686621
+
+Brian,
+
+Talk about self serving name dropping! I loved every word and link of it!
+
+You've got to love diversity.
+
+You've got to love people.
+
+What's odd about '...if you ever see me dancing to the O'Jays at a Bar Mitzvah or playing street
+hockey in Orange County's Little Saigon , don't think of me as odd."
+
+Gorddie Howe could beat them all!
+
+Bill William J Archambault Jr (The Real Estate Investment Institute ) 9:13am • #3
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+I'm not surprised that y'all aren't surprised;  DC, Houston, and San Fran are ALL
+"international" cities.  The 70s were a time of change and Cherry Hill was right in the middle
+of it.  It was an exciting time (and place) to be a kid San Diego VA Home Loans/858-777-9751
+12:21pm • #4 JUL 24 2009
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Brian - I have friends from NJ, even though they now live in FL they still love NJ and the
+Flyers. Tons of home town loyalty so I wonder why NJ gets such a bad rap.  Great post and best of
+luck! John Secor (EXIT Real Estate Results) 6:05pm • #5 JUL 26 2009
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686979
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686979
+
+It sounds like it was a wonderful place in which to grow up and gave you a lot of memories.
+Christine Donovan Costa Mesa CA Homes Broker/Attorney 800-610-7253 DRE01267479 (Donovan
+Blatt Team - Donovan Group Realty) 12:43am • #6
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+You're correct, John; NJ does get a bad rap.  Today, I'm strill an avid Flyers fan because of
+those childhood relationships with Leach and Clarke.
+
+Living in Solana Beach today Christine makes me think of how awesome it must have been to grow up
+here.  While life has changed in SoCal since the 70s, I still marvel at how my daughter has the
+beach, the Race Track, and this nice little seaside village within a mile of her house.
+
+I loved growing up in Cherry Hill but I wouldn't trade Southern California living for anything
+San Diego VA Home Loans/858-777-9751 1:30am • #7
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Hey Brian,
+
+I was reading Fran's post Fran's Friday Forum...Memories Of My Childhood Home...!!!  and
+got sidetracked to your blog. Man am I thankful.
+
+I love the saying "Home is where your story begins" I loved your story!! Thank you for sharing
+your "Holy Ground".
+
+  Alice Linahan (Resolute Media Group) 2:26pm • #8 AUG 06 2009
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+Thanks, Alice.  I've been reading the entries to the contest and smiling at all the wonderful
+thoughts San Diego VA Home Loans/858-777-9751 12:24am • #9 OCT 23 2009
+
+Brian,
+
+I grew up in Cherry Hill in the 80s and 90s (graduated from East in 95) and I got much of the same
+feeling. Now I live here with my daughter and I feel the lack of the "blue collar parents"
+because we are all a generation removed. It has lost some of the community feel, but the
+diversity is still here and I still think its the best place to raise a family! Oh, and you can
+still see the Flyers and Eagles players - at the Ritz movies in Voorhees! :)
+
+Thanks for a great read!
+
+Beth Beth 4:23pm • #10
+
+Login or register to leave a comment Event.observe(window, 'load', initLazyLoad);
+function initLazyLoad() { $$("div.comment_image").each(function(e){
+e.style.backgroundImage = "url("+e.getAttribute('imagesrc')+")" }) }   function
+contact(aid) { //documentation on this:
+http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/945/4945/large/bjb.jpg?1340331037
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/rainmaker_large.png?1348686621
+
+Brian Brady-VA Home Loans/San Diego
+
+San Diego , CA
+
+More about me…
+
+San Diego VA Home Loans/858-777-9751
+
+Address: La Jolla, CA, 92014
+
+Office Phone: (858) 777-9751
+
+Email Me
+
+Image:
+
+Image: http://delmar.typepad.com/HomeGain_BL_ad.jpg
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Listings
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Links
+
+
+
+    
+
+    - Live MBS Pricing
+
+    
+
+    - My Website
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Archives
+
+
+
+    
+
+    - December 2011 (3)
+
+    
+
+    - November 2011 (1)
+
+    
+
+    - July 2011 (6)
+
+    
+
+    - June 2011 (6)
+
+    
+
+    - December 2010 (2)
+
+    
+
+    - August 2010 (1)
+
+    
+
+    - July 2010 (4)
+
+    
+
+    - May 2010 (3)
+
+    
+
+    - April 2010 (1)
+
+    
+
+    - March 2010 (1)
+
+    
+
+    - January 2010 (1)
+
+    
+
+    - December 2009 (3)
+
+    
+
+    - October 2009 (1)
+
+    
+
+    - September 2009 (8)
+
+    
+
+    - August 2009 (8)
+
+    
+
+    - July 2009 (4)
+
+    
+
+    - June 2009 (7)
+
+    
+
+    - May 2009 (6)
+
+    
+
+    - April 2009 (4)
+
+    
+
+    - March 2009 (14)
+
+    
+
+    - February 2009 (11)
+
+    
+
+    - January 2009 (9)
+
+    
+
+    - December 2008 (10)
+
+    
+
+    - November 2008 (8)
+
+    
+
+    - October 2008 (10)
+
+    
+
+    - September 2008 (16)
+
+    
+
+    - August 2008 (13)
+
+    
+
+    - July 2008 (19)
+
+    
+
+    - June 2008 (17)
+
+    
+
+    - May 2008 (23)
+
+    
+
+    - April 2008 (24)
+
+    
+
+    - March 2008 (15)
+
+    
+
+    - February 2008 (13)
+
+    
+
+    - January 2008 (20)
+
+    
+
+    - December 2007 (11)
+
+    
+
+    - November 2007 (18)
+
+    
+
+    - October 2007 (40)
+
+    
+
+    - September 2007 (11)
+
+    
+
+    - August 2007 (9)
+
+    
+
+    - July 2007 (9)
+
+    
+
+    - June 2007 (7)
+
+    
+
+    - May 2007 (11)
+
+    
+
+    - April 2007 (13)
+
+    
+
+    - March 2007 (8)
+
+    
+
+    - February 2007 (11)
+
+    
+
+    - January 2007 (12)
+
+    
+
+    - December 2006 (8)
+
+    
+
+    - November 2006 (14)
+
+    
+
+    - October 2006 (7)
+
+    
+
+    - September 2006 (11)
+
+    
+
+    - August 2006 (1)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find CA real estate agents and San Diego real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/new_design/eho.gif?1348686621
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

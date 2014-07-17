@@ -1,0 +1,1064 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); (function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); About Wheat (1):Food Industry News if (navigator.userAgent.indexOf('MSIE 6') == -1)
+{ WebFontConfig = { google: { families: [ 'PT Sans Caption' ], api:
+'//themes.googleusercontent.com/fonts/css?kit=OXYTDOzBcXU8MTNBvBHeSZK4BX7iQTFjEUonskY02_U'
+}, loading: function() { if (window.jstiming)
+window.jstiming.load.tick('webfontLoading'); }, active: function() { if
+(window.jstiming) window.jstiming.load.tick('webfontActive'); } }; (function() { var
+wf = document.createElement('script'); wf.src =
+'//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type =
+'text/javascript'; wf.async = 'true'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s);
+})(); } else { document.documentElement.className = 'wf-inactive'; } .wf-inactive body,
+.wf-ptsanscaption-n4-loading body, .wf-ptsanscaption-n4-inactive body { font-family:
+sans-serif; } .wf-inactive h3.post-title, .wf-ptsanscaption-n4-loading
+h3.post-title, .wf-ptsanscaption-n4-inactive h3.post-title, .wf-inactive .comments
+h4, .wf-ptsanscaption-n4-loading .comments h4, .wf-ptsanscaption-n4-inactive
+.comments h4 { font-family: sans-serif; } <!-- /*
+----------------------------------------------- Blogger Template Style Name: Simple
+Designer: Josh Peterson URL: www.noaesthetic.com
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="keycolor" description="Main Color" type="color"
+default="#66bbdd"/> <Group description="Page Text" selector="body"> <Variable
+name="body.font" description="Font" type="font" default="normal normal 12px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="body.text.color"
+description="Text Color" type="color" default="#222222"/> </Group> <Group
+description="Backgrounds" selector=".body-fauxcolumns-outer"> <Variable
+name="body.background.color" description="Outer Background" type="color"
+default="#66bbdd"/> <Variable name="content.background.color" description="Main
+Background" type="color" default="#ffffff"/> <Variable
+name="header.background.color" description="Header Background" type="color"
+default="transparent"/> </Group> <Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color"
+default="#2288bb"/> <Variable name="link.visited.color" description="Visited Color"
+type="color" default="#888888"/> <Variable name="link.hover.color"
+description="Hover Color" type="color" default="#33aaff"/> </Group> <Group
+description="Blog Title" selector=".header h1"> <Variable name="header.font"
+description="Font" type="font" default="normal normal 60px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif"/> <Variable name="header.text.color" description="Title Color"
+type="color" default="#3399bb" /> </Group> <Group description="Blog Description"
+selector=".header .description"> <Variable name="description.text.color"
+description="Description Color" type="color" default="#777777" /> </Group> <Group
+description="Tabs Text" selector=".tabs-inner .widget li a"> <Variable
+name="tabs.font" description="Font" type="font" default="normal normal 14px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="tabs.text.color"
+description="Text Color" type="color" default="#999999"/> <Variable
+name="tabs.selected.text.color" description="Selected Color" type="color"
+default="#000000"/> </Group> <Group description="Tabs Background"
+selector=".tabs-outer .PageList"> <Variable name="tabs.background.color"
+description="Background Color" type="color" default="#f5f5f5"/> <Variable
+name="tabs.selected.background.color" description="Selected Color" type="color"
+default="#eeeeee"/> </Group> <Group description="Post Title"
+selector="h3.post-title, .comments h4"> <Variable name="post.title.font"
+description="Font" type="font" default="normal normal 22px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif"/> </Group> <Group description="Date Header"
+selector=".date-header"> <Variable name="date.header.color" description="Text
+Color" type="color" default="#000000"/> <Variable
+name="date.header.background.color" description="Background Color" type="color"
+default="transparent"/> </Group> <Group description="Post Footer"
+selector=".post-footer"> <Variable name="post.footer.text.color" description="Text
+Color" type="color" default="#666666"/> <Variable
+name="post.footer.background.color" description="Background Color" type="color"
+default="#f9f9f9"/> <Variable name="post.footer.border.color" description="Shadow
+Color" type="color" default="#eeeeee"/> </Group> <Group description="Gadgets"
+selector="h2"> <Variable name="widget.title.font" description="Title Font"
+type="font" default="normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color"
+default="#000000"/> <Variable name="widget.alternate.text.color"
+description="Alternate Color" type="color" default="#999999"/> </Group> <Group
+description="Images" selector=".main-inner"> <Variable
+name="image.background.color" description="Background Color" type="color"
+default="#ffffff"/> <Variable name="image.border.color" description="Border Color"
+type="color" default="#eeeeee"/> <Variable name="image.text.color"
+description="Caption Text Color" type="color" default="#000000"/> </Group> <Group
+description="Accents" selector=".content-inner"> <Variable name="body.rule.color"
+description="Separator Line Color" type="color" default="#eeeeee"/> <Variable
+name="tabs.border.color" description="Tabs Border Color" type="color"
+default="#e8e8e8"/> </Group> <Variable name="body.background" description="Body
+Background" type="background" color="#444040" default="$(color) none repeat scroll top
+left"/> <Variable name="body.background.override" description="Body Background
+Override" type="string" default=""/> <Variable name="body.background.gradient.cap"
+description="Body Gradient Cap" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/> <Variable
+name="body.background.gradient.tile" description="Body Gradient Tile" type="url"
+default="url(//www.blogblog.com/1kt/simple/body_gradient_tile_light.png)"/>
+<Variable name="content.background.color.selector" description="Content Background
+Color Selector" type="string" default=".content-inner"/> <Variable
+name="content.padding" description="Content Padding" type="length" default="10px"/>
+<Variable name="content.padding.horizontal" description="Content Horizontal
+Padding" type="length" default="10px"/> <Variable name="content.shadow.spread"
+description="Content Shadow Spread" type="length" default="40px"/> <Variable
+name="content.shadow.spread.webkit" description="Content Shadow Spread (WebKit)"
+type="length" default="5px"/> <Variable name="content.shadow.spread.ie"
+description="Content Shadow Spread (IE)" type="length" default="10px"/> <Variable
+name="main.border.width" description="Main Border Width" type="length" default="0"/>
+<Variable name="header.background.gradient" description="Header Gradient"
+type="url" default="none"/> <Variable name="header.shadow.offset.left"
+description="Header Shadow Offset Left" type="length" default="-1px"/> <Variable
+name="header.shadow.offset.top" description="Header Shadow Offset Top" type="length"
+default="-1px"/> <Variable name="header.shadow.spread" description="Header Shadow
+Spread" type="length" default="1px"/> <Variable name="header.padding"
+description="Header Padding" type="length" default="30px"/> <Variable
+name="header.border.size" description="Header Border Size" type="length"
+default="1px"/> <Variable name="header.bottom.border.size" description="Header
+Bottom Border Size" type="length" default="1px"/> <Variable
+name="header.border.horizontalsize" description="Header Horizontal Border Size"
+type="length" default="0"/> <Variable name="description.text.size"
+description="Description Text Size" type="string" default="140%"/> <Variable
+name="tabs.margin.top" description="Tabs Margin Top" type="length" default="0" />
+<Variable name="tabs.margin.side" description="Tabs Side Margin" type="length"
+default="30px" /> <Variable name="tabs.background.gradient" description="Tabs
+Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/> <Variable
+name="tabs.border.width" description="Tabs Border Width" type="length"
+default="1px"/> <Variable name="tabs.bevel.border.width" description="Tabs Bevel
+Border Width" type="length" default="1px"/> <Variable name="date.header.padding"
+description="Date Header Padding" type="string" default="inherit"/> <Variable
+name="date.header.letterspacing" description="Date Header Letter Spacing"
+type="string" default="inherit"/> <Variable name="date.header.margin"
+description="Date Header Margin" type="string" default="inherit"/> <Variable
+name="post.margin.bottom" description="Post Bottom Margin" type="length"
+default="25px"/> <Variable name="image.border.small.size" description="Image Border
+Small Size" type="length" default="2px"/> <Variable name="image.border.large.size"
+description="Image Border Large Size" type="length" default="5px"/> <Variable
+name="page.width.selector" description="Page Width Selector" type="string"
+default=".region-inner"/> <Variable name="page.width" description="Page Width"
+type="string" default="auto"/> <Variable name="main.section.margin"
+description="Main Section Margin" type="length" default="15px"/> <Variable
+name="main.padding" description="Main Padding" type="length" default="15px"/>
+<Variable name="main.padding.top" description="Main Padding Top" type="length"
+default="30px"/> <Variable name="main.padding.bottom" description="Main Padding
+Bottom" type="length" default="30px"/> <Variable name="paging.background"
+color="#ffffff" description="Background of blog paging area" type="background"
+default="transparent none no-repeat scroll top center"/> <Variable name="footer.bevel"
+description="Bevel border length of footer" type="length" default="0"/> <Variable
+name="mobile.background.overlay" description="Mobile Background Overlay"
+type="string" default="transparent none repeat scroll top left"/> <Variable
+name="mobile.background.size" description="Mobile Background Size" type="string"
+default="auto"/> <Variable name="mobile.button.color" description="Mobile Button
+Color" type="color" default="#ffffff" /> <Variable name="startSide" description="Side
+where text starts in blog language" type="automatic" default="left"/> <Variable
+name="endSide" description="Side where text ends in blog language" type="automatic"
+default="right"/> */ /* Menghilangkan Navbar
+----------------------------------------------- */ #navbar { height: 0px; visibility:
+hidden; display: none; } /* Content ----------------------------------------------- */
+body, .body-fauxcolumn-outer { font: normal normal 12px PT Sans Caption; color: #000000;
+background: #444040 none no-repeat scroll center center; padding: 0 40px 40px 40px; } html
+body .region-inner { min-width: 0; max-width: 100%; width: auto; } a:link {
+text-decoration:none; color: #990000; } a:visited { text-decoration:none; color:
+#990000; } a:hover { text-decoration:underline; color: #5814ff; }
+.body-fauxcolumn-outer .fauxcolumn-inner { background: transparent none repeat scroll
+top left; _background-image: none; } .body-fauxcolumn-outer .cap-top { position:
+absolute; z-index: 1; height: 400px; width: 100%; background: #444040 none no-repeat
+scroll center center; } .body-fauxcolumn-outer .cap-top .cap-left { width: 100%;
+background: transparent none repeat-x scroll top left; _background-image: none; }
+.content-outer { -moz-box-shadow: 0 0 40px rgba(0, 0, 0, .15); -webkit-box-shadow: 0 0 5px
+rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 0 10px #333333; box-shadow: 0 0 40px rgba(0, 0, 0,
+.15); margin-bottom: 1px; } .content-inner { padding: 10px 10px; } .content-inner {
+background-color: #ffffff; } /* Header
+----------------------------------------------- */ .header-outer { background:
+transparent none repeat-x scroll 0 -400px; _background-image: none; } .Header h1 { font:
+normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif; color: #32268c;
+text-shadow: -1px -1px 1px rgba(0, 0, 0, .2); } .Header h1 a { color: #32268c; } .Header
+.description { font-size: 140%; color: #595959; } .header-inner .Header .titlewrapper {
+padding: 22px 30px; } .header-inner .Header .descriptionwrapper { padding: 0 30px; } /* Tabs
+----------------------------------------------- */ .tabs-inner
+.section:first-child { border-top: 1px solid #e8e8e8; } .tabs-inner
+.section:first-child ul { margin-top: -1px; border-top: 1px solid #e8e8e8; border-left: 0
+solid #e8e8e8; border-right: 0 solid #e8e8e8; } .tabs-inner .widget ul { background:
+#efefef url(//www.blogblog.com/1kt/simple/gradients_light.png) repeat-x scroll 0
+-800px; _background-image: none; border-bottom: 1px solid #e8e8e8; margin-top: 0;
+margin-left: -30px; margin-right: -30px; } .tabs-inner .widget li a { display:
+inline-block; padding: .6em 1em; font: normal normal 14px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif; color: #898989; border-left: 1px solid #ffffff; border-right: 1px
+solid #e8e8e8; } .tabs-inner .widget li:first-child a { border-left: none; } .tabs-inner
+.widget li.selected a, .tabs-inner .widget li a:hover { color: #000000; background-color:
+#e8e8e8; text-decoration: none; } /* Columns
+----------------------------------------------- */ .main-outer { border-top: 0 solid
+#e8e8e8; } .fauxcolumn-left-outer .fauxcolumn-inner { border-right: 1px solid #e8e8e8; }
+.fauxcolumn-right-outer .fauxcolumn-inner { border-left: 1px solid #e8e8e8; } /*
+Headings ----------------------------------------------- */ h2 { margin: 0 0 1em 0; font:
+normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif; color: #000000;
+text-transform: uppercase; } /* Widgets
+----------------------------------------------- */ .widget .zippy { color: #898989;
+text-shadow: 2px 2px 1px rgba(0, 0, 0, .1); } .widget .popular-posts ul { list-style: none; }
+/* Posts ----------------------------------------------- */ .date-header span {
+background-color: transparent; color: #000000; padding: inherit; letter-spacing:
+inherit; margin: inherit; } .main-inner { padding-top: 30px; padding-bottom: 30px; }
+.main-inner .column-center-inner { padding: 0 15px; } .main-inner .column-center-inner
+.section { margin: 0 15px; } .post { margin: 0 0 25px 0; } h3.post-title, .comments h4 { font:
+normal normal 22px PT Sans Caption; margin: .75em 0 0; } .post-body { font-size: 110%;
+line-height: 1.4; position: relative; } .post-body img, .post-body
+.tr-caption-container, .Profile img, .Image img, .BlogList .item-thumbnail img {
+padding: 2px; background: #ffffff; border: 1px solid #e8e8e8; -moz-box-shadow: 1px 1px 5px
+rgba(0, 0, 0, .1); -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1); box-shadow: 1px 1px 5px
+rgba(0, 0, 0, .1); } .post-body img, .post-body .tr-caption-container { padding: 5px; }
+.post-body .tr-caption-container { color: #000000; } .post-body .tr-caption-container
+img { padding: 0; background: transparent; border: none; -moz-box-shadow: 0 0 0 rgba(0, 0, 0,
+.1); -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1); box-shadow: 0 0 0 rgba(0, 0, 0, .1); }
+.post-header { margin: 0 0 1.5em; line-height: 1.6; font-size: 90%; } .post-footer { margin:
+20px -2px 0; padding: 5px 10px; color: #2c2c2c; background-color: #f3f3f3; border-bottom:
+1px solid #e8e8e8; line-height: 1.6; font-size: 90%; } #comments .comment-author {
+padding-top: 1.5em; border-top: 1px solid #e8e8e8; background-position: 0 1.5em; }
+#comments .comment-author:first-child { padding-top: 0; border-top: none; }
+.avatar-image-container { margin: .2em 0 0; } #comments .avatar-image-container img {
+border: 1px solid #e8e8e8; } /* Comments
+----------------------------------------------- */ .comments .comments-content
+.icon.blog-author { background-repeat: no-repeat; background-image:
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+} .comments .comments-content .loadmore a { border-top: 1px solid #898989; border-bottom:
+1px solid #898989; } .comments .comment-thread.inline-thread { background-color:
+#f3f3f3; } .comments .continue { border-top: 2px solid #898989; } /* Accents
+---------------------------------------------- */ .section-columns td.columns-cell
+{ border-left: 1px solid #e8e8e8; } .blog-pager { background: transparent none no-repeat
+scroll top center; } .blog-pager-older-link, .home-link, .blog-pager-newer-link {
+background-color: #ffffff; padding: 5px; } .footer-outer { border-top: 0 dashed #bbbbbb; }
+/* Mobile ----------------------------------------------- */ body.mobile {
+background-size: auto; } .mobile .body-fauxcolumn-outer { background: transparent none
+repeat scroll top left; } .mobile .body-fauxcolumn-outer .cap-top { background-size: 100%
+auto; } .mobile .content-outer { -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15); box-shadow:
+0 0 3px rgba(0, 0, 0, .15); padding: 0 40px; } body.mobile .AdSense { margin: 0 -40px; } .mobile
+.tabs-inner .widget ul { margin-left: 0; margin-right: 0; } .mobile .post { margin: 0; }
+.mobile .main-inner .column-center-inner .section { margin: 0; } .mobile .date-header
+span { padding: 0.1em 10px; margin: 0 -10px; } .mobile h3.post-title { margin: 0; } .mobile
+.blog-pager { background: transparent none no-repeat scroll top center; } .mobile
+.footer-outer { border-top: none; } .mobile .main-inner, .mobile .footer-inner {
+background-color: #ffffff; } .mobile-index-contents { color: #000000; }
+.mobile-link-button { background-color: #990000; } .mobile-link-button a:link,
+.mobile-link-button a:visited { color: #ffffff; } .mobile .tabs-inner
+.section:first-child { border-top: none; } .mobile .tabs-inner .PageList
+.widget-content { background-color: #e8e8e8; color: #000000; border-top: 1px solid
+#e8e8e8; border-bottom: 1px solid #e8e8e8; } .mobile .tabs-inner .PageList
+.widget-content .pagelist-arrow { border-left: 1px solid #e8e8e8; } h1.post-title, .post
+h1 #Blog1 h1, #Blog2 h1 { font-size:1.5em; } --> <!-- body { min-width: 790px; }
+.content-outer, .content-fauxcolumn-outer, .region-inner { min-width: 790px;
+max-width: 790px; _width: 790px; } .main-inner .columns { padding-left: 0px;
+padding-right: 200px; } .main-inner .fauxcolumn-center-outer { left: 0px; right: 200px;
+/* IE6 does not respect left and right together */ _width:
+expression(this.parentNode.offsetWidth - parseInt("0px") - parseInt("200px") + 'px');
+} .main-inner .fauxcolumn-left-outer { width: 0px; } .main-inner
+.fauxcolumn-right-outer { width: 200px; } .main-inner .column-left-outer { width: 0px;
+right: 100%; margin-left: -0px; } .main-inner .column-right-outer { width: 200px;
+margin-right: -200px; } #layout { min-width: 0; } #layout .content-outer { min-width: 0;
+width: 800px; } #layout .region-inner { min-width: 0; width: auto; } --> var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-34060569-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})(); var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0757649451689246500787\46blogName\75Food+Industry+News\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75DARK\46layoutType\75LAYOUTS\46searchRoot\75http://agroindustriindonesia.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://agroindustriindonesia.blogspot.com/\46targetPostID\758762739966923645292\46blogPostOrPageUrl\75http://agroindustriindonesia.blogspot.com/2010/10/about-wheat.html\46vt\75-7272267283950103993',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+
+
+Image:
+http://2.bp.blogspot.com/-pwAXN5DNwRQ/UFURXqUM5-I/AAAAAAAAJMM/XFs4wytPEBE/s1600/Food-Industry-News.jpg
+
+    
+
+    - Home
+
+    
+
+    - Best Grocery Store
+
+    
+
+    - Food Machines
+
+    
+
+    - Articles
+
+    
+
+    - News
+
+    
+
+    - Video
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+About Wheat (1)
+
+PAGE 1 OF 2 : NEXT PAGE
+
+
+
+Wheat ( Triticum  spp.) [1]  is a  grass , originally from the  Fertile Crescent
+ region of the  Near East , but now cultivated worldwide. In 2007 world production of wheat
+was 607 million tons, making it the third most-produced  cereal  after  maize  (784
+million tons) and  rice  (651 million tons). [2]  Globally, wheat is the leading source of
+vegetable protein in human food, having a higher protein content than either maize (corn) or
+rice, the other major cereals.   In terms of total production tonnages used for food, it is
+currently second to rice as the main human food crop, and ahead of maize, after allowing for
+maize's more extensive use in animal feeds.
+
+
+
+Image:
+http://4.bp.blogspot.com/_GuLXAc2Kwcs/TLGuBBKmajI/AAAAAAAAAlM/JHMuwmBZpF0/s1600/Untitled-1.gif
+Wheat was a key factor enabling the emergence of city-based societies at the start of
+civilization because it was one of the first crops that could be easily cultivated on a large
+scale, and had the additional advantage of yielding a harvest that provides long-term
+storage of food.   Wheat  grain  is a  staple food  used to make  flour  for leavened,
+flat and steamed  breads , biscuits, cookies,  cakes , breakfast cereal, pasta,
+noodles,  couscous [3]   and for  fermentation  to make beer , [4]   other  alcoholic
+beverages , [5]  or  biofuel . [ 6 ]
+
+Wheat is planted to a limited extent as a  forage crop  for livestock, and its straw can be
+used as a construction material for roofing  thatch . [7] [8]  The  husk  of the grain,
+separated when milling white flour, is  bran .  Wheat germ  is the embryo portion of the
+wheat  kernel . It is a concentrated source of  vitamins , minerals, and  protein , and is
+sustained by the larger,  starch storage region of the kernel—the  endosperm .
+
+History
+
+Wheat is one of the first cereals known to have been domesticated and wheat's ability to
+self-pollinate greatly facilitated the selection of many distinct domesticated
+varieties. The archaeological record suggests that this first occurred in the regions known
+as the  Fertile Crescent , and the  Nile Delta . These include southeastern parts of 
+Turkey ,  Syria , the  Levant ,  Israel , and  Egypt . Recent findings narrow the first
+domestication of wheat down to a small region of southeastern Turkey, [9]  and
+domesticated  Einkorn  wheat at  NevalÄ± Ã‡ori —40 miles (64 km) northwest
+of  Gobekli Tepe  in  Turkey —has been dated to 9,000 B.C. [10]  However evidence for
+the exploitation of wild  barley  has been dated to 23,000 B.C. and some say this is also true
+of pre-domesticated wheat. [ 11 ]
+
+Wheat origins near Turkey's Karacadag Mountains
+
+Genetic analysis of wild  einkorn  wheat suggests that it was first grown in the Karacadag
+Mountains in southeastern Turkey. Dated archeological remains of einkorn wheat in
+settlement sites near this region, including those at  Abu Hureyra , confirms the
+domestication of einkorn near the Karacadag Mountain Range. The earliest carbon-14 date for
+the einkorn wheat remains at  Abu Hureyra  is 7800 to 7500 years  BCE . [12]  Recent
+genetic and archeological discoveries indicate that both  emmer  wheat and  durum
+ (hard pasta wheat) also originated from this same Karacadag region of southeastern
+Turkey. Remains of harvested emmer from several sites near the Karacadag Range have been
+dated to between 8,800 BCE and 8,400 BCE, that is, in the  Neolithic period . [ 13 ]
+
+Cultivation and repeated harvesting and sowing of the grains of wild grasses led to the
+creation of domestic strains, as mutant forms ('sports') of wheat were preferentially
+chosen by farmers. In domesticated wheat, grains are larger, and the seeds (spikelets)
+remain attached to the ear by a toughened  rachis  during harvesting. In wild strains, a
+more fragile rachis allows the ear to easily shatter and disperse the spikelets. [14]
+ Selection for these traits by farmers might not have been deliberately intended, but
+simply have occurred because these traits made gathering the seeds easier; nevertheless
+such 'incidental' selection was an important part of crop  domestication . As the traits
+that improve wheat as a food source  also  involve the loss of the plant's natural seed
+dispersal mechanisms, highly domesticated strains of wheat cannot survive in the wild.
+
+Cultivation of wheat began to spread beyond the Fertile Crescent after about 8,000 BCE. 
+Jared Diamond  traces the spread of cultivated emmer wheat starting in the Fertile Crescent
+about 8500 BCE, reaching Greece, Cyprus and India by 6500 BCE, Egypt shortly after 6000 BCE,
+and Germany and Spain by 5000 BCE  [15] . "The early Egyptians were developers of bread and the
+use of the oven and developed baking into one of the first large-scale food production
+industries."  [16]  By 3,000 BCE, wheat had reached England, and Scandinavia. A
+millennium later it reached  China .
+
+Wheat spread through out Europe and in England, thatch was used for roofing in the bronze age,
+and was in common use until the late 19th century. [ 17 ]
+
+Farming techniques
+
+Technological advances in soil preparation and seed placement at planting time, use of crop
+rotation and fertilizers to improve plant growth, and advances in harvesting methods have
+all combined to promote wheat as a viable crop. Agricultural cultivation using  horse
+collar  leveraged plows (at about 3000 BCE) was one of the first innovations that increased
+productivity. Much later, when the use of  seed drills  replaced broadcasting sowing of
+seed in the 18th century, another great increase in productivity occurred. Yields of wheat
+per unit area increased as methods of  crop rotation  were applied to long cultivated land,
+and the use of  fertilizers  became widespread. Improved agricultural husbandry has more
+recently included threshing machines and reaping machines (the ' combine harvester '), 
+tractor -drawn cultivators and planters, and better varieties (see  green revolution
+ and  Norin 10 wheat ). Great expansions of wheat production occurred as new arable land was
+farmed in the Americas and Australia in the 19th and 20th centuries.
+
+Genetics
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Usdaeinkorn1_Triticum_monococcum.jpg/170px-Usdaeinkorn1_Triticum_monococcum.jpg
+Spikelets of a hulled wheat,
+
+    einkorn Wheat genetics is more complicated than that of most other domesticated
+    species. Some wheat species are  diploid , with two sets of chromosomes, but many are
+    stable  polyploids , with four sets of chromosomes ( tetraploid ) or six ( hexaploid ). [
+    18 ]
+
+    - Einkorn  wheat ( T. monococcum ) is diploid (AA, two complements of seven chromosomes,
+    2n=14). [ 1 ]
+
+    
+
+    - Most tetraploid wheats (e.g.  emmer  and  durum wheat ) are derived from wild
+    emmer,  T. dicoccoides . Wild emmer is itself the result of a hybridization between two
+    diploid wild grasses,  T. urartu  and a wild goatgrass such as  Aegilops searsii
+     or  Ae. speltoides . The unknown grass has never been identified among now surviving
+    wild grasses, but the closest living relative is  Aegilops speltoides . The
+    hybridization that formed wild emmer (AABB) occurred in the wild, long before
+    domestication, [18] and was driven by natural selection.
+
+    
+
+    - Hexaploid wheats evolved in farmers' fields. Either domesticated emmer or durum wheat
+    hybridized with yet another wild diploid grass ( Aegilops cylindrica ) to make the 
+    hexaploid  wheats,  spelt  wheat and  bread wheat . [18]  These have  three
+     sets of paired chromosomes, three times as many as in diploid wheat.
+
+    
+
+The presence of certain versions of wheat genes has been important for crop yields. Apart from
+mutant versions of genes selected in antiquity during domestication, there has been more
+recent deliberate selection of  alleles  that affect growth characteristics. Genes for
+the 'dwarfing' trait, first used by  Japanese wheat breeders  to produce short-stalked
+wheat, have had a huge effect on wheat yields world-wide, and were major factors in the success
+of the  Green revolution  in Mexico and Asia. Dwarfing genes enable the carbon that is fixed
+in the plant during photosynthesis to be diverted towards seed production, and they also help
+prevent the problem of lodging. 'Lodging' occurs when a ear stalk falls over in the wind and
+rots on the ground, and heavy nitrogenous fertilization of wheat makes the grass grow taller
+and become more susceptible to this problem. By 1997, 81% of the developing world's wheat
+acreage was planted to semi-dwarf wheats, giving both increased yields and better response
+to nitrogenous fertilizer.
+
+Wild grasses in the genus  Triticum  and related genera, and grasses such as  rye  have
+been a source of many disease-resistance traits for cultivated wheat  breeding  since the
+1930s. [ 19 ]
+
+Heterosis , or hybrid vigor (as in the familiar F1 hybrids of maize), occurs in common
+(hexaploid) wheat, but it is difficult to produce seed of hybrid cultivars on a commercial
+scale (as is done with  maize ) because wheat flowers are complete and normally 
+self-pollinate . Commercial hybrid wheat seed has been produced using chemical hybridizing
+agents; these chemicals selectively interfere with pollen development, or naturally
+occurring cytoplasmic male sterility systems. Hybrid wheat has been a limited commercial
+success in Europe (particularly  France ), the USA and South Africa. [20]  F1 hybrid wheat
+cultivars should not be confused with the standard method of breeding inbred wheat cultivars
+by crossing two lines using hand emasculation, then selfing or inbreeding the progeny many
+(ten or more) generations before release selections are identified to be released as a
+variety or cultivar.
+
+Synthetic hexaploids  made by crossing the wild goatgrass wheat ancestor  Aegilops
+tauschii  and various durum wheats are now being deployed, and these increase the genetic
+diversity of cultivated wheats.
+
+Stomata  (or leaf pores) are involved in both uptake of carbon dioxide gas from the
+atmosphere and water vapor losses from the leaf due to water  transpiration . Basic
+physiological investigation of these gas exchange processes has yielded valuable carbon 
+isotope  based methods that are used for breeding wheat varieties with improved water-use
+efficiency. These varieties can improve crop productivity in rain-fed dry-land wheat
+farms. [ 21 ]
+
+In 2010, a team of scientists announced they had decoded the wheat genome for the first time
+(95% of the genome of a variety of wheat known as Chinese Spring line 42). [22]  This
+announcement was widely misreported as representing a finished genome sequence. In fact,
+sequence data was produced which allows the identification of wheat genes, but the data was
+not assembled to represent the map of the genome. Information on current wheat genome
+sequencing activities can be found at  http://www.wheatgenome.info/
+
+Plant Breeding
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Wheat_blue_sky2.JPG/220px-Wheat_blue_sky2.JPG
+Wheat In traditional agricultural systems wheat populations often consist of  landraces ,
+informal farmer-maintained populations that often maintain high levels of morphological
+diversity. Although landraces of wheat are no longer grown in Europe and North America, they
+continue to be important elsewhere. The origins of formal wheat breeding lie in the
+nineteenth century, when single line varieties were created through selection of seed from a
+single plant noted to have desired properties. Modern wheat breeding developed in the first
+years of the twentieth century and was closely linked to the development of  Mendelian
+genetics . The standard method of breeding inbred wheat cultivars is by crossing two lines
+using hand emasculation, then selfing or inbreeding the progeny. Selections are 
+identified  (shown to have the genes responsible for the varietal differences) ten or more
+generations before release as a variety or cultivar. [ 23 ]
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/WheatPennsylvania1943.jpg/220px-WheatPennsylvania1943.jpg
+Baled and stacked wheat F1 hybrid  wheat cultivars should not be confused with wheat
+cultivars deriving from standard  plant breeding .  Heterosis  or hybrid vigor (as in the
+familiar F1 hybrids of maize) occurs in common (hexaploid) wheat, but it is difficult to
+produce seed of hybrid cultivars on a commercial scale as is done with  maize  because wheat
+flowers are complete and normally  self-pollinate . [23]  Commercial hybrid wheat seed
+has been produced using chemical hybridizing agents,  plant growth regulators  that
+selectively interfere with pollen development, or naturally occurring  cytoplasmic male
+sterility  systems. Hybrid wheat has been a limited commercial success in Europe
+(particularly  France ), the  United States  and South Africa. [ 24 ]
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Wheat_P1210892.jpg/220px-Wheat_P1210892.jpg
+Wheat The major breeding objectives include high grain yield, good quality, disease and
+insect resistance and tolerance to abiotic stresses include mineral, moisture and heat
+tolerance. The major diseases in temperate environments include the following, arranged in
+a rough order of their significance from cooler to warmer climates:  eyespot , 
+Stagonospora nodorum blotch  (also known as glume blotch),  yellow  or  stripe rust ,
+powdery mildew ,  Septoria tritici blotch  (sometimes known as leaf blotch),  brown
+ or  leaf rust ,  Fusarium head blight ,  tan spot  and  stem rust . In tropical areas, 
+spot blotch  (also known as Helminthosporium leaf blight) is also important.
+
+Hulled vs Free-Treshing Wheat
+
+The four wild species of wheat, along with the domesticated varieties  einkorn , [25]  
+emmer [26]  and spelt , [27]  have hulls. This more primitive morphology (in evolutionary
+terms) consists of toughened glumes that tightly enclose the grains, and (in domesticated
+wheats) a semi-brittle rachis that breaks easily on threshing. The result is that when
+threshed, the wheat ear breaks up into spikelets. To obtain the grain, further processing,
+such as milling or pounding, is needed to remove the hulls or husks. In contrast, in
+free-threshing (or naked) forms such as durum wheat and common wheat, the glumes are fragile
+and the rachis tough. On threshing, the chaff breaks up, releasing the grains. Hulled wheats
+are often stored as spikelets because the toughened glumes give good protection against
+pests of stored grain. [ 25 ]
+
+Naming
+
+There are many botanical classification systems used for wheat species, discussed in a
+separate article on  Wheat taxonomy . The name of a wheat species from one information source
+may not be the name of a wheat species in another.
+
+
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Wheat-haHula-ISRAEL2.JPG/220px-Wheat-haHula-ISRAEL2.JPG
+    A mature wheat field in Israel Within a species, wheat cultivars are further classified
+    by wheat breeders and farmers in terms of:
+
+    - growing season, such as  winter wheat  vs. spring wheat, [8]  by  gluten
+     content, such as hard wheat (high protein content) vs. soft wheat (high starch
+    content), or by grain color (red, white or amber).
+
+    
+
+    - Protein  content. Bread wheat protein content ranges from 10% in some soft wheats with
+    high starch contents, to 15% in hard wheats.
+
+    
+
+    - The quality of the wheat protein  gluten . This protein can determine the suitability
+    of a wheat to a particular dish. A strong and elastic gluten present in bread wheats
+    enables  dough  to trap carbon dioxide during leavening, but elastic gluten
+    interferes with the rolling of  pasta  into thin sheets. The gluten protein in durum
+    wheats used for pasta is strong but not elastic.
+
+    
+
+    - Grain color (red, white or amber). Many wheat varieties are reddish-brown due to
+    phenolic compounds present in the bran layer which are transformed to pigments by
+    browning enzymes. White wheats have a lower content of phenolics and browning enzymes,
+    and are generally less astringent in taste than red wheats. The yellowish color of durum
+    wheat and  semolina  flour made from it is due to a  carotenoid pigment called 
+    lutein , which can be oxidized to a colorless form by enzymes present in the grain.  
+
+    
+
+
+
+Major Cultivated Species of wheat
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Wheat_in_sack.jpg/220px-Wheat_in_sack.jpg
+Sack of whea Common wheat  or  Bread wheat  ( T. aestivum ) – A  hexaploid  species that
+is the most widely cultivated in the world.   Durum  ( T. durum ) – The only tetraploid form
+of wheat widely used today, and the second most widely cultivated wheat.   Einkorn  ( T.
+monococcum ) – A  diploid  species with wild and cultivated variants. Domesticated at
+the same time as emmer wheat, but never reached the same importance.   Emmer  ( T. dicoccum )
+– A  tetraploid  species, cultivated in  ancient times  but no longer in widespread
+use.   Spelt  ( T. spelta ) – Another hexaploid species cultivated in limited quantities.
+ 
+
+
+
+    Classes used in the United States are
+
+    - Durum  – Very hard, translucent, light-colored grain used to make  semolina
+     flour for  pasta .  
+
+    
+
+    - Hard Red Spring  – Hard, brownish, high- protein  wheat used for bread and hard
+    baked goods. Bread Flour and high-gluten flours are commonly made from hard red spring
+    wheat. It is primarily traded at the  Minneapolis Grain Exchange .  
+
+    
+
+    - Hard Red Winter  – Hard, brownish, mellow high-protein wheat used for bread, hard
+    baked goods and as an adjunct in other flours to increase protein in pastry flour for pie
+    crusts. Some brands of unbleached all-purpose flours are commonly made from hard red
+    winter wheat alone. It is primarily traded by the  Kansas City Board of Trade . One
+    variety is known as "turkey red wheat", and was brought to Kansas by  Mennonite
+     immigrants from Russia . [ 28 ]  
+
+    
+
+    - Soft Red Winter  – Soft, low-protein wheat used for cakes, pie crusts, biscuits, and
+    muffins. Cake flour, pastry flour, and some self-rising flours with  baking powder
+     and salt added, for example, are made from soft red winter wheat. It is primarily traded
+    by the  Chicago Board of Trade .  
+
+    
+
+    - Hard White  – Hard, light-colored, opaque, chalky, medium-protein wheat planted
+    in dry, temperate areas. Used for bread and brewing.  
+
+    
+
+    - Soft White  – Soft, light-colored, very low protein wheat grown in temperate moist
+    areas. Used for pie crusts and pastry. Pastry flour, for example, is sometimes made from
+    soft white winter wheat.
+
+    
+
+    - Red wheats may need bleaching; therefore, white wheats usually command higher prices
+    than red wheats on the commodities market.
+
+    
+
+
+
+As a Food
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Sa-cracked-wheat.jpg/220px-Sa-cracked-wheat.jpg
+Cracked wheat. Raw wheat can be ground into  flour  or - using hard durum wheat only, can be
+ground into  semolina ; germinated and dried creating  malt ; crushed or cut into cracked
+wheat; parboiled (or steamed), dried, crushed and de-branned into  bulgur  also known as
+groats . If the raw wheat is broken into parts at the mill, as is usually done, the outer husk or 
+bran  can be used several ways. Wheat is a major ingredient in such foods as bread, porridge,
+crackers, biscuits, Muesli , pancakes, pies, pastries, cakes, cookies, muffins, rolls,
+doughnuts, gravy,  boza  (a  fermented beverage ), and  breakfast cereals  (e.g., 
+Wheatena ,  Cream of Wheat ,  Shredded Wheat , and Wheaties ).  
+
+
+
+Nutrition
+
+
+
+Image:
+http://2.bp.blogspot.com/_GuLXAc2Kwcs/TLHc5O11KrI/AAAAAAAAAlQ/px9eh2PXJ50/s320/Untitled-2.gif
+100 grams of hard red winter wheat contain about 12.6 grams of  protein , 1.5 grams of total 
+fat , 71 grams of  carbohydrate  (by difference), 12.2 grams of dietary  fiber , and
+3.2 mg of  iron  (17% of the daily requirement); the same weight of hard red spring wheat
+contains about 15.4 grams of  protein , 1.9 grams of total  fat , 68 grams of  carbohydrate
+ (by difference), 12.2 grams of dietary  fiber , and 3.6 mg of iron (20% of the daily
+requirement). [ 29 ]
+
+Much of the carbohydrate fraction of wheat is  starch . Wheat starch is an important
+commercial product of wheat, but second in economic value to  wheat gluten . [30]  The
+principal parts of wheat flour are gluten and starch. These can be separated in a kind of home
+experiment, by mixing flour and water to form a small ball of dough, and kneading it gently
+while rinsing it in a bowl of water. The starch falls out of the dough and sinks to the bottom of
+the bowl, leaving behind a ball of gluten.
+
+Health Concern
+
+Roughly 1% of  Indian  populations [31] [32]  has  coeliac  (also written as celiac) 
+disease —a condition that is caused by an adverse  immune system  reaction to  gliadin ,
+a  gluten  protein found in wheat (and similar proteins of the  tribe   Triticeae  which
+includes other species such as barley  and  rye ). Upon exposure to gliadin, the enzyme 
+tissue transglutaminase  modifies the protein, and the immune system cross-reacts with
+the bowel tissue, causing an  inflammatory reaction . That leads to flattening of the lining
+of the  small intestine , which  interferes with the absorption  of nutrients. The only
+effective treatment is a lifelong  gluten-free diet .
+
+The estimate for people in the  United States  is between 0.5 and 1.0 percent of the
+population. [33] [34] [35]   While the disease is caused by a reaction to wheat proteins, it is
+not the same as  wheat allergy .
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_GuLXAc2Kwcs/TLLCz-xQHtI/AAAAAAAAAlk/K0of1zK2Y5g/s1600/Untitled-1.jpg
+
+Retrieved From :  Wikipedia  
+
+
+
+PAGE 1 OF 2 : NEXT PAGE
+
+var addthis_config = {"data_track_clickback":true};
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+No comments:
+
+    
+
+
+
+
+
+Post a Comment
+
+
+
+BLOG_CMT_createIframe('http://www.blogger.com/rpc_relay.html',
+'14726154636008420251'); Newer Post Older Post Home Subscribe to: Post Comments (Atom)
+window.___gcfg = {'lang': 'en'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})(); var infolink_pid = 171375; var infolink_wsid = 0;
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Amazon.com Widgets
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Popular Posts
+
+    
+
+    -
+
+    Image:
+    http://2.bp.blogspot.com/-MOCQHg84NCA/TprLq0mJyUI/AAAAAAAAEEA/1EQZNPC0cnI/s72-c/ice_cream.jpg
+    Ice Cream Ice Cream | Food | Ice Cream is a frozen dessert made of ice, usually made from
+    dairy products like milk and cream , often combined wit...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/-9YxfathsBdc/TtmNO3qrL9I/AAAAAAAAFUQ/hsTy7wX1kxE/s72-c/pasta.jpg
+    Pasta Pasta | Pasta is unleavened dough, made of wheat flour , water, and sometimes eggs ,
+    that is molded into any of a variety of shapes and b...
+
+    
+
+    -
+
+    Image:
+    http://4.bp.blogspot.com/-ZWo__j8bY50/TiSP7gI12iI/AAAAAAAACy0/5yBwUk2LMZE/s72-c/Western-pack-butter.jpg
+    Butter Food Science | Butter | Butter is one of the most highly concentrated forms of fluid
+    milk.Twenty litres of whole milk are needed to prod...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/-OZ9bjo1gdPM/Tob-hWpIB-I/AAAAAAAAD24/4d7iNYA0EN4/s72-c/sandwiches-sandwich-vegetal.jpg
+    Sandwich Sandwich | Food | Sandwich is a food , usually two or more slices of bread with one
+    or more fillings, or a slice of bread with a topping...
+
+    
+
+    -
+
+    Image:
+    http://4.bp.blogspot.com/-5q4yfb_ictw/Th5O-m1IhhI/AAAAAAAACss/MiE-Jo2EB8U/s72-c/Coconut.jpg
+    Coconut Agriculture | Coconut | The coconut palm ( Cocos nucifera ), is a member of the
+    family Arecaceae . It is the only accepted species in the ...
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blogroll
+
+    
+
+    - Baby Foam Play Mat
+
+    
+
+    - Cartier Watches
+
+    
+
+    - Best Super Automatic Espresso Machine
+
+    
+
+    - Cheap Led Aquarium Lighting Reviews
+
+    
+
+    - Discount Motorcycle Tires Free Shipping
+
+    
+
+    - Apple iPhone, iPad, iPod Touch
+
+    
+
+    - Tropical Marine and Freshwater Fish
+
+    
+
+    - Car Insurance - Cheap Auto Insurance Quotes
+
+    
+
+    - Investing for Dummies | Investing in Gold | Penny Stock Investing
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Enter your email address:
+
+
+
+Delivered by FeedBurner
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://www.blogtopsites.com/v_70051.gif
+
+Image: http://www.blogtoplist.com/tracker.php?u=154989
+
+Image: http://www.feedagg.com/images/feedaggtracker.php?FeedID=12472189
+
+Image: http://www.blogrankings.com/img_57006.gif
+
+Image: http://www.yousaytoo.com/images/yst/button_blue.gif tc_sidebar("vc74os4k",
+"en", "left-bottom");
+
+
+
+Image: http://img.blogsavenue.com/banner/2382.gif
+
+Image: http://i155.photobucket.com/albums/s282/theviejo/recurso_11_1.jpg
+
+
+
+Link Exchange With Agriculture
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png © 2012. Powered by
+Blogger .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+window.setTimeout(function() { document.body.className =
+document.body.className.replace('loading', ''); }, 10); if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV2";window['blogger_blog_id'] =
+'7649451689246500787';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d7649451689246500787','//agroindustriindonesia.blogspot.com/2010/10/about-wheat.html','7649451689246500787');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'7649451689246500787', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Food
+Industry News', 'pageType': 'item', 'url':
+'http://agroindustriindonesia.blogspot.com/2010/10/about-wheat.html',
+'canonicalUrl':
+'http://agroindustriindonesia.blogspot.com/2010/10/about-wheat.html',
+'canonicalHomepageUrl': 'http://agroindustriindonesia.blogspot.com/',
+'homepageUrl': 'http://agroindustriindonesia.blogspot.com/',
+'blogspotFaviconUrl': 'http://agroindustriindonesia.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'About Wheat (1)', 'pageTitle': 'Food Industry News: About Wheat (1)', 'metaDescription':
+'', 'encoding': 'UTF-8', 'locale': 'en', 'isPrivate': false, 'isMobile': false,
+'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false,
+'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42
+type\75\42application/atom+xml\42 title\75\42Food Industry News - Atom\42
+href\75\42http://agroindustriindonesia.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42Food Industry News - RSS\42
+href\75\42http://agroindustriindonesia.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Food Industry News - Atom\42
+href\75\42http://www.blogger.com/feeds/7649451689246500787/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0757649451689246500787\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42Food Industry News - Atom\42
+href\75\42http://agroindustriindonesia.blogspot.com/feeds/8762739966923645292/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'googleProfileUrl':
+'https://plus.google.com/110088637111847938059', 'postImageThumbnailUrl':
+'http://4.bp.blogspot.com/_GuLXAc2Kwcs/TLGuBBKmajI/AAAAAAAAAlM/JHMuwmBZpF0/s72-c/Untitled-1.gif',
+'imageSrcTag': '\74link rel\75\42image_src\42
+href\75\42http://4.bp.blogspot.com/_GuLXAc2Kwcs/TLGuBBKmajI/AAAAAAAAAlM/JHMuwmBZpF0/s72-c/Untitled-1.gif\42
+/\76\n', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if
+IE]\76\74script type\75\42text/javascript\42
+src\75\42//www.blogger.com/static/v1/jsbin/3651483553-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076',
+'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'content_padding': '10px', 'paging_background':
+'transparent none no-repeat scroll top center', 'image_border_small_size': '2px',
+'body_background_gradient_cap': 'none', 'tabs_selected_background_color':
+'#e8e8e8', 'body_rule_color': '#e8e8e8', 'header_shadow_spread': '1px',
+'header_shadow_offset_left': '-1px', 'header_padding': '30px',
+'link_visited_color': '#990000', 'mobile_background_size': 'auto',
+'post_title_font': 'normal normal 22px PT Sans Caption', 'tabs_text_color': '#898989',
+'date_header_margin': 'inherit', 'header_background_gradient': 'none',
+'content_shadow_spread_webkit': '5px', 'header_bottom_border_size': '1px',
+'header_shadow_offset_top': '-1px', 'mobile_button_color': '#ffffff',
+'widget_title_font': 'normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif',
+'main_section_margin': '15px', 'body_background': '#444040 none no-repeat scroll
+center center', 'keycolor': '#180f48', 'content_shadow_spread': '40px',
+'image_background_color': '#ffffff', 'header_font': 'normal normal 60px Arial, Tahoma,
+Helvetica, FreeSans, sans-serif', 'header_background_color': 'transparent',
+'main_border_width': '0', 'main_padding': '15px', 'tabs_border_color': '#e8e8e8',
+'image_text_color': '#000000', 'description_text_size': '140%',
+'post_footer_background_color': '#f3f3f3', 'body_background_gradient_tile':
+'none', 'page_width': 'auto', 'tabs_background_gradient':
+'url(//www.blogblog.com/1kt/simple/gradients_light.png)',
+'mobile_background_overlay': 'transparent none repeat scroll top left',
+'main_padding_bottom': '30px', 'tabs_background_color': '#efefef',
+'image_border_large_size': '5px', 'post_margin_bottom': '25px',
+'body_background_override': '', 'tabs_margin_side': '30px', 'link_hover_color':
+'#5814ff', 'description_text_color': '#595959', 'body_text_color': '#000000',
+'content_padding_horizontal': '10px', 'endSide': 'right', 'page_width_selector':
+'.region-inner', 'date_header_padding': 'inherit', 'post_footer_text_color':
+'#2c2c2c', 'startSide': 'left', 'date_header_color': '#000000', 'tabs_font': 'normal
+normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif',
+'post_footer_border_color': '#e8e8e8', 'body_font': 'normal normal 12px PT Sans
+Caption', 'footer_bevel': '0', 'tabs_bevel_border_width': '1px',
+'date_header_background_color': 'transparent', 'content_shadow_spread_ie': '10px',
+'widget_title_text_color': '#000000', 'header_border_horizontalsize': '0',
+'image_border_color': '#e8e8e8', 'tabs_border_width': '1px',
+'content_background_color': '#ffffff', 'link_color': '#990000',
+'header_text_color': '#32268c', 'date_header_letterspacing': 'inherit',
+'tabs_margin_top': '0', 'main_padding_top': '30px', 'header_border_size': '1px',
+'tabs_selected_text_color': '#000000', 'content_background_color_selector':
+'.content-inner', 'body_background_color': '#0c343d',
+'widget_alternate_text_color': '#898989'}, 'override': ''}}, {'name': 'view', 'data':
+{'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name':
+'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML5', 'crosscol', null, document.getElementById('HTML5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML6', 'sidebar-right-1', null, document.getElementById('HTML6'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML4', 'sidebar-right-1', null, document.getElementById('HTML4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PopularPostsView', new
+_WidgetInfo('PopularPosts1', 'sidebar-right-1', null,
+document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList1',
+'sidebar-right-1', null, document.getElementById('BlogList1'), {'numItemsToShow':
+0, 'totalItems': 9}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML9',
+'sidebar-right-1', null, document.getElementById('HTML9'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'footer-3',
+null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML8', 'footer-3',
+null, document.getElementById('HTML8'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'footer-3', null,
+document.getElementById('Attribution1'), {'attribution': '&#169; 2012. Powered by
+\74a href\75\47http://www.blogger.com\47
+target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML2', 'main', null, document.getElementById('HTML2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'),
+{'title': 'Pages', 'links': [{'href': 'http://agroindustriindonesia.blogspot.com/',
+'title': 'Home', 'isCurrentPage': false}, {'href':
+'http://agroindustriindonesia.blogspot.com/p/privacy-policy.html', 'title':
+'Privacy Policy', 'isCurrentPage': false}, {'href':
+'http://agroindustriindonesia.blogspot.com/p/terms-of-use.html', 'title': 'Terms
+of Use', 'isCurrentPage': false}, {'href':
+'http://agroindustriindonesia.blogspot.com/p/about.html', 'title': 'About',
+'isCurrentPage': false}, {'href':
+'http://agroindustriindonesia.blogspot.com/p/disclaimer.html', 'title':
+'Disclaimer', 'isCurrentPage': false}, {'href':
+'http://agroindustriindonesia.blogspot.com/p/contact-us.html', 'title': 'Contact
+Us', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+
+Home - About - Privacy Policy - Disclaimer - Contact Us || Baby Rocker Chair - Best Laptop
+Cooling Pad for Gaming
+

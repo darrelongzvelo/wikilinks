@@ -1,0 +1,2300 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Adelaide Screenwriter: April 2012 <!--
+/*----------------------------------------------- Blogger Template Style Name:
+Picture Window Designer: Josh Peterson URL: www.noaesthetic.com
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="keycolor" description="Main Color" type="color"
+default="#1a222a"/> <Variable name="body.background" description="Body Background"
+type="background" color="#dddddd" default="#111111
+url(//themes.googleusercontent.com/image?id=1OACCYOE0-eoTRTfsBuX1NMN9nz599ufI1Jh0CggPFA_sK80AGkIr8pLtYRpNUKPmwtEa)
+repeat-x fixed top center"/> <Group description="Page Text" selector="body"> <Variable
+name="body.font" description="Font" type="font" default="normal normal 15px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="body.text.color"
+description="Text Color" type="color" default="#333333"/> </Group> <Group
+description="Backgrounds" selector=".body-fauxcolumns-outer"> <Variable
+name="body.background.color" description="Outer Background" type="color"
+default="#296695"/> <Variable name="header.background.color" description="Header
+Background" type="color" default="transparent"/> <Variable
+name="post.background.color" description="Post Background" type="color"
+default="#ffffff"/> </Group> <Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color"
+default="#336699"/> <Variable name="link.visited.color" description="Visited Color"
+type="color" default="#6699cc"/> <Variable name="link.hover.color"
+description="Hover Color" type="color" default="#33aaff"/> </Group> <Group
+description="Blog Title" selector=".header h1"> <Variable name="header.font"
+description="Title Font" type="font" default="normal normal 36px Arial, Tahoma,
+Helvetica, FreeSans, sans-serif"/> <Variable name="header.text.color"
+description="Text Color" type="color" default="#ffffff" /> </Group> <Group
+description="Tabs Text" selector=".tabs-inner .widget li a"> <Variable
+name="tabs.font" description="Font" type="font" default="normal normal 15px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="tabs.text.color"
+description="Text Color" type="color" default="#ffffff"/> <Variable
+name="tabs.selected.text.color" description="Selected Color" type="color"
+default="#992211"/> </Group> <Group description="Tabs Background"
+selector=".tabs-outer .PageList"> <Variable name="tabs.background.color"
+description="Background Color" type="color" default="transparent"/> <Variable
+name="tabs.selected.background.color" description="Selected Color" type="color"
+default="transparent"/> <Variable name="tabs.separator.color"
+description="Separator Color" type="color" default="transparent"/> </Group> <Group
+description="Post Title" selector="h3.post-title, .comments h4"> <Variable
+name="post.title.font" description="Title Font" type="font" default="normal normal
+18px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/> </Group> <Group
+description="Date Header" selector=".date-header"> <Variable
+name="date.header.color" description="Text Color" type="color" default="#000000"/>
+</Group> <Group description="Post" selector=".post"> <Variable
+name="post.footer.text.color" description="Footer Text Color" type="color"
+default="#999999"/> <Variable name="post.border.color" description="Border Color"
+type="color" default="#dddddd"/> </Group> <Group description="Gadgets"
+selector="h2"> <Variable name="widget.title.font" description="Title Font"
+type="font" default="bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color"
+default="#888888"/> </Group> <Group description="Footer" selector=".footer-outer">
+<Variable name="footer.text.color" description="Text Color" type="color"
+default="#cccccc"/> <Variable name="footer.widget.title.text.color"
+description="Gadget Title Color" type="color" default="#aaaaaa"/> </Group> <Group
+description="Footer Links" selector=".footer-outer"> <Variable
+name="footer.link.color" description="Link Color" type="color" default="#99ccee"/>
+<Variable name="footer.link.visited.color" description="Visited Color" type="color"
+default="#77aaee"/> <Variable name="footer.link.hover.color" description="Hover
+Color" type="color" default="#33aaff"/> </Group> <Variable name="content.margin"
+description="Content Margin Top" type="length" default="20px"/> <Variable
+name="content.padding" description="Content Padding" type="length" default="0"/>
+<Variable name="content.background" description="Content Background"
+type="background" default="transparent none repeat scroll top left"/> <Variable
+name="content.border.radius" description="Content Border Radius" type="length"
+default="0"/> <Variable name="content.shadow.spread" description="Content Shadow
+Spread" type="length" default="0"/> <Variable name="header.padding"
+description="Header Padding" type="length" default="0"/> <Variable
+name="header.background.gradient" description="Header Gradient" type="url"
+default="none"/> <Variable name="header.border.radius" description="Header Border
+Radius" type="length" default="0"/> <Variable name="main.border.radius.top"
+description="Main Border Radius" type="length" default="20px"/> <Variable
+name="footer.border.radius.top" description="Footer Border Radius Top" type="length"
+default="0"/> <Variable name="footer.border.radius.bottom" description="Footer
+Border Radius Bottom" type="length" default="20px"/> <Variable
+name="region.shadow.spread" description="Main and Footer Shadow Spread" type="length"
+default="3px"/> <Variable name="region.shadow.offset" description="Main and Footer
+Shadow Offset" type="length" default="1px"/> <Variable
+name="tabs.background.gradient" description="Tab Background Gradient" type="url"
+default="none"/> <Variable name="tab.selected.background.gradient"
+description="Selected Tab Background" type="url"
+default="url(//www.blogblog.com/1kt/transparent/white80.png)"/> <Variable
+name="tab.background" description="Tab Background" type="background"
+default="transparent url(//www.blogblog.com/1kt/transparent/black50.png) repeat
+scroll top left"/> <Variable name="tab.border.radius" description="Tab Border Radius"
+type="length" default="10px" /> <Variable name="tab.first.border.radius"
+description="First Tab Border Radius" type="length" default="10px" /> <Variable
+name="tabs.border.radius" description="Tabs Border Radius" type="length" default="0"
+/> <Variable name="tabs.spacing" description="Tab Spacing" type="length"
+default=".25em"/> <Variable name="tabs.margin.bottom" description="Tab Margin
+Bottom" type="length" default="0"/> <Variable name="tabs.margin.sides"
+description="Tab Margin Sides" type="length" default="20px"/> <Variable
+name="main.background" description="Main Background" type="background"
+default="transparent url(//www.blogblog.com/1kt/transparent/white80.png) repeat
+scroll top left"/> <Variable name="main.padding.sides" description="Main Padding
+Sides" type="length" default="20px"/> <Variable name="footer.background"
+description="Footer Background" type="background" default="transparent
+url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left"/>
+<Variable name="post.margin.sides" description="Post Margin Sides" type="length"
+default="-20px"/> <Variable name="post.border.radius" description="Post Border
+Radius" type="length" default="5px"/> <Variable name="widget.title.text.transform"
+description="Widget Title Text Transform" type="string" default="uppercase"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay"
+type="string" default="transparent none repeat scroll top left"/> <Variable
+name="startSide" description="Side where text starts in blog language" type="automatic"
+default="left"/> <Variable name="endSide" description="Side where text ends in blog
+language" type="automatic" default="right"/> */ /* Content
+----------------------------------------------- */ body { font: normal normal 15px
+Arial, Tahoma, Helvetica, FreeSans, sans-serif; color: #000000; background: #dddddd
+url(http://themes.googleusercontent.com/image?id=1fupio4xM9eVxyr-k5QC5RiCJlYR35r9dXsp63RKsKt64v33poi2MvnjkX_1MULBY8BsT)
+repeat-x fixed bottom center; } html body .region-inner { min-width: 0; max-width: 100%;
+width: auto; } .content-outer { font-size: 90%; } a:link { text-decoration:none; color:
+#992211; } a:visited { text-decoration:none; color: #771100; } a:hover {
+text-decoration:underline; color: #cc4411; } .content-outer { background: transparent
+url(http://www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left;
+-moz-border-radius: 15px; -webkit-border-radius: 15px; -goog-ms-border-radius: 15px;
+border-radius: 15px; -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .15); -webkit-box-shadow: 0 0
+3px rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 0 3px rgba(0, 0, 0, .15); box-shadow: 0 0 3px
+rgba(0, 0, 0, .15); margin: 30px auto; } .content-inner { padding: 15px; } /* Header
+----------------------------------------------- */ .header-outer { background:
+#dddddd url(http://www.blogblog.com/1kt/transparent/header_gradient_shade.png)
+repeat-x scroll top left; _background-image: none; color: #000000; -moz-border-radius:
+10px; -webkit-border-radius: 10px; -goog-ms-border-radius: 10px; border-radius: 10px;
+} .Header img, .Header #header-inner { -moz-border-radius: 10px; -webkit-border-radius:
+10px; -goog-ms-border-radius: 10px; border-radius: 10px; } .header-inner .Header
+.titlewrapper, .header-inner .Header .descriptionwrapper { padding-left: 30px;
+padding-right: 30px; } .Header h1 { font: normal normal 80px 'Times New Roman', Times,
+FreeSerif, serif; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); } .Header h1 a { color: #000000;
+} .Header .description { font-size: 130%; } /* Tabs
+----------------------------------------------- */ .tabs-inner { margin: .5em 0 0;
+padding: 0; } .tabs-inner .section { margin: 0; } .tabs-inner .widget ul { padding: 0;
+background: #f5f5f5
+url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png) repeat
+scroll bottom; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+-goog-ms-border-radius: 10px; border-radius: 10px; } .tabs-inner .widget li { border:
+none; } .tabs-inner .widget li a { display: inline-block; padding: .5em 1em; margin-right:
+0; color: #992211; font: normal normal 15px Arial, Tahoma, Helvetica, FreeSans,
+sans-serif; -moz-border-radius: 0 0 0 0; -webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0; -goog-ms-border-radius: 0 0 0 0; border-radius: 0 0 0
+0; background: transparent none no-repeat scroll top left; border-right: 1px solid
+#cccccc; } .tabs-inner .widget li:first-child a { padding-left: 1.25em;
+-moz-border-radius-topleft: 10px; -moz-border-radius-bottomleft: 10px;
+-webkit-border-top-left-radius: 10px; -webkit-border-bottom-left-radius: 10px;
+-goog-ms-border-top-left-radius: 10px; -goog-ms-border-bottom-left-radius: 10px;
+border-top-left-radius: 10px; border-bottom-left-radius: 10px; } .tabs-inner .widget
+li.selected a, .tabs-inner .widget li a:hover { position: relative; z-index: 1;
+background: #ffffff
+url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png) repeat
+scroll bottom; color: #000000; -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+box-shadow: 0 0 0 rgba(0, 0, 0, .15); } /* Headings
+----------------------------------------------- */ h2 { font: bold normal 13px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif; text-transform: uppercase; color: #666666;
+margin: .5em 0; } /* Main ----------------------------------------------- */
+.main-outer { background: transparent none repeat scroll top center; -moz-border-radius:
+0 0 0 0; -webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 0;
+-webkit-border-bottom-left-radius: 0; -webkit-border-bottom-right-radius: 0;
+-goog-ms-border-radius: 0 0 0 0; border-radius: 0 0 0 0; -moz-box-shadow: 0 0 0 rgba(0, 0, 0,
+.15); -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0,
+.15); box-shadow: 0 0 0 rgba(0, 0, 0, .15); } .main-inner { padding: 15px 5px 20px; }
+.main-inner .column-center-inner { padding: 0 0; } .main-inner .column-left-inner {
+padding-left: 0; } .main-inner .column-right-inner { padding-right: 0; } /* Posts
+----------------------------------------------- */ h3.post-title { margin: 0; font:
+normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif; } .comments h4 { margin:
+1em 0 0; font: normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif; }
+.date-header span { color: #333333; } .post-outer { background-color: transparent;
+border: solid 1px #dddddd; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+border-radius: 10px; -goog-ms-border-radius: 10px; padding: 15px 20px; margin: 0 -20px
+20px; } .post-body { line-height: 1.4; font-size: 110%; position: relative; } .post-header
+{ margin: 0 0 1.5em; color: #999999; line-height: 1.6; } .post-footer { margin: .5em 0 0;
+color: #999999; line-height: 1.6; } #blog-pager { font-size: 140% } #comments
+.comment-author { padding-top: 1.5em; border-top: dashed 1px #ccc; border-top: dashed 1px
+rgba(128, 128, 128, .5); background-position: 0 1.5em; } #comments
+.comment-author:first-child { padding-top: 0; border-top: none; }
+.avatar-image-container { margin: .2em 0 0; } /* Comments
+----------------------------------------------- */ .comments .comments-content
+.icon.blog-author { background-repeat: no-repeat; background-image:
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+} .comments .comments-content .loadmore a { border-top: 1px solid #cc4411; border-bottom:
+1px solid #cc4411; } .comments .continue { border-top: 2px solid #cc4411; } /* Widgets
+----------------------------------------------- */ .widget ul, .widget #ArchiveList
+ul.flat { padding: 0; list-style: none; } .widget ul li, .widget #ArchiveList ul.flat li {
+border-top: dashed 1px #ccc; border-top: dashed 1px rgba(128, 128, 128, .5); } .widget ul
+li:first-child, .widget #ArchiveList ul.flat li:first-child { border-top: none; }
+.widget .post-body ul { list-style: disc; } .widget .post-body ul li { border: none; } /*
+Footer ----------------------------------------------- */ .footer-outer {
+color:#eeeeee; background: transparent
+url(http://www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left;
+-moz-border-radius: 10px 10px 10px 10px; -webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px; -webkit-border-bottom-left-radius: 10px;
+-webkit-border-bottom-right-radius: 10px; -goog-ms-border-radius: 10px 10px 10px
+10px; border-radius: 10px 10px 10px 10px; -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+box-shadow: 0 0 0 rgba(0, 0, 0, .15); } .footer-inner { padding: 10px 5px 20px; } .footer-outer
+a { color: #ffffdd; } .footer-outer a:visited { color: #cccc99; } .footer-outer a:hover {
+color: #ffffff; } .footer-outer .widget h2 { color: #bbbbbb; } /* Mobile
+----------------------------------------------- */ html body.mobile { height: auto; }
+html body.mobile { min-height: 480px; background-size: 100% auto; } .mobile
+.body-fauxcolumn-outer { background: transparent none repeat scroll top left; } html
+.mobile .mobile-date-outer, html .mobile .blog-pager { border-bottom: none; background:
+transparent none repeat scroll top center; margin-bottom: 10px; } .mobile .date-outer {
+background: transparent none repeat scroll top center; } .mobile .header-outer, .mobile
+.main-outer, .mobile .post-outer, .mobile .footer-outer { -moz-border-radius: 0;
+-webkit-border-radius: 0; -goog-ms-border-radius: 0; border-radius: 0; } .mobile
+.content-outer, .mobile .main-outer, .mobile .post-outer { background: inherit; border:
+none; } .mobile .content-outer { font-size: 100%; } .mobile-link-button {
+background-color: #992211; } .mobile-link-button a:link, .mobile-link-button
+a:visited { color: transparent; } .mobile-index-contents { color: #000000; } .mobile
+.tabs-inner .PageList .widget-content { background: #ffffff
+url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png) repeat
+scroll bottom; color: #000000; } .mobile .tabs-inner .PageList .widget-content
+.pagelist-arrow { border-left: 1px solid #cccccc; } #header-inner { text-align: center; }
+--> <!-- body { min-width: 960px; } .content-outer, .content-fauxcolumn-outer,
+.region-inner { min-width: 960px; max-width: 960px; _width: 960px; } .main-inner .columns
+{ padding-left: 0px; padding-right: 310px; } .main-inner .fauxcolumn-center-outer {
+left: 0px; right: 310px; /* IE6 does not respect left and right together */ _width:
+expression(this.parentNode.offsetWidth - parseInt("0px") - parseInt("310px") + 'px');
+} .main-inner .fauxcolumn-left-outer { width: 0px; } .main-inner
+.fauxcolumn-right-outer { width: 310px; } .main-inner .column-left-outer { width: 0px;
+right: 100%; margin-left: -0px; } .main-inner .column-right-outer { width: 310px;
+margin-right: -310px; } #layout { min-width: 0; } #layout .content-outer { min-width: 0;
+width: 800px; } #layout .region-inner { min-width: 0; width: auto; } --> var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-32833936-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})(); var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0756301188674065064283\46blogName\75Adelaide+Screenwriter\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://adelaidescreenwriter.blogspot.com/search\46blogLocale\75en_GB\46v\0752\46homepageUrl\75http://adelaidescreenwriter.blogspot.com/\46vt\75-99456403563773972',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+
+
+Image:
+http://2.bp.blogspot.com/-ND1e8jNx8TU/UGqqfyoKoKI/AAAAAAAAJRY/2XDPiMISUlU/s1600/10-03.JPG
+
+Adelaide Screenwriter : Screenwriting, Movies, Tuckshop & Charm School .
+
+
+
+Monday, 30 April 2012
+
+
+
+"Appleseed Elementary"
+
+
+
+Image:
+http://2.bp.blogspot.com/-u5j8ku3WfGU/T26sLB27PDI/AAAAAAAACT4/fw27k1W5AnE/s1600/Appleseed-02.jpg
+Here's a webseries that will take you back. Appleseed Elementary . In the wide brown land, that
+would be a Primary s chool , but this is an American series. 
+
+As you've already guessed, there's the eager new teacher, an assortment of burnouts and
+no-hopers, and a troubled Principal. But there are no psycho nuns with rulers to whack you on
+your bare legs until you cry, so it looks pretty good to me.
+
+Appleseed Elementary is w ritten by Kirsten Clark and Jerrod Clark, and directed by Adam
+Siegel . Beyond that, all I can say is, they're not much into explaining their work.
+
+Anyway, here's Episode 1.
+
+    YouTube     Posted by Henry Sheppard at 06:00 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: Adam Siegel , Appleseed Elementary , Jerrod Clark ,
+Kirsten Clark , webseries
+
+Sunday, 29 April 2012
+
+
+
+John Burnham Schwartz and Dustin Hoffman
+
+
+
+Image:
+http://4.bp.blogspot.com/-Gg9dVA63-n0/T5v2xVBMTxI/AAAAAAAAC6Y/9Vs-15PDBUA/s1600/Dustin+Hoffman.jpg
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=adelaidscreen-20&l=as2&o=1&a=1400068452 John
+Burnham Schwarz is a successful writer, the author of five novels. One of his books,
+Reservation Road , was made into a movie. 
+
+
+
+When John was a teenager, his father — an entertainment lawyer — represented Dustin
+Hoffman . At the time Hoffman was a regular guest at their house.
+
+
+
+Image:
+http://2.bp.blogspot.com/-cFoeqrUK6kM/T5tAWDoalTI/AAAAAAAAC54/mRs2n-YyqN8/s1600/Dustin-Hoffman-with-John.jpg
+John Burnham Schwartz front left, Dustin Hoffman far right. A couple of days after watching
+the movie Me and Orson Welles
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=adelaidscreen-20&l=as2&o=1&a=1419897543 , I
+came across a piece Schwarz wrote for The Guardian , called Dustin Hoffman and me . It includes
+the following anecdote.
+
+It was August 1979, a rainy night in an old beach house on the Atlantic coast. I was 14 years
+old. John Steinbeck's Of Mice and Men was on my summer reading list for school and, after
+dinner, as my family drifted back into the living room to sit by the fire, one of our house guests
+– a famous, energetic and physically unprepossessing actor with a prominent nose and flat,
+nasal voice – picked up my copy of the book, opened it at the first page and began performing it
+aloud, inhabiting the disparate minds and voices of the protagonists George and Lennie with
+uncanny precision. At first, self-conscious smiles appeared in our makeshift audience,
+though we quickly realised that this extraordinary display was no laughing matter. We were
+meant to watch and listen, which we did – for hours, as the rain beat down on the roof, the
+branches of the pine trees scraped and tapped against the windows, and the fire burned to
+embers. And when the hulking man-child Lennie (twice our guest's size, one had to assume)
+ended up crushing another man with his bare hands, and the rage drained from his powerful
+limbs, his terrible confusion – he had wanted to protect, not to hurt – made him, in the
+actor's sublime incarnation, what he truly was, both wolf and lamb.
+
+I stayed for the duration, hardly moving in my seat. A trip to the bathroom was out of the
+question; the bathroom from which, earlier in the day, behind the locked door with the whaling
+ship painted on it, I had overheard my mother quietly sobbing (three months later, she asked my
+father to move out of the house, which he did). When the performance was finally over, and with a
+curtain-call bow of triumph, the actor handed me back my book, his sweaty fingerprints still
+on the cover, tragedy for me was no longer just a notion in a story, but a ghost in our house.
+
+For a couple of years at the end of the 1970s, Dustin Hoffman was a fixture in our family. My
+father was his lawyer and friend. Dustin was a movie star at the peak of his fame, the most
+intelligent and brilliant actor any of us had ever met, and he was with us a lot, making us laugh,
+entertaining us, opening doors to worlds brighter than our own, observing our ways and moods
+and accidents, our spilled drinks and sullen glances and careless goodnight kisses, never
+missing a beat. And we enjoyed it mostly, and depended on it, until in every respect that
+particular show came to the end of its run. Great actors are different to the rest of us. If
+you're interested in acting, and in the way one will ruthlessly exploit the pain of others in a
+quest for acting greatness, it is worth reading the article in full .
+
+
+
+Posted by Henry Sheppard at 06:00 2 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: actors , Dustin Hoffman , John Burnham Schwartz
+
+'Star Wars' dialogue and the vernacular
+
+ How many of these lines do you NOT recognise?
+
+
+
+Image:
+http://2.bp.blogspot.com/-FMxffMcjXmM/T508o_EDP8I/AAAAAAAAC70/PKax9xQ_4sA/s1600/%7EObi-Wan.jpg
+ Origin unknown.
+
+Posted by Henry Sheppard at 05:00 3 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: posters , Star Wars
+
+Saturday, 28 April 2012
+
+
+
+Book review: "On Directing Film"
+
+
+
+Image:
+http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0140127224&MarketPlace=US&ID=AsinImage&WS=1&tag=adelaidscreen-20&ServiceVersion=20070822
+The book, On Directing Film
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=adelaidscreen-20&l=as2&o=1&a=0140127224 by
+David Mamet , was recommended to me by Brian McDonald . He said: 
+
+It is ostensibly about directing, but it’s really about telling stories with pictures.
+This is a thing that most screenwriters have almost no idea how to do. Most screenwriters write
+radio plays, not screenplays. This is a visual medium. Learn to use the pictures. It's a small
+book, just over 100 pages in paperback. The focus is on the weakness of most wannabe
+screenwriters —how to tell stories with pictures.
+
+
+
+Here are a few quotes from the book:
+
+A good writer gets better only by learning to cut , to remove the ornamental, the descriptive,
+the narrative, and especially the deeply felt and meaningful. What remains? The story
+remains. What is the story? The story is the essential progression of incidents that occur to
+the hero in pursuit of his one goal.
+
+
+
+The point, as Aristotle told us, is what happens to the hero ... not what happens to the writer.
+
+Image:
+http://3.bp.blogspot.com/-4YoAJQIAJew/T5OYYaK_yEI/AAAAAAAACwo/gGMrKVFhcMc/s1600/Mamet+-+1A.jpg
+House of Games (1987) Screenwriting is a craft based on logic, It consists of the assiduous
+application of several very basic questions: What does the hero want? What hinders him from
+getting it? What happens if he does not get it?  We don't have to worry about creating a
+problem. We make a better movie if we worry about restoring order. Because if we worry about
+creating problems, our protagonist is going to do things that are interesting. We don't want
+him to do that. We want him to do things that are logical.
+
+Image:
+http://1.bp.blogspot.com/-F2-MVIqRCnM/T5N9YEmkU0I/AAAAAAAACwY/_a_OsgyE2oU/s1600/Mamet+-+1.jpg
+Glengarry Glen Ross (1992) If you listen to the way people tell stories, you will hear that they
+tell them cinematically. They jump from one thing to the next, and the story is moved along by
+the juxtaposition of images—which is to say, by the cut .
+
+   People say, "I'm standing on the corner. It's a foggy day. A bunch of people are running
+around crazy. Might have been the full moon. All of a sudden, a car comes up and the guy next to me
+says..."
+
+   If you think about it, that's a shot list: (1) a guy standing on the corner; (2) shot of fog;
+(3) a full moon shining above; (4) a man says, "I think people get whacky this time of year"; (5) a
+car approaching.
+
+   This is good filmmaking, to juxtapose images. Now you're following the story. What, you
+wonder, is going to happen next.
+
+Image:
+http://2.bp.blogspot.com/-weqUHl7_Is0/T5N_G0dL1KI/AAAAAAAACwg/_QLrvtD009o/s1600/Mamet+-+2.jpg
+State and Main (2000) The work of the director is the work of constructing the shot list from the
+script. The work on the set is nothing. All you have to do on the set is stay awake, follow your
+plans, help the actors be simple, and keep your sense of humor. The film is directed in the
+making of the shot list. The work on the set is simply to record what has been chosen to be
+recorded. It is the plan that makes the movie.
+
+
+
+We can identify with the pursuit of a goal. It's much easier to identify with that than with
+"character traits."
+
+Image:
+http://2.bp.blogspot.com/-eX-ArBXorXg/T5Ofyl13ZEI/AAAAAAAACw4/sc4JboGWww8/s1600/Mamet+-+3.jpg
+Wag the Dog (1997) Always do things the least interesting way, and you will make a better movie.
+This is my experience. Always do things the least interesting way, the most blunt way. Because
+then you will not stand the risk of falling afoul of the objective in the scene by being
+interesting, which will always bore the audience, who are collectively much smarter than you
+and me and have already gotten up to the punch line. How do we keep their attention? Certainly
+not by giving them more information but, on the contrary, by withholding information — by
+withholding all information except that information the absence of which would make the
+progress of the story incomprehensible.
+
+Image:
+http://3.bp.blogspot.com/-iyO7fHqh23g/T5OeUfRRBMI/AAAAAAAACww/sihtK1EhLpk/s1600/Mamet+-+4.jpg
+Heist (2001)
+
+You tell the story. Don't let the protagonist tell the story. You tell the story; you direct it.
+We don't have to follow the protagonist around. We don't have to establish his "character." We
+don't need to have anybody's "back story." If you are telling a story, then the human mind, as
+it's working along with you, is perceiving your thrust, both consciously and, more
+importantly, subconsciously. The audience members are going to go along with that story and
+will require neither inducement, in the form of visual extravagance, nor explanation, in the
+form of narration.
+
+   They want to see what's happening next . Is the guy going to get killed? Is the girl going to
+kiss him? Will they find the money buried in the old gold mine?
+
+   When the film is correctly designed, the subconscious and conscious are in alignment,
+and we need to hear what happens next. The audience is ordering the events just as the author
+did, so we are in touch with both his conscious and his unconscious mind. We have become
+involved in the story. On Directing Film
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=adelaidscreen-20&l=as2&o=1&a=0140127224 is
+practical , provocative, c heap to buy, easy to read. Don't miss it.
+
+Posted by Henry Sheppard at 06:00 1 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: book , David Mamet , On Directing Film
+
+Friday, 27 April 2012
+
+
+
+An interview with Billy Marshall Stoneking
+
+
+
+Image:
+http://1.bp.blogspot.com/-zhzy4-7Ds0Y/T4pNmUW-I_I/AAAAAAAACo8/iCDkt17DZKU/s1600/Billy+Marshall+Stoneking-9.jpg
+Billy Marshall Stoneking is an Australian screenwriter, poet and teacher who, though now
+based in Sydney, was born in the USA. He migrated to Australia in 1972, where he wrote the TV
+series Stringer and an episode of the show Mission: Impossible . 
+
+   Billy will be teaching a one-day seminar in Adelaide on May 20, followed by a four-day
+seminar. I met him online and took the opportunity of asking some questions.
+________________________________________________________________________
+
+*  You didn’t go to film school, though you taught at the Australian Film Television and
+Radio School (AFTRS) for a number of years. How would you respond to David Mamet ’s suspicion
+that film schools are “ useless ”? I did attend the film school — AFTRS — 1983 graduate,
+and I agree with David Mamet. Most film schools I know of, and I have been associated with a few of
+the ones in Sydney, are run by people who don’t really understand story or drama and have,
+overall, very little talent in the art of teaching. Schools tend to place more importance on
+buildings and equipment and technique than they do on discovery, risk and inspiration. 
+   I am reminded of Whitehead ’s comment: “The secondhandness of the learned world is
+the secret of its mediocrity."     Film schools simply don’t give their students enough
+opportunities to enter the drama. Drama is a language for presenting emotional energy and if
+you’re to become fluent in the language you have to use it, all the time. If a scene is the
+equivalent of a sentence and the language is drama, how can you possibly learn it making only
+ten or fifteen or thirty scenes a year. If you compared that to learning Spanish you’d have a
+very hard time getting yourself around Mexico City — let alone a compelling screenplay.
+Film schools, at best, teach little more than “tourist drama”.
+
+*  What are three things you wish someone had told you about screenwriting when you were
+starting out ? It’s what I wish they hadn’t told me, but I’ll take a stab at it: 1) "No"
+always means "maybe";  2) Knowledge has nothing to do with it; and  3) Never go to bed with
+anyone that has more problems than you do.
+
+
+
+Image:
+http://4.bp.blogspot.com/-h7Y5Zcq5EA4/T4rA43NpDQI/AAAAAAAACpQ/EmCT6MZTbw4/s1600/Billy+Marshall+Stoneking-12.jpg
+*  You famously wrote an episode of the TV series Mission: Impossible . How did that come about
+? Impeccable connections — plus the producer wanted to option my best-selling book,
+Lasseter: In Quest of Gold .
+
+*  That episode of Mission: Impossible was directed by Brian Trenchard-Smith , one of the
+most influential of all Australian directors. Did you work closely with him, and if so, what
+did you learn from the experience ? I know Brian from the old days, but I didn’t confer with him
+about his job. The script was fairly self-explanatory — as most of them were.
+
+
+
+Image:
+http://1.bp.blogspot.com/-dWOQqSm1a94/T4tvzdNcWtI/AAAAAAAACpk/jC0B2hyL5i4/s1600/Tutama+Tjapangarti.jpg
+Tutama Tjapangarti *  Who was the person who has had the biggest influence on you as a
+screenwriter ?   Tutama Tjapangarti would be up there with the best of them, though he never
+wrote a screenplay, or anything else for that matter — but wow — what a storyteller!    
+Others would have to include John Cassavetes , Ingmar Bergman , James Agee , and Woody Allen .
+
+*  You are a script consultant with Script Central , which has been in business since 2003. 
+Can you give us one example of a script which passed through that agency and eventually become a
+decent Australian movie ?   Not offhand.
+
+
+
+Image:
+http://3.bp.blogspot.com/-Nfc3ivm0wcE/T4t1uZI1b6I/AAAAAAAACqE/4PRq-6dPHn4/s1600/Maya+Newell.jpg
+Maya Newell *  Who would you consider the most interesting filmmaker currently working in
+Australia, and why ?   Maya Newell — she’s fresh, she’s smart, and she’s a very close
+friend.
+
+*  How would you respond to the proposition that, these days, it is easier to make money
+teaching screenwriting than it is practicing screenwriting ?   Anyone who thinks teaching
+is easy has taken leave of their senses.
+
+*  What has been the most memorable moment in your career to date ?   Every moment. I don’t
+think of it as a career.
+
+
+
+Image:
+http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0553272950&MarketPlace=US&ID=AsinImage&WS=1&tag=adelaidscreen-20&ServiceVersion=20070822
+*  What one book would you recommend to a young wannabe screenwriter in Adelaide ?  Audition
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=adelaidscreen-20&l=as2&o=1&a=0553272950 by
+Michael Shurleff —don’t touch any of the others.
+
+*  What are your ten favourite movies of all time ? 
+
+[ Billy provided a list of almost 200 movies. I really did want just ten, so have selected a
+representative sample from the longer list; which will probably offend him, but I'm sure
+we'll get over that. Life's too short, etc. You can see his full and evolving list here . ]
+Indecent Xposure (2011)
+
+City Lights (1931)
+
+Lagaan (2001)
+
+The Castle (1997)
+
+The Killing of a Chinese Bookie (1976) Working Girl (1988)
+
+The Conversation (1974)
+
+LÃ©on: The Professional (1994) Network (1976)
+
+Seven Samurai (1954) *  You’re teaching a one-day seminar in Adelaide on 20 May 2012 called
+‘Secrets, Lies and Filmmaking,’ followed by a four-day seminar called ‘The Drama of
+Screenwriting.’ What would you say to a young wannabe screenwriter to convince them to take
+time off work, and part with a handful of cash, in order to attend either of these events ?   They
+wont be taking time off work, they’ll be taking time off their job — there’s a
+difference. What they’ll do in the four-day workshop is work creatively in ways that they
+have never before experienced. It’s very much a learner-centred workshop — no sage on the
+stage — and its very collaborative.     What participant/writers go away with is an
+entirely new and useable way of looking at themselves and their characters and the stories
+they want to tell. Ditto for the one-day, but because it is only one day it is even more intense!
+
+______________________________________________________________________
+
+Posted by Henry Sheppard at 06:00 2 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: Adelaide , Billy Marshall Stoneking , interview
+
+Thursday, 26 April 2012
+
+
+
+"Thijs and the ladies"
+
+
+
+Image:
+http://4.bp.blogspot.com/-4r8_zNK7r94/T26i_ixcEPI/AAAAAAAACTY/-zCKO29apbY/s1600/Thijs.jpg
+How many actors do you need to make a short film? How about one actor, armed with a mirror?
+
+
+
+Here's the first episode of a Dutch web series that featured at the 2011 Marseille Web Fest . The
+story line focuses on a hapless individual who is on the hunt for a girlfriend. 
+
+
+
+The film has English subtitles, but you could probably follow it without their help. 
+
+
+
+
+
+Posted by Henry Sheppard at 06:00 1 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: Marseille Web Fest , webseries
+
+Wednesday, 25 April 2012
+
+
+
+Overcoming your fears
+
+
+
+Image:
+http://2.bp.blogspot.com/-XEcpLNpJCL8/T2K1ZKpKp6I/AAAAAAAACKM/WTdR_r2VhXc/s1600/Exposure.jpg
+Public ridicule. Pigeons. Heights. Asking a girl out. Pigeons. They're all common fears
+people suffer from. Especially pigeons .
+
+If you ever wondered how to overcome your fears, meet a bloke who managed to defeat most of his.
+
+Written and directed by Ross Johnston , somewhere in Belfast . Shot and edited by Neal Megaw .
+Naturally they didn't mention the names of the actors in this short film; they were
+concentrating on the pigeons.
+
+    Vimio    YouTube     Posted by Henry Sheppard at 06:00 1 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: overcoming fear , short film
+
+Tuesday, 24 April 2012
+
+
+
+"I Hate Being Single"
+
+
+
+Image:
+http://4.bp.blogspot.com/-qZyrxIPs1Rk/T2q8EEuSHLI/AAAAAAAACQg/ELIKRHDgh6g/s200/Rob+Michael+Hugel.jpg
+I Hate Being Single was created, written by, and stars Rob Michael Hugel . It is a webseries that
+puts an unconventional comedic spin on a story we've all heard many times before.  Rob, a
+recently dumped self-admitted hipster, blunders through single life trying to figure out
+where he belongs in a manner that is charmingly clueless and entertaining. Described as a mix
+between Curb Your Enthusiasm , Portlandia , Louie , Flight of the Conchords , I Hate Being
+Single takes a look at the Williamsburg Brooklyn scene from the inside out, as an response to
+the wave of other Brooklyn-based shows, 2 Broke Girls , I Just Want My Pants Back , How To Make it
+in America , The New Girl . Here is Episode One.
+
+    Blip.TV     Facebook    Kickstarter    Tumblr    Twitter    YouTube    
+Posted by Henry Sheppard at 06:00 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: I Hate Being Single , Rob Michael Hugel , webseries
+
+Monday, 23 April 2012
+
+
+
+Ira Glass on the Building Blocks of Story
+
+
+
+Image:
+http://1.bp.blogspot.com/-GLmsmXkSQoA/T2XcMvjETUI/AAAAAAAACOI/CxzD43GB1e4/s1600/Ira+Glass.jpg
+Some of you are already asking, Who is Ira Glass ? 
+
+
+
+He's a first cousin to composer Philip Glass . Fans of The Wire will appreciate that he was born
+in Baltimore and attended Milford Mill High School in Baltimore County. Today he is the voice
+of This American Life (TAL), a weekly hour-long radio program that he has served as producer
+and host since 1995. For more info on TAL, click here .
+
+
+
+Put simply, the guy tells stories. He's been doing it a long time and has hundreds of thousands
+of listeners who come back for more every week, which suggests he has some skills.
+
+
+
+Here is part one of a four-part video in which he talks about The Building Blocks of Story .
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/-FM63dyil5y8/T2XXkklCcoI/AAAAAAAACOA/t7D1LpY9Qqg/s1600/TAL.png
+There are two basic building blocks to stories: 1. The anecdote. A sequence of actions; a story
+in its purest form; with a bit of bait. ( Raise questions from the﻿ beginning. If you raise a
+question, it's implied that you're going to provide an answer along the way. That keeps people
+interested .)
+
+
+
+2. The moment of reflection. What it all means. ( You need to provide both for it all to come
+together and be larger than the sum of its parts .) The picture on this video is a bit fuzzy, but
+the sound is clear.
+
+
+
+    Part 2     Part 3     Part 4    
+
+
+
+Posted by Henry Sheppard at 06:00 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: Ira Glass , Toy Story
+
+Saturday, 21 April 2012
+
+
+
+Book review: "Rebel Without a Crew"
+
+
+
+Image:
+http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0452271878&MarketPlace=US&ID=AsinImage&WS=1&tag=adelaidscreen-20&ServiceVersion=20070822
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=adelaidscreen-20&l=as2&o=1&a=0452271878 The
+best part of my recent holiday at Victor Harbor was the fact that I finally got to read Robert
+Rodriguez 's book, Rebel Without a Crew . It's been around since 1995 and can be found on most
+recommended reading lists for filmmakers. 
+
+
+
+These days, Rodriguez is best known for the four Spy Kids
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=adelaidscreen-20&l=as2&o=1&a=B005067GMO
+films, his relationship with Rose McGowan , the fact he still lives in Austin Texas , and his
+filmmaking association with Quentin Tarantino . 
+
+
+
+Image:
+http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=B0000A2ZTY&MarketPlace=US&ID=AsinImage&WS=1&tag=adelaidscreen-20&ServiceVersion=20070822
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=adelaidscreen-20&l=as2&o=1&a=B0000A2ZTY Rebel
+Without a Crew is based on a journal Rodriguez kept from 1991 to 1993, the period during which he
+planned, made, sold, and publicised his first feature film, El Mariachi
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=adelaidscreen-20&l=as2&o=1&a=B0000A2ZTY
+(1993). 
+
+Although the book deals with his adventures as a filmmaker, it has a bit to say to writers.   I
+was never big on writing scripts. I have read many times that the best way to learn to write
+scripts is to actually sit down and write two full scripts and after you're done you should
+throw them away. You'll learn a lot by doing those first two but they'll be awful, so after you
+write them you should throw them away and start writing your real script. The idea didn't
+appeal to Rodriguez. He had made about thirty short films at that point, starting from when he
+was twelve. He was now twenty-three. He needed motivation to write a script and the idea of
+tossing his work away afterward didn't fill him with enthusiasm.
+
+
+
+Image:
+http://4.bp.blogspot.com/-0FkZpWpr3Dk/T4eTFnpV4UI/AAAAAAAACmY/FZRzuewqgmI/s1600/Robert+Rodriguez.jpg
+It suddenly hit me: Instead of writing two scripts and throwing them away afterwards, why not
+just take the scripts and make them for really low budgets? That way while you're practicing
+your writing skills you can also practice your filmmaking skills. That's what I decided to do
+with El Mariachi . I would write two scripts, both about the same character, but I would film
+them on a low, low budget all by myself. Then I would sell them to the Spanish video market where
+no one in the movie business would see them if they were no good, so it was almost like throwing
+them away, only I would get paid for them.
+
+
+
+Image:
+http://3.bp.blogspot.com/-89gAEwyGqJc/T4e-5YSJzPI/AAAAAAAACmg/2qFi3FLplCk/s1600/El+Mariachi-1.jpg
+He was inventing a film school with just one pupil, himself. His teachers would be his own
+experiences, mistakes, problems and solutions, and the burgeoning Spanish-language video
+market would return him his investment. 
+
+I went on to write the first Mariachi in three weeks. It's amazing how quickly ideas come to you
+for a script when you're going to be actually making the movie in a few months, not just writing
+for writing's sake.
+
+
+
+Image:
+http://3.bp.blogspot.com/-y3F-Y95MgYU/T4fAehVqJAI/AAAAAAAACmw/7PJiQeJLRSo/s1600/El+Mariachi-2.jpg
+
+Where this story gets interesting is with his fund-raising methods. Robert Rodriguez has
+been a human lab rat four times. Which is to say, he voluntarily submitted to being locked up in a
+pharmaceutical drug testing facility and experimented on, in return for hard cash. When it
+came time for me to make El Mariachi , I needed someplace quiet to write and earn money at the same
+time. Naturally the research hospital fit the bill. I knew that if I checked in for a monthlong
+drug study I could clear about $3,000, with room and board paid for, and have plenty of time to
+kick back and write my script. ...  In my mind I simply imagined that I was getting paid to write
+a script. The reality wasn't that simple, but I'll leave it for you to read for yourself. The
+next stage, the story of how he filmed a feature film, with minimal assistance, makes the book
+worth reading on its own, but I will skip over that as well. 
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/-1247MUfL8cE/T4fAmLgdpxI/AAAAAAAACm4/rkEfXWR144s/s1600/El+Mariachi-4.jpg
+
+Once the film was finished, Rodriguez went to Los Angeles in the hope of selling El Mariachi
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=adelaidscreen-20&l=as2&o=1&a=B0000A2ZTY to one
+of the Spanish language film distributors. It is difficult to believe, but after making
+thirty short films and his first feature film, Rodriguez had still never seen a professional
+screenplay.
+
+On our way back to the apartment we stopped by the Hollywood Book Store and I bought the script to
+Road Warrior [ better known to Australians as Mad Max 2 ] so I can have something to read. My
+script for El Mariachi was completely mis-formatted, which is why my thirty-five-page
+script ended up being a ninety-minute movie.
+
+Image:
+http://2.bp.blogspot.com/-CqM7_I-PsME/T4e_JKpS3AI/AAAAAAAACmo/DtBdjkCERZc/s1600/El+Mariachi-5.jpg
+The section of the book covering his dealings with various agents and Hollywood studios is a
+real eye-opener as well. That is followed by his triumphant tour of the Film Festivals, a
+section called 'The Robert Rodriguez Ten-Minute Film Course,' and a copy of the original
+script for El Mariachi .
+
+Rebel Without a Crew is a highly readable, informative and inspiring book. Take a look at it
+sometime. Posted by Henry Sheppard at 06:00 1 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: book , Rebel Without a Crew , Robert Rodriguez
+
+Friday, 20 April 2012
+
+
+
+How to spot a liar
+
+
+
+Image:
+http://1.bp.blogspot.com/-c0nQdB7A1a8/T3k6UUdJ3jI/AAAAAAAACa4/CG64uzjM5c8/s1600/Pamela+Meyer-1.jpg
+Lie spotting has become a science that is already creating problems for people involved in
+performance arts, especially actors, but also for writers. It's our job to mislead our
+audiences, at least for part of the journey. The better they become at spotting the lies, the
+less effective our story-telling will be.
+
+And, of course, there's the other thing, about not wanting to be conned ourselves. On any given
+day we're lied to from ten to 200 times, and the clues to detecting those lies can be subtle and
+counter-intuitive. Pamela Meyer, author of Liespotting
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=adelaidscreen-20&l=as2&o=1&a=0312601875 ,
+shows the manners and "hotspots" used by people trained to recognize deception—and she
+argues honesty is a value worth preserving. This is another long video, about 19 minutes, but
+worth watching. 
+
+Honest.
+
+
+
+Posted by Henry Sheppard at 06:00 4 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: lies , Pamela Meyer
+
+Thursday, 19 April 2012
+
+
+
+How can I meet other writers?
+
+
+
+Image:
+http://3.bp.blogspot.com/-8IS_4GG7w_M/T26CzjhPVWI/AAAAAAAACTA/yk3XGVrQxuY/s200/Sean+Connery.jpg
+As has been mentioned elsewhere, I struggled to make contact with other writers when I was
+first starting out. I'm not your smooth, chatty, man-about-town type. I do have some things in
+common with James Bond , but most of them are imaginary. 
+
+
+
+In my early days, I attended industry events and listened to people. I attended seminars and
+training days, and listened to other people . I went to lunches, where I did a lot of listening.
+Eventually I'd done so much listening that people, having talked themselves out, asked me
+about my writing. And so it began.
+
+
+
+Image:
+http://2.bp.blogspot.com/-TMi71De6HMQ/T26DfcrcI5I/AAAAAAAACTI/frfUaDfSD2k/s1600/James+Bond-01.jpg
+When meeting a criminal mastermind's enforcer , I always stand with my hands in my pockets ,
+like James Bond .   ( Don't try this with producers. They'll suspect you of playing pocket
+billiards, and worry it could result in complications at meetings. ) One thing led to another.
+A few years ago, some of the people I met established a writers' group in Adelaide. At the first
+meeting, a stranger informed us that he wrote a new screenplay every week. He was a
+screenwriting ninja. A guru. A kung fu master of the black art. Then he asked us, "What's a
+Treatment ?"
+
+That was my introduction to the curious fact that ( the idea of ) screenwriting attracts a
+percentage of weirdos. I started this blog as a place where new writers in Adelaide could make
+contact online. Some great people have come along since and are now part of one of the three
+screenwriting groups meeting in Adelaide. 
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/-j6tLhuitlHE/T460m5qMAQI/AAAAAAAACr0/qPjViaOZM5w/s1600/James+Bond-1.jpg
+When a criminal mastermind is about to cut me in half, I pretend to know his story, like James
+Bond. ( Don't fake story with producers, though, they'll test you on theme and structure and,
+if they detect BS, you'll have sliced up your own career .) Most of the new contacts have been
+lovely people, but there were some others. Like the guy who announced his presence, but
+refused to answer any questions about his experience and areas of interest, saying instead
+that he would be the one asking all the questions. He followed that with a series of e-mails in
+which he expressed his growing dissatisfaction with my level of service. My favorite bit was
+this:
+
+Can you pass my email to someone else at Adelaide screenwriters for me to communicate with
+because clearly we are unable to communicate and I am asking that you personally do not email me
+ever again. Due to you not understanding me in the past, I will say it again; this means that I
+never want to hear from again Henry. If they don't understand you, it is clearly the fault of the
+audience. Find yourself a different audience .   — Screenwriting 101. 
+
+
+
+    For the rest, a few tips to help you get started:
+
+    - Don't be afraid of going up to strangers at industry events, and saying, "Hullo. I'm Joe
+    Bloggs. I'm a writer." I met people doing that. I had to get used to them calling me "Joe,"
+    but it was worth it.
+
+    
+
+    - At your first meeting with other writers, avoid mentioning your problem with the gamma
+    beams from Jupiter messing with your mind. 
+
+    
+
+    - If you believe writers' groups are part of a conspiracy to steal your ideas and exclude
+    you from the Hollywood Millionaires Club, you're probably right. Don't give them the
+    satisfaction. 
+
+    
+
+    - It's okay to impress other writers by providing a long list of famous writing teachers
+    with whom you have a special relationship. They might check up, though, so it's best if you
+    only mention people you have, in fact, met at least once.
+
+    
+
+    
+
+    - Try telling the truth about your lack of experience. All the famous writers started out
+    having written nothing and knowing nothing about screenwriting. Then they learned.
+    Often in company with others.
+
+    
+
+    - If you experiment with the random use of phrases like "Excuse me," "Please," and "Thank
+    you," they might teach you the secret handshake.
+
+    
+
+    - Instead of claiming to have a black belt in screenwriting, admit you've never even seen a
+    professional screenplay, and only have a single, half-baked idea for a movie that you got
+    from watching something on late-night television that you're now hoping everyone in
+    Hollywood has forgotten about. We all start out from where we are.
+
+    
+
+    - Writers' groups work best where there is a high level of trust among the members. This
+    trust emerges from respect, a common interest, and the willingness of people to make
+    themselves vulnerable by speaking openly about their ideas. 
+
+    
+
+
+
+This rant was inspired by a combination of my real-life experiences as a screenwriting
+blogger and a post on Write Here, Write Now by Lucy V. Hay, called How Do I Make New Contacts ? It's
+short but good. Go read it now. 
+
+Posted by Henry Sheppard at 06:00 2 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: Adelaide , meeting writers
+
+Wednesday, 18 April 2012
+
+
+
+"Street Art" - PBS - Off Book
+
+PBS , for those who don't know, is the Public Broadcasting Service , a non-profit American
+television network. They broadcast a range of programs, most noticably for Australians, the
+PBS NewsHour , which is home to people like Jim Lehrer , David Brooks and Mark Shields .
+
+
+
+They also have their own YouTube channel , with almost 5,000 videos uploaded. Part of that is a
+sub-channel called "Off Book", a web-exclusive series that explores cutting edge art,
+focused on a new generation of artists.  
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/-HExGcmsuk1E/T1iBwamM1dI/AAAAAAAAB-M/-llckBiyOfo/s1600/Grafitti-01.jpg
+No, it's an optical illusion, done in chalk. Street art, at it's most challenging... This
+video is called Street Art . It's different, but I like it.
+
+The street is a space where art thrives, and a place where artists can shape the public
+aesthetic. Olek , a sculptor whose medium is crochet, and Swoon , a mixed media artist, disrupt
+daily life with work that creates wonder, emotion, and humor. Equally at home in museums and
+galleries, both artists also create installations that challenge the formats of
+traditional art spaces. With powerful layers of meaning, beautiful aesthetics, and using
+unique media, these two prolific creators are pushing the boundaries of contemporary art.
+
+    YouTube     Posted by Henry Sheppard at 06:00 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: Off Book , PBS , street art
+
+Monday, 16 April 2012
+
+
+
+An interview with Nate Golon
+
+
+
+Image:
+http://1.bp.blogspot.com/-IPlcvMkEJsE/T3rr1jSOg4I/AAAAAAAACcQ/tG1WTqg6XLQ/s1600/Nate+Golon-1.jpg
+Last February I received an e-mail from a young filmmaker who asked me to feature a short film,
+he'd just made, on this blog. The film was Briefcase , a six minute short which opens with a
+night-time shot of a guy inflating a tyre at a service station. I'd been in that exact position,
+pumping up tyres at a local service station, many times. The view looked so familiar I assumed
+the film had been made in Adelaide.
+
+   In fact it had been made in Los Angeles, as I realised later. The filmmaker was Nate Golon .
+He has more front than Ned Kelly , as we used to say; a traditional Australian virtue. So I ran the
+film. I admire a bit of chutzpah . 
+
+   Then I forgot about it, until I received another e-mail from him, this time telling me he'd
+engineered a unique outcome — he'd sold his film to Netflix ( something we don't have access
+to in Australia ), while still retaining control of it. I felt there was nothing else for me to
+do: I had to ask him some questions.
+
+________________________________________________________________________
+
+
+
+* What's the story with your Netflix deal ? Netflix now offers a VOD feature in most new TVs, and
+they were looking for a cinematic-looking short film that they could use in retail stores
+worldwide, as an "example" of what kind of quality movies Netflix offers, even though Netflix
+won't offer Briefcase as a rental. It's really a win-win, because I can still develop the
+concept into a feature film, and keep it online.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/-2yuxnvYIIQQ/T3-YbgU3jMI/AAAAAAAACgw/nSvrGFtl3kQ/s1600/Briefcase-1.jpg
+* Is that it, for Briefcase , or will you continue to develop it ?
+
+I'm planning on developing Briefcase into a feature film. I'm also going to develop a
+different concept, a thriller/action trilogy, with each film being five minutes long, that I
+will star in.
+
+* Anything else you're working on ? I'm currently starring in a play in Los Angeles. 
+
+
+
+* What show is that ? Henrik Ibsen 's Ghosts at the Edgemar Center for the Arts . It runs through
+the end of May. It's a five character play, and I'm one of the two leads. It's a challenging
+piece, one that takes a lot of focus and energy.  
+
+[If you're in the LA area, all the details for the show are here:  
+http://edgemar.org/events/309 .]  
+
+
+
+Image:
+http://3.bp.blogspot.com/-C9UQt4qQLPA/T3-97SGdHAI/AAAAAAAAChg/OE0d7bD0vZo/s1600/Ghosts.jpg
+
+*  Your upbringing might best be described as ‘trans-American.’ How did your childhood
+help you prosper in Hollywood ? I hated my childhood when I was living it. My family moved all the
+time, and I grew up on the West Coast, East Coast, and then in various places in Colorado through
+high school. It was hard to make good friends, because just when I'd start to make some, we would
+move.    Looking back now, it really had some advantages. I had to be outgoing, because I was
+always coming to a new place and being the new kid. I also was needing to reinvent myself all the
+time. Some of the areas we lived in were nice, some were not. I grew up around people of all
+backgrounds, ethnicities, and socioeconomic levels, and I had to find a way to constantly fit
+in. It's made it so that these days, no one is ever a stranger to me, and I'll talk to anyone. It's
+also a huge benefit in acting, as I find it easier to understand where characters are coming
+from, no matter what their background is. I can always find something about that character to
+relate to.
+
+
+
+Image:
+http://3.bp.blogspot.com/-PUe63jDgiy4/T4AIJPWnCUI/AAAAAAAACiM/fGu1iTnTimE/s1600/Evel+Knievel.jpg
+Evel Knievel *  You first appeared in a biography, as Evel Knievel . What was that like ? It was
+great!  I was living in Seattle , and had just been bitten by the acting bug. I knew little about
+acting at the time, and auditioned for the role from a post I saw on Craigslist. It was a History
+Channel reenactment of Evel Knievel's life, hosted by Matthew McConaughey . I played Evel
+Knievel in his young, wild days, when he was robbing banks, getting arrested for kidnapping
+his estranged wife, and starting to make a name for himself. The producers let me watch a whole
+bunch of interview footage of Evel, and the guy was a trip.
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/-MyNFUvkAiow/T4AFS-L3qnI/AAAAAAAACh8/4R0tjEu8FQI/s1600/Lucy+Honigman.jpg
+Lucy Honigman *  I notice that you claim to be able to do an Australian accent. Meryl Streep
+failed that test. (Her attempt was painful to Australian ears.) Americans attempting to
+sound like Australians usually come over as Cockneys with a bad cold. Have any Australians
+approved your claim ? There's an Australian actress ( Lucy Honigman ) in my play, Ghosts , and
+she says my Australian accent does sound like a Cockney with a bad cold. Oh well.
+
+*  Briefcase wasn’t your first attempt at filmmaking. What was the background to that ?
+Before I created the film, I wrote, produced, and starred in a comedic web series, called
+Workshop , that follows six struggling actors trying to make it in Hollywood. We released
+Season 1 of Workshop online in 2009, as thirteen episodes, 7-10 minutes each . T he show was
+nominated for five Best Web Series awards. 
+
+   I learned a ton from doing that, which was the first thing I had ever written or produced.
+From what I learned from that first season, I wrote a second season in 2010. Season 2 ended up
+being six episodes of 22 minutes, and debuted on Hulu in April 2011 as the first ever
+independently produced half-hour comedy ever to air on the site. 
+
+ [Both seasons of Workshop can be found at http://workshoptheseries.com .]
+
+*  What have you learned about making webseries TV ? What I learned from doing those two
+seasons of Workshop was that for something to be successful online, it needs to have a short,
+concise story that moves quickly. People do not have the attention spans when they are online
+that they do when watching TV or film. If a video online is slow or boring, people can click away,
+and there's lots of other content. 
+
+   When I created Briefcase , I had a few goals in mind. Most importantly, it had to tell a
+cohesive story in six minutes or less. In my opinion, when someone clicks a video that they're
+unfamiliar with, and it's over six minutes, they are less likely to watch it. 
+
+   I also wanted to create a project that makes you want to watch it twice to figure out exactly
+what's going on. All the answers to what is happening in Briefcase are there, but it's up to the
+audience to figure it out. 
+
+   Finally, I wanted there to be no wasted time in its six minute run-time. Credits are
+unnecessary with a film this short. If someone is interested enough to want to know about the
+cast and crew, they can either scroll down and read the video details, or click on the film's
+Facebook or Twitter link. When I see short films that have 30 seconds or a minute of slow moving
+credits to start, and nothing is really happening in the film, I guarantee they are losing
+viewers.
+
+*  What is the biggest mistake you’ve made as a film producer ? The biggest mistake I made
+with Briefcase was that I actually lost the briefcase we were using the day before our last day
+of shooting. It was a nightmare. It took me several weeks to track down an exact replica, and
+more than anything, I felt like an idiot.
+
+
+
+Image:
+http://4.bp.blogspot.com/-EAkqRWGdgQE/T3-m_uAvrCI/AAAAAAAAChY/IlnctJup3qw/s1600/Briefcase-3.jpg
+
+*  What are some of the shortcuts you’ve learned in filmmaking ? Some good ways of making it
+easier on one-self as a writer and producer is to make the scenes and locations not too
+complicated, and to be flexible. Sometimes my friends will send me their scripts, and they'll
+have scenes that require tons of background actors or really tough-to-get locations. 
+
+   Season 2 of Workshop had 130 co-star and guest star roles, and 100 locations, but I
+specifically wrote the locations as places that wouldn't be impossible to get. 
+
+   Sometimes I was flexible when a location fell through. One hard-to-get location in
+Workshop Season 2 was when I had written two of the female leads being models at a car show, being
+harassed by car show gawkers. I had locked down a car showroom at a car dealership, but the day
+before we were supposed to shoot, the dealership backed out, and I was left scrambling. I ended
+up tweaking the scene slightly so that the same scene took place, but in an underground parking
+lot, where the actresses were getting out of their cars on their way to the car show. 
+
+   With Briefcase , I made it easy on myself and only wrote four locations.
+
+
+
+Image:
+http://4.bp.blogspot.com/-dC8KgILBo7s/T3-eiqqpdWI/AAAAAAAAChQ/Aqh0I5mDA4o/s1600/Workshop-1.jpg
+Audra Marie and Leanne Wilson of Workshop , in that parking lot. *  How do you find actors to
+appear in your films ? Since I'm an actor, I am fortunate to know a ton of great actors in L.A.,
+from the different acting classes I've taken, shows I've done, workshops I've taken, etc. If
+you're in a smaller market city, Craigslist is a good place to start, and also whatever
+colleges are in town. Hit up their drama departments. In bigger cities, there are various
+actor sites that you can post auditions.
+
+*  How do you find scripts to produce ? If I'm going to produce something, I like doing my own
+projects first, before I look for other scripts. I work with a director and filmmaker all the
+time on everything, Andre Welsh , and when he writes something, I produce and sometimes act in
+his projects too. Andre directed Briefcase , both seasons of Workshop , and the pilot for my
+other project I starred in back in early 2011, Generation U .
+
+*  Do you have any t ips on fund-raising ? For fundraising, Kickstarter and IndieGogo are
+great tools. I used Kickstarter to raise the money to shoot Workshop Season 2, and it also
+helped raise awareness that I was going into production, etc., of the show.
+
+
+
+
+
+Image:
+http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=193290736X&MarketPlace=US&ID=AsinImage&WS=1&tag=adelaidscreen-20&ServiceVersion=20070822
+*  What one book would you recommend to a young wannabe screenwriter in Adelaide ?  I would
+recommend The Writers Journey: Mythic Structure for Writers
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=adelaidscreen-20&l=as2&o=1&a=193290736X by
+Christopher Vogler . I found it immensely helpful not only as a writer, but as an actor as well.
+It really teaches you about storytelling, and figuring out the characters and what they
+represent inside the story.
+
+*  Name your ten favourite movies of all time . Lawrence of Arabia (1962) Fight Club (1999) The
+Game (1997) Indiana Jones and the Last Crusade (1989) The Sting (1973) Field of Dreams (1989)
+Gattaca (1997) Point Break (1991) Shawshank Redemption   (1994) Snatch (2000)
+________________________________________________________________________
+
+
+
+Here's the trailer for Workshop , Season 2.
+
+
+
+    Facebook    IMDb      Twitter    Website    Wikipedia    You Acting   
+YouTube Posted by Henry Sheppard at 06:00 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: interview , Lucy Honigman , Nate Golon Newer Posts
+Older Posts Home Subscribe to: Posts (Atom) window.___gcfg = {'lang':
+'en_GB'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+Pages
+
+    
+
+    - Home
+
+    
+
+    - About
+
+    
+
+    - Adelaide
+
+    
+
+    - Advice
+
+    
+
+    - Biographies
+
+    
+
+    - Books on Structure
+
+    
+
+    - Book Reviews
+
+    
+
+    - Interviews
+
+    
+
+    - Other Books
+
+    
+
+    - Recommended Reading
+
+    
+
+    - Screenwriting Groups in Adelaide
+
+    
+
+    - Short Films
+
+    
+
+    - Star Wars
+
+    
+
+    - Webseries
+
+    
+
+    - Web Series Festivals
+
+    
+
+    - Web Series Resources
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Coming Events
+
+    
+
+    - 12 Oct. - Interview with Michelle Prak
+
+    
+
+    - 26 Oct. - Interview with Joseph Garrett
+
+    
+
+    - 9 Nov. - Interview with Victoria Cocks
+
+    
+
+    - 16 Nov. - One year on... Anne Flournoy
+
+    
+
+    - 23 Nov. - Interview with Adam Levenberg
+
+    
+
+    - 7 Dec. - Interview with Linda Aronson
+
+    
+
+    - 21 Dec. - Interview with Allison Burnett
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Google Website Translator Gadget
+
+function googleTranslateElementInit() { new google.translate.TranslateElement({
+pageLanguage: 'en' }, 'google_translate_element'); }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Popular Posts
+
+    
+
+    - An interview with Patricia Hetherington
+
+    
+
+    - "Friend Request Pending"
+
+    
+
+    - TV Writing Masterclass - David Mamet
+
+    
+
+    - "Hamburg Heartbreak"
+
+    
+
+    - Book review: Screenwriting Tricks of the Trade
+
+    
+
+    - Joss Whedon's Top 10 Writing Tips
+
+    
+
+    - An interview with Yuri Baranovsky
+
+    
+
+    - "Vag Magazine"
+
+    
+
+    - "Edna"
+
+    
+
+    - "Star Wars Subway Car"
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ▼  2012 (274)
+
+        - ►  October (2)
+
+        
+
+        
+
+        - ►  September (34)
+
+        
+
+        
+
+        - ►  August (32)
+
+        
+
+        
+
+        - ►  July (33)
+
+        
+
+        
+
+        - ►  June (30)
+
+        
+
+        
+
+        - ►  May (28)
+
+        
+
+        
+
+            - ▼  April (24)
+
+            - "Appleseed Elementary"
+
+            
+
+            - John Burnham Schwartz and Dustin Hoffman
+
+            
+
+            - 'Star Wars' dialogue and the vernacular
+
+            
+
+            - Book review: "On Directing Film"
+
+            
+
+            - An interview with Billy Marshall Stoneking
+
+            
+
+            - "Thijs and the ladies"
+
+            
+
+            - Overcoming your fears
+
+            
+
+            - "I Hate Being Single"
+
+            
+
+            - Ira Glass on the Building Blocks of Story
+
+            
+
+            - Book review: "Rebel Without a Crew"
+
+            
+
+            - How to spot a liar
+
+            
+
+            - How can I meet other writers?
+
+            
+
+            - "Street Art" - PBS - Off Book
+
+            
+
+            - An interview with Nate Golon
+
+            
+
+            - "Star Wars - Fantasy Football Draft"
+
+            
+
+            - Weird and Wonderful Movies That You’ll Never Get t...
+
+            
+
+            - "Hitwomen"
+
+            
+
+            - "Shelf Life"
+
+            
+
+            - "You Just Don't Get It, Do You?"
+
+            
+
+            - An interview with Diane Drake
+
+            
+
+            - "The Film School Generation"
+
+            
+
+            - BrenÃ© Brown: Listening to shame
+
+            
+
+            - "In Her Shoes"
+
+            
+
+            - Gandhi's Top 10 Fundamentals
+
+            
+
+        
+
+        
+
+        
+
+        - ►  March (27)
+
+        
+
+        
+
+        - ►  February (30)
+
+        
+
+        
+
+        - ►  January (34)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (118)
+
+        - ►  December (46)
+
+        
+
+        
+
+        - ►  November (33)
+
+        
+
+        
+
+        - ►  October (27)
+
+        
+
+        
+
+        - ►  September (12)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+ADELAIDE LINKS
+
+    
+
+    - Adelaide Film Festival
+
+    
+
+    - The Media Resource Centre
+
+    
+
+    - SA Film Corporation
+
+    
+
+    - SASIC
+
+    
+
+    - SA Writers' Centre
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+OTHER AUSTRALIAN LINKS
+
+    
+
+    - AACTA
+
+    
+
+    - AFTRS
+
+    
+
+    - Australian Cinematographers Society
+
+    
+
+    - Australian Directors Guild
+
+    
+
+    - Australian Film Institute
+
+    
+
+    - Australian Writers’ Guild
+
+    
+
+    - The Film & Television Institute, WA
+
+    
+
+    - Film Victoria
+
+    
+
+    - Inside Film
+
+    
+
+    - Media, Entertainment & Arts Alliance
+
+    
+
+    - Metro Screen, NSW
+
+    
+
+    - NIDA
+
+    
+
+    - Open Channel, VIC
+
+    
+
+    - QPIX
+
+    
+
+    - Screen ACT
+
+    
+
+    - Screen Australia
+
+    
+
+    - Screen NSW
+
+    
+
+    - Screen Producers Association of Aust.
+
+    
+
+    - Screen Queensland
+
+    
+
+    - Screen Tasmania
+
+    
+
+    - Screen Territory
+
+    
+
+    - Screen West
+
+    
+
+    - Senses of Cinema
+
+    
+
+    - Wide Angle Tasmania
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+My Blog List
+
+    
+
+    - Being Charlie Kaufman
+
+    
+
+    - Cimaginations | Scoop.it
+
+    
+
+    - Complications Ensue
+
+    
+
+    - Daily Dot
+
+    
+
+    - Deadline.com
+
+    
+
+    - drettworlb
+
+    
+
+    - Go Into The Story
+
+    
+
+    - howtofilmschool.com
+
+    
+
+    - John August
+
+    
+
+    - Just Effing Entertain Me
+
+    
+
+    - Ken Levine
+
+    
+
+    - Living the Romantic Comedy
+
+    
+
+    - Make Film Teach Film
+
+    
+
+    - Maximum Z
+
+    
+
+    - Pop Candy: Unwrapping pop culture's hip and hidden treasures
+
+    
+
+    - Prakkypedia
+
+    
+
+    - Raving Dave
+
+    
+
+    - Rope of Silicon - Movie News, Previews and Reviews
+
+    
+
+    - Running With My Eyes Closed
+
+    
+
+    - Scouting NY
+
+    
+
+    - Screenwriting Goldmine Blog
+
+    
+
+    - Screenwriting In Seattle
+
+    
+
+    - Screenwriting Tips... You Hack
+
+    
+
+    - ScriptShadow
+
+    
+
+    - Scriptwriting in the UK
+
+    
+
+    - Self-Styled Siren
+
+    
+
+    - Sex In A Submarine
+
+    
+
+    - Story and Narrative | Scoop.it
+
+    
+
+    - Story Notes From Hell
+
+    
+
+    - sub-genre
+
+    
+
+    - The Athletic Nerd
+
+    
+
+    - The Bitter Script Reader
+
+    
+
+    - The Independent | Obsessed with independent film since 1978.
+
+    
+
+    - The Invisible Ink Blog
+
+    
+
+    - The Legion of Decency
+
+    
+
+    - The Pixar Touch
+
+    
+
+    - The Reel Bits
+
+    
+
+    - The Screenwrightist
+
+    
+
+    - The Story Department » The Story Department | Screenwriting News, Tips and Articles
+
+    
+
+    - The Warren Report
+
+    
+
+    - This Is Your Pilot Speaking
+
+    
+
+    - Tubefilter
+
+    
+
+    - ViralGains
+
+    
+
+    - Wendi Aarons
+
+    
+
+    - With A Little Help From Our Friends
+
+    
+
+    - Write Here, Write Now
+
+    
+
+    - Write, write, write
+
+    
+
+    - You Offend Me You Offend My Family
+
+    
+
+    - Your Screenplay Sucks!
+
+    
+
+    - YouTube Blog
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/6301188674065064283/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/6301188674065064283/comments/default";
+holder.currentBlogUrl = "http://adelaidescreenwriter.blogspot.com/";
+holder.currentBlogId = "6301188674065064283"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#000000"; skin['ENDCAP_LINK_COLOR'] = "#992211";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#992211"; skin['CONTENT_TEXT_COLOR'] =
+"#000000"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#992211";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000"; skin['CONTENT_HEADLINE_COLOR'] =
+"#666666"; skin['FONT_FACE'] = "normal normal 15px Arial, Tahoma, Helvetica, FreeSans,
+sans-serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-1wzx4j3629yby",
+height: 260, site: "00292124057856305770", locale: 'en_GB' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Follow by Email
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Receive Twitter updates
+
+Follow @AdelScreenWri
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Picture Window
+template. Powered by Blogger .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+window.setTimeout(function() { document.body.className =
+document.body.className.replace('loading', ''); }, 10); if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV2";window['blogger_blog_id'] =
+'6301188674065064283';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d6301188674065064283','//adelaidescreenwriter.blogspot.com/2012_04_01_archive.html','6301188674065064283');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'6301188674065064283', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Adelaide
+Screenwriter', 'pageType': 'archive', 'url':
+'http://adelaidescreenwriter.blogspot.com/2012_04_01_archive.html',
+'canonicalUrl':
+'http://adelaidescreenwriter.blogspot.com/2012_04_01_archive.html',
+'canonicalHomepageUrl': 'http://adelaidescreenwriter.blogspot.com/',
+'homepageUrl': 'http://adelaidescreenwriter.blogspot.com/', 'blogspotFaviconUrl':
+'http://adelaidescreenwriter.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'April 2012', 'pageTitle': 'Adelaide Screenwriter: April 2012', 'encoding': 'UTF-8',
+'locale': 'en-GB', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false,
+'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks':
+'\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42Adelaide Screenwriter - Atom\42
+href\75\42http://adelaidescreenwriter.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42Adelaide Screenwriter - RSS\42
+href\75\42http://adelaidescreenwriter.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Adelaide Screenwriter - Atom\42
+href\75\42http://www.blogger.com/feeds/6301188674065064283/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0756301188674065064283\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if
+IE]\76\74script type\75\42text/javascript\42
+src\75\42//www.blogger.com/static/v1/jsbin/3651483553-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076',
+'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'content_padding': '15px',
+'tabs_selected_background_color': '#ffffff', 'region_shadow_spread': '0',
+'header_padding': '30px', 'tab_selected_background_gradient':
+'url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png)',
+'link_visited_color': '#771100', 'tabs_margin_sides': '0', 'post_title_font':
+'normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif',
+'tabs_separator_color': '#cccccc', 'tabs_text_color': '#992211',
+'header_background_gradient':
+'url(http://www.blogblog.com/1kt/transparent/header_gradient_shade.png)',
+'widget_title_font': 'bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif',
+'body_background': '#dddddd
+url(http://themes.googleusercontent.com/image?id\0751fupio4xM9eVxyr-k5QC5RiCJlYR35r9dXsp63RKsKt64v33poi2MvnjkX_1MULBY8BsT)
+repeat-x fixed bottom center', 'tab_first_border_radius': '10px',
+'tabs_border_radius': '10px', 'keycolor': '#992211', 'content_shadow_spread': '3px',
+'main_background': 'transparent none repeat scroll top center', 'header_font': 'normal
+normal 80px \47Times New Roman\47, Times, FreeSerif, serif', 'footer_background':
+'transparent url(http://www.blogblog.com/1kt/transparent/black50.png) repeat
+scroll top left', 'header_background_color': '#dddddd',
+'widget_title_text_transform': 'uppercase', 'footer_link_visited_color':
+'#cccc99', 'footer_link_hover_color': '#ffffff', 'footer_border_radius_bottom':
+'10px', 'tabs_background_gradient':
+'url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png)',
+'tab_background': 'transparent none no-repeat scroll top left',
+'mobile_background_overlay': 'transparent none repeat scroll top left',
+'tabs_background_color': '#f5f5f5', 'header_border_radius': '10px',
+'post_margin_sides': '-20px', 'link_hover_color': '#cc4411', 'footer_link_color':
+'#ffffdd', 'content_background': 'transparent
+url(http://www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left',
+'tabs_margin_bottom': '0', 'body_text_color': '#000000', 'main_padding_sides':
+'5px', 'post_border_color': '#dddddd', 'footer_text_color': '#eeeeee',
+'footer_border_radius_top': '10px', 'post_background_color': 'transparent',
+'content_border_radius': '15px', 'endSide': 'right', 'post_footer_text_color':
+'#999999', 'startSide': 'left', 'date_header_color': '#333333', 'tabs_font': 'normal
+normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'body_font': 'normal normal
+15px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'post_border_radius': '10px',
+'widget_title_text_color': '#666666', 'content_margin': '30px', 'link_color':
+'#992211', 'footer_widget_title_text_color': '#bbbbbb', 'header_text_color':
+'#000000', 'main_border_radius_top': '0', 'region_shadow_offset': '0',
+'tab_border_radius': '0', 'tabs_selected_text_color': '#000000',
+'body_background_color': '#dddddd', 'tabs_spacing': '0'}, 'override':
+'#header-inner\n{\ntext-align: center;\n}'}}, {'name': 'view', 'data': {'classic':
+{'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard',
+'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'sidebar-right-1', null,
+document.getElementById('PageList1'), {'title': 'Pages', 'links': [{'href':
+'http://adelaidescreenwriter.blogspot.com/', 'title': 'Home', 'isCurrentPage':
+false}, {'href': 'http://adelaidescreenwriter.blogspot.com/p/about.html', 'title':
+'About', 'isCurrentPage': false}, {'href':
+'http://adelaidescreenwriter.blogspot.com/p/adelaide.html', 'title': 'Adelaide',
+'isCurrentPage': false}, {'href':
+'http://adelaidescreenwriter.blogspot.com/p/advice.html', 'title': 'Advice',
+'isCurrentPage': false}, {'href':
+'http://adelaidescreenwriter.blogspot.com/p/biographies.html', 'title':
+'Biographies', 'isCurrentPage': false}, {'href':
+'http://adelaidescreenwriter.blogspot.com/p/books-on-structure.html', 'title':
+'Books on Structure', 'isCurrentPage': false}, {'href':
+'http://adelaidescreenwriter.blogspot.com/p/book-reviews.html', 'title': 'Book
+Reviews', 'isCurrentPage': false}, {'href':
+'http://adelaidescreenwriter.blogspot.com/p/interviews.html', 'title':
+'Interviews', 'isCurrentPage': false}, {'href':
+'http://adelaidescreenwriter.blogspot.com/p/other-books.html', 'title': 'Other
+Books', 'isCurrentPage': false}, {'href':
+'http://adelaidescreenwriter.blogspot.com/p/recommended-reading.html', 'title':
+'Recommended Reading', 'isCurrentPage': false}, {'href':
+'http://adelaidescreenwriter.blogspot.com/p/screenwriting-groups-in-adelaide.html',
+'title': 'Screenwriting Groups in Adelaide', 'isCurrentPage': false}, {'href':
+'http://adelaidescreenwriter.blogspot.com/p/short-films.html', 'title': 'Short
+Films', 'isCurrentPage': false}, {'href':
+'http://adelaidescreenwriter.blogspot.com/p/star-wars.html', 'title': 'Star Wars',
+'isCurrentPage': false}, {'href':
+'http://adelaidescreenwriter.blogspot.com/p/webseries.html', 'title':
+'Webseries', 'isCurrentPage': false}, {'href':
+'http://adelaidescreenwriter.blogspot.com/p/web-series-festivals.html', 'title':
+'Web Series Festivals', 'isCurrentPage': false}, {'href':
+'http://adelaidescreenwriter.blogspot.com/p/web-series-resources.html', 'title':
+'Web Series Resources', 'isCurrentPage': false}], 'mobile': false},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextListView', new
+_WidgetInfo('TextList1', 'sidebar-right-1', null,
+document.getElementById('TextList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3',
+'sidebar-right-1', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new
+_WidgetInfo('PopularPosts1', 'sidebar-right-1', null,
+document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar-right-1', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList4', 'sidebar-right-1', null,
+document.getElementById('LinkList4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList5',
+'sidebar-right-1', null, document.getElementById('LinkList5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogListView', new
+_WidgetInfo('BlogList1', 'sidebar-right-1', null,
+document.getElementById('BlogList1'), {'numItemsToShow': 0, 'totalItems': 50},
+'displayModeFull')); _WidgetManager._RegisterWidget('_FollowersView', new
+_WidgetInfo('Followers1', 'sidebar-right-1', null,
+document.getElementById('Followers1'), {'title': 'Followers', 'codeSnippet':
+'\74script type\75\42text/javascript\42\76\n if (!window.google ||
+!google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75
+\42http://www.blogger.com/feeds/6301188674065064283/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/6301188674065064283/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://adelaidescreenwriter.blogspot.com/\42;\n
+holder.currentBlogId \75 \0426301188674065064283\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-r66was2lz52j\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#000000\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#992211\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#992211\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#000000\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#992211\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#000000\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#666666\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-r66was2lz52j\42,\n height: 260,\n \n \n \n site: \04200292124057856305770\42,\n
+\n locale: \47en_GB\47 },\n skin);\n \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowByEmailView', new
+_WidgetInfo('FollowByEmail1', 'sidebar-right-1', null,
+document.getElementById('FollowByEmail1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1',
+'sidebar-right-1', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'footer-3', null,
+document.getElementById('Attribution1'), {'attribution': 'Picture Window template.
+Powered by \74a href\75\47http://www.blogger.com\47
+target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/3811339452-lbx_en-GB.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

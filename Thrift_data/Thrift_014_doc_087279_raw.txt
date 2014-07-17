@@ -1,0 +1,2029 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); indiessance: October 2007 <!-- /*
+----------------------------------------------- Blogger Template Style Name: Minima
+Black Date: 26 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#000"> <Variable name="textcolor" description="Text Color"
+type="color" default="#ccc"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#9ad"> <Variable name="pagetitlecolor" description="Blog Title
+Color" type="color" default="#ccc"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#777"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#ad9">
+<Variable name="bordercolor" description="Border Color" type="color" default="#333">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#777"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#999"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#a7a"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif"> <Variable name="headerfont"
+description="Sidebar Title Font" type="font" default="normal bold 78% 'Trebuchet
+MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable name="pagetitlefont"
+description="Blog Title Font" type="font" default="normal bold 200% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif"> <Variable name="descriptionfont"
+description="Blog Description Font" type="font" default="normal normal 78% 'Trebuchet
+MS', Trebuchet, Verdana, Sans-serif"> <Variable name="postfooterfont"
+description="Post Footer Font" type="font" default="normal normal 78% 'Trebuchet MS',
+Trebuchet, Arial, Verdana, Sans-serif"> <Variable name="startSide" description="Start
+side in blog language" type="automatic" default="left"> <Variable name="endSide"
+description="End side in blog language" type="automatic" default="right"> */ /* Use this
+with templates/template-twocol.html */ body { background:#000000; margin:0;
+color:#cccccc; font: x-small "Trebuchet MS", Trebuchet, Verdana, Sans-serif;
+font-size/* */:/**/small; font-size: /**/small; text-align: center; } a:link {
+color:#99aadd; text-decoration:none; } a:visited { color:#aa77aa;
+text-decoration:none; } a:hover { color:#aadd99; text-decoration:underline; } a img {
+border-width:0; } /* Header ----------------------------------------------- */
+#header-wrapper { width:660px; margin:0 auto 10px; border:1px solid #333333; }
+#header-inner { background-position: center; margin-left: auto; margin-right: auto; }
+#header { margin: 5px; border: 1px solid #333333; text-align: center; color:#cccccc; }
+#header h1 { margin:5px 5px 0; padding:15px 20px .25em; line-height:1.2em;
+text-transform:uppercase; letter-spacing:.2em; font: normal bold 200% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif; } #header a { color:#cccccc; text-decoration:none; }
+#header a:hover { color:#cccccc; } #header .description { margin:0 5px 5px; padding:0 20px
+15px; max-width:700px; text-transform:uppercase; letter-spacing:.2em; line-height:
+1.4em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Verdana, Sans-serif; color:
+#777777; } #header img { margin-left: auto; margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 660px;
+margin:0 auto; padding:10px; text-align:left; font: normal normal 100% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif; } #main-wrapper { width: 410px; float: left;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */ overflow: hidden;
+/* fix for long non-text content breaking IE sidebar float */ } #sidebar-wrapper { width:
+220px; float: right; word-wrap: break-word; /* fix for long text breaking sidebar float in IE
+*/ overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ } /*
+Headings ----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+font:normal bold 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif; line-height:
+1.4em; text-transform:uppercase; letter-spacing:.2em; color:#777777; } /* Posts
+----------------------------------------------- */ h2.date-header { margin:1.5em 0
+.5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #333333;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#aadd99; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#aadd99;
+font-weight:bold; } .post h3 strong, .post h3 a:hover { color:#cccccc; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#777777; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; line-height: 1.4em; } .comment-link { margin-left:.6em; } .post img,
+table.tr-caption-container { padding:4px; border:1px solid #333333; }
+.tr-caption-container img { border: none; padding: 0; } .post blockquote { margin:1em 20px;
+} .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #777777; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+.feed-links { clear: both; line-height: 2.5em; } #blog-pager-newer-link { float: left; }
+#blog-pager-older-link { float: right; } #blog-pager { text-align: center; } /* Sidebar
+Content ----------------------------------------------- */ .sidebar { color: #999999;
+line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; } .sidebar
+li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #333333; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #333333; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; color: #777777; font-weight: bold; line-height: 1.6em; } .profile-datablock
+{ margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:660px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0752600805912710361960\46blogName\75indiessance\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://indiessance.blogspot.com/search\46blogLocale\75en_US\46v\0752\46homepageUrl\75http://indiessance.blogspot.com/\46vt\0754839023017819324015',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Image:
+http://2.bp.blogspot.com/_djwHXlsYQ5k/Rvbh-jpnNxI/AAAAAAAAAAM/yeVY-2NOmFo/s1600/indiessance_title_image_c_.jpg
+
+Wednesday, October 31, 2007
+
+
+
+Boat
+
+
+
+Image:
+http://2.bp.blogspot.com/_djwHXlsYQ5k/RykcBsNQooI/AAAAAAAAALY/2H3ErUzKI3E/s200/boat_press_1_.png
+
+David Crane - front man for the lo-fi Seattle-based Boat - uses songwriting as an emotional
+outlet. The "music helps me filter out the feelings that I can't get out any other way. It is an
+outlet for my brain," he told music blog You Aint No Picasso .
+
+
+
+Lyrically, his songs are narrative, and based on "personal stories"; this sentimental
+association makes it easier for him to remember the words. Crane still keeps details at a
+distance, which is a good thing, when it comes to fans who like to scrutinize the esoteric.
+
+
+
+Boat's summer release of the lo-fi sophomore LP Let's Drag Our Feet maintains variety and a
+good indie-pop pace throughout. The sound has been compared to a eclectic list of bands. And
+Crane's vocals have been compared to Spencer Krug , which invites a comparison to Isaac Brock .
+In the midst of all comparisons, one song in particular may cause a disruption in the work flow
+of the stereotyping department - The Ferocious Sounds of Lobsters and Snakes .
+
+
+
+profile @ myspace
+
+home page @ ohnodisaster
+
+mp3 @ magicmarkerrecords (i'm a donkey for your love - boat)
+
+mp3 @ iguessimfloating (holding all the globes - boat)
+
+mp3 @ magicmarkerrecords (last cans of paint - boat)
+
+mp3 @ ohnodisaster (the bar is too low to fail - boat)
+
+mp3 @ box.net (the ferocious sounds of lobsters and snakes - boat)
+
+performance @ kexp
+
+review @ pitchfork
+
+review @ cokemachineglow
+
+review @ popmatters
+
+review @ spin
+
+review @ stylusmagazine
+
+review @ threeimaginarygirls
+
+interview @ threeimaginarygirls
+
+interview @ you ain't no picasso
+
+label @ magicmarkerrecords Posted by indiessance at 7:12 PM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: blogspot , boat ,
+david crane , digg music , let's drag our feet , technorati <!--
+google_ad_client="pub-4661302514295396"; google_ad_host="pub-1556223355139109";
+google_ad_host_channel="00000"; google_ad_width=300; google_ad_height=250;
+google_ad_format="300x250_as"; google_ad_type="text_image";
+google_color_border="000000"; google_color_bg="000000";
+google_color_link="AADD99"; google_color_url="FFFFFF";
+google_color_text="FFFFFF"; //-->
+
+Monday, October 29, 2007
+
+
+
+Awesome Car Funmaker
+
+
+
+Image:
+http://4.bp.blogspot.com/_djwHXlsYQ5k/RyXdaMNQonI/AAAAAAAAALQ/nGo59oyKhY4/s200/acf_press.png
+
+The bio on the home page of Madison-based Awesome Car Funmaker describes the band as "a
+spastic, energetic, crazy, party glam rock band..." The band's name was conceived by members
+who were not "allowed to leave the restaurant before a name was decided upon."
+
+
+
+Juice - second title of the 17-track 2006 release Of Lovers And Monsters - certifies the energy
+output of this pop-rock dynamo. A catchy guitar-based jam.
+
+
+
+Bass player, Justin Taylor , kept a journal of their July Midwest Bleeds Best Tour along with
+Cealed Kasket . A University of Wisconsin blog reviewed the first stop of the tour that took
+place at the lakeside Memorial Union Terrace .
+
+
+
+ACF will be touring WI, IL and MN through the end of 2007.
+
+
+
+profile @ myspace
+
+mp3 @ awesomecarfunmaker (juice - awesome car funmaker)
+
+mp3 @ awesomecarfunmaker (time bomb - awesome car funmaker)
+
+mp3 @ awesomecarfunmaker (brand new zombie - awesome car funmaker)
+
+video @ youtube (brand new zombie - awesome car funmaker)
+
+video @ youtube (outlaw - awesome car funmaker)
+
+video @ youtube (dirty - awesome car funmaker)
+
+review @ maximumink
+
+review @ thedailypage
+
+review @ madison
+
+home page @ awesomecarfunmaker Posted by indiessance at 8:16 AM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: awesome car
+funmaker , blogspot , digg music , juice , of lovers and monsters , technorati musicblog
+
+Saturday, October 27, 2007
+
+
+
+Owen
+
+
+
+Image:
+http://3.bp.blogspot.com/_djwHXlsYQ5k/RyO7JcNQomI/AAAAAAAAALI/_Q3Wp1wo4iw/s200/owen-press.png
+
+Mike Kinsella a.k.a. Owen released an album about one year ago titled At Home with Owen that
+steps away from the eclectic list of indie bands he worked with: Cap'n Jazz , Joan of Arc ,
+American Football and Owls .
+
+
+
+Bad News pulls the listener into the singer's painfully honest acoustic introspection.
+whatever it is you think you are, you aren't
+
+a good friend, unique, well-read
+
+good-looking, or smart
+
+well now you know That last line is sonically absorbed by a fleshed out break that follows. Such
+vocal subtlety during a hook might seem unconventional. But Kinsella's voice fades to bring
+out the beauty of a trickling piano rhythm that follows - one scene transitions into another.
+
+
+
+Kinsella laid out more tracks in the studio for At Home in order to "get closer" to how he
+imagines particular tracks should sound. "I hear the songs in my head a certain way," Kinsella
+told Scene Point Blank . And it is the first Owen album that was not produced solo. Some tracks
+were laid out at Semaphore Studios and Engine Studios .
+
+
+
+profile @ myspace
+
+mp3 @ polyvinyl (bad news - owen)
+
+mp3 @ thankscaptainobvious (never meant - owen)
+
+mp3 @ musicforants (the sad waltzes of pietro crespi - owen)
+
+mp3 @ sxsw (she's a thief - owen)
+
+mp3 @ freeindie (the ghost of what should have been - owen)
+
+mp3 @ freeindie (in the morning before work - owen)
+
+mp3 @ freeindie (places to go - owen)
+
+mp3 @ thankscaptainobvious (never meant - american football)
+
+video @ youtube (one of these days - owen)
+
+video @ youtube (the sad waltzes of pietro crespi - owen)
+
+stream @ purevolume
+
+discography @ amazon
+
+interview @ scenepointblank
+
+label @ polyvinyl
+
+wiki @ wikipedia Posted by indiessance at 4:52 PM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: at home with owen ,
+bad news , blogspot , digg music , technorati musicblog
+
+Friday, October 26, 2007
+
+
+
+The Brunettes
+
+
+
+Image:
+http://3.bp.blogspot.com/_djwHXlsYQ5k/RyIDHsNQolI/AAAAAAAAALA/MGH5oH2gEDk/s200/brunettes_press.png
+
+Structure & Cosmetics - latest album by the platonic indie-pop team The Brunettes - is a
+bubblegum variety pack of styles. This established kiwi band was invited by The Shins to leave
+home turf for rich American soil, where they signed up with indie-monolith Sub Pop Records .
+Compared to previous projects, their fully fleshed out S&C reflects a bigger budget with a
+bigger record company.
+
+
+
+The lead track Brunettes Against Bubblegum Youth has been compared to the 'choral symphonic
+rock'-candy of Polyphonic Spree for it's 'aaahs' and instrumental variety.
+
+
+
+A creative balance is achieved between male and female brunette, as Jonathan Bree stated,
+"I'm the main songwriter, and she is very much a part of the creative process." In addition,
+Mansfield contributes the sonically superior vocals of the two - a girl-group feature of
+their distinguishing sound. As heard on Her Hairagami Set .
+
+
+
+profile @ myspace
+
+mp3 @ pbsfm.org.au (brunettes against bubblegum youth - the brunettes)
+
+mp3 @ pbsfm.org.au (her hairagami set - the brunettes)
+
+mp3 @ subpop (small town crew - the brunettes)
+
+video @ youtube (her hairagami set - the brunettes)
+
+video @ youtube (boyracer - the brunettes)
+
+video @ youtube (holding hands feeding ducks - the brunettes)
+
+video @ youtube (polyester meets acetate - the brunettes)
+
+feed @ hypem
+
+review @ pitchforkmedia
+
+review @ spin
+
+review @ tinymixtapes
+
+review @ stylusmagazine
+
+review @ popmatters
+
+review @ adequacy
+
+interview @ theset.co.nz
+
+label @ subpop
+
+wiki @ en.wikipedia.org Posted by indiessance at 9:46 AM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: blogspot , bree ,
+digg music , her hairagami set , mansfield , structure and cosmetics , technorati musicblog ,
+the brunettes
+
+Wednesday, October 24, 2007
+
+
+
+Pleasure Forever
+
+
+
+Image:
+http://1.bp.blogspot.com/_djwHXlsYQ5k/R3_iek3lEHI/AAAAAAAAAYU/XB1-MLeVf-k/s200/pleasure_forever_press_2_.png
+
+Pleasure Forever , formerly known as Slaves , has followed up their full-album with an EP of
+unreleased tracks and B-sides titled Bodies Need Rest . The band is currently inactive, while
+the three members work on other projects; each live in a different Californian city.
+
+
+
+Their albums present a variety of styles, while vocal and guitar distortion are ever present.
+The Bar features distinctive post-punk vocals, with a gyrating rock guitar rhythm, which is
+built up at the beginning of this Black Flag cover song. The song has been pulled out of its
+original hardcore-punk wrapper for post-punk experimentation.
+
+
+
+If there ever was a potential breakout Pleasure Forever hit, that would be Wicked Shivering
+Columbine . That title Subpop suggested as another name for the band's latest sky-blue LP
+Alter . Early in the track, a distorted vocal assault draws the listener to the edge of their
+seat.
+
+
+
+The band's name expresses self-indulgence. But in contrast to the rock-and-roll archetype
+of self-destruction, exemplified by booze guzzling, and - at its worst - heroin addiction.
+Instead, risk is incorporated "in things that seem sensible," according to drummer Dave
+Clifford. What our whole aesthetic and interest is [as related to human nature is] that we like
+to be perched at this precipice where we stand a chance of self-destruction in the name of
+pleasure and in the name of enjoying ourselves. To me, that’s a wonderfully poetic element
+of humanity, that we risk our own lives to make it feel like we’re actually living." - Dave
+Clifford
+
+profile @ myspace
+
+mp3 @ subpop (you and i were meant to drown | pleasure forever)
+
+mp3 @ subpop (meet me in eternity | pleasure forever)
+
+mp3 @ subpop (this is the zodiac speaking | pleasure forever)
+
+mp3 @ subpop (wicked shivering columbine | pleasure forever)
+
+mp3 @ warpedrealitymagazine (the bars | pleasure forever)
+
+mp3 @ fanaticpromotion (fanatic promotion | mp3 | miles underneath)
+
+stream @ aquariusrecords (aeon flame | pleasure forever)
+
+stream @ aquariusrecords (axis exalt | pleasure forever)
+
+review @ uk.music.yahoo
+
+label @ subpop
+
+label @ conspiracyrecords
+
+bio @ scaruffi Posted by indiessance at 4:40 AM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: alter , blogspot ,
+bodies need rest , pleasure forever , wicked shivering columbine
+
+Sunday, October 21, 2007
+
+
+
+Chris and Thomas
+
+
+
+Image:
+http://2.bp.blogspot.com/_djwHXlsYQ5k/RxtZA3uBoxI/AAAAAAAAAF4/2PvS0rDMhFo/s200/chris_and_thomas_press_.png
+
+Chris and Thomas , Los Angeles-based crooning duo, released their debut full-album Land of
+Sea during the summer. Along with standard instruments, their southwestern soundscape was
+sculpted with such tools as mandolin, cello, steel guitar and banjo. In this sonic space,
+vocals coalesce in harmonies that complement the focal point of their folk sound. True to
+their band name, neither singer abandons any of their harmonies to sing solo.
+
+
+
+Through traditional folk-styled lyrics, the title track - Land of Sea - serenades with
+imagery of desert coyotes and night skies dense with stars. Smooth melodies to sooth the
+caffeine-inclined at mom-and-pop java shops.
+
+
+
+At the 2006 Independent Music Awards , their song Take These Thoughts beat out four other
+finalists to take the Americana Song of the Year category.
+
+
+
+At performances, Chris and Thomas are known to share a single condenser microphone like a
+couple of folkies performing on a corner pub's open stage.
+
+
+
+profile @ myspace
+
+mp3 @ defendmusic (land of sea - chris and thomas)
+
+mp3 @ defendmusic (horse in the sky - chris and thomas)
+
+mp3 @ aolcdn (take these thoughts - chris and thomas)
+
+performance @ kcrw
+
+video @ youtube (interview)
+
+discography @ amazon
+
+label @ defendmusic
+
+home page @ chrisandthomas
+
+feed @ hypem
+
+review @ blogcritics Posted by indiessance at 8:46 AM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: blogspot , chris
+and thomas , digg music , land of sea , take these thoughts , technorati musicblog
+
+Friday, October 19, 2007
+
+
+
+Beirut
+
+
+
+Image:
+http://3.bp.blogspot.com/_djwHXlsYQ5k/RxiYe3uBowI/AAAAAAAAAFw/Sw89xReSJEs/s200/beirut+press.png
+
+The francophilian Beirut , a.k.a. boy wonder Zach Condon , developed a European-folk sound
+roughly resembling the debut of Wisconsin-based Pale Young Gentlemen .
+
+
+
+Like an actor immersed in a role, Condon fosters ideas from obsessions with particular
+artists and styles. For his latest full-album The Flying Club Cup , he delved into Jacques Brel
+recordings, along with other collections of chansons . Another muse was the photograph used
+for the cover of Flying Club - a European beach scene from the early 1900s. I was listening to a
+lot of Jacques Brel and French chanson music - pop songs shrouded in big, glorious,
+over-the-top arrangements and all this drama... - Zach Condon Condon's baroque-pop
+fixations led to the release of two full-albums and three EPs during 2006 and 2007 - recordings
+flavored with Balkan and French influences. It's a new obsession every year, a new obsession
+overcomes me and that's all I can do. - Zach Condon
+
+
+
+
+
+
+
+profile @ myspace
+
+
+
+mp3 @ carlsandburgvisits (nantes - beirut)
+
+mp3 @ t-sides (elephant - beirut)
+
+mp3 @ t-sides (the penalty - beirut)
+
+feed @ hypem
+
+
+
+video @ youtube (elephant gun - beirut)
+
+video @ youtube (nantes - beirut)
+
+video @ youtube (forks and knives la fÃªte - beirut)
+
+video @ youtube (the penalty - beirut)
+
+video @ youtube (les bourgeois - jacques brel)
+
+
+
+stream @ imeem.com (elephant gun - beirut)
+
+
+
+review @ pitchforkmedia
+
+
+
+interview @ mtv
+
+
+
+home page @ beirutband
+
+
+
+label @ badabingrecords
+
+
+
+What do klezmer music fans think of Beirut's Flying Club album? Posted by indiessance at 6:43
+AM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: beirut , blogspot
+, digg music , technorati musicblog , the flying club cup , zach condon
+
+Wednesday, October 17, 2007
+
+
+
+Barzin
+
+
+
+Image:
+http://3.bp.blogspot.com/_djwHXlsYQ5k/R3_f6E3lEFI/AAAAAAAAAXs/_o-6zieHd4Q/s200/barzin_press_2_.png
+
+The lyrical minimalism of the whispery Pale Blue Eyes by Barzin , from his self-titled debut,
+can be compared to the alt-country song Cow by Sparklehorse . Which itself stirs hearts
+through disconnected esoteric imagery. In contrast, Barzin 's warm vocals reflect on
+emotional relationships in slow-motion - and quiet introspection - backed by pedal steel
+guitar and drums with brushes. In this dreamy sonic space, strings are encouraged to ring out,
+then fade. And a syllable can have a whole measure if it wishes.
+
+Pale blue eyes
+
+In search of flight
+
+You do not know
+
+How hard you will fall
+
+How hard you will fall
+
+In November 2007, the debut LP will be re-released in Europe by Monotreme to cover a wider area
+this time; as well as the digital internet offering. His next record is due in October 2008.
+
+
+
+In 2006, Barzin released a second - wholly slowcore - album, My Life In Rooms , which contains
+the track Leaving Time . A Vincent Moon video captures the emotional essence of a man whose
+thoughts are overshadowed by the lovely face of the woman who left him.
+
+
+
+profile @ myspace
+
+mp3 @ monotremerecords (pale blue eyes - barzin)
+
+mp3 @ monotremerecords (leaving time - barzin)
+
+mp3 @ monotremerecords (let's go driving - barzin)
+
+feed @ hypem
+
+video @ youtube (leaving time - barzin)
+
+review @ almostcool
+
+interview mp3 @ undertones
+
+home page @ barzinh
+
+label @ monotremerecords Posted by indiessance at 9:51 AM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: barzin , blogspot
+, leaving time , my life in rooms , pale blue eyes
+
+Tuesday, October 16, 2007
+
+
+
+Bart Davenport
+
+
+
+Image:
+http://1.bp.blogspot.com/_djwHXlsYQ5k/RxSf4XuBouI/AAAAAAAAAFg/UBfhySjDGx8/s200/bart+davenport+press.png
+
+Honeycut frontman Bart Davenport 's Euphoria , off his second solo disc, sounds like a Van
+Morrison cover. Compare it to the R&B classic Domino - released at the end of 1970 - with its
+bouncy piano, and horn section. Which is a tribute to Fats Domino , who also featured horns.
+This links music history back to the 50s.
+
+
+
+You can find Davenport 's retro-pop track on his 2004 release: Game Preserve on which he seems
+to gravitate toward 70s singer-songwriters.
+
+
+
+profile @ myspace
+
+mp3 @ antennafarmrecords
+
+video @ youtube (physical world - bart davenpoort)
+
+video @ youtube (here comes my baby - bart davenport)
+
+video @ youtube (want some - bart davenport)
+
+video @ youtube (shadows - honeycut)
+
+review @ pittsburghcitypaper
+
+interview @ sfist
+
+label @ antennafarmrecords Posted by indiessance at 5:40 AM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: bart davenport ,
+blogspot , digg music , technorati musicblog
+
+Monday, October 15, 2007
+
+
+
+Cloud Cult
+
+
+
+Image:
+http://1.bp.blogspot.com/_djwHXlsYQ5k/RxQFaXuBotI/AAAAAAAAAFY/0wyVfzNyrGM/s200/cloud+cult+press+3.png
+
+The Minnesota-based eco-sensitive Cloud Cult synchronizes with the theme of Blog Action Day
+through activities led by singer-songwriter Craig Minowa . Who fronts the band and started
+the environmentally friendly nonprofit Earthology Records which "uses only recycled
+materials and donates all profits to environmental charities," according to Wikipedia .
+
+
+
+
+
+Image: http://blogactionday.org/images/action_234x60.jpg
+
+
+
+Their sets are enhanced by live paintings by visual performance artists.
+
+
+
+Image: http://www.cloudcult.com/images/band/stage.jpg
+
+The previous - Advice From the Happy Hippopotamus - seems to be the band's best effort, as of
+late.
+
+
+
+Minowa does not burden his lyrics with his pro-ecological cause - which remains active on the
+sidelines. In fact, any eco-message is esoteric, if detectable at all. In an EconoCulture
+interview he related how he does not "want to sculpt the message of the music to be too soapboxy.
+It can turn a lot of people off. So really all you can do is try to make really honest and loving
+music, something people gravitate to..."
+
+
+
+mp3 @ beatlawrence (chemicals collide - cloud cult)
+
+video @ youtube (chemicals collide - cloud cult)
+
+profile @ myspace
+
+review @ pitchforkmedia
+
+interview @ econoculture
+
+home page @ cloudcult Posted by indiessance at 6:26 PM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: advice from the
+happy hippopotamus , blog action day , blogspot , chemicals collide , cloud cult , craig minowa
+, digg music , technorati musicblog , the meaning of 8
+
+Sunday, October 14, 2007
+
+
+
+Architecture in Helsinki
+
+
+
+Image:
+http://4.bp.blogspot.com/_djwHXlsYQ5k/RxK21nuBosI/AAAAAAAAAFQ/2mmYMuRFrDs/s200/architecture+in+helsinki+press.png
+
+Formerly Northcote -based(now NYC) band revisits the synth-saturated decade. Indie-pop's
+sugar-spiked Architecture in Helsinki jacks up the jacked-in listener with dance-driven
+beats. The cosmic track Hold Music from their Polyvinyl Places Like This delivers a fizzy
+caffeine-buzz with vocals hinting at late-80s B-52s.
+
+
+
+Most of the eight band members pull out multiple instruments during performances, adding a
+variety of orchestral toys to their sound. This may indicate why Helsinki is commonly tagged
+"a collective", as applied to this productive collection of musicians featuring a variety of
+instruments and styles.
+
+
+
+On Places , Cameron Bird 's vocals can be heard on every track. In an interview, Bird informed
+Dig that there is "one major government-funded alternative radio station [in Australia]
+that kind of dictates who's popular in the independent music world. As far as the scene, the
+support, and the music coming out of it, it's fantastic."
+
+
+
+profile @ myspace
+
+mp3 @ traciedwards (hold music - architecture in helsinki)
+
+feed @ hypem
+
+video @ youtube (hold music - architecture in helsinki)
+
+reviews @ metacritic
+
+interview @ weeklydig
+
+home page @ architectureinhelsinki
+
+label @ polyvinylrecords Posted by indiessance at 7:11 PM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: architecture in
+helsinki , blogspot , cameron bird , digg music , hold music , places like this , technorati
+musicblog
+
+Saturday, October 13, 2007
+
+
+
+Amandine
+
+
+
+Image:
+http://4.bp.blogspot.com/_djwHXlsYQ5k/RxGUB3uBorI/AAAAAAAAAFI/a6QVIY0VGkk/s200/amandine_press_2_.png
+
+This Uppsala -based band's latest full-album, Solace in Sore Hands , contains a stirring
+narrative with civil war imagery that might give listeners the impression that a sleepless
+Confederate soldier had actually penned the lyrics by the light of a candle. This coming from
+Swedish songwriter Olof Gidlöf of the alt-country group Amandine , but the uninformed might
+have assumed that a southern U.S.-based folk band produced the sonically authentic track
+Soldiers Hands . and all the soldiers' hands were red
+
+from all the tears and blood that's shed Then the storyteller switches viewpoints from
+outsider to insider, offering both angles for the imagination to project. and in the morning
+when the reveille
+
+pulls us from more sleep Through winsome vocal tracks, Gidlöf imbues the ongoing American
+Civil War story with deep iceberg blues.
+
+
+
+Their most pop-friendly track is Secrets .
+
+
+
+mp3 @ amandinemusic (secrets - amandine)
+
+profile @ myspace
+
+feed @ hypem
+
+review @ pitchfork
+
+review @ tinymixtapes
+
+review @ popmatters
+
+home page @ amandinemusic
+
+label @ fat-cat.co.uk Posted by indiessance at 10:43 PM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: amandine ,
+blogspot , digg music , solace in sore hands , technorati musicblog
+
+Wednesday, October 10, 2007
+
+
+
+The Lovely Sparrows
+
+
+
+Image:
+http://2.bp.blogspot.com/_djwHXlsYQ5k/Rwq1NGKhDSI/AAAAAAAAAEo/dP4DO-ZRpOY/s200/the+lovely+sparrows.png
+
+In the first verse of Chemicals Change   the singer considers father's recurring cliche: if
+love's the truth, your heart's the consequence After the familial quote, no more worn out
+statements follow, and none of the lines repeat - only the title's phrase. With an anti-hero's
+attitude, a self-absorbed singer-songwriter reflects on a relationship that has
+dissolved, and how the chemistry - the formula that initially drew it together - had changed.
+Shawn Jones' inviting intuitive introspection is absent in much folk material. five days
+ago, chemicals changed
+
+rearranged themselves in sad stubborn ways Modern-flamenco stained fingers and maraca
+staccato oppose the desolate theme and Jones' somber vocal track(the liquor that keeps these
+separating fluids solute).
+
+
+
+From two questions, the title of Sparrows'   2006 release can be extracted, followed by a few
+more lines that enhance its meaning. can I pull up floors? can I pour on new paint?
+
+can I lay down tonight and just forget your face?
+
+
+
+profile @ myspace
+
+mp3 @ abandonedloverecords (chemicals change - the lovely sparrows)
+
+mp3 @ thelovelysparrows (i have a need you see - the lovely sparrows)
+
+feed @ hypem
+
+video @ youtube (backstage)
+
+home page @ thelovelysparrows
+
+label @ abandonedloverecords
+
+
+
+Update :
+
+In the lead number, Chemicals Change, singer-songwriter Shawn Jones ponders over a breezy
+flamenco guitar pattern... - Austin Sound
+
+
+
+Contacted Shawn Jones, to ask him about the "flamenco" reference, having detected something
+Spanish-sounding myself. He suggested, "what most reviewers are getting at is a loose latin
+feel that begins in the second verse [of Chemicals Change ]."
+
+
+
+Jones added how he tends to avoid the "straightforward approach" when writing new
+compositions, and arranging instrumental harmonies, in particular. He likes "the idea of
+basic folk songs that are enhanced by an interesting arrangement." An example of such can be
+found in War Has Seen the Best of Me . Posted by indiessance at 10:23 PM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: blogspot ,
+chemicals change , digg music , mxplay , pulling up floors pouring on new paint , shawn jones ,
+technorati musicblog , the lovely sparrows
+
+Shapes and Sizes
+
+
+
+Image:
+http://4.bp.blogspot.com/_djwHXlsYQ5k/RwzBIGKhDTI/AAAAAAAAAEw/haOqrqJ7vQg/s200/shapes_and_sizes_press_1_.png
+
+Shapes and Sizes has been compared to bands like The Fiery Furnaces , for their shape-shifting
+style(not to claim that Furnaces   and Shapes   have a similar sound). Since Shapes   is
+difficult to genre-tag, the listener might find it easier to discover comparable styles
+tucked away in particular tracks. This freak-folk fringe chameleon continues to snatch new
+sounds out of mid-air with its projectile tongue. But this is not a one songwriter band.
+...there's three people writing songs for the band. I think that it makes the band's sound a
+little harder to pin down than some. I guess the challenges for the band might be different.
+When some bands are trying hard to make the songs sound varied from each other, we're often
+trying to make the songs sound more cohesive. - Nathan Gage, 5/25/07
+
+
+
+The first track of their first, self-titled LP, Island's Gone Bad , is a two-act example of the
+group's genre-jumping potential. In the middle of the track, a new drum rhythm starts, which
+could be taken as the beginning of a new song. Lyrically, in a sense, the whole song seems to be an
+analogy, with modern society lapsing into Lord of the Flies -style cannibalism. Also, there
+is a character in the novel - nicknamed Piggy , which happens to be the title of a track on their
+new LP.
+
+
+
+mp3 @ sxsw (island's gone bad - shapes and sizes)
+
+
+
+Shape's   sophomore Split Lips, Winning Hips, a Shiner continues to establish their
+reputation for convention cracking compositions.
+
+
+
+The two tracks - Alone/Alive   and Teller/Seller - each have a forward slash in their title.
+Coincidentally, one of Nathan Gage's favorite bands is the avant-garde Akron/Family .
+
+
+
+profile @ myspace
+
+mp3 @ recidivism (head movin' - shapes and sizes)
+
+mp3 @ asthmatickitty (alone/alive - shapes and sizes)
+
+mp3 @ teamclermont (teller/seller - shapes and sizes)
+
+mp3 @ greenclothesmusic (piggy - shapes and sizes)
+
+feed @ hypem
+
+video @ youtube (piggy - shapes and sizes)
+
+video @ youtube (teller/seller - shapes and sizes)
+
+review @ pitchforkmedia
+
+interview @ stagehymns
+
+home page @ shapesandsizes
+
+label @ asthmatickitty Posted by indiessance at 6:45 AM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: alone alive ,
+blogspot , head movin , mxplay , myspace music , nathan gage , piggy , shapes and sizes , split
+lips winning hips a shiner , technorati musicblog , teller seller
+
+Sunday, October 7, 2007
+
+
+
+Papercuts
+
+
+
+Image:
+http://2.bp.blogspot.com/_djwHXlsYQ5k/Rwlr_WKhDRI/AAAAAAAAAEg/2xQPBkmke2E/s200/papercuts_press_.png
+
+Including a compilation of home-recorded demo tracks, Can't Go Back is the third release by
+northern California-toned Papercuts - sonically suspended in late-60s amber by
+singer-songwriter Jason Quever .
+
+
+
+Quever teases mid-60s Dylan with a one-two beat in Take the 227th Exit . A more market-friendly
+track, John Brown   continues through the psych-folk scented coastal fog - a consistently
+articulated dream scape. Where peripheral glimpses of the silhouettes of Spector and Dylan
+can be detected.
+
+
+
+His recordings remain lyrically developed and compositionally complete - unlike so many
+primitive indie-folk recordings. Which themselves stagnate, more than they enhance the
+genre. Quever demonstrates how far beyond open-mic folk he really is.
+
+
+
+mp3 @ gnomonsong (john brown - papercuts)
+
+profile @ myspace
+
+review @ pitchfork
+
+label @ gnomonsong
+
+feed @ hypem Posted by indiessance at 6:15 PM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: blogspot , can't
+go back , digg music , jason quever , mxplay , papercuts , technorati musicblog
+
+Saturday, October 6, 2007
+
+
+
+New Buffalo
+
+
+
+Image:
+http://4.bp.blogspot.com/_djwHXlsYQ5k/RwhQSGKhDQI/AAAAAAAAAEY/3mgab4PNDBA/s200/new_buffalo_press_.png
+
+On Feist's latest discography is the title 1234 , written by Sally Seltmann, a.k.a. New
+Buffalo .
+
+
+
+The folk nuances of Seltmann's soft-hearted down-under accent combine with keyboards, and
+manifestations of digital samples and electronic elements.
+
+
+
+The hypnotic sonic effect of panned vocal harmonies highlight Cheer Me Up Thank You , on her
+2007 second full-length project Somewhere, Anywhere . The panning harmony returns just
+before the chorus, then sweet soprano notes carry the imagery of a heart drifting through the
+paradise of romance:
+
+
+
+wild flowers growing in the park
+
+summertime, and it melts into dark
+
+dancing together at night until two
+
+you're cheering me up and I'm thanking you
+
+
+
+mp3 @ quickbeforeitmelts (cheer me up thank you - new buffalo)
+
+home page @ newbuffalo
+
+profile @ myspace
+
+review @ pitchfork Posted by indiessance at 10:18 PM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: blogspot , cheer
+me up thank you , digg music , new buffalo , sally seltmann , technorati musicblog
+
+Pale Young Gentlemen
+
+
+
+Image:
+http://2.bp.blogspot.com/_djwHXlsYQ5k/Rwfza2KhDNI/AAAAAAAAADA/chA4BcDXuco/s200/pale_young_gentlemen_press_.jpg
+
+Madison-based Pale Young Gentlemen can be tossed into the baroque pop genre. But their
+classical compositions featuring piano-cello arrangements are much more baroque than pop.
+From a group that gives riffs to cello - rather than some distorted electric guitar - the
+typical indie-head may not expect to find anything buzzworthy. True that - in an MTV sense - but
+not every ear insists exclusively upon stereotypical pop formulas that spark in the upper
+slots of the independent Billboard chart. Where you can find emo, rap and death-metal
+jockeying for position in the top 20.
+
+
+
+There may be indications that PYG will not repeat the same theme and style saturation next
+time. The indie-rock-pop genre tag in their MySpace profile does not seem tongue-in-cheek. A
+band of this sort would need to lean toward a more popular sound in order to increase their fan
+base. They clearly have the talent to accomplish that.
+
+
+
+PYG's self-titled debut LP is an example of a dark horse avant-garde band disguised as a group
+of musicians crammed into a tiny orchestra pit in a little theater. The work of a innovative
+band showing off its classical chops to the world.
+
+
+
+mp3 @ obscuresound (fraulein - pale young gentlemen)
+
+mp3 @ obscuresound (saturday night - pale young gentlemen)
+
+profile @ myspace
+
+review @ adequacy
+
+review @ tinymixtapes Posted by indiessance at 3:18 PM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: blogspot , digg ,
+fraulein , mxplay , pale young gentlemen , reisenauer , saturday night , technorati
+
+Friday, October 5, 2007
+
+
+
+Cat Power
+
+
+
+Image:
+http://3.bp.blogspot.com/_djwHXlsYQ5k/Rv0adsa5WZI/AAAAAAAAAB4/dMlMfhHCWJE/s200/cat_power_press2.jpg
+
+Cat Power's latest album The Greatest peaked at #1 on the Billboard Top Independent Albums
+chart - which is "based solely on sales". When considering Chan Marshall's story, missing
+from such an assessment are the factors of cult status and critical reviews. Perhaps a chunk of
+her wholeheartedly enthusiastic long-term fans have considered the stylistic detour -
+which the album took - a bum rap. But, based on comments coming out of the cluttered offices of
+critical acclaim, Greatest blows a hole through the graffiti etched brick wall of her cult
+stratum. Which opens the door to a wider fan base.
+
+
+
+The album's title track takes Chan back to home turf, and includes guitar work by Mabon
+"Teenie" Hodges , "lead guitarist and songwriter on many of Al Green's popular soul hits of the
+1970s." Add to that a group of musicians who took part in the shaping of Memphis soul in the late
+60s. Most of the tracks were laid down in one take. Such a influential lineup may be part of the
+reason why The Greatest costed 7 times more to make than any of her previous albums.
+
+
+
+player @ myspace
+
+interview @ harp
+
+mp3 @ matador (the greatest)
+
+real player @ matador (he war)
+
+real player @ matador (cross bones style)
+
+label @ matador
+
+
+
+Update :
+
+
+
+Against their will, a Cat Stevens cover song has become a hit for Matador Records, sort of. Chan
+Marshall, sung on a 30 second long recorded section of the song How Can I Tell You , that was used
+in a generic diamond commercial(probably DeBeers). Marshall's performance proved to be
+very marketable. During the approaching 2006 holiday season: "For the past several weeks,
+our esteemed General Manager has been besieged with daily email from persons desperate to
+purchase some version of this recording," wrote Matador Records Co-President Gerard
+Cosloy.
+
+
+
+Check out the cross-fire between hungry fans and frustrated record company execs on the
+Matador Records Blog .
+
+
+
+video @ youtube (how can i tell you - cat stevens)
+
+
+
+As the Cat Power breakout buzz gets a little louder, fans search for information about
+Chan(pronounced "shawn") Marshall, the law of supply and demand has resulted in more video
+interviews popping up in YouTube . Below is a partial link listing of various interviews at
+different stages of her career.
+
+
+
+video @ youtube
+
+video @ youtube
+
+video @ youtube
+
+video @ youtube
+
+video @ youtube
+
+video @ youtube Posted by indiessance at 10:48 AM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: blogspot , cat
+power , chan marshall , digg , mxplay , technorati , the greatest
+
+Thursday, October 4, 2007
+
+
+
+Spoon
+
+
+
+Image:
+http://2.bp.blogspot.com/_djwHXlsYQ5k/RwV3iw6jK8I/AAAAAAAAAC4/-rqib_pJAuU/s200/spoon_press_1.png
+
+This Austin-based band has a solid long-term following - above ground and below. The tinny
+band name Spoon was inspired by the title of a 1972 avant-garde krautrock hit of the same title.
+These days, we use the tag experimental   to reference sound sketching bands that enhance the
+underground music scenery - and occasionally spike up on popular music charts.
+
+
+
+Pitchfork contributing writer Eric Harvey gave Underdog   the if-any-track-was
+designation of "quintessential Spoon pop single." Coincidentally, Spoon has a band member
+by the name of Eric Harvey who contributes "keyboard, guitar, percussion, backing vocals."
+
+
+
+Consumers use a spoon to scoop up every drop, as you should. Spoon 's latest entrée Ga Ga Ga Ga Ga
+, is a track listing of savory rock creations, and has nothing to do with the Heimlich
+manoeuvre. Also, any valley girl-ian "gag me with a spoon" reference is antithetic. Their
+latest sonic menu is a g-g-g-g-grower, according to the highfalutin critical crowd.
+
+
+
+mp3 @ butterteam (don't you evah - spoon)
+
+mp3 @ toolshed (the underdog - spoon)
+
+home page @ spoontheband
+
+profile @ myspace
+
+review @ pitchfork Posted by indiessance at 5:53 PM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: blogspot , britt
+daniel , digg , experimental music , ga ga ga ga ga , mxplay , spoon , spoon band , technorati , the
+underdog
+
+Wednesday, October 3, 2007
+
+
+
+Art in Manila
+
+
+
+Image:
+http://4.bp.blogspot.com/_djwHXlsYQ5k/RwQNGQ-YAiI/AAAAAAAAACw/0AplVhjt7mU/s200/artinmanilapress1.png
+
+After receiving differing opinions from legal consultants, "the band formerly known as Art
+Bell" is now labeled Art in Manila . The former, a more direct reference to the well-known radio
+host for paranormal research programming. Who in recent years, relocated his show from
+Nevada to the Philippines - then back to Nevada again.
+
+
+
+Band leader, Orenda Fink , is singeing Smokey Bear with the group's August debut of Set the
+Woods on Fire . Lyrically, her material can tend to be introspective - with explicit details
+camouflaged, as opposed to a stereotypical "emo tell-all."
+
+
+
+Fink's sensuous somber vocal habit carries the upbeat Our Addictions   through haunted
+string stretches and twangs of country-rock.
+
+
+
+stream @ pitchfork (the sweat descends - art in manila)
+
+mp3 @ pitchfork (set the woods on fire - art in manila)
+
+mp3 @ lostinyourinbox (our addictions - art in manila)
+
+mp3 @ saddle creek (the abomination - art in manila)
+
+interview @ miami new times (orenda fink) Posted by indiessance at 4:35 PM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: art in manila ,
+blogspot , digg , mxplay , orenda fink , our addictions , set the woods on fire , technorati
+
+Tuesday, October 2, 2007
+
+
+
+The Acorn
+
+
+
+Image:
+http://2.bp.blogspot.com/_djwHXlsYQ5k/RwMCNA-YAhI/AAAAAAAAACo/a47fxXzdhS0/s200/theacorn_press_2.png
+
+This month, the fruit of the oak falls to make a sweet sound in the forest with Glory Hope
+Mountain . A word play title and lyrical silhouette of Gloria Esperanza Montoya, mother of
+Rolf Klausener - main songwriter for The Acorn .
+
+
+
+Last December, this Ottawa, Ontario-based folk-rock band released the six-pack EP Tin Fist ,
+after a year-long tour.
+
+
+
+The Acorn is now slated to perform at the second venue of their 21 stop Canadian tour that will
+hit Montreal on October 11th. The home town of keyboard player Keiko Devaux, who joined Acorn
+in 2006.
+
+
+
+Klausener informed Exclaim! that Lullaby (Mountain) captured the essence of the
+relationship between he and his mother. Also, after learning that Honduran lullabies were
+traditionally sung by one or two women, the feminine touch of Casey Mecija from Toronto-based
+Ohbijou was used for the six-pence sweetened vocal melody on Glory's final track.
+
+
+
+mp3 @ gvsbchris (lullaby mountain - the acorn)
+
+mp3 @ ipickmynose (dents - the acorn)
+
+mp3 @ quickbeforeitmelts (blankets - the acorn)
+
+interview @ exclaim!
+
+label @ paper bag records Posted by indiessance at 9:05 PM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: blogspot , digg ,
+glory hope mountain , lullaby mountain , mxplay , rolf klausener , technorati , the acorn
+
+Monday, October 1, 2007
+
+
+
+Broken Social Scene
+
+
+
+Image:
+http://3.bp.blogspot.com/_djwHXlsYQ5k/RwDMp8a5WeI/AAAAAAAAACg/vcHPbhudmwE/s200/broken_social_scene_.png
+
+In 2006, Toronto-based Broken Social Scene performed 7⁄4 (Shoreline) on Late Night with
+Conan O'Brien . 7⁄4 indicates the complex time signature of the composition. By listening
+closely to the drums, one can count out the seven beats. In addition to that, there is a
+half-beat pause before the accented cymbal, on the seventh beat. The musicians are counting:
+| 1 2 3 4 | 1 2 3 | 1 2 3 4 | 1 2 3 | - which is also revealed by the drum pattern.
+
+
+
+Feist fans will be able to recognize the vocals of band member Leslie Feist, who is currently
+signed with a major label.
+
+
+
+profile @ myspace
+
+mp3 @ jonmwang.com (7⁄4 shoreline)
+
+label @ arts&crafts Posted by indiessance at 5:22 AM Links to this post
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: blogspot , broken
+social scene , digg , leslie feist , mxplay , shoreline , technorati Newer Posts Older Posts
+Home Subscribe to: Posts (Atom) <!-- google_ad_client="pub-4661302514295396";
+google_ad_host="pub-1556223355139109"; google_ad_host_channel="00000";
+google_alternate_ad_url="http://www.blogger.com/img/blogger_ad180x150.html";
+google_ad_width=180; google_ad_height=150; google_ad_format="180x150_as";
+google_ad_type="text_image"; google_color_border="000000";
+google_color_bg="000000"; google_color_link="999999"; google_color_url="99CCFF";
+google_color_text="999999"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+indie + renaissance
+
+...featuring music reviews and interviews for the independently industrial masses.
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+interviews
+
+    
+
+    - rue royale
+
+    
+
+    - claps
+
+    
+
+    - eleonora cutaia
+
+    
+
+    - nick howard
+
+    
+
+    - verona red
+
+    
+
+    - we are they
+
+    
+
+    - the let up
+
+    
+
+    - the heaven seventies
+
+    
+
+    - elika
+
+    
+
+    - edith backlund
+
+    
+
+    - kgmr
+
+    
+
+    - aaron acosta
+
+    
+
+    - david broderick
+
+    
+
+    - gospel gossip
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+bookmark & subscribe
+
+
+
+Image: http://s9.addthis.com/button2-bm.png
+
+Image: http://s9.addthis.com/button2-fd.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+music blogs
+
+    
+
+    - 3hive
+
+    
+
+    - boy eats drum machine
+
+    
+
+    - brooklyn vegan
+
+    
+
+    - chicago avenue
+
+    
+
+    - coke machine glow
+
+    
+
+    - contrast podcast
+
+    
+
+    - daytrotter
+
+    
+
+    - each note secure
+
+    
+
+    - fensepost
+
+    
+
+    - futurist
+
+    
+
+    - gorilla vs bear
+
+    
+
+    - hype machine
+
+    
+
+    - i rock i roll
+
+    
+
+    - kexp
+
+    
+
+    - largehearted boy
+
+    
+
+    - lost at e minor
+
+    
+
+    - mp3hugger
+
+    
+
+    - music for robots
+
+    
+
+    - my old kentucky blog
+
+    
+
+    - notes from the road
+
+    
+
+    - obscure sound
+
+    
+
+    - said the gramophone
+
+    
+
+    - six eyes
+
+    
+
+    - songs:illinois
+
+    
+
+    - sound on the sound
+
+    
+
+    - stereogum
+
+    
+
+    - swedes please
+
+    
+
+    - tiny mix tapes
+
+    
+
+    - you ain't no picasso
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+blog archive
+
+    
+
+        - ►  2011 (1)
+
+        - ►  October (1)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (4)
+
+        - ►  November (1)
+
+        
+
+        
+
+        - ►  August (1)
+
+        
+
+        
+
+        - ►  April (1)
+
+        
+
+        
+
+        - ►  March (1)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2008 (13)
+
+        - ►  December (2)
+
+        
+
+        
+
+        - ►  November (1)
+
+        
+
+        
+
+        - ►  May (1)
+
+        
+
+        
+
+        - ►  April (2)
+
+        
+
+        
+
+        - ►  February (2)
+
+        
+
+        
+
+        - ►  January (5)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2007 (62)
+
+        - ►  December (13)
+
+        
+
+        
+
+        - ►  November (15)
+
+        
+
+        
+
+            - ▼  October (22)
+
+            - Boat
+
+            
+
+            - Awesome Car Funmaker
+
+            
+
+            - Owen
+
+            
+
+            - The Brunettes
+
+            
+
+            - Pleasure Forever
+
+            
+
+            - Chris and Thomas
+
+            
+
+            - Beirut
+
+            
+
+            - Barzin
+
+            
+
+            - Bart Davenport
+
+            
+
+            - Cloud Cult
+
+            
+
+            - Architecture in Helsinki
+
+            
+
+            - Amandine
+
+            
+
+            - The Lovely Sparrows
+
+            
+
+            - Shapes and Sizes
+
+            
+
+            - Papercuts
+
+            
+
+            - New Buffalo
+
+            
+
+            - Pale Young Gentlemen
+
+            
+
+            - Cat Power
+
+            
+
+            - Spoon
+
+            
+
+            - Art in Manila
+
+            
+
+            - The Acorn
+
+            
+
+            - Broken Social Scene
+
+            
+
+        
+
+        
+
+        
+
+        - ►  September (12)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+indiefeed alt-mod-rock
+
+Loading...
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+iggy pop
+
+"... performing live should be like flying while elephants pound the earth. "
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+feed validator
+
+
+
+Image:
+http://lh5.ggpht.com/_djwHXlsYQ5k/SRZYQ-tz4wI/AAAAAAAAAgk/BkW3mYhgVHk/valid-atom.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png © 2007 indiessance
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+robtex
+
+
+
+Image: http://www.robtex.com/ipinfo.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png var
+bt_counter_type=1; var bt_project_id=8055; blog tracker
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Powered by Blogger .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png   if
+(window.jstiming) window.jstiming.load.tick('widgetJsBefore'); if
+(typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'2600805912710361960';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d2600805912710361960','//indiessance.blogspot.com/2007_10_01_archive.html','2600805912710361960');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'2600805912710361960', 'bloggerUrl': 'http://www.blogger.com', 'title':
+'indiessance', 'pageType': 'archive', 'url':
+'http://indiessance.blogspot.com/2007_10_01_archive.html', 'canonicalUrl':
+'http://indiessance.blogspot.com/2007_10_01_archive.html',
+'canonicalHomepageUrl': 'http://indiessance.blogspot.com/', 'homepageUrl':
+'http://indiessance.blogspot.com/', 'blogspotFaviconUrl':
+'http://indiessance.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'analyticsAccountNumber': '', 'searchLabel': '',
+'searchQuery': '', 'pageName': 'October 2007', 'pageTitle': 'indiessance: October
+2007', 'encoding': 'UTF-8', 'locale': 'en-US', 'isPrivate': false, 'isMobile': false,
+'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false,
+'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42
+type\75\42application/atom+xml\42 title\75\42indiessance - Atom\42
+href\75\42http://indiessance.blogspot.com/feeds/posts/default\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42indiessance -
+RSS\42
+href\75\42http://indiessance.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42indiessance - Atom\42
+href\75\42http://www.blogger.com/feeds/2600805912710361960/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0752600805912710361960\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId':
+'pub-4661302514295396', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#999999', 'linkcolor':
+'#99aadd', 'visitedlinkcolor': '#aa77aa', 'textcolor': '#cccccc', 'headerfont':
+'normal bold 78% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif',
+'pagetitlefont': 'normal bold 200% \47Trebuchet MS\47,Trebuchet,Verdana,Sans-serif',
+'bgcolor': '#000000', 'descriptioncolor': '#777777', 'titlecolor': '#aadd99',
+'bordercolor': '#333333', 'postfooterfont': 'normal normal 78% \47Trebuchet MS\47,
+Trebuchet, Arial, Verdana, Sans-serif', 'pagetitlecolor': '#cccccc', 'bodyfont':
+'normal normal 100% \47Trebuchet MS\47,Trebuchet,Verdana,Sans-serif', 'endSide':
+'right', 'startSide': 'left', 'descriptionfont': 'normal normal 78% \47Trebuchet MS\47,
+Trebuchet, Verdana, Sans-serif', 'sidebarcolor': '#777777'}, 'override': ''}},
+{'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'},
+'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name':
+'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url':
+'/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'},
+'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name':
+'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense1',
+'sidebar', null, document.getElementById('AdSense1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text2', 'sidebar',
+null, document.getElementById('Text2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1',
+'sidebar', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar',
+null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList2',
+'sidebar', null, document.getElementById('LinkList2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_FeedView', new
+_WidgetInfo('Feed1', 'sidebar', null, document.getElementById('Feed1'), {'title':
+'indiefeed alt-mod-rock', 'showItemDate': false, 'showItemAuthor': false, 'feedUrl':
+'http://feeds.feedburner.com/IndiefeedAlt/modernRock', 'numItemsShow': 5,
+'loadingMsg': 'Loading...', 'openLinksInNewWindow': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text3', 'sidebar',
+null, document.getElementById('Text3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar',
+null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1', 'sidebar',
+null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar',
+null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar',
+null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'sidebar', null,
+document.getElementById('Attribution1'), {'attribution': 'Powered by \74a
+href\75\47http://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/2895759456-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

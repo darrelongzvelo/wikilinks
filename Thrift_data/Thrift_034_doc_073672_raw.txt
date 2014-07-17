@@ -1,0 +1,1247 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Excessive Headspace <!-- /* -----------------------------------------------
+Blogger Template Style Name: Watermark Designer: Josh Peterson URL: www.noaesthetic.com
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="keycolor" description="Main Color" type="color"
+default="#c0a154"/> <Group description="Page Text" selector="body"> <Variable
+name="body.font" description="Font" type="font" default="normal normal 14px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="body.text.color"
+description="Text Color" type="color" default="#333333"/> </Group> <Group
+description="Backgrounds" selector=".main-inner"> <Variable
+name="body.background.color" description="Outer Background" type="color"
+default="#c0a154"/> <Variable name="footer.background.color" description="Footer
+Background" type="color" default="transparent"/> </Group> <Group description="Links"
+selector=".main-inner"> <Variable name="link.color" description="Link Color"
+type="color" default="#cc3300"/> <Variable name="link.visited.color"
+description="Visited Color" type="color" default="#993322"/> <Variable
+name="link.hover.color" description="Hover Color" type="color" default="#ff3300"/>
+</Group> <Group description="Blog Title" selector=".header h1"> <Variable
+name="header.font" description="Title Font" type="font" default="normal normal 60px
+Georgia, Utopia, 'Palatino Linotype', Palatino, serif"/> <Variable
+name="header.text.color" description="Title Color" type="color" default="#ffffff" />
+</Group> <Group description="Blog Description" selector=".header .description">
+<Variable name="description.text.color" description="Description Color"
+type="color" default="#997755" /> </Group> <Group description="Tabs Text"
+selector=".tabs-inner .widget li a"> <Variable name="tabs.font" description="Font"
+type="font" default="normal normal 20px Georgia, Utopia, 'Palatino Linotype', Palatino,
+serif"/> <Variable name="tabs.text.color" description="Text Color" type="color"
+default="#cc0000"/> <Variable name="tabs.selected.text.color"
+description="Selected Color" type="color" default="#000000"/> </Group> <Group
+description="Tabs Background" selector=".tabs-outer .PageList"> <Variable
+name="tabs.background.color" description="Background Color" type="color"
+default="transparent"/> <Variable name="tabs.separator.color"
+description="Separator Color" type="color" default="#f4f4f4"/> </Group> <Group
+description="Date Header" selector="h2.date-header"> <Variable name="date.font"
+description="Font" type="font" default="normal normal 16px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif"/> <Variable name="date.text.color" description="Text Color"
+type="color" default="#997755"/> </Group> <Group description="Post"
+selector="h3.post-title, .comments h4"> <Variable name="post.title.font"
+description="Title Font" type="font" default="normal normal 30px Georgia, Utopia,
+'Palatino Linotype', Palatino, serif"/> <Variable name="post.background.color"
+description="Background Color" type="color" default="transparent"/> <Variable
+name="post.border.color" description="Border Color" type="color" default="#ccbb99"
+/> </Group> <Group description="Post Footer" selector=".post-footer"> <Variable
+name="post.footer.text.color" description="Text Color" type="color"
+default="#997755"/> </Group> <Group description="Gadgets" selector="h2"> <Variable
+name="widget.title.font" description="Title Font" type="font" default="normal normal
+20px Georgia, Utopia, 'Palatino Linotype', Palatino, serif"/> <Variable
+name="widget.title.text.color" description="Title Color" type="color"
+default="#000000"/> <Variable name="widget.alternate.text.color"
+description="Alternate Color" type="color" default="#777777"/> </Group> <Group
+description="Footer" selector=".footer-inner"> <Variable name="footer.text.color"
+description="Text Color" type="color" default="#000000"/> <Variable
+name="footer.widget.title.text.color" description="Gadget Title Color" type="color"
+default="#000000"/> </Group> <Group description="Footer Links"
+selector=".footer-inner"> <Variable name="footer.link.color" description="Link
+Color" type="color" default="#cc0000"/> <Variable name="footer.link.visited.color"
+description="Visited Color" type="color" default="#990000"/> <Variable
+name="footer.link.hover.color" description="Hover Color" type="color"
+default="#ff0000"/> </Group> <Variable name="body.background" description="Body
+Background" type="background" color="#f4f4f4" default="$(color)
+url(http://www.blogblog.com/1kt/watermark/body_background_birds.png) repeat
+scroll top left"/> <Variable name="tabs.background.inner" description="Tabs
+Background Inner" type="url" default="none"/> <Variable name="tabs.background.outer"
+description="Tabs Background Outer" type="url" default="none"/> <Variable
+name="tabs.border.size" description="Tabs Border Size" type="length" default="0"/>
+<Variable name="tabs.shadow.spread" description="Tabs Shadow Spread" type="length"
+default="0"/> <Variable name="main.padding.top" description="Main Padding Top"
+type="length" default="30px"/> <Variable name="main.cap.height" description="Main
+Cap Height" type="length" default="0"/> <Variable name="main.cap.image"
+description="Main Cap Image" type="url" default="none"/> <Variable
+name="main.cap.overlay" description="Main Cap Overlay" type="url" default="none"/>
+<Variable name="main.background" description="Main Background" type="background"
+default="transparent none no-repeat scroll top left"/> <Variable
+name="post.background.url" description="Post Background URL" type="url"
+default="url(http://www.blogblog.com/1kt/watermark/post_background_birds.png)"/>
+<Variable name="post.border.size" description="Post Border Size" type="length"
+default="1px"/> <Variable name="post.border.style" description="Post Border Style"
+type="string" default="dotted"/> <Variable name="post.shadow.spread"
+description="Post Shadow Spread" type="length" default="0"/> <Variable
+name="footer.background" description="Footer Background" type="background"
+color="#444444" default="$(color)
+url(http://www.blogblog.com/1kt/watermark/body_background_navigator.png) repeat
+scroll top left"/> <Variable name="startSide" description="Side where text starts in blog
+language" type="automatic" default="left"/> <Variable name="endSide"
+description="Side where text ends in blog language" type="automatic" default="right"/>
+*/ /* Use this with templates/1ktemplate-*.html */ /* Content
+----------------------------------------------- */ body { font: normal normal 14px
+Arial, Tahoma, Helvetica, FreeSans, sans-serif; color: #000000; background: #f4f4f4
+url(http://3.bp.blogspot.com/-ORBqTS9ufMU/Tc70AA1-WjI/AAAAAAAAAEU/USf6k0V5Ass/s0/masbackground2.jpg)
+no-repeat fixed center center; } html body .content-outer { min-width: 0; max-width: 100%;
+width: 100%; } .content-outer { font-size: 92%; } a:link { text-decoration:none; color:
+#cc0000; } a:visited { text-decoration:none; color: #990000; } a:hover {
+text-decoration:underline; color: #ff0000; } .content-inner { padding: 0; } /* Header
+----------------------------------------------- */ .header-inner .Header
+.titlewrapper, .header-inner .Header .descriptionwrapper { padding-left: 20px;
+padding-right: 20px; } .Header h1 { font: normal normal 60px Georgia, Utopia, 'Palatino
+Linotype', Palatino, serif; color: #666666; text-shadow: 2px 2px rgba(0, 0, 0, .1); }
+.Header h1 a { color: #666666; } .Header .description { font-size: 140%; color: #ffffff; } /*
+Tabs ----------------------------------------------- */ .tabs-inner .section {
+margin: 0 20px; } .tabs-inner .PageList, .tabs-inner .LinkList, .tabs-inner .Labels {
+margin-left: -11px; margin-right: -11px; background-color: transparent; border-top: 0
+solid #ffffff; border-bottom: 0 solid #ffffff; -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .3);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .3); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .3);
+box-shadow: 0 0 0 rgba(0, 0, 0, .3); } .tabs-inner .PageList .widget-content, .tabs-inner
+.LinkList .widget-content, .tabs-inner .Labels .widget-content { margin: -3px -11px;
+background: transparent none no-repeat scroll right; } .tabs-inner .widget ul { padding:
+2px 25px; max-height: 34px; background: transparent none no-repeat scroll left; }
+.tabs-inner .widget li { border: none; } .tabs-inner .widget li a { display: inline-block;
+padding: .25em 1em; font: normal normal 20px Georgia, Utopia, 'Palatino Linotype',
+Palatino, serif; color: #cc0000; border-right: 1px solid #999999; } .tabs-inner .widget
+li:first-child a { border-left: 1px solid #999999; } .tabs-inner .widget li.selected a,
+.tabs-inner .widget li a:hover { color: #000000; } /* Headings
+----------------------------------------------- */ h2 { font: normal normal 20px
+Georgia, Utopia, 'Palatino Linotype', Palatino, serif; color: #000000; margin: 0 0 .5em; }
+h2.date-header { font: normal bold 16px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #000000; padding: 5px 20px 5px; background: transparent
+url(http://img194.imageshack.us/img194/640/postback3.png) repeat scroll top left;
+_background-image: none; border: dotted 1px #000000; border-bottom: 0; margin-bottom: 0;
+} /* Main ----------------------------------------------- */ .main-inner
+.column-center-inner { padding: 0 5px; } .main-inner .column-right-inner{ background:
+transparent url(http://img194.imageshack.us/img194/640/postback3.png) repeat
+scroll top left; _background-image: none; border: dotted 1px #000000; padding: 5px 5px 5px;
+} .main-outer { margin-top: 0; background: transparent none no-repeat scroll top left; }
+.main-inner { padding-top: 30px; } .main-cap-top { position: relative; } .main-cap-top
+.cap-right { position: absolute; height: 0; width: 100%; bottom: 0; background:
+transparent none repeat-x scroll bottom center; } .main-cap-top .cap-left { position:
+absolute; height: 245px; width: 280px; right: 0; bottom: 0; background: transparent none
+no-repeat scroll bottom left; } /* Posts
+----------------------------------------------- */ .post-outer { padding: 5px 20px;
+margin: 0 0 25px; background: transparent
+url(http://img194.imageshack.us/img194/640/postback3.png) repeat scroll top left;
+_background-image: none; border: dotted 1px #000000; -moz-box-shadow: 0 0 0 rgba(0, 0, 0,
+.1); -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1); } h3.post-title { font: normal normal 30px Georgia,
+Utopia, 'Palatino Linotype', Palatino, serif; margin: 0; } .comments h4 { font: normal
+normal 30px Georgia, Utopia, 'Palatino Linotype', Palatino, serif; margin: 1em 0 0; }
+.post-body { font-size: 105%; line-height: 1.5; position: relative; } .post-header {
+margin: 0 0 1em; color: #000000; } .post-footer { margin: 10px 0 0; padding: 10px 0 0; color:
+#000000; border-top: dashed 1px #777777; } #blog-pager { font-size: 140% } #comments
+.comment-author { padding-top: 1.5em; border-top: dashed 1px #777777;
+background-position: 0 1.5em; } #comments .comment-author:first-child { padding-top: 0;
+border-top: none; } .avatar-image-container { margin: .2em 0 0; } /* Widgets
+----------------------------------------------- */ .widget ul, .widget #ArchiveList
+ul.flat { padding: 0; list-style: none; } .widget ul li, .widget #ArchiveList ul.flat li {
+padding: .35em 0; text-indent: 0; border-top: dashed 1px #777777; } .widget ul
+li:first-child, .widget #ArchiveList ul.flat li:first-child { border-top: none; }
+.widget .post-body ul { list-style: disc; } .widget .post-body ul li { border: none; } .widget
+.zippy { color: #777777; } .post-body img, .post-body .tr-caption-container, .Profile
+img, .Image img, .BlogList .item-thumbnail img { padding: 5px; background: #fff;
+-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5); -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0,
+.5); -goog-ms-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5); box-shadow: 1px 1px 5px rgba(0, 0, 0,
+.5); } .post-body img, .post-body .tr-caption-container { padding: 8px; } .post-body
+.tr-caption-container { color: #333333; } .post-body .tr-caption-container img {
+padding: 0; background: transparent; border: none; -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1); } /* Footer
+----------------------------------------------- */ .footer-outer { color:#ffffff;
+background: #444444
+url(http://www.blogblog.com/1kt/watermark/body_background_navigator.png) repeat
+scroll top left; } .footer-outer a { color: #cc0000; } .footer-outer a:visited { color:
+#990000; } .footer-outer a:hover { color: #ff0000; } .footer-outer .widget h2 { color:
+#cc0000; } /* Mobile ----------------------------------------------- */ .mobile
+.mobile-date-outer { border-bottom: none; background: transparent
+url(http://img194.imageshack.us/img194/640/postback3.png) repeat scroll top left;
+_background-image: none; margin-bottom: 10px; } .mobile .body-fauxcolumns .cap-top {
+margin: 0; } .mobile-link-button { background-color: #cc0000; } .mobile-link-button
+a:link, .mobile-link-button a:visited { color: transparent; } .commenthidden
+{display:none;} .commentshown {display:inline;} --> function togglecomments (postid) {
+var whichpost = document.getElementById(postid); if
+(whichpost.className=="commentshown") { whichpost.className="commenthidden"; } else
+{ whichpost.className="commentshown"; } } <!-- body { min-width: 860px; } .content-outer,
+.content-fauxcolumn-outer, .region-inner { min-width: 860px; max-width: 860px; _width:
+860px; } .main-inner .columns { padding-left: 0px; padding-right: 260px; } .main-inner
+.fauxcolumn-center-outer { left: 0px; right: 260px; /* IE6 does not respect left and right
+together */ _width: expression(this.parentNode.offsetWidth - parseInt("0px") -
+parseInt("260px") + 'px'); } .main-inner .fauxcolumn-left-outer { width: 0px; }
+.main-inner .fauxcolumn-right-outer { width: 260px; } .main-inner .column-left-outer {
+width: 0px; right: 100%; margin-left: -0px; } .main-inner .column-right-outer { width:
+260px; margin-right: -260px; } #layout { min-width: 0; } #layout .content-outer {
+min-width: 0; width: 800px; } #layout .region-inner { min-width: 0; width: auto; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0751646963732610964766\46blogName\75Excessive+Headspace\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://caspianseamonster.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://caspianseamonster.blogspot.com/\46vt\075576539107685670234',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+
+
+Excessive Headspace
+
+
+
+
+
+
+
+Wednesday, July 25, 2012
+
+
+
+The Criminal-Industrial Complex and the Case of the Disappearing-Reappearing Firearm
+
+I'm sure you have all noticed by now that, in the aftermath of the Colorado theater massacre,
+there's been another sudden spike in conversation about firearm legality. A few days ago, a
+friend of mine linked to this particular site . I've mentioned before that I don't
+particularly like talking gun politics and that XHS is here to talk hardware, and I have no
+intention of getting into the crime rate statistics. However, one argument made by
+GunInformation is as follows:
+
+MYTH: If you outlaw guns only the outlaws will have guns.
+
+TRUTH: If you outlaw guns, very few criminals will have guns. In America guns start out legal.
+Then they enter the black market one way or the other (source) . [broken link] So if you have less
+legal guns then there will less guns entering the black market and consequently less outlaws
+owning guns. Think about it. Nations with very strict gun control laws such as the UK,
+Australia, and Japan have much lower gun crime rates than the US. The most probable
+explanation for this is that criminals in the US have much greater access to guns due to less gun
+control. Saying "If you outlaw guns only the outlaws will have guns" is very misleading and
+completely absurd. If you outlaw guns, less outlaws will have guns. Would you rather have more
+or less outlaws owning guns? The answer is obvious.
+
+Challenge accepted. Let me tell you what's absurd: thinking you can uninvent the firearm.
+
+
+
+The statistic is something like, there are 90 firearms for every 100 people in the United
+States . Whether you like it or not, rewriting the law to completely or practically prohibit
+firearms ownership in the US would not magically make all these disappear. A very small
+percentage of legal owners would voluntarily turn in their firearms and you'd end up with a lot
+of guns packed in grease and nitrogen and buried in the forest. Let's pretend for the sake of
+argument that Mrs. Feinstein got her wish and Mr. and Mrs. America all handed in their
+blasters. Okay, you've cut off your theoretical source of guns being stolen and put onto the
+black market. Except, wait, what's that? Military and law enforcement still own firearms?
+Surely those would never be stolen ( or lost ) and end up in the wrong hands .
+
+
+
+Again, for the sake of argument, let us pretend that the supply of stolen guns going into the
+black market has completely dried up. What then? You still have a pretty enormous number of
+firearms in the wrong hands that aren't being turned in voluntarily. It will take law
+enforcement a long damn time to round up and bring in any significant percentage of those goods
+already on the black market. But sit tight, we aren't done arguing with fantasy yet.
+
+
+
+Now let's pretend that 99% of guns in civilian hands, legal or otherwise, have been rounded up
+and destroyed, the industry has fallen apart at the seams, and leakage from government
+sources has been cut down to practically nothing. What then? See, nature abhors a vacuum. It
+shouldn't be news to anyone that the United States has had a problem lately with would-be legal
+firearms ending up in the possession of the cartels on both sides of our southern border. Part
+of that could be how prolific firearms are in the US. Part of it could be that, rather than trying
+to stop the problem, the BATFE has been practically facilitating the trafficking . Nothing is
+stopping the flow from going the other way. If the US goes from being a high-pressure area to a
+low-pressure area, I can assure you that organized crime will start bringing in all kinds of
+fun new toys from the outside.
+
+
+
+"But we can stop gun trafficking into the US." Sure you can. Because that's worked out really,
+really well with Cannabis, Cocaine, Heroin , people , and alcohol in the past. Albert Einstein
+said that insanity is doing the same thing over and over again but expecting different
+results; why are we still talking about prohibition of.... anything, really?
+
+
+
+I digress. We still aren't done with hypotheticals though.
+
+
+
+Okay, we've taken all guns out of civilian hands and stopped all theft from the government and
+completely stopped all trafficking into the country. The United States is now a 99.9999%
+gun-free population. What happens now?
+
+
+
+That's where my area of expertise comes in.
+
+
+
+See, while arguing about whether or not we should have firearms, a lot of people haven't taken
+the time to figure out how they actually work. Propellant has been around for at least a
+millennium , chemical/pyrotechnic ignition and fixed-metallic-cartridge ammunition
+have both been around about 170 years, and autoloaders for about 125 . Firearms and ammunition
+are not magic . Now, I've heard the childish suggestion at least once in the last couple months
+that you can manufacture a firearm using a 3D plastic-printer . While that is absolutely
+absurd, I don't want to make you think that producing a working gun is outside the realm of
+capabilities of the common person, either. It does not take a team of PhDs to design and
+manufacture them. (It's also perfectly legal in the US; if you can legally own it, you can
+legally build it from scratch. You just can't sell it to anyone else since you're not a licensed
+manufacturer.)
+
+
+
+Modern firearms appear pretty complex to the uninformed, but this is somewhat conditional.
+It can actually be much simpler to build a fully-automatic-only submachinegun than a legal,
+semiautomatic-only firearm; a design based on the STEN or the Gustav m/45 has a total of four
+moving parts (trigger, sear, bolt, magazine follower) and can be cobbled together from scrap
+metal. Several books have been written on this subject . Rifling a gun barrel is a bit more
+complex of a task, but it isn't rocket science; we have been doing it for hundreds of years using
+wooden tools . I've seen a home-made rifling machine constructed from bicycle parts. Also,
+honestly, for fighting at very close ranges, rifling is a little bit overrated .
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/-kiMWae5l9TU/UA_NhUrO1vI/AAAAAAAAAJQ/YOcmNLPlUy4/s400/lutysmgvol1.jpg
+Philip A. Luty's smooth-bore 9mm SMG design.
+
+How about ammunition? If you can't stop people from building guns, surely you can stop the flow
+of the Spice... er, uh, excuse me, the flow of gunpowder. Right? No, not really. There are four
+elements to a firearm cartridge: casing, projectile, propellant, and primer. I'll go into a
+little bit of detail with each of these.
+
+
+
+I'll link to it in a case study further down, but under clandestine conditions people have been
+known to make cases out of copper lipstick tubes; they don't last long but they do work.
+Everyone knows shotgun shells are made mostly of plastic, once upon a time they were made
+mostly of paper. Rifle casings have been made from plastic too (they do have some issues but,
+strictly speaking, they do work.) Hell, the British used to make their rifle shells out of foil
+. Projectiles are almost universally made from lead because it's cheap, it has a low melting
+temperature (very easy to cast to desired shape,) and is heavy (carries more energy further
+down-range.) Lead isn't exactly hard stuff to come by .
+
+
+
+Modern "smokeless" nitro powder is a tiny bit complex and dangerous to manufacture, but then
+so is crystal meth. Supposedly we've seen Kari Byron make crude nitro-based propellant on TV .
+Even so, making good-old-fashioned blackpowder isn't exactly a difficult endeavor:
+saltpeter, charcoal, and sulfur with a small amount of graphite and water (for safety,) ran
+through a ball mill and then separated by granule size . [Please note: if you try this and blow
+yourself up, it's not my fault.] A similar process involving sugar instead of charcoal is used
+for homemade model rocket engines. Blackpowder is much messier than nitro, but you can make a
+recoil- or blowback-operated autoloader (like our $100 homemade submachinegun described
+above) run on it for at least a while. Priming compounds are also a bit touchy to work with but, if
+you're not up to the chemistry, powdered match heads can supposedly be substituted as a last
+resort.
+
+
+
+You'd be a fool to assume that such weapons wouldn't be practical or effective. It's also a
+well-established aspect of guerrilla warfare to use your own shitty weapons as a means to get
+your hands on the enemy's superior hardware.
+
+
+
+So, if this is all so easy to do, why isn't it done? Because right now there's no reason to.
+Organized or semi-organized crime in the US has proven to be very capable of mass-producing
+illicit drugs, probably the most relevant example as mentioned above being crystal meth.
+There's certainly no reason they couldn't take up firearms too, but right now there are other,
+easier ways to obtain guns and it simply isn't profitable or necessary. It has, however, been
+observed elsewhere in time and space. Here are three case studies for you to look into:
+
+
+
+#1: Once upon a time (the 1930's/40's) in Palestine, the Zionists set up small, underground
+arms and ammunition factories to build STEN submachineguns. Over top of them were laundry
+houses being frequented by British soldiers, whose steady supply of soiled clothing kept the
+washing machines running night and day, masking the noise of the arms factory underneath. One
+of the most famous of these was an ammunition factory known as the Ayalon Institute , where
+copper stock meant for lipstick cases was formed into 9mm pistol shells for four years leading
+up to the 1948 Arab-Israeli War.
+
+
+
+#2: I'll let this article on illicit firearms manufacture in the Philippines speak for
+itself.
+
+
+
+#3: This US Army field manual contains an entire chapter describing improvised firearms and
+ammunition, most of which where built by the Vietcong during the Vietnam War. (Of course, it's
+a small section amongst 200ish pages of bombs, booby traps, and poisons.)
+
+
+
+So, what's my point? What do we do about this?
+
+
+
+You cope. You recognize that guns exist, they aren't hard to produce, and that they will
+continue to exist and be produced until the day either Humanity nukes itself out of existence
+or we are eaten by an asteroid . Recognize that there's not really anything you can do about
+this, and your time and effort are much better spent dealing with why we live in a country that
+has a long history of institutionalized crime and violence based on poor eduction, severe
+socioeconomic imbalance, and poorly-informed policies.
+
+
+
+Teal Deer version: Yes, when guns are outlawed, the outlaws will continue to have guns. Spend
+less time worrying about guns and more time making a world that doesn't drive so many people to
+be outlaws.
+
+
+
+/end rant
+
+
+
+--Katemonster Posted by Caspian Sea Monster at 05:16 1 comment:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Gun laws ,
+manufacturing , STEN , Too many links
+
+Monday, May 21, 2012
+
+
+
+Old Art
+
+This ain't exactly firearm technology or news related, but y'all know I dabble in artistic
+pursuits too, right? I was going through a bunch of my old stuff and found a small stack of
+drawings I'd forgotten about slash thought I didn't have anymore. This would be one of them,
+and is somewhere in the vicinity of ten years old. Good lord the dimensions are screwy, but the
+detail is pretty good for having been drawn by a 14 year old, right?
+
+
+
+In related news, my last name does not ring well for the name of a company.
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/-kCiu-_mJ-lM/T7rP2tjlxiI/AAAAAAAAAI0/NNC1q--3_ZA/s400/bahn1911.png
+Posted by Caspian Sea Monster at 16:34 No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1911 , art
+
+Monday, May 14, 2012
+
+
+
+Is Up a Safe Direction?
+
+
+
+Image:
+http://4.bp.blogspot.com/-ya3Hb8FtNJE/T7EujEvBDNI/AAAAAAAAAIk/KU6gjhGZ2BE/s200/smallergreen1.png
+
+This is a question I keep getting asked, or rather something I am repeatedly and adamantly told
+is untrue, any time the topic of safety pops up. In my experience, every person and
+organization uses the exact same set of safety rules, but always numbered and worded
+differently. One of these rules that is that all firearms should be kept pointed in a safe
+direction, and that you should never, ever point a firearm at anything or anyone you don't wish
+to maim, kill, or destroy. The issue then becomes, what exactly constitutes a 'safe
+direction'? The de-facto safe positions I always go to are either nearly straight down (not at
+my feet, of course) or nearly straight up but for some reason, almost every time this is
+discussed, someone tries to convince me that pointed up in the air is NOT a safe direction.
+
+
+
+Your goal with the 'safe direction' rule is to make sure that, if you completely fail in every
+other aspect of safe firearm handling and negligently discharge a shot, you don't end up
+blowing away your girlfriend or your cat or (much lower on your priority list, I hope) your
+expensive sports car or plasma television. I am not in any way advocating that you should
+actually, intentionally fire straight up or down, and I am not saying that firing either way
+will cause no damage to anything.
+
+
+
+Grossly oversimplified, the idea behind down being safer than up is that a bullet fired into
+the ground will come to a stop without hurting anyone, while a bullet fired into the sky will
+inevitably fall back toward the Earth, smack someone in the head, and kill them. The latter
+part is certainly a risk if you are outdoors in a very crowded area, however it isn't that much of
+a concern if you are in the middle of the desert with no one around for miles (shooting yourself
+in the head by firing up into the air would require miraculously bad luck.) As for firing into
+the ground, a high power rifle bullet striking concrete is probably going to frag some chunks
+of rock back up into the air; not a good prospect for your legs or your eyes.
+
+
+
+The fact is that projectiles coming from firearms are likely going to cause some damage
+somewhere when they come to a stop and, for safety's sake, you should keep your muzzle directed
+somewhere that will minimize the effects of or reduce the chances of causing any serious
+damage. That is to say, the safest available direction. Pointed into the ground would be
+preferable when on the first floor of a building with no basement, while pointed up into the
+attic would be a better idea while on the top floor. What's safest while standing on a concrete
+pad in the middle of Mojave isn't necessarily safest when standing in a crowded Walmart
+parking lot.
+
+
+
+Safety rules besides, unless you're in the middle of nowhere and you're using birdshot, don't
+be an idiot and don't fire intentionally into the air. I think that's about all I have to say on
+the subject. Stay frosty, folks.
+
+
+
+--Katemonster Posted by Caspian Sea Monster at 09:18 2 comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: safety
+
+Tuesday, May 8, 2012
+
+
+
+Things happened!
+
+Guess what, we're not dead! (Just been a little comatose, that's all.) I do have three
+important announcements to make. Be warned that this post is slightly
+stream-of-consciousness-y.
+
+
+
+The first is that, well... we aren't dead. Life tends to get in the way of this little project of
+ours, and writing on XHS simply doesn't make it very high on the priority list every day. A made
+the conscious decision a while back to not make this a news blog (despite my occasional posts
+about what Magpul may or may not be doing.) There are plenty of other places for that, like ENDO .
+Rather, this is simply a place for Carla and I to put our thoughts up for everyone else to see.
+Most of that will have to do with gunsmithing. Above all else, what we write about here is
+firearm technology; how stuff works, why stuff doesn't work, and how to fix it. Anything else
+we post about - training, news, legislation - is incidental and secondary to that mission. As
+such, don't expect posts to ever become super-frequent, but do expect them to be
+super-informative. I think that's all I have to say about that.
+
+
+
+The second item of discussion is our place on the web. Blogger is totally 2005 and Tumblr is
+where it's at now, or so I'm told. Too bad; I kind of hate Tumblr's format and refuse to
+transition XHS over there. A friend of mine recently did so with his advertisement industry
+blog , with the primary goal of reaching a larger audience. While that is entirely
+understandable move, and reaching a larger audience is definitely something we'd like, I
+simply don't think Tumblr's format will work well for what we're trying to do here. (Not to
+mention the enormous amount of time I already spent customizing this page.) What I am doing
+however is linking to an XHS Facebook fan page which will link back to updates here, and I'm in
+the process of setting that up right now. I've also considered doing the same with Twitter, but
+with how infrequently we update I don't think that's really warranted. Keep in mind with all of
+this that we aren't professional bloggers, we're professional firearms aficionados;
+everything else we do is, again, incidental.
+
+
+
+The third piece of news is merchandise! I know what you're thinking, and no we don't have a big
+enough following to simply start selling t-shirts that say Excessive Headspace on them and
+have that be that. I'm in the process of making a few firearm-related infographic posters. The
+first one is a shop/range safety notice and it isn't nearly done yet, but I've had a lot of people
+tell me that some of the graphics I've made for it so far are very nice by themselves. Thus, I've
+thrown together a little something out of what I've finished up 'til now:
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/-zp4JBg-MGJ8/T6n6BBfxPwI/AAAAAAAAAIY/hoctIz9o2_o/s320/muzzle_discipline_for_zompocalypse_survivors_by_caspianseamonster-d4z4tnx.png
+
+
+
+The Zompocalypse Survivor's Basic Guide to Muzzle Discipline is available through
+deviantArt as 20" x 20" photo print, and the individual frames are available as 10" x 10" photo
+prints or on coffee mugs. You can view the complete dA store here . I'll probably also be looking
+into having them put on t-shirts soon. Beyond that, I have several infographic posters (with,
+you know, words on them this time) in the works, along with a couple books. I wouldn't expect the
+final safety poster to be done for at least another week, and don't plan on hearing anything
+about those books anytime soon, but they are in the works, I promise. --Katemonster Posted by
+Caspian Sea Monster at 22:48 No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: major updates ,
+stuff for sale
+
+Sunday, November 20, 2011
+
+
+
+The S&W Cinderella Gun
+
+
+
+Image:
+http://2.bp.blogspot.com/-p04WUJytABw/TslSZOFASmI/AAAAAAAAAHo/wr7BzpWoyr0/s320/revside1.png
+
+My grandfather passed away recently. Sad, of course, but not tragic. He died at 86 of natural
+causes, in his sleep (on a lot of morphine,) after a long and full life of kicking entirely too
+much ass for one person. Anyway, I thought I would share with everyone here the revolver I
+inherited from him; it was his backup gun in the 80's and 90's, when he was a Sacramento County
+Sheriff's deputy and a California State Corrections officer.
+
+
+
+It's a Smith & Wesson Model 36-1; a J-frame revolver, 5-shot, .38 Special, similar to the
+Chief's Special, but with a 3" barrel and a square butt. It was originally produced
+specifically to fill the roll of an NYPD Policewoman's service pistol. This particular
+example is has splotches of missing bluing on both sides of the barrel and the back of the right
+grip stock is cracked but, all things considered, it doesn't look too bad for having ridden
+around on Grandpa's ankle for 15-20 years.
+
+
+
+Click here to expand the article for a bit of history and more photos.
+
+
+
+In 1934, The New York City Police Department enacted a policy that all policewomen were
+required to carry a handgun and learn to shoot. Previously, carrying a firearm was optional
+for all female employees and there were no training or practice requirements. Under the new
+orders, they had to go through the same marksmanship training as their male counterparts, and
+were required to carry a revolver of at least .32 caliber. This was paired with a purse/holster
+combo as part of the policewoman's uniform.
+
+
+
+In 1950, Smith & Wesson stretched the I-size frame to fit the .38 Special cartridge, creating
+the J-size frame and the "Chief's Special" revolver. This was a 5-shot revolver with only a 2"
+barrel and a round-butt grip, intended as a police officer's backup weapon.
+
+
+
+In 1957, Smith & Wesson started using a proper numeric model designation system and
+retroactively applied numeric designations to their existing product line; the "Military &
+Police" became the Model 10, the ".357 Magnum" became the Model 27, the "Highway Patrolman"
+became the Model 28, and the "Chief's Special" became the Model 36, amongst other examples.
+
+
+
+In 1967, the New York City Police Department issued new orders that all officers had to carry
+service revolvers chambered for the .38 Special cartridge. This became a problem for
+policewomen; they were still required to carry the purse/holster as part of their uniform,
+and there were no .38 Special service revolvers that would fit it. Thus, at their request,
+Smith & Wesson introduced a service version of the Model 36, called the Model 36-1. The barrel
+was lengthened from 2" to 3", the ejector rod lengthened to match, and it had a square-butt grip
+in place of the original round-butt.
+
+
+
+The gun created an unintentional but very real glass ceiling for policewomen trying to
+advance to the rank of Sergeant. One of the things that contributed to your eligibility
+consideration was your weapon handling skill, determined by both speed and accuracy in a
+course of fire of putting twelve shots on target. The men, armed with the Model 10, fired six
+shots, reloaded, and fired six more. Women armed with the Model 36-1 had to fire five shots,
+reload, fire five, reload again, and fire two more. This more or less guaranteed that females
+would always be at the bottom of the advancement list.
+
+
+
+The nickname "Cinderella Gun" was never anything official or popular, just something I
+picked up here while doing research and refers to its somewhat sexist origin. Other sources
+for some of the above information are here and here.
+
+
+
+Image:
+http://2.bp.blogspot.com/-wVPOKatcr3Q/TslSI5vvm_I/AAAAAAAAAHg/y4uHj3evKnA/s320/revside0.png
+
+Image:
+http://3.bp.blogspot.com/-Dfz1GY7qLiw/TslQ24_0C9I/AAAAAAAAAG4/VLBZI34F7KE/s320/revolver1.png
+
+Image:
+http://2.bp.blogspot.com/-juzDGpz8XOk/TslQioJiVnI/AAAAAAAAAGw/2LYGE6cTfAc/s320/revolver0.png
+
+Image:
+http://2.bp.blogspot.com/-4j8oqoPp0Ck/TslRTaBv0VI/AAAAAAAAAHI/eZfOYoVBi2M/s320/revopen1.png
+
+Image:
+http://3.bp.blogspot.com/-svreoQpdJEY/TslRDntmmxI/AAAAAAAAAHA/UMt262DarpE/s320/revopen0.png
+
+Image:
+http://1.bp.blogspot.com/-6X7WKW-7nus/TslRlsqMeGI/AAAAAAAAAHQ/AXYKkxqPSGM/s320/revopen3.png
+
+Image:
+http://2.bp.blogspot.com/-Bvm4zN7SGzQ/TslR3ZT46II/AAAAAAAAAHY/w0VVBm9QfbQ/s320/revopen4.png
+
+--Katemonster Posted by Caspian Sea Monster at 11:48 No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: .38 Special ,
+Chief's Special , Model 36 , revolver , Smith , Wesson
+
+Sunday, November 6, 2011
+
+
+
+It Works! (Part 1)
+
+In particular, this works.
+
+
+
+BCM Gunfighter Charging Handle:
+
+
+
+You might be familiar with this one already. If you're not, here's the pertinent part of the
+sales pitch from www.bravocompanyusa.com:
+
+
+
+The BCMGUNFIGHTER™ Charging Handle and extended latches feature internal redesigns to
+direct the force off of the roll pin and into the body of the charging handle during support hand
+only manipulations. This new design has a built in backstop engineered into the extended
+latch and into the charging handle. As the latch is opened up, its’ travel is limited by these
+flat surface backstops. With this travel limiting feature, the stress is taken off the roll
+pin, and is now redirected into the entire body of the charging handle.
+
+
+
+But does it work?
+
+
+
+I'm happy to report that it does indeed perform as advertised (but be sure to apply some light
+lubrication). With the handle installed, charging the rifle becomes very easy - even with
+large low mounted optics in place. I should know. Due to some underpowered reloads used in my
+new 300 BLK upper, I ended up having to charge the rifle after every shot for fifty rounds. The
+serrations on the latch gave good purchase, but didn't tear up my unprotected finger. Yes, it
+only takes one finger. For what it's worth, I'd recommend either the Large or Medium latch.
+
+
+
+Bottom Line: It's worth the $44.95 that Bravo Company and Midway USA want for it. Posted by
+tokageko at 11:16 No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: BCM Gunfighter ,
+Charging Handle , review
+
+Tuesday, September 13, 2011
+
+
+
+MIAD? Nah, I'm MOE-K.
+
+I'm going to hell for that title. Anyway...
+
+
+
+How could I forget to mention this yesterday!? Magpul announced two new products over the
+weekend. First up is the MOE+ grip, identical to the original MOE but with a new grippy,
+rubberized texture for better grippiness (shut up that is totally a word now) in wet
+conditions and, presumably, to compete with their biggest challenger in the pistol grip
+market, Hogue .
+
+
+
+The second new item is the MOE-K grip. Slimmer than the other offerings and with something more
+along the lines of a 1911 grip angle, the -K is marketed at the PDW/"rifle-in-a-lunchbox"
+market. The idea is that the more vertical grip angle makes for easier shooting and greater
+comfort while your wrist is smashed between the grip and your body. My complaint: no storage
+core. I assume this has to due with the slimmer profile. Still, I am disappoint. I have
+mentioned before my desire for an A1-profile grip with the texture and storage core of the MOE.
+Oh well.
+
+
+
+In a departure from previous behavior, Magpul waited until the products were actually ready
+to ship before officially announcing them. We appreciate this guys, we really do. Now where's
+this PMAG-40 you promised me so long ago?
+
+
+
+MOE+
+
+
+
+Image:
+http://1.bp.blogspot.com/-kLMixlfRKcI/Tm90AtO3mlI/AAAAAAAAAEk/ghMeJ5ejqww/s400/MAG416_PDM_01.jpg
+
+MOE-K
+
+
+
+Image:
+http://1.bp.blogspot.com/-mhrXXKISii0/Tm90BuiTbsI/AAAAAAAAAEo/0EaJdqUTUso/s400/MAG438_PDM_1.jpg
+
+--Katemonster Posted by Caspian Sea Monster at 08:28 No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Magpul , MIAD , MOE
+, MOE+ , MOE-K
+
+Monday, September 12, 2011
+
+
+
+We aren't dead yet
+
+Ahem. Been a while since I've touched this, hasn't it? My apologies, life has been a whole lot
+more busy and I just haven't had the time to pay XHS any mind. Thought I'd check in to say that
+Carla and I are both still breathing, and highlight something cool while I'm here.
+
+
+
+While researching options for further accurizing my Mosin, I came across these really sweet
+barrels repurposed from the Czech UK59 machine gun. This isn't particularly news to a lot of
+people, but this might be . Kmanator at the Saiga-12 forum re-repurposed one of these barrels
+onto a PSL, and the result looks amazing.
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/-9tGWsylf7qI/Tm6LHiFbhhI/AAAAAAAAAEg/uMmONKrWlg0/s400/100_3427.jpg
+
+1" two-shot groups at 100 yards using 1954 Bulgarian surplus light ball. I want to see what it's
+capable of with handloads. Also, needless to say, I want one. Granted, I'm picky and have a few
+specific alterations in mind (lighter stock, fluted barrel, muzzle brake, M14 front sight on
+gas block.) Nonetheless; very nice work, Kmanator.
+
+
+
+--Katemonster Posted by Caspian Sea Monster at 15:55 No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Mosin , PSL
+
+Monday, May 30, 2011
+
+
+
+Memorial Day
+
+Ah, Memorial Day.
+
+
+
+
+Thank-A-Veteran-Who-Is-Still-Alive-Because-You-Can't-Directly-Thank-The-Dead-Veterans-For-Whom-Memorial-Day-Is-Actually-For
+Day. Not to be confused with Veterans Day, which is the actual
+Thank-A-Veteran-Who-Is-Still-Alive Day.
+
+
+
+Why I don't really like Mothers/Fathers/Labor/Veterans/Memorial Day:
+
+"Thank you for doing whatever it is that you do (because I don't actually know what it is.) I'm
+thanking you because today is dedicated to you by the Federal Government, not because I
+actually care or appreciate you, and honestly you never even really cross my mind the other
+364.25 days of the year. So thanks again." I think that's how a lot of people treat these
+holidays. I'm also a professional and highly experienced pessimist, so what do I know?
+
+
+
+(Carla says I sound angry in this, but I'm really not. Just kind of... disillusioned and
+despondent.)
+
+
+
+Having said that...
+
+
+
+To my friends:
+
+Alex (US Army, Iraq)
+
+Deanna (US Army)
+
+Michael (US Army I think?)
+
+Hillary (USN)
+
+Jessica (USN, soon to be going back into service with the US Army)
+
+Connor (USMC)
+
+
+
+To my family:
+
+My grandfather in the USAAC/USAF, WWII
+
+My other grandfather in the USAAC, WWII, and USMC, Korea, survivor of the battle of Chosin
+Reservoir
+
+My great-grandfather in the USMC, WWI
+
+My aunts and uncles in the US Army and USAF
+
+
+
+And to Carla's father Mike (US Army, Vietnam)
+
+
+
+Happy Memorial Day, and thanks for doing what so many other people are too cowardly to do.
+
+
+
+--Katemonster Posted by Caspian Sea Monster at 12:39 1 comment:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: holidays ,
+Memorial Day
+
+Sunday, May 22, 2011
+
+
+
+Some Opinions on Tactical Scopes
+
+So you’ve got this nice tactical rifle and you want to put a scope on it. A “tactical
+scope” makes sense. How does one go about choosing an optic for their rifle though? There are
+a lot of important things to keep in mind. Here’s what I consider when buying a tactical scope
+for one of my rifles.
+
+
+
+Magnification is the first thing I tend to look at. It’s going to have the biggest impact on
+how you shoot. What magnification to choose is entirely dependent on how far you plan on
+shooting. I like to think that 1x per hundred yards is a good rule. Others like more
+magnification, but it’s important to keep in mind: all you need to do to hit the target is be
+able to see it. Three times magnification is the most I’d consider for anything close
+quarters. Four power is the least I’d consider for longer ranges, or precision shooting at
+shorter ranges. The maximum is entirely dependent on your ability to hold the crosshairs on
+the target. It becomes more difficult the higher the magnification is.
+
+
+
+Reticules are an important consideration as well. Mil-dots are popular, but really not
+necessary for most shooters. The one place that they tend to shine is on scopes with tenth (or
+even twentieth) mil windage and elevation adjustments - if the reticule is in the first focal
+plane. When shooting at paper, this allows you to accurately estimate the distance from point
+of aim to point of impact in mils and adjust appropriately. No converting mils to minutes of
+angle. Otherwise, it’s easy enough to estimate inches and convert them to minutes, using a
+regular cross-hair.
+
+
+
+There are other little specifics about scopes as well, like tube diameter. Supposedly a 30mm
+tube lets more light through than a 1inch tube, but in practice I’ve not noticed much of a
+difference. Objective diameter does seem to make a more noticeable difference though. Fifty
+millimeter objectives let in a lot of light, but they can get in the way of iron sights (on
+something like an M14) or require high rings to mount properly. A smaller objective gives you
+more freedom in mounting the scope low enough to get a good cheek-weld. Forty millimeter seems
+to be a good compromise of light gathering and low mounting.
+
+
+
+Other nice things to have are finger adjustable turrets, the kind that aren’t hidden by
+screw on dust covers. Lens covers are always a good idea. Side parallax adjustment is good to
+have, but not totally necessary in practice. Illumination is totally up to you.
+Theoretically it helps in low light, but I’ve never had a chance to shoot in low light. I can
+however see it helping on low magnification at short range though.
+
+
+
+All of this aside, there is one thing that should be remembered above all else when buying an
+optic for your rifle: “You get what you pay for.” You may well end up paying more than your
+rifle cost. Take it from me though, it’s worth the money to get a scope that you can rely on.
+I’ve had too many low quality scopes crap out on me. Do your homework, shop around, and get the
+best you can afford. Posted by tokageko at 14:55 No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: scope , tactical
+Older Posts Home Subscribe to: Posts (Atom)
+
+Who writes this stuff?
+
+    
+
+        CaspianSeaMonster
+
+        aka Kaitlyn
+
+    
+
+        Late 80's baby. Child of the Mojave Desert. Completely obsessed with firearms on a
+        mechanical level. Is probably what's wrong with America.
+
+        View her dA profile here .
+
+    
+
+    
+
+        Tokageko
+
+        aka Carla
+
+    
+
+        Daughter of John Rambo. Carnivorous to a fault.
+
+    
+
+
+
+    Like our Facebook page here!
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ▼  2012 (4)
+
+            - ▼  July (1)
+
+            - The Criminal-Industrial Complex and the Case of th...
+
+            
+
+        
+
+        
+
+        
+
+        - ►  May (3)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (17)
+
+        - ►  November (2)
+
+        
+
+        
+
+        - ►  September (2)
+
+        
+
+        
+
+        - ►  May (9)
+
+        
+
+        
+
+        - ►  March (1)
+
+        
+
+        
+
+        - ►  January (3)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (2)
+
+        - ►  December (2)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Subscribe
+
+
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png All Comments
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png All Comments
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Copyright © 2010-2012
+K.V.B. (CaspianSeaMonster) and C.M.B. (Tokageko). Powered by Blogger .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+window.setTimeout(function() { document.body.className =
+document.body.className.replace('loading', ''); }, 10); if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV2";window['blogger_blog_id'] =
+'1646963732610964766';BLOG_attachCsiOnload('');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d1646963732610964766','//caspianseamonster.blogspot.com/','1646963732610964766');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'1646963732610964766', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Excessive
+Headspace', 'pageType': 'index', 'url': 'http://caspianseamonster.blogspot.com/',
+'canonicalUrl': 'http://caspianseamonster.blogspot.com/', 'canonicalHomepageUrl':
+'http://caspianseamonster.blogspot.com/', 'homepageUrl':
+'http://caspianseamonster.blogspot.com/', 'blogspotFaviconUrl':
+'http://caspianseamonster.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': '',
+'pageTitle': 'Excessive Headspace', 'encoding': 'UTF-8', 'locale': 'en', 'isPrivate':
+false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Excessive
+Headspace - Atom\42
+href\75\42http://caspianseamonster.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42Excessive Headspace - RSS\42
+href\75\42http://caspianseamonster.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Excessive Headspace - Atom\42
+href\75\42http://www.blogger.com/feeds/1646963732610964766/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0751646963732610964766\42 /\076',
+'meTag': '\74link rel\75\42me\42
+href\75\42http://www.blogger.com/profile/13639595937122948450\42 /\76\n',
+'openIdOpTag': '\74link rel\75\42openid.server\42
+href\75\42http://www.blogger.com/openid-server.g\42 /\76\n\74link
+rel\75\42openid.delegate\42 href\75\42http://caspianseamonster.blogspot.com/\42
+/\76\n', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if
+IE]\76\74script type\75\42text/javascript\42
+src\75\42//www.blogger.com/static/v1/jsbin/3651483553-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076',
+'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'tabs_background_color': 'transparent',
+'tabs_border_size': '0', 'link_hover_color': '#ff0000', 'tabs_shadow_spread': '0',
+'footer_link_color': '#cc0000', 'description_text_color': '#ffffff',
+'body_text_color': '#000000', 'link_visited_color': '#990000', 'post_border_color':
+'#000000', 'footer_text_color': '#ffffff', 'post_background_color': 'transparent',
+'post_title_font': 'normal normal 30px Georgia, Utopia, \47Palatino Linotype\47,
+Palatino, serif', 'tabs_text_color': '#cc0000', 'tabs_separator_color': '#999999',
+'endSide': 'right', 'post_shadow_spread': '0', 'tabs_background_inner': 'none',
+'post_footer_text_color': '#000000', 'startSide': 'left', 'tabs_font': 'normal normal
+20px Georgia, Utopia, \47Palatino Linotype\47, Palatino, serif', 'body_font': 'normal
+normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'main_cap_overlay':
+'none', 'main_cap_height': '0', 'date_text_color': '#000000', 'widget_title_font':
+'normal normal 20px Georgia, Utopia, \47Palatino Linotype\47, Palatino, serif',
+'widget_title_text_color': '#000000', 'tabs_background_outer': 'none', 'keycolor':
+'#c0a154', 'link_color': '#cc0000', 'post_border_size': '1px',
+'footer_widget_title_text_color': '#cc0000', 'main_background': 'transparent none
+no-repeat scroll top left', 'main_cap_image': 'none', 'header_font': 'normal normal 60px
+Georgia, Utopia, \47Palatino Linotype\47, Palatino, serif', 'header_text_color':
+'#666666', 'footer_background_color': '#444444', 'post_border_style': 'dotted',
+'main_padding_top': '30px', 'date_font': 'normal bold 16px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif', 'footer_link_visited_color': '#990000',
+'tabs_selected_text_color': '#000000', 'post_background_url':
+'url(http://img194.imageshack.us/img194/640/postback3.png)',
+'body_background_color': '#f4f4f4', 'footer_link_hover_color': '#ff0000',
+'widget_alternate_text_color': '#777777'}, 'override': ''}}, {'name': 'view', 'data':
+{'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name':
+'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'sidebar-right-1', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar-right-1', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_SubscribeView', new
+_WidgetInfo('Subscribe1', 'sidebar-right-1', null,
+document.getElementById('Subscribe1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'footer-3', null,
+document.getElementById('Attribution1'), {'attribution': 'Copyright &#169;
+2010-2012 K.V.B. (CaspianSeaMonster) and C.M.B. (Tokageko). Powered by \74a
+href\75\47http://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/2030570962-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'),
+{'title': 'Pages', 'links': [{'href': 'http://caspianseamonster.blogspot.com/',
+'title': 'Home', 'isCurrentPage': true}], 'mobile': false}, 'displayModeFull'));
+

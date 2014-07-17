@@ -1,0 +1,1469 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Empire of Builders <!-- /* -----------------------------------------------
+Blogger Template Style Name: Dots Dark Date: 24 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="textcolor" description="Text Color"
+type="color" default="#abc"> <Variable name="pagetitle" description="Blog Title
+Color" type="color" default="#8dd"> <Variable name="blogDescriptionColor"
+description="Blog Description Color" type="color" default="#9c7"> <Variable
+name="posttitle" description="Post Title Color" type="color" default="#9c7">
+<Variable name="linkcolor" description="Link Color" type="color" default="#da7">
+<Variable name="vlinkcolor" description="Visited Link Color" type="color"
+default="#799"> <Variable name="dateheadercolor" description="Date Header Color"
+type="color" default="#7bc"> <Variable name="sidebartitle" description="Sidebar
+Title Color" type="color" default="#7bc"> <Variable name="borderColor"
+description="Border Color" type="color" default="#567"> <Variable name="bodyfont"
+description="Text Font" type="font" default="normal normal 100%
+Verdana,Arial,Sans-Serif"> <Variable name="pagetitlefont" description="Blog Title
+Font" type="font" default="normal bold 250% Helvetica,Arial,Sans-serif"> <Variable
+name="blogDescriptionFont" description="Blog Description Font" type="font"
+default="normal normal 100% Helvetica, Arial, Sans-serif"> <Variable
+name="dateHeaderFont" description="Date Header Font" type="font" default="normal bold
+100% Verdana, Sans-serif"> <Variable name="headerfont" description="Sidebar Title
+Font" type="font" default="normal bold 95% Verdana,Sans-serif"> <Variable
+name="startSide" description="Start side in blog language" type="automatic"
+default="left"> <Variable name="endSide" description="End side in blog language"
+type="automatic" default="right"> */ body { margin-top: 0px; margin-right: 0px;
+margin-bottom: 0px; margin-left: 0px; background:#123
+url("http://www.blogblog.com/dots_dark/bg_minidots.gif"); background-position:
+50% 31px; text-align:center; font:x-small Verdana, Arial, Sans-serif; color:#aabbcc;
+font-size/* */:/**/small; font-size: /**/small; } /* Page Structure
+----------------------------------------------- */ #outer-wrapper {
+background:url("http://www.blogblog.com/dots_dark/bg_3dots.gif") no-repeat 250px
+50px; width:700px; margin:0 auto; text-align:left; font:normal normal 100%
+Verdana,Arial,Sans-Serif; } #header-wrapper { display: none; } #main-wrapper {
+width:450px; float:right; padding:100px 0 20px; font-size:85%; word-wrap: break-word;
+/* fix for long text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text
+content breaking IE sidebar float */ } #main {
+background:url("http://www2.blogblog.com/dots_dark/bg_minidots2.gif") -100px
+-100px; padding:20px 10px 15px; } #sidebar-wrapper { width:200px; float:left;
+font-size:85%; padding-bottom:20px; word-wrap: break-word; /* fix for long text breaking
+sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE sidebar
+float */ } #sidebar {
+background:url("http://www2.blogblog.com/dots_dark/bg_minidots2.gif") 150px
+-50px; padding:40px 10px 15px; width:200px; width/* */:/**/180px; width: /**/180px; } /*
+Title & Description ----------------------------------------------- */ .Header h1 {
+margin:0 0 .5em; line-height: 1.4em; font: normal bold 250% Helvetica,Arial,Sans-serif;
+color: #88dddd; } .Header h1 a { color:#88dddd; text-decoration:none; } .Header
+.description { margin:0 0 1.75em; color: #99cc77; font: normal normal 100% Helvetica,
+Arial, Sans-serif; } /* Links ----------------------------------------------- */
+a:link { color:#ddaa77; } a:visited { color:#779999; } a:hover { color:#779999; } a img {
+border-width:0; } /* Posts ----------------------------------------------- */
+h2.date-header { margin:0 0 .75em; padding-bottom:.35em; border-bottom:1px dotted
+#556677; text-transform: lowercase; letter-spacing:.3em; color: #77bbcc; font: normal
+bold 100% Verdana, Sans-serif; } .post { margin:0 0 2.5em; } .post h3 { margin:.25em 0;
+line-height: 1.4em; font: normal bold 95% Verdana,Sans-serif; font-size: 130%;
+font-weight: bold; color:#99cc77;
+background:url("http://www1.blogblog.com/dots_dark/bg_post_title_left.gif")
+no-repeat left .25em; padding-top:0; padding-right:0; padding-bottom:1px;
+padding-left:45px; } .post h3 a { text-decoration:none; color: #99cc77; } .post h3 a:hover {
+color: #aabbcc; } .post .post-body { margin:0 0 .75em; line-height:1.6em; } .post-body
+blockquote { line-height:1.3em; } .post-footer { margin:0; }
+.uncustomized-post-template .post-footer { text-align: right; }
+.uncustomized-post-template .post-author, .uncustomized-post-template
+.post-timestamp { display: block; float: left; margin-right: 4px; text-align: left; }
+.post-author, .post-timestamp { color:#99cc77; } a.comment-link { /* IE5.0/Win doesn't
+apply padding to inline elements, so we hide these two declarations from it */ background/*
+*/:/**/url("http://www.blogblog.com/dots_dark/icon_comment_left.gif") no-repeat
+left .25em; padding-left:15px; } html>body a.comment-link { /* Respecified, for IE5/Mac's
+benefit */
+background:url("http://www.blogblog.com/dots_dark/icon_comment_left.gif")
+no-repeat left .25em; padding-left:15px; } .post img, table.tr-caption-container {
+margin-top:0; margin-right:0; margin-bottom:5px; margin-left:0; padding:4px;
+border:1px solid #556677; } .tr-caption-container img { border: none; margin: 0; padding:
+0; } .feed-links { clear: both; line-height: 2.5em; } #blog-pager-newer-link { float: left;
+} #blog-pager-older-link { float: right; } #blog-pager { text-align: center; } /* Comments
+----------------------------------------------- */ #comments { margin:0; } #comments
+h4 { margin:0 0 10px; border-top:1px dotted #556677; padding-top:.5em; line-height:
+1.4em; font: bold 110% Georgia,Serif; color:#9c7; } #comments-block { line-height:1.6em;
+} .comment-author {
+background:url("http://www.blogblog.com/dots_dark/icon_comment_left.gif")
+no-repeat 2px .35em; margin:.5em 0 0; padding-top:0; padding-right:0; padding-bottom:0;
+padding-left:20px; font-weight:bold; } .comment-body { margin:0; padding-top:0;
+padding-right:0; padding-bottom:0; padding-left:20px; } .comment-body p { margin:0 0
+.5em; } .comment-footer { margin:0 0 .5em; padding-top:0; padding-right:0;
+padding-bottom:.75em; padding-left:20px; color:#996; } .comment-footer a:link {
+color:#996; } .deleted-comment { font-style:italic; color:gray; } /* More Sidebar Content
+----------------------------------------------- */ .sidebar h2 { margin:2em 0 .75em;
+padding-bottom:.35em; border-bottom:1px dotted #556677; line-height: 1.4em; font:
+normal bold 95% Verdana,Sans-serif; text-transform:lowercase; color:#77bbcc; }
+.sidebar p { margin:0 0 .75em; line-height:1.6em; } .sidebar ul { list-style:none;
+margin:.5em 0; padding:0 0px; } .sidebar .widget { margin: .5em 0 1em; padding: 0 0px;
+line-height: 1.5em; } .main .widget { padding-bottom: 1em; } .sidebar ul li {
+background:url("http://www1.blogblog.com/dots_dark/bullet.gif") no-repeat 3px
+.45em; margin:0; padding-top:0; padding-right:0; padding-bottom:5px;
+padding-left:15px; } .sidebar p { margin:0 0 .6em; } /* Profile
+----------------------------------------------- */ .profile-datablock { margin: 0 0
+1em; } .profile-img { float: left; margin-top: 0; margin-right: 8px; margin-bottom: 5px;
+margin-left: 0; border: 4px solid #345; } .profile-data { margin: 0; line-height: 1.5em; }
+.profile-textblock { clear: left; margin-left: 0; } /* Footer
+----------------------------------------------- */ #footer { clear:both;
+padding:15px 0 0; } #footer p { margin:0; } /* Page structure tweaks for layout editor
+wireframe */ body#layout #sidebar, body#layout #main, body#layout #main-wrapper,
+body#layout #outer-wrapper, body#layout #sidebar-wrapper { padding: 0; } body#layout
+#sidebar-wrapper, body#layout #sidebar { padding: 0; width: 240px; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0754398289997215667445\46blogName\75Empire+of+Builders\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://bensonnhedges.blogspot.com/search\46blogLocale\75en_US\46v\0752\46homepageUrl\75http://bensonnhedges.blogspot.com/\46vt\0753069083282575525027',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Sunday, December 27, 2009
+
+
+
+???
+
+kdg2 hidup ni xley nk diramal.. Posted by
+
+
+
+Musang Berjanggut at
+
+
+
+7:22 PM 1 comment:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Tunnel
+
+
+
+A tunnel is an underground passageway. The definition of what constitutes a tunnel is not
+universally agreed upon. However, in general tunnels are at least twice as long as they are
+wide. In addition, they should be completely enclosed on all sides, save for the openings at
+each end. Some civic planners define a tunnel as 0.1 miles (0.16 km ) in length or longer, while
+anything shorter than this should be called an underpass or a chute . For example, the
+underpass beneath Yahata Station in Kitakyushu , Japan is only 0.08 miles (0.13 km) long and
+therefore should not be considered a tunnel.
+
+A tunnel may be for pedestrians or cyclists , for general road traffic , for motor vehicles
+only, for rail traffic, or for a canal . Some are aqueducts , constructed purely for carrying
+water — for consumption, for hydroelectric purposes or as sewers — while others carry
+other services such as telecommunications cables. There are even tunnels designed as
+wildlife crossings for European badgers and other endangered species . Some secret tunnels
+have also been made as a method of entrance or escape from an area, such as the Cu Chi Tunnels or
+the tunnels connecting the Gaza Strip to Egypt . Some tunnels are not for transport at all but
+are fortifications, for example Mittelwerk and Cheyenne Mountain .
+
+In the United Kingdom a pedestrian tunnel or other underpass beneath a road is called a subway .
+This term was used in the past in the United States , but now refers to underground rapid transit
+systems. The central part of a rapid transit network is usually built in tunnels. To allow
+non-level crossings, some lines run in deeper tunnels than others. Rail stations with much
+traffic usually provide pedestrian tunnels from one platform to another, though others use
+bridges
+
+
+
+
+
+Geotechnical investigation
+
+Main article: Geotechnical investigation
+
+It is essential that any tunnel project starts with a comprehensive investigation of ground
+conditions. The results of the investigation will allow proper choice of machinery and
+methods for excavation and ground support, and will reduce the risk of encountering
+unforeseen ground conditions. In the early stages, the horizontal and vertical alignment
+will be optimized to make use of the best ground and water conditions.
+
+In some cases, conventional desk and site studies will not produce sufficient information to
+assess, for example, the blocky nature of rocks, the exact location of fault zones, or
+stand-up times of softer ground. This may be a particular concern in large diameter tunnels.
+To overcome these problems, a pilot tunnel, or drift, may be driven ahead of the main drive.
+This smaller diameter tunnel will be easier to support when unexpected conditions occur, and
+will be incorporated in the final tunnel. Alternatively, horizontal boreholes may
+sometimes be used ahead of the advancing tunnel face.
+
+Construction
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/4/43/CH_Gotthard_Basistunnel_Amsteg_1.jpg/180px-CH_Gotthard_Basistunnel_Amsteg_1.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png Gotthard
+Base Tunnel under construction in the Swiss Alps , Switzerland
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Paris_Metro_construction_03300288-3.jpg/180px-Paris_Metro_construction_03300288-3.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+Cut-and-cover constructions of the Paris MÃ©tro in France
+
+Tunnels are dug in various types of materials, from soft clay to hard rock, and the method of
+excavation depends on the ground conditions.
+
+Cut-and-cover
+
+
+
+Cut-and-cover is a simple method of construction for shallow tunnels where a trench is
+excavated and roofed over. A strong overhead support system is required to carry the load of
+the covering material, roads, streets or other transportation systems.
+
+    Two basic forms of cut-and-cover tunnelling are available:
+
+    - Bottom-up method : A trench is excavated, with ground support as necessary, and the
+    tunnel is constructed within. The tunnel may be of in situ concrete, precast concrete,
+    precast arches, corrugated steel arches and such, with brickwork used in early days. The
+    trench is then backfilled, with precautions regarding balancing compaction of the
+    backfill material, and the surface is reinstated.
+
+    
+
+    - Top-down method : In this method, side support walls and capping beams are constructed
+    from ground level, using slurry walling, contiguous bored piles, or some other method. A
+    shallow excavation is then made to allow the tunnel roof to be constructed using precast
+    beams or in situ concrete. The surface is then reinstated except for access openings.
+    This allows early reinstatement of roadways, services and other surface features.
+    Excavation machinery is then lowered into the access openings, and the main excavation
+    is carried out under the permanent tunnel roof, followed by constructing the base slab.
+
+    
+
+
+
+Shallow tunnels are often of the cut-and-cover type (if under water, of the immersed-tube
+type), while deep tunnels are excavated, often using a tunnelling shield . For intermediate
+levels, both methods are possible.
+
+Large cut-and-cover boxes are often used for underground metro stations, such as Canary
+Wharf tube station in London. This construction form generally has two levels, which allows
+economical arrangements for ticket hall, station platforms, passenger access and
+emergency egress, ventilation and smoke control, staff rooms, and equipment rooms. The
+interior of Canary Wharf station has been likened to an underground cathedral, owing to the
+sheer size of the excavation. This contrasts with most traditional stations on London
+Underground , where bored tunnels were used for stations and passenger access.
+
+Boring machines
+
+Main article: Tunnel boring machine
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Tunnel_Boring_Machine_%28Yucca_Mt%29.jpg/180px-Tunnel_Boring_Machine_%28Yucca_Mt%29.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png A tunnel
+boring machine that was used at Yucca Mountain , Nevada , United States
+
+Tunnel boring machines (TBMs) and associated back-up systems can be used to highly automate
+the entire tunneling process. There are a variety of TBMs that can operate in a variety of
+conditions, from hard rock to soft water-bearing ground. Some types of TBMs, bentonite
+slurry and earth-pressure balance machines, have pressurised compartments at the front
+end, allowing them to be used in difficult conditions below the water table . This pressurizes
+the ground ahead of the TBM cutter head to balance the water pressure. The operators work in
+normal air pressure behind the pressurised compartment, but may occasionally have to enter
+that compartment to renew or repair the cutters. This requires special precautions, such as
+local ground treatment or halting the TBM at a position free from water. Despite these
+difficulties, TBMs are now preferred to the older method of tunneling in compressed air, with
+an air lock/decompression chamber some way back from the TBM, which required operators to
+work in high pressure and go through decompression procedures at the end of their shifts, much
+like divers.
+
+Until recently the largest TBM built was used to bore the Green Heart Tunnel (Dutch: Tunnel
+Groene Hart) as part of the HSL-Zuid in the Netherlands. It had a diameter of 14.87 m. [ 1 ]
+
+Nowadays even larger machines exist, for example the machines used for the Madrid M30
+ringroad , Spain , and the Chong Ming tunnels in Shanghai , China . The TBM used for digging the 57
+km Gotthard Base Tunnel in Switzerland has a diameter of about 9 m. All of these machines were
+built at least partly by Herrenknecht .
+
+NATM
+
+
+
+The New Austrian Tunneling Method (NATM) was developed in the 1960s. The main idea of this
+method is to use the geological stress of the surrounding rock mass to stabilize the tunnel
+itself. Based on geotechnical measurements, an optimal cross section is computed. The
+excavation is immediately protected by thin shotcrete , just behind the excavation. This
+creates a natural load-bearing ring, which minimizes the rock's deformation .
+
+By special monitoring the NATM method is very flexible, even at surprising changes of the
+geomechanical rock consistency during the tunneling work. The measured rock properties
+lead to appropriate tools for tunnel strengthening . In the last decades also soft ground
+excavations up to 10 km became usual.
+
+Pipe jacking
+
+
+
+Pipe Jacking , also known as pipejacking or pipe-jacking , is a method of tunnel construction
+where hydraulic jacks are used to push specially made pipes through the ground behind a tunnel
+boring machine or shield. This technique is commonly used to create tunnels under existing
+structures, such as roads or railways.
+
+Underwater tunnels
+
+Main article: Undersea tunnel
+
+There are also several approaches to underwater tunnels, the two most common being bored
+tunnels or immersed tubes . Submerged floating tunnels are another approach that has not been
+constructed.
+
+Other
+
+
+
+    Other tunneling methods include:
+
+    - Drilling and blasting
+
+    
+
+    - Slurry- shield machine
+
+    
+
+    - Wall-cover construction method.
+
+    
+
+
+
+Choice of tunnels vs. bridges
+
+
+
+For water crossings, a tunnel is generally more costly to construct than a bridge.
+Navigational considerations may limit the use of high bridges or drawbridge spans
+intersecting with shipping channels, necessitating a tunnel.
+
+Bridges usually require a larger footprint on each shore than tunnels. In areas with
+expensive real estate, such as Manhattan and urban Hong Kong , this is a strong factor in
+tunnels' favor. Boston's Big Dig project replaced elevated roadways with a tunnel system to
+increase traffic capacity, hide traffic, reclaim land, redecorate, and reunite the city
+with the waterfront.
+
+The 1934 Queensway Road Tunnel under the River Mersey at Liverpool, was chosen over a
+massively high bridge for defence reasons. It was feared aircraft could destroy a bridge in
+times of war. Maintenance costs of a massive bridge to allow the world's largest ships
+navigate under was considered higher than a tunnel. Similar conclusions were met for the 1971
+Kingsway Tunnel under the River Mersey.
+
+Examples of water-crossing tunnels built instead of bridges include the Holland Tunnel and
+Lincoln Tunnel between New Jersey and Manhattan in New York City , and the Elizabeth River
+tunnels between Norfolk and Portsmouth, Virginia , the 1934 River Mersey road Queensway
+Tunnel and the Westerschelde tunnel , Zeeland, Netherlands.
+
+Other reasons for choosing a tunnel instead of a bridge include avoiding difficulties with
+tides, weather and shipping during construction (as in the 51.5 km Channel Tunnel ),
+aesthetic reasons (preserving the above-ground view, landscape, and scenery), and also for
+weight capacity reasons (it may be more feasible to build a tunnel than a sufficiently strong
+bridge).
+
+Some water crossings are a mixture of bridges and tunnels, such as the Denmark to Sweden link
+and the Chesapeake Bay Bridge-Tunnel in the eastern United States .
+
+There are particular hazards with tunnels, especially from vehicle fires when combustion
+gases can asphyxiate users, as happened at the Gotthard Road Tunnel in Switzerland in 2001.
+One of the worst railway disasters ever, the Balvano train disaster , was caused by a train
+stalling in the Armi tunnel in Italy in 1944, killing 426 passengers.
+
+Variant tunnel types
+
+
+
+Double-deck tunnel
+
+
+
+Some tunnels are double-deck, for example the two major segments of the San Francisco –
+Oakland Bay Bridge (completed in 1936) are linked by a double-deck tunnel, once the largest
+diameter tunnel in the world. At construction this was a combination bidirectional rail and
+truck pathway on the lower deck with automobiles above, now converted to one-way road vehicle
+traffic on each deck.
+
+A recent double-decker tunnel with both decks for motor vehicles is the Fuxing Road Tunnel in
+Shanghai , China. Cars travel on the two-lane upper deck and heavier vehicles on the
+single-lane lower.
+
+Multipurpose tunnel are tunnels that have more than one purpose. The SMART Tunnel in Malaysia
+is the first multipurpose tunnel in the world, as it is used both to control traffic and flood in
+Kuala Lumpur .
+
+Short tunnels
+
+
+
+Artificial tunnels
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sotetkapu.JPG/180px-Sotetkapu.JPG
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png The 19th
+century Dark Gate in Esztergom , Hungary
+
+Overbridges can sometimes be built by covering a road or river or railway with brick or still
+arches, and then levelling the surface with earth. In railway parlance, a surface-level
+track which has been built or covered over is normally called a covered way.
+
+Snow sheds are a kind of artificial tunnel built to protect a railway from avalanches of snow.
+Similarly the Stanwell Park , New South Wales steel tunnel , on the South Coast railway line ,
+protects the line from rockfalls.
+
+Common utility ducts are man-made tunnels created to carry two or more utility lines
+underground. Through co-location of different utilities in one tunnel, organizations are
+able to reduce the costs of building and maintaining utilities.
+
+Hazards
+
+
+
+Owing to the enclosed space of a tunnel, fires can have very serious effects on users. The main
+dangers are gas and smoke production, with low concentrations of carbon monoxide being
+highly toxic. Fires killed 11 people in the Gotthard tunnel fire of 2001 for example, all of the
+victims succumbing to smoke and gas inhalation. Over 400 passengers died in the Balvano train
+disaster in Italy in 1944, when the locomotive halted in a long tunnel. Carbon monoxide
+poisoning was the main cause of the horrifying death rate. Fires have also occurred in the
+Channel Tunnel , leading to great delays for users.
+
+Examples of tunnels
+
+
+
+In history
+
+    
+
+    - World's oldest underwater tunnel is rumored to be the Terelek kaya tÃŒneli under
+    KÄ±zÄ±l River , a little south of the towns of Boyabat and Duragan in Turkey .
+    Estimated to have been built more than 2000 years ago (possibly 5000) it is assumed to have
+    had a defence purpose.
+
+    
+
+    - The qanat or kareez of Persia is a water management system used to provide a reliable
+    supply of water to human settlements or for irrigation in hot, arid and semi-arid
+    climates. The oldest and largest known qanat is in the Iranian city of Gonabad which after
+    2700 years still provides drinking and agricultural water to nearly 40,000 people. Its
+    main well depth is more than 360 m (1,200 ft ) and its length is 45 km (28 mi ).
+
+    
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Eupalinian_aqueduct.JPG/180px-Eupalinian_aqueduct.JPG
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png Inside the
+Eupalinian aqueduct , Samos , Greece , in one of the most spacious parts of it
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/6/66/Underpass-Tananger-EK.JPG/180px-Underpass-Tananger-EK.JPG
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png In
+contrast, a modern underpass in Norway
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Thamestunnel.jpg/180px-Thamestunnel.jpg
+
+    Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+    Interior of the Thames Tunnel , London , United Kingdom , mid 19th century
+
+    - The Eupalinian aqueduct on the island of Samos ( North Aegean , Greece ). Built in 520 BC by
+    the ancient Greek engineer Eupalinos of Megara . Eupalinos organised the work so that the
+    tunnel was begun from both sides of mount Kastro. The two teams advanced simultaneously
+    and met in the middle with excellent accuracy, something that was extremely difficult in
+    that time. The aqueduct was of utmost defensive importance, since it ran underground and
+    it was not easily found by an enemy who could otherwise cut off the water supply to
+    Pythagoreion , the ancient capital of Samos . The tunnel's existence was recorded by
+    Herodotus (as was the mole and harbour, and the third wonder of the island, the great
+    temple to Hera, thought by many to be the largest in the Greek world). The precise location
+    of the tunnel was only re-established in the 19th century by German archaeologists. The
+    tunnel proper is 1,030 m (3,400 ft) long and visitors can still enter it Eupalinos tunnel .
+
+    
+
+    - The Via Flaminia , an important Roman road , penetrated the Furlo pass in the Apennines
+    through a tunnel which emperor Vespasian had ordered built in 76-77. A modern road, the SS
+    3 Flaminia, still uses this tunnel, which had an precursor dating back to the 3rd century
+    BC; remnants of this earlier tunnel (one of the first road tunnels) are also still
+    visible.
+
+    
+
+    - Sapperton Canal Tunnel on the Thames and Severn Canal in England , dug through hills,
+    which opened in 1789, was 3.5 km (2.2 mi) long and allowed boat transport of coal and other
+    goods. Above it runs the Sapperton Long Tunnel which carries the "Golden Valley" railway
+    line between Swindon and Gloucester .
+
+    
+
+    - The 1796 Stoddart Tunnel in Chapel-en-le-Frith in Derbyshire is reputed to be the
+    oldest rail tunnel in the world. Rail wagons were horse drawn.
+
+    
+
+    - The tunnel created for the first true steam locomotive, the Penydarren locomotive,
+    built by Richard Trevithick . The locomotive made an historic journey from Penydarren to
+    Abercynon in 1804. Part of this tunnel can still be seen at Pentrebach , Merthyr Tydfil .
+    This is arguably the oldest railway tunnel in the world, for self-propelled steam
+    engines on rails.
+
+    
+
+    - The Montgomery Bell Tunnel in Tennessee, a 290 foot (88 metres) long, 15 foot wide by 8
+    foot high water diversion tunnel to power a water wheel, was built by slave labor in 1819,
+    being the first full-scale tunnel in North America.
+
+    
+
+    - Crown Street Station , Liverpool , 1829. Built by George Stephenson , a single track
+    tunnel 291 yards long was bored from Edge Hill to Crown Street to serve the world's first
+    passenger railway station. The station was abandoned in 1836 being too far from
+    Liverpool city centre, with the area converted for freight use. Closed down in 1972, the
+    tunnel is disused. However it is the oldest rail tunnel running under streets in the
+    world. [1]
+
+    
+
+    - The 1.26 mile (2.03 km) 1830 Wapping Tunnel in Liverpool, England, was the first rail
+    tunnel bored under a metropolis. Currently disused since 1972. Having two tracks, the
+    tunnel runs from Edge Hill in the east of the city to the south end Liverpool docks being
+    used only for freight. The tunnel is still in excellent condition and is being considered
+    for reuse by Merseyrail rapid transit rail system, with maybe an underground station cut
+    into the tunnel. The river portal is opposite the new Liverpool Arena being ideal for a
+    serving station. If reused it will be the oldest used underground rail tunnel in the world
+    and oldest part of any underground metro system.
+
+    
+
+    - 1836, Lime St Station tunnel, Liverpool. A two track rail tunnel, 1.13 miles (1,811 m)
+    long was bored under a metropolis from Edge Hill in the east of the city to Lime Street. In
+    the 1880s the tunnel was converted to a deep cutting four tracks wide. The only occurrence
+    of a tunnel being removed. A very short section of the original tunnel still exists at Edge
+    Hill station making this the oldest rail tunnel in the world still in use, and the oldest in
+    use under a street, albeit only one street and one building.
+
+    
+
+    - Box Tunnel in England, which opened in 1841, was the longest railway tunnel in the world
+    at the time of construction. It was dug and has a length of 2.9 km (1.8 mi).
+
+    
+
+    - The 0.75 mile long 1842 Shildon tunnel near Darlington, England, is the oldest sizable
+    tunnel in the world still in use under a settlement.
+
+    
+
+    - The Thames Tunnel , built by Marc Isambard Brunel and his son Isambard Kingdom Brunel and
+    opened in 1843, was the first underwater tunnel and the first to use a tunnelling shield .
+    Originally used as a foot-tunnel, it was a part of the East London Line of the London
+    Underground until 2007, being the oldest section of the system. From 2010 the tunnel
+    becomes a part of the London Overground system.
+
+    
+
+    - The 2.07 miles (3.34 km) Waterloo Tunnel in Liverpool , opened in 1849, was bored under a
+    metropolis. Initially used only for rail freight and later freight and passengers
+    serving the Liverpool ship liner terminal, the tunnel runs from Edge Hill in the east of
+    the city to the north end Liverpool docks. Used until 1972 it is still in excellent
+    condition, being considered for reuse by the Merseyrail rapid transit rail system.
+    Stations being cut into the tunnel are being considered. Also, reuse by a monorail system
+    from the proposed Liverpool Waters redevelopment of Liverpool's Central Docks has been
+    proposed.
+
+    
+
+    - The oldest sections of the London Underground were built using the cut-and-cover
+    method in the 1860s. The Metropolitan, Hammersmith & City, Circle and District lines
+    were the first to prove the success of a metro or subway system. Dating from 1863, Baker
+    Street station is the oldest underground station in the world.
+
+    
+
+    - The 1882 Col de Tende Road Tunnel , at 3182 metres long, was one of the first long road
+    tunnels under a pass, running between France and Italy.
+
+    
+
+    - The Mersey Railway tunnel opened in 1886 running from Liverpool to Birkenhead under the
+    River Mersey. By 1892 the extensions on land from Birkenhead Park station to Liverpool
+    Central Low level station gave a tunnel 3.12 miles (5029 m) in length. The under river
+    section is 0.75 miles in length, being the longest underwater tunnel in world in January
+    1886.
+
+    
+
+    - The rail Severn Tunnel was opened in late 1886, at 4 miles 624 yd (7,008 m) long, although
+    only 2¼ miles (3.62 km) of the tunnel is actually under the river. The tunnel replaced the
+    Mersey Railway tunnel's longest under water record, which it held for less than a year.
+
+    
+
+    - James Greathead , in constructing the City & South London Railway tunnel beneath the
+    Thames, opened in 1890, brought together three key elements of tunnel construction
+    under water: 1) shield method of excavation; 2) permanent cast iron tunnel lining; 3)
+    construction in a compressed air environment to inhibit water flowing through soft
+    ground material into the tunnel heading. [ 2 ]
+
+    
+
+    - St. Clair Tunnel , also opened later in 1890, linked the elements of the Greathead
+    tunnels on a larger scale. [ 2 ]
+
+    
+
+    - The 1927 Holland Tunnel was the first underwater tunnel designed for automobiles. This
+    fact required a novel ventilation system .
+
+    
+
+
+
+See also the History of rapid transit . Main article: History of rapid transit
+
+Longest
+
+    Main article: List of tunnels by length
+
+    - The Delaware Aqueduct in New York USA is the longest tunnel, of any type, in the world at
+    137 km (85 mi). It is drilled through solid rock.
+
+    
+
+    - The Seikan Tunnel in Japan is the longest rail tunnel in the world at 53.9 km (33.5 mi), of
+    which 23.3 km (14.5 mi) is under the sea.
+
+    
+
+    - The Channel Tunnel between France and the United Kingdom under the English Channel is
+    the second-longest, with a total length of 50 km (31 mi), of which 39 km (24 mi) is under the
+    sea.
+
+    
+
+    - The LÃ¶tschberg Base Tunnel opened in June 2007 in Switzerland is the longest land
+    rail tunnel, with a total of 34.5 km (21.4 mi).
+
+    
+
+    - The LÃŠrdal Tunnel in Norway from LÃŠrdal to Aurland is the world's longest road
+    tunnel, intended for cars and similar vehicles, at 24.5 km (15.2 mi).
+
+    
+
+    - The Zhongnanshan Tunnel in People's Republic of China opened in January 2007 is the
+    world's second longest highway tunnel and the longest road tunnel in Asia, at 18 km (11
+    mi).
+
+    
+
+    - The longest canal tunnel is the Standedge Tunnel in the United Kingdom, over 5 km (3.1 mi)
+    long.
+
+    
+
+
+
+Notable
+
+    
+
+    - The FredhÃ€lls Tunnel in Stockholm , Sweden , and the New Elbe Tunnel in Hamburg ,
+    Germany , both with around 150,000 vehicles a day, two of the most trafficked tunnels in
+    the world.
+
+    
+
+    - The Lincoln Tunnel between New Jersey and New York is one of the busiest vehicular
+    tunnels in America, at 120,000 vehicles/day, although the Central Artery Tunnel in
+    Boston probably has around 200,000 vehicles/day.
+
+    
+
+    - Gerrards Cross tunnel in Britain is notable in that it is being built over a railway
+    cutting that was dug in the early part of the 20th Century. Thus, arguably, making it the
+    tunnel longest in construction by the cut and cover method. When complete a branch of the
+    Tesco supermarket chain will occupy the space above the railway.
+
+    
+
+    - Williamson's tunnels in Liverpool , built by a wealthy eccentric are probably the
+    largest underground folly in the world.
+
+    
+
+    - New York City Water Tunnel No. 3 [2] , started in 1970, has an expected completion date of
+    2020.
+
+    
+
+    - The Chicago Deep Tunnel Project is a network of 109 mi (175 km) of tunnels designed to
+    reduce flooding in the Chicago area . Started in the mid 1970s, the project is due to be
+    completed in 2019.
+
+    
+
+    - Moffat Tunnel in Colorado straddles the Continental Divide . The tunnel is 6.2 mi (10.0
+    km) long and at 9,239 ft (2,816 m) above sea level is the highest railroad tunnel in the
+    United States .
+
+    
+
+    - The Fenghuoshan tunnel on Qinghai-Tibet railway is the world's highest railway
+    tunnel, about 4,905 m (16,093 ft) above sea level.
+
+    
+
+    - The La Linea Tunnel in Colombia , is the longest mountain tunnel in South America. It
+    crosses beneath a mountain at 4,500 m (14,764 ft) above sea level with six lanes and it has a
+    parallel emergency tunnel. The tunnel is subject to serious groundwater pressure. The
+    tunnel, which is currently under construction, will link Bogota and its urban area with
+    the coffee-growing region and with the main port on the Colombian Pacific coast.
+
+    
+
+    - The HonningsvÃ¥g Tunnel (4,443 m (14,580 ft) long) on European route E69 in Norway is
+    the world's northernmost road tunnel, except for mines (which exist on Svalbard ).
+
+    
+
+
+
+Multiple headings
+
+
+
+Long tunnels get increasingly slow to build as they get longer. A solution if the geography
+suits is to have intermediate access shaft so that excavation can take place on several faces.
+Surveyors have a good record of making the separate sections meet with errors in alignment of
+just a few inches. An exception would be one of the hundred tunnels on the Kalka-Shimla Railway
+.
+
+Other uses
+
+
+
+Excavation techniques, as well as the construction of underground bunkers and other
+habitable areas, are often associated with military use during armed conflict , or civilian
+responses to threat of attack. The use of tunnels for mining is called drift mining . One of the
+strangest uses of a tunnel was for the storage of chemical weapons [ 3 ] [ 4 ] [3] .
+
+Natural tunnel
+
+    
+
+    - Natural Tunnel State Park (Virginia, USA) features an 850 feet (259 m) natural tunnel,
+    really a limestone cave, that has been used as a railroad tunnel since 1890.
+
+    
+
+    - Punarjani Guha Kerala, India. Hindus believe that crawling through the tunnel (which
+    they believe was created by a Hindu god) from one end to the other will wash away all of
+    one’s sins and thus attain rebirth, although only men are permitted to crawl through
+    the cave.
+
+    
+
+
+
+Snow tunnels are created by voles, chipmunks and other rodents for protection and access to
+food sources. Larger versions are created by humans, usually for fun.
+
+For more information regarding tunnels built by animals, see Burrow
+
+Temporary Way
+
+
+
+During construction of a tunnel it is often convenient to install a temporary railway
+particularly to remove spoil. This temporary railway is often narrow gauge so that it can be
+double track, which facilitates the operation of empty and loaded trains at the same time. The
+temporary way is replaced by the permanent way at completion, thus explaining the term
+Perway.
+
+Enlargement
+
+
+
+The vehicles using a tunnel can outgrow it, requiring replacement or enlargement. The
+original single line Gib Tunnel near Mittagong was replaced with a double line tunnel, with
+the original tunnel used for growing mushrooms. [ citation needed ] The Rhyndaston Tunnel was
+enlarged using a borrowed Tunnel Boring Machine so as to be able to take ISO containers .
+
+The 1836 Lime Street two track 1 mile tunnel from Edge Hill to Lime Street in Liverpool was
+totally removed, apart from a short 50 metre section at Edge Hill. Four tracks were required.
+The tunnel was converted into a very deep 4 track open cutting. However, short larger 4 track
+tunnels were left in some parts of the run. Train services were not interrupted as the work
+progressed. Photos of the work in progress: [4] [5] There are other occurrences of tunnels
+being replaced by open cuts, for example, the Auburn Tunnel .
+
+Accidents
+
+    
+
+    - Balvano train disaster
+
+    
+
+    - Gotthard Road Tunnel
+
+    
+
+    - 1996 Channel Tunnel fire
+
+    
+
+Posted by
+
+
+
+Musang Berjanggut at
+
+
+
+7:16 PM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Friday, March 14, 2008
+
+
+
+
+
+
+
+Dubai Tallest Building
+
+
+
+Image:
+http://bp3.blogger.com/_1EqNyPLtUIo/R9rh-lvF6sI/AAAAAAAAAAw/8deyMXZCmxo/s400/250px-Burj_Dubai.jpg
+
+Burj Dubai ( Arabic : ØšØ±Ø¬ Ø¯ØšÙŠ‎ "Dubai Tower") is a supertall skyscraper
+currently under construction in Dubai , United Arab Emirates . When it is completed in 2009,
+[1] it is predicted to be the tallest man-made structure in the world . Scheduled for occupancy
+in September 2009, the building is part of a 2 km² (0.8 sq mi ) development called ' Downtown
+Dubai ' and is located at the "First Interchange" (aka "Defence Roundabout ") along Sheikh
+Zayed Road at Doha Street.
+
+The tower's architect is Adrian Smith [4] who worked with Skidmore, Owings and Merrill (SOM)
+until 2006. [5] SOM is the architecture and engineering firm in charge of the project. [4] The
+primary builder is Samsung Engineering & Construction , along with Besix and Arabtec . [6]
+Turner Construction Company was chosen as the construction manager. [7] Third party peer
+review has been performed by CBM Engineers .
+
+The total budget for the Burj Dubai project is about $4.1 billion USD and for the entire new
+'Downtown Dubai', $20 billion USD.
+
+
+
+
+
+Height
+
+
+
+Current height
+
+As of 5 February 2008 , Burj Dubai has reached a height of 604.9 m (1,985 ft), with 159 completed
+floors. [8]
+
+Burj Dubai's last three milestones will be to surpass 609.9 m (2,001 ft), the height of the
+Petronius oil platform in the Gulf of Mexico which is (depending on criteria) the tallest
+freestanding structure in the world; then 628.8 m (2,063 ft), the height of the KVLY-TV Mast in
+North Dakota , United States to become the world's tallest structure and to pass the Warsaw
+radio mast in KonstantynÃ³w near GÄ…bin , Poland (646.4 m (2,121 ft) until it collapsed
+in 1991) to become the world's tallest structure of any type ever built.
+
+
+
+Timeline of events
+
+September 21 , 2004 Emaar contractors begin construction of Burj Dubai.
+
+February 2007 Burj Dubai surpasses the Sears Tower as the building with the most floors .
+
+May 13 , 2007 Burj Dubai sets record for vertical concrete pumping on any building at 452 m
+(1,483 ft), surpassing the 449.2 m (1,474 ft) to which concrete was pumped during the
+construction of Taipei 101 . [9]
+
+July 21 , 2007 Burj Dubai becomes the tallest building on Earth surpassing Taipei 101 which
+stands at a height of 509.2 m (1,671 ft). [8] The previous day, the head of the Council on Tall
+Buildings and Urban Habitat (CTBUH), Antony Wood, had confirmed that it "surpassed the
+height of Taipei 101 structurally (concrete)." [10] However, he also added "We will not
+classify it as a building until it is complete, clad and at least partially open for business to
+avoid things like the Ryungyong [ sic ] project. Taipei 101 is thus officially the world's
+tallest until that happens."
+
+August 12 , 2007 Burj Dubai surpassed the height of the Sears' Tower antenna which stands at a
+height of 527.3 m (1,730 ft).
+
+September 3 , 2007 Burj Dubai becomes the second-tallest freestanding structure,
+surpassing the 540 m (1,772 ft) Ostankino Tower in Moscow .
+
+September 12 , 2007 At 555.3 m (1,822 ft), Burj Dubai becomes the world's tallest freestanding
+structure on land, surpassing the CN Tower in Toronto . [11]
+
+
+
+Current records
+
+Note: As indicated above, the CTBUH does not recognise records for buildings still under
+construction, therefore some of those records are unofficial:
+
+Tallest freestanding structure on land: 604.9 m (1,985 ft) (previously CN Tower - 553.3 m
+(1,815 ft))
+
+Building with most floors: 159 (previously Sears Tower / World Trade Center - 110)
+
+Vertical concrete pumping (for a building): 601.0 m (1,972 ft) (previously Taipei 101 - 449.2
+m (1,474 ft))
+
+Vertical concrete pumping (for any construction): 601.0 m (1,972 ft) (previously Riva del
+Garda Hydroelectric Power Plant - 532 m (1,745 ft) [12] )
+
+
+
+Projected height
+
+
+
+Projected height of the completed Burj Dubai, compared to the height of some other well known
+tall buildings.
+
+The projected final height of Burj Dubai is officially being kept a secret due to competition
+from other buildings under construction or proposed; however, figures released by a
+contractor on the project have suggested a height of around 818 m (2,684 ft). [13] Based on this
+height, the total number of habitable floors is expected to be around 162. However, the Burj
+Dubai's construction manager, Greg Sang, has said only that the final height would be greater
+than 700 m (2,297 ft), and that it would be the world's tallest free-standing structure when
+completed. [14]
+
+
+
+History of height increases
+
+Though unconfirmed, Burj Dubai has been rumoured to have undergone several height increases
+since its inception. Originally proposed as a virtual clone of the 560 m (1,837 ft) Grollo
+Tower proposal for Melbourne , Australia's Docklands waterfront development , the tower was
+redesigned with an original design by Skidmore Owings and Merrill seen above and discussed
+below. This design should put it at approximately 705 m (2,313 ft). Contradictory
+information abounds regarding the official height of the building, which is to be expected,
+considering the building seeks to acquire the designation as the world's tallest structure
+upon completion in 2009. One website [15] mentions a rumoured final height of 916 m (3,005 ft)
+in a September 28 , 2006 posting, but this is contradicted by a September 20 , 2006 article
+listing a height over 940 m (3,084 ft). [16]
+
+The design architect, Adrian Smith, felt that the upper-most section of the building did not
+culminate elegantly with the rest of the structure, so he sought and received approval to
+increase it to the currently planned height. It has been explicitly stated that this change
+did not include any added floors, [17] which is fitting with Smith's attempts to make the crown
+more slender. However, the top of the tower will be a steel frame structure, unlike the lower
+portion's reinforced concrete . The developer, Emaar , has stated this steel section may be
+extended to beat any other tower to the title of tallest; however, once the tower is complete
+the height cannot be changed.
+
+
+
+Competition with other projects
+
+Several other major projects in the region may vie for the title of tallest structure. These
+other projects are in various states of planning and/or construction.
+
+One of Burj Dubai's potential competitors is the proposed Murjan Tower , in Manama , Bahrain .
+Designed by the Danish architects Henning Larsens Tegnestue A/S , it is expected to be 1,022 m
+(3,353 ft) in height with 200 floors. [18]
+
+Also potentially competing with Burj Dubai is the proposed 1,001 m (3,284 ft) Burj Mubarak
+al-Kabir to be erected in Kuwait as part of a massive development project called Madinat
+al-Hareer (City of Silk). The project also includes an Olympic stadium , residences, hotels,
+and retail facilities. However, the project may take 25 years to complete. [19]
+
+Another proposed tower which may surpass the height of Burj Dubai, is Al Burj , on a site near
+Dubai Marina . Speculation has suggested various heights between 700 m (2,297 ft) and 1,200 m
+(3,937 ft), but the developer is keeping the final height tightly under wraps. If built, it
+will be only 22 km (14 mi ) from the Burj Dubai site.
+
+
+
+Architecture and design
+
+The tower is being constructed by a South Korean company, Samsung Engineering & Construction
+[20] which also built the Petronas Twin Towers and the Taipei 101. The tower is designed by
+Skidmore, Owings and Merrill, who also designed the Sears Tower in Chicago and the Freedom
+Tower in New York City , among numerous other famous high-rises. The building resembles the
+bundled tube form of the Sears Tower, but is not a tube structure. The design of Burj Dubai is
+reminiscent of the Frank Lloyd Wright vision for The Illinois , a mile high skyscraper
+designed for Chicago, Illinois . Burj Dubai is expected to rise to 150% of the height of the
+Sears Tower. Emaar has also engaged GHD [21] , an international multidisciplinary
+consulting firm, to assist with the design, review and assessment involved in the
+construction process.
+
+
+
+Supertall cross-section comparisons
+
+The design of Burj Dubai is ostensibly derived from the patterning systems embodied in
+Islamic architecture , with the triple-lobed footprint of the building based on an
+abstracted version of the desert flower hymenocallis native to the region. The tower is
+composed of three elements arranged around a central core. As the tower rises from the flat
+desert base, setbacks occur at each element in an upward spiralling pattern, decreasing the
+cross section of the tower as it reaches toward the sky. At the top, the central core emerges and
+is sculpted to form a finishing spire. A Y-shaped floor plan maximizes views of the Persian
+Gulf . Viewed from above or from the base, the form also evokes the onion domes of Islamic
+architecture. During the design process, engineers rotated the building 120 degrees from
+its original layout to reduce stress from prevailing winds.
+
+The exterior cladding of Burj Dubai will consist of 142,000 m² (1,528,000 sq ft) of
+reflective glazing, and aluminium and textured stainless steel spandrel panels with
+vertical tubular fins. The cladding system is designed to withstand Dubai's extreme summer
+temperatures.
+
+The interior will be decorated by Giorgio Armani . An Armani Hotel (the first of its kind) will
+occupy the lower 37 floors. Floors 45 through 108 will have 700 private apartments on 64 floors
+(which, according to the developer, sold out within eight hours of going on sale). An outdoor
+zero-entry swimming pool will be located on the 78th floor of the tower. Corporate offices and
+suites will fill most of the remaining floors, except for a 123rd floor lobby and 124th floor
+(about 440 m (1,444 ft)) indoor/outdoor observation deck . The spire - itself over 200 m (700
+ft) tall - will hold communications equipment.
+
+It will also feature the world's fastest elevator , rising and descending at 18 m/s (59 ft/s).
+[22] The world's current fastest elevator (in the Taipei 101) travels at 16.83 m/s (55.2
+ft/s). Engineers had considered installing the world's first triple-decker elevators, but
+the final design calls for double-deck elevators . [1] A total of 56 elevators will be
+installed that can each carry 42 people at a time. [4]
+
+Over 45,000 m³ (58,900 cu yd ) of concrete, weighing more than 110,000 tonnes (120,000 ST
+/110,000 LT ) were used to construct the concrete and steel foundation, which features 192
+piles buried more than 50 m (164 ft) deep. [1] When completed, Burj Dubai's construction will
+have used 330,000 m³ (431,600 cu yd) of concrete and 39,000 tonnes (43,000 ST/38,000 LT) of
+steel rebar (enough to extend over a quarter of the way around the world if laid end-to-end);
+and construction will have taken 22 million man hours. [4]
+
+
+
+Purpose
+
+Burj Dubai has been designed to be the centerpiece of a large-scale, mixed-use development
+that will include 30,000 homes, nine hotels such as the Burj Dubai Lake Hotel & Serviced
+Apartments , 0.03 km² (0.01 sq mi) of parkland, at least 19 residential towers, the Dubai Mall
+, and the 0.12 km² (0.05 sq mi) man-made Burj Dubai Lake. Burj Dubai will cost US$ 800 million to
+build and the entire 2 km² (0.77 sq mi) development will cost around US$ 20 billion.
+
+The silvery glass-sheathed concrete building will give the title of Earth's tallest
+free-standing structure to the Middle East — a title not held by the region since 1311 AD when
+Lincoln Cathedral in England surpassed the height of the Great Pyramid of Giza , which had held
+the title for almost four millennia .
+
+The decision to build Burj Dubai is reportedly based on the government's decision to
+diversify from a trade-based economy to one that is service- and tourism-oriented.
+According to officials, it is necessary for projects like Burj Dubai to be built in the city to
+garner more international recognition, and hence investment. "He [ Sheikh Mohammed bin
+Rashid Al Maktoum ] wanted to put Dubai on the map with something really sensational," said
+Jacqui Josephson, a tourism and VIP delegations executive at Nakheel Properties . [23]
+
+
+
+Construction
+
+
+
+Burj Dubai in December 2007
+
+The primary structural system of the Burj Dubai is reinforced concrete. As construction of
+the tower progresses, it becomes increasingly difficult to vertically pump the thousands of
+cubic metres of concrete that are required. The previous record for pumping concrete on any
+project was set during the extension of the Riva del Garda Hydroelectric Power Plant in Italy
+in 1994, when concrete was pumped to a height of 532 m (1,745 ft). Burj Dubai now holds this
+record as of August 19 , 2007 , as it has a height of 536.1 m (1,759 ft), to hold the record for
+concrete pumping on any project; and as of November 8 , 2007 concrete was pumped to a delivery
+height of 601 m (1,972 ft). [24] .
+
+Special mixes of concrete are made to withstand the extreme pressures of the massive weight of
+the tower; each batch of concrete is tested and checked to see whether it can withstand certain
+pressures. The head of Concrete Quality Checking on the Burj Dubai project is Alam Feroze, who
+is in charge of concrete on the whole project. The concrete pumps, pipelines and booms are
+provided by Putzmeister AG, of Aichtal , Germany .
+
+As the consistency of the concrete on the project is essential, it was difficult to create a
+concrete that could withstand the thousands of tonnes bearing down on it, but also to
+withstand Gulf temperatures that can reach 50 °C (122 °F ). To combat this problem, the
+concrete is not poured during the day. Instead, ice is added to the mixture and it is poured at
+night when it is cooler and the humidity is higher. A cooler concrete mixture cures evenly
+throughout and therefore is less likely to set too quickly and crack. Any significant cracks
+could put the whole project in jeopardy.
+
+
+
+Labour controversy
+
+Further information: Human rights in the United Arab Emirates
+
+Burj Dubai is being built primarily by immigrant engineers and workers from Pakistan , India ,
+Bangladesh , China and the Philippines . [25] Press reports indicate that skilled carpenters
+at the site earn US $ 7.60 ( £ 4.34)/day, and laborers earn US$4.00 (£2.84). [25] [26] Unions
+were forbidden in the United Arab Emirates up until recently, when the government announced
+steps to allow construction unions. [27] On March 21 , 2006 , workers upset over low wages and
+poor working conditions rioted, damaging cars, offices, computers, and construction
+equipment. A Dubai Interior Ministry official said the rioters caused approximately US$1m
+(£488k) in damage. Most workers returned the following day but refused to work. Workers
+building a new terminal at Dubai International Airport also joined that day's strike action .
+
+The United Arab Emirates dirham 's close connection with the low US Dollar, and the increased
+cost-of-living in the region, has made it increasingly difficult for immigrant
+construction workers to survive on their wages. An offer by the UAE government in June 2007 to
+fly home illegal immigrant workers free-of-charge, with no questions asked, was met with
+overwhelming demand, further threatening the supply of workers on the Burj Dubai and other
+Dubai construction projects. Posted by
+
+
+
+Musang Berjanggut at
+
+
+
+1:32 PM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Wednesday, March 5, 2008
+
+
+
+
+
+
+
+What Is Construction
+
+
+
+Image:
+http://bp1.blogger.com/_1EqNyPLtUIo/R88-jSUHv_I/AAAAAAAAAAo/Bm-VIzrAaA4/s400/pic1.jpg
+
+In the fields of architecture and civil engineering , construction is a process that consists
+of the building or assembling of infrastructure . Far from being a single activity , large
+scale construction is a feat of multitasking . Normally the job is managed by the project
+manager and supervised by the construction manager , design engineer , construction
+engineer or project architect .
+
+For the successful execution of a project , effective planning is essential. Those involved
+with the design and execution of the infrastructure in question must consider the
+environmental impact of the job, the successful scheduling, budgeting , site safety ,
+availability of materials, logistics, inconvenience to the public caused by construction
+delays , preparing tender documents , etc. Posted by
+
+
+
+Musang Berjanggut at
+
+
+
+4:36 PM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Wednesday, February 20, 2008
+
+Beam (structure)
+
+From Wikipedia, the free encyclopedia
+
+Jump to: navigation , search
+
+
+
+A statically determinate beam, bending under an evenly distributed load.
+
+A beam is a structural element that carries load primarily in bending (flexure). Beams
+generally carry vertical gravitational forces but can also be used to carry horizontal loads
+(i.e. loads due to an earthquake or wind). The loads carried by a beam are transferred to
+columns , walls , or girders , which then transfer the force to adjacent structural
+compression members . In Light frame construction the joists rest on the beam.
+
+Beams are characterized by their profile (the shape of their cross-section), their length,
+and their material . In contemporary construction , beams are typically made of steel ,
+reinforced concrete , or wood . One of the most common types of steel beam is the I-beam or wide-
+flange beam (also known as a "universal beam" or, for stouter sections, a "universal
+column"). This is commonly used in steel-frame buildings and bridges . Other common beam
+profiles are the C-channel , the hollow structural section beam, the pipe , and the angle .
+
+Contents[ hide ]
+
+1 Structural Characteristics
+
+Jump to: navigation , search
+
+
+
+2 General Shapes
+
+3 See also
+
+4 External links
+
+5 References
+
+//
+
+
+
+[ edit ] Structural Characteristics
+
+Internally, beams experience compressive , tensile and shear stresses as a result of the
+loads applied to them. Typically, under gravity loads, the original length of the beam is
+slightly reduced to enclose a smaller radius arc at the top of the beam, resulting in
+compression, while the same original beam length at the bottom of the beam is slightly
+stretched to enclose a larger radius arc, and so is under tension. The same original length of
+the middle of the beam, generally halfway between the top and bottom, is the same as the radial
+arc of bending, and so it is under neither compression nor tension, and defines the neutral
+axis (dotted line in the beam figure). Above the supports, the beam is exposed to shear stress .
+There are some reinforced concrete beams that are entirely in compression. These beams are
+known as prestressed concrete beams, and are fabricated to produce a compression more than
+the expected tension under loading conditions. High strength steel tendons are stretched
+while the beam is cast over them. Then, when the concrete has begun to cure, the tendons are
+released and the beam is immediately under eccentric axial loads. This eccentric loading
+creates an internal moment, and, in turn, increases the moment carrying capacity of the beam.
+They are commonly used on highway bridges.
+
+The primary tool for structural analysis of beams is the Euler-Bernoulli beam equation .
+Other mathematical methods for determining the deflection of beams include "method of
+virtual work " and the "slope deflection method". Engineers are interested in determining
+deflections because the beam may be in direct contact with a brittle material such as glass.
+Beam deflections are also minimised for aesthetic reasons. A visibly sagging beam, though
+structurally safe, is unsightly and to be avoided. A stiffer beam (high modulus of elasticity
+and high second moment of area ) produces less deflection. Mathematical methods for
+determining the beam forces (internal forces of the beam and the forces that are imposed on the
+beam support) include the " moment distribution method", the force or flexibility method and
+the matrix stiffness method .
+
+
+
+[ edit ] General Shapes
+
+
+
+Diagram of stiffness of a simple square beam (A) and I-beam (B). The I-beam flange sections are
+three times further apart than the solid beam's upper and lower halves. The second moment of
+inertia of the I-beam is nine times that of the square beam of equal cross section (I-beam web
+ignored for simplification)
+
+Mostly the beams have rectangular cross sections in reinforced concrete buildings, but the
+most efficient cross-section is an I-shaped beam. The fact that most of the material is placed
+away from the neutral axis (axis of symmetry in case of I beams) increases the second moment of
+area of the beam which in turn increases the stiffness.
+
+An I-beam is only the most efficient shape in one direction of bending: up and down looking at
+the profile as an I. If the beam is bent side to side , it functions as an H and is less efficient.
+The most efficient shape for both directions in 2D is a box (a square shell) however the most
+efficient shape for bending in any direction is a cylindrical shell or tube. But, for
+unidirectional bending, the I beam is king.
+
+Efficiency means that for the same cross sectional area (Volume of beam per length) subjected
+to the same loading conditions, the beam deflects less.
+
+Other shapes, like L (angles), C (Channels) or tubes, are also used in construction when there
+are special requirements. Posted by
+
+
+
+Musang Berjanggut at
+
+
+
+5:48 AM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Older Posts Home
+Subscribe to: Posts (Atom)
+
+Empire of Builders
+
+
+
+
+
+Blog Archive
+
+    
+
+        - ▼  2009 (2)
+
+            - ▼  December (2)
+
+            - ???
+
+            
+
+            - Tunnel
+
+            
+
+        
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2008 (6)
+
+        - ►  March (2)
+
+        
+
+        
+
+        - ►  February (2)
+
+        
+
+        
+
+        - ►  January (2)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+About Me
+
+
+
+    Image:
+    http://4.bp.blogspot.com/_1EqNyPLtUIo/SzghxUGk_hI/AAAAAAAAACE/fULR7Kd_t94/S220/19837_1296277294053_1443984756_861198_4805554_n.jpg
+
+        Musang Berjanggut
+
+    
+
+        simple.tempered sometimes.easy to get along with new buddy.quite funny i think.
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png  
+
+Image: http://www.blogger.com/buttons/blogger-simple-blue.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'4398289997215667445';BLOG_attachCsiOnload('');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d4398289997215667445','//bensonnhedges.blogspot.com/','4398289997215667445');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'4398289997215667445', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Empire of
+Builders', 'pageType': 'index', 'url': 'http://bensonnhedges.blogspot.com/',
+'canonicalUrl': 'http://bensonnhedges.blogspot.com/', 'canonicalHomepageUrl':
+'http://bensonnhedges.blogspot.com/', 'homepageUrl':
+'http://bensonnhedges.blogspot.com/', 'blogspotFaviconUrl':
+'http://bensonnhedges.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': '',
+'pageTitle': 'Empire of Builders', 'encoding': 'UTF-8', 'locale': 'en-US', 'isPrivate':
+false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Empire of
+Builders - Atom\42
+href\75\42http://bensonnhedges.blogspot.com/feeds/posts/default\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Empire of
+Builders - RSS\42
+href\75\42http://bensonnhedges.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Empire of Builders - Atom\42
+href\75\42http://www.blogger.com/feeds/4398289997215667445/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0754398289997215667445\42 /\076',
+'meTag': '\74link rel\75\42me\42
+href\75\42http://www.blogger.com/profile/11596881345150218927\42 /\76\n',
+'openIdOpTag': '\74link rel\75\42openid.server\42
+href\75\42http://www.blogger.com/openid-server.g\42 /\76\n\74link
+rel\75\42openid.delegate\42 href\75\42http://bensonnhedges.blogspot.com/\42
+/\76\n', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'linkcolor': '#ddaa77', 'borderColor': '#556677',
+'textcolor': '#aabbcc', 'blogDescriptionFont': 'normal normal 100% Helvetica, Arial,
+Sans-serif', 'headerfont': 'normal bold 95% Verdana,Sans-serif', 'pagetitlefont':
+'normal bold 250% Helvetica,Arial,Sans-serif', 'dateheadercolor': '#77bbcc',
+'posttitle': '#99cc77', 'blogDescriptionColor': '#99cc77', 'bodyfont': 'normal normal
+100% Verdana,Arial,Sans-Serif', 'endSide': 'right', 'startSide': 'left',
+'dateHeaderFont': 'normal bold 100% Verdana, Sans-serif', 'sidebartitle': '#77bbcc',
+'vlinkcolor': '#779999', 'pagetitle': '#88dddd'}, 'override': ''}}, {'name': 'view',
+'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard':
+{'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine',
+'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_BloggerButtonView',
+new _WidgetInfo('BloggerButton1', 'footer', null,
+document.getElementById('BloggerButton1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ProfileView', new
+_WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

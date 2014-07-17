@@ -1,0 +1,2889 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); El Pollo Real: Letters Home: "through the Mississippi darkness rolling down to the sea"
+<!-- /* ----------------------------------------------- Blogger Template Style Name:
+Minima Date: 26 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff"> <Variable name="textcolor" description="Text Color"
+type="color" default="#333"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#58a"> <Variable name="pagetitlecolor" description="Blog Title
+Color" type="color" default="#666"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#999"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#c60">
+<Variable name="bordercolor" description="Border Color" type="color" default="#ccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#999"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#999"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% Georgia, Serif"> <Variable
+name="headerfont" description="Sidebar Title Font" type="font" default="normal normal
+78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable
+name="pagetitlefont" description="Blog Title Font" type="font" default="normal normal
+200% Georgia, Serif"> <Variable name="descriptionfont" description="Blog Description
+Font" type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="postfooterfont" description="Post Footer Font"
+type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="startSide" description="Side where text starts in blog
+language" type="automatic" default="left"> <Variable name="endSide"
+description="Side where text ends in blog language" type="automatic" default="right"> */
+/* Use this with templates/template-twocol.html */ body { background:#ffffff; margin:0;
+color:#333333; font:x-small Georgia Serif; font-size/* */:/**/small; font-size:
+/**/small; text-align: center; } a:link { color:#5588aa; text-decoration:none; }
+a:visited { color:#999999; text-decoration:none; } a:hover { color:#cc6600;
+text-decoration:underline; } a img { border-width:0; } /* Header
+----------------------------------------------- */ #header-wrapper { width:660px;
+margin:0 auto 10px; border:1px solid #cccccc; } #header-inner { background-position:
+center; margin-left: auto; margin-right: auto; } #header { margin: 5px; border: 1px solid
+#cccccc; text-align: center; color:#666666; } #header h1 { margin:5px 5px 0; padding:15px
+20px .25em; line-height:1.2em; text-transform:uppercase; letter-spacing:.2em; font:
+normal normal 200% Georgia, Serif; } #header a { color:#666666; text-decoration:none; }
+#header a:hover { color:#666666; } #header .description { margin:0 5px 5px; padding:0 20px
+15px; max-width:700px; text-transform:uppercase; letter-spacing:.2em; line-height:
+1.4em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+color: #999999; } #header img { margin-left: auto; margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 660px;
+margin:0 auto; padding:10px; text-align:left; font: normal normal 100% Georgia, Serif; }
+#main-wrapper { width: 410px; float: left; word-wrap: break-word; /* fix for long text
+breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE
+sidebar float */ } #sidebar-wrapper { width: 220px; float: right; word-wrap: break-word; /*
+fix for long text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text
+content breaking IE sidebar float */ } /* Headings
+----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+font:normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.2em; color:#999999; }
+/* Posts ----------------------------------------------- */ h2.date-header {
+margin:1.5em 0 .5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #cccccc;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#cc6600; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#cc6600;
+font-weight:normal; } .post h3 strong, .post h3 a:hover { color:#333333; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#999999; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; line-height: 1.4em; } .comment-link { margin-left:.6em; } .post img,
+table.tr-caption-container { padding:4px; border:1px solid #cccccc; }
+.tr-caption-container img { border: none; padding: 0; } .post blockquote { margin:1em 20px;
+} .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #999999; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+#blog-pager-newer-link { float: left; } #blog-pager-older-link { float: right; }
+#blog-pager { text-align: center; } .feed-links { clear: both; line-height: 2.5em; } /*
+Sidebar Content ----------------------------------------------- */ .sidebar { color:
+#666666; line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; }
+.sidebar li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #cccccc; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #cccccc; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; color: #999999; font-weight: bold; line-height: 1.6em; } .profile-datablock
+{ margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:660px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0756130126685334700207\46blogName\75El+Pollo+Real\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://acrazychicken.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://acrazychicken.blogspot.com/\46targetPostID\0756425406675616367347\46blogPostOrPageUrl\75http://acrazychicken.blogspot.com/2010/07/letters-home-through-mississippi.html\46vt\0755285907291371430210',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+El Pollo Real
+
+
+
+In a perfectly green world, the past is recycled and is not allowed to accumulate
+
+Wednesday, July 21, 2010
+
+
+
+
+
+
+
+Letters Home: "through the Mississippi darkness rolling down to the sea"
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_nOTdqVGnOTk/TC4pKYgKyqI/AAAAAAAAAh0/KRsml8ZFrHw/s400/train.jpg
+
+T he time finally came when my dad finished basic training at Fort Campbell. Still a teenager,
+he went off to Europe as part of the 141 st Tank Battalion in the US 3 rd Army to help oppose
+Russian troops that had deployed along the Iron Curtain. 
+
+
+
+Back then interstate troop transport meant trains because there was still plenty of WW II
+troop transport rolling stock. He left Fort Campbell headed for New Orleans to embark on a
+troop transport ship to Europe--he and about 4,000 others:
+
+July 22nd, 1952
+
+Fort Campbell, KY
+
+
+
+
+
+Dear Mom, Dad and all,
+
+
+
+
+
+By the time you get this letter I will be on my way.  We are leaving thur . noon for New Orleans and
+will get there about 10:00 Fri. morning (by Pullman). [1] Friday afternoon at 4:30 we are
+leaving New Orleans for Paris. [2] From France we are going to Bremershaven Germany. From
+there someplace in Germany. We will be on the boat 18 days. 2 Bn . of Air Force are getting off in
+Paris. [3]
+
+
+
+I got the $10.00 Sunday morning. You can take it out of my next check.
+
+I suppose Jr. is out of the Army now.
+
+I got and sent back that form from the Motor Vehicle Dept., so the licence should be coming. [4]
+You can put them in my box because I won’t need them. I can write on the ship if I ain’t too
+sick. I don’t think it will affect me any. I guess this is all for now.
+
+
+
+
+
+Love,
+
+V. ________________________
+
+
+
+[1]  At the time, troops travelled by special Pullman cars on overnight trains. G
+iven Appalachian geography, it's likely that he first headed west to Memphis and
+then linked up with or transferred to a train heading south along the Mississippi flood
+plain to New Orleans.
+
+
+
+I am reminded of the Steve Goodman song The City Of New Orleans (made famous by Arlo Guthrie):
+
+Night time on The City of New Orleans, Changing cars in Memphis, Tennessee. Half way home,
+we'll be there by morning Through the Mississippi darkness Rolling down to the sea. [2]
+Apparently he didn't realize that Paris wasn't a seaport. :)
+
+
+
+[3] One battalion is approximately a thousand men. Unlike the Army, the US Air Force was
+based in France during that stage of the Cold War. A NATO directive stipulated that all air
+bases be located west of the Rhine, out of the zone of occupation, for strategic reasons (
+link ).  American air power also had a long historical connection with France
+dating from the First World War. Lafayette Escadrille  was a squadron of American
+volunteers during WW I. Race car driver-turned flying ace  Eddie Rickenbacker  flew
+French-made airplanes like Niewports and SPAD VIIIs (pictured below).
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_nOTdqVGnOTk/TEaXFUV5vKI/AAAAAAAAAjk/XgS2CR-U5Os/s320/eddie.gif
+
+
+
+[4] He lost his billfold as described back here .  Posted by
+
+
+
+chickelit at
+
+
+
+7:15 AM
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1952 , Heroes On
+Stamps , Letters Home , philately
+
+3 comments:
+
+    (function() { var items = [{'id': '8852332794560683551', 'body': 'Great to see your
+    post that invokes Arlo Guthrie\46#39;s version of Steve Goodman\46#39;s \46quot;City
+    of New Orleans.\46quot; Goodman often doesn\46#39;t get his due. You might be
+    interested in my 800-page biography, \46quot;Steve Goodman: Facing the
+    Music.\46quot; The book delves deeply into the genesis and effects of \46quot;City of
+    New Orleans,\46quot; and Arlo Guthrie is a key source among my 1,050 interviewees and
+    even contributed the foreword.\74br /\76\74br /\76You can find out more at my Internet
+    site (below). Amazingly, the book\46#39;s first printing sold out in just eight months,
+    all 5,000 copies, and a second printing of 5,000 is available now. The second printing
+    includes hundreds of little updates and additions, including 30 more photos for a total
+    of 575. It won a 2008 IPPY (Independent Publishers Association) silver medal for
+    biography.\74br /\76\74br /\76If you\46#39;re not already familiar with the book, I
+    hope you find it of interest. \46#39;Nuff said.\74br /\76\74br /\76Clay Eals\74br
+    /\0761728 California Ave. S.W. #301\74br /\76Seattle, WA 98116-1958\74br /\76\74br
+    /\76(206) 935-7515 home\74br /\76(206) 484-8008 cell\74br
+    /\76ceals@comcast.net\74br /\76http://www.clayeals.com', 'timestamp':
+    '1279767038790', 'permalink':
+    'http://acrazychicken.blogspot.com/2010/07/letters-home-through-mississippi.html?showComment\0751279767038790#c8852332794560683551',
+    'author': {'name': 'Clay Eals', 'avatarUrl':
+    'http://img2.blogblog.com/img/b16-rounded.gif', 'profileUrl':
+    'http://www.blogger.com/profile/17196401847360473286'}, 'displayTime': 'July
+    21, 2010 7:50 PM', 'deleteclass': 'item-control blog-admin pid-1307028438'}, {'id':
+    '8395370598669543110', 'body': 'Sounds interesting Mr. Eals. I will try to check it
+    out. BTW, what was Goodman\46#39;s connection to the Chicago Cubs and how did that
+    start?', 'timestamp': '1279824063790', 'permalink':
+    'http://acrazychicken.blogspot.com/2010/07/letters-home-through-mississippi.html?showComment\0751279824063790#c8395370598669543110',
+    'author': {'name': 'El Pollo Real', 'avatarUrl':
+    'http://img2.blogblog.com/img/b16-rounded.gif', 'profileUrl':
+    'http://www.blogger.com/profile/10773887469972534979'}, 'displayTime': 'July
+    22, 2010 11:41 AM', 'deleteclass': 'item-control blog-admin pid-1630698777'},
+    {'id': '7409740628524142239', 'body': 'I love these letters-from-home posts,
+    especially this one. After having driven through Memphis and headed south from there, I
+    feel I may have paralleled just a small portion of your father\46#39;s journey nearly 60
+    years ago.\74br /\76\74br /\76Plus, I\46#39;ve always enjoyed this song. Good to see
+    Mr. Eals has made contact with you about Mr. Goodman.', 'timestamp': '1279884628887',
+    'permalink':
+    'http://acrazychicken.blogspot.com/2010/07/letters-home-through-mississippi.html?showComment\0751279884628887#c7409740628524142239',
+    'author': {'name': 'Pete', 'avatarUrl':
+    'http://1.bp.blogspot.com/_zxZ4ncZimlE/S0vYsnmdwMI/AAAAAAAAFj4/DNBE_WOX-3o/S45/%2527fro.jpg',
+    'profileUrl': 'http://www.blogger.com/profile/04210441627504923976'},
+    'displayTime': 'July 23, 2010 4:30 AM', 'deleteclass': 'item-control blog-admin
+    pid-606812065'}]; var msgs = {'loadMore': 'Load more...', 'loading': 'Loading...',
+    'loaded': 'No more!', 'addComment': 'Add comment', 'reply': 'Reply', 'delete':
+    'Delete'}; var config = {'blogId': '6130126685334700207', 'postId':
+    '6425406675616367347', 'feed':
+    'http://acrazychicken.blogspot.com/feeds/6425406675616367347/comments/default',
+    'authorName': 'chickelit', 'authorUrl':
+    'http://www.blogger.com/profile/10773887469972534979', 'baseUri':
+    'http://www.blogger.com', 'maxThreadDepth': 2}; // <![CDATA[ var cursor = null; if
+    (items && items.length > 0) { cursor = parseInt(items[items.length - 1].timestamp) + 1;
+    } var bodyFromEntry = function(entry) { if (entry.gd$extendedProperty) { for (var k in
+    entry.gd$extendedProperty) { if (entry.gd$extendedProperty[k].name ==
+    'blogger.contentRemoved') { return '<span class="deleted-comment">' +
+    entry.content.$t + '</span>'; } } } return entry.content.$t; } var parse =
+    function(data) { cursor = null; var comments = []; if (data && data.feed &&
+    data.feed.entry) { for (var i = 0, entry; entry = data.feed.entry[i]; i++) { var comment =
+    {}; // comment ID, parsed out of the original id format var id =
+    /blog-(\d+).post-(\d+)/.exec(entry.id.$t); comment.id = id ? id[2] : null;
+    comment.body = bodyFromEntry(entry); comment.timestamp =
+    Date.parse(entry.published.$t) + ''; if (entry.author && entry.author.constructor
+    === Array) { var auth = entry.author[0]; if (auth) { comment.author = { name: (auth.name ?
+    auth.name.$t : undefined), profileUrl: (auth.uri ? auth.uri.$t : undefined),
+    avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined) }; } } if (entry.link) { if
+    (entry.link[2]) { comment.link = comment.permalink = entry.link[2].href; } if
+    (entry.link[3]) { var pid =
+    /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href); if (pid && pid[1]) {
+    comment.parentId = pid[1]; } } } comment.deleteclass = 'item-control blog-admin'; if
+    (entry.gd$extendedProperty) { for (var k in entry.gd$extendedProperty) { if
+    (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+    comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value; } else if
+    (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+    comment.displayTime = entry.gd$extendedProperty[k].value; } } }
+    comments.push(comment); } } return comments; }; var paginator = function(callback) {
+    if (hasMore()) { var url = config.feed +
+    '?alt=json&v=2&orderby=published&reverse=false&max-results=50'; if (cursor) {
+    url += '&published-min=' + new Date(cursor).toISOString(); }
+    window.bloggercomments = function(data) { var parsed = parse(data); cursor =
+    parsed.length < 50 ? null : parseInt(parsed[parsed.length - 1].timestamp) + 1
+    callback(parsed); window.bloggercomments = null; } url +=
+    '&callback=bloggercomments'; var script = document.createElement('script');
+    script.type = 'text/javascript'; script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script); } }; var hasMore =
+    function() { return !!cursor; }; var getMeta = function(key, comment) { if ('iswriter'
+    == key) { var matches = !!comment.author && comment.author.name == config.authorName
+    && comment.author.profileUrl == config.authorUrl; return matches ? 'true' : ''; } else
+    if ('deletelink' == key) { return config.baseUri + '/delete-comment.g?blogID=' +
+    config.blogId + '&postID=' + comment.id; } else if ('deleteclass' == key) { return
+    comment.deleteclass; } return ''; }; var replybox = null; var replyUrlParts = null; var
+    replyParent = undefined; var onReply = function(commentId, domId) { if (replybox ==
+    null) { // lazily cache replybox, and adjust to suit this style: replybox =
+    document.getElementById('comment-editor'); if (replybox != null) {
+    replybox.height = '250px'; replybox.style.display = 'block'; replyUrlParts =
+    replybox.src.split('#'); } } if (replybox && (commentId !== replyParent)) {
+    document.getElementById(domId).insertBefore(replybox, null); replybox.src =
+    replyUrlParts[0] + (commentId ? '&parentID=' + commentId : '') + '#' +
+    replyUrlParts[1]; replyParent = commentId; } }; var hash = (window.location.hash ||
+    '#').substring(1); var startThread, targetComment; if
+    (/^comment-form_/.test(hash)) { startThread =
+    hash.substring('comment-form_'.length); } else if (/^c[0-9]+$/.test(hash)) {
+    targetComment = hash.substring(1); } // Configure commenting API: var configJso = {
+    'maxDepth': config.maxThreadDepth }; var provider = { 'id': config.postId, 'data':
+    items, 'loadNext': paginator, 'hasMore': hasMore, 'getMeta': getMeta, 'onReply':
+    onReply, 'rendered': true, 'initComment': targetComment, 'initReplyThread':
+    startThread, 'config': configJso, 'messages': msgs }; var render = function() { if
+    (window.goog && window.goog.comments) { var holder =
+    document.getElementById('comment-holder');
+    window.goog.comments.render(holder, provider); } }; // render now, or queue to render
+    when library loads: if (window.goog && window.goog.comments) { render(); } else {
+    window.goog = window.goog || {}; window.goog.comments = window.goog.comments || {};
+    window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+    window.goog.comments.loadQueue.push(render); } })(); // ]]>
+
+    1 -
+
+    Image: http://img2.blogblog.com/img/b36-rounded.png Clay Eals July 21, 2010 7:50 PM
+
+    Great to see your post that invokes Arlo Guthrie's version of Steve Goodman's "City of New
+    Orleans." Goodman often doesn't get his due. You might be interested in my 800-page
+    biography, "Steve Goodman: Facing the Music." The book delves deeply into the genesis
+    and effects of "City of New Orleans," and Arlo Guthrie is a key source among my 1,050
+    interviewees and even contributed the foreword.
+
+    
+
+    You can find out more at my Internet site (below). Amazingly, the book's first printing
+    sold out in just eight months, all 5,000 copies, and a second printing of 5,000 is
+    available now. The second printing includes hundreds of little updates and additions,
+    including 30 more photos for a total of 575. It won a 2008 IPPY (Independent Publishers
+    Association) silver medal for biography.
+
+    
+
+    If you're not already familiar with the book, I hope you find it of interest. 'Nuff said.
+
+    
+
+    Clay Eals
+
+    1728 California Ave. S.W. #301
+
+    Seattle, WA 98116-1958
+
+    
+
+    (206) 935-7515 home
+
+    (206) 484-8008 cell
+
+    ceals@comcast.net
+
+    http://www.clayeals.com Reply Delete
+
+    
+
+    2 -
+
+    Image: http://img2.blogblog.com/img/b36-rounded.png El Pollo Real July 22, 2010
+    11:41 AM
+
+    Sounds interesting Mr. Eals. I will try to check it out. BTW, what was Goodman's
+    connection to the Chicago Cubs and how did that start? Reply Delete
+
+    
+
+    3 -
+
+    Image:
+    http://1.bp.blogspot.com/_zxZ4ncZimlE/S0vYsnmdwMI/AAAAAAAAFj4/DNBE_WOX-3o/S45/%2527fro.jpg
+    Pete July 23, 2010 4:30 AM
+
+    I love these letters-from-home posts, especially this one. After having driven through
+    Memphis and headed south from there, I feel I may have paralleled just a small portion of
+    your father's journey nearly 60 years ago.
+
+    
+
+    Plus, I've always enjoyed this song. Good to see Mr. Eals has made contact with you about
+    Mr. Goodman. Reply Delete
+
+    
+
+Add comment Load more...
+
+
+
+BLOG_CMT_createIframe('http://www.blogger.com/rpc_relay.html',
+'13438459017212614123'); Newer Post Older Post Home Subscribe to: Post Comments (Atom)
+
+Other blogs I like
+
+    
+
+    - Instapundit AT AMAZON, warehouse deals in Electronics. Also, today only: Save up to 40%
+    on Kitchens of India…
+
+    
+
+    - EBL Why the White House lied about Libya: Diplomats requested additional security
+    prior to the deadly attack of September 11, 2012 and White House denied that request...
+
+    
+
+    - Le·gal In·sur·rec·tion Hating Breitbart Trailer
+
+    
+
+    - Virtual Mirage Energy Self-Sufficiency
+
+    
+
+    - The Bit Maelstrom Fred Won't Move Out
+
+    
+
+    - Ambiance Wax off….
+
+    
+
+    - MÑºDEÐ¯Ð˜ DEKADEÐ˜CE The future of newsprint
+
+    
+
+    - Pete Terranova Graveyard Special - Book Review
+
+    
+
+    - musing minds It Be Talk Like A Pirate Day!
+
+    
+
+    - Fluffy Stuffin' An Excellent Fan Video!
+
+    
+
+    - Chip's Perspective Our Humorless Overlords
+
+    
+
+    - sisu Haley Barbour knows what women like
+
+    
+
+    - Living In A Golden Age London Olympics: 1908
+
+    
+
+    - Death's Door Distillery Photo Journal of a Still in Motion
+
+    
+
+    - The Compulsive Copyeditor The Subtle Shadings of Spellings and Synonyms
+
+    
+
+    - TY
+
+    
+
+    - DRUDGE REPORT 2012®
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.currentPost =
+"http://www.blogger.com/feeds/6130126685334700207/posts/default/6425406675616367347";
+holder.currentComments =
+"http://www.blogger.com/feeds/6130126685334700207/6425406675616367347/comments/default";
+holder.currentPostUrl = ""; holder.currentPostId = 6425406675616367347
+holder.postFeed =
+"http://www.blogger.com/feeds/6130126685334700207/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/6130126685334700207/comments/default";
+holder.currentBlogUrl = "http://acrazychicken.blogspot.com/"; holder.currentBlogId
+= "6130126685334700207"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#666666"; skin['ENDCAP_LINK_COLOR'] = "#5588aa";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#5588aa"; skin['CONTENT_TEXT_COLOR'] =
+"#666666"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#5588aa";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#999999"; skin['CONTENT_HEADLINE_COLOR'] =
+"#cc6600"; skin['FONT_FACE'] = "normal normal 100% Georgia, Serif";
+google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-vfvysxvd0c52",
+height: 260, site: "13438459017212614123", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2012 (179)
+
+        - ►  September (3)
+
+        
+
+        
+
+        - ►  August (23)
+
+        
+
+        
+
+        - ►  July (28)
+
+        
+
+        
+
+        - ►  June (12)
+
+        
+
+        
+
+        - ►  May (17)
+
+        
+
+        
+
+        - ►  April (16)
+
+        
+
+        
+
+        - ►  March (30)
+
+        
+
+        
+
+        - ►  February (23)
+
+        
+
+        
+
+        - ►  January (27)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (270)
+
+        - ►  December (33)
+
+        
+
+        
+
+        - ►  November (29)
+
+        
+
+        
+
+        - ►  October (10)
+
+        
+
+        
+
+        - ►  September (26)
+
+        
+
+        
+
+        - ►  August (27)
+
+        
+
+        
+
+        - ►  July (19)
+
+        
+
+        
+
+        - ►  June (2)
+
+        
+
+        
+
+        - ►  May (25)
+
+        
+
+        
+
+        - ►  April (27)
+
+        
+
+        
+
+        - ►  March (23)
+
+        
+
+        
+
+        - ►  February (27)
+
+        
+
+        
+
+        - ►  January (22)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2010 (204)
+
+        - ►  December (19)
+
+        
+
+        
+
+        - ►  November (21)
+
+        
+
+        
+
+        - ►  October (17)
+
+        
+
+        
+
+        - ►  September (21)
+
+        
+
+        
+
+        - ►  August (32)
+
+        
+
+        
+
+            - ▼  July (15)
+
+            - In A Bit Of A Rut
+
+            
+
+            - Spuren Noch Zwei
+
+            
+
+            - Spuren Noch
+
+            
+
+            - Hart wie Kruppstahl
+
+            
+
+            - Remembering Zott's
+
+            
+
+            - Why Didn't People Have More Respect For The Kingst...
+
+            
+
+            - The Herd Instinct
+
+            
+
+            - Letters Home: "through the Mississippi darkness ro...
+
+            
+
+            - 50 Years Of MyTunes: 1962
+
+            
+
+            - 50 Years Of MyTunes: 1961
+
+            
+
+            - Failed Theories: I Must Be Bohred
+
+            
+
+            - Der Planetenweg
+
+            
+
+            - 50 Years of myTunes: 1960-2010
+
+            
+
+            - Happy Fourth Of July!
+
+            
+
+            - Letters Home: "We Saw A Parade For Taft"
+
+            
+
+        
+
+        
+
+        
+
+        - ►  June (13)
+
+        
+
+        
+
+        - ►  May (10)
+
+        
+
+        
+
+        - ►  April (16)
+
+        
+
+        
+
+        - ►  March (15)
+
+        
+
+        
+
+        - ►  February (14)
+
+        
+
+        
+
+        - ►  January (11)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (41)
+
+        - ►  December (14)
+
+        
+
+        
+
+        - ►  November (3)
+
+        
+
+        
+
+        - ►  October (3)
+
+        
+
+        
+
+        - ►  September (2)
+
+        
+
+        
+
+        - ►  August (6)
+
+        
+
+        
+
+        - ►  July (5)
+
+        
+
+        
+
+        - ►  June (3)
+
+        
+
+        
+
+        - ►  May (4)
+
+        
+
+        
+
+        - ►  April (1)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+About Me
+
+
+
+    Image:
+    http://4.bp.blogspot.com/-XwQnIgUPgkU/UGcIvFYOmWI/AAAAAAAACMQ/7xYu0EJrhaI/s220/PA.jpg
+
+        chickelit
+
+    
+
+        Born and bred from stock rooted in Wisconsin's Driftless Area . Like my father said:
+        "If people can't control themselves, the government will. If the government can't
+        control itself, another government will." -VMB
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Labels
+
+    
+
+    - 1250 (1)
+
+    
+
+    - 1324 (1)
+
+    
+
+    - 1620 (1)
+
+    
+
+    - 1627 (1)
+
+    
+
+    - 1634 (1)
+
+    
+
+    - 1667 (1)
+
+    
+
+    - 1669 (1)
+
+    
+
+    - 1710 (1)
+
+    
+
+    - 1718 (1)
+
+    
+
+    - 1728 (1)
+
+    
+
+    - 1769 (6)
+
+    
+
+    - 1771 (1)
+
+    
+
+    - 1773 (1)
+
+    
+
+    - 1780 (1)
+
+    
+
+    - 1782 (1)
+
+    
+
+    - 1784 (2)
+
+    
+
+    - 1791 (1)
+
+    
+
+    - 1794 (1)
+
+    
+
+    - 1800 (2)
+
+    
+
+    - 1801 (1)
+
+    
+
+    - 1810 (1)
+
+    
+
+    - 1813 (1)
+
+    
+
+    - 1823 (1)
+
+    
+
+    - 1828 (1)
+
+    
+
+    - 1829 (1)
+
+    
+
+    - 1845 (1)
+
+    
+
+    - 1848 (2)
+
+    
+
+    - 1850 (1)
+
+    
+
+    - 1852 (1)
+
+    
+
+    - 1858 (2)
+
+    
+
+    - 1859 (1)
+
+    
+
+    - 1860 (1)
+
+    
+
+    - 1861 (1)
+
+    
+
+    - 1864 (1)
+
+    
+
+    - 1865 (1)
+
+    
+
+    - 1866 (1)
+
+    
+
+    - 1867 (1)
+
+    
+
+    - 1868 (2)
+
+    
+
+    - 1871 (1)
+
+    
+
+    - 1875 (2)
+
+    
+
+    - 1877 (1)
+
+    
+
+    - 1878 (1)
+
+    
+
+    - 1886 (1)
+
+    
+
+    - 1889 (2)
+
+    
+
+    - 1890 (1)
+
+    
+
+    - 1893 (1)
+
+    
+
+    - 1894 (2)
+
+    
+
+    - 1895 (1)
+
+    
+
+    - 1896 (4)
+
+    
+
+    - 1897 (3)
+
+    
+
+    - 1898 (3)
+
+    
+
+    - 1900 (1)
+
+    
+
+    - 1901 (3)
+
+    
+
+    - 1903 (1)
+
+    
+
+    - 1904 (2)
+
+    
+
+    - 1907 (1)
+
+    
+
+    - 1908 (1)
+
+    
+
+    - 1909 (5)
+
+    
+
+    - 1910 (2)
+
+    
+
+    - 1911 (1)
+
+    
+
+    - 1912 (22)
+
+    
+
+    - 1913 (1)
+
+    
+
+    - 1914 (2)
+
+    
+
+    - 1915 (4)
+
+    
+
+    - 1916 (2)
+
+    
+
+    - 1917 (2)
+
+    
+
+    - 1918 (2)
+
+    
+
+    - 1919 (1)
+
+    
+
+    - 1921 (3)
+
+    
+
+    - 1922 (1)
+
+    
+
+    - 1923 (1)
+
+    
+
+    - 1924 (1)
+
+    
+
+    - 1926 (3)
+
+    
+
+    - 1927 (1)
+
+    
+
+    - 1931 (1)
+
+    
+
+    - 1932 (2)
+
+    
+
+    - 1934 (1)
+
+    
+
+    - 1935 (2)
+
+    
+
+    - 1936 (1)
+
+    
+
+    - 1937 (2)
+
+    
+
+    - 1938 (2)
+
+    
+
+    - 1939 (1)
+
+    
+
+    - 1940 (1)
+
+    
+
+    - 1941 (2)
+
+    
+
+    - 1942 (2)
+
+    
+
+    - 1943 (8)
+
+    
+
+    - 1944 (6)
+
+    
+
+    - 1945 (1)
+
+    
+
+    - 1946 (1)
+
+    
+
+    - 1947 (1)
+
+    
+
+    - 1948 (1)
+
+    
+
+    - 1950 (1)
+
+    
+
+    - 1951 (5)
+
+    
+
+    - 1952 (32)
+
+    
+
+    - 1953 (21)
+
+    
+
+    - 1955 (2)
+
+    
+
+    - 1957 (2)
+
+    
+
+    - 1958 (3)
+
+    
+
+    - 1959 (2)
+
+    
+
+    - 1960 (3)
+
+    
+
+    - 1961 (2)
+
+    
+
+    - 1962 (5)
+
+    
+
+    - 1963 (5)
+
+    
+
+    - 1964 (8)
+
+    
+
+    - 1965 (5)
+
+    
+
+    - 1966 (12)
+
+    
+
+    - 1967 (4)
+
+    
+
+    - 1968 (6)
+
+    
+
+    - 1969 (3)
+
+    
+
+    - 1970 (9)
+
+    
+
+    - 1971 (8)
+
+    
+
+    - 1972 (7)
+
+    
+
+    - 1973 (4)
+
+    
+
+    - 1974 (4)
+
+    
+
+    - 1975 (10)
+
+    
+
+    - 1976 (6)
+
+    
+
+    - 1977 (8)
+
+    
+
+    - 1978 (5)
+
+    
+
+    - 1979 (10)
+
+    
+
+    - 1980 (1)
+
+    
+
+    - 1981 (2)
+
+    
+
+    - 1982 (4)
+
+    
+
+    - 1983 (4)
+
+    
+
+    - 1984 (15)
+
+    
+
+    - 1985 (2)
+
+    
+
+    - 1986 (5)
+
+    
+
+    - 1987 (3)
+
+    
+
+    - 1988 (2)
+
+    
+
+    - 1989 (1)
+
+    
+
+    - 1990 (1)
+
+    
+
+    - 1991 (1)
+
+    
+
+    - 1992 (8)
+
+    
+
+    - 1993 (1)
+
+    
+
+    - 1994 (1)
+
+    
+
+    - 1995 (1)
+
+    
+
+    - 1996 (3)
+
+    
+
+    - 1997 (4)
+
+    
+
+    - 2000 (1)
+
+    
+
+    - 2001 (1)
+
+    
+
+    - 2002 (1)
+
+    
+
+    - 2007 (1)
+
+    
+
+    - 2009 (1)
+
+    
+
+    - 2010 (1)
+
+    
+
+    - 2011 (2)
+
+    
+
+    - 2012 (2)
+
+    
+
+    - 50 years of myTunes (82)
+
+    
+
+    - 9/11 (3)
+
+    
+
+    - 9mm (5)
+
+    
+
+    - abortion (3)
+
+    
+
+    - alchemy (10)
+
+    
+
+    - Allman Bros (3)
+
+    
+
+    - allotropes (3)
+
+    
+
+    - Althouse (19)
+
+    
+
+    - Aluminum (2)
+
+    
+
+    - Amba (6)
+
+    
+
+    - Antimony (1)
+
+    
+
+    - architectural indigestion (2)
+
+    
+
+    - Argon (2)
+
+    
+
+    - Arsenic (5)
+
+    
+
+    - Art (5)
+
+    
+
+    - atheism (2)
+
+    
+
+    - Bacon (2)
+
+    
+
+    - banjo (2)
+
+    
+
+    - beer (4)
+
+    
+
+    - Beryllium (3)
+
+    
+
+    - Bigeleisen (2)
+
+    
+
+    - biking (1)
+
+    
+
+    - Bitter Living Through Chemistry (3)
+
+    
+
+    - BJM (1)
+
+    
+
+    - blake (the tweeter) (1)
+
+    
+
+    - bloghetti carbonara (35)
+
+    
+
+    - Bohr (3)
+
+    
+
+    - Boron (4)
+
+    
+
+    - Breaking Away (4)
+
+    
+
+    - bridges (4)
+
+    
+
+    - Bromine (5)
+
+    
+
+    - Calcium (2)
+
+    
+
+    - cancer (2)
+
+    
+
+    - carbon (7)
+
+    
+
+    - Carol Herman (3)
+
+    
+
+    - Carothers (3)
+
+    
+
+    - cartoons (4)
+
+    
+
+    - Cash Cab (1)
+
+    
+
+    - Catenation (11)
+
+    
+
+    - Cesium (2)
+
+    
+
+    - Chemistry (13)
+
+    
+
+    - Chemistry is like sex (10)
+
+    
+
+    - Chemistry of Sex (2)
+
+    
+
+    - Chicago (5)
+
+    
+
+    - chlorine (2)
+
+    
+
+    - Christmas (8)
+
+    
+
+    - chromium (3)
+
+    
+
+    - Chu on this (7)
+
+    
+
+    - chuckb (1)
+
+    
+
+    - Churchill (4)
+
+    
+
+    - Cleveland (11)
+
+    
+
+    - Cobalt (3)
+
+    
+
+    - Cocktails (7)
+
+    
+
+    - coinage (6)
+
+    
+
+    - Conservative Notions (5)
+
+    
+
+    - Conversations with Henry (25)
+
+    
+
+    - Conversations with Me (9)
+
+    
+
+    - Conversations with Ritmo (8)
+
+    
+
+    - cool books (46)
+
+    
+
+    - cool women (11)
+
+    
+
+    - copper (14)
+
+    
+
+    - Cracked Emcee (2)
+
+    
+
+    - Darcy (1)
+
+    
+
+    - Davy (6)
+
+    
+
+    - DBQ (1)
+
+    
+
+    - DC (2)
+
+    
+
+    - death (10)
+
+    
+
+    - demographics (4)
+
+    
+
+    - diamond (3)
+
+    
+
+    - Dick Dale (5)
+
+    
+
+    - Diesel (3)
+
+    
+
+    - disney (5)
+
+    
+
+    - Djerassi (1)
+
+    
+
+    - Drums (8)
+
+    
+
+    - Dutch (3)
+
+    
+
+    - Dylan (4)
+
+    
+
+    - earthquakes (2)
+
+    
+
+    - EBL (1)
+
+    
+
+    - Economics (2)
+
+    
+
+    - Einstein (4)
+
+    
+
+    - electrons (15)
+
+    
+
+    - Elements (15)
+
+    
+
+    - Elvis (2)
+
+    
+
+    - Energy (18)
+
+    
+
+    - Entropy (11)
+
+    
+
+    - Enzymes (4)
+
+    
+
+    - Eric Clapton (3)
+
+    
+
+    - etymology (6)
+
+    
+
+    - faith (7)
+
+    
+
+    - Family (20)
+
+    
+
+    - Faraday (8)
+
+    
+
+    - fashion (3)
+
+    
+
+    - fluorine (2)
+
+    
+
+    - Forgotten Americans (7)
+
+    
+
+    - Forgotten Brits (9)
+
+    
+
+    - Frank Lloyd Wright (2)
+
+    
+
+    - Free Will (2)
+
+    
+
+    - French (11)
+
+    
+
+    - Freud (3)
+
+    
+
+    - Friedman (2)
+
+    
+
+    - Frost (2)
+
+    
+
+    - Gallium (4)
+
+    
+
+    - games (4)
+
+    
+
+    - garage mahal (1)
+
+    
+
+    - Gay Rites (2)
+
+    
+
+    - Geistiges Eigentum (3)
+
+    
+
+    - Gems (2)
+
+    
+
+    - George Vukelich (1)
+
+    
+
+    - Germanium (3)
+
+    
+
+    - gnomon (4)
+
+    
+
+    - Gold (8)
+
+    
+
+    - grad school (1)
+
+    
+
+    - graffiti (1)
+
+    
+
+    - Guns (9)
+
+    
+
+    - Hammond's postulate (2)
+
+    
+
+    - Hawaii (2)
+
+    
+
+    - Haz (2)
+
+    
+
+    - Heat (7)
+
+    
+
+    - Helium (4)
+
+    
+
+    - Hendrix (7)
+
+    
+
+    - Heroes On Stamps (15)
+
+    
+
+    - Highway 41 (1)
+
+    
+
+    - hippies (5)
+
+    
+
+    - History (2)
+
+    
+
+    - History of Chemistry (5)
+
+    
+
+    - Hitchcock (1)
+
+    
+
+    - horns (4)
+
+    
+
+    - Hunter S. Thompson (2)
+
+    
+
+    - Hydrogen (9)
+
+    
+
+    - hypothesis (66)
+
+    
+
+    - Ike (2)
+
+    
+
+    - Imagination (4)
+
+    
+
+    - immigration (2)
+
+    
+
+    - inglese italianato (18)
+
+    
+
+    - Instapundit (1)
+
+    
+
+    - Inventors (19)
+
+    
+
+    - iron (14)
+
+    
+
+    - Iron Sights (4)
+
+    
+
+    - Irony (13)
+
+    
+
+    - Isotopes (14)
+
+    
+
+    - James Joyce (2)
+
+    
+
+    - Japan (2)
+
+    
+
+    - Jason (the commenter) (3)
+
+    
+
+    - jazz (1)
+
+    
+
+    - Jeff Beck (2)
+
+    
+
+    - Jefferson (2)
+
+    
+
+    - Jonny Quest (3)
+
+    
+
+    - Karleton Armstrong (2)
+
+    
+
+    - Kingston Trio (4)
+
+    
+
+    - Kinks (2)
+
+    
+
+    - KoFo (3)
+
+    
+
+    - Krypton (1)
+
+    
+
+    - Laplace (2)
+
+    
+
+    - Last Letters From Stalingrad (28)
+
+    
+
+    - Lavoisier (11)
+
+    
+
+    - Lead (5)
+
+    
+
+    - Led Zeppelin (7)
+
+    
+
+    - Letters Home (57)
+
+    
+
+    - Letters To Freya (4)
+
+    
+
+    - Lewis (5)
+
+    
+
+    - Lithium (6)
+
+    
+
+    - LL (5)
+
+    
+
+    - Madison (11)
+
+    
+
+    - Magnesium (2)
+
+    
+
+    - Magnetism (2)
+
+    
+
+    - MamaM (2)
+
+    
+
+    - Mamet (1)
+
+    
+
+    - manganese (3)
+
+    
+
+    - marriage (1)
+
+    
+
+    - Meade (1)
+
+    
+
+    - memory diving (10)
+
+    
+
+    - Mendeleev (2)
+
+    
+
+    - Mercury (5)
+
+    
+
+    - Misspent Youth (6)
+
+    
+
+    - Mitt Romney (6)
+
+    
+
+    - Molybdenum (1)
+
+    
+
+    - movie review (2)
+
+    
+
+    - narcissism (1)
+
+    
+
+    - neologisms (3)
+
+    
+
+    - Neon (2)
+
+    
+
+    - Netflix (3)
+
+    
+
+    - Neutrons (4)
+
+    
+
+    - Nickel (4)
+
+    
+
+    - Niobium (1)
+
+    
+
+    - Nirvana (1)
+
+    
+
+    - nitrogen (15)
+
+    
+
+    - NMR (1)
+
+    
+
+    - nodes (2)
+
+    
+
+    - nostalgia (10)
+
+    
+
+    - Oh The Germanity (25)
+
+    
+
+    - Old World Wisconsin (15)
+
+    
+
+    - Olympics (2)
+
+    
+
+    - Oppenheimer (2)
+
+    
+
+    - ourosboros (4)
+
+    
+
+    - oxygen (12)
+
+    
+
+    - Palladian (1)
+
+    
+
+    - parenting (8)
+
+    
+
+    - Patti Smith (4)
+
+    
+
+    - Pauling (3)
+
+    
+
+    - periodicity (22)
+
+    
+
+    - philately (21)
+
+    
+
+    - Philology (1)
+
+    
+
+    - philosophy (2)
+
+    
+
+    - phosphorus (5)
+
+    
+
+    - Photography (2)
+
+    
+
+    - Physics (1)
+
+    
+
+    - Pink Floyd (2)
+
+    
+
+    - Planck (3)
+
+    
+
+    - planets (2)
+
+    
+
+    - poetry (7)
+
+    
+
+    - political science (43)
+
+    
+
+    - politics (36)
+
+    
+
+    - Polonium (1)
+
+    
+
+    - Pompeii (1)
+
+    
+
+    - pop music (19)
+
+    
+
+    - Portola (6)
+
+    
+
+    - potassium (2)
+
+    
+
+    - prophecy (3)
+
+    
+
+    - protons (1)
+
+    
+
+    - Quantum of Solstice (1)
+
+    
+
+    - radioactivity (23)
+
+    
+
+    - Radium (3)
+
+    
+
+    - reader_iam (2)
+
+    
+
+    - Reclamation (7)
+
+    
+
+    - recycling (1)
+
+    
+
+    - Redirection (2)
+
+    
+
+    - resonance (3)
+
+    
+
+    - Revisiting Highway 61 (10)
+
+    
+
+    - roadtrips (5)
+
+    
+
+    - Rolling Stones (1)
+
+    
+
+    - Rome (3)
+
+    
+
+    - ron (4)
+
+    
+
+    - Rubidium (2)
+
+    
+
+    - Ruthenium (3)
+
+    
+
+    - Rutherford (7)
+
+    
+
+    - Saltpeter (2)
+
+    
+
+    - Scandium (1)
+
+    
+
+    - Selenium (1)
+
+    
+
+    - Shenanigans (2)
+
+    
+
+    - shill (1)
+
+    
+
+    - shipwrecks (15)
+
+    
+
+    - Silicon (1)
+
+    
+
+    - Silly Putty (1)
+
+    
+
+    - Silver (7)
+
+    
+
+    - sissywillis (3)
+
+    
+
+    - Socratic method (2)
+
+    
+
+    - Soddy (7)
+
+    
+
+    - sodium (3)
+
+    
+
+    - Spanish (1)
+
+    
+
+    - sports (1)
+
+    
+
+    - spuren noch (8)
+
+    
+
+    - Status Quo (1)
+
+    
+
+    - Strontium (1)
+
+    
+
+    - Structure (2)
+
+    
+
+    - Stuck in '66 (7)
+
+    
+
+    - suicide (6)
+
+    
+
+    - sulfur (4)
+
+    
+
+    - Summer of Love (4)
+
+    
+
+    - surf music (10)
+
+    
+
+    - technetium (3)
+
+    
+
+    - Thanks (1)
+
+    
+
+    - Thatcher (1)
+
+    
+
+    - The Byrds (2)
+
+    
+
+    - The Doors (1)
+
+    
+
+    - The Elements Series (45)
+
+    
+
+    - The Pill (1)
+
+    
+
+    - The Who (8)
+
+    
+
+    - Things seem exactly as they are (3)
+
+    
+
+    - Thomson (1)
+
+    
+
+    - Thorium (1)
+
+    
+
+    - Time (5)
+
+    
+
+    - Times Beach (6)
+
+    
+
+    - Tin (4)
+
+    
+
+    - Titanic (28)
+
+    
+
+    - Titanium (4)
+
+    
+
+    - transmutation (6)
+
+    
+
+    - travel (4)
+
+    
+
+    - trees (5)
+
+    
+
+    - Trooper York (5)
+
+    
+
+    - Tungsten (2)
+
+    
+
+    - Twain (6)
+
+    
+
+    - umpolung (2)
+
+    
+
+    - unions (4)
+
+    
+
+    - Uranium (4)
+
+    
+
+    - urine (3)
+
+    
+
+    - Vanadium (3)
+
+    
+
+    - vbspurs (6)
+
+    
+
+    - veterans (2)
+
+    
+
+    - War Letters (6)
+
+    
+
+    - Watt (4)
+
+    
+
+    - Wealth Makers (7)
+
+    
+
+    - wikisucks (3)
+
+    
+
+    - Wings of Dove (8)
+
+    
+
+    - WW I (13)
+
+    
+
+    - WW II (3)
+
+    
+
+    - x (13)
+
+    
+
+    - Xenon (1)
+
+    
+
+    - You'll Never Guess Why (1)
+
+    
+
+    - Yttrium (1)
+
+    
+
+    - zinc (7)
+
+    
+
+    - Zirconium (1)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png  
+
+Search This Blog
+
+Loading... #uds-searchControl .gs-result .gs-title, #uds-searchControl .gs-result
+.gs-title *, #uds-searchControl .gsc-results .gsc-trailing-more-results,
+#uds-searchControl .gsc-results .gsc-trailing-more-results * { color:#5588aa; }
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result
+.gs-title a:visited * { color:#999999; } #uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-publishedDate { color: #999999; } #uds-searchControl .gs-result
+a.gs-visibleUrl, #uds-searchControl .gs-result .gs-visibleUrl { color: #cc6600; }
+#uds-searchControl .gsc-results { border-color: #cccccc; background-color: #ffffff; }
+#uds-searchControl .gsc-tabhActive { border-color: #cccccc; border-top-color:
+#cc6600; background-color: #ffffff; color: #333333; } #uds-searchControl
+.gsc-tabhInactive { border-color: #cccccc; background-color: transparent; color:
+#5588aa; } #uds-searchClearResults { border-color: #cccccc; }
+#uds-searchClearResults:hover { border-color: #cc6600; } #uds-searchControl
+.gsc-cursor-page { color: #5588aa; } #uds-searchControl .gsc-cursor-current-page {
+color: #333333; }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'6130126685334700207';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d6130126685334700207','//acrazychicken.blogspot.com/2010/07/letters-home-through-mississippi.html','6130126685334700207');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'6130126685334700207', 'bloggerUrl': 'http://www.blogger.com', 'title': 'El Pollo
+Real', 'pageType': 'item', 'url':
+'http://acrazychicken.blogspot.com/2010/07/letters-home-through-mississippi.html',
+'canonicalUrl':
+'http://acrazychicken.blogspot.com/2010/07/letters-home-through-mississippi.html',
+'canonicalHomepageUrl': 'http://acrazychicken.blogspot.com/', 'homepageUrl':
+'http://acrazychicken.blogspot.com/', 'blogspotFaviconUrl':
+'http://acrazychicken.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'Letters Home: \42through the Mississippi darkness rolling down to the sea\042',
+'pageTitle': 'El Pollo Real: Letters Home: \42through the Mississippi darkness rolling
+down to the sea\042', 'encoding': 'UTF-8', 'locale': 'en', 'isPrivate': false,
+'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog':
+false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42
+type\75\42application/atom+xml\42 title\75\42El Pollo Real - Atom\42
+href\75\42http://acrazychicken.blogspot.com/feeds/posts/default\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42El Pollo Real -
+RSS\42
+href\75\42http://acrazychicken.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42El Pollo Real - Atom\42
+href\75\42http://www.blogger.com/feeds/6130126685334700207/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0756130126685334700207\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42El Pollo Real - Atom\42
+href\75\42http://acrazychicken.blogspot.com/feeds/6425406675616367347/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'postImageThumbnailUrl':
+'http://4.bp.blogspot.com/_nOTdqVGnOTk/TC4pKYgKyqI/AAAAAAAAAh0/KRsml8ZFrHw/s72-c/train.jpg',
+'imageSrcTag': '\74link rel\75\42image_src\42
+href\75\42http://4.bp.blogspot.com/_nOTdqVGnOTk/TC4pKYgKyqI/AAAAAAAAAh0/KRsml8ZFrHw/s72-c/train.jpg\42
+/\76\n', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#666666', 'linkcolor':
+'#5588aa', 'visitedlinkcolor': '#999999', 'textcolor': '#333333', 'headerfont':
+'normal normal 78% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif',
+'pagetitlefont': 'normal normal 200% Georgia, Serif', 'bgcolor': '#ffffff',
+'descriptioncolor': '#999999', 'titlecolor': '#cc6600', 'bordercolor': '#cccccc',
+'postfooterfont': 'normal normal 78% \47Trebuchet MS\47, Trebuchet, Arial, Verdana,
+Sans-serif', 'pagetitlecolor': '#666666', 'bodyfont': 'normal normal 100% Georgia,
+Serif', 'endSide': 'right', 'startSide': 'left', 'descriptionfont': 'normal normal 78%
+\47Trebuchet MS\47, Trebuchet, Arial, Verdana, Sans-serif', 'sidebarcolor':
+'#999999'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic',
+'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url':
+'/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'},
+'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar',
+'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url':
+'/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_CustomSearchView',
+new _WidgetInfo('CustomSearch1', 'footer', null,
+document.getElementById('CustomSearch1'), {'title': 'Search This Blog',
+'includeBlog': true, 'includePostLinks': true, 'includeWeb': false, 'linkLists':
+[{'id': 'BlogList2', 'title': 'Other blogs I like'}], 'blogUrl':
+'http://acrazychicken.blogspot.com/', 'loadingMsg': 'Loading...', 'thisBlogMsg':
+'This Blog', 'linkedFromHereMsg': 'Linked From Here', 'theWebMsg': 'The Web',
+'backgroundColor': '#ffffff', 'textColor': '#333333', 'dateColor': '#999999',
+'linkColor': '#5588aa', 'urlColor': '#cc6600', 'visitedLinkColor': '#999999',
+'borderColor': '#cccccc', 'activeBorderColor': '#cc6600'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList2',
+'sidebar', null, document.getElementById('BlogList2'), {'numItemsToShow': 0,
+'totalItems': 17}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1',
+'sidebar', null, document.getElementById('Followers1'), {'title': 'Followers',
+'codeSnippet': '\74script type\75\42text/javascript\42\76\n if (!window.google ||
+!google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.currentPost \75
+\42http://www.blogger.com/feeds/6130126685334700207/posts/default/6425406675616367347\42;\n
+\n \n \n holder.currentComments \75
+\42http://www.blogger.com/feeds/6130126685334700207/6425406675616367347/comments/default\42;\n
+\n holder.currentPostUrl \75 \42\42;\n holder.currentPostId \75 6425406675616367347\n
+\n \n \n holder.postFeed \75
+\42http://www.blogger.com/feeds/6130126685334700207/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/6130126685334700207/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://acrazychicken.blogspot.com/\42;\n
+holder.currentBlogId \75 \0426130126685334700207\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-h78lel08kcta\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#666666\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#5588aa\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#5588aa\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#666666\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#5588aa\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#999999\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#cc6600\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 100% Georgia, Serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-h78lel08kcta\42,\n height: 260,\n \n \n \n site: \04213438459017212614123\42,\n
+\n locale: \47en\47 },\n skin);\n \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ProfileView', new
+_WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LabelView', new
+_WidgetInfo('Label1', 'sidebar', null, document.getElementById('Label1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'),
+{'title': 'Pages', 'links': [{'href': 'http://acrazychicken.blogspot.com/', 'title':
+'Home', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+

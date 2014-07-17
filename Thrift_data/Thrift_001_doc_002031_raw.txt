@@ -1,0 +1,2828 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); November 2009 | 100 Greatest Zimbabweans <!-- /*
+----------------------------------------------- Blogger Template Style Name: Son of
+Moto (Mean Green Blogging Machine variation) Designer: Jeffrey Zeldman URL:
+www.zeldman.com Date: 23 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */#navbar-iframe { display: none
+!important; } /* Variable definitions ==================== <Variable
+name="mainBgColor" description="Main Background Color" type="color"
+default="#ffffff"> <Variable name="mainTextColor" description="Text Color"
+type="color" default="#555544"> <Variable name="pageHeaderColor" description="Blog
+Title Color" type="color" default="#ffffee"> <Variable name="blogDescriptionColor"
+description="Blog Description Color" type="color" default="#ffffee"> <Variable
+name="linkColor" description="Link Color" type="color" default="#669922"> <Variable
+name="hoverLinkColor" description="Link Hover Color" type="color" default="#88bb22">
+<Variable name="dateHeaderColor" description="Date Header Color" type="color"
+default="#555544"> <Variable name="sidebarHeaderColor" description="Sidebar Title
+Color" type="color" default="#555544"> <Variable name="sidebarTextColor"
+description="Sidebar Text Color" type="color" default="#555544"> <Variable
+name="bodyFont" description="Text Font" type="font" default="normal normal 100%
+tahoma, 'Trebuchet MS', lucida, helvetica, sans-serif"> <Variable name="startSide"
+description="Start side in blog language" type="automatic" default="left"> <Variable
+name="endSide" description="End side in blog language" type="automatic"
+default="right"> */ /* Primary layout */ body { margin: 0; padding: 0; border: 0; text-align:
+center; color: #555544; background: #692
+url(http://www.blogblog.com/moto_son/outerwrap.gif) top center repeat-y; font-size:
+small; } img { border: 0; display: block; } .clear { clear: both; } /* Wrapper */ #outer-wrapper
+{ margin: 0 auto; border: 0; width: 692px; text-align: left; background: #ffffff
+url(http://www.blogblog.com/moto_son/innerwrap.gif) top right repeat-y; font: normal
+normal 100% tahoma, 'Trebuchet MS', lucida, helvetica, sans-serif; } /* Header */
+#header-wrapper { background: #8b2
+url(http://www.blogblog.com/moto_son/headbotborder.gif) bottom left repeat-x;
+margin: 0 auto; padding-top: 0; padding-right: 0; padding-bottom: 15px; padding-left: 0;
+border: 0; } #header h1 { text-align: left; font-size: 200%; color: #ffffee; margin: 0;
+padding-top: 15px; padding-right: 20px; padding-bottom: 0; padding-left: 20px;
+background-image: url(http://www.blogblog.com/moto_son/topper.gif);
+background-repeat: repeat-x; background-position: top left; } h1 a, h1 a:link, h1
+a:visited { color: #ffffee; } #header .description { font-size: 110%; text-align: left;
+padding-top: 3px; padding-right: 20px; padding-bottom: 10px; padding-left: 23px;
+margin: 0; line-height:140%; color: #ffffee; } /* Inner layout */ #content-wrapper {
+padding: 0 16px; } #main { width: 400px; float: left; word-wrap: break-word; /* fix for long
+text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content
+breaking IE sidebar float */ } #sidebar { width: 226px; float: right; color: #555544;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */ overflow: hidden;
+/* fix for long non-text content breaking IE sidebar float */ } /* Bottom layout */ #footer {
+clear: left; margin: 0; padding: 0 20px; border: 0; text-align: left; border-top: 1px solid
+#f9f9f9; } #footer .widget { text-align: left; margin: 0; padding: 10px 0;
+background-color: transparent; } /* Default links */ a:link, a:visited { font-weight:
+bold; text-decoration: none; color: #669922; background: transparent; } a:hover {
+font-weight: bold; text-decoration: underline; color: #88bb22; background:
+transparent; } a:active { font-weight : bold; text-decoration : none; color: #88bb22;
+background: transparent; } /* Typography */ .main p, .sidebar p, .post-body { line-height:
+140%; margin-top: 5px; margin-bottom: 1em; } .post-body blockquote { line-height:1.3em; }
+h2, h3, h4, h5 { margin: 0; padding: 0; } h2 { font-size: 130%; } h2.date-header { color:
+#555544; } .post h3 { margin-top: 5px; font-size: 120%; } .post-footer { font-style: italic;
+} .sidebar h2 { color: #555544; } .sidebar .widget { margin-top: 12px; margin-right: 0;
+margin-bottom: 13px; margin-left: 0; padding: 0; } .main .widget { margin-top: 12px;
+margin-right: 0; margin-bottom: 0; margin-left: 0; } li { line-height: 160%; } .sidebar ul {
+margin-left: 0; margin-top: 0; padding-left: 0; } .sidebar ul li { list-style: disc
+url(http://www.blogblog.com/moto_son/diamond.gif) inside; vertical-align: top;
+padding: 0; margin: 0; } .widget-content { margin-top: 0.5em; } /* Profile
+----------------------------------------------- */ .profile-datablock { margin-top:
+3px; margin-right: 0; margin-bottom: 5px; margin-left: 0; line-height: 140%; }
+.profile-textblock { margin-left: 0; } .profile-img { float: left; margin-top: 0;
+margin-right: 5px; margin-bottom: 5px; margin-left: 0; border:4px solid #8b2; } #comments
+{ border: 0; border-top: 1px dashed #eed; margin-top: 10px; margin-right: 0;
+margin-bottom: 0; margin-left: 0; padding: 0; } #comments h4 { margin-top: 10px;
+font-weight: normal; font-style: italic; text-transform: uppercase; letter-spacing:
+1px; } #comments dl dt { font-weight: bold; font-style: italic; margin-top: 35px;
+padding-top: 1px; padding-right: 0; padding-bottom: 0; padding-left: 18px; background:
+transparent url(http://www.blogblog.com/moto_son/commentbug.gif) top left
+no-repeat; } #comments dl dd { padding: 0; margin: 0; } .deleted-comment {
+font-style:italic; color:gray; } .feed-links { clear: both; line-height: 2.5em; }
+#blog-pager-newer-link { float: left; } #blog-pager-older-link { float: right; }
+#blog-pager { text-align: center; } /** Page structure tweaks for layout editor wireframe */
+body#layout #outer-wrapper { padding-top: 0; } body#layout #header, body#layout
+#content-wrapper, body#layout #footer { padding: 0; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0754292788550077104972\46blogName\075100+Greatest+Zimbabweans\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://100greatestzimbabweans.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://100greatestzimbabweans.blogspot.com/\46vt\75-7327134275185744916',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Image:
+http://4.bp.blogspot.com/_O1qgT8LFVYI/SweEEq3wcfI/AAAAAAAAAAM/FJMhg_Izc7g/S1600-R/100greatestzims.gif
+
+CHARLES MUNGOSHI TOP ZIMBABWEAN WRITER
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/charles-mungoshi-top-zimbabwean-writer.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://3.bp.blogspot.com/_O1qgT8LFVYI/SwzcNB8ADeI/AAAAAAAAAL4/BFnAqqaM46Q/s400/CHARLES+MUNGOSHI+BEST.jpg
+
+
+
+(b.1947) is a writer from Zimbabwe. His works include short stories and novels in both Shona
+and English. He also writes poetry, but views it as a "mere finger exercise." He has a wide
+range, including anti-colonial writings and children's books. While the colonial regime
+initially banned his work, he now writes about post-colonial oppression as well. The awards
+he won include the Noma Award in 1992 and the Commonwealth Writers Prize (Africa Region) twice
+in the years 1988 and 1998. Two of his novels, one in Shona and the other in English, both
+published in 1975 won the International PEN Awards. Is married to an actress Jesesi Mungoshi,
+who played in Neria (Zimbabwean Film) as Neria. Has an Honourary degree from the University of
+Zimbabwe. Mungoshi also took part in some of the local Zimbabwean drama series in the late 80's
+to early 90's, he played a role in a local drama "Ndabvezera" which was produced by Aaron
+Chiundura Moyo.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_O1qgT8LFVYI/SwzbLAnhCtI/AAAAAAAAALw/7jO94_cHsKM/s400/CHARLES+MUNGOSHI+AND+DAMBUDZO+MARECHERA.jpeg
+
+CHARLES MUNGOSHI & DAMBUDZO MARECHERA 1986
+
+
+
+Charles Mungoshi is a writer in both Shona and English. He was born in 1947 in a village near
+Chivhu in Manyene Tribal Trust Land. His novel 'Waiting for the Rain' has been prescribed
+reading for years in Zimbabwean schools. This novel was published in1975, the same year as his
+Shona novel 'Ndiko kupindana kwa mazuva' (How time passes). He received an International PEN
+award for both these books. Mungoshi's other publications include two collections of short
+stories, 'The Setting Sun' and 'The Rolling World' (1987), two collections of children's
+stories, 'Stories from a Shona Childhood' (1989) and 'One Day Long Ago' (1991) and a
+collection of poems, 'The Milkman Doesn't Only Deliver Milk' (1998). His latest book is
+'Walking Still', a collection of short stories, which was awarded the Commonwealth Writers
+Prize. He also has a short story in the anthology 'Writing Still' (ed. Irene Staunton, Weaver
+Press 2004).
+
+
+
+The following text is from a conversation between Charles Mungoshi and Mai Palmberg, an event
+arranged within the framework of the series "The Writers' Africa" on 30 September 2003 at the
+Nordic Africa Institute in Uppsala. The evening ended with questions from the floor,
+indicated below with Q. Mai Palmberg's two closing questions are indicated with MP.
+
+
+
+Image:
+http://1.bp.blogspot.com/_O1qgT8LFVYI/SwzcS4A7MhI/AAAAAAAAAMA/1SDaN9r83B8/s400/DAMBUDZO+MARECHERA+1986+WITH+MUNGOSHI+CHARLES.jpeg
+
+Let me start by asking you why you became a writer?
+
+I don't know what else I should have become. I don't know how these things come about, but I think
+my parents wanted me to be something else, and even as late as, well, just before Walking Still
+was published, which is about five years ago, my mother said, "I'd wish you'd burn your
+library". Anyway, she didn't mean it and some good things have happened also. It probably has
+got to do with having your nose in the book and hardly saying anything at all to anyone; I am
+talking about when I was growing up.
+
+
+
+But I always want to think that it was the loneliness, the way I grew up that led to my choice of
+career. It was not a career that I chose, I think it chose me. Traditionally in Shona culture you
+live in a round village and with the head of the kraal, somewhere there. But some time in the
+1950s my father had to move from our village to start a farm of his own, a farm in the modern sense,
+with machines and all the modern technology, although not that productive.
+
+
+
+This farm was about 17-something acres and you could get out with 20, 25 to 30 head of cattle for
+the whole day, feeding on wild fruits and you did not come back home until probably five o'clock
+in the evening. So most of the time I was alone and when I could read, which was five years after I
+started school, four or five years, I could read very well in both English and Shona. I always
+had books with me.
+
+
+
+Image:
+http://4.bp.blogspot.com/_O1qgT8LFVYI/Swzcs_6SmwI/AAAAAAAAAMI/ZR_QnqcPuUs/s400/Ndiko_Kupindana_Kwamazuva_cHARLES+MUNGOSHI.jpg
+
+
+
+I am the first son and first child and after me there were three girls, then four boys, and as a boy
+you are expected to work with men. I didn't have any friends on this farm; the nearest friend was
+about a mile or so away. We were not allowed to visit anyone at all, not because they were cruel,
+but there was so much work to do on the farm and I was supposed to be always there, minding the
+cattle or running errands, and so on.
+
+
+
+Even when I started going to school, my father would go to the school and tell the headmaster
+that his son would not be attending the Sunday school because he was the only one he had to help
+him on the farm.
+
+
+
+And in school, when on Monday, Wednesday and Friday pupils stayed over after school – which
+closed at about 1 o'clock – to do sports or outdoor games, my father made sure that I didn't
+join the other pupils in those games.
+
+
+
+My sisters being girls, I couldn't heard cattle with them. I couldn't work with them because
+they were women and they would be with our mother doing other things, so I was always almost on my
+own. When I was with my father, you can imagine the kind of conversation we had, "Pick that",
+"Did I say to?", "Did I tell you to?", "Run!" and so on, so you would wish to be as far away from him
+as possible.
+
+
+
+So most of my life was really lived in my head and talking to trees and birds and animals. So I want
+to think the loneliness, being on my own, turned me sort of inside and the reading helped along.
+It wasn't long before I thought, "Well, I think I can also write a story". I think that's what
+happened.
+
+
+
+What kind of reading, do you remember?
+
+The very first book I read and I could only identify words like 'this' and ‘was' and 'it' and
+'the', something like that, but I couldn't tell how the story went. But I remember very well the
+title, it was "Flamingo Island" and I loved the sound of the word 'flamingo'. I would say that
+word 'flamingo' and I thought it was wonderful. I didn't know what it meant.
+
+
+
+Later on there was a proliferation of Second World War comics and cowboy comics, American
+literature, I think, from a publisher called Dell. These are the kind of comics I read. I didn't
+realise that then, but I think from very early I was a victim of the power of the word, so from
+reading those comics I easily identified with the heroes there and I found I cultivated a
+hatred for the Germans, or the Jerries as they were called in these comics, and the Nips or the
+Japs, as the Americans put it, and I was several cowboys. I never thought about the Red Indians.
+They were my enemies and I looked down upon them.
+
+
+
+At that time there was not much literature from here. We are looking at 1959 and the oldest
+published Shona novel had been published in 1956. Then there was of course the Christian Bible
+the Bible, and it was in a very weird, very old print with letters and it was hard to read. It had
+been translated I think by some very enthusiastic white missionary. Some of what was supposed
+to be poetry, sounded very strange to the ear. Well, nobody read much, they read the Bible but
+otherwise what we called stories we heard from our grandmothers.
+
+
+
+I think I became a writer was simply something out of this loneliness, I had to make something
+out of my life. I was amassing a lot of words and you either sing them or you shout them, you have to
+do something with those words, and I started putting together stories.
+
+
+
+So did you do that already in school?
+
+I did. I remember; the first poem I wrote was when I was the first year in school. I had to ask
+somebody how to spell the name of a certain girl who sat next to me. I wrote the word down and sent
+the letter to her. I think that's the first poem I wrote. Siphiwe.
+
+
+
+So it's a one-word poem?
+
+Yes, a one word poem with a whole lot of feelings behind it. Later on I wrote about valleys and
+mountains and trees and then the inevitable longer poem, longer version of Siphiwe, "The Love
+Story", which was published in a school magazine. And 4-years later in secondary school,
+2-years away from my leaving school for good, I had a story published in a commercial magazine
+in Harare , Zimbabwe , and the following year another story. These stories were of course love
+stories and adventure stories. At that time I used to believe that a good story should have
+about two deaths on every page and a lot of blood right from page one to the end and so on and a bit of
+the bedroom scene, that was a good story as far as I was concerned.
+
+
+
+Later on it came as a surprise when I was reading some English short stories in the school
+library. I read some stories, for instance, Ernest Hemingway's stories, and there didn't
+seem to be anything happening in those stories. I mean you can have a love story without people
+sleeping together; you can have a murder story without anyone being killed on the page and so
+on. It was something about the shot, the sound of the gunshot when the curtain is closed, that
+was something from Chekov I suppose, and the whole thing about writing a story in a manner that
+leaves a lot unsaid. I got interested in that and I found myself writing stories.
+
+
+
+But what had happened again was this loneliness, which did not end by going to school. In fact I
+think it worsened because I couldn't sort of get myself together to become part of the other
+pupils at school. I think the final rift between myself and being part of whatever crowd I was
+supposed to have been part of came when I was, I think, thirteen and we were playing football. I
+always tried to avoid games where competition was required because I'd never lived or stayed
+with anyone or competed with anyone in anything, everything I did it by myself and I was the best
+by myself. So whenever I found myself competing I always came out the worst. So I was goalkeeper
+in this and somebody kicked the ball right on me and I fell back and I think I must have been out for
+two hours, and from there I hated football or any games that could kill, could hurt somebody.
+
+
+
+From there I think I became friends with just my books and walking through the forest and I would
+maybe avoid going to, play truant from church and go out into the bush. I was very good at hunting
+for fruit and people like me for the strange fruits that I brought from the bush.
+
+
+
+So when your stories got published and won these competitions, your parents were not very
+proud?
+
+No, they were not. In fact what happened with this loneliness the other thing I did was I started
+keeping a diary. It was very strange, after writing about a painful experience, I felt very
+relaxed, very refreshed and very cheerful and in fact I became a kind of clown, I think. There
+was a kind of euphoria after writing a story or something that really pained me I became very
+funny. I don't know how to say it but one of the things that I became good at is acting on stage and
+so on.
+
+
+
+And I think that also served me, that held me from writing gory stories, melodramatic stories
+into writing actually the kind of writing that I'm writing now, when.
+
+
+
+Do you think that literature in Zimbabwe has gone through a stage of literature for education
+and social/political values?
+
+Yes, when I went to school the teachers wrote on the black board "Think in English, Talk in
+English, Act in English". So they were very serious about education and that is what they
+taught. In secondary school we had plays, simplified stories; we had Shakespeare, we had
+Oliver Twist – all those stories. Some I don't know where they came from but I had those in
+primary school and in secondary school.
+
+
+
+Well, I meant after independence. Some say that the early literature of independent Zimbabwe
+was not sort of following the nationalist call?
+
+OK, looking at literature in Zimbabwe, and books like my 'Waiting for the Rain', Stanley
+Nyamfukudza's 'Non-Believer's Journey', Dambudzo Marechera's 'House of Hunger' and the
+other books – yes, they were seen as books without political ideologies, without any
+historical content, and as books that are individual or egoistic, and all that kind of things;
+there was nothing at all that would help there.
+
+
+
+And our only response was that it was at least an analysis of and we were looking into the
+individual to see how and why the individual suffers and could you please offer an answer, if
+there is any answer? It's simply a laying open of what is bothering, a diagnosis of what's wrong
+with us, and they said, "No, ideologically this is empty".
+
+
+
+But then, only recently I hear, and it's the same university and probably these might have been
+students in secondary school but now they are the lecturers, they are talking of this same book
+of mine again. I haven't changed a single word, but now they say it means something, this is one
+of the greatest things that have happened too. So it is interesting in the light of talk on
+self-censorship that a criticism of the present seems to have been written already in a book
+many years ago, which was then stamped as being ideologically empty.
+
+
+
+Q. You have written your short stories, novels, and columns, but you have also translated, for
+example, Ngugi wa Thiongo's The Grain of Wheat. Could you tell us why you did that, and what that
+novel meant to you?
+
+I was editor of a publishing house and we were all eyes open, looking around for the great novel
+of out of the struggle. I felt very bad, I couldn't write the Shona war novel. I really liked 'The
+Grain of Wheat', it was skilfully plotted and it did not tell that this is how it was, and this is
+right and this is wrong, and he has complex characters, and gave alternative
+interpretations.
+
+
+
+And I felt reading The Grain of Wheat it that it was almost the same as in Zimbabwe, the British of
+the Highlands, the farms and the people living in the compounds and the people of the land
+dissatisfied, the educational system, the same sort of characters, headmasters and so on and
+the priests, all of it. I felt that Mau Mau was just like our Chimurenga.
+
+
+
+So I felt that this would be of some help to the Shona writers who were trying to write about the
+war. I am not sure whether any of our authors did get inspired by it or learnt how to chisel the
+characters. But some have later written very well about the struggle, not as speeches but as
+subjective experiences, such as Alexander Kanengoni. 'Effortless Tears', I think that is
+one wonderful story. It is someone being honest about his or her experience, not trying to
+cover it up with pseudo-heroics and that kind of thing.
+
+
+
+Q: You were talking about the characters in the Chimurenga, and you have described the second
+Chimurenga. If you wrote about it, how would you describe the characters in the third
+Chimurenga?
+
+The characters? Which one is this third? Is it to be fought or has it been fought already?
+
+
+
+Q: Are you very straight?
+
+Where is it, the third Chimurenga? When was it?
+
+
+
+Q: Why do you ask me?
+
+Because you used the expression.
+
+
+
+Q: But you know perfectly well what it is.
+
+No, I don't. Oh, the one they call the third Chimurenga?
+
+
+
+Q: The one going on right now.
+
+I'm still confused about it, I don't know who is right or who is wrong. I don't even know whether
+we talk of right or wrong.
+
+
+
+I think they are all what they've always been, trying to cheat each other. It's intrigue, and
+I'm better then you are and it is survival of the fittest. It is the old story, isn't it? It is lies
+you can do this thing it as long as you don't get caught. I think it's the same old - I need to sit
+down and write a story to illustrate. As the father who gives his children a snake when they ask
+for bread.
+
+
+
+MP: Can I ask one thing that I forgot to ask before, this book 'Walking Still' was produced in
+1997, right? Looking to the future, are you working on anything now?
+
+I think I'll deal with the third Chimurenga.
+
+
+
+MP: Now that you hear about it?
+
+Now that I hear about it, it's interesting how we say third and second Chimurenga when the
+people are really the same people who are afraid, who fight, who are greedy, who hate their own
+or who twist, the same old - who love. I mean, they loved in the second, now they still love, they
+hate, and it's always about people who don't deliver, isn't it? It is the old hat and the same old
+characters, I suppose. With cell phones.
+
+[Conversation with Charles Mungoshi on 30 September 2003 at the Nordic Africa Institute in
+Uppsala] <!-- google_ad_client="pub-8015666080146768";
+google_ad_host="pub-1556223355139109"; google_ad_width=300; google_ad_height=250;
+google_ad_format="300x250_as"; google_ad_type="text";
+google_ad_host_channel="0001"; google_color_border="FFFFFF";
+google_color_bg="FFFFFF"; google_color_link="29303B"; google_color_url="473624";
+google_color_text="1B0431"; //-->
+
+PROFESSOR WALTER KAMBA irst Vice Chancellor of the University of Zimbabwe 100 GREATEST
+ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/professor-walter-kamba-irst-vice.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://4.bp.blogspot.com/_O1qgT8LFVYI/SwzVHGyBmTI/AAAAAAAAALo/wU0Zjd9L5co/s400/PROFESSOR+WALTER+KAMBA+100+GREATEST+ZIMBABWEANS.jpg
+
+Walter Kamba was the first Vice Chancellor of the University of Zimbabwe. Appointed in 1981,
+his devotion to the principle of academic freedom led to public disagreement with Robert
+Mugabe, and eventually to early retirement in 1991.However, he was nevertheless appointed
+Vice Chairman of the Constitutional Commission set up with Mugabe's agreement in 1999 to
+advise on a route for the President's retirement - proposals which were never acted upon.
+
+
+
+During the years of Southern Rhodesia's illegal declaration of independence, when senior
+academic positions were not open to black Zimbabweans, Kamba pursued his academic career
+abroad.
+
+
+
+He obtained BA and LLB degrees from University of Cape Town and after serving his
+
+articles in Harare, practiced as an attorney in the country before moving to Yale University
+in the US where he completed an LLM and later became dean of law at the
+
+University of Dundee.
+
+
+
+In 1979 he attended the constitutional conference on the future of Rhodesia at Lancaster
+House as legal adviser to the delegations of Robert Mugabe and Joshua Nkomo, playing a
+substantial part in the development of the constitution of the newly independent state of
+Zimbabwe.
+
+
+
+Returning to Harare in 1980, he took charge of the University, which he transformed from a
+small colonial university college . Kamba's great achievement was to expand substantially
+the overall size of the University, of its black Zimbabwean intake and of its range of academic
+studies, without compromising the quality of education.
+
+
+
+At the ceremony for 1982 graduates, Kamba was brave enough to speak out publicly, and in the
+presence of Mugabe, about the undesirability of government interference in the academic
+affairs of the University.
+
+
+
+Kamba was involved in numerous other organisations, as Chairman of the Association of
+Eastern and Southern African Universities, President of the International Association of
+Universities, Founding Dean of the Faculty of Law at the University of Namibia, amongst
+others, and at the time of his death, was the Herbert Chitepo UNESCO Professor of Human Rights,
+Democracy, Peace and Governance at the University of Zimbabwe <!--
+google_ad_client="pub-8015666080146768"; google_ad_host="pub-1556223355139109";
+google_ad_width=300; google_ad_height=250; google_ad_format="300x250_as";
+google_ad_type="text"; google_ad_host_channel="0001";
+google_color_border="FFFFFF"; google_color_bg="FFFFFF";
+google_color_link="29303B"; google_color_url="473624";
+google_color_text="1B0431"; //-->
+
+REV CANAAN BANANA 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/rev-canaan-banana-100-greatest.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://4.bp.blogspot.com/_O1qgT8LFVYI/SwzQCV1wQeI/AAAAAAAAALg/kdtL92lvcIo/s400/CANAAN+BANANA+ZIMBABWE%27S+FIRST+PRESIDENT.jpg
+
+
+
+Canaan Sodindo Banana (5 March 1936 – 10 November 2003) served as the first President of
+Zimbabwe from 18 April 1980 until 31 December 1987. A Methodist minister, he held the largely
+ceremonial office of the presidency while his eventual successor, Robert Mugabe, served as
+Prime Minister of Zimbabwe.
+
+
+
+During his lifetime, Banana brought together two of the country's political parties, the
+Zimbabwe African National Union (ZANU) and the Zimbabwe African People's Union (ZAPU),
+became a diplomat for the Organisation of African Unity, and headed the religious department
+of the University of Zimbabwe. His later life was complicated by charges of sodomy - a crime in
+Zimbabwe - which he denied and for which he was later imprisoned.
+
+
+
+Image:
+http://4.bp.blogspot.com/_O1qgT8LFVYI/SwzPkGPRj5I/AAAAAAAAALY/zKB7rJLx0CU/s400/REV+CANAAN+BANANA+ZIMBABWE.jpg
+
+
+
+Zimbabweans owe a great debt of gratitude to Rev Canaan Banana. As speakers from across the
+political divide and those representing the Christian community said, Rev Banana was,
+despite his weaknesses, a good and patriotic Zimbabwean. He played a very crucial role in the
+liberation struggle and in the unification of the country following the early 1980s
+Matabeleland troubles. He did justice, he loved mercy, he walked humbly with his God.
+
+
+
+Banana was born in 1936 in Esiphezini Communal Area, Southern Rhodesia near Esigodini (now in
+Matabeleland South). His parents were a Ndebele-cultured mother and a Malawian father who
+had emigrated to Rhodesia. He was educated by missionaries in a local school and later studied
+at a teacher training institute.[1]
+
+
+
+He married Janet Mbuyazwe[2] in 1961, and they had four children together. He took a diploma in
+theology at Epworth Theological College in Harare and was ordained as a United Methodist
+minister in 1962. He was a student at Wesley Theological Seminary in Washington, D.C. in 1974
+and 1975. Becoming involved in politics, he denounced Ian Smith's practices as a prime
+minister, took part in the rising[3] transnational black liberation ideo-religious
+movements, and came to be vice-president of the African National Council.[1]
+
+
+
+He wrote a book entitled The Gospel According To The Ghetto, and a personalised version of the
+Lord's Prayer.
+
+
+
+Banana was born in 1936 in Esiphezini Communal Area, Southern Rhodesia near Esigodini (now in
+Matabeleland South). His parents were a Ndebele-cultured mother and a Malawian father who
+had emigrated to Rhodesia. He was educated by missionaries in a local school and later studied
+at a teacher training institute.[1]
+
+
+
+He married Janet Mbuyazwe[2] in 1961, and they had four children together. He took a diploma in
+theology at Epworth Theological College in Harare and was ordained as a United Methodist
+minister in 1962. He was a student at Wesley Theological Seminary in Washington, D.C. in 1974
+and 1975. Becoming involved in politics, he denounced Ian Smith's practices as a prime
+minister, took part in the rising[3] transnational black liberation ideo-religious
+movements, and came to be vice-president of the African National Council.[1]
+
+
+
+He wrote a book entitled The Gospel According To The Ghetto, and a personalised version of the
+Lord's Prayer.
+
+
+
+Sodomy charges and imprisonment
+
+
+
+The former president's term in office was a subject of scandal in later years, marking his
+legacy to national independence social movements in Africa and abroad. In 1997, Banana was
+arrested in Zimbabwe on charges of sodomy, following accusations made during the murder
+trial of his former bodyguard, Jefta Dube.[1] The charges related to allegations from the
+state prosecutor that Banana had misused his power while he was president to coerce numerous
+men in positions of service (ranging from domestic staff to security guards, and even members
+of sports teams for whom he had acted as referee) into accepting sexual advances. Banana was
+found guilty of eleven charges of sodomy, attempted sodomy and indecent assault in 1998. He
+denied all charges, saying that homosexuality is "defiant, abominable and wrong", and the
+allegations made against him were "pathological lies" intended to destroy his political
+career.[5] Janet Banana later acknowledged her husband's indiscretions, even though she
+considered the charges against him to be politically motivated.[6]
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_O1qgT8LFVYI/SwzPgA701uI/AAAAAAAAALQ/oio87MR2WCw/s400/CANAAN+BANANA+ZIMBABWE+WITH+ROBERT+MUGABE.jpg
+
+He fled to South Africa whilst released on bail before he could be imprisoned, apparently
+believing Mugabe was planning his death. He returned to Zimbabwe in December 1998, after a
+meeting with Nelson Mandela, who convinced him to face the ruling. Banana was sentenced on 18
+January 1999 to ten years in jail, nine years suspended, and was also defrocked. He actually
+served six months in an open prison before being released in January 2001.
+
+
+
+On 10 November 2003, Banana died of cancer,[7] in London, according to a report delivered by
+the Zimbabwean High Commissioner. The Guardian, a London-based newspaper, has claimed that
+Banana had traveled to South Africa, where he eventually died, in order to receive
+appropriate treatment for his cancer; however, this dispute relies upon uncorroborated
+testimonial evidence.[1] He was buried in Zimbabwe in late November 2003. President Robert
+Mugabe called him "a rare gift to the nation" in a radio address.[8] Banana was buried without
+the full honours that are traditionally accorded to former heads of state.[4] The then
+politburo Secretary for Information and Publicity Nathan Shamuyarira told state radio that
+"they (the politburo) could not accord Banana hero status as a matter of principle."[9] His
+wife sought political asylum in Britain in October 2000 under a preexisting accord.[4]
+
+MARK CHAVHUNDUKA JOURNALIST & PUBLISHER 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/mark-chavhunduka-journalist-publisher.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://2.bp.blogspot.com/_O1qgT8LFVYI/SwzF2Yiq4gI/AAAAAAAAAK4/wP-hD2Viw04/s400/Mark+Chavhunduka+100+Greatest+Zimbabweans.jpg
+
+
+
+A s founding editor of Zimbabwe 's independent Sunday newspaper, the Standard, the
+award-winning journalist and publisher Mark Chavunduka, who died aged 36, was a champion for
+media freedom in southern Africa .
+
+
+
+His paper became a symbol of resistance among his country's journalists, and a thorn in the
+flesh of President Robert Mugabe's government. He exposed the corruption and political
+intimidation rife in Zimbabwe , and his outspokenness made the Standard an internationally
+recognised voice for those opposed to Mugabe's tyranny.
+
+Image:
+http://2.bp.blogspot.com/_O1qgT8LFVYI/SwzIoMP3B_I/AAAAAAAAALI/dYf9X5EKAhI/s400/newspapers.jpg
+
+
+
+<!-- /* set the domain in anticipation of the ad*/ if(setDomainForAds) { setDomainForAds();
+}; //-->
+
+Chavunduka entered the limelight in 1999, when the Standard's chief writer, Ray Choto,
+reported on widespread Zimbabwean army unrest over the deployment of up to 14,000 troops in
+the civil war then raging in the Democratic Republic of Congo. Choto claimed that 23
+disgruntled soldiers had been detained for inciting mutiny against Mugabe.
+
+
+
+For more than 10 days, Chavunduka and Choto were detained incommunicado at Cranborne
+barracks near Harare . Their lawyer, Simon Bull, said both men were subjected to electric
+shocks on their genitals, hands and feet by military interrogators, and had their heads
+submerged in drums of water.
+
+
+
+They were also blindfolded, stripped naked, made to do push-ups in the rain, and to roll in wet
+grass to clean the blood from their bodies after beating.
+
+
+
+Independent medical sources confirmed the torture allegations, and the incident, seen by
+many as the most outrageous attack on press freedom in Zimbabwe since independence, drew
+worldwide condemnation.
+
+
+
+President Mugabe, however, refused to condemn the torture. Instead, he threatened "very
+stern measures" against the independent press, warned writers not to antagonise the army,
+and ignored a court order to release the two journalists.
+
+
+
+Chavunduka was born into a prominent Zimbabwean family in the capital, Salisbury (now Harare
+). His father, Dr Dexter Chavunduka, was Zimbabwe 's first black veterinary surgeon, and a
+member of parliament nominated by Mugabe for his expertise in animal husbandry.
+
+
+
+As vice chancellor of the University of Zimbabwe , Mark's uncle, Professor Gordon
+Chavunduka, a veteran nationalist, had conferred an honorary degree on Mugabe. His aunt,
+Sarah Kachingwe, was a top civil servant.
+
+
+
+Educated at the prestigious St George's secondary school, Chavunduka graduated from Harare
+Polytechnic with a diploma in mass communication and journalism. He began his career as a
+business reporter, and later news editor, with the Financial Gazette.
+
+
+
+In 1991, aged 24, he became the youngest editor of a national publication when he took over the
+monthly magazine, Parade, whose readership he increased to more than two million.
+
+
+
+He became editor of the Standard in April 1997, and, under him, the circulation rose from
+12,000 to 37,000.
+
+
+
+Image:
+http://2.bp.blogspot.com/_O1qgT8LFVYI/SwzH__R8L6I/AAAAAAAAALA/e6eZHPrWN_M/s400/thestandard_logo.gif
+
+After his release, he was treated for post-traumatic stress disorder at the London-based
+Medical Foundation for the Treatment of Torture Victims.
+
+
+
+Two years ago, Chavunduka won a Nieman fellowship at Harvard University , but, last year,
+returned home.
+
+
+
+"My family all said I should have stayed in the US, but I am so angry about the way we were
+treated," he said, "and I won't give the government the satisfaction of knowing I've run
+away."
+
+
+
+Last April, he resigned as editor of the Standard after taking over the majority shareholding
+in the local Thomson Publications (Pvt).
+
+
+
+The cause of the illness that led to his death was not announced. He is survived by his wife, two
+daughters and a son.
+
+
+
+Mark Gova Chavunduka, journalist and publisher, born November 28 1965 ; died November 11,
+2002.
+
+JUDGE ENOCH DUMBUTSHENA ZIMBABWE'S FIRST BLACK JUDGE
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/judge-enoch-dumbutshena-zimbabwes-first.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://4.bp.blogspot.com/_O1qgT8LFVYI/Swy-BUFoBuI/AAAAAAAAAKw/MxyrsCCUWLU/s400/Enoch+Dumbutshena+100+Greatest+ZImbabweans.jpg
+
+Enoch Dumbutshena (20 April 1920 – 14 December 2000) was a distinguished Zimbabwean judge
+known for defending the independence of that country's judicial branch.
+
+
+
+He became Zimbabwe's first black judge in 1980 and served as Chief Justice from 1984 to 1990.
+Dumbutshena's decisions were often highly critical of President Robert Mugabe and his
+government.
+
+
+
+A former member of the International Commission of Jurists, he unsuccessfully attempted to
+launch a political career of his own in 1993 by founding the market liberal Forum Party. He died
+in late 2000 of liver cancer.
+
+HENRY OLONGA ZIMBABWE'S FIRST BLACK CRICKETER 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/henry-olonga-zimbabwes-first-black.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://4.bp.blogspot.com/_O1qgT8LFVYI/Swys_SzUtnI/AAAAAAAAAKg/FYmubcmgC5g/s400/HENRY+OLONGA+ZIMBABWE+CRICKET+100+GREATEST+ZIMBABWEANS.jpg
+
+
+
+Henry Khaaba Olonga (born 3 July 1976 in Lusaka, Zambia) was a cricket player for Zimbabwe. He
+made his international debut in a Test match against Pakistan at Harare in 1995, at age 18
+years, 212 days, becoming the youngest player to represent Zimbabwe. He helped Zimbabwe to
+its first ever Test victory in that game. A right arm fast bowler, Olonga was the first black
+cricketer to play for Zimbabwe and is the second Zambian-born Test cricketer after Phil
+Edmonds of England.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_O1qgT8LFVYI/Swysh-f-93I/AAAAAAAAAKY/4F7xShp_fb0/s400/HENRY+OLONGA+ZIMBABWEAN+FIRST+BLACK+CRICKETER.jpg
+
+Olonga achieved international recognition (along with team mate Andy Flower) in 2003 by
+wearing a black armband in a Cricket World Cup match to protest against the policies of
+Zimbabwe's government, led by Robert Mugabe.
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_O1qgT8LFVYI/SwywWOWf_AI/AAAAAAAAAKo/UjAU9TXpksY/s400/henry+olonga+with+black+arm+band.jpg
+
+OLONGA WEARING A BLACK ARMBAND TO PROTEST POLICIES OF ZIMBABWE'S GOVT
+
+He and Flower released a statement on 10 February, stating in part: In all the circumstances,
+we have decided that we will each wear a black armband for the duration of the World Cup. In doing
+so we are mourning the death of democracy in our beloved Zimbabwe. In doing so we are making a
+silent plea to those responsible to stop the abuse of human rights in Zimbabwe. In doing so, we
+pray that our small action may help to restore sanity and dignity to our nation.
+
+
+
+This act led to a warrant issued in Zimbabwe for Olonga's arrest on charges of treason (which
+carries the death penalty in Zimbabwe) and forced him to retire from international cricket
+and temporarily go into hiding. He is now pursuing a career as a singer and a cricket
+commentator.
+
+Tribute to Luciano Pavarroti by Henry Olonga, Nessun Dorma
+
+
+
+
+
+
+
+Olonga played 30 Test matches for Zimbabwe, taking 68 wickets with a bowling average of 38.52,
+and 50 one-day internationals, taking 58 wickets at an average of 34.08. He holds the record
+for the best bowling in a one-day international by a Zimbabwean, with figures of 6/19 against
+England at Cape Town in 2000.
+
+TATENDA TAIBU ZIMBABWE'S FIRST BLACK CRICKET CAPTAIN
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/tatenda-taibu-zimbabwes-first-black.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://3.bp.blogspot.com/_O1qgT8LFVYI/SwymPnIy40I/AAAAAAAAAKA/WwpkDhgO5eQ/s400/Tatenda+Taibu+100+Greatest+Zimbabweans.jpg
+Tatenda Taibu (born May 14, 1983, in Harare , Zimbabwe) is a Zimbabwean cricketer . He is a
+wicket-keeper and batsman, and can also bowl right arm off spin . He became the youngest Test
+captain in history when he was given the Zimbabwean captaincy.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_O1qgT8LFVYI/SwyoOWDI5qI/AAAAAAAAAKI/5K2Ne7bSmDw/s400/Tatenda+Taibu+with+Heath+Streak.jpg
+
+
+
+
+
+Taibu made his first-class debut at the age of sixteen, and his debut for the national team in
+2001, at the age of eighteen. In 2003, he was appointed vice-captain to Heath Streak on the
+team's tour of England , and he was appointed national captain in April 2004, making him the
+youngest Test captain in history. [ 1 ]
+
+He played for the Cape Cobras in South Africa in the 2005/06 season.
+
+He made his return to the Zimbabwean side in a series against India A in July 2007, registering a
+century. The following month Zimbabwe hosted South Africa for a three game ODI series and in
+the final game Taibu scored a career best 107 not out. It was the first ODI century by a
+Zimbabwean against South Africa. On February 20, 2008, Taibu was successfully bid on by the
+Kolkata franchise of the Indian Premier League
+
+
+
+Image:
+http://2.bp.blogspot.com/_O1qgT8LFVYI/SwyoSK3XZpI/AAAAAAAAAKQ/CXMyEUdHFzQ/s400/Tatenda+Taibu+100+Best+Zimbabweans.jpg
+
+
+
+Teams
+
+    
+
+    - Zimbabwe (current)
+
+    
+
+    - Namibia (2006)
+
+    
+
+    - Mountaineers Franchise Team (current)
+
+    
+
+    - Mashonaland
+
+    
+
+    - Kolkata Knight Riders ( IPL 2008)
+
+    
+
+WIKIPEDIA
+
+PATRICK KOMBAYI 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/patrick-kombayi-100-greatest.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://3.bp.blogspot.com/_O1qgT8LFVYI/SwnRwxc0enI/AAAAAAAAAJg/XE4PUJqjl4A/s400/PATRICK+KOMBAYI+100+GREATEST+ZIMBABWEANS.jpg
+
+
+
+We acknowledge and recognize the contribution made by the late veteran politician and
+businessman Honorable Dr Patrick Kombayi.
+
+
+
+Patrick Kombayi (November 2, 1938 – June 20, 2009[1]) was a Zimbabwean businessman, a
+former mayor of Gweru and an active member of the Movement for Democratic Change-Tsvangirai
+faction in the Midlands Province. He served in the Senate of Zimbabwe for Chirumhanzu-Gweru
+senatorial constituency.
+
+
+
+Dr Kombayi was buried in Gweru on the 27th of July 2009, after he succumbed from gunshot wounds
+sustained in the 4 March 1990 foiled assassination attempt by the late Simon Muzenda’s
+bodyguards Kizito Chivamba and Elias Kanengoni.
+
+
+
+The late Kombayi played a pivotal during the liberation struggle when he housed, clothed,
+financed and fed leaders of the revolutionary movements ZIPRA and ZANLA IN Zambia.
+
+
+
+Robert Mugabe, Hebert Chitepo, Rugare Gumbo, and many other comrades in the liberation
+struggle all benefited from Kombayi’s courtesy during their stay in Zambia.
+
+
+
+In 2001 he assisted several student leaders who had been expelled at the Midlands State
+Universty (MSU).The union continued to get assistance and support from him up until the time
+of his death.
+
+
+
+Go well great politician, go well great businessman, go well great revolutionary, Five Star
+politician!
+
+THE BLACKS; WAYNE, CARA, BYRON 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/blacks-wayne-cara-byron-100-greatest.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://2.bp.blogspot.com/_O1qgT8LFVYI/SwnPkAOGsEI/AAAAAAAAAJY/7oKYRetG0kg/s400/BLACK_Byron_ZIMBABWE.jpg
+
+Byron Black
+
+
+
+He is the brother of Cara and Wayne Black, both professional tennis players. He attended the
+University of Southern California and was an All-American as named by the Intercollegiate
+Tennis Association (ITA).
+
+
+
+In 1995 Black was a US Open quarterfinalist and in 2000 he reached the same round at Wimbledon.
+His highest career singles ranking was World No. 22, which he achieved in June 1996.
+
+
+
+An accomplished doubles player, Black became world no. 1 in doubles in February 1994. He won
+the 1994 French Open partnering Jonathan Stark. Black was a doubles finalist in three other
+majors, the 1994 and 2001 Australian Opens and 1996 Wimbledon.
+
+
+
+Black is one of the few professional players to have played with a double-handed forehand.
+
+
+
+Black formed the core of the Zimbabwean Davis Cup team with his brother Wayne.
+
+
+
+Byron's father Don had a grass court in Highlands, Harare on which Byron honed his skills. As a
+junior Byron played tennis for Prince Edward School in Harare. On one occasion as a 13 year old
+he thrashed an 18 year old Bunny Eales of Oriel Boys 6-1 6-1 in an interschools game. He moved to
+Oriel Boys High School to increase his exposure to stronger players, like Greig Rodgers and
+Mark Gurr, future Davis Cup players for Zimbabwe. Byron played in Club Open Tournaments in
+Harare as well as the Zimbabwe Open tournament for several years before turning
+professional. At that time, anyone could enter the Zimbabwe open and you could find yourself
+playing Byron in the first round.
+
+SIMON CHOPPER CHIMBETU 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/simon-chopper-chimbetu-100-greatest.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://1.bp.blogspot.com/_O1qgT8LFVYI/SwnM1rQX0rI/AAAAAAAAAJI/_o9AnaPkrN0/s400/SIMON+CHIMBETU+100+GREATEST+ZIMBABWEANS.jpg
+
+Simon "Chopper" Chimbetu, one of ’s most successful and beloved local musicians died on
+Sunday, August 14, in Harare . He was 50. A veteran of Harare ’s intense nightlife for over two
+decades, Chimbetu saw his highs and lows. As he died, he was emerging from controversy
+surrounding his backing of the government’s land-grab policy. But his 2004 album “10
+Million Pound Reward” was bringing him back into public favor in recent months. Six years
+earlier, when I lived in Harare, Chimbetu’s shows were the top draw in Harare, as stylish,
+polished, and tuneful a take on Zimbabwe’s own brand of guitar-based rumba—sometimes
+called sungura—as you could find.
+
+
+
+Chimbetu was born and raised in Makwiru, Chegutu area, Mashonaland West in 1955. His parents
+were amateur musicians, and he fondly recalled his father drumming and his mother singing
+when he was a child. During the liberation war he and his three brothers and four sisters lived
+on Dendera Farm in Mozmbique. He returned after independence to work with a pioneering
+sungura band called The Marxist Brothers. When we spoke in 2001, he seemed a little
+embarrassed about the name, calling it a “nickname,” and explaining that it made more
+sense in the afterglow of the independence struggle, which was supported by communists in the
+USSR and China.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_O1qgT8LFVYI/SwnNYsKn5YI/AAAAAAAAAJQ/aNJihzhVR5Y/s400/SIMON+CHIMBETU+ZIMBABWE+LIVE+IN+ACTION.jpg
+
+
+
+When he formed his own band in the early 90s, he called it the Dendera Kings. The name harks back
+to his experience during the war years, but as he explained in 2001, it has a deeper meaning.
+“Dendera is an African bird,” he said. “It is found in tropical savannah areas. In
+English it is called a ground hornbill. It’s quite a big bird. Why we chose that title is that
+the bird can be heard from 10 km away. Very early in the morning, it produces a powerful sound,
+like a drum. That is a very respected bird in the region.” The band too was very respected,
+producing over 15 albums, and performing long, ecstatic shows all over the country.
+
+
+
+
+
+
+
+Chimbetu was never a political singer, but he did address social issues, and sometimes that
+was perceived as political. “I think when you are a writer, a musician, an artist,” he
+said, “an artist is mostly concerned about the poor. An artist is supposed to be concerned
+with the majority of the people. That’s where we belong.” His 2000 song “Ndare Newa”
+dramatized the plight of workers who spent their entire Friday paycheck by Sunday night, and
+had to scrounge all week before receiving another. The song stirred minor controversy as some
+took it as implicitly critical of the government. His loyalty to the Mugabe regime was later
+reinforced, however, when he participated in its aggressive land grab policy by occupying a
+500 hectare farm in Kadoma. At the same time, he spoke out against violence and declared
+himself “a friend to all Zimbabweans.”
+
+
+
+The farm episode nevertheless cost him some popular support, but at the time of his death, he
+was clearly on the rebound, playing frequent shows in the as well as . A journalist in 2004
+described him as “fit as a fiddle,” and reports say he died quickly from an “undisclosed
+illness.” When he was buried on August 17, hoards of people clogged the streets of Harare .
+All Zimbabweans mourn Chimbetu, clearly one of the musical giants of his time.
+
+
+
+
+
+
+
+Contributed by: Banning Eyre
+
+GEOGE SHAYA "MASTERMIND" SOCCER PAYER 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/geoge-shaya-mastermind-soccer-payer-100.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //--> George Shaya was the best soccer player
+of the pre-Independence Rhodesia. He played for Dynamos Football Club.
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_O1qgT8LFVYI/SwnIuQT5-bI/AAAAAAAAAJA/HFKEEk-swC0/s400/zimbabwe+dynamos+football+club.jpg
+
+
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_O1qgT8LFVYI/SwnHdBjJ-CI/AAAAAAAAAI4/8CgqvnVyBKY/s400/dynamos+zimbabwe+georger+shaya.jpg
+
+GEORGE SHAYA was crowned Zimbabwe Player of the year 5 times!
+
+
+
+
+
+Watch the Dynamos Cheer Song
+
+
+
+
+
+DR SOLOMON GURAMATUNHU 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/dr-solomon-guramatunhu-100-greatest.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://2.bp.blogspot.com/_O1qgT8LFVYI/SwnBX5mbEhI/AAAAAAAAAIg/rsBwdFTPEaM/s400/dr_solomon_guramatunhu.jpg
+
+Zimbabwe Surgeon Provides Relief to Cataract Patients
+
+
+
+The current political and economic crisis in Zimbabwe has severely affected hospitals and
+other public service providers.. Essential drugs such as painkillers are in short supply and
+many medical personnel have left the country in search of money, status and safety. Despite
+the demand for Zimbabwean doctors and nurses overseas, some have remained home to assist
+their fellow countryman. From Harare, reporter Derek Moyo takes a look at one medical
+professional who’s bringing relief to thousands who never thought they’d see another
+day.
+
+
+
+The 22-year-old woman had not seen her mother in years, and had never seen her own baby. Her life
+changed the moment Dr. Solomon Guramatunhu traveled to her village in Ndola, Zambia, and
+removed her cataracts.
+
+
+
+He recounts the experience..
+
+
+
+"You can imagine,he said, "this is somebody who is now totally blind, has given birth and [she]
+had not seen their child and had not seen her mother for 3 years. When we operated on her, she
+opened her eyes. She could see her child for the very first time and could see her mother again. I
+can never forget her face. She just could not believe it and then she smiled and she started
+crying and everybody around started crying."
+
+
+
+Image:
+http://1.bp.blogspot.com/_O1qgT8LFVYI/SwnCeergPyI/AAAAAAAAAIo/R7d8dfvEY_Y/s400/SOLOMON+GURAMATUNHU+100+GREATEST+ZIMBABWEANS.jpg
+Dr Solomon Guramatunhu (R)
+
+
+
+The young woman is just one of thousands who’ve had their futures brought back into focus by
+Dr. Guramatunhu and fellow colleagues of the Eyes for Africa program.
+
+
+
+Cataracts occur when any part of the primary focusing mechanism, the crystalline lens behind
+the iris, becomes cloudy, opaque or yellow. This result is the failure of the lens to let in
+light, and vision is reduced or eliminated.
+
+
+
+For paying clients, the 30-minute operation would cost about 55 million Zimbabwe dollars For
+the continent’s poor, the service is free.
+
+
+
+EYE SIGHT, AIDS, AND THE ELDERLY
+
+
+
+
+
+Dr Guramatunhu estimates that one percent of all Zimbabweans is blind – and an overwhelming
+majority of the cases are due to cataracts.
+
+
+
+Many of those affected are elderly people with children who have died of AIDS. As surviving
+grandparents, they are expected to look after the children. But because of their own
+blindness, it’s sometimes the other way around.
+
+
+
+"In the rural areas today," he said, "we talk of a double tragedy because we have elderly
+people, grandmothers, grandfathers who have lost off spring due to hiv/aids, so they become
+the custodians of the orphans. The grandparents then go blind because of cataracts, which
+means they can not look after those orphans. [So] you end up with these little children looking
+after their grandparents, and most of them then opt out of school to be able to look after
+[them]."
+
+
+
+ECONOMICS AND SURGERY
+
+
+
+So far, over 10, 000 people, including the elderly, have been helped.
+
+
+
+They include between 100 and 120 people over the three-day periods Dr Guramatunhu allots for
+travel to rural areas.
+
+
+
+He says logistical problems prevent the doctors from reaching more people.
+
+
+
+" A lot of these people cannot afford the bus fare to come to the hospital." he said. "….The
+ordinary person, if you have a grandmother or grandfather has cataracts or is blind, we do
+expect you to do your bit maybe provide them transport to come to the clinic."
+
+
+
+A LIFE OF PRIVILEDGE
+
+
+
+Most of those helped are the disadvantaged.
+
+
+
+In contrast, the well-known ophthalmologist has led a life of relative privilege, with a
+costly education in Scotland cushioned by scholarships.
+
+
+
+He said, "If you speak to a lot of people who today are privileged, somewhere along the line they
+would have obtained assistance from somebody else. So I think, privilege comes with
+responsibility. One can help in various ways and I think everybody is in a position to help
+somebody else regardless of their status."
+
+
+
+Today, Dr Guramatunhu is an honorary lecturer at the University of Zimbabwe and has his own
+private eye surgery in Harare.
+
+
+
+During a stint in government, he helped convince medical aid societies to purchase eye
+equipment so that local people no longer had to travel to South Africa for cataract surgery and
+laser treatment.
+
+
+
+EYE ON THE FUTURE
+
+
+
+Dr. Guramatunhu’s own future means expanding the number of operations, and the number of
+countries, Eyes for Africa can cover.
+
+
+
+The group conducts up to 5,000 operations per year, but the Zimbabwean ophthalmologist would
+like to see that number doubled, or even tripled.
+
+
+
+For this, the soft-spoken doctor has a new hat – as aggressive fund-raiser.
+
+
+
+His group has been raising money in various countries to ensure that more people have their
+sight restored. Dr Guramatunhu said this year several golf tournaments have raised millions
+of Zimbabwean dollars. Rotary clubs in Zimbabwe and South Africa have offered generous
+support to the program.
+
+
+
+A holder of the International Ophthalmologist Education Award, Dr Guramatunhu is the
+founding president of the Ophthalmological Society of Zimbabwe and the founding chairman of
+Eyes for Africa.
+
+
+
+He is also a member of the American Society of Cataracts and Refractive Surgeons, the European
+Society of Cataracts and Refractive Surgeons, the International Society of Refractive
+Surgery, the Corneal Society, the European Vitreo-retinal Society and Euretina.
+
+Apart from heading Eyes for Africa, he has partnered with regional and international
+colleagues to offer free surgery in Zambia, Namibia, Angola and Vietnam.
+
+
+
+Earlier this month, Dr Guramatunhu participated in The Sunday Mail and Partners in the
+Community initiative, which seeks to facilitate sustainable relief and growth to
+vulnerable members of society.
+
+He conducted an eye clinic at Copota School for the Blind in Masvingo where he examined 50
+students. There was renewed hope among some of the students that they could regain their sight
+once corrective measures were taken.
+
+
+
+Speaking after the clinic, Dr Guramatunhu said: “I believe it is important for us to make a
+difference in society.
+
+
+
+“We should have new thinking and change our mentality towards society.”
+
+
+
+Contact Information:
+
+
+
+704308.; Dr. Guramatunhu: 175 Fife/8th Street, Harare.
+
+PROFESSOR CHRISTOPHER CHETSANGA 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/professor-christopher-chetsanga-100.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://1.bp.blogspot.com/_O1qgT8LFVYI/Swm97nEr0-I/AAAAAAAAAIY/jfpKnlr3pCA/s400/PROFESSOR+CHRISTOPHER+CHETSANGA.JPG
+
+Professor Christopher Chetsanga is a holder of a PhD Degree in Biochemistry and Molecular
+Biology and Post-doctoral studies, University of Toronto (USA), 1969 - 1972. He was an
+Assistant Professor from 1972 and Full Professor in 1979 at the University of Michigan (USA).
+
+
+
+He also holds a D Sc Honorary Degree granted by the University of Zimbabwe where he served as a
+Senior Lecturer in Biochemistry 1983 before he became the Pro-Vice Chancellor in 1991 and
+Acting Vice Chancellor in 1992. In his field of expertise he has published many articles and
+researched in the various scientific projects of national interest.
+
+
+
+Professor Chetsanga is a UNESCO Gold Medal Award winner and former UNESCO Executive Board
+member among others. In 1993 he became the Director General of Scientific and Industrial
+Research and Development Centre (“SIRDC”). He was appointed Independent
+Non-Executive Director and Chairman of ReNaissance Financial Holdings Limited
+(“RFHL”) on 31 May 2004. His other directorships include Africa First ReNaissance
+Corporation Limited (“Afre”) and ZESA Holdings Limited.
+
+BETTY MAKONI GIRL CHILD NETWORK 100 GREATEST ZIMBABWEANS CHIEF
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/betty-makoni-girl-child-network-100.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://3.bp.blogspot.com/_O1qgT8LFVYI/Swm7shWJ-jI/AAAAAAAAAIQ/qO-2hJ_T61w/s400/betty+makoni+100+greatest+zimbabweans.jpg
+
+LONDON, England (CNN) -- Hope was 14 years old when her uncle raped her.
+
+
+
+"He trapped me to the ground and covered my mouth with his hand," said the 18-year-old from
+Zimbabwe. "He threatened to kill me if I ever told anybody."
+
+
+
+So, she kept quiet.
+
+
+
+"After a while people around the villages started saying that I looked pregnant," she said.
+
+
+
+Hope was not only pregnant, but her uncle had infected her with HIV.
+
+
+
+
+
+
+
+Like many young girls in Zimbabwe, Hope was the victim of a widely held belief that if a man with
+HIV or AIDS rapes a virgin he will be cured of his disease. This so-called virgin myth,
+perpetuated by Zimbabwe's traditional healers, has led to the rape of hundreds of girls,
+according to UNICEF. Some of those victims are too young to walk, much less protect
+themselves.
+
+
+
+Betty Makoni has fought for nearly a decade to protect her country's young girls from sexual
+abuse. And she's witnessed some of the worst cases of the myth in action.
+
+
+
+"The youngest girl I ever came across was a day-old baby who was raped," said Makoni, 37.
+
+
+
+Through her Girl Child Network (GCN), Makoni has helped rescue 35,000 girls from abuse --
+including Hope; thousands more have found an empowering community and a public forum in which
+to speak out. Vote now for the CNN Hero of the Year
+
+
+
+"Ten girls per day report rape cases," she said. "It means if we keep quiet, at least 3,600 girls
+per year may just be contracting HIV and AIDS."
+
+
+
+Makoni's own tragic experiences fuel her fierce determination.
+
+
+
+"I was raped when I was 6 years old," she recalled. Her attacker was a local shopkeeper. Makoni
+said her mother would not allow her to report the abuse.
+
+
+
+"She said, 'Shh, we don't say that in public,' " Makoni remembered. "I had no shoulder to cry
+on."
+
+
+
+Three years later, she witnessed her father murder her mother. In that moment, Makoni said she
+realized the potentially deadly consequence of a woman's silence.
+
+
+
+"I told myself that no girl or woman will suffer the same again," she said.
+
+
+
+Believing an education would provide her the best opportunity and means to speak out, Makoni
+earned two university degrees and became a teacher. While teaching, she noticed that girls
+were dropping out of school at an alarming rate. She approached her students with an idea.
+
+
+
+"I [said] to girls, 'Let's have our own space where we talk and find solutions,' " Makoni said.
+Girl Child Network was born.
+
+
+
+By the end of the first year, there were 100 GCN clubs throughout Zimbabwe where girls could
+find support. Makoni said she was not surprised: "Every woman and girl identified with the
+issues that we were raising," she said.
+
+
+
+In 2000, she quit her teaching job to volunteer with GCN full time. "I decided to become an
+advocate because I walked my own journey to survival," she said.
+
+
+
+The following year Makoni successfully procured a piece of land and opened the
+organization's first empowerment village, designed to provide a haven for girls who have
+been abused. Girls are either rescued or referred to the village by social services, the
+police and the community. The healing begins as soon as a girl arrives.
+
+
+
+"In the first 72 hours, a girl is provided with emergency medication, reinstatement in
+school, as well as counseling," said Makoni.
+
+
+
+It is important to her that the girls are in charge of their own healing. "It gives them the
+confidence to transform from victims to leaders," she explained.
+
+
+
+The process helped Hope work through the times when she said "I thought my life had come to end."
+
+
+
+"They offered all they could ... as I was in a traumatized state," she said. "I really
+appreciate what [Betty Makoni] has done and is doing in my life."
+
+
+
+Today, GCN has grown to 700 girls' clubs and three empowerment villages across Zimbabwe. An
+estimated 300,000 girls have received assistance.
+
+
+
+For those who were at greatest risk, Makoni believes that help was especially critical. "If my
+organization didn't exist, the 35,000 girls I've saved from rape and abuse could have died by
+now," she said.
+
+
+
+But for Makoni, speaking out came with a high personal cost. In 2008, she was forced to flee her
+native country. "I left Zimbabwe because my life was in danger as a result of my project being
+interpreted politically."
+
+
+
+Today, she lives with her family in the United Kingdom. She still serves as executive director
+of her organization and shows no signs of slowing down.
+
+
+
+GCN has partnered with the DOVE project, a group based in Essex, England, that deals with
+domestic violence.
+
+
+
+"We are now bringing the girls from a local community to the international scene," she said.
+
+
+
+Her efforts in Zimbabwe will also be highlighted in an upcoming documentary, Tapestries of
+Hope.
+
+
+
+Makoni says nothing will end her fight for the rights of women and girls. "This is the job I have
+always wanted to do, because it gives me fulfillment. And in girls I see myself every day."
+
+
+
+Want to get involved? Check out the Girl Child Network and see how to help.
+
+GEOFFREY NYAROTA JOURNALIST 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/geoffrey-nyarota-journalist-100.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://1.bp.blogspot.com/_O1qgT8LFVYI/Swmz71eORYI/AAAAAAAAAIA/B93d7s91s3A/s400/GEOFREY+NYAROTA+100+GREATEST+ZIMBABWEANS.jpg
+
+Geoffrey Nyarota began his journalism career at The Herald in Zimbabwe in 1978. Nyarota also
+served as editor of The Chronicle , a daily in Bulawayo, Zimbabwe's second largest city.
+During his tenure, The Chronicle published a series of articles exposing large-scale
+corruption involving government ministers and officials. As a result, the government,
+which owned the paper, removed Nyarota as editor. He then moved to The Financial Gazette , a
+weekly business and financial newspaper, and later joined the Nordic-Sadc Journalism
+Centre in Maputo, Mozambique.
+
+
+
+On his return to Zimbabwe in 1999, Nyarota founded The Daily News , the country's only
+independent daily newspaper. The newspaper's aggressive efforts to uncover corruption and
+human rights abuses made it the most widely read paper in the country. On Dec. 30, 2002, Nyarota
+was fired as editor on what management said were administrative grounds. But his dismissal
+came amid an escalating campaign by President Robert Mugabe's government to quiet criticism
+from independent news outlets. Nyarota fled to South Africa after police visited his home at
+midnight. Previously he had been arrested on six occasions while his newspaper was the target
+of a bomb attack twice.
+
+
+
+Image:
+http://2.bp.blogspot.com/_O1qgT8LFVYI/Swm0-hDIs9I/AAAAAAAAAII/w63lArS-Fzk/s400/geoffrey+nyarota+zimbabwe.jpg
+
+He has been at Harvard University since the beginning of 2003 under the auspices of the Nieman
+Fellowship Program for Journalists. As a Carr Center Fellow, he proposes to undertake
+research on ethnicity as a factor in the liberation struggle and post-independence national
+politics of Zimbabwe. He was awarded a Knight International Press Fellowship Award in 2001
+and an International Press Freedom award from the Committee to Protect Journalists.
+
+
+
+
+
+
+
+In May 2002, Nyarota was awarded the 2002 UNESCO/Guillermo Cano World Press Freedom Prize and
+the World Association of Newspaper Golden Pen Award the same year. In all, he has received nine
+international media awards for his work as a journalist in Zimbabwe.
+
+KUBI CHAZA INDI DEVEOPMENT ACTIVIST AND BUSINESS WOMAN 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/kubi-chaza-indi-deveopment-activist-and.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://3.bp.blogspot.com/_O1qgT8LFVYI/Swmw3eV-5SI/AAAAAAAAAH4/MIypaBEdjbE/s400/KUBI+CHAZA+INDI+100+GREATEST+ZIMBABWEANS.jpg
+
+Kubi Chaza Indi is a Zimbabwean development activist and businesswoman. Under her maiden
+name, Kubi Chaza, she was an actress in the UK, appearing in Live and Let Die in 1973 as a
+saleswoman picking up James Bond. After returning to Zimbabwe, she and actor husband John
+Indi started a company making beauty products specifically for black skin and African hair.
+Kubi is now a well known brand in southern Africa.
+
+
+
+Indi is very active in the development community, particularly with respect to issues
+affecting women, and is secretary-general of the Indigenous Business Women's Organisation
+in Zimbabwe.
+
+
+
+The Indis have continued to work in film-making, John as an actor, but Kubi on both sides of the
+camera. In 1989 she produced I Am the Future, a film about a young woman (played by Stella
+Chiweshe) who travels to the big city to escape Zimbabwe's independence war in the rural
+areas. In 1993 she played the eponymous heroine's modern neighbour in Neria, Tsitsi
+Dangarembga's script about widowhood in Zimbabwe. Both films were directed by Godwin
+Mawuru, and Neria featured a soundtrack by Oliver Mtukudzi.
+
+
+
+Indi is a member of the Women Filmmakers of Zimbabwe
+
+PROUD CHINEMBIRI "KILIMANJARO" ZIMBABWEAN BOXING CHAMPION 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/proud-chinembiri-kilimanjaro-zimbabwean.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://3.bp.blogspot.com/_O1qgT8LFVYI/Swmt9aPKX2I/AAAAAAAAAHo/OWsdwDDKPWo/s400/proud+chinembiri+zimbabwe+boxing+champion.jpg
+
+SOMEWHERE in the rural area of Buhera, lies the Man Mountain -- known to the world simply as
+Kilimanjaro -- who boxed his way from Mbare to rule the African continent.
+
+
+
+Proud Chinembiri, the late heavyweight boxing champion, took his sport to another level in
+this country in the category where the biggest and meanest boxers fight.
+
+
+
+The big man turned himself into a fierce fighting machine and made his country proud by winning
+the African heavyweight championship and even getting into contention for a fight for the
+world heavyweight crown.
+
+
+
+No Zimbabwean heavyweight boxer has scaled similar heights like Kilimanjaro.
+
+
+
+Even those who lost in their duel against him are proud of the moment that they went into the ring
+with this fighting machine.
+
+
+
+One of them is John "Bombaphani Bonyongo Destroyer" Mutema -- the last man to fight the Man
+Mountain.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_O1qgT8LFVYI/SwmuQE8ZYvI/AAAAAAAAAHw/OiREDpDBjk0/s400/zimbabwe+boxing.jpg
+
+
+
+He was beaten in the fourth round of their contest and, this week, told The Herald Sport about
+his pride of having faced Kilimanjaro.
+
+
+
+"I was the last man to fight Kilimanajaro and he beat me on technicality after I suffered a gash
+above the right eye," said Bonyongo this week.
+
+
+
+"It was the greatest fight of my life. I quit boxing in 1999 after the death of Kilimanjaro since
+there was no longer a heavyweight boxer to fight at that time.
+
+
+
+(C) herald zimbabwe
+
+BENJANI MWARUWARI 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/benjani-mwaruwari-100-greatest.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://1.bp.blogspot.com/_O1qgT8LFVYI/Swmo3RS0XiI/AAAAAAAAAHg/aVrCEQ1itSM/s400/BENJANI+MWARUWARI+ZIMBABWE.jpg
+
+
+
+ZIMBABWE soccer captain and Manchester City striker Benjani Mwaruwari’s success story
+reads like a fairytale. He played in the Zimbabwean Premier League for not more than a year, and
+he was off on a journey that has taken him around the world. This is The Truth About Benjani
+Mwaruwari:
+
+Born: August 13, 1978
+
+
+
+Home Town: Bulawayo
+
+
+
+Marital Status: Married to Thembi, with four children.
+
+
+
+Briefly, tell us where it all started, and how you got here?
+
+
+
+I first played for Young Blood, a junior team in Bulawayo, and then I moved to Highlanders and
+played in the reserves there. I joined Lulu Rovers, and then moved to the University of
+Zimbabwe before a stint at Air Zimbabwe.
+
+
+
+I was on the verge of joining AmaZulu in 1999 but I was called up for the Zimbabwe national team
+which played at Thabo Mbeki’s inauguration in South Africa. I played well in the game and I
+was approached by Jomo Sono who signed me for Jomo Cosmos.
+
+
+
+I didn’t stay long there as I soon moved to Grasshoppers Zurich in Switzerland. A move to
+Auxerre in France followed. Harry Rednkapp signed me for Portsmouth in 2006 and a few years
+later, I am here at Manchester City.
+
+What did you want to be when you were little?
+
+
+
+Image:
+http://3.bp.blogspot.com/_O1qgT8LFVYI/SwmonjaZh9I/AAAAAAAAAHY/Ma_kAJOgWzU/s400/benjani+mwariwaru.jpg
+
+
+
+I never really wanted to be anything … You can say I had no serious ambition. Some kids had all
+these grand ambitions of being doctors and so on, but I never really set myself a target. I was
+just floating along.
+
+
+
+What were you like at school?
+
+I was always an athlete at primary school. I liked running, long jump and football. I did
+everything, I was a proper athlete and I was quick. I think I set the 100m and 200m records at
+Mhali Primary School in Bulawayo.
+
+
+
+I lost interest in running when I got to secondary, because I got more hooked on football. At
+that time, I was inspired by Ian Wright. I followed his career like religion, and I liked his
+natural goal scoring ability. I guess that makes me an Arsenal supporter, yes I was!
+
+
+
+
+
+What would you say has been the highlight of your career?
+
+
+
+I think more than anything else I would say playing for all these years in Europe. It’s the
+hardest thing to break into European teams and I have managed it at four teams. I have scored
+some memorable goals along the way. Two goals stand out -- one scored against Barcelona when I
+was still at Grasshoppers, and the other for Jomo Cosmos against Kaizer Chiefs. The goals were
+almost similar in that I just stepped out of the centre circle and struck the ball sweetly into
+the nets.
+
+
+
+What habit do you wish you could change?
+
+
+
+I am always sleeping when I have nothing to do. When I do have some things to do, I am usually
+tired.
+
+How do you deal with anger and what gets you upset?
+
+
+
+That’s my other problem. I have a short temper, but now I am trying to be calmer. There are a lot
+of things that get me upset, because usually when you have a short temper, you easily get angry
+at the slightest provocation. Sometimes you get upset but handle it better. I guess it goes
+with patience, I have no patience. When I want something, I want it done there and then. I
+don’t want to wait.
+
+What are you most afraid of?
+
+
+
+Ships and planes! I use planes because there is no other means, but flying wrecks my nerves.
+With ships, I tell myself that if there is any funny mishap, then I am dead because I am a very bad
+swimmer. So before going on one, I would be thinking what will happen when it sinks?
+
+If your house burnt down, what would you save?
+
+
+
+My phone and passport. Invaluable.
+
+
+
+How would you describe yourself in a personal ad?
+
+
+
+I am very, very shy and you know when you are shy, you are also quiet. I like being where the people
+are, because I grew up among people. I am very sociable and easy going.
+
+How is your love life?
+
+
+
+I am married to Thembi and have four kids -- Colines, Benjani Junior, Belle (which is French for
+Beauty) and Tiyezhe who was born in January.
+
+What’s your idea of a sexy woman?
+
+
+
+Someone like Angelina Jolie. Perhaps I would do myself a favour byHow would you describe
+yourself in a personal ad?
+
+
+
+I am very, very shy and you know when you are shy, you are also quiet. I like being where the people
+are, because I grew up among people. I am very sociable and easy going.
+
+How is your love life?
+
+
+
+I am married to Thembi and have four kids -- Colines, Benjani Junior, Belle (which is French for
+Beauty) and Tiyezhe who was born in January.
+
+What’s your idea of a sexy woman?
+
+
+
+Someone like Angelina Jolie. Perhaps I would do myself a favour by saying someone like my wife!
+
+When you stop playing, how are you going to spend your time?
+
+TRIBUTE TO BENJANI MWARUWARI FROM FANS
+
+
+
+
+
+I want to raise my kids until they are employed and able to fend for themselves. I want them to
+have a better childhood than I had and a good life. I also plan to have a football academy in
+Zimbabwe for our promising young players and hopefully get them to play in Europe. There is no
+reason why we can’t have more Zimbabweans playing in the European leagues. saying someone
+like my wife!
+
+When you stop playing, how are you going to spend your time?
+
+
+
+I want to raise my kids until they are employed and able to fend for themselves. I want them to
+have a better childhood than I had and a good life. I also plan to have a football academy in
+Zimbabwe for our promising young players and hopefully get them to play in Europe. There is no
+reason why we can’t have more Zimbabweans playing in the European leagues.
+
+
+
+Story from : NEWZIMBABWE.COM NEWS:
+
+Published On: Wednesday, July 29, 2009 1:57 PM GMT
+
+http://www.newzimbabwe.com/news/news.aspx?newsID=712
+
+© New Zimbabwe News
+
+MOSES CHUNGA RAZORMAN 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/moses-chunga-razorman-100-greatest.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://3.bp.blogspot.com/_O1qgT8LFVYI/SwmjvXxygQI/AAAAAAAAAHA/JJ7t127ZuV8/s400/MOSES+RAZORMAN+CHUNGA.jpg
+
+Moses Chunga (born 17 October 1965 in Lytton, a suburb in the west of Harare) played for
+Dynamos, one of the greatest Zimbabwean football teams, and for the Zimbabwe national
+football team in the position of playmaker. He was born to parents of Malawian descent and like
+Benjani Mwaruwari chose to represent his nation of birth, Zimbabwe, internationally.
+
+
+
+Moses Chunga is considered by many football enthusiasts as arguably the greatest football
+player ever produced in Zimbabwe. Actually, he has attained legendary status, and many
+rumours abound him.
+
+
+
+Image:
+http://4.bp.blogspot.com/_O1qgT8LFVYI/SwmkOmny2KI/AAAAAAAAAHI/52VYsyzRY-k/s400/MOSES+CHUNGA+100+GREATEST+ZIMBABWEANS.jpg
+
+
+
+One frustrating issue when trying to gather information about him, other Zimbabwean legends
+of his time, and before is that there is sparse written literature on them, which may tend to
+reduce anything said about them to red herring. However, there seems to be some verifiable
+facts about him that give him his legendary status. For example, Moses Chunga was the first
+(black) Zimbabwean to join a European league (after independence). Only one or a very few
+(Black) player(s) – e.g., Freddie Mukwesha- appear to have achieved this feat before him,
+although many more were to follow his footsteps, some joining much better leagues than the
+Belgian second division, which he had played for (e.g., Peter Ndlovu, Benjani Mwaruwari,
+Norman Mapeza etc). Therefore, those who question Moses Chunga’s brilliance point out
+that he never managed to play for Europe’s elite leagues.
+
+
+
+Image:
+http://4.bp.blogspot.com/_O1qgT8LFVYI/Swmkvynh4iI/AAAAAAAAAHQ/3kt4iqAbvhc/s400/chunga+moses.jpg
+
+
+
+
+
+Chunga is also revered for being a midfielder who managed to score a record 46 goals in a single
+season, a record that has stood ever since; for being a dead ball specialist who could even
+score from corner kicks, an exceptionally good passer of the ball, and a dribbling wizard. For
+example, it is widely rumored that he once dribbled and bamboozled a defender to the point
+where he back peddled and twisted his knee causing a career ending injury. As a crowd puller, it
+appears Moses Chunga sometimes enjoyed playing to the gallery, which included standing on
+the ball.
+
+
+
+Sunday Marimo, the former Zimbabwe National Team coach, who led Zimbabwe to its first
+appearance at the African Cup Nations final in 2006, admitted that Zimbabwe “lacks a
+natural ball player, a playmaker in the mould of Moses Chunga”.
+
+
+
+Chunga’s professional career fizzled out within less than 5 years in Belgium, possibly
+because of a knee-injury. He tried his luck with his former team Dynamos after quitting his
+Belgian team, but it never really worked out well for him on the field, forcing him to retire
+from playing. He then began his coaching career, which has produced mixed results, but which
+most football followers in Zimbabwe would consider an utter failure.
+
+
+
+For all his brilliance on the football field, it appears Moses Chunga had some major flaws in
+his personality. It is widely believed, for example, that he refused to play for the Zimbabwe
+National Team during his days in Belgium as they were offering him “peanuts”. This is
+difficult to verify. However, what can be said with certainty is that he is an assertive
+character, which does not seem a common trait in the cultural environs of Zimbabwe.
+Therefore, people may struggle to understand or accept him.
+
+
+
+Moses Chunga's legendary status was not misplaced as he truly was a genius with a ball,
+although he did like to take the mickey out of other players on the football field. He arguably
+rivals people like David Beckham as a dead ball specialist. He was however stubborn to the
+point of obstinacy which is why some national coaches could not work with him and left him out of
+the Zimbabwe national teams (especially the European coaches). Most local coaches however
+bowed to popular pressure and named him in their squads.
+
+
+
+Chunga had an elder brother, Kembo, who also played for Dynamos.
+
+PETER NDLOVU 100 GREATEST ZIMBABWEANS
+
+
+
+digg_url =
+'http://100greatestzimbabweans.blogspot.com/2009/11/peter-ndlovu-100-greatest-zimbabweans.html';
+<!-- google_ad_client = "ca-pub-8015666080146768"; google_ad_host =
+"pub-1556223355139109"; /* 336x280, created 2/22/09 */ google_ad_slot = "9122448922";
+google_ad_width = 336; google_ad_height = 280; //-->
+
+Image:
+http://4.bp.blogspot.com/_O1qgT8LFVYI/SwmcSgKqf3I/AAAAAAAAAGw/jBu24xQ4fkU/s400/peter+ndlovu+zimbabwe.jpg
+
+
+
+Peter Ndlovu was originally spotted by John Sillett, prior to his official signing from
+Highlanders by Terry Butcher in July 1991. He made an immediate impact by scoring away at
+Arsenal and then became the toast of Highfield Road with a thunderbolt winner against Aston
+Villa in November 1991, endearing him to the Sky Blues fans.
+
+
+
+
+
+Although he would go on to play a major role at several clubs in the second tier, his time at
+Coventry will always stand out due to its top flight status. He would play a significant role in
+two major teams, Bobby Gould's attacking team of the early 90s and Ron Atkinson-Gordon
+Strachan's expansive squad of the mid-late 1990s.
+
+
+
+Image:
+http://3.bp.blogspot.com/_O1qgT8LFVYI/SwmcOU26bHI/AAAAAAAAAGo/B7iFtlceJLs/s400/peter+nsukuzonke+ndlovu+zimbabwe.jpg
+
+
+
+Bobby Gould's team in 1992/93 must surely go down as the archetypal under-achievers. Having
+acquired the legendary striker Micky Quinn in November 1992 they continued what had already
+been a blistering start, with away wins at Tottenham Hotspur (2-0) Sheffield Wednesday (2-1)
+and Wimbledon (2-1) to add to already impressive home wins against the likes of Middlesbrough
+(2-1). By the early autumn the Sky Blues briefly topped the inaugural Premier league and would
+only lose five league games prior to Christmas. The addition of Micky Quinn to the squad led to
+further outstanding home wins against the likes of Aston Villa (3-0) and Liverpool (5-1).
+They would eventually go to Championship contenders Blackburn Rovers and leave with a (5-2)
+victory in February 1993. However, a barren March/April programme and a run in that would see
+back to back games against Man Utd, Liverpool, Chelsea and Leeds Utd saw them slip from 5th in
+the league in February to 15th by the end of May. A league position secured with a thrilling
+performance from Ndlovu in a last day 3-3 draw against Leeds Utd. Ndlovu was a key component
+throughout the season in Gould's fast pacey front line which included John Williams, Kevin
+Gallacher (until his departure to Blackburn) and Robert Rosario, who formed a worthy
+partnership with Micky Quinn. Peter Ndlovu's goal against Norwich City, in a 1-1 draw in late
+September, was a signature piece of Ndlovu flare which earned him the Match of Day 'Goal of the
+month' competition.[1]
+
+
+
+The 1993/94 season would see a managerial shift in the autumn as Phil Neal, Bobby Gould's No.2,
+took over the reins from his passionate Coventry born boss but not before the legendary
+curtain raiser to the 93-94 season. Bobby Gould's first day gamble would be to play without
+traditional full backs. This novel formation gave Peter Ndlovu full licence to play a large
+part in a memorable opening day triumph in the capital. The 3-0 victory on a sunny 14 August,
+against double-cup winners Arsenal, saw Micky Quinn score a hat-trick in front of the newly
+refurbished North Bank. It also ensured that the Sky Blues made one of their customary
+lightning starts to the season, so synonymous of the early 1990s. After an early Ian Wright
+threat on the Coventry goal, it was Ndlovu who made a darting run into the Arsenal penalty box
+which produced a clumsy challenge from Lee Dixon. The resulting penalty was calmly converted
+by Micky Quinn for the opener. The second half would see Ndlovu and Roy Wegerle lead the Gunners
+defence a merry dance-Wegerle in particular enjoying possibly his finest game for the club.
+So shocked were Arsenal by the 3-0 defeat that manager George Graham cancelled the proposed
+post-match lap of honour at the final whistle, which was to parade their Coca Cola and FA Cup
+silverware. The explanation given by Arsenal was 'Reasons beyond the club's control!'. It is
+thought the Sky Blues turned down a then-massive £4 million offer from Arsenal at the end of
+the same 1994 season for Ndlovu's services. The dramatic resignation of Bobby Gould, after a
+5-1 mauling at Loftus Road in October 1993, was reputedly inspired by the possible imminent
+sale of Ndlovu to a top six club. However, Ndlovu stayed but the 11th place finish secured that
+season was not repeated in the 94-95 campaign. Phil Neal was replaced by Ron Atkinson. Big Ron
+saved the club from relegation in the spring of 1995 whilst also bringing in Gordon Strachan as
+his player-coach No.2.
+
+
+
+Image:
+http://2.bp.blogspot.com/_O1qgT8LFVYI/Swmf2SW5YwI/AAAAAAAAAG4/v8eUTOqgweQ/s400/peter++ndlovu.jpg
+
+
+
+This second significant phase for Ndlovu would once again promise much; the 'new era' of big
+money signings heralded by Atkinson's appointment saw the arrival of Huckerby, Whelan,
+Salako and McAllister together with earlier signing Dion Dublin. Big Ron provided vital
+impetus in the spring of 95, but the following season his stylish and classy team sheet rarely
+'clicked' in the traditional sense. However, Ndlovu scored some memorable goals for the Sky
+Blues during this period, including the first away player to secure a hatrick at Anfield for 30
+years. Other memorable goals in Sky Blue included a vital winning goal away at Wimbledon in a
+relegation six-pointer and a dynamic last minute rifling winner in a 3rd Round FA Cup tie at
+West Bromwich Albion.
+
+
+
+Ndlovu gradually suffered due to inconsistency. The large and expansive side Gordon
+Strachan inherited, well equipped with attacking options, saw fierce competition for
+places from the likes of Whelan, Huckerby, Salako and Telfer. An increasingly cosmopolitan
+Premier league too would eventually see Coventry turn to the likes of Steve Froggatt and
+Moroccan internationals Mustapha Hadji and Youssef Chippo in the years following Ndlovu's
+departure. However, if a 'Best Of' goals compilation were ever undertaken by Coventry City,
+focusing on their top flight era, then Peter Ndlovu's name would figure prominently. He was
+known as 'Nuddy' by the die hard Coventry City fans in Highfield Road's 'West End' and as 'The
+'Bulawayo Bullet' by the media of the day. A likeable and mischievous character off the pitch,
+Peter Ndlovu is well placed in the top flight Coventry City goalscorers table with a return of
+41 goals. The 'Gould-Neal' and 'Atkinson-Strachan' tenures in the Premiership remain some
+of Coventry City's most exciting-and indeed frustrating-spells in top flight football.
+Newer Posts Older Posts Home Subscribe to: Posts (Atom) window.___gcfg = {'lang':
+'en'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})(); Loading... #uds-searchControl .gs-result .gs-title, #uds-searchControl
+.gs-result .gs-title *, #uds-searchControl .gsc-results .gsc-trailing-more-results,
+#uds-searchControl .gsc-results .gsc-trailing-more-results * { color:#669922; }
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result
+.gs-title a:visited * { color:#669922; } #uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-publishedDate { color: #555544; } #uds-searchControl .gs-result
+a.gs-visibleUrl, #uds-searchControl .gs-result .gs-visibleUrl { color: #669922; }
+#uds-searchControl .gsc-results { border-color: #555544; background-color: #ffffff; }
+#uds-searchControl .gsc-tabhActive { border-color: #555544; border-top-color:
+#555544; background-color: #ffffff; color: #555544; } #uds-searchControl
+.gsc-tabhInactive { border-color: #555544; background-color: transparent; color:
+#669922; } #uds-searchClearResults { border-color: #555544; }
+#uds-searchClearResults:hover { border-color: #555544; } #uds-searchControl
+.gsc-cursor-page { color: #669922; } #uds-searchControl .gsc-cursor-current-page {
+color: #555544; }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Visitors
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png <!--
+google_ad_client="pub-8015666080146768"; google_ad_host="pub-1556223355139109";
+google_ad_width=160; google_ad_height=600; google_ad_format="160x600_as";
+google_ad_type="text_image"; google_ad_host_channel="0001";
+google_color_border="FFFFFF"; google_color_bg="FFFFFF";
+google_color_link="555544"; google_color_url="669922";
+google_color_text="555544"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Popular Posts
+
+    
+
+    -
+
+    Image:
+    http://4.bp.blogspot.com/_O1qgT8LFVYI/Swi9rXLg6wI/AAAAAAAAABg/44uI-vJfiLQ/s72-c/nigel+chanakira+100+greatest+zimbabweans.jpg
+    NIGEL CHANAKIRA 100 GREATEST ZIMBABWEANS Nigel Chanakira founded the financial
+    services firm Kingdom (now Kingdom Meikles Africa) in 1994 in his late 20s.
+    Notwithstanding the int...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/_O1qgT8LFVYI/SwjveJDoL-I/AAAAAAAAACY/QYvo6fw-EXk/s72-c/Alick+Macheso+100+greatest+Zimbabweans.JPG
+    ALICK MACHESO 100 GREATEST ZIMBABWEANS Alick Macheso is a contemporary Zimbabwean
+    musician, often referred to as the king of sungura. Born and raised in Shamva, Alick rose
+    to fam...
+
+    
+
+    -
+
+    Image:
+    http://4.bp.blogspot.com/_O1qgT8LFVYI/Swj7UI5Vw9I/AAAAAAAAAC4/-Ed_1wItjcU/s72-c/MWAMUKA+SOUTHAMPTON+LIFE+CENTER+HARARE.jpg
+    VERNON BENELE MWAMUKA ZIMBABWE'S FIRST BLACK ARCHITECT 100 GREATEST ZIMBABWEANS
+    MWAMUKA DESIGNED SOUTHAMPTON LIFE CENTER, HARARE VERNON BENELE Mwamuka, the first
+    black architect, still ...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/_O1qgT8LFVYI/SwlqShydz6I/AAAAAAAAAEw/hoM2s8QF_bg/s72-c/FARAI+RWODZI+100+GREATEST+ZIMBABWEANS.gif
+    FARAI RWODZI ENTREPRENUER 100 GREATEST ZIMBABWEANS Farai is a leading entrepreneur
+    with interests in various sectors including financial services, hospitality,
+    manufacturing, industrial, pro...
+
+    
+
+    -
+
+    Image:
+    http://2.bp.blogspot.com/_O1qgT8LFVYI/Swg1tEwvnwI/AAAAAAAAAAg/DkclSsewgBY/s72-c/strive+masiyiwa+100+greatest+zimbabweans.jpg
+    STRIVE MASIYIWA 100 GREATEST ZIMBABWEANS Strive Masiyiwa Telecommunications
+    billionaire and philanthropist Strive Masiyiwa has become an expert at walking the fine
+    line between...
+
+    
+
+    -
+
+    Image:
+    http://4.bp.blogspot.com/_O1qgT8LFVYI/SwitCaKMxNI/AAAAAAAAABI/9aB2ChSpwjs/s72-c/nehanda+100+greatest+zimbabweans.gif
+    MBUYA NEHANDA a.k.a CHARWE NYAKASIKANA (c. 1862-1898) “My bones shall rise again”
+    Living in the Hills around Mazoe , Zimbabwe , were various sub-chiefs including Wata and
+    Chidamba. In the Chidamba Village lived the famous...
+
+    
+
+    -
+
+    Image:
+    http://4.bp.blogspot.com/_O1qgT8LFVYI/SwmcSgKqf3I/AAAAAAAAAGw/jBu24xQ4fkU/s72-c/peter+ndlovu+zimbabwe.jpg
+    PETER NDLOVU 100 GREATEST ZIMBABWEANS Peter Ndlovu was originally spotted by John
+    Sillett, prior to his official signing from Highlanders by Terry Butcher in July 1991. He
+    made...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/_O1qgT8LFVYI/Swmt9aPKX2I/AAAAAAAAAHo/OWsdwDDKPWo/s72-c/proud+chinembiri+zimbabwe+boxing+champion.jpg
+    PROUD CHINEMBIRI "KILIMANJARO" ZIMBABWEAN BOXING CHAMPION 100 GREATEST ZIMBABWEANS
+    SOMEWHERE in the rural area of Buhera, lies the Man Mountain -- known to the world simply as
+    Kilimanjaro -- who boxed his way from Mbare to...
+
+    
+
+    -
+
+    Image:
+    http://4.bp.blogspot.com/_O1qgT8LFVYI/Swn_JAxQDSI/AAAAAAAAAJo/2F62FWnTjCg/s72-c/Desktop.jpg
+    100 GREATEST ZIMBABWEANS TO EVER LIVE We feature the top 100 Zimbabweans of all time
+    Welcome to unbiased reviews of the greatest Zimbabweans. To vote for your favorite
+    Zimbab...
+
+    
+
+    -
+
+    Image:
+    http://2.bp.blogspot.com/_O1qgT8LFVYI/SwjbfgBpHtI/AAAAAAAAACI/AU_e0xc54y4/s72-c/thomas+mapfumo+100+greatest+zimbabweans.jpg
+    THOMAS MAPFUMO 100 GREATEST ZIMBABWEANS Thomas Tafirenyika Mapfumo (born 1945) is a
+    Zimbabwean musician known as "The Lion of Zimbabwe" and "Mukanya" for his immense
+    popularity an...
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Visitors
+
+Feedjit Live Blog Stats
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Check out
+
+    
+
+    - The African Millionaire - Become a Millionare This Year, African Millionaire Club
+
+    Image:
+    http://1.bp.blogspot.com/-mMwFzXxY_RM/T-pjZWXqbGI/AAAAAAAAg4E/6vNd5C_vVjM/s72-c/Vusi-Sithole-300x169.jpg
+    Vusi Sithole Nestlife South African Enterprenuer - The story of Nestlife Assurance’s
+    founder, Vusi Sithole, is one of perseverance, determination and the willingness of one
+    man to create a legacy not only f...
+
+    
+
+    - Luxury Mansions and Luxury Villas in Africa Homes of the Rich and Homes of Celebrities in
+    Africa
+
+    Image:
+    http://1.bp.blogspot.com/-AlRZNdreHiQ/T00uxQ-RbRI/AAAAAAAAgRU/6Ft8xSVicEA/s72-c/mo_230212_08-940x624.jpg
+    South Africa Mansion House Plans - Description from the designers: Architectural firm,
+    Nico van der Meulen Architects, was commissioned to design this home according to the
+    owner’s specifi...
+
+    
+
+    - In Memory Of Robert Mugabe 1924 to ?? Zimbabwe's President Robert Mugabe -
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Click Below: 100 GREATEST ZIMBOS EVER
+
+function showLucky(root){ var feed = root.feed; var entries = feed.entry || []; var entry =
+feed.entry[0]; for (var j = 0; j < entry.link.length; ++j){if (entry.link[j].rel ==
+'alternate'){window.location = entry.link[j].href;}}} function fetchLuck(luck){
+script = document.createElement('script'); script.src =
+'/feeds/posts/summary?start-index='+luck+'&max-results=1&alt=json-in-script&callback=showLucky';
+script.type = 'text/javascript';
+document.getElementsByTagName('head')[0].appendChild(script); } function
+feelingLucky(root){ var feed = root.feed; var total =
+parseInt(feed.openSearch$totalResults.$t,10); var luckyNumber =
+Math.floor(Math.random()*total);luckyNumber++; a = document.createElement('a');
+a.href = '#random'; a.rel = luckyNumber; a.onclick = function(){fetchLuck(this.rel);};
+a.innerHTML = 'Click Here for a Great Zimbabwean';
+document.getElementById('myLuckyPost').appendChild(a); }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Zimbabwe TV
+
+Loading...
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png var OB_platformType
+=1;var OB_demoMode = false;var OB_langJS =
+"http://widgets.outbrain.com/lang_en.js";var OBITm = "1260026464448";
+
+Zimbabwe News
+
+Loading...
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Share
+
+
+
+Image: http://s7.addthis.com/static/btn/v2/lg-share-en.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://afrigator.com/track/18201-default.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (WIDGETBOX)
+WIDGETBOX.renderWidget('8784679b-3166-4e16-8d2c-57e9a84934e8'); Join the Widgetbox
+Network Politics Channel at Widgetbox.com Get the Widgetbox Blog Network: Politics widget
+and many other great free widgets at Widgetbox ! Not seeing a widget? ( More info )
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+100 Awesome Zimbos
+
+    
+
+        - ►  2015 (1)
+
+        - ►  November (1)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (2)
+
+        - ►  May (1)
+
+        
+
+        
+
+        - ►  January (1)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (6)
+
+        - ►  November (4)
+
+        
+
+        
+
+        - ►  June (2)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2009 (52)
+
+            - ▼  November (52)
+
+            - CHARLES MUNGOSHI TOP ZIMBABWEAN WRITER
+
+            
+
+            - PROFESSOR WALTER KAMBA irst Vice Chancellor of the...
+
+            
+
+            - REV CANAAN BANANA 100 GREATEST ZIMBABWEANS
+
+            
+
+            - MARK CHAVHUNDUKA JOURNALIST & PUBLISHER 100 GREATE...
+
+            
+
+            - JUDGE ENOCH DUMBUTSHENA ZIMBABWE'S FIRST BLACK JUD...
+
+            
+
+            - HENRY OLONGA ZIMBABWE'S FIRST BLACK CRICKETER 100 ...
+
+            
+
+            - TATENDA TAIBU ZIMBABWE'S FIRST BLACK CRICKET CAPTA...
+
+            
+
+            - PATRICK KOMBAYI 100 GREATEST ZIMBABWEANS
+
+            
+
+            - THE BLACKS; WAYNE, CARA, BYRON 100 GREATEST ZIMBAB...
+
+            
+
+            - SIMON CHOPPER CHIMBETU 100 GREATEST ZIMBABWEANS
+
+            
+
+            - GEOGE SHAYA "MASTERMIND" SOCCER PAYER 100 GREATEST...
+
+            
+
+            - DR SOLOMON GURAMATUNHU 100 GREATEST ZIMBABWEANS
+
+            
+
+            - PROFESSOR CHRISTOPHER CHETSANGA 100 GREATEST ZIMBA...
+
+            
+
+            - BETTY MAKONI GIRL CHILD NETWORK 100 GREATEST ZIMBA...
+
+            
+
+            - GEOFFREY NYAROTA JOURNALIST 100 GREATEST ZIMBABWEA...
+
+            
+
+            - KUBI CHAZA INDI DEVEOPMENT ACTIVIST AND BUSINESS W...
+
+            
+
+            - PROUD CHINEMBIRI "KILIMANJARO" ZIMBABWEAN BOXING C...
+
+            
+
+            - BENJANI MWARUWARI 100 GREATEST ZIMBABWEANS
+
+            
+
+            - MOSES CHUNGA RAZORMAN 100 GREATEST ZIMBABWEANS
+
+            
+
+            - PETER NDLOVU 100 GREATEST ZIMBABWEANS
+
+            
+
+            - NICK PRICE ZIMBABWEAN GOLFER 100 GREATEST ZIMBABWE...
+
+            
+
+            - AMBUYA STELLA CHEWESHE 100 GREATEST ZIMBABWEANS
+
+            
+
+            - LEONARD DEMBO MUSICIAN 100 GREATEST ZIMBABWEANS
+
+            
+
+            - LEONARD KARIKOGA ZHAKATA 100 GREATEST ZIMBABWEANS
+
+            
+
+            - LEARNMORE JONGWE 100 GREATEST ZIMBABWEANS
+
+            
+
+            - DELMA LUPEPE BUSINESSMAN 100 GREATEST ZIMBABWEANS
+
+            
+
+            - JOSIAH MAGAMA TONGOGARA 100 GREATEST ZIMBABWEANS
+
+            
+
+            - EDSON ZVOBGO 100 GREATEST ZIMBABWEANS
+
+            
+
+            - ALFRED NIKITA MANGENA 100 GREATEST ZIMBABWEANS
+
+            
+
+            - FARAI RWODZI ENTREPRENUER 100 GREATEST ZIMBABWEANS...
+
+            
+
+            - DOMINIC BENHURA 100 GREATEST ZIMBAWEANS
+
+            
+
+            - JAIROS JIRI 100 GREATEST ZIMBABWEANS
+
+            
+
+            - SEKURU KAGUVI GUMBORESHUMBA FREEDOM FIGHTER 100 GR...
+
+            
+
+            - DR TICHAFA SAMUEL PARIRENYATWA ZIMBAWE'S FIRST BLA...
+
+            
+
+            - HERBET CHITEPO ZIMBABWE'S FIRST BLACK LAWYER 100 G...
+
+            
+
+            - VERNON BENELE MWAMUKA ZIMBABWE'S FIRST BLACK ARCHI...
+
+            
+
+            - ALICK MACHESO 100 GREATEST ZIMBABWEANS
+
+            
+
+            - OLIVER "TUKU" MTUKUDZI 100 GREATEST ZIMBABWEANS
+
+            
+
+            - THOMAS MAPFUMO 100 GREATEST ZIMBABWEANS
+
+            
+
+            - TENDAI MTAWARIRA 100 GREATEST ZIMBABWEANS
+
+            
+
+            - ARTHUR MUTAMBARA 100 GREATEST ZIMBABWEANS
+
+            
+
+            - NKOSANA MOYO 100 GREATEST ZIMBABWEANS
+
+            
+
+            - MUTUMWA MAWERE 100 GREATEST ZIMBABWEANS
+
+            
+
+            - NIGEL CHANAKIRA 100 GREATEST ZIMBABWEANS
+
+            
+
+            - MORGAN TSVANGIRAYI 100 GREATEST ZIMBABWEANS
+
+            
+
+            - ROBERT GABRIEL MUGABE 100 GREATEST ZIMBABWEANS
+
+            
+
+            - MBUYA NEHANDA a.k.a CHARWE NYAKASIKANA (c. 1862-18...
+
+            
+
+            - DAMBUDZO MARECHERA WRITER AND POET 100 GREATEST ZI...
+
+            
+
+            - KIRSTY COVENTRY 100 GREATEST ZIMBABWEANS
+
+            
+
+            - JOSHUA NKOMO 'FATHER ZIMBABWE' 100 GREATEST ZIMBAB...
+
+            
+
+            - Dr. BERNARD GIBSON CHIDZERO 100 GREATEST ZIMBABWEA...
+
+            
+
+            - STRIVE MASIYIWA 100 GREATEST ZIMBABWEANS
+
+            
+
+        
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Feedjit Live Blog Stats
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Feedjit Live Blog Stats
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png  
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png <!-- ch_client =
+"greenback263"; ch_type = "mpu"; ch_width = 468; ch_height = 180; ch_non_contextual = 4;
+ch_vertical ="premium"; ch_backfill =1; ch_sid = "Chitika Premium"; var ch_queries = new
+Array( ); var ch_selected=Math.floor((Math.random()*ch_queries.length)); if (
+ch_selected < ch_queries.length ) { ch_query = ch_queries[ch_selected]; } //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png var gaJsHost =
+(("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js'
+type='text/javascript'%3E%3C/script%3E")); try { var pageTracker =
+_gat._getTracker("UA-11800246-1"); pageTracker._trackPageview(); } catch(err) {} if
+(window.jstiming) window.jstiming.load.tick('widgetJsBefore'); if
+(typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'4292788550077104972';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d4292788550077104972','//100greatestzimbabweans.blogspot.com/2009_11_01_archive.html','4292788550077104972');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'4292788550077104972', 'bloggerUrl': 'http://www.blogger.com', 'title': '100
+Greatest Zimbabweans', 'pageType': 'archive', 'url':
+'http://100greatestzimbabweans.blogspot.com/2009_11_01_archive.html',
+'canonicalUrl':
+'http://100greatestzimbabweans.blogspot.com/2009_11_01_archive.html',
+'canonicalHomepageUrl': 'http://100greatestzimbabweans.blogspot.com/',
+'homepageUrl': 'http://100greatestzimbabweans.blogspot.com/',
+'blogspotFaviconUrl': 'http://100greatestzimbabweans.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'November 2009', 'pageTitle': '100 Greatest Zimbabweans: November 2009', 'encoding':
+'UTF-8', 'locale': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest':
+false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr',
+'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\042100 Greatest Zimbabweans - Atom\42
+href\75\42http://100greatestzimbabweans.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\042100 Greatest Zimbabweans - RSS\42
+href\75\42http://100greatestzimbabweans.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\042100 Greatest Zimbabweans - Atom\42
+href\75\42http://www.blogger.com/feeds/4292788550077104972/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0754292788550077104972\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId':
+'pub-8015666080146768', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebarHeaderColor': '#555544', 'linkColor':
+'#669922', 'mainTextColor': '#555544', 'bodyFont': 'normal normal 100% tahoma,
+\47Trebuchet MS\47, lucida, helvetica, sans-serif', 'blogDescriptionColor':
+'#ffffee', 'dateHeaderColor': '#555544', 'endSide': 'right', 'startSide': 'left',
+'sidebarTextColor': '#555544', 'pageHeaderColor': '#ffffee', 'mainBgColor':
+'#ffffff', 'hoverLinkColor': '#88bb22'}, 'override': ''}}, {'name': 'view', 'data':
+{'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name':
+'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML11', 'footer', null, document.getElementById('HTML11'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML8', 'footer', null, document.getElementById('HTML8'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_CustomSearchView', new
+_WidgetInfo('CustomSearch1', 'sidebar', null,
+document.getElementById('CustomSearch1'), {'title': '', 'includeBlog': true,
+'includePostLinks': true, 'includeWeb': true, 'linkLists': [], 'blogUrl':
+'http://100greatestzimbabweans.blogspot.com/', 'loadingMsg': 'Loading...',
+'thisBlogMsg': 'This Blog', 'linkedFromHereMsg': 'Linked From Here', 'theWebMsg': 'The
+Web', 'backgroundColor': '#ffffff', 'textColor': '#555544', 'dateColor': '#555544',
+'linkColor': '#669922', 'urlColor': '#669922', 'visitedLinkColor': '#669922',
+'borderColor': '#555544', 'activeBorderColor': '#555544'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_StatsView', new _WidgetInfo('Stats1', 'sidebar',
+null, document.getElementById('Stats1'), {'title': 'Visitors',
+'showGraphicalCounter': true, 'showAnimatedCounter': true, 'showSparkline': false,
+'statsUrl':
+'http://100greatestzimbabweans.blogspot.com/b/stats?style\75BLACK_TRANSPARENT\46timeRange\75ALL_TIME\46token\75FGhPKToBAAA.3FO2p9LQZtO2Ls6r1aRiGGgvpBDfQxON-RMDgUKOkHI.CoolTGbTLQnNcZ8mIS34nQ'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_AdSenseView', new
+_WidgetInfo('AdSense1', 'sidebar', null, document.getElementById('AdSense1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PopularPostsView', new
+_WidgetInfo('PopularPosts1', 'sidebar', null,
+document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar',
+null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList1',
+'sidebar', null, document.getElementById('BlogList1'), {'numItemsToShow': 0,
+'totalItems': 3}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView',
+new _WidgetInfo('HTML2', 'sidebar', null, document.getElementById('HTML2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_VideoBarView', new
+_WidgetInfo('VideoBar1', 'sidebar', null, document.getElementById('VideoBar1'),
+{'title': 'Zimbabwe TV', 'format': 'VERTICAL', 'expression': 'Zimbabwe Economy'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML7', 'sidebar', null, document.getElementById('HTML7'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NewsBarView', new
+_WidgetInfo('NewsBar1', 'sidebar', null, document.getElementById('NewsBar1'),
+{'title': 'Zimbabwe News', 'format': 'VERTICAL', 'expression': 'Zimbabwe',
+'linkNewWindow': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar',
+null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'sidebar',
+null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebar',
+null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar',
+null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML10', 'sidebar', null, document.getElementById('HTML10'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML9', 'sidebar', null, document.getElementById('HTML9'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

@@ -1,0 +1,4371 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); The Silent Generation's Separate Peace | HISTORIES OF THINGS TO COME <!-- /*
+----------------------------------------------- Blogger Template Style Name: Minima
+Date: 26 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff"> <Variable name="textcolor" description="Text Color"
+type="color" default="#333"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#58a"> <Variable name="pagetitlecolor" description="Blog Title
+Color" type="color" default="#666"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#999"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#c60">
+<Variable name="bordercolor" description="Border Color" type="color" default="#ccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#999"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#999"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% Georgia, Serif"> <Variable
+name="headerfont" description="Sidebar Title Font" type="font" default="normal normal
+78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable
+name="pagetitlefont" description="Blog Title Font" type="font" default="normal normal
+200% Georgia, Serif"> <Variable name="descriptionfont" description="Blog Description
+Font" type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="postfooterfont" description="Post Footer Font"
+type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="startSide" description="Side where text starts in blog
+language" type="automatic" default="left"> <Variable name="endSide"
+description="Side where text ends in blog language" type="automatic" default="right"> */
+/* Use this with templates/template-twocol.html */ body { background:#99C9FF; margin:0;
+color:#000000; font:x-small Georgia Serif; font-size/* */:/**/small; font-size:
+/**/small; text-align: center; } a:link { color:#e1771e; text-decoration:none; }
+a:visited { color:#804000; text-decoration:none; } a:hover { color:#cc6600;
+text-decoration:underline; } a img { border-width:0; } /* Header
+----------------------------------------------- */ #header-wrapper { width:960px;
+margin:0 auto 10px; border:1px solid #99C9FF; } #header-inner { background-position:
+center; margin-left: auto; margin-right: auto; } #header { margin: 5px; border: 1px solid
+#99C9FF; text-align: center; color:#000000; } #header h1 { margin:5px 5px 0; padding:15px
+20px .25em; line-height:1.2em; text-transform:uppercase; letter-spacing:.2em; font:
+normal normal 200% Georgia, Serif; } #header a { color:#000000; text-decoration:none; }
+#header a:hover { color:#000000; } #header .description { margin:0 5px 5px; padding:0 20px
+15px; max-width:1000px; text-transform:uppercase; letter-spacing:.2em; line-height:
+1.4em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+color: #999999; } #header img { margin-left: auto; margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 960px;
+margin:0 auto; padding:10px; text-align:left; font: normal normal 110% Trebuchet,
+Trebuchet MS, Arial, sans-serif; } #main-wrapper { width: 710px; float: left; word-wrap:
+break-word; /* fix for long text breaking sidebar float in IE */ overflow: hidden; /* fix for
+long non-text content breaking IE sidebar float */ } #sidebar-wrapper { width: 220px; float:
+right; word-wrap: break-word; /* fix for long text breaking sidebar float in IE */ overflow:
+hidden; /* fix for long non-text content breaking IE sidebar float */ } /* Headings
+----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+font:normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.2em; color:#000000; }
+/* Posts ----------------------------------------------- */ h2.date-header {
+margin:1.5em 0 .5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #99C9FF;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#cc6600; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#cc6600;
+font-weight:normal; } .post h3 strong, .post h3 a:hover { color:#000000; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#000000; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% Times, serif; line-height: 1.4em; }
+.comment-link { margin-left:.6em; } .post img, table.tr-caption-container {
+padding:4px; border:1px solid #99C9FF; } .tr-caption-container img { border: none;
+padding: 0; } .post blockquote { margin:1em 20px; } .post blockquote p { margin:.75em 0; } /*
+Comments ----------------------------------------------- */ #comments h4 { margin:1em
+0; font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #000000; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+#blog-pager-newer-link { float: left; } #blog-pager-older-link { float: right; }
+#blog-pager { text-align: center; } .feed-links { clear: both; line-height: 2.5em; } /*
+Sidebar Content ----------------------------------------------- */ .sidebar { color:
+#000000; line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; }
+.sidebar li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #99C9FF; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #99C9FF; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% Times, serif; color: #000000; font-weight:
+bold; line-height: 1.6em; } .profile-datablock { margin:.5em 0 .5em; } .profile-textblock
+{ margin: 0.5em 0; line-height: 1.6em; } .profile-link { font: normal normal 78% Times,
+serif; text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:960px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0752905155363976375938\46blogName\75HISTORIES+OF+THINGS+TO+COME\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://historiesofthingstocome.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://historiesofthingstocome.blogspot.com/\46targetPostID\0754829331848406593899\46blogPostOrPageUrl\75http://historiesofthingstocome.blogspot.com/2012/09/the-silent-generations-separate-peace.html\46vt\0754705985723023150448',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Image:
+http://1.bp.blogspot.com/_RVLJm9IHkZk/S-YkSj0KL3I/AAAAAAAAABA/j0eVe4LGlZk/S1600-R/blog+banner.jpg
+TIMES, TIME, AND HALF A TIME.
+
+
+
+Comments on a cultural reality between past and future.
+
+
+
+This blog describes Metatime in the Posthuman experience , drawn from Sir Isaac Newton's
+secret work on the future end of times, a tract in which he described Histories of Things to Come
+. His hidden papers on the occult were auctioned to two private buyers in 1936 at Sotheby's , but
+were not available for public research until the 1990s.
+
+
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Tuesday, September 4, 2012
+
+
+
+The Silent Generation's Separate Peace
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/-pzdZiILXqrU/UEV-ZUzdrOI/AAAAAAAAHjU/EjzarRXdPEQ/s640/andy_warhol_marilyn_monroe_d5308789h.jpg
+Marilyn Monroe by Andy Warhol (1967). Image Source: Christie's .
+
+From the 1960s onward, alternate histories became very popular with the Baby Boomer
+demographic. The genre has long precedents - but it has a special place in the last half of the
+20th century.**
+
+
+
+Most alternate histories imagined by Baby Boomers are dystopian, eerie, fascist and
+terrifying. These are explorations of 'what could have been' if World War II or another key
+moment in history had turned out differently, which would have meant that the Boomers
+themselves would not come along. These stories reassure against generational doubt, and
+implicitly insist on the rightness of 1968's path. Later books involve Boomer meditations
+on what-ifs around post WWII events: the Cuban Missile Crisis, the Kennedy assassinations,
+9/11.
+
+
+
+Given this generational fascination with fictional historical alternatives, it may seem
+strange that a very real, living alternate history has been ignored or smoothered by the
+Boomer media. This is so much the case that among generational commentators, that
+alternative might as well not exist.
+
+
+
+There is a real  alternate history to the Baby Boomers' 1968 social revolution, and it is
+the legacy of the Silent generation , born roughly from 1925 to 1945. Silents were dubbed as
+silent when they were anything but . They created a reality that shared elements of Boomer
+ideals, but Boomers could not fully appropriate these elements for their radical
+and iconoclastic ends. If you want to see the Boomers' 'path not traveled,' you have to look
+at the work and perspectives of the Silent generation .
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/-S1riWtfwv-E/UEWA89A84ZI/AAAAAAAAHkM/jJTYmLdPaR8/s640/Flyingcircus_2.jpg
+Monty Python in 1969 ( Graham Chapman , Eric Idle , Terry Gilliam , Terry Jones , John Cleese ,
+Michael Palin ). Image Source: Wiki .
+
+A caveat must be repeated prior to any generational discussion: generalizations about whole
+age groups are never conclusive. One can sketch outlines, but these should not be taken
+too literally.  Boston.com : "Identifying and naming a generation ... is neither
+entirely a science nor entirely an art. It's not just a question merely of demographics or
+world events, nor is it just a matter of identifying cultural touchstones. As a result,
+identifying and naming a generation is always and inevitably semi-malarkey, or
+'bullshit.'" In the case of the Silent generation, even to define them as a collective with
+common generational attitudes is anachronistic. But there are still some things about
+Silents' sensibilities which may be broadly discussed.
+
+
+
+To understand how I am pegging Silent Gen sensibilities, I think of most Silents as a
+generation who retained a connection with the past, even when they criticized, or laughed
+at, that past. The Silent generation is a generation that was poised between
+the pre-1945 past and a constantly changing present (while Silents' Gen X children are
+poised between past and future). The Silents produced some very funny comedies and
+extremely dark noirs and thrillers as they sorted out what to keep and what to forget.
+
+
+
+After Carol Burnett's Nora Desmond parodies of Sunset Boulevard (1950) , Gloria Swanson
+visited Burnett's show as a guest, Season 7, Episode 3 (aired 29 September 1973 © CBS ).
+Video Source: Youtube . Other parts of that show are here , here and here .
+
+Although their birthdays all more or less fall in the Silents' demographic range, I would
+tend to think that Shirley Jackson , Philip K. Dick , Neil Armstrong , Audrey Hepburn , Peter
+Ustinov  or  Carol Burnett  had or have voices more closely associated with the Silent
+generation than John Lennon , Paul McCartney , Mick Jagger , Barbara Walters ,  Martin Luther
+King, Jr. or Jim Henson . Silents may have been more influenced by their predecessors 
+Vladimir Nabokov , Alfred Hitchcock , Ernest Hemingway  and George Orwell
+than contemporary figures noted by the Boomers, such as  Virginia Woolf , T. S. Eliot  or
+Marshall McLuhan . Silents' trademark reflections involve ironic twists and multiple
+moral meanings. There is a weighing of different quantities, a balancing of various
+qualities.
+
+
+
+Some Silents did climb aboard the Boomers' grand redesign of the global village in the 1960s
+and 1970s. Very ironically, it is these members of the generation whom we know best, due to
+Boomers' attention to their roles: see here , here , here , here , here and here and here . Lately,
+Boomer commentators have moved to incorporate the Silents as proto-Boomers. For example,
+this historical list of counter-cultural events makes the 1950s and 1960s look like decades
+which led unambiguously to the Summer of Love. It was not that simple.
+
+
+
+"Whatever people say I am, that's what I am not." Saturday Night and Sunday Morning (1960) ©
+Bryanston Films/Continental Films. In the original 1958 novel of the same name by Alan
+Sillitoe , the angry young man protagonist rejects drudgery. He is working class, trapped
+between his yearning for freedom and his rejection of becoming bourgeois. Video Source:
+Youtube .
+
+As the Silents' entered adulthood in the 1950s and 1960s, they saw themselves reflected in
+some seminal and intense British films:  The Loneliness of the Long Distance Runner   and  
+Billy Liar . Who goes back to those Angry Young Men , those Ladies Not for Burning , and the
+strains of jazz during the early Cold War? Silents contemplated the Beat preconditions for
+the Boomer cultural explosion when they went on the road . Like the Boomers, they
+had broken with the past after World War II. But unlike Boomers, they remembered the war.
+And because of the war's influence on their sensibilities, many Silents forged a stoic
+continuity with the past. Their adherence to that continuity was rebellious. It was never
+simple or untroubled, as many of their iconic early cultural expressions reveal.
+
+
+
+"It's pretty dreary living in the American age , unless of course you're an American."
+Burton's angry young man implodes rather than explodes, targeting his wife played by  Mary
+Ure , then her friend played by Claire Bloom, in the film version of John Osborne 's play Look
+Back in Anger (1956). In this scene (starting at 1:24), the protagonist rejects building a
+personality cult of 'me' as a way out of his impoverished despair. The film (1959) © Warner
+Bros. Video Source: Youtube .
+
+"How big does a cause have to be before you kill your friends?" (4:18-7:55) Richard Burton and
+Claire Bloom in The Spy Who Came In From The Cold (1965) based on the 1963 novel by John Le
+CarrÃ© . Video Source: Youtube .  
+
+In their youths, Silents toured cities and traveled across countrysides which were
+still former battlefields. They were surrounded by war veterans, some of whom entered the
+post-war universities with far more mature attitudes alongside these younger freshmen. The
+war also shook up the class system. The Silents were aware of working class pre-war pains,
+including the shadow of the Great Depression, which were still very real. This was a
+period on the cusp of the prosperity that shaped the Baby Boomers. But before that time
+of wealth there was a sombre post-war period, during which the society digested the
+horrors of war in  film noir , and real murder cases  as well as gritty  social-realist or
+" kitchen sink dramas ."
+
+
+
+Silents watched the Cold War become seemingly permanent when the Berlin Wall was
+built in 1961. They bathed in spy stories, which gave them a sense of layered realities,
+expedient politics, and troubled, unfair justice. What do we make of young adults who never
+really identified with James Dean (their supposed object portrait) and thought so much of
+Richard Burton ?
+
+
+
+While they were aware of the grinding existential crisis that was the post World War II
+condition, most Silents did not become radicals to overturn the past. Generally speaking,
+the Silents built the foundation for the Boomers' social revolution, a revolution with
+which many of them did not agree. The Silents' response to the flowering of
+Boomers' collective consciousness was mixed. Ask Silents, and they won't
+always like Boomers' depiction of the 1950s. Many Silents joined Boomers' 1960s and
+1970s anti-Vietnam War protests. However, Silents began parting ways with the Boomers in
+the 1970s. Silents built enclaves where they could negotiate around the increasingly
+Boomer-dominated reality and where they preserved and revised traditions on their own
+terms.
+
+
+
+I was struck by this separate path through an anecdotal account of Silent
+generation communities in the 1970s in a post by Kate Sherrod . Generalizations from
+personal memories do not a generation make. But it is true that I had
+similarly witnessed Silents establishing enclaves and spheres of activity somewhat
+off the Boomers' beaten paths, with priorities different from those of Baby
+Boomers.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/-oJMq0tkl5YA/UEWDkt5R_jI/AAAAAAAAHlE/1FY6UEONwWk/s640/cat_guy.jpg
+Peter Ustinov in Logan's Run (1976). Image Source: GME Podcast .
+
+Perhaps this alternate set of choices was the Silent generation's separate peace
+. Silents have built a distinct, little-discussed generational legacy that has
+implications now and for the future. This is important, because to look at the media now, one
+would think that  all  aspects of public discourse from the 1960s to 2000s have
+been the product of Baby Boomer ideas and initiatives - and there is no other contemporary
+alternative that runs alongside (not through) the Boomer consensus. This is not true.
+
+
+
+To the extent that they did not join the Boomer project, the Silent generation's legacy
+is the Boomers' 'path not traveled.' These are my intuitive senses of what that
+legacy might be:
+
+    
+
+    - Silents developed values and made social choices which ran concurrently, and
+    sometimes overlapped, with Boomer activism. But Silents' values and choices were their
+    own, and not solely reactions to Boomer initiatives.
+
+    
+
+    - Silents formed a critical connection to the past and did not cut ties with it. As the
+    above film clips suggest, Silents recognized serious social problems,
+    especially class inequalities. But in amending them, they ultimately did not
+    revolutionize history as the Boomers did.
+
+    
+
+    - Even when they rejected older norms and conventions, Silents still connected to
+    vertical social alignments, that is, Realpolitik , family, professional work, duty
+    outside oneself, community, canon culture and social traditions. The Boomers, by
+    contrast, based their social revolution on horizontal alignments: domestic politics,
+    generations, class, self-improvement, nationalism, and newly-founded traditions. A
+    clichÃ©ed view of the Boomers sees them regarding any vertical social alignment as
+    tyrannical, benighted, conservative and hierarchical.
+
+    
+
+    - Silents' acceptance of vertical and horizontal loyalties was more holistic or
+    synthetic, and not always an either/or proposition, as was the case for radical Baby
+    Boomers.
+
+    
+
+    - Similarly, Silents' understanding of politics was not necessarily as polarized as
+    that of the Boomers. Silents could accept situations and arguments which Boomers would
+    likely find politically paradoxical or irreconcilable.
+
+    
+
+    - Silents include the founding Postmodernists . Consider Jean-FranÃ§ois Lyotard,
+    Jean Baudrillard, Michel de Certeau, Pierre Bourdieu, Louis Marin, Gilles Deleuze,
+    FÃ©lix Guattari, Michel Foucault, Jacques Derrida, J.G. Ballard, Luce Irigaray,
+    Christian Metz, Guy Debord, HÃ©lÃšne Cixous, Umberto Eco, and Paul Virilio: "
+    members of this generation grew up in a world in which two world wars, the Holocaust, the
+    Stalinist Gulag, and Hiroshima and Nagasaki demonstrated the carnage and destruction
+    that the modernist rhetoric of progress is capable of creating. If their elders (e.g.,
+    the New York Intellectuals) abandoned utopianism (the dream of a momentous, rational,
+    all-encompassing change in the human condition, achieved through the revolutionary
+    transformation of society), Postmoderns went even further, and repudiated the
+    archetype of modernity as a force for unmitigated progress. Some of those who lost faith
+    in Progress became conservatives; others (with the notable exception of those involved
+    in the Civil Rights movement) balanced progressive concerns with irony, absurdism, and
+    apocalypticism. Their (anti-totalitarian) destabilizing and de-essentializing of
+    orthodoxies led Postmoderns to question whether there is any longer a meaningful basis
+    for collective agreement or action. So, wedged between the activist Greatest and Boomer
+    Generations, they seemed 'silent.'"  Ironically, many Silents still seem to accept
+    objective standpoints, however impossible those may be to define. Boomers appear to
+    have conformed much more to the Postmodern insistence on subjectivity, which allows
+    reality to be deconstructed and redefined.
+
+    
+
+    - When it came to reform and tradition, Silents could be self-contradictory. Although
+    Silents helped to maintain some older cultural norms and values (even the
+    founding Postmodernists took the arts canon as read), they also embarked on
+    significant changes. But these changes were often amendments to, or enhancements
+    of, the canon. A good Silent Gen example is Glenn Gould 's interpretation of Bach;
+    another is the use of  improvisation  in classical and jazz music, initially still
+    confined by prescribed idioms; another is the mass market paperback publication of
+    literary classics .
+
+    
+
+    - Silents built enclaves within which to focus on particular concerns (for example, the
+    environment). Unlike Boomers, they did not collectively build big,
+    clearly-marketed, monolithic generation-wide, gender-wide or nation-wide
+    movements.
+
+    
+
+    - As far as institutions went, the Silents prevented these entities from becoming
+    dehumanized and all-powerful in the economy. In business, they did this by retaining
+    an old liberal culture of professionalism within institutions.
+
+    
+
+    - Silents preserved a connection to capitalism. But they avoided capital's total
+    subjection to corporate interests, something which cannot be said of Baby Boomers.
+    Silents maintained spheres which treasured individual and small initiatives, and
+    prevented them from being absorbed by the corporatization of art and culture. The high
+    point of subsidized high culture broadcasts on public radio and television coincided
+    with the rise of the Silent generation.
+
+    
+
+    - The promotion of high culture and education during the Silents' heyday from the 1970s up
+    to the 1990s indicates a guarded idealism, a belief that social inequities could be
+    relieved through the improvement of everyone in society, top to bottom. At the same time,
+    Silents struggled with patriarchal aspects of this view of culture - an inconsistency
+    which the Boomers avoided.
+
+    
+
+
+
+Silents' espionage over Boomers' activism. Nostalgia for Le CarrÃ©'s Tinker, Tailor,
+Soldier, Spy (1974) revisits the Silent Gens in a new Millennial retelling (2011) ©
+StudioCanal and Working Title Films . Video Source: Youtube . The film clip of this version of
+the song La Mer was performed live by Julio Inglesias in 1976 at the Olympia theater in Paris.
+
+**You have Isaac Asimov 's short story What If-- (1952); Philip K. Dick's The Man in the High
+Castle (1962); Pavane by Keith Roberts (1968); Vladimir Nabokov 's Ada or Ardor: A Family
+Chronicle (1969); All Evil Shed Away by Archie Roy (1970); Lighter than a Feather by David
+Westheimer (1971); The Iron Dream by Norman Spinrad (1972); Tunnel Through the Deeps by Harry
+Harrison (1972); For Want of a Nail by Robert N. Sobel (1973); The Ultimate Solution by Eric
+Norden (1973); Guido Morselli 's Past Conditional ( Contro-passato prossimo ) (1975);
+Kingsley Amis 's The Alteration (1976); Ira Levin 's The Boys from Brazil (1976); SS-GB by Len
+Deighton (1978); The Divide by William Overgard (1980); A Rebel in Time by Harry Harrison
+(1983); Gray Victory by Robert Skimin (1988); Fatherland by Robert Harris (1992); Konpeki no
+Kantai by Yoshio Aramaki (1992); Disaster At D-Day by Peter Tsouras (1994); 1945 by Newt
+Gingrich and William R. Forstchen (1995); December 7, 1941: A Different Path by David L. Alley
+(1995); Attentatet i PÃ¥lsjÃ¶ skog by Hans Alfredson (1996); Back in the USSA by Eugene
+Byrne and Kim Newman (1997); K is for Killing by Daniel Easterman (1997); Making History by
+Stephen Fry (1997); Resurrection Day by Brendan DuBois (1999); Fox on the Rhine by Douglas
+Niles and Michael Dobson (2000); After Dachau by Daniel Quinn (2001); The Children's War by
+J.N. Stroyar (2001); Collaborator by Murray Davies (2003); In the Presence of Mine Enemies by
+Harry Turtledove (2003); Philip Roth 's The Plot Against America (2004); The Yiddish
+Policemen's Union by Michael Chabon (2007); 1945 by Robert Conroy (2007); Macarthur's War by
+Douglas Niles and Michael Dobson (2007); The Execution Channel by Ken MacLeod (2008); 1942 by
+Robert Conroy (2009); The Afrika Reich by Guy Saville (2011); 11/22/63 by Stephen King
+(2011); Himmler's War by Robert Conroy (2012).
+
+
+
+NOTES FOR READERS OF MY POSTS.
+
+If you're not reading this post on Histories of Things to Come , the content may have been
+scraped and republished without attribution or the original author's permission. Please
+let me know by following this link and leaving me a comment. Thank you. Posted by ToB at 1:41 AM
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: 9/11 , Baby Boomers , Cold War , Film Noir , George
+Orwell , Humour , Music , Philip K. Dick , Politics , Postmodernism , Shirley Jackson , Silent
+Generation , Visual Arts , Vladimir Nabokov , Zeitgeist
+
+No comments:
+
+    
+
+
+
+
+
+Post a Comment
+
+
+
+BLOG_CMT_createIframe('http://www.blogger.com/rpc_relay.html',
+'08880570130000377085');
+
+
+
+
+
+Newer Post Older Post Home Subscribe to: Post Comments (Atom) window.___gcfg = {'lang':
+'en'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+Image: http://farm8.staticflickr.com/7124/7742997762_3293d04f31_o.png
+
+    Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+    - ABOUT THIS BLOG
+
+    
+
+    - BEST POSTS
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Translate
+
+function googleTranslateElementInit() { new google.translate.TranslateElement({
+pageLanguage: 'en', autoDisplay: 'true', layout:
+google.translate.TranslateElement.InlineLayout.VERTICAL },
+'google_translate_element'); }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Search This Blog
+
+Loading... #uds-searchControl .gs-result .gs-title, #uds-searchControl .gs-result
+.gs-title *, #uds-searchControl .gsc-results .gsc-trailing-more-results,
+#uds-searchControl .gsc-results .gsc-trailing-more-results * { color:#e1771e; }
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result
+.gs-title a:visited * { color:#804000; } #uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-publishedDate { color: #000000; } #uds-searchControl .gs-result
+a.gs-visibleUrl, #uds-searchControl .gs-result .gs-visibleUrl { color: #cc6600; }
+#uds-searchControl .gsc-results { border-color: #99C9FF; background-color: #99C9FF; }
+#uds-searchControl .gsc-tabhActive { border-color: #99C9FF; border-top-color:
+#cc6600; background-color: #99C9FF; color: #000000; } #uds-searchControl
+.gsc-tabhInactive { border-color: #99C9FF; background-color: transparent; color:
+#e1771e; } #uds-searchClearResults { border-color: #99C9FF; }
+#uds-searchClearResults:hover { border-color: #cc6600; } #uds-searchControl
+.gsc-cursor-page { color: #e1771e; } #uds-searchControl .gsc-cursor-current-page {
+color: #000000; }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+About Me
+
+
+
+    Image:
+    http://2.bp.blogspot.com/-ijKxkdX6Crg/TXKE9t239nI/AAAAAAAADTU/MgE_HsN7TcU/s220/Aeon_3.jpg
+
+        ToB
+
+    
+
+        Welcome to my blog, dedicated to the aporia, mysteries, and nervous tensions of the
+        turn of the Millennium. I'm a writer and academic, trained in the field of history.
+        These are my histories of things that define the spirit of our times. This blog also
+        goes beyond historians' visions of the past, and examines how metatime and time are
+        perceived in other media and disciplines, between generations, and in high and pop
+        culture.
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+ToB
+
+
+
+Image:
+http://1.bp.blogspot.com/_RVLJm9IHkZk/S-ZxIP5wuvI/AAAAAAAAABY/4sQmx63iCKE/S220/nt128-021.JPG
+
+New Titans #128 (Dec. 1995)
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Tip Jar
+
+
+
+Image: https://www.paypal.com/en_US/i/scr/pixel.gif
+
+Please support this blog! Good karma will come to you in dreams of the past and every
+nano-future.
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Subscribe To
+
+
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Comments
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Comments
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Follow by Email
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Greenwich Mean Time
+
+obj=new
+Object;obj.clockfile="0022-brown.swf";obj.TimeZone="GMT00";obj.width=135;obj.height=135;obj.wmode="transparent";showClock(obj);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Recent Comments
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.currentPost =
+"http://www.blogger.com/feeds/2905155363976375938/posts/default/4829331848406593899";
+holder.currentComments =
+"http://www.blogger.com/feeds/2905155363976375938/4829331848406593899/comments/default";
+holder.currentPostUrl = ""; holder.currentPostId = 4829331848406593899
+holder.postFeed =
+"http://www.blogger.com/feeds/2905155363976375938/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/2905155363976375938/comments/default";
+holder.currentBlogUrl = "http://historiesofthingstocome.blogspot.com/";
+holder.currentBlogId = "2905155363976375938"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "200"; skin['TITLE'] = "Recent Comments";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#000000"; skin['ENDCAP_LINK_COLOR'] = "#e1771e";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#e1771e"; skin['CONTENT_TEXT_COLOR'] =
+"#000000"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#e1771e";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#999999"; skin['CONTENT_HEADLINE_COLOR'] =
+"#cc6600"; skin['FONT_FACE'] = "normal normal 110% Trebuchet, Trebuchet MS, Arial,
+sans-serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderOpenSocialGadget"]( {id:
+"div-s1uhxk3h096a", height: 200, url:
+"http://gadgetsforblogger.googlecode.com/files/recent-comments-gadget.xml",
+"view-params": {"summaryLength":"75","numberOfPosts":"15"}, "prefs":
+{"summaryLength":"75","numberOfPosts":"15"}, site: "08880570130000377085", locale:
+'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ▼  2012 (278)
+
+        - ►  09/30 - 10/07 (3)
+
+        
+
+        
+
+        - ►  09/23 - 09/30 (8)
+
+        
+
+        
+
+        - ►  09/16 - 09/23 (8)
+
+        
+
+        
+
+        - ►  09/09 - 09/16 (8)
+
+        
+
+        
+
+            - ▼  09/02 - 09/09 (9)
+
+            - Mutants, After the Apocalypse
+
+            
+
+            - Quote of the Day: When the Economy Will Improve
+
+            
+
+            - Area 51 - Watch this Space
+
+            
+
+            - Voyager 35th Anniversary Live Webcast
+
+            
+
+            - Elections Elections ...
+
+            
+
+            - The Silent Generation's Separate Peace
+
+            
+
+            - Seeking Solace in Grand Irrationalities
+
+            
+
+            - Intergenerational Inequities
+
+            
+
+            - Generation X: To Be or Not To Be
+
+            
+
+        
+
+        
+
+        
+
+        - ►  08/26 - 09/02 (6)
+
+        
+
+        
+
+        - ►  08/19 - 08/26 (10)
+
+        
+
+        
+
+        - ►  08/12 - 08/19 (4)
+
+        
+
+        
+
+        - ►  08/05 - 08/12 (1)
+
+        
+
+        
+
+        - ►  07/22 - 07/29 (4)
+
+        
+
+        
+
+        - ►  07/15 - 07/22 (7)
+
+        
+
+        
+
+        - ►  07/08 - 07/15 (4)
+
+        
+
+        
+
+        - ►  07/01 - 07/08 (9)
+
+        
+
+        
+
+        - ►  06/24 - 07/01 (9)
+
+        
+
+        
+
+        - ►  06/17 - 06/24 (9)
+
+        
+
+        
+
+        - ►  06/10 - 06/17 (9)
+
+        
+
+        
+
+        - ►  06/03 - 06/10 (6)
+
+        
+
+        
+
+        - ►  05/27 - 06/03 (8)
+
+        
+
+        
+
+        - ►  05/20 - 05/27 (9)
+
+        
+
+        
+
+        - ►  05/13 - 05/20 (8)
+
+        
+
+        
+
+        - ►  05/06 - 05/13 (10)
+
+        
+
+        
+
+        - ►  04/29 - 05/06 (9)
+
+        
+
+        
+
+        - ►  04/22 - 04/29 (3)
+
+        
+
+        
+
+        - ►  04/15 - 04/22 (2)
+
+        
+
+        
+
+        - ►  04/08 - 04/15 (3)
+
+        
+
+        
+
+        - ►  04/01 - 04/08 (9)
+
+        
+
+        
+
+        - ►  03/25 - 04/01 (10)
+
+        
+
+        
+
+        - ►  03/18 - 03/25 (9)
+
+        
+
+        
+
+        - ►  03/11 - 03/18 (8)
+
+        
+
+        
+
+        - ►  03/04 - 03/11 (10)
+
+        
+
+        
+
+        - ►  02/26 - 03/04 (4)
+
+        
+
+        
+
+        - ►  02/19 - 02/26 (14)
+
+        
+
+        
+
+        - ►  02/12 - 02/19 (13)
+
+        
+
+        
+
+        - ►  02/05 - 02/12 (10)
+
+        
+
+        
+
+        - ►  01/29 - 02/05 (4)
+
+        
+
+        
+
+        - ►  01/22 - 01/29 (4)
+
+        
+
+        
+
+        - ►  01/15 - 01/22 (3)
+
+        
+
+        
+
+        - ►  01/08 - 01/15 (4)
+
+        
+
+        
+
+        - ►  01/01 - 01/08 (10)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (362)
+
+        - ►  12/25 - 01/01 (8)
+
+        
+
+        
+
+        - ►  12/18 - 12/25 (9)
+
+        
+
+        
+
+        - ►  12/11 - 12/18 (9)
+
+        
+
+        
+
+        - ►  12/04 - 12/11 (6)
+
+        
+
+        
+
+        - ►  11/27 - 12/04 (7)
+
+        
+
+        
+
+        - ►  11/20 - 11/27 (8)
+
+        
+
+        
+
+        - ►  11/13 - 11/20 (9)
+
+        
+
+        
+
+        - ►  11/06 - 11/13 (8)
+
+        
+
+        
+
+        - ►  10/30 - 11/06 (9)
+
+        
+
+        
+
+        - ►  10/23 - 10/30 (7)
+
+        
+
+        
+
+        - ►  10/16 - 10/23 (7)
+
+        
+
+        
+
+        - ►  10/09 - 10/16 (7)
+
+        
+
+        
+
+        - ►  10/02 - 10/09 (8)
+
+        
+
+        
+
+        - ►  09/25 - 10/02 (8)
+
+        
+
+        
+
+        - ►  09/18 - 09/25 (8)
+
+        
+
+        
+
+        - ►  09/11 - 09/18 (8)
+
+        
+
+        
+
+        - ►  08/14 - 08/21 (6)
+
+        
+
+        
+
+        - ►  08/07 - 08/14 (13)
+
+        
+
+        
+
+        - ►  07/31 - 08/07 (8)
+
+        
+
+        
+
+        - ►  07/24 - 07/31 (5)
+
+        
+
+        
+
+        - ►  07/17 - 07/24 (7)
+
+        
+
+        
+
+        - ►  07/10 - 07/17 (8)
+
+        
+
+        
+
+        - ►  07/03 - 07/10 (7)
+
+        
+
+        
+
+        - ►  06/26 - 07/03 (6)
+
+        
+
+        
+
+        - ►  06/19 - 06/26 (5)
+
+        
+
+        
+
+        - ►  06/12 - 06/19 (6)
+
+        
+
+        
+
+        - ►  06/05 - 06/12 (9)
+
+        
+
+        
+
+        - ►  05/29 - 06/05 (8)
+
+        
+
+        
+
+        - ►  05/22 - 05/29 (7)
+
+        
+
+        
+
+        - ►  05/15 - 05/22 (7)
+
+        
+
+        
+
+        - ►  05/08 - 05/15 (7)
+
+        
+
+        
+
+        - ►  05/01 - 05/08 (10)
+
+        
+
+        
+
+        - ►  04/24 - 05/01 (7)
+
+        
+
+        
+
+        - ►  04/17 - 04/24 (2)
+
+        
+
+        
+
+        - ►  04/10 - 04/17 (5)
+
+        
+
+        
+
+        - ►  04/03 - 04/10 (5)
+
+        
+
+        
+
+        - ►  03/27 - 04/03 (5)
+
+        
+
+        
+
+        - ►  03/20 - 03/27 (7)
+
+        
+
+        
+
+        - ►  03/13 - 03/20 (8)
+
+        
+
+        
+
+        - ►  03/06 - 03/13 (9)
+
+        
+
+        
+
+        - ►  02/27 - 03/06 (8)
+
+        
+
+        
+
+        - ►  02/20 - 02/27 (7)
+
+        
+
+        
+
+        - ►  02/13 - 02/20 (9)
+
+        
+
+        
+
+        - ►  02/06 - 02/13 (9)
+
+        
+
+        
+
+        - ►  01/30 - 02/06 (9)
+
+        
+
+        
+
+        - ►  01/23 - 01/30 (1)
+
+        
+
+        
+
+        - ►  01/16 - 01/23 (4)
+
+        
+
+        
+
+        - ►  01/09 - 01/16 (9)
+
+        
+
+        
+
+        - ►  01/02 - 01/09 (13)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (231)
+
+        - ►  12/26 - 01/02 (10)
+
+        
+
+        
+
+        - ►  12/19 - 12/26 (9)
+
+        
+
+        
+
+        - ►  12/12 - 12/19 (9)
+
+        
+
+        
+
+        - ►  12/05 - 12/12 (5)
+
+        
+
+        
+
+        - ►  11/28 - 12/05 (3)
+
+        
+
+        
+
+        - ►  11/21 - 11/28 (8)
+
+        
+
+        
+
+        - ►  11/14 - 11/21 (9)
+
+        
+
+        
+
+        - ►  11/07 - 11/14 (9)
+
+        
+
+        
+
+        - ►  10/31 - 11/07 (8)
+
+        
+
+        
+
+        - ►  10/24 - 10/31 (7)
+
+        
+
+        
+
+        - ►  10/17 - 10/24 (6)
+
+        
+
+        
+
+        - ►  10/10 - 10/17 (7)
+
+        
+
+        
+
+        - ►  10/03 - 10/10 (8)
+
+        
+
+        
+
+        - ►  09/26 - 10/03 (6)
+
+        
+
+        
+
+        - ►  09/19 - 09/26 (7)
+
+        
+
+        
+
+        - ►  09/12 - 09/19 (8)
+
+        
+
+        
+
+        - ►  09/05 - 09/12 (8)
+
+        
+
+        
+
+        - ►  08/29 - 09/05 (8)
+
+        
+
+        
+
+        - ►  08/22 - 08/29 (7)
+
+        
+
+        
+
+        - ►  08/15 - 08/22 (7)
+
+        
+
+        
+
+        - ►  08/08 - 08/15 (8)
+
+        
+
+        
+
+        - ►  08/01 - 08/08 (8)
+
+        
+
+        
+
+        - ►  07/25 - 08/01 (6)
+
+        
+
+        
+
+        - ►  07/18 - 07/25 (5)
+
+        
+
+        
+
+        - ►  07/11 - 07/18 (5)
+
+        
+
+        
+
+        - ►  07/04 - 07/11 (6)
+
+        
+
+        
+
+        - ►  06/27 - 07/04 (6)
+
+        
+
+        
+
+        - ►  06/20 - 06/27 (5)
+
+        
+
+        
+
+        - ►  06/13 - 06/20 (7)
+
+        
+
+        
+
+        - ►  06/06 - 06/13 (7)
+
+        
+
+        
+
+        - ►  05/30 - 06/06 (7)
+
+        
+
+        
+
+        - ►  05/23 - 05/30 (12)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  1980 (1)
+
+        - ►  05/04 - 05/11 (1)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Add My Blog Button To Your Site
+
+
+
+Image: http://i873.photobucket.com/albums/ab292/tamaranorbust/hottc3.jpg
+
+Image: http://i873.photobucket.com/albums/ab292/tamaranorbust/hottc3.jpg
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Eastern Standard Time
+
+obj=new
+Object;obj.clockfile="5005-blue.swf";obj.TimeZone="EST";obj.width=120;obj.height=40;obj.wmode="transparent";showClock(obj);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Pin Me!
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Add HOTTC to Social Networks
+
+var addthis_config = {"data_track_clickback":true};
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+New Delhi - Mumbai Time
+
+obj=new
+Object;obj.clockfile="5009-ltgreen.swf";obj.TimeZone="India_Mumbai";obj.width=220;obj.height=22;obj.wmode="transparent";showClock(obj);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+BLOG ROLL
+
+    
+
+    - An Inner Journey: The Moon, Mythology, and You Prayer to Nehalennia
+
+    
+
+    - Atop the Fourth Wall Longbox of the Damned: The Sandman #4-7
+
+    
+
+    - Cabinet of Curiosities
+
+    
+
+    - COMIC ICONS The Final Week of the New 52!
+
+    
+
+    - Comics Ate My Brain The first step into a larger world
+
+    
+
+    - Comics Time Sonnets THE GOON #35
+
+    
+
+    - Confessions of a Bookplate Junkie Threats and Warnings on Bookplates-Part One
+
+    
+
+    - DARK DORSET - Dorset's premier website devoted to local folklore and the unexplained
+    The Devil Spits - The Traditions and Customs of Michaelmas Day
+
+    
+
+    - Dinosaurs and Robots Bryenne Perfume Bottle
+
+    
+
+    - Doom Patrol Cosplaying Some Doom at DragonCon
+
+    
+
+    - DOOMPEDIA Keith Giffen interview
+
+    
+
+    - Dr. K's 100-Page Super Spectacular Today Is the Day
+
+    
+
+    - Dreams of Space - Books and Ephemera To Other Planets (1962)
+
+    
+
+    - Every Day Is Like Wednesday Review: Spider-Man: The Short Halloween
+
+    
+
+    - Extratemporal Perception Swap Thing #2: Inception of The Social Network of Iron Men and
+    Tron in 3D
+
+    
+
+    - Floor to Ceiling Books That's All, Folks!
+
+    
+
+    - Forensic Astrology Cameron Gerald March
+
+    
+
+    - GeniusboyFiremelon Goodbye Joe, and Thank You
+
+    
+
+    - Ghost Hunting Theories Living the Goth Style: Original Dark Shadows
+
+    
+
+    - Golden Age Comic Book Stories
+
+    
+
+    - Gothic Tea Society The Munsters Paper Dolls
+
+    
+
+    - Historical Mysteries Redux The Murder of Edgar Allan Poe
+
+    
+
+    - Inexplicata-The Journal of Hispanic Ufology Starstrikes: Calling Cards from the
+    Cosmos?
+
+    
+
+    - Ink Nouveau September Ink Drop Contest - Voting Time!
+
+    
+
+    - It's A Dan's World TO CREEPY FOR A WEDNESDAY: Human Yoda Sculpture Gives That Daygobah
+    Feeling
+
+    
+
+    - Ivebeenreadinglately Walking with William James in the afterlife
+
+    
+
+    - John Rozum.com 31 Days of Halloween - Day 3 - Mask of the Day
+
+    
+
+    - Kate of Mind VINYL - Andy Williams "Holly"
+
+    
+
+    - Kate's Chapbook SPOKEN SUNDAY: VILLANELLE: Recruitment And Its Perils
+
+    
+
+    - Lee Hamilton Mars rover landing in HD
+
+    
+
+    - LGC:Doom Patrol DP02-12 The Power Girl Paradox Part 1
+
+    
+
+    - Marvel Comics of the 1980s 1986 - Craig Hamilton's Warlock
+
+    
+
+    - Me and You and a Blog Named Boo Tuesday's Forgotten TV: Horror Host Zacherley on Philly
+    and New York TV
+
+    
+
+    - Meanwhile, at the Hall of Justice... JUSTICE LEAGUE #12
+
+    
+
+    - Moral Machines Errant Code? It’s Not Just a Bug
+
+    
+
+    - Multiversity Comics Advance Review: Mind the Gap #1
+
+    
+
+    - Necropolis Signs
+
+    
+
+    - No Fear of the Future Biblion: Frankenstein
+
+    
+
+    - OFFICIAL TONY DANIEL BLOG How to Get the Best Dissertation?
+
+    
+
+    - PARANORMAL MUSINGS Apparition of the Blessed Virgin Mary
+
+    
+
+    - Physics and Physicists The Standard Model
+
+    
+
+    - POST-MAC BLUES Posthuman Blues - The Hard Copy(?)
+
+    
+
+    - Posthuman Blues Triptych #15
+
+    
+
+    - Quigley's Cabinet Biting and bones
+
+    
+
+    - Random Longbox The Future of the DCU
+
+    
+
+    - Rebel Science News The Myth of the Bayesian Brain, Part III
+
+    
+
+    - Remanzacco Observatory - Comets & Neo Updated data for comet C/2012 S1 (ISON)
+
+    
+
+    - Rikdad's Comic Thoughts Close To Home
+
+    
+
+    - Rokk's Comic Book Revolution DC's New 52 Sales Charts: Mid Performer Category
+
+    
+
+    - Seduction of the Indifferent Highlighting House Ads: 1979 JLA/JSA Crossover
+
+    
+
+    - She Blogged By Night The She Blogged By Night Archives
+
+    
+
+    - Shouty Men in Shiny Armour Shouty Dwarves in Klingon Armour
+
+    
+
+    - Space Artists The Patch Guy
+
+    
+
+    - Speculative Horizons A parting, of sorts
+
+    
+
+    - Studio Cyberlab Stug riders part3
+
+    
+
+    - Suppertime Sonnets In Which A Lad Is 43
+
+    
+
+    - Tea at Trianon The Diadem of the Duchesse d'AngoulÃªme
+
+    
+
+    - The Aquaman Shrine Potato Chip Aquaman
+
+    
+
+    - The Craft of Living Privacy Policy
+
+    
+
+    - The Digital Cuttlefish Testing something.
+
+    
+
+    - The Four Color Media Monitor GL series features Obama cameo, and one has to wonder:
+    what's Johns' opinion of him, really?
+
+    
+
+    - The Gentlemen's Blog to Midnite Cinema The Church (1989)
+
+    
+
+    - The Journal of the 1001 Nights Jafar meets Family Guy
+
+    
+
+    - The Lightning Bug's Lair Exit Humanity (2011) Stage Left, Even
+
+    
+
+    - The Lyceum My New Blog: "The Craft of Living"
+
+    
+
+    - The Moon is a Dead World: horror movie reviews Halloween Fifteen #1: The Initiation
+    (Featuring Jen McEntire)
+
+    
+
+    - The Oldest Living Things in the World A Second Chance at the Chestnut of 100 Horses
+
+    
+
+    - The Pictorial Arts Demon Battle
+
+    
+
+    - The Poor Mouth Li
+
+    
+
+    - The Revealing Science of Ewrote FOSTER SIGNING
+
+    
+
+    - Three Pipe Problem Virgin Cults and Raphael's Santa Cecilia
+
+    
+
+    - To Survive and Revive the Mind Exaltation
+
+    
+
+    - Too Busy Thinking About My Comics 10 Reasons To Celebrate "Judge Dredd: Bullet To King
+    Four", from 2000AD 1803
+
+    
+
+    - TOO DANGEROUS FOR A GIRL! The Flash #0 review
+
+    
+
+    - Total Dick-Head Dick-Fest 2012 Totally Recalled
+
+    
+
+    - Trans-D Digital Art Our Lady of the Wood
+
+    
+
+    - Unsolved Mysteries In The World Coral Castle
+
+    
+
+    - Values and societies FROM THE TOWER OF BABEL TO THE ENDLESS COLUMN
+
+    
+
+    - Vintage Spandex
+
+    
+
+    - Walked & Walked Where's Andrew?
+
+    
+
+    - War Poetry F. W. Harvey and Wilfrid Gibson
+
+    
+
+    - Weimar
+
+    
+
+    - Weyland-Yutani Archives The Sky Has Fallen Giveaway!
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Ghost Watching Video Bar
+
+Loading...
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Total Pageviews
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Free Blog Calendar
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png COPYRIGHT NOTICE
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Hubble
+
+Loading...
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.currentPost =
+"http://www.blogger.com/feeds/2905155363976375938/posts/default/4829331848406593899";
+holder.currentComments =
+"http://www.blogger.com/feeds/2905155363976375938/4829331848406593899/comments/default";
+holder.currentPostUrl = ""; holder.currentPostId = 4829331848406593899
+holder.postFeed =
+"http://www.blogger.com/feeds/2905155363976375938/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/2905155363976375938/comments/default";
+holder.currentBlogUrl = "http://historiesofthingstocome.blogspot.com/";
+holder.currentBlogId = "2905155363976375938"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#000000"; skin['ENDCAP_LINK_COLOR'] = "#e1771e";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#e1771e"; skin['CONTENT_TEXT_COLOR'] =
+"#000000"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#e1771e";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#999999"; skin['CONTENT_HEADLINE_COLOR'] =
+"#cc6600"; skin['FONT_FACE'] = "normal normal 110% Trebuchet, Trebuchet MS, Arial,
+sans-serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-f2uvqnkdqano",
+height: 260, site: "08880570130000377085", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+M. C. Escher Mashup
+
+Loading...
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+WO and SHADE IMPORTERS CURRENTLY HAVE IN STOCK
+
+    
+
+    - A to Z Nanotechnology
+
+    
+
+    - Alex Ross
+
+    
+
+    - Animation Ideas
+
+    
+
+    - Animation World Network
+
+    
+
+    - Ars Technica
+
+    
+
+    - Atlas Obscura
+
+    
+
+    - Auxiliary Memory
+
+    
+
+    - Bad Astronomy
+
+    
+
+    - Barbelith
+
+    
+
+    - Beauty of Decay
+
+    
+
+    - Berkeley Lab
+
+    
+
+    - Bleeding Cool
+
+    
+
+    - Boom! Studios
+
+    
+
+    - Born of Hope
+
+    
+
+    - Brad Meltzer
+
+    
+
+    - Brain Pickings
+
+    
+
+    - Broken Frontier
+
+    
+
+    - Centauri Dreams
+
+    
+
+    - CICLOPS Cassini Pictures
+
+    
+
+    - Cinema Suicide
+
+    
+
+    - Coilhouse
+
+    
+
+    - Comic Book Resources
+
+    
+
+    - Comic Coverage
+
+    
+
+    - Comic Treadmill
+
+    
+
+    - Comic Vine
+
+    
+
+    - Comixology
+
+    
+
+    - Cosmic Cafe and Outer Space Art Gallery
+
+    
+
+    - Cosmic Teams
+
+    
+
+    - Cosmos Magazine
+
+    
+
+    - Curious Expeditions
+
+    
+
+    - Dale Eaglesham
+
+    
+
+    - Dan Vyleta
+
+    
+
+    - Dark Roasted Blend
+
+    
+
+    - David Lynch
+
+    
+
+    - Defense Advanced Research Projects Agency (DARPA)
+
+    
+
+    - Doom Patrol Online
+
+    
+
+    - Dr. Fong's House of Mysteries
+
+    
+
+    - Dvice
+
+    
+
+    - Dynamite Comics
+
+    
+
+    - Ectoplasmosis
+
+    
+
+    - Eldritch Animation
+
+    
+
+    - Elfquest
+
+    
+
+    - Elsewhere Collaborative
+
+    
+
+    - Empire of Dust
+
+    
+
+    - ENE Energy News
+
+    
+
+    - European Film Gateway
+
+    
+
+    - European Space Agency
+
+    
+
+    - Fanatic Press
+
+    
+
+    - Fictional Cities
+
+    
+
+    - Fortean Times
+
+    
+
+    - Frank Miller
+
+    
+
+    - Frank R. Paul Gallery
+
+    
+
+    - Fukushima Live Webcam
+
+    
+
+    - Fukushima TEPCO Live Webcam
+
+    
+
+    - Future Laboratory
+
+    
+
+    - Future Pundit
+
+    
+
+    - Future Scanner
+
+    
+
+    - Geoff Johns
+
+    
+
+    - George Perez
+
+    
+
+    - Grand Comics Database
+
+    
+
+    - Grant Morrison
+
+    
+
+    - H. R. Giger
+
+    
+
+    - H.P. Lovecraft Historical Society
+
+    
+
+    - Hey Oscar Wilde It's Clobberin Time
+
+    
+
+    - Horror Masters
+
+    
+
+    - How to be a Retronaut
+
+    
+
+    - IGN Comics
+
+    
+
+    - Image Comics
+
+    
+
+    - Imperial Innovations
+
+    
+
+    - Internet Speculative Fiction Database
+
+    
+
+    - io9
+
+    
+
+    - It's Not Easy Being Green
+
+    
+
+    - Jeff Lemire
+
+    
+
+    - John Hawks Weblog
+
+    
+
+    - Kenneth Rocafort - The Rocafort Files
+
+    
+
+    - Lights in the Dark
+
+    
+
+    - Lines and Colors
+
+    
+
+    - Liquid Comics
+
+    
+
+    - London Bridge Capital
+
+    
+
+    - Lovecraft is Missing
+
+    
+
+    - Machines Like Us
+
+    
+
+    - Martian Vistas
+
+    
+
+    - Marv Wolfman
+
+    
+
+    - Matta Art Gallery
+
+    
+
+    - McSweeney's
+
+    
+
+    - Mental Landscape
+
+    
+
+    - Meta-Religion
+
+    
+
+    - Metamodern
+
+    
+
+    - Metaphrog
+
+    
+
+    - Methuselah Foundation
+
+    
+
+    - Mike's Radio World
+
+    
+
+    - Mindscape Magazine
+
+    
+
+    - MIT's Technology Review
+
+    
+
+    - Multiversity Comics
+
+    
+
+    - NASA
+
+    
+
+    - NASA Image of the Day
+
+    
+
+    - NASA JPL Photostream
+
+    
+
+    - Neil Gaiman
+
+    
+
+    - New Scientist
+
+    
+
+    - Newsarama
+
+    
+
+    - Nightfall
+
+    
+
+    - Obscura Antiques and Oddities
+
+    
+
+    - Old and Interesting
+
+    
+
+    - Old is the New New
+
+    
+
+    - Oobject
+
+    
+
+    - Open the Future
+
+    
+
+    - Pacesetter: The George Perez Magazine
+
+    
+
+    - Paleofuture at the Smithsonian
+
+    
+
+    - Paleofuture Original Blog
+
+    
+
+    - Pathe Films
+
+    
+
+    - Paul Chadwick
+
+    
+
+    - Pea Green Boat
+
+    
+
+    - Peter Chung
+
+    
+
+    - Peter Milton
+
+    
+
+    - Philip K. Dick
+
+    
+
+    - Physics World
+
+    
+
+    - Physorg
+
+    
+
+    - Post Secret
+
+    
+
+    - Project Gutenberg
+
+    
+
+    - Ptak Science Books
+
+    
+
+    - Purple Motes
+
+    
+
+    - Ray Kurzweil
+
+    
+
+    - Roscosmos
+
+    
+
+    - Sailor Twain
+
+    
+
+    - Scenes from a Multiverse
+
+    
+
+    - Science Daily
+
+    
+
+    - Scribd
+
+    
+
+    - Secret Headquarters
+
+    
+
+    - Sentient Developments
+
+    
+
+    - Shiny Binary
+
+    
+
+    - Sillof's Workshop
+
+    
+
+    - Simon Weaner
+
+    
+
+    - Skybound Comics
+
+    
+
+    - Smashing Telly
+
+    
+
+    - Society for Planetary SETI Research
+
+    
+
+    - Society of Digital Artists
+
+    
+
+    - Space Time Stories
+
+    
+
+    - Space.com
+
+    
+
+    - Spacepunk.org
+
+    
+
+    - Super Collide
+
+    
+
+    - Tarot History
+
+    
+
+    - TED
+
+    
+
+    - Tempest's Purple Reign
+
+    
+
+    - The Beat: The News Blog of Comics Culture
+
+    
+
+    - The Continuity Blog
+
+    
+
+    - The Hero Business
+
+    
+
+    - The History of Things That Never Were
+
+    
+
+    - The Hobbit Movie
+
+    
+
+    - The Hunt for Gollum
+
+    
+
+    - The Imagination Age
+
+    
+
+    - The Kubrick Corner
+
+    
+
+    - The Nano Age
+
+    
+
+    - The One Ring
+
+    
+
+    - The Silent Treatment
+
+    
+
+    - The Skeptical Inquirer
+
+    
+
+    - The Speculist
+
+    
+
+    - The Unauthorized Chronology of the DC Universe
+
+    
+
+    - Thompson Rare Books
+
+    
+
+    - Three Pipe Problem
+
+    
+
+    - Titans Tower
+
+    
+
+    - Tozo - The Public Servant
+
+    
+
+    - Transhumanist Arts and Culture
+
+    
+
+    - Trigger Street.com
+
+    
+
+    - TV Tropes
+
+    
+
+    - Universe Today
+
+    
+
+    - Unofficial Guide to the DC Universe
+
+    
+
+    - Urban Molecule
+
+    
+
+    - Wandering Space
+
+    
+
+    - Weta Workshop
+
+    
+
+    - William Stout
+
+    
+
+    - Wired
+
+    
+
+    - Word and Film
+
+    
+
+    - Zoetrope
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Australia Eastern Time
+
+obj=new
+Object;obj.clockfile="0031-black.swf";obj.TimeZone="AEST";obj.width=130;obj.height=130;obj.wmode="transparent";showClock(obj);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+TEN MOST Popular Posts
+
+    
+
+    -
+
+    Image:
+    https://lh3.googleusercontent.com/-O3pOmqEgM0U/TXKtiMFAXgI/AAAAAAAADUE/p3KOCmvft5U/s72-c/457px-Apollo_11_Crew_During_Training_Exercise_-_GPN-2002-000032.jpg
+    Time-tossing the Lunar Truth Neil Armstrong and Buzz Aldrin practicing on a simulated
+    lunar mock-up, 22 April 1969. Image Source: Wiki . I09 recently complained tha...
+
+    
+
+    -
+
+    Image:
+    http://4.bp.blogspot.com/_RVLJm9IHkZk/TBHN9E44vXI/AAAAAAAAAgA/KgK1aKfEfkc/s72-c/giger+room+limelight+club+nyc+imp+4.jpg
+    H. R. Giger, the Alien Prequel and Advice to Aspiring Artists 1H. R. Giger Room for VIPs in
+    the now defunct Limelight Club in NYC. ©H. R. Giger. Source: H. R. Giger Official Website
+    . Here's a questio...
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/_RVLJm9IHkZk/TQmFBgbuFTI/AAAAAAAAC5c/r_lGAMWEZZA/s72-c/Tsunami%2540Indonesia.jpg
+    Anniversaries: Lest We Forget the Indian Ocean Tsunami Science Channel ranks the Indian
+    Ocean tsunami of December 26, 2004 as the second worst natural disaster in the history of
+    humankind : "I...
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/_RVLJm9IHkZk/TMysKe-N2GI/AAAAAAAAC0I/wDueTv6A_b4/s72-c/berlin-wall1.jpg
+    Anniversaries: Lest We Forget the Fall of the Berlin Wall Initial Dismantling of the
+    Berlin Wall.  Image Source: PHBond . On this day in 1989, the East German authorities
+    permitted their citizens t...
+
+    
+
+    -
+
+    Image:
+    http://4.bp.blogspot.com/_RVLJm9IHkZk/TG9YVo64VlI/AAAAAAAACG8/ltG5JLSLFXQ/s72-c/tt+39+p20+-+Copy.jpg
+    DCU Continuity for Terra: Part 3.3 - A Remade Reboot of the Original: Terra in the 2000s
+    Working for Deathstroke? Ravager accused by Bombshell of being a Titans traitor. TT #39
+    (Nov. 2006) 2000s Continuity continued One Year ...
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/_RVLJm9IHkZk/TBndjN8dt0I/AAAAAAAAAmA/ySRRDswjxJ8/s72-c/titans+26.jpg
+    Reflections on the Revolving Door of Death 1: Titanic Legacies for Generation X
+    Superheroes Cheshire mourns her daughter. Titans , vol. 2 #26 (Oct. 2010). Open a
+    mainstream comic these days, and chances are you'll find one main th...
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/_RVLJm9IHkZk/TDY8TtZ-BuI/AAAAAAAABLY/dK8UK_2yOK8/s72-c/atlantis2.jpg
+    Times Outside History 3: Visions of Eras Beyond History - J. R. R. Tolkien Atlantis. After
+    the massive success of the LOTR films, almost everyone is familiar with J. R. R. Tolkien's
+    Middle-earth.  The sources for...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/-1H1x1xfafAk/Ta4PEBOWiJI/AAAAAAAADks/-WS6e_U49pk/s72-c/Stalker-Shadow-of-Chernobyl.jpg
+    Nuclear Culture 5: Video Games of the Nuclear Apocalypse Screenshot wallpaper from
+    S.T.A.L.K.E.R.: Shadow of Chernobyl (2007) © GSC Gameworld . Radiation, once
+    considered a source of vitality, no...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/-YlHHwt4MRTE/T-P8EOFaPpI/AAAAAAAAGj8/F9fRkIQFq1A/s72-c/WouldYouHaveInvested.jpg
+    Recession, Apocalypse and Hipster Futures "The photo was taken December 7, 1978 in
+    Albuquerque, New Mexico before the company moved its offices to Washington. The people
+    in the photo...
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/-Ts8RQEncCU4/TuqXzzNmzcI/AAAAAAAAFBw/3Z5jO6Psv1s/s72-c/Fashion-Christine-Lagarde-007.jpg
+    1930s DÃ©jÃ  Vu Image Source: Gerard Julien/AFP/Getty Images  via Guardian . IMF
+    Chief Christine Lagarde yesterday in Washington raised the spectre of a...
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Jerusalem Time
+
+obj=new
+Object;obj.clockfile="5010-blue.swf";obj.TimeZone="Israel_Jerusalem";obj.width=222;obj.height=66;obj.wmode="transparent";showClock(obj);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Labels
+
+    
+
+    - 1984 (15)
+
+    
+
+    - 2012 (76)
+
+    
+
+    - 9/11 (33)
+
+    
+
+    - A.I. (34)
+
+    
+
+    - Afterlife (59)
+
+    
+
+    - Alan Moore (18)
+
+    
+
+    - Albert Einstein (15)
+
+    
+
+    - Alchemy (3)
+
+    
+
+    - Algernon Blackwood (1)
+
+    
+
+    - Aliens (42)
+
+    
+
+    - Angela Carter (1)
+
+    
+
+    - Animals (53)
+
+    
+
+    - Anniversaries (40)
+
+    
+
+    - Anthropology (5)
+
+    
+
+    - Antimatter (7)
+
+    
+
+    - Antiquarians (1)
+
+    
+
+    - Apocalypse (99)
+
+    
+
+    - Archaeology (44)
+
+    
+
+    - Architecture (16)
+
+    
+
+    - Aristotle (4)
+
+    
+
+    - Ars Amatoria (11)
+
+    
+
+    - Ars Politica (7)
+
+    
+
+    - Art Nouveau (2)
+
+    
+
+    - Arthur C. Clarke (2)
+
+    
+
+    - Arthur Prior (2)
+
+    
+
+    - Arthur Rackham (2)
+
+    
+
+    - Arthur Schnitzler (1)
+
+    
+
+    - Astrology (46)
+
+    
+
+    - Astronomy (95)
+
+    
+
+    - Atlantis (6)
+
+    
+
+    - Aubrey Beardsley (1)
+
+    
+
+    - Baby Boomers (70)
+
+    
+
+    - Batman (7)
+
+    
+
+    - Big Bang (11)
+
+    
+
+    - Bioethics (2)
+
+    
+
+    - Biosemiotics (3)
+
+    
+
+    - Birds (17)
+
+    
+
+    - Black Holes (3)
+
+    
+
+    - Blackest Night (4)
+
+    
+
+    - Blog (2)
+
+    
+
+    - Bret Easton Ellis (1)
+
+    
+
+    - Brightest Day (4)
+
+    
+
+    - Brion Markov (14)
+
+    
+
+    - C. S. Lewis (2)
+
+    
+
+    - Calendars (55)
+
+    
+
+    - Carl Jung (12)
+
+    
+
+    - Charles Darwin (2)
+
+    
+
+    - Charles Sanders Peirce (1)
+
+    
+
+    - Chernobyl (14)
+
+    
+
+    - Citizen Kane (3)
+
+    
+
+    - Clones (11)
+
+    
+
+    - Cognitive Science (10)
+
+    
+
+    - Cold War (42)
+
+    
+
+    - Collective Unconscious (22)
+
+    
+
+    - Colonization (3)
+
+    
+
+    - Colour (3)
+
+    
+
+    - Comics (101)
+
+    
+
+    - Conspiracy Theories (79)
+
+    
+
+    - Copyright (17)
+
+    
+
+    - Cosmology (46)
+
+    
+
+    - Countdowns (39)
+
+    
+
+    - Curios (9)
+
+    
+
+    - Cyberethics (5)
+
+    
+
+    - Cyberpunk (9)
+
+    
+
+    - Dance (2)
+
+    
+
+    - Dante (4)
+
+    
+
+    - Dark Energy (11)
+
+    
+
+    - Dark Matter (14)
+
+    
+
+    - David Cronenberg (1)
+
+    
+
+    - David Eagleman (1)
+
+    
+
+    - David Lynch (18)
+
+    
+
+    - DC (70)
+
+    
+
+    - Deathstroke (9)
+
+    
+
+    - Deja Vu (19)
+
+    
+
+    - Dick Grayson (13)
+
+    
+
+    - Disinformation (12)
+
+    
+
+    - Donna Tartt (1)
+
+    
+
+    - Donna Troy (7)
+
+    
+
+    - Doom Patrol (15)
+
+    
+
+    - Doppelgangers (37)
+
+    
+
+    - Douglas Adams (1)
+
+    
+
+    - Dragons (1)
+
+    
+
+    - Dreams (12)
+
+    
+
+    - Dualism (19)
+
+    
+
+    - Dune (2)
+
+    
+
+    - Dystopias (134)
+
+    
+
+    - Easter Island (1)
+
+    
+
+    - Edgar Allan Poe (3)
+
+    
+
+    - Edgar Rice Burroughs (4)
+
+    
+
+    - Edward Gorey (1)
+
+    
+
+    - Elon Musk (6)
+
+    
+
+    - Empiricism (9)
+
+    
+
+    - Enlightenment (5)
+
+    
+
+    - Environment (130)
+
+    
+
+    - Epidemics (5)
+
+    
+
+    - Epistemology (2)
+
+    
+
+    - Eric Voegelin (1)
+
+    
+
+    - Estates (1)
+
+    
+
+    - Etymology (6)
+
+    
+
+    - Evolution (23)
+
+    
+
+    - Exploration (2)
+
+    
+
+    - Expressionism (3)
+
+    
+
+    - Extinction (22)
+
+    
+
+    - Extremes (10)
+
+    
+
+    - F. Scott Fitzgerald (3)
+
+    
+
+    - Fantasy (60)
+
+    
+
+    - Fiction (69)
+
+    
+
+    - Film (145)
+
+    
+
+    - Film Noir (11)
+
+    
+
+    - Fin-de-Siecle (63)
+
+    
+
+    - Fountain of Youth (24)
+
+    
+
+    - Frank Miller (5)
+
+    
+
+    - Frankenstein (1)
+
+    
+
+    - Franz Kafka (3)
+
+    
+
+    - Freemasonry (9)
+
+    
+
+    - Futurism (65)
+
+    
+
+    - Garfield Logan (18)
+
+    
+
+    - Generation Jones (2)
+
+    
+
+    - Generation Wars (26)
+
+    
+
+    - Generation X (72)
+
+    
+
+    - Generation Y (37)
+
+    
+
+    - Generation Z (8)
+
+    
+
+    - Genetics (34)
+
+    
+
+    - Geo-Force (8)
+
+    
+
+    - Geologic Time (14)
+
+    
+
+    - Geomagnetism (10)
+
+    
+
+    - George Orwell (20)
+
+    
+
+    - George Perez (14)
+
+    
+
+    - Ghosts (61)
+
+    
+
+    - Globalization (25)
+
+    
+
+    - Gnosticism (12)
+
+    
+
+    - Goethe (1)
+
+    
+
+    - Gothic (17)
+
+    
+
+    - Greatest Generation (3)
+
+    
+
+    - Greeks and Romans (59)
+
+    
+
+    - Gustav Holst (1)
+
+    
+
+    - Gustave Dore (1)
+
+    
+
+    - H. G. Wells (6)
+
+    
+
+    - H. P. Lovecraft (16)
+
+    
+
+    - H. R. Giger (10)
+
+    
+
+    - Halley's Comet (1)
+
+    
+
+    - Harlan Ellison (1)
+
+    
+
+    - Horror (75)
+
+    
+
+    - Humour (20)
+
+    
+
+    - Illuminati (13)
+
+    
+
+    - Immortality (97)
+
+    
+
+    - Infinity (6)
+
+    
+
+    - Informatics (156)
+
+    
+
+    - Insects (13)
+
+    
+
+    - International Space Station (12)
+
+    
+
+    - Interviews (2)
+
+    
+
+    - Isao Tomita (2)
+
+    
+
+    - J. R. R. Tolkien (11)
+
+    
+
+    - Jesuits (1)
+
+    
+
+    - John Constantine (2)
+
+    
+
+    - John Milton (2)
+
+    
+
+    - John Steinbeck (2)
+
+    
+
+    - Judas Contract (5)
+
+    
+
+    - Jules Verne (1)
+
+    
+
+    - Jupiter (2)
+
+    
+
+    - Karen Blixen (1)
+
+    
+
+    - Karl Popper (1)
+
+    
+
+    - Kurt Vonnegut (1)
+
+    
+
+    - Large Hadron Collider (20)
+
+    
+
+    - Law (2)
+
+    
+
+    - Lazarus Pits (2)
+
+    
+
+    - Leo Tolstoy (4)
+
+    
+
+    - Linguistics (11)
+
+    
+
+    - Lost Cities (9)
+
+    
+
+    - Ludwig Binswanger (1)
+
+    
+
+    - M. C. Escher (2)
+
+    
+
+    - M. R. James (5)
+
+    
+
+    - Marcel Proust (2)
+
+    
+
+    - Markovia (6)
+
+    
+
+    - Mars (35)
+
+    
+
+    - Marv Wolfman (11)
+
+    
+
+    - Marvel (12)
+
+    
+
+    - Mary Shelley (3)
+
+    
+
+    - Matrix (7)
+
+    
+
+    - Memory (51)
+
+    
+
+    - Mercury (3)
+
+    
+
+    - Meta-Metahistory (84)
+
+    
+
+    - Metafiction (3)
+
+    
+
+    - Metatime (167)
+
+    
+
+    - Michio Kaku (11)
+
+    
+
+    - Millennium (196)
+
+    
+
+    - Music (50)
+
+    
+
+    - Mysteries (14)
+
+    
+
+    - Mythology (75)
+
+    
+
+    - Nathaniel Hawthorne (2)
+
+    
+
+    - Neil Gaiman (3)
+
+    
+
+    - Neo-Noir (2)
+
+    
+
+    - Neptune (1)
+
+    
+
+    - Neurolaw (1)
+
+    
+
+    - Neuroscience (10)
+
+    
+
+    - Nicolaus Copernicus (1)
+
+    
+
+    - Nostalgia (52)
+
+    
+
+    - Nostradamus (2)
+
+    
+
+    - Nuclear (68)
+
+    
+
+    - Numerology (11)
+
+    
+
+    - Occult (39)
+
+    
+
+    - Omens (98)
+
+    
+
+    - Orson Welles (10)
+
+    
+
+    - Outsiders (10)
+
+    
+
+    - Oz (1)
+
+    
+
+    - Palaeontology (17)
+
+    
+
+    - Paleo-Futurism (25)
+
+    
+
+    - Paranormal (46)
+
+    
+
+    - Peter Chung (7)
+
+    
+
+    - Peter Drucker (2)
+
+    
+
+    - Philip K. Dick (24)
+
+    
+
+    - Philosophy of Time (20)
+
+    
+
+    - Plants (7)
+
+    
+
+    - Plato (6)
+
+    
+
+    - Pluto (1)
+
+    
+
+    - Politics (47)
+
+    
+
+    - Positivism (7)
+
+    
+
+    - Post-Postmodernism (66)
+
+    
+
+    - Posthumanism (30)
+
+    
+
+    - Postmodernism (28)
+
+    
+
+    - Pre-Raphaelites (5)
+
+    
+
+    - Precognition (36)
+
+    
+
+    - Prehistory (34)
+
+    
+
+    - Propaganda (1)
+
+    
+
+    - Property Rights (2)
+
+    
+
+    - Pulp Fiction (32)
+
+    
+
+    - Quantum Biology (28)
+
+    
+
+    - Quantum Computers (18)
+
+    
+
+    - Quantum Consciousness (27)
+
+    
+
+    - Quantum Physics (47)
+
+    
+
+    - Ra's al Ghul (2)
+
+    
+
+    - Rachel Roth (1)
+
+    
+
+    - Radio (2)
+
+    
+
+    - Raven (8)
+
+    
+
+    - Ray Kurzweil (8)
+
+    
+
+    - Real Estate (5)
+
+    
+
+    - Religion (123)
+
+    
+
+    - Rene Descartes (6)
+
+    
+
+    - Retcons (2)
+
+    
+
+    - Retro-Futurism (53)
+
+    
+
+    - Reviews (1)
+
+    
+
+    - Revolving Door (6)
+
+    
+
+    - Richard Branson (2)
+
+    
+
+    - Ridley Scott (15)
+
+    
+
+    - Robert E. Howard (3)
+
+    
+
+    - Robert Louis Stevenson (1)
+
+    
+
+    - Robots (20)
+
+    
+
+    - Romanticism (19)
+
+    
+
+    - Roy Harper (8)
+
+    
+
+    - Sam Raimi (1)
+
+    
+
+    - Sandman (1)
+
+    
+
+    - Saturn (4)
+
+    
+
+    - Sci-Fi (79)
+
+    
+
+    - Shirley Jackson (3)
+
+    
+
+    - Sigmund Freud (3)
+
+    
+
+    - Silent Generation (10)
+
+    
+
+    - Sir Isaac Newton (9)
+
+    
+
+    - Space Exploration (80)
+
+    
+
+    - Spacepunk (1)
+
+    
+
+    - SpaceX (4)
+
+    
+
+    - Sports (1)
+
+    
+
+    - Stan Gooch (1)
+
+    
+
+    - Stanley Kubrick (9)
+
+    
+
+    - Star Trek (4)
+
+    
+
+    - Starfire (2)
+
+    
+
+    - Steampunk (21)
+
+    
+
+    - Stephen Hawking (6)
+
+    
+
+    - Steve Dayton (4)
+
+    
+
+    - Stonehenge (10)
+
+    
+
+    - Superstitions (103)
+
+    
+
+    - Surrealism (16)
+
+    
+
+    - Swamp Thing (4)
+
+    
+
+    - T. S. Eliot (3)
+
+    
+
+    - Tara Markov (19)
+
+    
+
+    - Tarot (5)
+
+    
+
+    - Tech Revolution (307)
+
+    
+
+    - Terra (12)
+
+    
+
+    - Terraforming (2)
+
+    
+
+    - Terry Gilliam (6)
+
+    
+
+    - Time Capsules (62)
+
+    
+
+    - Time Travel (26)
+
+    
+
+    - Time Warps (50)
+
+    
+
+    - Titans (31)
+
+    
+
+    - Transhumanism (24)
+
+    
+
+    - True Story (1)
+
+    
+
+    - Twilight Zone (4)
+
+    
+
+    - Uranus (4)
+
+    
+
+    - Urbanism (6)
+
+    
+
+    - Urbex (9)
+
+    
+
+    - Utopias (8)
+
+    
+
+    - Vampires (10)
+
+    
+
+    - Venus (5)
+
+    
+
+    - Virtual Reality (42)
+
+    
+
+    - Visual Arts (125)
+
+    
+
+    - Vladimir Nabokov (1)
+
+    
+
+    - Wally West (5)
+
+    
+
+    - War (48)
+
+    
+
+    - Watchmen (6)
+
+    
+
+    - Weird Fiction (43)
+
+    
+
+    - Wikileaks (4)
+
+    
+
+    - William Blake (1)
+
+    
+
+    - William Faulkner (1)
+
+    
+
+    - William Gibson (1)
+
+    
+
+    - William Shakespeare (9)
+
+    
+
+    - Wizards (6)
+
+    
+
+    - Wonders (4)
+
+    
+
+    - World Trade (111)
+
+    
+
+    - World War I (21)
+
+    
+
+    - World War II (43)
+
+    
+
+    - Wuthering Heights (1)
+
+    
+
+    - X-Files (9)
+
+    
+
+    - X-Men (6)
+
+    
+
+    - Zeitgeist (127)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+rmt_ki101('0',164,'94gc4iy509s','00fff6');
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://s04.flagcounter.com/count/bF87/bg=8FCBFF/txt=874C2E/border=CCCCCC/columns=2/maxflags=250/viewers=Visitors/labels=1/
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png CURRENT MOON var
+ccm_cfg = { pth:"http://www.moonmodule.com/cs/", fn:"ccm_v1.swf", lg:"en", hs:1,
+tf:"12hr", scs:1, df:"std", dfd:0, tc:"66CCFF", bgc:"000000", mc:"660033", fw:104,
+fh:153, js:0, msp:0, u:"cc" } moon phase
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Japan Time
+
+obj=new
+Object;obj.clockfile="0045-white.swf";obj.TimeZone="JST";obj.width=150;obj.height=150;obj.wmode="transparent";showClock(obj);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Urbex Gallery
+
+Loading...
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Russia Moscow Time
+
+obj=new
+Object;obj.clockfile="5008-blue.swf";obj.TimeZone="R2T";obj.width=220;obj.height=22;obj.wmode="transparent";showClock(obj);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://img1.blogblog.com/html/buttons/blogger-ipower-blue.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://www.topblogs.ca/button.php?u=ToB
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png  
+
+Halloween Countdowns at WiddlyTinks.com
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png All contents of this
+site not otherwise copyrighted are Copyright © 2010-2012 HISTORIES OF THINGS TO COME. ALL
+RIGHTS RESERVED.
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+CLICK TO TRANSLATE
+
+
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/ar.gif
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/bg.gif
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/zh.jpg
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/TW.jpg
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/hr.png
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/cs.gif
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/da.gif
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/nl.gif
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/us.jpg
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/fi.jpg
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/fr.jpg
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/de.jpg
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/el.gif
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/hi.gif
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/it.jpg
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/ja.gif
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/ko.jpg
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/no.jpg
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/pl.gif
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/pt.gif
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/ro.jpg
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/ru.gif
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/es.gif
+
+Image: http://i260.photobucket.com/albums/ii34/richmcl/sv.png Download this
+Cross-Cultural Communication Tool from Get International Clients
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'2905155363976375938';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d2905155363976375938','//historiesofthingstocome.blogspot.com/2012/09/the-silent-generations-separate-peace.html','2905155363976375938');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'2905155363976375938', 'bloggerUrl': 'http://www.blogger.com', 'title': 'HISTORIES
+OF THINGS TO COME', 'pageType': 'item', 'url':
+'http://historiesofthingstocome.blogspot.com/2012/09/the-silent-generations-separate-peace.html',
+'canonicalUrl':
+'http://historiesofthingstocome.blogspot.com/2012/09/the-silent-generations-separate-peace.html',
+'canonicalHomepageUrl': 'http://historiesofthingstocome.blogspot.com/',
+'homepageUrl': 'http://historiesofthingstocome.blogspot.com/',
+'blogspotFaviconUrl': 'http://historiesofthingstocome.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'The Silent Generation\47s Separate Peace', 'pageTitle': 'HISTORIES OF THINGS TO COME: The
+Silent Generation\47s Separate Peace', 'encoding': 'UTF-8', 'locale': 'en',
+'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42HISTORIES OF
+THINGS TO COME - Atom\42
+href\75\42http://historiesofthingstocome.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42HISTORIES OF THINGS TO COME - RSS\42
+href\75\42http://historiesofthingstocome.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42HISTORIES OF THINGS TO COME - Atom\42
+href\75\42http://www.blogger.com/feeds/2905155363976375938/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0752905155363976375938\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42HISTORIES OF THINGS TO COME - Atom\42
+href\75\42http://historiesofthingstocome.blogspot.com/feeds/4829331848406593899/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'postImageThumbnailUrl':
+'http://2.bp.blogspot.com/-pzdZiILXqrU/UEV-ZUzdrOI/AAAAAAAAHjU/EjzarRXdPEQ/s72-c/andy_warhol_marilyn_monroe_d5308789h.jpg',
+'imageSrcTag': '\74link rel\75\42image_src\42
+href\75\42http://2.bp.blogspot.com/-pzdZiILXqrU/UEV-ZUzdrOI/AAAAAAAAHjU/EjzarRXdPEQ/s72-c/andy_warhol_marilyn_monroe_d5308789h.jpg\42
+/\76\n', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#000000', 'linkcolor':
+'#e1771e', 'visitedlinkcolor': '#804000', 'textcolor': '#000000', 'headerfont':
+'normal normal 78% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif',
+'pagetitlefont': 'normal normal 200% Georgia, Serif', 'bgcolor': '#99C9FF',
+'descriptioncolor': '#999999', 'titlecolor': '#cc6600', 'bordercolor': '#99C9FF',
+'postfooterfont': 'normal normal 78% Times, serif', 'pagetitlecolor': '#000000',
+'bodyfont': 'normal normal 110% Trebuchet, Trebuchet MS, Arial, sans-serif', 'endSide':
+'right', 'startSide': 'left', 'descriptionfont': 'normal normal 78% \47Trebuchet MS\47,
+Trebuchet, Arial, Verdana, Sans-serif', 'sidebarcolor': '#000000'}, 'override': ''}},
+{'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'},
+'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name':
+'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url':
+'/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'},
+'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name':
+'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML21', 'footer',
+null, document.getElementById('HTML21'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'footer',
+null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'footer',
+null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1', 'crosscol',
+null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML20', 'sidebar',
+null, document.getElementById('HTML20'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1',
+'sidebar', null, document.getElementById('PageList1'), {'title': '', 'links':
+[{'href': 'http://historiesofthingstocome.blogspot.com/p/about-this-blog.html',
+'title': 'ABOUT THIS BLOG', 'isCurrentPage': false}, {'href':
+'http://historiesofthingstocome.blogspot.com/p/best-posts.html', 'title': 'BEST
+POSTS', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TranslateView', new _WidgetInfo('Translate1',
+'sidebar', null, document.getElementById('Translate1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_CustomSearchView', new
+_WidgetInfo('CustomSearch1', 'sidebar', null,
+document.getElementById('CustomSearch1'), {'title': 'Search This Blog',
+'includeBlog': true, 'includePostLinks': true, 'includeWeb': true, 'linkLists': [],
+'blogUrl': 'http://historiesofthingstocome.blogspot.com/', 'loadingMsg':
+'Loading...', 'thisBlogMsg': 'This Blog', 'linkedFromHereMsg': 'Linked From Here',
+'theWebMsg': 'The Web', 'backgroundColor': '#99C9FF', 'textColor': '#000000',
+'dateColor': '#000000', 'linkColor': '#e1771e', 'urlColor': '#cc6600',
+'visitedLinkColor': '#804000', 'borderColor': '#99C9FF', 'activeBorderColor':
+'#cc6600'}, 'displayModeFull')); _WidgetManager._RegisterWidget('_ProfileView',
+new _WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image1', 'sidebar', null, document.getElementById('Image1'),
+{'resize': true}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView',
+new _WidgetInfo('HTML7', 'sidebar', null, document.getElementById('HTML7'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_SubscribeView', new
+_WidgetInfo('Subscribe1', 'sidebar', null, document.getElementById('Subscribe1'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_FollowByEmailView', new
+_WidgetInfo('FollowByEmail1', 'sidebar', null,
+document.getElementById('FollowByEmail1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML9', 'sidebar',
+null, document.getElementById('HTML9'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_GadgetView', new _WidgetInfo('Gadget1',
+'sidebar', null, document.getElementById('Gadget1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML18', 'sidebar', null, document.getElementById('HTML18'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML8', 'sidebar', null, document.getElementById('HTML8'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML19', 'sidebar', null, document.getElementById('HTML19'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML15', 'sidebar', null, document.getElementById('HTML15'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML14', 'sidebar', null, document.getElementById('HTML14'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogListView', new
+_WidgetInfo('BlogList1', 'sidebar', null, document.getElementById('BlogList1'),
+{'numItemsToShow': 0, 'totalItems': 83}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_VideoBarView', new _WidgetInfo('VideoBar1',
+'sidebar', null, document.getElementById('VideoBar1'), {'title': 'Ghost Watching
+Video Bar', 'format': 'VERTICAL', 'expression': 'ytchannel:GhostWatching'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_StatsView', new
+_WidgetInfo('Stats1', 'sidebar', null, document.getElementById('Stats1'), {'title':
+'Total Pageviews', 'showGraphicalCounter': true, 'showAnimatedCounter': true,
+'showSparkline': false, 'statsUrl':
+'http://historiesofthingstocome.blogspot.com/b/stats?style\75BLACK_TRANSPARENT\46timeRange\75ALL_TIME\46token\07542oyKDoBAAA.0etw4MlkSQosCOqivhPmA9L2ATmvVJ4Q-1o8e40s_4w.sGyeJ6isbBvcDWC_6v5-1g'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML4', 'sidebar', null, document.getElementById('HTML4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML2', 'sidebar', null, document.getElementById('HTML2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_SlideshowView', new
+_WidgetInfo('Slideshow1', 'sidebar', null, document.getElementById('Slideshow1'),
+{'title': 'Hubble', 'computedFeed':
+'http://picasaweb.google.com/data/feed/api/search?kind\75photo\46max-results\07520\46q\75hubble\46alt\75rss',
+'linkNewWindow': true, 'randomizeFeed': false, 'speed': 3000}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1',
+'sidebar', null, document.getElementById('Followers1'), {'title': 'Followers',
+'codeSnippet': '\74script type\75\42text/javascript\42\76\n if (!window.google ||
+!google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.currentPost \75
+\42http://www.blogger.com/feeds/2905155363976375938/posts/default/4829331848406593899\42;\n
+\n \n \n holder.currentComments \75
+\42http://www.blogger.com/feeds/2905155363976375938/4829331848406593899/comments/default\42;\n
+\n holder.currentPostUrl \75 \42\42;\n holder.currentPostId \75 4829331848406593899\n
+\n \n \n holder.postFeed \75
+\42http://www.blogger.com/feeds/2905155363976375938/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/2905155363976375938/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://historiesofthingstocome.blogspot.com/\42;\n
+holder.currentBlogId \75 \0422905155363976375938\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-j6h7ohn0189o\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#000000\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#e1771e\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#e1771e\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#000000\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#e1771e\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#999999\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#cc6600\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 110% Trebuchet, Trebuchet MS, Arial, sans-serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-j6h7ohn0189o\42,\n height: 260,\n \n \n \n site: \04208880570130000377085\42,\n
+\n locale: \47en\47 },\n skin);\n \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_SlideshowView', new _WidgetInfo('Slideshow2',
+'sidebar', null, document.getElementById('Slideshow2'), {'title': 'M. C. Escher
+Mashup', 'computedFeed':
+'http://picasaweb.google.com/data/feed/api/search?kind\75photo\46max-results\07520\46q\75M.%20C.%20Escher\46alt\75rss',
+'linkNewWindow': true, 'randomizeFeed': false, 'speed': 3000}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1',
+'sidebar', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML12', 'sidebar',
+null, document.getElementById('HTML12'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new
+_WidgetInfo('PopularPosts1', 'sidebar', null,
+document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML11', 'sidebar',
+null, document.getElementById('HTML11'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar',
+null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML16', 'sidebar',
+null, document.getElementById('HTML16'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'sidebar',
+null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML17', 'sidebar',
+null, document.getElementById('HTML17'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML13', 'sidebar',
+null, document.getElementById('HTML13'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_SlideshowView', new _WidgetInfo('Slideshow3',
+'sidebar', null, document.getElementById('Slideshow3'), {'title': 'Urbex Gallery',
+'computedFeed':
+'http://picasaweb.google.com/data/feed/api/search?kind\75photo\46max-results\07520\46q\75Urbex\46alt\75rss',
+'linkNewWindow': false, 'randomizeFeed': true, 'speed': 3000}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML10', 'sidebar',
+null, document.getElementById('HTML10'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BloggerButtonView', new
+_WidgetInfo('BloggerButton1', 'sidebar', null,
+document.getElementById('BloggerButton1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar',
+null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'showBacklinks': true, 'postId': '4829331848406593899'}, 'displayModeFull'));
+

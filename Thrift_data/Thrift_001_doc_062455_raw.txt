@@ -1,0 +1,1737 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); neuroanatomy&neuropathology <!-- /*
+----------------------------------------------- Blogger Template Style Name:
+Rounders 3 Date: 27 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="mainBgColor" description="Main Background
+Color" type="color" default="#eec"> <Variable name="mainTextColor" description="Text
+Color" type="color" default="#333"> <Variable name="postTitleColor"
+description="Post Title Color" type="color" default="#333"> <Variable
+name="dateHeaderColor" description="Date Header Color" type="color" default="#586">
+<Variable name="borderColor" description="Post Border Color" type="color"
+default="#bbb"> <Variable name="mainLinkColor" description="Link Color" type="color"
+default="#456"> <Variable name="mainVisitedLinkColor" description="Visited Link
+Color" type="color" default="#234"> <Variable name="titleBgColor" description="Page
+Header Background Color" type="color" default="#357"> <Variable name="titleTextColor"
+description="Blog Title Color" type="color" default="#fff"> <Variable
+name="topSidebarHeaderColor" description="Top Sidebar Title Color" type="color"
+default="#fff"> <Variable name="topSidebarBgColor" description="Top Sidebar
+Background Color" type="color" default="#586"> <Variable name="topSidebarTextColor"
+description="Top Sidebar Text Color" type="color" default="#fff"> <Variable
+name="topSidebarLinkColor" description="Top Sidebar Link Color" type="color"
+default="#fff"> <Variable name="topSidebarVisitedLinkColor" description="Top
+Sidebar Visited Link Color" type="color" default="#fff"> <Variable
+name="bottomSidebarHeaderColor" description="Bottom Sidebar Title Color"
+type="color" default="#abc"> <Variable name="bottomSidebarLinkColor"
+description="Bottom Sidebar Link Color" type="color" default="#99ddbb"> <Variable
+name="bottomSidebarVisitedLinkColor" description="Bottom Sidebar Visited Link Color"
+type="color" default="#ffffff"> <Variable name="bodyFont" description="Text Font"
+type="font" default="normal normal 100% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="pageTitleFont" description="Blog Title Font" type="font"
+default="normal bold 200% 'Trebuchet MS',Verdana,Arial,Sans-serif"> <Variable
+name="descriptionFont" description="Blog Description Font" type="font"
+default="normal normal 100% 'Trebuchet MS',Verdana,Arial,Sans-serif"> <Variable
+name="headerFont" description="Sidebar Title Font" type="font" default="normal bold
+100% 'Trebuchet MS',Verdana,Arial,Sans-serif"> <Variable name="postTitleFont"
+description="Post Title Font" type="font" default="normal bold 135% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="startSide" description="Start side in
+blog language" type="automatic" default="left"> <Variable name="endSide"
+description="End side in blog language" type="automatic" default="right"> */ body {
+background:#123; margin:0; text-align:center; line-height: 1.5em; font: x-small
+Trebuchet MS, Verdana, Arial, Sans-serif; color:#333333; font-size/* */:/**/small;
+font-size: /**/small; } /* Page Structure
+----------------------------------------------- */ /* The images which help create
+rounded corners depend on the following widths and measurements. If you want to change these
+measurements, the images will also need to change. */ #outer-wrapper { width:740px;
+margin:0 auto; text-align:left; font: normal normal 100% 'Trebuchet
+MS',Verdana,Arial,Sans-serif; } #main-wrap1 { width:485px; float:left;
+background:#eeeecc
+url("http://www1.blogblog.com/rounders3/corners_main_bot.gif") no-repeat left
+bottom; margin:15px 0 0; padding:0 0 10px; color:#333333; font-size:97%;
+line-height:1.5em; word-wrap: break-word; /* fix for long text breaking sidebar float in IE
+*/ overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ }
+#main-wrap2 { float:left; width:100%;
+background:url("http://www1.blogblog.com/rounders3/corners_main_top.gif")
+no-repeat left top; padding:10px 0 0; } #main {
+background:url("http://www.blogblog.com/rounders3/rails_main.gif") repeat-y left;
+padding:0; width:485px; } #sidebar-wrap { width:240px; float:right; margin:15px 0 0;
+font-size:97%; line-height:1.5em; word-wrap: break-word; /* fix for long text breaking
+sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE sidebar
+float */ } .main .widget { margin-top: 4px; width: 468px; padding: 0 13px; } .main .Blog {
+margin: 0; padding: 0; width: 484px; } /* Links
+----------------------------------------------- */ a:link { color: #445566; }
+a:visited { color: #223344; } a:hover { color: #223344; } a img { border-width:0; } /* Blog
+Header ----------------------------------------------- */ #header-wrapper {
+background:#335577 url("http://www2.blogblog.com/rounders3/corners_cap_top.gif")
+no-repeat left top; margin-top:22px; margin-right:0; margin-bottom:0; margin-left:0;
+padding-top:8px; padding-right:0; padding-bottom:0; padding-left:0; color:#ffffff; }
+#header { background:url("http://www.blogblog.com/rounders3/corners_cap_bot.gif")
+no-repeat left bottom; padding:0 15px 8px; } #header h1 { margin:0; padding:10px 30px 5px;
+line-height:1.2em; font: normal bold 200% 'Trebuchet MS',Verdana,Arial,Sans-serif; }
+#header a, #header a:visited { text-decoration:none; color: #ffffff; } #header
+.description { margin:0; padding:5px 30px 10px; line-height:1.5em; font: normal normal
+100% 'Trebuchet MS',Verdana,Arial,Sans-serif; } /* Posts
+----------------------------------------------- */ h2.date-header { margin-top:0;
+margin-right:28px; margin-bottom:0; margin-left:43px; font-size:85%;
+line-height:2em; text-transform:uppercase; letter-spacing:.2em; color:#558866; }
+.post { margin:.3em 0 25px; padding:0 13px; border:1px dotted #bbbbbb; border-width:1px 0;
+} .post h3 { margin:0; line-height:1.5em;
+background:url("http://www2.blogblog.com/rounders3/icon_arrow.gif") no-repeat
+10px .5em; display:block; border:1px dotted #bbbbbb; border-width:0 1px 1px;
+padding-top:2px; padding-right:14px; padding-bottom:2px; padding-left:29px; color:
+#333333; font: normal bold 135% 'Trebuchet MS',Verdana,Arial,Sans-serif; } .post h3 a,
+.post h3 a:visited { text-decoration:none; color: #333333; } a.title-link:hover {
+background-color: #bbbbbb; color: #333333; } .post-body { border:1px dotted #bbbbbb;
+border-width:0 1px 1px; border-bottom-color:#eeeecc; padding-top:10px;
+padding-right:14px; padding-bottom:1px; padding-left:29px; } html>body .post-body {
+border-bottom-width:0; } .post-body { margin:0 0 .75em; } .post-body blockquote {
+line-height:1.3em; } .post-footer { background: #ffffff; margin:0; padding-top:2px;
+padding-right:14px; padding-bottom:2px; padding-left:29px; border:1px dotted
+#bbbbbb; border-width:1px; font-size:100%; line-height:1.5em; color: #666666; } /* The
+first line of the post footer might only have floated text, so we need to give it a height. The
+height comes from the post-footer line-height */ .post-footer-line-1 { min-height:1.5em;
+_height:1.5em; } .post-footer p { margin: 0; } html>body .post-footer {
+border-bottom-color:transparent; } .uncustomized-post-template .post-footer {
+text-align: right; } .uncustomized-post-template .post-author,
+.uncustomized-post-template .post-timestamp { display: block; float: left;
+text-align:left; margin-right: 4px; } .post-footer a { color: #456; } .post-footer a:hover
+{ color: #234; } a.comment-link { /* IE5.0/Win doesn't apply padding to inline elements, so we
+hide these two declarations from it */ background/*
+*/:/**/url("http://www.blogblog.com/rounders/icon_comment_left.gif") no-repeat
+left 45%; padding-left:14px; } html>body a.comment-link { /* Respecified, for IE5/Mac's
+benefit */
+background:url("http://www.blogblog.com/rounders3/icon_comment_left.gif")
+no-repeat left 45%; padding-left:14px; } .post img, table.tr-caption-container {
+margin-top:0; margin-right:0; margin-bottom:5px; margin-left:0; padding:4px;
+border:1px solid #bbbbbb; } .tr-caption-container img { border: none; margin: 0; padding:
+0; } blockquote { margin:.75em 0; border:1px dotted #bbbbbb; border-width:1px 0;
+padding:5px 15px; color: #558866; } .post blockquote p { margin:.5em 0; }
+#blog-pager-newer-link { float: left; margin-left: 13px; } #blog-pager-older-link {
+float: right; margin-right: 13px; } #blog-pager { text-align: center; } .feed-links {
+clear: both; line-height: 2.5em; margin-left: 13px; } /* Comments
+----------------------------------------------- */ #comments { margin:-25px 13px 0;
+border:1px dotted #bbbbbb; border-width:0 1px 1px; padding-top:20px; padding-right:0;
+padding-bottom:15px; padding-left:0; } #comments h4 { margin:0 0 10px; padding-top:0;
+padding-right:14px; padding-bottom:2px; padding-left:29px; border-bottom:1px dotted
+#bbbbbb; font-size:120%; line-height:1.4em; color:#333333; } #comments-block {
+margin-top:0; margin-right:15px; margin-bottom:0; margin-left:9px; } .comment-author
+{ background:url("http://www.blogblog.com/rounders3/icon_comment_left.gif")
+no-repeat 2px .3em; margin:.5em 0; padding-top:0; padding-right:0; padding-bottom:0;
+padding-left:20px; font-weight:bold; } .comment-body { margin:0 0 1.25em;
+padding-top:0; padding-right:0; padding-bottom:0; padding-left:20px; } .comment-body
+p { margin:0 0 .5em; } .comment-footer { margin:0 0 .5em; padding-top:0; padding-right:0;
+padding-bottom:.75em; padding-left:20px; } .comment-footer a:link { color: #333; }
+.deleted-comment { font-style:italic; color:gray; } .comment-form { padding-left:20px;
+padding-right:5px; } #comments .comment-form h4 { padding-left:0px; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 0; border: 4px solid
+#ffffff; } .profile-datablock { margin-top:0; margin-right:15px; margin-bottom:.5em;
+margin-left:0; padding-top:8px; } .profile-link {
+background:url("http://www.blogblog.com/rounders3/icon_profile_left.gif")
+no-repeat left .1em; padding-left:15px; font-weight:bold; } .profile-textblock { clear:
+both; margin: 0; } .sidebar .clear, .main .widget .clear { clear: both; } #sidebartop-wrap {
+background:#558866 url("http://www.blogblog.com/rounders3/corners_prof_bot.gif")
+no-repeat left bottom; margin:0px 0px 15px; padding:0px 0px 10px; color:#ffffff; }
+#sidebartop-wrap2 {
+background:url("http://www2.blogblog.com/rounders3/corners_prof_top.gif")
+no-repeat left top; padding: 10px 0 0; margin:0; border-width:0; } #sidebartop h2 {
+line-height:1.5em; color:#ffffff; border-bottom: 1px dotted #ffffff; font: normal bold
+100% 'Trebuchet MS',Verdana,Arial,Sans-serif; margin-bottom: 0.5em; } #sidebartop a {
+color: #ffffff; } #sidebartop a:hover { color: #ffffff; } #sidebartop a:visited { color:
+#ffffff; } #sidebar a { color: #99ddbb; } #sidebar a:hover, #sidebar a:visited { color:
+#ffffff; } /* Sidebar Boxes ----------------------------------------------- */
+.sidebar .widget { margin:.5em 13px 1.25em; padding:0 0px; } .widget-content { margin-top:
+0.5em; } #sidebarbottom-wrap1 { background:#335577
+url("http://www.blogblog.com/rounders3/corners_side_top.gif") no-repeat left top;
+margin:0 0 15px; padding:10px 0 0; color: #ffffff; } #sidebarbottom-wrap2 {
+background:url("http://www1.blogblog.com/rounders3/corners_side_bot.gif")
+no-repeat left bottom; padding:0 0 8px; } .sidebar h2 { margin-top:0; margin-right:0;
+margin-bottom:.5em; margin-left:0; padding:0 0 .2em; line-height:1.5em; font:normal
+bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif; } .sidebar ul { list-style:none;
+margin:0 0 1.25em; padding:0; } .sidebar ul li {
+background:url("http://www2.blogblog.com/rounders3/icon_arrow_sm.gif") no-repeat
+2px .25em; margin:0; padding-top:0; padding-right:0; padding-bottom:3px;
+padding-left:16px; margin-bottom:3px; border-bottom:1px dotted #bbbbbb;
+line-height:1.4em; } .sidebar p { margin:0 0 .6em; } #sidebar h2 { color: #aabbcc;
+border-bottom: 1px dotted #aabbcc; } /* Footer
+----------------------------------------------- */ #footer-wrap1 { clear:both;
+margin:0 0 10px; padding:15px 0 0; } #footer-wrap2 { background:#335577
+url("http://www2.blogblog.com/rounders3/corners_cap_top.gif") no-repeat left top;
+color:#ffffff; } #footer {
+background:url("http://www.blogblog.com/rounders3/corners_cap_bot.gif")
+no-repeat left bottom; padding:8px 15px; } #footer hr {display:none;} #footer p
+{margin:0;} #footer a {color:#ffffff;} #footer .widget-content { margin:0; } /** Page
+structure tweaks for layout editor wireframe */ body#layout #main-wrap1, body#layout
+#sidebar-wrap, body#layout #header-wrapper { margin-top: 0; } body#layout #header,
+body#layout #header-wrapper, body#layout #outer-wrapper { margin-left:0,
+margin-right: 0; padding: 0; } body#layout #outer-wrapper { width: 730px; } body#layout
+#footer-wrap1 { padding-top: 0; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0752568155647090371715\46blogName\75neuroanatomy%26neuropathology\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://a-neurolab-neuroanatomyneuropathology.blogspot.com/search\46blogLocale\75el\46v\0752\46homepageUrl\75http://a-neurolab-neuroanatomyneuropathology.blogspot.com/\46vt\0751536708941313751650',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+neuroanatomy&neuropathology
+
+
+
+
+
+Î£Î¬Î²Î²Î±Ï„Î¿, 10 ÎŸÎºÏ„Ï‰Î²Ï�Î¯Î¿Ï… 2009
+
+
+
+History of Neuropathology and Microscopy
+
+Antonj Van Leeuwenhoek 1667: He described the vascular supply of the cortical of the cerebral
+convolutions, the structure of the lens of the eye, discovered the rods of the retina, the
+connective tissue fibers and epithelium of the cornea and the striated appearance of
+muscles. He also noticed that the nervous tissue consisted of diverse, very small threads or
+vessels lying by one another. In the cut ends of nerves he saw minute tubules, presumably
+myelin sheaths.
+
+
+
+Marcello Malpighi (1628-1694): Malpighi used the microscope for studies on skin , kidney ,
+and for the first interspecies comparison of the liver . He greatly extended the science of
+embryology . The use of microscopes enabled him to describe the development of the chick in its
+egg , and discovered that insects (particularly, the silk worm ) do not use lungs to breathe,
+but small holes in their skin called tracheae . Later he falsely concluded that plants had
+similar tubules. However, he observed that when a ringlike portion of bark was removed on a
+trunk a swelling of the tissues would occur above the ring. He correctly interpreted this as
+growth stimulated by food coming down from the leaves, and being blocked above the ring. He was
+the first to see capillaries and discovered the link between arteries and veins that had
+eluded William Harvey .
+
+Malpighi is regarded as the founder of microscopic anatomy and the first histologist . Many
+microscopic anatomical structures are named after him, including a skin layer ( Malpighi
+layer ) and two different Malpighian corpuscles in the kidneys and the spleen , as well as the
+Malpighian tubules in the excretory system of insects.
+
+He also studied chick embryo development with detailed drawings and discovered taste buds of
+human tongue. Some of his studies he made by vivisection . He also studied the anatomy of a brain
+and concluded that this organ is a gland . In terms of modern endocrinology this deduction is
+correct because neurotransmitter substances represent paracrine hormones, and the
+hypothalamus of the brain has long been recognized for its hormone-secreting capacity. He
+was also among the first to study human fingerprints .
+
+His treatise 'De polypo cordis' (1666) was important towards understanding how blood clots
+and its composition. He may have been the first person to see red blood cells under a
+microscope. He described how the form of a blood clot differed in the right vs. the left sides of
+the heart.
+
+In addition to his anatomical studies, he was one of the rare contemporary scholars who
+studied plants ; he published his findings in a book Anatomia Plantarum in 1671. It was the most
+exhaustive study of botany at the time. The Royal Society published it the next year. The great
+Swedish botanist Linnaeus named the genus Malpighia in honor of Malpighi's work on plants;
+Malpighia is the type genus for the Malpighiaceae , a family of tropical and subtropical
+flowering plants.
+
+After the dissection of a black male, Malpighi made some ground-breaking headway into the
+discovery of the origin of black skin. Malpighi found that the black pigment was caused by a
+layer of mucus just beneath the skin.
+
+
+
+
+
+Frederik Ruysch ( March 28 , 1638 — February 22 , 1731 ): Ruysch researched many areas of human
+anatomy , and physiology, using spirits to preserve organs, and assembled one of Europe's
+most famous anatomical collections. His chief skill was the preparation and preservation of
+specimens in a secret liquor balsamicum and is believed to be one of the first to use arterial
+embalming to this effect. In 1697 Peter the Great and Nicolaes Witsen visited Ruysch who had
+all the specimens exposed in five rooms, on two days during the week open for the public.
+
+
+
+Samuel Thomas von Soemmering (1755-1830): SÃ¶mmerring discovered the macula in the
+retina of the human eye . His investigations on the brain and the nervous system , on the sensory
+organs , on the embryo and its malformations, on the structure of the lungs , made him one of the
+most important German anatomists. When SÃ¶mmerring was 23 years old he described the
+organization of the cranial nerves as part of this doctoral work: its study is valid until
+today. He published many writings in the fields of medicine, anatomy and neuroanatomy ,
+anthropology, paleontology, astronomy and philosophy. Among other things he wrote about
+fossil crocodiles and Archaeopteryx . He was also the first to accurately draw a
+representation of the female skeleton structure.
+
+Francesco Gennari (1750-1797): Described the white stria between the 3rd and the 4rth layer
+of the visual cortex, which renamed as line of Gennari by Obersteiner at 1888.
+
+
+
+FÃ©lix Vicq d'Azyr (23 April 1746 - 20 June 1794): As an anatomist he was one of the first to use
+coronal sections of the brain and to use alcohol to aid dissection . He described the locus
+coeruleus , the locus niger in the brain , in 1786, and the band of Vicq d'Azyr , a fiber system
+between the external granular layer and the external pyramidal layer of the cerebral cortex ,
+as well as the mamillo-thalamic tract , which bears his name. His systematic studies of the
+cerebral convolutions became a classic and Vicq d'Azyr was one of the first neuroanatomists
+to name the gyri. He studied the deep gray nuclei of the cerebrum and the basal ganglia . He
+participated in the Second Encyclopedia.
+
+
+
+Della Torre1776: in his microscopical observations describes globuli in the brain; He says
+that he saws them floating in a pellucid viscous fluid.
+
+
+
+Prochaska (1779) wrote: 'For when a small piece of the substance of either the cortical or the
+medullary part of the cerebrum or cerebellum is placed on a very thin glass and flattened out,
+so that it becomes conveniently transparent, then,
+
+with the help of a selected optical lens, it is revealed to be as it were a thick paste consisting
+of innumerable globules, in which no movement or swimming can be observed.' Prochaska tried
+by dilution and prolonged maceration to separate the globules completely from one another,
+but without success; and he concluded that they must be held together by a very subtle and very
+transparent connective tissue ('tela cellulari'). He describes the shape of the globules as
+'not exactly spherical but irregularly rotund'. Reference has been made by a number of
+historians to Prochaska's work. Prochaska describes carefully the various appearances
+obtained as he focused his lens on the globules.
+
+
+
+Fontana (1781): also describes 'petits corpuscules ronds' in both the cortical and
+medullary parts of the brain. He differed from Prochaska, however, in his account of the
+structure of nerves: here he found 'cylindres tortueux primitives', which he considered to
+be of an elementary nature ('des principes simples primitifs, non composes d'autres
+moindres'). He regarded such primitive cylinders as being the basis also of tendons and
+muscles. He describes globules in the 'gluten' of the skin of eels. He also found globules in
+the retina of the eye. Fontana repeatedly uses the phrase 'tissu cellulaire' to mean areolar
+connective tissue.
+
+
+
+Johann Christian Reil (20 February, 1759 - 22 November, 1813): Medical conditions and
+anatomical features named after him include Reil's finger , Beau-Reil cross furrows on the
+fingernails and the Islands of Reil in the cerebral cortex . In 1809, he was the first to
+describe the white fibre tract now called the arcuate fasciculus . In 1795 Reil established
+the very first journal of psychology in German, the Archiv fÃŒr die Physiologie. In 1810 he
+became one of the first university teachers of psychiatry when appointed professor in Berlin
+.
+
+
+
+Rolando enrolled at the Faculty of Medicine in his native city. Here he showed particular
+interest in the anatomy courses of Giovanni Francesco Cigna (1734-1790), who considered
+Rolando his most promising pupil. However, he also devoted time to studies in comparative
+anatomy and zoology. He obtained his doctorate in 1793 with a thesis on an anatomical and
+physiological study of the lungs in various classes of animals. Rolando (1773-1831):
+Rolando’s most important studies were devoted to the anatomical, physiological, and
+embryological examination of the brain. In particular, he examined the gray matter, which he
+considered to be different from that of the striate bodies. He also discovered the cerebral
+branches and fibrous processes, which he studied by means of serial sections. Contradicting
+existing opinion, Rolando asserted that in the first stages of development of the central
+nervous system of the embryo two vesicles appear, representing the medulla oblongata, from
+which the cerebral hemispheres are then developed; to the latter he attributed the
+intellectual faculties.Experimental research on the cerebellum led him to consider,
+before Marie Jean Pierre Flourens (1794-1867) – with whom he had an argument on the priority
+of the discovery – that this organ governs muscular movements. Rolando had observed that in
+animals in which lesions of this organ are induced; such movements progressively decrease
+until they disappear entirely, parallel with the extent and seriousness of the damage.
+Flourens then correctly restricted the functions of the cerebellum to the coordination of
+movement, but he refused to acknowledge that Rolando had preceded him along this course.
+Rolando conducted experiments in 1809 involving the removal of the cerebral hemisphere and
+cerebellum from animals. He also used electric current to stimulate the cortex. Based on his
+observations, he correctly concluded that the cerebrum controlled voluntary body
+functions and the cerebellum controlled involuntary functions.
+
+
+
+
+
+Sir Charles Bell (Born November 1774, in Doun in Monteath, Edinburgh - Died April 28 , 1842 , in
+North Hallow, Worcestershire ): He first published detailed studies of the nervous system
+and brain in 1811, in his book An Idea of a New Anatomy of the Brain. He described his experiments
+with animals and how he was the first to distinguish between sensory and motor nerves . This
+book is considered by many the founding stone of clinical neurology .
+
+He was one of the first physicians to combine the scientific study of neuroanatomy with
+clinical practice. He described in 1821 the trajectory of the facial nerve and a disease which
+led to the unilateral palsy (paralysis) of facial muscles, in one of the classics of
+neurology, a paper to the Royal Society entitled On the Nerves: Giving an Account of some
+Experiments on Their Structure an Functions, Which Lead to a New Arrangement of the System. He
+wrote also the first treatise on notions of anatomy and physiology of facial expression for
+painters and illustrators, titled Essays on the Anatomy of Expression in Painting (1806).
+
+Bell's nerve: The posterior thoracic nerve .
+
+Bell's palsy : a unilateral idiopathic paralysis of facial muscles due to a lesion of the
+facial nerve .
+
+Bell's phenomenon : An upward movement of the eye and the eyelid which occurs when a person
+affected with Bell's paralysis tries to close the eye.
+
+Bell's spasm : Involuntary twitching of the facial muscles .
+
+Bell-Magendie law or Bell's Law: States that the anterior branch of spinal nerve roots
+contain only motor fibers and the posterior roots contain only sensory fibers
+
+Franz Joseph Gall ( 9 March 1758 - 22 August 1828 ): Around 1800, he developed " cranioscopy ", a
+method to determine the personality and development of mental and moral faculties on the
+basis of the external shape of the skull. Cranioscopy («cranium»: skull, «scopos»:
+vision) was later renamed to phrenology («phrenos»: mind, «logos»). Gall is recognized
+as the first to identify the grey matter of the brain with active tissue – neurons - and the
+white matter with conducting tissue - ganglia.
+
+Johann Caspar Spurzheim (1776-1832): On March 14, 1808, Spurzheim and Gall presented their
+jointly authored work Recherches sur le systÃšme nerveux . . . to the Institut de France.
+This was published in Paris the following year. They subsequently began working on the
+publication of the major work Anatomie et physiologie du systÃšme nerveux en
+gÃ©nÃ©ral . . . Publication of this four-volume work began in 1810, but in 1813, Gall and
+Spurzheim ended their collaboration after the first 146 pages of volume 2. The remainder was
+written by Gall alone. It was not until this year that Spurzheim was formally awarded his
+medical degree.
+
+
+
+Jules Gabriel Francais Baillarger (1809-1890): In 1843, with FranÃ§ois Achille Longet
+(1811-1871), Laurent Alexis Philibert Cerise (1807-1869), and Jacques-Joseph Moreau
+(1804-1884) he founded the journal Annales mÃ©dico-psychologiques du systÃšme
+nerveux, in which he published many of his papers. This is still published and is therefore the
+oldest journal of psychiatry in the world. Later he was the moving spirit in establishing the
+SociÃ©tÃ© mÃ©dico-psychologique and the Association mutuelle des mÃ©decins
+aliÃ©nistes. At the age of thirty, while still engaged in clinicopathologic
+correlations, Baillarger presented in 1840 a paper before the AcadÃ©mie royale de
+mÃ©decine on the structure of the grey matter of the cortex. Baillarger, made his advances
+by cutting thin slices of fresh cortex, placing them between two pieces of glass, and
+observing them with the aid of a light held behind them. By this means he divided the cortex into
+six layers of alternate white and grey laminae. He was able to determine that the white lines
+seen by Francisco Gennari in the occipital area could be traced in all parts of the cortex,
+although they were far less conspicuous anteriorly than posteriorly. This continuation of
+Gennari' s line has therefore come to be known as the "external line or white stripe of
+Baillarger". Baillarger's stripes attracted much attention and as late as 1907, Elliot
+Smith – who at that time was in Cairo – examined freshly cut slices of brain with a hand lens,
+and taking the stripes as landmarks, was able to distinguish some forty sharply delimited
+cortical areas. In addition to being the first to demonstrate that the cortex is made up of
+layers – "resembling a grey ribbon with three white bands in it" – Baillarger was also the
+first to show that fibres connected the cortex with the internal white matter. "At the summit
+of the convolutions," he wrote, "the white matter is entirely united to the grey matter by many
+fibres. A simple juxtaposition of these two components is thus inadmissible." He also
+demonstrated that the surface of the human brain in comparison to its own volume is less than
+that in smaller animals, and that as a compensatory measure larger brains undergo greater
+fissuration than smaller ones – in short that the difference in external form of
+lissencephalic and gyrencephalic brains is explicable on the basis of the geometric law of
+volumes, that the volumes increases as the cube of the diameter while the surface increases at
+the square.
+
+
+
+Remak (1844): Robert Remak is remembered for discovering and naming - in 1842 - the three germ
+layers of the early embryo: the ectoderm, the mesoderm and the endoderm. He discovered the
+nonmedullated nerve fibres in 1838, and in 1844 the nerve cells of the heart, called Remak's
+ganglia. He was also the first who recognized the six layers of the human brain cortex.
+
+
+
+Benedikt Stilling ( February 11 , 1810 - January 28 , 1879 ): Stilling made important
+contributions in the field of neurology , while he performed research involving the
+structure of the cerebellum , as well as histological studies of the pons . In 1840 he made first
+mention of vasomotor nerves in a treatise titled Physiologisch-pathologische und
+medicinisch-praktische Untersuchungen ÃŒber die Spinal-Irritation. Also he is
+remembered for introducing a procedure of serial-section portrayal (thin slicing) of
+spinal cord specimens for histological study.
+
+
+
+Blum (1893): In 1893 Blum introduced the stabilization of the specimens in formaldehyde
+solutions.
+
+
+
+RenÃ©-Joachim Dutrochet (1824): could only see a "fluide diaphane" within nerve fibers of
+the frog, Henri Milne-Edwards (1825) believed those of the rabbit to contain or be composed of
+"fibres Ã©lÃ©mentaires", themselves consisting of long chains of diminutive
+globules. Rapidly evolving technical skills and quality in optics - particularly the
+introduction of achromatic objectives - paved the way for more reliable observations and
+further controversy. The longitudinal "cavity" originally described in nerve fibers (van
+Leeuwenhoek, 1717) was now found clearly visible as a transparent "primitive band" coursing
+throughout the core of certain (myelinated) nerve fibers of vertebrates (Remak, 1838). But
+whereas such "cell-cavity" appeared just "to be filled by a firm substance" according to
+Theodor Schwann (1839), the corresponding axial region of the wider nerve fibers of some
+invertebrates was described by Robert Remak (1843) as containing an uninterrupted bundle of
+very delicate filaments or fibrils. Furthermore, when at least some of those nerve fibers
+were demonstrated to be tubular processes anastomosed to, and therefore continuous with,
+nearby globules or nerve cells, the central fibrillar bundle within a given nerve fiber would
+occasionally be seen to reach into the body of an associated cell, and form therein concentric
+layers of fibrils around the nucleus (Remak, 1844).
+
+
+
+Ehremberg (1833): Described the myelinated an non-myelinated nerve fibers
+
+
+
+Theodor Schwann (1810-1882): German physiologist and histologist. He was a student of J. P.
+MÃŒller and professor at the universities of Louvain (1838-48) and LiÃšge (from 1848). A
+cofounder (with Matthias Schleiden) of the cell theory, Schwann extended the work of
+Schleiden and demonstrated that the cell is the basis of animal as well as of plant tissue, and
+because he recognized the physiological and the morphological significance of the cell in
+advance of other 19th-century biologists he may be called the father of cytology. He
+described the nerve sheath known by his name and demonstrated the living nature of yeasts. Of
+great influence was his Microscopical Researche in the Structure and Growth of Animals and
+Plants (1839, tr. 1847).
+
+
+
+Otto Friedrich Karl Deiters (November 15, 1834 – December 5, 1863): Around 1860, Deiters
+provided the most comprehensive description of a nerve cell that was known to exist at the
+time. He identified the cells' axon , which he called an "axis cylinder", and its dendrites ,
+which he referred to as protoplasmic processes. He postulated that dendrites must fuse to
+form a continuous network. His name is lent to the nucleus of Deiters, also called the lateral
+vestibular nucleus , and Deiters' cell, which is associated with outer hair cells in the
+cochlea of the inner ear . Deiters died in 1863 from typhoid fever at the age of 29. After his
+death, his work concerning nerve cells of the spinal cord was edited and published by
+anatomist Max Schultze (1825-1874).
+
+Camillo Golgi ( July 7 , 1843 – January 21 , 1926 ) was an Italian physician , pathologist ,
+scientist , and Nobel laureate. He spent much of his career studying the central nervous
+system . Tissue staining techniques in the latter half of the 19th century were inadequate for
+studying nervous tissue . While working as chief medical officer in a psychiatric hospital ,
+he experimented with metal impregnation of nervous tissue, using mainly silver ( silver
+staining ). He discovered a method of staining nervous tissue which would stain a limited
+number of cells at random, in their entirety. This enabled him to view the paths of nerve cells
+in the brain for the first time. He called his discovery the " black reaction " (in Italian,
+reazione nera), which later received his name ( Golgi's method ) or Golgi stain. The black
+reaction consisted in fixing silver chromate particles to the neurilemma (the neuron
+membrane) by reacting silver nitrate with potassium dichromate . This resulted in a stark
+black deposit on the soma as well as on the axon and all dendrites , providing an exceedingly
+clear and well contrasted picture of neuron against a yellow background. The ability to
+visualize separate neurons led to the eventual acceptance of the neuron doctrine .
+
+In addition to this discovery, Golgi discovered a tendon sensory organ that bears his name (
+Golgi receptor ). He studied the life cycle of Plasmodium falciparum and related the timing of
+fevers seen in malaria with the life cycle of this organism. Using his staining technique,
+Golgi identified the intracellular reticular apparatus in 1898 which bears his name, the
+Golgi apparatus . Golgi, together with Santiago RamÃ³n y Cajal , received the Nobel Prize in
+Physiology or Medicine in 1906 for his studies of the structure of the nervous system.
+
+The organelle Golgi apparatus or Golgi complex
+
+The sensory receptor Golgi tendon organ
+
+Golgi's method or Golgi stain, a nervous tissue staining technique
+
+The enzyme Golgi alpha-mannosidase II
+
+Golgi cells of the cerebellum
+
+Golgi I nerve cells (with long axons)
+
+Golgi II nerve cells (with short or no axons)
+
+
+
+Karl Friedrich Burdach (1776-1847) He provided in 1822 the name--due the arching shape of its
+longest ï¬�bres--now given to the arcuate fasciculus .
+
+Column of Burdach — fasciculus cuneatus; the lateral portion of the dorsal funiculus of the
+spinal cord. - The American Illustrated Medical Dictionary (1938)
+
+Among his works are:
+
+Diatetik fÃŒr Gesunde (1805)
+
+EnzyklopÃ€die der Heilwissenschaft (three volumes, 1810-12)
+
+Vom Bau und Leben des Gehirns und RÃŒckenmarks (three volumes, 1819-25)
+
+Die Physiologie als Erfahrungswissenschaft (1826-40)
+
+
+
+Rudolph Albert von KÃ¶lliker ( July 6 , 1817 – November 2 , 1905 ): He was among the first to
+introduce into this branch of biological inquiry the newer microscopic technique - the
+methods of hardening, sectioning and staining . Among his earlier results was the
+demonstration in 1847 that smooth or unstriated muscle is made up of distinct units, of
+nucleated muscle cells. In this work, he followed in the footsteps of his master Henle. A few
+years before this, there was doubt whether arteries had muscle in their walls - in addition, no
+solid histological basis as yet existed for those views as to the action of the nervous system
+on the circulation , which were soon to be put forward, and which had such a great influence on
+the progress of physiology. As early as 1845, while still at Zurich, he supplied the clear
+proof that nerve fibers are continuous with nerve cells , and so furnished the absolutely
+necessary basis for all sound speculations as to the actions of the central nervous system .
+
+From that time onward he continually laboured at the histology of the nervous system, and more
+especially at the difficult problems presented by the intricate patterns in which nerve
+fibers and neurons are woven. together in the brain and spinal cord . From his early days a
+master of method, he saw at a glance the value of the new Golgi staining method for the
+investigation of the central nervous system, and, to the great benefit of science, took up
+once more in his old age, with the aid of a new means, the studies for which he had done so much in
+his youth. KÃ¶lliker contributed greatly to knowledge of the inner structure of the brain .
+
+Max Johann Sigismund Schultze ( March 25 , 1825 - January 16 , 1874 ): He founded, in 1865, and
+edited the important Archiv fÃŒr mikroskopische Anatomie, to which he contributed many
+papers, and he advanced the subject generally, by refining on its technical methods. His
+works included:
+
+BeitrÃ€ge zur Naturgeschichte der Turbellarien (1851)
+
+Uber den Organismus der Polythalamien (1854)
+
+BeitrÃ€ge zur Kenntnis der Landplanarien (1857)
+
+Zur Kenntnis der elektrischen Organe der Fische (1858)
+
+Ein heizbarer Objecttisch und seine Verwendung bei Untersuchungen des Blutes (1865, in
+which the first known description of the platelet )
+
+Zur Anatomie und Physiologie der Retina (1866)
+
+Franz Nissl ( 9 September 1860 – 11 August 1919 ): He is best known for developing a
+histological stain which allowed for selective visualization of neuronal cell bodies
+throughout the brain, ushering a new era in neurocytology and neuropathology. He also did
+important work in psychiatry correlating changes in glial cells, blood vessels, and brain
+tissue in general with mental illness. He also worked with Alois Alzheimer . Toward the end of
+his life he studied the nature of the connections between the cerebral cortex and the thalamus
+. The Nissl method uses basic aniline to stain RNA blue, and is used to highlight important
+structural features of neurons. The Nissl substance ( rough endoplasmic reticulum ) appears
+dark blue due to the staining of ribosomal RNA, giving the cytoplasm a mottled appearance.
+Individual granules of extranuclear RNA are named Nissl granules ( ribosomes ). DNA present
+in the nucleus stains a similar color.
+
+Marchi’s and Waller’s contribution was substantial for the evolution of
+Neuropathology, while they described staining methods for the study of degenerated
+myelinated nerve fibers.
+
+Santiago RamÃ³n y Cajal (1 May 1852 – 17 October 1934) was a Spanish histologist ,
+physician , pathologist and Nobel laureate . His pioneering investigations of the
+microscopic structure of the brain were so original and influential that he is considered by
+many to be the greatest neuroscientist of all time. His skills as an artist allowed him to make
+hundreds of drawings still used for educational purposes today. RamÃ³n y Cajal's early
+work was accomplished at the Universities of Zagarosa and Valencia where he focused on the
+pathology of inflammation , the microbiology of cholera , and the structure of epithelial
+cells and tissues. It was not until he moved to the University of Barcelona in 1887 that he
+learned Golgi's silver nitrate preparation and turned his attention to the central nervous
+system. During this period he made extensive studies of neural material covering a large
+variety of species and most major regions of the brain.
+
+RamÃ³n y Cajal's made several major contributions to neuroanatomy. He discovered the
+axonal growth cone, and provided the best evidence supporting Auguste Forel's theory of
+nerve cell contact. He provided detailed descriptions of cell types associated with neural
+structures, and produced excellent depictions of structures and their connectivity. He was
+an advocate of the existence of spines, although he did not recognize them as the site of
+contact from presynaptic cells. He was a proponent of polarization of nerve cell function and
+his student Lorente de No would continue this study of input/output systems into cable theory
+and some of the earliest circuit analysis of neural structures. RamÃ³n y Cajal was a fierce
+defender of the neuron theory .
+
+Ross G. Harisson(1907): In 1907 Dr. Harrison first adopted the hanging drop culture method to
+the study of embryonic tissues. His observation that the outgrowth of the nerve from the
+parent cell body demonstrated that the outgrowth was a form of protoplasmic movement settled
+a long-standing controversy as to the formation and fundamental nature of nerve fibers. An
+outgrowth of the tissue-culture technique was the growth of poliomyelitis virus on monkey
+kidney cells. Through his successful development of a method of transplanting organs by
+removing embryonic cells at early stages of development from their normal positions and
+placing them either in another part of the same embryo or even another embryo it became
+possible to trace the subsequent development of the particular cells or organ that had been
+transplanted.
+
+Dr. Harrison had served for seventeen years as Sterling Professor at Yale. He was born in
+Germantown, Philadelphia, a son of Samuel and Katherine Diggs Harrison, on Jan. 13, 1870. He
+was graduated from Johns Hopkins University with a Bachelor of Arts degree in 1889 and
+received a Ph.D. there in 1894.
+
+Jean-Martin Charcot (29 November 1825 – 16 August 1893): was a French neurologist and
+professor of anatomical pathology . He is known as "the founder of modern neurology" and is
+"associated with at least 15 medical eponyms ", including Charcot-Marie-Tooth disease and
+amyotrophic lateral sclerosis (Lou Gehrig's disease). His work greatly influenced the
+developing fields of neurology and psychology . He was the "foremost neurologist of late
+nineteenth-century France" and has been called "the Napoleon of the neuroses .
+
+Charcot's name is associated with many diseases and conditions including:
+
+Charcot's artery ( lenticulostriate artery )
+
+Charcot's joint (diabetic arthropathy )
+
+Charcot's disease ( amyotrophic lateral sclerosis , also known as Lou Gehrig's disease)
+
+Charcot-Marie-Tooth disease (peroneal muscular atrophy )
+
+Charcot Wilbrand syndrome ( visual agnosia and loss of ability to revisualise images)
+
+Charcot's intermittent hepatic fever (intermittent pain, intermittent fever,
+intermittent jaundice, and loss of weight)
+
+Charcot-Bouchard aneurysms (tiny aneurysms of the penetrating branches of middle cerebral
+artery in hypertensives)
+
+Charcot's triad
+
+Charcot arthropathy
+
+Charcot-Lyden crystals due to eosinophils white blood cells lysis in cases of allergic
+diseases
+
+EdmÃ© FÃ©lix Alfred Vulpian (January 5, 1826 – May 18, 1887): He was the co-discoverer
+of Vulpian-Bernard spinal muscular atrophy and the Vulpian-Heidenhain-Sherrington
+phenomenon .
+
+Vulpian was born in Paris , France , in 1826. Among other noted discoveries and experiments,
+Vulpian discovered adrenaline in the adrenal medulla .
+
+John Cheyne (1777-1836): He studied pathology in Scotland and dissection with Charles Bell
+and wrote his first book – Essays of Diseases of Children – in 1801. He wrote one of the
+important early monographs on laryngology, Pathology of the Membrane of the Larynx and
+Bronchia, in 1809. He first described acute hydrocephalus, in 1808, and in 1809 contributed
+on croup.
+
+John Abercrombie ( October 10 , 1780 in Aberdeen – November 14 , 1844 in Edinburgh ): From 1816
+he published various papers in the Edinburgh Medical and Surgical Journal, which formed the
+basis of his more extensive works: Pathological and Practical Researches on Diseases of the
+Brain and Spinal Cord, regarded as the first textbook in neuropathology , and Researches on
+the Diseases of the Intestinal Canal, Liver and other Viscera of the Abdomen, both published
+in 1828.
+
+Hooper 1826: He published the first atlas of Neuropathology, based on more than 4000
+autopsies which had been held at St Marylebone hospital. He described the acute and chronic
+inflammation of the Dura Matter, epidural , subdural , and subarachnoid hematomas , brain
+abscesses, brain tumors and cerebral atrophy. He also described the first case of multiple
+sclerosis, three years earlier than Gruveilhier.
+
+Jean Cruveilhier (1791 in Limoges , France – 1874 in Sussac ): Cruveilhier was a highly
+influential anatomist, and made important contributions in his studies involving the
+nervous system . He described the pathology of neuronal lesions observed in what today is
+known as multiple sclerosis , publishing his findings and illustrations in 1842. He was also
+the first to record the clinical history of a patient who had the disease. However, it wasn't
+until 1868 that multiple sclerosis was discovered by neurologist Jean-Martin Charcot to be a
+distinct, separate disease. Cruveilhier was a prolific writer, among his works were
+Anatomie pathologique du corps humain (1829-1842) and Vie de Dupuytren (Life of Dupuytren,
+1840), which was a memorial to his teacher, Guillaume Dupuytren .
+
+His name is associated with "Cruveilhier's sign" (persistent hypertension and occlusion of
+the portal vein ) and "Cruveilhier-Baumgarten disease" ( cirrhosis of the liver without
+ascites ), which is named along with anatomist Paul Clemens von Baumgarten . Cruveilhier's
+name is also associated with several parts of the anatomy, however these terms have largely
+been replaced by clinical nomenclature:
+
+Cruveilhier's fossa: scaphoid fossa
+
+Cruveilhier's fascia: superficial fascia of perineum
+
+Cruveilhier's joint: median atlanto-axial joint
+
+Cruveilhier's plexus: posterior cervical plexus
+
+
+
+Sir Robert Carswell (1793-1857): Robert Carswell has long been regarded as the most talented
+illustrator of pathological conditions to emerge from the early days of taught anatomy in
+19th century Britain. His exceptional set of some 1000 watercolours depicting case
+histories was produced over a period of time, first in the early 1820s as a student and later as a
+physician and professor. Carswell's talent was spotted early, and under the mentorship of
+the Edinburgh military surgeon John Thomson he was sent to post-Napoleonic French hospitals
+to start building a pictorial teaching library of morbid anatomy cases directly from
+dissected bodies.
+
+Richard Bright English physician, born September 28, 1789, Queen's Square, Bristol,
+Gloucestershire; died December 16, 1858, London. Guy’s Hospital. He published an
+excellent work named ‘’Diseases of the brain and the nervous system’’, in which more
+than 200 colorful pictures of neuropathological cases have been included. Among the cases
+were gloiomas of the pons, hydrocephalus, intracranial aneurysms.
+
+Rudolf Ludwig Karl Virchow (13 October 1821 – 5 September 1902): Virchow founded the
+medical disciplines of cellular pathology and comparative pathology (comparison of
+diseases common to humans and animals ). His very innovative work may be viewed as sitting
+between that of Morgagni whose work Virchow studied, and that of Paul Ehrlich , who studied at
+the CharitÃ© while Virchow was developing microscopic pathology there. In 1869 he founded
+the Society for anthropology, ethnology and prehistory (Gesellschaft fÃŒr
+Anthropologie, Ethnologie und Urgeschichte) which was very influential in coordinating
+and intensifying German archaeological research. In 1885 he launched a study of craniometry
+, which gave surprising results according to contemporary scientific racist theories on the
+" Aryan race ", leading him to denounce the " Nordic mysticism" in the 1885 Anthropology
+Congress in Karlsruhe . Josef Kollmann , a collaborator of Virchow, stated in the same
+congress that the people of Europe, be them German, Italian, English or French, belonged to a
+"mixture of various races," furthermore declaring that the "results of craniology" led to
+"struggle against any theory concerning the superiority of this or that European race" on
+others. In 1892 he was awarded the Copley Medal .
+
+He was a very prolific writer. Some of his works are:
+
+Mittheilungen ÃŒber die in Oberschlesien herrschende Typhus-Epidemie, (1848)
+
+Die Cellularpathologie in ihrer BegrÃŒndung auf physiologische und pathologische
+Gewebelehre., (1858), English translation, (1860)
+
+Handbuch der speciellen Pathologie und Therapie, (1854-62)
+
+Vorlesungen ÃŒber Pathologie, (1862-72)
+
+Die krankhaften GeschwÃŒlste, (1863-67)
+
+Gegen den Antisemitismus, (1880)
+
+He also developed a standard method of autopsy procedure, named for him, that is still one of
+the two main techniques used today. More than a laboratory physician, Virchow was an
+impassioned advocate for social and political reform, stating that physicians should act as
+"attorneys for the poor." His views are evident in his "Report on the Typhus Outbreak of Upper
+Silesia (1848), "writing that the outbreak could not be solved by treating individual
+patients with drugs or with minor changes in food, housing, or clothing laws, but only through
+radical action to promote the advancement of an entire population. He is widely regarded as a
+pioneer of social medicine . and anthropology."
+
+Virchow's angle, the angle between the nasobasilar line and the nasosubnasal line.
+
+Virchow's cell, a macrophage in Hansen's disease .
+
+Virchow's cell theory, "omnis cellula e cellula" - every living cell comes from another
+living cell.
+
+Virchow's concept of pathology, comparison of diseases common to humans and animals.
+
+Virchow's disease, leontiasis ossea , now recognized as a symptom rather an disorder.
+
+Virchow's gland, Virchow's node .
+
+Virchow's Law, during craniosynostosis , skull growth is restricted to a plane
+perpendicular to the affected, prematurely fused suture and is enhanced in a plane parallel
+to it.
+
+Virchow's line, a line from the root of the nose to the lambda .
+
+Virchow's metamorphosis, lipomatosis in the heart and salivary glands .
+
+Virchow's method of autopsy, a method of autopsy where each organ is taken out one by one.
+
+Virchow's node , the presence of metastatic cancer in a lymph-node in the supraclavicular
+fossa (root of the neck left of the midline). Also known as Troisier's sign .
+
+Virchow's psammoma, pasmmoma bodies in meningiomas .
+
+Virchow-Robin spaces , enlarged perivascular spaces (EPVS) (often only potential) that
+surround blood vessels for a short distance as they enter the brain.
+
+Virchow-Seckel syndrome , a very rare disease also known as "bird-headed dwarfism".
+
+Virchow's triad , factors contributing toward venous thrombus formation.
+
+Aloysius "Alois" Alzheimer, 14 June 1864 - 19 December 1915): a German psychiatrist and
+neuropathologist and a colleague of Emil Kraepelin . Alzheimer is credited with identifying
+the first published case of "presenile dementia", which Kraepelin would later identify as
+Alzheimer's disease . In 1901, Alzheimer observed a patient at the Frankfurt Asylum named
+Mrs. Auguste Deter. The 51-year-old patient had strange behavioral symptoms, including a
+loss of short-term memory. This patient would become his obsession over the coming years. In
+April 1906, Mrs. D. died and Alzheimer had the patient records and the brain sent to Munich
+where he was working at Kraepelin's lab. Together with two Italian physicians, he would use
+the staining techniques to identify amyloid plaques and neurofibrillary tangles . A speech
+given on 3 November 1906 would be the first time the pathology and the clinical symptoms of
+presenile dementia would be presented together. Through extremely fortunate
+circumstances the original microscope preparations on which Alzheimer based his
+description of the disease were rediscovered some years ago in Munich and his findings could
+thus be reevaluated.
+
+
+
+Walter Spielmeyer (1879-1935): He showed that amaurotic familial idiocy was the result of a
+disturbed lipid metabolism and demonstrated primary degeneration of the posterior columns
+and cerebral changes in a brilliant monograph on experimental trypanosomiasis. In 1911 he
+published his book on microscopic studies of the nervous system which became an important
+manual. As a result Emil Kraepelin (1856-1926) asked him to come to Munich to succeed Alois
+Alzheimer (1864-1915) and head the Anatomisches Laboratorium der Psychiatrischen- und
+Nervenklinik (the anatomical laboratories for the psychiratric and nervous disease
+clinic). He became extraordinarius in 1913 and director of the histology section of the newly
+founded Deutsche Forschungsanstalt fÃŒr Psychiatrie (German Institute for Psychiatric
+Research) in 1917 and honorary professor in 1918. Spielmeyer wrote important monographs on
+peripheral nerve injuries which occurred in World War I. In 1922 he wrote an important book on
+histopathology of the nervous system which was the first textbook of general
+histopathology. Later on, Spielmeyer began to explore the possibility that disordered
+cerebral function could follow temporary circulation disturbances. In 1928 the
+Rockefeller Foundation financed the Kaiser Wilhelm Institute with Spielmeyer as director
+of the Hirnpathologisches Institut (Institute of Brain Pathology).
+
+
+
+Alfons Maria Jakob (2 July 1884,–17 October 1931): He made notable contributions to
+knowledge on concussion and secondary nerve degeneration and became a doyen of
+neuropathology .
+
+Jakob published five monographs and more than 75 papers. His neuropathological studies
+contributed greatly to the delineation of several diseases, including multiple sclerosis
+and Friedreich's ataxia . He first recognised and described Alper's disease and
+Creutzfeldt-Jakob disease (the latter with Hans Gerhard Creutzfeldt ). He accumulated
+immense experience in neurosyphilis , having a 200-bedded ward devoted exclusively to that
+disorder. Jakob made a lecture tour of the United States and South America where he wrote a
+paper on the neuropathology of yellow fever .
+
+
+
+Max Bielschowsky ( February 19 , 1869 – August 15 , 1940 ): Bielschowsky made important
+contributions in his research of tuberous sclerosis , amaurotic idiocy, paralysis agitans ,
+Huntington’s chorea and myotonia congenita . He is remembered for his pathological work
+with sclerosis, the use of an histological silver stain for impregnation of nerve fibers, and
+with Stanley Cobb , the development of intravital silver staining. The eponymous
+"Bielschowsky silver stain" technique was an improvement on the method developed by Ramon y
+Cajal (1852-1934).
+
+
+
+Karl Weigert, Carl Weigert ( 1845 - 1904 ): Weigert assisted Cohnheim in many of his
+researches, and wrote much on the staining of bacteria in microscopy. He contributed many
+essays to medical journals. Among his works are: "Zur Anatomie der Pocken" (Breslau, 1874);
+"FÃ€rbung der Bacterien mit Anilinfarben" (ib. 1875); "Nephritis" (Leipzig, 1879);
+"FibrinfÃ€rbung" (1886); "BeitrÃ€ge zur Kenntniss der Normalen Menschlichen
+Neuroglia" (Frankfort-on-the-Main, 1895); "Elastische Fasern" (ib. 1898
+
+
+
+Heinrich Obersteiner ( 1847 - 1922 ): Obersteiner was a professor of pathology and anatomy of
+the nervous system at the University of Vienna. He was also director of a private mental
+institution at OberdÃ¶bling, outside of Vienna. He did extensive work as a psychiatrist
+and published articles on several subjects including hypnosis . In 1882 he established the
+internationally known Neurological Institute in Vienna.
+
+The eponymous Obersteiner-Redlich line is named after him, along with Emil Redlich
+(1866-1930). This zone is where the central nervous system and peripheral nervous system
+meet, as well as the place where Schwann cells meet oligodendroglia cells .
+
+Gheorghe Marinescu ( February 28 , 1863 , Bucharest – May 15 , 1938 , Bucharest): Early in his
+career he published with the bacteriologist Victor BabeÅŸ and the French pathologist Paul
+Oscar Blocq a much needed atlas on the pathological histology of the nervous system. His
+description with Blocq of a case of parkinsonian tremor due to tumour in the substantia nigra,
+in 1893, was the basis for Ã‰douard Brissaud 's theory that parkinsonism occurs as a
+consequence of damage to the substantia nigra. With Paul Blocq he was the first to describe
+senile plaques and with Romanian neurologist Ion Minea confirmed in 1913 Hideyo Noguchi 's
+discovery of Treponema pallidum in the brain in patients with general paresis . His
+monumental work La Cellule Nerveuse, with a preface by Santiago Ramon y Cajal , appeared in
+1909.
+
+Arnold Pick ( 1851 – 1924 ) was a German neurologist and psychiatrist . He is known for
+identifying the clinical syndrome of Pick's Disease and the Pick bodies that are
+characteristic of the disorder . He was the first to name reduplicative paramnesia . He was
+also to use the term dementia praecox (in 1891).[
+
+
+
+Giovanni Mingazzini (1859-1929): He was habilitated for anatomy in 1889, in 1891 became head
+of the pathological-anatomical laboratory at the Manicomio di S. Marco della PietÃš. 1893
+he became Dozent in neuropathology and psychiatry, and in 1895 he was appointed to the coveted
+position of professor of neurology and psychiatry at the Scuola di Neuropatologia at the
+University of Rome, a post keenly sought after by De Sanctis as well. He published excellent
+studies on the cerebellum and the striatum.
+
+
+
+Paul Ehrlich (14 March 1854 – 20 August 1915): Ehrlich received the Nobel Prize for Medicine
+together with Ilya Ilyich Mechnikov in 1908. In 1906 he discovered the structural formula of
+atoxyl , a chemical compound which had been shown to be able to treat sleeping sickness .
+Following this discovery, he tried to create a less toxic version of the medicament. In 1909 he
+and his student Sahachiro Hata developed Salvarsan , a treatment effective against syphilis
+. He also studied the vasculature of the central nervous system.
+
+
+
+Dr. Walle J.H. Nauta (1916– 1994 ): was a leading neuroscientist . He was an Institute
+Professor at MIT . He invented the Nauta Silver Impregnation Method stain, used for tracing
+degenerating nerve fibers.
+
+
+
+Goldmann 1931, Klatzo et al 1962, Olsson et al 1968, Brightman and Resse 1969, Westergaard
+1977, Baloyannis and Gonatas 1979, Baloyannis et al 1982 contributed to the study of the blood
+brain barrier while they published excellent works on electron microscopy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+References
+
+Anatomico-physiologica comparativa disquisito in respirationis organa. Title also given
+as: Anatomes physiologica comparata disquisitio in respirationis organa.Torino, 1801.
+2nd edition in two volumes, 1819.
+
+Phthiseos pulmonalis specimen theoretico-practicum. Torino, 1801.
+
+Observations anatomiques sur la structure du sphinx nerii et autres insectes. Sassari,
+1805.
+
+Sulle cause da cui dipende la vita negli esseri organizzati. Firenze, 1807.[Concerning the
+Causes on Which the Life of Organisms Depends]
+
+Saggio sopra la vera struttura del cervello dell’uomo e degli ainamli e sopra le funzioni
+del’ sistema nervoso. Sassari, Stamp. Privileg, 1809. 2nd edition, 2 volumes, Torino,
+1828.
+
+Humani corporis fabricae ac functionum analysis adumbrata. Torino, 1817.
+
+Osservazioni sulla pleura e sul peritoneo. Torino, 1818.
+
+Anatomes physiologica. Torino, 1819.
+
+Cenni fisico-patologici sulle differenti specie e’eccitabilitÃ  e d’eccitamento,
+sull’irritazione e sulle potenze eccitanti, debilitanti e irritanti. Torino, 1821.
+
+Riflessioni e sperimenti tendenti allo scioglimento di alcune questioni riguardanti la
+respirazione e la calorificazione. Torino, 1821.
+
+Osservazioni sul cerbelletto. Torino, 1823.
+
+Description d’un animal nouveau qui appartient Ã  la classe des Ã©chinodermes.
+Memorie della reale Accademia delle scienze di Torino, 1821, 26: 539-556.
+
+Richerche anatomiche sulla struttura del midolla spinale. Torino, 1824.
+
+Recherches anatomiques sur la moelle allongÃ©e. Memorie della reale Accademia delle
+scienze di Torino, 1825; 29: 1-78.
+
+Osservazioni sul cervelletto.Memorie della reale Accademia delle scienze di Torino, 1825,
+29: 163-188.
+
+Sperimenti sul fascicoli de midolla spinale. Torino, 1828.
+
+Manuale di anatomia fisiologica. Milano, 1829.
+
+Della struttura degli emisferi cerebrali. Torino, 1830.Memorie della reale Accademia
+delle scienze di Torino, 1929, 35: 103-147.
+
+P. Capparoni:Profil bio-bibliografici di medici e naturalisti celebri italiani. Rome,
+1928: 97-101. With portrait.
+
+August Hirsch (1817-1894), publisher:Biographisches Lexikon der hervorragenden
+Ã„rzte aller Zeiten und VÃ¶lker. 2nd edition. Berlin, Urban & Schwarzenberg, 1929.
+First published in 6 volumes 1884-1888. 3rd edition, MÃŒnchen 1962.
+
+Carlo Castellani:Rolando, Luigi. In: Charles Coulston Gillispie, editor in chief:
+Dictionary of Scientific Biography. Charles Scribner’s Sons. New York, 1970. Volume 11:
+510-511.
+
+Franco Caputi, Renato S. Paziante, Enrico de Divitiis and Blaine S. Nashold:Historical
+Vignette: Luigi Rolando and his pioneering efforts to relate structure to function in the
+nervous system. Journal of Neurosurgery, 1995, 83: 933–937.
+
+Robinson, Victor, Ph.C., M.D. (editor) ( 1939 ). "Bell's Law, within the description of
+Bell's Palsy, including a brief discussion about Charles Bell, 1774-1842". The Modern Home
+Physician, A New Encyclopedia of Medical Knowledge . WM. H. Wise & Company (New York). , page
+92.
+
+F. J. Gall:Philosophisch-Medicinische Untersuchungen ÃŒber Natur und Kunst im kranken
+und gesunden Zustande des Menschen.1 volume. Vienna, 1791. 2nd printing, Leipzig, 1800. The
+completed manuscript of volume 2 was never printed.F. J. Gall:
+
+Des Herren Dr. F. J. Gall Schreiben ÃŒber seinen bereits geendigten Prodromus ÃŒber die
+Verrichtungen des Gehirns der Menschen und der Thiere, an Herrn Jos. Fr. von Retzer. Der neue
+Teutsche Mercur [Wieland’s], 1798. Reprinted in: Ludwig Friedrich Froriep (1779-1847),
+Darstellung der neuen, auf Untersuchungen der Verrichtungen des Gehirns gegrÃŒndeten
+Theorie der Physiognornik des Herrn Dr. Gall in Wien. Vienna, Hochenleitter 1802, pp.
+70-89.A French translation appeared in the Journal de la SociÃ©tÃ© phrÃ©nologique de
+Paris, 1835.
+
+F. J. Gall:Vertheidigungsschrift des Dr. Med. Gall, eingegeben bey der
+nieder-Ã¶sterreichischen Landesregierung.Reprinted in: Philip Franz von Walther
+(1782-1849): Neue Darstellungen aus der Gall'schen Gehirn- und Schedellehre, als
+ErlÃ€uterungen der vorgedruckten Verteidigungsschrift des D. Gall eingegeben bei der
+niederÃ¶sterreichischen Regierung. Mit einer Abhandlung ÃŒber den Wahnsinn, die
+PÃ€dagogik und die Physiologie des Gehirns nach der Gall'schen Theorie. MÃŒnchen, B.
+Scherer (Fleischmann), 1804.Walther's name has also been given as Philip Friedrich
+Walther, which is incorrect.English translation from the German by G. Combe: Petition and
+Remonstrance by Dr. Gall Against an order issued by Francis the First, Emperor of Germany,
+prohibiting him from delivering lectures on the functions of the brain, without special
+permission previously asked and obtained. In: On the Functions of the Cerebellum. Edinburgh
+& London, 1838, pp. 309-35.
+
+F. J. Gall:Meine Reise durch Deutschland, nebst pathogonomischen Bemerkungen. 1806.
+
+F. J. Gall:Doktor Gall ÃŒber Irrenanstalten.Allgemeine Zeitung, 1807, No. 21.
+Supplement, pp. 81-83. Gall first declares that insanity due to brain illness or defect.
+
+F. J. Gall:Discours d’ouverture lu par M. le docteur Gall Ã  la premiÃšre de concours
+public sur la physiologie du cerveau le 15 janvier 1808.Invitations to his practice.Also
+under the title: Introduction au cours de physiologie de cerveau. Paris, 1808.The title has
+also been given as: Discours d'ouverture, lu par M. le docteur Gall Ã  la premiÃšre
+sÃ©ance de son cours public sur la physiologie du cerveau, le 15 janvier 1808.Paris, F.
+Didot, 1808.
+
+F. J. Gall:Cranologie, ou decouvertes nouvelles concernant le cerveau, le crÃ¢ne et les
+organes.Paris
+
+F. J. Gall and J. C. Spurzheim:Recherches sur le systÃšme nerveux en gÃ©nÃ©ral, et sur
+celui du cerveau en particulier; mÃ©moire prÃ©sentÃ© Ã  l’Institut de France, le
+14 mars 1808, suivi d'observations sur le rapport qui en a Ã©tÃ© fait Ã  cette compagnie
+par ces commissaire. Paris, 1809. Reprint by Bonset, Amsterdam, 1967.German translation:
+Untersuchungen ueber de Anatomie des Nervensystems ueberhaput, und des Gehirns
+insbesondere. Ein dem franzÃ¶sischen Institute ueberreichtes MÃ©moire von Gall und
+Spurzheim. Nebst dem Berichte der H.H. Commissaire des Institutes und den Bemerkungen der
+Verfasser ÃŒber diesen Bericht. Paris & Strasbourg, 1809.
+
+F. J. Gall and J. C. Spurzheim:Anatomie et physiologie du systÃšme nerveux en
+gÃ©nÃ©ral et du cerveau en particulier; avec des observations sur la possibilitÃ© de
+reconnaÃ®tre plusieurs dispositions intellectuelles et morales de l’homme et des
+animaux par la configuration de leur tÃªtes. 4 volumes and Atlas. Paris, F. Schoell,
+1810-1819.Volume 1, 1810. Volume 2, 1812. Volume 3, 1818. Volume 4, 1819. Spurzheim was
+co-author of the first two volumes. The two authors parted in 1813, after the first 146 pp of
+volume 2. The remainder was written by Gall alone.The one hundred plates which comprise the
+atlas are exquisitely rendered. German translation of volume 1, 1810.2nd, revised edition,
+as aSur les fonctions du cerveau . . . See below.
+
+F. J. Gall and J. C. Spurzheim:Observations sur la phrÃ©nologie, ou la connaissance de
+l’homme moral et intellectuel, fondÃ©e sur les fonctions du systÃšme nerveux.
+Strasbourg and Paris, 1810; new edition 1818.
+
+F. J. Gall and J. C. Spurzheim:Des dispositions innÃ©es de l’Ã¢me et de l’esprit; du
+matÃ©rialisme, du fatalisme et de la libertÃ© morale, avec des rÃ©flections sur
+l’Ã©ducation et sur la legislation criminelle.Paris, 1811. This is a separate printing
+of extracts from volumes 1-2 of Anatomie et physiologie du systÃšme nerveuxrefuting
+accusations of materialism.
+
+F. J. Gall and J. C. Spurzheim:CrÃ¢ne. In: Dictionnaire des sciences mÃ©dicales. Volume
+7, Paris, 1813, pp. 260-266.
+
+F. J. Gall and J. C. Spurzheim:Cerveau. In: Dictionnaire des Sciences Medicales. Volume 4,
+Paris, 1813, pp. 447-9. Reprinted in Appendix to John Gordon, Observations on the Structure
+of the Brain, 1817, pp. 185-207.
+
+F. J. Gall:Demande pour Ãªtre nommÃ© membre de l'AcadÃ©mie Royale des Sciences. Gall
+had this demand for membership of the Royal Academy of Sciences privately printed in Paris in
+1821. He did not succeed.
+
+F. J. Gall:Observations sur les crÃ¢nes humains.In Louis Choris: Voyage pittoresque
+autour du monde, avec des portraits de sauvages d'AmÃ©rique, d'Asie, d'Afrique, et des
+Ã®les du Grand ocÃ©an : des paysages, des vues maritimes, et plusieurs objets d'histoire
+naturelle; accompagnÃ© de descriptions par M. le baron Cuvier, et M. A. du Chamisso et
+d'observations sur les crÃ¢nes humains par le docteur Gall. Paris, F. Didot, 1822.Louis
+Choris (1795-1828) was famous for his pictures of "wild" peoples. He was a member of the Otto
+von Kotzebue Expedition (1815-1818).
+
+F. J. Gall:Sur les fonctions du cerveau et sur celles de chacune de ses parties, avec des
+observations sur la possibilitÃ© de reconnoitre les instincts, les penchans, les talens,
+ou les dispositions morales et intellectuelles des hommes et des animaux, par la
+configuration de leur cerveau et de leur tÃªte. 6 volumes. Paris, J. B. BalliÃšre,
+1822-1825.Volume 1: Sur l'origine des qualitÃ©s morales et des facultÃ©s
+intellectuelles de l'homme; et sur les conditions de leur manifestation.Volume 2: Sur
+l'organe des qualitÃ©s morales et des facultÃ©s intellectuelles, et sur la
+pluralitÃ© des organes cÃ©rÃ©braux. Volume 3: Influence du cerveau sur la forme du
+crÃ¢ne, difficultÃ©s et moyens de dÃ©terminer les qualitÃ©s et les facultÃ©s
+fondamentales, et de dÃ©couvrir le siÃšge de leurs organes. Exposition des qualitÃ©s
+et des facultÃ©s fondamentales et de leur siÃšge, ou organologie. Volume 4 and 5:
+Organologie ou exposition des instincts, des penchans, des sentimens et des talens, ou des
+qualitÃ©s morales et des facultÃ©s intellectuelles fondamentales de l'homme et des
+animaux, et du siÃšge de leurs organes.Volume 6: Revue critique de quelques ouvrages
+anatomico-physiologiques, et exposition d'une nouvelle philosophie des qualitÃ©s
+morales et des facultÃ©s intellectuelles. This, Gall's main work, is a 2nd and revised
+edition of Anatomie et physiologie du systÃšme nerveux en gÃ©nÃ©ral et du cerveau en
+particulier. . . without plates, but with a collection of replies to his critics.English
+translation by Winslow Lewis, Jr: On the Functions of the Brain and of Each of Its Parts: With
+Observations on the Possibility of Determining the Instincts, Propensities and Talents, or
+the Moral and Intellectual Dispositions of Men and Animals, by the Configuration of the Head.
+6 volumes, Boston, Marsh, Capen & Lyon, 1835. With a biography.English translation also by
+George Combe, Edinburgh: Maclachlan & Stewart, 1838.German
+translation:VollstÃ€ndige Geisteskunde, oder auf Erfahrung gestÃŒtzte
+Darstellung der geistigen und moralischen FÃ€higkeiten und ihrer kÃ¶rperlichen
+Bedingungen. Ein unentbehrliches Handbuch fÃŒr Erzieher, Aerzte..., die
+MenschenkenntniÃŸ nÃ¶thig haben. Freie Ãœbersetzung der sechs BÃ€nde Gall's
+Organologie.NÃŒrnberg, 1829, 1833. Italian, Bologna, 1835.
+
+Gall, et al:On the Functions of the cerebellum by Drs. Gall, Vimont and Broussais.
+[FranÃ§ois Joseph Victor Broussais, 1772-1838, and Joseph Vimont, 1795-1857]English
+translation by George Combe, including Gall's petition and remonstrance to Emperor Franz I.
+Edinburgh, 1838.Gall's letters have been published in Max Neuburger (1868-1955):
+
+Briefe Galls an Andreas und Nenette Streicher. Archiv fÃŒr Geschichte der Medizin, 1917,
+10: 3-70.
+
+And in Erich Ebstein (1880-1931):Franz Joseph Gall im Kampf um seine Lehre. In C. Singer and H.
+E. Sigerist, editors, Essays on the History of Medicine Presented to Karl Sudhoff.
+London-Zurich, 1924, pp 269-322.Works by other authors on Gall and phrenology:
+
+Anon:Dr. Galls Darstellung des Gehirns als Organs der SeelenfÃ€higkeiten und
+GemÃŒthseigenschaften. Nebst der Kunst das Innere des Menschen aus dem AeuÃŸern seines
+SchÃ€dels zu erkennen. Ein Schreiben Villers an Cuvier. Uebersetzt mit vielen
+Bemerkungen, ZusÃ€tzen, Erweiterungen, und Galls eigner Nachricht an das Publikum
+vermehrt von einem SchÃŒler Galls. Letter. Vienna & Leipzig: Schiegg, 1803. pp. 97-122.
+
+Jakob Fidelis Ackermann (1765-1815):Die Gall'sche Hirn-, SchÃ€del- und Organen-Lehre
+vom Gesichtspunkt der Erfahrung aus beurhteilt und widerlegt. 1807.
+
+Christoph Wilhelm Hufeland (1762-1836):Dr. Gall's New Theory of Physiognomy. London,
+1807.
+
+Pupils, with Gall:Beantwortung der Ackermann'schen Beurtheilung und Wiederlegung der
+Gall'schen Hirn- Schedel- und Organenlehre, vom Gesichtspuncte der Erfahrung aus. Von
+einigen SchÃŒlern des Dr. Gall und von ihm selbst berichtigt. Dated Halle 1806, but
+appeared early 1807. With plates. Reply to Jakob Fidelis Ackermann's critique by some of
+Gall's pupils. French translation: Examen critique de la rÃ©futation de M. le docteur
+Ackermann, des erreurs de Gall sur la structure du cerveau, in anon, Cranologie, ou
+dÃ©couvertes nouvelles du docteur F.J. Gall, concernant le cerveau, le crÃ¢ne, et les
+organes. Paris, 1807.
+
+Jacques RenÃ© Tenon (1724-1816):Report on a memoir of Drs. Gall and Spurzheim, Relative to
+the Anatomy of the Brain, Presented to and Adopted by the Class of Mathematical and Physical
+Sciences of the National Institute. Edinburgh Medical and Surgical Journal. 1809, 5: 36-66.
+
+John Gordon (1786-1818):Functions of the Nervous System. Edinburgh Review, 1815, 24:
+439-452.
+
+George Combe (1788-1858):Essays on Phrenology. 1819. Later editions as: System of
+Phrenology. 1825-1853.
+
+George Combe:Elements of Phrenology. Edinburgh, July, 1824. 2nd edition, Edinburgh, 1825;
+third edition, 1829.American edition, Boston, Marsh, Capen & Lyon, 1834.
+
+Unsigned:Recent Disoveries on the Physiology of the Nervous System. Edinburgh Medical and
+Surgical Journal, 1824, 21: 141-159.
+
+Unsigned:Researches of Malacarne and Reil – Present state of Cerebral Anatomy. Edinburgh
+Medical and Surgical Journal, 1824, 21: 98-141. Referring to Michele Vincenzo Giacinto
+Malacarne (1744-1816); and Johann Christian Reil (1759-1813).
+
+Jean Antoine Laurent Fossati (1786-1874):De la nÃ©cessitÃ© d'Ã©tudier une nouvelle
+doctrine avant de la juger; application de ce principe Ã  la physiologie intellectuelle.
+Paris, 1827.The author, a long time friend of Gall's, was born in Lombardy as Giovanni Antonio
+Lorenzo Fossati.
+
+[R. Chevenix]:Gall and Spurzheim – Phrenology. Foreign Quarterly Review, 1828, 2: 1-59.
+
+George Combe:The Constitution of Man Considered in Relation to External Objects.
+Edinburgh, John Andesen; London, Longman, 1828. 2nd and 3rd editions, 1835. 8th edition,
+Maclachlan Stewart & Co, 1847. 9th edition, Revised by Robert Cox and James Coxe, 1860.This
+work sold approximately 300,000 copies in the UK and north America between 1828 and 1860, an
+astounding number at the time and scarcely matched by any other book regardless of genre. In
+contrast, Darwin's Origin of Species (1859) sold only 50,000 in the UK between 1859 and 1900.
+Constitution's remarkable sales and the even larger number of people who read or were
+familiar with its philosophy of natural law, the amount of critical attention it received,
+and its influence make Constitution, and the phrenological naturalism it catered, anything
+but peripheral to the history of nineteenth-century Britain. Few book's were more widely
+distributed or were so influential in changing the way people conceived of themselves and
+Nature.
+
+Jean Antoine Laurent Fossati:De l'influence de la physiologie intellectuelle sur les
+sciences, la littÃ©rature et lest arts. Paris, 1828.
+
+Jean Antoine Laurent Fossati:PrÃ©cis analytique du systÃšme de M. le Dr. Gall sur les
+facultÃ©s de l'homme et sur les fonctions du cerveau, vulgairement cranioscopie.2nd
+edition, 1828. German translation, leipzig, 1830.
+
+Alexander Walker:Physiognomy: founded on Physiology.London, 1834.
+
+FranÃ§ois Joseph Victor Broussais (1772-1838):LeÃ§ons de phrÃ©nologie.
+DerniÃšre Ã©d. Brussels, SociÃ©tÃ© enycolphique des sciences mÃ©dicales.
+1839.
+
+Marie Jean Pierre Flourens (1794-1867): Examen de la phrÃ©nlogie. Paris, 1842. English
+translation by Charles de Lucena Meigs (1792-1869), Philadelphia, 1846.
+
+Jean Antoine Laurent Fossati:Manuel pratique de PhrÃ©nologi, ou physiologie du cerveau
+d'aprÃšs les doctrines de Gall, de Spurzheim, de Combe et des autres phrÃ©nologistes.
+Paris, 1845. With 36 portraits and 6 anatomical drawings.
+
+Herbert Spencer (1820-1903):Principles of Psychology. London, 1855.
+
+G. H. Lewes:Phrenology in France. Blackwood's Edinburgh Magazine, 1857, 82: 665-674.
+
+David Goyder:My Battle for Life. The Autobiography of a Phrenologist.London, Simpkin,
+Marshall, 1857.
+
+T. Laycock:Phrenology. Encyclopedia Britannica, 8th edition, 1859, 556-567.
+
+Alexander Bain (1818-1903:On the Study of Character, Including an Estimate of Phrenology.
+London, 1861.
+
+P. Flourens: De la phrÃ©nologie et des Ã©tudes vraies sur le cerveau. Paris, 1863.
+
+G. H. Lewes:The History of Philosophy From Thales to Comte. 3rd edition, 2 volumes, London,
+1867-1871.
+
+J. Hunt:On the Localisation of Functions in the Brain, With Special Reference to the Faculty
+of Language. Anthropoligical Review, 1868, 6: 329-345; and 1869, 7: 100-116, 201-214.
+
+Jean Antoine Laurent Fossati:Questions philosophiques, sociales et politiques
+traitÃ©es d'aprÃšs les principes de la physiologie du cerveau.Paris, Amyot, 1869.
+
+Sir Samuel Wilks (1824-1911):Notes on the History of the Physiology of the Nervous System,
+Taken More Especially from Writers on Phrenology. Guy’s Hospital Reports, London, 3rd
+series, 1879, 24: 57-94.
+
+Macalister:Phrenology. In Encyclopedia Britannica, 9th edition, 1885, XVII: 842-849.
+
+W. Mattieu Williams:A Vindication of Phrenology. 1894.
+
+Charlotte Fowler Wells:Some Account of the Life and Labours of Dr. FranÃ§ois Joseph Gall:
+Founder of Phrenology and his disciple Dr. John Gaspar Spurzheim. London, 1896.
+
+Alfred Russel Wallace (1823-1913):The Wonderful Century, Its Successes and Failures.
+London, 1898.
+
+Jules Soury (1842-1915):Le systÃšme nerveux centrale structure et finctions. Histoire
+critique des thÃ©ories et des doctrines. 2 volumes. Paris, CarrÃ© & Naud, 1899.Massive
+history of the anatomy and physiology of the nervous system from ancient Greece to the end of
+the 19th century. The second volume is a survey of 19th century opinions on the structure and
+function of the nervous system.
+
+Paul Julius MÃ¶bius (1853-1907):Franz Joseph Gall. Leipzig, 1905 [volume VII of
+MÃ¶bius’ selected works].
+
+August Froriep (1849-1917):Die Lehren Franz Joseph Galls, beurteilt nach dem Stand der
+heutigen Kenntnisse. Leipzig, 1911.
+
+Blondel:La psycho-physiologie de Gall. Paris, 1914.
+
+K. M. Dallenbach:The History and Derivation of the Word "Function" as a Systematic Term in
+Psychology. American Journal of Psychology, 1915, 26: 473-484.
+
+M. Bentley:The Psychological Antedecents of Phrenology. Psychological Monographs, 1916,
+21, 4 no. 92: 102-115.
+
+Sir Henry Head (1861-1940):Aphasia and Kindred Disorders of Speech. 2 volumes, Cambridge,
+1926.
+
+Sir Charles Scott Sherrington (1857-1952):Sir David Ferrier, 1843-1928. Proceedings of
+the Royal Society, 1928, 103B: viii-xvi.
+
+O. Temkin:Gall and the Phrenological Movement. Bulletin of the History of Medicine, 1947,
+21: 275-321.
+
+E. H. Ackerknecht and H. V. Vallois:Franz Joseph Gall, inventory of phrenology and his
+collection. Madison: University of Wisconsin Medical School. (1956).
+
+G. von Bonin:Some Papers on the Cerebral Cortex. Springfield, Illinois, 1960. Includes the
+papers of Broca and of Fritsch and Hitzig on cerebral localization.
+
+L. Benton and R. J. Joynt:Early descriptions of aphasia. Archives of Neurology, 1960, 3:
+205-221.
+
+L. Benton:Contributions to aphasia before Broca. Cortex, 1964, 1: 314-327.
+
+M. B. Stern:Heads & headlines: the phrenological Fowlers. Norman: University of Oklahoma
+Press, 1971.
+
+W. Riese:Selected papers on the history of aphasia. Amsterdam: Swets & Zeitlinger, 1977.
+
+G. W. Bruyn:The seat of the soul. In F. C. Rose and W. F. Bynum, editors: Historical aspects of
+the neurosciences; 1982, pp. 55-82. New York: Raven Press.
+
+J. W. Brown and K. L. Chobor:Phrenological studies of aphasia before Broca: Broca's aphasia
+or Gall's aphasia? Brain and Language, 1992, 43: 475-486.
+
+Heeschen:Franz Josef Gall. In P. Eling, (Editor): Reader in the history of aphasia, 1994, pp.
+1-28). Amsterdam: John Benjamins Publishing Co
+
+AndrÃ© Ombredane:Etudes de psychologie mÃ©dicale. I. Perception et langage. Rio de
+Janeiro, Atlantica, 1941.
+
+Francisco Gennari, 1750-1797: De peculiari structura cerebri, nonnulisque ejus
+morbis.Parmai, ex. reg. typog., 1782.Gennari was the first to demonstrate the laminar
+structure of the cerebral cortex, discovering in 1776 the "Line of Gennari" or "Gennari's
+stria".
+
+Gregory Zilboorg (1890-1959) and George William Henry (1889-):A History of Medical
+Psychology.New York, W. W. Norton, 1941, page 396.
+
+Baillarger:Du siÃ©ge de quelques hÃ©morrhagies mÃ©ningÃ©es. Doctoral thesis,
+1837.
+
+Des hallucinations, des causes qui les produisent et des maladies
+caractÃ©risent.MÃ©moires de l’AcadÃ©mie de mÃ©decine, 1842.
+
+StupiditÃ© des aliÃ©nÃ©s.Annales mÃ©dico-psychologiques du systÃšme
+nerveux.
+
+Statistique de la folie hÃ©rÃ©ditaire.Annales mÃ©dico-psychologiques du
+systÃšme nerveux.
+
+FrÃ©quence da la folie chez les prisonniers.Annales mÃ©dico-psychologiques du
+systÃšme nerveux.
+
+Hallucinations. Annales mÃ©dico-psychologiques du systÃšme nerveux. 1844.
+
+Pellagre ou paralysie pellagreuse.Annales mÃ©dico-psychologiques du systÃšme
+nerveux.
+
+MÃ©moire sur l'obliteration du canal du StÃ©non.Gazette mÃ©dicale de Paris, 1853,
+23: 194-197.Frey's syndrome.
+
+CrÃ©tinisme.Annales mÃ©dico-psychologiques du systÃšme nerveux.
+
+Folie Ã  double forme. Annales mÃ©dico-psychologiques du systÃšme nerveux, 1854.
+This was the same year his archrival Jean Pierre Falret (1794-1870) described folie
+circulaire. Statues of both men are at the main entrance of La SalpÃ©triÃšre hospital in
+Paris
+
+L'engÃªte sur le goitre et le crÃ©tinisme.Edited for the ComitÃ© consultatif
+d'hygiÃšne publique, 1873.
+
+Recherches sur la structure de la couche corticale des circonvolutions du cerveau.
+MÃ©moires de l’AcadÃ©mie royale de mÃ©decine, Paris, 1840, 8: 149-183. English
+translation in von Bonin: Some papers on the cerebral cortex. Springfield, C. C. Thomas,
+1860.
+
+Recherches sur les maladies mentales.2 volumes; Paris, 1890.Obituaries, etc:
+
+France mÃ©d., 1902, 49: 473-475 et seq. (Magnan).
+
+Annales mÃ©dico-psychologiques du systÃšme nerveux, Paris, 1892, 7. sÃ©r., 16:
+5-58. Contains bibliography; Ritti, Dureau).
+
+External Morphology of the Primate Brain. Springfield, Thomas, 1950 (Connolly).
+
+The Comparative Anatomy of the Nervous System of Vertebrates, Including Man. 2 volumes. New
+York, Macmillan, 1936 (Kappers, Huber and Crosby).
+
+Untersuchungen ÃŒber die Lamina spiralis membranacea (1860), (includes treatise on
+Deiter's cells)
+
+Untersuchungen ÃŒber Gehirn und RÃŒckenmark des Menschen und der SÃ€ugethiere :
+(edited by Max Schultze) - Braunschweig : Vieweg, (1865)
+
+The MIT Encyclopedia of the Cognitive Sciences (1999) The MIT Press Bradford book, by
+Kathleen S. Rockland p 353
+
+De Carlos, Juan A; Borrell, JosÃ© (2007), "A historical reflection of the contributions of
+Cajal and Golgi to the foundations of neuroscience.", Brain research reviews 55 (1): 8–16,
+2007 August, doi : 10.1016/j.brainresrev.2007.03.010 , PMID 17490748
+
+Muscatello, Umberto (2007), "Golgi's contribution to medicine.", Brain research reviews
+55 (1): 3–7, 2007 August, doi : 10.1016/j.brainresrev.2007.03.007 , PMID 17462742
+
+Kruger, Lawrence (2007), "The sensory neuron and the triumph of Camillo Golgi.", Brain
+research reviews 55 (2): 406–10, 2007 October, doi : 10.1016/j.brainresrev.2007.01.008
+, PMID 17408565
+
+DrÃ¶scher, A (1998), "The history of the Golgi apparatus in neurones from its discovery in
+1898 to electron microscopy.", Brain Res. Bull. 47 (3): 199–203, 1998 October, doi :
+10.1016/S0361-9230(98)00080-X , PMID 9865850
+
+Fabene, P F; Bentivoglio, M (1998), "1898-1998: Camillo Golgi and "the Golgi": one hundred
+years of terminological clones.", Brain Res. Bull. 47 (3): 195–8, 1998 October, PMID
+9865849
+
+Mironov, A A; Komissarchik, Ia Iu; Mironov, A A; Snigirevskaia, E S (1998), "[Current concept
+of structure and function of the Golgi apparatus. On the 100-anniversary of the discovery by
+Camillo Golgi]", Tsitologiia 40 (6): 483–96, PMID 9778732
+
+Farquhar, M G; Palade, G E (1998), "The Golgi apparatus: 100 years of progress and
+controversy.", Trends Cell Biol. 8 (1): 2–10, 1998 January, doi :
+10.1016/S0962-8924(97)01187-2 , PMID 9695800
+
+Bentivoglio, M (1998), "1898: the Golgi apparatus emerges from nerve cells.", Trends
+Neurosci. 21 (5): 195–200, 1998 May, doi : 10.1016/S0166-2236(98)01229-6 , PMID 9610881
+
+RamÃ³n y Cajal, Santiago (1899). Comparative Study of the Sensory Areas of the Human Cortex
+. http://books.google.com/books?id=2Dv-zWg89tsC .
+
+RamÃ³n y Cajal, Santiago; Richard Greeff (1894) (in German). Die Retina der Wirbelthiere:
+Untersuchungen mit der Golgi-cajal'schen Chromsilbermethode und der ehrlich'schen
+MethylenblaufÃ€rbung . Bergmann. http://books.google.com/books?id=rSXltRD9VDsC .
+
+RamÃ³n y Cajal, Santiago; Johannes Bresler, E. Mendel (1896) (in German). Beitrag zum
+Studium der Medulla Oblongata: Des Kleinhirns und des Ursprungs der Gehirnnerven . Verlag
+von Johann Ambrosius Barth. http://books.google.com/books?id=lFDQWR8dPucC .
+
+RamÃ³n y Cajal, Santiago; L. Azoulay (1894) (in French). Les nouvelles idÃ©es sur la
+structure du systÃšme nerveux chez l'homme et chez les vertÃ©brÃ©s . C. Reinwald.
+http://books.google.com/books?id=nysaAAAAYAAJ .
+
+RamÃ³n y Cajal, Santiago (1906) (in German). Studien ÃŒber die Hirnrinde des Menschen
+v.5 . Johann Ambrosius Barth. http://books.google.com/books?id=eMmtxDaSFv8C .
+
+Marktbreit: Alzheimer´s Birthplace"
+
+^ a b Maurer K., Maurer U. (2003). Alzheimer: The Life of a Physician and Career of a Disease. New
+York: Columbia University Press. ISBN 0-231-11896-1 .
+
+^ Graeber MB, Koesel S, Egensperger R, Banati RB, Mueller U, Bise K, Hoff P, Moeller HJ,
+Fujisawa K, Mehraein P (1997). "Rediscovery of the case described by Alois Alzheimer in 1911:
+historical, histological and molecular genetic analysis". Neurogenetics 1: 73–80. doi :
+10.1007/s100480050011 .
+
+Biographical memoir by Edward G. Jones, National Academy of Sciences, 2006
+
+Herman A. Metz. Solving medical mysteries by help of animals . The New York Times, 28 January
+1912 Î‘ÎœÎ±Ï�Ï„Î®ÎžÎ·ÎºÎµ Î±Ï€ÏŒ
+
+
+
+a-neurolab ÏƒÏ„Î¹Ï‚
+
+
+
+9:57 Ï€.ÎŒ. Î”ÎµÎœ Ï…Ï€Î¬Ï�Ï‡Î¿Ï…Îœ
+ÏƒÏ‡ÏŒÎ»Î¹Î±:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+Î Î±Î»Î±Î¹ÏŒÏ„ÎµÏ�ÎµÏ‚
+Î±ÎœÎ±Ï�Ï„Î®ÏƒÎµÎ¹Ï‚ Î‘Ï�Ï‡Î¹ÎºÎ®
+ÏƒÎµÎ»Î¯ÎŽÎ± Î•Î³Î³Ï�Î±Ï†Î® ÏƒÎµ:
+Î‘ÎœÎ±Ï�Ï„Î®ÏƒÎµÎ¹Ï‚ (Atom)
+
+Î“Î¹Î± ÎœÎ­ÎœÎ±
+
+    
+
+        a-neurolab
+
+    
+
+Î Ï�Î¿Î²Î¿Î»Î® Ï€Î»Î®Ï�Î¿Ï…Ï‚
+Ï€Ï�Î¿Ï†Î¯Î»
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Î‘ÎœÎ±Î³ÎœÏŽÏƒÏ„ÎµÏ‚
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/2568155647090371715/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/2568155647090371715/comments/default";
+holder.currentBlogUrl =
+"http://a-neurolab-neuroanatomyneuropathology.blogspot.com/";
+holder.currentBlogId = "2568155647090371715"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] =
+"\u0391\u03bd\u03b1\u03b3\u03bd\u03ce\u03c3\u03c4\u03b5\u03c2";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#333333"; skin['ENDCAP_LINK_COLOR'] = "#000000";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#000000"; skin['CONTENT_TEXT_COLOR'] =
+"#333333"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#FFFFFF";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000"; skin['CONTENT_HEADLINE_COLOR'] =
+"#000000"; skin['FONT_FACE'] = "normal normal 100% \x27Trebuchet
+MS\x27,Verdana,Arial,Sans-serif";
+google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-1l8poyton9hq",
+height: 260, site: "07196751862691424959", locale: 'el' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Î‘Ï�Ï‡ÎµÎ¹Î¿ÎžÎ®ÎºÎ·
+Î¹ÏƒÏ„Î¿Î»Î¿Î³Î¯Î¿Ï…
+
+    
+
+        - ▼  2009 (3)
+
+            - ▼  ÎŸÎºÏ„ÏŽÎ²Ï�Î¹Î¿Ï‚ (3)
+
+            - History of Neuropathology and Microscopy
+
+            
+
+            - Blood supply of the brain
+
+            
+
+            - Brain Herniation
+
+            
+
+        
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'2568155647090371715';BLOG_attachCsiOnload('');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d2568155647090371715','//a-neurolab-neuroanatomyneuropathology.blogspot.com/','2568155647090371715');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'2568155647090371715', 'bloggerUrl': 'http://www.blogger.com', 'title':
+'neuroanatomy\46amp;neuropathology', 'pageType': 'index', 'url':
+'http://a-neurolab-neuroanatomyneuropathology.blogspot.com/', 'canonicalUrl':
+'http://a-neurolab-neuroanatomyneuropathology.blogspot.com/',
+'canonicalHomepageUrl':
+'http://a-neurolab-neuroanatomyneuropathology.blogspot.com/', 'homepageUrl':
+'http://a-neurolab-neuroanatomyneuropathology.blogspot.com/',
+'blogspotFaviconUrl':
+'http://a-neurolab-neuroanatomyneuropathology.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'', 'pageTitle': 'neuroanatomy\46amp;neuropathology', 'encoding': 'UTF-8', 'locale':
+'el', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass':
+'', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42neuroanatomy\46amp;neuropathology - Atom\42
+href\75\42http://a-neurolab-neuroanatomyneuropathology.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42neuroanatomy\46amp;neuropathology - RSS\42
+href\75\42http://a-neurolab-neuroanatomyneuropathology.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42neuroanatomy\46amp;neuropathology - Atom\42
+href\75\42http://www.blogger.com/feeds/2568155647090371715/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0752568155647090371715\42 /\076',
+'meTag': '\74link rel\75\42me\42
+href\75\42http://www.blogger.com/profile/02099665622511024195\42 /\76\n',
+'openIdOpTag': '\74link rel\75\42openid.server\42
+href\75\42http://www.blogger.com/openid-server.g\42 /\76\n\74link
+rel\75\42openid.delegate\42
+href\75\42http://a-neurolab-neuroanatomyneuropathology.blogspot.com/\42 /\76\n',
+'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'bottomSidebarLinkColor': '#99ddbb',
+'mainVisitedLinkColor': '#223344', 'postTitleFont': 'normal bold 135% \47Trebuchet
+MS\47,Verdana,Arial,Sans-serif', 'bottomSidebarHeaderColor': '#aabbcc',
+'borderColor': '#bbbbbb', 'mainTextColor': '#333333', 'pageTitleFont': 'normal bold
+200% \47Trebuchet MS\47,Verdana,Arial,Sans-serif', 'titleTextColor': '#ffffff',
+'topSidebarVisitedLinkColor': '#ffffff', 'postTitleColor': '#333333',
+'mainBgColor': '#eeeecc', 'titleBgColor': '#335577', 'mainLinkColor': '#445566',
+'topSidebarTextColor': '#ffffff', 'bottomSidebarVisitedLinkColor': '#ffffff',
+'headerFont': 'normal bold 100% \47Trebuchet MS\47,Verdana,Arial,Sans-serif',
+'topSidebarBgColor': '#558866', 'bodyFont': 'normal normal 100% \47Trebuchet
+MS\47,Verdana,Arial,Sans-serif', 'descriptionFont': 'normal normal 100% \47Trebuchet
+MS\47,Verdana,Arial,Sans-serif', 'dateHeaderColor': '#558866', 'endSide': 'right',
+'topSidebarLinkColor': '#ffffff', 'startSide': 'left', 'topSidebarHeaderColor':
+'#ffffff'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic',
+'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url':
+'/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'},
+'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar',
+'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url':
+'/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_ProfileView', new
+_WidgetInfo('Profile1', 'sidebartop', null, document.getElementById('Profile1'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_FollowersView', new
+_WidgetInfo('Followers1', 'sidebar', null, document.getElementById('Followers1'),
+{'title': 'Î‘ÎœÎ±Î³ÎœÏŽÏƒÏ„ÎµÏ‚', 'codeSnippet': '\74script
+type\75\42text/javascript\42\76\n if (!window.google || !google.friendconnect) {\n
+document.write(\47\74script type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75
+\42http://www.blogger.com/feeds/2568155647090371715/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/2568155647090371715/comments/default\42;\n \n
+holder.currentBlogUrl \75
+\42http://a-neurolab-neuroanatomyneuropathology.blogspot.com/\42;\n
+holder.currentBlogId \75 \0422568155647090371715\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-m89sdtaqueno\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42\\u0391\\u03bd\\u03b1\\u03b3\\u03bd\\u03ce\\u03c3\\u03c4\\u03b5\\u03c2\42;\n
+skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_BG_COLOR\47] \75
+\42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47] \75 \42#333333\42;\n
+skin[\47ENDCAP_LINK_COLOR\47] \75 \42#000000\42;\n skin[\47ALTERNATE_BG_COLOR\47]
+\75 \42transparent\42;\n \n skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#000000\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#333333\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#FFFFFF\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#000000\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#000000\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 100% \\x27Trebuchet MS\\x27,Verdana,Arial,Sans-serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-m89sdtaqueno\42,\n height: 260,\n \n \n \n site: \04207196751862691424959\42,\n
+\n locale: \47el\47 },\n skin);\n \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/92936493-lbx_el.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

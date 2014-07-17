@@ -1,0 +1,2940 @@
+
+
+
+
+<!-- /* vBulletin 3 CSS For Style 'Default Boervolk' (styleid: 7) */ body { background:
+#123456 url(./images/misc/header_bg.gif) repeat; color: #000000; font: 12pt verdana,
+argor got scaqh, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; margin:
+5px 10px 10px 10px; padding: 0px; } a:link, body_alink { color: #22229C; } a:visited,
+body_avisited { color: #22229C; } a:hover, a:active, body_ahover { color: #FF9900; } .page {
+background: #123456 url(./images/misc/header_bg.gif) repeat; color: #000000; } td, th,
+p, li { font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; }
+.tborder { background: #0033CC; color: #000000; border: 2px solid #0B198C; } .tcat {
+background: #FF9933; color: #003333; font: bold italic 10pt verdana, geneva, lucida,
+'lucida grande', arial, helvetica, sans-serif; } .tcat a:link, .tcat_alink { color:
+#ffffff; text-decoration: none; } .tcat a:visited, .tcat_avisited { color: #ffffff;
+text-decoration: none; } .tcat a:hover, .tcat a:active, .tcat_ahover { color: #660033;
+text-decoration: underline; } .thead { background:
+#FF9./images/gradients/gradient_thead.gif#FF9900; color: #FFFFFF; font: bold 10px
+tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; } .thead
+a:link, .thead_alink { color: #FFFFFF; } .thead a:visited, .thead_avisited { color:
+#FFFFFF; } .thead a:hover, .thead a:active, .thead_ahover { color: #FFFF00; } .tfoot {
+background: #3E5C92; color: #FFFFFF; font: bold italic 12px verdana, geneva, lucida,
+'lucida grande', arial, helvetica, sans-serif; } .tfoot a:link, .tfoot_alink { color:
+#FFFFFF; } .tfoot a:visited, .tfoot_avisited { color: #FFFFFF; } .tfoot a:hover, .tfoot
+a:active, .tfoot_ahover { color: #FFFF66; } .alt1, .alt1Active { background: #CCCCCC;
+color: #000000; } .alt2, .alt2Active { background: #EDEDED; color: #000000; } td.inlinemod
+{ background: #FFFFCC; color: #000000; } .wysiwyg { background: #F5F5FF; color: #000000;
+font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; }
+textarea, .bginput { background: #0099FF; font: 10pt verdana, geneva, lucida, 'lucida
+grande', arial, helvetica, sans-serif; } .button { font: 11px verdana, geneva, lucida,
+'lucida grande', arial, helvetica, sans-serif; } select { font: 11px verdana, geneva,
+lucida, 'lucida grande', arial, helvetica, sans-serif; } option, optgroup { font-size:
+11px; font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica,
+sans-serif; } .smallfont { font: 11px verdana, geneva, lucida, 'lucida grande', arial,
+helvetica, sans-serif; } .time { color: #666686; } .navbar { font: 11px verdana, geneva,
+lucida, 'lucida grande', arial, helvetica, sans-serif; } .highlight { color: #FF0000;
+font-weight: bold; } .fjsel { background: #CC6600; color: #E0E0F6; } .fjdpth0 { background:
+#F7F7F7; color: #000000; } .panel { background: #E4E7F5
+url(./images/gradients/gradient_panel.gif) repeat-x top left; color: #000000;
+padding: 10px; border: 1px outset; } .panelsurround { background: #0066FF; color: #000000;
+} legend { color: #22229C; font: 11px tahoma, verdana, geneva, lucida, 'lucida grande',
+arial, helvetica, sans-serif; } .vbmenu_control { background: #FF9933; color: #006633;
+font: bold italic 12px verdana, argor got scaqh, geneva, lucida, 'lucida grande', arial,
+helvetica, sans-serif; padding: 3px 6px 3px 6px; white-space: nowrap; } .vbmenu_control
+a:link, .vbmenu_control_alink { color: #006633; text-decoration: none; }
+.vbmenu_control a:visited, .vbmenu_control_avisited { color: #006633;
+text-decoration: none; } .vbmenu_control a:hover, .vbmenu_control a:active,
+.vbmenu_control_ahover { color: #FFFFFF; text-decoration: underline; } .vbmenu_popup {
+background: #FFFFFF; color: #000000; border: 1px solid #0B198C; } .vbmenu_option {
+background: #BBC7CE; color: #000000; font: 11px verdana, geneva, lucida, 'lucida grande',
+arial, helvetica, sans-serif; white-space: nowrap; cursor: pointer; } .vbmenu_option
+a:link, .vbmenu_option_alink { color: #22229C; text-decoration: none; } .vbmenu_option
+a:visited, .vbmenu_option_avisited { color: #22229C; text-decoration: none; }
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover { color:
+#FFFFFF; text-decoration: none; } .vbmenu_hilite { background: #8A949E; color: #FFFFFF;
+font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+white-space: nowrap; cursor: pointer; } .vbmenu_hilite a:link, .vbmenu_hilite_alink {
+color: #FFFFFF; text-decoration: none; } .vbmenu_hilite a:visited,
+.vbmenu_hilite_avisited { color: #FFFFFF; text-decoration: none; } .vbmenu_hilite
+a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover { color: #FFFFFF;
+text-decoration: none; } /* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; } /* ***** small padding on 'thead' elements ***** */
+td.thead, div.thead { padding: 4px; } /* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; } .pagenav td { padding: 2px 4px 2px 4px; } /* ***** define
+margin and font-size for elements inside panels ***** */ .fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; } /* ***** don't change
+the following ***** */ form { display: inline; } label { cursor: default; } .normal {
+font-weight: normal; } .inlineimg { vertical-align: middle; } --> <!-- var SESSIONURL =
+"s=d98b9776b5579f3f08ecff7d25121687&"; var IMGDIR_MISC = "./images/misc"; var
+vb_disable_ajax = parseInt("0", 10); // --> <!-- function vba_attach_win(threadid) {
+openWindow('./misc.php?s=d98b9776b5579f3f08ecff7d25121687&amp;do=showattachments&t='
++ threadid, 480, 300); } --> Joseph Stalin - Die Boervolk van SA
+
+
+
+Image: ./images/misc/Solid-logo1.jpg <!-- function log_out() { ht =
+document.getElementsByTagName("html"); ht[0].style.filter =
+"progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)"; if (confirm('Are you
+sure you want to log out?')) { return true; } else { ht[0].style.filter = ""; return false; } }
+//-->
+
+
+
+Image: ./images/misc/navbits_start.gif   Die Boervolk van SA > Uitspan....Ontspan >
+Kampvuur praatjies / Jeugsake
+
+Image: ./images/misc/navbits_finallink.gif Joseph Stalin User Name Remember Me?
+Password FAQ Members List Calendar Search Today's Posts Mark Forums Read
+
+
+
+Image: ./images/buttons/collapse_tcat.gif » Recent Threads
+
+Image: images/icons/duiwel.gif Johan Coetzer ( Rooi Jan )...
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 8 Hours Ago 12:18 PM
+
+Image: ./images/icons/icon13.gif FH Pretorius..Oupabaard
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 3 Days Ago 06:49 PM
+
+Image: images/icons/banghead.gif Die Gunter bashers!!!
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 3 Days Ago 05:00 PM
+
+Image: ./images/icons/icon5.gif Boere Beskermings Forum (BBF)
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 3 Days Ago 06:36 AM
+
+Image: ./images/icons/icon4.gif Mass Actions
+
+Image: ./images/buttons/lastpost.gif Last post by AB-nuus 4 Days Ago 07:32 PM Deborah de
+Richter
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 5 Days Ago 08:10 PM
+
+Image: ./images/icons/icon13.gif boerevryheid.co.za.....
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 5 Days Ago 04:04 PM
+
+Image: ./images/icons/icon4.gif Verkeers sake
+
+Image: ./images/buttons/lastpost.gif Last post by AB-nuus 6 Days Ago 07:46 PM
+
+Image: images/icons/duiwel.gif Dr Johan ( Let's )...
+
+Image: ./images/rating/rating_5.gif
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 1 Week Ago 12:27 AM
+
+Image: ./images/icons/icon1.gif ET
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 1 Week Ago 10:22 PM
+
+Image: ./images/icons/icon13.gif Aanvalle...............
+
+Image: ./images/buttons/lastpost.gif Last post by AB-nuus 1 Week Ago 08:36 AM
+
+Image: images/icons/dazed052.gif Barend Pienaar
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 1 Week Ago 06:50 PM
+
+Image: ./images/icons/icon5.gif Malema le laag, baie laag.
+
+Image: ./images/buttons/lastpost.gif Last post by AB-nuus 1 Week Ago 05:44 PM
+
+Image: images/icons/dazed052.gif ekke is 123
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 2 Weeks Ago 07:25 PM
+
+Image: images/icons/th_coolio.gif Noordoos.......
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 2 Weeks Ago 07:58 PM
+
+Image: ./images/misc/paperclip.gif
+
+Image: images/icons/witch1.gif OOPS boerevryheid ???????
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 2 Weeks Ago 03:02 PM
+
+Image: ./images/icons/icon5.gif Power cuts
+
+Image: ./images/buttons/lastpost.gif Last post by AB-nuus 2 Weeks Ago 12:37 PM
+
+Image: images/icons/bookh.gif Die Siener....die nuwe boek.
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 2 Weeks Ago 07:50 AM
+
+Image: images/icons/signs006.gif Vaandel Adriaan Snyman
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 2 Weeks Ago 06:58 AM
+
+Image: ./images/icons/icon12.gif 2011 na 2012
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 2 Weeks Ago 03:26 PM
+
+Image: ./images/icons/icon5.gif Boer/Afrikaner
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 3 Weeks Ago 03:55 PM
+
+Image: images/icons/pissed.gif Boeremag saak (saga)
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 3 Weeks Ago 02:37 AM Verregse
+moordkomplot oopgevlek
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 4 Weeks Ago 09:17 AM
+
+Image: images/icons/skull.gif jjgsmith en Anker
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 4 Weeks Ago 08:24 PM
+
+Image: images/icons/signs005.gif My Stryd, My Land, My Volk My...
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 08-29-2012 01:40 PM
+
+Image: images/icons/shoot.gif Onluste
+
+Image: ./images/buttons/lastpost.gif Last post by AB-nuus 08-28-2012 04:43 PM
+
+Image: images/icons/skull.gif Wittes ook barbare
+
+Image: ./images/buttons/lastpost.gif Last post by AB-nuus 08-28-2012 03:05 PM
+
+Image: ./images/icons/icon11.gif Ag Moerder, die sg boerevolk
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 08-26-2012 04:29 PM
+genocidewatch.org.
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 08-23-2012 10:24 PM
+
+Image: images/icons/popo.gif Frikkie Potgieter (Kubaan), The...
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 08-22-2012 06:51 AM Siener Boer
+Afrikaner
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 08-18-2012 12:52 AM
+
+Image: images/icons/bunny_4.gif Flag van die Oranja Vrystaat
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 08-16-2012 11:35 AM
+
+Image: images/icons/FIREdevil.gif Piet (Petrus) ( Skiet...
+
+Image: ./images/rating/rating_5.gif
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 08-13-2012 09:19 AM
+
+Image: images/icons/pissed.gif Tienie Groenewald Se Verraad
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 08-10-2012 08:14 PM
+
+Image: ./images/icons/icon5.gif Koninkryk van God
+
+Image: ./images/buttons/lastpost.gif Last post by Piett 08-10-2012 07:41 PM
+
+Image: ./images/buttons/reply.gif   Thread Tools
+
+Image: ./images/statusicon/post_old.gif 07-12-2008   # 1 Piett
+vbmenu_register("postmenu_8269", true); Super Moderator  
+
+
+
+Image: customavatars/avatar6_11.gif  
+
+Join Date: Jan 2007 Posts: 15,102
+
+Image: ./images/reputation/reputation_pos.gif Joseph Stalin
+
+
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to: navigation , search
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Padlock-silver-medium.svg/20px-Padlock-silver-medium.svg.png
+
+
+
+"Stalin" redirects here. For other uses, see Stalin (disambiguation) .
+
+Joseph Vissarionovich Stalin
+
+იოსებ ბესრიონის სტალინი
+
+Иосиф Виссарионович Сталин
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Stalin1.jpg/225px-Stalin1.jpg
+
+General Secretary of the Communist Party of the Soviet Union
+
+In office
+
+April 3 , 1922 – March 5 , 1953 Preceded by None (position created in 1922) Succeeded by Nikita
+Khrushchev Chairman of the Council
+
+of People's Commissars
+
+In office
+
+May 6 , 1941 – March 5 , 1953 Preceded by Vyacheslav Molotov Succeeded by Georgy Malenkov Born
+December 18 , 1878 (1878-12-18) [1]
+
+Gori , Georgia , Russian Empire Died March 5 , 1953 (aged 74)
+
+Moscow , Russian SFSR , Soviet Union Nationality Georgian Political party Communist Party
+
+of the Soviet Union Religion None (atheist) Joseph Stalin ( Russian : Иосиф
+Сталин; Georgian : იოსებ სტალინი, born as Iosef
+Vissarionovich Dzhugashvili , December 18 , 1878 – March 5 , 1953 ) was General Secretary of
+the Communist Party of the Soviet Union 's Central Committee from 1922 until his death in 1953.
+During that time he established the regime now known as Stalinism . As one of several Central
+Committee Secretariats, Stalin's formal position was originally limited in scope, but he
+gradually consolidated power and became the de facto party leader and dictator [2] of the
+Soviet Union .
+
+Stalin launched a command economy in the Soviet Union, and forced rapid industrialization of
+the largely rural country and collectivization of its agriculture by confiscating the lands
+of farmers. He derogatorily referred to farmers as " kulaks "; millions were killed, exiled to
+Siberia , or died of starvation after their land, homes, meager possessions, and ability to
+earn an existence from the land were taken to fulfill Stalin's vision of massive " factory
+farms ". While the Soviet Union transformed from an agrarian economy to a major industrial
+powerhouse in a short span of time, millions of people died from hardships and famine that
+occurred as a result of the severe economic upheaval and party policies. At the end of 1930s,
+Stalin launched the Great Purge , a major campaign of political repression . During his
+continued repressions, millions of people who were a threat to the Soviet politics or
+suspected of being such a threat were executed or exiled to Gulag labor camps in remote areas of
+Siberia or Central Asia , where many more died of disease, malnutrition and exposure. A number
+of ethnic groups in Russia were forcibly resettled for political reasons.
+
+During Stalin's rule, the Soviet Union played a major role in the defeat of Nazi Germany in the
+Second World War (1939–1945). Some historians believe Stalin contributed to starting
+World War II because of his secret agreement with Nazi Germany to carve up the nation of Poland ,
+as part of the Molotov-Ribbentrop Pact of 1939. This led to the Soviet Union's invasion of
+Poland from the east later that same year, following Nazi Germany's invasion of western
+Poland.
+
+Under Stalin's leadership after the war, the Soviet Union went on to achieve recognition as
+one of just two superpowers in the world. That status lasted for nearly four decades after his
+death until the dissolution of the Soviet Union . __________________
+
+Quote: Ek staan eder saam met 10 man, wat eerstens met God en die waarheid gewapen is, en dan met
+die wapen gewapen is.
+
+As wat ek saam met n 1000 man staan, wat net met die wapen alleen gewapen is.
+
+Ek staan erder met n man wat feitlik korek is, as n man wat Geeslik verkeerd is.
+
+SIENER VAN RENSBURG
+
+AAN DIE STERKSE EN MEES OPREGSTE BOER SAL DAAR GELOUTER WORD
+
+http://boervolk.com/forums/showthrea...=3750#post3750
+
+Image: ./images/statusicon/user_online.gif  
+
+Image: ./images/buttons/quote.gif Piett View Public Profile Send a private message to
+Piett Find More Posts by Piett
+
+Image: ./images/statusicon/post_old.gif 07-12-2008   # 2 Piett
+vbmenu_register("postmenu_8270", true); Super Moderator  
+
+
+
+Image: customavatars/avatar6_11.gif  
+
+Join Date: Jan 2007 Posts: 15,102
+
+Image: ./images/reputation/reputation_pos.gif Quote: Introduction
+
+
+
+Born Iosef Vissarionovich Dzhugashvili ( Georgian : იოსებ
+ბესარიონის ძე ჯუღაშვილი, Iosef Besarionis
+Dze Jughashvili ; Russian : Ио́сиф Виссарио́нович
+Джугашви́ли ? · i , Iosif Vissarionovich Dzhugashvili ) ( December 18 [ O.S.
+December 6] 1878 [1] – March 5 , 1953 ), better known by his assumed name, Josef Stalin
+(Иосиф Сталин, Iosif Stalin ; stalin meaning "made of steel" [3] ) became General
+Secretary of the Soviet Communist Party in 1922. Following the death of Vladimir Lenin in
+1924, Stalin prevailed in a power struggle over Leon Trotsky , who was expelled from the
+Communist Party and deported from the Soviet Union.
+
+In the 1930s Stalin initiated a Purge of the Communist Party of the Soviet Union , which has
+become known as the Great Purge , an unprecedented campaign of political repression,
+persecution and executions that reached its peak in 1937. Stalin's rule had long-lasting
+effects on the features that characterized the Soviet state from the era of his rule to its
+collapse in 1991. Stalin claimed his policies were based on Marxism-Leninism . Now his
+political and economic system is referred to as Stalinism . Some Maoists , anti-revisionists
+and some others say he was actually the last legitimate Socialist leader in the Soviet Union's
+history.
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Moving_Out.jpg/185px-Moving_Out.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Nikolai Getman , Moving out. The Gulag Collection. [4]
+
+
+
+
+
+Stalin replaced the New Economic Policy (NEP) of the 1920s with Five-Year Plans in 1928 and
+initiated collective farming at roughly the same time. He transformed the Soviet Union from a
+predominantly peasant society to a major world industrial power by the end of the 1930s. [5]
+[6] [7]
+
+Confiscations of grain and other food by the Soviet authorities under his orders contributed
+to a famine between 1932 and 1934, especially in the key agricultural regions of the Soviet
+Union, Ukraine ( see Holodomor ), Kazakhstan and North Caucasus , that resulted in millions of
+deaths. Many peasants resisted collectivization and grain confiscations, but were
+repressed, especially well-off peasants deemed " kulaks ". [8]
+
+Bearing the brunt of the Nazis' attacks (around 75% of the Wehrmacht 's forces), the Soviet
+Union under Stalin made the largest and most decisive contribution to the defeat of Nazi
+Germany during World War II (known in the USSR as the Great Patriotic War , 1941–1945). After
+the war, Stalin established the USSR as one of the two major superpowers in the world, a
+position it maintained for nearly four decades following his death in 1953.
+
+Stalin's rule, reinforced by a cult of personality , fought real and alleged opponents mainly
+through the security apparatus, such as the NKVD . Millions of people were killed through
+famines , executions, deportations , and in the Gulag . In 1956, Nikita Khrushchev , Stalin's
+eventual successor, first denounced Stalin's rule and the cult of personality, thus
+initiating the process of " de-Stalinization " which later contributed to the Sino-Soviet
+Split .
+
+
+
+Childhood and education, 1878–1899
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Vissarion_Jughashvili.jpg/150px-Vissarion_Jughashvili.jpg
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Ekaterina_Dzhugashvili.jpg/188px-Ekaterina_Dzhugashvili.jpg
+Supposed photograph of "Vissarion" (Stalin's Father) and Ekaterina Dzhugashvili.
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Stalin_birth_house.JPG.jpg/200px-Stalin_birth_house.JPG.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Stalin's birth house in Gori , Georgia
+
+
+
+
+
+Joseph Stalin was born Iosif Vissarionovich Dzhugashvili in Gori , Georgia to Vissarion and
+Ekaterina Dzhugashvili . Stalin's mother was born a serf . His father was a cobbler and owned
+his own workshop. He was their third child; their two previous sons died in infancy. The second
+and third toes of his left foot were webbed. [9] [10]
+
+Initially, the Dzhugashvilis' lives were prosperous and happy, but Stalin's father became
+an alcoholic [11] , which gradually led to his business failing and his becoming violently
+abusive to his wife and child. As their financial situation grew worse, Stalin's family moved
+homes frequently; at least nine times in Stalin's first ten years of life. [12]
+
+The town where Stalin grew up was a violent and lawless place. It had only a small police force
+and a culture of violence that included gang-warfare, organized street brawls and wrestling
+tournaments (some of these were traditions inherited from Georgia's war-torn past). [12]
+Stalin took part in streetfighting as a child; he was not afraid to challenge opponents who
+were much stronger than he, and he was severely beaten on numerous occasions. [12]
+
+At the age of 7, Stalin fell ill with smallpox and his face was badly scarred by the disease. He
+later had photographs retouched to make his pockmarks less apparent. Stalin's native tongue
+was Georgian. He started learning Russian only when he was eight or nine years old, and he never
+lost his strong Georgian accent.
+
+At the age of 10, Stalin began his education at the Gori Church School. His peers were mostly the
+sons of affluent priests, officials, and merchants. He and most of his classmates at Gori were
+Georgians and spoke mostly Georgian . However, at school they were forced to speak Russian
+(this was the policy of Tsar Alexander III ). Their Russian teachers mocked the accents of
+their Georgian students, and regarded their language and culture as inferior.
+Nevertheless, Stalin earned the respect and admiration of his teachers by being the best
+student in the class, earning top marks across the board. He developed a passion for learning
+that stayed with him for the rest of his life. He became a very good choir singer and was often
+hired to sing at weddings. He also began to write poetry, something he would develop in later
+years. [12]
+
+Stalin's father, who had always wanted the boy to be trained as a cobbler rather than be
+educated, was infuriated when he was accepted into the school. In his anger he smashed the
+windows of the local tavern, and later attacked the town police chief. Out of compassion for
+Stalin's mother, the police chief did not arrest him, but ordered Vissarion to leave town. He
+moved to Tiflis where he found work in a shoe factory and left his family behind in Gori. [12]
+
+About the time Stalin began school, he was struck by a horse-drawn carriage. The accident
+permanently damaged his left arm; this injury would later exempt him from military service in
+World War I. At the age of 12, Stalin was struck again by a horse-drawn carriage and injured
+badly. He was taken to hospital in Tiflis where he spent months in care. After he recovered, his
+father seized the opportunity to kidnap the boy and enroll him as an apprentice cobbler at the
+shoe factory where he worked. When his mother, through the aid of contacts in the clergy and
+school staff, recovered the boy, his father cut off all financial support to his wife and son,
+leaving them to fend for themselves. Stalin returned to his school in Gori where he continued
+to excel. [12]
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Stalin_1894.jpg/150px-Stalin_1894.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Young Stalin, circa 1894 (age 16).
+
+
+
+
+
+He graduated first in his class and in 1894, at the age of 16, he enrolled at the Georgian
+Orthodox Seminary of Tiflis , to which he had been awarded a scholarship. The teachers at
+Tiflis Seminary were also determined to impose Russian language and culture on the Georgian
+students. [12] Like many of his comrades, young Stalin reacted by being drawn to Georgian
+patriotism. During this time he gained fame as a poet; his poems were published in several
+local newspapers. However, his interest for poetry began to fade as he was drawn to rebellion
+and revolution.
+
+During his time at the seminary, Stalin and numerous other students read forbidden
+literature that included Victor Hugo novels and revolutionary (including Marxist)
+literature. He was caught and punished numerous times for this. One teacher in particular -
+Father Abashidze, whom Stalin nicknamed "the Black Spot" - harassed the rebel students
+through student informers, nightly patrols and surprise dormitory raids. This personal
+experience of "surveillance, spying, invasion of inner life, violation of feelings", in
+Stalin's own words, influenced the design of his future terror state. [12] He became an
+atheist in his first year. [12] He insisted his peers call him "Koba", after the Robin
+Hood-like protagonist of the novel The Patricide by Alexander Kazbegi; he would continue to
+use this pseudonym as a revolutionary. In August 1898, he joined the Russian
+Social-Democratic Labour Party (from which the Bolsheviks would later form).
+
+Shortly before the final exams, the Seminary abruptly raised school fees. Unable to pay,
+Stalin quit the seminary in 1899 and missed his exams, for which he was officially expelled.
+[12] Twenty of his fellow-classmates were expelled for revolutionary activities in 1899,
+and forty more were expelled in 1901. [13] Shortly after leaving school, Stalin discovered
+the writings of Vladimir Lenin and decided to become a revolutionary. Teken van sy bloedlyn .
+__________________
+
+Quote: Ek staan eder saam met 10 man, wat eerstens met God en die waarheid gewapen is, en dan met
+die wapen gewapen is.
+
+As wat ek saam met n 1000 man staan, wat net met die wapen alleen gewapen is.
+
+Ek staan erder met n man wat feitlik korek is, as n man wat Geeslik verkeerd is.
+
+SIENER VAN RENSBURG
+
+AAN DIE STERKSE EN MEES OPREGSTE BOER SAL DAAR GELOUTER WORD
+
+http://boervolk.com/forums/showthrea...=3750#post3750
+
+Image: ./images/statusicon/user_online.gif  
+
+Image: ./images/buttons/quote.gif Piett View Public Profile Send a private message to
+Piett Find More Posts by Piett
+
+Image: ./images/statusicon/post_old.gif 07-12-2008   # 3 Piett
+vbmenu_register("postmenu_8271", true); Super Moderator  
+
+
+
+Image: customavatars/avatar6_11.gif  
+
+Join Date: Jan 2007 Posts: 15,102
+
+Image: ./images/reputation/reputation_pos.gif Early years as a Marxist revolutionary,
+1899–1917
+
+
+
+After abandoning his priestly education, Stalin took a job as a weatherman at the Tiflis
+Meteorological Observatory. Although the pay was relatively low (20 roubles a month), his
+workload was light, giving him plenty of time for revolutionary activities. He would
+organise strikes, lead demonstrations and give speeches. He soon caught the attention of the
+Tsar's secret police, the Okhrana . During this time he met and charmed Simon Ter-Petrossian ,
+a violent psychopath [14] who became his long-time henchman and enforcer.
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Stalin_1902.jpg/200px-Stalin_1902.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Stalin in 1902.
+
+
+
+
+
+On the night of April 3 1901 the Okhrana arrested a number of SD Party leaders in Tiflis , but
+Stalin spotted their agents waiting in ambush at the Observatory and avoided capture. He went
+underground, becoming a full-time revolutionary, living off donations from friends,
+sympathizers and his Party. He began writing revolutionary articles for the Baku -based
+radical newspaper Brdzola ("Struggle"). [12]
+
+In October, Stalin fled to Batumi and got work at an oil refinery owned by the Rothschild family
+. Organizing the workers there, Stalin was almost certainly involved in a 1902 fire at the
+refinery designed to trick the management into giving the workers a bonus for putting out the
+fire. However, the manager suspected arson and refused to pay. This led to a series of strikes,
+all organized by Stalin, which in turn led to arrests and clashes with the Cossacks in the
+streets. In one attempt to break their comrades out of prison, thirteen strikers were killed
+when Cossacks intervened. Stalin distributed incendiary pamphlets portraying the dead as
+martyrs. On April 18 1902, the authorities finally arrested Stalin at one of his secret
+meetings. At his trial, Stalin was acquitted of leading the riots due to lack of evidence, but
+was kept in custody whilst the authorities investigated his activities in Tiflis. In 1903,
+the authorities decided to exile Stalin to Siberia for three years. [12]
+
+Stalin ended up in the Siberian town of Novaya Uda on December 9 1903. During this time, he heard
+that two rival factions within the Social-Democrats had formed: the Bolsheviks under Lenin
+and the Mensheviks under Julius Martov . Stalin, already an admirer, decided to become a
+Leninist. Stalin managed to obtain false papers and, on January 17 1904, escaped Siberia by
+train, arriving back in Tiflis ten days later. [12]
+
+With no income, Stalin lived off his circle of friends. One of them introduced him to Lev
+Kamenev (then known as Lev Rosenfeld), his future co-ruler of the USSR after Lenin's death. At
+this time, Stalin favored a Georgian Social-Democratic party, which caused a rift with the
+majority who favored international Marxism. Threatened with expulsion, he was forced to
+write Credo , a paper renouncing his views (because this paper distanced himself from Lenin,
+when Stalin became ruler of the USSR, he tried to destroy all copies of this Credo , and many of
+those who had read it were shot). [12]
+
+In February 1904, the Russo-Japanese War broke out between Japan and Russia. The war, which
+would eventually end in Russia's defeat, severely strained the Russian economy and caused a
+great deal of restlessness in Georgia. Stalin travelled across Georgia conducting
+political activity for his party. He also worked to undermine the Mensheviks through a
+campaign of slander and intrigue; his efforts brought him to Lenin's attention for the first
+time.
+
+On January 22 1905, Stalin was in Baku when Cossacks attacked a mass demonstration of workers,
+killing two hundred. This sparked off the Russian Revolution of 1905 . Riots, peasant
+uprisings and ethnic massacres swept the Russian Empire. In February, ethnic Azeris and
+Armenians were slaughtering each other in the streets of Baku. Commanding a squad of armed
+Bolsheviks, Stalin ran protection rackets to raise Party funds and stole printing
+equipment. Afterwards, he headed west, where continued to campaign against the Mensheviks,
+who enjoyed overwhelming support in Georgia. In the mining town of Chiatura , both Stalin and
+the Mensheviks competed for the support of the miners; they chose Stalin, being more swayed by
+his plain and concise manner of speaking than the flamboyant oratory of the Menshevik
+speaker. [12] From Chiatura, Stalin organized and armed Bolshevik militias across Georgia.
+With them, he ran protection rackets among the wealthy and waged guerilla warfare on
+Cossacks, policemen and the Okhrana. [12] Later that year in Tiflis, he met Ekaterina
+Svanidze , who would become his first wife.
+
+In December 1905, Stalin and two other were elected to represent the Caucusus at the next
+Bolshevik conference, which took place in Tammerfors , Finland . There, on January 7 1906,
+Stalin met Lenin in person for the first time. Although Stalin was impressed by Lenin's
+personality and intellect, he was not afraid to contradict him. [12] He objected to Lenin's
+proposal that they take part in elections to the recently-formed Duma ; Lenin conceded to
+Stalin. At the conference he also met Emelian Yaroslavsky , his future propaganda chief, and
+Solomon Lozovsky , his future Deputy Foreign Commissar.
+
+After the conference, Stalin returned to Georgia, where Cossack armies were brutally
+working to reconquer the rebellious region for the Tsar. In Tiflis , Stalin and the Mensheviks
+plotted the assassination of General Fyodo Griiazanov, which was carried out on March 1 1906.
+Stalin continued to raise money for the Bolsheviks through extortion, bank robberies and
+hold-ups.
+
+In April 1906, Stalin attended the Fourth Congress of the Russian Social Democratic Labour
+Party . At the conference, he met Klimenti Voroshilov, his future Defence Commissar and First
+Marshal; Felix Dzerzhinsky , future founder of the Cheka ; and Grigory Zinoviev , with whom he
+would share power after Lenin's death. The Congress - in which the Bolsheviks were
+outnumbered - voted to ban bank robberies. This upset Lenin, who needed the bank robberies to
+raise money. [12]
+
+Stalin married Ekaterina Svanidze on the night of July 28 1906. On March 31 1907, she gave birth
+to Stalin's first child, Yakov .
+
+Stalin and Lenin both attended the Fifth Congress of the Russian Social Democratic Labour
+Party in London in 1907. [15] This Congress consolidated the supremacy of Lenin's Bolshevik
+faction and debated strategy for communist revolution in Russia. Here, Stalin first met Leon
+Trotsky in person; Stalin immediately came to hate him, calling him "pretty but useless".
+[12] After the conference, Stalin began switching his focus away from Georgia, which was rife
+with feuding and dominated by the Mensheviks, to Russia; he began writing in Russian.
+
+Upon his return to Tiflis , Stalin readied himself for a major bank robbery. Through contacts
+in the banking business, he had learned a major shipment of money was due to be delivered in June
+to the Imperial Bank at the centre of town. Because his party banned bank robberies, Stalin
+temporarily resigned. On June 26 1907, Stalin's gang ambushed the armed convoy when it
+entered Yerevan Square with gunfire and homemade bombs. Around forty people were killed, but
+all of Stalin's gang managed to escape alive with 250,000 roubles (around US$3.4 million in
+today's terms). [12] Stalin and his family left Tiflis two days later. His henchman Kamo
+delivered the money to Lenin in Finland , who then fled with it to Geneva . The Mensheviks, who
+had banned bank robberies (and didn't get to share in the loot), were outraged and
+investigated the suspects. Stalin escaped expulsion, though the affair would cause him
+trouble for years to come.
+
+Stalin's family moved to Baku . Whilst Stalin continued his revolutionary activities, his
+wife fell ill from Baku's pollution, heat, stress and malnourishment. She eventually
+contracted typhus (though many historians believe it to have been tuberculosis ) and died on
+December 5 1907. Stalin was overcome with grief and retreated into mourning for several
+months. The loss also hardened him; he told a friend: "with her died my last warm feelings for
+humanity". [12] He abandoned his son, Yakov, who was raised by his deceased wife's family.
+
+When Stalin resumed his activities, he organized more strikes and agitation, this time
+focusing on the Muslim Azeri and Persian workers in Baku . He helped found a Muslim Bolshevik
+group called Himmat, and also supported Persian Constitutional Revolution with manpower
+and weapons, and even visited Persia to organize partisans. Stalin ordered the murders of
+many Black Hundreds (right-wing supporters of the Tsar), and conducted protection rackets
+and ransom kidnappings against the oil tycoons of Baku . He also operated counterfeiting
+operations, robberies and protection rackets. He befriend the criminal gangs, and used them
+to obstruct Mensheviks. Stalin's gangsterism upset the Bolshevik intelligentsia, but he
+was too influential and indsipensable to oppose. [12]
+
+The Okhrana tracked down and arrested Stalin on April 7 1908. After seven months in prison, he
+was sentenced to two years exile in Siberia. He arrived in the village of Solvychegodsk in
+early March 1909. After seven months in exile, he disguised himself as a woman and escaped on a
+train to St Petersburg. He returned to Baku in late July. [12]
+
+The Bolsheviks were on the verge of collapse due to Okhrana oppression within the Empire and
+infighting among the intelligentsia abroad. In desperation, he advocated a reconciliation
+with the Mensheviks (which Lenin opposed). He demanded the creation of a Russian Bureau to run
+the Social-Democratic Party from within the Empire, to which he was appointed.
+
+Stalin soon realised the Bolsheviks had been heavily infiltrated by Tsarist spies. He
+initiated a witch-hunt for traitors. However, he failed to root out any real traitors (as
+revealed by Okhrana records [12] ), and his efforts caused much disarray in the Party.
+
+On April 5 1910 Stalin was yet again arrested by the Okhrana . He was banned from the Caucasus for
+five years and sentenced to complete his previous exile in Solvychegodsk . He was deported
+back there in September. He briefly escaped in early 1911, but another exile who was supposed
+to pass much-needed money to him instead ran off with it (Stalin would have him shot for this in
+1937), and he was forced to return to Solvychegodsk . During his exile, he fell in love with a
+local girl, Maria Kuzakova, with whom he fathered a child. He was released on July 9 1911.
+Stalin moved to Vologda in late July, where he had been ordered to reside for two months.
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Stalin%27s_Mug_Shot.jpg/200px-Stalin%27s_Mug_Shot.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+The information card on Joseph Stalin, from the files of the Tsarist secret police in Saint
+Petersburg, 1912.
+
+
+
+
+
+In January 1912, at the Prague Party Conference , Lenin led his Bolshevik faction out of the
+Russian Social Democratic Labor Party, founding the separate Bolshevik Party . Stalin was
+coopted as a member of the new Bolshevik Central Committee. When Stalin was informed of this,
+he left Vologda in late February.
+
+Stalin moved to Saint Petersburg in April 1912, where he took control of the Bolshevik weekly
+newspaper Zvezda . Stalin had been assigned to convert Zvezda into a daily and rename it Pravda
+. The first issue was published on May 5.
+
+Shortly afterwards, the Okhrana caught up with him again, and in July 1912 he was exiled again
+to Siberia for three years, this time in the small village of Narym . He escaped just
+thirty-eight days after arriving; this was his shortest exile. [12] He returned to Saint
+Petersburg in September.
+
+Stalin made efforts to reconcile the Bolsheviks with the Mensheviks in hopes of salvaging the
+struggling Marxist movement. He published editorials in Pravda advocating
+reconciliation, and secretly met with Menshevik leaders on several occasions. This angered
+Lenin , who twice summoned Stalin to Kraków to argue policy. On the second visit at the end of
+1912, Stalin was removed from his post as editor of Pravda , but was made a leader of the Russian
+Bureau of the Bolshevik Party. Lenin also asked Stalin to write an essay laying out the
+Bolshevik position on national minorities.
+
+After Kraków , Stalin spent several weeks in Vienna with the Troyanovskys, a wealthy
+Bolshevik couple he met with Lenin in Kraków. Whilst there he met for the first time Nikolai
+Bukharin , who would become a leading politician in the future Soviet government. They
+continued to discuss the issue of nationalities. Stalin completed his essay on the topic,
+entitled "Marxism and the National Question", which was published in March 1913 under the
+pseudonym "K. Stalin" (this was the first time he used the name "Stalin" in a publishing; he
+began using this alias in 1912).
+
+Stalin returned to Saint Petersburg in February 1913. During this time, many Bolsheviks,
+including almost the entire Central Committee, had been arrested by the Okhrana, having been
+betrayed by Roman Malinovsky , a high-ranking Bolshevik who for years had been an Okhrana spy
+and agent provocateur. That month, an article had been published that outed Malinovsky as a
+spy, but the Bolsheviks dismissed it as Menshevik libel (ironically, Lenin and Stalin were
+his strongest defenders). On March 8 Malinovsky persuaded Stalin to attend a Bolshevik
+fundraising ball, which was raided by the Okhrana.
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/4/41/Stalin_exile_1915.gif/150px-Stalin_exile_1915.gif
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Stalin in exile, 1915.
+
+
+
+
+
+Stalin was condemned to four years in the remote Siberian province of Turukhansk . He was
+eventually joined by Kamenev and several other Bolshevik exiles. He spent six months in the
+small hamlet of Kostino on the Yenisei River . After learning that Stalin was planning an
+escape (he had received money and supplies from his comrades), the authorities moved him
+north to Kureika, a hamlet on the edge of the Arctic Circle. There, he lived the life of a
+hunter-gatherer, having learned fishing and hunting from the local Siberian tribesmen.
+While there he began a 2-year affair with Lidia Pereprygina, then aged 13, with whom he
+fathered two children. The first died in infancy; the second, named Alexander, was born in
+April 1917.
+
+In late 1916, Stalin was conscripted into the army. He was taken Krasnoyarsk in February 1917,
+but the medical examiner there found him unfit for service due to his damaged left arm (a
+childhood injury). He spent his last four months of exile in the village of Achinsk.
+
+
+
+Aliases
+
+
+
+Among his friends he was sometimes known by his childhood nickname "Soso". During his
+education in Tiflis, he picked up the nickname "Koba" from the Robin Hood-like protagonist of
+The Patricide , a novel by Alexander Kazbegi; this became his favorite streetname throughout
+his revolutionary life. __________________
+
+Quote: Ek staan eder saam met 10 man, wat eerstens met God en die waarheid gewapen is, en dan met
+die wapen gewapen is.
+
+As wat ek saam met n 1000 man staan, wat net met die wapen alleen gewapen is.
+
+Ek staan erder met n man wat feitlik korek is, as n man wat Geeslik verkeerd is.
+
+SIENER VAN RENSBURG
+
+AAN DIE STERKSE EN MEES OPREGSTE BOER SAL DAAR GELOUTER WORD
+
+http://boervolk.com/forums/showthrea...=3750#post3750
+
+Image: ./images/statusicon/user_online.gif  
+
+Image: ./images/buttons/quote.gif Piett View Public Profile Send a private message to
+Piett Find More Posts by Piett
+
+Image: ./images/statusicon/post_old.gif 07-12-2008   # 4 Piett
+vbmenu_register("postmenu_8272", true); Super Moderator  
+
+
+
+Image: customavatars/avatar6_11.gif  
+
+Join Date: Jan 2007 Posts: 15,102
+
+Image: ./images/reputation/reputation_pos.gif Russian Revolution of 1917
+
+
+
+In the wake of the February Revolution of 1917 (the first phase of the Russian Revolution of
+1917 ), Stalin was released from exile. On March 25 he returned to Petrograd (Saint
+Petersburg) and, together with Lev Kamenev and Matvei Muranov , ousted Vyacheslav Molotov
+and Alexander Shlyapnikov as editors of Pravda , the official Bolshevik newspaper, while
+Lenin and much of the Bolshevik leadership were still in exile. Stalin and the new editorial
+board took a position in favor of supporting Alexander Kerensky 's provisional government
+(Molotov and Shlyapnikov had wanted to overthrow it) and went to the extent of declining to
+publish Lenin's articles arguing for the provisional government to be overthrown. However,
+after Lenin prevailed at the April Party conference, Stalin and the rest of the Pravda staff
+came on board with Lenin's view and called for overthrowing the provisional government. At
+this April 1917 Party conference, Stalin was elected to the Bolshevik Central Committee with
+the third highest total votes in the party.
+
+In mid-July, armed mobs led by Bolshevik militants took to the streets of Petrograd , killing
+army officers and bourgeois civilians. They demanded the overthrow of the government, but
+neither the Bolshevik leadership nor the Petrograd Soviet were willing to take power, having
+been totally surprised by this unplanned revolt. After the disappointed mobs dispersed,
+Kerensky's government struck back at the Bolsheviks. Loyalist troops raided Pravda and
+surrounded the Bolshevik headquarters. Stalin helped Lenin evade capture and, to avoid a
+bloodbath, ordered the besieged Bolsheviks to surrender. [12]
+
+Convinced Lenin would be killed if caught, Stalin smuggled Lenin to Finland. In Lenin's
+absence, Stalin assumed leadership of the Bolsheviks. At the Sixth Congress of the Bolshevik
+party, held secretly in Petrograd , Stalin was chosen to be the chief editor of the Party press
+and a member of the Constituent Assembly, and was re-elected to the Central Committee. [12]
+
+In September 1917, Kerensky suspected his newly-appointed Commander-in-Chief, General
+Lavr Kornilov , of planning a coup and dismissed him. Believing Kerensky was being controlled
+by the Bolsheviks, Kornilov decided to march his army on Petrograd . In desperation, Kerensky
+turned to the Petrograd Soviet for help and released the Bolsheviks, who together raised a
+small army to defend the capital. In the end, Kerensky convinced Kornilov's army to stand down
+and disband without violence. However, the Bolsheviks were now free, rearmed and swelling
+with new recruits and under Stalin's firm control, whilst Kerensky had few troops loyal to him
+in the capital. Lenin decided the time for a coup had arrived. Kamenev and Zinoniev proposed a
+coalition with the Mensheviks, but Stalin and Trotsky backed Lenin's wish for an exclusively
+Bolshevik government. Lenin returned to Petrograd in October. On October 29, the Central
+Committee voted 10-2 in favor of an insurrection; Kamenev and Zinoniev voted in opposition.
+[12]
+
+On the morning of November 6, Kerensky's troops raided Stalin's press headquarters and
+smashed his printing presses. Whilst he worked to restore his presses, he missed a Central
+Committee meeting where assignments for the coup were being issued. Stalin instead spent the
+afternoon briefing Bolshevik delegates and passing communications to and from Lenin , who
+was in hiding. [12]
+
+Early the next day, Stalin went to the Smolny Institute from where he, Lenin and the rest of the
+Central Committee coordinated the coup. Kerensky left the capital to rally the Imperial
+troops at the German front. By November 8, the Winter Palace had been stormed and Kerensky's
+Cabinet had been arrested.
+
+
+
+Rise to power, 1917–1927
+
+
+
+See also: Stalin in the Russian Civil War Communist Party
+
+of the Soviet Union
+
+Party History
+
+
+
+Party Organization
+
+Congress
+
+Central Committee
+
+Politburo
+
+Secretariat
+
+Orgburo
+
+Control Committee
+
+Auditing Commission
+
+Leaders
+
+Vladimir Lenin • Joseph Stalin
+
+Nikita Khrushchev • Leonid Brezhnev
+
+Yuri Andropov • Konstantin Chernenko
+
+Mikhail Gorbachev
+
+
+
+Pravda
+
+Komsomol
+
+
+
+Communism Portal This box: view • talk • edit
+
+After seizing Petrograd, civil war broke out in Russia, pitting Lenin 's Red Army against the
+White Army , a loose alliance of anti-Bolshevik forces. Lenin formed a five-member Politburo
+which included Stalin and Trotsky . During this time, only Stalin and Trotsky were allowed to
+see Lenin without an appointment.
+
+In April 1918, Lenin dispatched Stalin to the city of Tsaritsyn . Situated on the Lower Volga ,
+it was a key supply route to the oil and grain of the North Caucasus, and it was in danger of
+falling to the White Army . Stalin ordered the executions of any suspected
+counter-revolutionaries. Here, he first met and befriended Kliment Voroshilov and Semyon
+Budyonny , both of whom would become two of Stalin's key supporters in the military. As the
+military situation grew worse, Stalin effectively took control of the Red Army . When Trotsky
+had formed the Red Army, he recruited many former Tsarist officers for their expertise, but
+Stalin distrusted them and had many of them killed, much to Trotsky's anger. [5]
+
+On his return to Moscow in 1919, Stalin married Nadezhda Alliluyeva , his second wife.
+
+In 1922, with the aid of Lenin and Kamenev, Stalin was appointed General Secretary of the
+Central Committee. This post gave him the power to appoint his supporters to key positions
+within the government and the Party. It also brought the secret police under his control.
+
+Later, in 1924, Stalin himself created a myth around a so-called "Party Centre" which
+"directed" all practical work pertaining to the uprising, consisting of himself, Sverdlov ,
+Dzerzhinsky , Uritsky , and Bubnov . No evidence was ever shown for the activity of this
+"centre", which would, in any case, have been subordinate to the Military Revolutionary
+Council, headed by Trotsky.
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Stalin-Lenin-Kalinin-1919.jpg/300px-Stalin-Lenin-Kalinin-1919.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Joseph Stalin, Vladimir Lenin , and Mikhail Kalinin meeting in 1919. All three of them were "
+Old Bolsheviks "; members of the Bolshevik party before the Russian Revolution of 1917 .
+
+
+
+
+
+During the Russian Civil War and Polish-Soviet War Stalin was a political commissar in the Red
+Army at various fronts . Stalin's first government position was as People's Commissar of
+Nationalities Affairs (1917–1923). In that position he traveled to Finland in late 1917,
+and promised the socialists there that the RSFSR would aid their revolution . However, this
+aid was never given and the revolution in Finland was defeated.
+
+He was also People's Commissar of the Workers and Peasants Inspection (1919–1922), a
+member of the Revolutionary Military Council of the republic (1920–1923) and a member of
+the Central Executive Committee of the Congress of Soviets (from 1917).
+
+Stalin played a decisive role in engineering the 1921 Red Army invasion of Georgia following
+which he adopted particularly hardline, centralist policies towards Soviet Georgia , which
+included severe repression of all opposition within the local Communist party (e.g., the
+Georgian Affair of 1922), not to mention any manifestations of anti-Sovietism (the August
+Uprising of 1924). [16] It was in the Georgian affairs that Stalin first began to play his own
+hand. [17]
+
+
+
+Campaign against the left and right opposition
+
+
+
+On April 3 , 1922 , Stalin was made general secretary of the Central Committee of the
+All-Russian Communist Party (Bolsheviks) , a post that he subsequently built up into the most
+powerful in the country. It has been claimed that he initially attempted to decline accepting
+the post, but was refused. This position was seen to be a minor one within the party (Stalin was
+sometimes referred to as "Comrade Card-Index" by fellow party members) but, when combined
+with personal leadership over the Orgburo and with an ally (Kaganovich) heading the
+organizational Registration and Distribution Department of the Central Committee ,
+actually had potential as a power base as it allowed Stalin to fill the party with his allies.
+
+After Lenin's death in January 1924, Stalin, Kamenev , and Zinoviev together governed the
+party, placing themselves ideologically between Trotsky (on the left wing of the party) and
+Bukharin (on the right). During this period, Stalin abandoned the traditional Bolshevik
+emphasis on international revolution in favor of a policy of building " Socialism in One
+Country ", in contrast to Trotsky's theory of Permanent Revolution .
+
+In the struggle for leadership after Lenin's death one thing was evident; whoever ended up
+ruling the party had to demonstrate fealty to the memory of Lenin. Stalin did so by organizing
+the late leader's funeral, after which he made a speech professing an undying loyalty to Lenin
+that was almost religious in nature.
+
+Stalin's actual relationship with Lenin, which was far more complex than Stalin's speeches
+alluded, has been illuminated by a number of sources that were made available after the fall of
+the Soviet Union, including some from Lenin's sister. [18] [19]
+
+Stalin first worked to undermine Trotsky, who was sick at the time, possibly by misleading him
+about the date of the funeral. Consequently, Trotsky, who was Lenin’s associate
+throughout the early days of the Soviet regime, lost considerable political support. Stalin
+made great deal of the fact that Trotsky had joined the Bolsheviks just before the revolution,
+and publicized Trotsky's pre-revolutionary disagreements with Lenin. Another event that
+helped Stalin's rise was the fact that Trotsky came out against publication of Lenin's
+Testament in which he pointed out the strengths and weaknesses of Stalin and Trotsky and the
+other main players, and suggested that he be succeeded by a small group of people.
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bukharin_Stalin.jpg/180px-Bukharin_Stalin.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Joseph Stalin , cartoon by Nikolai Bukharin
+
+
+
+
+
+An important feature of Stalin’s rise to power is the way that he manipulated his opponents
+and played them off against each other. Stalin formed a " troika " of himself, Zinoviev, and
+Kamenev against Trotsky. When Trotsky had been eliminated, Stalin then joined Bukharin and
+Rykov against Zinoviev and Kamenev, emphasising their vote against the insurrection in
+1917. Zinoviev and Kamenev then turned to Lenin's widow, Krupskaya ; they formed the " United
+Opposition " in July 1926.
+
+In 1927 during the 15th Party Congress Trotsky and Zinoviev were expelled from the party and
+Kamenev lost his seat on the Central Committee. Stalin soon turned against the " Right
+Opposition ", represented by his erstwhile allies, Bukharin and Rykov .
+
+Stalin gained popular appeal from his presentation as a 'man of the people' from the poorer
+classes. The Russian people were tired from the world war and the civil war, and Stalin's
+policy of concentrating in building "Socialism in One Country" was seen as an optimistic
+antidote to war.
+
+Stalin took great advantage of the ban on factionalism which meant that no group could openly
+go against the policies of the leader of the party because that meant creation of an
+opposition. By 1928 (the first year of the Five-Year Plans ) Stalin was supreme among the
+leadership, and the following year Trotsky was exiled because of his opposition. Having also
+outmaneuvered Bukharin's Right Opposition and now advocating collectivization and
+industrialization, Stalin can be said to have exercised control over the party and the
+country.
+
+However, as the popularity of other leaders such as Sergei Kirov and the so-called Ryutin
+Affair were to demonstrate, Stalin did not achieve absolute power until the Great Purge of
+1936–1938. __________________
+
+Quote: Ek staan eder saam met 10 man, wat eerstens met God en die waarheid gewapen is, en dan met
+die wapen gewapen is.
+
+As wat ek saam met n 1000 man staan, wat net met die wapen alleen gewapen is.
+
+Ek staan erder met n man wat feitlik korek is, as n man wat Geeslik verkeerd is.
+
+SIENER VAN RENSBURG
+
+AAN DIE STERKSE EN MEES OPREGSTE BOER SAL DAAR GELOUTER WORD
+
+http://boervolk.com/forums/showthrea...=3750#post3750
+
+Image: ./images/statusicon/user_online.gif  
+
+Image: ./images/buttons/quote.gif Piett View Public Profile Send a private message to
+Piett Find More Posts by Piett
+
+Image: ./images/statusicon/post_old.gif 07-12-2008   # 5 Piett
+vbmenu_register("postmenu_8273", true); Super Moderator  
+
+
+
+Image: customavatars/avatar6_11.gif  
+
+Join Date: Jan 2007 Posts: 15,102
+
+Image: ./images/reputation/reputation_pos.gif Soviet secret service and intelligence
+
+
+
+Main article: Chronology of Soviet secret police agencies
+
+Stalin vastly increased the scope and power of the state's secret police and intelligence
+agencies. Under his guiding hand, Soviet intelligence forces began to set up intelligence
+networks in most of the major nations of the world, including Germany (the famous Rote
+Kappelle spy ring), Great Britain, France, Japan, and the United States. Stalin saw no
+difference between espionage, communist political propaganda actions, and
+state-sanctioned violence, and he began to integrate all of these activities within the NKVD
+. Stalin made considerable use of the Communist International movement in order to
+infiltrate agents and to ensure that foreign Communist parties remained pro-Soviet and
+pro-Stalin.
+
+One of the best examples of Stalin's ability to integrate secret police and foreign espionage
+came in 1940, when he gave approval to the secret police to have Leon Trotsky assassinated in
+Mexico. [20]
+
+
+
+Stalin and changes in Soviet society, 1927–1939
+
+
+
+
+
+Industrialization
+
+
+
+See also: Industrialisation of the Soviet Union
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Stalin.png/180px-Stalin.png
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+A portrait of Stalin.
+
+
+
+
+
+The Russian Civil War and wartime communism had a devastating effect on the country's
+economy. Industrial output in 1922 was 13% of that in 1914. A recovery followed under the New
+Economic Policy , which allowed a degree of market flexibility within the context of
+socialism.
+
+Under Stalin's direction, this was replaced by a system of centrally ordained "Five-Year
+Plans" in the late 1920s. These called for a highly ambitious program of state-guided crash
+industrialization and the collectivization of agriculture.
+
+With seed capital unavailable because of international reaction to Communist policies,
+little international trade , and virtually no modern infrastructure, Stalin's government
+financed industrialization both by restraining consumption on the part of ordinary Soviet
+citizens to ensure that capital went for re-investment into industry, and by ruthless
+extraction of wealth from the kulaks.
+
+In 1933 workers' real earnings sank to about one-tenth of the 1926 level. Common and political
+prisoners in labor camps were forced to do unpaid labor, and communists and Komsomol members
+were frequently "mobilized" for various construction projects. The Soviet Union used
+foreign experts, e.g. British engineer Stephen Adams, to instruct their workers and improve
+their manufacturing processes.
+
+In spite of early breakdowns and failures, the first two Five-Year Plans achieved rapid
+industrialization from a very low economic base. While it is generally agreed that the Soviet
+Union achieved significant levels of economic growth under Stalin, the precise rate of
+growth is disputed. It is not disputed, however, that these gains were accomplished at the
+cost of millions of lives.
+
+Official Soviet estimates stated the annual rate of growth at 13.9%; Russian and Western
+estimates gave lower figures of 5.8% and even 2.9%. Indeed, one estimate is that Soviet growth
+became temporarily much higher after Stalin's death. [6] [7]
+
+According to Robert Lewis the Five-Year Plan substantially helped to modernize the
+previously backward Soviet economy. New products were developed, and the scale and
+efficiency of existing production greatly increased. Some innovations were based on
+indigenous technical developments, others on imported foreign technology. [21]
+
+
+
+Collectivization
+
+
+
+Main article: Collectivization in the USSR
+
+Stalin's regime moved to force collectivization of agriculture. This was intended to
+increase agricultural output from large-scale mechanized farms, to bring the peasantry
+under more direct political control, and to make tax collection more efficient.
+Collectivization meant drastic social changes, on a scale not seen since the abolition of
+serfdom in 1861, and alienation from control of the land and its produce. Collectivization
+also meant a drastic drop in living standards for many peasants, and it faced violent reaction
+among the peasantry.
+
+In the first years of collectivization it was estimated that industrial production would
+rise by 200% and agricultural production by 50% [22] , but these estimates were not met. Stalin
+blamed this unanticipated failure on kulaks (rich peasants), who resisted
+collectivization. (However, kulaks proper made up only 4% of the peasant population; the
+"kulaks" that Stalin targeted included the slightly better-off peasants who took the brunt
+of violence from the OGPU and the Komsomol. These peasants were about 60% of the population).
+Those officially defined as "kulaks," "kulak helpers," and later "ex-kulaks" were to be
+shot, placed into Gulag labor camps , or deported to remote areas of the country, depending on
+the charge.
+
+The two-stage progress of collectivization—interrupted for a year by Stalin's famous
+editorial, " Dizzy with success " ( Pravda , March 2 , 1930 ), and " Reply to Collective Farm
+Comrades " ( Pravda , April 3 , 1930 )—is a prime example of his capacity for tactical
+political withdrawal followed by intensification of initial strategies.
+
+Many historians assert that the disruption caused by collectivization was largely
+responsible for major famines .
+
+The 1932–1933 famine in Ukraine and the Kuban regions has been termed the Holodomor
+(Ukrainian: Голодомор).
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Kersnovskaya_Entering_Camp5_54.jpg/300px-Kersnovskaya_Entering_Camp5_54.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Entering Gulag (a leaf from Eufrosinia Kersnovskaya 's notebook)
+
+
+
+
+
+According to Alan Bullock , "the total Soviet grain crop was no worse than that of 1931 … it was
+not a crop failure but the excessive demands of the state, ruthlessly enforced, that cost the
+lives of as many as five million Ukrainian peasants." Stalin refused to release large grain
+reserves that could have alleviated the famine, while continuing to export grain; he was
+convinced that the Ukrainian peasants had hidden grain away, and strictly enforced
+draconian new collective-farm theft laws in response. [23] [24]
+
+Other historians hold that it was largely the insufficient harvests of 1931 and 1932 caused by
+a variety of natural disasters that resulted in famine, with the successful harvest of 1933
+ending the famine. [25]
+
+Famine affected other parts of the USSR. The death toll from famine in the Soviet Union at this
+time is estimated at between five and ten million people. The worst crop failure of late
+tsarist Russia, in 1892, had caused 375,000 to 400,000 deaths.) [26]
+
+Soviet and other historians have argued that the rapid collectivization of agriculture was
+necessary in order to achieve an equally rapid industrialization of the Soviet Union and
+ultimately win World War II. This is disputed by other historians; Alec Nove claims that the
+Soviet Union industrialized in spite of, rather than because of, its collectivized
+agriculture.
+
+
+
+Science
+
+
+
+Main articles: Science and technology in the Soviet Union , Suppressed research in the Soviet
+Union , Lysenkoism Science in the Soviet Union was under strict ideological control by Stalin
+and his government, along with art and literature. There was significant progress in
+"ideologically safe" domains, owing to the free Soviet education system and state-financed
+research. However, in several cases the consequences of ideological pressure were
+dramatic—the most notable examples being the " bourgeois pseudosciences " genetics and
+cybernetics .
+
+In the late 40's, some areas of physics, especially quantum mechanics but also special and
+general relativity, were also criticized on grounds of " idealism ". Soviet physicists, such
+as K. V. Nikolskij and D. Blokhintzev, developed a version of the statistical interpretation
+of quantum mechanics , which was seen as more adhering to the principles of dialectical
+materialism . [27] [28] However, although initially planned, [29] this process did not go as
+far as defining an "ideologically correct" version of physics and purging those scientists
+who refused to conform to it, because this was recognized as potentially too harmful to the
+Soviet nuclear program .
+
+Linguistics was the only area of Soviet academic thought to which Stalin personally and
+directly contributed. At the beginning of Stalin's rule, the dominant figure in Soviet
+linguistics was Nikolai Yakovlevich Marr , who argued that language is a class construction
+and that language structure is determined by the economic structure of society. Stalin, who
+had previously written about language policy as People's Commissar for Nationalities, read
+a letter by Arnold Chikobava criticizing the theory. He "summoned Chikobava to a dinner that
+lasted from 9 p.m. to 7 a.m. taking notes diligently." [30] In this way he grasped enough of the
+underlying issues to coherently oppose this simplistic Marxist formalism, ending Marr's
+ideological dominance over Soviet linguistics. Stalin's principal work discussing
+linguistics is a small essay, "Marxism and Linguistic Questions." [31]
+
+Although no great theoretical contributions or insights came from it, neither were there any
+apparent errors in Stalin's understanding of linguistics; his influence arguably relieved
+Soviet linguistics from the sort of ideologically driven theory that dominated genetics.
+
+Scientific research was hindered by the fact that many scientists were sent to labor camps
+(including Lev Landau , later a Nobel Prize winner, who spent a year in prison in 1938–1939)
+or executed (e.g. Lev Shubnikov , shot in 1937). They were persecuted for their dissident
+views, not for their research. Nevertheless, much progress was made under Stalin in some
+areas of science and technology. It laid the ground for the famous achievements of Soviet
+science in the 1950s, such as the development of the BESM -1 computer in 1953 and the launching
+of Sputnik in 1957.
+
+Indeed, many politicians in the United States expressed a fear, after the " Sputnik crisis ,"
+that their country had been eclipsed by the Soviet Union in science and in public education.
+
+
+
+Social services
+
+
+
+Main article: Soviet democracy
+
+Under the Soviet government people benefited from some social liberalization. Girls were
+given an adequate, equal education and women had equal rights in employment, [5] improving
+lives for women and families. Stalinist development also contributed to advances in health
+care, which significantly increased the lifespan and quality of life of the typical Soviet
+citizen. [5] Stalin's policies granted the Soviet people universal access to healthcare and
+education, effectively creating the first generation free from the fear of typhus , cholera ,
+and malaria . [32] The occurrences of these diseases dropped to record low numbers,
+increasing life spans by decades. [32]
+
+Soviet women under Stalin were the first generation of women able to give birth in the safety of
+a hospital, with access to prenatal care. [32] Education was also an example of an increase in
+standard of living after economic development. The generation born during Stalin's rule was
+the first near-universally literate generation. Millions benefitted from mass literacy
+campaigns in the 1930s, and from workers training schemes. [33] Engineers were sent abroad to
+learn industrial technology, and hundreds of foreign engineers were brought to Russia on
+contract. [32] Transport links were improved and many new railways built. Workers who
+exceeded their quotas, Stakhanovites , received many incentives for their work; [33] they
+could afford to buy the goods that were mass-produced by the rapidly expanding Soviet
+economy.
+
+The increase in demand due to industrialization and the decrease in the workforce due to World
+War II and repressions generated a major expansion in job opportunities for the survivors,
+especially for women. [33]
+
+
+
+Culture
+
+
+
+Main article: Socialist Realism
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Poster08.jpg/250px-Poster08.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Stalin propaganda poster, reading: "Beloved Stalin—a fortune of the nation!"
+
+
+
+
+
+Although born in Georgia, Stalin became a Russian nationalist and significantly promoted
+Russian history, language, and Russian national heroes, particularly during the 1930s and
+1940s. He held the Russians up as the elder brothers of the non-Russian minorities. [34]
+
+During Stalin's reign the official and long-lived style of Socialist Realism was
+established for painting, sculpture, music, drama and literature. Previously fashionable
+"revolutionary" expressionism , abstract art , and avant-garde experimentation were
+discouraged or denounced as " formalism ". Careers were made and broken, some more than once.
+Famous figures were repressed, and many persecuted, tortured and executed, both
+"revolutionaries" (among them Isaac Babel , Vsevolod Meyerhold ) and "non-conformists"
+(for example, Osip Mandelstam ).
+
+A minority, both representing the "Soviet man" (e.g. Arkady Gaidar ) and remnants of the older
+pre-revolutionary Russia (e.g. Konstantin Stanislavski ), thrived. A number of émigrés
+returned to the Soviet Union, among them Alexei Tolstoi in 1925, Alexander Kuprin in 1936, and
+Alexander Vertinsky in 1943.
+
+Poet Anna Akhmatova was subjected to several cycles of suppression and rehabilitation, but
+was never herself arrested. Her first husband, poet Nikolai Gumilev , was shot in 1921, and her
+son, historian Lev Gumilev , spent two decades in a gulag .
+
+The degree of Stalin's personal involvement in general, and in specific instances, has been
+the subject of discussion. His name was as constantly invoked during his reign in discussions
+of culture as in just about everything else; in several famous cases his opinion was final.
+
+Stalin's occasional beneficence showed itself in strange ways. For example, Mikhail
+Bulgakov was driven to poverty and despair; yet, after a personal appeal to Stalin, he was
+allowed to continue working. His play, The Days of the Turbines , with its sympathetic
+treatment of an anti-Bolshevik family caught up in the Civil War, was finally staged,
+apparently also on Stalin's intervention, and began a decades-long uninterrupted run at the
+Moscow Arts Theater.
+
+Some insights into Stalin's political and esthetic thinking might perhaps be gleaned by
+reading his favorite novel, Pharaoh , by the Polish writer Bolesław Prus , a historical novel
+on mechanisms of political power. Similarities have been pointed out between this novel and
+Sergei Eisenstein 's film, Ivan the Terrible , produced under Stalin's tutelage.
+
+In architecture , a Stalinist Empire Style (basically, updated neoclassicism on a very large
+scale, exemplified by the Seven Sisters of Moscow) replaced the constructivism of the 1920s.
+
+Stalin's rule had a largely disruptive effect on the many indigenous cultures within the
+Soviet Union. The politics of the Korenization and forced development of "Cultures National
+by Form, Socialist by their substance" was arguably beneficial to later generations of
+indigenous cultures in allowing them to integrate more easily into Russian society.
+
+The attempted unification of cultures in Stalin's later period was very harmful. Political
+repressions and purges were even more devastating to indigenous cultures than on urban ones
+as the cultural elites were smaller. The traditional lives of many peoples in the Siberian,
+Central Asian and Caucasian provinces was upset and large populations were displaced and
+scattered in order to prevent nationalist uprisings.
+
+The Hotel Moskva (Moscow) in Moscow was said to have been built with mismatched side wings
+because Stalin had mistakenly signed off both of the proposals submitted, and the architects
+had been too afraid to clarify the matter. (The hotel had actually been built by two
+independent teams of architects with differing ideas.)
+
+
+
+
+
+__________________
+
+Quote: Ek staan eder saam met 10 man, wat eerstens met God en die waarheid gewapen is, en dan met
+die wapen gewapen is.
+
+As wat ek saam met n 1000 man staan, wat net met die wapen alleen gewapen is.
+
+Ek staan erder met n man wat feitlik korek is, as n man wat Geeslik verkeerd is.
+
+SIENER VAN RENSBURG
+
+AAN DIE STERKSE EN MEES OPREGSTE BOER SAL DAAR GELOUTER WORD
+
+http://boervolk.com/forums/showthrea...=3750#post3750
+
+Image: ./images/statusicon/user_online.gif  
+
+Image: ./images/buttons/quote.gif Piett View Public Profile Send a private message to
+Piett Find More Posts by Piett
+
+Image: ./images/statusicon/post_old.gif 07-12-2008   # 6 Piett
+vbmenu_register("postmenu_8274", true); Super Moderator  
+
+
+
+Image: customavatars/avatar6_11.gif  
+
+Join Date: Jan 2007 Posts: 15,102
+
+Image: ./images/reputation/reputation_pos.gif Religion
+
+
+
+Main article: Religion in the Soviet Union
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Stalin_church_1939.jpg/180px-Stalin_church_1939.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+A caricature of "Stalin a great friend of religion", when churches were allowed to be opened
+during World War II.
+
+
+
+
+
+Stalin's role in the fortunes of the Russian Orthodox Church is complex. Continuous
+persecution in the 1930s resulted in its near-extinction: by 1939, active parishes numbered
+in the low hundreds (down from 54,000 in 1917), many churches had been leveled, and tens of
+thousands of priests, monks and nuns were persecuted and killed. Over 100,000 were shot
+during the purges of 1937–1938. [35] [36] During World War II , the Church was allowed a
+revival as a patriotic organization, after the NKVD had recruited the new metropolitan , the
+first after the revolution, as a secret agent. Thousands of parishes were reactivated until a
+further round of suppression in Khrushchev's time.
+
+The Russian Orthodox Church Synod's recognition of the Soviet government and of Stalin
+personally led to a schism with the Russian Orthodox Church Outside Russia . An Act of
+Canonical Communion was signed on May 17 , 2007 , followed immediately by a full restoration of
+communion with the Moscow Patriarchate; there remain some issues not fully healed to the
+present day.
+
+Just days before Stalin's death, certain religious sects were outlawed and persecuted .
+
+Many religions popular in the ethnic regions of the Soviet Union including the Roman Catholic
+Church, Uniats , Baptists, Islam, Buddhism, Judaism, etc. underwent ordeals similar to the
+Orthodox churches in other parts: thousands of monks were persecuted, and hundreds of
+churches, synagogues, mosques, temples, sacred monuments, monasteries and other
+religious buildings were razed.
+
+
+
+Purges and deportations
+
+
+
+
+
+The purges
+
+
+
+Main articles: Great Purge , Stalinist purges in Mongolia
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Execute_346_Berias_letter_to_Politburo.jpg/100px-Execute_346_Berias_letter_to_Politburo.jpg
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Execute_346_Stalins_resolution.jpg/100px-Execute_346_Stalins_resolution.jpg
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Execute_346_Politburo_passes.jpg/100px-Execute_346_Politburo_passes.jpg
+Left: Beria's January 1940 letter to Stalin, asking permission to execute 346 " enemies of the
+CPSU and of the Soviet authorities " who conducted "counter-revolutionary,
+right-Trotskyite plotting and spying activities."
+
+Middle: Stalin's handwriting: "за" (support).
+
+Right: The Politburo's decision is signed by Secretary Stalin. Stalin, as head of the
+Politburo , consolidated near-absolute power in the 1930s with a Great Purge of the party,
+justified as an attempt to expel 'opportunists' and 'counter-revolutionary
+infiltrators'. Those targeted by the purge were often expelled from the party, however more
+severe measures ranged from banishment to the Gulag labor camps , to execution after trials
+held by NKVD troikas .
+
+The purges commenced after the assassination of Sergei Kirov , the popular leader of the party
+in Leningrad. Kirov was very close to Stalin and his assassination sent chills through the
+Bolshevik party. Publicly Stalin merely reacted to this assassination by tightening
+security by seeking out alleged spies and counter-revolutionaries, but in effect he was
+removing those who might have threatened his leadership. This process then transformed
+itself into extensive purges.
+
+There are two different views on the background of Kirov's murder. According to the first,
+Stalin was not involved but, fearing that he might be next in line to be assassinated, reacted
+by deciding to initiate purges instead of passively wait. According to the second, Stalin saw
+Kirov as a dangerous potential competitor for the top spot in Soviet leadership, and ordered
+Kirov's killing himself.
+
+In the 1930s, Stalin apparently became increasingly worried about Kirov's growing
+popularity. At the 1934 Party Congress where the vote for the new Central Committee was held,
+Kirov received only three negative votes, the fewest of any candidate, while Stalin received
+292 negative votes, the highest of any candidate. Kirov was a close friend with Sergo
+Ordzhonikidze , and together they formed a moderate bloc in the Politburo. Later in 1934,
+Stalin asked Kirov to work for him in Moscow. One theory suggests that Stalin did this in order
+to keep a closer eye on Kirov, this despite the supposed fact that Stalin entirely controlled
+the NKVD. Kirov refused, however, and according to the same theory he became a competitor in
+Stalin's eyes.
+
+On December 1 , 1934 , Kirov was killed by Leonid Nikolaev (also seen spelled as Nikolayev) in
+the Smolny Institute Leningrad. Kirov had arrived at the Smolny to work in his office, and,
+apparently leaving his bodyguard downstairs, headed to the upper floors, where the
+officials had their rooms. Nikolayev emerged from a bathroom and followed Kirov towards his
+office, shooting him in the back of the neck. Officially Stalin claimed that Nikolayev was
+part of a larger conspiracy led by Leon Trotsky against the Soviet government. This resulted
+in the arrest and execution of Lev Kamenev, Grigory Zinoviev, and fourteen others in 1936. The
+death of Kirov ignited the great purge where supporters of Trotsky and other suspected
+enemies of the state were arrested. It has been speculated that Stalin was the man who ordered
+the murder of Kirov, and that the shooting was carried out with the help of the NKVD. However,
+although most historians believe that this second version of why and how Kirov was killed is
+more likely, it has so far not been unambiguously proven correct and it is still disputed by
+some.
+
+Several trials known as the Moscow Trials were held, but the procedures were replicated
+throughout the country. There were four key trials during this period: the Trial of the
+Sixteen (August 1936); Trial of the Seventeen (January 1937); the trial of Red Army generals,
+including Marshal Tukhachevsky (June 1937); and finally the Trial of the Twenty One
+(including Bukharin ) in March 1938.
+
+Most notably in the case of alleged Nazi collaborator Tukhachevsky, many military leaders
+were convicted of treason. The large scale purging of the officers of the Red Army cost the
+Soviet Union dearly during the German invasion of 22 June 1941 , and its aftermath. ^
+
+The repression of so many formerly high-ranking revolutionaries and party members led Leon
+Trotsky to claim that a "river of blood" separated Stalin's regime from that of Lenin.
+Solzhenitsyn alleges that Stalin drew inspiration from Lenin's regime with the presence of
+labor camps and the executions of political opponents that occurred during the Russian Civil
+War. Trotsky's August 1940 assassination in Mexico , where he had lived in exile since January
+1937, eliminated the last of Stalin's opponents among the former Party leadership. Only
+three members of the " Old Bolsheviks " (Lenin's Politburo ) now remained—Stalin himself,
+"the all-Union Chieftain" (всесоюзный староста) Mikhail Kalinin , and
+Chairman of Sovnarkom Vyacheslav Molotov .
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Stalin_jeschow_molotow.jpg/225px-Stalin_jeschow_molotow.jpg
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/The_Commissar_Vanishes_2.jpg/225px-The_Commissar_Vanishes_2.jpg
+Nikolai Yezhov , the young man strolling with Stalin to his left in this photo from the 1930s,
+was shot in 1940. Following his death, he was edited out of the photo by Soviet censors [8] . Such
+retouching was a common occurrence during Stalin's reign. No segment of society was left
+untouched during the purges. Article 58 of the legal code, listing prohibited "anti-Soviet
+activities", was applied in the broadest manner. Initially, the execution lists for the
+enemies of the people were confirmed by the Politburo.
+
+Over time the procedure was greatly simplified and delegated down the line of command. People
+would inform on others arbitrarily, to attempt to redeem themselves, or to gain small
+retributions. The flimsiest pretexts were often enough to brand someone an " enemy of the
+people ," starting the cycle of public persecution and abuse, often proceeding to
+interrogation, torture and deportation, if not death. Nadezhda Mandelstam , the widow of the
+poet Osip Mandelstam and one of the key memoirists of the purges, recalls being shouted at by
+Akhmatova: "Don't you understand? They are arresting people for nothing now?" The Russian
+word troika gained a new meaning: a quick, simplified trial by a committee of three
+subordinated to NKVD .
+
+Towards the end of the purge, the Politburo relieved NKVD head Nikolai Yezhov , from his
+position for overzealousness. He was subsequently executed. Some historians such as Amy
+Knight and Robert Conquest postulate that Stalin had Yezhov and his predecessor, Genrikh
+Yagoda , removed in order to deflect blame from himself.
+
+In parallel with the purges, efforts were made to rewrite the history in Soviet textbooks and
+other propaganda materials. Notable people executed by NKVD were removed from the texts and
+photographs as though they never existed. Gradually, the history of revolution was
+transformed to a story about just two key characters: Lenin and Stalin .
+
+In light of revelations from the Soviet archives, historians now estimate that nearly
+700,000 people were executed in the course of the terror, [37] with the great mass of victims
+being ordinary peasants and workers. [38]
+
+In addition, Stalin dispatched a contingent of NKVD operatives to Mongolia , had a Mongolian
+version of the troika established and unleashed a bloody purge in which tens of thousands were
+executed as 'Japanese Spies.' Mongolian ruler Khorloogiin Choibalsan closely followed
+Stalin's lead. [39]
+
+It is worth noting that 2007 tours of Stalin's Museum in Gori, Georgia reference the purges
+only in passing. "Sure, during the process of collectivization, some mistakes were made" is
+the official line at the museum. No other references to mortalities are made during the tour,
+and when asked about actual fatalities, the estimate of 25,000 is given. __________________
+
+Quote: Ek staan eder saam met 10 man, wat eerstens met God en die waarheid gewapen is, en dan met
+die wapen gewapen is.
+
+As wat ek saam met n 1000 man staan, wat net met die wapen alleen gewapen is.
+
+Ek staan erder met n man wat feitlik korek is, as n man wat Geeslik verkeerd is.
+
+SIENER VAN RENSBURG
+
+AAN DIE STERKSE EN MEES OPREGSTE BOER SAL DAAR GELOUTER WORD
+
+http://boervolk.com/forums/showthrea...=3750#post3750
+
+Image: ./images/statusicon/user_online.gif  
+
+Image: ./images/buttons/quote.gif Piett View Public Profile Send a private message to
+Piett Find More Posts by Piett
+
+Image: ./images/statusicon/post_old.gif 07-12-2008   # 7 Piett
+vbmenu_register("postmenu_8275", true); Super Moderator  
+
+
+
+Image: customavatars/avatar6_11.gif  
+
+Join Date: Jan 2007 Posts: 15,102
+
+Image: ./images/reputation/reputation_pos.gif Ukrainian famine
+
+
+
+Main article: Holodomor
+
+The Holodomor famine is sometimes referred to as the Ukrainian Genocide , [40] [41] [42] [43]
+implying that the Holodomor was engineered by the Soviet government, specifically
+targeting the Ukrainian people to destroy the Ukrainian nation as a political factor and
+social entity. [44] While historians continue to disagree whether the policies that led to
+Holodomor fall under the legal definition of genocide , twenty six countries have officially
+recognized the Holodomor as such. On 28 November 2006 the Ukrainian Parliament approved a
+bill, according to which the Soviet-era forced famine was an act of genocide against the
+Ukrainian people. [45]
+
+
+
+Deportations
+
+
+
+Main article: Population transfer in the Soviet Union
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kersnovskaya_Cell_5_30.jpg/225px-Kersnovskaya_Cell_5_30.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Meeting in a prison cell
+
+
+
+
+
+Shortly before, during and immediately after World War II , Stalin conducted a series of
+deportations on a huge scale which profoundly affected the ethnic map of the Soviet Union. It
+is estimated that between 1941 and 1949 nearly 3.3 million [46] were deported to Siberia and
+the Central Asian republics. Separatism, resistance to Soviet rule and collaboration with
+the invading Germans were cited as the official reasons for the deportations, rightly or
+wrongly. Historian Allan Bullock explains: Many no doubt had collaborated with the
+occupying forces … but many had done so not out of disloyalty but from the instinct to survive
+when abandoned to their fate by the retreating Soviet armies. The individual circumstances
+were of no interest to Stalin … After the brief Nazi occupation of the Caucasus was over …
+the entire population of five of the small highland peoples of the North Caucasus, as well as
+the Crimean Tatars — more than a million souls — (were deported) without notice or any
+opportunity to take their possessions. There were certainly collaborators among these
+peoples, but most of those had fled with the Germans. The majority of those left were old folk,
+women, and children; their men were away fighting at the front, where the Chechens and
+Ingushes alone produced thirty-six Heroes of the Soviet Union. [47]
+
+During Stalin's rule the following ethnic groups were deported completely or partially:
+Ukrainians , Poles , Koreans , Volga Germans , Crimean Tatars , Kalmyks , Chechens , Ingush ,
+Balkars , Karachays , Meskhetian Turks , Finns , Bulgarians , Greeks , Latvians , Lithuanians ,
+Estonians , and Jews . Large numbers of Kulaks , regardless of their nationality, were
+resettled to Siberia and Central Asia . Deportations took place in appalling conditions,
+often by cattle truck, and hundreds of thousands of deportees died en route. [48] Those who
+survived were forced to work without pay in the labour camps. Many of the deportees died of
+hunger or other conditions.
+
+In February 1956, Nikita Khrushchev condemned the deportations as a violation of Leninist
+principles, and reversed most of them, although it was not until as late as 1991 that the
+Tatars, Meskhs and Volga Germans were allowed to return en masse to their homelands. The
+deportations had a profound effect on the peoples of the Soviet Union. The memory of the
+deportations played a major part in the separatist movements in the Baltic States, Tatarstan
+and Chechnya , even today.
+
+
+
+Number of victims
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Unbalanced_scales.svg/40px-Unbalanced_scales.svg.png
+
+The neutrality of this section is disputed .
+
+Please see the discussion on the talk page . (April 2008)
+
+Please do not remove this message until the dispute is resolved. Early researchers
+attempting to tally the number of people killed under Stalin's regime were forced to rely
+largely upon anecdotal evidence. Their estimates ranged from a low of 3 million to as high as 60
+million. [49] [50] After the Soviet Union collapsed in 1991, evidence from the Soviet
+archives became available. The archives record that about 800,000 prisoners were executed
+(for either political or criminal offences) under Stalin, while about 1.7 million died in the
+GULAG and some 389,000 perished during kulak forced resettlement — a total of about 3
+million victims.
+
+Debate continues, however, [51] since some historians believe the archival figures to be
+unreliable. [52] [53] For example, some argue that the many suspects tortured to death while
+in "investigative custody" were likely not counted amongst the executed. [54] [5] Also,
+there are certain categories of victim which it is generally agreed were carelessly recorded
+by the Soviets — such as the victims of ethnic deportations, or of German population
+transfer in the aftermath of WWII.
+
+Thus while some archival researchers have estimated the number of victims of Stalin's
+repressions to be no more than about 4 million in total, [55] [56] [57] others believe the
+number to be considerably higher. Russian writer Vadim Erlikman, [58] for example, makes the
+following estimates: executions, 1.5 million; gulags, 5 million; deportations, 1.7
+million (out of 7.5 million deported); and POWs and German civilians, 1 million — a total of
+about 9 million victims of repression.
+
+Some historians have also included the 6 to 8 million victims of the 1932–1933 famine as
+victims of repression. [24] [59] [60] This categorization is controversial however, as
+historians differ as to whether the famine was a deliberate part of the campaign of repression
+against kulaks or simply an unintended consequence of the struggle over forced
+collectivization. (See also: Droughts and famines in Russia and the USSR ).
+
+Regardless, it appears that a minimum of around 10 million surplus deaths (4 million by
+repression and 6 million from famine) are attributable to the regime, with a number of recent
+books suggesting a likely total of around 20 million. [61] [62] [63] [64] [65] Adding 6–8
+million famine victims to Erlikman's estimates above, for example, would yield a total of
+between 15 and 17 million victims. Pioneering researcher Robert Conquest , meanwhile, has
+revised his original estimate of up to 30 million victims down to 20 million. [66] Others,
+however, continue to maintain that their earlier much higher estimates are correct. [67]
+
+
+
+World War II, 1939–1945
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Stalin-Molotov.jpg/180px-Stalin-Molotov.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Molotov and Stalin, 1944.
+
+
+
+
+
+After the failure of Soviet and Franco-British talks on a mutual defense pact in Moscow,
+Stalin began to negotiate a non-aggression pact with Hitler's Nazi Germany. There is a
+version that in his speech on August 19 , 1939 , Stalin prepared his comrades for the great turn
+in Soviet policy, the Molotov-Ribbentrop Pact with Nazi Germany . According to a
+controversial Russian author living in the UK, Viktor Suvorov , Stalin expressed in the
+speech an expectation that the war would be the best opportunity to weaken both the Western
+nations and Nazi Germany, and make Germany suitable for "Sovietization". Whether this
+speech was ever delivered to the public and what its content was is still debated.
+
+Officially a non-aggression treaty only, the Molotov-Ribbentrop Pact had a secret annex
+according to which Central Europe was divided into the two powers' respective spheres of
+influence. The USSR was promised an eastern part of Poland , primarily populated with
+Ukrainians and Belarusians in case of its dissolution, as long as Lithuania , Latvia , Estonia
+and Finland were recognized as parts of the Soviet sphere of influence. Another clause of the
+treaty was that Bessarabia , then part of Romania, was to be joined to the Moldovan ASSR, and
+become the Moldovan SSR under control of Moscow.
+
+On September 1 , 1939 , the German invasion of Poland started World War II , and on September 17
+the Red Army invaded eastern Poland and occupied the territory assigned to it by the
+Molotov-Ribbentrop Pact.
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/MolotovRibbentropStalin.jpg/180px-MolotovRibbentropStalin.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Stalin (in background to the right) looks on as Molotov signs the Molotov-Ribbentrop Pact ,
+August 24, 1939.
+
+
+
+
+
+In November 1939, Stalin sent troops over the Finnish border, provoking a war of aggression ,
+and probably intended to annex Finland into the Soviet Union, as he had already done in Latvia,
+Lithuania, and Estonia. But the Winter War between the Soviet Union and Finland proved to be
+far more difficult than Stalin and the Red Army were prepared for, and the Soviets sustained
+surprisingly high casualties. By some estimates, the Soviet Union lost as many as 391,800
+lives in this four-month war against Finland alone, or more than the United States suffered in
+all of World War II against Germany and Japan (1941–1945). The Soviets finally agreed on an
+interim peace in March, 1940, but only succeeded in annexing the eastern region of Karelia
+(10% of Finnish territory), a classic example of a Pyrrhic victory . Finland remains an
+independent country to the present day, but the Red Armies' serious problems had been
+revealed to the rest of the world, including Germany.
+
+On March 5, 1940, the Soviet leadership approved an order of execution for more than 25,700
+Polish "nationalist, educators and counterrevolutionary" activists in the parts of the
+Ukraine and Belarus republics that had been annexed from Poland. This event has become known
+as the Katyn Massacre . [68]
+
+In June 1941, Hitler broke the pact and invaded the Soviet Union in Operation Barbarossa , thus
+beginning the Great Patriotic War . Although expecting war with Germany, Stalin may not have
+expected an invasion to come so soon—and the Soviet Union was relatively unprepared for
+this invasion. An alternative theory suggested by Viktor Suvorov claims that Stalin had made
+aggressive preparations from the late 1930s on and was about to invade Germany in summer 1941.
+Thus, he believes Hitler only managed to forestall Stalin and the German invasion was in
+essence a pre-emptive strike . This theory was supported by Igor Bunich , Mikhail Meltyukhov
+(see Stalin's Missed Chance ) and Edvard Radzinsky (see Stalin: The First In-Depth Biography
+Based on Explosive New Documents from Russia's Secret Archives ). However, most western
+historians reject this thesis.
+
+In the diary of General Fedor von Boch , it is also mentioned that the Abwehr fully expected a
+Soviet attack against German forces in Poland no later than 1942. Such speculations are
+difficult to substantiate, however, as information on the Soviet Army from 1939 to 1941
+remains classified, but it is known that the Soviets had received some warnings of the German
+invasion through their foreign intelligence agents, such as Richard Sorge .
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Teheran_conference-1943.jpg/270px-Teheran_conference-1943.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+The Big Three: Stalin, U.S. President Franklin D. Roosevelt , and British Prime Minister
+Winston Churchill at the Tehran Conference , November 1943.
+
+
+
+
+
+Even though Stalin received intelligence warnings of a German attack, [69] he sought to avoid
+any obvious defensive preparation which might further provoke the Germans, in the hope of
+buying time to modernize and strengthen his military forces. In the initial hours after the
+German attack commenced, Stalin hesitated, wanting to ensure that the German attack was
+sanctioned by Hitler, rather than the unauthorized action of a rogue general. [5]
+
+The Germans initially made huge advances, capturing and killing millions of Soviet troops.
+The Soviet Red Army put up fierce resistance during the war's early stages. Even so, they were
+plagued by an ineffective defense doctrine against the well-trained and experienced German
+forces, despite quite modern equipment, such as first heavy tank in the world, the KV-1 .
+
+Stalin feared that Hitler would use disgruntled Soviet citizens to fight his regime,
+particularly people imprisoned in the Gulags . He thus ordered the NKVD to take care of the
+situation . They responded by murdering around one hundred thousand political prisoners
+throughout the western parts of the Soviet Union, with methods that included bayoneting
+people to death and tossing grenades into crowded cells. [70] Many others were simply
+deported east. [71] [72] [73]
+
+Hitler's experts had expected eight weeks of war, and early indications appeared to support
+their predictions. However, the invading German forces were eventually driven back in
+December 1941 near Moscow .
+
+Stalin met in several conferences with Churchill and/or Roosevelt in Moscow, Tehran , Yalta ,
+and Potsdam to plan military strategy (Truman taking the place of the deceased Roosevelt).
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Yalta_summit_1945_with_Churchill%2C_Roosevelt%2C_Stalin_tight_crop.jpg/270px-Yalta_summit_1945_with_Churchill%2C_Roosevelt%2C_Stalin_tight_crop.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+The Big Three: British Prime Minister Winston Churchill , U.S. President Franklin D.
+Roosevelt and Stalin at the Yalta Conference , February 1945.
+
+
+
+
+
+In these conferences, his first appearances on the world stage, Stalin proved to be a
+formidable negotiator. Anthony Eden , the British Foreign Secretary noted:
+
+"Marshal Stalin as a negotiator was the toughest proposition of all. Indeed, after something
+like thirty years' experience of international conferences of one kind and another, if I had
+to pick a team for going into a conference room, Stalin would be my first choice. Of course the
+man was ruthless and of course he knew his purpose. He never wasted a word. He never stormed, he
+was seldom even irritated." [74]
+
+His shortcomings as strategist are frequently noted regarding massive Soviet loss of life
+and early Soviet defeats. An example of it is the summer offensive of 1942, which led to even
+more losses by the Red Army and recapture of initiative by the Germans. Stalin eventually
+recognized his lack of know-how and relied on his professional generals to conduct the war.
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Potsdam_conference_1945-8.jpg/250px-Potsdam_conference_1945-8.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Clement Attlee , Harry Truman and Stalin at the Potsdam Conference , July 1945
+
+
+
+
+
+Yet Stalin did rapidly move Soviet industrial production east of the Volga River, far from
+Luftwaffe -reach, to sustain the Red Army 's war machine with astonishing success.
+Additionally, Stalin was well aware that other European armies had utterly disintegrated
+when faced with Nazi military efficacy and responded effectively by subjecting his army to
+galvanizing terror and unrevolutionary, nationalist appeals to patriotism. He also
+appealed to the Russian Orthodox church and images of national Russian heroes. On November 6 ,
+1941 , Stalin addressed the whole nation of the Soviet Union for the second time (the first time
+was earlier that year on July 2 ).
+
+According to Stalin's Order No. 227 of July 27 , 1942 , any commander or commissar of a regiment,
+battalion or army, who allowed retreat without permission from above was subject to military
+tribunal. The Soviet soldiers who surrendered were declared traitors; however most of those
+who survived the brutality of German captivity were mobilized again as they were freed.
+Between 5% and 10% of them were sent to Gulag (As "traitors of Homeland". Soviet Criminal Code,
+§58, clause 1B: criminal conviction — 10 or later 25 years of labor camp plus 5 years without
+"citizen rights").
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Stalin_TIME.jpeg/180px-Stalin_TIME.jpeg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Time magazine ( 1943 - 01-04 ). Time had previously named Stalin Man of the Year for the year
+1939.
+
+
+
+
+
+In the war's opening stages, the retreating Red Army also sought to deny resources to the enemy
+through a scorched earth policy of destroying the infrastructure and food supplies of areas
+before the Germans could seize them. This, along with abuse by German troops, caused
+starvation and suffering among the civilian population that were left behind.
+
+According to recent figures, of an estimated four million POWs taken by the Russians,
+including Germans, Japanese , Hungarians , Romanians and others, some 580,000 never
+returned, presumably victims of privation or the Gulags, compared with 3.5 million Soviet
+POW that died in German camps out of the 5.6 million taken. [75]
+
+Returning Soviet soldiers who had surrendered were viewed with suspicion and some were
+killed. According to historian Alan Bullock : The huge number of Russian troops taken
+prisoner in the first eighteen months of the war convinced Stalin that many of them must have
+been traitors who had deserted at the first opportunity. Any soldier who had been a prisoner
+was henceforth suspect … All such, whether generals, officers, or ordinary soldiers, were
+sent to special concentration camps where the NKVD investigated them … Twenty percent were
+sentenced to death or twenty-five years in camps; only 15 to 20 percent were allowed to return
+to their homes. The remainder were condemned to shorter sentences (five to ten years), to
+exile in Siberia, and forced labor — or were killed or died on the way home. [76]
+
+__________________
+
+Quote: Ek staan eder saam met 10 man, wat eerstens met God en die waarheid gewapen is, en dan met
+die wapen gewapen is.
+
+As wat ek saam met n 1000 man staan, wat net met die wapen alleen gewapen is.
+
+Ek staan erder met n man wat feitlik korek is, as n man wat Geeslik verkeerd is.
+
+SIENER VAN RENSBURG
+
+AAN DIE STERKSE EN MEES OPREGSTE BOER SAL DAAR GELOUTER WORD
+
+http://boervolk.com/forums/showthrea...=3750#post3750
+
+Image: ./images/statusicon/user_online.gif  
+
+Image: ./images/buttons/quote.gif Piett View Public Profile Send a private message to
+Piett Find More Posts by Piett
+
+Image: ./images/statusicon/post_old.gif 07-12-2008   # 8 Piett
+vbmenu_register("postmenu_8276", true); Super Moderator  
+
+
+
+Image: customavatars/avatar6_11.gif  
+
+Join Date: Jan 2007 Posts: 15,102
+
+Image: ./images/reputation/reputation_pos.gif Post-war era, 1945–1953
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/b/b9/ZhukovStalinMaus.jpg/225px-ZhukovStalinMaus.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Stalin and Zhukov on the tribune of Lenin's Mausoleum .
+
+
+
+
+
+Domestically, Stalin was seen as a great wartime leader who had led the Soviets to victory
+against the Nazis. His early cooperation with Hitlerism was forgotten. That cooperation
+included helping the German Army violate the Versailles Treaty limitations with training in
+the Soviet Union, the notorious Molotov-von Ribbentrop treaty which partitioned Poland
+(giving the Soviet Union what is now Belarus), and granted the Soviet Union a free hand in
+Finland, Lithuania, Estonia, and Latvia, and Soviet trade with Hitler to counteract the
+expected French and British trade blockades.
+
+By the end of the 1940s, Russian patriotism increased due to successful propaganda efforts.
+For instance, some inventions and scientific discoveries were claimed by Russian
+propaganda. Examples include the boiler , reclaimed by father and son Cherepanovs ; the
+electric bulb , by Yablochkov and Lodygin ; the radio , by Popov ; and the airplane, by Mozhaysky
+. Stalin's internal repressive policies continued (including in newly acquired
+territories), but never reached the extremes of the 1930s, in part because the smarter party
+functionaries had learned caution.
+
+Internationally, Stalin viewed Soviet consolidation of power as a necessary step to protect
+the USSR by surrounding it with countries with friendly governments like the variety seen in
+Finland, to act as a cordon sanitaire (buffer) against possible invaders, while the "West"
+sought a similar buffer against communist expansion. These competing policies led to an
+admirable stability, where successful Soviet aggression would depend on enthusiastic
+cooperation by the satellite nations.
+
+He had hoped that the American withdrawal and demobilization would lead to increased
+communist influence, especially in Europe. Each side might view the other's defensive
+actions as destabilizing provocations and these security dilemmas frayed relations
+between the Soviet Union and its former World War II western allies and led to a prolonged
+period of tension and distrust between East and West known as the Cold War (see also Iron
+curtain ).
+
+The Red Army ended World War II occupying much of the territory that had been formerly held by
+the Axis countries:
+
+In Asia , the Red Army had overrun Manchuria in the last month of the war and then also occupied
+Korea above the 38th parallel north . Mao Zedong 's Communist Party of China , though receptive
+to minimal Soviet support, defeated the pro-Western and heavily American-assisted Chinese
+Nationalist Party in the Chinese Civil War .
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Chinese_stamp_in_1950.jpg/200px-Chinese_stamp_in_1950.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Stalin and Mao Zedong on Chinese Postage stamp
+
+
+
+
+
+The Communists controlled mainland China while the Nationalists held a rump state on the
+island of Formosa (now Taiwan ). The Soviet Union soon after recognized Mao's People's
+Republic of China , which it regarded as a new ally. The People's Republic claimed Taiwan,
+though it had never held authority there.
+
+Diplomatic relations reached a high point with the signing of the 1950 Sino-Soviet Treaty of
+Friendship and Alliance . Both countries provided military support to a new friendly state in
+North Korea . After various border conflicts, war broke out with U.S.-allied South Korea in
+1950, starting the Korean War .
+
+In Europe , there were Soviet occupation zones in Germany and Austria. Hungary and Poland were
+under practical military occupation. From 1946–1948 coalition governments comprising
+communists were elected in Poland , Czechoslovakia , Hungary , Romania and Bulgaria and
+homegrown communist movements rose to power in Yugoslavia and Albania .
+
+These nations became known as the "Communist Bloc." Britain and the United States supported
+the anti-communists in the Greek Civil War and suspected the Soviets of supporting the Greek
+communists although Stalin refrained from getting involved in Greece, dismissing the
+movement as premature. Albania remained an ally of the Soviet Union, but Yugoslavia broke
+with the USSR in 1948. Greece , Italy and France received enormous support from the
+population, which were at the very least friendly towards Moscow.
+
+Both Superpowers viewed Germany as key. In retaliation to the Western formation of Trizonia ,
+Stalin determined to take action.
+
+Armed with intelligence from the British agent Donald Duart Maclean and other British and
+American espionage agents, Stalin was well aware that the United States had not proceeded
+with mass production of atomic weapons, indeed, had not even assembled any after the last was
+used at Nagasaki. Large numbers would have been needed to destroy Soviet or Communist land
+forces either in Europe or the Far East. He therefore ordered a blockade of West Berlin , which
+was under British, French, and U.S. occupation, to test the Western powers.
+
+The Berlin Blockade failed due to the unexpected massive aerial resupply campaign carried
+out by the Western powers known as the Berlin Airlift . In 1949, Stalin conceded defeat and
+ended the blockade. After West Germany was formed by the union of the three Western occupation
+zones, the Soviets declared East Germany a separate country in 1949, ruled by the communists.
+
+Stalin originally supported the creation of Israel in 1948. The USSR was one of the first
+nations to recognize the new country. [77] Golda Meir came to Moscow as the first Israeli
+Ambassador to the USSR that year. But he later changed his mind and came out against Israel.
+
+Contrary to America's policy which restrained armament (limited equipment was provided for
+infantry and police forces) to South Korea, Stalin also extensively armed Kim Il Sung 's North
+Korean army and air forces with military equipment (to include T-34/85 tanks) and "advisors"
+far in excess of that required for defensive purposes) in order to facilitate Kim's (a former
+Soviet Officer) aim to conquer the rest of the Korean peninsula. Soviet pilots flew Soviet
+aircraft from Chinese bases against United Nations aircraft defending South Korea. Post
+cold war research in Soviet Archives reveal that the Korean War was begun by Kim Il-sung with
+the express permission of Stalin, though this is widely disputed by North Korea.
+
+In Stalin's last year of life, one of his last major foreign policy initiatives was the 1952
+Stalin Note for German reunification and Superpower disengagement from Central Europe , but
+Britain, France, and the United States viewed this with suspicion and rejected the offer.
+
+
+
+Stalin as theorist
+
+
+
+Main article: Stalinism
+
+Stalin made few contributions to Communist (or, more specifically, Marxist-Leninist)
+theory. The contributions he made were accepted and upheld by all Soviet political
+scientists during his rule.
+
+Among Stalin's contributions were his "Marxism and the National Question", a work praised by
+Lenin; his "Trotskyism or Leninism", which was a factor in the "liquidation of Trotskyism as
+an ideological trend" within the CPSU(B).
+
+Stalin's Collected Works (in 13 volumes) was released in 1949. A subsequent 16 volume
+American Edition appeared, in which one volume consisted of the book "History of the CPSU(B)
+Short Course", although when released in 1938 this book was credited to a commission of the
+Central Committee.
+
+In 1933, Stalin put forward the theory of aggravation of the class struggle along with the
+development of socialism , arguing that the further the country would move forward, the more
+acute forms of struggle will be used by the doomed remnants of exploiter classes in their last
+desperate efforts — and that, therefore, political repression was necessary.
+
+In 1936, Stalin announced that the society of the Soviet Union consisted of two
+non-antagonistic classes: workers and kolkhoz peasantry. These corresponded to the two
+different forms of property over the means of production that existed in the Soviet Union:
+state property (for the workers) and collective property (for the peasantry). In addition to
+these, Stalin distinguished the stratum of intelligentsia . The concept of
+"non-antagonistic classes" was entirely new to Leninist theory.
+
+Stalin and his supporters have highlighted the notion that socialism can be built and
+consolidated by a country as underdeveloped as Russia during the 1920s. Indeed this might be
+the only means in which it could be built in a hostile environment. [78] __________________
+
+Quote: Ek staan eder saam met 10 man, wat eerstens met God en die waarheid gewapen is, en dan met
+die wapen gewapen is.
+
+As wat ek saam met n 1000 man staan, wat net met die wapen alleen gewapen is.
+
+Ek staan erder met n man wat feitlik korek is, as n man wat Geeslik verkeerd is.
+
+SIENER VAN RENSBURG
+
+AAN DIE STERKSE EN MEES OPREGSTE BOER SAL DAAR GELOUTER WORD
+
+http://boervolk.com/forums/showthrea...=3750#post3750
+
+Image: ./images/statusicon/user_online.gif  
+
+Image: ./images/buttons/quote.gif Piett View Public Profile Send a private message to
+Piett Find More Posts by Piett
+
+Image: ./images/statusicon/post_old.gif 07-12-2008   # 9 Piett
+vbmenu_register("postmenu_8277", true); Super Moderator  
+
+
+
+Image: customavatars/avatar6_11.gif  
+
+Join Date: Jan 2007 Posts: 15,102
+
+Image: ./images/reputation/reputation_pos.gif Death
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/9/90/Stalin%27sbody.jpg/250px-Stalin%27sbody.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Stalin's body lying in state in the House of Trade Unions in Moscow .
+
+
+
+
+
+On March 1 , 1953 , after an all-night dinner in his residence in Krylatskoye some 15 km west of
+Moscow centre with interior minister Lavrentiy Beria and future premiers Georgy Malenkov ,
+Nikolai Bulganin and Nikita Khrushchev , Stalin did not emerge from his room, having probably
+suffered a stroke that paralyzed the right side of his body.
+
+Although his guards thought that it was odd for him not to rise at his usual time, they were under
+orders not to disturb him. He was discovered lying on the floor of his room only at about 10pm in
+the evening. Lavrentiy Beria was informed and arrived a few hours afterwards, and the doctors
+arrived only in the early morning of March, 2nd. Stalin died four days later, on March 5 , 1953 ,
+at the age of 74, and was embalmed on March 9 . His daughter Svetlana recalls the scene as she
+stood by his death bed: "He suddenly opened his eyes and cast a glance over everyone in the room.
+It was a terrible glance. Then something incomprehensible and awesome happened. He suddenly
+lifted his left hand as though he were pointing to something above and bringing down a curse
+upon all of us. The next moment after a final effort the spirit wrenched itself free of the
+flesh." Officially, the cause of death was listed as a cerebral hemorrhage . His body was
+preserved in Lenin's Mausoleum until October 31 , 1961 , when his body was removed from the
+Mausoleum and buried next to the Kremlin walls as part of the process of de-Stalinization .
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/3/38/Stalin_Grave.jpg/225px-Stalin_Grave.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Stalin's Grave by the Kremlin Wall Necropolis
+
+
+
+
+
+It has been suggested that Stalin was assassinated. The ex-Communist exile Avtorkhanov
+argued this point as early as 1975. The political memoirs of Vyacheslav Molotov , published in
+1993, claimed that Beria had boasted to Molotov that he poisoned Stalin: "I took him out."
+
+Khrushchev wrote in his memoirs that Beria had, immediately after the stroke, gone about
+"spewing hatred against [Stalin] and mocking him", and then, when Stalin showed signs of
+consciousness, dropped to his knees and kissed his hand. When Stalin fell unconscious again,
+Beria immediately stood and spat.
+
+In 2003, a joint group of Russian and American historians announced their view that Stalin
+ingested warfarin , a powerful rat poison that inhibits coagulation of the blood and so
+predisposes the victim to hemorrhagic stroke (cerebral hemorrhage). Since it is
+flavorless, warfarin is a plausible weapon of murder. The facts surrounding Stalin's death
+will probably never be known with certainty. [79]
+
+His demise arrived at a convenient time for Beria and others, who feared being swept away in yet
+another purge. It is believed that Stalin felt Beria's power was too great and threatened his
+own. Whether or not Beria or another usurper was directly responsible for his death, it is true
+that the Politburo did not summon medical attention for Stalin for more than a day after he was
+found.
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Stalins-death-mask1.jpg/180px-Stalins-death-mask1.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Stalin's death mask in Gori, Georgia
+
+
+
+
+
+N.B. Radzinsky in Stalin: The First In-Depth Biography Based on Explosive New Documents From
+Russia's Secret Archives notes, that while Stalin was preparing Beria's downfall, Beria
+first had Stalin's head of security killed and this allowed Beria to interfere with the
+bodyguard arrangements for "the Boss". The head of security on that night gave the guards the
+unprecedented order, allegedly from the Boss, that they were not required that night and they
+could go to bed. Next morning there was no activity from the Boss's room.
+
+This was extremely convenient since the purge — which had already started against the
+Jewish doctors, was scheduled to start reaching up the current Politburo members including
+Beria and Khrushchev, not to mention the already deposed Molotov.
+
+According to Radzinsky, this was also the resumption of the Terror, in order to ensure
+absolute obedience of the nation in anticipation of a planned nuclear war. Apparently Stalin
+intended to use his lead in the development of a hydrogen bomb to his advantage, by engineering
+a conflict with the West. This, he thought, could be achieved by building on the show trials of
+"the Jewish doctors" , and embracing an anti-semitic expulsion of "the Jews" to Siberia.
+
+
+
+Marriages and family
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Ekaterina_Svanidze.jpg/180px-Ekaterina_Svanidze.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Ekaterina "Kato" Svanidze , Stalin's first wife.
+
+
+
+
+
+Stalin met his first wife, Ekaterina Svanidze, in late 1905 when he moved into the Tiflis
+townhouse where she lived. They were married on the night of July 28 1906. On March 31 1907, she
+gave birth to Stalin's first child, Yakov. In June 1907, after robbing the bank in Tiflis to
+fund the Bolshevik cause, Stalin and his family fled east to Baku. Stalin was frequently
+absent as he conducted revolutionary work across Georgia. Meanwhile, his Ekaterina
+suffered under the pollution and heat of Baku, which was an oil boomtown. She contracted
+typhus and died on December 5 1907. Stalin was devastated by her death; fearing he was
+suicidal, his friends took away his pistol.
+
+
+
+Image: http://upload.wikimedia.org/wikipedia/commons/8/88/Stalin%27schildren.JPG
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Stalin with his children: Vasiliy and Svetlana.
+
+
+
+
+
+His son finally shot himself because of Stalin's harshness toward him, but survived. After
+this, Stalin said "He can't even shoot straight". Yakov served in the Red Army during World War
+II and was captured by the Germans. They offered to exchange him for Field Marshal Friedrich
+Paulus , who had surrendered after Stalingrad, but Stalin turned the offer down, allegedly
+saying "A lieutenant is not worth a general"; others credit him with saying "I have no son," to
+this offer. Afterwards, Yakov is said to have committed suicide, running into an electric
+fence [80] in Sachsenhausen concentration camp , where he was being held. [81]
+
+Stalin had a son, Vasiliy , and a daughter, Svetlana , with his second wife Nadezhda Alliluyeva
+. She died in 1932, officially of illness. She may have committed suicide by shooting herself
+after a quarrel with Stalin, leaving a suicide note which according to their daughter was
+"partly personal, partly political". [82] According to A&E Biography, there is also a belief
+among some Russians that Stalin himself murdered his wife after the quarrel, which
+apparently took place at a dinner in which Stalin tauntingly flicked cigarettes across the
+table at her. Historians also claim that her death ultimately "severed his [Stalin's] link
+from reality." [83]
+
+
+
+Image: http://upload.wikimedia.org/wikipedia/en/7/73/Iosif_Nadejda.JPG
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Stalin and Nadezhda Alliluyeva.
+
+
+
+
+
+Vasiliy rose through the ranks of the Soviet air force , officially dying of alcoholism in
+1962; however, this is still in question. He distinguished himself in World War II as a capable
+airman. Svetlana emigrated to the United States in 1967.
+
+In his book The Wolf of the Kremlin Stuart Kahan claimed that Stalin was secretly married to a
+third wife named Rosa Kaganovich, allegedly the sister of Lazar Kaganovich , a Soviet
+politician. However, the claim is unproven and many have disputed it, including the
+Kaganovich family, who deny that "Rosa" and Stalin ever met, and even state that Kaganovich's
+sister wasn't named Rosa. Kahan also claimed that both Lazar and Rosa were responsible for the
+death of Stalin (by poisoning), however this (as well as most of the remainder of Kahan's
+assertions) were dismissed as fabrication by the Statement of the Kaganovich Family .
+
+In March 2001 Russian Independent Television NTV discovered a previously unknown grandson
+living in Novokuznetsk . Yuri Davydov told NTV that his father had told him of his lineage, but,
+because the campaign against Stalin's cult of personality was in full swing at the time, he was
+told to keep quiet. The Soviet dissident writer, Aleksandr Solzhenitsyn , had mentioned a son
+being born to Stalin and his common-law wife Lida in 1918, during Stalin's exile in northern
+Siberia .
+
+
+
+Religious beliefs
+
+
+
+Stalin's beliefs are complicated and sometimes contradictory. As the historians Vladislav
+Zubok and Constantine Pleshakov noted, he received his education at Theological Seminary at
+Tiflis ( Tbilisi ), where his mother sent him to become a priest, but he became a closet atheist.
+[84] Zubok and Pleshakov further noted, "Many would later note, however, that his works were
+influenced by a distinctly Biblical style" and "his atheism remained rooted in some vague
+idea of a God of nature." [84]
+
+Regarding one famous claim about evolution, historians doubt one later Soviet claim that he
+read The Origin of Species at the age of thirteen while still at Gori, and told a fellow pupil
+that it proved the nonexistence of God. The story fails on several obvious accounts,
+including Stalin's remaining religious, even pious, for some years longer. [85] In fact
+Professor of Religion Hector Avalos noted, "Stalin, in fact, had a complex relationship with
+religious institutions in the Soviet Union." [86]
+
+Historian Edvard Radzinsky used recently discovered secret archives and noted a story that
+changed Stalin's attitude toward religion. [87] The story in which Ilya, Metropolitan of the
+Lebanon Mountains, claimed to receive a sign from heaven that "The churches and monasteries
+must be reopened throughout the country. Priests must be brought back from imprisonment,
+Leningrad must not be surrendered, but the sacred icon of Our Lady of Kazan should be carried
+around the city boundary, taken on to Moscow, where a service should be held, and thence to
+Stalingrad Tsaritsyn ." [87] Shortly thereafter, Stalin's attitude changed and "Whatever
+the reason, after his mysterious retreat, he began making his peace with God. Something
+happened which no historian has yet written about. On his orders many priests were brought
+back to the camps. In Leningrad, besieged by the Germans and gradually dying of hunger, the
+inhabitants were astounded, and uplifted, to see wonder-working icon Our Lady of Kazan
+brought out into the streets and borne in procession." [87] Radzinsky asked, "Had he seen the
+light? Had fear made him run to his Father? Had the Marxist God-Man simply decided to exploit
+belief in God? Or was it all of these things at once?." [87]
+
+During the Second World War Stalin reopened the Churches. One reason could have been to
+motivate the majority of the population who had Christian beliefs. The reasoning behind this
+is that by changing the official policy of the party and the state towards religion, the Church
+and its clergymen could be to his disposal in mobilizing the war effort. __________________
+
+Quote: Ek staan eder saam met 10 man, wat eerstens met God en die waarheid gewapen is, en dan met
+die wapen gewapen is.
+
+As wat ek saam met n 1000 man staan, wat net met die wapen alleen gewapen is.
+
+Ek staan erder met n man wat feitlik korek is, as n man wat Geeslik verkeerd is.
+
+SIENER VAN RENSBURG
+
+AAN DIE STERKSE EN MEES OPREGSTE BOER SAL DAAR GELOUTER WORD
+
+http://boervolk.com/forums/showthrea...=3750#post3750
+
+Image: ./images/statusicon/user_online.gif  
+
+Image: ./images/buttons/quote.gif Piett View Public Profile Send a private message to
+Piett Find More Posts by Piett
+
+Image: ./images/statusicon/post_old.gif 07-12-2008   # 10 Piett
+vbmenu_register("postmenu_8278", true); Super Moderator  
+
+
+
+Image: customavatars/avatar6_11.gif  
+
+Join Date: Jan 2007 Posts: 15,102
+
+Image: ./images/reputation/reputation_pos.gif Cult of personality
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Roses_for_Stalin_by_Vladimirskij.jpg/225px-Roses_for_Stalin_by_Vladimirskij.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Roses for Stalin (1949), painting by Boris Vladimirski .
+
+
+
+
+
+Stalin created a cult of personality in the Soviet Union around both himself and Lenin. The
+embalming of the Soviet founder in Lenin's Mausoleum was performed over the objection of
+Lenin's widow, Nadezhda Krupskaya . Stalin became the focus of massive adoration and even
+worship.
+
+Numerous towns, villages and cities were renamed after the Soviet leader (see List of places
+named after Stalin ) and the Stalin Prize and Stalin Peace Prize were named in his honor. He
+accepted grandiloquent titles (e.g. "Coryphaeus of Science," "Father of Nations,"
+"Brilliant Genius of Humanity," "Great Architect of Communism," "Gardener of Human
+Happiness," and others), and helped rewrite Soviet history to provide himself a more
+significant role in the revolution. At the same time, according to Khrushchev , he insisted
+that he be remembered for "the extraordinary modesty characteristic of truly great people."
+
+Many statues and monuments were erected to glorify Stalin but all of them distorted Stalin's
+true build. Going by these monuments and statues it would be easy to assume that Stalin was a
+tall and well built man not unlike Tsar Alexander III . This was not the case however;
+photographic evidence suggests he was between 5 ft 5 in and 5 ft 6 in (165–168 cm) [9] . His
+physical stature was exaggerated in all portraits and statues to avoid any image of weakness
+that could harm his cult of personality .
+
+Trotsky criticized the cult of personality built around Stalin as being against the values of
+socialism and Bolshevism, in that it exalted the individual above the party and class and it
+disallowed criticism of Stalin. The personality cult reached new levels during the Great
+Patriotic War , with Stalin's name even being included in the new Soviet national anthem . The
+reference was later removed during the process of De-Stalinization . Also the soldiers of the
+Red Army when they charged into battle, they would not only yell out "FOR THE MOTHERLAND", but
+also most, if not all would also yell out "FOR STALIN". Also the Iosif Stalin tank class was
+named after Stalin.
+
+Stalin became the focus of a body of literature encompassing poetry as well as music,
+paintings and film. Artists and writers vied with each other in fawning devotion, crediting
+Stalin with almost god-like qualities, and suggesting he single-handedly won the Second
+World War.
+
+It is debatable as to how much Stalin relished the cult surrounding him. The Finnish communist
+Tuominen records a sarcastic toast proposed by Stalin at a New Year Party in 1935: Comrades! I
+want to propose a toast to our patriarch, life and sun, liberator of nations, architect of
+socialism [he rattled off all the appellations applied to him in those days] — Joseph
+Vissarionovich Stalin, and I hope this is the first and last speech made to that genius this
+evening. [88]
+
+In recent years, support of Stalin has resurged. Millions of Russians, exasperated with the
+downfall of the economy and political instability after the breakup of the Soviet Union, want
+Stalin back. A recent controversial poll revealed that over thirty-five percent of Russians
+would vote for Stalin if he were still alive. [89] This is seen by some as a return of Stalin's
+cult. In Krasnoyarsk , it has been decided to rebuild a communist-era memorial complex
+dedicated to Josef Stalin. [90] Also, a new statue of Stalin is to be erected in Moscow ,
+“returning his once-ubiquitous image to the streets after an absence of four decades, a top
+city official said yesterday”, as reported by The Scotsman . [91]
+
+A survey from late 2006 revealed that 47% of Russian respondents viewed Stalin as a positive
+figure, and only 29% as a negative one. Some controversy also ensued when a recently approved
+history textbook for Russia’s schoolchildren attempted to illustrate Stalin’s purges
+as a necessary evil in the process of state-building. [92] In July 2008, Stalin topped at the
+list of most popular figures of the Russian history and culture in the nationwide television
+project " Name of Russia. Historical Choice 2008 " in which 178,881 out of 1,453,390 voted for
+him. [93]
+
+
+
+Policies and accomplishments
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Grutas_Stalin.jpg/221px-Grutas_Stalin.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Grutas Park is home to a monument of Stalin, originally set up in Vilnius .
+
+
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Goristatue.JPG/221px-Goristatue.JPG
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Monument to Stalin in Gori, Georgia .
+
+
+
+
+
+Under Stalin's rule, the Soviet Union was transformed from an agricultural nation into a
+global superpower, although at the cost of an estimated 30 million lives. The USSR's
+industrialization was successful in that the country was able to defend against and defeat
+the Nazi invasion in World War II , though at an enormous cost in human life. In 1957, four years
+after Stalin's death, the nation put into orbit the first artificial satellite, Sputnik 1 .
+
+Libertarian historian Robert Conquest and some other Westerners[ who? ] claim that the USSR
+was bound for industrialization, and that its speed along this course was not necessarily
+improved by the Bolsheviks.[ citation needed ] Other historians argue that Stalin was partly
+responsible for the initial military disasters and enormous human casualties during WWII,
+because he eliminated so many experienced military officers during the purges. He
+especially attacked the most senior officers and had rejected intelligence warning of the
+German attack. [94]
+
+While Stalin's social and economic policies laid the foundations for the USSR's emergence as
+a superpower, the harshness with which he conducted Soviet affairs was subsequently
+repudiated by his successors in the Communist Party leadership, notably in the denunciation
+of Stalinism by Nikita Khrushchev in February 1956. In his "Secret Speech", On the
+Personality Cult and its Consequences , delivered to a closed session of the 20th Party
+Congress of the Communist Party of the Soviet Union, Khrushchev denounced Stalin for his cult
+of personality, and his regime for "violation of Leninist norms of legality".
+
+Stalin's immediate successors preserved major elements of his rule, including the
+political monopoly of the Communist Party's presiding over a command economy and a security
+service able to suppress dissent. The large-scale purges of Stalin's era were never
+repeated, but political repression continued, albeit on a lesser scale.
+
+
+
+Nicknames and Pseudonyms
+
+
+
+His first name is also transliterated as Iosif . His original surname,
+ჯუღაშვილი, is also transliterated as Jugashvili or Jughashvili . The
+Russian transliteration is Джугашвили, which is in turn transliterated into
+English as Dzhugashvili and Djugashvili ; -შვილი ( -shvili ) is a Georgian suffix
+meaning "child" or "son".
+
+There are several etymologies of the ჯუღა ( jugha ) root. In one version, it is the
+Ossetian for "rubbish"; the surname Jugayev is common among Ossetians, and before the
+revolution the names in South Ossetia were traditionally written with the Georgian suffix,
+especially among Christianized Ossetians. In a second version, the name derives from the
+village of Jugaani in Kakhetia , eastern Georgia.
+
+An article in the newspaper Pravda in 1988 claimed that the word derives from the Old Georgian
+for " steel " which might be the reason for his adoption of the name Stalin. Сталин (
+Stalin ) is derived from combining the Russian сталь ( stal ), "steel", with the
+possessive suffix -ин ( -in ), a formula used by many other Bolsheviks, including Lenin .
+
+It has also been said that, originally, "Stalin" was a conspiratorial nickname which stuck
+with him.
+
+Like other Bolsheviks, he became commonly known by one of his revolutionary noms de guerre , of
+which Stalin was only the most prominent. He was also known as Koba , a Robin Hood -like brigand
+from the 1883 novel The Patricide by Alexander Kazbegi . [95] During conversations, Vladimir
+Lenin always called Stalin "Koba".
+
+Stalin is also reported to have used at least a dozen other names for the purpose of secret
+communications.[ citation needed ] Most of them remain unknown.
+
+Directly following World War II, as the Soviets were negotiating with the Allies, Stalin
+often sent directions to Molotov as Druzhkov .
+
+Other nicknames, pseudonyms and aliases were Josef Besoshvili ; Besov ; Ivanov ; A. Ivanovich
+; Soso or Sosso (mainly his boyhood name); Soselo or Ryaboi Soselo (a youthful nickname),
+David K. Kato ; G. Nizharadze or G. Nijeradze ; Chizhikov or Chizhnikov ; Oranness ;
+Vartanovich ; Totomyans ; Vassilyi and J.V. Stalin .
+
+Stalin was nicknamed "Uncle Joe" by the Western media. [96]
+
+
+
+Hypotheses, rumors, and misconceptions about Stalin
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Wiki_letter_w.svg/36px-Wiki_letter_w.svg.png
+
+Please help improve this section by expanding it.
+
+Further information might be found on the talk page or at requests for expansion .
+
+
+
+
+
+Birth and death
+
+
+
+For very long time the date of birth of Stalin was falsified. [1]
+
+There are a number of hypotheses and popular rumors about the "real" father of Stalin.
+
+See section " Death " for various hypotheses about causes of Stalin's death.
+
+
+
+Suspected Tsarist connections
+
+
+
+Stalin has been suspected in the past and in the present of being a Tsarist double-agent during
+his revolutionary years. Some of this suspicion stems from his ability to evade Tsarists
+efforts to capture him. His 1909 efforts to root out traitors caused much strife within the
+party; some accused him of doing this deliberately on the orders of the Okhrana. The Menshevik
+Razhden Arsenidze said that Stalin was betraying comrades he didn't like to the Okhrana, but
+there is no proof of this. His ability to anticipate Okhrana actions may have come from moles
+within the organization. Another historian, Simon Sebag Montefiore, found that in all
+surviving Okhrana records Stalin is described as a revolutionary and never a spy. [12] In the
+1956, the magazine Life published a letter by Colonel Ermin, head of the Tiflis Okhrana, that
+said Stalin was an agent, but it has since been shown to be a forgery.
+
+In his 1967 biography of Stalin, Edward Ellis Smith argued that Stalin was an Okhrana agent by
+citing his suspicious ability to escape from Okhrana dragnets, travel unimpeded, and
+rabble-rouse full time with no apparent source of income. One such example was the raid that
+occurred on the night of April 3 1901, when most everyone of importance in the
+Socialist-Democratic movement in Tiflis was arrested, except for Stalin, who was
+apparently "enjoying the balmy spring air, and in one of his to-hell-with-the-revolution
+moods, [which] is too impossible for serious consideration." [97] __________________
+
+Quote: Ek staan eder saam met 10 man, wat eerstens met God en die waarheid gewapen is, en dan met
+die wapen gewapen is.
+
+As wat ek saam met n 1000 man staan, wat net met die wapen alleen gewapen is.
+
+Ek staan erder met n man wat feitlik korek is, as n man wat Geeslik verkeerd is.
+
+SIENER VAN RENSBURG
+
+AAN DIE STERKSE EN MEES OPREGSTE BOER SAL DAAR GELOUTER WORD
+
+http://boervolk.com/forums/showthrea...=3750#post3750
+
+Image: ./images/statusicon/user_online.gif  
+
+Image: ./images/buttons/quote.gif Piett View Public Profile Send a private message to
+Piett Find More Posts by Piett
+
+Image: ./images/statusicon/post_old.gif 07-12-2008   # 11 Piett
+vbmenu_register("postmenu_8279", true); Super Moderator  
+
+
+
+Image: customavatars/avatar6_11.gif  
+
+Join Date: Jan 2007 Posts: 15,102
+
+Image: ./images/reputation/reputation_pos.gif Die vraag onstaan nou, hoekom word
+Starlin se moorde so stil gehou.
+
+
+
+Die antwoord is eenvoudig: HY WAS N JOOD.
+
+
+
+Quote: Stalin was a Jewish Moscow coffee house radical
+
+
+
+Image: http://www.jewwatch.com/gif-stalin-1.jpg
+
+Image: http://www.jewwatch.com/gif-stalin-2.jpg
+
+Image: http://www.jewwatch.com/gif-stalin-3.jpg
+
+Image: http://www.jewwatch.com/gif-stalin-4.jpg
+
+Image: http://www.jewwatch.com/gif-stalin-5.jpg In the Georgian language "shvili"
+means son of, or son, as in Johnson. "Djuga" means Jew. Therefore Djugashvili means Jewison.
+
+So Joe Stalin's real name, before he changed it, was Joe Jewison. It gets better, his name was
+Joseph David Djugashvili, a typical Jewish name. During his revolutionary days he changed
+his name to "Kochba", the leader of the Jews during one of the anti-Roman uprisings of the Jews.
+Russians don't change their names. Georgians don't change their names. Jews change their
+names.
+
+
+
+Stalin's wives
+
+Image: http://www.jewwatch.com/gif-stalin-and-wife.jpg
+
+Image: http://www.jewwatch.com/gif-stalin-wife-rosa-kagano.jpg Stalin had three
+wives, all of them Jewesses.
+
+The first was Ekaterina Svanidze who bore him one son, Jacob. His second wife was Kadya
+Allevijah. She bore him a son Vassili, and a daughter Svetlana. His second wife died in
+mysterious circumstances, either by committing suicide, or murdered by Stalin. His third
+wife was Rosa Kaganovich, the sister of Lazar Kaganovich, who was the head of Soviet industry.
+
+Stalin's daughter (who in 1967 fled to the USA) then married Lazar's son Mihail i.e. her
+step-mother's nephew. Svetlana Stalin had a total of four husbands, three of them Jewish.
+
+Stalin's vice-president Molotov was also married to a Jewess, whose brother, Sam Karp, runs
+an export business in Connecticut. Just to complicate things even more, the Molotov's
+(half-Jewish) daughter also called Svetlana was engaged to be married to Stalin's son
+Vassili. Quote: Jewish Love Affair of Comrade Stalin
+
+With Russian Jewess Ana Rubenstein
+
+
+
+
+
+Image: http://www.jewwatch.com/gif-stalin-1.jpg September 23, 2007 Stalin's Jewish
+affair by Dmitri Prokofiev, YNetnews
+
+For more than 50 years, a letter containing astonishing information lay in the basement of the
+Russian communist party. The anti-Semitic tyrant who planned mass purges against the Jews
+had an affair with a Jewish woman, and also cared for her daughter until she died The communist
+tyrant Joseph Stalin was known to be an anti-Semite who planned wide-scale purges against the
+Jews in his latter days. Yet the fact that the Soviet ruler planned to annihilate the Jews did
+not prevent him from having an affair with a Jewish woman, and to take care of her daughter until
+her mother passed away. According to some evidence, Stalin may have even married the woman.
+The affair was disclosed recently thanks to a letter discovered by an historian named Nicolai
+Nada. The letter, which was placed on the desk of the general secretary of the communist party
+Georgi Malenkov in 1953, the day Stalin suffered a stroke, was kept in a classified party file
+for years. Just a few months ago those in charge of the file were persuaded to reveal the letter,
+and this is what it contained: The Letter of the Daughter of Ana Rubenstein Dear Comrade
+Malenkov! I am the daughter of Ana Rubinstein, the former wife of Comrade Stalin.
+
+As he is in ill health, I ask you to let me see him. He knows me since I was a child.
+
+R. Sveshnikova (Kostiokovski). If it is not possible to see him, I ask you to grant me an
+audience on a very urgent matter.
+
+Date: 04.03.55 We shall apparently never know what exactly the writer of the letter sought to
+tell Stalin, and what the "urgent matter" she wished to discuss with the general-secretary of
+the communist party was about. However, Nicolai Nada focused his research on the identity of
+Ana Rubinstein, "the former wife of Comrade Stalin," and discovered some astonishing facts.
+From the few documents uncovered in the archives it appears that Ana Rubinstein was born
+around 1890 in Ukraine. In 1910 she married a Jew named Zalman Kostiovsky, and on 28th
+September, 1911 they had a daughter named Regina. The marriage broke up and a year later Ana
+came to Saint Petersburg with her daughter, but without her husband. Two Official Wives Nada
+believes that Stalin met Ana Rubinstein as early as 1912. He used to visit Saint Petersburg
+often, where Rubinstein was affiliated to the city's Bolshevik underground. The affair
+between them apparently developed later on, because in 1913 Stalin was apprehended by police
+and deported to Siberia from where he returned in the spring of 1917. Regina Sveshnikova –
+whom Stalin knew during "her childhood" - was five- and-a-half years old in 1917. The question
+which has still not been clarified is whether it was just an affair or whether the couple did
+actually marry? This is difficult to answer with any certainty, since all the documents
+pertaining to Stalin's personal life were confiscated in the 1920s, and Stalin himself got
+rid of any "incriminating" documents. The official version of his biography, published in
+the USSR, mentions two "official" women: Yekaterina Svanidze who died of tuberculosis and
+Nadezhda Alliluyeva who committed suicide. However, indirect evidence shows that Ana
+Rubinstein may also have been a legal wife. The first piece of evidence is associated with the
+timeline: Stalin was first seen with the beautiful Alliluyeva in 1917; however he only
+married her a year and a half later. In elite communist circles it was whispered that the tyrant
+didn't marry because he had not yet divorced his former wife. The problem is that Stalin's
+first wife, Yekaterina Svanidze, died in 1907. Another piece of evidence is associated to
+Rubinstein herself: It appears that for dozens of years, someone in high places took care of
+Rubinstein and her daughter Regina. Ana's grandson, Vitali Sveshnikov, who died recently,
+told Nicolai Nada that Ana Rubinstein died in the middle of the 1950s in Leningrad. He
+recounted that she had resided in an elite neighborhood on Vasilievsky Island, right
+opposite the house where the leadership of the communist party branch lived. Ana and her
+daughter stayed in Leningrad during the siege, during which a million residents of the city
+died of starvation, yet they remained alive. It is more than likely that the two received food
+packages from the party branch. Moreover, Regina Kostiovsky married an engineer named
+Vladimir Sveshnikov, and in September 1950 they moved to Moscow. At the same time a wave of
+anti-Semitism swept the USSR, and hardly a day went by without Jewish intellectuals being
+arrested while the press published vindictive articles against the "Zionists." However
+someone in the communist party made sure that the Sveshnikov couple be given a spacious
+apartment in a luxurious building near the Taganka Square just a kilometer from the Kremlin,
+which was built that same year for academy staff and senior generals. These apartments are
+currently being sold for millions of dollars. Name of Street Still Classified Immediately
+after moving to Moscow, Regina was hired as an engineer at a classified institute that
+developed innovative weaponry. It was just a few month after a confidential decree was issued
+by the KGB not to hire Jews to work in security related institutions. Even after she had
+dispatched a letter to general-secretary Malenkov she was not fired and she continued
+working there until her retirement. This proved that her mother was indeed close to Stalin,
+because in 1953 those who made unfounded claims of affiliation to the "people" were deported
+to labor camps for "Offenses against the reputation of the State." For six weeks, until April
+16th 1953, Regina's letter lay on Malenkov's desk, who was appointed prime minister upon
+Stalin's death. It may be assumed that he would not have achieved such a lofty position had he
+not been a partner to the story of the tyrant's Jewish wife. On April 16th, following a meeting
+attended by only a few senior leaders, Dmitry Sukhanov, director-general of the prime
+minister's office ordered the letter to be placed in the party presidents' secret archives.
+The letter was not only put in the archives, but into a special file, whose contents were meant
+to be kept confidential forever. The letter was kept in the file until the fall of the communist
+party and collapse of the Soviet Union. Regina Sveshnikova passed away on January 23rd, 1989
+and was laid to rest at a prestigious cemetery. To date the Russian security services ban the
+publication of the name of the street on which she resided in Moscow. __________________
+
+Quote: Ek staan eder saam met 10 man, wat eerstens met God en die waarheid gewapen is, en dan met
+die wapen gewapen is.
+
+As wat ek saam met n 1000 man staan, wat net met die wapen alleen gewapen is.
+
+Ek staan erder met n man wat feitlik korek is, as n man wat Geeslik verkeerd is.
+
+SIENER VAN RENSBURG
+
+AAN DIE STERKSE EN MEES OPREGSTE BOER SAL DAAR GELOUTER WORD
+
+http://boervolk.com/forums/showthrea...=3750#post3750
+
+Image: ./images/statusicon/user_online.gif  
+
+Image: ./images/buttons/quote.gif Piett View Public Profile Send a private message to
+Piett Find More Posts by Piett
+
+Image: ./images/buttons/reply.gif
+
+« Previous Thread | Next Thread »
+
+Currently Active Users Viewing This Thread: 1 (0 members and 1 guests)   Thread Tools
+
+Image: ./images/buttons/printer.gif Show Printable Version
+
+Image: ./images/buttons/sendtofriend.gif Email this Page
+
+
+
+Image: ./images/buttons/collapse_thead.gif Posting Rules You may not post new threads You
+may not post replies You may not post attachments You may not edit your posts
+
+
+
+vB code is On Smilies are On [IMG] code is On HTML code is On Forum Jump
+
+User Control Panel Private Messages Subscriptions Who's Online Search Forums Forums Home
+Die Boervolk van SA..Reëls..Nuwe Lede.. Projekte..Bedankings     Admin en Forum-reëls
+    Projekte - Vryheidsaksies / Bedankings en erkennings     Nuwe Lede Bekendstellings /
+Forum Voorstelle en Gedagtes     Die ergste mense regte skendings in die geskiedenis van
+enige Volk - insluitende die Joodse Holocaus         Maatskappye betrokke in die Anglo
+Boere Oorlog         Konsentrasie Kampe: Helkampe Van Engeland         Brittanje se
+Volksmoordenaars         Dokumentasie en Kontrakte geteken gedurende Anglo Boere Oorlog
+        Havenga Dokumentasie         Redes vir die Anglo-Boereoorlog        
+Verwysing na Boer uit die geskiedenis         Die Kombuis - Politiekekamer        
+Studeer Kamer - Menseregtekamer         Profetiese Voorspellings         Geloofs Kamer
+    BINNELANDSE SAKE EN NUUS         Binnelandse nuus en kommentaar         Sportnuus  
+      Die Ekomomie     Kaptein Nommers se spoeg en plak         Kaptein Nommers se spoeg en
+plak Boervolk Sake     Boeremag Saak ( saga )........Bv Forum     Die Ou Man se stryd teen
+SATAN     boerevryheid.co.za..NI..instansie Boervolk Teologie     Boervolk Teologie
+    Geloof / Teologie     Hipotetiese Voorstellings     Tekens van die Tye    
+Teenoorgestelde Insigte ( Uitkyke) Veiligheid en Sekuriteit (Justisie)     n Saamedrom
+van Boervolk VERAAIERS, Jode en boere-Jode..boerevryheid...     Volks Verraaiers    
+Die Waarheid oor Frikkie Potgieter     Die Boervolk se VYANDE     Oorspronklike Skandmuur
+    Boks-Kryt Tegnies / Technial     Werkskepping / Doen dit self     Tegnies /
+Technial.......Forum     Terwille van Oorlewing / Tegnologie (GESKIEDENIS) Kuns en
+kultuur     Digters, skrywers, skilders en Monumente     Geskiedenis    
+Boekbesprekings     Gelofte / Verbond......Geskiedenis     Boerehelde /
+Boerekrygsgevangenes (BOERVOLK VIDEOS) Vlae van die Volk...Begin tot einde.     Boervolk
+Videos Uitspan....Ontspan     Gesondheid / Boererate     Vroue Van Die Boervolk en
+Resepte     Kampvuur praatjies / Jeugsake
+
+
+
+Image: ./images/buttons/collapse_tcat.gif » October 2012 S M T W T F S 30 1 2 3 4 5 6 7 8 9 10 11 12 13
+14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 1 2 3
+
+Image: ./images/buttons/collapse_tcat.gif » Site Navigation » Homepage » Forum  >
+User CP  > FAQ Powered by vBadvanced CMPS v3.0.1
+
+All times are GMT +3. The time now is 08:55 PM .
+
+Archive - Top
+
+Powered by vBulletin® Version 3.6.4
+
+Copyright ©2000 - 2012, Jelsoft Enterprises Ltd. <!-- // Main vBulletin Javascript
+Initialization vBulletin_init(); //-->
+

@@ -1,0 +1,1026 @@
+
+
+
+
+Mayfair Wellington FL Homes For Sale (function() { var cx =
+'016474116467456296202:zcdp2tq_pxi' var gcse = document.createElement('script');
+gcse.type = 'text/javascript'; gcse.async = true; gcse.src =
+(document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/headers/ar_home_logo.png?1348685093
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets2.ar-img.com/images/headers/ar_home_b_search.png?1348685093
+    var currentIndex = -1 var default_phrase = "Find Homes for Sale in your city"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348685093
+        Consumer
+
+        - Home Improvement
+
+        
+
+        - Home Buying
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Home Selling
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348685093
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  body { background: #0F0F0F
+url(/image_store/customizer/michellegibson_background_9699_grey_header.jpg)
+repeat fixed center top; margin: 0; padding: 0; } table#blog_content { width: 960px; margin:
+0 auto; } td.blog_content_td { background: #ffffff; } #custom_blog_header { display:
+block; background:#0F0F0F
+url(/image_store/customizer/michellegibson_header_28315_wellington_fl_blog_header_1.jpg)
+no-repeat scroll left top; height: 130px; margin-top: 0px; } #top_menu { border: none;
+background-color:#2C76B4; background-image: none; } #top_menu li a, #top_menu li
+span.fake_menu_item { color: #FFFFFF; text-shadow: none; } #top_menu .top_dropdown ul li
+a:hover { background: none !important; } #logo_wrapper { background: white; } #header {
+margin-top: 0; padding-top: 0; border: none !important; } .nav { margin: 0 !important;
+border-width: 0 !important; } #top_menu .top_dropdown { border: none;
+background-color:#2C76B4; } #top_menu .top_dropdown a, #top_menu .top_dropdown
+.inner_menu_header { color:#FFFFFF !important; } #top_menu .top_dropdown
+.inner_menu_header { text-decoration: underline; } #top_menu .top_dropdown ul li a:hover
+{ background-color:#2C76B4; font-weight: bold; } .top_dropdown { margin-top: 5px; } * html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * + html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * html
+.top_dropdown { margin-top: 3px; z-index: 1000; } * + html .top_dropdown { margin-top: 19px;
+z-index: 1000; } Home : Blogs : Michelle Gibson REALTORÂ® Wellington Florida Homes for Sale
+: Wellington FL Real Estate & Homes for Sale .reblog { margin-left: 4px; } Tweet
+
+Mayfair Wellington FL Homes For Sale
+
+Mayfair Wellington FL Homes For Sale
+
+
+
+Homes for sale in Mayfair offer active adults in Wellington FL a care free lifestyle. Publix
+grocery store is within walking distance along with CVS Pharmacy and the Village of
+Wellington Community Center . Restaurants, entertainment and additional shopping is also
+close by.
+
+
+
+
+
+Mayfair in Wellington FL was built by Engle Homes from 2006 to 2007. There are only 112 homes
+within the gates of Mayfair and two different styles were built, Coach Homes and Carriage
+Homes.
+
+
+
+The Coach Series in Mayfair has two different floorplans with a living square footage of 1,716
+and 1,95. Each Coach home in Mayfair has a two car garage with additional driveway parking.
+
+
+
+The Carriage Series in Mayfair also has two different floorplans with a living square footage
+of 1,550 and 1,852. Each Carriage home in Mayfair has a one car garage with additional driveway
+parking.
+
+
+
+Almost all of the homes in Mayfair are located on water, either Lake Wellington, a peaceful
+canal leading out to Lake Wellington or the beautiful lake located in the center of Mayfair.
+
+Mayfair Wellington FL Amenities
+
+    Image: /image_store/uploads/7/3/2/7/9/ar126999691897237.jpg
+
+    - Clubhouse
+
+    
+
+    - Swimming Pool with Sun Deck
+
+    
+
+    - Fitness Center
+
+    
+
+    - Card Room
+
+    
+
+    - Media Room
+
+    
+
+    - Walking Paths
+
+    
+
+
+
+
+
+View Models View Site Plan
+
+If you are looking to BUY, SELL or RENT in Mayfair Wellington FL contact me today!
+
+Michelle Gibson REALTOR®
+
+HANSEN REAL ESTATE GROUP INC.
+
+561.333.0446
+
+Search Wellington FL Homes For Sale  |  Search Wellington FL Homes For Rent
+
+        Wellington Florida Short Sales  |  Buying a Wellington FL Short Sale?
+
+
+
+Image: http://activerain.com/image_store/uploads/2/0/7/8/7/ar125372845278702.png
+
+Image: http://activerain.com/image_store/uploads/1/7/9/0/5/ar125372863350971.png
+
+Image: http://activerain.com/image_store/uploads/1/7/5/3/3/ar129350724933571.png
+
+Image: http://activerain.com/image_store/uploads/4/5/1/4/4/ar125372848844154.png
+
+Image: http://activerain.com/image_store/uploads/6/9/2/0/8/ar125372851480296.png
+
+©2009-2012 All Rights Reserved   Posted by Michelle Gibson REALTORÂ® Wellington
+Florida Homes for Sale on 03/31/2010 01:07 PM   Comments (3)   Mayfair Wellington FL Homes
+for Sale in the Home Buying Channel   mayfair wellington florida real estate , homes for sale
+in mayfair wellington florida real estate , homes for sale in wellington fl   Originally
+posted at: Where's Wellington?: Mayfair Wellington FL Homes For Sale Generate short URL This
+post has been included in Florida Real Estate News Palm Beach County, FL Real Estate News
+Wellington, FL Real Estate News Mayfair (Wellington, FL) Real Estate News
+
+Post is included in group: All Real Estate - Today & Tomorrow
+
+Post is included in group: EXPRESS WITH WORDS AT ACTIVERAIN
+
+Post is included in group: Posts to Localism
+
+
+
+3 Comments on Mayfair Wellington FL Homes For Sale MAR 31 2010
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+
+Seriously?!?!  Just when I think you can't give a better presentation you always top
+yourself.  You need to be a speaker for these raincamps Miss Michelle! Renee Burrows - Las
+Vegas Real Estate - (702-580-1783) www.ShackDiva.com (BrokerThe Force
+Realty-REALTOR-Estate-Probate-REO-Short Sale) 8:18pm • #1
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+Michelle:  Great slide show I love selling new homes and looking at the models! Jane Grant,
+"Temecula Homes", Southwest Real Estate 11:14pm • #2 APR 01 2010
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686621
+Renee - Thank you, it all started with you Jane - Thanks Michelle Gibson REALTORÂ®
+Wellington Florida Homes for Sale (Hansen Real Estate Group Inc. ) 12:40pm • #3 Notify me of
+new comments: Email:
+
+Image: /images/24-message-info.png What does the graphic say?
+
+Image: /plugin_assets/fruit_captcha/images/f366.gif Leave a response… var
+RecaptchaOptions = { theme : 'custom', custom_theme_widget: 'recaptcha_widget' };
+
+Name:
+
+Email:
+
+(optional) Comment: //<![CDATA[ tinyMCE.init( { mode:'exact', convert_urls: false,
+elements:'blog_comment_comment', theme:'advanced', plugins: 'spellchecker',
+theme_advanced_toolbar_location: 'top', theme_advanced_buttons1 : 'bold, italic,
+underline, strikethrough, justifyleft, justifycenter, justifyright, justifyfull,
+outdent,indent, bullist, numlist,preview,spellchecker', extended_valid_elements:
+'object[classid|codebase|width|height|align|embed|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata],param[name|value],embed[quality|type|pluginspage|width|height|src|align|wmode|flashvars|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata]',
+plugin_preview_width : '600', plugin_preview_height : '600', theme_advanced_buttons2 :
+'', theme_advanced_buttons3 : '', file_browser_callback : 'fileBrowserCallBack',
+spellchecker_rpc_url : '/action/spellcheck' }); //]]> Spam Prevention: Incorrect please
+try again Type the two words above Type the numbers you hear
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/sound.gif?1348685093
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/photo.gif?1348685093
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/reload.gif?1348685093
+Event.observe(window, 'load', initLazyLoad); function initLazyLoad() {
+$$("div.comment_image").each(function(e){ e.style.backgroundImage =
+"url("+e.getAttribute('imagesrc')+")" }) }   function contact(aid) { //documentation
+on this: http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/976/193976/large/Michelle_Gibson_ActiveRain_Profile.jpg?1309568800
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/rainmaker_large.png?1348685093
+
+Michelle Gibson REALTORÂ® Wellington Florida Homes for Sale
+
+Wellington , FL
+
+More about me…
+
+Hansen Real Estate Group Inc.
+
+Address: www.WellingtonHomeTeam.com
+
+Office Phone: (561) 333-0446
+
+Email Me
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/minus.gif?1348685093
+Listings
+
+
+
+
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/system/s3_buckets/activerain-image-store-2/listing_photos/678/136678/thumbnail/SAM_0250.jpg?1334098692
+1304 Stratford Street, Wellington, FL $180,000 3 br, 2 ba, 1,996 sqft If you are looking for a
+Waterfront Pool Home in Wellington Florida then this...
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/system/s3_buckets/activerain-image-store-2/listing_photos/892/136892/thumbnail/Exotica%20Lane%20-%20AR%20FEATURED.jpg?1334263852
+13635 Exotica Ln, Wellington, FL $180,000 3 br, 2Âœ ba, 2,112 sqft Sit back, relax and enjoy
+the amazing views from this waterfront pool home ...
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/system/s3_buckets/activerain-image-store-2/listing_photos/167/141167/thumbnail/SAM_1092.jpg?1337789322
+4887 Baywinds Dr #4208, West Palm Beach, FL $75,000 2 br, 2 ba, 1,141 sqft 4887 Baywinds Drive
+#4208: Beautiful second floor luxury condo for sale in th...
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/system/s3_buckets/activerain-image-store-2/listing_photos/250/152250/thumbnail/1-2843%20Shaughnessy%20Drive%20Wellington%20Florida%20007.jpg?1344910576
+2843 Shaughnessy Drive, Wellington, FL $300,000 4 br, 3 ba, 2,986 sqft Model perfect home for
+Sale in Olympia featuring 3 Bedrooms + Den, 3 Bathroom...
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/system/s3_buckets/activerain-image-store-2/listing_photos/210/155210/thumbnail/SAM_5739-1.jpg?1347576208
+96 Citrus Park Lane, Boynton Beach, FL $2,100 4 br, 3 ba, 2,154 sqft Beautiful Pool Home for Rent
+in the desirable gated community of Boynton Esta...
+
+
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/minus.gif?1348685093
+Links
+
+
+
+    
+
+    - Wellington FL Real Estate
+
+    
+
+    - Wellington FL Rentals
+
+    
+
+    - Wellington FL Short Sales
+
+    
+
+    - Wellington Short Sale Agent
+
+    
+
+    - Wellington Homes for Sale
+
+    
+
+    - Wellington Townhomes for Sale
+
+    
+
+    - Wellington Condos for Sale
+
+    
+
+    - Wellington Homes for Rent
+
+    
+
+    - Wellington Short Sale Homes for Sale
+
+    
+
+    - Wellington Short Sale Townhomes for Sale
+
+    
+
+    - Wellington Short Sale Condos for Sale
+
+    
+
+    - Central Palm Beach County Real Estate
+
+    
+
+    - Smithbrooke Townhomes for Sale
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/minus.gif?1348685093
+Archives
+
+
+
+    
+
+    - October 2012 (9)
+
+    
+
+    - September 2012 (29)
+
+    
+
+    - August 2012 (37)
+
+    
+
+    - July 2012 (34)
+
+    
+
+    - June 2012 (37)
+
+    
+
+    - May 2012 (29)
+
+    
+
+    - April 2012 (37)
+
+    
+
+    - March 2012 (36)
+
+    
+
+    - February 2012 (33)
+
+    
+
+    - January 2012 (35)
+
+    
+
+    - December 2011 (57)
+
+    
+
+    - November 2011 (36)
+
+    
+
+    - October 2011 (43)
+
+    
+
+    - September 2011 (42)
+
+    
+
+    - August 2011 (44)
+
+    
+
+    - July 2011 (51)
+
+    
+
+    - June 2011 (45)
+
+    
+
+    - May 2011 (54)
+
+    
+
+    - April 2011 (41)
+
+    
+
+    - March 2011 (44)
+
+    
+
+    - February 2011 (41)
+
+    
+
+    - January 2011 (42)
+
+    
+
+    - December 2010 (46)
+
+    
+
+    - November 2010 (37)
+
+    
+
+    - October 2010 (43)
+
+    
+
+    - September 2010 (44)
+
+    
+
+    - August 2010 (47)
+
+    
+
+    - July 2010 (39)
+
+    
+
+    - June 2010 (26)
+
+    
+
+    - May 2010 (28)
+
+    
+
+    - April 2010 (38)
+
+    
+
+    - March 2010 (34)
+
+    
+
+    - February 2010 (21)
+
+    
+
+    - January 2010 (45)
+
+    
+
+    - December 2009 (40)
+
+    
+
+    - November 2009 (31)
+
+    
+
+    - October 2009 (30)
+
+    
+
+    - September 2009 (26)
+
+    
+
+    - August 2009 (47)
+
+    
+
+    - July 2009 (51)
+
+    
+
+    - June 2009 (21)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find FL real estate agents and Wellington real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/new_design/eho.gif?1348685093
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

@@ -1,0 +1,2130 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); WORLD ON THE MOVE - Auto: May 2008 <!--
+/*----------------------------------------------- Blogger Template Style Name:
+Picture Window Designer: Josh Peterson URL: www.noaesthetic.com
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="keycolor" description="Main Color" type="color"
+default="#1a222a"/> <Variable name="body.background" description="Body Background"
+type="background" color="#e5e5e5" default="#111111
+url(//themes.googleusercontent.com/image?id=1OACCYOE0-eoTRTfsBuX1NMN9nz599ufI1Jh0CggPFA_sK80AGkIr8pLtYRpNUKPmwtEa)
+repeat-x fixed top center"/> <Group description="Page Text" selector="body"> <Variable
+name="body.font" description="Font" type="font" default="normal normal 15px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="body.text.color"
+description="Text Color" type="color" default="#333333"/> </Group> <Group
+description="Backgrounds" selector=".body-fauxcolumns-outer"> <Variable
+name="body.background.color" description="Outer Background" type="color"
+default="#296695"/> <Variable name="header.background.color" description="Header
+Background" type="color" default="transparent"/> <Variable
+name="post.background.color" description="Post Background" type="color"
+default="#ffffff"/> </Group> <Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color"
+default="#336699"/> <Variable name="link.visited.color" description="Visited Color"
+type="color" default="#6699cc"/> <Variable name="link.hover.color"
+description="Hover Color" type="color" default="#33aaff"/> </Group> <Group
+description="Blog Title" selector=".header h1"> <Variable name="header.font"
+description="Title Font" type="font" default="normal normal 36px Arial, Tahoma,
+Helvetica, FreeSans, sans-serif"/> <Variable name="header.text.color"
+description="Text Color" type="color" default="#ffffff" /> </Group> <Group
+description="Tabs Text" selector=".tabs-inner .widget li a"> <Variable
+name="tabs.font" description="Font" type="font" default="normal normal 15px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="tabs.text.color"
+description="Text Color" type="color" default="#ffffff"/> <Variable
+name="tabs.selected.text.color" description="Selected Color" type="color"
+default="#1862dc"/> </Group> <Group description="Tabs Background"
+selector=".tabs-outer .PageList"> <Variable name="tabs.background.color"
+description="Background Color" type="color" default="transparent"/> <Variable
+name="tabs.selected.background.color" description="Selected Color" type="color"
+default="transparent"/> <Variable name="tabs.separator.color"
+description="Separator Color" type="color" default="transparent"/> </Group> <Group
+description="Post Title" selector="h3.post-title, .comments h4"> <Variable
+name="post.title.font" description="Title Font" type="font" default="normal normal
+18px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/> </Group> <Group
+description="Date Header" selector=".date-header"> <Variable
+name="date.header.color" description="Text Color" type="color" default="#6e6e6e"/>
+</Group> <Group description="Post" selector=".post"> <Variable
+name="post.footer.text.color" description="Footer Text Color" type="color"
+default="#999999"/> <Variable name="post.border.color" description="Border Color"
+type="color" default="#dddddd"/> </Group> <Group description="Gadgets"
+selector="h2"> <Variable name="widget.title.font" description="Title Font"
+type="font" default="bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color"
+default="#888888"/> </Group> <Group description="Footer" selector=".footer-outer">
+<Variable name="footer.text.color" description="Text Color" type="color"
+default="#cccccc"/> <Variable name="footer.widget.title.text.color"
+description="Gadget Title Color" type="color" default="#aaaaaa"/> </Group> <Group
+description="Footer Links" selector=".footer-outer"> <Variable
+name="footer.link.color" description="Link Color" type="color" default="#99ccee"/>
+<Variable name="footer.link.visited.color" description="Visited Color" type="color"
+default="#77aaee"/> <Variable name="footer.link.hover.color" description="Hover
+Color" type="color" default="#33aaff"/> </Group> <Variable name="content.margin"
+description="Content Margin Top" type="length" default="20px"/> <Variable
+name="content.padding" description="Content Padding" type="length" default="0"/>
+<Variable name="content.background" description="Content Background"
+type="background" default="transparent none repeat scroll top left"/> <Variable
+name="content.border.radius" description="Content Border Radius" type="length"
+default="0"/> <Variable name="content.shadow.spread" description="Content Shadow
+Spread" type="length" default="0"/> <Variable name="header.padding"
+description="Header Padding" type="length" default="0"/> <Variable
+name="header.background.gradient" description="Header Gradient" type="url"
+default="none"/> <Variable name="header.border.radius" description="Header Border
+Radius" type="length" default="0"/> <Variable name="main.border.radius.top"
+description="Main Border Radius" type="length" default="20px"/> <Variable
+name="footer.border.radius.top" description="Footer Border Radius Top" type="length"
+default="0"/> <Variable name="footer.border.radius.bottom" description="Footer
+Border Radius Bottom" type="length" default="20px"/> <Variable
+name="region.shadow.spread" description="Main and Footer Shadow Spread" type="length"
+default="3px"/> <Variable name="region.shadow.offset" description="Main and Footer
+Shadow Offset" type="length" default="1px"/> <Variable
+name="tabs.background.gradient" description="Tab Background Gradient" type="url"
+default="none"/> <Variable name="tab.selected.background.gradient"
+description="Selected Tab Background" type="url"
+default="url(//www.blogblog.com/1kt/transparent/white80.png)"/> <Variable
+name="tab.background" description="Tab Background" type="background"
+default="transparent url(//www.blogblog.com/1kt/transparent/black50.png) repeat
+scroll top left"/> <Variable name="tab.border.radius" description="Tab Border Radius"
+type="length" default="10px" /> <Variable name="tab.first.border.radius"
+description="First Tab Border Radius" type="length" default="10px" /> <Variable
+name="tabs.border.radius" description="Tabs Border Radius" type="length" default="0"
+/> <Variable name="tabs.spacing" description="Tab Spacing" type="length"
+default=".25em"/> <Variable name="tabs.margin.bottom" description="Tab Margin
+Bottom" type="length" default="0"/> <Variable name="tabs.margin.sides"
+description="Tab Margin Sides" type="length" default="20px"/> <Variable
+name="main.background" description="Main Background" type="background"
+default="transparent url(//www.blogblog.com/1kt/transparent/white80.png) repeat
+scroll top left"/> <Variable name="main.padding.sides" description="Main Padding
+Sides" type="length" default="20px"/> <Variable name="footer.background"
+description="Footer Background" type="background" default="transparent
+url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left"/>
+<Variable name="post.margin.sides" description="Post Margin Sides" type="length"
+default="-20px"/> <Variable name="post.border.radius" description="Post Border
+Radius" type="length" default="5px"/> <Variable name="widget.title.text.transform"
+description="Widget Title Text Transform" type="string" default="uppercase"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay"
+type="string" default="transparent none repeat scroll top left"/> <Variable
+name="startSide" description="Side where text starts in blog language" type="automatic"
+default="left"/> <Variable name="endSide" description="Side where text ends in blog
+language" type="automatic" default="right"/> */ /* Content
+----------------------------------------------- */ body { font: normal normal 15px
+Arial, Tahoma, Helvetica, FreeSans, sans-serif; color: #6e6e6e; background: #e6e9ee
+url(http://themes.googleusercontent.com/image?id=1-QeziT_xhEvxfBl8wPx5qvDh7FrTqJvLJR2vQYW-ZkaGhxc2p1Zzl4P1_LVa2rRTUapD)
+no-repeat fixed top center /* Credit: Storman
+(http://www.istockphoto.com/googleimages.php?id=5972475&platform=blogger) */; }
+html body .region-inner { min-width: 0; max-width: 100%; width: auto; } .content-outer {
+font-size: 90%; } a:link { text-decoration:none; color: #1862dc; } a:visited {
+text-decoration:none; color: #0050e1; } a:hover { text-decoration:underline; color:
+#2552ec; } .content-outer { background: transparent
+url(http://www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left;
+-moz-border-radius: 15px; -webkit-border-radius: 15px; -goog-ms-border-radius: 15px;
+border-radius: 15px; -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .15); -webkit-box-shadow: 0 0
+3px rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 0 3px rgba(0, 0, 0, .15); box-shadow: 0 0 3px
+rgba(0, 0, 0, .15); margin: 30px auto; } .content-inner { padding: 15px; } /* Header
+----------------------------------------------- */ .header-outer { background:
+#1862dc url(http://www.blogblog.com/1kt/transparent/header_gradient_shade.png)
+repeat-x scroll top left; _background-image: none; color: #ffffff; -moz-border-radius:
+10px; -webkit-border-radius: 10px; -goog-ms-border-radius: 10px; border-radius: 10px;
+} .Header img, .Header #header-inner { -moz-border-radius: 10px; -webkit-border-radius:
+10px; -goog-ms-border-radius: 10px; border-radius: 10px; } .header-inner .Header
+.titlewrapper, .header-inner .Header .descriptionwrapper { padding-left: 30px;
+padding-right: 30px; } .Header h1 { font: normal normal 36px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); } .Header h1 a { color:
+#ffffff; } .Header .description { font-size: 130%; } /* Tabs
+----------------------------------------------- */ .tabs-inner { margin: .5em 0 0;
+padding: 0; } .tabs-inner .section { margin: 0; } .tabs-inner .widget ul { padding: 0;
+background: #fbfbfb
+url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png) repeat
+scroll bottom; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+-goog-ms-border-radius: 10px; border-radius: 10px; } .tabs-inner .widget li { border:
+none; } .tabs-inner .widget li a { display: inline-block; padding: .5em 1em; margin-right:
+0; color: #ca9816; font: normal normal 15px Arial, Tahoma, Helvetica, FreeSans,
+sans-serif; -moz-border-radius: 0 0 0 0; -webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0; -goog-ms-border-radius: 0 0 0 0; border-radius: 0 0 0
+0; background: transparent none no-repeat scroll top left; border-right: 1px solid
+#d5d5d5; } .tabs-inner .widget li:first-child a { padding-left: 1.25em;
+-moz-border-radius-topleft: 10px; -moz-border-radius-bottomleft: 10px;
+-webkit-border-top-left-radius: 10px; -webkit-border-bottom-left-radius: 10px;
+-goog-ms-border-top-left-radius: 10px; -goog-ms-border-bottom-left-radius: 10px;
+border-top-left-radius: 10px; border-bottom-left-radius: 10px; } .tabs-inner .widget
+li.selected a, .tabs-inner .widget li a:hover { position: relative; z-index: 1;
+background: #ffffff
+url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png) repeat
+scroll bottom; color: #000000; -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+box-shadow: 0 0 0 rgba(0, 0, 0, .15); } /* Headings
+----------------------------------------------- */ h2 { font: bold normal 13px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif; text-transform: uppercase; color: #838383;
+margin: .5em 0; } /* Main ----------------------------------------------- */
+.main-outer { background: transparent none repeat scroll top center; -moz-border-radius:
+0 0 0 0; -webkit-border-top-left-radius: 0; -webkit-border-top-right-radius: 0;
+-webkit-border-bottom-left-radius: 0; -webkit-border-bottom-right-radius: 0;
+-goog-ms-border-radius: 0 0 0 0; border-radius: 0 0 0 0; -moz-box-shadow: 0 0 0 rgba(0, 0, 0,
+.15); -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0,
+.15); box-shadow: 0 0 0 rgba(0, 0, 0, .15); } .main-inner { padding: 15px 5px 20px; }
+.main-inner .column-center-inner { padding: 0 0; } .main-inner .column-left-inner {
+padding-left: 0; } .main-inner .column-right-inner { padding-right: 0; } /* Posts
+----------------------------------------------- */ h3.post-title { margin: 0; font:
+normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif; } .comments h4 { margin:
+1em 0 0; font: normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif; }
+.date-header span { color: #6e6e6e; } .post-outer { background-color: #ffffff; border:
+solid 1px #e5e5e5; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+border-radius: 10px; -goog-ms-border-radius: 10px; padding: 15px 20px; margin: 0 -20px
+20px; } .post-body { line-height: 1.4; font-size: 110%; position: relative; } .post-header
+{ margin: 0 0 1.5em; color: #a8a8a8; line-height: 1.6; } .post-footer { margin: .5em 0 0;
+color: #a8a8a8; line-height: 1.6; } #blog-pager { font-size: 140% } #comments
+.comment-author { padding-top: 1.5em; border-top: dashed 1px #ccc; border-top: dashed 1px
+rgba(128, 128, 128, .5); background-position: 0 1.5em; } #comments
+.comment-author:first-child { padding-top: 0; border-top: none; }
+.avatar-image-container { margin: .2em 0 0; } /* Comments
+----------------------------------------------- */ .comments .comments-content
+.icon.blog-author { background-repeat: no-repeat; background-image:
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+} .comments .comments-content .loadmore a { border-top: 1px solid #2552ec; border-bottom:
+1px solid #2552ec; } .comments .continue { border-top: 2px solid #2552ec; } /* Widgets
+----------------------------------------------- */ .widget ul, .widget #ArchiveList
+ul.flat { padding: 0; list-style: none; } .widget ul li, .widget #ArchiveList ul.flat li {
+border-top: dashed 1px #ccc; border-top: dashed 1px rgba(128, 128, 128, .5); } .widget ul
+li:first-child, .widget #ArchiveList ul.flat li:first-child { border-top: none; }
+.widget .post-body ul { list-style: disc; } .widget .post-body ul li { border: none; } /*
+Footer ----------------------------------------------- */ .footer-outer {
+color:#f5f5f5; background: transparent
+url(http://www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left;
+-moz-border-radius: 10px 10px 10px 10px; -webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px; -webkit-border-bottom-left-radius: 10px;
+-webkit-border-bottom-right-radius: 10px; -goog-ms-border-radius: 10px 10px 10px
+10px; border-radius: 10px 10px 10px 10px; -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+box-shadow: 0 0 0 rgba(0, 0, 0, .15); } .footer-inner { padding: 10px 5px 20px; } .footer-outer
+a { color: #f5ebff; } .footer-outer a:visited { color: #bea8d3; } .footer-outer a:hover {
+color: #ffffff; } .footer-outer .widget h2 { color: #c6c6c6; } /* Mobile
+----------------------------------------------- */ html body.mobile { height: auto; }
+html body.mobile { min-height: 480px; background-size: 100% auto; } .mobile
+.body-fauxcolumn-outer { background: transparent none repeat scroll top left; } html
+.mobile .mobile-date-outer, html .mobile .blog-pager { border-bottom: none; background:
+transparent none repeat scroll top center; margin-bottom: 10px; } .mobile .date-outer {
+background: transparent none repeat scroll top center; } .mobile .header-outer, .mobile
+.main-outer, .mobile .post-outer, .mobile .footer-outer { -moz-border-radius: 0;
+-webkit-border-radius: 0; -goog-ms-border-radius: 0; border-radius: 0; } .mobile
+.content-outer, .mobile .main-outer, .mobile .post-outer { background: inherit; border:
+none; } .mobile .content-outer { font-size: 100%; } .mobile-link-button {
+background-color: #1862dc; } .mobile-link-button a:link, .mobile-link-button
+a:visited { color: #ffffff; } .mobile-index-contents { color: #6e6e6e; } .mobile
+.tabs-inner .PageList .widget-content { background: #ffffff
+url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png) repeat
+scroll bottom; color: #000000; } .mobile .tabs-inner .PageList .widget-content
+.pagelist-arrow { border-left: 1px solid #d5d5d5; } --> <!-- body { min-width: 1200px; }
+.content-outer, .content-fauxcolumn-outer, .region-inner { min-width: 1200px;
+max-width: 1200px; _width: 1200px; } .main-inner .columns { padding-left: 200px;
+padding-right: 200px; } .main-inner .fauxcolumn-center-outer { left: 200px; right:
+200px; /* IE6 does not respect left and right together */ _width:
+expression(this.parentNode.offsetWidth - parseInt("200px") - parseInt("200px") +
+'px'); } .main-inner .fauxcolumn-left-outer { width: 200px; } .main-inner
+.fauxcolumn-right-outer { width: 200px; } .main-inner .column-left-outer { width: 200px;
+right: 100%; margin-left: -200px; } .main-inner .column-right-outer { width: 200px;
+margin-right: -200px; } #layout { min-width: 0; } #layout .content-outer { min-width: 0;
+width: 800px; } #layout .region-inner { min-width: 0; width: auto; } --> if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\758482618239386479832\46blogName\75WORLD+ON+THE+MOVE+-+Auto\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://2050x.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://2050x.blogspot.com/\46vt\75-547698098739420795',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+
+
+WORLD ON THE MOVE - Auto
+
+
+
+Everything from the Automotive world.
+
+
+
+Link Ads
+
+<!-- google_ad_client = "ca-pub-2237093296171344"; google_ad_host =
+"pub-1556223355139109"; /* Horizontal text ad -728x15 - 4 ads */ google_ad_slot =
+"8620069594"; google_ad_width = 728; google_ad_height = 15; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+New Better Auto Mobile Website
+
+Now experience Auto Mobile power in new and better way at auto.waystoworld.com
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Search This Blog
+
+Loading... #uds-searchControl .gs-result .gs-title, #uds-searchControl .gs-result
+.gs-title *, #uds-searchControl .gsc-results .gsc-trailing-more-results,
+#uds-searchControl .gsc-results .gsc-trailing-more-results * { color:#1862dc; }
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result
+.gs-title a:visited * { color:#0050e1; } #uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-publishedDate { color: #6f6f6f; } #uds-searchControl .gs-result
+a.gs-visibleUrl, #uds-searchControl .gs-result .gs-visibleUrl { color: #1862dc; }
+#uds-searchControl .gsc-results { border-color: #e5e5e5; background-color: #ffffff; }
+#uds-searchControl .gsc-tabhActive { border-color: #e5e5e5; border-top-color:
+#e5e5e5; background-color: #ffffff; color: #6e6e6e; } #uds-searchControl
+.gsc-tabhInactive { border-color: #e5e5e5; background-color: transparent; color:
+#1862dc; } #uds-searchClearResults { border-color: #e5e5e5; }
+#uds-searchClearResults:hover { border-color: #e5e5e5; } #uds-searchControl
+.gsc-cursor-page { color: #1862dc; } #uds-searchControl .gsc-cursor-current-page {
+color: #6e6e6e; }
+
+    Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+    - World On The Move - Auto
+
+    
+
+    - Materials
+
+    
+
+    - Review
+
+    
+
+    - More
+
+    
+
+    - Super Search
+
+    
+
+    - Ways To World - Auto Mobile
+
+    
+
+    - WaysToWorld - Home
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Sponsors Links - Horizontal Banner & Text 4 Ads
+
+<!-- google_ad_client = "ca-pub-2237093296171344"; google_ad_host =
+"pub-1556223355139109"; /* Horizontal 728x90 leaderboard - Image/Text */ google_ad_slot
+= "2639607696"; google_ad_width = 728; google_ad_height = 90; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+India Navy
+
+<!-- google_ad_client = "pub-2237093296171344"; google_ad_host =
+"pub-1556223355139109"; /* 728x15, created 9/2/11 Links Horizontal - 4 ads */
+google_ad_slot = "8620069594"; google_ad_width = 728; google_ad_height = 15; //--> <!--
+google_ad_client = "ca-pub-2237093296171344"; /* LInk Ads 200x90 verticle links */
+google_ad_slot = "5268158138"; google_ad_width = 200; google_ad_height = 90; //-->
+"Naval" redirects here. For other uses, see Navy (disambiguation) . For other uses, see Naval
+(disambiguation) .
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Fleet_5_nations.jpg/300px-Fleet_5_nations.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png A rare
+occurrence of a 5-country multinational fleet, during Operation Enduring Freedom in the
+Oman Sea. In four descending columns, from left to right: MM Maestrale (F 570), De Grasse (D
+612); USS John C. Stennis (CVN 74), Charles De Gaulle (R 91), Surcouf (F 711); USS Port Royal
+(CG-73), HMS Ocean (L 12), USS John F. Kennedy (CV 67), HNLMS Van Amstel (F 831); and ITS Luigi
+Durand de la Penne (D 560).
+
+A navy is the branch of a country's military forces principally designated for naval warfare
+and amphibious warfare namely lake - or ocean -borne combat operations and related
+functions. It includes operations conducted by surface ships , amphibious ships ,
+submarines , and seaborne aviation , as well as ancillary support, communications,
+training, and other fields; recent developments have included space related operations.
+The strategic offensive role of a Navy is projection of force into areas beyond a country's
+shores (for example, to protect sea-lanes, ferry troops, or attack other navies, ports, or
+shore installations). The strategic defensive purpose of a Navy is to frustrate sea-borne
+projection-of-force by enemies. The strategic task of the navy also may incorporate nuclear
+deterrence by use of nuclear missiles. //<![CDATA[ if (window.showTocToggle) { var
+tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } //]]>
+
+
+
+[ edit ] History
+
+    
+
+        Main article: Naval warfare
+
+    
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Victory_Portsmouth_um_1900.jpg/180px-Victory_Portsmouth_um_1900.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png HMS
+Victory , the oldest warship still in commission in the world.
+
+Naval warfare developed when humans first fought from water-borne vessels. Prior to the
+introduction of the cannon and ships with sufficient capacity to carry the large guns, navy
+warfare primarily involved ramming and boarding actions. In the time of ancient Greece and
+the Roman Empire , naval warfare centered on long, narrow vessels powered by banks of oarsmen
+(such as triremes and quinqueremes ) designed to ram and sink enemy vessels or come alongside
+the enemy Nublets so its occupants could be attacked hand-to-hand. Naval warfare continued
+in this vein through the Middle Ages until cannon became commonplace and capable of being
+reloaded quickly enough to be reused in the same battle. The Chola Dynasty of medieval India
+was known as a one of the greatest naval powers of its time in the Indian Ocean . In ancient China ,
+large naval battles were known since the Qin Dynasty ( also see Battle of Red Cliffs , 208 ),
+employing the war junk during the Han Dynasty . However, China's first official standing navy
+was not established until the Southern Song Dynasty in the 12th century , a time when gunpowder
+was a revolutionary new application to warfare
+
+The mass and deck space required to carry a large number of cannon made oar-based propulsion
+impossible and ships came to rely primarily on sails . Warships were designed to carry
+increasing numbers of cannon and naval tactics evolved to bring a ship's firepower to bear in a
+broadside , with ships-of-the-line arranged in a line of battle .
+
+The development of large capacity, sail-powered ships carrying cannon led to a rapid
+expansion of European navies, especially the Spanish and Portuguese navies which dominated
+in the 16th and early 17th centuries, and ultimately helped propel the age of exploration and
+colonialism .The repulsion of the Spanish Armada ( 1588 ) by the English fleet revolutionized
+naval warfare by the success of a guns-only strategy and caused a major overhaul of the Spanish
+navy , partly along English lines, which resulted in even greater dominance by the Spanish.
+From the beginning of the 17th century the Dutch cannibalized the Portuguese Empire in the
+East and, with the immense wealth gained, challenged Spanish hegemony at sea. From the 1620s ,
+Dutch raiders seriously troubled Spanish shipping and, after a number of battles which went
+both ways, the Dutch Navy finally broke the long dominance of the Spanish Navy in the Battle of
+the Downs ( 1639 ).
+
+England emerged as a major naval power in the mid-17th century in the first Anglo-Dutch war
+with a technical victory but successive decisive Dutch victories in the second and third
+Anglo-Dutch Wars confirmed the Dutch mastery of the seas during the Dutch Golden Age ,
+financed by the expansion of the Dutch Empire . The French Navy won some important victories
+near the end of the 17th century but a focus upon land forces led to the French Navy's relative
+neglect, which allowed the Royal Navy to emerge with an ever-growing advantage in size and
+quality, especially in tactics and experience, from 1695 . Throughout the 18th century the
+Royal Navy gradually gained ascendancy over the French Navy, with victories in the War of
+Spanish Succession ( 1701 - 1714 ), inconclusive battles in the War of Austrian Succession (
+1740 - 1748 ), victories in the Seven Years' War ( 1754 - 1763 ), a partial reversal during the
+American War of Independence ( 1775 - 1783 ), and consolidation into uncontested supremacy
+during the 19th century from the Battle of Trafalgar in 1805 . These conflicts saw the
+development and refinement of tactics which came to be called the line of battle .
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/USS_Nimitz_%28Nov._3%2C_2003%29.jpg/180px-USS_Nimitz_%28Nov._3%2C_2003%29.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png U.S. Navy
+supercarrier USS Nimitz (CVN-68)
+
+The next stage in the evolution of naval warfare was the introduction of metal plating along
+the hull sides. The increased mass required steam-powered engines, resulting in an arms race
+between armor and weapon thickness and firepower. The first armored vessels, the French FS
+Gloire and British HMS Warrior , made wooden vessels obsolete. Another significant
+improvement came with the invention of the rotating turrets, which allowed the guns to be
+aimed independently of ship movement. The battle between the CSS Virginia and the USS Monitor
+during the American Civil War is often cited as the beginning of this age of maritime conflict.
+A further step change in naval firepower occurred when the United Kingdom launched HMS
+Dreadnought , but naval tactics still emphasized the line of battle.
+
+The first practical military submarines were developed in the late 19th century and by the end
+of World War I had proven to be a powerful arm of naval warfare. During World War II the German
+Navy 's submarine fleet of U-boats almost starved the United Kingdom into submission and
+inflicted tremendous losses on US coastal shipping . The German battleship Tirpitz , a sister
+ship of the Bismarck , was almost put out of action by miniature submarines known as X-Craft .
+The X-Craft severely damaged her and kept her in port for some months.
+
+A major paradigm shift in naval warfare occurred with the introduction of the aircraft
+carrier . First at Taranto in 1940 and then in Pearl Harbor in 1941 , the carrier demonstrated
+its ability to strike decisively at enemy ships out of sight and range of surface vessels. The
+Battle of Leyte Gulf ( 1944 ) was arguably the largest naval battle in history ; it was also the
+last battle in which battleships played a significant role. By the end of World War II , the
+carrier had become the dominant force of naval warfare.
+
+World War II also saw the United States become by far the largest Naval power in the world with
+over 70% of the world's total numbers and total tonnage of naval vessels of 1000 tons or
+greater. [1] Throughout the rest of the 20th century The United States Navy would maintain a
+tonnage greater than that of the next 17 largest navies combined. [2]
+
+
+
+[ edit ] Operations
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Air_Power_Malabar-07_1.jpg/180px-Air_Power_Malabar-07_1.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png Three
+carrier-based naval aircraft
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/0/08/US_riverboat_using_napalm_in_Vietnam.jpg/180px-US_riverboat_using_napalm_in_Vietnam.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png Riverboat
+of the U.S. brownwater navy firing napalm at an onshore target during the Vietnam War .
+
+Historically a national navy operates from one or more bases that are maintained by the
+country or an ally. The base is a port that is specialized in naval operations, and often
+includes housing for off-shore crew, an arsenal depot for munitions, docks for the vessels,
+and various repair facilities. During times of war temporary bases may be constructed in
+closer proximity to strategic locations, as it is advantageous in terms of patrols and
+station-keeping. Nations with historically strong naval forces have found it advantageous
+to obtain basing rights in areas of strategic interest.
+
+Navy ships normally operate with a group, which may be a small squadron of comparable ships, or
+a larger naval fleet of various specialized ships. The commander of a fleet travels in the flag
+ship , which is usually the most powerful vessel in the group. Prior to the invention of radio,
+commands from the flag ship were communicated by means of flags. At night signal lamps could be
+used for a similar purpose. Later these were replaced by the radio transmitter, or the
+flashing light when radio silence was needed.
+
+A " blue water navy " is designed to operate far from the coastal waters of its home nation. These
+are ships capable of maintaining station for long periods of time in deep ocean, and will have a
+long logistical tail for their support. Many are also nuclear powered to save having to
+refuel. By contrast a " brown water navy " operates in the coastal periphery and along inland
+waterways, where larger ocean-going naval vessels can not readily enter. Regional powers
+may maintain a " green water navy " as a means of localized force projection. Blue water fleets
+may require specialized vessels, such as mine sweepers , when operating in the littoral
+regions along the coast.
+
+
+
+[ edit ] Traditions
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Dzwon_ORP_Iskra_II.jpeg/120px-Dzwon_ORP_Iskra_II.jpeg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png Ship bell
+of ORP Iskra II - Polish Navy school tall ship
+
+A basic tradition is that all ships commissioned in a navy are referred to as ships rather than
+vessels. The prefix on a ship's name indicates that it is a commissioned ship. For example, USS
+is an acronym which expands to United States Ship; in the Royal Navy, HMS expands to Her
+Majesty's Ship (or when a King reigns, His Majesty's Ship), and so forth.
+
+An important tradition on board British naval vessels (and later those of the U.S. and other
+nations) has been the ship's bell . This was historically used to mark the passage of time on
+board a vessel, including the duration of four-hour watches. They were also employed as
+warning devices in heavy fog, and for alarms and ceremonies. The bell was originally kept
+polished first by the ship's cook, then later by a person belonging to that division of the
+ship's personnel.
+
+Another important tradition is that of Piping someone aboard the ship. This was originally
+used to give orders on warships when shouted orders could not have been heard. The piping was
+done by the ship's boatswain and therefore the instrument is known as the boatswain's Pipe.
+The two tones it gives and the number of blasts given off, signify the order given. It is also
+used in a ceremonial way, i.e., to "pipe" someone aboard the ship - usually captains,
+including the ship's captain, and more senior officers.
+
+In the United States, in a tradition that dates back to the Revolutionary War , the First Navy
+Jack is a flag that has the words, "Don't Tread on Me" on the flag.
+
+By European tradition, ships have been referred to as a "she". However, it was long considered
+bad luck to permit women to sail on board naval vessels. To do so would invite a terrible storm
+that would wreck the ship. The only women that were welcomed on board were figureheads mounted
+on the prow of the ship. In spite of these views, some women did serve on board naval vessels,
+usually as wives of crewmembers.
+
+Even today, despite their acceptance in many areas of naval service, women are still not
+permitted to serve on board U.S. submarines . The major reasons cited by the U.S. Navy are the
+extended duty tours and close conditions which afford almost no privacy. [1] The UK Royal Navy
+has similar restrictions. Australia, Canada, Spain and Norway have opened submarine
+service to women sailors, however. [2]
+
+By ancient tradition, corpses on board naval vessels were buried at sea . In the past this
+involved sewing the body up in a shroud that had a weight at one end, often a cannonball . (During
+the age of sail, the final stitch was placed through the nose of the victim, just to make sure
+they were really dead.) The body was then placed on a pivoting table attached to the outer hull,
+and shrouded by a national ensign. After a solemn ceremony, the board was tilted and the body
+dropped into the deep. Later ceremonies employed the casket or crematory urn.
+
+The custom of firing cannon salutes originated in the British Royal Navy . When a cannon is
+fired, it partially disarms the ship, so firing a cannon for no combat reason showed respect
+and trust. The British, as the dominant naval power, compelled the ships of weaker nations to
+make the first salute. As the tradition evolved, the number of cannon fired became an
+indication of the rank of the official being saluted.
+
+
+
+[ edit ] Naval organization
+
+
+
+
+
+[ edit ] Navy ships
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/CTF-150.jpg/600px-CTF-150.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png Ships of
+the multinational fleet Combined Task Force-150
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/HMCS_Vancouver_%28FFH_331%29.jpg/250px-HMCS_Vancouver_%28FFH_331%29.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png HMCS
+Vancouver and USS John C Stennis
+
+Historically, navy ships were primarily intended for warfare. They were designed to
+withstand damage and to inflict the same, but only carried munitions and supplies for the
+voyage (rather than merchant cargo). Often, other ships which were not built specifically
+for warfare, such as the galleon or the armed merchant ships in World War II , did carry
+armaments. In more recent times, navy ships have become more specialized and have included
+supply ships, troop transports, repair ships, oil tankers and other logistics support ships
+as well as combat ships. So long as they are commissioned, however, they are all "ships".
+
+Modern navy combat ships are generally divided into seven main categories: aircraft
+carriers , cruisers , destroyers , frigates , corvettes , submarines , and amphibious assault
+ships . There are also support and auxiliary ships, including the minesweeper , patrol boat ,
+and tender . During the age of sail , the ship categories were divided into the ship of the line ,
+frigate , and sloop-of-war .
+
+Naval ship names are typically prefixed by an abbreviation indicating the national navy in
+which they serve. For a list of the prefixes used with ship names ( HMS , USS , etc.) see ship
+prefix .
+
+Today ships are significantly faster than in former times, thanks to much improved
+propulsion systems. Also, the efficiency of the engines has improved a lot, in terms of fuel,
+and of how many sailors it takes to operate them. In World War II, ships needed to refuel very
+often. However, today ships can go on very long journeys without refueling. Also, in World War
+II, the engine room needed about a dozen sailors to work the many engines, however, today, only
+about 4-5 are needed (depending on the class of the ship). Today, naval strike groups on longer
+missions are always followed by a range of support and replenishment ships supplying them
+with anything from fuel and munitions, to medical treatment and postal services. This allows
+strike groups and combat ships to remain at sea for several months at a time.
+
+
+
+[ edit ] Navy boats
+
+
+
+Many people make the mistake of calling a ship a "boat". The term "boat" refers to small craft
+limited in their use by size and usually not capable of making independent voyages of any
+length on the high seas. The old navy adage to differentiate between ships and boats is that
+boats are capable of being carried by ships. (Submarines by this rule are ships rather than
+boats, but are customarily referred to as boats reflecting their previous smaller size.) The
+Navy uses thousands of boats, ranging from 9-foot dinghies to 135-foot landing craft. They
+are powered by either diesels, out-board gasoline motors, or waterjets. Most boats are built
+of aluminum, fiberglass, or steel. Newer Navy boats are designed and built using the
+International System of units (also known as SI or metric), but older craft were designed
+using the English units system (feet, inches etc.)
+
+Standard Boats A standard boat is a small craft carried aboard a ship to perform various tasks
+and evolutions.
+
+Landing Craft These boats, carried by various amphibious ships, are designed to carry
+troops, vehicles, or cargo from ship to shore under combat conditions, to unload, to retract
+from beach, and to return to the ship. They are especially rugged, with powerful engines, and
+they are armed. They are usually referred to by their designations such as LCPL (landing
+craft, personnel) LCM (landing craft mechanized) or LCU (landing craft, utility) rather
+than by full name. The most common in today's Navy are the LCMs. there are two types of LCMs. Both
+types have a power operated bow ramp, a cargo well, twin engines, and after structures that
+house enginerooms, pilot houses, and stowage compartments. The larger version, designated
+LCM-8 and often called "mike 8", is 74 feet long, has a 21-foot beam, and is capable of carrying a
+heavy tank or 60 tons of cargo. The LCM-6 ("mike 6") is 56 feet long, has a 14-foot beam and a cargo
+capacity of 34 tons.
+
+Landing Craft, Air Cushioned Known as LCAC also most commonly called a hover craft. Floats on a
+cushion of air that allows travel over water and land. It can deliver troops, equipment, and
+supplies. They are 81 feet long and carry a load more than 70 tons. Powered by four gas turbine
+engines, they are capable of speeds as high as 50 knots.
+
+Work Boats(WB) There are two types of WBs, the 35 foot and the 15 meter (or 50 foot). The 35 foot WB
+is a twin screw craft with a forward cargo well and a bow ramp. The 35 foot WB is normally carried
+on board salvage ships and is used to assist ships in salvage operations, underwater
+exploration,coastal survey, repair of other craft, and cargo transport between ship to
+shore. A portable "A frame" is used to assist with cargo handling. The 15 meter (50 foot) WB is a
+twin screw craft with steel hull construction and is a shallow draft craft cargo carrier. The
+15 meter (50 foot) WB is intended for general purpose missions and transportation of cargo.
+the craft has a pilot house aft and forward cargo well deck.
+
+Rigid hull Inflatable Boats Known as the RHIB they are versatile boats designed for service as
+a standard ship's boat. The seven meter (24 foot) RHIB is a turbocharged, diesel powered craft
+with a glass reinforced plastic (GRP) hull. The hull form is a combination of a rigid planing
+hull with an inflatable tube. The craft are manned by three man crew and are provided with a
+canvas canopy forward.
+
+Personnel Boats (PE) These are fast, V bottomed, diesel powered boats with enclosed spaces
+specifically designed to transport officers, although smaller types are used for shore
+party boats, lifeboats, and mail boats. They come in 8,10, and 12 meter (26,33, and 40 foot)
+lengths. The 8 meter (26 foot) boats have one enclosed cabin. The 10 and 12 meter (33 and 40 foot)
+boats have enclosed cabins forward and aft, and open cockpits amidships where coxswains
+steer by wheel. Those designed for officers are painted haze gray with white cabins. Those
+assigned for use by commanding officers, chief of staff, and squadron, patrol, or division
+commanders are called gigs and have a red stripe added just above the waterline. Personnel
+boats assigned to flag officers (admirals) are called barges. They have black hulls and a
+white stripes just above the waterline.
+
+Utility Boats These boats, varying in length from 18 feet to 15 meters (50 feet) are mainly
+cargo and personnel carrier or heavy duty work boats. Many have been modified for survey work,
+tending divers, and minesweeping operations. In ideal weather, a 15 meter(50 foot) UB will
+carry 146 people, plus crew. Utility boats are open boats, though many of the larger ones are
+provided with canvas canopies. The smaller utility boats are powered by outboard engines.
+The larger boats have diesel engines.
+
+Punts These are open square enders, 14 feet long. They are either rowed or sculled, and are
+generally used in port by side cleaners.
+
+Special Boats These boats, used by shore stations and for special missions, are not normally
+carried aboard ships a are the standard boats discussed above. They include line handling
+boats, buoy boats, aircraft rescue boats, torpedo retrievers, explosive ordnance disposal
+craft, utility boats, dive boats, targets, and various patrol boats. Many standard boats
+have been modified for special service.
+
+Mark V Special operations craft (SOC) This craft is also used for insertion and extraction of
+special warfare personnel. The craft is 82 feet long, and has twain diesel engines driving
+waterjets. The craft is capable of speeds in excess of 50 knots and is air deployable.
+
+Patrol Boats, River (PBR) This is a 31 foot, 25 knots, twin diesel boats with a fiberglass hull
+and waterjet pump propulsion that permits it to operate in 15 inches of water. The PBR is highly
+maneuverable and can reverse course in its own length. It carries radar, communications
+equipment, and machine guns
+
+
+
+[ edit ] Navy units
+
+
+
+Naval forces are typically arranged into units based on the number of ships included, a single
+ship being the smallest operational unit. Ships may be combined into squadrons or flotillas ,
+which may be formed into fleets . The largest unit size may be the whole Navy or Admiralty .
+
+
+
+[ edit ] Naval ranks
+
+    
+
+        Main article: Naval officer ranks
+
+    
+
+
+
+A navy will typically have two sets of ranks, one for enlisted personnel and one for officers .
+
+    Typical ranks for commissioned officers include the following, in ascending order (
+    Commonwealth ranks are listed first on each line):
+
+    - Acting Sub-Lieutenant / Ensign / Corvette Lieutenant
+
+    
+
+    - Sub Lieutenant / Lieutenant Junior Grade / Frigate Lieutenant
+
+    
+
+    - Lieutenant / Ship-of-the-Line Lieutenant / Captain Lieutenant
+
+    
+
+    - Lieutenant Commander / Corvette Captain
+
+    
+
+    - Commander / Frigate Captain
+
+    
+
+    - Captain / Ship-of-the-Line Captain
+
+    
+
+    - Commodore / Flotilla Admiral (in USA only: Rear Admiral (lower half) )
+
+    
+
+    - Rear Admiral (in USA only: Rear Admiral (upper half) )
+
+    
+
+    - Vice Admiral
+
+    
+
+    - Admiral
+
+    
+
+    - Fleet Admiral or Admiral of the Fleet or Grand Admiral
+
+    
+
+
+
+"Flag officers" include any rank that includes the word "admiral" (or commodore), and are
+generally in command of a battle group or similar flotilla of ships, rather than a single ship
+or aspect of a ship. However, commodores can also be temporary positions. For example, during
+World War II, a Navy captain was assigned duty as a convoy commodore, which meant that he was
+still a captain, but in charge of all the merchant vessels in the convoy. The most senior rank
+employed by a navy will tend to vary depending on the size of the navy and whether it is wartime or
+peacetime, for example, few people have ever held the rank of Fleet Admiral in the U.S. Navy,
+the chief of the Royal Australian Navy holds the rank of Vice Admiral, and the chief of the Irish
+Naval Service holds the rank of Commodore.
+
+
+
+[ edit ] Marine troops
+
+    
+
+        Main article: Marine (military)
+
+    
+
+
+
+During the era of the Roman empire , the naval forces included legionaries for boarding
+actions . These were troops primarily trained in land warfare, and did not need to be skilled at
+handling a ship. Much later during the age of sail, a component of marines served a similar
+role, being ship-borne soldiers who were used either during boarding actions, as
+sharp-shooters, or in raids along the shore.
+
+The Spanish InfanterÃ­a de Marina was formed in 1537, making it the oldest current marine
+corps in the world. The United States Marine Corps became a separate arm in the United States
+military, with their own equipment. However the U.S. Navy SEALs and the British Royal Marines
+now serve a similar function, being a ship-based force specially-trained in commando -style
+operations and tactics as part of the navy. The Royal Marines also have their own special
+forces, the SBS ( Special Boat Service ); similar to the US Navy SEALs and the Boat Troops of the
+SAS.
+
+
+
+[ edit ] Etymology
+
+
+
+"Navy" came via Old French from Latin navigium = "fleet of ships" from navis = "ship" and agere =
+"to drive" (as in driving a herd of animals) or "to get something done".
+
+"Naval" came from Latin navalis = "pertaining to ship" (which it means in the biological name
+Teredo navalis ), but due to resemblance became changed to "pertaining to navy". 0 comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook <!-- google_ad_client="pub-2237093296171344";
+google_ad_host="pub-1556223355139109"; google_ad_width=468; google_ad_height=60;
+google_ad_format="468x60_as"; google_ad_type="text_image";
+google_ad_host_channel="0001"; google_color_border="CCCCCC";
+google_color_bg="FFFFFF"; google_color_link="000000"; google_color_url="666666";
+google_color_text="333333"; //-->
+
+White Tigers
+
+<!-- google_ad_client = "pub-2237093296171344"; google_ad_host =
+"pub-1556223355139109"; /* 728x15, created 9/2/11 Links Horizontal - 4 ads */
+google_ad_slot = "8620069594"; google_ad_width = 728; google_ad_height = 15; //--> <!--
+google_ad_client = "ca-pub-2237093296171344"; /* LInk Ads 200x90 verticle links */
+google_ad_slot = "5268158138"; google_ad_width = 200; google_ad_height = 90; //-->
+Panthera tigris ) is a tiger with a genetic condition that nearly eliminates pigment in the
+normally orange fur although they still have dark stripes. This occurs when a tiger inherits
+two copies of the recessive gene for the paler coloration: pink nose, grey-mottled skin,
+ice-blue eyes, and white to cream-coloured fur with black, grey, or chocolate-coloured
+stripes. (Another genetic condition also makes the stripes of the tiger very pale; white
+tigers of this type are called snow-white .)
+
+White tigers do not constitute a separate subspecies of their own and can breed with orange
+ones, although all of the resulting offspring will be heterozygous for the recessive white
+gene, and their fur will be orange. The only exception would be if the orange parent was itself
+already a heterozygous tiger , which would give each cub a 50% chance of being either
+double-recessive white or heterozygous orange.
+
+Compared to orange tigers without the white gene, white tigers tend to be larger both at birth
+and at full adult size. [1] This may have given them an advantage in the wild despite their
+unusual coloration. Heterozygous orange tigers also tend to be larger than other orange
+tigers. Kailash Sankhala , the director of the New Delhi Zoo in the 1960s, suggested that "one
+of the functions of the white gene may have been to keep a size gene in the population, in case
+it's ever needed."
+
+Dark-striped white individuals are well-documented in the Bengal Tiger subspecies (
+Panthera tigris tigris or P. t. bengalensis ), may also have occurred in captive Siberian
+Tigers ( Panthera tigris altaica ), and may have been reported historically in several other
+subspecies. White pelage is most closely associated with the Bengal , or Indian subspecies.
+Currently, several hundred white tigers are in captivity worldwide with about 100 of them in
+India, and their numbers are on the increase. The modern population includes both pure
+Bengals and hybrid Bengal–Siberians, but it is unclear whether the recessive gene for
+white came only from Bengals, or from any of the Siberian ancestors as well.
+
+The unusual coloration of white tigers has made them popular in zoos and entertainment that
+showcases exotic animals . The magicians Siegfried & Roy are famous for having bred and
+trained white tigers for their performances, referring to them as "royal white tigers"
+perhaps from the white tiger's association with the Maharaja of Rewa .
+
+It is a myth that white tigers did not thrive in the wild, where small groups had bred white for
+generations. India once planned to reintroduce them to the wild. [2] A.A. Dunbar Brander
+wrote in "Wild Animals In Central India" (1923): "White tigers occasionally occur. There is a
+regular breed of these animals in the neighborhood of Amarkantak at the junction of the Rewa
+state and the Mandla and Bilaspur districts. When I was last in Mandla in 1919, a white tigress
+and two three parts grown white cubs existed. In 1915 a male was trapped by the Rewa state and
+kept in confinement. An excellent description of this animal by Mr. Scott of the Indian
+police, has been published in Vol. XXVII, No. 47, of the Bombay Natural History Society's
+journal." [3]
+
+However, most white tigers are now bred in captivity, often by inbreeding parents and cubs to
+ensure the presence of the recessive gene. Such inbreeding often also leads to birth defects .
+[4] [2]
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/White_tigers_drinking.jpg/180px-White_tigers_drinking.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png White
+tigers drinking. //<![CDATA[ if (window.showTocToggle) { var tocShowText = "show"; var
+tocHideText = "hide"; showTocToggle(); } //]]>
+
+
+
+[ edit ] Captive White Bengal Tiger Founders
+
+
+
+
+
+
+
+
+
+
+
+Mohan is the founding father of the white tigers of Rewa [5] . He was captured as a cub in 1951 by
+Maharaja Shri Martand Singh of Rewa, whose hunting party in Bandhavgarh found a tigress with
+four 9-month-old cubs, one of which was white. All of them were shot except for the white cub.
+The Maharaja of Rewa offered his guest, the Maharaja Ajit Singh of Jodhpur , the honor of
+shooting the white cub, but he declined. After shooting a white tiger in 1948 the Maharaja of
+Rewa had resolved to capture one, as his father had done in 1915, at his next opportunity. Water
+was used to lure the thirsty cub into a cage, after he returned to a kill made by his mother, and
+once captured he was housed in the unused palace at Govindgarh in the erstwhile harem
+courtyard. The white cub mauled a man during the capture process and was clubbed on the head and
+knocked unconscious. He wasn't necessarily expected to wake up and this was his second brush
+with death. The Maharaja named him Mohan, which roughly translates as "Enchanter", one of the
+many forms of the Hindu deity Krishna . The white tiger the previous Maharaja had kept in
+captivity from 1915 to 1920 was also a male, unusually large like most white tigers (Mohan was
+no exception in this regard), and was known to have a white male sibling that continued to live
+in the wild. After it's death in 1920 it was mounted and presented to the Emperor King George V ,
+as a token of loyalty. [2] This specimen is now in the British Museum , although it was not the
+first white tiger to reach England: in 1820, London 's Exeter Change menagerie had a white
+tiger which was examined by the famous French anatomist Georges Cuvier , who described it in
+his "Animal Kingdom" as having faint stripes only visible from certain angles of refraction.
+In 1960 there was a mounted white tiger, with faint reddish brown stripes, in the throne room of
+the Maharaja of Rewa.
+
+In 1953, Mohan was bred [6] to a normal-coloured wild tigress called Begum ("royal consort"),
+which produced two male orange cubs on September 7 . In 1955 they had a litter of two males and two
+females on April 10 (which included a male named Sampson and a female named Radha). On July 10 ,
+1956 they again had a litter of two males and two females, which included a male named Sultan who
+went to Ahmedabad Zoo, and a female named Vindhya who went to Delhi Zoo and was bred to an
+unrelated male named Suraj. [7] These early breeding experiments failed to yield a single
+white cub. [2]
+
+Another maharaja, a cousin of the Maharaja of Rewa, recounted, "Rewa was frustrated. I told
+him the answer-- incest of course!" [8] Mohan was then bred to his daughter Radha (who carried
+the white gene inherited from him) and they produced a number of white cubs. The initial litter
+of four cubs-- a male named Raja; three females named Rani, Mohini, and Sukishi-- were the
+first white tigers born in captivity, on October 30 , 1958 . [9] [2] Raja and Rani went to the New
+Delhi Zoo, and Mohini was bought by the German-American billionaire John Kluge [10] for
+$10,000, for the Smithsonian National Zoological Park , as a gift to the children of America ,
+in 1960. Sukeshi remained at Govindgarh Palace, in the harem courtyard where she was born, as a
+mate for Mohan.
+
+The Government of India made a deal with the Maharaja, under the terms of which Raja and Rani
+would go to the New Delhi Zoo [11] [12] for free. In exchange the Maharaja's white tiger
+breeding would be subsidized and he would receive a share of their cubs. He wanted Rs 100,000
+for them. Technically Sukeshi was also the property of the New Delhi Zoo, and in a sense India
+had nationalized the captive white tigers of Rewa. The Parliament of India used to hear
+reports on the progress of the white tigers, and Prime Minister Indira Gandhi and U Nu of Burma
+participated in public christening ceremonies for white cubs at New Delhi Zoo. President
+Tito of Yugoslavia visited New Delhi Zoo and asked for white tigers for Belgrade Zoo, but was
+refused [13] . A white tiger named Dalip from New Delhi Zoo represented India in two
+international expositions in Budapest and Osaka . The government of West Bengal bought two
+white males, named Niladari and Himadri, from the Maharaja for the Alipore Zoological
+Gardens (Calcutta Zoo), and an orange female named Malini, from the same litter of three born
+in 1960, accompanied them there. The Alipore Zoo in Kolkata , recovered the purchase price of
+the white tigers within six months by charging extra to see them. Calcutta Zoo had a fine
+specimen of a white tiger in 1920. Six zoos acquired white tigers from the Maharaja of Rewa
+including the Bristol Zoo in England (a brother and sister pair named Champak and Chameli on
+June 22, 1963) [14] [2] and the Crandon Park Zoo (which closed around 1983, and moved out of
+Crandon Park to the site of the Miami MetroZoo ) in Miami acquired a white tigress in 1968.
+Bristol Zoo's pair, born in 1962, came from another litter of four, all white, but two (one
+female and one male) didn't survive. By 1966 the Bombay Zoo had a white tigress named Lakshmi,
+born in 1964, from the Maharaja. The Calcutta Zoo sold a white tigress named Sefali to Gauhati
+Zoo and sent a second white tiger there on loan. By 1976 the Lucknow Zoo also had a white tiger
+which was a gift from New Delhi Zoo. A white tigress named Nandni, who was born in New Delhi Zoo in
+1971, went to Hyderabad Zoo. [7] Zoos with white tigers constituted a most exclusive club and
+the white tigers themselves represented a single extended family. The Maharaja was
+negotiating the sale of a white male, named Virat, as late as 1976, when he died of enteritis .
+Virat was a son of Mohan and Sukeshi and the maharaja put him on the market after attempting to
+breed him to Sukeshi, [2] which would have raised the inbreeding coefficient.
+
+India imposed an export ban on white tigers in 1960, [15] [16] [17] [18] , in an effort to
+preserve a monopoly, probably because Anglo-Indian naturalist Edward Pritchard Gee
+recommended that Govindgarh Palace, and it's white tiger inhabitants, be made a "national
+trust", which didn't happen. After the export ban was imposed the Maharaja threatened to
+release all of his white tigers into the Rewa forest, and so he was given dispensation to sell
+two more pairs abroad, to offset his costs [19] . Mohini was only allowed to leave India because
+US President Dwight D. Eisenhower intervened personally with Prime Minister Jawaharlal
+Nehru , to ask for the release of the United States government's white tiger. A white sister of
+Mohini's was brought to New Delhi the year before to show the President, who was no stranger to
+white tigers. Circus owner Clyde Beatty also bought a white tiger from the Maharaja in 1960,
+for $10,000 in a deal facilitated by the Smithsonian National Zoological Park director T.H.
+Reed, which had to be cancelled because of the export ban [20] , which made Mohini even more
+valuable. She was estimated to be worth $28,000. Dr. Reed had travelled to India to escort
+Mohini to Washington . Years later the Bristol Zoo needed a new breeding male and traded a white
+female to New Delhi Zoo for a white tiger named Roop, who had been named by U Nu, the Prime
+Minister of Burma. [2] He was the son of Raja by his own mother and half sister- Radha, born in New
+Delhi. Radha, and many other tigers from Govindgarh including Sukeshi, were later
+transferred to New Delhi. Begum went to live at Ahmedabad Zoo and was bred to her son Sultan.
+They produced twelve cubs in four litters between 1958 and 1961. [7] Bristol Zoo later
+transferred two male white tigers to Dudley Zoo . In 1951 the Maharaja placed ads in The New York
+Times and The Times of London, and wrote to Gerald Iles, the director of the Belle Vue Zoo in
+Manchester [21] , and probably others, offering to sell his captured white tiger cub. He
+wanted the princely sum of $28,000 for Mohan. The Maharaja was prevented by law from
+converting rupees into American dollars, and wanted the money to buy a speed boat. [22] [23]
+[24] Mohan was featured in the National Geographic documentary "Great Zoos Of The World" in
+1970. A photograph of his stuffed head, in a display case in the private museum of the Maharaja
+of Rewa in Govindgarh Lake Palace, appears in the National Geographic book "The Year Of The
+Tiger." [25]
+
+Mohan died in 1970, aged almost 20, and was laid to rest with Hindu rites as the palace staff
+observed official mourning. He was the last recorded white tiger born in the wild. The last
+white tiger seen in the wild was shot in 1958. [2] The Maharaja of Rewa turned Mohan's native
+forest into the Bandhavgarh National Park, because he couldn't control the poaching. Today
+Bandhavgarh has the largest tiger population of any national park in India. Visitors can stay
+at the White Tiger Lodge, which is the local version of Tiger Tops in Royal Chitwan in Nepal.
+Pushpraj Singh, the reigning Maharaja of Rewa, is asking students to sign a petition to ask the
+President of India to return at least two white tigers to Govindgarh Lake Palace, as a tourist
+attraction. [26]
+
+
+
+[ edit ] Mohini
+
+
+
+Mohini , a daughter of Mohan, was officially presented to President Eisenhower by John W.
+Kluge, in a ceremony on the White House lawn, on December 5 , 1960 , and went to live at the Lion
+House, in the National Zoo, in Rock Creek Park . [27] [28] [29] T.H. Reed, the director of the
+National Zoo, gave this description of Mohini: "Her stripes were black, shading into brown,
+but her main coat was eggshell white instead of the normal rufous orange. Exotic coloring and
+magnificent physique made her a tiger without peer. For a two year old kitten she had
+tremendous growth-almost 190 pounds, three feet tall at the shoulders, and eight feet from
+nose to tail." [10] White tigers are larger and heavier than regular orange tigers. The
+average length of a white tiger at birth is 53 cm, compared to 50 cm for a normal orange cub.
+Shoulder height is 17 cm (normal 12 cm), weight 1.37 kg (normal 1.25 kg). Dalip and Krishna, two
+white tigers at New Delhi Zoo, weighed 139 kg and 120 kg respectively, at two years of age. Ram
+and Jim, two normal colored tigers at the same zoo, weighed 106 kg and 119 kg, at the same age.
+Raja, the white tiger, had a shoulder height of 100 cm, at ten years of age, while Suraj, an
+orange tiger, had a shoulder height of only 90 cm, at 12 years of age, according to New Delhi Zoo
+director K.S. Sankhala. Ratna and Vindhya, orange tigresses "from the white race", who
+carried the white gene as a recessive (both were fathered by Mohan), were higher at the
+shoulder than average, measuring 87 and 88 cm, compared to a normal orange tigress named
+Asharfi, who measured 82 cm at the shoulder. [2] President Eisenhower was also given a rare
+Pygmy Hippopotamus (Choeropsis liberiensis), a male named Totota (see also Billy (pygmy
+hippo) ), by William Tubman , President of Liberia , in 1960, and a 14 month old baby male African
+elephant (Loxodonta africana), named Zimbo in 1959 by the director of the Vincennes Zoo in
+Paris , on behalf of the French community.
+
+After arriving in the United States, Mohini spent 1 night in the Bronx Zoo [30] , and was then
+exhibited for three days in the Philadelphia Zoo [31] [32] , before travelling on to
+Washington. [10] Her name is the feminine of Mohan, and translates as "Enchantress". She was
+her father's namesake. She was a great attraction, and the zoo wanted to breed more white
+tigers. At the time, no more white tigers were being allowed out of India, so Mohini was mated to
+Sampson, her uncle and half brother, who was sent from Ahmedabad Zoo in 1963. [33] (It seems
+probable that financial considerations may have also precluded Washington from acquiring a
+second white tiger as a mate for Mohini.)
+
+After Sampson's death in 1966, at age 11 of kidney failure , Mohini was bred to her son Ramana,
+who was then the only male white gene carrier available. This resulted in the birth of a white
+daughter named Rewati on April 13, 1969 [34] and a white son named Moni on Feb. 8, 1970. Moni died
+of a neurological disorder in 1971 at 16 months. Moni was to have undertaken a fund raising tour
+for Project Tiger . He was born in a litter of five, which included two white males and three
+orange females. One was stillborn and the mother crushed the others after three days. Rewati
+had an orange male littermate which died after two days. Ramana was born on July 1 , 1964 and had
+two litter mates-a white male named Rajkumar, who was the first white tiger born in a zoo, and an
+orange female named Ramani. Both died of feline distemper despite having been vaccinated, at
+ten months age. Rajkumar had a particularly nasty disposition. All of Mohini's cubs were
+named by the Indian Ambassador.
+
+The birth of Mohini's first litter was televised in a national special. Mohini's orange
+daughter Kesari was born in 1966 with an orange female who was stillborn. After Moni died in
+1971 the National Zoo tried to acquire an orange tiger named Ram from Trivandrum Zoo, in
+southern India, as a mate for Mohini [35] . Ram was her first cousin, a grandson of Mohan, and
+there was a 50% chance that he carried white genes. 25% of Ram's genes came from Mohan and 25%
+from Begum. 25% of Mohini's genes were from Begum and 75% from Mohan. Ram was a son of Vindhya and
+Suraj born on 23 IV 1965 at New Delhi Zoo, the same Ram discussed earlier. Two sisters of Ram,
+born on 22 Feb. 1967, went to the Romanshorn Zoo in Switzerland . In 1973 an Indochinese Tiger (
+Panthera tigris corbetti ) named Poona, who was born at the Woodland Park Zoo in Seattle in
+1962, was sent to Washington from the Brookfield Zoo and bred to Mohini [36] and Kesari. [37]
+(Poona would have been regarded as a Bengal tiger for the first two years of his life because the
+Indo-Chinese subspecies was not recognized until 1968.) Mohini did not conceive. Kesari
+produced six orange cubs, an extraordinary number, especially for a first litter, but only
+one survived, a female named Marvina. Kesari handed Marvina over to her keepers and kept the
+other five. Marvina was mistaken for male, and named Marvin which was changed to Marvina when
+it was discovered that he was a she. Washington Zoo keeper Art Cooper, who hand reared Marvina,
+observed that white tigers were the most obstinate cats in the zoo, and said that Marvina had a
+typical white tiger personality. [38] (Poona also fathered litters by two other tigresses in
+Brookfield.) In 1974 Marvina, Ramana, and Kesari were sent to the Cincinnati Zoo and
+Botanical Garden , and Rewati and Mohini went to the Brookfield Zoo, to be boarded during
+renovations in Washington, until 1976. On June 20 , 1974 while at the Cincinnati Zoo Ramana and
+Kesari produced a litter of three white and one orange cub, including a white male named
+Ranjit, two white females named Bharat and Priya, and an orange male named Peela. Devra
+Kleiman of the National Zoo said that she was well aware of the white gene and specifically told
+Cincinnati not to breed from any of these tigers-Ramana, Kesari, or Marvina. Cincinnati
+countered that although Ramana and Kesari had failed to breed in Washington they did so almost
+as soon as they arrived in Cincinnati. [39]
+
+As a fringe benefit of inbreeding the four cubs were pure-Bengal tigers, and they were the last
+registered Bengal tigers born in the United States. Ranjit, Bharat, Priya, Peela, and Rewati
+had inbreeding coefficients of 0.406. [40] Ramana died in 1974 of a kidney infection and
+became a father for the last time posthumously. A white half sister of Mohini's bred from Mohan
+and his white daughter Sukishi born on March 26, 1966, named Gomti [7] and later renamed
+Princess, lived in the Crandon Park Zoo in Miami for about a year before she died of a viral
+infection. She arrived in Miami on January 13 , 1968 . She was so inbred that both her mother and
+grandmother were also her half sisters, and her father, Mohan, was also her grandfather and
+great grandfather. She was half sister and niece to Mohini. Mohan had fathered three
+generations of his family.
+
+Miami mayor Chuck Hall met the 22-month-old 350 lbs. white tigress at the airport and rode with
+her to the zoo. He wanted to call her Maya, the name suggested by the Maharaja, which translates
+as Princess. Ralph S. Scott, who paid $35,000 for her and gave her to the Zoological Society of
+Florida, preferred the name Princess. [41] [42] It was Ralph S. Scott, a famous big game
+hunter, who suggested to John W. Kluge that he buy a white tiger for the children of America. He
+had seen the white tigers in Govindgarh Palace while tiger hunting in India. [10] The
+government of India wanted Princess to be the last white tiger exported from the country. A
+male white tiger, named Ravi, acquired by Ralph S. Scott for the Crandon Park Zoo died at Kanpur
+railway station en route from India in 1967. He was a son of Raja and Rani, making him Princess's
+triple first cousin, born in New Delhi, and sold by the Maharaja of Rewa. Mohini died in 1979.
+[43] The skins and skulls of Mohini and Moni are in the Smithsonian , but are not on display.
+
+An orange brother of Mohini's named Ramesh lived in the MÃ©nagerie du Jardin des Plantes
+(Paris Zoo), and was bred to an unrelated tigress, but none of the offspring survived to
+reproduce. Ramesh was born in Govindgarh Palace and had an orange female littermate, named
+Ratna who went to New Delhi Zoo, had a white male littermate named Ramu. [7] They were the fourth
+and last litter of Mohan and Radha. Ratna was paired with a wild caught male named Jim, at New
+Delhi Zoo, and produced three litters. Each cub would have had a 50% chance of inheriting the
+white gene from Ratna. Jim was captured in the Rewa forest, so they thought there was a chance he
+carried white genes. He had been somebody's pet, but after he ate a cat he was given to New Delhi
+Zoo. Jim used to appear leaping into his pond, at New Delhi Zoo, in the opening of one of Gerald
+Durrell 's TV shows. E.P. Gee mentioned, in his book "The Wildlife Of India", that Bristol Zoo
+wanted to acquire one of the cubs of Mohan and Begum, as a mate for one of its white tigers,
+Champak or Chameli, to lessen the degree of inbreeding, as the US National Zoo had done through
+the acquisition of Sampson. In 1987 Ranjit, Bharat, Priya, and Peela were sold to the
+International Animal Exchange. Ranjit, Priya, and Peela went to the IAE's facility in Grand
+Prairie, Texas . The phenomenon of spontaneous ovulation in a tiger was first observed by
+Devra Kleiman, in one of the white tigresses at the National Zoo, which meant that it was
+possible to breed tigers by artificial insemination .
+
+
+
+[ edit ] Tony
+
+
+
+Tony , born in July of 1972 in the Circus Winter Quarters of the Cole Bros. Circus (the Terrell
+Jacobs farm) in Peru, Indiana , was the founder of many American white tiger lines, especially
+those used in circuses. [44] His grandfather was a registered Siberian tiger, named Kubla,
+who was born at the Como Park, Zoo, and Conservatory in Saint Paul, Minnesota . [45] [46]
+Kubla's parents were born in the wild and believed to be brother and sister. He was bred to a
+Bengal tigress named Susie, from a west coast zoo, at the Great Plains Zoo in Sioux Falls in
+South Dakota . Susie was once owned by Clyde Beatty . Two of their cubs (Rajah and Sheba II) were
+bred together in a brother–sister mating, by Baron Julius Von Uhl, who lived in Peru,
+Indiana. Julius Von Uhl was born in Budapest and came to America in 1956 from Hungary after the
+revolution. One of the results of his tiger breeding was Tony, who therefore carried mixed
+blood [47] and was responsible for introducing Siberian genes into previously pure Bengal
+line of white tigers in North America . He may also be the source of a gene for stripelessness.
+Tigers of mixed or unknown ancestry are called generics, or even "trash tigers", by zoo
+people. 97% of tiger genomes are in private hands. [48] Kubla was also bred to an Amur tigress
+named Katrina, who was born at the Rotterdam Zoo, and passed through the hands of two American
+zoos before joining Kubla and Susie at the Great Plains Zoo (see International Tiger
+Studbook). Kubla and Katrina have living pure-Amur descendants which may include a line of
+white tigers, that are claimed as pure-Amurs, which originated out of Center Hill, Florida .
+These white tigers are not registered Amur tigers. A tiger trainer named Alan Gold owned a pair
+of Amur tigers which once produced a stillborn white cub.
+
+In 1972 there were four white tigers in the United States: Mohini and her daughter Rewati in
+Washington D.C., Tony, and his first cousin named Bagheera ,a female born on July 8, 1972 in a
+litter of two white cubs, including a male which didn't survive, in the Hawthorn Circus of John
+F. Cuneo Jr. Bagheera's mother, Sheba III, was a sister of Tony's mother, Sheba II. Bagheera's
+father was either her registered Amur uncle and preferred mate, named Ural, or one of two of her
+brothers, named Prince and Saber, who were also brothers to Tony's parents. [49] Sheba III
+lived to be 26, an astonishing age for a tiger. (This may be the tiger world record for
+longevity. 20 is extremely old for a tiger.)
+
+Most of Sheba III's litters did not include white cubs, but at least 50% of her orange cubs would
+have been white gene carriers, since they could have inherited the gene from their mother, and
+if both parents were heterozygotes 66%, or two out of three, of their orange cubs are likely to
+have been carriers. Prince was castrated before Sheba III conceived another white cub, a male
+named Frosty, born on Feb. 25, 1975, in a litter which included two orange females and one
+orange male. [49] Frosty severely mauled trainer Wade Burck. [50] It seems odd that a tiger
+which may have been fathering such valuable cubs (Prince) would have been neutered. Saber was
+never observed trying to mate, so perhaps Ural, also called Genghis, did sire one or more of
+Sheba III's white cubs, which would have been three quarters Siberian had this been the case.
+It is possible for tigers from the same litter to have different fathers. It's also possible
+that any or all three tigers-Ural, Prince, and Saber, carried the white gene.
+
+Tony was purchased by John F. Cuneo Jr., owner of the Hawthorn Circus Corp. of Grayslake,
+Illinois [51] [52] , in February 1975 for $20,000 in Detroit. Tony's parents, Raja and Sheba,
+produced two more white cubs at the Baltimore County Fair on June 27 , 1976 . [53] The cubs were a
+white male, named "Baltimore County Fair", a white female named "Snowball", and an orange
+male. [54] Snowball's name was later changed to "Maharani", and all three cubs were sold to the
+Ringling Bros. Barnum & Bailey Circus in Washington D.C. . Maharani died in 1984. Baron Julius
+Von Uhl had another three white cubs born between June 18 and 19, 1977 at Kingdom's 3 (formerly
+Lion Country Safari ) at Stockbridge , Georgia off I-75 south of Atlanta . [55] Two lived only a
+short time. The other, named Scarlett O'Hara, died at the Atlanta Zoo on Jan. 30, 1978 of
+cardiac arrest while undergoing surgery to correct crossed eyes. She was still owned by
+Julius Von Uhl at the time. [56] [57] Tony was sent on breeding loan to the Cincinnati Zoo in
+1976, to be bred to Rewati from the US National Zoo. However, Tony and Rewati did not breed, so he
+was bred to Mohini's orange daughter Kesari instead, resulting in a litter of four white and
+one orange cub June 27 , 1976 , the same day that eight year old Sheba had her white cubs in
+Baltimore, Maryland . It is an astounding coincidence that both tigresses gave birth to white
+cubs on the exact same day. On that one day America's white tiger population nearly doubled
+from 8 to 14. Kesari's 1976 litter represented a mixture of the two unrelated strains.
+
+All of the white cubs from Kesari's 1976 litter by Tony were cross-eyed, as were Rewati and
+Bagheera. The Cincinnati Zoo retained a brother and sister pair from the litter, named Bhim
+and Sumita, and their orange sister Kamala. Two white males returned to the Hawthorn Circus
+with Tony as John Cuneo's share from the breeding loan. John Cuneo also asked the Bristol Zoo to
+trade some white tigers, to diversify the gene pool, but the Bristol Zoo declined, perhaps not
+wishing to exchange pure-Bengals for mongrels. Tony, Bagheera, and Frosty lived for years
+with a troop of Hawthorn Circus tigers stationed at Marineland and Game Farm , in Niagara
+Falls, Ontario , Canada . Because of selective breeding only a few of the oldest white tigers in
+the Hawthorn Circus today are cross eyed . Bhim and Sumita became the world record parents of
+white cubs. In 1976 there were 39 white tigers-7 in New Delhi, 7 in Kolkata, one in Guwahati , one
+in Lucknow , one in Hyderabad , 8 in Bristol , Cincinnati Zoo had 2, Washington had 5, John Cuneo
+had 5, and Julius Von Uhl had 2. The Maharaja of Rewa retired from the white tiger business in
+1976. He later abdicated in favor of his son so that he could run for the family seat in
+parliament and became an MP. There is a white tiger cub on the shield of the coat of arms of the
+Maharajas of Rewa.
+
+Over 70 white tigers have been born at the Cincinnati Zoo, which is no longer in the white tiger
+business. The Cincinnati Zoo sold white tigers [58] for $60,000 each. Siegfried & Roy bought a
+litter of three white cubs from the Cincinnati Zoo, which were offspring of Bhim and Sumita,
+for around $125,000. Prior to 1974 the Cincinnati Zoo wanted to acquire a white tiger, but no
+zoo would sell at any price. By the 1980s the Cincinnati Zoo was the world's leading purveyor of
+white tigers. After 1976 at least one more white tiger born at the Cincinnati Zoo was cross
+eyed, a cub from Bhim and Sumita's first litter. Crossed eyes may be reduced or eliminated
+through selective breeding , as it has been in Siamese cats . Critics refer to white tiger
+breeding as "proliferation", and the Cincinnati Zoo was derided as a "white tiger mill".
+
+The Henry Doorly Zoo in Omaha, Nebraska bought Tony's parents and orange sister Obie (born in
+1975) in 1978 [59] , and bred more white tigers. Kesari also went to live at Omaha Zoo, but didn't
+have any more cubs. Some of Tony's white siblings born in Omaha proved to be sterile. Obie was
+paired with Ranjit from the National Zoo, and their cubs like those of Tony and Kesari,
+included non inbred white tigers. A white tiger named Chester, who was a son of Ranjit and Obie,
+born at the Omaha Zoo, fathered the first test tube tigers [60] , and then became the first white
+tiger in Australia when he was sent to the Taronga Zoo in Sydney . His brother, Panghur Ban, was
+the National Zoo's last white tiger. [61] A white tiger named Rajiv, a son of Bhim, became the
+first white tiger in Africa , when he was sent to Pretoria Zoo in exchange for a king cheetah .
+[62]
+
+In 1983 Rewati was paired with Ika, from Kesari's 1976 litter, at the Columbus Zoo [63] . By this
+time he was a three legged amputee retired from circus performance, put out to pasture to
+breed. Ika killed Rewati in the act of mating [64] . Ika was then mated with a white tigress named
+Taj, who was a grand daughter of his brothers Ranjit and Bhim, and fathered white cubs in
+Columbus. Ika and Taj had a cross eyed daughter named Lilly, who appeared on Late Night with
+David Letterman with Jack Hanna in 1986, as her mother Taj had done years earlier. Ika was also
+bred to Taj's orange mother Dolly, a daughter of Bhim and an unrelated orange tigress named
+Kimanthi, in Columbus. Taj's father, Duke, was a son of Ranjit from an outcross to an unrelated
+orange tigress. Isson, a white grandson of Kesari, was also dispatched to Columbus on
+breeding loan from the Hawthorn Circus, of Grayslake, Illinois, which eventually had 80
+white tigers. In 1984 five white tiger cubs were stolen from the Hawthorn Circus in Portland,
+Oregon, and two died. The tigers were touring with the Ringling Bros. Barnum & Bailey Circus .
+The culprit was a veterinarian who was sentenced to one year in prison and six months in a
+halfway house. [65]
+
+In 1974 a white cub was born in the Racine Zoological Gardens in Wisconsin , from a
+father-daughter mating. The father, named Bucky, killed the white cub. The mother, named
+Bonnie, was later bred with an orange littermate of Tony named "Chequila", who belonged to
+James Witchey of Ravenna, Ohio , who bought him from Dick Hartman of South Lebanon, Ohio , when
+he was four or five years of age. Chequila proved to be a white gene carrier and fathered at least
+one white cub in the Racine Zoo in 1980. It is not known whether Bucky, who came from the Fort
+Wayne Children's Zoo in Indiana , and his daughter Bonnie, were related to any of the
+established strains of white tigers. By 1987 10% of North American zoo tigers were white.
+
+In 2007 a white tiger was born at Safari Game Park in Bandon, Oregon . The tiger, Sultan, is, as of
+October 2007, publicly exhibited where children and adults can play with it and hold it and the
+mother is also at the game park.
+
+
+
+[ edit ] Orissa White Tigers
+
+
+
+Three white tigers were also born in the Nandan Kanan Zoo ( Nandankanan Zoo ) in Bhubaneswar ,
+Orissa , India in 1980. Their parents were an orange father–daughter pair called Deepak and
+Ganga, who were not related to Mohan or any other captive white tiger – one of their
+wild-caught ancestors would have carried the recessive white gene, and it showed up when
+Deepak was mated to his daughter. Deepak's sister also turned out to be a white gene carrier.
+These white tigers are therefore referred to as the Orissa strain, as opposed to the Rewa
+strain, of white tigers founded by Mohan [66] .
+
+When the surprise birth of three white cubs occurred there was a white tigress already living
+at the zoo, named Diana, from New Delhi Zoo. One of the three was later bred to her creating
+another blend of two unrelated strains of white tigers. This lineage resulted in several
+white tigers in Nandan Kanan Zoo. Today the Nandankanan Zoo has the largest collection of
+white tigers in India. The Cincinnati Zoo acquired two female white tigers from the Nandan
+Kanan Zoo, in the hopes of establishing a line of pure-Bengal white tigers in America, but they
+never got a male, and didn't receive authorization from the Association of Zoos and Aquariums
+(AZA)'s Species Survival Plan (SSP) to breed them. White tigers are freaks and phenotypic
+aberrations. [67] The AZA has recommended that white tigers be "bred to extinction", which is
+to say, not bred at all and allowed to die out, because they consume space and resources needed
+for endangered orange tigers. [68] [69] [70] [71] [72] [73] It has been suggested that as few as
+1 in 10,000 tigers in the wild was white. Although many AZA member zoos still keep them, as an
+attraction to generate revenue, almost none breed them. Sarah Christie, the coordinator of
+Conservation Programmes at London Zoo, has said that she would not be adverse to using a white
+tiger in a zoo breeding program provided it was purebred. She said that it's a naturally
+occurring gene and it shouldn't be selected for or against. [74] Zoo breeding programs for
+tigers may be of doubtful value to conservation in any case. K.S. Sankhala once asked Sally
+Walker of the Zoo Outreach Organisation , of Tamil Nadu , India, "Why do foreigners hate our
+white tigers so much?" The Zoo Outreach Organisation used to publish studbooks for white
+tigers, which were compiled by A.K. Roychoudhury of the Bose Institute in Calcutta, and
+subsidized by the Humane Society of India. The Columbus Zoo had also hoped to breed
+pure-Bengal white tigers, but were unable to obtain a white registered Bengal mate for Rewati
+from India. [75]
+
+There were also surprise births of white tigers in the Asian Circus, in India, to parents not
+known to have been white gene carriers, or heterozygotes, and not known to have any
+relationship to any other white tiger strains. There was a white cub born at Mysore Zoo from
+orange parents descended from Deepak's sister. On August 29 , 1979 a white tigress named Seema
+was dispatched to Kanpur Zoo to be bred to Badal, a tiger who was a fourth generation descendant
+of Mohan and Begum. The pair did not breed so it was decided to pair Seema with one of two wild
+caught, notorious man eaters, either Sheru or Titu, from the Jim Corbett National Park . Seema
+and Sheru produced a white cub, and for a while it was thought there might be white genes in
+Corbett's population of tigers, but the cub didn't stay white. [76] [77] [78]
+
+There have been other cases of white tiger, white lion , and white panther cubs being born, and
+then changing to normal color. White tigers which were a mixture of the Rewa and Orissa
+strains, born at the Nandan Kanan Zoo, were non inbred. A white tiger from out of the Orissa
+strain found it's way to the Western Plains Zoo in Australia . Australia's Dreamworld , on the
+Gold Coast , wanted to breed this tiger to one of their white tigers from the United States,
+acquired from Croatian -American tiger trainer Josip Marcan, who was a trainer with the
+Hawthorn Circus and the Clyde Beatty Cole Bros. Circus, and had also worked as a veterinarian
+at the Frankfurt Zoo. The Western Plains Zoo rejected the idea.
+
+
+
+[ edit ] Stripeless (Snow White) Tigers
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Whitetigermirage.jpg/180px-Whitetigermirage.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png This
+nearly stripeless tiger is on display at The Mirage in Las Vegas, Nevada
+
+An additional genetic condition can remove most of the striping of a white tiger, making the
+animal almost pure white. One such specimen was exhibited at Exeter Change in England in 1820
+and described by Georges Cuvier as " A white variety of Tiger is sometimes seen, with the
+stripes very opaque, and not to be observed except in certain angles of light. " [79] .
+Naturalist Richard Lydekker said that, " a white tiger, in which the fur was of a creamy tint,
+with the usual stripes faintly visible in certain parts, was exhibited at the old menagerie at
+Exeter Change about the year 1820 ." [80] Hamilton Smith said, " A wholly white tiger, with the
+stripe-pattern visible only under reflected light, like the pattern of a white tabby cat, was
+exhibited in the Exeter Change Menagerie in 1820. ", and John George Wood stated that, " a
+creamy white, with the ordinary tigerine stripes so faintly marked that they were only
+visible in certain lights. " Edwin Henry Landseer also drew this tigress in 1824.
+
+The modern strain of snow white tigers came from repeated brother–sister matings of Bhim
+and Sumita at Cincinnati zoo. The gene involved possibly came from the Siberian tiger, via
+their part-Siberian ancestor Tony. Continued inbreeding appears to have caused a recessive
+gene for stripelessness to show up. About one fourth of Bhim and Sumita's offspring were
+stripeless. Their striped white offspring, which have been sold to zoos around the world, may
+also carry the stripeless gene.
+
+Because Tony is present in many white tiger pedigrees, the gene may also be present in other
+captive white tigers. As a result, stripeless whites have occurred in zoos as far afield as the
+Czech Republic , Spain and Mexico . Stage magicians Siegfried & Roy were the first to attempt to
+breed selectively for stripelessness; they own snow white Bengal tigers taken from
+Cincinnati Zoo ( Tsumura , Mantra , Mirage and Akbar-Kabul ) and Guadalajara , Mexico ( Vishnu
+and Jahan ), and a stripeless Siberian tiger called Apollo . [81]
+
+In 2004, a blue-eyed, stripeless white tiger was born at a wildlife refuge in Alicante , Spain .
+Its parents are normal orange Bengals. The cub was named Artico ("Arctic"). Stripeless white
+tigers were thought to be sterile until Siegfried & Roy's stripeless white tigress Sitarra, a
+daughter of Bhim and Sumita, gave birth. Another variation which came out of the white strains
+are unusually light orange tigers called golden tabby tigers. These may be orange tigers
+which carry the stripeless white gene as a recessive. Some white tigers in India have been very
+dark nearly reverting to the orange colour
+
+
+
+[ edit ] Genetics & albinism
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Wroclaw_tiger.jpg/180px-Wroclaw_tiger.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png A white
+tiger in captivity at WrocÅ‚aw zoo. The presence of stripes indicate it is not a true
+albino.
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/White_tigers_at_Singapore_zoo.JPG/180px-White_tigers_at_Singapore_zoo.JPG
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png White
+tigers at Singapore zoo
+
+Contrary to popular belief, white tigers are not albinos ; true albino tigers would have no
+stripes. The stripeless white tigers known today only have very pale stripes.
+
+Part of the confusion is due to the misidentification of the so-called chinchilla gene (for
+white) as an allele of the albino series (publications prior to the 1980s refer to it as an
+albino gene). The mutation is recessive to normal color, which means that two orange tigers
+carrying the mutant gene may produce white offspring, and white tigers bred together will
+produce only white cubs. The stripe color varies due to the influence and interaction of other
+genes.
+
+While the inhibitor ("chinchilla") gene affects the color of the hair shaft, there is a
+separate "wide-band" gene affecting the distance between the dark bands of colour on agouti
+hairs. [82] An orange tiger who inherits two copies of this wide-band gene becomes a golden
+tabby ; a white who inherits two copies becomes almost or completely stripeless. Inbreeding
+allows the effect of recessive genes to show up, hence the ground and stripe colour variations
+among white tigers.
+
+As early as 1907, naturalist Richard Lydeker doubted the existence of albino tigers. [83]
+However, we do have a report of true albinism: in 1922, two pink-eyed albino young were shot
+along with their mother at Mica Camp, Tisri , in the Cooch Behar district , according to Victor N
+Narayan in a ”Miscellaneous Note” in the Journal of the Bombay Natural History Society .
+The albinos were described as sickly-looking sub-adults, with extended necks and pink eyes.
+
+Outside of India white tigers have been prone to crossed eyes, a condition known as
+strabismus, like "Clarence the cross eyed lion", [84] due to incorrectly routed visual
+pathways in the brain in white tigers. When stressed or confused all white tigers cross their
+eyes, according to tiger trainer Andy Goldfarb. Strabismus is associated with white tigers
+of mixed Bengal/Siberian ancestry. The only pure-Bengal white tiger reported to be cross
+eyed was Mohini's daughter Rewati. Strabismus is directly linked to the white gene and is not a
+separate consequence of inbreeding. [85] [86] [87] The orange littermates of white tigers
+are not prone to strabismus. Siamese cats and albinos of every species which has been studied
+all exhibit the same visual pathway abnormality found in white tigers. Siamese cats are also
+sometimes cross eyed, as are some albino ferrets . The visual pathway abnormality was first
+documented in white tigers in the brain of Moni, after he died, although his eyes were in normal
+alignment. There is a disruption in the optic chiasm . The examination of Moni's brain
+suggested the disruption may less severe in white tigers than it is in Siamese cats. Because of
+the visual pathway abnormality, by which some of the optic nerves are routed to the wrong side
+of the brain, white tigers have a problem with spatial orientation, and bump into things,
+until they learn to compensate. Some compensate by crossing their eyes. When the neurons pass
+from the retina to the brain and reach the optic chiasma some cross and some do not, so that
+visual images are projected to the wrong hemisphere of the brain. White tigers can't see as
+well as normal tigers and suffer from photophobia like albinos. [88] There is a 450 lbs. male
+cross-eyed white tiger, named Namaste, at the Pana'ewa Rainforest Zoo in Hawaii , which was
+donated to the zoo by Las Vegas magician Dirk Arthur . [89]
+
+White tigers, Siamese cats, and Himalayan rabbits have enzymes in their fur which react to
+temperature causing them to grow darker in cold. [90] They produce a mutated form of
+tyrosinase , an enzyme used in the production of melanin , which only functions at certain
+temperatures. This is why Siamese cats and Himalayan rabbits are darker on their faces, ears,
+legs, and tails, where the cold penetrates more easily. K.S. Sankhala, who was director of the
+New Delhi Zoo in the 1960s, observed that white tigers were always whiter in Rewa, even when
+they were born in New Delhi and returned there. "In spite of living in a dusty courtyard they
+were always snow white." [2] A weakened immune system is directly linked to reduced
+pigmentation in white tigers. White tigers react strangely to anesthesia [91] due to their
+inability to produce normal tyrosinase, a trait shared with albinos, according to zoo
+veterinarian David Taylor . He was treating a pair of white tigers from the Cincinnati Zoo at
+Fritz Wurm's safari park in Stukenbrock, Germany, for salmonella . [92]
+
+Mohini was checked for ChÃ©diak-Higashi syndrome in 1960, but the results were
+inconclusive. [93] [94] This condition is similar to albino mutations and causes bluish
+lightening of the fur color, crossed eyes, and prolonged bleeding after surgery or in the
+event of injury, the blood is slow to coagulate, in domestic cats. There has never been a case of
+a white tiger having ChÃ©diak-Higashi syndrome. There has been a single case of a white
+tiger having central retinal degeneration , which could be related to reduced pigmentation
+in the eye, reported from the Milwaukee County Zoo. [95] [96] The white tiger was a male on loan
+from the Cincinnati Zoo.
+
+
+
+[ edit ] Inbreeding depression
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/5/50/200408_Tigre_blanc_royal.JPG/180px-200408_Tigre_blanc_royal.JPG
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png White
+tiger at the ZooParc de Beauval in France
+
+
+
+(talk) Because of the extreme rarity of the white tiger allele in the wild [2] , the breeding
+pool was limited to the small number of white tigers in captivity. According to Kailash
+Sankhala the last white tiger ever seen in the wild was shot in 1958. Inbreeding between these
+tigers often leads to defects [97] . Due to the high market value for white tigers,
+unscrupulous breeders will still inbreed white tigers to ensure the offspring also exhibit
+the recessive gene. Some animal rights activists have called for a halt to the breeding of
+white tigers altogether. Rewati had a crooked spine, shortened limbs, and crossed eyes, and
+her reproductive cycle was irregular, making her a poor candidate for breeding. This may be
+why the National Zoo did not elect to breed her with Poona, while he was on breeding loan to
+Washington in 1973. It is probably due to the rarity and demand for white tigers that Rewati was
+later bred by Robert Baudy, in Center Hill, Florida, to an unrelated orange Amur tiger, but did
+not conceive. A white Amur tiger may have been born at Center Hill, and given rise to a strain of
+white Amur tigers. The white tiger pictured on the right is at the ZooParc de Beauval in France,
+and came from Center Hill. Robert Baudy realized that his tigers had white genes when a tiger he
+sold to Marwell Zoo in England developed white spots, and bred them accordingly. He sold a
+white tiger to Mike Tyson . Rewati also lived at the Bronx Zoo for several years and they may have
+attempted to breed her. She appeared on the covers of the April 1970 National Geographic and
+the June 22, 1973 issue of Science.
+
+It has been possible to expand the white gene pool by outcrossing white tigers with unrelated
+orange tigers and then using the cubs to produce more white tigers. Ranjit, Bharat, Priya, and
+Bhim were all outcrossed; in some instances to more than one tiger. Bharat was bred to an
+unrelated orange tiger named Jack, from San Francisco Zoo, and had an orange daughter named
+Kanchana. [98] Bharat and Priya were also bred with an unrelated orange tiger from Knoxville
+Zoo , and Ranjit was bred to this tiger's sister, also from Knoxville Zoo. Bhim fathered
+several litters by an unrelated orange tigress named Kimanthi, at the Cincinnati Zoo. Ranjit
+had several mates at the Omaha Zoo. [99] The last descendants of Bristol Zoo's white tigers
+were a group of orange tigers from outcrosses, which were bought by a Pakistani senator and
+shipped to Pakistan. Rajiv, Pretoria Zoo's white tiger, who was born in the Cincinnati Zoo and
+became the first white tiger in Africa when he was traded for a king cheetah, was also
+outcrossed and sired at least two litters of orange cubs at Pretoria Zoo. Outcrossing isn't
+necessarily done with the intent of producing more white cubs by resuming inbreeding further
+down the line. The National Zoo no longer keeps any Bengal tigers and has shifted its focus to
+endangered Sumatran tigers. The Cincinnati Zoo has more recently bred endangered
+Indochinese Tigers. The drawbacks of outcrossing are the loss of a generation and the
+production of surplus cubs which may become "castoffs" or "throw-aways", and be discarded
+after they have been used to propagate the next generation of white tigers. [100]
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/WhiteTiger%2C_Miami.jpg/180px-WhiteTiger%2C_Miami.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png White
+tiger at the Miami Zoo
+
+Today white tigers are so numerous that many are in sanctuaries for unwanted tigers. The
+Lowery Park Zoo in Tampa, Florida has four white tigers from Center Hill , which are "rescue
+tigers", and may also be pure-Amur tigers. White tigers and white lions have been used in
+canned hunts in South Africa [101] , and there are white tigers being bred on Asian tiger farms,
+to be killed for their body parts. In China white tigers are made into wine. [102] The PanYu
+XiangJiang Safari Park in Gungzhou, China , started with four white tigers from Sweden and
+Germany in 1996, the first in China. Today they have over 100 white tigers, with 10 to 20 births a
+year, and claim to have 50% of the world's white tigers, but it's unclear, given the cost of
+housing and feeding so many, why any one safari park or zoo would need more than 1 or 2. A single
+white tigress imported from Sweden has given birth to 49 of the white tigers. [103] [104] [105]
+A tigress should not be bred more than once every 2 to 3 years and this one has been producing two
+litters a year. There is a myth which has been propagated on the internet, one of many
+concerining white tigers, that they have an 80% infant mortality. The infant mortality rate
+for white tigers is no higher than it is for normal orange tigers. In recent years a white
+tigress at the Buenos Aires Zoo has produced several litters of white cubs, including some
+which are stripeless, and a litter of 6 in 2004. [106] [107] A stripeless white tigress gave
+birth to four stripeless white, and one orange cub, at the zoo in Guadalajara , Mexico , which
+has an association with Siegfried & Roy, in 2007. The fact that the litter included one orange
+cub shows that the father, Nino, is orange. This was the sixth litter born at the zoo. [108]
+[109] In the United States white tigers are in the hands of many shady profit-motivated
+private owners and breeders, and white tigers have been sold to drug lords and as pets. In 1998 a
+Florida woman was killed by her pet white tiger and she was its second victim. [110] In 2005 the
+Border Patrol seized two white tiger cubs which were in a pick up truck on the Texas-Mexican
+border. [111] Another white tiger cub was confiscated on the border between Tijuana and San
+Diego in 1991 and donated to the San Diego Zoo, a female named Blanca. [112] Siegfried and Roy,
+and Tiger Island at MarineWorld/AfricaUSA in Vallejo, California , each asked to have the
+valuable cub which came from a private breeder in Arkansas . White tigers have been relegated
+from royal palace to roadside zoo in 56 years. The white tiger pictured at right at the Miami Zoo
+was born in the Hawthorn Circus and is a subspecific hybrid ( Panthera tigris tigris x altaica
+). In Miami Zoo the white tiger lives in a facsimile of the temple ruins of Angkor Wat in
+Kampuchea . A keeper was killed by a white tiger, which was a cub of Bhim and Sumita born in
+Cincinnati, in Miami Zoo in 1994. [113] [114] A white tiger also killed a keeper in a Texas zoo.
+
+Perhaps the mongrelization of white tigers has been a mixed blessing, since although the
+introduction of Amur genes into the white strain has further delegitimized white tigers for
+zoo conservation purposes, it's possible that hybrid vigor has counteracted inbreeding
+depression and created healthier bloodlines. Outcrossing is a way of bringing fresh blood
+into the white strain. The new Delhi Zoo loaned out white tigers to various zoos in India for
+outcrossing, and the government had to impose a whip to force zoos to return either the white
+tigers or their orange offspring.
+
+Siegfried & Roy did at least one outcross. [115] In the mid 1980s they offered to collaborate
+with the Indian government in the creation of a healthier strain of white tigers. The Indian
+government was reportedly studying the offer, but may not have wished to have their white
+tigers mongrelized like those in America. In India there was a moratorium on breeding white
+tigers after cubs were born at New Delhi Zoo with arched backs and clubbed feet necessitating
+euthanasia. At one point the Cincinnati Zoo was the only zoo in the world breeding them. [116]
+The New Delhi Zoo decided to try again reasoning that if Cleopatra could be born healthy and
+normal as the product of three generations of brother to sister unions then so might white
+tigers. (Cleopatra's parents were not brother and sister.) Mice have been bred brother to
+sister for 150 generations without ill effect, and are therefore 99.999% genetically
+identical. Hybrid white tigers appear to be healthier than white subspecific purebreds and
+an analogy can be made with purebred vs. mongrel dogs. [117] India is committed to keeping
+their white tigers purebred.
+
+In the mid 1980s Siegfried & Roy owned 10% of the world's white tigers. In the 1980s Siegfried &
+Roy were escorting two big, dark striped, white tiger cubs to their new home at Phantasialand ,
+in Bruhl , Germany , when the white tigers and their truck were briefly stolen in New York City ,
+when the driver stopped for coffee. The white tigers made their debut in Germany at a ceremony
+attended by the United States Ambassador. Siegfried & Roy have bred white tigers in
+collaboration with the Nashville Zoo and they appeared on Larry king with white tiger cubs
+born at the Nashville Zoo.. Fritz Wurm's safari park in Germany bought a pair of white tigers
+from the Cincinnati Zoo, and Joan Collins attended the opening of the golden domed white tiger
+pavilion, at the safari park in Stukenbrock, Germany. Other genetic problems include
+shortened tendons of the forelegs, club foot , kidney problems, arched or crooked backbone
+and twisted neck. Reduced fertility and miscarriages, noted by ”tiger man” Kailash
+Sankhala , in pure-Bengal white tigers, were attributed to inbreeding depression . [2] There
+have also been congenital cataracts reported from the Cincinnati Zoo [118] and Parkinson's
+disease in India. [119] [120] A condition known as "star-gazing", which is associated with
+inbreeding in big cats, has also been reported in white tigers. [121] Some of the white tigers
+born to North American lines have bulldog faces with a snub nose, jutting jaw, domed head and
+wide-set eyes with an indentation between the eyes. However, some of these traits have also
+been linked to poor diet. The white gene is recessive, and therefore must be inherited from
+both parents, to produce a white tiger. Inbreeding is a conscious strategy to promote
+homozygosity in white tigers. There's really no such thing as a white gene. Rather white
+tigers carry orange genes which are latent, switched off or suppressed by an inhibitor, which
+is the chinchilla gene.
+
+
+
+[ edit ] Historical records
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/1/19/Whitetiger014.JPG/180px-Whitetiger014.JPG
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png White
+tiger sleeping at the Audubon Zoo in New Orleans , Louisiana .
+
+In Rewa hunters' diaries recorded 9 white tigers in the fifty years prior to 1960. The Journal
+of The Bombay Natural History Society reported 17 white tigers shot between 1907 and 1933.
+E.P. Gee collected accounts of 35 white tigers from the wild up to 1959, with still more
+uncounted from Assam where he had his tea plantation, although Assam with it's humid jungles
+was considered a likelier haunt for black tigers. Some white tigers in the wild had reddish
+stripes known as "red tigers". The Boga-bagh, or "white tiger", Tea Estate in upper Assam , was
+named that after two white tigers were shot there in the early 1900s. While the modern
+population descends from Rewan tigers, white tigers may have been recorded as far afield as
+China and Korea [122] , Nepal , Burma , the Malay Peninsula , Sumatra and Java . Historically,
+white tigers may have been reported in northern China, in the geographic range of the Siberian
+tiger, and perhaps in the Indochinese, Sumatran and Javan subspecies, but not among South
+China , Caspian (Panthera tigris virgata) or Bali Tigers . Korean and Manchurian tigers were
+previously recognized as separate subspecies (Panthera tigris coreensis and Panthera
+tigris longipilis or amurensis) [123] [124] , but they are now regarded part of the Amur tiger
+subspecies (Siberian) named for the Amur river . There were also blue tigers reported from
+southern China, referred to as "blue devils" because they were notorious man-eaters. Arthur
+Locke writing in "The Tigers Of Trengganu " (1954) mentions white tigers, but it's unclear
+whether he means specifically in Trengganu , in the Malay Peninsula , or elsewhere in Asia, in
+which case there may be no record of white tigers ever existing in the Malay Peninsula. [125]
+The Malayan Tiger ( Panthera tigris malayensis or Panthera tigris jacksoni ) was only
+recognized as a subspecies separate from the Indochinese ( Panthera tigris corbetti ) in
+2004, and the Indochinese as a subspecies separate from the Bengal in 1968. White tigers were
+reported from Burma, now called Myanmar, but since the Irrawaddy River (Ayeyarwady since
+1998) is the theoretical dividing line between the range of the Bengal and Indochinese tiger ,
+it is uncertain whether there were also white Indochinese tigers or white Malayan tigers .
+
+In some regions, the animal forms part of local tradition. In China, it was revered as the god of
+the West, Baihu . In South Korea , a white tiger will sometimes be represented on the taegeuk
+emblem on the flag – the symbolising evil, opposite the green dragon for good. In Indian
+superstition, the white tiger was the incarnation of a Hindu deity, and anyone who killed it
+would die within a year. Sumatran and Javan royalty claimed descent from white tigers, and the
+animals were regarded as the reincarnations of royalty. In Java the white tiger was
+associated with the vanished Hindu kingdoms and with ghosts and spirits. It was also the icon
+guardian of the seventeenth century court.
+
+White tigers with dark stripes were recorded in the wild in India during the Mughal Empire
+(1556–1605). A painting from 1590 of Akbar while hunting near Gwalior depicts four tigers,
+two of which appear white. As many as 17 instances of white tigers were recorded in India
+between 1907 and 1933 in several separate locations: Orissa, Bilaspur , Sohagpur and Rewa .
+
+Between 1892 and 1922, white tigers were routinely shot in India in places such as Orissa,
+Upper Assam , Bilaspur, Cooch Behar and Pune . Pollock (1900) reported white tigers from Burma
+and the Jynteah hills of Meghalaya . In the 1920s and 30s, fifteen white tigers were killed in
+Bihar , and more were shot in other regions. [126] On 22 January 1939 , the Prime Minister of
+Nepal shot a white tiger at Barda camp in Terai , Nepal. The last observed wild white tiger was
+shot in 1958, and the mutation is considered extinct in the wild [2] . There have been rumors of
+white tigers in the wild in India since then, but none have been considered credible. It has
+been suggested from the casual way that Jim Corbett makes reference to a white tigress, which
+he filmed with two orange cubs, in his "Man-eaters of Kumoan" (1946) [127] that white tigers
+were nothing out of the ordinary to him. Corbett's black and white film footage is probably the
+only film in existence of a white tiger in the wild. It illustrates again that white tigers
+survived and reproduced in the wild. The film was used in a National Geographic docu-drama
+about Corbett's life. One theory of white tigers holds that they were symptomatic of
+inbreeding as a consequence of over hunting and habitat loss, as tiger populations became
+isolated. In 1965 there was a chair upholstered with a white tiger skin in the "India
+collection" of Marjorie Merriweather Post , at her Hillwood estate in Washington D.C. , which
+is now operated as a museum. A color photograph of this item appeared in the Nov. 5, 1965 issue of
+Life magazine. [128] In the October 1975 issue of National Geographic there is a photograh of
+the minister of defense for the United Arab Emirates with a stuffed white tiger in his office.
+[129] The actor Cesar Romero owned a white tiger skin. 0 comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Newer Posts Older Posts Home Subscribe to: Posts (Atom)
+window.___gcfg = {'lang': 'en'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+Image: http://sstatic1.histats.com/0.gif?442390&101 (function() { var po =
+document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src
+= 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})(); var addthis_config = {"data_track_addressbar":true};
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png <!--
+google_ad_client="pub-2237093296171344"; google_ad_host="pub-1556223355139109";
+google_alternate_ad_url="http://img2.blogblog.com/img/blogger_ad.html";
+google_ad_width=120; google_ad_height=600; google_ad_format="120x600_as";
+google_ad_type="text_image"; google_ad_host_channel="0001+S0003+L0001";
+google_color_border="FFFFFF"; google_color_bg="FFFFFF";
+google_color_link="838383"; google_color_url="1862DC";
+google_color_text="6E6E6E"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Live Traffic Feed
+
+Feedjit Live Blog Stats
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png -Ways To World
+
+-GUFIC
+
+-World On The Move - Sitemap
+
+- Visit auto.waystoworld.com
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2012 (16)
+
+        - ►  August (2)
+
+        
+
+        
+
+        - ►  July (2)
+
+        
+
+        
+
+        - ►  June (3)
+
+        
+
+        
+
+        - ►  May (1)
+
+        
+
+        
+
+        - ►  April (2)
+
+        
+
+        
+
+        - ►  March (2)
+
+        
+
+        
+
+        - ►  February (1)
+
+        
+
+        
+
+        - ►  January (3)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (64)
+
+        - ►  December (3)
+
+        
+
+        
+
+        - ►  November (6)
+
+        
+
+        
+
+        - ►  October (11)
+
+        
+
+        
+
+        - ►  September (23)
+
+        
+
+        
+
+        - ►  July (2)
+
+        
+
+        
+
+        - ►  January (19)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (5)
+
+        - ►  September (5)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (2)
+
+        - ►  December (2)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2008 (99)
+
+        - ►  December (8)
+
+        
+
+        
+
+        - ►  November (2)
+
+        
+
+        
+
+        - ►  September (7)
+
+        
+
+        
+
+        - ►  July (9)
+
+        
+
+        
+
+        - ►  June (29)
+
+        
+
+        
+
+            - ▼  May (6)
+
+            - India Navy
+
+            
+
+            - White Tigers
+
+            
+
+            - TOP 25 RANKED BUSINESS-SCHOOLS IN INDIA
+
+            
+
+            - Top 100 Engineering Colleges in India
+
+            
+
+            - Mukesh Ambani's mansion in the air
+
+            
+
+            - 3G
+
+            
+
+        
+
+        
+
+        
+
+        - ►  April (33)
+
+        
+
+        
+
+        - ►  March (5)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Subscribe To
+
+
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png All Comments
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png All Comments
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Video Bar
+
+Loading...
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Picture Window
+template. Template images by Storman . Powered by Blogger .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+window.setTimeout(function() { document.body.className =
+document.body.className.replace('loading', ''); }, 10); if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV2";window['blogger_blog_id'] =
+'8482618239386479832';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d8482618239386479832','//2050x.blogspot.com/2008_05_01_archive.html','8482618239386479832');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'8482618239386479832', 'bloggerUrl': 'http://www.blogger.com', 'title': 'WORLD ON THE
+MOVE - Auto', 'pageType': 'archive', 'url':
+'http://2050x.blogspot.com/2008_05_01_archive.html', 'canonicalUrl':
+'http://2050x.blogspot.com/2008_05_01_archive.html', 'canonicalHomepageUrl':
+'http://2050x.blogspot.com/', 'homepageUrl': 'http://2050x.blogspot.com/',
+'blogspotFaviconUrl': 'http://2050x.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': 'May
+2008', 'pageTitle': 'WORLD ON THE MOVE - Auto: May 2008', 'encoding': 'UTF-8', 'locale':
+'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass':
+'', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42WORLD ON THE MOVE
+- Auto - Atom\42 href\75\42http://2050x.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42WORLD ON THE MOVE - Auto - RSS\42
+href\75\42http://2050x.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42WORLD ON THE MOVE - Auto - Atom\42
+href\75\42http://www.blogger.com/feeds/8482618239386479832/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\758482618239386479832\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'googleProfileUrl':
+'https://plus.google.com/114314981478875909710', 'imageSrcTag': '',
+'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId':
+'pub-2237093296171344', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script
+type\75\42text/javascript\42
+src\75\42//www.blogger.com/static/v1/jsbin/3651483553-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076',
+'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'content_padding': '15px',
+'tabs_selected_background_color': '#ffffff', 'region_shadow_spread': '0',
+'header_padding': '30px', 'tab_selected_background_gradient':
+'url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png)',
+'link_visited_color': '#0050e1', 'tabs_margin_sides': '0', 'post_title_font':
+'normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif',
+'tabs_separator_color': '#d5d5d5', 'tabs_text_color': '#ca9816',
+'header_background_gradient':
+'url(http://www.blogblog.com/1kt/transparent/header_gradient_shade.png)',
+'widget_title_font': 'bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif',
+'body_background': '#e6e9ee
+url(http://themes.googleusercontent.com/image?id\0751-QeziT_xhEvxfBl8wPx5qvDh7FrTqJvLJR2vQYW-ZkaGhxc2p1Zzl4P1_LVa2rRTUapD)
+no-repeat fixed top center /* Credit: Storman
+(http://www.istockphoto.com/googleimages.php?id\0755972475\46platform\75blogger)
+*/', 'tab_first_border_radius': '10px', 'tabs_border_radius': '10px', 'keycolor':
+'#e6e9ee', 'content_shadow_spread': '3px', 'main_background': 'transparent none
+repeat scroll top center', 'header_font': 'normal normal 36px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif', 'footer_background': 'transparent
+url(http://www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left',
+'header_background_color': '#1862dc', 'widget_title_text_transform': 'uppercase',
+'footer_link_visited_color': '#bea8d3', 'footer_link_hover_color': '#ffffff',
+'footer_border_radius_bottom': '10px', 'tabs_background_gradient':
+'url(http://www.blogblog.com/1kt/transparent/tabs_gradient_shade.png)',
+'tab_background': 'transparent none no-repeat scroll top left',
+'mobile_background_overlay': 'transparent none repeat scroll top left',
+'tabs_background_color': '#fbfbfb', 'header_border_radius': '10px',
+'post_margin_sides': '-20px', 'link_hover_color': '#2552ec', 'footer_link_color':
+'#f5ebff', 'content_background': 'transparent
+url(http://www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left',
+'tabs_margin_bottom': '0', 'body_text_color': '#6e6e6e', 'main_padding_sides':
+'5px', 'post_border_color': '#e5e5e5', 'footer_text_color': '#f5f5f5',
+'footer_border_radius_top': '10px', 'post_background_color': '#ffffff',
+'content_border_radius': '15px', 'endSide': 'right', 'post_footer_text_color':
+'#a8a8a8', 'startSide': 'left', 'date_header_color': '#6e6e6e', 'tabs_font': 'normal
+normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'body_font': 'normal normal
+15px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'post_border_radius': '10px',
+'widget_title_text_color': '#838383', 'content_margin': '30px', 'link_color':
+'#1862dc', 'footer_widget_title_text_color': '#c6c6c6', 'header_text_color':
+'#ffffff', 'main_border_radius_top': '0', 'region_shadow_offset': '0',
+'tab_border_radius': '0', 'tabs_selected_text_color': '#000000',
+'body_background_color': '#e5e5e5', 'tabs_spacing': '0'}, 'override': ''}}, {'name':
+'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'},
+'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name':
+'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url':
+'/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'},
+'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name':
+'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'crosscol',
+null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1',
+'sidebar-right-1', null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar-right-1', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_SubscribeView', new
+_WidgetInfo('Subscribe1', 'sidebar-right-1', null,
+document.getElementById('Subscribe1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_VideoBarView', new _WidgetInfo('VideoBar1',
+'sidebar-right-1', null, document.getElementById('VideoBar1'), {'title': 'Video
+Bar', 'format': 'VERTICAL', 'expression':
+'ytfeed:most_viewed.this_week,ytfeed:top_rated.this_week,ytfeed:recently_featured.this_week,Apple
+, microsoft, google,malwa institute of technology indore,bollywood, hollywoood, movies ,
+news, india, america, world,bmw m3, vw gti, porsche carrera,all ,all youtube, youtube'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_AdSenseView', new
+_WidgetInfo('AdSense1', 'sidebar-left-1', null,
+document.getElementById('AdSense1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3',
+'sidebar-left-1', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5',
+'crosscol-overflow', null, document.getElementById('HTML5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_CustomSearchView', new
+_WidgetInfo('CustomSearch1', 'crosscol-overflow', null,
+document.getElementById('CustomSearch1'), {'title': 'Search This Blog',
+'includeBlog': true, 'includePostLinks': true, 'includeWeb': false, 'linkLists':
+[{'id': 'LinkList1', 'title': ''}], 'blogUrl': 'http://2050x.blogspot.com/',
+'loadingMsg': 'Loading...', 'thisBlogMsg': 'This Blog', 'linkedFromHereMsg': 'Linked
+From Here', 'theWebMsg': 'The Web', 'backgroundColor': '#ffffff', 'textColor':
+'#6e6e6e', 'dateColor': '#6f6f6f', 'linkColor': '#1862dc', 'urlColor': '#1862dc',
+'visitedLinkColor': '#0050e1', 'borderColor': '#e5e5e5', 'activeBorderColor':
+'#e5e5e5'}, 'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView',
+new _WidgetInfo('LinkList1', 'crosscol-overflow', null,
+document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2',
+'crosscol-overflow', null, document.getElementById('HTML2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'footer-3', null,
+document.getElementById('Attribution1'), {'attribution': 'Picture Window template.
+Template images by \74a
+href\75\47http://www.istockphoto.com/googleimages.php?id\0755972475\46platform\75blogger\46langregion\75en\47
+target\75\47_blank\47\76Storman\74/a\76. Powered by \74a
+href\75\47http://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/2030570962-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML4', 'main', null, document.getElementById('HTML4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'),
+{'title': 'Pages', 'links': [{'href': 'http://2050x.blogspot.com/', 'title': 'Home',
+'isCurrentPage': false}, {'href':
+'http://2050x.blogspot.com/p/world-on-move-automobile-sitemap.html', 'title':
+'World On the Move - AutoMobile - Sitemap', 'isCurrentPage': false}], 'mobile': false},
+'displayModeFull'));
+

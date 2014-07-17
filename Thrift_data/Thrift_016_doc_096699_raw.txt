@@ -1,0 +1,3099 @@
+
+
+
+
+/* Copyright 2008 Google. */ (function() { var a=window,b="tick",c="start";var
+d=function(g){this.t={};this.tick=function(g,l,f){f=void 0!=f?f:(new
+Date).getTime();this.t[g]=[f,l]};this[b](c,null,g)},e=new
+d;a.jstiming={Timer:d,load:e};if(a.performance&&a.performance.timing){var
+h=a.performance.timing,i=a.jstiming.load,j=h.navigationStart,k=h.responseStart;0<j&&k>=j&&(i[b]("_wtsrt",void
+0,j),i[b]("wtsrt_","_wtsrt",k),i[b]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),i&&0<j&&(i[b]("_tbnd",void
+0,a.chrome.csi().startE),i[b]("tbnd_","_tbnd",j)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,i&&0<j&&(i[b]("_tbnd",void
+0,a.external.startE),i[b]("tbnd_","_tbnd",j)));m&&(a.jstiming.pt=m)}catch(n){};
+})() /* Copyright 2008 Google. */ (function() { var
+d=window,e="length",h="",i="__duration__",j="function";function k(c){return
+document.getElementById(c)}d.byId=k;function l(c){return
+c.replace(/^\s+|\s+$/g,h)}d.trim=l;var
+m=[],n=0;d.JOT_addListener=function(c,a,b){var f=new
+String(n++),c={eventName:c,handler:a,compId:b,key:f};m.push(c);return
+f};d.JOT_removeListenerByKey=function(c){for(var
+a=0;a<m[e];a++)if(m[a].key==c){m.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var
+a=0;a<m[e];a++)m[a].eventName==c&&m.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var
+f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded){a=m[e];for(b=0;b<a&&b<m[e];b++){var
+g=m[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof
+g.handler==j?g.handler:d[g.handler])&&g(f))}}else
+d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new
+Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var
+f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return
+a?d.JOT_siteRelTimeStrs[f].replace(i,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(i,Math.floor(b))};
+})() var webspace =
+{"scottyUrl":"/_/upload","isConsumer":true,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"https://gg.google.com/csi","sharingPolicy":"OPENED","analyticsAccountId":"UA-5886268-1","baseUri":"/site/chinhdangvu","name":"chinhdangvu","domain":"defaultdomain","features":{"scottyForTrogImageUpload":false,"pdfEmbedSupport":false,"docosCommenting":true,"useStandardEmbedsInSidebar":false,"siteChromeSidebarWidgetsEditDialog":true,"canonicalLinkTagInHead":false,"plusOneButtonOptions":true,"siteChromeSystemFooterDialog":true,"plusOneButton":true,"spreadsheetsEmbedLoadRedirect":true,"colorsAndFontsRefactor":false,"ieSevenUnsupportedError":false,"manageRedirects":false,"photoAlbumsInOnePick":true,"siteChromeInPlaceEditingProdLaunchPromo":true,"autoCompleteSearch":false,"goocitiesTheme":false,"editorKeyboardShortcuts":true,"experimental":{"displayEditorLockExceptions":false},"siteChromeDialogsToolbar":true,"plusBadge":false,"siteChromeHorizontalNavigationDialog":true,"dataPropsForEmbeds":true,"autoAdjustSitemapSearchDepth":true,"userContentMetaTags":true,"htmlEmbed":true,"keyboardShortcuts":true,"siteChromeHeaderDialog":true,"stBtiWebspaceTitleSearch":true,"pageRedirects":false,"siteChromeCustomFooterDialog":true},"adsensePublisherId":null,"gvizVersion":1,"siteTitle":"\u0111\u1eb7ngv\u0169ch\u00ednh","pageSharingId":"jotspot_page","plusPageId":"","termsUrl":"http://www.google.com/sites/help/intl/en/terms.html","enableAnalytics":true,"isPublic":true,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isGoocities":false,"isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"enableAutoComplete":true,"isStartPageEnabled":false,"domainAnalyticsAccountId":""};
+webspace.gadgets =
+{"isGadgetDirectoryEnabled":true,"baseUri":"/site/chinhdangvu/system/app/pages/gadgets","isGgsRenderingEnabled":true};
+webspace.user =
+{"uid":"","renderMobile":false,"primaryEmail":"guest","sessionIndex":"","namespaceUser":false,"displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"domain":"","hasWriteAccess":false,"dasherUser":false,"userName":"guest"};
+webspace.page =
+{"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:68fcc0a6b2211bf","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":"wuid:gx:69422502477f2c4c","revision":4,"title":"Fort
+Collins, Colorado on Google
+Earth","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"fort-collins-colorado","path":"/google-earth/usa-on-google-earth/fort-collins-colorado","openMoreActionMenu":null,"isSiteRtlLocale":false,"parentPath":"/google-earth/usa-on-google-earth"};
+webspace.page.breadcrumbs = [{"title":"Google
+Earth","dir":"ltr","path":"/site/chinhdangvu/google-earth","deleted":false},{"title":"USA
+on Google Earth +
+maps","dir":"ltr","path":"/site/chinhdangvu/google-earth/usa-on-google-earth","deleted":false},{"title":"Fort
+Collins, Colorado on Google
+Earth","dir":"ltr","path":"/site/chinhdangvu/google-earth/usa-on-google-earth/fort-collins-colorado","deleted":false}];
+webspace.editorResources = { text: [
+'https://ssl.gstatic.com/sites/p/e2b29f/system/js/codemirror.js',
+'https://ssl.gstatic.com/sites/p/e2b29f/system/app/css/codemirror_css.css',
+'https://ssl.gstatic.com/sites/p/e2b29f/system/js/trog_edit__en.js',
+'https://ssl.gstatic.com/sites/p/e2b29f/system/app/css/trogedit.css',
+'/site/chinhdangvu/_/rsrc/1348697308000/system/app/css/editor.css',
+'https://ssl.gstatic.com/sites/p/e2b29f/system/app/css/codeeditor.css',
+'/site/chinhdangvu/_/rsrc/1348697308000/system/app/css/camelot/editor-jfk.css'
+], sitelayout: [
+'https://ssl.gstatic.com/sites/p/e2b29f/system/app/css/sitelayouteditor.css' ] };
+var JOT_clearDotPath =
+'https://ssl.gstatic.com/sites/p/e2b29f/system/app/images/cleardot.gif'; var
+JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour
+ago","__duration__ hours ago"]; webspace.siteTemplateId = false;
+webspace.page.currentTemplate = {"title":"Web
+Page","path":"/system/app/pagetemplates/text"}; var JOT_siteRelTimeStrs = ["a minute
+ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+window.jstiming.load.tick('scl'); Fort Collins, Colorado on Google Earth -
+Ä‘áº·ngvÅ©chÃ­nh window.jstiming.load.tick('cl');
+
+
+
+Ä‘áº·ngvÅ©chÃ­nh
+
+Search this site
+
+Navigation
+
+    
+
+    - Home - Contents of this Site
+
+    
+
+    - 2009 swine flu outbreak
+
+    
+
+    - 2010 Nobel Peace Prize / 2010å¹Žè¯ºèŽ�å°”å’Œå¹³å¥–
+
+    
+
+    - 20th century Western painting
+
+    
+
+    - 24 (TV series)
+
+    
+
+    - Aleksandr Solzhenitsyn / Ð�Ð»ÐµÐºÑ�Ð°Ì�ÐœÐŽÑ€
+    Ð˜Ñ�Ð°Ì�ÐµÐ²ÐžÑ‡
+    Ð¡ÐŸÐ»Ð¶ÐµÐœÐžÌ�Ñ†Ñ‹Ðœ
+
+    
+
+    - Amsterdam
+
+    
+
+    - Anna Akhmatova / Ð�Ì�ÐœÐœÐ°
+    Ð�Ñ…ÐŒÐ°Ì�Ñ‚ÐŸÐ²Ð°
+
+    
+
+    - Art museum
+
+    
+
+    - Athens
+
+    
+
+    - Aung San Suu Kyi
+
+    
+
+    - Bangkok
+
+    
+
+    - Barcelona
+
+    
+
+        - Berlin
+
+        - Berlin Wall
+
+        
+
+    
+
+    
+
+    - Birmingham
+
+    
+
+        - Biá»ƒn Ä�ÃŽng / South China Sea
+
+        - Battle of the Paracel Islands / Háº£i chiáº¿n HoÃ ng Sa 1974
+
+        
+
+        - Hainan Island incident
+
+        
+
+        - Hainan Submarine Base on Google Earth / CÄƒn cá»© tÃ u ngáº§m
+        Ä‘áº£o Háº£i Nam
+
+        
+
+        - Háº£i chiáº¿n TrÆ°á»�ng Sa 1988 / Naval battle in Spratly 1988
+
+        
+
+        - Spratly Islands
+
+        
+
+        - USNS Impeccable (T-AGOS-23)
+
+        
+
+    
+
+    
+
+    - Brisbane
+
+    
+
+    - Brussels
+
+    
+
+    - Budapest
+
+    
+
+    - Buddhism / Pháº­t giÃ¡o / Bouddhisme
+
+    
+
+    - Calgary
+
+    
+
+    - Canberra
+
+    
+
+    - Carla Bruni
+
+    
+
+        - China
+
+        - 2008 Chinese milk scandal
+        äž‰é¹¿å¥¶ç²‰æ±¡æŸ“äº‹ä»¶
+
+        
+
+        - 2008 Summer Olympics torch relay
+
+        
+
+        - Ba Jin å·Žé‡‘
+
+        
+
+        - Beijing Television Cultural Center fire
+        äž­å€®ç”µè§†å�°æ–°å€§æ¥ŒåŒ—é…�æ¥Œ
+
+        
+
+        - BÄ›ijÄ«ng
+
+        
+
+        - Chinaâ€“France relations
+
+        
+
+        - Chinese architecture
+
+        
+
+        - Chinese cuisine
+
+        
+
+        - Chinese New Year
+
+        
+
+        - Chinese painting
+
+        
+
+        - Cinema of China
+
+        
+
+        - Cinema of Hong Kong
+
+        
+
+        - Edison Chen photo scandal é™ˆå† åžŒè£žç…§äº‹ä»¶
+
+        
+
+        - Histoire de la Chine
+
+        
+
+        - History of China äž­å›œåŽ†å�²
+
+        
+
+        - Hong Kong
+
+        
+
+        - Human rights in the People's Republic of China
+        äž­å�Žäººæ°‘å…±å’Œå›œäººæ�ƒ
+
+        
+
+        - July 2009 ÃœrÃŒmqi riots
+
+        
+
+        - Jung Chang åŒ æˆŽ
+
+        
+
+        - Kim Dung / JÄ«n YÅ�ng é‡‘åºž
+
+        
+
+        - LÇ� BÃ¡i æ�Žç™œ
+
+        
+
+        - Lá»‹ch sá»­ Trung Quá»‘c
+
+        
+
+        - Sima Qian / TÆ° MÃ£ ThiÃªn
+
+        
+
+        - Tibet
+
+        
+
+        - TrÆ°Æ¡ng Tiá»ƒu VÅ© åŒ ç­±é›š
+
+        
+
+        - TÄƒng Tuyáº¿t Minh æ›Ÿé›ªæ˜Ž
+
+        
+
+        - XÄ« ShÄ« / TÃ¢y Thi è¥¿æ–œ
+
+        
+
+        - ZhÅ�u WÃšihuÃ¬ å‘šå�«æ…§ ChÃ¢u Vá»‡ Tuá»‡
+
+        
+
+    
+
+    
+
+        - Cinema of Taiwan
+
+        - Lust, Caution è‰², æˆ’
+
+        
+
+    
+
+    
+
+    - Contents of my 2nd Site
+
+    
+
+    - Copenhagen
+
+    
+
+    - Dublin
+
+    
+
+        - East Asian calligraphy
+
+        - Japanese calligraphy
+
+        
+
+        - SÅ« ShÃ¬ è‹�èœŒ
+
+        
+
+        - WÃ¡ng XÄ«zhÄ« çŽ‹çŸ²ä¹‹
+
+        
+
+        - Yan Zhenqing
+
+        
+
+    
+
+    
+
+        - Economic crisis of 2008
+
+        - Global financial crisis of Septemberâ€“October 2008
+
+        
+
+    
+
+    
+
+    - Edinburgh
+
+    
+
+    - EncyclopÃ©die ou Dictionnaire raisonnÃ© des sciences, des arts et des mÃ©tiers
+
+    
+
+    - Florence
+
+    
+
+    - FrÃ©dÃ©ric Bastiat
+
+    
+
+    - George Orwell
+
+    
+
+        - Google Earth
+
+        - Algeria on Google Earth
+
+        
+
+        - Argentina
+
+        
+
+        - Australia on Google Earth
+
+        
+
+        - Austria
+
+        
+
+        - Belgium on Google Earth
+
+        
+
+        - Brazil on Google Earth
+
+        
+
+        - Brunei on Google Earth
+
+        
+
+        - Bulgaria on Google Earth
+
+        
+
+        - Cambodia
+
+        
+
+        - Canada on Google Earth
+
+        
+
+        - China on Google Earth
+
+        
+
+        - Colombia on Google Earth
+
+        
+
+        - Costa Rica on Google Earth
+
+        
+
+        - Croatia on Google Earth
+
+        
+
+        - Czech Republic on Google Earth
+
+        
+
+        - CÃŽte d'Ivoire on Google Earth
+
+        
+
+        - Denmark on Google Earth
+
+        
+
+        - Egypt on Google Earth
+
+        
+
+        - Estonia on Google Earth
+
+        
+
+        - Finland on Google Earth
+
+        
+
+        - France on Google Earth
+
+        
+
+        - Germany on Google Earth
+
+        
+
+        - Ghana on Google Earth
+
+        
+
+        - Greece on Google Earth
+
+        
+
+        - Hungary on Google Earth
+
+        
+
+        - Iceland on Google Earth
+
+        
+
+        - India on Google Earth
+
+        
+
+        - Indonesia on Google Earth
+
+        
+
+        - Iran on Google Earth
+
+        
+
+        - Ireland on Google Earth
+
+        
+
+        - Israel on Google Earth
+
+        
+
+        - Italy on Google Earth
+
+        
+
+        - Japan on Google Earth
+
+        
+
+        - Jordan on Google Earth
+
+        
+
+        - Kazakhstan on Google Earth
+
+        
+
+        - Malaysia on Google Earth
+
+        
+
+        - Mexico on Google Earth
+
+        
+
+        - Morocco on Google Earth
+
+        
+
+        - Netherlands on Google Earth
+
+        
+
+        - New Zealand on Google Earth
+
+        
+
+        - Nigeria in Google Earth
+
+        
+
+        - Norway on Google Earth
+
+        
+
+        - Pakistan on Google Earth
+
+        
+
+        - Peru in Google Earth
+
+        
+
+        - Philippines on Google Earth
+
+        
+
+        - Poland on Google Earth
+
+        
+
+        - Portugal on Google Earth
+
+        
+
+        - Romania on Google Earth
+
+        
+
+        - Russia on Google Earth
+
+        
+
+        - Serbia on Google Earth
+
+        
+
+        - Singapore on Google Earth
+
+        
+
+        - Slovenia on Google Earth
+
+        
+
+        - South Korea on Google Earth
+
+        
+
+        - Spain on Google Earth
+
+        
+
+        - Sweden on Google Earth
+
+        
+
+        - Switzerland on Google Earth
+
+        
+
+        - Taiwan on Google Earth
+
+        
+
+        - Thailand on Google Earth
+
+        
+
+        - Turkey on Google Earth
+
+        
+
+        - UK on Google Earth
+
+        
+
+        - United Arab Emirates on Google Earth
+
+        
+
+        - USA on Google Earth + maps
+
+        
+
+        - Vietnam on Google Earth + maps
+
+        
+
+    
+
+    
+
+    - Google Street View
+
+    
+
+    - Goulag / Gulag / Ð“Ð£Ð›Ð�Ð“
+
+    
+
+    - History of Photography
+
+    
+
+        - India
+
+        - Indian Navy
+
+        
+
+        - Kama Sutra
+
+        
+
+        - Sino-Indian War
+
+        
+
+    
+
+    
+
+        - Internet
+
+        - History of the Internet
+
+        
+
+    
+
+    
+
+    - iPad 2
+
+    
+
+    - iPod Touch
+
+    
+
+    - Italian Renaissance
+
+    
+
+        - Japan
+
+        - Cinema of Japan
+
+        
+
+        - History of Japan
+
+        
+
+        - Imperial Japanese Navy
+
+        
+
+        - Japanese cuisine
+
+        
+
+        - Japanese painting
+
+        
+
+        - Pornography in Japan
+
+        
+
+        - Samurai
+
+        
+
+        - ShichirÅ� Fukazawa æ·±æ³œäžƒéƒŽ
+
+        
+
+        - Ukiyo-e
+
+        
+
+    
+
+    
+
+    - Katyn massacre
+
+    
+
+    - Korean War
+
+    
+
+    - Kuala Lumpur
+
+    
+
+    - Le Livre noir du communisme / The Black Book of Communism: Crimes, Terror, Repression
+
+    
+
+    - List of countries by GDP (nominal)
+
+    
+
+    - List of statues by height
+
+    
+
+    - Lists of countries with rankings and world maps
+
+    
+
+        - LiÃšge åˆ—æ—¥
+
+        - LiÃšge (texte franÃ§ais)
+
+        
+
+    
+
+    
+
+    - London
+
+    
+
+    - Madrid
+
+    
+
+    - Manila
+
+    
+
+    - Melbourne
+
+    
+
+    - Milan
+
+    
+
+    - Modern art
+
+    
+
+    - Moscow
+
+    
+
+        - My Music A-B
+
+        - Diá»…m LiÃªn
+
+        
+
+        - Faye Wong çŽ‹è�²
+
+        
+
+        - HÃ©lÃšne Grimaud
+
+        
+
+        - Há»“ HoÃ ng Yáº¿n
+
+        
+
+        - Há»“ Ngá»�c HÃ  èƒ¡çŽ‰è�·
+
+        
+
+        - KhÃ¡nh Ly
+
+        
+
+        - LÃª UyÃªn
+
+        
+
+        - Martha Argerich
+
+        
+
+        - Má»¹ TÃ¢m
+
+        
+
+        - Na Ying é‚£è‹±
+
+        
+
+        - Twelve Girls Band å¥³å­�å��äºŒä¹�å�Š
+
+        
+
+        - Ã� Lan
+
+        
+
+        - Ä�áº·ng ThÃ¡i SÆ¡n
+
+        
+
+        - Ä�á»©c Tuáº¥n
+
+        
+
+    
+
+    
+
+        - Navy
+
+        - Aircraft carrier
+
+        
+
+    
+
+    
+
+    - New Delhi
+
+    
+
+        - Overseas Vietnamese / Viá»‡t kiá»�u
+
+        - NgÆ°á»�i Kinh äº¬æ—� / The Jing
+
+        
+
+        - Vietnamese American
+
+        
+
+        - Vietnamese Australian / NgÆ°á»�i Ãšc gá»‘c Viá»‡t
+
+        
+
+        - Vietnamese Canadian
+
+        
+
+        - Vietnamese Norwegian
+
+        
+
+        - Vietnamese people in Bulgaria
+
+        
+
+        - Vietnamese people in France
+
+        
+
+        - Vietnamese people in Germany
+
+        
+
+        - Vietnamese people in Russia
+
+        
+
+        - Vietnamese people in Taiwan / NgÆ°á»�i Viá»‡t táº¡i Ä�Ã i
+        Loan
+
+        
+
+        - Vietnamese people in the Czech Republic
+
+        
+
+        - Vietnamese people in the United Kingdom
+
+        
+
+    
+
+    
+
+    - Prison Break
+
+    
+
+    - Quantum of Solace
+
+    
+
+    - Sandro Botticelli
+
+    
+
+    - Seoul
+
+    
+
+    - Serial killer
+
+    
+
+    - Singapore
+
+    
+
+    - Sydney
+
+    
+
+    - Tank
+
+    
+
+    - Tea èŒ¶
+
+    
+
+        - Tourism
+
+        - Australia travel guide
+
+        
+
+        - Canada travel guide
+
+        
+
+        - China travel guide
+
+        
+
+        - France travel guide
+
+        
+
+        - Italy travel guide
+
+        
+
+        - Japan travel guide
+
+        
+
+        - Singapore travel guide
+
+        
+
+        - Thailand travel guide
+
+        
+
+        - United Kingdom travel guide
+
+        
+
+        - United States of America travel guide
+
+        
+
+        - Vietnam travel guide
+
+        
+
+        - World Tourism rankings
+
+        
+
+    
+
+    
+
+    - United Kingdom
+
+    
+
+        - United States
+
+        - Atlanta
+
+        
+
+        - Austin, Texas
+
+        
+
+        - Barack Obama
+
+        
+
+        - Bernard Madoff
+
+        
+
+        - Boston
+
+        
+
+        - Chicago
+
+        
+
+        - Culture of the United States
+
+        
+
+        - Dallas
+
+        
+
+        - History of the United States
+
+        
+
+        - Houston
+
+        
+
+        - Iraq War
+
+        
+
+        - Los Angeles
+
+        
+
+        - Marilyn Monroe in Life
+
+        
+
+        - New York City
+
+        
+
+        - Portland, Oregon
+
+        
+
+        - Public image of George W. Bush
+
+        
+
+        - San Diego
+
+        
+
+        - San Francisco
+
+        
+
+        - War in Afghanistan (2001â€“present)
+
+        
+
+        - Washington, D.C.
+
+        
+
+    
+
+    
+
+    - Varlam Shalamov / Ð’Ð°Ñ€Ð»Ð°ÐŒ
+    Ð¢ÐžÑ…ÐŸÐœÐŸÐ²ÐžÑ‡ ÐšÐ°Ð»Ð°ÐŒÐŸÐ²
+
+    
+
+        - Vietnam
+
+        - Atlas of Vietnam
+
+        
+
+        - Culture of Vietnam
+
+        
+
+        - Da Nang
+
+        
+
+        - DÆ°Æ¡ng Thu HÆ°Æ¡ng
+
+        
+
+        - Gá»‘m BÃ¡t TrÃ ng
+
+        
+
+        - Hanoi
+
+        
+
+        - History of Vietnam
+
+        
+
+        - HoÃ ng ThÃ¹y Linh
+
+        
+
+        - Human rights in Vietnam
+
+        
+
+        - Pháº¡m VÄƒn Ä�á»“ng å�–å›œèŽŒ
+
+        
+
+        - Saigon
+
+        
+
+        - ThÃ¡i thÃº å€ªå®ˆ
+
+        
+
+        - Tráº­n mÆ°a á»Ÿ miá»�n Báº¯c vÃ  miá»�n Trung Viá»‡t
+        Nam 2008 / 2008 Vietnam floods
+
+        
+
+        - Vietnam maps
+
+        
+
+        - Vietnamese cuisine
+
+        
+
+        - Vung Tau
+
+        
+
+        - VÅ© ThÆ° HiÃªn / BÃ¹i TÃ­n
+
+        
+
+        - Váº¥n Ä‘á»� lÃ£nh thá»• biÃªn giá»›i Viá»‡t Nam -
+        Trung Quá»‘c
+
+        
+
+        - Ä�áº·ng-VÅ© KhiÃªu
+
+        
+
+    
+
+    
+
+    - Vietnam in Google Maps
+
+    
+
+    - Wolfgang Amadeus Mozart
+
+    
+
+        - World's largest urban agglomerations
+
+        - List of metropolitan areas by population
+
+        
+
+    
+
+    
+
+    - Sitemap
+
+    
+
+Google Earth â€Ž > â€Ž USA on Google Earth + maps â€Ž > â€Ž
+
+Fort Collins, Colorado on Google Earth
+
+
+
+Image: http://docs.google.com/File?id=dfrj55h8_1350fgngmsgb_b
+
+City of Fort Collins
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Larimer_County_Colorado_Incorporated_and_Unincorporated_areas_Fort_Collins_Highlighted.svg/250px-Larimer_County_Colorado_Incorporated_and_Unincorporated_areas_Fort_Collins_Highlighted.svg.png
+Location of Fort Collins shown within theÂ  State of Colorado Coordinates:Â 
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Erioll_world.svg/18px-Erioll_world.svg.png
+40Â°33â€²33â€³N Â  105Â°4â€²41â€³W Country
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png
+Â  United States State
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_of_Colorado.svg/22px-Flag_of_Colorado.svg.png
+Â  State of Colorado County Larimer County Seat [ 1 ] Commissioned 1864 Incorporated
+February 12 ,Â  1883 [ 2 ] Named for U.S. Army Â  Colonel Â  William O. Collins Government
+Â -Â Type Home Rule Municipality [ 1 ] Â -Â Mayor Doug Hutchinson
+Â -Â MayorÂ  pro tem Kelly Ohlson Â -Â City Manager Darin Atteberry Area
+Â -Â Total 47.1Â sqÂ miÂ (122.1Â km 2 ) Â -Â Land
+46.5Â sqÂ miÂ (120.5Â km 2 ) Â - Water 0.6Â sqÂ miÂ (1.6Â km 2 )
+Â 1.27% Elevation 5,003Â ft (1,525Â m) Population Â ( 2000 ) Â -Â Total
+118,652 Â -Â  Density 2,549.3/sqÂ miÂ (984.4/km 2 ) Time zone MST Â ( UTC-7 )
+Â -Â SummerÂ ( DST ) MDT Â ( UTC-6 ) ZIP Codes [ 3 ] 80521-80528, 80553 Area code 970
+FIPS code 08-27425 GNIS Â feature ID 0204673 Highways I-25 ,Â  US 287 ,Â  SH 1 ,Â  SH 14
+Website City of Fort Collins
+
+Ft. Collins Aerial View Fifth most populous Colorado city
+
+Fort Collins Â is aÂ  Home Rule Municipality Â situated on theÂ  Cache La Poudre
+River Â along theÂ  Colorado Front Range , and is theÂ  county seat Â and most
+populous city ofÂ  Larimer County ,Â  Colorado , United States . [ 4 ] Â Fort Collins is
+located 57Â miles (92Â km)Â  north Â of theÂ  Colorado State Capitol
+Â inÂ  Denver .Â 
+
+With an estimated 2008 population of 136,509, it is theÂ  fifth most populous city Â in
+Colorado. [ 5 ] Â Fort Collins is a large college town, home toÂ  Colorado State
+University . It was namedÂ  Money Â magazine's Best Place to Live 2006 and #2 in 2008. [ 6 ]
+
+History
+
+
+
+Fort Collins was founded as a military outpost of theÂ  United States Army Â in 1864. It
+succeeded a previous encampment, known asÂ  Camp Collins , on theÂ  Cache La Poudre River
+, near present-dayÂ  Laporte . Camp Collins was erected during the Indian wars of the
+mid-1860s to protect the Overland mail route that had been recently relocated through the
+region. Travelers crossing the county on theÂ  Overland Trail Â would camp there, but a
+flood destroyed the camp in June 1864. [ 7 ] Â 
+
+Afterward, the commander of the fort wrote to the commandant of Fort Laramie in southeast
+Wyoming, Colonel William O. Collins, suggesting that a site several miles further down the
+Poudre would make a good location for the fort. The post was manned originally by two companies
+of the 11th Ohio Volunteer Cavalry and never had walls. [ 8 ]
+
+
+
+Settlers began arriving in the vicinity of the fort nearly immediately. The fort was
+decommissioned in 1867. The original fort site is now adjacent to the present historic "Old
+Town" portion of the city. The first school and church opened in 1866, and the town was platted
+in 1867. The civilian population of Fort Collins, led by local businessman Joseph Mason, led
+an effort to relocate the county seat to Fort Collins from LaPorte, and they were successful in
+1868. [ 8 ]
+
+The city's first population boom came in 1872, with the establishment of an agricultural
+colony. Hundreds of settlers arrived, developing lots just south of the original Old Town.
+Tension between new settlers and earlier inhabitants led to political divisions in the new
+town, which was incorporated in 1873. The first classes at the new state agricultural college
+were held in 1870. [ 9 ]
+
+The 1880s saw the construction of a number of elegant homes and commercial buildings and the
+growth of a distinctive identity for Fort Collins. Stone quarrying, sugar beet farming, and
+the slaughter of sheep were among the area's earliest industries. Beet tops, an industry
+supported by the College and its associated agricultural experiment station, proved to be an
+excellent and abundant food for local sheep, [ 10 ] Â and by the early 1900s the area was being
+referred to as the "Lamb feeding capital of the world." In 1901 the Great Western sugar
+processing plant was built in the neighboring city of Loveland. [ 11 ]
+
+
+
+Although the city was affected by theÂ  Great Depression Â and simultaneous drought, [
+12 ] Â it nevertheless experienced slow and steady growth throughout the early part of the
+twentieth century. [ 13 ] During the decade following World War II, the population doubled and
+an era of economic prosperity occurred. Old buildings were razed to make way for new, modern
+structures. Along with revitalization came many changes, including the closing of the Great
+Western sugar factory in 1955, and a new city charter, adopting aÂ  council-manager
+Â form of government in 1954. [ 14 ]
+
+Similarly, Colorado State University's enrollment doubled during the 1960s, [ 15 ]
+Â making it the city's primary economic force by the end of the century. Fort Collins gained
+a reputation as a very conservative city in the twentieth century, with a prohibition of
+alcoholic beverages, a contentious political issue in the town's early decades, [ 16 ]
+Â being retained from the late 1890s until student activism helped bring it to an end in
+1969. [ 15 ] Â During that same period, civil rights activism and anti-war disturbances
+heightened tensions in the city, including the burning of several buildings on the CSU
+campus. [ 17 ]
+
+During the late 20th century, Fort Collins expanded rapidly to the south, adding new
+development, including several regional malls. [ 17 ] Â Management of city growth
+patterns became a political priority during the 1980s, as well as the revitalization of Fort
+Collins' Old Town with the creation of a Downtown Development Authority. [ 18 ]
+
+
+
+In 2006,Â  Money Â ranked Fort Collins as the best place to live in America, [ 19 ]
+Â proclaiming that "great schools, low crime, good jobs in a high-tech economy and a
+fantastic outdoor life make Fort Collins No. 1." Fort Collins continues to grow in population
+at a measured pace, with competition from other development in northern Colorado, debate
+over future growth patterns andÂ  town and gown Â relations emerging as dominant local
+issues in the early 21st century.
+
+In the spring of 2008, several scenes from the comedy filmÂ  The Overbrook Brothers
+Â were shot in the city and surrounding areas.
+
+For more information on local history see theÂ  Fort Collins Museum and Discovery Science
+Center 's local historical archives. [ 20 ]
+
+Geography and climate
+
+
+
+Fort Collins is located atÂ 
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Erioll_world.svg/18px-Erioll_world.svg.png
+40Â°33â€²33â€³N Â  105Â°4â€²41â€³W Â (40.559238,
+-105.078302). [ 21 ] Â The city is situated just east of the Rocky Mountain foothills of the
+Northern Front Range approximately 65Â miles (105Â km) north of Denver, Colorado and
+45Â miles (72Â km) south of Cheyenne, Wyoming. Elevation is 5,003Â ft (or 1,524 m)
+above sea level. Prominent geographic landmarks include Horsetooth Reservoir and
+Horsetooth Mountainâ€”so named because of a tooth shaped granite rock that dominates
+the city's western skyline.
+
+According to theÂ  United States Census Bureau , the city has a total area of 47.1Â square
+miles (122.1Â kmÂ²), of which, 46.5Â square miles (120.5Â kmÂ²) of it is land
+and 0.6Â square miles (1.6Â kmÂ²) of it (1.27%) is water.
+
+The city experiences about 296 days of sunshine per year and 22 days with 90Â° + weather. The
+average temperature in July is 71.2Â°. Annual snowfall averages 57.4Â inches
+(1.46Â m), and the snow generally melts within a few days. Average precipitation overall
+is about 15Â inches. TheÂ  Cache La Poudre River Â andÂ  Spring Creek (Colorado)
+Â run through Fort Collins. [ hide ] Weather data for Fort Collins, Colorado Month Jan Feb
+Mar Apr May Jun Jul Aug Sep Oct Nov Dec Year Average high Â°F (Â°C) 40
+
+(4) 43
+
+(6) 50
+
+(10) 60
+
+(15) 68
+
+(20) 79
+
+(26) 84
+
+(28) 83
+
+(28) 76
+
+(24) 64
+
+(17) 51
+
+(10) 42
+
+(5) 62
+
+(16) Average low Â°F (Â°C) 12
+
+(-11) 15
+
+(-9) 22
+
+(-5) 32
+
+(0) 41
+
+(5) 49
+
+(9) 55
+
+(12) 53
+
+(11) 44
+
+(6) 33
+
+(0) 22
+
+(-5) 14
+
+(-10) 33
+
+(0) Precipitation Â inches (cm) 0.4
+
+(1) 0.6
+
+(1) 1.0
+
+(2) 2.0
+
+(5) 2.9
+
+(7) 1.7
+
+(4) 1.5
+
+(3) 1.4
+
+(3) 1.2
+
+(3) 1.1
+
+(2) 0.5
+
+(1) 0.5
+
+(1) 14.7
+
+(37) Source: Weatherbase [ 22 ] Â February 2007
+
+Demographics
+
+Historical populations Census Pop. Â %Â± 1880 1,356 â€” 1890 2,011 48.3 % 1900
+3,053 51.8 % 1910 8,210 168.9 % 1920 8,755 6.6 % 1930 11,489 31.2 % 1940 12,251 6.6 % 1950 14,937
+21.9 % 1960 25,027 67.6 % 1970 43,337 73.2 % 1980 65,092 50.2 % 1990 87,758 34.8 % 2000 118,652
+35.2 %
+
+Fort Collins is theÂ  fifth most populous city Â in theÂ  State of Colorado Â and
+theÂ  185th most populous city Â in the United States. TheÂ  United States Census
+Bureau Â estimates that in 2005 the population of the City of Fort Collins was 128,026 (
+185th most populous U.S. city ), [ 23 ] Â the population of theÂ  Fort Collins-Loveland
+Metropolitan Statistical Area Â was 271,927 ( 163rd most populous MSA ), [ 24 ] Â and the
+population of theÂ  Front Range Urban Corridor Â was 4,013,055. [ 24 ]
+
+As of theÂ  census [ 25 ] Â of 2000, there were 118,652 people, 45,882 households, and
+25,785 families residing in the city. This was an increase from 108,905 in 1998, 87,491 in
+1990, 64,092 in 1980, 43,337 in 1970, 14,937 in 1950, and 8,755 in 1920. The metropolitan
+statistical area (MSA) includesÂ  Loveland . When this city is included, the population
+increases to 251,494 for 2000. TheÂ  population density Â was 2,549.3 people per square
+mile (984.4/kmÂ²). There were 47,755 housing units at an average density of
+1,026.0/sqÂ mi (396.2/kmÂ²). The racial makeup of the city was 82.4%Â  White ,
+3.01%Â  Black Â orÂ  African American , 0.60%Â  Native American , 2.48%Â  Asian ,
+0.12%Â  Pacific Islander , 3.61% fromÂ  other races , and 2.53% from two or more races.
+10.79% of the population wereÂ  Hispanic Â orÂ  Latino Â of any race.
+
+In 2000, there were 45,882 households out of which 29.0% had children under the age of 18 living
+with them, 44.9% wereÂ  married couples Â living together, 7.9% had a female
+householder with no husband present, and 43.8% were non-families. 26.0% of all households
+were made up of individuals and 5.9% had someone living alone who was 65 years of age or older.
+The average household size was 2.45 and the average family size was 3.01.
+
+In the city the population was spread out with 21.5% under the age of 18, 22.1% from 18 to 24,
+31.5% from 25 to 44, 17.0% from 45 to 64, and 7.9% who were 65 years of age or older. The median age
+was 28 years. For every 100 females there were 100.9 males. For every 100 females age 18 and
+over, there were 99.7 males.
+
+The median income for a household in the city was $44,459, and the median income for a family was
+$59,332. Males had a median income of $40,856 versus $28,385 for females. TheÂ  per capita
+income Â for the city was $22,133. About 5.5% of families and 14.0% of the population were
+below theÂ  poverty line , including 8.3% of those under age 18 and 5.8% of those age 65 or
+over.
+
+Law and government
+
+City Council: [ 26 ] Mayor Doug Hutchinson District 1 Ben Manvel District 2 Lisa Poppaw
+District 3 Aislinn Kottwitz District 4 Wade Troxell District 5 Kelly Ohlson,
+
+MayorÂ  Pro Tem District 6 David Roy
+
+Fort Collins has aÂ  council-manager Â form of government. The mayor, who serves a
+two-year term and stands for election in municipal elections held in April of odd-numbered
+years, presides over a seven member City Council. The current mayor of Fort Collins isÂ 
+Doug Hutchinson , first elected in April 2005. The six remaining council members are elected
+from districts for staggered four-year terms; even-numbered districts are up for election
+in April 2007 and odd-numbered districts in April 2009.
+
+Fort Collins is the largest city in Colorado's predominantly rural 4th Congressional
+district, and is represented in Congress by RepresentativeÂ  Betsy Markey
+Â (Democrat). On the state level, the city lies in the 14th district of theÂ  Colorado
+Senate , represented byÂ  Bob Bacon Â and is split between the 52nd and 53rd districts of
+theÂ  Colorado House of Representatives , represented byÂ  John Kefalas Â andÂ 
+Randy Fischer , respectively. All three of Fort Collins' state legislators are Democrats.
+Fort Collins is additionally the county seat ofÂ  Larimer County , and houses county
+offices and courts.
+
+Culture
+
+
+
+Much of Fort Collins' culture is centered on the students ofÂ  Colorado State University .
+Driven by a large college-age demographic, the city has a thriving local music circuit, and is
+home to a number of well-recognized microbreweries. Old Town, a historic downtown shopping
+district, hosts a number of large festivals each year. For example, the New West Fest occurs in
+late summer, featuring local cuisine, music, and businesses. TheÂ  Fort Collins Lincoln
+Center Â is home to the Fort Collins Symphony Orchestra and regularly attracts national
+touring companies of Broadway plays.
+
+There is a thriving beer culture in the city. There are three microbreweries, theÂ  New
+Belgium Brewing Company , theÂ  Odell Brewing Company , and theÂ  Fort Collins Brewery .
+New Belgium is the largest of the local craft-breweries, with national distribution from
+California to states east of the Mississippi. The largest brewery in the world,Â 
+Anheuser-Busch , also has a brewery in the city. There are several brewpubs, including the
+original C.B. & Potts Restaurant and its Big Horn Brewery and Cooper Smith's Pub & Brewing, a
+local mainstay since 1989. TheÂ  Colorado Brewer's Festival Â is held in late June
+annually in Fort Collins. The outdoor event is held in Fort Collins' old town area and features
+beers from as many as 45 brewers from the state of Colorado and averages around 30,000
+attendees.
+
+TheÂ  Colorado Marathon Â is a yearly event running down the Poudre Valley and finishing
+in the Old Town district of Fort Collins.
+
+The principal venue for the performing arts in Fort Collins isÂ  Lincoln Center , 417 W.
+Magnolia St., at Meldrum Street. Built in 1978, the center includes the 1,180-seat
+Performance Hall and the 220-seat Mini-Theatre, as well as four exhibit galleries and an
+outdoor sculpture and performance garden. It is home to many local arts groups, including the
+Fort Collins Symphony, Opera Fort Collins, Canyon Concert Ballet, Larimer Chorale, Youth
+Orchestra of the Rockies,Â  OpenStage Theatre and Company [1] , Foothills Pops Band and the
+Fort Collins Childrenâ€™s Theatre.Â 
+
+Concert, dance, childrenâ€™s, and travel film series are presented annually. The
+center is wheelchair accessible and has an infrared sound system for the hearing impaired.
+Ticket prices vary considerably, but childrenâ€™s programs are often free or less than
+$10, and big name acts and Broadway shows are $18 to $36. The center hosts nearly 1,750 events
+each year.
+
+TheÂ  Fort Collins Museum , established in 1941, is a regional center focusing on the
+culture and history of Fort Collins and the surrounding area. The Fort Collins Museum houses
+over 30,000 artifacts and features temporary and permanent exhibits, on-going educational
+programs and events, and is home to four historic structures located in the outdoor Heritage
+Courtyard.
+
+Fort Collins is home to many activities including the Fort Collins Catz, aÂ  Professional
+Inline Hockey Association Â member.
+
+Communications
+
+
+
+One daily newspaper theÂ  Fort Collins Coloradoan Â is published in the city. Several
+niche publications including theÂ  Fort Collins Courier Â andÂ  Fossil Creek
+Current Â are distributed for free at local businesses and byÂ  mail . TheÂ  Rocky
+Mountain Collegian Â is Colorado State University's student newspaper, and is published
+each weekday during the fall and spring semesters. TheÂ  Collegian Â is the only daily
+student-run newspaper in the state, and includes a weekly entertainment tabloid calledÂ 
+The Verve .
+
+Scene Magazine Â is a long-time entertainment monthly serving several regional cities.
+Swift Newspapers introducedÂ  NEXTnc , a Northern Colorado weekly entertainment and
+lifestyles newspaper in March 2006.Â  Rocky Mountain Parent Magazine Â andÂ  Parent
+Pages Â are niche publications serving Fort Collins among other northern Colorado
+community families.
+
+Colorado State University funds a student-run radio station that focuses on underground and
+local music,Â  KCSU 90.5 FM . Public Radio for the Front Range operates a volunteer-based
+radio station,Â  KRFC 88.9 FM .
+
+One local television station provides coverage of Fort Collins and the surrounding area,
+NoCo Channel 5Â  [2] , a CBS affliate. City Cable 14 is the local government access channel,
+and broadcasts city and county meetings, as well as studio-produced local programming.
+Poudre School District and Colorado State University each have public access stations as
+well. There is also a Fort Collins Public Access Network (PAN) station, Channel 97 on Comcast,
+which broadcast 24 hours a day.
+
+Education
+
+
+
+K-12 public education is provided throughÂ  Poudre School District Â (PSD), the
+second-largest employer in Fort Collins after Colorado State University. Fort Collins is
+home to four major high schools and several charter schools with Junior High and High School
+grades. They includeÂ  Fort Collins High School ,Â  Rocky Mountain High School ,Â 
+Poudre High School ,Â  Fossil Ridge High School , Centennial High School, Polaris School
+for Expeditionary Learning Outward Bound, Ridgeview Classical Schools, and Liberty Common
+School.
+
+The Poudre School District is also home to eleven middle schools. Among the list are Kinard
+Core Knowledge Middle School and Liberty Common School, which are the only middle schools in
+the district offering the core knowledge curriculum, Mountain View, a small alternative
+middle school, and Lesher IB World School, offering the International Baccalaureate (IB)
+program.
+
+PSD is home to thirty-two elementary schools. The elementary schools range from
+neighborhood schools, specialized schools, core knowledge programs and the IB program.
+Among the schools housing the core knowledge program are Moore Core Knowledge, O'Dea Core
+Knowledge, Traut Core Knowledge and Zach Core Knowledge. Bennett IB World School, Dunn IB
+World School and McGraw IB World School house the IB program. In addition, PSD is home to a
+bilingual educational experience at Harris Bilingual. Other schools with an entrance
+selection include the Lab School and Traut Core Knowledge. The newest elementary school is
+Bethke, a Core Knowledge school in Timnath, that started in the fall of 2008.
+
+The city has a number of private and charter schools. T.R. Paul Academy of Arts and Knowledge is
+a charter school formerly known as Northern Colorado Academy of Arts and Knowledge.Â 
+Heritage Christian Academy Â (formerly known as Heritage Christian School) is a private,
+preK-12 school with a Christian worldview.
+
+Colorado State University Â heads up the choices in higher education. Front Range
+Community College also maintains a campus in the city, and grantsÂ  Associate's degrees
+Â in arts, science, general studies, and applied science. The college offers 17 high
+school vocational programs and more than 90 continuing education classes. Additionally,
+the University of Phoenix and Regis also maintain satellite campuses here.
+
+The Fort Collins Public Library was established in 1900, the sixth public library in the
+state. The library formed a regional library district through a ballot measure in 2006. It has
+been renamed, Poudre River Public Library DistrictÂ  [3] . The Main Library is located in
+Old Town, with a second branch shared with Front Range Community College, the Harmony
+Library. A third branch, Council Tree Library, opened in March 2009 in the Front Range Village
+Shopping Center. The library also participates in innovative cooperative projects with the
+local school district and Colorado State University.
+
+Fort Collins has a range of research institutes. Facilities are maintained by the Centers for
+Disease Control Division of Vector-Born Infectious Diseases, the Center for Advanced
+Technology and the Colorado Water Resource Research Institute. Other facilities include
+the Cooperative Institute for Research in the Atmosphere, [ 27 ] Â the Institute for
+Scientific Computing, the U.S. Forest Service Experimental Station, the National Seed
+Storage Laboratory, and theÂ  U.S.D.A. Â Crops Research Laboratory.
+
+Economy
+
+
+
+Major industries and commercial activity
+
+
+
+Fort Collins' economy has a mix of manufacturing and service-related businesses. Each year,
+Fort Collins generates 11.45 patents per 10,000 people, nearly four times the U.S. city
+average.Â Fort Collins has a strong manufacturing base; it is home to such firms asÂ 
+Hewlett Packard ,Â  Woodward Governor , andÂ  Anheuser-Busch .Â 
+
+Many high-tech companies have relocated to Fort Collins because of the resources of Colorado
+State University and its research facilities.Â  Intel ,Â  AMD ,Â  Avago ,Â  Beckman
+Coulter ,Â  National Semiconductor ,Â  LSI , and Pelco all have offices in Fort Collins.
+Other strong industries Â  include clean energy, bioscience, and agri-tech businesses.
+
+    The largest employers of Fort Collins residents at the turn of the century were the
+    following: [ 28 ]
+
+    1 - Colorado State University Â (6,948 employees)
+
+    
+
+    2 - Hewlett Packard Â (3,182)
+
+    
+
+    3 - Poudre Valley Health System Â (3,020)
+
+    
+
+    4 - Poudre School District Â (3,014)
+
+    
+
+    5 - Agilent Â (2,800)
+
+    
+
+    6 - City ofÂ  Fort Collins, CO Â (1,864)
+
+    
+
+    7 - Eastman Kodak Â (1,700)
+
+    
+
+    8 - Larimer County Â (1,467)
+
+    
+
+    9 - Avago Technologies Â (1,200)
+
+    
+
+    10 - McKee Medical Center Â (950)
+
+    
+
+    11 - Walmart Â (909)
+
+    
+
+    12 - City ofÂ  Loveland, CO Â (890)
+
+    
+
+    13 - Advanced Energy Â (825)
+
+    
+
+    14 - Anheuser-Busch Â (760)
+
+    
+
+    15 - Center Partners Â (700)
+
+    
+
+    16 - Woodward Governor Company Â (650)
+
+    
+
+    17 - Teledyne Water Pik Â (585)
+
+    
+
+    18 - LSI Corporation Â (341)
+
+    
+
+    19 - AMD Â (200)
+
+    
+
+
+
+Regional economic development partners include the City of Fort Collins Economic Health
+OfficeÂ  [4] , Northern Colorado Economic Development CorporationÂ  [5] , Small
+Business Development CenterÂ  [6] , and Rocky Mountain Innovation Initiative (RMI2) [7] .
+
+Small businesses, entrepreneurship
+
+
+
+Fort Collins is also home to many small businesses and entrepreneurial ventures. The Fort
+Collins/Larimer Small Business Development Center has been a strong contributing force
+Â  in helping small businesses in the area get started and become profitable. Another
+factor in the entrepreneurial climate of Fort Collins is Colorado State University's
+College of Business and its Entrepreneurship Center, which has spawned such ventures as
+Optibrand, a unique method of tracking livestock with retinal scans, and Revolution Donuts,
+a donut/pastry shop with a new approach - late night hours in addition to the usual morning
+hours.
+
+The Rocky Mountain Innovation Initiative (RMI2) helps northern Colorado entrepreneurs
+turn great ideas into great businesses. They connect startup businesses with the resources
+they need to turn their innovations into successful enterprises [8] .
+
+Items and goods produced
+
+
+
+Pharmaceuticals, electronic components and accessories, aircraft and parts, scientific
+instruments, measuring and controlling instruments, radio and TV equipment, industrial
+chemicals, engines, turbines, machinery, and communications equipment. Clean energy
+technology is also produced in Fort Collins, including Smart Grid technology, biofuels, and
+solar technology. [ 29 ]
+
+Local incentive programs
+
+
+
+The City of Fort Collins has established an economic development policy that allows the
+rebate of use taxes paid by qualifying firms on qualifying equipment. On a case-by-case
+basis, the county will consider negotiating financial incentives, giving up to a 50 percent
+credit towards a company's personal property tax liability for up to four years.
+
+The Northern Colorado Economic Development Corporation [9] Â supports existing
+employers and recruits new ones to the city and region. It assists local companies to grow and
+expand and, in partnership with Colorado State University, encourages technology transfer
+to nurture local start-up companies. Fort Collins can negotiate with individual taxpayers
+who have qualifying new business facilities an incentive payment equal to not more than the
+amount of the increase in property tax liability over pre-enterprise zone levels; and a
+refund of local sales taxes on purchases of equipment, machinery tools, or supplies used in
+the taxpayer's business in the Enterprise Zone.
+
+Innovative Programs
+
+
+
+FortZED [10] is growing to be the worldâ€™s largest zero energy district. The FortZED
+area encompasses the Downtown area of Fort Collins and the main campus of Colorado State
+University.
+
+FortZED is a set of active projects and initiatives, created by public-private
+partnerships, which utilize Smart Grid and renewable energy technologies to achieve local
+power generation and energy demand management. Federal, State, and local funding are making
+the project a reality. The U.S. Department of Energy has contributed $6.3 million, the
+Colorado Department of Local Affairs has contributed $778,000 while locally, private
+companies and foundations have contributed nearly $8 million. Learn more [11]
+
+Mason Corridor [12] is a five mile north-south byway with bus rapid transit within the city of
+Fort Collins which extends from Cherry Street on the north to south of Harmony Road. The
+corridor is centered along the Burlington Northern Santa Fe Railway property, located a few
+hundred feet west of College Avenue (US 287).
+
+Mason Corridor and the Mason Express or MAX, will provide the framework for future economic
+development and serve as the foundation to encourage community partnerships, private
+investment, active living, and attractive, urban lifestyles. The Mason Corridor is a
+fundamental connection between the City, Colorado State University, and local business and
+neighborhoods. Mason Corridor was recognized as a top â€œSmall Startsâ€� project
+in 2007 by the Federal Transit Authority. $11.18 million in Federal funding to support Mason
+Corridor development is in the Presidentâ€™s FY2009 budget.
+
+UniverCity Connections [13] Â focuses on three of Fort Collinsâ€™ community
+assets: Colorado State University, Downtown, and the Poudre River. UniverCity Connections
+is an initiative of the Community Foundation of Northern Colorado [14] Â and serves as a
+think tank for community vision and a neutral convener that creates community connections
+necessary for ideas to evolve into positive change.
+
+Transportation
+
+
+
+Allegiant Air [ 30 ] Â offers regular passenger airplane service into the nearbyÂ  Fort
+Collins / Loveland Airport .Â  Denver International Airport , which is 70Â miles
+(110Â km) to the south, is served by nearly twenty airlines. Fort Collins can be approached
+from Denver by car viaÂ  Interstate 25 .
+
+Fort Collins' downtown streets form a grid with Interstate 25 running north and south on the
+east side of the city.Â  U.S. Highway 287 Â becomes College Avenue inside the city and is
+the busiest street; It runs north and south, effectively bisecting the city.
+
+TheÂ  city bus Â  system , known as Transfort, [ 31 ] Â operates more than a dozen routes
+throughout Fort Collins Monday through Saturday, except major holidays.
+
+Taxi service is provided 24 hours a day by Shamrock Yellow Cab. [ 32 ]
+
+Bicycling is a popular and viable means of transportation in Fort Collins. Just about the only
+place you canâ€™t rideÂ is a 3.8-mile section of College Avenue (Highway 287)
+between Harmony Road and Laurel Street (however riding on the adjacent sidewalk is not
+prohibited by state law). There are more than 280Â miles (450Â km) of designated
+bikeways in Fort Collins, including on street designated bike lanes, and the Spring Creek and
+Poudre River Trails, both paved. Thereâ€™s also a dirt trail, the 5.8-mile (9.3Â km)
+Foothills Trail, parallel to Horsetooth Reservoir from Dixon Reservoir north to Campeau
+Open Space and Michaud Lane.
+
+The Fort Collins Bicycle Library lends bicycles to visitors, students, and residents
+looking to explore the City of Fort Collins. There are self guided tours from the "Bike the
+Sites" collection, including a Brewery Tour, Environmental Learning Tour, and the Historic
+Tour. The Bike Library is centrally located in the heart of downtown Fort Collins in Old Town
+Square. Look for the Cafe Bicyclette [15] !
+
+Fort Collins also once had aÂ  trolley service Â with three branches from the
+intersection of Mountain and College Avenues. It was torn out after ceasing to be profitable
+in 1951. Currently, the Mountain Avenue branch has been reconstructed and provides weekend
+and holiday service.
+
+Commercial shipping
+
+
+
+Parcel service for Fort Collins is provided byÂ  FedEx ,Â  Airport Express ,Â  DHL
+,Â  Burlington Air Express ,Â  Emery ,Â  UPS ,Â  Pony Express , andÂ  Purolator .
+Fort Collins has two-day rail freight access to the West Coast or the East Coast and has eight
+motor freight carriers. Many local industrial sites have rail freightÂ  spur service . The
+city is served by Union Pacific and Burlington Northern Santa Fe railroads.
+
+    Facilities
+
+    - NIST Â  time signal Â transmittersÂ  WWV Â andÂ  WWVB .
+
+    
+
+    - Poudre Valley Hospital Â has helped make Fort Collins into a regional health care
+    center.
+
+    
+
+    - The National Center for Genetic Resources Preservation (NCGRP)(Human Genome
+    Project)
+
+    
+
+    - The city is the headquarters ofÂ  Roosevelt National Forest .
+
+    
+
+    - Atmospheric Chemistry and Aerosol Laboratory
+
+    
+
+    - Center For Disease Control: Vectorbourne Illness Laboratory
+
+    
+
+    - USDA Seed Lab Storage
+
+    
+
+    - Headquarters for SCUBA Schools International (SSI)
+
+    
+
+
+
+References
+
+    
+
+    1 - ^Â  a Â  b Â  " Active Colorado Municipalities ".Â  State of Colorado ,
+    Department of Local Affairs . Retrieved 2007-09-01 .
+
+    
+
+    2 - ^ Â  " Colorado Municipal Incorporations ".Â  State of Colorado , Department of
+    Personnel & Administration, Colorado State Archives.Â  2004 - 12-01 . Retrieved
+    2007-09-02 .
+
+    
+
+    3 - ^ Â  " ZIP Code Lookup " ( JavaScript / HTML ).Â  United States Postal Service .
+    Retrieved September 16 2007 .
+
+    
+
+    4 - ^ Â  " Find a County ". National Association of Counties . Retrieved 2008-01-31 .
+
+    
+
+    5 - ^ Â  " Subcounty population estimates: Colorado 2000-2006 " ( CSV ).Â  United
+    States Census Bureau , Population Division.Â  2007 - 06-28 . Retrieved 2008-05-28 .
+
+    
+
+    6 - ^ Â  " MONEY Magazine's Best Places to Live ".Â  MONEY . Retrieved 2007-04-24 .
+
+    
+
+    7 - ^ Â  " Flooding Timeline in Fort Collins " . Retrieved 2007-09-28 .
+
+    
+
+    8 - ^Â  a Â  b Â  " Fort Collins Time Line 1860 ".Â  Fort Collins Local History
+    Archive . Retrieved 2007-03-24 .
+
+    
+
+    9 - ^ Â  " History of Colorado State University " . Retrieved 2007-05-12 .
+
+    
+
+    10 - ^ Â  " Fort Collins Time Line 1890 ".Â  Fort Collins Local History Archive .
+    Retrieved 2007-03-24 .
+
+    
+
+    11 - ^ Â  " Fort Collins Time Line 1900 ".Â  Fort Collins Local History Archive .
+    Retrieved 2007-03-24 .
+
+    
+
+    12 - ^ Â  " Fort Collins Time Line 1930 ".Â  Fort Collins Local History Archive .
+    Retrieved 2007-03-24 .
+
+    
+
+    13 - ^ Â  " Fort Collins Time Line 1940 ".Â  Fort Collins Local History Archive .
+    Retrieved 2007-03-24 .
+
+    
+
+    14 - ^ Â  " Fort Collins Time Line 1950 ".Â  Fort Collins Local History Archive .
+    Retrieved 2007-03-24 .
+
+    
+
+    15 - ^Â  a Â  b Â  " Fort Collins Time Line 1960 ".Â  Fort Collins Local History
+    Archive . Retrieved 2007-03-24 .
+
+    
+
+    16 - ^ Â  " Fort Collins Time Line 1880 ".Â  Fort Collins Local History Archive .
+    Retrieved 2007-03-24 .
+
+    
+
+    17 - ^Â  a Â  b Â  " Fort Collins Time Line 1970 ".Â  Fort Collins Local History
+    Archive . Retrieved 2007-03-24 .
+
+    
+
+    18 - ^ Â  " Fort Collins Time Line 1980 ".Â  Fort Collins Local History Archive .
+    Retrieved 2007-03-24 .
+
+    
+
+    19 - ^ Â  " Best Places to Live 2006 ". Money Magazine. July 2006 . Retrieved 2006-12-15 .
+
+    
+
+    20 - ^ Â  Fort Collins Local History Archives:Â  Museum and Library Partnership
+
+    
+
+    21 - ^ Â  " US Gazetteer files: 2000 and 1990 ".Â  United States Census Bureau .
+    2005-05-03 . Retrieved 2008-01-31 .
+
+    
+
+    22 - ^ Â  " Weatherbase: Historical Weather for Fort Collins, United States of America
+    ". Weatherbase. 2007 . Retrieved 2007-02-04 .
+
+    
+
+    23 - ^ Â  " Table 1: Annual Estimates of the Population for Incorporated Places Over
+    100,000, Ranked by July 1, 2005 Population: April 1, 2000 to July 1, 2005 " ( CSV ).Â  2005
+    Population Estimates . U.S. Census Bureau, Population Division.Â  June 20 ,Â  2006
+    . Retrieved December 13 2006 .
+
+    
+
+    24 - ^Â  a Â  b Â  " Rankings for Metropolitan Statistical Areas: April 1, 2000 to
+    July 1, 2005 " ( CSV ).Â  2005 Population Estimates . U.S. Census Bureau, Population
+    Division.Â  June 21 ,Â  2006 . Retrieved December 13 2006 .
+
+    
+
+    25 - ^ Â  " American FactFinder ".Â  United States Census Bureau . Retrieved
+    2008-01-31 .
+
+    
+
+    26 - ^ Â  " Home page for city council ".Â  City of Fort Collins . Retrieved 2007-08-18 .
+
+    
+
+    27 - ^ Â  Cooperative Institute for Research in the Atmosphere
+
+    
+
+    28 - ^ Â  Northern Colorado Economic Development Corporation
+
+    
+
+    29 - ^ Â  Cities of the United States . Vol. 2. 6th ed. (Detroit: Gale, 2009). p 274.
+
+    
+
+    30 - ^ Â  Allegiant Air Â Official site.
+
+    
+
+    31 - ^ Â  Transfort Â Official site.
+
+    
+
+    32 - ^ Â  Ride Shamrock Yellow Cab Â Official site.
+
+    
+
+
+
+External links
+
+
+
+
+
+
+
+    
+
+        - City of Fort Collins website
+
+        - CDOT map of the City of Fort Collins
+
+        
+
+    
+
+    
+
+    - Fort Collins Nightlife
+
+    
+
+    - *Â  NEXTnc weekly entertainment newspaper
+
+    
+
+    - Fort Collins Now - News, Entertainment from Fort Collins, CO
+
+    
+
+    - Downtown Business Association: Old Town information and Events
+
+    
+
+    - The Rocky Mountain Collegian
+
+    
+
+    - Fort Collins Coloradoan
+
+    
+
+    - Fort Collins community gateway site
+
+    
+
+    - Colorado State University
+
+    
+
+    - Fort Collins Website Directory
+
+    
+
+    - Fort Collins Municipal Railway
+
+    
+
+    - Fort Collins Aerial - including fun 'easter eggs' Â (this has been online for several
+    years and is still higher resolution than Google Maps, TerraServer, Mapquest and
+    others)
+
+    
+
+    
+
+    - Fort Collins, Colorado is at coordinatesÂ 
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Erioll_world.svg/18px-Erioll_world.svg.png
+    40.559238Â°N 105.078302Â°W
+
+    
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/0/09/Downtown_Fort_Collins_Colorado.jpg
+Downtown "Old Town" Fort Collins
+
+
+
+Image: http://www.aboutftcollins.com/100_0142.jpg
+
+Image: http://fc.thompson.k12.co.us/~tvband/csubandday04.jpg
+
+
+
+Image: http://www.agsci.colostate.edu/images/ftc_arieal.jpg
+
+
+
+Image:
+http://www.coloradoindependent.com/wp-content/uploads/2008/09/csu-oval-011.jpg
+
+Image:
+http://www.sherribarber.com/wp-content/uploads/2009/02/tapestry-house-laporte-colorado.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/3/36/Fort_Collins%2C_Colorado_%2819th_Century%29.jpg
+Nineteenth-century bird's-eye view of Fort Collins.
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/d/d4/Poudre_Valley_Bank%2C_Fort_Collins%2C_Colorado.jpg
+Poudre Valley Bank, now Nature's Own at Linden and Walnut, Fort Collins, Colorado (1908)
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/1/18/Fort_Collins%2C_1875.jpg Fort
+Collins, facing west (1875)
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/5/5a/Fort_Collins_Brewfest_2004.jpg
+
+The 2004 Colorado Brewers Festival in Fort Collins
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Image: http://upload.wikimedia.org/wikipedia/en/d/d5/FRHSnew.JPG Fossil Ridge High
+School. This state-of-the-art 290,000-square-foot building is LEED certified and has a
+capacity for 1,800 students.
+
+
+
+Image: http://www.gdargaud.net/Photo/640/ThunderStrike.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Image: http://www.livegreensd.com/uploaded_images/brewery-786347.jpg
+
+Image: http://www.fcchamber.org/images/hi_res_jpg/IMG0038.jpg
+
+Image:
+http://i137.photobucket.com/albums/q222/sinaloa1943/winter_sunsetFortCollins.jpg?t=1257035553
+
+Image: http://historictype.com/imagesdatabase/large/55.jpg
+
+Image: http://felixwong.com/gallery2/images/fort_collins0905a.jpg
+
+Image: http://www.portlandground.com/downtown/2006-03-19RossDressLess091.jpg
+
+Image:
+http://i137.photobucket.com/albums/q222/sinaloa1943/FortCollinsOldTown.jpg?t=1257036377
+
+Image: http://i137.photobucket.com/albums/q222/sinaloa1943/FortCollinsnevado.jpg
+
+Image:
+http://i137.photobucket.com/albums/q222/sinaloa1943/JusticeCenter-FortCollins.jpg
+
+Image:
+http://www.fccyclingfest.com/wp-content/gallery/old-town-fort-collins/fort%20collins%20colorado-02.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Comments
+
+Sign in | Report Abuse | Print Page | Remove Access | Powered By Google Sites
+window.jstiming.load.tick('sjl'); window.jstiming.load.tick('jl');
+sites.Searchbox.initialize( 'sites-searchbox-search-button', true,
+{"object":[]}['object'], 'search-site', {"label":"Configure search
+options...","url":"/site/chinhdangvu/system/app/pages/admin/appearance/pageElements"});
+gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown',
+false); JOT_setupNav("36025064438581467", "Navigation", true);
+JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange',
+'COMP_36025064438581467'); new
+sites.CommentPane('//docs.google.com/comments/d/AAHRpnXuLB3OTFb-t8_y-6GSB51Yn9o50NS9XYT4bFtAIFTJt0Z-btyzQiXS7IJ5u9nF33fJOzhoJxt4cP1OTyz4ZY2HC_XGOSMV3zRrvYtAg1QUNKMYMjXx4q-oBnCZaP30L2PQ6Bfg4/api/js?anon=true',
+true, true, false, false); setTimeout(function() { var fingerprint =
+gsites.date.TimeZone.getFingerprint([]);
+gsites.Xhr.send('https://sites.google.com/site/chinhdangvu/_/tz', null, null,
+'GET', null, null, { afjstz: fingerprint }); }, 500); window.onload = function() { if (false)
+{ JOT_setMobilePreview(); } var loadTimer = window.jstiming.load;
+loadTimer.tick("ol"); loadTimer["name"] = "load," + webspace.page.type;
+window.jstiming.report(loadTimer, {}, 'https://gg.google.com/csi'); }
+JOT_insertAnalyticsCode(false); var maestroRunner = new
+gsites.pages.view.SitesMaestroRunner( webspace, "en");
+maestroRunner.initListeners(); maestroRunner.installEditRender(); //<![CDATA[ //
+Decorate any fastUI buttons on the page with a class of 'goog-button'. if
+(webspace.user.hasWriteAccess) { JOT_decorateButtons(); } // Fires delayed events.
+(function() { JOT_fullyLoaded = true; var delayedEvents = JOT_delayedEvents; for (var x = 0;
+x < delayedEvents.length; x++) { var event = delayedEvents[x];
+JOT_postEvent(event.eventName, event.eventSrc, event.payload); } JOT_delayedEvents =
+null; JOT_postEvent('pageLoaded'); })(); //]]> JOT_postEvent('decorateGvizCharts');
+sites.util.Plus.go('sites-chrome-main'); window.jstiming.load.tick('render');
+

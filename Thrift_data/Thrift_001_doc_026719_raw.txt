@@ -1,0 +1,5636 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Art Blog By Bob: Turning Men Into Boys <!-- /*
+----------------------------------------------- Blogger Template Style Name: Minima
+Date: 26 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff"> <Variable name="textcolor" description="Text Color"
+type="color" default="#333"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#58a"> <Variable name="pagetitlecolor" description="Blog Title
+Color" type="color" default="#666"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#999"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#c60">
+<Variable name="bordercolor" description="Border Color" type="color" default="#ccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#999"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#999"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% Georgia, Serif"> <Variable
+name="headerfont" description="Sidebar Title Font" type="font" default="normal normal
+78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable
+name="pagetitlefont" description="Blog Title Font" type="font" default="normal normal
+200% Georgia, Serif"> <Variable name="descriptionfont" description="Blog Description
+Font" type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="postfooterfont" description="Post Footer Font"
+type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="startSide" description="Side where text starts in blog
+language" type="automatic" default="left"> <Variable name="endSide"
+description="Side where text ends in blog language" type="automatic" default="right"> */
+/* Use this with templates/template-twocol.html */ body { background:#ffffff; margin:0;
+color:#333333; font:x-small Georgia Serif; font-size/* */:/**/small; font-size:
+/**/small; text-align: center; } a:link { color:#5588aa; text-decoration:none; }
+a:visited { color:#999999; text-decoration:none; } a:hover { color:#cc6600;
+text-decoration:underline; } a img { border-width:0; } /* Header
+----------------------------------------------- */ #header-wrapper { width:660px;
+margin:0 auto 10px; border:1px solid #cccccc; } #header-inner { background-position:
+center; margin-left: auto; margin-right: auto; } #header { margin: 5px; border: 1px solid
+#cccccc; text-align: center; color:#666666; } #header h1 { margin:5px 5px 0; padding:15px
+20px .25em; line-height:1.2em; text-transform:uppercase; letter-spacing:.2em; font:
+normal normal 200% Georgia, Serif; } #header a { color:#666666; text-decoration:none; }
+#header a:hover { color:#666666; } #header .description { margin:0 5px 5px; padding:0 20px
+15px; max-width:700px; text-transform:uppercase; letter-spacing:.2em; line-height:
+1.4em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+color: #999999; } #header img { margin-left: auto; margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 660px;
+margin:0 auto; padding:10px; text-align:left; font: normal normal 100% Georgia, Serif; }
+#main-wrapper { width: 410px; float: left; word-wrap: break-word; /* fix for long text
+breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE
+sidebar float */ } #sidebar-wrapper { width: 220px; float: right; word-wrap: break-word; /*
+fix for long text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text
+content breaking IE sidebar float */ } /* Headings
+----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+font:normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.2em; color:#999999; }
+/* Posts ----------------------------------------------- */ h2.date-header {
+margin:1.5em 0 .5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #cccccc;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#cc6600; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#cc6600;
+font-weight:normal; } .post h3 strong, .post h3 a:hover { color:#333333; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#999999; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; line-height: 1.4em; } .comment-link { margin-left:.6em; } .post img,
+table.tr-caption-container { padding:4px; border:1px solid #cccccc; }
+.tr-caption-container img { border: none; padding: 0; } .post blockquote { margin:1em 20px;
+} .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #999999; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+#blog-pager-newer-link { float: left; } #blog-pager-older-link { float: right; }
+#blog-pager { text-align: center; } .feed-links { clear: both; line-height: 2.5em; } /*
+Sidebar Content ----------------------------------------------- */ .sidebar { color:
+#666666; line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; }
+.sidebar li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #cccccc; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #cccccc; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; color: #999999; font-weight: bold; line-height: 1.6em; } .profile-datablock
+{ margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:660px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0751706678653651301316\46blogName\75Art+Blog+By+Bob\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://artblogbybob.blogspot.com/search\46blogLocale\75en_US\46v\0752\46homepageUrl\75http://artblogbybob.blogspot.com/\46targetPostID\758178745052024600930\46blogPostOrPageUrl\75http://artblogbybob.blogspot.com/2007/10/turning-men-into-boys.html\46vt\0757360835247388715662',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Art Blog By Bob
+
+
+
+"To me there is no past or future in art. The art of the great painters who lived in other times is
+not an art of the past; perhaps it is more alive today than it ever was." --Pablo Picasso
+
+Wednesday, October 3, 2007
+
+
+
+
+
+
+
+Turning Men Into Boys
+
+
+
+Image:
+http://1.bp.blogspot.com/_ESC4bygtp2M/RwObfFTX7RI/AAAAAAAABjM/lsYUAVZTkiE/s400/Baseball+Playoffs+Brett+Myers.jpg
+
+My beloved Philadelphia Phillies will begin their drive to the baseball World Series today
+after one of the greatest comebacks in the history of baseball . Phillies pitcher Brett Myers
+celebrates in the photo above in a strange Frankenstein-like pose, his glove freshly flung up
+into the air after he struck out the last batter to seal the deal. Myers awkward pose made me
+think of all the other iconic baseball playoffs pictures throughout history that I’ve
+loved. They all have one element in common—grown men looking and acting like little boys.
+
+
+
+
+
+
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_ESC4bygtp2M/RwObbFTX7QI/AAAAAAAABjE/tLpSS9Ovxro/s400/Baseball+Playoffs+Don+Larsen+1956+WS+no-hitter.jpg
+
+In 1956, New York Yankees pitcher Don Larsen pitched the only perfect game in the history of the
+World Series. Above, catcher Yogi Berra flings himself into Larsen’s arms unreservedly.
+Larsen reportedly pitched the game with a massive hangover, so if his legs seem a little
+wobbly, there you go. Here’s a perfect picture of the passion that baseball could engender
+in the players and fans in the heyday of the 1950s. The Phillies recent ascent, matched with the
+New York Mets precipitous decline, gave us a taste of those days, at least for a short while,
+here in the Philadelphia area. People were actively following a sports team for the first time
+in a long while, giving us something to think about other than the troubles around the world, at
+least for a short time.
+
+
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_ESC4bygtp2M/RwObX1TX7PI/AAAAAAAABi8/XCMx-pBhq4k/s400/Baseball+Playoffs+Carlton+Fisk+1975+World+Series+Homerun.jpg
+
+Boston Red Sox catcher Carlton Fisk stars in my favorite all-time World Series photo, hoping
+and praying that his fly ball stays fair, which it did, winning the penultimate game of the 1975
+World Series, perhaps the greatest World Series ever. The Cincinnati Reds won the next game
+and the series, but most baseball fans just remember Fisk’s body English, hopping and
+jumping like a little boy.
+
+
+
+
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_ESC4bygtp2M/RwObTlTX7OI/AAAAAAAABi0/mM0G8T_cBbo/s400/Baseball+Playoffs+McGraw+and+Schmidt.jpg
+
+Of course, the Phillies own 1980 championship remains indelibly marked on the consciousness
+of any Philadelphian of a certain age. Tug McGraw registered the final out and Mike Schmidt
+came swooping in, hoping to become part of the picture. I prefer the picture above, which shows
+both of them in the moment of victory, leaping unashamedly in the air. Even Schmidt, whose
+frustratingly unemotional style of play kept him from becoming a fan favorite despite being
+the greatest player ever to wear the uniform, can’t help acting like a little boy.
+McGraw’s leap lives on in Philadelphians’ memories so strongly that, when old Veterans
+Stadium , the site of that victory, was closed forever, McGraw and other players returned to
+re-live those moments. McGraw, dying from a brain tumor, walked out to the mound, made his
+pitching motion, and then leapt again, barely getting his feat off the ground in his
+condition. He didn’t have to get very high, since once you leap like that into the soul of the
+child within you, you always look like this:
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_ESC4bygtp2M/RwObP1TX7NI/AAAAAAAABis/lUT0kwW_6ZY/s400/Baseball+Playoffs+Tug+McGraw+1980+Phillies.jpg
+Posted by
+
+
+
+Bob at
+
+
+
+6:37 AM
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Baseball ,
+Children and Art , Photography
+
+No comments:
+
+    
+
+
+
+Post a Comment
+
+
+
+
+
+Newer Post Older Post Home Subscribe to: Post Comments (Atom)
+
+"Woven Light" by David Livewell
+
+WOVEN LIGHT: Poems and Photographs from Andrew Wyeth's Pennsylvania by David Livewell
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Come Follow Me Over at Big Think's "Picture This" Blog
+
+    
+
+    - Click Here for Picture This!
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Interview With the Blogger
+
+    
+
+    - With Abbeville Press
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Getting Personal
+
+    
+
+    - Art Blog by Bob now on Facebook
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Who I Write Like...
+
+
+
+Image: http://s.iwl.me/w.png I write like
+
+David Foster Wallace
+
+I Write Like by MÃ©moires, Mac journal software . Analyze your writing!
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Site Meter
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+For Those Feeling Generous...
+
+    
+
+    - Amazon Wish List
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Suggested Sites
+
+    
+
+    - Art in the Picture
+
+    
+
+    - Bright Diamond Jewelry
+
+    
+
+    - Conquest Graphics
+
+    
+
+    - Postcard Printing
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Survey of Famous Paintings
+
+
+
+Image:
+http://1.bp.blogspot.com/_ESC4bygtp2M/Sqrc5PhASDI/AAAAAAAAILc/pB6a3d3qEpk/S220/box_small.jpg
+
+What famous paintings are discussed most often in art history books? Which famous painters
+created these masterpieces? Masterpiece Cards explore major Renaissance paintings to
+modern ones, offering art analysis and vital statistics about each. Details? Click the box.
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Artists I Like...
+
+Van Gogh
+
+Da Vinci
+
+Andy Warhol
+
+Man Ray
+
+El Greco
+
+Gustav Klimt
+
+Georgia O'Keeffe
+
+Paul Klee
+
+Pablo Picasso
+
+Claude Monet
+
+Diego Rivera
+
+Edward Hopper
+
+Henri Matisse
+
+Frida Kahlo
+
+Salvador Dali
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Woodbury Fine Art Portraits
+
+
+
+Image:
+http://1.bp.blogspot.com/_ESC4bygtp2M/SbhoUc5BS-I/AAAAAAAAHek/2t0onYtFCjA/S220/DSCF1332.jpg
+
+Custom oil portraits or drawings from photographs. Philadelphia-area portrait artist is
+available for custom renderings in oil or pencil. Preserve your family members in a lasting
+work of art. All it takes is a photograph. For more information and pricing, please contact
+Dave at dwell123 “at” verizon.net. Click on the portrait above to go to
+http://woodburyfineartportraits.blogspot.com/
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Philly Area Art on the Internet
+
+    
+
+    - Artblog: Roberta Fallon and Libby Rosof
+
+    
+
+    - ArtJaw: Stories From the Philly Art Life
+
+    
+
+    - Brandywine River Museum (Chadds Ford, PA)
+
+    
+
+    - Institute of Contemporary Art at the University of Pennsylvania
+
+    
+
+    - LaSalle University Art Museum
+
+    
+
+    - Pennsylvania Academy of the Fine Arts
+
+    
+
+    - Philadelphia Mural Arts Program
+
+    
+
+    - Philadelphia Museum of Art
+
+    
+
+    - Philadelphia Public Art
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Art on the Internet
+
+    
+
+    - 24 Hour Museum
+
+    
+
+    - Abbeville Manual of Style
+
+    
+
+    - Aestetic Grounds: Public Art/Public Space
+
+    
+
+    - Alla Prima
+
+    
+
+    - Arf Lovers: The Unholy Marriage of Art + Comics
+
+    
+
+    - Art and Perception
+
+    
+
+    - Art and the Bible: Art Inspired by Stories in the Bible
+
+    
+
+    - Art Career
+
+    
+
+    - Art Forum
+
+    
+
+    - Art Forums
+
+    
+
+    - Art History Blog
+
+    
+
+    - Art History Newsletter
+
+    
+
+    - Art History Today
+
+    
+
+    - Art Inquirer
+
+    
+
+    - Art Knowledge News
+
+    
+
+    - Art Newspaper
+
+    
+
+    - Art Observed
+
+    
+
+    - Art Tribune
+
+    
+
+    - Art World Salon
+
+    
+
+    - Artcyclopedia
+
+    
+
+    - ArtDaily.org: The First Art Newspaper on the Net
+
+    
+
+    - ARTiculations (Smithsonian Magazine)
+
+    
+
+    - ArtInfo
+
+    
+
+    - ArtLex: Art Dictionary
+
+    
+
+    - Artopia: John Perreault's Art Diary
+
+    
+
+    - Bearded Roman
+
+    
+
+    - Ceci n'est pas une pipe by Bruxelles
+
+    
+
+    - Comics Journal, The
+
+    
+
+    - Comics Reporter
+
+    
+
+    - Copernicus Films
+
+    
+
+    - Dark Matter Magazine: A Glimpse Into the Mind of the Artist
+
+    
+
+    - Derek McCrae Watercolors
+
+    
+
+    - Dictionary of Art Historians
+
+    
+
+    - Discover Islamic Art
+
+    
+
+    - Edward Winkleman: Art, Politics, Gossip, Tough Love
+
+    
+
+    - Everyday Lives of the French Impressionists
+
+    
+
+    - Eye Level
+
+    
+
+    - Guardian (UK) Art Blogs
+
+    
+
+    - Guerilla Girls
+
+    
+
+    - Iconia: Wherever Faith Meets Art
+
+    
+
+    - Illicit Cultural Property
+
+    
+
+    - James Maybe
+
+    
+
+    - Japonisme by Lotusgreen
+
+    
+
+    - Joanne Mattera Art Blog
+
+    
+
+    - Looking Around (Richard Lacayo, TIME Magazine)
+
+    
+
+    - MadSilence
+
+    
+
+    - Modern Art Notes: Tyler Green's Modern & Contemporary Art Blog
+
+    
+
+    - Museum of Comic and Cartoon Art
+
+    
+
+    - Museum Syndicate
+
+    
+
+    - Nineteenth-Century Art Worldwide: A Journal of Nineteenth-Century Visual Culture
+
+    
+
+    - Pablo Picasso Club
+
+    
+
+    - Robert Edsel's Blog [on WWII art theft]
+
+    
+
+    - smARThistory
+
+    
+
+    - Stained Glass Photography
+
+    
+
+    - Tate, Etc. [Tate Museums' Online Magazine]
+
+    
+
+    - Tattoos and Art
+
+    
+
+    - Thinking About Art
+
+    
+
+    - Tim Paul's Museum Hours (NY area museum reviews)
+
+    
+
+    - Tracing Vincent (all things Van Gogh)
+
+    
+
+    - Van Gogh's Chair
+
+    
+
+    - Web Gallery of Art
+
+    
+
+    - Your Daily Art
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Other Random Interests
+
+    
+
+    - Amateur Gourmet
+
+    
+
+    - Baseball Card Blog [Memories of Wasted Youth]
+
+    
+
+    - Beerleaguer [Phillies Baseball]
+
+    
+
+    - Bibliothecary: A Blog of Literary Endeavour
+
+    
+
+    - Bill Moyers' Journal Blog
+
+    
+
+    - Cursor [Internet News Digest]
+
+    
+
+    - Daily Kos [Politics]
+
+    
+
+    - Did You Know?
+
+    
+
+    - Eschaton [aka, Atrios; Politics]
+
+    
+
+    - Hullabaloo [aka, Digby; Politics]
+
+    
+
+    - Mental Floss
+
+    
+
+    - Mobile Lifestyle (backpacking through Europe)
+
+    
+
+    - New Yorker Magazine
+
+    
+
+    - Paul Krugman's Blog at the NY Times
+
+    
+
+    - PurpleCar [creative writing]
+
+    
+
+    - Run the Day [Philadelphia Area Running]
+
+    
+
+    - Runner's World Magazine
+
+    
+
+    - Tales of a Rookie Schoolteacher
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+How Nerdy Are You?
+
+
+
+Image: http://www.nerdtests.com/images/badge/298abce970285439.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2012 (98)
+
+        - ►  October (1)
+
+        
+
+        
+
+        - ►  September (12)
+
+        
+
+        
+
+        - ►  August (9)
+
+        
+
+        
+
+        - ►  July (9)
+
+        
+
+        
+
+        - ►  June (10)
+
+        
+
+        
+
+        - ►  May (12)
+
+        
+
+        
+
+        - ►  April (11)
+
+        
+
+        
+
+        - ►  March (11)
+
+        
+
+        
+
+        - ►  February (12)
+
+        
+
+        
+
+        - ►  January (11)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (150)
+
+        - ►  December (13)
+
+        
+
+        
+
+        - ►  November (11)
+
+        
+
+        
+
+        - ►  October (10)
+
+        
+
+        
+
+        - ►  September (14)
+
+        
+
+        
+
+        - ►  August (13)
+
+        
+
+        
+
+        - ►  July (11)
+
+        
+
+        
+
+        - ►  June (12)
+
+        
+
+        
+
+        - ►  May (12)
+
+        
+
+        
+
+        - ►  April (11)
+
+        
+
+        
+
+        - ►  March (15)
+
+        
+
+        
+
+        - ►  February (12)
+
+        
+
+        
+
+        - ►  January (16)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (175)
+
+        - ►  December (16)
+
+        
+
+        
+
+        - ►  November (14)
+
+        
+
+        
+
+        - ►  October (15)
+
+        
+
+        
+
+        - ►  September (14)
+
+        
+
+        
+
+        - ►  August (15)
+
+        
+
+        
+
+        - ►  July (15)
+
+        
+
+        
+
+        - ►  June (16)
+
+        
+
+        
+
+        - ►  May (16)
+
+        
+
+        
+
+        - ►  April (7)
+
+        
+
+        
+
+        - ►  March (16)
+
+        
+
+        
+
+        - ►  February (14)
+
+        
+
+        
+
+        - ►  January (17)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (159)
+
+        - ►  December (1)
+
+        
+
+        
+
+        - ►  September (1)
+
+        
+
+        
+
+        - ►  August (8)
+
+        
+
+        
+
+        - ►  July (10)
+
+        
+
+        
+
+        - ►  June (21)
+
+        
+
+        
+
+        - ►  May (22)
+
+        
+
+        
+
+        - ►  April (22)
+
+        
+
+        
+
+        - ►  March (27)
+
+        
+
+        
+
+        - ►  February (25)
+
+        
+
+        
+
+        - ►  January (22)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2008 (428)
+
+        - ►  December (22)
+
+        
+
+        
+
+        - ►  November (33)
+
+        
+
+        
+
+        - ►  October (39)
+
+        
+
+        
+
+        - ►  September (37)
+
+        
+
+        
+
+        - ►  August (28)
+
+        
+
+        
+
+        - ►  July (39)
+
+        
+
+        
+
+        - ►  June (38)
+
+        
+
+        
+
+        - ►  May (38)
+
+        
+
+        
+
+        - ►  April (37)
+
+        
+
+        
+
+        - ►  March (37)
+
+        
+
+        
+
+        - ►  February (39)
+
+        
+
+        
+
+        - ►  January (41)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2007 (441)
+
+        - ►  December (30)
+
+        
+
+        
+
+        - ►  November (44)
+
+        
+
+        
+
+            - ▼  October (49)
+
+            - Happy Halloween
+
+            
+
+            - Passing Judgment
+
+            
+
+            - In a Mysterious Light
+
+            
+
+            - Women’s Work
+
+            
+
+            - Sun and Fog
+
+            
+
+            - Born With a Scream
+
+            
+
+            - Image Duplicator
+
+            
+
+            - Old Man River
+
+            
+
+            - Living Daylights
+
+            
+
+            - The Proteus of Painting
+
+            
+
+            - His Foolish Heart
+
+            
+
+            - It Takes a Thief
+
+            
+
+            - Filling the Gap
+
+            
+
+            - Faces in the Crowd
+
+            
+
+            - Monumental Builder
+
+            
+
+            - Passing the Torch
+
+            
+
+            - In the Beginning
+
+            
+
+            - Golden Age Comics
+
+            
+
+            - Dynamism and Continuity
+
+            
+
+            - And Did Those Feet…
+
+            
+
+            - The Canals of Venice
+
+            
+
+            - Frida for Sale
+
+            
+
+            - Art Allies
+
+            
+
+            - Light My Fire
+
+            
+
+            - Painting Impossibilities
+
+            
+
+            - The Sun King
+
+            
+
+            - To France and Back
+
+            
+
+            - Soul of a Museum
+
+            
+
+            - Transatlantic
+
+            
+
+            - Game and Match
+
+            
+
+            - On With the Show
+
+            
+
+            - The Destruction of Paradise
+
+            
+
+            - The Thin Man
+
+            
+
+            - The Uses of Enchantment
+
+            
+
+            - Pose and Repose
+
+            
+
+            - A New Wave
+
+            
+
+            - Wide Open Spaces
+
+            
+
+            - The Power of the Press
+
+            
+
+            - The Student Becomes the Teacher
+
+            
+
+            - Painting the Myth
+
+            
+
+            - Subtle Gleanings
+
+            
+
+            - Turning Men Into Boys
+
+            
+
+            - An Open Window
+
+            
+
+            - Sneak Peaks
+
+            
+
+            - A Well-Rounded Artist
+
+            
+
+            - Misappropriation
+
+            
+
+            - Back to School
+
+            
+
+            - Orgaz-mic
+
+            
+
+            - Blondes and Brunettes
+
+            
+
+        
+
+        
+
+        
+
+        - ►  September (47)
+
+        
+
+        
+
+        - ►  August (52)
+
+        
+
+        
+
+        - ►  July (43)
+
+        
+
+        
+
+        - ►  June (51)
+
+        
+
+        
+
+        - ►  May (49)
+
+        
+
+        
+
+        - ►  April (49)
+
+        
+
+        
+
+        - ►  March (27)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Labels
+
+    
+
+    - Abramovic (Marina) (9)
+
+    
+
+    - Abts (Tomma) (2)
+
+    
+
+    - Adams (Ansel) (5)
+
+    
+
+    - Adams (Neal) (6)
+
+    
+
+    - Adorno (Theodore) (1)
+
+    
+
+    - African-American Art (24)
+
+    
+
+    - Ai Weiwei (5)
+
+    
+
+    - Albers (Joseph) (2)
+
+    
+
+    - Alberti (Leon Battista) (1)
+
+    
+
+    - Alex (45)
+
+    
+
+    - Alexander (John White) (1)
+
+    
+
+    - Allora (Jennifer) (1)
+
+    
+
+    - Alys (Francis) (2)
+
+    
+
+    - Ancient Art (32)
+
+    
+
+    - Anderson (Laurie) (2)
+
+    
+
+    - Andre (Carl) (1)
+
+    
+
+    - Annigoni (Pietro) (1)
+
+    
+
+    - Anshutz (Thomas) (4)
+
+    
+
+    - Antin (Eleanor) (1)
+
+    
+
+    - Apollinaire (Guilaume) (4)
+
+    
+
+    - Archipenko (Alexander) (1)
+
+    
+
+    - Architecture (13)
+
+    
+
+    - Arcimboldo (Giuseppe) (2)
+
+    
+
+    - Arp (Jean or Hans) (4)
+
+    
+
+    - Art Contest By Bob (7)
+
+    
+
+    - Art Education (2)
+
+    
+
+    - Art Film Review by Bob (32)
+
+    
+
+    - Art Poll By Bob (30)
+
+    
+
+    - Art Sales (17)
+
+    
+
+    - Assler (Federico) (1)
+
+    
+
+    - Atget (Eugene) (2)
+
+    
+
+    - Audubon (John James) (2)
+
+    
+
+    - Auerbach (Frank) (2)
+
+    
+
+    - Avedon (Richard) (1)
+
+    
+
+    - Baciccio (2)
+
+    
+
+    - Bacon (Francis) (23)
+
+    
+
+    - Baldessari (John) (1)
+
+    
+
+    - Balka (Miroslaw) (1)
+
+    
+
+    - Balla (Giacomo) (3)
+
+    
+
+    - Balmes (Jose) (1)
+
+    
+
+    - Balthus (3)
+
+    
+
+    - Bandinelli (Baccio) (5)
+
+    
+
+    - Banksy (6)
+
+    
+
+    - Barnes (Albert) (19)
+
+    
+
+    - Barnes Foundation (21)
+
+    
+
+    - Barney (Matthew) (1)
+
+    
+
+    - Barrios (Gracia) (1)
+
+    
+
+    - Bartlett (Bo) (3)
+
+    
+
+    - Bartolini (Lorenzo) (1)
+
+    
+
+    - Base (San) (1)
+
+    
+
+    - Baseball (16)
+
+    
+
+    - Baselitz (George) (3)
+
+    
+
+    - Baskin (Leonard) (3)
+
+    
+
+    - Basquiat (Jean-Michel) (5)
+
+    
+
+    - Bastien-Lepage (Jules) (1)
+
+    
+
+    - Batoni (Pompeo) (1)
+
+    
+
+    - Bauer (Rudolf) (1)
+
+    
+
+    - Bayeux Tapestry (1)
+
+    
+
+    - Bazille (Frederic) (1)
+
+    
+
+    - Baziotes (William) (1)
+
+    
+
+    - Bearden (Romare) (4)
+
+    
+
+    - Beardsley (Aubrey) (4)
+
+    
+
+    - Beaux (Cecilia) (4)
+
+    
+
+    - Beccafumi (1)
+
+    
+
+    - Beck (C.C.) (1)
+
+    
+
+    - Beckett (Sister Wendy) (2)
+
+    
+
+    - Beckmann (Max) (5)
+
+    
+
+    - Beerbohm (Max) (1)
+
+    
+
+    - Bel (Jerome) (1)
+
+    
+
+    - Bell (Richard) (2)
+
+    
+
+    - Bell (Vanessa) (1)
+
+    
+
+    - Bellini (Giovanni) (1)
+
+    
+
+    - Bellows (George) (12)
+
+    
+
+    - Benton (Thomas Hart) (9)
+
+    
+
+    - Berenson (Bernard) (5)
+
+    
+
+    - Berman (Eugene) (1)
+
+    
+
+    - Bernard (Emile) (1)
+
+    
+
+    - Bernini (Gian Lorenzo) (11)
+
+    
+
+    - Berruguete (Alonso) (3)
+
+    
+
+    - Beuys (Joseph) (10)
+
+    
+
+    - Bierstadt (Albert) (1)
+
+    
+
+    - Big Think (417)
+
+    
+
+    - Blake (Peter) (8)
+
+    
+
+    - Blake (William) (46)
+
+    
+
+    - Bleyl (Fritz) (2)
+
+    
+
+    - Blogging (78)
+
+    
+
+    - Boccioni (Umberto) (6)
+
+    
+
+    - Bocklin (Arnold) (1)
+
+    
+
+    - Bol (Ferdinand) (2)
+
+    
+
+    - Boltanski (Christian) (1)
+
+    
+
+    - Bomberg (David) (1)
+
+    
+
+    - Bonheur (Rosa) (4)
+
+    
+
+    - Bonnard (Pierre) (5)
+
+    
+
+    - Bonnat (Leon) (5)
+
+    
+
+    - Book Review by Bob (298)
+
+    
+
+    - Borglum (Gutzon) (4)
+
+    
+
+    - Bosch (Hieronymus) (12)
+
+    
+
+    - Botero (Fernando) (3)
+
+    
+
+    - Botticelli (Sandro) (16)
+
+    
+
+    - Boucher (Francois) (4)
+
+    
+
+    - Boudin (Eugene) (1)
+
+    
+
+    - Bouguereau (William-Adolphe) (1)
+
+    
+
+    - Bourgeois (Louise) (5)
+
+    
+
+    - Bouts (Dirk the Elder) (3)
+
+    
+
+    - Brady (Mathew) (2)
+
+    
+
+    - Bramante (Donato) (1)
+
+    
+
+    - Brancusi (Constantin) (8)
+
+    
+
+    - Braque (Georges) (20)
+
+    
+
+    - Breitner (George Hendrik) (1)
+
+    
+
+    - Bridgette Mayer Gallery (2)
+
+    
+
+    - Britto (Romero) (1)
+
+    
+
+    - Bronzino (1)
+
+    
+
+    - Brown (Glenn) (3)
+
+    
+
+    - Brown (Iona Rozeal) (1)
+
+    
+
+    - Brueghel (Jan the Elder) (2)
+
+    
+
+    - Brueghel (Pieter the Elder) (6)
+
+    
+
+    - Brueghel (Pieter the Younger) (1)
+
+    
+
+    - Brunelleschi (Filippo) (1)
+
+    
+
+    - Brunetti (Ivan) (1)
+
+    
+
+    - Burden (Chris) (8)
+
+    
+
+    - Burkhardt (Hans) (1)
+
+    
+
+    - Burliuk (David) (1)
+
+    
+
+    - Burne-Jones (Edward) (5)
+
+    
+
+    - Burr (Dan E) (1)
+
+    
+
+    - Buscema (John) (1)
+
+    
+
+    - Byrne (Roisin) (2)
+
+    
+
+    - Cabanel (Alexandre) (1)
+
+    
+
+    - Cadmus (Paul) (1)
+
+    
+
+    - Cage (John) (3)
+
+    
+
+    - Cai Guo-Qiang (1)
+
+    
+
+    - Caillebotte (Gustave) (6)
+
+    
+
+    - Caitlin (George) (1)
+
+    
+
+    - Calder (Alexander "Sandy") (7)
+
+    
+
+    - Calder (Alexander Milne) (2)
+
+    
+
+    - Calder (Alexander Sandy) (1)
+
+    
+
+    - Calder (Alexander Stirling) (3)
+
+    
+
+    - Calzadilla (Guillermo) (1)
+
+    
+
+    - Canaletto (4)
+
+    
+
+    - Caniff (Milton) (1)
+
+    
+
+    - Caravaggio (38)
+
+    
+
+    - Cardiff (Janet) (1)
+
+    
+
+    - Cariou (Patrick) (1)
+
+    
+
+    - Carolus-Duran (4)
+
+    
+
+    - Carr (Emily) (1)
+
+    
+
+    - Carracci (Annibale) (8)
+
+    
+
+    - Carrington (Leonara) (2)
+
+    
+
+    - Cartier-Bresson (Henri) (4)
+
+    
+
+    - Cassatt (Mary) (22)
+
+    
+
+    - Catlin (George) (1)
+
+    
+
+    - Cattelan (Maurizio) (3)
+
+    
+
+    - Cellini (Benvenuto) (1)
+
+    
+
+    - Cezanne (Paul) (62)
+
+    
+
+    - Chagall (Marc) (10)
+
+    
+
+    - Chagoya (Enrique) (2)
+
+    
+
+    - Chambers (Thomas) (1)
+
+    
+
+    - Chappel (Alonzo) (1)
+
+    
+
+    - Chapu (Henri-Michel-Antoine) (1)
+
+    
+
+    - Chardin (Jean-Baptiste-Simeon) (3)
+
+    
+
+    - Charpentier (Constance Marie) (1)
+
+    
+
+    - Chase (William Merritt) (7)
+
+    
+
+    - Chasseriau (Theodore) (1)
+
+    
+
+    - Cheret (Jules) (1)
+
+    
+
+    - Chicago (Judy) (8)
+
+    
+
+    - Children and Art (25)
+
+    
+
+    - Chimes (Thomas) (7)
+
+    
+
+    - Christianity (122)
+
+    
+
+    - Christo (1)
+
+    
+
+    - Church (Frederic) (8)
+
+    
+
+    - Churchill (Winston) (1)
+
+    
+
+    - Cimabue (9)
+
+    
+
+    - Civilisation (TV Series) (1)
+
+    
+
+    - Clark (Sir Kenneth) (6)
+
+    
+
+    - Clark (T.J.) (4)
+
+    
+
+    - Claudel (Camille) (2)
+
+    
+
+    - Close (Chuck) (10)
+
+    
+
+    - Clowes (Daniel) (1)
+
+    
+
+    - Clunas (Craig) (2)
+
+    
+
+    - Cockrum (Dave) (2)
+
+    
+
+    - Colan (Gene) (1)
+
+    
+
+    - Colbert (Stephen) (1)
+
+    
+
+    - Cole (Jack) (2)
+
+    
+
+    - Cole (Thomas) (15)
+
+    
+
+    - Comics (72)
+
+    
+
+    - Condo (George) (1)
+
+    
+
+    - Conrad (Paul) (3)
+
+    
+
+    - Constable (John) (10)
+
+    
+
+    - Contemporary Art Review (5)
+
+    
+
+    - Contests (4)
+
+    
+
+    - Copley (John Singleton) (5)
+
+    
+
+    - Corinth (Lovis) (4)
+
+    
+
+    - Cornell (Joseph) (8)
+
+    
+
+    - Corot (Jean-Baptiste Camille) (13)
+
+    
+
+    - Correggio (2)
+
+    
+
+    - Cotman (John Sell) (1)
+
+    
+
+    - Courbet (Gustave) (35)
+
+    
+
+    - Couture (Thomas) (3)
+
+    
+
+    - Cranach (Lucas the Elder) (7)
+
+    
+
+    - Crane (Barbara) (1)
+
+    
+
+    - Crespi (Giuseppe Maria) (2)
+
+    
+
+    - Critics (54)
+
+    
+
+    - Cross (Henri-Edmond) (1)
+
+    
+
+    - Cruickshank (George) (1)
+
+    
+
+    - Crumb (Robert) (4)
+
+    
+
+    - Crystal Bridges (1)
+
+    
+
+    - Currier and Ives (4)
+
+    
+
+    - Currin (John) (2)
+
+    
+
+    - Cuvelier (Eugene) (1)
+
+    
+
+    - Cuyp (Aelbert) (1)
+
+    
+
+    - D'Almeida (Neville) (1)
+
+    
+
+    - da Udine (Giovanni) (1)
+
+    
+
+    - Da Vinci (Leonardo) (69)
+
+    
+
+    - Dali (Salvador) (45)
+
+    
+
+    - Danto (Arthur C.) (8)
+
+    
+
+    - Darcy (Dame) (1)
+
+    
+
+    - Daumier (Honore) (8)
+
+    
+
+    - David (Jacques-Louis) (34)
+
+    
+
+    - David B. (1)
+
+    
+
+    - Davie (Alan) (1)
+
+    
+
+    - Davies (Arthur B.) (3)
+
+    
+
+    - Davis (Stuart) (3)
+
+    
+
+    - de Chirico (Giorgio) (10)
+
+    
+
+    - de Forest Brush (George) (2)
+
+    
+
+    - de Hooch (Pieter) (1)
+
+    
+
+    - De Kooning (Elaine) (5)
+
+    
+
+    - De Kooning (Willem) (32)
+
+    
+
+    - de Lairesse (Gerard) (1)
+
+    
+
+    - De Maria (Walter) (4)
+
+    
+
+    - de Stael (Nicolas) (1)
+
+    
+
+    - Degas (Edgar) (45)
+
+    
+
+    - Degenerate Art (34)
+
+    
+
+    - del Rivero (Elena) (1)
+
+    
+
+    - Delacroix (Eugene) (29)
+
+    
+
+    - Delaroche (Hippolyte) (3)
+
+    
+
+    - Delaroche (Paul) (1)
+
+    
+
+    - Delaunay (Robert) (10)
+
+    
+
+    - Delaunay (Sonia) (7)
+
+    
+
+    - Deller (Jeremy) (1)
+
+    
+
+    - Demuth (Charles) (6)
+
+    
+
+    - Denis (Maurice) (2)
+
+    
+
+    - Derain (Andre) (7)
+
+    
+
+    - Detmold (Edward and Maurice) (1)
+
+    
+
+    - Diebenkorn (Richard) (1)
+
+    
+
+    - Ditko (Steve) (7)
+
+    
+
+    - Dix (Otto) (11)
+
+    
+
+    - Domenichino (1)
+
+    
+
+    - Donatello (6)
+
+    
+
+    - Dong Qichang (2)
+
+    
+
+    - Donwood (Stanley) (1)
+
+    
+
+    - Dore (Gustave) (7)
+
+    
+
+    - Dou (Gerrit) (2)
+
+    
+
+    - Douglas (Aaron) (2)
+
+    
+
+    - Dove (Arthur) (1)
+
+    
+
+    - Dr. Seuss) (1)
+
+    
+
+    - Drew (Richard) (1)
+
+    
+
+    - Drost (Willem) (1)
+
+    
+
+    - Duchamp (Marcel) (39)
+
+    
+
+    - Dufy (Raoul) (2)
+
+    
+
+    - Dulac (Edmond) (1)
+
+    
+
+    - Dumas (Marlene) (1)
+
+    
+
+    - Durand (Asher) (3)
+
+    
+
+    - Durer (Albrecht) (26)
+
+    
+
+    - Dylan (Bob) (1)
+
+    
+
+    - Eakins (Susan MacDowell) (4)
+
+    
+
+    - Eakins (Thomas) (78)
+
+    
+
+    - Edefalk (Cecilia) (1)
+
+    
+
+    - Eisen (1)
+
+    
+
+    - Eismann (Katrin) (1)
+
+    
+
+    - Eisner (Will) (2)
+
+    
+
+    - EkÅŸioÄŸlu (GÃŒrbÃŒz DoÄŸan) (1)
+
+    
+
+    - El Greco (10)
+
+    
+
+    - El Lissitsky (1)
+
+    
+
+    - Emin (Tracey) (2)
+
+    
+
+    - Ensor (James) (3)
+
+    
+
+    - Ernst (Max) (11)
+
+    
+
+    - Escher (M.C.) (3)
+
+    
+
+    - Estes (Richard) (1)
+
+    
+
+    - Etty (William) (2)
+
+    
+
+    - Evans (Walker) (4)
+
+    
+
+    - Fantin-Latour (Henri) (4)
+
+    
+
+    - Fashion (1)
+
+    
+
+    - Feiffer (Jules) (4)
+
+    
+
+    - Feminism (6)
+
+    
+
+    - Feng Zhengjie (1)
+
+    
+
+    - Fenn (Harry) (1)
+
+    
+
+    - Fies (Brian) (1)
+
+    
+
+    - Fife (Scott) (1)
+
+    
+
+    - Figari (Pedro) (1)
+
+    
+
+    - Film (109)
+
+    
+
+    - Fiore (Mark) (1)
+
+    
+
+    - Fischer (Noah) (1)
+
+    
+
+    - Fischl (Eric) (3)
+
+    
+
+    - Folk Art (1)
+
+    
+
+    - Food and Art (3)
+
+    
+
+    - Forouhar (Parastou) (1)
+
+    
+
+    - Foster (Hal artist) (2)
+
+    
+
+    - Four Questions for... (1)
+
+    
+
+    - Fra Angelico (5)
+
+    
+
+    - Fra Bartolommeo (3)
+
+    
+
+    - Fra Filippo Lippi (2)
+
+    
+
+    - Fragonard (Jean-Honore) (9)
+
+    
+
+    - Francesca (Piero della) (11)
+
+    
+
+    - Frank (Robert) (2)
+
+    
+
+    - Frankenthaler (Helen) (8)
+
+    
+
+    - Frazetta (Frank) (4)
+
+    
+
+    - French (Jared) (1)
+
+    
+
+    - Frere (Charles-Theodore) (1)
+
+    
+
+    - Freud (Lucian) (9)
+
+    
+
+    - Friedlander (Lee) (2)
+
+    
+
+    - Friedrich (Caspar David) (20)
+
+    
+
+    - Fromentin (Eugene) (1)
+
+    
+
+    - Fry (Roger) (1)
+
+    
+
+    - Fuller (Meta) (1)
+
+    
+
+    - Fundamentalism (4)
+
+    
+
+    - Furniture (1)
+
+    
+
+    - Fuseli (Henry) (13)
+
+    
+
+    - Gablik (Suzi) (2)
+
+    
+
+    - Gaiman (Neil) (1)
+
+    
+
+    - Gainsborough (Thomas) (9)
+
+    
+
+    - Garber (Daniel) (3)
+
+    
+
+    - Gardner (Alexander) (1)
+
+    
+
+    - Garibay (Emmanuel) (1)
+
+    
+
+    - Gaudens (Augustus Saint) (1)
+
+    
+
+    - Gaudi (Antoni) (1)
+
+    
+
+    - Gaudier-Brzeska (Henri) (1)
+
+    
+
+    - Gauguin (Paul) (37)
+
+    
+
+    - Geisel (Theodore (1)
+
+    
+
+    - Geisel (Theodore) (3)
+
+    
+
+    - Geno (Mike) (1)
+
+    
+
+    - Gentileschi (Artemisia ) (1)
+
+    
+
+    - Gentileschi (Artemisia) (2)
+
+    
+
+    - Gerard (Marguerite) (1)
+
+    
+
+    - Gericault (Theodore) (4)
+
+    
+
+    - Gerome (Jean-Louis) (19)
+
+    
+
+    - Gerstl (Richard) (1)
+
+    
+
+    - Ghadirian (Shadi) (1)
+
+    
+
+    - Ghiberti (Lorenzo) (1)
+
+    
+
+    - Ghirlandaio (Domenico) (7)
+
+    
+
+    - Giacometti (Alberto) (4)
+
+    
+
+    - Gibson (Charles Dana) (1)
+
+    
+
+    - Gibson (Clark) (1)
+
+    
+
+    - Gill (Irving) (1)
+
+    
+
+    - Ginsberg (Allen) (1)
+
+    
+
+    - Giordano (Anna Utopia) (1)
+
+    
+
+    - Giorgione (4)
+
+    
+
+    - Giotto (14)
+
+    
+
+    - Glackens (William) (13)
+
+    
+
+    - Gleeson (James) (1)
+
+    
+
+    - Gleizes (Albert) (1)
+
+    
+
+    - Glesta (Anita) (1)
+
+    
+
+    - Gleyre (Charles) (1)
+
+    
+
+    - Goldberg (Rube) (1)
+
+    
+
+    - Goldin (Nan) (1)
+
+    
+
+    - Goldsworth (Andy) (3)
+
+    
+
+    - Golub (Leon) (3)
+
+    
+
+    - Goncharova (Natalia) (2)
+
+    
+
+    - Gonzales (Eva) (2)
+
+    
+
+    - Gonzalez (Julio) (3)
+
+    
+
+    - Gonzalez-Torres (Felix) (1)
+
+    
+
+    - Goodman (Sidney) (1)
+
+    
+
+    - Goodridge (Sarah) (1)
+
+    
+
+    - Gorky (Arshile) (6)
+
+    
+
+    - Goya (30)
+
+    
+
+    - Gozzoli (Benozzo) (1)
+
+    
+
+    - Granet (Francoise-Marius) (2)
+
+    
+
+    - Grant (Duncan) (1)
+
+    
+
+    - Greed (20)
+
+    
+
+    - Greenberg (Clement) (12)
+
+    
+
+    - Greuze (Jean Baptiste) (1)
+
+    
+
+    - Grimshaw (John Atkinson) (1)
+
+    
+
+    - Gris (Juan) (2)
+
+    
+
+    - Groening (Matt) (1)
+
+    
+
+    - Grooms (Red) (2)
+
+    
+
+    - Gropius (Walter) (2)
+
+    
+
+    - Gros (Antoine Jean) (2)
+
+    
+
+    - Gross (Milt) (1)
+
+    
+
+    - Grosz (George) (12)
+
+    
+
+    - Grun (Jules Alexander) (1)
+
+    
+
+    - Grunewald (Matthias) (8)
+
+    
+
+    - Guercino (3)
+
+    
+
+    - Guston (Philip) (3)
+
+    
+
+    - Gutierrez (Dave) (1)
+
+    
+
+    - Gyson (Brion) (1)
+
+    
+
+    - Haden (Seymour) (1)
+
+    
+
+    - Hakimi-Schueler (Mona ) (1)
+
+    
+
+    - Hals (Frans) (8)
+
+    
+
+    - Hamilton (Richard) (2)
+
+    
+
+    - Hammershoi (Vilhelm) (4)
+
+    
+
+    - Hammons (David) (1)
+
+    
+
+    - Hanlon (Christine) (1)
+
+    
+
+    - Haring (Keith) (3)
+
+    
+
+    - Harper (Acey) (1)
+
+    
+
+    - Hartigan (Grace) (4)
+
+    
+
+    - Hartley (Marsden) (6)
+
+    
+
+    - Hartung (Hans) (2)
+
+    
+
+    - Hassam (Childe) (5)
+
+    
+
+    - Hawkes (Jason) (1)
+
+    
+
+    - Hawkins (William) (1)
+
+    
+
+    - Hayden (Palmer) (1)
+
+    
+
+    - Hazelwood (Art) (1)
+
+    
+
+    - He Yungchang (1)
+
+    
+
+    - Heade (Martin Johnson) (2)
+
+    
+
+    - Heckel (Erich) (4)
+
+    
+
+    - Hendricks (Barkley L.) (2)
+
+    
+
+    - Henri (Robert) (30)
+
+    
+
+    - Hepworth (Barbara) (3)
+
+    
+
+    - Herblock (5)
+
+    
+
+    - Hernandez (Gilbert) (1)
+
+    
+
+    - Herrera (Hayden) (3)
+
+    
+
+    - Hesse (Eva) (1)
+
+    
+
+    - Hicks (Edward) (10)
+
+    
+
+    - Hirokane (Kenshi) (1)
+
+    
+
+    - Hiroshige (6)
+
+    
+
+    - Hirsch (Joseph) (1)
+
+    
+
+    - Hirst (Damien) (31)
+
+    
+
+    - Hoch (Hannah) (2)
+
+    
+
+    - Hockney (David) (16)
+
+    
+
+    - Hodgkin (Howard) (3)
+
+    
+
+    - Hodler (Ferdinand) (2)
+
+    
+
+    - Hofmann (Hans) (5)
+
+    
+
+    - Hogarth (William) (18)
+
+    
+
+    - Hokusai (6)
+
+    
+
+    - Holbein (Hans the Younger) (1)
+
+    
+
+    - Holl (Frank) (1)
+
+    
+
+    - Holler (Carsten) (1)
+
+    
+
+    - Holt (Nancy) (1)
+
+    
+
+    - Holzer (Jenny) (1)
+
+    
+
+    - Homer (Winslow) (15)
+
+    
+
+    - Hopper (Dennis) (1)
+
+    
+
+    - Hopper (Edward) (30)
+
+    
+
+    - Hsieh (Tehching) (2)
+
+    
+
+    - Hudson (Grace Carpenter) (1)
+
+    
+
+    - Hughes (E.J.) (1)
+
+    
+
+    - Hughes (Robert) (2)
+
+    
+
+    - Humor (14)
+
+    
+
+    - Hundertwasser (Friedensreich) (1)
+
+    
+
+    - Hunt (William Holman) (11)
+
+    
+
+    - Hurd (Henriette Wyeth) (3)
+
+    
+
+    - Hurd (Peter) (5)
+
+    
+
+    - Husain (M.F.) (1)
+
+    
+
+    - Hyde (Laurence) (2)
+
+    
+
+    - Images of Christ [series] (6)
+
+    
+
+    - Indiana (Robert) (2)
+
+    
+
+    - Ingres (Jean-Auguste-Dominique) (17)
+
+    
+
+    - Inness (George) (4)
+
+    
+
+    - introduction (1)
+
+    
+
+    - Islamic Art (3)
+
+    
+
+    - Israels (Jozef) (2)
+
+    
+
+    - Itten (Johannes) (2)
+
+    
+
+    - Jackson (William Henry) (1)
+
+    
+
+    - Jakuchu (Ito) (1)
+
+    
+
+    - Jamie (2)
+
+    
+
+    - Japonisme (18)
+
+    
+
+    - Jarry (Alfred) (11)
+
+    
+
+    - Jawlensky (Alexej von) (1)
+
+    
+
+    - Jeopardy (5)
+
+    
+
+    - John (Augustus) (2)
+
+    
+
+    - John (Gwen) (1)
+
+    
+
+    - Johns (Jasper) (15)
+
+    
+
+    - Johnson (Frank Tenney) (1)
+
+    
+
+    - Johnson (Seward) (2)
+
+    
+
+    - Johnson (William H.) (6)
+
+    
+
+    - Jones (Jeffrey Catherine) (1)
+
+    
+
+    - Jongkind (Johan) (2)
+
+    
+
+    - Jordaens (Jacob) (1)
+
+    
+
+    - Judd (Donald) (2)
+
+    
+
+    - Kahlo (Frida) (33)
+
+    
+
+    - Kandinsky (Wassily) (21)
+
+    
+
+    - Kane (Bob) (2)
+
+    
+
+    - Kapoor (Anish) (1)
+
+    
+
+    - Katz (Alex) (4)
+
+    
+
+    - Kauffmann (Angelica) (2)
+
+    
+
+    - Kelly (Ellsworth) (6)
+
+    
+
+    - Kemp (Martin) (1)
+
+    
+
+    - Kent (Rockwell) (9)
+
+    
+
+    - Kentridge (William) (5)
+
+    
+
+    - Khnopff (Fernand) (2)
+
+    
+
+    - Kiefer (Anselm) (4)
+
+    
+
+    - Kilimnik (Karen) (1)
+
+    
+
+    - Killion (Tom) (1)
+
+    
+
+    - King (Jessie Marion) (1)
+
+    
+
+    - King Robbo (1)
+
+    
+
+    - Kinkade (Thomas) (8)
+
+    
+
+    - Kirby (Jack) (10)
+
+    
+
+    - Kirchner (Ernst) (14)
+
+    
+
+    - Kirkeby (Per) (1)
+
+    
+
+    - Kitaj (R.B.) (1)
+
+    
+
+    - Klee (Paul) (15)
+
+    
+
+    - Klein (Yves) (7)
+
+    
+
+    - Klimt (Gustav) (30)
+
+    
+
+    - Kline (Franz) (4)
+
+    
+
+    - Klinger (Max) (3)
+
+    
+
+    - Knight (Christopher) (2)
+
+    
+
+    - Knight (Daniel Ridgway) (1)
+
+    
+
+    - Koblin (Aaron) (1)
+
+    
+
+    - Koenig (Pierre) (1)
+
+    
+
+    - Kokoschka (Oskar) (8)
+
+    
+
+    - Kollwitz (Kathe) (6)
+
+    
+
+    - Koons (Jeff) (23)
+
+    
+
+    - Kosuth (Joseph) (1)
+
+    
+
+    - Krasner (Lee) (11)
+
+    
+
+    - Krauss (Rosalind) (4)
+
+    
+
+    - Kreindler (Graig) (1)
+
+    
+
+    - Krimmel (John Lewis) (3)
+
+    
+
+    - Kruger (Barbara) (3)
+
+    
+
+    - Ku (Gan) (1)
+
+    
+
+    - Kubert (Joe) (1)
+
+    
+
+    - Kubin (Alfred) (3)
+
+    
+
+    - Kuerner (Karl J.) (7)
+
+    
+
+    - Kuhn (Walt) (1)
+
+    
+
+    - Kuitca (Guillermo) (1)
+
+    
+
+    - Kunisada (Utagawa) (1)
+
+    
+
+    - Kunstler (Mort) (1)
+
+    
+
+    - Kupka (Frantisek) (3)
+
+    
+
+    - Kusama (Yayoi) (2)
+
+    
+
+    - La Tour (Maurice-Quentin de) (5)
+
+    
+
+    - Labille-Guiard (Adelaide) (4)
+
+    
+
+    - Lange (Dorothea) (3)
+
+    
+
+    - Larson (Gary) (1)
+
+    
+
+    - Lat (1)
+
+    
+
+    - Lautner (John) (1)
+
+    
+
+    - Lawrence (Gwendolyn Knight) (1)
+
+    
+
+    - Lawrence (Jacob) (4)
+
+    
+
+    - Lawrence (Thomas) (18)
+
+    
+
+    - Lawson (Ernest) (2)
+
+    
+
+    - Le Brun (Charles) (1)
+
+    
+
+    - Le Corbusier (4)
+
+    
+
+    - Le Gray (Gustave) (1)
+
+    
+
+    - Le Nain Brothers (1)
+
+    
+
+    - LeDray (Charles) (1)
+
+    
+
+    - Lee (Stan) (3)
+
+    
+
+    - Leeson (Lynn Hershman) (2)
+
+    
+
+    - Leger (Fernand) (6)
+
+    
+
+    - Lei Yixin (1)
+
+    
+
+    - Leibovitz (Annie) (1)
+
+    
+
+    - Leutze (Emanuel Gottlieb) (5)
+
+    
+
+    - Lewis (Martin) (1)
+
+    
+
+    - Lewis (Wyndham) (2)
+
+    
+
+    - LeWitt (Sol) (3)
+
+    
+
+    - Leyendecker (J.C.) (2)
+
+    
+
+    - Leyster (Judith) (1)
+
+    
+
+    - Li Songsong (1)
+
+    
+
+    - Lichtenstein (Roy) (12)
+
+    
+
+    - Liebermann (Max) (3)
+
+    
+
+    - Liebovitz (Annie) (1)
+
+    
+
+    - Lippi (Filippo) (2)
+
+    
+
+    - Lipschitz (Jacques) (3)
+
+    
+
+    - Liu Xiaodong (1)
+
+    
+
+    - Locks Gallery (2)
+
+    
+
+    - Lorraine (Claude) (10)
+
+    
+
+    - Lou (Liza) (1)
+
+    
+
+    - Louis (Morris) (5)
+
+    
+
+    - Louvre (39)
+
+    
+
+    - Luks (George) (5)
+
+    
+
+    - Macke (August) (6)
+
+    
+
+    - Mackintosh (Charles Rennie) (2)
+
+    
+
+    - MacNelly (Jeff) (1)
+
+    
+
+    - Maes (Nicolaes) (2)
+
+    
+
+    - Mafai (Mario) (1)
+
+    
+
+    - Magee (James) (1)
+
+    
+
+    - Magritte (Rene) (10)
+
+    
+
+    - Maiolino (Anna Marie) (1)
+
+    
+
+    - Makart (Hans) (4)
+
+    
+
+    - Malevich (Kazimir) (7)
+
+    
+
+    - Malraux (Andre) (1)
+
+    
+
+    - Mancini (Antonio) (6)
+
+    
+
+    - Manet (Edouard) (42)
+
+    
+
+    - Mann (Thomas) (1)
+
+    
+
+    - Mantegna (Andrea) (2)
+
+    
+
+    - Manzoni (Piero) (3)
+
+    
+
+    - Mapplethorpe (Robert) (8)
+
+    
+
+    - Marc (Franz) (10)
+
+    
+
+    - Marclay (Christian) (1)
+
+    
+
+    - Marden (Brice) (3)
+
+    
+
+    - Margolies (Samuel) (1)
+
+    
+
+    - Marin (John) (2)
+
+    
+
+    - Marinetti (F.T.) (1)
+
+    
+
+    - Marlette (Doug) (1)
+
+    
+
+    - Martin (Agnes) (2)
+
+    
+
+    - Martin (John) (1)
+
+    
+
+    - Masaccio (4)
+
+    
+
+    - Masereel (Franz) (2)
+
+    
+
+    - Matisse (Henri) (73)
+
+    
+
+    - Matsys (Quentin) (1)
+
+    
+
+    - Matter (Herbert) (1)
+
+    
+
+    - Matter (Mercedes Carles) (1)
+
+    
+
+    - Mauldin (Bill) (2)
+
+    
+
+    - Maurer (Alfred) (1)
+
+    
+
+    - Mauve (Anton) (1)
+
+    
+
+    - Max (Peter) (1)
+
+    
+
+    - McCarthy (Paul) (1)
+
+    
+
+    - McCoy (Ann Wyeth) (2)
+
+    
+
+    - McCoy (Anna B.) (1)
+
+    
+
+    - McCoy (John) (1)
+
+    
+
+    - Meisel (Steven) (1)
+
+    
+
+    - Meissonier (Ernest) (7)
+
+    
+
+    - Melnikov (Konstantin) (1)
+
+    
+
+    - Memling (Hans) (3)
+
+    
+
+    - Menard (Emile-Rene) (1)
+
+    
+
+    - Mendieta (Ana) (1)
+
+    
+
+    - Mengs (Anton Raphael) (5)
+
+    
+
+    - Menzel (Adolph) (1)
+
+    
+
+    - Messerschmidt (Franz Xavier) (1)
+
+    
+
+    - Meth (Clifford) (1)
+
+    
+
+    - Metsu (Gabriel) (1)
+
+    
+
+    - Metzinger (Jean) (2)
+
+    
+
+    - Michelangelo (99)
+
+    
+
+    - Millais (John Everett) (15)
+
+    
+
+    - Miller (Frank) (1)
+
+    
+
+    - Miller (Lee) (8)
+
+    
+
+    - Millet (Jean-Francois) (11)
+
+    
+
+    - Miro (Joan) (8)
+
+    
+
+    - Mitchell (Joan) (1)
+
+    
+
+    - Modersohn-Becker (Paula) (3)
+
+    
+
+    - Modigliani (Amedeo) (9)
+
+    
+
+    - Moholy-Nagy (Laszlo) (2)
+
+    
+
+    - MOMA (31)
+
+    
+
+    - Mondrian (Piet) (9)
+
+    
+
+    - Monet (Claude) (49)
+
+    
+
+    - Moore (Alan) (2)
+
+    
+
+    - Moore (Henry) (5)
+
+    
+
+    - Moran (Edward) (2)
+
+    
+
+    - Moran (Thomas) (2)
+
+    
+
+    - Morandi (Giorgio) (1)
+
+    
+
+    - Moreau (Gustave) (9)
+
+    
+
+    - Morisot (Berthe) (5)
+
+    
+
+    - Morris (Quentin) (2)
+
+    
+
+    - Morris (William) (4)
+
+    
+
+    - Morse (Samuel F.B.) (2)
+
+    
+
+    - Moser (Barry) (1)
+
+    
+
+    - Moses (Grandma) (1)
+
+    
+
+    - Motesiczky (Marie-Louise von) (3)
+
+    
+
+    - Motherwell (Robert) (5)
+
+    
+
+    - Mucha (Alphonse) (5)
+
+    
+
+    - Munakata (Shiko) (1)
+
+    
+
+    - Munch (Edvard) (29)
+
+    
+
+    - Muniz (Vic) (1)
+
+    
+
+    - Munter (Gabriele) (1)
+
+    
+
+    - Murakami (Takashi) (5)
+
+    
+
+    - Murillo (Bartolome Esteban) (1)
+
+    
+
+    - Murphy (Gerald) (3)
+
+    
+
+    - Murphy (Sara) (2)
+
+    
+
+    - Murray (Brett) (1)
+
+    
+
+    - Murray (Elizabeth) (1)
+
+    
+
+    - Musee D'Orsay (8)
+
+    
+
+    - Museums (70)
+
+    
+
+    - Music and Art (107)
+
+    
+
+    - Muybridge (Eadweard) (1)
+
+    
+
+    - Nakazawa (Keiji) (1)
+
+    
+
+    - Namuth (Hans) (1)
+
+    
+
+    - Nandalal Bose (2)
+
+    
+
+    - Nash (Paul) (1)
+
+    
+
+    - Nast (Thomas) (5)
+
+    
+
+    - Nauen (Heinrich) (1)
+
+    
+
+    - Nauman (Bruce) (3)
+
+    
+
+    - Nayiny (Malekeh) (1)
+
+    
+
+    - Neel (Alice) (2)
+
+    
+
+    - Nerdrum (Odd) (3)
+
+    
+
+    - Neutra (Robert) (2)
+
+    
+
+    - Nevelson (Louise) (2)
+
+    
+
+    - Newman (Barnett) (14)
+
+    
+
+    - Nicholson (Ben) (1)
+
+    
+
+    - Nielsen (Kay) (1)
+
+    
+
+    - Nimoy (Leonard) (1)
+
+    
+
+    - Ninagawa (Mika) (1)
+
+    
+
+    - Nishizawa (Ryue) (1)
+
+    
+
+    - Noguchi (Isamu) (2)
+
+    
+
+    - Noland (Kenneth) (5)
+
+    
+
+    - Nolde (Emil) (14)
+
+    
+
+    - Nunez (Guillermo) (1)
+
+    
+
+    - Nussbaum (Felix) (1)
+
+    
+
+    - O'Keeffe (Georgia) (12)
+
+    
+
+    - Ofili (Chris) (4)
+
+    
+
+    - Oiticica (Helio) (1)
+
+    
+
+    - Oldenburg (Claes) (2)
+
+    
+
+    - Ono (Yoko) (3)
+
+    
+
+    - Opie (Catherine) (1)
+
+    
+
+    - Oppenheimer (Max) (1)
+
+    
+
+    - Orozco (Jose Clemente) (6)
+
+    
+
+    - Os GÃªmeos (1)
+
+    
+
+    - Osamu (Tezuka) (1)
+
+    
+
+    - Osborne (Elizabeth) (2)
+
+    
+
+    - Overbeck (Johann Friedrich) (1)
+
+    
+
+    - Palmer (Samuel) (4)
+
+    
+
+    - Pan Yuliang (2)
+
+    
+
+    - Parkes (Michael) (1)
+
+    
+
+    - Parrish (Graydon) (1)
+
+    
+
+    - Parrish (Maxfield) (5)
+
+    
+
+    - Pasch (Ulrica) (1)
+
+    
+
+    - Pater (Walter) (6)
+
+    
+
+    - Patri (Giacamo) (2)
+
+    
+
+    - Pavelic (Myfanwy) (1)
+
+    
+
+    - Peale (Anna Claypoole) (1)
+
+    
+
+    - Peale (Charles Willson) (11)
+
+    
+
+    - Peale (James) (1)
+
+    
+
+    - Peale (Raffaelle) (2)
+
+    
+
+    - Peale (Rembrandt) (3)
+
+    
+
+    - Peale (Rubens) (2)
+
+    
+
+    - Peale (Sarah Miriam) (1)
+
+    
+
+    - Peale (Titian) (1)
+
+    
+
+    - Pechstein (Max) (2)
+
+    
+
+    - Pei (I.M.) (2)
+
+    
+
+    - Pekar (Harvey) (1)
+
+    
+
+    - Pelletier (Joel) (1)
+
+    
+
+    - Pellizza da Volpedo (Giuseppe) (1)
+
+    
+
+    - Pennsylvania Academy of the Fine Arts (43)
+
+    
+
+    - Penrose (Roland) (1)
+
+    
+
+    - Peploe (Samuel) (1)
+
+    
+
+    - Performance Art (7)
+
+    
+
+    - Perkins (Dan) (1)
+
+    
+
+    - Perry (Grayson) (1)
+
+    
+
+    - Perry (Mike) (1)
+
+    
+
+    - Perugino (4)
+
+    
+
+    - Peters (Jason) (1)
+
+    
+
+    - Peyton (Elizabeth) (1)
+
+    
+
+    - Philadelphia Museum of Art (115)
+
+    
+
+    - Philipsz (Susan) (1)
+
+    
+
+    - Philosophy and Art (41)
+
+    
+
+    - Photography (65)
+
+    
+
+    - Picabia (Francis) (5)
+
+    
+
+    - Picasso (Pablo) (134)
+
+    
+
+    - Picturing 9/11 (A Series) (7)
+
+    
+
+    - Pisanello (3)
+
+    
+
+    - Pissarro (Camille) (7)
+
+    
+
+    - Pistrucci (Benedetto) (1)
+
+    
+
+    - Podcast (8)
+
+    
+
+    - Poetry and Art (98)
+
+    
+
+    - Political Art (91)
+
+    
+
+    - Polke (Sigmar) (2)
+
+    
+
+    - Pollock (Jackson) (73)
+
+    
+
+    - Popular Culture and Art (45)
+
+    
+
+    - Pousette-Dart (Richard) (1)
+
+    
+
+    - Poussin (Nicolas) (27)
+
+    
+
+    - Power of Art (television series) (12)
+
+    
+
+    - Poynter (Edward John) (1)
+
+    
+
+    - Pozzo (Andrea) (1)
+
+    
+
+    - Pratt (Matthew) (3)
+
+    
+
+    - Pre-Raphaelite Brotherhood (29)
+
+    
+
+    - Prendergast (Maurice) (5)
+
+    
+
+    - Prince (Richard) (2)
+
+    
+
+    - Prud'hon (Pierre-Paul) (1)
+
+    
+
+    - Psychology and Art (24)
+
+    
+
+    - Public Art (1)
+
+    
+
+    - Pulitzer Prize (1)
+
+    
+
+    - Puryear (Martin) (3)
+
+    
+
+    - Puvis de Chavannes (Pierre) (6)
+
+    
+
+    - Pyle (Howard) (13)
+
+    
+
+    - Qian Xuan (1)
+
+    
+
+    - Quotes (2)
+
+    
+
+    - Raboy (Mac) (1)
+
+    
+
+    - Rackham (Arthur) (3)
+
+    
+
+    - Raeburn (Henry) (1)
+
+    
+
+    - Rahbar (Sara) (1)
+
+    
+
+    - Rainaldi (Oliviero) (3)
+
+    
+
+    - Rall (Ted) (2)
+
+    
+
+    - Ramirez (Martin) (2)
+
+    
+
+    - Ramsay (Allan) (4)
+
+    
+
+    - Ranney (William) (4)
+
+    
+
+    - Raphael (38)
+
+    
+
+    - Rauch (Neo) (1)
+
+    
+
+    - Rauschenberg (Robert) (16)
+
+    
+
+    - Ray (Man) (15)
+
+    
+
+    - Redon (Odilon) (13)
+
+    
+
+    - Religion (162)
+
+    
+
+    - Rembrandt (58)
+
+    
+
+    - Remington (Frederick) (8)
+
+    
+
+    - Reni (Guido) (3)
+
+    
+
+    - Renoir (Auguste) (49)
+
+    
+
+    - Repin (Ilya) (2)
+
+    
+
+    - Restoration (2)
+
+    
+
+    - Reynolds (Joshua) (23)
+
+    
+
+    - Ribalta (Francisco) (1)
+
+    
+
+    - Riccio (Andrea) (1)
+
+    
+
+    - Richards (William Trost) (1)
+
+    
+
+    - Richter (Gerhard) (7)
+
+    
+
+    - Riemenschneider (Tilman) (1)
+
+    
+
+    - Riis (Jacob) (1)
+
+    
+
+    - Ringgold (Faith) (2)
+
+    
+
+    - Ringholt (Stuart) (1)
+
+    
+
+    - Rippl-Ronai (Jozsef) (1)
+
+    
+
+    - Rivera (Diego) (20)
+
+    
+
+    - Rivers (Larry) (3)
+
+    
+
+    - Roberts (Tom) (1)
+
+    
+
+    - Robinson (Theodore) (6)
+
+    
+
+    - Rockwell (Norman) (14)
+
+    
+
+    - Rococo (1)
+
+    
+
+    - Rodchenko (Alexander) (5)
+
+    
+
+    - Rodia (Sam or Simon) (2)
+
+    
+
+    - Rodin (25)
+
+    
+
+    - Rohe (Mies van der) (3)
+
+    
+
+    - Romano (Giulio) (1)
+
+    
+
+    - Romney (George) (1)
+
+    
+
+    - Rosa (Salvator) (3)
+
+    
+
+    - Rosenberg (Harold) (4)
+
+    
+
+    - Rosenquist (James) (3)
+
+    
+
+    - Rosler (Martha) (2)
+
+    
+
+    - Rosselli (Cosimo) (4)
+
+    
+
+    - Rossetti (Dante Gabriel) (19)
+
+    
+
+    - Rothko (Mark) (35)
+
+    
+
+    - Rouault (Georges) (6)
+
+    
+
+    - Rousseau (Henri) (7)
+
+    
+
+    - Rousseau (Theodore) (3)
+
+    
+
+    - Rubens (Peter Paul) (24)
+
+    
+
+    - Rungius (Carl) (1)
+
+    
+
+    - Ruscha (Ed) (4)
+
+    
+
+    - Rush (William) (4)
+
+    
+
+    - Ruskin (John) (28)
+
+    
+
+    - Russell (Charles Marion) (1)
+
+    
+
+    - Ryder (Albert Pinkham) (5)
+
+    
+
+    - Ryman (Robert) (2)
+
+    
+
+    - Saatchi (Charles) (2)
+
+    
+
+    - Salcedo (Doris) (1)
+
+    
+
+    - Sargent (John Singer) (41)
+
+    
+
+    - Sarto (Andrea del) (3)
+
+    
+
+    - Sassoferrato (1)
+
+    
+
+    - Saul (Peter) (5)
+
+    
+
+    - Savage (Augusta) (2)
+
+    
+
+    - Sawaya (Nathan) (1)
+
+    
+
+    - Schad (Christian) (4)
+
+    
+
+    - Schama (Simon) (16)
+
+    
+
+    - Scharf (Kenny) (1)
+
+    
+
+    - Schedoni (Bartolomeo) (2)
+
+    
+
+    - Schiele (Egon) (14)
+
+    
+
+    - Schindler (Rudolph) (1)
+
+    
+
+    - Schjeldahl (Peter) (6)
+
+    
+
+    - Schjerfbeck (Helene) (1)
+
+    
+
+    - Schmidt-Rottluff (Karl) (9)
+
+    
+
+    - Schnabel (Julian) (2)
+
+    
+
+    - Schonberg (Arnold) (1)
+
+    
+
+    - Schulz (Charles) (8)
+
+    
+
+    - Schwitters (Kurt) (3)
+
+    
+
+    - Segal (George) (3)
+
+    
+
+    - Segantini (Giovanni) (1)
+
+    
+
+    - Sejima (Kazuyo) (1)
+
+    
+
+    - Serra (Richard) (8)
+
+    
+
+    - Serrano (Andres) (2)
+
+    
+
+    - Sesshu (1)
+
+    
+
+    - Seth (1)
+
+    
+
+    - Seurat (Georges) (12)
+
+    
+
+    - Severini (Gino) (3)
+
+    
+
+    - Shahn (Ben) (3)
+
+    
+
+    - Sherman (Cindy) (7)
+
+    
+
+    - Shiga (Jason) (1)
+
+    
+
+    - Shikler (Aaron) (2)
+
+    
+
+    - Shils (Stuart) (1)
+
+    
+
+    - Shinn (Everett) (2)
+
+    
+
+    - Shishkin (Ivan) (1)
+
+    
+
+    - Shulman (Julius) (1)
+
+    
+
+    - Shuster (Joe) (2)
+
+    
+
+    - Sickert (Walter) (7)
+
+    
+
+    - Siddal (Elizabeth) (3)
+
+    
+
+    - Signac (Paul) (6)
+
+    
+
+    - Sime (Sidney) (1)
+
+    
+
+    - Siqueiros (David Alfaro) (10)
+
+    
+
+    - Sisley (Alfred) (4)
+
+    
+
+    - Skeaping (John) (1)
+
+    
+
+    - Sloan (John) (20)
+
+    
+
+    - Smeeth (Peter) (1)
+
+    
+
+    - Smith (David) (1)
+
+    
+
+    - Smith (Jessie Willcox) (1)
+
+    
+
+    - Smith (Kiki) (4)
+
+    
+
+    - Smith (Matthew) (1)
+
+    
+
+    - Smithson (Robert) (2)
+
+    
+
+    - Sobel (Janet) (1)
+
+    
+
+    - Social History (147)
+
+    
+
+    - Sodoma (aka Giovanni Bazzi) (3)
+
+    
+
+    - Solomon (Simeon) (1)
+
+    
+
+    - Sontag (Susan) (1)
+
+    
+
+    - Soriano (Juan) (2)
+
+    
+
+    - Soutine (Chaim) (9)
+
+    
+
+    - Spencer (Stanley) (3)
+
+    
+
+    - Spiegelman (Art) (7)
+
+    
+
+    - Spilliaert (Leon) (3)
+
+    
+
+    - Stained Glass (1)
+
+    
+
+    - Steen (Jan) (4)
+
+    
+
+    - Steichen (Edward) (6)
+
+    
+
+    - Steinberg (Leo) (6)
+
+    
+
+    - Stella (Frank) (4)
+
+    
+
+    - Stella (Jacques de) (1)
+
+    
+
+    - Stella (Joseph) (1)
+
+    
+
+    - Stieglitz (Alfred) (12)
+
+    
+
+    - Still (Clyfford) (4)
+
+    
+
+    - Stillman (Ary) (1)
+
+    
+
+    - Stillman (Marie Sparlati) (1)
+
+    
+
+    - Stojakovic (Ivan) (1)
+
+    
+
+    - Stone (Allen) (1)
+
+    
+
+    - Strand (Paul) (2)
+
+    
+
+    - Strauss (Zoe) (1)
+
+    
+
+    - Streeton (Arthur) (1)
+
+    
+
+    - Strindberg (August) (2)
+
+    
+
+    - Stroik (Duncan) (1)
+
+    
+
+    - Stuart (Gilbert) (9)
+
+    
+
+    - Stubbs (George) (1)
+
+    
+
+    - Stuck (Franz von) (2)
+
+    
+
+    - Sullivan (Louis) (2)
+
+    
+
+    - Sully (Thomas) (1)
+
+    
+
+    - Sung Hwan Kim (1)
+
+    
+
+    - Surrealism (23)
+
+    
+
+    - Sutherland (Graham) (1)
+
+    
+
+    - Taine (Hippolyte) (1)
+
+    
+
+    - Tanner (Henry Ossawa) (4)
+
+    
+
+    - Tanning (Dorothea) (2)
+
+    
+
+    - Tarbell (Edmund) (1)
+
+    
+
+    - Tate Etc (2)
+
+    
+
+    - Tate Museum (16)
+
+    
+
+    - Tatlin (Vladimir) (1)
+
+    
+
+    - Tawara Yusaku (1)
+
+    
+
+    - Tchelitchew (Pavel) (1)
+
+    
+
+    - ter Borch (Gerard) (1)
+
+    
+
+    - Thayer (Abbott Handerson) (5)
+
+    
+
+    - Thiebaud (Wayne) (1)
+
+    
+
+    - Thoma (Hans) (2)
+
+    
+
+    - Thonet (Michael) (1)
+
+    
+
+    - Tiepolo (Giovanni Battista) (2)
+
+    
+
+    - Tiepolo (Giovanni Domenico) (1)
+
+    
+
+    - Tiffany (Louis Comfort) (2)
+
+    
+
+    - Tintoretto (7)
+
+    
+
+    - Tischbein (Johann Heinrich) (1)
+
+    
+
+    - Titian (25)
+
+    
+
+    - Tokita (Kamekichi) (1)
+
+    
+
+    - Tom Tomorrow (1)
+
+    
+
+    - Tomkins (Calvin) (4)
+
+    
+
+    - Tooker (George) (3)
+
+    
+
+    - Topffer (Rodolphe) (4)
+
+    
+
+    - Toulouse-Lautrec (Henri de) (16)
+
+    
+
+    - Trego (William T.) (1)
+
+    
+
+    - Troost (Cornelis) (1)
+
+    
+
+    - Troyon (Constant) (1)
+
+    
+
+    - Trudeau (Gary) (4)
+
+    
+
+    - Trumbull (John) (2)
+
+    
+
+    - Tsutsumi (Daisuke) (1)
+
+    
+
+    - Turnbull (Ben) (1)
+
+    
+
+    - Turner (J.M.W.) (61)
+
+    
+
+    - Turner Prize (10)
+
+    
+
+    - Turzak (Charles) (1)
+
+    
+
+    - Twachtman (John) (9)
+
+    
+
+    - Twombly (Cy) (7)
+
+    
+
+    - Uccello (Paolo) (1)
+
+    
+
+    - Utrillo (Maurice) (3)
+
+    
+
+    - Vachon (John) (1)
+
+    
+
+    - Valadon (Suzanne) (2)
+
+    
+
+    - Valtat (Louis) (1)
+
+    
+
+    - van de Velde (Willem the younger) (2)
+
+    
+
+    - van der Weyden (Rogier) (5)
+
+    
+
+    - van Doesburg (Theo) (1)
+
+    
+
+    - Van Dyck (Anthony) (6)
+
+    
+
+    - Van Eyck (Jan) (9)
+
+    
+
+    - Van Gogh (Vincent) (97)
+
+    
+
+    - van Meegeren (Han) (3)
+
+    
+
+    - Vandalism (3)
+
+    
+
+    - VandenBerge (Peter) (1)
+
+    
+
+    - Vanderlyn (John) (2)
+
+    
+
+    - Varnedoe (Kirk) (7)
+
+    
+
+    - Vasari (Giorgio) (31)
+
+    
+
+    - Vasilyev (Fyodor) (1)
+
+    
+
+    - Vedder (Elihu) (2)
+
+    
+
+    - Velazquez (Diego) (24)
+
+    
+
+    - Vermeer (Johannes) (25)
+
+    
+
+    - Vernet (Claude-Joseph ) (1)
+
+    
+
+    - Veronese (5)
+
+    
+
+    - Verrocchio (Andrea del) (4)
+
+    
+
+    - Vibert (Jehan Georges) (1)
+
+    
+
+    - Vieira da Silva (Maria Elena) (1)
+
+    
+
+    - Vigee-Le Brun (Marie Louise Elisabeth) (7)
+
+    
+
+    - Villers (Marie-Denise) (1)
+
+    
+
+    - Villon (Jacques) (1)
+
+    
+
+    - Vonnoh (Robert) (1)
+
+    
+
+    - Vuillard (Edouard) (2)
+
+    
+
+    - Walker (Kara) (5)
+
+    
+
+    - Wall (Jeff) (3)
+
+    
+
+    - Ward (Lynd) (2)
+
+    
+
+    - Ware (Chris) (2)
+
+    
+
+    - Warhol (Andy) (53)
+
+    
+
+    - Watkins (Carleton) (1)
+
+    
+
+    - Watson (Andi) (1)
+
+    
+
+    - Watteau (Jean-Antoine) (1)
+
+    
+
+    - Watterson (Bill) (1)
+
+    
+
+    - Waugh (Frederick Judd) (1)
+
+    
+
+    - Weir (J. Alden) (9)
+
+    
+
+    - Weissman (Steven) (1)
+
+    
+
+    - Werefkin (Marianne von) (1)
+
+    
+
+    - West (Benjamin) (14)
+
+    
+
+    - Westermann (H.C.) (2)
+
+    
+
+    - Weston (Brett) (2)
+
+    
+
+    - Weston (Edward) (9)
+
+    
+
+    - Whistler (James McNeill) (23)
+
+    
+
+    - Whitehead (Rachel) (1)
+
+    
+
+    - Wiertz (Antoine) (1)
+
+    
+
+    - Wilde (Oscar) (2)
+
+    
+
+    - Wiley (Kehinde) (7)
+
+    
+
+    - Wilkie (David) (1)
+
+    
+
+    - Wilson (Gilbert) (1)
+
+    
+
+    - Wilson (John Woodrow) (1)
+
+    
+
+    - Winckelmann (Johann) (3)
+
+    
+
+    - Withers (Walter) (1)
+
+    
+
+    - Wojnarowicz (David) (5)
+
+    
+
+    - Wolverton (Basil) (4)
+
+    
+
+    - Wolverton (Monte) (1)
+
+    
+
+    - Women in Art (66)
+
+    
+
+    - Wood (Grant) (4)
+
+    
+
+    - Woodman (Francesca) (1)
+
+    
+
+    - Wouters (Rik) (1)
+
+    
+
+    - Wren (Christopher) (1)
+
+    
+
+    - Wright (Frank Lloyd) (7)
+
+    
+
+    - Wright (Joseph) (4)
+
+    
+
+    - Wright (Richard) (3)
+
+    
+
+    - Wu Zhen (1)
+
+    
+
+    - Wyeth (Andrew) (58)
+
+    
+
+    - Wyeth (Carolyn) (5)
+
+    
+
+    - Wyeth (Jamie) (15)
+
+    
+
+    - Wyeth (N.C.) (30)
+
+    
+
+    - Xiong (Ren) (1)
+
+    
+
+    - Xuan (Ai) (1)
+
+    
+
+    - Yeats (Jack) (3)
+
+    
+
+    - Young (Art) (1)
+
+    
+
+    - Yue Minjun (2)
+
+    
+
+    - Zampieri (Domenico) (1)
+
+    
+
+    - Zorn (Anders) (3)
+
+    
+
+    - Zuloaga (Ignacio) (2)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png   if
+(window.jstiming) window.jstiming.load.tick('widgetJsBefore'); if
+(typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'1706678653651301316';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d1706678653651301316','//artblogbybob.blogspot.com/2007/10/turning-men-into-boys.html','1706678653651301316');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'1706678653651301316', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Art Blog By
+Bob', 'pageType': 'item', 'url':
+'http://artblogbybob.blogspot.com/2007/10/turning-men-into-boys.html',
+'canonicalUrl':
+'http://artblogbybob.blogspot.com/2007/10/turning-men-into-boys.html',
+'canonicalHomepageUrl': 'http://artblogbybob.blogspot.com/', 'homepageUrl':
+'http://artblogbybob.blogspot.com/', 'blogspotFaviconUrl':
+'http://artblogbybob.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'Turning Men Into Boys', 'pageTitle': 'Art Blog By Bob: Turning Men Into Boys', 'encoding':
+'UTF-8', 'locale': 'en-US', 'isPrivate': false, 'isMobile': false, 'isMobileRequest':
+false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr',
+'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42Art Blog By Bob - Atom\42
+href\75\42http://artblogbybob.blogspot.com/feeds/posts/default\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Art Blog By Bob -
+RSS\42
+href\75\42http://artblogbybob.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Art Blog By Bob - Atom\42
+href\75\42http://www.blogger.com/feeds/1706678653651301316/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0751706678653651301316\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42Art Blog By Bob - Atom\42
+href\75\42http://artblogbybob.blogspot.com/feeds/8178745052024600930/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'postImageThumbnailUrl':
+'http://1.bp.blogspot.com/_ESC4bygtp2M/RwObfFTX7RI/AAAAAAAABjM/lsYUAVZTkiE/s72-c/Baseball+Playoffs+Brett+Myers.jpg',
+'imageSrcTag': '\74link rel\75\42image_src\42
+href\75\42http://1.bp.blogspot.com/_ESC4bygtp2M/RwObfFTX7RI/AAAAAAAABjM/lsYUAVZTkiE/s72-c/Baseball+Playoffs+Brett+Myers.jpg\42
+/\76\n', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#666666', 'linkcolor':
+'#5588aa', 'visitedlinkcolor': '#999999', 'textcolor': '#333333', 'headerfont':
+'normal normal 78% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif',
+'pagetitlefont': 'normal normal 200% Georgia, Serif', 'bgcolor': '#ffffff',
+'descriptioncolor': '#999999', 'titlecolor': '#cc6600', 'bordercolor': '#cccccc',
+'postfooterfont': 'normal normal 78% \47Trebuchet MS\47, Trebuchet, Arial, Verdana,
+Sans-serif', 'pagetitlecolor': '#666666', 'bodyfont': 'normal normal 100% Georgia,
+Serif', 'endSide': 'right', 'startSide': 'left', 'descriptionfont': 'normal normal 78%
+\47Trebuchet MS\47, Trebuchet, Arial, Verdana, Sans-serif', 'sidebarcolor':
+'#999999'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic',
+'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url':
+'/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'},
+'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar',
+'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url':
+'/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML5', 'sidebar', null, document.getElementById('HTML5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList8', 'sidebar', null, document.getElementById('LinkList8'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList6', 'sidebar', null, document.getElementById('LinkList6'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList7', 'sidebar', null, document.getElementById('LinkList7'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML6', 'sidebar', null, document.getElementById('HTML6'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'sidebar', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList5', 'sidebar', null, document.getElementById('LinkList5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList10', 'sidebar', null, document.getElementById('LinkList10'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image2', 'sidebar', null, document.getElementById('Image2'),
+{'resize': true}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView',
+new _WidgetInfo('HTML4', 'sidebar', null, document.getElementById('HTML4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image1', 'sidebar', null, document.getElementById('Image1'),
+{'resize': true}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList4',
+'sidebar', null, document.getElementById('LinkList4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1',
+'sidebar', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList2',
+'sidebar', null, document.getElementById('LinkList2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar',
+null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LabelView', new
+_WidgetInfo('Label1', 'sidebar', null, document.getElementById('Label1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'showBacklinks': true, 'postId':
+'8178745052024600930', 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

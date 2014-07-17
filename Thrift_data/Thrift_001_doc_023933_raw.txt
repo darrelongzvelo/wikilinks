@@ -1,0 +1,770 @@
+
+
+
+
+/** * vBulletin 3.8.4 CSS * Style: 'General'; Style ID: 26 */ body { background: #FFffff;
+color: #000000; font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica,
+sans-serif; margin: 5px 5px 10px 5px; } a:link, body_alink { color: #22229C; } a:visited,
+body_avisited { color: #22229C; } a:hover, a:active, body_ahover { color: #FF4400; } .page {
+background: #FFFFFF; color: #000000; } td, th, p, li { font: 10pt verdana, geneva, lucida,
+'lucida grande', arial, helvetica, sans-serif; } .tborder { background: #D1D1E1; color:
+#000000; border: 1px solid #0B198C; } .tcat { background: #869BBF
+url(images/gradients/gradient_tcat.gif) repeat-x top left; color: #FFFFFF; font: bold
+10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; } .tcat
+a:link, .tcat_alink { color: #ffffff; text-decoration: none; } .tcat a:visited,
+.tcat_avisited { color: #ffffff; text-decoration: none; } .tcat a:hover, .tcat a:active,
+.tcat_ahover { color: #FFFF66; text-decoration: underline; } .thead { background: #5C7099
+url(images/gradients/gradient_thead.gif) repeat-x top left; color: #FFFFFF; font: bold
+11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; }
+.thead a:link, .thead_alink { color: #FFFFFF; } .thead a:visited, .thead_avisited { color:
+#FFFFFF; } .thead a:hover, .thead a:active, .thead_ahover { color: #FFFF00; } .tfoot {
+background: #3E5C92; color: #E0E0F6; } .tfoot a:link, .tfoot_alink { color: #E0E0F6; }
+.tfoot a:visited, .tfoot_avisited { color: #E0E0F6; } .tfoot a:hover, .tfoot a:active,
+.tfoot_ahover { color: #FFFF66; } .alt1, .alt1Active { background: #F5F5FF; color:
+#000000; } .alt2, .alt2Active { background: #E1E4F2; color: #000000; } .inlinemod {
+background: #FFFFCC; color: #000000; } .wysiwyg { background: #F5F5FF; color: #000000;
+font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+margin: 5px 10px 10px 10px; padding: 0px; } .wysiwyg a:link, .wysiwyg_alink { color:
+#22229C; } .wysiwyg a:visited, .wysiwyg_avisited { color: #22229C; } .wysiwyg a:hover,
+.wysiwyg a:active, .wysiwyg_ahover { color: #FF4400; } textarea, .bginput { font: 10pt
+verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; } .bginput
+option, .bginput optgroup { font-size: 10pt; font-family: verdana, geneva, lucida,
+'lucida grande', arial, helvetica, sans-serif; } .button { font: 11px verdana, geneva,
+lucida, 'lucida grande', arial, helvetica, sans-serif; } select { font: 11px verdana,
+geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; } option, optgroup {
+font-size: 11px; font-family: verdana, geneva, lucida, 'lucida grande', arial,
+helvetica, sans-serif; } .smallfont { font: 11px verdana, geneva, lucida, 'lucida grande',
+arial, helvetica, sans-serif; } .time { color: #666686; } .navbar { font: 11px verdana,
+geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; } .highlight { color:
+#FF0000; font-weight: bold; } .fjsel { background: #3E5C92; color: #E0E0F6; } .fjdpth0 {
+background: #F7F7F7; color: #000000; } .panel { background: #E4E7F5
+url(images/gradients/gradient_panel.gif) repeat-x top left; color: #000000; padding:
+10px; border: 2px outset; } .panelsurround { background: #D1D4E0
+url(images/gradients/gradient_panelsurround.gif) repeat-x top left; color: #000000; }
+legend { color: #22229C; font: 11px tahoma, verdana, geneva, lucida, 'lucida grande',
+arial, helvetica, sans-serif; } .vbmenu_control { background: #738FBF; color: #FFFFFF;
+font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica,
+sans-serif; padding: 3px 6px 3px 6px; white-space: nowrap; } .vbmenu_control a:link,
+.vbmenu_control_alink { color: #FFFFFF; text-decoration: none; } .vbmenu_control
+a:visited, .vbmenu_control_avisited { color: #FFFFFF; text-decoration: none; }
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover { color:
+#FFFFFF; text-decoration: underline; } .vbmenu_popup { background: #FFFFFF; color:
+#000000; border: 1px solid #0B198C; } .vbmenu_option { background: #BBC7CE; color:
+#000000; font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica,
+sans-serif; white-space: nowrap; cursor: pointer; } .vbmenu_option a:link,
+.vbmenu_option_alink { color: #22229C; text-decoration: none; } .vbmenu_option
+a:visited, .vbmenu_option_avisited { color: #22229C; text-decoration: none; }
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover { color:
+#FFFFFF; text-decoration: none; } .vbmenu_hilite { background: #8A949E; color: #FFFFFF;
+font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+white-space: nowrap; cursor: pointer; } .vbmenu_hilite a:link, .vbmenu_hilite_alink {
+color: #FFFFFF; text-decoration: none; } .vbmenu_hilite a:visited,
+.vbmenu_hilite_avisited { color: #FFFFFF; text-decoration: none; } .vbmenu_hilite
+a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover { color: #FFFFFF;
+text-decoration: none; } /* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; } /* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; } /* ***** basic styles for multi-page nav
+elements */ .pagenav a { text-decoration: none; } .pagenav td { padding: 2px 4px 2px 4px; } /*
+***** de-emphasized text */ .shade, a.shade:link, a.shade:visited { color: #777777;
+text-decoration: none; } a.shade:active, a.shade:hover { color: #FF4400;
+text-decoration: underline; } .tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD;
+} /* ***** define margin and font-size for elements inside panels ***** */ .fieldset {
+margin-bottom: 6px; } .fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px;
+} <!-- var SESSIONURL = "s=3566b612221f75a9fb616030732f4e10&"; var SECURITYTOKEN =
+"guest"; var IMGDIR_MISC = "/ttmbforum/images/misc"; var vb_disable_ajax =
+parseInt("0", 10); // --> var googletag = googletag || {}; googletag.cmd = googletag.cmd ||
+[]; (function() { var gads = document.createElement('script'); gads.async = true;
+gads.type = 'text/javascript'; var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node); })(); googletag.cmd.push(function() {
+googletag.defineSlot('/1026022/2cool_rosATF_leaderboard', [728, 90],
+'div-gpt-ad-1323985083214-19').addService(googletag.pubads());
+googletag.defineSlot('/1026022/2cool_discussion_Generalsponsorship', [735, 130],
+'div-gpt-ad-1324068857353-3').addService(googletag.pubads());
+googletag.defineSlot('/1026022/2cool_rosBTF_leaderboard', [728, 90],
+'div-gpt-ad-1323985083214-21').addService(googletag.pubads());
+googletag.defineSlot('/1026022/2cool_rosATF_skyscraper', [160, 600],
+'div-gpt-ad-1323985083214-20').addService(googletag.pubads());
+googletag.defineSlot('/1026022/2Cool_ROS_160square', [160, 160],
+'div-gpt-ad-1323985083214-16').addService(googletag.pubads());
+googletag.defineSlot('/1026022/2Cool_ROS_160square_2', [160, 160],
+'div-gpt-ad-1323985083214-17').addService(googletag.pubads());
+googletag.defineSlot('/1026022/2Cool_ROS_160square_3', [160, 160],
+'div-gpt-ad-1323985083214-18').addService(googletag.pubads());
+googletag.defineSlot('/1026022/2cool_rosBTF_skyscraper', [160, 600],
+'div-gpt-ad-1323985083214-22').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest(); googletag.pubads().set( "page_url",
+top.window.location.href ); googletag.enableServices(); }); var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-1302724-3']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})(); Galveston Jetties on Good Friday - 2CoolFishing <!-- #links div { white-space: nowrap;
+} #links img { vertical-align: middle; } -->
+
+Home   |   Contact Us   |   Advertise   |   Follow:
+
+Image: http://www.noreast.com/images/followfacebook.jpg
+
+Image: http://www.2coolfishing.com/topleft08_C.jpg googletag.cmd.push(function() {
+googletag.display('div-gpt-ad-1323985083214-19'); });
+
+Image: http://www.2coolfishing.com/images/topright08.gif     Message Board   |  
+Blogs   |   Videos   |   Tide Charts   |   Reel Time Weather (Upper Coast)   |   Reel Time
+Weather (Middle Coast)   |   Sponsors |   Contact Us
+
+
+
+Image: /ttmbforum/images/misc/navbits_start.gif   2CoolFishing > Saltwater Fishing
+Forums > General Fishing Discussion
+
+Image: /ttmbforum/images/misc/navbits_finallink_ltr.gif Galveston Jetties on Good
+Friday User Name Remember Me? Password Register FAQ Social Groups Calendar Mark Forums Read
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1324068857353-3');
+});
+
+Image: /ttmbforum/images/buttons/reply.gif Page 1 of 4 1 2 3 4 >   Thread Tools Display Modes
+  # 1  
+
+Image: /ttmbforum/images/statusicon/post_old.gif 04-08-2007, 04:27 PM aglaw
+
+Image: /ttmbforum/images/statusicon/user_offline.gif
+vbmenu_register("postmenu_1078269", true); Registered Users-pm+   Join Date: Jul 11
+2005 Age: 40 Posts: 48 Rep Power: 2733
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/icons/sheepy2.gif Galveston Jetties on Good Friday
+
+
+
+WE put in at Texas City Dike at 8am. Headed over to the North Jetty. Sat there for about an hour in a
+severe chop and caught nothing but a single gafftop. (although my one buddy did get some severe
+sea sickness)
+
+
+
+Cruised over to the S. Jetty, and anchored about half way down(close to one of the party boats)
+and about 50 yards off the jetty. We threw out lines with live shrimp, cut shad and fresh dead
+crab.
+
+
+
+Nothing touched the crab all day. The shrimp landed us 2 bull reds which were fun to pull on with
+light tackle.
+
+
+
+The cut shad was the food of choice that day. We pulled in 6 more bull reds with it, and also got in 2
+yellow fin tuna. I had never caught tuna before, and didnt know that they would be there at the
+jetty, but man were they fun to fight. They really grabbed the line and started spooling it out.
+Thank goodness it was on my big pole with 50lb test and a steel leader on it. One weighed in at
+27lbs and the other at 38lbs.
+
+
+
+I am trying to get the picture off my phone to post them. They made some great fillets, afterI
+figured out how to clean them.
+
+
+
+tightlines all!
+
+Image: /ttmbforum/images/buttons/quote.gif aglaw View Public Profile Send a private
+message to aglaw Visit aglaw's homepage! Find all posts by aglaw   # 2  
+
+Image: /ttmbforum/images/statusicon/post_old.gif 04-08-2007, 04:35 PM
+
+Image: images/avatars/fish23.gif mikeyd3
+
+Image: /ttmbforum/images/statusicon/user_offline.gif
+vbmenu_register("postmenu_1078278", true); Always Chasing Tails   Join Date: Mar 19 2006
+Location: Spring, Tx Age: 34 Posts: 203 Rep Power: 2611
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/icons/drum.gif Pictures
+
+
+
+Yellowfin Tuna??? You have pictures of those Tuna?
+
+Image: /ttmbforum/images/buttons/quote.gif mikeyd3 View Public Profile Send a private
+message to mikeyd3 Find all posts by mikeyd3   # 3  
+
+Image: /ttmbforum/images/statusicon/post_old.gif 04-08-2007, 04:40 PM
+
+Image: image.php?s=3566b612221f75a9fb616030732f4e10&u=18441&dateline=1175300191
+Dances With Fish
+
+Image: /ttmbforum/images/statusicon/user_offline.gif
+vbmenu_register("postmenu_1078282", true); let me think   Join Date: Jul 24 2006
+Location: The Toxic city of Texas Posts: 1,554 Rep Power: 4432
+
+Image: /ttmbforum/images/reputation/reputation_off.gif Tuna at the Jetties>.......
+
+Image: images/smilies/troll2.gif
+
+Image: /ttmbforum/images/buttons/quote.gif Dances With Fish View Public Profile Send a
+private message to Dances With Fish Find all posts by Dances With Fish   # 4  
+
+Image: /ttmbforum/images/statusicon/post_old.gif 04-08-2007, 04:41 PM aglaw
+
+Image: /ttmbforum/images/statusicon/user_offline.gif
+vbmenu_register("postmenu_1078284", true); Registered Users-pm+   Join Date: Jul 11
+2005 Age: 40 Posts: 48 Rep Power: 2733
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif All we had was a camera
+phone. I am trying to get it off the phone and onto here, will work on that.
+
+
+
+I am a pretty new fisherman to salt water. I had never caught this fish before so I did some
+research when we got home and found picture of fish that looked like what we caught and I figured
+it was tuna because of the yellow tail and fin on top. You ask the question like it couldn't be
+that? I am not positive tht is what they were but they fit the description. and man were they
+tough fighters.
+
+Image: /ttmbforum/images/buttons/quote.gif aglaw View Public Profile Send a private
+message to aglaw Visit aglaw's homepage! Find all posts by aglaw   # 5  
+
+Image: /ttmbforum/images/statusicon/post_old.gif 04-08-2007, 04:43 PM
+
+Image: image.php?s=3566b612221f75a9fb616030732f4e10&u=1749&dateline=1251305459
+Corey D.
+
+Image: /ttmbforum/images/statusicon/user_offline.gif
+vbmenu_register("postmenu_1078286", true); twitch, twitch ........bam!!!! FISH ON  
+Join Date: Jul 21 2004 Location: La porte, TX Age: 37 Posts: 654 Rep Power: 2673855
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif bay tuna
+
+
+
+wait until you try one of those yum yum! place on a 2x4 in the bbq pit and cook for 8 to 10 hours at
+400degrees and then throw the fish away and eat the 2x4
+
+Image: /ttmbforum/images/buttons/quote.gif Corey D. View Public Profile Send a private
+message to Corey D. Find all posts by Corey D.   # 6  
+
+Image: /ttmbforum/images/statusicon/post_old.gif 04-08-2007, 04:45 PM
+
+Image: images/avatars/fish23.gif mikeyd3
+
+Image: /ttmbforum/images/statusicon/user_offline.gif
+vbmenu_register("postmenu_1078289", true); Always Chasing Tails   Join Date: Mar 19 2006
+Location: Spring, Tx Age: 34 Posts: 203 Rep Power: 2611
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/icons/drum.gif Tuna
+
+
+
+I am pretty sure it was probably a Jack Crevalle.
+
+Image: /ttmbforum/images/buttons/quote.gif mikeyd3 View Public Profile Send a private
+message to mikeyd3 Find all posts by mikeyd3   # 7  
+
+Image: /ttmbforum/images/statusicon/post_old.gif 04-08-2007, 04:46 PM
+
+Image: image.php?s=3566b612221f75a9fb616030732f4e10&u=4962&dateline=1149995224
+4thbreak
+
+Image: /ttmbforum/images/statusicon/user_offline.gif
+vbmenu_register("postmenu_1078290", true); In the Surf   Join Date: May 20 2005 Location:
+TX Posts: 454 Rep Power: 218284
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif Quote: Originally Posted
+by mikeyd3 I am pretty sure it was probably a Jack Crevalle. ditto
+
+Image: /ttmbforum/images/buttons/quote.gif 4thbreak View Public Profile Send a private
+message to 4thbreak Find all posts by 4thbreak   # 8  
+
+Image: /ttmbforum/images/statusicon/post_old.gif 04-08-2007, 04:53 PM
+
+Image: image.php?s=3566b612221f75a9fb616030732f4e10&u=19983&dateline=1344274022
+Mojo281
+
+Image: /ttmbforum/images/statusicon/user_offline.gif
+vbmenu_register("postmenu_1078295", true); The Migration Stops Here   Join Date: Sep 07
+2006 Location: SE Texas Posts: 1,324 Rep Power: 8180317
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif More than likely a Jack,
+but maybe he's right.
+
+
+
+Hey Aglaw, which fish did it look like?
+
+
+
+
+
+Image: http://abouttitusville.com/outdoors/fishing/images/crevallej.jpg
+
+
+
+
+
+Image: http://www.hawaii.gov/dbedt/seafood/yellowfin1.gif
+
+
+
+Last edited by Mojo281; 04-08-2007 at 05:14 PM .
+
+Image: /ttmbforum/images/buttons/quote.gif Mojo281 View Public Profile Send a private
+message to Mojo281 Find all posts by Mojo281   # 9  
+
+Image: /ttmbforum/images/statusicon/post_old.gif 04-08-2007, 05:10 PM
+
+Image: image.php?s=3566b612221f75a9fb616030732f4e10&u=6570&dateline=1151631655
+cabolew
+
+Image: /ttmbforum/images/statusicon/user_offline.gif
+vbmenu_register("postmenu_1078305", true); Team Strike Pro - Team Sea Magic   Join Date:
+Aug 12 2005 Location: Not close enough to the beach Age: 44 Posts: 1,235 Rep Power: 4352912
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif aglaw... please tell
+everyone that your pulling their leg. lol
+
+Image: /ttmbforum/images/buttons/quote.gif cabolew View Public Profile Send a private
+message to cabolew Find all posts by cabolew   # 10  
+
+Image: /ttmbforum/images/statusicon/post_old.gif 04-08-2007, 05:14 PM
+
+Image: image.php?s=3566b612221f75a9fb616030732f4e10&u=6570&dateline=1151631655
+cabolew
+
+Image: /ttmbforum/images/statusicon/user_offline.gif
+vbmenu_register("postmenu_1078309", true); Team Strike Pro - Team Sea Magic   Join Date:
+Aug 12 2005 Location: Not close enough to the beach Age: 44 Posts: 1,235 Rep Power: 4352912
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_pos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif
+
+Image: /ttmbforum/images/reputation/reputation_highpos.gif Wikipedia:
+
+
+
+Crevalle jack
+
+
+
+From Wikipedia, the free encyclopedia
+
+
+
+
+
+Jump to: navigation , search
+
+
+
+Image: http://upload.wikimedia.org/wikipedia/commons/7/75/Information-silk.png
+
+Crevalle jack
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Crevalle_jack.jpg/250px-Crevalle_jack.jpg
+
+Scientific classification Kingdom: Animalia
+
+Phylum: Chordata
+
+Class: Actinopterygii
+
+Order: Perciformes
+
+Family: Carangidae
+
+Genus: Caranx
+
+Species: C. hippos
+
+Binomial name Caranx hippos
+
+( Linnaeus , 1766 ) Crevalle jack , Caranx hippos , is a fast, saltwater fish that can be found in
+inland waters along the shoreline of the western Atlantic Ocean from Nova Scotia to Uruguay
+and the eastern Atlantic from Portugal to Angola . It has a large rounded head with large eyes
+and a dark silvery body that can show hints of blue-green to green-gold. They grow to more than
+three feet in length, though more commonly they are between one and two and a half feet long. The
+fish usually weighs between three and five pounds, but a 51 pound Crevalle Jack was taken off
+the coast of Florida . Crevalle jacks can be poisonous to eat due to the threat of ciguatera
+poisoning, but they are prized as a game fish.
+
+
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Crevalle_jack2.jpg/240px-Crevalle_jack2.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+
+Crevalle jacks in a reef in the Caribbean Sea.
+
+
+
+
+
+Crevalle jacks spawn offshore from early March to early September. When young, they run in
+large schools, but become solitary as they get older. They are preyed upon by many surface
+feeding carnivores, including finfish , such as the striped marlin , and seabirds. Crevalle
+jacks feed during the day and eat a variety of fish and invertebrates . Other common names for
+Caranx hippos include common jack, blacktailed trevally, cabalo, green jack, horse
+mackerel, horse-eye jack, kingfish, and trevally.
+
+
+
+[ edit ] References
+
+    
+
+    - " Caranx hippos " . FishBase . Ed. Ranier Froese and Daniel Pauly. 06 2006 version. N.p.:
+    FishBase, 2006.
+
+    
+
+    - Caranx hippos (TSN 168609) . Integrated Taxonomic Information System . Accessed on 13
+    June 2006 .
+
+    
+
+This fish is also known as the Galveston Jetty Yellow Fin Tuna.
+
+
+
+
+
+
+
+[ edit ] External links
+
+    
+
+    - Flordia Museum of Natural History Ichthyology Department biological profile
+
+    
+
+    - eNature field guide entry
+
+    
+
+    - Texas Parks and Wildlife fact sheet
+
+    
+
+Retrieved from " http://en.wikipedia.org/wiki/Crevalle_jack "
+
+Image: /ttmbforum/images/buttons/quote.gif cabolew View Public Profile Send a private
+message to cabolew Find all posts by cabolew
+
+Image: /ttmbforum/images/buttons/reply.gif Page 1 of 4 1 2 3 4 >
+
+    Bookmarks
+
+    -
+
+    Image: /ttmbforum/images/misc/bookmarksite_digg.gif Digg
+
+    
+
+    -
+
+    Image: /ttmbforum/images/misc/bookmarksite_delicious.gif del.icio.us
+
+    
+
+    -
+
+    Image: /ttmbforum/images/misc/bookmarksite_stumbleupon.gif StumbleUpon
+
+    
+
+    -
+
+    Image: /ttmbforum/images/misc/bookmarksite_google.gif Google
+
+    
+
+
+
+« Previous Thread | Next Thread »
+
+Currently Active Users Viewing This Thread: 1 (0 members and 1 guests)   Thread Tools
+
+Image: /ttmbforum/images/buttons/printer.gif Show Printable Version
+
+Image: /ttmbforum/images/buttons/sendtofriend.gif Email this Page Display Modes
+
+Image: /ttmbforum/images/buttons/mode_linear.gif Linear Mode
+
+Image: /ttmbforum/images/buttons/mode_hybrid.gif Switch to Hybrid Mode
+
+Image: /ttmbforum/images/buttons/mode_threaded.gif Switch to Threaded Mode
+
+
+
+Image: /ttmbforum/images/buttons/collapse_thead.gif Posting Rules You may not post new
+threads You may not post replies You may not post attachments You may not edit your posts
+
+
+
+BB code is On Smilies are On [IMG] code is On HTML code is Off
+
+
+
+Forum Rules Forum Jump
+
+User Control Panel Private Messages Subscriptions Who's Online Search Forums Forums Home
+TTMB Saltwater Fishing Forums     Fishing Reports     General Fishing Discussion    
+Texas Tarpon     Rod building forum     Gulf Coast Surf Fishing Message Board    
+Conservation Crossfire/Fisheries Issues     Flyfishing Forum     Reel repair,
+maintenance, and upgrade forum     Line Class Forum     Crew Wanted/Crew Available
+Bluewater Forums     Bluewater Board     scuba/spearfishing forum     Jigging & Popping
+Forum Fresh water forums     Freshwater Fishing General Discussion Forum     The Catfish
+Lounge     Bow Fishing Forum Hunting and Shooting Forums     Hunting Board     Bow Hunting
+Forum     Reloading/Handloading forum General Interest Forums     Boating Forum    
+Blogs     Upcoming Events     Food For the Soul     Trucks/Towing/Trailering Forum    
+Joke Board     BBQ & Grilling Forum     Home Gardening Forum     Investments and finance  
+  Tobacco Quitters Support Forum     Recipes     Support our troops     TTMB Riders Group
+    DIY (Do it yourself) forum     Wood Turning & Wood Working Forum     Photography Forum
+    Good Old Boys Hunting and Fishing Club     Musicians Corner Forum     Technical
+Support Board     RC General Forum     Testing/cookie board     Camping out and RV Forum
+Classified Ads     Boats/boating gear/engines/trailers for sale     Fishing gear &
+electronics for sale & wanted     Vehicles for sale     Real estate & rentals     Help
+wanted and jobs available     Hunts/hunting gear for sale & wanted     General merchandise
+    Wanted to trade     Wanted to buy     Free Stuff     Misc. section     RC Stuff The
+bottom dweller     Sports forum     The Lonely Hearts Club
+
+ame_toggle_view({other : 'true',post : 'true',blog : 'true',group : 'true',vm :
+'true',sig : 'true'});
+
+All times are GMT -5. The time now is 03:57 AM .
+
+Contact Us - 2CoolFishing - Archive - Top
+
+Powered by vBulletin® Version 3.8.4
+
+Copyright ©2000 - 2012, Jelsoft Enterprises Ltd. copyright 2004 <!-- // Main vBulletin
+Javascript Initialization vBulletin_init(); //--> googletag.cmd.push(function() {
+googletag.display('div-gpt-ad-1323985083214-21'); });
+
+Image: http://www.noreast.com/images/blank.gif
+
+Image: http://www.noreast.com/images/blank.gif googletag.cmd.push(function() {
+googletag.display('div-gpt-ad-1323985083214-20'); });
+
+Image: http://www.noreast.com/images/blank.gif googletag.cmd.push(function() {
+googletag.display('div-gpt-ad-1323985083214-16'); });
+
+Image: http://www.noreast.com/images/blank.gif googletag.cmd.push(function() {
+googletag.display('div-gpt-ad-1323985083214-17'); });
+
+Image: http://www.noreast.com/images/blank.gif googletag.cmd.push(function() {
+googletag.display('div-gpt-ad-1323985083214-18'); });
+
+Image: http://www.noreast.com/images/blank.gif googletag.cmd.push(function() {
+googletag.display('div-gpt-ad-1323985083214-22'); });
+
+Image: http://allcoastmedia.com/amn/amn.jpg
+
+Image: http://allcoastmedia.com/amn/amn_2cool.jpg
+
+Image: http://allcoastmedia.com/amn/amn_noreast.jpg
+
+Image: http://allcoastmedia.com/amn/amn_247.jpg
+
+Image: http://allcoastmedia.com/amn/amn_allcoast.jpg
+
+Image: http://allcoastmedia.com/amn/amn_ifish.jpg © 2008 Noreast Media, LLC | Terms of
+Service | Contact Us | Advertise var _qevents = _qevents || []; (function() { var elem =
+document.createElement('script'); elem.src = (document.location.protocol == "https:"
+? "https://secure" : "http://edge") + ".quantserve.com/quant.js"; elem.async = true;
+elem.type = "text/javascript"; var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt); })(); _qevents.push({
+qacct:"p-8c-9IoQlVzpTM" });
+
+Image: //pixel.quantserve.com/pixel/p-8c-9IoQlVzpTM.gif
+

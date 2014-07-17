@@ -1,0 +1,3698 @@
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+WikiLinkItem
+p0
+(dp1
+S'url'
+p2
+S'http://ad556.webs.com/'
+p3
+sS'content'
+p4
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+PageContentItem
+p5
+(dp6
+S'articleText'
+p7
+NsS'raw'
+p8
+NsS'fullText'
+p9
+NsS'dom'
+p10
+S'<html>\n  <head>\n    <title>Bill Goldberg Fansite - Wrestling News</title>\n    <meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type"></meta>\n    <meta content="" name="keywords"></meta>\n    <meta content="" name="description"></meta>\n    <link href="http://ad556.webs.com/" rel="canonical"></link>\n    <meta content="Wrestling News" property="og:site_name"></meta>\n    <meta content="Bill Goldberg Fansite" property="og:title"></meta>\n    <link href="http://static.websimages.com/static/global/theme/css/pluggables.css" type="text/css" rel="stylesheet"></link>\n    <script src="http://static.websimages.com/static/global/js/webs/usersites/webs_common.js" type="text/javascript"></script>\n    <script src="http://static.websimages.com/static/global/js/webs/websover.min.js" type="text/javascript"></script>\n    <link href="http://static.websimages.com/static/global/css/templatebase.css" media="screen" type="text/css" rel="stylesheet" id="templatebase"></link>\n    <link media="screen" href="http://static.websimages.com/static/motifs/Fade/Blue/style.css" type="text/css" rel="stylesheet"></link>\n    <style>#logo-div { background-image: url(\'http://images.freewebs.com/Images/null.gif\');}</style>\n    <style id="page_custom_background_1">html {background-image:url(\'http://www.freewebs.com/ad556/untitled.JPG\') !important;background-repeat:repeat !important;background-position:top left !important;}</style>\n    <script>if(typeof(webs)===\'undefined\'){webs={page:{id:102149609}}}else if(typeof(webs.page)===\'undefined\'){webs.page={id:102149609}}else if(typeof(webs.page.id)===\'undefinded\'){webs.page.id=102149609}</script>\n    <meta content="4" name="fw:category"></meta>\n    <link media="print" href="http://images.freewebs.com/Members/Generationz/Standard/PrintCSS/print.css" type="text/css" rel="stylesheet"></link>\n  </head>\n  <body class="hasOneColumn noSidebar navtype-Top translate-en">\n    <script src="http://partner.googleadservices.com/gampad/google_service.js" type="text/javascript"> </script>\n    <script type="text/javascript"> GS_googleAddAdSenseService(&quot;ca-pub-4763110844767107&quot;); GS_googleEnableAllServices(); </script>\n    <script type="text/javascript"> GA_googleAddAttr(\'cat\', \'00\'); GA_googleAddAttr(\'wl\', \'4\'); </script>\n    <script type="text/javascript"> GA_googleAddSlot(&quot;ca-pub-4763110844767107&quot;, &quot;user_728x90&quot;); </script>\n    <script type="text/javascript"> GA_googleFetchAds(); </script>\n    <script src="http://static.websimages.com/JS/fw.js" type="text/javascript"></script>\n    <style type="text/css"> .kisser { position:absolute; top:0; left:0; visibility:hidden; } </style>\n    <script type="text/JavaScript" language="JavaScript1.2">\n      &lt;!-- cloak\n\n//Kissing trail- By dij8 (dij8@dij8.com)\n//Modified by Dynamic Drive for bug fixes\n//Visit http://www.dynamicdrive.com for this script\n\nkisserCount = 1 //maximum number of images on screen at one time\ncurKisser = 0 //the last image DIV to be displayed (used for timer)\nkissDelay = 50000 //duration images stay on screen (in milliseconds)\nkissSpacer = 10 //distance to move mouse b4 next heart appears\ntheimage = &quot;http://images.freewebs.com/Images/MouseFX/GhostRiderFlame.gif&quot; //the 1st image to be displayed\ntheimage2 = &quot;http://images.freewebs.com/Images/MouseFX/GhostRiderFlame.gif&quot; //the 2nd image to be displayed\n\n\n//Browser checking and syntax variables\nvar docLayers = (document.layers) ? true:false;\nvar docId = (document.getElementById) ? true:false;\nvar docAll = (document.all) ? true:false;\n\nvar ns6=document.getElementById&amp;&amp;!document.all\n//Variables used in script\nvar posX, posY, lastX, lastY, kisserCount, curKisser, kissDelay, kissSpacer, theimage\nlastX = 0\nlastY = 0\n//Collection of functions to get mouse position and place the images\nfunction doKisser(e) {\n\n  posX = getMouseXPos(e) - 17;\n  posY = getMouseYPos(e) - 48;\n\n  var processedx=ns6? Math.min(posX,window.innerWidth-75) : docAll? Math.min(posX,document.body.clientWidth-55) : x\n\n/*  if (posX&gt;(lastX+kissSpacer)||posX&lt;(lastX-kissSpacer)||posY&gt;(lastY+kissSpacer)||posY&lt;(lastY-kissSpacer)) {\n\tshowKisser(posX,posY)\n\tlastX = posX\n\tlastY = posY\n\n  }*/\n\n  document.getElementById(\'kisser0\').style.left = processedx + &quot;px&quot;;\n  document.getElementById(\'kisser0\').style.top = posY + &quot;px&quot;;\n  document.getElementById(\'kisser0\').style.visibility = &quot;visible&quot;;\n}\n// Get the horizontal position of the mouse\nfunction getMouseXPos(e) {\n  if (document.layers||ns6) {\n\treturn parseInt(e.pageX+10)\n  } else {\n\treturn (parseInt(event.clientX+10) + parseInt(document.body.scrollLeft))\n  }\n}\n// Get the vartical position of the mouse\nfunction getMouseYPos(e) {\n  if (document.layers||ns6) {\n\treturn parseInt(e.pageY)\n  } else {\n\treturn (parseInt(event.clientY) + parseInt(document.body.scrollTop))\n  }\n}\n//Place the image and start timer so that it disappears after a period of time\nfunction showKisser(x,y) {\n  var processedx=ns6? Math.min(x,window.innerWidth-75) : docAll? Math.min(x,document.body.clientWidth-55) : x\n  if (curKisser &gt;= kisserCount) {curKisser = 0}\n  document.getElementById(\'kisser\'+curKisser).style.left = processedx + &quot;px&quot;;\n  document.getElementById(\'kisser\'+curKisser).style.top = y + &quot;px&quot;;\n  document.getElementById(\'kisser\'+curKisser).style.visibility = &quot;visible&quot;;\n\n  if (eval(&quot;typeof(kissDelay&quot; + curKisser + &quot;)&quot;)==&quot;number&quot;) {\n\teval(&quot;clearTimeout(kissDelay&quot; + curKisser + &quot;)&quot;)\n  }\n  eval(&quot;kissDelay&quot; + curKisser + &quot; = setTimeout(\'hideKisser(&quot; + curKisser + &quot;)\',kissDelay)&quot;)\n  curKisser += 1\n}\n//Make the image disappear\nfunction hideKisser(knum) {\n  document.getElementById(\'kisser\'+knum).style.visibility = &quot;hidden&quot;;\n}\n\nfunction kissbegin(){\n//Let the browser know when the mouse moves\nif (docLayers) {\n  document.captureEvents(Event.MOUSEMOVE)\n  document.onMouseMove = doKisser\n} else {\n  document.onmousemove = doKisser\n}\n}\nwindow.onload=kissbegin\n\n// Add all DIV\'s of hearts\nif (document.all||document.getElementById||document.layers){\nfor (k=0;k&lt;kisserCount;k=k+2) {\n  document.write(\'&lt;div id=&quot;kisser\' + k + \'&quot; class=&quot;kisser&quot;&gt;&lt;img src=&quot;\' + theimage + \'&quot; alt=&quot;&quot; border=&quot;0&quot;&gt;&lt;/div&gt;\\n\')\n  document.write(\'&lt;div id=&quot;kisser\' + (k+1) + \'&quot; class=&quot;kisser&quot;&gt;&lt;img src=&quot;\' + theimage2 + \'&quot; alt=&quot;&quot; border=&quot;0&quot;&gt;&lt;/div&gt;\\n\')\n}\n}\n// decloak --&gt;\n    </script>\n    <div id="fw-advertisement">\n      <p>\n        <script type="text/javascript"> GA_googleFillSlot(&quot;user_728x90&quot;); </script>\n      </p>\n    </div>\n    <div id="fw-container">\n      <div id="fw-head">\n        <h1 id="fw-title">\n          <a href="http://ad556.webs.com/" id="fw-titlelink" shape="rect">Wrestling News</a>\n        </h1>\n        <h2 id="fw-smalltitle"></h2>\n        <div id="logo-div" class="fw-logo"></div>\n      </div>\n      <div id="fw-blockContainer">\n        <div id="fw-mainnavwrap">\n          <div id="fw-nav-menu">\n            <ul class="fw-nav-level-0">\n              <li>\n                <a href="http://ad556.webs.com/" class="section fw-current-nav-link" shape="rect">Bill Goldberg Fansite</a>\n              </li>\n              <li>\n                <a href="http://ad556.webs.com/goldberggifs.htm" class="section fw-class-05f947c001c368c58c04e6f88b5b6727" shape="rect">Goldberg GIFs</a>\n              </li>\n            </ul>\n          </div>\n        </div>\n        <div id="fw-bigcontain">\n          <div id="fw-columnContainer">\n            <div id="fw-mainColumn">\n              <div class="fw-paragraph">\n                <div class="fw-paragraphtop"></div>\n                <h3 class="fw-title">\n                  <a name="227569918" shape="rect"></a>\n                  \xc2\xa0\xc2\xa0\xc2\xa0\xc2\xa0\xc2\xa0\xc2\xa0\n                  <font style="background-color: #ffff00" size="5">Everything about Bill Goldberg.</font>\n                </h3>\n                <div class="fw-text">\n                  <p align="center">\n                    <font size="2">\n                      <b>This page is about Bill Goldberg.</b>\n                    </font>\n                    <img style="margin: 8px" src="http://www.freewebs.com/ad556/Goldberg_full.jpg" border="0" class="fw_image_computer fwSizeProp"></img>\n                  </p>\n                  <p align="center">\n                    <font size="2">\n                      <b>\xc2\xa0Bill Goldberg Bio: </b>\n                    </font>\n                  </p>\n                  <p align="center">\xc2\xa0</p>\n                  <h2>\n                    <span class="mw-headline">Professional wrestling career</span>\n                  </h2>\n                  <p>\n                    <a name="World_Championship_Wrestling_.281997-2001.29" id="World_Championship_Wrestling_.281997-2001.29" shape="rect"></a>\n                  </p>\n                  <h3>\n                    <span class="editsection"></span>\n                    <span class="mw-headline">World Championship Wrestling (1997-2001)</span>\n                  </h3>\n                  <p>\n                    <a name="Debut_.26_Early_Gimmick_.281996-1997.29" id="Debut_.26_Early_Gimmick_.281996-1997.29" shape="rect"></a>\n                  </p>\n                  <h4>\n                    <span class="editsection"></span>\n                    <span class="mw-headline">Debut &amp; Early Gimmick (1996-1997)</span>\n                  </h4>\n                  <p>\n                    <font size="2">\n                      Goldberg met several employees of the\n                      <a title="World Championship Wrestling" href="http://en.wikipedia.org/wiki/World_Championship_Wrestling" shape="rect">World Championship Wrestling</a>\n                      (WCW)\n                      <a title="Professional wrestling" href="http://en.wikipedia.org/wiki/Professional_wrestling" shape="rect">professional wrestling</a>\n                      <a title="Professional wrestling promotion" href="http://en.wikipedia.org/wiki/Professional_wrestling_promotion" shape="rect">promotion</a>\n                      while living in\n                      <a title="Atlanta, Georgia" href="http://en.wikipedia.org/wiki/Atlanta,_Georgia" shape="rect">Atlanta, Georgia</a>\n                      , and decided to pursue a career in wrestling after meeting WCW employees\n                      <a title="Sting (wrestler)" href="http://en.wikipedia.org/wiki/Sting_(wrestler)" shape="rect">Sting</a>\n                      and\n                      <a title="Lex Luger" href="http://en.wikipedia.org/wiki/Lex_Luger" shape="rect">Lex Luger</a>\n                      in a gym that the two co-owned. He was quickly signed to a contract by WCW and sent to the\n                      <a title="WCW Power Plant" href="http://en.wikipedia.org/wiki/WCW_Power_Plant" shape="rect">WCW Power Plant</a>\n                      , a\n                      <a title="Professional wrestling school" href="http://en.wikipedia.org/wiki/Professional_wrestling_school" shape="rect">professional wrestling school</a>\n                      owned by WCW and operated by former wrestlers such as\n                      <a title="Dwayne Bruce" href="http://en.wikipedia.org/wiki/Dwayne_Bruce" shape="rect">Dwayne Bruce</a>\n                      .\n                      <sup id="cite_ref-Milner1_7-0" class="reference">\n                        <a href="http://en.wikipedia.org/wiki/Bill_Goldberg#cite_note-Milner1-7" shape="rect">[8]</a>\n                      </sup>\n                      <sup id="cite_ref-oww_0-12" class="reference">\n                        <a href="http://en.wikipedia.org/wiki/Bill_Goldberg#cite_note-oww-0" shape="rect">[1]</a>\n                      </sup>\n                      <sup id="cite_ref-acceleratorbio_1-9" class="reference">\n                        <a href="http://en.wikipedia.org/wiki/Bill_Goldberg#cite_note-acceleratorbio-1" shape="rect">[2]</a>\n                      </sup>\n                      After training in the Power Plant for several months, Goldberg debuted on June 24, 1997, defeating\n                      <a title="Buddy Landel" href="http://en.wikipedia.org/wiki/Buddy_Landel" shape="rect">Buddy Landell</a>\n                      in a\n                      <a title="List of professional wrestling slang" href="http://en.wikipedia.org/wiki/List_of_professional_wrestling_slang#D" shape="rect">dark match</a>\n                      under the\n                      <a title="Ring name" href="http://en.wikipedia.org/wiki/Ring_name" shape="rect">ring name</a>\n                      <b>Bill Gold</b>\n                      (he had originally considered wrestling as &quot;\n                      <b>\n                        <a title="Mossad" href="http://en.wikipedia.org/wiki/Mossad" shape="rect">Mossad</a>\n                      </b>\n                      &quot;).\n                    </font>\n                  </p>\n                  <p>\n                    <font size="2">\n                      He said in his book,\n                      <i>I\'m Next: The Strange Journey of America\'s Most Unlikely Superstar</i>\n                      , the first match he lost in WCW was at a house show to\n                      <a title="Chad Fortune" href="http://en.wikipedia.org/wiki/Chad_Fortune" shape="rect">Chad Fortune</a>\n                      .\n                    </font>\n                  </p>\n                  <p>\n                    <font size="2">\n                      He made his first appearance on WCW television on\n                      <a title="September 22" href="http://en.wikipedia.org/wiki/September_22" shape="rect">September 22</a>\n                      ,\n                      <a title="1997" href="http://en.wikipedia.org/wiki/1997" shape="rect">1997</a>\n                      edition of\n                      <i>\n                        <a title="WCW Monday Nitro" href="http://en.wikipedia.org/wiki/WCW_Monday_Nitro" shape="rect">Nitro</a>\n                      </i>\n                      , defeating\n                      <a title="Bill DeMott" href="http://en.wikipedia.org/wiki/Bill_DeMott" shape="rect">Hugh Morrus</a>\n                      as\n                      <b>Bill Goldberg</b>\n                      ,using the ring music previously used by\n                      <a title="Pat Tanaka" href="http://en.wikipedia.org/wiki/Pat_Tanaka" shape="rect">Pat Tanaka</a>\n                      . This match marked the first victory of Goldberg\'s &quot;streak&quot;\xe2\x80\x94a series of 173 consecutive victories that took place on WCW television,\n                      <a title="List of WCW pay-per-view events" href="http://en.wikipedia.org/wiki/List_of_WCW_pay-per-view_events" shape="rect">pay-per-views</a>\n                      , and\n                      <a title="House show" href="http://en.wikipedia.org/wiki/House_show" shape="rect">house shows</a>\n                      . After a short time, the famed undefeated streak lost all credibility with &quot;smart&quot; fans as the number of claimed victories was repeatedly raised from the actual tally, with no rhyme or reason. During one point in his WCW career to help get Goldberg over, they would play the fans\' chants of &quot;Goldberg&quot; through the speakers of the arena. Goldberg admitted this in one of his books, but claimed to never have known at the time.\n                    </font>\n                  </p>\n                  <p>\n                    <font size="2">\n                      With his bald head,\n                      <a title="Goatee" href="http://en.wikipedia.org/wiki/Goatee" shape="rect">goatee</a>\n                      , and\n                      <a title="Utilitarianism" href="http://en.wikipedia.org/wiki/Utilitarianism" shape="rect">utilitarian</a>\n                      black trunks, Goldberg was often compared to\n                      <a title="Stone Cold Steve Austin" href="http://en.wikipedia.org/wiki/Stone_Cold_Steve_Austin" shape="rect">Stone Cold Steve Austin</a>\n                      , a prominent wrestler in the rival\n                      <a title="World Wrestling Entertainment" href="http://en.wikipedia.org/wiki/World_Wrestling_Entertainment" shape="rect">World Wrestling Federation</a>\n                      (WWF). However, WCW President\n                      <a title="Eric Bischoff" href="http://en.wikipedia.org/wiki/Eric_Bischoff" shape="rect">Eric Bischoff</a>\n                      later claimed that the original\n                      <a title="List of professional wrestling slang" href="http://en.wikipedia.org/wiki/List_of_professional_wrestling_slang#G" shape="rect">gimmick</a>\n                      of Goldberg was based not on Austin but on\n                      <a title="Ken Shamrock" href="http://en.wikipedia.org/wiki/Ken_Shamrock" shape="rect">Ken Shamrock</a>\n                      , another WWF employee and famed\n                      <a title="Mixed martial arts" href="http://en.wikipedia.org/wiki/Mixed_martial_arts" shape="rect">mixed martial artist</a>\n                      . Goldberg also became known for his ring entrance during his &quot;streak&quot;, which saw him walk from his locker room to the stage with a\n                      <a title="Police" href="http://en.wikipedia.org/wiki/Police" shape="rect">police</a>\n                      escort and exit the &quot;tunnel&quot; with\n                      <a title="Pyrotechnics" href="http://en.wikipedia.org/wiki/Pyrotechnics" shape="rect">pyrotechnics</a>\n                      <a title="Smoke" href="http://en.wikipedia.org/wiki/Smoke" shape="rect">smoke</a>\n                      would engulf him. Goldberg would\n                      <a title="Inhalation" href="http://en.wikipedia.org/wiki/Inhalation" shape="rect">inhale</a>\n                      and then\n                      <a title="Exhalation" href="http://en.wikipedia.org/wiki/Exhalation" shape="rect">exhale</a>\n                      the smoke once the cloud dissipated. exploding around him, while fans chanted &quot;Goldberg, Goldberg.&quot; In later entrances, he would stop at a point on the stage, and a shower of fireworks and a cloud of theatrical\n                    </font>\n                  </p>\n                  <p>\n                    <a name="Undefeated_Streak_.281997-1998.29" id="Undefeated_Streak_.281997-1998.29" shape="rect"></a>\n                  </p>\n                  <h4>\n                    <span class="editsection"></span>\n                    <span class="mw-headline">Undefeated Streak (1997-1998)</span>\n                  </h4>\n                  <p>\n                    <font size="2">\n                      Goldberg\'s succession of wins saw him quickly advance up the card, and\n                      <a title="List of professional wrestling slang" href="http://en.wikipedia.org/wiki/List_of_professional_wrestling_slang#P" shape="rect">pushed</a>\n                      as a singles wrestler. One of his first\n                      <a title="Feud (professional wrestling)" href="http://en.wikipedia.org/wiki/Feud_(professional_wrestling)" shape="rect">feuds</a>\n                      was with\n                      <a title="Steve McMichael" href="http://en.wikipedia.org/wiki/Steve_McMichael" shape="rect">Steve McMichael</a>\n                      . Goldberg made his pay-per-view debut at\n                      <a title="Starrcade (1997)" href="http://en.wikipedia.org/wiki/Starrcade_(1997)" shape="rect">Starrcade 1997</a>\n                      , and defeated McMichael. In early\n                      <a title="1998" href="http://en.wikipedia.org/wiki/1998" shape="rect">1998</a>\n                      , Goldberg defeated the likes of\n                      <a title="Brad Armstrong (wrestler)" href="http://en.wikipedia.org/wiki/Brad_Armstrong_(wrestler)" shape="rect">Brad Armstrong</a>\n                      at\n                      <a title="SuperBrawl" href="http://en.wikipedia.org/wiki/SuperBrawl#SuperBrawl_VIII" shape="rect">SuperBrawl VIII</a>\n                      and\n                      <a title="Perry Saturn" href="http://en.wikipedia.org/wiki/Perry_Saturn" shape="rect">Perry Saturn</a>\n                      at\n                      <a title="Spring Stampede" href="http://en.wikipedia.org/wiki/Spring_Stampede#1998" shape="rect">Spring Stampede 1998</a>\n                      in\n                      <a title="Squash (professional wrestling)" href="http://en.wikipedia.org/wiki/Squash_(professional_wrestling)" shape="rect">squash matches</a>\n                      . On\n                      <a title="April 20" href="http://en.wikipedia.org/wiki/April_20" shape="rect">April 20</a>\n                      ,\n                      <a title="1998" href="http://en.wikipedia.org/wiki/1998" shape="rect">1998</a>\n                      edition of\n                      <i>Nitro</i>\n                      , he won the\n                      <a title="WWE United States Championship" href="http://en.wikipedia.org/wiki/WWE_United_States_Championship" shape="rect">WCW United States Heavyweight Championship</a>\n                      , by defeating\n                      <a title="Scott Levy" href="http://en.wikipedia.org/wiki/Scott_Levy" shape="rect">Raven</a>\n                      . Two days later, on\n                      <a title="April 22" href="http://en.wikipedia.org/wiki/April_22" shape="rect">April 22</a>\n                      edition of\n                      <i>\n                        <a title="WCW Thunder" href="http://en.wikipedia.org/wiki/WCW_Thunder" shape="rect">Thunder</a>\n                      </i>\n                      , he made his first successful title defense against\n                      <a title="Mike Enos" href="http://en.wikipedia.org/wiki/Mike_Enos" shape="rect">Mike Enos</a>\n                      .Goldberg started a feud with Raven and his\n                      <a title="Raven\'s Nest" href="http://en.wikipedia.org/wiki/Raven\'s_Nest#The_Flock" shape="rect">Flock</a>\n                      . At\n                      <a title="Slamboree" href="http://en.wikipedia.org/wiki/Slamboree#1998" shape="rect">Slamboree 1998</a>\n                      , he ended his feud with Flock after a successful title defense against Saturn. He would continue to make successful title defenses of his title against\n                      <a title="Konnan" href="http://en.wikipedia.org/wiki/Konnan" shape="rect">Konnan</a>\n                      at\n                      <a title="The Great American Bash" href="http://en.wikipedia.org/wiki/The_Great_American_Bash#1998" shape="rect">The Great American Bash 1998</a>\n                      , and\n                      <a title="Curt Hennig" href="http://en.wikipedia.org/wiki/Curt_Hennig" shape="rect">Curt Hennig</a>\n                      .\n                    </font>\n                  </p>\n                  <p>\n                    <a name="Main_Event_Push_.281998-1999.29" id="Main_Event_Push_.281998-1999.29" shape="rect"></a>\n                  </p>\n                  <h4>\n                    <span class="editsection"></span>\n                    <span class="mw-headline">Main Event Push (1998-1999)</span>\n                  </h4>\n                  <p>\n                    <font size="2">\n                      Goldberg was\n                      <a title="List of professional wrestling slang" href="http://en.wikipedia.org/wiki/List_of_professional_wrestling_slang#G" shape="rect">getting over</a>\n                      as a\n                      <a title="Main event" href="http://en.wikipedia.org/wiki/Main_event" shape="rect">main eventer</a>\n                      , after he defeated\n                      <a title="Hulk Hogan" href="http://en.wikipedia.org/wiki/Hulk_Hogan" shape="rect">Hollywood Hogan</a>\n                      on\n                      <a title="July 6" href="http://en.wikipedia.org/wiki/July_6" shape="rect">July 6</a>\n                      edition of\n                      <i>Nitro</i>\n                      to win the\n                      <a title="WCW World Heavyweight Championship" href="http://en.wikipedia.org/wiki/WCW_World_Heavyweight_Championship" shape="rect">WCW World Heavyweight Championship</a>\n                      .As a result, he vacated the United States title. He retained his title in his first title defense against\n                      <a title="Scott Hall" href="http://en.wikipedia.org/wiki/Scott_Hall" shape="rect">Scott Hall</a>\n                      in a dark match. Goldberg began a feud with Curt Hennig, and retained the title against Hennig at\n                      <a title="Bash at the Beach" href="http://en.wikipedia.org/wiki/Bash_at_the_Beach#1998" shape="rect">Bash at the Beach 1998</a>\n                      . He ended up retaining the title in a rematch against Hennig at the next night on\n                      <i>Nitro</i>\n                      . At\n                      <a title="Road Wild" href="http://en.wikipedia.org/wiki/Road_Wild#1998" shape="rect">Road Wild 1998</a>\n                      , Goldberg won a\n                      <a title="Battle royal (professional wrestling)" href="http://en.wikipedia.org/wiki/Battle_royal_(professional_wrestling)" shape="rect">battle royal</a>\n                      , consisting of\n                      <a title="New World Order (professional wrestling)" href="http://en.wikipedia.org/wiki/New_World_Order_(professional_wrestling)" shape="rect">nWo</a>\n                      members.\n                      <sup id="cite_ref-23" class="reference">\n                        <a href="http://en.wikipedia.org/wiki/Bill_Goldberg#cite_note-23" shape="rect">]</a>\n                      </sup>\n                      <a title="October 11" href="http://en.wikipedia.org/wiki/October_11" shape="rect">October 11</a>\n                      ,\n                      <a title="1998" href="http://en.wikipedia.org/wiki/1998" shape="rect">1998</a>\n                      , episode of\n                      <a title="WCW Monday Nitro" href="http://en.wikipedia.org/wiki/WCW_Monday_Nitro" shape="rect">WCW Monday Nitro</a>\n                      , in\n                      <a title="Milwaukee, Wisconsin" href="http://en.wikipedia.org/wiki/Milwaukee,_Wisconsin" shape="rect">Milwaukee, Wisconsin</a>\n                      , Goldberg defeated\n                      <a title="Paul Wight" href="http://en.wikipedia.org/wiki/Paul_Wight" shape="rect">The Giant</a>\n                      in a no-disqualification match, in an unbelievable feat of strength; Goldberg executed a\n                      <a title="Suplex" href="http://en.wikipedia.org/wiki/Suplex#Delayed_vertical_suplex" shape="rect">delayed vertical suplex</a>\n                      before hitting the\n                      <a title="Powerslam" href="http://en.wikipedia.org/wiki/Powerslam#Suplex_powerslam" shape="rect">Jackhammer</a>\n                      on\n                      <a title="Paul Wight" href="http://en.wikipedia.org/wiki/Paul_Wight" shape="rect">The Giant</a>\n                      <sup id="cite_ref-24" class="reference">\n                        <a href="http://en.wikipedia.org/wiki/Bill_Goldberg#cite_note-24" shape="rect">[25]</a>\n                      </sup>\n                      <sup id="cite_ref-25" class="reference">\n                        <a href="http://en.wikipedia.org/wiki/Bill_Goldberg#cite_note-25" shape="rect">[26]</a>\n                      </sup>\n                      <sup id="cite_ref-26" class="reference">\n                        <a href="http://en.wikipedia.org/wiki/Bill_Goldberg#cite_note-26" shape="rect">[27]</a>\n                      </sup>\n                      . After\n                      <a title="Diamond Dallas Page" href="http://en.wikipedia.org/wiki/Diamond_Dallas_Page" shape="rect">Diamond Dallas Page</a>\n                      became the #1 contender to the WCW title, Goldberg and Page began a feud with each other. At\n                      <a title="Halloween Havoc" href="http://en.wikipedia.org/wiki/Halloween_Havoc#1998" shape="rect">Halloween Havoc 1998</a>\n                      , the feud was settled after Goldberg defeated Page to retain the title. After settling out his feud with Page, he got involved in a short feud with\n                      <a title="Bam Bam Bigelow" href="http://en.wikipedia.org/wiki/Bam_Bam_Bigelow" shape="rect">Bam Bam Bigelow</a>\n                      , who had left\n                      <a title="Extreme Championship Wrestling" href="http://en.wikipedia.org/wiki/Extreme_Championship_Wrestling" shape="rect">ECW</a>\n                      to wrestle Goldberg. On\n                      <a title="November 16" href="http://en.wikipedia.org/wiki/November_16" shape="rect">November 16</a>\n                      edition of\n                      <i>Nitro</i>\n                      , Goldberg defended the WCW title against Bigelow in Bigelow\'s WCW debut but the match went to a no contest. On the\n                    </font>\n                  </p>\n                  <p>\n                    <font size="2">\n                      Both his reign and his streak ended at\n                      <a title="Starrcade (1998)" href="http://en.wikipedia.org/wiki/Starrcade_(1998)" shape="rect">Starrcade 1998</a>\n                      when he lost his title to\n                      <a title="Kevin Nash" href="http://en.wikipedia.org/wiki/Kevin_Nash" shape="rect">Kevin Nash</a>\n                      after Scott Hall made a\n                      <a title="List of professional wrestling slang" href="http://en.wikipedia.org/wiki/List_of_professional_wrestling_slang#R" shape="rect">run-in</a>\n                      and shocked Goldberg with a\n                      <a title="Cattle prod" href="http://en.wikipedia.org/wiki/Cattle_prod" shape="rect">cattle prod</a>\n                      .\n                      <sup id="cite_ref-oww_0-23" class="reference">\n                        <a href="http://en.wikipedia.org/wiki/Bill_Goldberg#cite_note-oww-0" shape="rect">[</a>\n                      </sup>\n                      However, Goldberg avenged this act by facing Hall at\n                      <a title="Souled Out" href="http://en.wikipedia.org/wiki/Souled_Out#1999" shape="rect">Souled Out 1999</a>\n                      , in a\n                      <a title="Ladder match" href="http://en.wikipedia.org/wiki/Ladder_match" shape="rect">Ladder</a>\n                      <a title="Professional wrestling match types" href="http://en.wikipedia.org/wiki/Professional_wrestling_match_types#.28Object.29_on_a_pole_match" shape="rect">Taser Match</a>\n                      . Goldberg won when he used the taser. The match could only be won by using the taser, which was hung high above the ring, requiring the ladder to obtain it.\n                      <sup id="cite_ref-oww_0-24" class="reference">\n                        <a href="http://en.wikipedia.org/wiki/Bill_Goldberg#cite_note-oww-0" shape="rect">[1]</a>\n                      </sup>\n                      <sup id="cite_ref-acceleratorbio_1-25" class="reference">\n                        <a href="http://en.wikipedia.org/wiki/Bill_Goldberg#cite_note-acceleratorbio-1" shape="rect">[2]</a>\n                      </sup>\n                      <sup id="cite_ref-30" class="reference">\n                        <a href="http://en.wikipedia.org/wiki/Bill_Goldberg#cite_note-30" shape="rect">[31]</a>\n                      </sup>\n                      After the match, Goldberg\'s rival Bam Bam Bigelow came out and attacked him, thus the duo began their rivalry once again. Goldberg defeated Bigelow at\n                      <a title="SuperBrawl" href="http://en.wikipedia.org/wiki/SuperBrawl#SuperBrawl_IX" shape="rect">SuperBrawl IX</a>\n                      to settle the feud. At the same time, the WWF began mocking Goldberg with the character\n                      <a title="Duane Gill" href="http://en.wikipedia.org/wiki/Duane_Gill" shape="rect">Gillberg</a>\n                      , a perennial\n                      <a title="Job (professional wrestling)" href="http://en.wikipedia.org/wiki/Job_(professional_wrestling)" shape="rect">jobber</a>\n                      who dressed similarly to Goldberg and mocked his signature entrance and mannerisms.\n                    </font>\n                  </p>\n                  <p>\n                    <font size="2">\n                      Goldberg took his revenge from Kevin Nash by defeating Nash at\n                      <a title="Spring Stampede" href="http://en.wikipedia.org/wiki/Spring_Stampede#1999" shape="rect">Spring Stampede 1999</a>\n                      .Goldberg wrestled a match against\n                      <a title="Sting (wrestler)" href="http://en.wikipedia.org/wiki/Sting_(wrestler)" shape="rect">Sting</a>\n                      at\n                      <a title="Slamboree" href="http://en.wikipedia.org/wiki/Slamboree#1999" shape="rect">Slamboree 1999</a>\n                      which was fought to a no contest.He was &quot;injured&quot; and took some time off, for his movie\n                      <i>Universal Soldier: The Return</i>\n                      .He returned two months later, and defeated\n                      <a title="Rick Steiner" href="http://en.wikipedia.org/wiki/Rick_Steiner" shape="rect">Rick Steiner</a>\n                      at\n                      <a title="Road Wild" href="http://en.wikipedia.org/wiki/Road_Wild#1999" shape="rect">Road Wild 1999</a>\n                      in a\n                      <a title="Squash (professional wrestling)" href="http://en.wikipedia.org/wiki/Squash_(professional_wrestling)" shape="rect">squash match</a>\n                      . He started a feud with Diamond Dallas Page and his\n                      <a title="Jersey Triad" href="http://en.wikipedia.org/wiki/Jersey_Triad" shape="rect">Jersey Triad</a>\n                      , which culminated in a match at\n                      <a title="Fall Brawl" href="http://en.wikipedia.org/wiki/Fall_Brawl#1999" shape="rect">Fall Brawl 1999</a>\n                      which Goldberg won. Around that same time, United States Champion\n                      <a title="Sid Eudy" href="http://en.wikipedia.org/wiki/Sid_Eudy" shape="rect">Sid Vicious</a>\n                      began a winning streak by defeating two jobbers at the same time. After Goldberg settled his rivalry with DDP, he began focusing on Vicious and challenged him to a match to end his winning streak.\n                      <sup id="cite_ref-acceleratorbio_1-32" class="reference">\n                        <a href="http://en.wikipedia.org/wiki/Bill_Goldberg#cite_note-acceleratorbio-1" shape="rect">[2]</a>\n                      </sup>\n                      The two feuded with each other, which culminated in a match at\n                      <a title="Halloween Havoc" href="http://en.wikipedia.org/wiki/Halloween_Havoc#1999" shape="rect">Halloween Havoc 1999</a>\n                      for Sid\'s US title and Goldberg defeated Sid, via referee stoppage, thus winning his second WCW United States Heavyweight Championship. Later that night, he answered an open challenge from WCW World Champion Sting and defeated him to win the championship.\n                    </font>\n                  </p>\n                  <p>\n                    <font size="2">\n                      However, on the next night\'s edition of\n                      <i>Nitro</i>\n                      ,\n                      <a title="List of authority figures in professional wrestling" href="http://en.wikipedia.org/wiki/List_of_authority_figures_in_professional_wrestling#World_Championship_Wrestling_authority_figures" class="mw-redirect" shape="rect">commissioner</a>\n                      <a title="James J. Dillon" href="http://en.wikipedia.org/wiki/James_J._Dillon" shape="rect">J.J. Dillon</a>\n                      ruled that the match had not been sanctioned by WCW and that, therefore, Goldberg\'s victory was void. The world title was vacated and a 32-man tournament was held to determine a new champion, which started that night. Goldberg participated in the tournament and defended his United States title against\n                      <a title="Bret Hart" href="http://en.wikipedia.org/wiki/Bret_Hart" shape="rect">Bret Hart</a>\n                      in a first round tournament match and went on to lose the match, after interference from Sid Vicious which gave Goldberg his second official loss in WCW in the process. Goldberg continued his rivalry with Vicious, and defeated him in an\n                      <a title="&quot;I Quit&quot; match" href="http://en.wikipedia.org/wiki/&quot;I_Quit&quot;_match" shape="rect">&quot;I Quit&quot; match</a>\n                      at\n                      <a title="WCW Mayhem" href="http://en.wikipedia.org/wiki/WCW_Mayhem#1999" shape="rect">Mayhem 1999</a>\n                      .\n                    </font>\n                  </p>\n                  <p>\n                    <font size="2">\n                      Shortly thereafter, Goldberg joined forces with Hart,\n                      <a title="Tag team" href="http://en.wikipedia.org/wiki/Tag_team" shape="rect">teaming</a>\n                      with him to defeat\n                      <a title="Harris Brothers" href="http://en.wikipedia.org/wiki/Harris_Brothers" shape="rect">Creative Control</a>\n                      for the\n                      <a title="WCW World Tag Team Championship" href="http://en.wikipedia.org/wiki/WCW_World_Tag_Team_Championship" shape="rect">WCW World Tag Team Championship</a>\n                      <a title="The Outsiders (professional wrestling)" href="http://en.wikipedia.org/wiki/The_Outsiders_(professional_wrestling)" shape="rect">The Outsiders</a>\n                      (Scott Hall and Kevin Nash). At\n                      <a title="Starrcade (1999)" href="http://en.wikipedia.org/wiki/Starrcade_(1999)" shape="rect">Starrcade 1999</a>\n                      , Goldberg challenged Hart for the WCW World Championship. In the course of the match, which was won by Hart, Goldberg delivered a\n                      <a title="Stiff (professional wrestling)" href="http://en.wikipedia.org/wiki/Stiff_(professional_wrestling)" shape="rect">stiff</a>\n                      <a title="Kick" href="http://en.wikipedia.org/wiki/Kick" shape="rect">kick</a>\n                      to Hart\'s head,\n                      <a title="Legit (professional wrestling)" href="http://en.wikipedia.org/wiki/Legit_(professional_wrestling)" shape="rect">legitimately</a>\n                      <a title="Concussion" href="http://en.wikipedia.org/wiki/Concussion" shape="rect">concussing</a>\n                      him and tearing a muscle in his neck. This injury, combined with the various injuries Hart had suffered in the course of his lengthy career and the additional blows to the head he absorbed before being diagnosed with\n                      <a title="Post-concussion syndrome" href="http://en.wikipedia.org/wiki/Post-concussion_syndrome" shape="rect">post-concussion syndrome</a>\n                      , forced Hart into retirement several weeks later. Despite that, Goldberg lost the match to Hart ,but with the match shrouded in controversy Hart vacated the title the next night on\n                      <i>Nitro</i>\n                      , saying he didn\'t want to win that way and granting Goldberg a rematch.Goldberg was defeated again due to outside interference from Scott Hall and Kevin Nash, who began to beat on Goldberg with baseball bats.In a\n                      <a title="Swerve (professional wrestling)" href="http://en.wikipedia.org/wiki/Swerve_(professional_wrestling)" class="mw-redirect" shape="rect">swerve</a>\n                      , Hart took one of the bats from The Outsiders and began beating on Goldberg himself, doing enough damage to score the pin and regain his championship. After the match, Hall, Nash, Hart, and\n                      <a title="Jeff Jarrett" href="http://en.wikipedia.org/wiki/Jeff_Jarrett" shape="rect">Jeff Jarrett</a>\n                      announced the reformation of the nWo, and gave Goldberg a new target for a feud. However, it would not last long. on December 7. One week later, they lost the titles to\n                    </font>\n                  </p>\n                  <p>\n                    <a name="Contender_to_the_World_Title_.282000-2001.29" id="Contender_to_the_World_Title_.282000-2001.29" shape="rect"></a>\n                  </p>\n                  <h4>\n                    <span class="editsection"></span>\n                    <span class="mw-headline">Contender to the World Title (2000-2001)</span>\n                  </h4>\n                  <p>\n                    <font size="2">\n                      Shortly after his title loss, Goldberg was accidentally injured in\n                      <a title="Salisbury, Maryland" href="http://en.wikipedia.org/wiki/Salisbury,_Maryland" shape="rect">Salisbury, Maryland</a>\n                      , during a sequence where he chased the nWo limousine into the parking lot. Goldberg, who was wearing protective covering over his hands so he wouldn\'t get injured when he would break the windshield glass (a spot in the scene), got a little too overaggressive in his pounding and severely injured his forearm when shards of the glass sliced it, causing him to miss the\n                      <a title="January 4" href="http://en.wikipedia.org/wiki/January_4" shape="rect">January 4</a>\n                      ,\n                      <a title="2000" href="http://en.wikipedia.org/wiki/2000" shape="rect">2000</a>\n                      NJPW Tokyo Dome show, where he was scheduled to face\n                      <a title="Manabu Nakanishi" href="http://en.wikipedia.org/wiki/Manabu_Nakanishi" shape="rect">Manabu Nakanishi</a>\n                      .\n                    </font>\n                  </p>\n                  <p>\n                    <font size="2">\n                      After taking time off to recuperate, Goldberg returned to WCW on May 29, 2000 interfering in a\n                      <i>Nitro</i>\n                      match between Kevin Nash and the team of\n                      <a title="Tank Abbott" href="http://en.wikipedia.org/wiki/Tank_Abbott" shape="rect">Tank Abbott</a>\n                      and\n                      <a title="Rick Steiner" href="http://en.wikipedia.org/wiki/Rick_Steiner" shape="rect">Rick Steiner</a>\n                      . At\n                      <a title="The Great American Bash" href="http://en.wikipedia.org/wiki/The_Great_American_Bash#2000" shape="rect">The Great American Bash 2000</a>\n                      , Goldberg betrayed Nash during Nash\'s World Title match against Jeff Jarrett and\n                      <a title="List of professional wrestling slang" href="http://en.wikipedia.org/wiki/List_of_professional_wrestling_slang#T" shape="rect">turned</a>\n                      <a title="List of professional wrestling slang" href="http://en.wikipedia.org/wiki/List_of_professional_wrestling_slang#H" shape="rect">heel</a>\n                      for the first time in his career by aligning himself with the\n                      <a title="New Blood" href="http://en.wikipedia.org/wiki/New_Blood" shape="rect">New Blood</a>\n                      faction. This didn\'t last long, as Goldberg would again be lost to injury and miss time. As a result of this betrayal, Goldberg feuded with Nash and defeated him at\n                      <a title="Bash at the Beach" href="http://en.wikipedia.org/wiki/Bash_at_the_Beach#2000" shape="rect">Bash at the Beach 2000</a>\n                      , but with help from\n                      <a title="Scott Steiner" href="http://en.wikipedia.org/wiki/Scott_Steiner" shape="rect">Scott Steiner</a>\n                      . Goldberg thought that he deserved to be the #1 contender to the world title, and faced World Champion\n                      <a title="Booker Huffman" href="http://en.wikipedia.org/wiki/Booker_Huffman" shape="rect">Booker T</a>\n                      for the title but lost the match. He participated in a\n                      <a title="Professional wrestling match types" href="http://en.wikipedia.org/wiki/Professional_wrestling_match_types#Basic_non-elimination_matches" shape="rect">triple threat</a>\n                      #1 contender\'s match against Kevin Nash and Scott Steiner at\n                      <a title="New Blood Rising" href="http://en.wikipedia.org/wiki/New_Blood_Rising" shape="rect">New Blood Rising</a>\n                      , which Nash won.Goldberg turned face again after Bret Hart attacked him on an edition of\n                      <i>Nitro</i>\n                      and then he and Scott Steiner began a feud with each other, culminating in a\n                      <a title="Professional wrestling match types" href="http://en.wikipedia.org/wiki/Professional_wrestling_match_types#No_Disqualification_match" shape="rect">no disqualification match</a>\n                      at\n                      <a title="Fall Brawl" href="http://en.wikipedia.org/wiki/Fall_Brawl#2000" shape="rect">Fall Brawl 2000</a>\n                      , which Goldberg lost.\n                    </font>\n                  </p>\n                  <p>\n                    <font size="2">\n                      He began a new undefeated streak in October 2000, with\n                      <a title="Vince Russo" href="http://en.wikipedia.org/wiki/Vince_Russo" shape="rect">Vince Russo</a>\n                      threatening to &quot;fire&quot; him if he lost. He defeated\n                      <a title="KroniK" href="http://en.wikipedia.org/wiki/KroniK" shape="rect">KroniK</a>\n                      (\n                      <a title="Brian Adams (wrestler)" href="http://en.wikipedia.org/wiki/Brian_Adams_(wrestler)" shape="rect">Brian Adams</a>\n                      <a title="Bryan Clark" href="http://en.wikipedia.org/wiki/Bryan_Clark" shape="rect">Bryan Clark</a>\n                      ) at\n                      <a title="Halloween Havoc" href="http://en.wikipedia.org/wiki/Halloween_Havoc#2000" shape="rect">Halloween Havoc 2000</a>\n                      in a\n                      <a title="Professional wrestling match types" href="http://en.wikipedia.org/wiki/Professional_wrestling_match_types#Handicap_match" shape="rect">handicap</a>\n                      <a title="Professional wrestling match types" href="http://en.wikipedia.org/wiki/Professional_wrestling_match_types#Elimination_match" shape="rect">elimination match</a>\n                      to begin his undefeated streak. He started a feud with\n                      <a title="Lex Luger" href="http://en.wikipedia.org/wiki/Lex_Luger" shape="rect">&quot;The Total Package&quot; Lex Luger</a>\n                      , who claimed to be the first wrestler to end both Goldberg\'s streak and career. This culminated in a match at\n                      <a title="WCW Mayhem" href="http://en.wikipedia.org/wiki/WCW_Mayhem#2000" shape="rect">Mayhem 2000</a>\n                      , which Goldberg won. They continued their rivalry and battled in a rematch at\n                      <a title="Starrcade (2000)" href="http://en.wikipedia.org/wiki/Starrcade_(2000)" shape="rect">Starrcade 2000</a>\n                      , which if Goldberg lost, he had to\n                      <a title="Professional wrestling match types" href="http://en.wikipedia.org/wiki/Professional_wrestling_match_types#Retirement_match" shape="rect">retire</a>\n                      . Goldberg won the match, but after the match, he was attacked by Luger\'s partner\n                      <a title="Buff Bagwell" href="http://en.wikipedia.org/wiki/Buff_Bagwell" shape="rect">Buff Bagwell</a>\n                      . Goldberg began feuding with both Luger and Bagwell, who called themselves\n                      <a title="Totally Buff" href="http://en.wikipedia.org/wiki/Totally_Buff" shape="rect">Totally Buff</a>\n                      . His streak was broken at\n                      <a title="WCW Sin" href="http://en.wikipedia.org/wiki/WCW_Sin" shape="rect">Sin</a>\n                      when Goldberg, teaming with his Power Plant trainer,\n                      <a title="Dwayne Bruce" href="http://en.wikipedia.org/wiki/Dwayne_Bruce" shape="rect">Dwayne Bruce</a>\n                      , lost to Totally Buff in a tag team no disqualification match after a\n                      <a title="List of professional wrestling slang" href="http://en.wikipedia.org/wiki/List_of_professional_wrestling_slang#P" shape="rect">plant</a>\n                      <a title="Mace (spray)" href="http://en.wikipedia.org/wiki/Mace_(spray)" shape="rect">maced</a>\n                      him, enabling Totally Buff to pin him. The\n                      <a title="List of professional wrestling slang" href="http://en.wikipedia.org/wiki/List_of_professional_wrestling_slang#A" shape="rect">angle</a>\n                      was intended to enable Goldberg to have shoulder surgery, but WCW was sold to the WWF in March 2001, with Goldberg still recuperating. The WWF did not buy out Goldberg\'s\n                      <a title="Contract" href="http://en.wikipedia.org/wiki/Contract" shape="rect">contract</a>\n                      with\n                      <a title="Time Warner" href="http://en.wikipedia.org/wiki/Time_Warner" shape="rect">Time Warner</a>\n                      (the parent company of WCW) as they had done with several other WCW employees, and so he was not involved in the WWF &quot;\n                      <a title="The Invasion (professional wrestling)" href="http://en.wikipedia.org/wiki/The_Invasion_(professional_wrestling)" shape="rect">Invasion</a>\n                      &quot; angle. Goldberg instead remained under contract to Time Warner until May 2002, when he agreed on a contract buyout.\n                    </font>\n                    and\n                  </p>\n                  <p>\n                    <font size="2">\n                      In the course of his WCW career, Goldberg had six official singles defeats: three to Bret Hart, one to Kevin Nash, one to\n                      <a title="Scott Steiner" href="http://en.wikipedia.org/wiki/Scott_Steiner" shape="rect">Scott Steiner</a>\n                      , and one to Booker T.\n                    </font>\n                  </p>\n                  <p>\n                    <a name="All_Japan_Pro_Wrestling_.282002-2003.29" id="All_Japan_Pro_Wrestling_.282002-2003.29" shape="rect"></a>\n                  </p>\n                  <h3>\n                    <span class="editsection"></span>\n                    <span class="mw-headline">All Japan Pro Wrestling (2002-2003)</span>\n                  </h3>\n                  <p>\n                    <font size="2">\n                      Goldberg had suffered an arm injury during a celebrity car racing event in April 2002, but in August 2002, he returned to the ring in\n                      <a title="Japan" href="http://en.wikipedia.org/wiki/Japan" shape="rect">Japan</a>\n                      . He initially joined\n                      <a title="All Japan Pro Wrestling" href="http://en.wikipedia.org/wiki/All_Japan_Pro_Wrestling" shape="rect">All Japan Pro Wrestling</a>\n                      , defeating\n                      <a title="Satoshi Kojima" href="http://en.wikipedia.org/wiki/Satoshi_Kojima" shape="rect">Satoshi Kojima</a>\n                      on\n                      <a title="August 30" href="http://en.wikipedia.org/wiki/August_30" shape="rect">August 30</a>\n                      ,\n                      <a title="2002" href="http://en.wikipedia.org/wiki/2002" shape="rect">2002</a>\n                      and\n                      <a title="Taiy\xc5\x8d Kea" href="http://en.wikipedia.org/wiki/Taiy\xc3\x85\xc2\x8d_Kea" shape="rect">Taiy\xc5\x8d Kea</a>\n                      . He went on to defeat Rick Steiner in\n                      <a title="Yokohama" href="http://en.wikipedia.org/wiki/Yokohama" shape="rect">Yokohama</a>\n                      in a match for the W-1 promotion, and teamed with\n                      <a title="Keiji Muto" href="http://en.wikipedia.org/wiki/Keiji_Muto" class="mw-redirect" shape="rect">Keiji Mutoh</a>\n                      to defeat\n                      <a title="KroniK" href="http://en.wikipedia.org/wiki/KroniK" shape="rect">KroniK</a>\n                      in\n                      <a title="Tokyo" href="http://en.wikipedia.org/wiki/Tokyo" shape="rect">Tokyo</a>\n                      . His success in Japan led to the World Wrestling Federation - now renamed World Wrestling Entertainment - beginning contract negotiations with him.\n                    </font>\n                  </p>\n                  <p>\n                    <a name="World_Wrestling_Entertainment_.282003-2004.29" id="World_Wrestling_Entertainment_.282003-2004.29" shape="rect"></a>\n                  </p>\n                  <h3>\n                    <span class="editsection"></span>\n                    <span class="mw-headline">World Wrestling Entertainment (2003-2004)</span>\n                  </h3>\n                  <p>\n                    <a name="Winning_Streak_on_RAW_.282003.29" id="Winning_Streak_on_RAW_.282003.29" shape="rect"></a>\n                  </p>\n                  <h4>\n                    <span class="editsection"></span>\n                    <span class="mw-headline">Winning Streak on RAW (2003)</span>\n                  </h4>\n                  <p>\n                    Goldberg was signed to a one year contract by\n                    <a title="World Wrestling Entertainment" href="http://en.wikipedia.org/wiki/World_Wrestling_Entertainment" shape="rect">World Wrestling Entertainment</a>\n                    (WWE) in March 2003. He debuted in WWE on\n                    <a title="March 31" href="http://en.wikipedia.org/wiki/March_31" shape="rect">March 31</a>\n                    ,\n                    <a title="2003" href="http://en.wikipedia.org/wiki/2003" shape="rect">2003</a>\n                    edition of\n                    <i>\n                      <a title="WWE Raw" href="http://en.wikipedia.org/wiki/WWE_Raw" shape="rect">RAW</a>\n                    </i>\n                    , the night after\n                    <a title="WrestleMania XIX" href="http://en.wikipedia.org/wiki/WrestleMania_XIX" shape="rect">WrestleMania XIX</a>\n                    , and immediately began a feud with\n                    <a title="The Rock (entertainer)" href="http://en.wikipedia.org/wiki/The_Rock_(entertainer)" class="mw-redirect" shape="rect">The Rock</a>\n                    by spearing him. His feud with The Rock culminated in a match at\n                    <a title="Backlash (2003)" href="http://en.wikipedia.org/wiki/Backlash_(2003)" shape="rect">Backlash 2003</a>\n                    , which was Goldberg\'s first appearance in a WWE ring. The match was won by Goldberg following three\n                    <a title="Professional wrestling attacks" href="http://en.wikipedia.org/wiki/Professional_wrestling_attacks#Spear" shape="rect">spears</a>\n                    and a\n                    <a title="Powerslam" href="http://en.wikipedia.org/wiki/Powerslam#Suplex_powerslam" shape="rect">Jackhammer</a>\n                    . He began a short feud with\n                    <a title="Jason Reso" href="http://en.wikipedia.org/wiki/Jason_Reso" shape="rect">Christian</a>\n                    , with whom he had his first\n                    <i>RAW</i>\n                    match on\n                    <a title="May 5" href="http://en.wikipedia.org/wiki/May_5" shape="rect">May 5</a>\n                    edition of\n                    <i>RAW</i>\n                    resulting in a no contest. The two faced each other on the following edition of\n                    <i>RAW</i>\n                    in a\n                    <a title="Professional wrestling match types" href="http://en.wikipedia.org/wiki/Professional_wrestling_match_types#Cages" shape="rect">steel cage match</a>\n                    , which Goldberg won. He next feuded with\n                    <a title="Chris Jericho" href="http://en.wikipedia.org/wiki/Chris_Jericho" shape="rect">Chris Jericho</a>\n                    , who continued to insult Goldberg in following weeks and challenged him to a match. At\n                    <a title="WWE Bad Blood" href="http://en.wikipedia.org/wiki/WWE_Bad_Blood#2003" shape="rect">Bad Blood 2003</a>\n                    , the rivalry was settled after Goldberg defeated Jericho.\n                    <sup id="cite_ref-54" class="reference">\n                      <a href="http://en.wikipedia.org/wiki/Bill_Goldberg#cite_note-54" shape="rect"></a>\n                    </sup>\n                  </p>\n                  <p>\n                    <a name="World_Championship_.26_Retirement_.282003-2004.29" id="World_Championship_.26_Retirement_.282003-2004.29" shape="rect"></a>\n                  </p>\n                  <h4>\n                    <span class="editsection"></span>\n                    <span class="mw-headline">World Championship &amp; Retirement (2003-2004)</span>\n                  </h4>\n                  <p>\n                    <font size="2">\n                      Goldberg started a feud with World Heavyweight Champion\n                      <a title="Triple H" href="http://en.wikipedia.org/wiki/Triple_H" shape="rect">Triple H</a>\n                      over the World Championship. Their rivalry began at a\n                      <a title="House show" href="http://en.wikipedia.org/wiki/House_show" shape="rect">live event</a>\n                      on\n                      <a title="July 20" href="http://en.wikipedia.org/wiki/July_20" shape="rect">July 20</a>\n                      ,\n                      <a title="2003" href="http://en.wikipedia.org/wiki/2003" shape="rect">2003</a>\n                      when Goldberg faced Triple H for the title, but lost the match after\n                      <a title="Evolution (professional wrestling)" href="http://en.wikipedia.org/wiki/Evolution_(professional_wrestling)" shape="rect">Evolution</a>\n                      interfered in the match. He challenged Triple H for the title again at\n                      <a title="SummerSlam (2003)" href="http://en.wikipedia.org/wiki/SummerSlam_(2003)" shape="rect">SummerSlam 2003</a>\n                      in the second\n                      <a title="Elimination Chamber" href="http://en.wikipedia.org/wiki/Elimination_Chamber" shape="rect">Elimination Chamber</a>\n                      match in WWE; after eliminating\n                      <a title="Randy Orton" href="http://en.wikipedia.org/wiki/Randy_Orton" shape="rect">Randy Orton</a>\n                      ,\n                      <a title="Shawn Michaels" href="http://en.wikipedia.org/wiki/Shawn_Michaels" shape="rect">Shawn Michaels</a>\n                      , and Jericho, he was\n                      <a title="Pin (professional wrestling)" href="http://en.wikipedia.org/wiki/Pin_(professional_wrestling)" shape="rect">pinned</a>\n                      by the champion Triple H and as a result, Triple H retained the title. Goldberg continued his rivalry with Triple H and finally defeated him for the\n                      <a title="World Heavyweight Championship (WWE)" href="http://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)" shape="rect">World Heavyweight Championship</a>\n                      at\n                      <a title="Unforgiven (2003)" href="http://en.wikipedia.org/wiki/Unforgiven_(2003)" shape="rect">Unforgiven 2003</a>\n                      , after agreeing to put his career on the line. He successfully defended the title against Triple H in a rematch at\n                      <a title="Survivor Series (2003)" href="http://en.wikipedia.org/wiki/Survivor_Series_(2003)" shape="rect">Survivor Series 2003</a>\n                      , before he lost the title back to Triple H at\n                      <a title="WWE Armageddon" href="http://en.wikipedia.org/wiki/WWE_Armageddon#2003" shape="rect">Armageddon 2003</a>\n                      when Triple H pinned him in a triple threat match which also included\n                      <a title="Glen Jacobs" href="http://en.wikipedia.org/wiki/Glen_Jacobs" shape="rect">Kane</a>\n                      .\n                    </font>\n                  </p>\n                  <p>\n                    <font size="2">\n                      At\n                      <a title="Royal Rumble (2004)" href="http://en.wikipedia.org/wiki/Royal_Rumble_(2004)" shape="rect">Royal Rumble 2004</a>\n                      , Goldberg participated in the\n                      <a title="Royal Rumble" href="http://en.wikipedia.org/wiki/Royal_Rumble#Match" shape="rect">Royal Rumble match</a>\n                      , entering at #30, so he could get a chance to regain his world title at\n                      <a title="WrestleMania" href="http://en.wikipedia.org/wiki/WrestleMania" shape="rect">WrestleMania</a>\n                      . However, during the match, he began a feud with\n                      <a title="WWE Championship" href="http://en.wikipedia.org/wiki/WWE_Championship" shape="rect">WWE Champion</a>\n                      <a title="Brock Lesnar" href="http://en.wikipedia.org/wiki/Brock_Lesnar" shape="rect">Brock Lesnar</a>\n                      who interfered in the match and hit Goldberg with the\n                      <a title="Facebuster" href="http://en.wikipedia.org/wiki/Facebuster#F-5" shape="rect">F-5</a>\n                      and causing him to be eliminated by\n                      <a title="Kurt Angle" href="http://en.wikipedia.org/wiki/Kurt_Angle" shape="rect">Kurt Angle</a>\n                      . Goldberg gained revenge by attending\n                      <a title="No Way Out (2004)" href="http://en.wikipedia.org/wiki/No_Way_Out_(2004)" shape="rect">No Way Out 2004</a>\n                      the following month and costing Lesnar his WWE Championship by interfering in a match between Lesnar and the challenger to the title,\n                      <a title="Eddie Guerrero" href="http://en.wikipedia.org/wiki/Eddie_Guerrero" shape="rect">Eddie Guerrero</a>\n                      .This led to a match between the two being scheduled for\n                      <a title="WrestleMania XX" href="http://en.wikipedia.org/wiki/WrestleMania_XX" shape="rect">WrestleMania XX</a>\n                      . A match between the two had been highly anticipated due to their similar physique and their undefeated streaks. Goldberg was not seen on WWE television for several weeks before the event, as he had already worked the maximum number of dates (bar one, his WrestleMania appearance) stipulated by his contract and would have had to have been paid a supplementary salary in order to make extra appearances. This may have hurt the build to the WrestleMania match, with the last episode of SmackDown! before WrestleMania featuring a confrontation between Lesnar and\n                      <a title="Stone Cold Steve Austin" href="http://en.wikipedia.org/wiki/Stone_Cold_Steve_Austin" shape="rect">Steve Austin</a>\n                      , the guest referee of the match, instead of Goldberg.\n                    </font>\n                  </p>\n                  <p>\n                    <font size="2">\n                      The Goldberg vs. Lesnar match is notable for a large majority of the crowd becoming aware that this was to be both men\'s last match in WWE; it became known shortly before the match that Lesnar was pursuing an NFL career. As a result, the audience \'turned\' on them by booing and shouting derogatory chants at both participants; although, Lesnar was more a target of the fans\' disdain (Austin was the only one to receive any cheers during that match). Both men showed frustration in their performance, and amid the resounding boos, ringside commentator\n                      <a title="Jim Ross" href="http://en.wikipedia.org/wiki/Jim_Ross" shape="rect">Jim Ross</a>\n                      acknowledged their plans to leave the company. Goldberg won the match\n                      <a title="List of professional wrestling slang" href="http://en.wikipedia.org/wiki/List_of_professional_wrestling_slang#C" shape="rect">cleanly</a>\n                      but was attacked by Austin post-match. Then a week later, his WWE contract expired and not renewed thus ending Goldberg\'s WWE career.\n                    </font>\n                  </p>\n                  <p>\n                    <a name="Post-wrestling_activity" id="Post-wrestling_activity" shape="rect"></a>\n                  </p>\n                  <h3>\n                    <span class="editsection"></span>\n                    <span class="mw-headline">Post-wrestling activity</span>\n                  </h3>\n                  <p>\n                    <font size="2">Since leaving WWE, Goldberg has primarily focused on his acting career. He has commented on his year with WWE in a highly critical fashion, arguing that his character was poorly utilized.</font>\n                  </p>\n                  <p>\n                    <font size="2">\n                      In February 2006, several media outlets reported that Goldberg was in negotiations with the professional wrestling promotion\n                      <a title="Total Nonstop Action Wrestling" href="http://en.wikipedia.org/wiki/Total_Nonstop_Action_Wrestling" shape="rect">Total Nonstop Action Wrestling</a>\n                      ; possibly in response to these rumors, semi-retired wrestler\n                      <a title="Warrior (wrestler)" href="http://en.wikipedia.org/wiki/Warrior_(wrestler)" shape="rect">Warrior</a>\n                      commented on his\n                      <a title="Website" href="http://en.wikipedia.org/wiki/Website" shape="rect">website</a>\n                      that he would be interested in wrestling Goldberg in TNA should TNA approach him with such an offer. In a series of interviews conducted in June 2006, Goldberg stated that he was mildly interested in working for TNA, particularly since his friend\n                      <a title="Sting (wrestler)" href="http://en.wikipedia.org/wiki/Sting_(wrestler)" shape="rect">Sting</a>\n                      had joined the promotion by then, but had several reservations; he was holding out for a contract similar to the magnitude of Sting\'s. Goldberg\'s name has been brought up frequently in TNA during angles and during backstage discussions and rumors. Goldberg\'s name was first mentioned back at\n                      <a title="Lockdown (2006)" href="http://en.wikipedia.org/wiki/Lockdown_(2006)" shape="rect">Lockdown 2006</a>\n                      , as Goldberg became the target of a rumor of him joining Sting\'s warriors to wage war against Jarrett\'s army as a result of Steiner being brought in. His name was also brought up as a candidate for the consultant of Christian Cage, along with Brock Lesnar\'s, but it was later revealed to be Scott Steiner. Goldberg was upset about this, as was Brock Lesnar, as neither of them were informed that their names being on the list (since it was Brock Lesnar himself who informed Goldberg of the list). Another rumor had surfaced about Goldberg being the fifth member of Team Angle for the\n                      <a title="Professional wrestling match types" href="http://en.wikipedia.org/wiki/Professional_wrestling_match_types#Lethal_Lockdown" shape="rect">Lethal Lockdown</a>\n                      match at\n                      <a title="Lockdown (2007)" href="http://en.wikipedia.org/wiki/Lockdown_(2007)" shape="rect">Lockdown 2007</a>\n                      , but it was revealed that\n                      <a title="Jeff Jarrett" href="http://en.wikipedia.org/wiki/Jeff_Jarrett" shape="rect">Jeff Jarrett</a>\n                      was that man.\n                    </font>\n                  </p>\n                  <p align="center">\n                    <font size="2">\n                      He was scheduled to appear at\n                      <a title="WrestleFanFest Malice in the Palace" href="http://en.wikipedia.org/wiki/WrestleFanFest_Malice_in_the_Palace" shape="rect">WrestleFanFest Malice in the Palace</a>\n                      on\n                      <a title="October 19" href="http://en.wikipedia.org/wiki/October_19" shape="rect">19 October</a>\n                      <a title="2007" href="http://en.wikipedia.org/wiki/2007" shape="rect">2007</a>\n                      but did not attend.\n                      <sup class="noprint Template-Fact">\n                        <span title="This claim needs references to reliable sources\xc2\xa0since July 2008" style="white-space: nowrap">\n                          [\n                          <i>\n                            <a title="Wikipedia:Citation needed" href="http://en.wikipedia.org/wiki/Wikipedia:Citation_needed" shape="rect">citation needed</a>\n                          </i>\n                          ]\n                        </span>\n                      </sup>\n                    </font>\n                  </p>\n                  <p align="center">\xc2\xa0 </p>\n                  <div align="center">\n                    <script src="http://static.websimages.com/JS/Comments/fw.shoutbox.js" type="text/javascript"></script>\n                    <script src="http://ad556.webs.com/apps/util/Comments/loadShoutBoxJS.jsp?shoutBoxOwnerID=34154814&amp;listID=11955041&amp;skinName=dark&amp;width=251&amp;height=264" type="text/javascript"></script>\n                  </div>\n                  <p align="center">\n                    <font size="2">\n                      <b>Bill Goldberg WWE Titantron 2003-2004.\xc2\xa0</b>\n                    </font>\n                  </p>\n                  <p align="center">\n                    <sup class="noprint Template-Fact">\n                      <span title="This claim needs references to reliable sources\xc2\xa0since July 2008" style="white-space: nowrap"></span>\n                    </sup>\n                    <script src="http://members.webs.com/JS/viewYouTube.jsp?ID=Iaxay3niVqA&amp;width=270&amp;height=223" type="text/javascript"></script>\n                  </p>\n                  <p align="center">\n                    \xc2\xa0\n                    <img src="http://counters.freewebs.com/Members/Counters/counter.jsp?userid=34154814&amp;name=Site Counter"></img>\n                  </p>\n                  <p align="center">\n                    <strong>\n                      <font size="2">\xc2\xa0To get everything out of my site</font>\n                    </strong>\n                  </p>\n                  <p align="center">\n                    <strong>\n                      <font size="2">Use - </font>\n                    </strong>\n                    <font size="1">\n                      <strong>\n                        <img style="margin: 8px; width: 40px; height: 42px" height="42" src="http://www.freewebs.com/ad556/images.jpg" width="40" border="0" class="fw_image_computer fwSizeProp"></img>\n                        <a href="http://www.discoveractenergy.com/images/ie-icon.gif" class="fw_link_website" shape="rect"></a>\n                      </strong>\n                    </font>\n                  </p>\n                </div>\n                <div class="fw-paragraphbottom"></div>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div id="fw-sidebar">\n          <div id="fw-sidebarbegin"></div>\n          <div id="fw-sidebarend"></div>\n        </div>\n        <div class="clears"> </div>\n      </div>\n      <div id="fw-footer">\n        <p id="fw-foottext" class="fw-footertext">Copyright \xc2\xa92008</p>\n        <p>\n          <script type="text/javascript">\n            var _gaq = _gaq || [];\n\t_gaq.push([\'_setAccount\', \'UA-230305-2\']);\n\t_gaq.push([\'_setDomainName\', \'none\']);\n\t_gaq.push([\'_setAllowHash\', false]);\n\t_gaq.push([\'_setAllowLinker\', true]);\n\t_gaq.push([\'_trackPageview\']);\n\t\n\t (function() {\n\t   var ga = document.createElement(\'script\'); ga.type = \'text/javascript\'; ga.async = true;\n\t   ga.src = (\'https:\' == document.location.protocol ? \'https://ssl\' : \'http://www\') + \'.google-analytics.com/ga.js\';\n\t   var s = document.getElementsByTagName(\'script\')[0]; s.parentNode.insertBefore(ga, s);\n\t })();\n          </script>\n          <script> _udn = &quot;none&quot;; </script>\n          <script>\n            function utmx_section(){}function utmx(){}\n(function(){var k=\'2354831680\',d=document,l=d.location,c=d.cookie;function f(n){if(c){var i=c.indexOf(n+\'=\');if(i&gt;-1){var j=c.indexOf(\';\',i);return escape(c.substring(i+n.length+1,j&lt;0?c.length:j))}}}var x=f(\'__utmx\'),xx=f(\'__utmxx\'),h=l.hash;\nd.write(\'&lt;sc\'+\'ript src=&quot;\'+\'http\'+(l.protocol==\'https:\'?\'s://ssl\':\'://www\')+\'.google-analytics.com\'+\'/siteopt.js?v=1&amp;utmxkey=\'+k+\'&amp;utmx=\'+(x?x:\'\')+\'&amp;utmxx=\'+(xx?xx:\'\')+\'&amp;utmxtime=\'+new Date().valueOf()+(h?\'&amp;utmxhash=\'+escape(h.substr(1)):\'\')+\'&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/sc\'+\'ript&gt;\')})();\n          </script>\n          <script type="text/javascript">\n            var _gaq = _gaq || [];\n  _gaq.push([\'gwo._setAccount\', \'UA-230305-28\']);\n  _gaq.push([\'gwo._setDomainName\', \'none\']);\n  _gaq.push([\'gwo._trackPageview\', \'/2354831680/test\']);\n  (function() {\n    var ga = document.createElement(\'script\'); ga.type = \'text/javascript\'; ga.async = true;\n    ga.src = (\'https:\' == document.location.protocol ? \'https://ssl\' : \'http://www\') + \'.google-analytics.com/ga.js\';\n    var s = document.getElementsByTagName(\'script\')[0]; s.parentNode.insertBefore(ga, s);\n  })();\n          </script>\n          <script>utmx_section(&quot;Legacy Footer&quot;)</script>\n        </p>\n        <p style="float: left; font-size: 11px; text-align: left;">\n          <a \n          title="Create a Free Website" value="Create a Free Website at Webs.com" href="http://www.webs.com/?referer=wftr-null&amp;utm_source=product&amp;utm_medium=userSite&amp;utm_term=free&amp;utm_content=legacy&amp;utm_campaign=footer" onclick="_gaq.push([\'_link\', \'http://www.webs.com/?referer=wftr-null&amp;utm_source=product&amp;utm_medium=userSite&amp;utm_term=free&amp;utm_content=legacy&amp;utm_campaign=footer\']); return false;" class="fwftr-input-big fwftr-button" shape="rect">\n            <span>Create a Free Website</span>\n</a>\n        </p>\n        <br clear="none"></br>\n        <embed loop="true" height="24" width="70" autostart="true" src="http://www.freewebs.com/ad556/wwe - wwe themes - goldberg.mp3">\n          <script>\n            var _nwls=[];if(window.jQuery&amp;&amp;window.jQuery.find){_nwls=jQuery.find(&quot;.fw_link_newWindow&quot;);}else{if(document.getElementsByClassName){_nwls=document.getElementsByClassName(&quot;fw_link_newWindow&quot;);}else{if(document.querySelectorAll){_nwls=document.querySelectorAll(&quot;.fw_link_newWindow&quot;);}else{document.write(\'&lt;scr\'+\'ipt src=&quot;http://static.websimages.com/static/global/js/sizzle/sizzle.min.js&quot;&gt;&lt;\\/scr\'+\'ipt&gt;\');if(window.Sizzle){_nwls=Sizzle(&quot;.fw_link_newWindow&quot;);}}}}var numlinks=_nwls.length;for(var i=0;i&lt;numlinks;i++){_nwls[i].target=&quot;_blank&quot;;}\n          </script>\n        </embed>\n      </div>\n    </div>\n    <script src="http://static.websimages.com/static/global/js/webs/usersites/escort.js" type="text/javascript"></script>\n    <script type="text/javascript">if(typeof(urchinTracker)==\'function\'){_uacct=&quot;UA-230305-2&quot;;_udn=&quot;none&quot;;_uff=false;urchinTracker();}</script>\n  </body>\n</html>'
+p11
+sbsS'mentions'
+p12
+(lp13
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p14
+(dp15
+S'anchor_text'
+p16
+S'World Championship Wrestling'
+p17
+sS'context'
+p18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p19
+(dp20
+S'middle'
+p21
+S'World Championship Wrestling'
+p22
+sS'right'
+p23
+S'(WCW) professional wrestling promotion while living in Atlanta, Georgia , and decided to pursue a career in wrestling after meeting WCW employees Sting and Lex'
+p24
+sS'left'
+p25
+S'about Bill Goldberg. \xc2\xa0Bill Goldberg Bio: \xc2\xa0 Professional wrestling career World Championship Wrestling (1997-2001) Debut & Early Gimmick (1996-1997) Goldberg met several employees of the'
+p26
+sbsS'freebase_id'
+p27
+S'9202a8c04000641f800000000014c194'
+p28
+sS'raw_text_offset'
+p29
+I8858
+sS'wiki_url'
+p30
+S'http://en.wikipedia.org/wiki/World_Championship_Wrestling'
+p31
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p32
+(dp33
+g16
+S'professional wrestling'
+p34
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p35
+(dp36
+g21
+S'professional wrestling'
+p37
+sg23
+S'promotion while living in Atlanta, Georgia , and decided to pursue a career in wrestling after meeting WCW employees Sting and Lex Luger in a'
+p38
+sg25
+S'Goldberg Bio: \xc2\xa0 Professional wrestling career World Championship Wrestling (1997-2001) Debut & Early Gimmick (1996-1997) Goldberg met several employees of the World Championship Wrestling (WCW)'
+p39
+sbsg27
+S'9202a8c04000641f8000000000031b6c'
+p40
+sg29
+I8990
+sg30
+S'http://en.wikipedia.org/wiki/Professional_wrestling'
+p41
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p42
+(dp43
+g16
+S'promotion'
+p44
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p45
+(dp46
+g21
+S'promotion'
+p47
+sg23
+S'while living in Atlanta, Georgia , and decided to pursue a career in wrestling after meeting WCW employees Sting and Lex Luger in a gym'
+p48
+sg25
+S'\xc2\xa0 Professional wrestling career World Championship Wrestling (1997-2001) Debut & Early Gimmick (1996-1997) Goldberg met several employees of the World Championship Wrestling (WCW) professional wrestling'
+p49
+sbsg27
+S'9202a8c04000641f800000000031b78a'
+p50
+sg29
+I9130
+sg30
+S'http://en.wikipedia.org/wiki/Professional_wrestling_promotion'
+p51
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p52
+(dp53
+g16
+S'Atlanta, Georgia'
+p54
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p55
+(dp56
+g21
+S'Atlanta, Georgia'
+p57
+sg23
+S', and decided to pursue a career in wrestling after meeting WCW employees Sting and Lex Luger in a gym that the two co-owned. He'
+p58
+sg25
+S'World Championship Wrestling (1997-2001) Debut & Early Gimmick (1996-1997) Goldberg met several employees of the World Championship Wrestling (WCW) professional wrestling promotion while living in'
+p59
+sbsg27
+S'9202a8c04000641f8000000000008fb6'
+p60
+sg29
+I9241
+sg30
+S'http://en.wikipedia.org/wiki/Atlanta,_Georgia'
+p61
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p62
+(dp63
+g16
+S'Sting'
+p64
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p65
+(dp66
+g21
+S'Sting'
+p67
+sg23
+S'and Lex Luger in a gym that the two co-owned. He was quickly signed to a contract by WCW and sent to the WCW Power'
+p68
+sg25
+S'World Championship Wrestling (WCW) professional wrestling promotion while living in Atlanta, Georgia , and decided to pursue a career in wrestling after meeting WCW employees'
+p69
+sbsg27
+S'9202a8c04000641f80000000003008e4'
+p70
+sg29
+I9416
+sg30
+S'http://en.wikipedia.org/wiki/Sting_(wrestler)'
+p71
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p72
+(dp73
+g16
+S'Lex Luger'
+p74
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p75
+(dp76
+g21
+S'Lex Luger'
+p77
+sg23
+S'in a gym that the two co-owned. He was quickly signed to a contract by WCW and sent to the WCW Power Plant , a'
+p78
+sg25
+S'Wrestling (WCW) professional wrestling promotion while living in Atlanta, Georgia , and decided to pursue a career in wrestling after meeting WCW employees Sting and'
+p79
+sbsg27
+S'9202a8c04000641f80000000001a7c68'
+p80
+sg29
+I9497
+sg30
+S'http://en.wikipedia.org/wiki/Lex_Luger'
+p81
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p82
+(dp83
+g16
+S'WCW Power Plant'
+p84
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p85
+(dp86
+g21
+S'WCW Power Plant'
+p87
+sg23
+S', a professional wrestling school owned by WCW and operated by former wrestlers such as Dwayne Bruce . [8] [1] [2] After training in the'
+p88
+sg25
+S'employees Sting and Lex Luger in a gym that the two co-owned. He was quickly signed to a contract by WCW and sent to the'
+p89
+sbsg27
+S'9202a8c04000641f80000000006870e4'
+p90
+sg29
+I9681
+sg30
+S'http://en.wikipedia.org/wiki/WCW_Power_Plant'
+p91
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p92
+(dp93
+g16
+S'professional wrestling school'
+p94
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p95
+(dp96
+g21
+S'professional wrestling school'
+p97
+sg23
+S'owned by WCW and operated by former wrestlers such as Dwayne Bruce . [8] [1] [2] After training in the Power Plant for several months,'
+p98
+sg25
+S'in a gym that the two co-owned. He was quickly signed to a contract by WCW and sent to the WCW Power Plant , a'
+p99
+sbsg27
+S'9202a8c04000641f8000000000747f7d'
+p100
+sg29
+I9811
+sg30
+S'http://en.wikipedia.org/wiki/Professional_wrestling_school'
+p101
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p102
+(dp103
+g16
+S'Dwayne Bruce'
+p104
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p105
+(dp106
+g21
+S'Dwayne Bruce'
+p107
+sg23
+S'. [8] [1] [2] After training in the Power Plant for several months, Goldberg debuted on June 24, 1997, defeating Buddy Landell in a dark'
+p108
+sg25
+S'contract by WCW and sent to the WCW Power Plant , a professional wrestling school owned by WCW and operated by former wrestlers such as'
+p109
+sbsg27
+S'9202a8c04000641f80000000008bd564'
+p110
+sg29
+I9972
+sg30
+S'http://en.wikipedia.org/wiki/Dwayne_Bruce'
+p111
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p112
+(dp113
+g16
+S'Buddy Landell'
+p114
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p115
+(dp116
+g21
+S'Buddy Landell'
+p117
+sg23
+S'in a dark match under the ring name Bill Gold (he had originally considered wrestling as " Mossad "). He said in his book, I\'m'
+p118
+sg25
+S'wrestlers such as Dwayne Bruce . [8] [1] [2] After training in the Power Plant for several months, Goldberg debuted on June 24, 1997, defeating'
+p119
+sbsg27
+S'9202a8c04000641f800000000062243f'
+p120
+sg29
+I10574
+sg30
+S'http://en.wikipedia.org/wiki/Buddy_Landel'
+p121
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p122
+(dp123
+g16
+S'ring name'
+p124
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p125
+(dp126
+g21
+S'ring name'
+p127
+sg23
+S'Bill Gold (he had originally considered wrestling as " Mossad "). He said in his book, I\'m Next: The Strange Journey of America\'s Most Unlikely'
+p128
+sg25
+S'[2] After training in the Power Plant for several months, Goldberg debuted on June 24, 1997, defeating Buddy Landell in a dark match under the'
+p129
+sbsg27
+S'9202a8c04000641f8000000000373990'
+p130
+sg29
+I10812
+sg30
+S'http://en.wikipedia.org/wiki/Ring_name'
+p131
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p132
+(dp133
+g16
+S'Mossad'
+p134
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p135
+(dp136
+g21
+S'Mossad'
+p137
+sg23
+S'"). He said in his book, I\'m Next: The Strange Journey of America\'s Most Unlikely Superstar , the first match he lost in WCW was'
+p138
+sg25
+S'debuted on June 24, 1997, defeating Buddy Landell in a dark match under the ring name Bill Gold (he had originally considered wrestling as "'
+p139
+sbsg27
+S'9202a8c04000641f800000000001d6fc'
+p140
+sg29
+I10955
+sg30
+S'http://en.wikipedia.org/wiki/Mossad'
+p141
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p142
+(dp143
+g16
+S'Chad Fortune'
+p144
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p145
+(dp146
+g21
+S'Chad Fortune'
+p147
+sg23
+S'. He made his first appearance on WCW television on September 22 , 1997 edition of Nitro , defeating Hugh Morrus as Bill Goldberg ,using'
+p148
+sg25
+S"book, I'm Next: The Strange Journey of America's Most Unlikely Superstar , the first match he lost in WCW was at a house show to"
+p149
+sbsg27
+S'9202a8c04000641f80000000008b0353'
+p150
+sg29
+I11228
+sg30
+S'http://en.wikipedia.org/wiki/Chad_Fortune'
+p151
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p152
+(dp153
+g16
+S'September 22'
+p154
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p155
+(dp156
+g21
+S'September 22'
+p157
+sg23
+S', 1997 edition of Nitro , defeating Hugh Morrus as Bill Goldberg ,using the ring music previously used by Pat Tanaka . This match marked'
+p158
+sg25
+S'the first match he lost in WCW was at a house show to Chad Fortune . He made his first appearance on WCW television on'
+p159
+sbsg27
+S'9202a8c04000641f800000000003755a'
+p160
+sg29
+I11397
+sg30
+S'http://en.wikipedia.org/wiki/September_22'
+p161
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p162
+(dp163
+g16
+S'1997'
+p164
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p165
+(dp166
+g21
+S'1997'
+p167
+sg23
+S'edition of Nitro , defeating Hugh Morrus as Bill Goldberg ,using the ring music previously used by Pat Tanaka . This match marked the first'
+p168
+sg25
+S'he lost in WCW was at a house show to Chad Fortune . He made his first appearance on WCW television on September 22 ,'
+p169
+sbsg27
+Nsg29
+I11472
+sg30
+S'http://en.wikipedia.org/wiki/1997'
+p170
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p171
+(dp172
+g16
+S'Nitro'
+p173
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p174
+(dp175
+g21
+S'Nitro'
+p176
+sg23
+S", defeating Hugh Morrus as Bill Goldberg ,using the ring music previously used by Pat Tanaka . This match marked the first victory of Goldberg's"
+p177
+sg25
+S'WCW was at a house show to Chad Fortune . He made his first appearance on WCW television on September 22 , 1997 edition of'
+p178
+sbsg27
+S'9202a8c04000641f80000000002c47bd'
+p179
+sg29
+I11576
+sg30
+S'http://en.wikipedia.org/wiki/WCW_Monday_Nitro'
+p180
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p181
+(dp182
+g16
+S'Pat Tanaka'
+p183
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p184
+(dp185
+g21
+S'Pat Tanaka'
+p186
+sg23
+S'. This match marked the first victory of Goldberg\'s "streak"\xe2\x80\x94a series of 173 consecutive victories that took place on WCW television, pay-per-views , and house'
+p187
+sg25
+S'on WCW television on September 22 , 1997 edition of Nitro , defeating Hugh Morrus as Bill Goldberg ,using the ring music previously used by'
+p188
+sbsg27
+S'9202a8c04000641f8000000000745e0a'
+p189
+sg29
+I11821
+sg30
+S'http://en.wikipedia.org/wiki/Pat_Tanaka'
+p190
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p191
+(dp192
+g16
+S'house shows'
+p193
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p194
+(dp195
+g21
+S'house shows'
+p196
+sg23
+S'. After a short time, the famed undefeated streak lost all credibility with "smart" fans as the number of claimed victories was repeatedly raised from'
+p197
+sg25
+S'Tanaka . This match marked the first victory of Goldberg\'s "streak"\xe2\x80\x94a series of 173 consecutive victories that took place on WCW television, pay-per-views , and'
+p198
+sbsg27
+S'9202a8c04000641f80000000002c5c9c'
+p199
+sg29
+I12186
+sg30
+S'http://en.wikipedia.org/wiki/House_show'
+p200
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p201
+(dp202
+g16
+S'Steve McMichael'
+p203
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p204
+(dp205
+g21
+S'Steve McMichael'
+p206
+sg23
+S'. Goldberg made his pay-per-view debut at Starrcade 1997 , and defeated McMichael. In early 1998 , Goldberg defeated the likes of Brad Armstrong at'
+p207
+sg25
+S"(1997-1998) Goldberg's succession of wins saw him quickly advance up the card, and pushed as a singles wrestler. One of his first feuds was with"
+p208
+sbsg27
+S'9202a8c04000641f80000000004c316c'
+p209
+sg29
+I15277
+sg30
+S'http://en.wikipedia.org/wiki/Steve_McMichael'
+p210
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p211
+(dp212
+g16
+S'Starrcade 1997'
+p213
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p214
+(dp215
+g21
+S'Starrcade 1997'
+p216
+sg23
+S', and defeated McMichael. In early 1998 , Goldberg defeated the likes of Brad Armstrong at SuperBrawl VIII and Perry Saturn at Spring Stampede 1998'
+p217
+sg25
+S'up the card, and pushed as a singles wrestler. One of his first feuds was with Steve McMichael . Goldberg made his pay-per-view debut at'
+p218
+sbsg27
+S'9202a8c04000641f800000000732e570'
+p219
+sg29
+I15419
+sg30
+S'http://en.wikipedia.org/wiki/Starrcade_(1997)'
+p220
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p221
+(dp222
+g16
+S'1998'
+p223
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p224
+(dp225
+g21
+S'1998'
+p226
+sg23
+S', Goldberg defeated the likes of Brad Armstrong at SuperBrawl VIII and Perry Saturn at Spring Stampede 1998 in squash matches . On April 20'
+p227
+sg25
+S'wrestler. One of his first feuds was with Steve McMichael . Goldberg made his pay-per-view debut at Starrcade 1997 , and defeated McMichael. In early'
+p228
+sbsg27
+Nsg29
+I15529
+sg30
+S'http://en.wikipedia.org/wiki/1998'
+p229
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p230
+(dp231
+g16
+S'Brad Armstrong'
+p232
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p233
+(dp234
+g21
+S'Brad Armstrong'
+p235
+sg23
+S'at SuperBrawl VIII and Perry Saturn at Spring Stampede 1998 in squash matches . On April 20 , 1998 edition of Nitro , he won'
+p236
+sg25
+S'with Steve McMichael . Goldberg made his pay-per-view debut at Starrcade 1997 , and defeated McMichael. In early 1998 , Goldberg defeated the likes of'
+p237
+sbsg27
+S'9202a8c04000641f80000000005f18a0'
+p238
+sg29
+I15669
+sg30
+S'http://en.wikipedia.org/wiki/Brad_Armstrong_(wrestler)'
+p239
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p240
+(dp241
+g16
+S'SuperBrawl VIII'
+p242
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p243
+(dp244
+g21
+S'SuperBrawl VIII'
+p245
+sg23
+S'and Perry Saturn at Spring Stampede 1998 in squash matches . On April 20 , 1998 edition of Nitro , he won the WCW United'
+p246
+sg25
+S'. Goldberg made his pay-per-view debut at Starrcade 1997 , and defeated McMichael. In early 1998 , Goldberg defeated the likes of Brad Armstrong at'
+p247
+sbsg27
+Nsg29
+I15776
+sg30
+S'http://en.wikipedia.org/wiki/SuperBrawl#SuperBrawl_VIII'
+p248
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p249
+(dp250
+g16
+S'Perry Saturn'
+p251
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p252
+(dp253
+g21
+S'Perry Saturn'
+p254
+sg23
+S'at Spring Stampede 1998 in squash matches . On April 20 , 1998 edition of Nitro , he won the WCW United States Heavyweight Championship'
+p255
+sg25
+S'his pay-per-view debut at Starrcade 1997 , and defeated McMichael. In early 1998 , Goldberg defeated the likes of Brad Armstrong at SuperBrawl VIII and'
+p256
+sbsg27
+S'9202a8c04000641f80000000003e410c'
+p257
+sg29
+I15873
+sg30
+S'http://en.wikipedia.org/wiki/Perry_Saturn'
+p258
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p259
+(dp260
+g16
+S'Spring Stampede 1998'
+p261
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p262
+(dp263
+g21
+S'Spring Stampede 1998'
+p264
+sg23
+S'in squash matches . On April 20 , 1998 edition of Nitro , he won the WCW United States Heavyweight Championship , by defeating Raven'
+p265
+sg25
+S'at Starrcade 1997 , and defeated McMichael. In early 1998 , Goldberg defeated the likes of Brad Armstrong at SuperBrawl VIII and Perry Saturn at'
+p266
+sbsg27
+Nsg29
+I15977
+sg30
+S'http://en.wikipedia.org/wiki/Spring_Stampede#1998'
+p267
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p268
+(dp269
+g16
+S'squash matches'
+p270
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p271
+(dp272
+g21
+S'squash matches'
+p273
+sg23
+S'. On April 20 , 1998 edition of Nitro , he won the WCW United States Heavyweight Championship , by defeating Raven . Two days'
+p274
+sg25
+S'and defeated McMichael. In early 1998 , Goldberg defeated the likes of Brad Armstrong at SuperBrawl VIII and Perry Saturn at Spring Stampede 1998 in'
+p275
+sbsg27
+S'9202a8c04000641f8000000000747f7d'
+p276
+sg29
+I16116
+sg30
+S'http://en.wikipedia.org/wiki/Squash_(professional_wrestling)'
+p277
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p278
+(dp279
+g16
+S'April 20'
+p280
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p281
+(dp282
+g21
+S'April 20'
+p283
+sg23
+S', 1998 edition of Nitro , he won the WCW United States Heavyweight Championship , by defeating Raven . Two days later, on April 22'
+p284
+sg25
+S'early 1998 , Goldberg defeated the likes of Brad Armstrong at SuperBrawl VIII and Perry Saturn at Spring Stampede 1998 in squash matches . On'
+p285
+sbsg27
+S'9202a8c04000641f8000000000007212'
+p286
+sg29
+I16204
+sg30
+S'http://en.wikipedia.org/wiki/April_20'
+p287
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p288
+(dp289
+g16
+S'1998'
+p290
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p291
+(dp292
+g21
+S'1998'
+p293
+sg23
+S'edition of Nitro , he won the WCW United States Heavyweight Championship , by defeating Raven . Two days later, on April 22 edition of'
+p294
+sg25
+S'Goldberg defeated the likes of Brad Armstrong at SuperBrawl VIII and Perry Saturn at Spring Stampede 1998 in squash matches . On April 20 ,'
+p295
+sbsg27
+Nsg29
+I16275
+sg30
+S'http://en.wikipedia.org/wiki/1998'
+p296
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p297
+(dp298
+g16
+S'WCW United States Heavyweight Championship'
+p299
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p300
+(dp301
+g21
+S'WCW United States Heavyweight Championship'
+p302
+sg23
+S', by defeating Raven . Two days later, on April 22 edition of Thunder , he made his first successful title defense against Mike Enos'
+p303
+sg25
+S'SuperBrawl VIII and Perry Saturn at Spring Stampede 1998 in squash matches . On April 20 , 1998 edition of Nitro , he won the'
+p304
+sbsg27
+S'9202a8c04000641f80000000003de0d3'
+p305
+sg29
+I16429
+sg30
+S'http://en.wikipedia.org/wiki/WWE_United_States_Championship'
+p306
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p307
+(dp308
+g16
+S'April 22'
+p309
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p310
+(dp311
+g21
+S'April 22'
+p312
+sg23
+S'edition of Thunder , he made his first successful title defense against Mike Enos .Goldberg started a feud with Raven and his Flock . At'
+p313
+sg25
+S'April 20 , 1998 edition of Nitro , he won the WCW United States Heavyweight Championship , by defeating Raven . Two days later, on'
+p314
+sbsg27
+S'9202a8c04000641f80000000000061a2'
+p315
+sg29
+I16654
+sg30
+S'http://en.wikipedia.org/wiki/April_22'
+p316
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p317
+(dp318
+g16
+S'Thunder'
+p319
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p320
+(dp321
+g21
+S'Thunder'
+p322
+sg23
+S', he made his first successful title defense against Mike Enos .Goldberg started a feud with Raven and his Flock . At Slamboree 1998 ,'
+p323
+sg25
+S'edition of Nitro , he won the WCW United States Heavyweight Championship , by defeating Raven . Two days later, on April 22 edition of'
+p324
+sbsg27
+S'9202a8c04000641f80000000005389dc'
+p325
+sg29
+I16752
+sg30
+S'http://en.wikipedia.org/wiki/WCW_Thunder'
+p326
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p327
+(dp328
+g16
+S'Mike Enos'
+p329
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p330
+(dp331
+g21
+S'Mike Enos'
+p332
+sg23
+S'.Goldberg started a feud with Raven and his Flock . At Slamboree 1998 , he ended his feud with Flock after a successful title defense'
+p333
+sg25
+S'Heavyweight Championship , by defeating Raven . Two days later, on April 22 edition of Thunder , he made his first successful title defense against'
+p334
+sbsg27
+S'9202a8c04000641f8000000000699270'
+p335
+sg29
+I16887
+sg30
+S'http://en.wikipedia.org/wiki/Mike_Enos'
+p336
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p337
+(dp338
+g16
+S'Slamboree 1998'
+p339
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p340
+(dp341
+g21
+S'Slamboree 1998'
+p342
+sg23
+S', he ended his feud with Flock after a successful title defense against Saturn. He would continue to make successful title defenses of his title'
+p343
+sg25
+S'edition of Thunder , he made his first successful title defense against Mike Enos .Goldberg started a feud with Raven and his Flock . At'
+p344
+sbsg27
+Nsg29
+I17113
+sg30
+S'http://en.wikipedia.org/wiki/Slamboree#1998'
+p345
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p346
+(dp347
+g16
+S'Konnan'
+p348
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p349
+(dp350
+g21
+S'Konnan'
+p351
+sg23
+S'at The Great American Bash 1998 , and Curt Hennig . Main Event Push (1998-1999) Goldberg was getting over as a main eventer , after'
+p352
+sg25
+S'he ended his feud with Flock after a successful title defense against Saturn. He would continue to make successful title defenses of his title against'
+p353
+sbsg27
+S'9202a8c04000641f800000000040d2bd'
+p354
+sg29
+I17345
+sg30
+S'http://en.wikipedia.org/wiki/Konnan'
+p355
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p356
+(dp357
+g16
+S'The Great American Bash 1998'
+p358
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p359
+(dp360
+g21
+S'The Great American Bash 1998'
+p361
+sg23
+S', and Curt Hennig . Main Event Push (1998-1999) Goldberg was getting over as a main eventer , after he defeated Hollywood Hogan on July'
+p362
+sg25
+S'his feud with Flock after a successful title defense against Saturn. He would continue to make successful title defenses of his title against Konnan at'
+p363
+sbsg27
+Nsg29
+I17459
+sg30
+S'http://en.wikipedia.org/wiki/The_Great_American_Bash#1998'
+p364
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p365
+(dp366
+g16
+S'Curt Hennig'
+p367
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p368
+(dp369
+g21
+S'Curt Hennig'
+p370
+sg23
+S'. Main Event Push (1998-1999) Goldberg was getting over as a main eventer , after he defeated Hollywood Hogan on July 6 edition of Nitro'
+p371
+sg25
+S'title defense against Saturn. He would continue to make successful title defenses of his title against Konnan at The Great American Bash 1998 , and'
+p372
+sbsg27
+S'9202a8c04000641f800000000026260c'
+p373
+sg29
+I17568
+sg30
+S'http://en.wikipedia.org/wiki/Curt_Hennig'
+p374
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p375
+(dp376
+g16
+S'Starrcade 1998'
+p377
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p378
+(dp379
+g21
+S'Starrcade 1998'
+p380
+sg23
+S'when he lost his title to Kevin Nash after Scott Hall made a run-in and shocked Goldberg with a cattle prod . [ However, Goldberg'
+p381
+sg25
+S"title against Bigelow in Bigelow's WCW debut but the match went to a no contest. On the Both his reign and his streak ended at"
+p382
+sbsg27
+S'9202a8c04000641f8000000008767b80'
+p383
+sg29
+I21797
+sg30
+S'http://en.wikipedia.org/wiki/Starrcade_(1998)'
+p384
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p385
+(dp386
+g16
+S'Kevin Nash'
+p387
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p388
+(dp389
+g21
+S'Kevin Nash'
+p390
+sg23
+S'after Scott Hall made a run-in and shocked Goldberg with a cattle prod . [ However, Goldberg avenged this act by facing Hall at Souled'
+p391
+sg25
+S'the match went to a no contest. On the Both his reign and his streak ended at Starrcade 1998 when he lost his title to'
+p392
+sbsg27
+S'9202a8c04000641f8000000000245275'
+p393
+sg29
+I21911
+sg30
+S'http://en.wikipedia.org/wiki/Kevin_Nash'
+p394
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p395
+(dp396
+g16
+S'cattle prod'
+p397
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p398
+(dp399
+g21
+S'cattle prod'
+p400
+sg23
+S'. [ However, Goldberg avenged this act by facing Hall at Souled Out 1999 , in a Ladder Taser Match . Goldberg won when he'
+p401
+sg25
+S'his streak ended at Starrcade 1998 when he lost his title to Kevin Nash after Scott Hall made a run-in and shocked Goldberg with a'
+p402
+sbsg27
+S'9202a8c04000641f800000000079bc87'
+p403
+sg29
+I22183
+sg30
+S'http://en.wikipedia.org/wiki/Cattle_prod'
+p404
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p405
+(dp406
+g16
+S'Souled Out 1999'
+p407
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p408
+(dp409
+g21
+S'Souled Out 1999'
+p410
+sg23
+S', in a Ladder Taser Match . Goldberg won when he used the taser. The match could only be won by using the taser, which'
+p411
+sg25
+S'Nash after Scott Hall made a run-in and shocked Goldberg with a cattle prod . [ However, Goldberg avenged this act by facing Hall at'
+p412
+sbsg27
+Nsg29
+I22453
+sg30
+S'http://en.wikipedia.org/wiki/Souled_Out#1999'
+p413
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p414
+(dp415
+g16
+S'Ladder'
+p416
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p417
+(dp418
+g21
+S'Ladder'
+p419
+sg23
+S'Taser Match . Goldberg won when he used the taser. The match could only be won by using the taser, which was hung high above'
+p420
+sg25
+S'run-in and shocked Goldberg with a cattle prod . [ However, Goldberg avenged this act by facing Hall at Souled Out 1999 , in a'
+p421
+sbsg27
+S'9202a8c04000641f80000000005c00b9'
+p422
+sg29
+I22552
+sg30
+S'http://en.wikipedia.org/wiki/Ladder_match'
+p423
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p424
+(dp425
+g16
+S'Taser Match'
+p426
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p427
+(dp428
+g21
+S'Taser Match'
+p429
+sg23
+S'. Goldberg won when he used the taser. The match could only be won by using the taser, which was hung high above the ring,'
+p430
+sg25
+S'and shocked Goldberg with a cattle prod . [ However, Goldberg avenged this act by facing Hall at Souled Out 1999 , in a Ladder'
+p431
+sbsg27
+Nsg29
+I22709
+sg30
+S'http://en.wikipedia.org/wiki/Professional_wrestling_match_types#.28Object.29_on_a_pole_match'
+p432
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p433
+(dp434
+g16
+S'Sting'
+p435
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p436
+(dp437
+g21
+S'Sting'
+p438
+sg23
+S'at Slamboree 1999 which was fought to a no contest.He was "injured" and took some time off, for his movie Universal Soldier: The Return .He'
+p439
+sg25
+S'mocked his signature entrance and mannerisms. Goldberg took his revenge from Kevin Nash by defeating Nash at Spring Stampede 1999 .Goldberg wrestled a match against'
+p440
+sbsg27
+S'9202a8c04000641f80000000003008e4'
+p441
+sg29
+I24230
+sg30
+S'http://en.wikipedia.org/wiki/Sting_(wrestler)'
+p442
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p443
+(dp444
+g16
+S'Rick Steiner'
+p445
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p446
+(dp447
+g21
+S'Rick Steiner'
+p448
+sg23
+S'at Road Wild 1999 in a squash match . He started a feud with Diamond Dallas Page and his Jersey Triad , which culminated in'
+p449
+sg25
+S'to a no contest.He was "injured" and took some time off, for his movie Universal Soldier: The Return .He returned two months later, and defeated'
+p450
+sbsg27
+S'9202a8c04000641f80000000005c5aa3'
+p451
+sg29
+I24583
+sg30
+S'http://en.wikipedia.org/wiki/Rick_Steiner'
+p452
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p453
+(dp454
+g16
+S'Road Wild 1999'
+p455
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p456
+(dp457
+g21
+S'Road Wild 1999'
+p458
+sg23
+S'in a squash match . He started a feud with Diamond Dallas Page and his Jersey Triad , which culminated in a match at Fall'
+p459
+sg25
+S'contest.He was "injured" and took some time off, for his movie Universal Soldier: The Return .He returned two months later, and defeated Rick Steiner at'
+p460
+sbsg27
+Nsg29
+I24675
+sg30
+S'http://en.wikipedia.org/wiki/Road_Wild#1999'
+p461
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p462
+(dp463
+g16
+S'squash match'
+p464
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p465
+(dp466
+g21
+S'squash match'
+p467
+sg23
+S'. He started a feud with Diamond Dallas Page and his Jersey Triad , which culminated in a match at Fall Brawl 1999 which Goldberg'
+p468
+sg25
+S'some time off, for his movie Universal Soldier: The Return .He returned two months later, and defeated Rick Steiner at Road Wild 1999 in a'
+p469
+sbsg27
+S'9202a8c04000641f8000000000747f7d'
+p470
+sg29
+I24810
+sg30
+S'http://en.wikipedia.org/wiki/Squash_(professional_wrestling)'
+p471
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p472
+(dp473
+g16
+S'Jersey Triad'
+p474
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p475
+(dp476
+g21
+S'Jersey Triad'
+p477
+sg23
+S', which culminated in a match at Fall Brawl 1999 which Goldberg won. Around that same time, United States Champion Sid Vicious began a winning'
+p478
+sg25
+S'months later, and defeated Rick Steiner at Road Wild 1999 in a squash match . He started a feud with Diamond Dallas Page and his'
+p479
+sbsg27
+S'9202a8c04000641f800000000045e734'
+p480
+sg29
+I24952
+sg30
+S'http://en.wikipedia.org/wiki/Jersey_Triad'
+p481
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p482
+(dp483
+g16
+S'Fall Brawl 1999'
+p484
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p485
+(dp486
+g21
+S'Fall Brawl 1999'
+p487
+sg23
+S'which Goldberg won. Around that same time, United States Champion Sid Vicious began a winning streak by defeating two jobbers at the same time. After'
+p488
+sg25
+S'1999 in a squash match . He started a feud with Diamond Dallas Page and his Jersey Triad , which culminated in a match at'
+p489
+sbsg27
+Nsg29
+I25075
+sg30
+S'http://en.wikipedia.org/wiki/Fall_Brawl#1999'
+p490
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p491
+(dp492
+g16
+S'Sid Vicious'
+p493
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p494
+(dp495
+g21
+S'Sid Vicious'
+p496
+sg23
+S'began a winning streak by defeating two jobbers at the same time. After Goldberg settled his rivalry with DDP, he began focusing on Vicious and'
+p497
+sg25
+S'Page and his Jersey Triad , which culminated in a match at Fall Brawl 1999 which Goldberg won. Around that same time, United States Champion'
+p498
+sbsg27
+S'9202a8c04000641f80000000003180c9'
+p499
+sg29
+I25226
+sg30
+S'http://en.wikipedia.org/wiki/Sid_Eudy'
+p500
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p501
+(dp502
+g16
+S'Halloween Havoc 1999'
+p503
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p504
+(dp505
+g21
+S'Halloween Havoc 1999'
+p506
+sg23
+S"for Sid's US title and Goldberg defeated Sid, via referee stoppage, thus winning his second WCW United States Heavyweight Championship. Later that night, he answered"
+p507
+sg25
+S'Vicious and challenged him to a match to end his winning streak. [2] The two feuded with each other, which culminated in a match at'
+p508
+sbsg27
+Nsg29
+I25736
+sg30
+S'http://en.wikipedia.org/wiki/Halloween_Havoc#1999'
+p509
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p510
+(dp511
+g16
+S'Bret Hart'
+p512
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p513
+(dp514
+g21
+S'Bret Hart'
+p515
+sg23
+S'in a first round tournament match and went on to lose the match, after interference from Sid Vicious which gave Goldberg his second official loss'
+p516
+sg25
+S'32-man tournament was held to determine a new champion, which started that night. Goldberg participated in the tournament and defended his United States title against'
+p517
+sbsg27
+S'9202a8c04000641f80000000001c1191'
+p518
+sg29
+I26799
+sg30
+S'http://en.wikipedia.org/wiki/Bret_Hart'
+p519
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p520
+(dp521
+g16
+S'Mayhem 1999'
+p522
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p523
+(dp524
+g21
+S'Mayhem 1999'
+p525
+sg23
+S'. Shortly thereafter, Goldberg joined forces with Hart, teaming with him to defeat Creative Control for the WCW World Tag Team Championship The Outsiders (Scott'
+p526
+sg25
+S'Goldberg his second official loss in WCW in the process. Goldberg continued his rivalry with Vicious, and defeated him in an "I Quit" match at'
+p527
+sbsg27
+Nsg29
+I27247
+sg30
+S'http://en.wikipedia.org/wiki/WCW_Mayhem#1999'
+p528
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p529
+(dp530
+g16
+S'Jeff Jarrett'
+p531
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p532
+(dp533
+g21
+S'Jeff Jarrett'
+p534
+sg23
+S'announced the reformation of the nWo, and gave Goldberg a new target for a feud. However, it would not last long. on December 7. One'
+p535
+sg25
+S'Outsiders and began beating on Goldberg himself, doing enough damage to score the pin and regain his championship. After the match, Hall, Nash, Hart, and'
+p536
+sbsg27
+S'9202a8c04000641f80000000003ae8cd'
+p537
+sg29
+I49503
+sg30
+S'http://en.wikipedia.org/wiki/Jeff_Jarrett'
+p538
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p539
+(dp540
+g16
+S'Salisbury, Maryland'
+p541
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p542
+(dp543
+g21
+S'Salisbury, Maryland'
+p544
+sg23
+S', during a sequence where he chased the nWo limousine into the parking lot. Goldberg, who was wearing protective covering over his hands so he'
+p545
+sg25
+S'7. One week later, they lost the titles to Contender to the World Title (2000-2001) Shortly after his title loss, Goldberg was accidentally injured in'
+p546
+sbsg27
+S'9202a8c04000641f80000000000cf2f8'
+p547
+sg29
+I30267
+sg30
+S'http://en.wikipedia.org/wiki/Salisbury,_Maryland'
+p548
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p549
+(dp550
+g16
+S'January 4'
+p551
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p552
+(dp553
+g21
+S'January 4'
+p554
+sg23
+S', 2000 NJPW Tokyo Dome show, where he was scheduled to face Manabu Nakanishi . After taking time off to recuperate, Goldberg returned to WCW'
+p555
+sg25
+S'got a little too overaggressive in his pounding and severely injured his forearm when shards of the glass sliced it, causing him to miss the'
+p556
+sbsg27
+S'9202a8c04000641f80000000000209c1'
+p557
+sg29
+I30726
+sg30
+S'http://en.wikipedia.org/wiki/January_4'
+p558
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p559
+(dp560
+g16
+S'2000'
+p561
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p562
+(dp563
+g21
+S'2000'
+p564
+sg23
+S'NJPW Tokyo Dome show, where he was scheduled to face Manabu Nakanishi . After taking time off to recuperate, Goldberg returned to WCW on May'
+p565
+sg25
+S'too overaggressive in his pounding and severely injured his forearm when shards of the glass sliced it, causing him to miss the January 4 ,'
+p566
+sbsg27
+S'9202a8c04000641f8000000000647243'
+p567
+sg29
+I30798
+sg30
+S'http://en.wikipedia.org/wiki/2000'
+p568
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p569
+(dp570
+g16
+S'Manabu Nakanishi'
+p571
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p572
+(dp573
+g21
+S'Manabu Nakanishi'
+p574
+sg23
+S'. After taking time off to recuperate, Goldberg returned to WCW on May 29, 2000 interfering in a Nitro match between Kevin Nash and the'
+p575
+sg25
+S'shards of the glass sliced it, causing him to miss the January 4 , 2000 NJPW Tokyo Dome show, where he was scheduled to face'
+p576
+sbsg27
+S'9202a8c04000641f80000000008bd6c3'
+p577
+sg29
+I30941
+sg30
+S'http://en.wikipedia.org/wiki/Manabu_Nakanishi'
+p578
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p579
+(dp580
+g16
+S'Tank Abbott'
+p581
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p582
+(dp583
+g21
+S'Tank Abbott'
+p584
+sg23
+S"and Rick Steiner . At The Great American Bash 2000 , Goldberg betrayed Nash during Nash's World Title match against Jeff Jarrett and turned heel"
+p585
+sg25
+S'taking time off to recuperate, Goldberg returned to WCW on May 29, 2000 interfering in a Nitro match between Kevin Nash and the team of'
+p586
+sbsg27
+S'9202a8c04000641f80000000004ccc73'
+p587
+sg29
+I31211
+sg30
+S'http://en.wikipedia.org/wiki/Tank_Abbott'
+p588
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p589
+(dp590
+g16
+S'Rick Steiner'
+p591
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p592
+(dp593
+g21
+S'Rick Steiner'
+p594
+sg23
+S". At The Great American Bash 2000 , Goldberg betrayed Nash during Nash's World Title match against Jeff Jarrett and turned heel for the first"
+p595
+sg25
+S'to recuperate, Goldberg returned to WCW on May 29, 2000 interfering in a Nitro match between Kevin Nash and the team of Tank Abbott and'
+p596
+sbsg27
+S'9202a8c04000641f80000000005c5aa3'
+p597
+sg29
+I31304
+sg30
+S'http://en.wikipedia.org/wiki/Rick_Steiner'
+p598
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p599
+(dp600
+g16
+S'New Blood'
+p601
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p602
+(dp603
+g21
+S'New Blood'
+p604
+sg23
+S"faction. This didn't last long, as Goldberg would again be lost to injury and miss time. As a result of this betrayal, Goldberg feuded with"
+p605
+sg25
+S"betrayed Nash during Nash's World Title match against Jeff Jarrett and turned heel for the first time in his career by aligning himself with the"
+p606
+sbsg27
+Nsg29
+I31934
+sg30
+S'http://en.wikipedia.org/wiki/New_Blood'
+p607
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p608
+(dp609
+g16
+S'Bash at the Beach 2000'
+p610
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p611
+(dp612
+g21
+S'Bash at the Beach 2000'
+p613
+sg23
+S', but with help from Scott Steiner . Goldberg thought that he deserved to be the #1 contender to the world title, and faced World'
+p614
+sg25
+S'as Goldberg would again be lost to injury and miss time. As a result of this betrayal, Goldberg feuded with Nash and defeated him at'
+p615
+sbsg27
+Nsg29
+I32201
+sg30
+S'http://en.wikipedia.org/wiki/Bash_at_the_Beach#2000'
+p616
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p617
+(dp618
+g16
+S'Scott Steiner'
+p619
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p620
+(dp621
+g21
+S'Scott Steiner'
+p622
+sg23
+S'. Goldberg thought that he deserved to be the #1 contender to the world title, and faced World Champion Booker T for the title but'
+p623
+sg25
+S'time. As a result of this betrayal, Goldberg feuded with Nash and defeated him at Bash at the Beach 2000 , but with help from'
+p624
+sbsg27
+S'9202a8c04000641f80000000002c47c9'
+p625
+sg29
+I32323
+sg30
+S'http://en.wikipedia.org/wiki/Scott_Steiner'
+p626
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p627
+(dp628
+g16
+S'Booker T'
+p629
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p630
+(dp631
+g21
+S'Booker T'
+p632
+sg23
+S"for the title but lost the match. He participated in a triple threat #1 contender's match against Kevin Nash and Scott Steiner at New Blood"
+p633
+sg25
+S'but with help from Scott Steiner . Goldberg thought that he deserved to be the #1 contender to the world title, and faced World Champion'
+p634
+sbsg27
+S'9202a8c04000641f8000000000255a3a'
+p635
+sg29
+I32521
+sg30
+S'http://en.wikipedia.org/wiki/Booker_Huffman'
+p636
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p637
+(dp638
+g16
+S'New Blood Rising'
+p639
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p640
+(dp641
+g21
+S'New Blood Rising'
+p642
+sg23
+S', which Nash won.Goldberg turned face again after Bret Hart attacked him on an edition of Nitro and then he and Scott Steiner began a'
+p643
+sg25
+S"Booker T for the title but lost the match. He participated in a triple threat #1 contender's match against Kevin Nash and Scott Steiner at"
+p644
+sbsg27
+S'9202a8c04000641f800000000062d2a9'
+p645
+sg29
+I32896
+sg30
+S'http://en.wikipedia.org/wiki/New_Blood_Rising'
+p646
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p647
+(dp648
+g16
+S'KroniK'
+p649
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p650
+(dp651
+g21
+S'KroniK'
+p652
+sg23
+S'( Brian Adams Bryan Clark ) at Halloween Havoc 2000 in a handicap elimination match to begin his undefeated streak. He started a feud with'
+p653
+sg25
+S', which Goldberg lost. He began a new undefeated streak in October 2000, with Vince Russo threatening to "fire" him if he lost. He defeated'
+p654
+sbsg27
+Nsg29
+I38350
+sg30
+S'http://en.wikipedia.org/wiki/KroniK'
+p655
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p656
+(dp657
+g16
+S'Scott Steiner'
+p658
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p659
+(dp660
+g21
+S'Scott Steiner'
+p661
+sg23
+S', and one to Booker T. All Japan Pro Wrestling (2002-2003) Goldberg had suffered an arm injury during a celebrity car racing event in April'
+p662
+sg25
+S'buyout. and In the course of his WCW career, Goldberg had six official singles defeats: three to Bret Hart, one to Kevin Nash, one to'
+p663
+sbsg27
+S'9202a8c04000641f80000000002c47c9'
+p664
+sg29
+I37013
+sg30
+S'http://en.wikipedia.org/wiki/Scott_Steiner'
+p665
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p666
+(dp667
+g16
+S'Japan'
+p668
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p669
+(dp670
+g21
+S'Japan'
+p671
+sg23
+S'. He initially joined All Japan Pro Wrestling , defeating Satoshi Kojima on August 30 , 2002 and Taiy\xc5\x8d Kea . He went on to'
+p672
+sg25
+S'Goldberg had suffered an arm injury during a celebrity car racing event in April 2002, but in August 2002, he returned to the ring in'
+p673
+sbsg27
+S'9202a8c04000641f800000000001fc6c'
+p674
+sg29
+I37490
+sg30
+S'http://en.wikipedia.org/wiki/Japan'
+p675
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p676
+(dp677
+g16
+S'All Japan Pro Wrestling'
+p678
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p679
+(dp680
+g21
+S'All Japan Pro Wrestling'
+p681
+sg23
+S', defeating Satoshi Kojima on August 30 , 2002 and Taiy\xc5\x8d Kea . He went on to defeat Rick Steiner in Yokohama in a match'
+p682
+sg25
+S'injury during a celebrity car racing event in April 2002, but in August 2002, he returned to the ring in Japan . He initially joined'
+p683
+sbsg27
+S'9202a8c04000641f8000000000365306'
+p684
+sg29
+I37616
+sg30
+S'http://en.wikipedia.org/wiki/All_Japan_Pro_Wrestling'
+p685
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p686
+(dp687
+g16
+S'Satoshi Kojima'
+p688
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p689
+(dp690
+g21
+S'Satoshi Kojima'
+p691
+sg23
+S'on August 30 , 2002 and Taiy\xc5\x8d Kea . He went on to defeat Rick Steiner in Yokohama in a match for the W-1 promotion,'
+p692
+sg25
+S'event in April 2002, but in August 2002, he returned to the ring in Japan . He initially joined All Japan Pro Wrestling , defeating'
+p693
+sbsg27
+S'9202a8c04000641f80000000006db5bd'
+p694
+sg29
+I37732
+sg30
+S'http://en.wikipedia.org/wiki/Satoshi_Kojima'
+p695
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p696
+(dp697
+g16
+S'August 30'
+p698
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p699
+(dp700
+g21
+S'August 30'
+p701
+sg23
+S', 2002 and Taiy\xc5\x8d Kea . He went on to defeat Rick Steiner in Yokohama in a match for the W-1 promotion, and teamed with'
+p702
+sg25
+S'2002, but in August 2002, he returned to the ring in Japan . He initially joined All Japan Pro Wrestling , defeating Satoshi Kojima on'
+p703
+sbsg27
+S'9202a8c04000641f8000000000006509'
+p704
+sg29
+I37821
+sg30
+S'http://en.wikipedia.org/wiki/August_30'
+p705
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p706
+(dp707
+g16
+S'2002'
+p708
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p709
+(dp710
+g21
+S'2002'
+p711
+sg23
+S'and Taiy\xc5\x8d Kea . He went on to defeat Rick Steiner in Yokohama in a match for the W-1 promotion, and teamed with Keiji Mutoh'
+p712
+sg25
+S'August 2002, he returned to the ring in Japan . He initially joined All Japan Pro Wrestling , defeating Satoshi Kojima on August 30 ,'
+p713
+sbsg27
+Nsg29
+I37893
+sg30
+S'http://en.wikipedia.org/wiki/2002'
+p714
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p715
+(dp716
+g16
+S'Yokohama'
+p717
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p718
+(dp719
+g21
+S'Yokohama'
+p720
+sg23
+S'in a match for the W-1 promotion, and teamed with Keiji Mutoh to defeat KroniK in Tokyo . His success in Japan led to the'
+p721
+sg25
+S'All Japan Pro Wrestling , defeating Satoshi Kojima on August 30 , 2002 and Taiy\xc5\x8d Kea . He went on to defeat Rick Steiner in'
+p722
+sbsg27
+S'9202a8c04000641f800000000008e33b'
+p723
+sg29
+I38111
+sg30
+S'http://en.wikipedia.org/wiki/Yokohama'
+p724
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p725
+(dp726
+g16
+S'Keiji Mutoh'
+p727
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p728
+(dp729
+g21
+S'Keiji Mutoh'
+p730
+sg23
+S'to defeat KroniK in Tokyo . His success in Japan led to the World Wrestling Federation - now renamed World Wrestling Entertainment - beginning contract'
+p731
+sg25
+S', 2002 and Taiy\xc5\x8d Kea . He went on to defeat Rick Steiner in Yokohama in a match for the W-1 promotion, and teamed with'
+p732
+sbsg27
+S'9202a8c04000641f80000000003db1c1'
+p733
+sg29
+I38263
+sg30
+S'http://en.wikipedia.org/wiki/Keiji_Muto'
+p734
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p735
+(dp736
+g16
+S'Tokyo'
+p737
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p738
+(dp739
+g21
+S'Tokyo'
+p740
+sg23
+S'. His success in Japan led to the World Wrestling Federation - now renamed World Wrestling Entertainment - beginning contract negotiations with him. World Wrestling'
+p741
+sg25
+S'He went on to defeat Rick Steiner in Yokohama in a match for the W-1 promotion, and teamed with Keiji Mutoh to defeat KroniK in'
+p742
+sbsg27
+S'9202a8c04000641f800000000003b1b1'
+p743
+sg29
+I38423
+sg30
+S'http://en.wikipedia.org/wiki/Tokyo'
+p744
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p745
+(dp746
+g16
+S'World Wrestling Entertainment'
+p747
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p748
+(dp749
+g21
+S'World Wrestling Entertainment'
+p750
+sg23
+S'(WWE) in March 2003. He debuted in WWE on March 31 , 2003 edition of RAW , the night after WrestleMania XIX , and immediately'
+p751
+sg25
+S'Entertainment - beginning contract negotiations with him. World Wrestling Entertainment (2003-2004) Winning Streak on RAW (2003) Goldberg was signed to a one year contract by'
+p752
+sbsg27
+S'9202a8c04000641f800000000007743f'
+p753
+sg29
+I39176
+sg30
+S'http://en.wikipedia.org/wiki/World_Wrestling_Entertainment'
+p754
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p755
+(dp756
+g16
+S'March 31'
+p757
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p758
+(dp759
+g21
+S'March 31'
+p760
+sg23
+S', 2003 edition of RAW , the night after WrestleMania XIX , and immediately began a feud with The Rock by spearing him. His feud'
+p761
+sg25
+S'Streak on RAW (2003) Goldberg was signed to a one year contract by World Wrestling Entertainment (WWE) in March 2003. He debuted in WWE on'
+p762
+sbsg27
+S'9202a8c04000641f8000000000029598'
+p763
+sg29
+I39317
+sg30
+S'http://en.wikipedia.org/wiki/March_31'
+p764
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p765
+(dp766
+g16
+S'2003'
+p767
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p768
+(dp769
+g21
+S'2003'
+p770
+sg23
+S'edition of RAW , the night after WrestleMania XIX , and immediately began a feud with The Rock by spearing him. His feud with The'
+p771
+sg25
+S'(2003) Goldberg was signed to a one year contract by World Wrestling Entertainment (WWE) in March 2003. He debuted in WWE on March 31 ,'
+p772
+sbsg27
+Nsg29
+I39388
+sg30
+S'http://en.wikipedia.org/wiki/2003'
+p773
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p774
+(dp775
+g16
+S'RAW'
+p776
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p777
+(dp778
+g21
+S'RAW'
+p779
+sg23
+S', the night after WrestleMania XIX , and immediately began a feud with The Rock by spearing him. His feud with The Rock culminated in'
+p780
+sg25
+S'signed to a one year contract by World Wrestling Entertainment (WWE) in March 2003. He debuted in WWE on March 31 , 2003 edition of'
+p781
+sbsg27
+S'9202a8c04000641f8000000000246670'
+p782
+sg29
+I39474
+sg30
+S'http://en.wikipedia.org/wiki/WWE_Raw'
+p783
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p784
+(dp785
+g16
+S'WrestleMania XIX'
+p786
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p787
+(dp788
+g21
+S'WrestleMania XIX'
+p789
+sg23
+S', and immediately began a feud with The Rock by spearing him. His feud with The Rock culminated in a match at Backlash 2003 ,'
+p790
+sg25
+S'contract by World Wrestling Entertainment (WWE) in March 2003. He debuted in WWE on March 31 , 2003 edition of RAW , the night after'
+p791
+sbsg27
+S'9202a8c04000641f800000000047ef78'
+p792
+sg29
+I39584
+sg30
+S'http://en.wikipedia.org/wiki/WrestleMania_XIX'
+p793
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p794
+(dp795
+g16
+S'The Rock'
+p796
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p797
+(dp798
+g21
+S'The Rock'
+p799
+sg23
+S"by spearing him. His feud with The Rock culminated in a match at Backlash 2003 , which was Goldberg's first appearance in a WWE ring."
+p800
+sg25
+S'He debuted in WWE on March 31 , 2003 edition of RAW , the night after WrestleMania XIX , and immediately began a feud with'
+p801
+sbsg27
+S'9202a8c04000641f8000000000123bf8'
+p802
+sg29
+I39753
+sg30
+S'http://en.wikipedia.org/wiki/The_Rock_(entertainer)'
+p803
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p804
+(dp805
+g16
+S'Backlash 2003'
+p806
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p807
+(dp808
+g21
+S'Backlash 2003'
+p809
+sg23
+S", which was Goldberg's first appearance in a WWE ring. The match was won by Goldberg following three spears and a Jackhammer . He began"
+p810
+sg25
+S'after WrestleMania XIX , and immediately began a feud with The Rock by spearing him. His feud with The Rock culminated in a match at'
+p811
+sbsg27
+S'9202a8c04000641f800000000839eaa7'
+p812
+sg29
+I39910
+sg30
+S'http://en.wikipedia.org/wiki/Backlash_(2003)'
+p813
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p814
+(dp815
+g16
+S'May 5'
+p816
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p817
+(dp818
+g21
+S'May 5'
+p819
+sg23
+S'edition of RAW resulting in a no contest. The two faced each other on the following edition of RAW in a steel cage match ,'
+p820
+sg25
+S'Goldberg following three spears and a Jackhammer . He began a short feud with Christian , with whom he had his first RAW match on'
+p821
+sbsg27
+S'9202a8c04000641f8000000000027057'
+p822
+sg29
+I40477
+sg30
+S'http://en.wikipedia.org/wiki/May_5'
+p823
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p824
+(dp825
+g16
+S'Chris Jericho'
+p826
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p827
+(dp828
+g21
+S'Chris Jericho'
+p829
+sg23
+S', who continued to insult Goldberg in following weeks and challenged him to a match. At Bad Blood 2003 , the rivalry was settled after'
+p830
+sg25
+S'contest. The two faced each other on the following edition of RAW in a steel cage match , which Goldberg won. He next feuded with'
+p831
+sbsg27
+S'9202a8c04000641f800000000023716c'
+p832
+sg29
+I40865
+sg30
+S'http://en.wikipedia.org/wiki/Chris_Jericho'
+p833
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p834
+(dp835
+g16
+S'Bad Blood 2003'
+p836
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p837
+(dp838
+g21
+S'Bad Blood 2003'
+p839
+sg23
+S', the rivalry was settled after Goldberg defeated Jericho. World Championship & Retirement (2003-2004) Goldberg started a feud with World Heavyweight Champion Triple H over'
+p840
+sg25
+S'which Goldberg won. He next feuded with Chris Jericho , who continued to insult Goldberg in following weeks and challenged him to a match. At'
+p841
+sbsg27
+Nsg29
+I41050
+sg30
+S'http://en.wikipedia.org/wiki/WWE_Bad_Blood#2003'
+p842
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p843
+(dp844
+g16
+S'Triple H'
+p845
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p846
+(dp847
+g21
+S'Triple H'
+p848
+sg23
+S'over the World Championship. Their rivalry began at a live event on July 20 , 2003 when Goldberg faced Triple H for the title, but'
+p849
+sg25
+S'Bad Blood 2003 , the rivalry was settled after Goldberg defeated Jericho. World Championship & Retirement (2003-2004) Goldberg started a feud with World Heavyweight Champion'
+p850
+sbsg27
+S'9202a8c04000641f80000000001c134b'
+p851
+sg29
+I41633
+sg30
+S'http://en.wikipedia.org/wiki/Triple_H'
+p852
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p853
+(dp854
+g16
+S'July 20'
+p855
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p856
+(dp857
+g21
+S'July 20'
+p858
+sg23
+S', 2003 when Goldberg faced Triple H for the title, but lost the match after Evolution interfered in the match. He challenged Triple H for'
+p859
+sg25
+S'& Retirement (2003-2004) Goldberg started a feud with World Heavyweight Champion Triple H over the World Championship. Their rivalry began at a live event on'
+p860
+sbsg27
+S'9202a8c04000641f80000000000202ca'
+p861
+sg29
+I41850
+sg30
+S'http://en.wikipedia.org/wiki/July_20'
+p862
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p863
+(dp864
+g16
+S'2003'
+p865
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p866
+(dp867
+g21
+S'2003'
+p868
+sg23
+S'when Goldberg faced Triple H for the title, but lost the match after Evolution interfered in the match. He challenged Triple H for the title'
+p869
+sg25
+S'Goldberg started a feud with World Heavyweight Champion Triple H over the World Championship. Their rivalry began at a live event on July 20 ,'
+p870
+sbsg27
+Nsg29
+I41920
+sg30
+S'http://en.wikipedia.org/wiki/2003'
+p871
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p872
+(dp873
+g16
+S'Evolution'
+p874
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p875
+(dp876
+g21
+S'Evolution'
+p877
+sg23
+S'interfered in the match. He challenged Triple H for the title again at SummerSlam 2003 in the second Elimination Chamber match in WWE; after eliminating'
+p878
+sg25
+S'Their rivalry began at a live event on July 20 , 2003 when Goldberg faced Triple H for the title, but lost the match after'
+p879
+sbsg27
+S'9202a8c04000641f80000000003671ed'
+p880
+sg29
+I42115
+sg30
+S'http://en.wikipedia.org/wiki/Evolution_(professional_wrestling)'
+p881
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p882
+(dp883
+g16
+S'SummerSlam 2003'
+p884
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p885
+(dp886
+g21
+S'SummerSlam 2003'
+p887
+sg23
+S'in the second Elimination Chamber match in WWE; after eliminating Randy Orton , Shawn Michaels , and Jericho, he was pinned by the champion Triple'
+p888
+sg25
+S'faced Triple H for the title, but lost the match after Evolution interfered in the match. He challenged Triple H for the title again at'
+p889
+sbsg27
+S'9202a8c04000641f8000000000cf49ac'
+p890
+sg29
+I42283
+sg30
+S'http://en.wikipedia.org/wiki/SummerSlam_(2003)'
+p891
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p892
+(dp893
+g16
+S'Elimination Chamber'
+p894
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p895
+(dp896
+g21
+S'Elimination Chamber'
+p897
+sg23
+S'match in WWE; after eliminating Randy Orton , Shawn Michaels , and Jericho, he was pinned by the champion Triple H and as a result,'
+p898
+sg25
+S'title, but lost the match after Evolution interfered in the match. He challenged Triple H for the title again at SummerSlam 2003 in the second'
+p899
+sbsg27
+S'9202a8c04000641f800000000037c491'
+p900
+sg29
+I42404
+sg30
+S'http://en.wikipedia.org/wiki/Elimination_Chamber'
+p901
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p902
+(dp903
+g16
+S'Randy Orton'
+p904
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p905
+(dp906
+g21
+S'Randy Orton'
+p907
+sg23
+S', Shawn Michaels , and Jericho, he was pinned by the champion Triple H and as a result, Triple H retained the title. Goldberg continued'
+p908
+sg25
+S'interfered in the match. He challenged Triple H for the title again at SummerSlam 2003 in the second Elimination Chamber match in WWE; after eliminating'
+p909
+sbsg27
+S'9202a8c04000641f8000000000308a9f'
+p910
+sg29
+I42531
+sg30
+S'http://en.wikipedia.org/wiki/Randy_Orton'
+p911
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p912
+(dp913
+g16
+S'Shawn Michaels'
+p914
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p915
+(dp916
+g21
+S'Shawn Michaels'
+p917
+sg23
+S', and Jericho, he was pinned by the champion Triple H and as a result, Triple H retained the title. Goldberg continued his rivalry with'
+p918
+sg25
+S'match. He challenged Triple H for the title again at SummerSlam 2003 in the second Elimination Chamber match in WWE; after eliminating Randy Orton ,'
+p919
+sbsg27
+S'9202a8c04000641f80000000001c45ba'
+p920
+sg29
+I42625
+sg30
+S'http://en.wikipedia.org/wiki/Shawn_Michaels'
+p921
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p922
+(dp923
+g16
+S'World Heavyweight Championship'
+p924
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p925
+(dp926
+g21
+S'World Heavyweight Championship'
+p927
+sg23
+S'at Unforgiven 2003 , after agreeing to put his career on the line. He successfully defended the title against Triple H in a rematch at'
+p928
+sg25
+S'champion Triple H and as a result, Triple H retained the title. Goldberg continued his rivalry with Triple H and finally defeated him for the'
+p929
+sbsg27
+S'9202a8c04000641f8000000000318dc6'
+p930
+sg29
+I43051
+sg30
+S'http://en.wikipedia.org/wiki/World_Heavyweight_Championship_(WWE)'
+p931
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p932
+(dp933
+g16
+S'Unforgiven 2003'
+p934
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p935
+(dp936
+g21
+S'Unforgiven 2003'
+p937
+sg23
+S', after agreeing to put his career on the line. He successfully defended the title against Triple H in a rematch at Survivor Series 2003'
+p938
+sg25
+S'as a result, Triple H retained the title. Goldberg continued his rivalry with Triple H and finally defeated him for the World Heavyweight Championship at'
+p939
+sbsg27
+S'9202a8c04000641f8000000007331380'
+p940
+sg29
+I43172
+sg30
+S'http://en.wikipedia.org/wiki/Unforgiven_(2003)'
+p941
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p942
+(dp943
+g16
+S'Survivor Series 2003'
+p944
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p945
+(dp946
+g21
+S'Survivor Series 2003'
+p947
+sg23
+S', before he lost the title back to Triple H at Armageddon 2003 when Triple H pinned him in a triple threat match which also'
+p948
+sg25
+S'at Unforgiven 2003 , after agreeing to put his career on the line. He successfully defended the title against Triple H in a rematch at'
+p949
+sbsg27
+S'9202a8c04000641f8000000000d6e168'
+p950
+sg29
+I43400
+sg30
+S'http://en.wikipedia.org/wiki/Survivor_Series_(2003)'
+p951
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p952
+(dp953
+g16
+S'Armageddon 2003'
+p954
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p955
+(dp956
+g21
+S'Armageddon 2003'
+p957
+sg23
+S'when Triple H pinned him in a triple threat match which also included Kane . At Royal Rumble 2004 , Goldberg participated in the Royal'
+p958
+sg25
+S'successfully defended the title against Triple H in a rematch at Survivor Series 2003 , before he lost the title back to Triple H at'
+p959
+sbsg27
+Nsg29
+I43553
+sg30
+S'http://en.wikipedia.org/wiki/WWE_Armageddon#2003'
+p960
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p961
+(dp962
+g16
+S'Royal Rumble 2004'
+p963
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p964
+(dp965
+g21
+S'Royal Rumble 2004'
+p966
+sg23
+S', Goldberg participated in the Royal Rumble match , entering at #30, so he could get a chance to regain his world title at WrestleMania'
+p967
+sg25
+S'the title back to Triple H at Armageddon 2003 when Triple H pinned him in a triple threat match which also included Kane . At'
+p968
+sbsg27
+S'9202a8c04000641f8000000000249150'
+p969
+sg29
+I43842
+sg30
+S'http://en.wikipedia.org/wiki/Royal_Rumble_(2004)'
+p970
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p971
+(dp972
+g16
+S'Royal Rumble match'
+p973
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p974
+(dp975
+g21
+S'Royal Rumble match'
+p976
+sg23
+S', entering at #30, so he could get a chance to regain his world title at WrestleMania . However, during the match, he began a'
+p977
+sg25
+S'2003 when Triple H pinned him in a triple threat match which also included Kane . At Royal Rumble 2004 , Goldberg participated in the'
+p978
+sbsg27
+Nsg29
+I43973
+sg30
+S'http://en.wikipedia.org/wiki/Royal_Rumble#Match'
+p979
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p980
+(dp981
+g16
+S'WrestleMania'
+p982
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p983
+(dp984
+g21
+S'WrestleMania'
+p985
+sg23
+S'. However, during the match, he began a feud with WWE Champion Brock Lesnar who interfered in the match and hit Goldberg with the F-5'
+p986
+sg25
+S'2004 , Goldberg participated in the Royal Rumble match , entering at #30, so he could get a chance to regain his world title at'
+p987
+sbsg27
+S'9202a8c04000641f80000000002103d1'
+p988
+sg29
+I44141
+sg30
+S'http://en.wikipedia.org/wiki/WrestleMania'
+p989
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p990
+(dp991
+g16
+S'WWE Champion'
+p992
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p993
+(dp994
+g21
+S'WWE Champion'
+p995
+sg23
+S'Brock Lesnar who interfered in the match and hit Goldberg with the F-5 and causing him to be eliminated by Kurt Angle . Goldberg gained'
+p996
+sg25
+S'at #30, so he could get a chance to regain his world title at WrestleMania . However, during the match, he began a feud with'
+p997
+sbsg27
+S'9202a8c04000641f80000000002ec55d'
+p998
+sg29
+I44288
+sg30
+S'http://en.wikipedia.org/wiki/WWE_Championship'
+p999
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1000
+(dp1001
+g16
+S'Brock Lesnar'
+p1002
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1003
+(dp1004
+g21
+S'Brock Lesnar'
+p1005
+sg23
+S'who interfered in the match and hit Goldberg with the F-5 and causing him to be eliminated by Kurt Angle . Goldberg gained revenge by'
+p1006
+sg25
+S'so he could get a chance to regain his world title at WrestleMania . However, during the match, he began a feud with WWE Champion'
+p1007
+sbsg27
+S'9202a8c04000641f80000000001cf3b4'
+p1008
+sg29
+I44378
+sg30
+S'http://en.wikipedia.org/wiki/Brock_Lesnar'
+p1009
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1010
+(dp1011
+g16
+S'Kurt Angle'
+p1012
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1013
+(dp1014
+g21
+S'Kurt Angle'
+p1015
+sg23
+S'. Goldberg gained revenge by attending No Way Out 2004 the following month and costing Lesnar his WWE Championship by interfering in a match between'
+p1016
+sg25
+S'a feud with WWE Champion Brock Lesnar who interfered in the match and hit Goldberg with the F-5 and causing him to be eliminated by'
+p1017
+sbsg27
+S'9202a8c04000641f80000000001edcbc'
+p1018
+sg29
+I44635
+sg30
+S'http://en.wikipedia.org/wiki/Kurt_Angle'
+p1019
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1020
+(dp1021
+g16
+S'No Way Out 2004'
+p1022
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1023
+(dp1024
+g21
+S'No Way Out 2004'
+p1025
+sg23
+S'the following month and costing Lesnar his WWE Championship by interfering in a match between Lesnar and the challenger to the title, Eddie Guerrero .This'
+p1026
+sg25
+S'interfered in the match and hit Goldberg with the F-5 and causing him to be eliminated by Kurt Angle . Goldberg gained revenge by attending'
+p1027
+sbsg27
+S'9202a8c04000641f8000000006c28566'
+p1028
+sg29
+I44771
+sg30
+S'http://en.wikipedia.org/wiki/No_Way_Out_(2004)'
+p1029
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1030
+(dp1031
+g16
+S'Eddie Guerrero'
+p1032
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1033
+(dp1034
+g21
+S'Eddie Guerrero'
+p1035
+sg23
+S'.This led to a match between the two being scheduled for WrestleMania XX . A match between the two had been highly anticipated due to'
+p1036
+sg25
+S'Way Out 2004 the following month and costing Lesnar his WWE Championship by interfering in a match between Lesnar and the challenger to the title,'
+p1037
+sbsg27
+S'9202a8c04000641f80000000001c4ce1'
+p1038
+sg29
+I45002
+sg30
+S'http://en.wikipedia.org/wiki/Eddie_Guerrero'
+p1039
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1040
+(dp1041
+g16
+S'WrestleMania XX'
+p1042
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1043
+(dp1044
+g21
+S'WrestleMania XX'
+p1045
+sg23
+S'. A match between the two had been highly anticipated due to their similar physique and their undefeated streaks. Goldberg was not seen on WWE'
+p1046
+sg25
+S'interfering in a match between Lesnar and the challenger to the title, Eddie Guerrero .This led to a match between the two being scheduled for'
+p1047
+sbsg27
+S'9202a8c04000641f800000000028fe55'
+p1048
+sg29
+I45156
+sg30
+S'http://en.wikipedia.org/wiki/WrestleMania_XX'
+p1049
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1050
+(dp1051
+g16
+S'Steve Austin'
+p1052
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1053
+(dp1054
+g21
+S'Steve Austin'
+p1055
+sg23
+S', the guest referee of the match, instead of Goldberg. The Goldberg vs. Lesnar match is notable for a large majority of the crowd becoming'
+p1056
+sg25
+S'appearances. This may have hurt the build to the WrestleMania match, with the last episode of SmackDown! before WrestleMania featuring a confrontation between Lesnar and'
+p1057
+sbsg27
+S'9202a8c04000641f80000000001f710b'
+p1058
+sg29
+I45832
+sg30
+S'http://en.wikipedia.org/wiki/Stone_Cold_Steve_Austin'
+p1059
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1060
+(dp1061
+g16
+S'Jim Ross'
+p1062
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1063
+(dp1064
+g21
+S'Jim Ross'
+p1065
+sg23
+S'acknowledged their plans to leave the company. Goldberg won the match cleanly but was attacked by Austin post-match. Then a week later, his WWE contract'
+p1066
+sg25
+S'was the only one to receive any cheers during that match). Both men showed frustration in their performance, and amid the resounding boos, ringside commentator'
+p1067
+sbsg27
+S'9202a8c04000641f80000000003ea40d'
+p1068
+sg29
+I46547
+sg30
+S'http://en.wikipedia.org/wiki/Jim_Ross'
+p1069
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1070
+(dp1071
+g16
+S'Total Nonstop Action Wrestling'
+p1072
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1073
+(dp1074
+g21
+S'Total Nonstop Action Wrestling'
+p1075
+sg23
+S'; possibly in response to these rumors, semi-retired wrestler Warrior commented on his website that he would be interested in wrestling Goldberg in TNA should'
+p1076
+sg25
+S'fashion, arguing that his character was poorly utilized. In February 2006, several media outlets reported that Goldberg was in negotiations with the professional wrestling promotion'
+p1077
+sbsg27
+S'9202a8c04000641f8000000000253b08'
+p1078
+sg29
+I47549
+sg30
+S'http://en.wikipedia.org/wiki/Total_Nonstop_Action_Wrestling'
+p1079
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1080
+(dp1081
+g16
+S'Warrior'
+p1082
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1083
+(dp1084
+g21
+S'Warrior'
+p1085
+sg23
+S'commented on his website that he would be interested in wrestling Goldberg in TNA should TNA approach him with such an offer. In a series'
+p1086
+sg25
+S'outlets reported that Goldberg was in negotiations with the professional wrestling promotion Total Nonstop Action Wrestling ; possibly in response to these rumors, semi-retired wrestler'
+p1087
+sbsg27
+S'9202a8c04000641f8000000000315ed4'
+p1088
+sg29
+I47730
+sg30
+S'http://en.wikipedia.org/wiki/Warrior_(wrestler)'
+p1089
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1090
+(dp1091
+g16
+S'website'
+p1092
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1093
+(dp1094
+g21
+S'website'
+p1095
+sg23
+S'that he would be interested in wrestling Goldberg in TNA should TNA approach him with such an offer. In a series of interviews conducted in'
+p1096
+sg25
+S'was in negotiations with the professional wrestling promotion Total Nonstop Action Wrestling ; possibly in response to these rumors, semi-retired wrestler Warrior commented on his'
+p1097
+sbsg27
+S'9202a8c04000641f8000000000041684'
+p1098
+sg29
+I47822
+sg30
+S'http://en.wikipedia.org/wiki/Website'
+p1099
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1100
+(dp1101
+g16
+S'Sting'
+p1102
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1103
+(dp1104
+g21
+S'Sting'
+p1105
+sg23
+S"had joined the promotion by then, but had several reservations; he was holding out for a contract similar to the magnitude of Sting's. Goldberg's name"
+p1106
+sg25
+S'offer. In a series of interviews conducted in June 2006, Goldberg stated that he was mildly interested in working for TNA, particularly since his friend'
+p1107
+sbsg27
+S'9202a8c04000641f80000000003008e4'
+p1108
+sg29
+I48162
+sg30
+S'http://en.wikipedia.org/wiki/Sting_(wrestler)'
+p1109
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1110
+(dp1111
+g16
+S'Lockdown 2006'
+p1112
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1113
+(dp1114
+g21
+S'Lockdown 2006'
+p1115
+sg23
+S", as Goldberg became the target of a rumor of him joining Sting's warriors to wage war against Jarrett's army as a result of Steiner"
+p1116
+sg25
+S"Sting's. Goldberg's name has been brought up frequently in TNA during angles and during backstage discussions and rumors. Goldberg's name was first mentioned back at"
+p1117
+sbsg27
+S'9202a8c04000641f8000000005c144c7'
+p1118
+sg29
+I48543
+sg30
+S'http://en.wikipedia.org/wiki/Lockdown_(2006)'
+p1119
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1120
+(dp1121
+g16
+S'Lockdown 2007'
+p1122
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1123
+(dp1124
+g21
+S'Lockdown 2007'
+p1125
+sg23
+S', but it was revealed that Jeff Jarrett was that man. He was scheduled to appear at WrestleFanFest Malice in the Palace on 19 October'
+p1126
+sg25
+S'who informed Goldberg of the list). Another rumor had surfaced about Goldberg being the fifth member of Team Angle for the Lethal Lockdown match at'
+p1127
+sbsg27
+S'9202a8c04000641f8000000005c144fe'
+p1128
+sg29
+I49386
+sg30
+S'http://en.wikipedia.org/wiki/Lockdown_(2007)'
+p1129
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1130
+(dp1131
+g16
+S'WrestleFanFest Malice in the Palace'
+p1132
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1133
+(dp1134
+g21
+S'WrestleFanFest Malice in the Palace'
+p1135
+sg23
+S'on 19 October 2007 but did not attend. [ citation needed ] \xc2\xa0 Bill Goldberg WWE Titantron 2003-2004.\xc2\xa0 \xc2\xa0 \xc2\xa0To get everything out of my'
+p1136
+sg25
+S'for the Lethal Lockdown match at Lockdown 2007 , but it was revealed that Jeff Jarrett was that man. He was scheduled to appear at'
+p1137
+sbsg27
+S'9202a8c04000641f8000000006b2381a'
+p1138
+sg29
+I49726
+sg30
+S'http://en.wikipedia.org/wiki/WrestleFanFest_Malice_in_the_Palace'
+p1139
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1140
+(dp1141
+g16
+S'19 October'
+p1142
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1143
+(dp1144
+g21
+S'19 October'
+p1145
+sg23
+S'2007 but did not attend. [ citation needed ] \xc2\xa0 Bill Goldberg WWE Titantron 2003-2004.\xc2\xa0 \xc2\xa0 \xc2\xa0To get everything out of my site Use -'
+p1146
+sg25
+S'Lockdown 2007 , but it was revealed that Jeff Jarrett was that man. He was scheduled to appear at WrestleFanFest Malice in the Palace on'
+p1147
+sbsg27
+S'9202a8c04000641f800000000002d143'
+p1148
+sg29
+I49838
+sg30
+S'http://en.wikipedia.org/wiki/October_19'
+p1149
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1150
+(dp1151
+g16
+S'2007'
+p1152
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1153
+(dp1154
+g21
+S'2007'
+p1155
+sg23
+S'but did not attend. [ citation needed ] \xc2\xa0 Bill Goldberg WWE Titantron 2003-2004.\xc2\xa0 \xc2\xa0 \xc2\xa0To get everything out of my site Use - Copyright'
+p1156
+sg25
+S', but it was revealed that Jeff Jarrett was that man. He was scheduled to appear at WrestleFanFest Malice in the Palace on 19 October'
+p1157
+sbsg27
+Nsg29
+I49910
+sg30
+S'http://en.wikipedia.org/wiki/2007'
+p1158
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1159
+(dp1160
+g16
+S'Spring Stampede 1999'
+p1161
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1162
+(dp1163
+g21
+S'Spring Stampede 1999'
+p1164
+sg23
+S'.Goldberg wrestled a match against Sting at Slamboree 1999 which was fought to a no contest.He was "injured" and took some time off, for his'
+p1165
+sg25
+S'perennial jobber who dressed similarly to Goldberg and mocked his signature entrance and mannerisms. Goldberg took his revenge from Kevin Nash by defeating Nash at'
+p1166
+sbsg27
+Nsg29
+I24090
+sg30
+S'http://en.wikipedia.org/wiki/Spring_Stampede#1998'
+p1167
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1168
+(dp1169
+g16
+S'The Great American Bash 2000'
+p1170
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1171
+(dp1172
+g21
+S'The Great American Bash 2000'
+p1173
+sg23
+S", Goldberg betrayed Nash during Nash's World Title match against Jeff Jarrett and turned heel for the first time in his career by aligning himself"
+p1174
+sg25
+S'to WCW on May 29, 2000 interfering in a Nitro match between Kevin Nash and the team of Tank Abbott and Rick Steiner . At'
+p1175
+sbsg27
+Nsg29
+I31425
+sg30
+S'http://en.wikipedia.org/wiki/The_Great_American_Bash#1998'
+p1176
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1177
+(dp1178
+g16
+S'steel cage match'
+p1179
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1180
+(dp1181
+g21
+S'steel cage match'
+p1182
+sg23
+S', which Goldberg won. He next feuded with Chris Jericho , who continued to insult Goldberg in following weeks and challenged him to a match.'
+p1183
+sg25
+S'match on May 5 edition of RAW resulting in a no contest. The two faced each other on the following edition of RAW in a'
+p1184
+sbsg27
+Nsg29
+I40728
+sg30
+S'http://en.wikipedia.org/wiki/Professional_wrestling_match_types#.28Object.29_on_a_pole_match'
+p1185
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1186
+(dp1187
+g16
+S'Taiy\xc3\x85\xc2\x8d Kea'
+p1188
+sg18
+Nsg27
+Nsg29
+I37989
+sg30
+S'http://en.wikipedia.org/wiki/Taiy%C3%85%20_Kea'
+p1189
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1190
+(dp1191
+g16
+S'Slamboree 1999'
+p1192
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1193
+(dp1194
+g21
+S'Slamboree 1999'
+p1195
+sg23
+S'which was fought to a no contest.He was "injured" and took some time off, for his movie Universal Soldier: The Return .He returned two months'
+p1196
+sg25
+S'signature entrance and mannerisms. Goldberg took his revenge from Kevin Nash by defeating Nash at Spring Stampede 1999 .Goldberg wrestled a match against Sting at'
+p1197
+sbsg27
+Nsg29
+I24315
+sg30
+S'http://en.wikipedia.org/wiki/Slamboree#1998'
+p1198
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1199
+(dp1200
+g16
+S'"I Quit" match'
+p1201
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1202
+(dp1203
+g21
+S'"I Quit" match'
+p1204
+sg23
+S'at Mayhem 1999 . Shortly thereafter, Goldberg joined forces with Hart, teaming with him to defeat Creative Control for the WCW World Tag Team Championship'
+p1205
+sg25
+S'Sid Vicious which gave Goldberg his second official loss in WCW in the process. Goldberg continued his rivalry with Vicious, and defeated him in an'
+p1206
+sbsg27
+Nsg29
+I27143
+sg30
+S'http://en.wikipedia.org/wiki/%22I_Quit%22_match'
+p1207
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1208
+(dp1209
+g16
+S'SuperBrawl IX'
+p1210
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1211
+(dp1212
+g21
+S'SuperBrawl IX'
+p1213
+sg23
+S'to settle the feud. At the same time, the WWF began mocking Goldberg with the character Gillberg , a perennial jobber who dressed similarly to'
+p1214
+sg25
+S"After the match, Goldberg's rival Bam Bam Bigelow came out and attacked him, thus the duo began their rivalry once again. Goldberg defeated Bigelow at"
+p1215
+sbsg27
+Nsg29
+I23514
+sg30
+S'http://en.wikipedia.org/wiki/SuperBrawl#SuperBrawl_VIII'
+p1216
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1217
+(dp1218
+g16
+S'JJ Dillon'
+p1219
+sg18
+Nsg27
+S'9202a8c04000641f80000000005a5ae4'
+p1220
+sg29
+I26413
+sg30
+S'http://en.wikipedia.org/wiki/James_J._Dillon'
+p1221
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1222
+(dp1223
+g16
+S'Fall Brawl 2000'
+p1224
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1225
+(dp1226
+g21
+S'Fall Brawl 2000'
+p1227
+sg23
+S', which Goldberg lost. He began a new undefeated streak in October 2000, with Vince Russo threatening to "fire" him if he lost. He defeated'
+p1228
+sg25
+S'him on an edition of Nitro and then he and Scott Steiner began a feud with each other, culminating in a no disqualification match at'
+p1229
+sbsg27
+Nsg29
+I33346
+sg30
+S'http://en.wikipedia.org/wiki/Fall_Brawl#1999'
+p1230
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p1231
+(dp1232
+g16
+S'no disqualification match'
+p1233
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p1234
+(dp1235
+g21
+S'no disqualification match'
+p1236
+sg23
+S'at Fall Brawl 2000 , which Goldberg lost. He began a new undefeated streak in October 2000, with Vince Russo threatening to "fire" him if'
+p1237
+sg25
+S'after Bret Hart attacked him on an edition of Nitro and then he and Scott Steiner began a feud with each other, culminating in a'
+p1238
+sbsg27
+Nsg29
+I33239
+sg30
+S'http://en.wikipedia.org/wiki/Professional_wrestling_match_types#.28Object.29_on_a_pole_match'
+p1239
+sbasS'doc_id'
+p1240
+I11062
+sS'rare_words'
+p1241
+(lp1242
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p1243
+(dp1244
+S'word'
+p1245
+S'originally'
+p1246
+sS'offset'
+p1247
+I10851
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p1248
+(dp1249
+g1245
+S'got'
+p1250
+sg1247
+I30518
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p1251
+(dp1252
+g1245
+S'windshield'
+p1253
+sg1247
+I30478
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p1254
+(dp1255
+g1245
+S'said'
+p1256
+sg1247
+I11008
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p1257
+(dp1258
+g1245
+S'Return'
+p1259
+sg1247
+I24456
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p1260
+(dp1261
+g1245
+S'Atlanta'
+p1262
+sg1247
+I9241
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p1263
+(dp1264
+g1245
+S'XIX'
+p1265
+sg1247
+I39597
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p1266
+(dp1267
+g1245
+S'working'
+p1268
+sg1247
+I48034
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p1269
+(dp1270
+g1245
+S'bar'
+p1271
+sg1247
+I45419
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p1272
+(dp1273
+g1245
+S'Enos'
+p1274
+sg1247
+I16892
+sbasb.

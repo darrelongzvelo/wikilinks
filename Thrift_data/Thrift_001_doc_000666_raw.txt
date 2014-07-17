@@ -1,0 +1,1123 @@
+
+
+
+
+Hillary Channeling Eleanor Roosevelt?! She Picked the WRONG Roosevelt! (function() { var cx
+= '016474116467456296202:zcdp2tq_pxi' var gcse = document.createElement('script');
+gcse.type = 'text/javascript'; gcse.async = true; gcse.src =
+(document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_logo.png?1348685588
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets0.ar-img.com/images/headers/ar_home_b_search.png?1348685588
+    var currentIndex = -1 var default_phrase = "Find Homes for Sale in your city"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets0.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348685588
+        Consumer
+
+        - Home Buying
+
+        
+
+        - Home Improvement
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Home Selling
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets0.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348685588
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  body { background: #3F0FD7
+url(/image_store/customizer/cvillecpm_background_13456_wsg_nascar_hof_small.jpg)
+repeat fixed center top; margin: 0; padding: 0; } table#blog_content { width: 960px; margin:
+0 auto; } td.blog_content_td { background: #ffffff; } #custom_blog_header { display:
+block; background:#000000
+url(/image_store/customizer/cvillecpm_header_78724_blog_headerer_wm.jpg)
+no-repeat scroll left top; height: 130px; margin-top: 0px; } #top_menu { border: none;
+background-color:#3C99FF; background-image: none; } #top_menu li a, #top_menu li
+span.fake_menu_item { color: #181906; text-shadow: none; } #top_menu .top_dropdown ul li
+a:hover { background: none !important; } #logo_wrapper { background: white; } #header {
+margin-top: 0; padding-top: 0; border: none !important; } .nav { margin: 0 !important;
+border-width: 0 !important; } #top_menu .top_dropdown { border: none;
+background-color:#3C99FF; } #top_menu .top_dropdown a, #top_menu .top_dropdown
+.inner_menu_header { color:#181906 !important; } #top_menu .top_dropdown
+.inner_menu_header { text-decoration: underline; } #top_menu .top_dropdown ul li a:hover
+{ background-color:#3C99FF; font-weight: bold; } .top_dropdown { margin-top: 5px; } * html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * + html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * html
+.top_dropdown { margin-top: 3px; z-index: 1000; } * + html .top_dropdown { margin-top: 19px;
+z-index: 1000; } Home : Blogs : Wallace S. Gibson CPM * LandlordWhisperer :
+PropertyManagementMaven .reblog { margin-left: 4px; } Tweet
+
+Hillary Channeling Eleanor Roosevelt?! She Picked the WRONG Roosevelt!
+
+
+
+Having enjoyed my visit to TR's spartan vacation home, Pine Knot, in Albemarle county in
+September, I wanted to explore the life of Alice Roosevelt * first born of Theodore and his
+first wife, Alice Lee.
+
+Alice Roosevelt's birth caused the death of her mother * the love of TR's life * which caused
+Theodore's journey to into the Badlands for 3+ years.  During this time, Alice was raised by
+TR's sister, Anna/Bye for the early years of her life.
+
+
+
+Image: http://www.mentalfloss.com/wp-content/uploads/2008/12/alice.jpg
+
+
+
+
+
+The TR side of the Roosevelt family was known as the Oyster Bay Roosevelts as they were 5
+generations removed from the ORIGINAL Roosevelts and the Eleanor/Franklin side of the same
+family known as the Hyde Park Roosevelts.
+
+Alice was reunited with her father when he married Edith and resided with her step-mother and
+father through his political career which did not end in the White House.
+
+Eleanor was the daughter of TR's alcoholic brother, Elliott, and she married her 5th cousin,
+Franklin, and UNITED the Oyster Bay and Hyde Park sides of the family.
+
+Alice, although never formally educated,was a beauty from her mother genes and was a great
+reader and studied the politics of her day.  She was her father's envoy through-out his
+presidency and traveled to the Orient, Europe and Africa on his behalf.  She was married
+while TR was still in the White House to OH Congressman Nick Longworth * a decade older than she
+was and an admitted aldulterer.
+
+Alice was an heiress in her own right from mother's Lee relatives.  Eleanor, on the other
+hand, had little family funds and depended on the charity of generous relatives for her
+upbringing after her father died when she was 5 years old.
+
+Both Alice and Eleanor married men who DIED with their mistresses and without them.  During
+her marriage to Nick Longworth, Alice got pregnant by Idaho Senator Bill Borah * the then GOP
+leader in the Senate.  Her husband attained the level of Speaker of the House and was a sitting
+member of congress at his death.
+
+Alice's DC residence was the SALON for politics, foreign policy and new ideas in the early
+1900s.  When Democrats Eleanor and Franklin occupied the White House, Eleanor suffered
+from her comparison to Alice's beauty, wit, charm.  The public loved her and felt they had
+known her all of her life which they had.  
+
+Eleanor, when First Lady,  took pains to slight Alice by leaving her out of presidential
+events; however, Franklin realized Alice's popularity and wanted to use the "family
+connection" to appear mollify the GOP members of congress where she continued to be active
+after her husband's death.
+
+After her husband's death, Alice continued to have her likeness used in commercials for
+soaps, tobacco and she wrote newspaper columns and political and social commentary until her
+death in the 1980s when she was in her 90s.
+
+Proving her popularity, Alice had a COLOR, a song and a Broadway musical named after her.
+
+Alice blue  is a pale  tint  of  azure  that was favored by  Alice Roosevelt Longworth ,
+daughter of  Theodore Roosevelt  and which sparked a fashion sensation in the  United
+States .
+
+The hit song "Alice Blue Gown", inspired by Longworth's signature gown, premiered in the 1919
+Broadway musical  Irene . The musical was made into  a film  in  1940  starring  Anna
+Neagle  and  Ray Milland .
+
+The color is specified by the  United States Navy  for use in  insignia  and trim on
+vessels named for Theodore Roosevelt. [ citation needed ]  "AliceBlue" is also one of the
+original 1987  X11 color names  which became the basis for color description in  web
+ authoring. The name "Alice Blue" was trademarked in 2001 by a costume company called "Alice
+Blue Fancy Dress & Costume" in the U.K. but the livery color chosen by them was not the correct
+Alice Blue shade, but instead a rich royal blue.
+
+ 
+
+Wallace S. Gibson, CPM * GIBSON MANAGEMENT GROUP, Ltd.
+
+Central Virginia
+
+View our available Charlottesville, Albemarle and Lake Monticello rental homes online with
+photos and floor plans
+
+
+
+"...to be a Virginian, either by Birth, Marriage, Adoption, or even on one's Mother's side, is
+an Introduction to any State in the Union, a Passport to any Foreign Country, and a Benediction
+from the Almighty God...." Anonymous
+
+    Posted by Wallace S. Gibson CPM * LandlordWhisperer on 10/23/2011 03:47 PM   Comments
+(11)   alice roosevelt longworth , teddy roosevelt   Generate short URL Post is included in
+group: Silent Majority
+
+Post is included in group: Active Rain Book Group
+
+Post is included in group: Around The Water Cooler
+
+Post is included in group: Blatant Politics
+
+Post is included in group: Reading in The Rain
+
+
+
+11 Comments on Hillary Channeling Eleanor Roosevelt?! She Picked the WRONG Roosevelt! OCT 23
+2011
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+
+Wallace - wow, what an incredibly good history lesson for me. I loved it, reall loved it Jon
+Zolsky, Daytona Beach, FL. FunCoast Realty, 386-405-4408 4:26pm • #1
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348684471
+
+Wallace - This is a great history leason and enjoyable to all readers especially myself.
+Wonderful history lesson, and a little bit of soap opera politics in the last century.
+
+Nicholas Goglucci, The Listing Whisperer (South Florida Real Estate & Development, Inc.)
+4:49pm • #2
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/31c0417b26cd6f5e946c2056e1bcbb328d041df4.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Wallace, much better than Hillary, Bill and Monica.  Give us more! Dale Terry 5:23pm • #3
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348684471
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348684471
+
+EVERYBODY knew it was doubtful Alice's daughter was by her husband.  The daughter, Paulina
+Longworth Sturm, died in the late 50s and Alice raised her granddaughter. Wallace S. Gibson
+CPM * LandlordWhisperer (Gibson Management Group, Ltd.) 5:58pm • #4
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685093
+
+I basicaly just knew the name.... Thanks Wallace... Debbie Holmes (Gold Key Real Estate)
+7:51pm • #5
+
+Wallace, you hit on one of my favorite things - American political families. 
+
+Thank you! Cheryl Campbell Wasilla Alaska Realtor (Prudential Jack White/Vista R.E.)
+9:21pm • #6 OCT 24 2011
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348684471
+
+Featured  -  This post is now featured in Silent Majority Group of Active Rain! Nicholas
+Goglucci, The Listing Whisperer (South Florida Real Estate & Development, Inc.) 8:26am •
+#7
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348684471
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348684471
+
+Jeeze * I'll have to research Lauren Bush marrying David Lauren and into the Ralph Lauren
+family!
+
+
+http://www.dailymail.co.uk/femail/article-2035122/Lauren-Bushs-family-daughters-romantic-wedding-David-Lauren.html
+Wallace S. Gibson CPM * LandlordWhisperer (Gibson Management Group, Ltd.) 8:29am • #8
+
+Monday is my Happiness Day.
+
+I visit as many blog posts as I can during the day
+
+and spread happiness, which means I probably didn’t read this post.
+
+I just stopped by to spread some happiness.
+
+Feel free to delete this comment if it doesn’t make you happy.
+
+
+
+Image: /image_store/uploads/5/4/6/1/6/ar131945997961645.JPG 9:31am • #9
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+That is quite the history and I didn't know it but with my love for politics I thank you for
+sharing. Charles Stallions Real Estate Services 9:19pm • #10 OCT 30 2011
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/31c0417b26cd6f5e946c2056e1bcbb328d041df4.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686979
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686979
+
+Wow! How did you learn all of that? And shouldn't we all! I am so lousy at history but I do like
+reading about it. Home Staging and Redesign Minneapolis/ St. Paul, MN - Shar Sitter (Rooms
+With Style) 11:21pm • #11
+
+Login or register to leave a comment Event.observe(window, 'load', initLazyLoad);
+function initLazyLoad() { $$("div.comment_image").each(function(e){
+e.style.backgroundImage = "url("+e.getAttribute('imagesrc')+")" }) }   function
+contact(aid) { //documentation on this:
+http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/470/84470/large/New%20profile%20photo%202010%20smaller%20w%20key.jpg?1338247865
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/rainmaker_large.png?1348685588
+
+Wallace S. Gibson CPM * LandlordWhisperer
+
+Charlottesville , VA
+
+More about me…
+
+Gibson Management Group, Ltd.
+
+Office Phone: (434) 979-9723
+
+Cell Phone: (434) 825-1933
+
+Email Me
+
+Image:
+http://www3.clustrmaps.com/counter/index2.php?url=http://activerain.com/blogs/cvillecpm
+
+Image:
+http://i138.photobucket.com/albums/q263/River_album/icons/ladiesnascar.gif
+
+Image: http://www.blogrankings.com/img_52478.gif
+
+
+
+Image: http://badge.facebook.com/badge/695539842.1743.2125327661.png
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/minus.gif?1348685588
+Listings
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/minus.gif?1348685588
+Links
+
+
+
+    
+
+    - Gibson Management Group, Ltd on Facebook
+
+    
+
+    - LandlordWhisperer on Facebook
+
+    
+
+    - Gibson Management Group, Ltd. Website
+
+    
+
+    - My Blog * PropertyManagementMaven
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/minus.gif?1348685588
+Archives
+
+
+
+    
+
+    - October 2012 (1)
+
+    
+
+    - September 2012 (59)
+
+    
+
+    - August 2012 (78)
+
+    
+
+    - July 2012 (74)
+
+    
+
+    - June 2012 (71)
+
+    
+
+    - May 2012 (61)
+
+    
+
+    - April 2012 (54)
+
+    
+
+    - March 2012 (68)
+
+    
+
+    - February 2012 (76)
+
+    
+
+    - January 2012 (74)
+
+    
+
+    - December 2011 (76)
+
+    
+
+    - November 2011 (68)
+
+    
+
+    - October 2011 (93)
+
+    
+
+    - September 2011 (94)
+
+    
+
+    - August 2011 (74)
+
+    
+
+    - July 2011 (83)
+
+    
+
+    - June 2011 (84)
+
+    
+
+    - May 2011 (92)
+
+    
+
+    - April 2011 (126)
+
+    
+
+    - March 2011 (84)
+
+    
+
+    - February 2011 (50)
+
+    
+
+    - January 2011 (106)
+
+    
+
+    - December 2010 (92)
+
+    
+
+    - November 2010 (92)
+
+    
+
+    - October 2010 (104)
+
+    
+
+    - September 2010 (111)
+
+    
+
+    - August 2010 (128)
+
+    
+
+    - July 2010 (113)
+
+    
+
+    - June 2010 (117)
+
+    
+
+    - May 2010 (136)
+
+    
+
+    - April 2010 (123)
+
+    
+
+    - March 2010 (237)
+
+    
+
+    - February 2010 (374)
+
+    
+
+    - January 2010 (176)
+
+    
+
+    - December 2009 (55)
+
+    
+
+    - November 2009 (35)
+
+    
+
+    - October 2009 (30)
+
+    
+
+    - September 2009 (25)
+
+    
+
+    - August 2009 (9)
+
+    
+
+    - July 2009 (3)
+
+    
+
+    - June 2009 (3)
+
+    
+
+    - May 2009 (6)
+
+    
+
+    - April 2009 (18)
+
+    
+
+    - March 2009 (22)
+
+    
+
+    - February 2009 (6)
+
+    
+
+    - January 2009 (2)
+
+    
+
+    - December 2008 (2)
+
+    
+
+    - October 2008 (4)
+
+    
+
+    - September 2008 (1)
+
+    
+
+    - July 2008 (4)
+
+    
+
+    - June 2008 (9)
+
+    
+
+    - May 2008 (7)
+
+    
+
+    - April 2008 (9)
+
+    
+
+    - March 2008 (5)
+
+    
+
+    - February 2008 (5)
+
+    
+
+    - January 2008 (5)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find VA real estate agents and Charlottesville real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/new_design/eho.gif?1348685588
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

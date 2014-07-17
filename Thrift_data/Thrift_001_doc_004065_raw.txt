@@ -1,0 +1,889 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Jeremy and Laura's Travel Adventures: Phnom Penh, the Cambodian Capital <!-- /*
+----------------------------------------------------- Blogger Template Style Sheet
+Name: Scribe Date: 27 Feb 2004 Updated by: Blogger Team
+------------------------------------------------------ */ /* Variable definitions
+==================== <Variable name="textColor" description="Text Color"
+type="color" default="#29303b"> <Variable name="postTitleColor" description="Post
+Title Color" type="color" default="#1b0431"> <Variable name="linkColor"
+description="Link Color" type="color" default="#473624"> <Variable
+name="visitedLinkColor" description="Visited Link Color" type="color"
+default="#956839"> <Variable name="pageHeaderColor" description="Blog Title Color"
+type="color" default="#612e00"> <Variable name="blogDescriptionColor"
+description="Blog Description Color" type="color" default="#29303B"> <Variable
+name="sidebarHeaderColor" description="Sidebar Title Color" type="color"
+default="#211104"> <Variable name="bodyFont" description="Text Font" type="font"
+default="normal normal 100% Georgia, Times New Roman,Sans-Serif;"> <Variable
+name="headerFont" description="Sidebar Title Font" type="font" default="normal normal
+150% Georgia, Times New Roman,sans-serif"> <Variable name="pageTitleFont"
+description="Blog Title Font" type="font" default="normal normal 225% Georgia, Times New
+Roman,sans-serif"> <Variable name="blogDescriptionFont" description="Blog
+Description Font" type="font" default="italic normal 100% Georgia, Times New Roman,
+sans-serif"> <Variable name="startSide" description="Start side in blog language"
+type="automatic" default="left"> <Variable name="endSide" description="End side in
+blog language" type="automatic" default="right"> */ /* Defaults
+----------------------------------------------- */ body { margin:0; padding:0;
+font-size: small; text-align:center; color:#29303b; line-height:1.3em;
+background:#483521 url("http://www2.blogblog.com/scribe/bg.gif") repeat; }
+blockquote { font-style:italic; padding:0 32px; line-height:1.6; margin-top:0;
+margin-right:0; margin-bottom:.6em; margin-left:0; } p { margin:0; padding:0; } abbr,
+acronym { cursor:help; font-style:normal; } code { font-size: 90%; white-space:normal;
+color:#666; } hr {display:none;} img {border:0;} /* Link styles */ a:link { color:#473624;
+text-decoration:underline; } a:visited { color: #956839; text-decoration:underline; }
+a:hover { color: #956839; text-decoration:underline; } a:active { color: #956839; } /*
+Layout ----------------------------------------------- */ #outer-wrapper {
+background-color:#473624; border-left:1px solid #332A24; border-right:1px solid
+#332A24; width:700px; margin:0px auto; padding:8px; text-align:center; font: normal
+normal 100% Georgia, Times New Roman,Sans-Serif;; } #main-top { width:700px; height:49px;
+background:#FFF3DB url("http://www2.blogblog.com/scribe/bg_paper_top.jpg")
+no-repeat top left; margin:0px; padding:0px; display:block; } #main-bot { width:700px;
+height:81px; background:#FFF3DB
+url("http://www.blogblog.com/scribe/bg_paper_bot.jpg") no-repeat top left;
+margin:0; padding:0; display:block; } #wrap2 { width:700px; background:#FFF3DB
+url("http://www1.blogblog.com/scribe/bg_paper_mid.jpg") repeat-y; margin-top:
+-14px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; text-align:left;
+display:block; } #wrap3 { padding:0 50px; } .Header { } h1 { margin:0; padding-top:0;
+padding-right:0; padding-bottom:6px; padding-left:0; font: normal normal 225% Georgia,
+Times New Roman,sans-serif; color: #612e00; } h1 a:link { text-decoration:none; color:
+#612e00; } h1 a:visited { text-decoration:none; } h1 a:hover { border:0;
+text-decoration:none; } .Header .description { margin:0; padding:0; line-height:1.5em;
+color: #29303B; font: italic normal 100% Georgia, Times New Roman, sans-serif; }
+#sidebar-wrapper { clear:left; } #main { width:430px; float:right; padding:8px 0;
+margin:0; word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ } #sidebar {
+width:150px; float:left; padding:8px 0; margin:0; word-wrap: break-word; /* fix for long
+text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content
+breaking IE sidebar float */ } #footer { clear:both;
+background:url("http://www.blogblog.com/scribe/divider.gif") no-repeat top left;
+padding-top:10px; _padding-top:6px; /* IE Windows target */ } #footer p {
+line-height:1.5em; font-size:75%; } /* Typography :: Main entry
+----------------------------------------------- */ h2.date-header {
+font-weight:normal; text-transform:uppercase; letter-spacing:.1em; font-size:90%;
+margin:0; padding:0; } .post { margin-top:8px; margin-right:0; margin-bottom:24px;
+margin-left:0; } .post h3 { font-weight:normal; font-size:140%; color:#1b0431;
+margin:0; padding:0; } .post h3 a { color: #1b0431; } .post-body p { line-height:1.5em;
+margin-top:0; margin-right:0; margin-bottom:.6em; margin-left:0; } .post-footer {
+font-family: Verdana, sans-serif; font-size:74%; border-top:1px solid #BFB186;
+padding-top:6px; } .post-footer a { margin-right: 6px; } .post ul { margin:0; padding:0; }
+.post li { line-height:1.5em; list-style:none;
+background:url("http://www.blogblog.com/scribe/list_icon.gif") no-repeat left
+.3em; vertical-align:top; padding-top: 0; padding-right: 0; padding-bottom: .6em;
+padding-left: 17px; margin:0; } .feed-links { clear: both; line-height: 2.5em; }
+#blog-pager-newer-link { float: left; } #blog-pager-older-link { float: right; }
+#blog-pager { text-align: center; } /* Typography :: Sidebar
+----------------------------------------------- */ .sidebar h2 { margin:0; padding:0;
+color:#211104; font: normal normal 150% Georgia, Times New Roman,sans-serif; } .sidebar h2
+img { margin-bottom:-4px; } .sidebar .widget { font-size:86%; margin-top:6px;
+margin-right:0; margin-bottom:12px; margin-left:0; padding:0; line-height: 1.4em; }
+.sidebar ul li { list-style: none; margin:0; } .sidebar ul { margin-left: 0; padding-left: 0;
+} /* Comments ----------------------------------------------- */ #comments {}
+#comments h4 { font-weight:normal; font-size:120%; color:#29303B; margin:0; padding:0;
+} #comments-block { line-height:1.5em; } .comment-author {
+background:url("http://www.blogblog.com/scribe/list_icon.gif") no-repeat 2px
+.35em; margin:.5em 0 0; padding-top:0; padding-right:0; padding-bottom:0;
+padding-left:20px; font-weight:bold; } .comment-body { margin:0; padding-top:0;
+padding-right:0; padding-bottom:0; padding-left:20px; } .comment-body p {
+font-size:100%; margin-top:0; margin-right:0; margin-bottom:.2em; margin-left:0; }
+.comment-footer { color:#29303B; font-size:74%; margin:0 0 10px; padding-top:0;
+padding-right:0; padding-bottom:.75em; padding-left:20px; } .comment-footer a:link {
+color:#473624; text-decoration:underline; } .comment-footer a:visited {
+color:#716E6C; text-decoration:underline; } .comment-footer a:hover { color:#956839;
+text-decoration:underline; } .comment-footer a:active { color:#956839;
+text-decoration:none; } .deleted-comment { font-style:italic; color:gray; } /* Profile
+----------------------------------------------- */ #main .profile-data {
+display:inline; } .profile-datablock, .profile-textblock { margin-top:0;
+margin-right:0; margin-bottom:4px; margin-left:0; } .profile-data { margin:0;
+padding-top:0; padding-right:8px; padding-bottom:0; padding-left:0;
+text-transform:uppercase; letter-spacing:.1em; font-size:90%; color:#211104; }
+.profile-img { float: left; margin-top: 0; margin-right: 5px; margin-bottom: 5px;
+margin-left: 0; border:1px solid #A2907D; padding:2px; } #header .widget, #main .widget {
+margin-bottom:12px; padding-bottom:12px; } #header {
+background:url("http://www.blogblog.com/scribe/divider.gif") no-repeat bottom
+left; } /** Page structure tweaks for layout editor wireframe */ body#layout #outer-wrapper
+{ margin-top: 0; padding-top: 0; } body#layout #wrap2, body#layout #wrap3 { margin-top: 0; }
+body#layout #main-top { display:none; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\075663905795825834312\46blogName\75Jeremy+and+Laura\47s+Travel+Adventures\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://africanpallotta.blogspot.com/search\46blogLocale\75en_US\46v\0752\46homepageUrl\75http://africanpallotta.blogspot.com/\46targetPostID\0756879979177718583957\46blogPostOrPageUrl\75http://africanpallotta.blogspot.com/2008/02/phnom-penh-cambodian-capital.html\46vt\0757446605857667321505',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); <!-- google_ad_client="pub-8222129172816134";
+google_ad_host="pub-1556223355139109";
+google_ad_host_channel="00000+00014+00122+00067"; google_ad_width=468;
+google_ad_height=60; google_ad_format="468x60_as"; google_ad_type="text";
+google_color_border="FFFFFF"; google_color_bg="FFFFFF";
+google_color_link="29303B"; google_color_url="473624";
+google_color_text="1B0431"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Jeremy and Laura's Travel Adventures
+
+
+
+From Africa to Europe to North America to Asia.
+
+The Adventure
+
+In May 2007, my wife and I decided to quit our jobs and sell our Colorado home to go on a traveling
+adventure. This blog chronicles the stops in Africa, Europe, North America, and Southeast
+Asia. The adventures and misadventures will hopefully inspire others to one day try their
+own.
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ▼  2008 (24)
+
+        - ►  March (6)
+
+        
+
+        
+
+            - ▼  February (9)
+
+            - Hue, the Nguyen dynasty capital
+
+            
+
+            - Off the Beaten Tourist Trail...
+
+            
+
+            - Dalat, a mountain getaway
+
+            
+
+            - Food of Cambodia
+
+            
+
+            - Bokor National Park
+
+            
+
+            - Lonely Planet's Top 5 WE DARE YOU!
+
+            
+
+            - Phnom Penh, the Cambodian Capital
+
+            
+
+            - Siem Reap
+
+            
+
+            - Beng Mealea and other Angkor temples
+
+            
+
+        
+
+        
+
+        
+
+        - ►  January (9)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2007 (39)
+
+        - ►  December (8)
+
+        
+
+        
+
+        - ►  November (5)
+
+        
+
+        
+
+        - ►  October (6)
+
+        
+
+        
+
+        - ►  September (3)
+
+        
+
+        
+
+        - ►  August (4)
+
+        
+
+        
+
+        - ►  July (5)
+
+        
+
+        
+
+        - ►  June (7)
+
+        
+
+        
+
+        - ►  May (1)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Related Maps
+
+    
+
+    - Southeast Asia Map
+
+    
+
+    - World Map
+
+    
+
+    - Yellowstone Map
+
+    
+
+    - Yellowstone Hiker's Map
+
+    
+
+    - East Africa Map
+
+    
+
+    - Post #1 reference map
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Related Links
+
+    
+
+    - Laura's Catalan Blog
+
+    
+
+    - Our Hi-Res Photos
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Recommended Reading
+
+    
+
+    - They Marched Into Sunlight
+
+    
+
+    - The Killing Zone
+
+    
+
+    - First They Killed my Father
+
+    
+
+    - The Ravens
+
+    
+
+    - The Rivers Tale: A Year on the Mekong
+
+    
+
+    - Decade of the Wolf
+
+    
+
+    - Grizzly Years
+
+    
+
+    - Mark of the Grizzly
+
+    
+
+    - Death in Yellowstone
+
+    
+
+    - Undaunted Courage
+
+    
+
+    - The Shadow of the Sun
+
+    
+
+    - We wish to inform you...
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Recommended Movies
+
+    
+
+    - Apocalypse Now
+
+    
+
+    - Platoon
+
+    
+
+    - Good Morning Vietnam
+
+    
+
+    - S21: The Khmer Rouge Killing Machine
+
+    
+
+    - Growing Up Grizzly
+
+    
+
+    - The Bear
+
+    
+
+    - Bears
+
+    
+
+    - Wolves: A legend returns to Yellowstone
+
+    
+
+    - Yellowstone Aflame
+
+    
+
+    - Planet Earth
+
+    
+
+    - The Lion King
+
+    
+
+    - Africa: The Serengeti
+
+    
+
+    - Mountain Gorilla IMAX
+
+    
+
+    - Gorillas in the Mist
+
+    
+
+    - The Last King of Scotland
+
+    
+
+    - Nowhere in Africa
+
+    
+
+    - Tsotsi
+
+    
+
+    - Hotel Rwanda
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Our Guide Books
+
+    
+
+    - Trailblazer South East Asia
+
+    
+
+    - Lonely Planet Southeast Asia on a Shoestring
+
+    
+
+    - Trails Illustrated Yellowstone
+
+    
+
+    - Lonely Planet Tanzania
+
+    
+
+    - Lonely Planet East Africa
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Monday, February 11, 2008
+
+
+
+Phnom Penh, the Cambodian Capital
+
+
+
+Over the last century, the Cambodian capital city has been through a lot. In 1953, Cambodia was
+granted independence from French colonialism. The country's economy flourished over the
+next fifteen years until the army overthrew the Cambodian king. The king fled to Beijing where
+he was influenced to support a small Cambodian communist party, the Khmer Rouge ("Red Khmer"
+in French). During the Vietnam war, U.S. and Southern Vietnam forces invaded the country to
+destroy Northern Vietnamese communist cells. This only gave the Khmer Rouge more support and
+five years of fighting led to the Khmer Rouge taking over Phnom Penh . The Khmer Rouge four year
+rule may be the most dreadful in history. They wanted to create a completely agrarian state, so
+people were relocated from cities to the countryside to work the land. Phnom Penh became a
+ghost town. Intellectuals were labeled enemies of the state and systematically killed.
+Thousands of families were separated and many died from malnutrition and disease in the
+countryside. In 1978, Vietnam invaded and overthrew the Khmer Rouge. This meant that
+thousands of Cambodians left the fields in search of their family members and subsequently, a
+massive famine killed thousands more. Estimates say nearly two million Cambodians died
+during the four-year Khmer Rouge rule. The Khmer Rouge fought a guerilla war throughout the
+1980s and 1990s until 1998 when numerous defections led to the end of the party. There are lots
+of books and movies on the subject but the most well-known are " First They Killed my Father ", a
+first person account of a child survivor of Khmer Rough child soldier camps, and " The Killing
+Fields ", an account of an American reporter in Cambodia during Year Zero of the Khmer Rouge
+rule.
+
+Today, Phnom Penh is a bustling city with monuments and museums commemorating its history.
+Independence monument commemorates Cambodian independence from French colonialism.
+
+
+
+Image:
+http://2.bp.blogspot.com/_MhNTq2p7q-E/R7EPTcWtFSI/AAAAAAAABMs/qnQF1wPS_f4/s400/Independence.JPG
+
+The walled royal palace grounds are located on a massive plot of land next to the Tonle Sap
+river.
+
+
+
+Image:
+http://4.bp.blogspot.com/_MhNTq2p7q-E/R7ENY8WtFRI/AAAAAAAABMk/I-BT0GW64BM/s400/RoyalPalace.JPG
+
+Wat Phnom is one of the city's oldest Buddhist temples and a crew of monkeys reak havoc with its
+visitors. I bought a bundle of bananas to feed them.
+
+
+
+Image:
+http://3.bp.blogspot.com/_MhNTq2p7q-E/R7EYfsWtFdI/AAAAAAAABOE/J2czLo5OdcA/s400/MonkeyFeed.JPG
+
+As I fed one fat monkey to the next, one snuck up behind me and stole the whole bunch of bananas.
+That dastardly monkey displayed sharp teeth when I tried to get the bananas back, so he ended
+the afternoon with a healthy-sized lunch. I swallowed my pride and admitted I had been
+outsmarted by a monkey!
+
+
+
+Image:
+http://2.bp.blogspot.com/_MhNTq2p7q-E/R7EbncWtFeI/AAAAAAAABOM/vpzjjfGvIUs/s400/MonkeyBananas.JPG
+
+Of all the sights in Phnom Penh, the Tuol Sleng genocide museum and Choeung Ek killing fields
+are the most amazing. Tuol Sleng, also known as Khmer Rouge S-21 prison, was originally a high
+school. In 1975, the Khmer Rouge converted it into a prison to hold, interrogate, and
+exterminate enemies of the state. Windows were barred. Barbed wire was wound over walls and
+around window bars. Holding cells were created within former classrooms. At its operational
+height, the prison held 1,200 to 1,500 prisoners for two to four months at a time. Only seven
+people survived imprisonment at Tuol Sleng; over 10,000 died.
+
+Today, Tuol Sleng has been left in the same state it was found to teach the world about the
+horrors of genocide. There are four stone buildings, each three stories high with about ten
+classrooms per floor.
+
+
+
+Image:
+http://3.bp.blogspot.com/_MhNTq2p7q-E/R7ETosWtFXI/AAAAAAAABNU/CThgvlfQH7c/s400/TS.JPG
+
+Some classrooms were split into individual holding cells made of brick or wood.
+
+
+
+Image:
+http://2.bp.blogspot.com/_MhNTq2p7q-E/R7ETTcWtFWI/AAAAAAAABNM/9UTlc_63ePs/s400/TSCells.JPG
+
+Others had a bed frame, a metal bar for locking prisoners, and a horrific photograph of a dead
+body found in the room.
+
+
+
+Image:
+http://2.bp.blogspot.com/_MhNTq2p7q-E/R7ES2cWtFVI/AAAAAAAABNE/xHi9RTIXfOo/s400/TSBed.JPG
+
+Most rooms were empty and had been used as mass prison cells. Photographs of the victims were
+displayed in many rooms.
+
+
+
+Image:
+http://4.bp.blogspot.com/_MhNTq2p7q-E/R7ET58WtFYI/AAAAAAAABNc/OQwqCst85FU/s400/TSPhotos.JPG
+
+One survivor of Tuol Sleng was a painter. He survived because the Khmer Rouge leaders needed
+him to paint their portraits. When Tuol Sleng was liberated, he created paintings detailing
+the atrocities that had occurred. These paintings are in the museum and are the most accurate
+representation of the prison life at Tuol Sleng.
+
+
+
+Image:
+http://3.bp.blogspot.com/_MhNTq2p7q-E/R7ESosWtFUI/AAAAAAAABM8/12dj-g8tF9Y/s400/TSPainting.JPG
+
+From Rwanda to Dachau to Tuol Sleng, this trip has involved too many genocide memorials. When
+will humankind learn?
+
+About ten kilometers outside of Phnom Penh are the Choeung Ek killing fields. Tuol Sleng
+prisoners were taken to these farm fields to be terminated. Mass graves have been unearthed
+and thousands of unidentified people were buried here.
+
+
+
+Image:
+http://4.bp.blogspot.com/_MhNTq2p7q-E/R7ESK8WtFTI/AAAAAAAABM0/5IcNJ9Xs4E4/s400/MassGraves.JPG
+
+A tall stupa memorial full of unearthed skulls greets visitors to the grim sight.
+
+
+
+Image:
+http://4.bp.blogspot.com/_MhNTq2p7q-E/R7Ech8WtFfI/AAAAAAAABOU/QdjUJ0lnCOs/s400/ChoeungEk.JPG
+
+
+
+Image:
+http://3.bp.blogspot.com/_MhNTq2p7q-E/R7Ec1sWtFgI/AAAAAAAABOc/IZqTVTHHLFY/s400/Skulls.JPG
+
+Signs explain the logistics of the mass killing. Even as we walked along the path through the
+fields, clothing and bones protruded from the worn pathway. A tree appeared to be a collection
+point for unearthed clothing.
+
+
+
+Image:
+http://1.bp.blogspot.com/_MhNTq2p7q-E/R7EeCMWtFhI/AAAAAAAABOk/4WFo1e9Qa30/s400/TreeClothes.JPG
+
+The horrible stories and grim graveyard left us in a somber mood. Our tuk-tuk driver
+recognized this.
+
+"So, you've seen Tuol Sleng and now killing fields. You feel sad?"
+
+"Very sad."
+
+"Would you like to shoot Pol Pot (Brother #1 of Khmer Rouge)?"
+
+"Of course."
+
+"Alright, let's go."
+
+From there, we were driven five kilometers down a dirt road in the Cambodian countryside. We
+arrived at a huge green gate. Our driver knocked on the gate and spoke with a man in camouflage
+pants with a green shirt. The gate opened and the driver pointed us to a table. A man handed us a
+menu.
+
+
+
+
+
+Lucky Strike Shooting Range AK-47 25 shots $30 M-16 25 shots $30 TommyGun 25 shots $30 Colt45 6
+shots $15
+
+The list was long, maybe 25 different weapons on the first page.
+
+
+
+Image:
+http://1.bp.blogspot.com/_MhNTq2p7q-E/R7EW5MWtFZI/AAAAAAAABNk/nTwnpCYOrRw/s400/Guns.JPG
+
+I flipped the menu.
+
+
+
+Hand Grenade 1 shot $6 RPG 1 shot $220
+
+When they say anything goes in Cambodia, they mean anything. Like a good American, I signed up
+for the AK-47.
+
+
+
+Image:
+http://4.bp.blogspot.com/_MhNTq2p7q-E/R7EXX8WtFaI/AAAAAAAABNs/hIedjtH5onM/s400/GunPose.JPG
+
+They led Laura and I to a long cement corridor that was terminated by a pile of tires with Pol Pot
+pinned to them. The camouflage man set up the AK-47 with a full cartridge in single shot mode. I
+sat down at a desk, aimed for Pol Pot's head, and fired.
+
+
+
+Image:
+http://2.bp.blogspot.com/_MhNTq2p7q-E/R7EXxcWtFbI/AAAAAAAABN0/l3fmQIFA1oA/s400/Shooting.JPG
+
+After six of seven shots, I wanted to feel the automatic power of the AK-47. The man showed me how
+to switch it over, and my cartridge was over in a second. The gun was much more difficult to
+control. Dad and Greg, what is my grade, A, B, C, D, or F?
+
+
+
+Image:
+http://2.bp.blogspot.com/_MhNTq2p7q-E/R7EYLcWtFcI/AAAAAAAABN8/pSh0JvFzd5c/s400/PolPotShot.JPG
+
+After days with guns, genocide, and torture, we explored Olympic stadium in Phnom Penh. The
+Cambodians call any sport stadium Olympic stadium; it hasn't actually held an Olympics. The
+massive arena had a soccer field, track, swimming pool, and most importantly, a basketball
+court. It was even complete with an Olympic torch holder. The massive arena is loaded with
+people running, doing aerobics, and playing sports in the afternoons. It has to be one of the
+most amazing rec centers I've ever seen. It took months, but I finally got my first game in
+Southeast Asia.
+
+
+
+Image:
+http://4.bp.blogspot.com/_MhNTq2p7q-E/R7Eg18WtFiI/AAAAAAAABOs/o7pLxELmLPA/s400/Basketball.JPG
+
+We travel to Bokor National Park for our last stop in Cambodia.
+
+Now, a break from the travel blog to discuss the search for the superbowl. The New England
+Patriots were on the cusp of football history winning their first 18 games. They could be the
+first team to go 19-0 and the second to finish an NFL season undefeated. To top it off, they could
+do it all against my father's beloved NY Giants and add another Manning to their victim's list.
+I had missed nearly the entire NFL season this year; I couldn't miss the crowning moment. Laura
+and I adjusted plans so we would be in Phnom Penh for the superbowl morning. We encountered an
+American restaurant owner in Kompong Cham that ensured us the game would be on in Cambodia.
+Upon arrival to a guesthouse in Phnom Penh, I asked for the television remote. Cleanliness,
+hot water, and butthoses were now completely irrelevant; how many sports channels did they
+have? They had two channels sporting the ESPN moniker and three others showing soccer games.
+We took the room. At 6AM the following morning, the alarm went off and seconds later the TV was
+on. Flip, flip, flip, soccer, flip, flip, flip, soccer, flip, flip, golf... Despite our
+efforts, the game was not on. UGGGGHHHH! As I was fuming and pounding the TV remote, Laura
+diligently searched the Lonely Planet guidebook. Voila, a bar called "The Gym" carried all
+big farang sporting events. It was a long walk, but Laura convinced me to go for it. A twenty
+minute walk got us to the bar where a huge whiteboard advertised "SUPERBOWL. Giants Vs
+Patriots. 6 AM." Sure enough, it was full of farang and we were there for the second quarter. It
+was an extremely good game with a terrible result. My father's NY Giants defeated the, until
+then, undefeated NE Patriots. In the form of a Cambodian bar full of NY Giants fans, I felt my
+father gloating from miles away.
+
+Posted by J.Pallotta at 9:27 PM
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: cheoung ek killing fields , khmer rouge , phnom penh , shooting range , superbowl , tuol
+sleng genocide museum
+
+
+
+1 comment:
+
+    
+
+        
+
+    
+
+
+
+    Image: http://img1.blogblog.com/img/blank.gif Anonymous said...
+
+        
+
+        we ask ourselves how these genocides can happen; yet the same thing is happening now
+        in the Dafur area and inthe aftermath of the rigged elections in Chad. If not for our
+        U.S. presents in Iraq, it would probably be happening there in the name of Sunni or
+        Shiite Gods. It must have felt a little bit good to fire that AK-47 at the image of such a
+        horrible man. From an AK-47 to a basketball in an "olympic park" must have felt
+        great--don't know if those Southeast Asian countries will ever experience what
+        real freedom is with the giant China sitting right next to them. Perhaps something
+        like the real Olympics happening in China will westernize that country a bit more and
+        give their people hope. DAD
+
+    
+
+        February 12, 2008 10:21 AM
+
+        Image: //www.blogger.com/img/icon_delete13.gif
+
+    
+
+
+
+Post a Comment Newer Post Older Post Home Subscribe to: Post Comments (Atom) _uacct =
+"UA-2786814-1"; urchinTracker(); if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'663905795825834312';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d663905795825834312','//africanpallotta.blogspot.com/2008/02/phnom-penh-cambodian-capital.html','663905795825834312');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'663905795825834312', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Jeremy and
+Laura\47s Travel Adventures', 'pageType': 'item', 'url':
+'http://africanpallotta.blogspot.com/2008/02/phnom-penh-cambodian-capital.html',
+'canonicalUrl':
+'http://africanpallotta.blogspot.com/2008/02/phnom-penh-cambodian-capital.html',
+'canonicalHomepageUrl': 'http://africanpallotta.blogspot.com/', 'homepageUrl':
+'http://africanpallotta.blogspot.com/', 'blogspotFaviconUrl':
+'http://africanpallotta.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': 'Phnom
+Penh, the Cambodian Capital', 'pageTitle': 'Jeremy and Laura\47s Travel Adventures: Phnom
+Penh, the Cambodian Capital', 'encoding': 'UTF-8', 'locale': 'en-US', 'isPrivate':
+false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Jeremy and
+Laura\46#39;s Travel Adventures - Atom\42
+href\75\42http://africanpallotta.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42Jeremy and Laura\46#39;s Travel Adventures - RSS\42
+href\75\42http://africanpallotta.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Jeremy and Laura\46#39;s Travel Adventures - Atom\42
+href\75\42http://www.blogger.com/feeds/663905795825834312/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\075663905795825834312\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42Jeremy and Laura\46#39;s Travel Adventures - Atom\42
+href\75\42http://africanpallotta.blogspot.com/feeds/6879979177718583957/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'postImageThumbnailUrl':
+'http://2.bp.blogspot.com/_MhNTq2p7q-E/R7EPTcWtFSI/AAAAAAAABMs/qnQF1wPS_f4/s72-c/Independence.JPG',
+'imageSrcTag': '\74link rel\75\42image_src\42
+href\75\42http://2.bp.blogspot.com/_MhNTq2p7q-E/R7EPTcWtFSI/AAAAAAAABMs/qnQF1wPS_f4/s72-c/Independence.JPG\42
+/\76\n', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId':
+'pub-8222129172816134', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'textColor': '#29303b', 'linkColor': '#473624',
+'pageTitleFont': 'normal normal 225% Georgia, Times New Roman,sans-serif',
+'blogDescriptionFont': 'italic normal 100% Georgia, Times New Roman, sans-serif',
+'visitedLinkColor': '#956839', 'postTitleColor': '#1b0431', 'sidebarHeaderColor':
+'#211104', 'headerFont': 'normal normal 150% Georgia, Times New Roman,sans-serif',
+'bodyFont': 'normal normal 100% Georgia, Times New Roman,Sans-Serif;',
+'blogDescriptionColor': '#29303B', 'endSide': 'right', 'startSide': 'left',
+'pageHeaderColor': '#612e00'}, 'override': ''}}, {'name': 'view', 'data': {'classic':
+{'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard',
+'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_TextView', new
+_WidgetInfo('Text1', 'sidebar', null, document.getElementById('Text1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList2', 'sidebar', null, document.getElementById('LinkList2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList1', 'sidebar', null, document.getElementById('LinkList1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextListView', new
+_WidgetInfo('TextList1', 'sidebar', null, document.getElementById('TextList1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextListView', new
+_WidgetInfo('TextList2', 'sidebar', null, document.getElementById('TextList2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextListView', new
+_WidgetInfo('TextList3', 'sidebar', null, document.getElementById('TextList3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_AdSenseView', new
+_WidgetInfo('AdSense1', 'header', null, document.getElementById('AdSense1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/2030570962-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

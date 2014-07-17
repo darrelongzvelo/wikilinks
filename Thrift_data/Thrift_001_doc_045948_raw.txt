@@ -1,0 +1,3662 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Bayou Renaissance Man: Some amazing high-speed low flying! <!-- /* * Blogger Template
+Style * Herbert * * by Jason Sutter * Updated by Blogger Team */ /* * Variable definitions *
+==================== <Variable name="mainBgColor" description="Page Background
+Color" type="color" default="#ffffff" /> <Variable name="mainTextColor"
+description="Text Color" type="color" default="#000000" /> <Variable
+name="titleBgColor" description="Blog Title Background Color" type="color"
+default="#ff4500" /> <Variable name="titleColor" description="Blog Title Color"
+type="color" default="#fffafa"/> <Variable name="descriptionBgColor"
+description="Description Background Color" type="color" default="#ffebcd" />
+<Variable name="descriptionColor" description="Blog Description Color" type="color"
+default="#9e5205" /> <Variable name="dateHeaderColor" description="Date Header Color"
+type="color" default="#777777" /> <Variable name="postTitleColor" description="Post
+Title Color" type="color" default="#555555" /> <Variable name="postTitleBgColor"
+description="Post Title Background Color" type="color" default="#eeeeee" /> <Variable
+name="postFooterColor" description="Post Footer Color" type="color"
+default="#444444" /> <Variable name="mainLinkColor" description="Link Color"
+type="color" default="#de7008" /> <Variable name="mainVisitedLinkColor"
+description="Visited Link Color" type="color" default="#e0ad12" /> <Variable
+name="sidebarTitleColor" description="Sidebar Title Color" type="color"
+default="#ff4500" /> <Variable name="sidebarLinkColor" description="Sidebar Link
+Color" type="color" default="#999999" /> <Variable name="sidebarVisitedLinkColor"
+description="Sidebar Visited Link Color" type="color" default="#de7008" /> <Variable
+name="bodyFont" description="Text Font" type="font" default="normal normal 90%
+'Trebuchet MS', Trebuchet, Verdana, Sans-Serif" /> <Variable name="titleFont"
+description="Blog Title Font" type="font" default="normal bold 266% Verdana,
+Sans-Serif" /> <Variable name="descriptionFont" description="Blog Description Font"
+type="font" default="normal bold 85% Verdana, Sans-Serif" /> <Variable
+name="postTitleFont" description="Post Title Font" type="font" default="normal bold
+110% Verdana, Sans-serif"> <Variable name="sidebarTitleFont" description="Sidebar
+Title Font" type="font" default="normal bold 125% Verdana, Sans-Serif" /> <Variable
+name="startSide" description="Start side in blog language" type="automatic"
+default="left"> <Variable name="endSide" description="End side in blog language"
+type="automatic" default="right"> */ body { margin: 0px; padding: 0px; background:
+#ffffcc; color: #000000; font: normal normal 109% Georgia, Times, serif; } a { color:
+#3D81EE; text-decoration: underline; } a:hover { color: #cc0000; text-decoration:
+underline; } a:visited { color: #cc0000; } a img { border: 0; } @media all { div#main-wrapper {
+float: left; width: 66%; padding-top: 0; padding-right: 1em; padding-bottom: 0px;
+padding-left: 1em; word-wrap: break-word; /* fix for long text breaking sidebar float in IE
+*/ overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ }
+div#sidebar-wrapper { margin: 0px; padding: 0px; text-align: right; } div#sidebar { width:
+30%; float: right; word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ } }
+#content-wrapper { margin-right: 1em; } @media handheld { div#main-wrapper { float: none;
+width: 90%; } div#sidebar-wrapper { padding-top: 20px; padding-right: 1em;
+padding-bottom: 0; padding-left: 1em; text-align: left; } } #header { padding-top: 5px;
+padding-right: 0px; padding-bottom: 8px; padding-left: 0px; margin-top: 0px;
+margin-right: 0px; margin-bottom: 20px; margin-left: 0px; border-bottom: solid 1px
+#9e5205; border-top: solid 2px #9e5205; background: #9e5205; color: #fffafa; } h1 a:link {
+color: #fffafa; } h1 a:visited { color: #fffafa; } h1 { padding-top: 18px; padding-right:
+0px; padding-bottom: 10px; padding-left: 5%; margin-top: 0px; margin-right: 0px;
+margin-bottom: 8px; margin-left: 0px; border-top: solid 9px #9e5205; border-bottom:
+solid 1px #fffafa; color: #fffafa; background: #9e5205; font: normal bold 266% Verdana,
+Sans-Serif; } .description { padding-top: 0px; padding-right: 0px; padding-bottom: 0px;
+padding-left: 5%; margin: 0px; color: #fffafa; background: transparent; font: normal bold
+85% Verdana, Sans-Serif; } h3 { margin-top: 0px; margin-right: 0px; margin-bottom: 10px;
+margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px;
+padding-left: 2px; color: #fffafa; background: #9e5205; font: normal bold 110% Verdana,
+Sans-serif; } h3.post-title a, h3.post-title a:visited { color: #fffafa; } h2.date-header
+{ margin-top: 10px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;
+padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 2%; color:
+#777777; font-size: 90%; text-align: left; } #sidebar h2 { margin: 0px; color: #9e5205;
+font: normal bold 125% Verdana, Sans-Serif; padding: 0px; border: none; } #sidebar .widget {
+margin-top: 0px; margin-right: 0px; margin-bottom: 33px; margin-left: 0px; padding: 0; }
+#sidebar ul { list-style-type: none; font-size: 95%; margin-top: 0; } #sidebar li { margin:
+0px; padding: 0px; list-style-type: none; font-size: 105%; } .Blog { margin-top: 20px; }
+.blog-posts, .feed-links { margin-left: 2%; } .feed-links { clear: both; line-height:
+2.5em; } .post { margin-top: 0; margin-right: 0; margin-bottom: 30px; margin-left: 0;
+font-size: 100%; } .post-body { margin-top: 0; margin-right: 6px; margin-bottom: 0;
+margin-left: 5px; } .post strong { font-weight: bold; } #sidebar a { text-decoration: none; }
+#sidebar a:link, #sidebar a:visited { color: #0066CC; } #sidebar a:active, #sidebar
+a:hover { color: #cc0000; } pre,code,strike { color: #666666; } .post-footer { padding-top:
+0; padding-right: 0; padding-bottom: 0; padding-left: 5px; margin: 0px; color: #444444;
+font-size: 80%; } #comments { padding-top: 2px; padding-right: 0px; padding-bottom: 2px;
+padding-left: 5px; font-size: 110%; font-weight: bold; font-family:
+Verdana,Sans-Serif; } .comment-author { margin-top: 20px; } .comment-body { margin-top:
+10px; font-size: 100%; font-weight: normal; color: black; } .comment-footer { padding:
+0px; margin-bottom: 20px; color: #444444; font-size: 80%; font-weight: normal; display:
+inline; margin-right: 10px; } .deleted-comment { font-style: italic; color: gray; }
+.comment-link { margin-left: .6em; } /* Profile
+----------------------------------------------- */ .profile-textblock { clear: both;
+margin-left: 0; } .profile-img { margin-top: 0; margin-right: 0; margin-bottom: 5px;
+margin-left: 5px; float: right; } .BlogArchive #ArchiveList { float: right; }
+.widget-content { margin-top: 0.5em; } #sidebar .widget { clear: both; }
+#blog-pager-newer-link { float: left; } .blog-pager-older-link { float: right; }
+.blog-pager { text-align: center; } .clear { clear: both; } /** Tweaks for subscribe widget */
+.widget-content .subscribe-wrapper { float: right; clear: right; margin: .2em;
+font-family: Arial,Sans-Serif; } /** Tweaks for layout editor mode */ body#layout
+#outer-wrapper { margin-top: 10px; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0756244999628674918029\46blogName\75Bayou+Renaissance+Man\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://bayourenaissanceman.blogspot.com/search\46blogLocale\75en_US\46v\0752\46homepageUrl\75http://bayourenaissanceman.blogspot.com/\46targetPostID\0752735236106861585050\46blogPostOrPageUrl\75http://bayourenaissanceman.blogspot.com/2012/09/some-amazing-high-speed-low-flying.html\46vt\0755288705390915418041',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Bayou Renaissance Man
+
+
+
+The idle musings of a former military man, former computer geek, medically retired pastor and
+now full-time writer. Contents guaranteed to offend the politically correct and
+anal-retentive from time to time. My approach to life is that it should be taken with a large
+helping of laughter, and sufficient firepower to keep it tamed!
+
+Tuesday, September 4, 2012
+
+
+
+Some amazing high-speed low flying!
+
+
+
+This video clip shows an F/A-18 Hornet flying low and fast over California.  Note how it has to
+pull steep banks, even inverted turns, to avoid the terrain.  Also note the very fast roll
+rate - one of the hallmarks of a highly maneuverable aircraft.  I highly recommend watching
+the video in full-screen mode.
+
+
+
+
+
+
+
+
+
+
+
+That's some pretty good piloting, right there . . . and thank heavens the person posting the
+video didn't add a cheesy music soundtrack!  That makes it much more enjoyable.  I wish more
+YouTube posters would learn that lesson!
+
+
+
+Peter
+
+
+
+Posted by Peter at 9/04/2012 11:03:00 PM
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Aircraft ,
+Amazing , Military , Warm Fuzzy Happy Stuff
+
+6 comments:
+
+    
+
+        
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/blank.gif
+
+    Image:
+    http://1.bp.blogspot.com/-hTL5HK1YMPk/TmIe53ct_eI/AAAAAAAAADs/vBkDLiWmnpE/s45/coon_man.jpg
+    Toejam said...
+
+        
+
+        I saw this video somewhere else. Yup, it's actually one of the better ones.
+
+        
+
+        That kids drivin has to have some great reflexes or he'd wind up as a smear on the
+        country-side.
+
+    
+
+        September 5, 2012 1:47 AM
+
+        Image: //www.blogger.com/img/icon_delete13.gif
+
+    
+
+        
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/blank.gif
+
+    Image:
+    http://1.bp.blogspot.com/_8vNzwxlohg0/Sc7RMV4TnBI/AAAAAAAAAjQ/9s51hEcVOYQ/S45/IMG_0618a.jpg
+    Donald Sensing said...
+
+        
+
+        Here's another cockpit view of an F-18, this time doing aerobatics at an air show site
+        .
+
+    
+
+        September 5, 2012 7:15 AM
+
+        Image: //www.blogger.com/img/icon_delete13.gif
+
+    
+
+        
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/blank.gif
+
+    Image:
+    http://3.bp.blogspot.com/-IqkuziRaDs8/TWcPMBaNEpI/AAAAAAAACrw/RfvJBsvtxkg/s45/003-4.JPG
+    Murphy's Law said...
+
+        
+
+        And to think that some people get paid to do that.
+
+        
+
+        Now if you'll excuse me, I have to check with the jet fighter dealerships and see what
+        kind of a trade-in credit they'll give me for my Cessna.
+
+    
+
+        September 5, 2012 7:40 AM
+
+        Image: //www.blogger.com/img/icon_delete13.gif
+
+    
+
+        
+
+    
+
+
+
+    Image: http://img1.blogblog.com/img/openid16-rounded.gif maddmedic said...
+
+        
+
+        Wow...
+
+        Now excuse me I do not like to fly and although that was neat to
+        watch.....uuuuurrrppp...
+
+        
+
+    
+
+        September 5, 2012 11:33 AM
+
+        Image: //www.blogger.com/img/icon_delete13.gif
+
+    
+
+        
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/blank.gif
+
+    Image:
+    http://3.bp.blogspot.com/_DKvTYNHC5Hw/SXqBDNmSfNI/AAAAAAAAAVE/qTPPP2woQrs/S45/p3%2Bbanking.jpg
+    Old NFO said...
+
+        
+
+        LOL, that's down off San Diego... :-) FUN!!! The real E-ticket is through the Sierras
+        from Whidbey Island to Fallon! Got the 'pleasure' of that once! And the inverted pull
+        over ridgelines is to minimize RCS and quicker descent. Also by inverting, you can
+        'see' better than doing a negative G push.
+
+    
+
+        September 5, 2012 11:42 AM
+
+        Image: //www.blogger.com/img/icon_delete13.gif
+
+    
+
+        
+
+    
+
+
+
+    Image: http://img1.blogblog.com/img/blank.gif bruce said...
+
+        
+
+        thanks NFO, I wondered why he never pushed down, makes sense.
+
+    
+
+        September 5, 2012 8:20 PM
+
+        Image: //www.blogger.com/img/icon_delete13.gif
+
+    
+
+
+
+Post a Comment
+
+
+
+
+
+Newer Post Older Post Home Subscribe to: Post Comments (Atom) window.___gcfg = {'lang':
+'en_US'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.currentPost =
+"http://www.blogger.com/feeds/6244999628674918029/posts/default/2735236106861585050";
+holder.currentComments =
+"http://www.blogger.com/feeds/6244999628674918029/2735236106861585050/comments/default";
+holder.currentPostUrl = ""; holder.currentPostId = 2735236106861585050
+holder.postFeed =
+"http://www.blogger.com/feeds/6244999628674918029/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/6244999628674918029/comments/default";
+holder.currentBlogUrl = "http://bayourenaissanceman.blogspot.com/";
+holder.currentBlogId = "6244999628674918029"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#000000"; skin['ENDCAP_LINK_COLOR'] = "#0066CC";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#0066CC"; skin['CONTENT_TEXT_COLOR'] =
+"#000000"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#0066CC";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000"; skin['CONTENT_HEADLINE_COLOR'] =
+"#000000"; skin['FONT_FACE'] = "normal normal 109% Georgia, Times, serif";
+google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-1s2ur4u558e73",
+height: 260, site: "04476993631845345371", locale: 'en_US' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Copyright notice
+
+All original content on this Web site is copyright © on date of publication by this author. All
+rights reserved except, of course, that others may quote from original content under the
+'Fair Use' provisions of US copyright law.
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+About Me
+
+
+
+    Image:
+    http://3.bp.blogspot.com/_kIWY2DV0KnE/S8Ka--D3tBI/AAAAAAAAGSU/x-6VMfcFSOE/S220/emu.jpg
+
+        
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Articles on the Catholic clergy sex abuse scandal and related issues
+
+    
+
+    - Part I
+
+    
+
+    - Part II
+
+    
+
+    - Part III
+
+    
+
+    - Part IV
+
+    
+
+    - The Catholic Church's troubles continue
+
+    
+
+    - The Catholic Church STILL doesn't get it!
+
+    
+
+    - It's enough to make me nauseous . . .
+
+    
+
+    - More troubles for the Catholic Church
+
+    
+
+    - When will the bleeding stop?
+
+    
+
+    - The Catholic Church versus the authorities, redux
+
+    
+
+    - A new scandal strikes the Catholic Church
+
+    
+
+    - A prayer for mercy
+
+    
+
+    - When spiritual authority becomes a travesty
+
+    
+
+    - A new twist to an old tragedy
+
+    
+
+    - The controversy over Fr. Benedict Groeschel
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Articles on firearms and self-defense
+
+    
+
+    - A reminder that defense is more mindset than tools
+
+    
+
+    - A wholly preventable tragedy
+
+    
+
+    - Criminal gangs spread to smaller cities
+
+    
+
+    - Firearm recommendations for home defense, Part 1
+
+    
+
+    - Firearm recommendations for home defense, Part 2
+
+    
+
+    - Firearm recommendations for home defense, Part 3
+
+    
+
+    - Firearms safety - an illustration of why it's important
+
+    
+
+    - Good advice on protecting yourself and your loved ones from criminals
+
+    
+
+    - "Gun control" - the Winnenden school shooting
+
+    
+
+    - Has technology killed gun control?
+
+    
+
+    - How much ammunition is 'enough'?
+
+    
+
+    - Important lessons about self-defense
+
+    
+
+    - "Just because you're shot doesn't mean you're dead"
+
+    
+
+    - Ladies, shotguns and idiot teachers, Part 1
+
+    
+
+    - Ladies, shotguns and idiot teachers, Part 2
+
+    
+
+    - More evidence of the growing need to defend yourself
+
+    
+
+    - Muggers aren't the only reason to be armed
+
+    
+
+    - Putting a stop to firearms myths and misconceptions
+
+    
+
+    - Recoil management & control
+
+    
+
+    - Rule Four, people - RULE FOUR!!!
+
+    
+
+    - Self-defense: Things happen so fast!
+
+    
+
+    - Small handguns for concealed carry & home defense, Part 1
+
+    
+
+    - Small handguns for concealed carry & home defense, Part 2
+
+    
+
+    - The changing urban self-defense environment
+
+    
+
+    - The danger of relying on calling 911 for assistance
+
+    
+
+    - The myth of handgun "stopping power", Part 1
+
+    
+
+    - The myth of handgun "stopping power", Part 2
+
+    
+
+    - The myth of handgun "stopping power", Part 3
+
+    
+
+    - The safe storage of firearms, Part 1
+
+    
+
+    - The safe storage of firearms, Part 2
+
+    
+
+    - The scary realities of self-defense
+
+    
+
+    - Twenty questions from the Brady campaign
+
+    
+
+    - When self-defense crosses the line
+
+    
+
+    - "A sudden and acute failure of the victim selection process"
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Articles on Emergency Preparation
+
+    
+
+    - Lessons learned from Hurricanes Katrina and Rita in 2005
+
+    
+
+    - Part 1: Introduction
+
+    
+
+    - Part 2: In praise of the 5-gallon bucket
+
+    
+
+    - Part 3: Get real!
+
+    
+
+    - Part 4: A useful reality check
+
+    
+
+    - Part 5: Planning your food reserves
+
+    
+
+    - Part 6: Cash and Barter
+
+    
+
+    - Part 7: Food for thought
+
+    
+
+    - Part 8: Some useful articles
+
+    
+
+    - Part 9: The Vehicle Emergency Kit
+
+    
+
+    - Part 10: Lessons from Hurricane Isaac
+
+    
+
+    - Part 11: "How America’s Cities May Explode In Violence"
+
+    
+
+    - Part 12: Water, hygiene and sanitation
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Discrimination, distrust and xenophobia
+
+    
+
+    - The latest racism kerfuffle
+
+    
+
+    - Response, Part 1
+
+    
+
+    - Part 2
+
+    
+
+    - Part 3
+
+    
+
+    - Part 4
+
+    
+
+    - Part 5
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Weekend Wings articles
+
+    
+
+    - 41 - South Africa's "Franken-Mirages", Part 3 of 3
+
+    
+
+    - 40 - South Africa's "Franken-Mirages", Part 2 of 3
+
+    
+
+    - 39 - South Africa's "Franken-Mirages", Part 1 of 3
+
+    
+
+    - 38 - The F-111 Aardvark, Part 2
+
+    
+
+    - 37 - The F-111 Aardvark, Part 1
+
+    
+
+    - 36 - The Airborne Sinews Of Empire
+
+    
+
+    - 35 - A Make-Or-Break Year For The F-35 Lightning II?
+
+    
+
+    - 34 - Stealth Aircraft: The Old Becomes New Again
+
+    
+
+    - 33 - Jack Northrop's Flying Wings
+
+    
+
+    - 32 - Aerial Bombardment: The Beginning
+
+    
+
+    - 31 - The Last of the Big Bangers
+
+    
+
+    - 30 - Carrier Aviation in the US Navy, today & tomorrow
+
+    
+
+    - 29 - How To Design An Aircraft
+
+    
+
+    - 28 - The Balikpapan Raid
+
+    
+
+    - 27 - Will the MiG name vanish into history?
+
+    
+
+    - 26 - Survivors
+
+    
+
+    - 25 - Air Gunners
+
+    
+
+    - 24 - The Lighter Side of Wings
+
+    
+
+    - 23 - The Pioneering Flight of the Pacific Clipper
+
+    
+
+    - 22 - The Berlin Airlift
+
+    
+
+    - 21 - Whither the USAF?
+
+    
+
+    - 20 - Inflatable Aircraft
+
+    
+
+    - 19 - The Greatest Air Race of All Time?
+
+    
+
+    - 18 - The Struggle to Conquer the Atlantic
+
+    
+
+    - 17 - The First Non-Stop Transatlantic Flight
+
+    
+
+    - 16 - First Across the Atlantic
+
+    
+
+    - 15 - Low, Slow, Up Close and Personal
+
+    
+
+    - 14 - The Eagle Squadrons and the 4th Fighter Group
+
+    
+
+    - 13 - The Spitfire: The Legend Lives On
+
+    
+
+    - 12 - The Spitfire: The Legend Grows
+
+    
+
+    - 11 - The Spitfire: A Legend is Born
+
+    
+
+    - 10 - Flying the Hump
+
+    
+
+    - 9 - Final Flight
+
+    
+
+    - 8 - Revisiting Military Aircraft Cost-Effectiveness
+
+    
+
+    - 7 - Aerotoxic Syndrome?
+
+    
+
+    - 6 - Modern Military Aircraft: Cost versus Effectiveness
+
+    
+
+    - 5 - Russian Aircraft-Carriers and their Planes
+
+    
+
+    - 4 - The Last Stand of the Biplane
+
+    
+
+    - 3 - From the Pup to the Lightning
+
+    
+
+    - 2 - Return of the Airship?
+
+    
+
+    - 1 - The De Havilland Mosquito
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Weekend Warships articles
+
+    
+
+    - 3 - Submarines: is the old becoming new again?
+
+    
+
+    - 2 - From City, to Admiral, to King!
+
+    
+
+    - 1 - USS San Diego (CL-53)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog topics
+
+    
+
+    - Accidents (381)
+
+    
+
+    - Adventure (71)
+
+    
+
+    - Advertisements (140)
+
+    
+
+    - Aircraft (490)
+
+    
+
+    - Amazing (485)
+
+    
+
+    - Animals (500)
+
+    
+
+    - Art (215)
+
+    
+
+    - Automotive (453)
+
+    
+
+    - Big Brother (183)
+
+    
+
+    - Bleg (5)
+
+    
+
+    - Blog Memes (15)
+
+    
+
+    - Blogging (158)
+
+    
+
+    - Books (103)
+
+    
+
+    - Boys and their toys (562)
+
+    
+
+    - Bureaucracy (177)
+
+    
+
+    - Business and Commerce (443)
+
+    
+
+    - Catholic sex abuse scandal (15)
+
+    
+
+    - Children (62)
+
+    
+
+    - Christmas (30)
+
+    
+
+    - Cleanup (65)
+
+    
+
+    - Computers (165)
+
+    
+
+    - Congratulations (296)
+
+    
+
+    - Contests (156)
+
+    
+
+    - Cool (105)
+
+    
+
+    - Corruption (59)
+
+    
+
+    - Crime (577)
+
+    
+
+    - Current Events (234)
+
+    
+
+    - Cute (201)
+
+    
+
+    - Danger (652)
+
+    
+
+    - Dilemma (204)
+
+    
+
+    - Disaster (49)
+
+    
+
+    - Disgust (624)
+
+    
+
+    - Doofus (604)
+
+    
+
+    - Dumbass (284)
+
+    
+
+    - Economics (374)
+
+    
+
+    - Education (111)
+
+    
+
+    - Emergency preparations (14)
+
+    
+
+    - Entertainment (360)
+
+    
+
+    - Environment (60)
+
+    
+
+    - Ethics (99)
+
+    
+
+    - Ewwww (4)
+
+    
+
+    - Extremism (14)
+
+    
+
+    - Faith and life (255)
+
+    
+
+    - Fashion (32)
+
+    
+
+    - Firearms (148)
+
+    
+
+    - Food (149)
+
+    
+
+    - Food and Drink (136)
+
+    
+
+    - Friends (56)
+
+    
+
+    - Funny (2116)
+
+    
+
+    - Grrr (714)
+
+    
+
+    - Health (311)
+
+    
+
+    - Heroism (95)
+
+    
+
+    - History (704)
+
+    
+
+    - Human interest (576)
+
+    
+
+    - Human Rights (34)
+
+    
+
+    - Hurricanes (23)
+
+    
+
+    - Idle chatter (95)
+
+    
+
+    - In Memoriam (84)
+
+    
+
+    - Interesting facts (1834)
+
+    
+
+    - Internet (158)
+
+    
+
+    - Kids (54)
+
+    
+
+    - Law (296)
+
+    
+
+    - Me me me (127)
+
+    
+
+    - Military (293)
+
+    
+
+    - Military memories (60)
+
+    
+
+    - Mistakes (521)
+
+    
+
+    - Moonbattery (71)
+
+    
+
+    - Music (133)
+
+    
+
+    - Nature (293)
+
+    
+
+    - Oops (810)
+
+    
+
+    - Other blogs (297)
+
+    
+
+    - Photography (249)
+
+    
+
+    - Police (233)
+
+    
+
+    - Political Correctness (136)
+
+    
+
+    - Politics (580)
+
+    
+
+    - Preparations (26)
+
+    
+
+    - Prison (18)
+
+    
+
+    - Privacy (15)
+
+    
+
+    - Rant (46)
+
+    
+
+    - Reality (894)
+
+    
+
+    - Relationships (93)
+
+    
+
+    - Rescue (25)
+
+    
+
+    - Sad (177)
+
+    
+
+    - Satire (11)
+
+    
+
+    - Science (248)
+
+    
+
+    - Security (234)
+
+    
+
+    - Self-Defense (66)
+
+    
+
+    - Ships (116)
+
+    
+
+    - Silly (387)
+
+    
+
+    - Space (71)
+
+    
+
+    - Sport (239)
+
+    
+
+    - Steampunk (2)
+
+    
+
+    - Technology (653)
+
+    
+
+    - Terrorism (44)
+
+    
+
+    - Thank You (62)
+
+    
+
+    - The Mind Boggles (740)
+
+    
+
+    - Tragedy (150)
+
+    
+
+    - Travel (235)
+
+    
+
+    - Useful (390)
+
+    
+
+    - War (293)
+
+    
+
+    - Warm Fuzzy Happy Stuff (725)
+
+    
+
+    - Weather (57)
+
+    
+
+    - Weekend Warships (3)
+
+    
+
+    - Weekend Wings (47)
+
+    
+
+    - Weird (422)
+
+    
+
+    - Wisdom (77)
+
+    
+
+    - Writing (26)
+
+    
+
+    - Xenophobia (6)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ▼  2012 (1128)
+
+        - ►  October (4)
+
+        
+
+        
+
+            - ▼  September (116)
+
+            - More on the Royal Norwegian Air Force centenary
+
+            
+
+            - The truth about inflation
+
+            
+
+            - A gruelling race makes a comeback
+
+            
+
+            - If you need diapers, better stock up now . . .
+
+            
+
+            - Around the blogs
+
+            
+
+            - A balanced perspective?
+
+            
+
+            - So that's why she wants me to be happier!
+
+            
+
+            - Salvaging the 'Costa Concordia'
+
+            
+
+            - Centenary congratulations to the Royal Norwegian A...
+
+            
+
+            - Getting a handle on things . . . literally!
+
+            
+
+            - The Obama administration has been caught lying in ...
+
+            
+
+            - Ye gods and little fishes!
+
+            
+
+            - Not your average trucks - or truck drivers!
+
+            
+
+            - Theory versus practice in a combat zone
+
+            
+
+            - I absolutely could not believe this story!
+
+            
+
+            - Looking Presidential!
+
+            
+
+            - Debt and the economy
+
+            
+
+            - Very high, very fast!
+
+            
+
+            - Canadian memories of the T-6 Texan
+
+            
+
+            - How they sell to you
+
+            
+
+            - The curtain slowly comes down for the veterans of ...
+
+            
+
+            - Doofus Of The Day #644
+
+            
+
+            - Kittens redux
+
+            
+
+            - Fancy a really long bus ride?
+
+            
+
+            - "The Drone Age" - and a moral dilemma
+
+            
+
+            - Now that's a shredder!
+
+            
+
+            - Doofus Of The Day #643
+
+            
+
+            - Financial news
+
+            
+
+            - How cool is this? A tank-chair for the disabled!
+
+            
+
+            - Take a scientist, liquid nitrogen and 1,500 table ...
+
+            
+
+            - Around the blogs
+
+            
+
+            - Saturday kittens
+
+            
+
+            - Mixed messages?
+
+            
+
+            - A bathtub for Phlegmmy!
+
+            
+
+            - Doofus Of The Day #642
+
+            
+
+            - But is it art?
+
+            
+
+            - Doofus Of The Day #641
+
+            
+
+            - 75 years of The Hobbit!
+
+            
+
+            - A warrior of the old school
+
+            
+
+            - A World War II-vintage C-47 versus a modern anti-a...
+
+            
+
+            - More financial news
+
+            
+
+            - Food poisons raise their ugly heads again
+
+            
+
+            - California gun owners need your help
+
+            
+
+            - Another war warning
+
+            
+
+            - An ancient song lives on
+
+            
+
+            - Doofus Of The Day #640
+
+            
+
+            - I'm reinstating comment verification on this blog
+
+            
+
+            - The media doth protest too much, methinks
+
+            
+
+            - Quote of the day
+
+            
+
+            - OK, that's a big bang!
+
+            
+
+            - Some amazing photographs of Hong Kong
+
+            
+
+            - More interesting news on the economy
+
+            
+
+            - Doofus Of The Day #639
+
+            
+
+            - "Poverty barons"
+
+            
+
+            - That's one way to educate drivers, I guess!
+
+            
+
+            - Islamophobia: Pot, meet kettle. Kettle, pot.
+
+            
+
+            - The benefits of being boneless!
+
+            
+
+            - Obama's response to Libya: Mark Steyn says it all...
+
+            
+
+            - Imagination meets architecture
+
+            
+
+            - Yum. I mean . . . Yum!
+
+            
+
+            - Doofus Of The Day #638
+
+            
+
+            - Two veterans reunited
+
+            
+
+            - The financial crisis: B.O.H.I.C.A.
+
+            
+
+            - A narrow escape!
+
+            
+
+            - The Fed: Impoverishing American citizens to bail ...
+
+            
+
+            - "Why does coffee never taste as good as it smells?...
+
+            
+
+            - The embassy attacks: Let's be clear what's happen...
+
+            
+
+            - A musical blast from the past
+
+            
+
+            - Is this what they mean by 'going out on a limb'?
+
+            
+
+            - Trying to contact Rev. Donald Sensing
+
+            
+
+            - Ye Gods, it's 1979 all over again!
+
+            
+
+            - Emergency Preparation, Part 12: Water, hygiene an...
+
+            
+
+            - A World War II Messerschmitt has a narrow escape
+
+            
+
+            - More from the Isle of Man TT
+
+            
+
+            - Why you can't trust the mainstream media on politi...
+
+            
+
+            - Musical . . . fungus???
+
+            
+
+            - How do you punish security breaches when they star...
+
+            
+
+            - Am I a prophet, or what?
+
+            
+
+            - September 11th, 2001
+
+            
+
+            - "The mother of all debt bombs"?
+
+            
+
+            - A high-speed escape from death
+
+            
+
+            - A good introduction to European truck racing
+
+            
+
+            - A massive collection of Murphy's Laws
+
+            
+
+            - "A sudden and acute failure of the victim selectio...
+
+            
+
+            - Around the blogs
+
+            
+
+            - He's hissed off, all right!
+
+            
+
+            - Health and healing, redux
+
+            
+
+            - It's like the '99 Bottles' song - on wheels!
+
+            
+
+            - Doofus Of The Day #637
+
+            
+
+            - The controversy over Fr. Benedict Groeschel
+
+            
+
+            - When a robot falls in love . . .
+
+            
+
+            - Artistically creative, or obsessive-compulsive?
+
+            
+
+            - Cartoon of the week
+
+            
+
+            - "Are Entitlements Corrupting Us?"
+
+            
+
+            - Mischievous headline of the week
+
+            
+
+            - The ultimate drag race?
+
+            
+
+            - Good news for science fiction fans
+
+            
+
+            - Circling the fiscal drain
+
+            
+
+            - Thunderstorm up . . . blogging down
+
+            
+
+            - Remembering Freddie Mercury
+
+            
+
+            - Some amazing high-speed low flying!
+
+            
+
+            - Dumbasses indeed!
+
+            
+
+            - Emergency Preparation, Part 11: "How America’s Cit...
+
+            
+
+            - Doofus Of The Day #636
+
+            
+
+            - Demonstrators today . . . terrorists tomorrow???
+
+            
+
+            - Ejection seats
+
+            
+
+            - It's Monster Hunter time again!
+
+            
+
+            - Gaming the bureaucrats (Air Traffic Control editio...
+
+            
+
+            - Now that's enthusiasm!
+
+            
+
+            - A cure for malaria - or is it?
+
+            
+
+            - In Memoriam: Butch, a.k.a. Popgun
+
+            
+
+            - Entitlement whores
+
+            
+
+            - Idiots. Motorists. But I repeat myself . . .
+
+            
+
+            - A sad fate for a brave man's awards
+
+            
+
+            - A sickening economic milestone
+
+            
+
+            - A supersonic ninja star???
+
+            
+
+        
+
+        
+
+        
+
+        - ►  August (126)
+
+        
+
+        
+
+        - ►  July (134)
+
+        
+
+        
+
+        - ►  June (119)
+
+        
+
+        
+
+        - ►  May (123)
+
+        
+
+        
+
+        - ►  April (123)
+
+        
+
+        
+
+        - ►  March (125)
+
+        
+
+        
+
+        - ►  February (126)
+
+        
+
+        
+
+        - ►  January (132)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (1644)
+
+        - ►  December (129)
+
+        
+
+        
+
+        - ►  November (130)
+
+        
+
+        
+
+        - ►  October (139)
+
+        
+
+        
+
+        - ►  September (142)
+
+        
+
+        
+
+        - ►  August (140)
+
+        
+
+        
+
+        - ►  July (144)
+
+        
+
+        
+
+        - ►  June (136)
+
+        
+
+        
+
+        - ►  May (131)
+
+        
+
+        
+
+        - ►  April (136)
+
+        
+
+        
+
+        - ►  March (136)
+
+        
+
+        
+
+        - ►  February (129)
+
+        
+
+        
+
+        - ►  January (152)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (1445)
+
+        - ►  December (147)
+
+        
+
+        
+
+        - ►  November (142)
+
+        
+
+        
+
+        - ►  October (138)
+
+        
+
+        
+
+        - ►  September (131)
+
+        
+
+        
+
+        - ►  August (107)
+
+        
+
+        
+
+        - ►  July (124)
+
+        
+
+        
+
+        - ►  June (115)
+
+        
+
+        
+
+        - ►  May (113)
+
+        
+
+        
+
+        - ►  April (91)
+
+        
+
+        
+
+        - ►  March (113)
+
+        
+
+        
+
+        - ►  February (96)
+
+        
+
+        
+
+        - ►  January (128)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (1545)
+
+        - ►  December (108)
+
+        
+
+        
+
+        - ►  November (107)
+
+        
+
+        
+
+        - ►  October (98)
+
+        
+
+        
+
+        - ►  September (119)
+
+        
+
+        
+
+        - ►  August (130)
+
+        
+
+        
+
+        - ►  July (125)
+
+        
+
+        
+
+        - ►  June (98)
+
+        
+
+        
+
+        - ►  May (145)
+
+        
+
+        
+
+        - ►  April (147)
+
+        
+
+        
+
+        - ►  March (173)
+
+        
+
+        
+
+        - ►  February (150)
+
+        
+
+        
+
+        - ►  January (145)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2008 (1158)
+
+        - ►  December (123)
+
+        
+
+        
+
+        - ►  November (117)
+
+        
+
+        
+
+        - ►  October (114)
+
+        
+
+        
+
+        - ►  September (96)
+
+        
+
+        
+
+        - ►  August (101)
+
+        
+
+        
+
+        - ►  July (101)
+
+        
+
+        
+
+        - ►  June (96)
+
+        
+
+        
+
+        - ►  May (92)
+
+        
+
+        
+
+        - ►  April (86)
+
+        
+
+        
+
+        - ►  March (81)
+
+        
+
+        
+
+        - ►  February (79)
+
+        
+
+        
+
+        - ►  January (72)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blogs I read frequently
+
+    
+
+    - A Day In The Life Of An Ambulance Driver
+
+    
+
+    - Al Fin
+
+    
+
+    - Atomic Nerds
+
+    
+
+    - Better And Better
+
+    
+
+    - Blunt Object
+
+    
+
+    - Borepatch
+
+    
+
+    - Corn, Beans, Spent Brass, an Empty Page and a Deadline
+
+    
+
+    - Coyote Blog
+
+    
+
+    - Crass-Pollination: An ER Blog
+
+    
+
+    - Crucis' Court
+
+    
+
+    - Daddy Bear's Den
+
+    
+
+    - Dark Roasted Blend
+
+    
+
+    - Doctor Grumpy In The House
+
+    
+
+    - Dustbury
+
+    
+
+    - Educated And Poor
+
+    
+
+    - Expert Witness
+
+    
+
+    - Fatale Abstraction
+
+    
+
+    - FreeThinker
+
+    
+
+    - Grouchy Old Cripple
+
+    
+
+    - HedgeRoot
+
+    
+
+    - Holly's Ramblin'
+
+    
+
+    - Home On The Range
+
+    
+
+    - I Aim To Misbehave
+
+    
+
+    - I Can Has Cheezburger? (Lolcats)
+
+    
+
+    - Irons In The Fire
+
+    
+
+    - Just An Earthbound Misfit, I
+
+    
+
+    - Lagniappe's Lair (a.k.a. Murphy's Law)
+
+    
+
+    - Les Jones
+
+    
+
+    - Looking For Lissa
+
+    
+
+    - Lucrative Pain
+
+    
+
+    - Mad Ogre
+
+    
+
+    - MArooned
+
+    
+
+    - Monster Hunter Nation
+
+    
+
+    - Mostly Cajun, All American And Opinionated
+
+    
+
+    - Musings Of A Dinosaur
+
+    
+
+    - Neanderpundit
+
+    
+
+    - Nobody Asked Me
+
+    
+
+    - Oleg Volk
+
+    
+
+    - On A Wing And A Whim
+
+    
+
+    - PawPaw's House
+
+    
+
+    - PDB
+
+    
+
+    - Pirate With A Permission Slip
+
+    
+
+    - Popehat
+
+    
+
+    - Push The Pull Door
+
+    
+
+    - Self Evidence (Breda)
+
+    
+
+    - Sense Of Events
+
+    
+
+    - Snarkybytes
+
+    
+
+    - Talking To Myself Again
+
+    
+
+    - The Adaptive Curmudgeon
+
+    
+
+    - The Adventures Of Roberta X
+
+    
+
+    - The Johnny Law Chronicles
+
+    
+
+    - The Lawdog Files
+
+    
+
+    - The Lexicans
+
+    
+
+    - The Munchkin Wrangler
+
+    
+
+    - The Transmogrifier Files
+
+    
+
+    - Tractor Tracks
+
+    
+
+    - View From The Porch
+
+    
+
+    - Views From My Squad Car
+
+    
+
+    - Way Up North
+
+    
+
+    - William The Coroner's Forensic Files
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Bloggers I've Met
+
+    
+
+    - AEPilot Jim
+
+    
+
+    - Alan
+
+    
+
+    - Ambulance Driver
+
+    
+
+    - Bloggo
+
+    
+
+    - Brandon
+
+    
+
+    - Crucis
+
+    
+
+    - Daddy Bear
+
+    
+
+    - Dockbot
+
+    
+
+    - FarmDad
+
+    
+
+    - FarmGirl
+
+    
+
+    - FarmMom
+
+    
+
+    - Fat Hairy Bastard
+
+    
+
+    - Holly
+
+    
+
+    - Jenny
+
+    
+
+    - JPG
+
+    
+
+    - JR
+
+    
+
+    - Lawdog
+
+    
+
+    - Marko
+
+    
+
+    - Matt G
+
+    
+
+    - Old NFO
+
+    
+
+    - Oleg Volk
+
+    
+
+    - On A Wing And A Whim
+
+    
+
+    - Phlegmmy
+
+    
+
+    - Robert
+
+    
+
+    - Rough Diamond
+
+    
+
+    - SpeakerTweaker
+
+    
+
+    - Sylvilagus Aquaticus
+
+    
+
+    - Tamara
+
+    
+
+    - Xavier
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+RECIPROCAL BLOGROLL (if you link to me, let me know and I'll add a link to you here)
+
+    
+
+    - 3 Boxes of BS
+
+    
+
+    - A Day In The Life Of A Talk Radio Blogger
+
+    
+
+    - A Gator In The Desert
+
+    
+
+    - A Keyboard And A .45
+
+    
+
+    - A Trainwreck In Maxwell
+
+    
+
+    - Acair Fearann
+
+    
+
+    - Adventures With The Lower Level
+
+    
+
+    - All You Really Need
+
+    
+
+    - Ambulances, Boomsticks, Coffee
+
+    
+
+    - America's Living Room
+
+    
+
+    - American Mercenary
+
+    
+
+    - Among The Leaves
+
+    
+
+    - Andy's Gun Thoughts
+
+    
+
+    - Another day . . . another . . .
+
+    
+
+    - Another Gun Chick
+
+    
+
+    - Any Minor World
+
+    
+
+    - Armed Laughing
+
+    
+
+    - Artful Articulations
+
+    
+
+    - Assorted Meanderings
+
+    
+
+    - Baby Troll Blog
+
+    
+
+    - Ballseye's Boomers
+
+    
+
+    - Barefoot Clown
+
+    
+
+    - Bartolomeo's in Texas
+
+    
+
+    - Bear On A Bicycle
+
+    
+
+    - Below The Gnat Line
+
+    
+
+    - Bergheim Follies
+
+    
+
+    - Big Bad Wolfs Blog
+
+    
+
+    - Billlls Idle Mind
+
+    
+
+    - Bloggo The Dog Boy
+
+    
+
+    - Bullet Points by Rick O'Shea
+
+    
+
+    - Capitalist Preservation
+
+    
+
+    - Carolina Cogitation
+
+    
+
+    - Carteach0
+
+    
+
+    - Chaos
+
+    
+
+    - Charlie McDanger
+
+    
+
+    - Chasing freedom
+
+    
+
+    - Clandestine Cop
+
+    
+
+    - Clarence Grad '72
+
+    
+
+    - Confessions of a Gun Toting Seagull
+
+    
+
+    - Confessions Of A Serial Titflasher
+
+    
+
+    - Connecting The Dots
+
+    
+
+    - Curly Girl
+
+    
+
+    - Dad's Deadpool Blog
+
+    
+
+    - Dante's Inferno & Firing Range
+
+    
+
+    - David McElroy
+
+    
+
+    - Defends Her Own
+
+    
+
+    - Dire Wombat
+
+    
+
+    - Do Over (formerly Random Ramblings)
+
+    
+
+    - Doc 320
+
+    
+
+    - Doin' The Time Warp
+
+    
+
+    - Dr. Zeus's Forensic Files
+
+    
+
+    - Evyl Robot Soapbox
+
+    
+
+    - Fire Mission: Hippies In The Open
+
+    
+
+    - FlutePrayer
+
+    
+
+    - Fly To Your Dreams
+
+    
+
+    - Forging Iron Man
+
+    
+
+    - Free in Idaho!
+
+    
+
+    - Free Spirit Mind
+
+    
+
+    - Get Ready . . . Here It Comes
+
+    
+
+    - Give Me Liberty
+
+    
+
+    - Going Somewhere, Just Not Sure Where...
+
+    
+
+    - Grandma's House
+
+    
+
+    - Gravy And Biscuits
+
+    
+
+    - Greens & Blues
+
+    
+
+    - Greg and Beth
+
+    
+
+    - Gun Blog Black List
+
+    
+
+    - Gun Geek Rants
+
+    
+
+    - Gunblogger Conspiracy (IRC)
+
+    
+
+    - HealingTouch
+
+    
+
+    - Hitched A Lift, Now What?
+
+    
+
+    - House of Harkonnen
+
+    
+
+    - I Aim To Misbehave
+
+    
+
+    - I Am Just Treading Water
+
+    
+
+    - In The Middle Of The Right
+
+    
+
+    - Indigenous Geek
+
+    
+
+    - Indy Transponder
+
+    
+
+    - Into The Light
+
+    
+
+    - It's Crazy In Mental Health
+
+    
+
+    - It's My Life
+
+    
+
+    - It's News To Me
+
+    
+
+    - Jigsaw's Thoughts
+
+    
+
+    - Joe's Crabby Shack
+
+    
+
+    - Jumblerant
+
+    
+
+    - Just Another Missouri Rebel
+
+    
+
+    - Last Of The Few
+
+    
+
+    - Lawyer With A Gun
+
+    
+
+    - Laylow's Bunker
+
+    
+
+    - Leadchucker
+
+    
+
+    - Lessons From History
+
+    
+
+    - Let me think about it = The coward's way of saying "No"
+
+    
+
+    - Liberal Guy
+
+    
+
+    - Liberty Girl
+
+    
+
+    - Living History
+
+    
+
+    - Lost And Found
+
+    
+
+    - Low Dog On The Totem Pole
+
+    
+
+    - Macbourne's Musings
+
+    
+
+    - Mad Jack's Shack
+
+    
+
+    - Mal-Fits
+
+    
+
+    - Mango's Madness
+
+    
+
+    - Matt's Musings and Rambling
+
+    
+
+    - Merlin's Musings
+
+    
+
+    - MiniMedic
+
+    
+
+    - Misanthropic? Me? Inconceivable
+
+    
+
+    - Miz Minka's Musings
+
+    
+
+    - Morning Glory
+
+    
+
+    - Musings Of A Vast Right-Winger
+
+    
+
+    - My 1970 Camaro
+
+    
+
+    - My Daily Kona
+
+    
+
+    - My Life = Chaos Management
+
+    
+
+    - My Muse Shanked Me
+
+    
+
+    - My Sky Color
+
+    
+
+    - My Tumultuous Adventure
+
+    
+
+    - Near The Salty City
+
+    
+
+    - Newbie Shooter
+
+    
+
+    - Night of the Return of the Son of Rocket Jones
+
+    
+
+    - Notes From Mosquito Hill
+
+    
+
+    - Observations Of An Old Cop
+
+    
+
+    - Old Retired Petty Officer
+
+    
+
+    - Ordnance Corner
+
+    
+
+    - Outback Notes
+
+    
+
+    - Overflow
+
+    
+
+    - Pawsing To Ponder
+
+    
+
+    - Pennies From Heathens
+
+    
+
+    - Personal Armament Podcast
+
+    
+
+    - Pink, Warm & Dry
+
+    
+
+    - Plumbum et Circenses
+
+    
+
+    - Popgun's Notebooks
+
+    
+
+    - Popgun's World
+
+    
+
+    - Preparing Your Family
+
+    
+
+    - Prioritate De Dreapta
+
+    
+
+    - Quizikle
+
+    
+
+    - Random Acts Of Patriotism
+
+    
+
+    - Ranunculus Turtle
+
+    
+
+    - Raptor's Nest
+
+    
+
+    - Raven's Beak
+
+    
+
+    - Redneck Command
+
+    
+
+    - Rico's Rants
+
+    
+
+    - Rogue Medic
+
+    
+
+    - Rogue Medic Rants
+
+    
+
+    - Rough Diamond
+
+    
+
+    - Scratching To Escape
+
+    
+
+    - Semi Redneck
+
+    
+
+    - Sevesteen
+
+    
+
+    - Shining Pearls of Something
+
+    
+
+    - Shubh-space
+
+    
+
+    - Silver the Evil Chao
+
+    
+
+    - Simeron Steelhammer
+
+    
+
+    - Simple Everyday Living
+
+    
+
+    - Something Wicked Comes
+
+    
+
+    - Soylent Green
+
+    
+
+    - Standing Outside Looking In
+
+    
+
+    - Stormbringer
+
+    
+
+    - Stubborn Pryde
+
+    
+
+    - Tactical Tupperware
+
+    
+
+    - The Blazing Orange
+
+    
+
+    - The Eagle's Nest
+
+    
+
+    - The Eclectic Dragonfly
+
+    
+
+    - The Feral Irishman
+
+    
+
+    - The Hayride
+
+    
+
+    - The Iconoclastic Aviators Blog
+
+    
+
+    - The Lemon Stand
+
+    
+
+    - The Liberty Zone
+
+    
+
+    - The Life and Times of Thaddeus Neil
+
+    
+
+    - The Life of Anthony
+
+    
+
+    - The Line Is Here
+
+    
+
+    - The Lost Goat
+
+    
+
+    - The Mellow Jihadi
+
+    
+
+    - The New Anglican Firearms Enthusiast
+
+    
+
+    - The New Atlantean
+
+    
+
+    - The Newbie Shooter
+
+    
+
+    - The Newbius Papers
+
+    
+
+    - The Parenthood Experiment
+
+    
+
+    - The Peripatetic Engineer
+
+    
+
+    - The Purple Magpie's Nest
+
+    
+
+    - The Real Gun Guys
+
+    
+
+    - The Robotic Bee Project
+
+    
+
+    - The Silicon Graybeard
+
+    
+
+    - The Swordmaster's Apprentice
+
+    
+
+    - The Tao of Josh
+
+    
+
+    - The Terriorists
+
+    
+
+    - The Tireless Agorist
+
+    
+
+    - The Zen of Rhi
+
+    
+
+    - Three Mouse Clicks From Disaster
+
+    
+
+    - Too Old To Work, Too Young To Retire
+
+    
+
+    - Top Of The Chain
+
+    
+
+    - Training For Life LLC
+
+    
+
+    - True Blue Sam, the Travelin' Man
+
+    
+
+    - Two Evil Twins
+
+    
+
+    - W. C. Varones
+
+    
+
+    - Walls Of The City
+
+    
+
+    - Weird And Pissed Off
+
+    
+
+    - West, By G*d
+
+    
+
+    - Whatever Comes To Mind
+
+    
+
+    - When, In The Course Of Human Events . . .
+
+    
+
+    - Where There's A William . . .
+
+    
+
+    - Where We Is
+
+    
+
+    - Whipped Cream Difficulties
+
+    
+
+    - Who says ADD is a bad thing?
+
+    
+
+    - Wilsonblog
+
+    
+
+    - With Varying Frequency – Amateur Radio Ponderings
+
+    
+
+    - Wolves Can Shuffle Cards
+
+    
+
+    - Wood, Steel . . . and a single action .45
+
+    
+
+    - XD45
+
+    
+
+    - Zipline Conservative
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Firearms Web sites I recommend
+
+    
+
+    - Father Frog
+
+    
+
+    - Gun Rights Media
+
+    
+
+    - Hi-Powers and Handguns
+
+    
+
+    - SWAT Magazine
+
+    
+
+    - The Cornered Cat
+
+    
+
+    - The Firing Line
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Favorite Web Cartoons
+
+    
+
+    - Day By Day
+
+    
+
+    - Goblin Hollow
+
+    
+
+    - Nip & Tuck
+
+    
+
+    - Schlock Mercenary
+
+    
+
+    - Sequential Art
+
+    
+
+    - Sherman's Lagoon
+
+    
+
+    - Tales Of The Questor
+
+    
+
+    - User Friendly
+
+    
+
+    - What The Duck?
+
+    
+
+    - XKCD
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Sitemeter
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Google Analytics
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www."); document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); var
+pageTracker = _gat._getTracker("UA-3485379-1"); pageTracker._initData();
+pageTracker._trackPageview();
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png   if
+(window.jstiming) window.jstiming.load.tick('widgetJsBefore'); if
+(typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'6244999628674918029';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d6244999628674918029','//bayourenaissanceman.blogspot.com/2012/09/some-amazing-high-speed-low-flying.html','6244999628674918029');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'6244999628674918029', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Bayou
+Renaissance Man', 'pageType': 'item', 'url':
+'http://bayourenaissanceman.blogspot.com/2012/09/some-amazing-high-speed-low-flying.html',
+'canonicalUrl':
+'http://bayourenaissanceman.blogspot.com/2012/09/some-amazing-high-speed-low-flying.html',
+'canonicalHomepageUrl': 'http://bayourenaissanceman.blogspot.com/',
+'homepageUrl': 'http://bayourenaissanceman.blogspot.com/', 'blogspotFaviconUrl':
+'http://bayourenaissanceman.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'Some amazing high-speed low flying!', 'pageTitle': 'Bayou Renaissance Man: Some amazing
+high-speed low flying!', 'encoding': 'UTF-8', 'locale': 'en-US', 'isPrivate': false,
+'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog':
+false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42
+type\75\42application/atom+xml\42 title\75\42Bayou Renaissance Man - Atom\42
+href\75\42http://bayourenaissanceman.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42Bayou Renaissance Man - RSS\42
+href\75\42http://bayourenaissanceman.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Bayou Renaissance Man - Atom\42
+href\75\42http://www.blogger.com/feeds/6244999628674918029/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0756244999628674918029\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42Bayou Renaissance Man - Atom\42
+href\75\42http://bayourenaissanceman.blogspot.com/feeds/2735236106861585050/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'postImageThumbnailUrl':
+'http://img.youtube.com/vi/flK6rWfVL0Q/default.jpg', 'imageSrcTag': '\74link
+rel\75\42image_src\42
+href\75\42http://img.youtube.com/vi/flK6rWfVL0Q/default.jpg\42 /\76\n',
+'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebarTitleFont': 'normal bold 125% Verdana,
+Sans-Serif', 'mainVisitedLinkColor': '#cc0000', 'postTitleFont': 'normal bold 110%
+Verdana, Sans-serif', 'mainTextColor': '#000000', 'sidebarTitleColor': '#9e5205',
+'sidebarVisitedLinkColor': '#cc0000', 'postTitleBgColor': '#9e5205', 'titleColor':
+'#fffafa', 'descriptionColor': '#fffafa', 'postTitleColor': '#fffafa',
+'sidebarLinkColor': '#0066CC', 'mainBgColor': '#ffffcc', 'titleBgColor': '#9e5205',
+'mainLinkColor': '#3D81EE', 'titleFont': 'normal bold 266% Verdana, Sans-Serif',
+'postFooterColor': '#444444', 'bodyFont': 'normal normal 109% Georgia, Times, serif',
+'descriptionFont': 'normal bold 85% Verdana, Sans-Serif', 'dateHeaderColor':
+'#777777', 'descriptionBgColor': '#9e5205', 'endSide': 'right', 'startSide': 'left'},
+'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url':
+'/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'},
+'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name':
+'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url':
+'/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'},
+'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1',
+'sidebar', null, document.getElementById('Followers1'), {'title': 'Followers',
+'codeSnippet': '\74script type\75\42text/javascript\42\76\n if (!window.google ||
+!google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.currentPost \75
+\42http://www.blogger.com/feeds/6244999628674918029/posts/default/2735236106861585050\42;\n
+\n \n \n holder.currentComments \75
+\42http://www.blogger.com/feeds/6244999628674918029/2735236106861585050/comments/default\42;\n
+\n holder.currentPostUrl \75 \42\42;\n holder.currentPostId \75 2735236106861585050\n
+\n \n \n holder.postFeed \75
+\42http://www.blogger.com/feeds/6244999628674918029/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/6244999628674918029/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://bayourenaissanceman.blogspot.com/\42;\n
+holder.currentBlogId \75 \0426244999628674918029\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-ytazgzq1vp33\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#000000\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#0066CC\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#0066CC\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#000000\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#0066CC\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#000000\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#000000\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 109% Georgia, Times, serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-ytazgzq1vp33\42,\n height: 260,\n \n \n \n site: \04204476993631845345371\42,\n
+\n locale: \47en_US\47 },\n skin);\n \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1', 'sidebar',
+null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1',
+'sidebar', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList8',
+'sidebar', null, document.getElementById('LinkList8'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList6',
+'sidebar', null, document.getElementById('LinkList6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList10',
+'sidebar', null, document.getElementById('LinkList10'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList11',
+'sidebar', null, document.getElementById('LinkList11'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList7',
+'sidebar', null, document.getElementById('LinkList7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList9',
+'sidebar', null, document.getElementById('LinkList9'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar',
+null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList1', 'sidebar', null, document.getElementById('LinkList1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList5', 'sidebar', null, document.getElementById('LinkList5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList4', 'sidebar', null, document.getElementById('LinkList4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList2', 'sidebar', null, document.getElementById('LinkList2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList3', 'sidebar', null, document.getElementById('LinkList3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML2', 'sidebar', null, document.getElementById('HTML2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML4', 'sidebar', null, document.getElementById('HTML4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'showBacklinks': true, 'postId':
+'2735236106861585050', 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'),
+{'title': 'Pages', 'links': [{'href': 'http://bayourenaissanceman.blogspot.com/',
+'title': 'Home', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+

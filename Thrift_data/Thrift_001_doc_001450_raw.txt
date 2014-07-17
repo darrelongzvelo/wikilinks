@@ -1,0 +1,1196 @@
+
+
+
+
+Proud Super Bowl Champion and Outstanding Pro Bowl Stand-Out, Sean Jones, Has Now Sacked
+Xocai (the Healthy Chocolate) Which is the Most Potent Antioxidant Nutritional Product
+Worldwide | Adam Paul Green /* <![CDATA[ */ var shutterSettings = {"msgLoading":"L O A D I N
+G","msgClose":"Click to Close","imageCount":"1"}; /* ]]> */ <!-- var
+a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var
+a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){if(a2a.type=='page'){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();}},init:function(){for(var
+i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el)a2a.init('page',{target:el});wpa2a.done=true;}}};a2a_config.tracking_callback=['ready',wpa2a.script_onready];
+//-->
+AudioPlayer.setup("http://adampaulgreen.com/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.1",
+{width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"937d68",text:"403123",leftbg:"2d83d5",lefticon:"403123",volslider:"ab967e",voltrack:"f6f4eb",rightbg:"2d83d5",rightbghover:"0071bb",righticon:"e8e1c8",righticonhover:"ffc000",track:"eeeadb",loader:"df2e56",border:"937d68",tracker:"b5d1e6",skip:"e8e1c8",pagebg:"FFFFFF",transparentpagebg:"yes"});
+function
+bizdir_add_listing(name,email,cName,description,keywords,website,cEmail,phone) {
+//Add Form Ajax Call //Deactivate submit button and display processing message
+document.getElementById('bizdir_submit').disabled = true; var submit_message =
+document.getElementById('bizdir_submit_message'); submit_message.className =
+"bizdir_message"; submit_message.innerHTML = "Submitting Form, Please Wait...";
+//Clear inputs with Auto Text bizdir_clearAllAutoFill(); //Build SACK Call var mysack = new
+sack("http://adampaulgreen.com/wp-content/plugins/business-directory/requests.php");
+mysack.execute = 1; mysack.method = 'POST'; mysack.setVar("action","AddListing");
+mysack.setVar("category_id",
+document.getElementById("bizdir_category_id").value);
+mysack.setVar("name",document.getElementById("bizdir_name").value);
+mysack.setVar("email",document.getElementById("bizdir_email").value);
+mysack.setVar("cName",document.getElementById("bizdir_cName").value);
+mysack.setVar("description",document.getElementById("bizdir_description").value);
+mysack.setVar("keywords",document.getElementById("bizdir_keywords").value);
+mysack.setVar("website",document.getElementById("bizdir_website").value);
+mysack.setVar("cEmail",document.getElementById("bizdir_cEmail").value);
+mysack.setVar("phone",document.getElementById("bizdir_phone").value);
+mysack.setVar("street1",document.getElementById("bizdir_street1").value);
+mysack.setVar("street2",document.getElementById("bizdir_street2").value);
+mysack.setVar("city",document.getElementById("bizdir_city").value);
+mysack.setVar("state",document.getElementById("bizdir_state").value);
+mysack.setVar("zip",document.getElementById("bizdir_zip").value);
+mysack.setVar("country",document.getElementById("bizdir_country").value);
+mysack.onError = function() { alert('An ajax error occured while adding your listing.
+Please reload the page and try again.') }; mysack.runAJAX();//excecute return true; }
+function bizdir_search_listings() { //Search Ajax Call var search_term =
+document.getElementById('bizdir_search_term'); if(search_term.value == "" ||
+search_term.value == null) return; //Deactivate submit button and display processing
+message document.getElementById('bizdir_search').disabled = true; var submit_message
+= document.getElementById('bizdir_messages'); submit_message.className =
+"bizdir_message"; submit_message.innerHTML = "Searching Listings, Please Wait...";
+//Build SACK Call var mysack = new
+sack("http://adampaulgreen.com/wp-content/plugins/business-directory/requests.php");
+mysack.execute = 1; mysack.method = 'POST'; mysack.setVar("action","SearchListings");
+mysack.setVar("searchTerms",search_term.value); mysack.onError = function() {
+alert('An ajax error occured while searching. Please reload the page and try again.') };
+mysack.runAJAX();//excecute return true; } function
+bizdir_change_listings_page(offset) { //Jump to the appropriate page in the directory
+Ajax Call //Build SACK Call var mysack = new
+sack("http://adampaulgreen.com/wp-content/plugins/business-directory/requests.php");
+mysack.execute = 1; mysack.method = 'POST'; mysack.setVar("action","ChangePage");
+mysack.setVar("offset",offset); mysack.onError = function() { alert('An ajax error
+occured. Please reload the page and try again.') }; mysack.runAJAX();//excecute return
+true; } function bizdir_sort_categories(category) { //Jump to the appropriate page in the
+directory Ajax Call //Build SACK Call var category = category.value; var mysack = new
+sack("http://adampaulgreen.com/wp-content/plugins/business-directory/requests.php");
+mysack.execute = 1; mysack.method = 'POST'; mysack.setVar("action","SearchListings");
+mysack.setVar('category',category); mysack.onError = function() { alert('An ajax error
+occured. Please reload the page and try again.') }; mysack.runAJAX();//excecute return
+true; } function faq_build_ask_question(form) { //Add Form Ajax Call //Deactivate submit
+button and display processing message form.submit.disabled = true; //Clear inputs with
+Auto Text faq_build_clear_autofill(form); //Build SACK Call var mysack = new
+sack("http://adampaulgreen.com/wp-content/plugins/faq-builder/requests.php");
+mysack.execute = 1; mysack.method = 'POST'; mysack.setVar("action","ask");
+mysack.setVar("category_id",form.category_id.value);
+mysack.setVar("name",form.submitters_name.value);
+mysack.setVar("email",form.email.value); mysack.setVar("url",form.url.value);
+mysack.setVar("state",form.state.value);
+mysack.setVar("personal_info",(form.personal_info.checked?1:0));
+mysack.setVar("question",form.question.value);
+mysack.setVar("captcha",form.captcha.value); mysack.setVar("form",form.id);
+mysack.onError = function() { alert('An error occured while submitting. Please reload the
+page and try again.') }; mysack.runAJAX();//excecute return true; } function
+faq_build_search_question(form) { //Search Ajax Call //Deactivate submit button and
+display processing message form.search.disabled = true; //Display Searching Message var
+message = document.getElementById("message_"+form.id); message.className =
+"faq_build_message"; message.innerHTML = "Searching..."; //Clear inputs with Auto Text
+faq_build_clear_autofill(form); //Build SACK Call var mysack = new
+sack("http://adampaulgreen.com/wp-content/plugins/faq-builder/requests.php");
+mysack.execute = 1; mysack.method = 'POST'; mysack.setVar("action","search");
+mysack.setVar("category_id",form.category_id.value);
+mysack.setVar("search_term",form.search_term.value);
+mysack.setVar("form",form.id); mysack.onError = function() { alert('An error occured
+while submitting. Please reload the page and try again.') }; mysack.runAJAX();//excecute }
+function faq_build_change_page(id,offset) { //Search Ajax Call //Build SACK Call var
+mysack = new
+sack("http://adampaulgreen.com/wp-content/plugins/faq-builder/requests.php");
+mysack.execute = 1; mysack.method = 'POST'; mysack.setVar("action","search");
+mysack.setVar("offset",offset); mysack.setVar("form",id); mysack.onError =
+function() { alert('An error occured while submitting. Please reload the page and try
+again.') }; mysack.runAJAX();//excecute } var faq_build_reset_captcha_count = 0;
+function faq_build_reset_captcha(form_id) { //Captcha Reset
+faq_build_reset_captcha_count++; //Incrament this so that the src is reloaded var img =
+document.getElementById("captcha_image_"+form_id); img.src =
+"http://adampaulgreen.com/wp-content/plugins/faq-builder/requests.php?action=captcha_src&count="+faq_build_reset_captcha_count+"&id="+form_id;
+} /* * Autofill Management Functions */ function faq_build_clear_autofill(input) { var
+clear = false; switch(input.name) { //Question Fields case "submitters_name": clear =
+(input.value == "Enter your name..."); break; case "email": clear = (input.value == "Where
+you would like the answer sent?"); break; case "url": clear = (input.value == "Enter your
+website..."); break; case "state": clear = (input.value == "Enter your
+state/province..."); break; case "question": clear = (input.value == "Ask your question
+(Please no line breaks, formatting, or scripting.)..."); break; //Other Fields case
+"captcha": clear = (input.value == "Type text at left..."); break; case "search_term":
+clear = (input.value == "Search the FAQ..."); break; } if(clear) { input.value = "";
+input.style.color = "#000000"; } } function faq_build_clear_form_autofill(form) {
+//Clear text fields switch(form.name) { case "faq_build_manage_question":
+faq_build_clear_autofill(form.submitters_name);
+faq_build_clear_autofill(form.email); faq_build_clear_autofill(form.url);
+faq_build_clear_autofill(form.state); faq_build_clear_autofill(form.question);
+faq_build_clear_autofill(form.captcha); break; case "faq_build_search":
+faq_build_clear_autofill(form.search_term); break; } } function
+faq_build_populate_autofill(form) { //If specified only populate to that for, otherwise
+search for all FAQ Forms on the page var all_forms; if(form == null) var all_forms =
+document.getElementsByTagName('form'); else { all_forms = new Array(); all_forms[0] =
+form; } //Populate forms for(var i=0;i<all_forms.length;i++) { var form = all_forms[i];
+switch(form.name) { case "faq_build_manage_question": if(form.submitters_name.value
+== "") { form.submitters_name.value = "Enter your name...";
+form.submitters_name.style.color = "#777777"; } if(form.email.value == "") {
+form.email.value = "Where you would like the answer sent?"; form.email.style.color =
+"#777777"; } if(form.url.value == "") { form.url.value = "Enter your website...";
+form.url.style.color = "#777777"; } if(form.state.value == "") { form.state.value =
+"Enter your state/province..."; form.state.style.color = "#777777"; }
+if(form.question.value == "") { form.question.value = "Ask your question (Please no line
+breaks, formatting, or scripting.)..."; form.question.style.color = "#777777"; }
+if(form.captcha.value == "") { form.captcha.value = "Type text at left...";
+form.captcha.style.color = "#777777"; } form.submit.disabled = false; break; case
+"faq_build_search": if(form.search_term.value == "") { form.search_term.value =
+"Search the FAQ..."; form.search_term.style.color = "#777777"; } break; } } } function
+faq_build_reset_form(form) { switch(form.name) { case "faq_build_manage_question":
+form.submitters_name.value = ""; form.email.value = ""; form.url.value = "";
+form.state.value = ""; form.category_id.value = ""; form.question.value = "";
+form.captcha.value = ""; break; case "faq_build_search": form.search_term.value = "";
+break; } faq_build_reset_captcha(form.id); faq_build_populate_autofill(form); } /* *
+ON LOAD */ Event.observe(window,'load',function faq_build_on_load() {
+faq_build_populate_autofill(); }); function quick_contact_send() { //Send Message Ajax
+Call //Deactivate submit button var submit_button =
+document.getElementById('quick_contact_submit'); submit_button.disabled = true;
+//Get Input Fields (Clear them if they are the autofill message) var name =
+document.getElementById('quick_contact_name').value; if(name == "Please enter your
+name...") name = ""; var email = document.getElementById('quick_contact_email').value;
+if(email == "So that we can reply to you...") email = ""; var phone =
+document.getElementById('quick_contact_phone').value; if(phone == "So that we can
+reply to you...") phone = ""; var message =
+document.getElementById('quick_contact_message').value; if(message == "Questions?
+Comments? Enter them here (no HTML please)...") message = ""; var captcha =
+document.getElementById('quick_contact_captcha_text').value; if(captcha == "Type
+text at left...") captcha = ""; //Ensure that there is at least a name and an email or phone var
+error_default = "Please fill out the following before submitting:\n"; var error =
+error_default; if(name == "" || name == null) error += " - Please enter your name.\n";
+if((email == "" || email == null) && (phone == "" || phone == null)) if(error != "") error += " -
+Please enter either a phone number or email for us to contact you.\n"; if(captcha == "" ||
+captcha == null) error += " - Please enter the text from the image.\n"; if(error !=
+error_default) { submit_button.disabled = false; alert(error); return; } //If the message
+is empty ask the user to conferm that they ment to hit the submit button if(message == "" &&
+!confirm("Are you sure you want to send without entering a message?")) {
+submit_button.disabled = false; return; } //Display processing message submit_message =
+document.getElementById('quick_contact_submit_message');
+submit_message.className = "quick_contact_message"; submit_message.innerHTML =
+"Submitting Message, Please Wait..."; //Build SACK Call var mysack = new
+sack("http://adampaulgreen.com/wp-content/plugins/quick-contact/quick-contact.php");
+mysack.execute = 1; mysack.method = 'POST'; mysack.setVar("quick_contact_name",name);
+mysack.setVar("quick_contact_email",email);
+mysack.setVar("quick_contact_phone",phone);
+mysack.setVar("quick_contact_message",message);
+mysack.setVar("quick_contact_captcha",captcha);
+mysack.setVar("quick_contact_action","send_message"); mysack.onError = function() {
+alert('An ajax error occured while sending your message. Please reload the page and try
+again.') }; mysack.runAJAX();//excecute return; } function quick_contact_reset_form()
+{ //Reset Form Javascript Call
+document.getElementById('quick_contact_form').innerHTML = '<table width=\'100%\'
+border=\'0\' cellspacing=\'0\' cellpadding=\'0\'><tr><th>Name:</th><td><input
+type=\'text\' id=\'quick_contact_name\' class=\'quick_contact_faded\'
+value=\'Please enter your name...\' maxlength=\'100\' onFocus=\'if(this.value ==
+"Please enter your name..."){ this.value = ""; this.className = "quick_contact_focused";
+}\'/></td></tr><tr><th>Email:</th><td><input type=\'text\'
+id=\'quick_contact_email\' class=\'quick_contact_faded\' value=\'So that we can reply
+to you...\' maxlength=\'150\' onFocus=\'if(this.value == "So that we can reply to
+you..."){ this.value = ""; this.className = "quick_contact_focused";
+};\'/></td></tr><tr><th>Phone:</th><td><input type=\'text\'
+id=\'quick_contact_phone\' class=\'quick_contact_faded\' value=\'So that we can reply
+to you...\' maxlength=\'100\' onFocus=\'if(this.value == "So that we can reply to
+you..."){ this.value = ""; this.className = "quick_contact_focused";
+};\'/></td></tr><tr><th>Message:</th><td><textarea id=\'quick_contact_message\'
+class=\'quick_contact_faded\' onFocus=\'if(this.value == "Questions? Comments? Enter
+them here (no HTML please)..."){ this.value = ""; this.className =
+"quick_contact_focused"; };\'>Questions? Comments? Enter them here (no HTML
+please)...</textarea></td></tr><tr><th><img id=\'quick_contact_captcha\'
+src=\'?quick_contact_action=get_captcha\' align=\'right\'/></th><td><input
+type=\'text\' id=\'quick_contact_captcha_text\' class=\'quick_contact_faded\'
+style=\'width:110px;\' value=\'Type text at left...\' maxlength=\'20\'
+onFocus=\'if(this.value == "Type text at left..."){ this.value = ""; this.className =
+"quick_contact_focused"; };\'/> <small><a
+href=\'javascript:quick_contact_reset_captcha();\'>I can\'t read the text, please
+reset it.</a></small></td></tr><tr><th>&nbsp;</th><td
+style=\'padding-top:2px;\'><input type=\'submit\' id=\'quick_contact_submit\'
+value=\'Send\' onClick=\'quick_contact_send(); return false;\'
+style=\'width:50px;\'><input type=\'button\' id=\'quick_contact_cancel\'
+value=\'Cancel\' style=\'width:60px;\' onClick=\'quick_contact_reset_form();\'>
+<span style=\'font-size:0.7em;\'>Powered by <a
+href=\'http://quickcontact.squarecompass.com/\'>Quick
+Contact</a></span><br/><div
+id=\'quick_contact_submit_message\'>&nbsp;</div></td></tr><tr><th>&nbsp;</th><td></td></tr></table>';
+} var quick_contact_reset_captcha_count = 0; function quick_contact_reset_captcha() {
+//Reset Form Javascript Call quick_contact_reset_captcha_count++;
+document.getElementById('quick_contact_captcha').src =
+'http://adampaulgreen.com/wp-content/plugins/quick-contact/quick-contact.php?quick_contact_action=get_captcha&count='+quick_contact_reset_captcha_count;
+} .vvqbox { display: block; max-width: 100%; visibility: visible !important; margin: 10px
+auto; } .vvqbox img { max-width: 100%; height: 100%; } .vvqbox object { max-width: 100%; } //
+<![CDATA[ var vvqflashvars = {}; var vvqparams = { wmode: "opaque", allowfullscreen:
+"true", allowscriptaccess: "always" }; var vvqattributes = {}; var vvqexpressinstall =
+"http://adampaulgreen.com/wp-content/plugins/vipers-video-quicktags/resources/expressinstall.swf";
+// ]]> body.custom-background { background-image:
+url('http://adampaulgreen.com/wp-content/uploads/2012/01/healthy-chocolate.jpg');
+background-repeat: repeat; background-position: top left; background-attachment:
+fixed; }
+
+
+
+
+
+
+
+Adam Paul Green
+
+
+
+Significance In Teamwork – Success In Self Motivation
+
+
+
+
+
+Image: http://adampaulgreen.com/wp-content/uploads/2012/01/adam-paul-green.jpg
+Search
+
+Main menu
+
+    Skip to primary content Skip to secondary content
+
+    - Home
+
+    
+
+    - About
+
+    
+
+    - APB
+
+    
+
+        - FREE BLOG!
+
+        - 1
+
+        
+
+        - 2
+
+        
+
+        - 3
+
+        
+
+        - Free SEO Website Explained
+
+        
+
+    
+
+    
+
+    - Products
+
+    
+
+        - Resources
+
+            - - Getting Started
+
+            - Xocai Promo’s
+
+            
+
+        
+
+        
+
+        - 20 Questions
+
+        
+
+        - 2011 Flip Chart Presentation
+
+        
+
+        - Better Business Bureau
+
+        
+
+        - Brighton Health Solutions
+
+        
+
+        - Clinical Study
+
+        
+
+        - eVites
+
+        
+
+        - FAB
+
+        
+
+        - International Brochures
+
+        
+
+        - Jeanette Brooks
+
+        
+
+            - Leadership
+
+            - JJ Directory
+
+            
+
+        
+
+        
+
+        - Polls
+
+        
+
+        - Rank Advance
+
+        
+
+            - Xocai Distributor Directory
+
+            - Add Your Xocai Website To My Directory
+
+            
+
+        
+
+        
+
+    
+
+    
+
+        - Schedule
+
+        - EU
+
+        
+
+    
+
+    
+
+    - Search
+
+    
+
+        - Videos
+
+        - Adam’s Close
+
+        
+
+        - Andrew Brooks Interview
+
+        
+
+            - Compensation Plan
+
+            - 3 Business Centers
+
+            
+
+            - Banked Volume
+
+            
+
+            - Executive Generation Bonus
+
+            
+
+            - Infinity Bonus
+
+            
+
+            - Infinity Tree
+
+            
+
+            - Placement Strategy
+
+            
+
+            - Qualifying Volume
+
+            
+
+            - Quick Check
+
+            
+
+            - Rank Advancement
+
+            
+
+        
+
+        
+
+        - Denmark Videos
+
+        
+
+            - Doctors’ Videos
+
+            - A Dentist’s Testimonial- Dr. Steven J Smith
+
+            
+
+            - Antioxidants, Free Radicals and Free Radical Testing
+
+            
+
+            - Carbs, Calories and Sugars
+
+            
+
+            - Doctor’s Diary
+
+            
+
+            - Doctor’s House Call
+
+            
+
+            - Dr. Steve Warren on AM Northwest
+
+            
+
+            - Dr. Steve Warren on Free Radical Damage
+
+            
+
+            - Dr. Steven Pratt on Chocolate and Skin Health
+
+            
+
+            - Dr. Warren on XoBiotic
+
+            
+
+            - Dr. Warren Q&A
+
+            
+
+            - The Science of Free Radicals
+
+            
+
+        
+
+        
+
+            - Dr. Warren Product Explanations
+
+            - Activ
+
+            
+
+            - Nuggets
+
+            
+
+            - Omega Squares
+
+            
+
+            - Protein Bar
+
+            
+
+            - Sipping Xocolate
+
+            
+
+            - X Power Square
+
+            
+
+            - X Powerhouse Cookie
+
+            
+
+            - Xobiotic
+
+            
+
+        
+
+        
+
+        - Drop it with Chocolate Webinars
+
+        
+
+            - Enrollment Options
+
+            - Sign In Process
+
+            
+
+        
+
+        
+
+        - Funny Xe Commercial
+
+        
+
+            - Getting Started
+
+            - What’s Your Plan B?
+
+            
+
+        
+
+        
+
+        - History of MXI Corp.
+
+        
+
+            - In The News
+
+            - Chocolate & Your Health – Good Morning America
+
+            
+
+            - Dark Chocolate in the Tasting Lab
+
+            
+
+            - Salud es Vida – Dark Chocolate
+
+            
+
+            - Xocai on ABC 4 News
+
+            
+
+            - Xocai on CBS 3 News
+
+            
+
+            - Xocai on Fox 59 News
+
+            
+
+            - Xocai on KTVN Channel 2 News
+
+            
+
+        
+
+        
+
+            - International
+
+            - Dansk tekst – Xocai Healthy Chocolate
+
+            
+
+            - Deine ersten 48 Stunden in Xocai
+
+            
+
+            - Die Perfekte Kombination
+
+            
+
+            - Spanish Explanation of Free Radicals and Antioxidants
+
+            
+
+        
+
+        
+
+            - MXI Tutorials – Back Office
+
+            - Back Office Commission Summary
+
+            
+
+            - Back Office Log-In pt1
+
+            
+
+            - Back Office Log-In pt2
+
+            
+
+            - Back Office My Business Tab pt1
+
+            
+
+            - Back Office Overview pt1
+
+            
+
+            - Back Office Overview pt2
+
+            
+
+            - Back Office VIP Tab
+
+            
+
+            - MXI Website Tutorial- Back Office Genealogy Tab
+
+            
+
+        
+
+        
+
+            - MXI Tutorials – Front Office
+
+            - “Associate” Tab Tutorial
+
+            
+
+            - “Company” Tab Tutorial
+
+            
+
+            - “Founders” Tab Tutorial
+
+            
+
+            - “Product” Tab Tutorial
+
+            
+
+            - “Support” Tab Tutorial
+
+            
+
+            - “Tools” Tab Tutorial
+
+            
+
+            - Adam’s Typical Website Usage
+
+            
+
+        
+
+        
+
+            - Other Tutorials/Trainings
+
+            - 3-Way Call
+
+            
+
+            - Adam’s Close
+
+            
+
+            - Addressing Bad Press
+
+            
+
+            - Article Networking
+
+            
+
+            - Ascent Plan
+
+            
+
+            - Avoiding Common Mistakes in Network Marketing
+
+            
+
+            - Business Builders Luncheon
+
+            
+
+            - Business Plan
+
+            
+
+            - Celebration 2009
+
+            
+
+            - Daily Goal Sheet
+
+            
+
+            - Elevator Pitch
+
+            
+
+            - First 48 Hours
+
+            
+
+            - Gold Fly-In Training
+
+            
+
+            - Handling Objections
+
+            
+
+            - Handling Price Objections
+
+            
+
+            - Home Business Tax Advantages
+
+            
+
+            - How to Host a Webinar
+
+            
+
+            - How To Use YouTube?
+
+            
+
+            - International Markets
+
+            
+
+            - Introduction to Xocai
+
+            
+
+            - Keys For Success
+
+            
+
+            - Leadership Recognition
+
+            
+
+            - Leads Tracking Sheet
+
+            
+
+            - Learn 2 Earn December 2009
+
+            
+
+            - Navigator
+
+            
+
+            - Objections PPT
+
+            
+
+            - Portland Super Hero’s
+
+            
+
+            - Prospecting
+
+            
+
+            - Prospectus
+
+            
+
+            - Questionaire
+
+            
+
+            - Recruiting
+
+            
+
+            - Star Wars Training
+
+            
+
+            - STARS Sheet
+
+            
+
+            - Success Magazine Article
+
+            
+
+            - Success Plan
+
+            
+
+            - The Name Game
+
+            
+
+            - The Perfect Combination
+
+            
+
+            - Trade Shows and Dr. Offices
+
+            
+
+            - Why Use Facebook?
+
+            
+
+            - Why Use Twitter?
+
+            
+
+            - Why? – “Wearing Hats”
+
+            
+
+            - Xe PPT
+
+            
+
+        
+
+        
+
+        - Recognition Certificates
+
+        
+
+            - Testimonials
+
+            - Body By Xocolate
+
+            
+
+            - Jon McBride – Body by Xocolate
+
+            
+
+            - NFL Star JJ Birden’s Testimonial
+
+            
+
+            - Norma Miller Testimonial- Her Experience with Xocai and Dystonia
+
+            
+
+            - Rachel Murdock
+
+            
+
+            - Utah Testimonials
+
+            
+
+            - Wally Joyner
+
+            
+
+            - Wellness Industry Boom
+
+            
+
+            - Xocai Healthy Chocolate Eaters
+
+            
+
+        
+
+        
+
+        - The Matrix Intro
+
+        
+
+        - The Whole Story
+
+        
+
+        - Tsunami
+
+        
+
+        - Welcome!
+
+        
+
+        - Will’s Wisdom
+
+        
+
+        - Xe Priceless
+
+        
+
+        - Xocai Comp Plan Simplified
+
+        
+
+        - Xocai Introduction
+
+        
+
+    
+
+    
+
+        - YouTube
+
+        - How to Load Videos From Your Flip Camera
+
+        
+
+        - How to Load Videos Onto YouTube
+
+        
+
+        - How to Setup Your YouTube Account
+
+        
+
+        - How to Setup Your YouTube Profile
+
+        
+
+        - Icy Diamond Totes
+
+        
+
+        - Managing and Navigating Your YouTube Channel
+
+        
+
+        - Networking on YouTube
+
+        
+
+        - Promo
+
+        
+
+        - YouTube Giveaway
+
+        
+
+        - YouTube Marketing Checklist
+
+        
+
+    
+
+    
+
+        - Listen
+
+        - AM Leadership Call
+
+        
+
+        - Andrew’s Xocai Intro
+
+        
+
+        - Ascent Plan Audio #1
+
+        
+
+        - Ascent Plan Audio #2
+
+        
+
+        - Big Al – Overcoming Objections
+
+        
+
+        - Breaking the Ice with Big Al
+
+        
+
+        - Corporate Call
+
+        
+
+        - Dr Bob Interview
+
+        
+
+        - Dr Smith Testimonial- Dentist
+
+        
+
+        - Dr. Warren Interview
+
+        
+
+        - Interview with Dr. Carla Rudolph
+
+        
+
+        - Interview with Dr. James Stewart
+
+        
+
+        - Interview with Dr. Michael Wach
+
+        
+
+        - Interview with Dr. Steve Warren
+
+        
+
+        - Interview with Elliott Brinton
+
+        
+
+        - Jeanette’s Story
+
+        
+
+        - Jeanette’s Xocai Intro
+
+        
+
+        - Jeremy Reynolds Sizzle Call
+
+        
+
+        - PM Leadership Call
+
+        
+
+        - Testimonials with Jeremy Reynolds and Dr. Warren
+
+        
+
+    
+
+    
+
+    - Contact Adam Green
+
+    
+
+
+
+
+
+Post navigation
+
+← Previous Next →
+
+
+
+Proud Super Bowl Champion and Outstanding Pro Bowl Stand-Out, Sean Jones, Has Now Sacked
+Xocai (the Healthy Chocolate) Which is the Most Potent Antioxidant Nutritional Product
+Worldwide
+
+Posted on April 29, 2011 by Adam Green
+
+
+
+Last night I had the honor to eat dinner with Russian Xocai leader Mark Narovlansky and Super
+Bowl Winning Defensive End , Sean Jones .Â  It was cool!Â  The connecting power of Xocai
+Healthy Chocolate !
+
+Dwight Sean Jones â€Š (born February 19, 1962 in Kingston, Jamaica) is a former American
+football defensive end , who played for the Los Angeles Raiders ( 1984 - 1987 ), Houston Oilers (
+1988 - 1993 ), and the Green Bay Packers ( 1994 - 1996 ). Jones was selected to the Pro Bowl after
+the 1993 season .
+
+Sean Jones attended Northeastern University , where he lettered for four years in football ,
+and in lacrosse as both, a freshman, and as a senior.Â  At Northeastern he played on the
+offensive line his freshmen and sophomore seasons before flipping to the defensive side for
+his junior and senior season where he became a defensive presence.Â  Prior to attending
+Northeastern University , Jones graduated from the Montclair Kimberley Academy in
+Montclair, New Jersey where he played football , basketball and lacrosse .
+
+Sean Jones now touts and eats Xocai Healthy Dark Chocolate !
+
+
+
+Image: http://adampaulgreen.com/wp-content/uploads/2011/04/Sean-Jones.jpg Jersey
+#(s)
+
+96
+
+Born December 19, 1962 (1962-12-19) (ageÂ 48)Â  Kingston, Jamaica
+
+Career information Year(s) 1984 â€“ 1996 NFL Draft 1984
+
+Round: 2 / Pick: 51
+
+College Northeastern
+
+Professional teams:
+
+* Los Angeles Raiders ( 1984 - 1987 )
+
+* Houston Oilers ( 1988 - 1993 )
+
+* Green Bay Packers ( 1994 - 1996 )
+
+Career stats Sacks 113
+
+Interceptions 1
+
+Fumble recoveries 13
+
+    Stats at NFL.com Career highlights and awards
+
+    - Pro Bowl selection ( 1993 )
+
+    
+
+    - 2Ã— All-Pro selection (1994, 1995)
+
+    
+
+    - Super Bowl champion ( XXXI )
+
+    
+
+
+
+Image:
+http://adampaulgreen.com/wp-content/plugins/add-to-any/share_save_171_16.png
+<!-- wpa2a.script_load(); //--> This entry was posted in Chocolate News by Adam Green .
+Bookmark the permalink .
+
+Image:
+http://1.gravatar.com/avatar/ff13e631223201157e489fc164b18e09?s=68&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D68&r=G
+
+About Adam Green
+
+Adam Green has helped the most recognizable retail businesses and the dozens of the top 200
+Network Marketing companies obtain incredible success through innovative Product
+Development and Customized Manufacturing. View all posts by Adam Green →
+
+Leave a Reply Cancel reply
+
+
+
+Your email address will not be published. Required fields are marked *
+
+Name *
+
+Email *
+
+Website
+
+Comment
+
+You may use these HTML tags and attributes: <a href="" title=""> <abbr title=""> <acronym
+title=""> <b> <blockquote cite=""> <cite> <code> <del datetime=""> <em> <i> <q cite="">
+<strike> <strong>
+
+
+
+All content Â© Copyright Adam Paul Green 2012 Proudly powered by WordPress <!--
+wpa2a.targets=[ {title:'Proud Super Bowl Champion and Outstanding Pro Bowl Stand-Out,
+Sean Jones, Has Now Sacked Xocai (the Healthy Chocolate) Which is the Most Potent Antioxidant
+Nutritional Product
+Worldwide',url:'http://adampaulgreen.com/proud-super-bowl-champion-and-outstanding-pro-bowl-stand-out-sean-jones-has-now-sacked-xocai-the-healthy-chocolate-which-is-the-most-potent-antioxidant-nutritional-product-worldwide/'}];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//-->
+

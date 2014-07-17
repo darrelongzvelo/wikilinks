@@ -1,0 +1,1111 @@
+
+
+
+
+Far Coast Furniture Raises Awareness of the Pine Industry at the Olympics olympic chair
+â€“ Inhabitat - Sustainable Design Innovation, Eco Architecture, Green Building
+jQuery(document).ready(function($) {
+$('.sharebar').sharebar({horizontal:'false',swidth:'70',minwidth:100,position:'left',leftOffset:17,rightOffset:10});
+}); /* <![CDATA[ */ var email_ajax_url =
+'http://inhabitat.com/wp-content/plugins/wp-email/wp-email.php'; var
+email_max_allowed = '5'; var email_verify = ''; var email_text_error = 'The Following Error
+Occurs:'; var email_text_name_invalid = '- Your Name is empty/invalid'; var
+email_text_email_invalid = '- Your Email is empty/invalid'; var
+email_text_remarks_invalid = '- Your Remarks is invalid'; var
+email_text_friend_names_empty = '- Friend Name(s) is empty'; var
+email_text_friend_name_invalid = '- Friend Name is empty/invalid:'; var
+email_text_max_friend_names_allowed = '- Maximum 5 Friend Names allowed'; var
+email_text_friend_emails_empty = '- Friend Email(s) is empty'; var
+email_text_friend_email_invalid = '- Friend Email is invalid:'; var
+email_text_max_friend_emails_allowed = '- Maximum 5 Friend Emails allowed'; var
+email_text_friends_tally = '- Friend Name(s) count does not tally with Friend Email(s)
+count'; var email_text_image_verify_empty = '- Image Verification is empty'; /* ]]> */ /*
+<![CDATA[ */ var polls_ajax_url =
+'http://inhabitat.com/wp-content/plugins/wp-polls/wp-polls.php'; var
+polls_text_wait = 'Your last request is still being processed. Please wait a while ...'; var
+polls_text_valid = 'Please choose a valid poll answer.'; var polls_text_multiple =
+'Maximum number of choices allowed:'; var poll_show_loading = 1; var poll_show_fading = 1;
+/* ]]> */ .wp-polls .pollbar { margin: 1px; font-size: 6px; line-height: 8px; height: 8px;
+background-image:
+url('http://inhabitat.com/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+border: 1px solid #c8c8c8; } .vvqbox { display: block; max-width: 100%; visibility: visible
+!important; margin: 10px auto; } .vvqbox img { max-width: 100%; height: 100%; } .vvqbox
+object { max-width: 100%; } // <![CDATA[ var vvqflashvars = {}; var vvqparams = { wmode:
+"opaque", allowfullscreen: "true", allowscriptaccess: "always" }; var vvqattributes =
+{}; var vvqexpressinstall =
+"http://inhabitat.com/wp-content/plugins/vipers-video-quicktags/resources/expressinstall.swf";
+// ]]> var $=jQuery.noConflict(); federated_media_section = "IHTEST"; var
+_sf_startpt=(new Date()).getTime() try{_mobify("http://m.inhabitat.com/");}
+catch(err) {}; var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl."
+: "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); try { var
+pageTracker = _gat._getTracker("UA-1086017-1"); pageTracker._trackPageview();
+pageTracker._setDomainName('.inhabitat.com'); pageTracker._setAllowHash(false); }
+catch(err) {}
+
+
+
+Image: http://sm7.sitemeter.com/meter.asp?site=sm7inhabitat var _comscore =
+_comscore || []; _comscore.push({ c1: "2", c2: "9095000" }); (function() { var s =
+document.createElement("script"), el = document.getElementsByTagName("script")[0];
+s.async = true; s.src = (document.location.protocol == "https:" ? "https://sb" :
+"http://b") + ".scorecardresearch.com/beacon.js"; el.parentNode.insertBefore(s,
+el); })();
+
+Image: http://b.scorecardresearch.com/p?c1=2&c2=9095000&cv=2.0&cj=1 var
+_sf_startpt=(new Date()).getTime() var slideind = 0; var playing = false; var gal_len; var
+interval; var clr_interval; var marginLeft; var initial = true; var speed = 6000; function
+setSlide(n) { slideind=n; } function slideshow(){ var num=slideind; if ( num >= gal_len - 1) {
+num = 0; } marginLeft= (728 - js_array[num][0][1] ) /2 ; //Find and replace inhabitat.com to
+assets.inhabitat.com imageAssetsURL = js_array[num][0][0]; indexAssets =
+imageAssetsURL.indexOf('inhabitat.com'); if(indexAssets >= 0) { indexAssets += 13;
+imageAssetsURL = 'http://assets.inhabitat.com' +
+imageAssetsURL.substring(indexAssets); } jQuery("#inhabitat-gallery").attr("src",
+"/gallery-image/?image="+imageAssetsURL);
+//jQuery("#inhabitat-gallery").attr("src",
+"/gallery-image/?image="+js_array[num][0][0]);
+jQuery("#inhabitat-gallery").attr("width", js_array[num][0][1]);
+jQuery("#inhabitat-gallery").attr("height", js_array[num][0][2]);
+jQuery("#imagecontainer").attr("style", "height:"+js_array[num][0][2]+"px;" );
+jQuery("#imageNav").attr("style", "min-width:280px; width:"+
+js_array[num][0][1]+"px;margin-left:"+marginLeft+"px;" );
+jQuery("#imageFrame").attr("style", "width:"+
+js_array[num][0][1]+"px;margin-left:"+marginLeft+"px;" );
+jQuery("#slideIndex").html("image "+ (num +1) +" of " + (gal_len - 1) );
+jQuery("#orginalImage").html("view this image in original size (
+"+js_array[num][1][1]+" x "+js_array[num][1][2]+" )");
+jQuery("#orginalImage").attr("href", js_array[num][1][0]);
+jQuery("#caption").html(js_array[num][2]);
+jQuery("#imageDescription").html(js_array[num][3]); navwidth=js_array[num][0][1]
+/2 ; jQuery("span[id='nextspan']").attr("style",
+"height:"+js_array[num][0][2]+"px;width:"+navwidth+"px;");
+jQuery("span[id='prevspan']").attr("style",
+"height:"+js_array[num][0][2]+"px;width:"+navwidth+"px;"); if ( num==gal_len-2 ) {
+jQuery("a[id='next']").attr("style", "display:none");
+jQuery("#more").attr("style", "display:none"); } else {
+jQuery("a[id='next']").attr("style", "display:block");
+jQuery("#more").attr("style", "display:block"); } if ( num==0 ) {
+jQuery("a[id='prev']").attr("style", "display:none"); } else {
+jQuery("a[id='prev']").attr("style", "display:block"); }
+jQuery("#galleryad").attr('src',
+"http://inhabitat.com/gallery-ad/?image-gallery=3");
+jQuery("#galleryad-col3").attr('src',
+"http://inhabitat.com/gallery-ad/?image-gallery=4"); setSlide(num+1); } function
+initSlideshow() { if ( playing==false) { speed = 10000;
+jQuery("#playSlideshow").click(); } } jQuery(document).ready(function(){
+js_array.push(jQuery("#inhabitat-gallery").attr("src")); gal_len =
+js_array.length; jQuery("#playSlideshow").html("PLAY SLIDESHOW");
+jQuery("#topSlide").attr("style", "background-image:
+url('http://assets.inhabitat.com/wp-content/themes/inhabitat-v3/img/playBanner.png')
+;"); if(initial == true){ slideind = imageKey; //window.setTimeout( "initSlideshow()",
+60000); } jQuery("#playSlideshow").click(function() { if(playing == false){
+slideshow(); if(initial == false){ speed = 6000; } interval = setInterval ( "slideshow()",
+speed ); jQuery(this).html("PAUSE SLIDESHOW"); jQuery("#topSlide").attr("style",
+"background-image:
+url('http://assets.inhabitat.com/wp-content/themes/inhabitat-v3/img/pauseBanner.png')
+;"); playing = true; initial = false; } else { var clr_interval = clearInterval (interval);
+jQuery(this).html("PLAY SLIDESHOW"); jQuery("#topSlide").attr("style",
+"background-image:
+url('http://assets.inhabitat.com/wp-content/themes/inhabitat-v3/img/playBanner.png')
+;"); playing = false; initial = false; } }); jQuery("#playSlideshow").hover( function () {
+jQuery("#playSlideshow").attr("style","color:#96A411"); }, function () {
+jQuery("#playSlideshow").attr("style","color:#FFF"); } );
+jQuery("#more").click(function() { initial=false; slideshow(); });
+jQuery("a[id='next']").click(function() { initial=false; slideshow(); });
+jQuery("a[id='prev']").click(function() { initial=false; setSlide(slideind - 2);
+slideshow(); }); jQuery("a[id^='thumb-']").click(function() { title= setSlide(
+parseInt( jQuery(this).attr('title')) ) ; slideshow(); }); });
+
+Image:
+http://assets.inhabitat.com/wp-content/themes/inhabitat-v3/img/top-header-2.jpg
+
+
+
+Image: http://assets.inhabitat.com/wp-content/themes/inhabitat-v3/img/logo.jpg
+
+if(typeof(cachebuster) == "undefined"){var cachebuster =
+Math.floor(Math.random()*10000000000)}if(typeof(dcopt) == "undefined"){var dcopt =
+"dcopt=ist;"} else {var dcopt = ""}if(typeof(tile) == "undefined"){var tile = 1} else
+{tile++}document.write('<scr'+'ipt
+src="http://ad.doubleclick.net/adj/Inhabitat/;article=articlename;sect=gallery;kw=top;'
++ dcopt + ';tile=' + tile + ';sz=728x90;ord=' + cachebuster + '?"></scr'+'ipt>');
+
+Image:
+http://ad.doubleclick.net/ad/Inhabitat/;article=articlename;sect=gallery;kw=top;sz=728x90;ord=123456789?
+
+    log in | sign up
+
+    - About
+
+    
+
+    - Mission
+
+    
+
+    - Submit a story
+
+    
+
+    - Shop
+
+    
+
+    - Advertise With Us
+
+    
+
+    - Support Us
+
+    
+
+    - Press
+
+    
+
+    - Contact
+
+    
+
+    -
+
+    
+
+    
+
+    - Architecture
+
+    
+
+    - Interiors
+
+    
+
+    - Products
+
+    
+
+    - Technology
+
+    
+
+    - Energy
+
+    
+
+    - Transportation
+
+    
+
+    - Fashion
+
+    
+
+    - Art
+
+    
+
+    - Kids
+
+    
+
+    - Contests
+
+    
+
+    
+
+    -
+
+    
+
+    -
+
+    
+
+    - Tweet
+
+    
+
+    -
+
+    
+
+    - Share on Tumblr
+
+    
+
+    - Email
+
+    
+
+
+
+Gallery: Far Coast Furniture Raises Aw...
+
+
+
+< back to story
+
+var js_array =
+([[["http:\/\/inhabitat.com\/files\/2010\/02\/chair.jpg",537,564,false],["http:\/\/inhabitat.com\/files\/2010\/02\/chair.jpg",537,564,false],"",""],[["http:\/\/inhabitat.com\/files\/2010\/02\/chair2b.jpg",537,403,false],["http:\/\/inhabitat.com\/files\/2010\/02\/chair2b.jpg",537,403,false],"","OLYMPUS
+DIGITAL
+CAMERA"],[["http:\/\/inhabitat.com\/files\/2010\/02\/chair1.jpg",537,403,false],["http:\/\/inhabitat.com\/files\/2010\/02\/chair1.jpg",537,403,false],"","OLYMPUS
+DIGITAL
+CAMERA"],[["http:\/\/inhabitat.com\/files\/2010\/02\/olympic-table.jpg",537,403,false],["http:\/\/inhabitat.com\/files\/2010\/02\/olympic-table.jpg",537,403,false],"","OLYMPUS
+DIGITAL
+CAMERA"],[["http:\/\/inhabitat.com\/files\/2010\/02\/olympic-chair.jpg",537,403,false],["http:\/\/inhabitat.com\/files\/2010\/02\/olympic-chair.jpg",537,403,false],"","OLYMPUS
+DIGITAL
+CAMERA"],[["http:\/\/inhabitat.com\/files\/2010\/02\/production-1-728x790.jpg",728,790,true],["http:\/\/inhabitat.com\/files\/2010\/02\/production-1.jpg",1008,1094,false],"",""]]);
+var imageKey = 2;
+
+Slideshow
+
+
+
+image 2 of 6
+
+   
+
+    Your browser does not support iframes. view this image in original size ( 537 x 403 )   0
+    twitter this twitter this facebook facebook OLYMPUS DIGITAL CAMERA  
+
+        
+
+        Image: http://assets.inhabitat.com/files/2010/02/chair-100x100.jpg
+
+    
+
+    
+
+        
+
+        Image: http://assets.inhabitat.com/files/2010/02/chair2b-100x100.jpg
+
+    
+
+    
+
+        
+
+        Image: http://assets.inhabitat.com/files/2010/02/chair1-100x100.jpg
+
+    
+
+    
+
+        
+
+        Image:
+        http://assets.inhabitat.com/files/2010/02/olympic-table-100x100.jpg
+
+    
+
+    
+
+        
+
+        Image:
+        http://assets.inhabitat.com/files/2010/02/olympic-chair-100x100.jpg
+
+    
+
+    
+
+        
+
+        Image:
+        http://assets.inhabitat.com/files/2010/02/production-1-100x100.jpg
+
+    
+
+
+
+
+
+Students at the Emily Carr University of Art and Design (ECUAD) designed these pieces of
+beautiful furniture for Far Coast Coffee’s (Coke’s coffee brand) social areas at the
+2010 Vancouver Olympics . The furniture is made entirely out of blue pine wood in an attempt to
+raise awareness about the mountain pine beetle’s devastating effect on the pine industry.
+
+ECUAD’s website explains, “ The asymmetrical design of the chairs allows for two
+versions (left and right hand version) with only a minimal increase in manufacturing costs.
+The unique pattern also gives a more memorable experience to its users while maximizing
+arrangements when combined with multiple pieces .” The furniture is placed throughout the
+Media Center and Athlete’s Village at the Olympic games . We can just imagine Lindsay Vonn
+and Apolo Ohno relaxing on these chairs between races!
+
++ECUAD
+
+Thanks for the tip, Nicanor!
+
+
+
+Leave a Comment
+
+
+
+Please keep your comments relevant to this blog entry. Email addresses are never displayed,
+but they are required to confirm your comments.
+
+Please note that gratuitous links to your site are viewed as spam and may result in removed
+comments.
+
+Add your comments
+
+
+
+NEW USER
+
+
+
+Username:
+
+E-mail:
+
+
+
+Sign me up for weekly Inhabitat updates
+
+
+
+CURRENT USERS LOGIN
+
+
+
+Username:
+
+Password:
+
+Remember Me
+
+
+
+Lost your password?
+
+Twitter username - to use your Twitter avatar (optional):
+
+
+
+Notify me of followup comments via e-mail
+
+var RecaptchaOptions = { theme : 'clean', lang : 'en' , tabindex : 5 };
+
+var sub = document.getElementById('submit'); sub.parentNode.removeChild(sub);
+document.getElementById('recaptcha-submit-btn-area').appendChild (sub);
+document.getElementById('submit').tabIndex = 6; if ( typeof
+_recaptcha_wordpress_savedcomment != 'undefined') {
+document.getElementById('comment').value = _recaptcha_wordpress_savedcomment; }
+document.getElementById('recaptcha_table').style.direction = 'ltr'; #submit
+{display:none;} //<![CDATA[ function gethash(){
+document.getElementById('captchafree').form.onsubmit = null;
+if(document.getElementById('submit'))
+document.getElementById('submit').value='Please wait...'; var mysack = new
+sack("http://inhabitat.com/wp-content/plugins/wp-captcha-free/captcha-free.php");
+mysack.execute = 1; mysack.method = 'POST'; mysack.onError = function() { alert('Unable to
+get Captcha-Free Hash!') }; mysack.setVar('post_id', 88912); mysack.runAJAX(); return
+false; } function gothash(myhash){ document.getElementById('captchafree').value =
+myhash; // Workaround for Wordpress' retarded choice of naming the submit button same as a JS
+function name >:-( document.getElementById('submit').click(); }
+document.getElementById('captchafree').form.onsubmit = gethash; //]]>
+
+Please note: JavaScript is required to post comments.
+
+
+
+
+
+get the free Inhabitat newsletter
+
+
+
+Image:
+http://assets.inhabitat.com/wp-content/themes/inhabitat-v3/img/subscribe.jpg
+
+get the free Inhabitat newsletter
+
+    Email Address * First Name * Last Name * I'm interested in ...
+
+    - San Francisco events and information
+
+    
+
+    - London events and information
+
+    
+
+    - New York events and information
+
+    
+
+    - Los Angeles events and information
+
+    
+
+Close var fnames = new Array();var ftypes = new
+Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='text';fnames[6]='MMERGE6';ftypes[6]='text';fnames[7]='MMERGE7';ftypes[7]='text';
+try { var jqueryLoaded=jQuery; jqueryLoaded=true; } catch(err) { var jqueryLoaded=false;
+} var head= document.getElementsByTagName('head')[0]; if (!jqueryLoaded) { var script =
+document.createElement('script'); script.type = 'text/javascript'; script.src =
+'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
+head.appendChild(script); if (script.readyState && script.onload!==null){
+script.onreadystatechange= function () { if (this.readyState == 'complete')
+mce_preload_check(); } } } var script = document.createElement('script'); script.type =
+'text/javascript'; script.src =
+'http://downloads.mailchimp.com/js/jquery.form-n-validate.js';
+head.appendChild(script); var err_style = ''; try{ err_style = mc_custom_error_style; }
+catch(e){ err_style = 'margin: 1em 0 0 0; padding: 1em 0.5em 0.5em 0.5em; background: FFEEEE
+none repeat scroll 0% 0%; font-weight: bold; float: left; z-index: 1; width: 80%;
+-moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial;
+-moz-background-inline-policy: -moz-initial; color: FF0000;'; } var head=
+document.getElementsByTagName('head')[0]; var style=
+document.createElement('style'); style.type= 'text/css'; if (style.styleSheet) {
+style.styleSheet.cssText = '.mce_inline_error {' + err_style + '}'; } else {
+style.appendChild(document.createTextNode('.mce_inline_error {' + err_style + '}'));
+} head.appendChild(style); setTimeout('mce_preload_check();', 250); var
+mce_preload_checks = 0; function mce_preload_check(){ if (mce_preload_checks>40)
+return; mce_preload_checks++; try { var jqueryLoaded=jQuery; } catch(err) {
+setTimeout('mce_preload_check();', 250); return; } try { var
+validatorLoaded=jQuery("#fake-form").validate({}); } catch(err) {
+setTimeout('mce_preload_check();', 250); return; } mce_init_form(); } function
+mce_init_form(){ jQuery(document).ready( function($) { var options = { errorClass:
+'mce_inline_error', errorElement: 'div', onkeyup: function(){},
+onfocusout:function(){}, onblur:function(){} }; var mce_validator =
+$("#mc-embedded-subscribe-form").validate(options); options = { url:
+'http://inhabitat.us1.list-manage.com/subscribe/post-json?u=af74c97af19743c9bc6f6b0b3&id=edda39917e&c=?',
+type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+beforeSubmit: function(){ $('#mce_tmp_error_msg').remove();
+$('.datefield','#mc_embed_signup').each( function(){ var txt = 'filled'; var fields =
+new Array(); var i = 0; $(':text', this).each( function(){ fields[i] = this; i++; });
+$(':hidden', this).each( function(){ if ( fields[0].value=='MM' &&
+fields[1].value=='DD' && fields[2].value=='YYYY' ){ this.value = ''; } else if (
+fields[0].value=='' && fields[1].value=='' && fields[2].value=='' ){ this.value = ''; }
+else { this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value; } }); });
+return mce_validator.form(); }, success: mce_success_cb };
+$('#mc-embedded-subscribe-form').ajaxForm(options);
+$('#mc_embed_signup').hide(); cks = document.cookie.split( ';' ); var show=false;
+for(i=0;i<cks.length;i++){ parts = cks[i].split('='); if(
+parts[0].indexOf('MCEvilPopupClosed')!= -1 ) show = false; } if (show){
+$('#mc_embed_signup a.mc_embed_close').show(); setTimeout( function(){
+$('#mc_embed_signup').fadeIn();} , 2000); $('#mc_embed_signup
+a.mc_embed_close').click(function(){ mcEvilPopupClose();}); }
+$(document).keydown(function(e){ if (e == null) { keycode = event.keyCode; } else { keycode
+= e.which; } if(keycode == 27){ mcEvilPopupClose(); } }); function mcEvilPopupClose(){
+/*$('#mc-embedded-subscribe').show();*/ $('#mc_embed_newsletter').show();
+$('#mc_embed_signup').hide(); var now = new Date(); var expires_date = new Date(
+now.getTime() + 31536000000 ); document.cookie = 'MCEvilPopupClosed=yes;expires=' +
+expires_date.toGMTString()+';path=/'; } $("#newsletter_submit").click(function(){
+/*$('#mc_embed_close').show(); $('#mc_input_div').show();
+$('#mce-success-response').hide(); $('#mce-error-response').hide();
+$("#mce-EMAIL").val($("#mce-EMAIL-page").val()); setTimeout( function(){
+$('#mc_embed_signup').fadeIn();} , 1000);*/ $('#mc_embed_newsletter').hide();
+$('#mc_embed_signup').css('position','relative');
+$('#mc_embed_signup').height('300px'); $('#mc_embed_signup').fadeIn(); });
+$("#mc_nl_embed_close").click(function(){ $("#mce-EMAIL-page").val("");
+mcEvilPopupClose(); return false; }); }); } function mce_success_cb(resp){
+$('#mce-success-response').hide(); $('#mce-error-response').hide(); if
+(resp.result=="success"){ $('#mce-'+resp.result+'-response').show();
+$('#mc_input_div').hide(); $('#mc-embedded-subscribe').hide();
+$('#mce-'+resp.result+'-response').html('<h3 style="margin:0; text-align:left;
+color:#000000;" >THANK YOU FOR SUBSCRIBING!</h2>'+resp.msg);
+$('#mc-embedded-subscribe-form').each(function(){ this.reset(); }); } else { var index
+= -1; var msg; try { var parts = resp.msg.split(' - ',2); if (parts[1]==undefined){ msg =
+resp.msg; } else { i = parseInt(parts[0]); if (i.toString() == parts[0]){ index = parts[0];
+msg = parts[1]; } else { index = -1; msg = resp.msg; } } } catch(e){ index = -1; msg = resp.msg; }
+try{ if (index== -1){ $('#mce-'+resp.result+'-response').show();
+$('#mce-'+resp.result+'-response').html(msg); } else { err_id = 'mce_tmp_error_msg';
+html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>'; var input_id =
+'#mc_embed_signup'; var f = $(input_id); if (ftypes[index]=='address'){ input_id =
+'#mce-'+fnames[index]+'-addr1'; f = $(input_id).parent().parent().get(0); } else if
+(ftypes[index]=='date'){ input_id = '#mce-'+fnames[index]+'-month'; f =
+$(input_id).parent().parent().get(0); } else { input_id = '#mce-'+fnames[index]; f =
+$().parent(input_id).get(0); } if (f){ $(f).append(html); $(input_id).focus(); } else {
+$('#mce-'+resp.result+'-response').show();
+$('#mce-'+resp.result+'-response').html(msg); } } } catch(e){
+$('#mce-'+resp.result+'-response').show();
+$('#mce-'+resp.result+'-response').html(msg); } } }
+
+follow inhabitat on:
+
+Inhabitat Facebook Inhabitat Twitter Inhabitat RSS Inhabitat Flickr
+
+Image:
+
+How To Lower Your Energy Bill By Swapping Your Lightbulbs, and Prepare For the Coming Light
+
+Image: ./wp-content/themes/inhabitat-v3/img/yt-timeline.jpg
+
+Image:
+
+Inhabitat Light Bulb Makeover on Julie Seguss in Brooklyn
+
+    Image: ./wp-content/themes/inhabitat-v3/img/yt-timeline.jpg popular today all
+    time most commented
+
+    -
+
+    Image: 6 Comments > Aerofex Develops a Working Hover Bike That's Straight Out of Return of
+    the Jedi! How many of you watched Star Wars: Return of the Jedi and wished you had a speeder
+    bike…
+
+    
+
+    -
+
+    Image: 14 Comments > Tiny Off-Grid Cabin in Maine is Completely Self-Sustaining A
+    project 30 years in the making, this tiny off-grid retreat on a coastal island in Maine…
+
+    
+
+    -
+
+    Image: 1 Comments > China's Yangtze River Suddenly Turns Red, and Nobody Knows Why Photo
+    via Shutterstock Residents of Chongqing, China got quite a surprise when they looked…
+
+    
+
+    -
+
+    Image: 47 Comments > Pedal-Powered GiraDora Washer Needs No Electricity and Costs Only
+    $40 In developing countries that lack electricity or the funds to buy expensive
+    machines,…
+
+    
+
+    
+
+    -
+
+    Image: 3 Comments > Chinese Man Builds His Own Bionic Hands from Scrap Metal After Losing
+    Limbs in Explosion Think you’re a pretty good do-it-yourself-er? Think again. The
+    Daily Mail reports…
+
+    
+
+    -
+
+    Image: 33 Comments > Wilson Solar Grill Stores the Sun's Energy for Nighttime Fuel-Free
+    Grilling Many of us will be firing up our grills this weekend for some well-deserved
+    barbecue time.…
+
+    
+
+    -
+
+    Image: 70 Comments > World's Largest and Most Expensive Family Home Completed The
+    â€œGreenest of All Buildingsâ€� was recently completed in Mumbai, India and
+    we…
+
+    
+
+    -
+
+    Image: 3 Comments > Apple iPhone 5 Launch Marred by Undercover Report of Working
+    Conditions at Foxconn Factory Today Apple debuted its latest offering, the iPhone 5 –
+    but not everyone is thrilled…
+
+    
+
+    
+
+    -
+
+    Image: 11 Comments > The Fliz Bike Trades Pedals for Foot Power Without pedals, gears, or a
+    saddle, should the Fliz Bike be considered a bicycle at all?…
+
+    
+
+    -
+
+    Image: 0 Comments > Argentine Man Plants Giant Guitar-shaped Forest to Commemorate His
+    Lost Wife In the remote Argentine Pampas you can find an incredible forest formed in the
+    shape of a…
+
+    
+
+    -
+
+    Image: 19 Comments > Algae-Powered Latro Lamp Transforms CO2 Into Light Designer Mike
+    Thompson has created an incredible living lamp that is powered by algae!…
+
+    
+
+    -
+
+    Image: 1 Comments > Cannondale's Chainless CERV Concept Bike Transforms as You Ride It!
+    Priority Designs and Cannondale have joined forces to create a cutting-edge concept
+    bike…
+
+    
+
+    more popular stories >
+
+    -
+
+    Image: 39 Comments > Ingenious Cardboard Packaging Folds to Fit Parcels of Any Shape
+    Excessive packaging is one of our top pet peeves here at Inhabitat, so we were really…
+
+    
+
+    -
+
+    Image: 82 Comments > 13-Year-Old Makes Solar Power Breakthrough by Harnessing the
+    Fibonacci Sequence // While most 13-year-olds spend their free time playing video games
+    or cruising Facebook,…
+
+    
+
+    -
+
+    Image: 58 Comments > HEINEKEN WOBO: A Beer Bottle That Doubles as a Brick Mr.
+    Heinekenâ€™s idea came after a visit to the Caribbean where he saw two problems:…
+
+    
+
+    -
+
+    Image: 7 Comments > Dilapidated 18th Century Church Transformed Into a Private Home
+    Sally Onions and Ian Bottomley purchased the dilapidated St. Nicholas Church
+    (originally…
+
+    
+
+    
+
+    -
+
+    Image: 10 Comments > MIT Researcher Explains Why Gas Mileage is Still Low Despite
+    Advances in Fuel Economy If you live in the United States and value fuel efficiency, you
+    might catch yourself…
+
+    
+
+    -
+
+    Image: 127 Comments > It's Official - Cell Phones are Killing Bees Scientists may have
+    found the cause of the worldâ€™s sudden dwindling population of bees…
+
+    
+
+    -
+
+    Image: 23 Comments > POOP BURGER: Japanese Researcher Creates Artificial Meat From
+    Human Feces Some hardcore carnivores have a hard time finding meat alternatives such as
+    soy protein or…
+
+    
+
+    -
+
+    Image: 119 Comments > X-SEED 4000: World's tallest tower will house 1 million people
+    There’s a lot of debate about what the tallest tower in the world currently is. …
+
+    
+
+    
+
+    -
+
+    Image: 52 Comments > Top 5 Tiniest Prefab Homes 1. WEEHOUSE At just $125 per square foot,
+    the WeeHouse is a single module that can be…
+
+    
+
+    -
+
+    Image: 43 Comments > Bosco Verticale in Milan Will Be the World's First Vertical Forest
+    The Bosco Verticale is a system that optimizes, recuperates, and produces energy.
+    Covered…
+
+    
+
+    -
+
+    Image: 25 Comments > Zero-Energy Bio Refrigerator Cools Your Food With Future Gel In a
+    valiant effort to rethink the ubiquitous refrigerator — which has seen few…
+
+    
+
+    -
+
+    Image: 14 Comments > Tiny Off-Grid Cabin in Maine is Completely Self-Sustaining A
+    project 30 years in the making, this tiny off-grid retreat on a coastal island in Maine…
+
+    
+
+    more popular stories >
+
+    -
+
+    Image: 2002 Comments > Win an iPad and Matching Eco Case (worth $549) MAKE SAVING TREES
+    SEXY and WIN AN IPAD! Hoping to catch up on your summer reading without…
+
+    
+
+    -
+
+    Image: 411 Comments > BACK TO SCHOOL GIVEAWAY: Enter to Win a HP Pavilion dv6 Laptop and
+    Green Prize Package (Worth $1155!) While no one likes to bid adieu to summer, if you’re a
+    student gearing up to go back…
+
+    
+
+    -
+
+    Image: 347 Comments > WIN a Beautiful ANDREA Houseplant Air Purifier (worth $195)! Want
+    to clean and freshen the air in your home using the power of plants? We’ve…
+
+    
+
+    -
+
+    Image: 344 Comments > LAST CHANCE to Win a Shiny New Linus Bike and Bike Bag (worth $730) for
+    Earth Day! We’ve teamed up with Linus Bikes to give one lucky reader a new bike!
+
+    
+
+    
+
+    -
+
+    Image: 274 Comments > GIVEAWAY: Enter to Win a Sloan AQUS Grey Water Toilet System That
+    Recycles Your Sink Water (Worth $189)! Win a Sloan AQUS Grey Water System! Saving water is
+    one of the most important things we…
+
+    
+
+    -
+
+    Image: 272 Comments > LAST CHANCE: Enter to Win a Voltaic Laptop-Charging Solar Backpack
+    Filled With Green School Supplies (Worth $500)! Heads up students! September is just one
+    week away and school bells are already ringing in…
+
+    
+
+    -
+
+    Image: 244 Comments > GIVEAWAY: Win a Year's Supply of Eco Goodie-Boxes (worth $450) from
+    Lost Crates LostÂ Crates is a unique new care package subscription service that
+    deliversÂ curated…
+
+    
+
+    -
+
+    Image: 228 Comments > Enter to Win a SAYL Task Chair from Herman Miller (Worth $749)! HAPPY
+    EARTH THURSDAY INHABITAT READERS! If you’ve been reading Inhabitat, you know…
+
+    
+
+    
+
+    -
+
+    Image: 220 Comments > Win a Basket of Method Cleaning Products and a Casabella Cleaning
+    System (Worth $100)! HAPPY EARTH MONDAY INHABITAT READERS! To kick off our exciting
+    Earth Week Giveaway, today…
+
+    
+
+    -
+
+    Image: 187 Comments > Win an Eco Lounge Chair and the Ultimate Green Summer Picnic Set! The
+    Fourth of July is right around the corner, and we can’t wait to spend some time…
+
+    
+
+    -
+
+    Image: 182 Comments > BACK TO SCHOOL GIVEAWAY: Win a Solar Powered Package (worth $500)!
+    WIN A BACK TO SCHOOL SOLAR BAG BUNDLE WORTH OVER $500! Headed back to school and need…
+
+    
+
+    -
+
+    Image: 161 Comments > BACK TO SCHOOL CONTEST: Win An Awesome Solar Book Bag! Get ready for
+    school with our back-to-school green giveaway contest! Fall is just around…
+
+    
+
+more popular stories >
+
+
+
+.gpSearchContainer{ float:none; margin:0; width:300px; font-size:12px;
+color:#626262; } .gpSearchTop {
+background:url(/wp-content/themes/inhabitat-v3/img/gpbox_top4_inhabitat.png)
+no-repeat; float:none; width:303px; height:98px; } .gpSearchContent { border-width: 0px
+1px 1px 1px; border-style: solid; border-color: #e9e9e9; background: #fff; float:none;
+width:92%; padding:2% 4%; height:80px; } .gpSearchContent .gpInner { margin:0 5px; }
+.mainSearch { width:95%; border:1px solid #d7d9da; color:#999; font-size:11px;
+background:white; padding-left:2px; height:18px; } .searchlbl{ margin:5px 0 0 0;
+display: inline-block; float:left;} .input2 {float: left;display: inline-block;}
+.gpSearchContainer input#goBtn { width: 99px; height: 37px; background: transparent
+url(/wp-content/themes/inhabitat-v3/img/go_btn_inhabitat.png) top left no-repeat;
+border: none; float: right; margin: 4px 0 0; font-size: 0; line-height: 0; display:
+inline-block; } .gpSearchContainer input#goBtn:hover{ cursor:pointer; } .clear{
+clear:both; } a.gpApply:link, a.gpApply:visited, a.gpApply:active, a.gpApply:hover {
+float:none; display:block; height:85px; padding:0;
+background:url(/wp-content/themes/inhabitat-v3/img/gp_apply2_inhabitat.png)
+no-repeat; margin:10px 0 0 0; } #searchWhere {width:128px;}
+
+What are you looking for? (Solar, HVAC, etc.) Where are you located?
+
+if(typeof(cachebuster) == "undefined"){var cachebuster =
+Math.floor(Math.random()*10000000000)}if(typeof(dcopt) == "undefined"){var dcopt =
+"dcopt=ist;"} else {var dcopt = ""}if(typeof(tile) == "undefined"){var tile = 1} else
+{tile++}document.write('<scr'+'ipt
+src="http://ad.doubleclick.net/adj/Inhabitat/;article=articlename;sect=gallery;kw=middle;'
++ dcopt + ';tile=' + tile + ';sz=300x250;ord=' + cachebuster + '?"></scr'+'ipt>');
+
+    Image:
+    http://ad.doubleclick.net/ad/Inhabitat/;article=articlename;sect=gallery;kw=middle;sz=300x250;ord=123456789?
+    currentAuthorsPage = 1; function moreAuthors() { currentAuthorsPage ++;
+    if(currentAuthorsPage > 3) currentAuthorsPage = 1; showAuthorsPage(); } function
+    showAuthorsPage() { $('#authors_list_1').css('display','none');
+    $('#authors_list_2').css('display','none');
+    $('#authors_list_3').css('display','none');
+    $('#authors_list_'+currentAuthorsPage).css('display',''); }
+
+    -
+
+    Image:
+    http://assets.inhabitat.com/wp-content/blogs.dir/1/files/userphoto/yuka.thumbnail.jpg
+
+    Yuka Yoneda
+
+    VIDEO: Inhabitat Lighting Makeover – Inhabitots Editor Julie Seguss Gets a
+    Money-Saving Light Bulb Overhaul If you read our enlightening “how to switch to LED
+    bulbs” tutorial, you’ve hopefully already seen how much money and energy you can
+    save by replacing your incandescent bulbs, but we wanted to make it even clearer how easy
+    and effective a home light bulb makeover can be. We headed over to Brooklyn to give [...]
+    READ MORE >
+
+    
+
+    -
+
+    Image:
+    http://assets.inhabitat.com/wp-content/blogs.dir/1/files/userphoto/andrew-michler.thumbnail.jpg
+
+    Andrew Michler
+
+    INHABITAT INTERVIEW: Green Architect & Cradle to Cradle Founder William McDonough
+    INHABITAT: What inspired you to write ‘Cradle to Cradle‘ (the book) and launch the
+    Cradle to Cradle system? William McDonough: From an early age, I was fascinated by
+    differing attitudes towards resources. Growing up in Japan and Hong Kong, I was given my
+    first look at complete material cycles, where waste becomes food, and resources [...]
+    READ MORE >
+
+    
+
+    -
+
+    Image:
+    http://assets.inhabitat.com/wp-content/blogs.dir/1/files/userphoto/bridgette.thumbnail.jpg
+
+    Bridgette Meinhold
+
+    INTERVIEW: Artist R Nelson Parrish Talks About His Eye-Popping Bioresin Color/Fast
+    Installation INHABITAT: How does the term Colorfast describe your latest show? R Nelson
+    Parrish: The term Colorfast originally is a textile industry term derived at the
+    beginning of the last century. It defines how a color cannot fade, wash out, or be diluted
+    over time, and ultimately the color stays the same. Whether it be in [...] READ MORE >
+
+    
+
+    -
+
+    Image:
+    http://assets.inhabitat.com/wp-content/blogs.dir/1/files/userphoto/jill.thumbnail.jpg
+
+    Jill Fehrenbacher
+
+    HOW TO: Grow an Avocado Tree from an Avocado Pit Avocados are one of the wonderful fruits of
+    summer. High in nutrition and flavor, nothing signals the start of summer like a zesty
+    lime guacamole dip with tortilla chips. The next time youâ€™re making guacamole or
+    slicing an avocado for a salad, try saving your pits to grow into avocado trees.
+    Itâ€™s surprisingly easy to [...] READ MORE >
+
+    
+
+    
+
+    -
+
+    Image:
+    http://assets.inhabitat.com/wp-content/blogs.dir/1/files/userphoto/jill.thumbnail.jpg
+
+    Jill Fehrenbacher
+
+    HOW TO: Make Homemade, Healthy, Organic Popsicles To Beat the Heat! This summer’s been
+    one of the hottest yet, but if you’re already sweating from the intense heat, you can
+    rest easy — I’ve got a sweet, refreshing treat that is sure too cool you
+    down!Â PopsiclesÂ are a delightful andÂ refreshing staple for the summer
+    season, and I know personally that it’s hard to let a day pass [...] READ MORE >
+
+    
+
+    -
+
+    Image:
+    http://assets.inhabitat.com/wp-content/blogs.dir/1/files/userphoto/jill.thumbnail.jpg
+
+    Jill Fehrenbacher
+
+    Brent Comber Shattered Furniture – Made From Reclaimed Douglas Fir Wood Reclaimed
+    wood furniture is usually so predictable: large upcycled beams from buildings, or slabs
+    of driftwood turned into benches and stools. Thats why Brent Comber’s unique
+    reclaimed wood furniture – made from bundles of small irregular pieces – is such a
+    breathe of fresh air. We discovered the Canadian designer’s innovative,
+    eco-friendly furniture last year [...] READ MORE >
+
+    
+
+    -
+
+    Image:
+    http://assets.inhabitat.com/wp-content/blogs.dir/1/files/userphoto/yuka.thumbnail.jpg
+
+    Yuka Yoneda
+
+    BRC Designs’ American Pipe Dream Chair and Table Are Made from a Maze of Copper Piping
+    The American Pipe dream table and chair were inspired by Benjamin Rollins Caldwell‘s
+    own frustration after some thieves stripped the copper out of one of his welding
+    machines. According to the designer, copper prices are currently at an all time high, and
+    the theft of copper is a growing problem (who knew?). After feeling the [...] READ MORE >
+
+    
+
+    -
+
+    Image:
+    http://assets.inhabitat.com/wp-content/blogs.dir/1/files/userphoto/yuka.thumbnail.jpg
+
+    Yuka Yoneda
+
+    7 Weird and Wonderful Uses For LED Lighting Technology It’s amazing to think that just a
+    few years ago, many people thought of LEDs as nothing more than the tiny red lights in our
+    laser pointers but my, how the times have changed! With more and more people realizing the
+    energy-efficiency benefits of LED lighting, it seems that everything from headlights
+    to TVs to [...] READ MORE >
+
+    
+
+    
+
+    -
+
+    Image:
+    http://assets.inhabitat.com/wp-content/blogs.dir/1/files/userphoto/yuka.thumbnail.jpg
+
+    Yuka Yoneda
+
+    6 Green Ways to Ward Off the Winter Blues (a.k.a. Seasonal Affective Disorder) WINDOWHOP
+    It’s easy to get depressed when your work schedule has you getting less sun than Edward
+    Cullen (you’ve got the sickly pallor to match and it’s not nearly as sexy on you). If
+    you’re lucky enough to at least have a window in your workspace, open those shades and
+    try to angle your desk [...] READ MORE >
+
+    
+
+    -
+
+    Image:
+    http://assets.inhabitat.com/wp-content/blogs.dir/1/files/userphoto/mollcott.thumbnail.jpg
+
+    Molly Cotter
+
+    Rock Restaurant is a Tropical Culinary Dream Perched in the Middle of the Ocean The
+    restaurant itself can accomodate 14 people and includes a beautiful wrap-around
+    terrace boasting panoramic views of turquoise water. Built entirely with rustic, local
+    materials, the structure easily adapts to the ever changing nature of its
+    environment.Â When the tide is low, an amazing tiered staircase greets visitors,
+    leading them to the main dining room. Higher [...] READ MORE >
+
+    
+
+    -
+
+    Image:
+    http://assets.inhabitat.com/wp-content/blogs.dir/1/files/userphoto/bridgette.thumbnail.jpg
+
+    Bridgette Meinhold
+
+    EXCLUSIVE PHOTOS: Utah Opens Its Striking New Natural History Museum in Salt Lake City
+    The Utah Natural History Museum is the caretaker of 1.2 million objects from the fields of
+    paleontology, archeology, ethnology, entomology, vertebrate zoology, mineralogy,
+    botany and malacology. Not only does the museum work to preserve these precious
+    artifacts, it also actively works to study their collection and educate residents,
+    schoolchildren and visitors. The new museum was [...] READ MORE >
+
+    
+
+    -
+
+    Image:
+    http://assets.inhabitat.com/wp-content/blogs.dir/1/files/userphoto/jill.thumbnail.jpg
+
+    Jill Fehrenbacher
+
+    VIDEO: A Look Back at the 2011 Detroit Auto Show and The Green Cars We Loved Last year I had
+    the good fortune to attend the North American International Auto Show (or NAIAS) in
+    Detroit – for the first time – and the timing couldn’t have been more perfect! I had
+    never attended an auto show before, but I’ve heard that most SUV-focused auto shows of
+    years past have not been [...] READ MORE >
+
+    
+
+more inhabitat authors > jQuery(document).ready(function(){
+jQuery.getScript('http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php',function(){
+FB.init("690efcee52625fa46d8cd5a714f7ad94"); }); }); new TWTR.Widget({ version: 2,
+type: 'search', search: '@inhabitat', interval: 6000, title: 'What our readers are
+saying...', subject: 'Inhabitat', width: 300, height: 300, theme: { shell: { background:
+'#acb873', color: '#ffffff' }, tweets: { background: '#ffffff', color: '#444444', links:
+'#4f5c0d' } }, features: { scrollbar: false, loop: true, live: true, hashtags: true,
+timestamp: true, avatars: true, behavior: 'default' } }).render().start();
+if(typeof(cachebuster) == "undefined"){var cachebuster =
+Math.floor(Math.random()*10000000000)}if(typeof(dcopt) == "undefined"){var dcopt =
+"dcopt=ist;"} else {var dcopt = ""}if(typeof(tile) == "undefined"){var tile = 1} else
+{tile++}document.write('<scr'+'ipt
+src="http://ad.doubleclick.net/adj/Inhabitat/;article=articlename;sect=gallery;kw=top;'
++ dcopt + ';tile=' + tile + ';sz=160x600;ord=' + cachebuster + '?"></scr'+'ipt>');
+
+Image:
+http://ad.doubleclick.net/ad/Inhabitat/;article=articlename;sect=gallery;kw=top;sz=160x600;ord=123456789?
+
+Image: http://static.fmpub.net/assets/badges/FM_Living_Vertical.gif
+if(typeof(cachebuster) == "undefined"){var cachebuster =
+Math.floor(Math.random()*10000000000)}if(typeof(dcopt) == "undefined"){var dcopt =
+"dcopt=ist;"} else {var dcopt = ""}if(typeof(tile) == "undefined"){var tile = 1} else
+{tile++}document.write('<scr'+'ipt
+src="http://ad.doubleclick.net/adj/Inhabitat/;article=articlename;sect=gallery;kw=bottom;'
++ dcopt + ';tile=' + tile + ';sz=728x90;ord=' + cachebuster + '?"></scr'+'ipt>');
+
+Image:
+http://ad.doubleclick.net/ad/Inhabitat/;article=articlename;sect=gallery;kw=bottom;sz=728x90;ord=123456789?
+var _sf_async_config={uid:3223,domain:"inhabitat.com"}; (function(){ function
+loadChartbeat() { window._sf_endpt=(new Date()).getTime(); var e =
+document.createElement('script'); e.setAttribute('language', 'javascript');
+e.setAttribute('type', 'text/javascript'); e.setAttribute('src', (("https:" ==
+document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+"static.chartbeat.com/js/chartbeat.js"); document.body.appendChild(e); } var
+oldonload = window.onload; window.onload = (typeof window.onload != 'function') ?
+loadChartbeat : function() { oldonload(); loadChartbeat(); }; })(); © Inhabitat.com 2012
+| About Inhabitat | Contact Us | Advertising with Inhabitat | Terms Of Use | Privacy Policy |
+Inhabitat, LLC tyntVariables = {"ap":"Read more: "}; pxlSiteFile = "inhabitat.com.js";
+pxlScriptStart = '%3Cscr' + 'ipt type="text/javascript"'; pxlScriptEnd = '%3C/scr' +
+'ipt%3E'; IByourCallback = function(){ html = $("#iblogounify_div").html();
+$("#iblogounify_div").html("<center>"+html+"</center>");
+$("#iblogounify_div").appendTo($("#column3")); }; if
+(location.protocol.indexOf("https") == -1) { document.write(unescape(pxlScriptStart
++ ' src="http://pxl.ibpxl.com/'+pxlSiteFile+'"%3E'+pxlScriptEnd)); } else {
+document.write(unescape(pxlScriptStart + '
+src="https://pxlssl.ibpxl.com/'+pxlSiteFile+'"%3E'+pxlScriptEnd)); } // <![CDATA[
+var _mb_site_guid =
+"9b970cf60cd67ded28bb06c6cda395ab09d07ed0d02a162c50bed8d8bb539eb6"; (function(d,
+t){ var mb = d.createElement(t), s = d.getElementsByTagName(t)[0]; mb.async = mb.src =
+'//cdn.linksmart.com/linksmart_2.3.0.min.js'; s.parentNode.insertBefore(mb, s);
+}(document, 'script')); // ]]>
+

@@ -1,0 +1,1367 @@
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+WikiLinkItem
+p0
+(dp1
+S'url'
+p2
+S'http://best-fighting-video.blogspot.com/'
+p3
+sS'content'
+p4
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+PageContentItem
+p5
+(dp6
+S'articleText'
+p7
+NsS'raw'
+p8
+NsS'fullText'
+p9
+NsS'dom'
+p10
+S'<html>\n  <head>\n    <title>BEST FIGHTING VIDEO</title>\n    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"></meta>\n    <script type="text/javascript">\n      (function() { var a=window,b=&quot;jstiming&quot;,d=&quot;tick&quot;;var e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new Date).getTime();this.t[c]=[h,p]};this[d](&quot;start&quot;,null,c)},f=new e;a.jstiming={Timer:e,load:f};if(a.performance&amp;&amp;a.performance.timing){var g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0&lt;k&amp;&amp;l&gt;=k&amp;&amp;(j[d](&quot;_wtsrt&quot;,void 0,k),j[d](&quot;wtsrt_&quot;,&quot;_wtsrt&quot;,l),j[d](&quot;tbsd_&quot;,&quot;wtsrt_&quot;))}\ntry{var m=null;a.chrome&amp;&amp;a.chrome.csi&amp;&amp;(m=Math.floor(a.chrome.csi().pageT),j&amp;&amp;0&lt;k&amp;&amp;(j[d](&quot;_tbnd&quot;,void 0,a.chrome.csi().startE),j[d](&quot;tbnd_&quot;,&quot;_tbnd&quot;,k)));null==m&amp;&amp;a.gtbExternal&amp;&amp;(m=a.gtbExternal.pageT());null==m&amp;&amp;a.external&amp;&amp;(m=a.external.pageT,j&amp;&amp;0&lt;k&amp;&amp;(j[d](&quot;_tbnd&quot;,void 0,a.external.startE),j[d](&quot;tbnd_&quot;,&quot;_tbnd&quot;,k)));m&amp;&amp;(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var i=0;if(c.offsetParent){do i+=c.offsetTop;while(c=c.offsetParent)}c=i;750&gt;=c&amp;&amp;a[b].load[d](&quot;aft&quot;)};var q=!1;function r(){q||(q=!0,a[b].load[d](&quot;firstScrollTime&quot;))}a.addEventListener?a.addEventListener(&quot;scroll&quot;,r,!1):a.attachEvent(&quot;onscroll&quot;,r);\n })();\n    </script>\n    <meta content="true" name="MSSmartTagsPreventParsing"></meta>\n    <meta content="blogger" name="generator"></meta>\n    <link type="image/x-icon" rel="icon" href="http://best-fighting-video.blogspot.com/favicon.ico"></link>\n    <link rel="canonical" href="http://best-fighting-video.blogspot.com/"></link>\n    <link href="http://best-fighting-video.blogspot.com/feeds/posts/default" title="BEST FIGHTING VIDEO - Atom" type="application/atom+xml" rel="alternate"></link>\n    <link href="http://best-fighting-video.blogspot.com/feeds/posts/default?alt=rss" title="BEST FIGHTING VIDEO - RSS" type="application/rss+xml" rel="alternate"></link>\n    <link href="http://www.blogger.com/feeds/2722533378801149260/posts/default" title="BEST FIGHTING VIDEO - Atom" type="application/atom+xml" rel="service.post"></link>\n    <link href="http://www.blogger.com/rsd.g?blogID=2722533378801149260" title="RSD" type="application/rsd+xml" rel="EditURI"></link>\n    <link href="http://www.blogger.com/openid-server.g" rel="openid.server"></link>\n    <link href="http://best-fighting-video.blogspot.com/" rel="openid.delegate"></link>\n    <link href="//www.blogger.com/static/v1/widgets/1937454905-widget_css_bundle.css" rel="stylesheet" type="text/css"></link>\n    <link href="//www.blogger.com/dyn-css/authorization.css?targetBlogID=2722533378801149260&amp;zx=01b2cf96-97bd-45fd-85cd-53250b8039c1" rel="stylesheet" type="text/css"></link>\n    <style type="text/css" id="page-skin-1">\n      &lt;!--\n/*\n-----------------------------------------------\nTemplates Novo Blogger\nTemplate TecnoWorld\nCria\xc3\x83\xc2\xa7\xc3\x83\xc2\xa3o: Ariane\nurl: http://templatesparanovoblogger.blogspot.com\n19 jan 2008\nDistributed by: http://BTemplates.com\nPor favor, n\xc3\x83\xc2\xa3o retire os cr\xc3\x83\xc2\xa9ditos!\n----------------------------------------------- */\n/* Variable definitions\n====================\n&lt;Variable name=&quot;bgcolor&quot; description=&quot;Page Background Color&quot;\ntype=&quot;color&quot; default=&quot;#FFFFFF&quot;&gt;\n&lt;Variable name=&quot;textcolor&quot; description=&quot;Text Color&quot;\ntype=&quot;color&quot; default=&quot;#484848&quot;&gt;\n&lt;Variable name=&quot;linkcolor&quot; description=&quot;Link Color&quot;\ntype=&quot;color&quot; default=&quot;#F9AC39&quot;&gt;\n&lt;Variable name=&quot;pagetitlecolor&quot; description=&quot;Blog Title Color&quot;\ntype=&quot;color&quot; default=&quot;#005CB9&quot;&gt;\n&lt;Variable name=&quot;descriptioncolor&quot; description=&quot;Blog Description Color&quot;\ntype=&quot;color&quot; default=&quot;#FF7220&quot;&gt;\n&lt;Variable name=&quot;titlecolor&quot; description=&quot;Post Title Color&quot;\ntype=&quot;color&quot; default=&quot;#16110D&quot;&gt;\n&lt;Variable name=&quot;bordercolor&quot; description=&quot;Border Color&quot;\ntype=&quot;color&quot; default=&quot;#8CA754&quot;&gt;\n&lt;Variable name=&quot;sidebarcolor&quot; description=&quot;Sidebar Title Color&quot;\ntype=&quot;color&quot; default=&quot;#E7B99A&quot;&gt;\n&lt;Variable name=&quot;sidebartextcolor&quot; description=&quot;Sidebar Text Color&quot;\ntype=&quot;color&quot; default=&quot;#5F6B22&quot;&gt;\n&lt;Variable name=&quot;visitedlinkcolor&quot; description=&quot;Visited Link Color&quot;\ntype=&quot;color&quot; default=&quot;#F9AC39&quot;&gt;\n&lt;Variable name=&quot;bodyfont&quot; description=&quot;Text Font&quot;\ntype=&quot;font&quot; default=&quot;normal normal 100% \'Palatino Linotype\',Trebuchet,Verdana,Sans-serif&quot;&gt;\n&lt;Variable name=&quot;headerfont&quot; description=&quot;Sidebar Title Font&quot;\ntype=&quot;font&quot;\ndefault=&quot;normal bold 78% \'Trebuchet\',Trebuchet,Arial,Verdana,Sans-serif&quot;&gt;\n&lt;Variable name=&quot;pagetitlefont&quot; description=&quot;Blog Title Font&quot;\ntype=&quot;font&quot;\ndefault=&quot;normal bold 200% \'Lucida Grande\',Trebuchet,Verdana,Sans-serif&quot;&gt;\n&lt;Variable name=&quot;descriptionfont&quot; description=&quot;Blog Description Font&quot;\ntype=&quot;font&quot;\ndefault=&quot;normal normal 78% \'Trebuchet MS\', Trebuchet, Verdana, Sans-serif&quot;&gt;\n&lt;Variable name=&quot;postfooterfont&quot; description=&quot;Post Footer Font&quot;\ntype=&quot;font&quot;\ndefault=&quot;normal normal 78% \'Trebuchet MS\', Trebuchet, Arial, Verdana, Sans-serif&quot;&gt;\n*/\nbody {\nmargin:0 auto 0px;\nbackground: #666666;\ncolor:gray;\nfont: x-small &quot;Lucida Grande&quot;, Trebuchet, Verdana, Sans-serif;\nfont-size/* */:/**/small;\nfont-size: /**/small;\ntext-align: lcenter;\n}\na:link {\ncolor:#005cb9;\ntext-decoration:none;\n}\na:visited {\ncolor:#7f7f7f;\ntext-decoration:none;\n}\na:hover {\ncolor:#cc0000;\ntext-decoration:underline;\n}\na img {\nborder-width:0;\n}\n#navbar #Navbar1 iframe{\ndisplay:none;\nvisibility:none;\n}\n/* Header\n-----------------------------------------------\n*/\n#header-wrapper {\nwidth:1010px;\nheight:225px;\nmargin:0 auto 0px;\n}\n#header {\nmargin:0 auto 0px;\nwidth:1010px;\nheight:225px;\ntext-align: left;\ncolor:#005CB9;\nbackground: #ffffff url(http://i27.tinypic.com/spdeuh.jpg)   no-repeat top left;\n}\n#header h1 {\nmargin:0 auto 0px;\npadding:75px 0px 0px 240px;\nline-height:1.1em;\ntext-transform:capitalize;\nletter-spacing:.1em;\nfont: normal bold 283% Courier, monospace;\ntext-align: left;\n}\n#header a {\ncolor:#005CB9;\ntext-decoration:none;\n}\n#header a:hover {\ncolor:#005CB9;\n}\n#header .description {\nmax-width:800px;\nmargin-top:5px;\nmargin-left: 260px;\ntext-transform:capitalize;\nletter-spacing:.2em;\nline-height: 1.2em;\nfont: normal normal 62% Arial, sans-serif;\ncolor: #0066CC;\ntext-align: left;\n}\n#navigation{\nheight:35px;\nwidth: 1010px;\nline-height:2.7em;\nmargin:-12px 0px 0px 0px;\n*margin:0px;\n_margin:0px;\nbackground:  #204973;\n}\n#navigation li{\nfloat:left;\nlist-style-type:none;\nwhite-space:nowrap;\n}\n#navigation li a{\ndisplay:block;\npadding:0 10px;\nfont-size:0.9em;\nfont-weight:bold;\ntext-transform:uppercase;\ntext-decoration:none;\nbackground-color:inherit;\ncolor: #ffffff;\n}\n* html #navigation a {width:1%;}\n#navigation .selected,#navigation a:hover{\nbackground:transparent;\ncolor:#ffffff;\ntext-decoration:none;\n}\n/* Outer-Wrapper\n----------------------------------------------- */\n#outer-wrapper {\nwidth: 1010px;\nmargin:0 auto 0px;\npadding:0px;\ntext-align:left;\nfont: normal normal 104% Trebuchet, Trebuchet MS, Arial, sans-serif;\nbackground: #ffffff ;\n}\n#main-wrapper {\npadding-top: 0px;\nwidth: 500px;\nfloat: right;\nword-wrap: break-word; /* fix for long text breaking sidebar float in IE */\noverflow: hidden;     /* fix for long non-text content breaking IE sidebar float */\n}\n*html #main-wrapper {\nwidth: 487px;}\n#sidebar-wrapper {\npadding-top: 0px;\npadding-right: 30px;\npadding-left: 15px;\nwidth: 210px;\nfloat: left;\nword-wrap: break-word; /* fix for long text breaking sidebar float in IE */\noverflow: hidden;     /* fix for long non-text content breaking IE sidebar float */\n}\n#newsidebar-wrapper {\npadding-top: 0px;\npadding-left: 30px;\npadding-right: 15px;\nwidth: 210px;\nfloat: right;\nword-wrap: break-word; /* fix for long text breaking sidebar float in IE */\noverflow: hidden;     /* fix for long non-text content breaking IE sidebar float */\n}\n/* Headings\n------------------------------------------------ */\nh2 {\nmargin:1.5em 0 .75em;\nfont:normal bold 99% Times, serif;\nline-height: 1.4em;\ntext-transform:capitalize;\nletter-spacing:.2em;\ncolor:#000000;\n}\n/* Posts\n-----------------------------------------------\n*/\nh2.date-header {\ntext-align: left;\nfont: normal normal 62% Arial, sans-serif;\ntext-transform:capitalize;\nfont-size: 0.8em;\ncolor: #666666;\nmargin-top: -8px;\n}\n.post {\nmargin: 0px;\npadding-bottom:1.4em;\ncolor: #666666;\n}\n.post h3 {\npadding-bottom: 5px;\nmargin: 3px 0px 3px 20px;\nfont: bold 14pt &quot;Lucida Sans&quot;, arial;\nletter-spacing: -1px;\ntext-align: left;\nmargin-bottom: 14px;\ncolor: #033D72;}\n.post h3 a, .post h3 a:visited, .post h3 strong {\nmargin: 3px 0px 3px 20px;\ntext-decoration: none;\ncolor: #033D72;}\n}\n.post h3 strong, .post h3 a:hover {\ntext-decoration: none;\ncolor: #033D72;}\n}\n.post p {\nmargin:10 0 .75em;\nline-height:1.5em;\n}\n.post-footer {\nmargin: .75em 0;\ncolor:#333333;\npadding-left: 5px;\ntext-transform:uppercase;\nletter-spacing:.1em;\nfont: normal normal 69% Arial, sans-serif;\nfont-weight:bold;\nline-height: 1.1em;\nborder-top:1px dotted #80bfff;\n}\n.comment-link {\nmargin-left:.6em;\n}\n.post img {\npadding:4px;\n}\n.post blockquote {\npadding: 10px 10px 10px 35px;\nfont-size: 100%;\nbackground: url(http://img181.imageshack.us/img181/1096/blockjc0.jpg)  no-repeat top left;\ncolor: #8F9192;}\n}\n.post blockquote p {\nmargin:.75em 0;\n}\n/* Comments\n----------------------------------------------- */\n#comments h4 {\npadding-left: 10px;\nmargin:1em 0;\nfont-weight: bold;\nline-height: 1.4em;\ntext-transform:uppercase;\nletter-spacing:.2em;\ncolor: #000000;\n}\n#comments-block {\npadding-left: 5px;\nmargin:1em 0 1.5em;\nline-height:1.3em;\n}\n#comments-block .comment-author {\npadding-left: 5px;\nmargin:.5em 0;\n}\n#comments-block .comment-body {\npadding-left: 5px;\nmargin:.25em 0 0;\n}\n#comments-block .comment-footer {\npadding-left: 5px;\nmargin:-.25em 0 2em;\nline-height: 1.4em;\ntext-transform:uppercase;\nletter-spacing:.1em;\n}\n#comments-block .comment-body p {\npadding-left: 5px;\nmargin:0 0 .75em;\n}\n.deleted-comment {\npadding-left: 5px;\nfont-style:italic;\ncolor:gray;\n}\n.feed-links {\npadding-left: 15px;\nline-height: 2em;}\n#blog-pager-newer-link {\npadding: 5px;\nfloat: left;\n}\n#blog-pager-older-link {\npadding: 5px;\nfloat: right;\n}\n#blog-pager {\ntext-align: center;\n}\n/* Sidebar Content\n----------------------------------------------- */\n.sidebar {\ncolor: #666666;\ntext-align: left;\ntext-size: 98%;\n}\n.sidebar h2 {\nmargin: 0px;\npadding:  3px 0;\ncolor: #000000;\ntext-indent: 20px;\ntext-align: left;\nfont-size: 100%;\nbackground: #204973;\n}\n.sidebar ul {\nlist-style:none;\nmargin:  0px;\npadding:0 0 0;\n}\n.sidebar li {\nmargin:0;\npadding:0 0 6px 10px;\ntext-indent:-15px;\nline-height:1.4em;\n}\n.sidebar ul li {\nvertical-align: top;\npadding: 5px 0px 6px 35px;\nbackground: url(http://img248.imageshack.us/img248/790/barrahy1.jpg)  no-repeat bottom;\n}\n.sidebar .widget  {\nmargin:0px;\npadding: 5px;\n}\n.main .widget{\nmargin:5px;\npadding:0 0 0.9em;\n}\n.main .Blog {\nborder-bottom-width: 0;\n}\n/* Profile\n----------------------------------------------- */\n.profile-img {\nfloat: center;\nmargin: 4px;\npadding: 4px;\nborder: 1px solid #80bfff;\n}\n.profile-data {\nmargin:5px;\ntext-transform:uppercase;\nletter-spacing:.1em;\nfont: normal normal 69% Arial, sans-serif;\ncolor: #000000;\nfont-weight: bold;\nline-height: 1.2em;\n}\n.profile-datablock {\nmargin: 5px;\n}\n.profile-textblock {\nmargin: 5px;\nline-height: 1.6em;\n}\n.profile-link {\nmargin: 5px;\nfont: normal normal 69% Arial, sans-serif;\ntext-transform: uppercase;\nletter-spacing: .1em;\n}\n/* Footer\n------------------------------------------------ */\n#footer {\nclear: both;\nbackground: url(http://img212.imageshack.us/img212/5074/footeron6.jpg) repeat-x;\nwidth: 100%;\nheight: 44px;\nfont-size: 8pt;\ncolor: #043062;}\n#footer a {\nfont-size: 8pt;\ntext-align: left;\ntext-decoration: none;\ncolor: #043062;}\n#footer a:hover {\ntext-decoration: none;\ncolor: #1B508D;}\n/* Credit\n------------------------------------------------ */\n#credit {\nwidth:1010px;\nmargin:0 auto 0px;\ntext-align: center;\nbackground: #666666;\n}\n#credit a:link {\ncolor:gray;\ntext-decoration:none;\n}\n#credit a:visited {\ncolor:gray;\ntext-decoration:none;\n}\n#credit a:hover {\ncolor:gray;\ntext-decoration:underline;\n}\n/** Page structure tweaks for layout editor wireframe */\nbody#layout #header {\nmargin-left: 0px;\nmargin-right: 0px;\n}\n#navbar-iframe { height: 0px; visibility: hidden; display: none; }\n#fecha {\nheight: 60px;\nbackground: url(http://img338.imageshack.us/img338/7906/datehs7.jpg)  no-repeat;\nmargin: 12px;\nwidth: 54px;\ntext-align: center;\nfloat: left;\n}\n.fecha_dia {\ndisplay: block;\ncolor: #D5F3FF;\nfont: 2.1em Georgia;\npadding-top: 2px;\ntext-align: center;\nmargin-top: -5px;\n}\n.fecha_mes {\ndisplay: block;\ncolor: #005C80;\npadding: 0px 0px;\ntext-align: center;\ntext-transform: uppercase;\nfont-size: 12px;\nfont-weight: bold;\n}\n.fecha_anio {\ndisplay: block;\ncolor: #005C80;\npadding: 2px 0;\ntext-align: center;\ntext-transform: uppercase;\nfont-size: 10px;\nfont-weight: bold;\n}\n\n--&gt;\n    </style>\n    <script type="text/javascript">\n      var a=navigator,b=&quot;userAgent&quot;,c=&quot;indexOf&quot;,f=&quot;&amp;m=1&quot;,g=&quot;(^|&amp;)m=&quot;,h=&quot;?&quot;,i=&quot;?m=1&quot;;function j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return d+i;case 2:return 0&lt;=e[1].search(g)?null:d+f;default:return null}}if(-1!=a[b][c](&quot;Mobile&quot;)&amp;&amp;-1!=a[b][c](&quot;WebKit&quot;)&amp;&amp;-1==a[b][c](&quot;iPad&quot;)||-1!=a[b][c](&quot;Opera Mini&quot;)||-1!=a[b][c](&quot;IEMobile&quot;)){var k=j();k&amp;&amp;window.location.replace(k)};\n    </script>\n    <script type="text/javascript"> if (window.jstiming) window.jstiming.load.tick(\'headEnd\'); </script>\n  </head>\n  <script>\n    function remplaza_fecha(d){\nvar da = d.split(\' \');\ndia = &quot;&lt;div class=\'fecha_dia\'&gt;&quot;+da[0]+&quot;&lt;/div&gt;&quot;; //Le otorgamos una clase al d\xc3\x83\xc2\xada\nmes = &quot;&lt;div class=\'fecha_mes\'&gt;&quot;+da[1].slice(0,3)+&quot;&lt;/div&gt;&quot;; //Le otorgamos una clase al mes\nanio = &quot;&lt;div class=\'fecha_anio\'&gt;&quot;+da[2]+&quot;&lt;/div&gt;&quot;; //Le otorgamos una clase al a\xc3\x83\xc2\xb1o\ndocument.write(dia+mes+anio);\n}\n  </script>\n  <body>\n    <div id="navbar" class="navbar section">\n      <div id="Navbar1" class="widget Navbar">\n        <script type="text/javascript"> function setAttributeOnload(object, attribute, val) { if(window.addEventListener) { window.addEventListener(\'load\', function(){ object[attribute] = val; }, false); } else { window.attachEvent(\'onload\', function(){ object[attribute] = val; }); } } </script>\n        <div id="navbar-iframe-container"></div>\n        <script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>\n        <script type="text/javascript">\n          gapi.load(&quot;iframes-styles-bubble&quot;, function() {\n          if (window.iframes &amp;&amp; iframes.open) {\n            iframes.open(\n                \'//www.blogger.com/navbar.g?targetBlogID\\0752722533378801149260\\46blogName\\75BEST+FIGHTING+VIDEO\\46publishMode\\75PUBLISH_MODE_BLOGSPOT\\46navbarType\\75BLUE\\46layoutType\\75LAYOUTS\\46searchRoot\\75http://best-fighting-video.blogspot.com/search\\46blogLocale\\75en\\46v\\0752\\46homepageUrl\\75http://best-fighting-video.blogspot.com/\\46vt\\758475004712342008583\',\n                {\n                  container: &quot;navbar-iframe-container&quot;,\n                  id: &quot;navbar-iframe&quot;\n                },\n                {\n                });\n          }\n        });\n        </script>\n        <script type="text/javascript">\n          (function() {\nvar script = document.createElement(\'script\');\nscript.type = \'text/javascript\';\nscript.src = \'//pagead2.googlesyndication.com/pagead/js/google_top_exp.js\';\nvar head = document.getElementsByTagName(\'head\')[0];\nif (head) {\nhead.appendChild(script);\n}})();\n        </script>\n      </div>\n    </div>\n    <div id="outer-wrapper">\n      <div id="wrap2">\n        <span style="display:none;" id="skiplinks">\n          <a href="#main" shape="rect">skip to main </a>\n          |\n          <a href="#sidebar" shape="rect">skip to sidebar</a>\n        </span>\n        <div id="navigation">\n          <ul>\n            <li class="selected">\n              <a href="http://best-fighting-video.blogspot.com/" shape="rect">Home</a>\n            </li>\n            <li>\n              <a href="http://best-fighting-video.blogspot.com/feeds/comments/default" shape="rect">Comments (RSS)</a>\n            </li>\n            <li>\n              <a href="http://best-fighting-video.blogspot.com/feeds/posts/default" shape="rect">Entries (RSS)</a>\n            </li>\n            <li>\n              <a title="Edit" href="inserir link aqui" shape="rect">Edit</a>\n            </li>\n          </ul>\n        </div>\n        <div id="header-wrapper">\n          <div id="header" class="header section">\n            <div id="Header1" class="widget Header">\n              <div style="background-image: url(&quot;http://3.bp.blogspot.com/_KSjbKemZ_cI/SF9MY7xCVHI/AAAAAAAABGc/rUwCrPEVoAM/S1600-R/fight+header.jpg&quot;); background-repeat: no-repeat; width: 1010px; px; height: 215px; px;" id="header-inner">\n                <div style="background: transparent" class="titlewrapper">\n                  <h1 style="background: transparent; border-width: 0px" class="title"> BEST FIGHTING VIDEO </h1>\n                </div>\n                <div class="descriptionwrapper">\n                  <p class="description">\n                    <span>Watch the best finghting collection video over the internet.Learn how the fighter survive.</span>\n                  </p>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div id="content-wrapper">\n          <div id="sidebar-wrapper">\n            <div id="sidebar" class="sidebar section">\n              <div id="Label1" class="widget Label">\n                <h2>Marcadores</h2>\n                <div class="widget-content">\n                  <ul>\n                    <li>\n                      <a href="http://best-fighting-video.blogspot.com/search/label/ButterBean" shape="rect">ButterBean</a>\n                      (13)\n                    </li>\n                    <li>\n                      <a href="http://best-fighting-video.blogspot.com/search/label/Kimbo%20Slice" shape="rect">Kimbo Slice</a>\n                      (13)\n                    </li>\n                  </ul>\n                  <div class="clear"></div>\n                  <span class="widget-item-control">\n                    <span class="item-control blog-admin">\n                      <a \n                      title="Edit" target="configLabel1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Label1&quot;));" href="//www.blogger.com/rearrange?blogID=2722533378801149260&amp;widgetType=Label&amp;widgetId=Label1&amp;action=editWidget&amp;sectionId=sidebar" class="quickedit" shape="rect">\n                        <img width="18" src="http://img1.blogblog.com/img/icon18_wrench_allbkg.png" height="18" alt=""></img>\n</a>\n                    </span>\n                  </span>\n                  <div class="clear"></div>\n                </div>\n              </div>\n            </div>\n          </div>\n          <form style="display: inline;" action="http://endere\xc3\x83\xc2\xa7o do seu blog aqui/search" id="searchthis" method="get" enctype="application/x-www-form-urlencoded">\n            <table style="width: 200px; height: 100%; margin-left: auto; margin-right: 20px; margin-top:0px; margin-bottom: 10px" cellspacing="0" cellpadding="0">\n              <tbody>\n                <tr>\n                  <td valign="middle" rowspan="1" colspan="1">\n                    <input name="q" id="b-query" type="text"></input>\n                  </td>\n                  <td class="navbutton" valign="middle" rowspan="1" colspan="1">\n                    <input value="Busca" name="submit" id="submit" type="submit" tabindex="1"></input>\n                  </td>\n                </tr>\n              </tbody>\n            </table>\n          </form>\n          <div id="newsidebar-wrapper">\n            <div id="newsidebar" class="sidebar section">\n              <div id="BlogArchive1" class="widget BlogArchive">\n                <h2>Arquivo do blog</h2>\n                <div class="widget-content">\n                  <div id="ArchiveList">\n                    <div id="BlogArchive1_ArchiveList">\n                      <ul class="hierarchy">\n                        <li class="archivedate expanded">\n                          <a href="javascript:void(0)" class="toggle" shape="rect">\n                            <span class="zippy toggle-open">\xe2\x96\xbc\xc2\xa0</span>\n                          </a>\n                          <a href="http://best-fighting-video.blogspot.com/search?updated-min=2008-01-01T00:00:00-08:00&amp;updated-max=2009-01-01T00:00:00-08:00&amp;max-results=28" class="post-count-link" shape="rect">2008</a>\n                          <span dir="ltr" class="post-count">(28)</span>\n                          <ul class="hierarchy">\n                            <li class="archivedate expanded">\n                              <a href="javascript:void(0)" class="toggle" shape="rect">\n                                <span class="zippy toggle-open">\xe2\x96\xbc\xc2\xa0</span>\n                              </a>\n                              <a href="http://best-fighting-video.blogspot.com/2008_06_01_archive.html" class="post-count-link" shape="rect">June</a>\n                              <span dir="ltr" class="post-count">(28)</span>\n                              <ul class="posts">\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/about-butterbean.html" shape="rect">About Butterbean</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/about-kimbo-slice.html" shape="rect">About Kimbo Slice</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-james-thompson-part-3.html" shape="rect">Kimbo Slice VS James Thompson - Part 3</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-james-thompson-part-2.html" shape="rect">Kimbo Slice VS James Thompson - Part 2</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-james-thompson-part-i.html" shape="rect">Kimbo Slice VS James Thompson - Part I</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-mma-cop.html" shape="rect">Kimbo Slice VS MMA Cop</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-bo-cantrell.html" shape="rect">Kimbo Slice VS Bo Cantrell</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-tito-ortiz.html" shape="rect">Kimbo Slice VS Tank Abbot</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-ray-mercer.html" shape="rect">Kimbo Slice VS Ray Mercer</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-dreads.html" shape="rect">Kimbo Slice vs Dreads</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-adryan.html" shape="rect">Kimbo Slice VS Adryan</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-chico.html" shape="rect">Kimbo Slice vs Chico</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-bouncer.html" shape="rect">Kimbo Slice VS The Bouncer</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-2-guys-afropuf-big-mac.html" shape="rect">Kimbo Slice VS 2 Guys (Afropuf &amp; Big Mac)</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-big-d.html" shape="rect">Kimbo Slice VS Big D</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/butterbean-vs-paul-springer.html" shape="rect">ButterBean VS Paul Springer</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/butterbean-vs-gunn.html" shape="rect">Butterbean VS Gunn</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/butterbean-vs-mitch-rose.html" shape="rect">Butterbean VS Mitch Rose</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/butterbean-vs-nick-penner.html" shape="rect">Butterbean VS Nick Penner</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/butterbean-vs-bob-sapp-sumo-contest.html" shape="rect">Butterbean VS Bob Sapp (Sumo Contest)</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/butterbean-vs-patrick-smith.html" shape="rect">Butterbean VS Patrick Smith</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/butterbean-vs-larry-holmes.html" shape="rect">Butterbean VS Larry Holmes</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/butterbean-vs-monaco.html" shape="rect">Butterbean VS Monaco</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/butterbean-vs-yusuke-fujimoto.html" shape="rect">Butterbean VS Yusuke Fujimoto</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/butterbean-vs-genki-sudo.html" shape="rect">Butterbean VS Genki Sudo</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/butterbean-vs-zuluzinho.html" shape="rect">Butterbean VS Zuluzinho</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/butterbean-vs-tengiz-tedoradze.html" shape="rect">Butterbean VS Tengiz Tedoradze</a>\n                                </li>\n                                <li>\n                                  <a href="http://best-fighting-video.blogspot.com/2008/06/butterbean-vs-sean-ohaire.html" shape="rect">Butterbean VS Sean O\'Haire</a>\n                                </li>\n                              </ul>\n                            </li>\n                          </ul>\n                        </li>\n                      </ul>\n                    </div>\n                  </div>\n                  <div class="clear"></div>\n                  <span class="widget-item-control">\n                    <span class="item-control blog-admin">\n                      <a \n                      title="Edit" target="configBlogArchive1" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;BlogArchive1&quot;));" href="//www.blogger.com/rearrange?blogID=2722533378801149260&amp;widgetType=BlogArchive&amp;widgetId=BlogArchive1&amp;action=editWidget&amp;sectionId=newsidebar" class="quickedit" shape="rect">\n                        <img width="18" src="http://img1.blogblog.com/img/icon18_wrench_allbkg.png" height="18" alt=""></img>\n</a>\n                    </span>\n                  </span>\n                  <div class="clear"></div>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div id="main-wrapper">\n            <div id="main" class="main section">\n              <div id="Blog1" class="widget Blog">\n                <div class="blog-posts">\n                  <h2 class="date-header"></h2>\n                  <div id="fecha">\n                    <script>remplaza_fecha(\'Sunday, June 22, 2008\');</script>\n                  </div>\n                  <div class="post uncustomized-post-template">\n                    <a name="4648483510202092659" shape="rect"></a>\n                    <h3 class="post-title">\n                      <a href="http://best-fighting-video.blogspot.com/2008/06/about-butterbean.html" shape="rect">About Butterbean</a>\n                    </h3>\n                    <div class="post-header-line-1"></div>\n                    <div class="post-body">\n                      <p>\n                        <b>Eric Scott &quot;Butterbean&quot; Esch</b>\n                        (born\n                        <a title="August 3" href="http://en.wikipedia.org/wiki/August_3" shape="rect">August 3</a>\n                        ,\n                        <a title="1968" href="http://en.wikipedia.org/wiki/1968" shape="rect">1968</a>\n                        in\n                        <a title="Bay City, Michigan" href="http://en.wikipedia.org/wiki/Bay_City%2C_Michigan" shape="rect">Bay City, Michigan</a>\n                        ) is a professional\n                        <a title="Super-Heavyweight" href="http://en.wikipedia.org/wiki/Super-Heavyweight" class="mw-redirect" shape="rect">Super-Heavyweight</a>\n                        <a title="Boxing" href="http://en.wikipedia.org/wiki/Boxing" shape="rect">boxer</a>\n                        ,\n                        <a title="Kickboxer" href="http://en.wikipedia.org/wiki/Kickboxer" class="mw-redirect" shape="rect">kickboxer</a>\n                        and\n                        <a title="Mixed martial artist" href="http://en.wikipedia.org/wiki/Mixed_martial_artist" class="mw-redirect" shape="rect">mixed martial artist</a>\n                        . Butterbean stands 5 ft 11 in (180cm) tall and weighs 416 pounds (183 kg).\n                        <a rel="nofollow" title="http://www.cagepotato.com/2008/04/12/butterbean-vs-patrick-smith-an-american-tragedy/=" href="http://www.cagepotato.com/2008/04/12/butterbean-vs-patrick-smith-an-american-tragedy/=" class="external autonumber" shape="rect">[1]</a>\n                        He is the former\n                        <a title="International Boxing Association (for-profit organization)" href="http://en.wikipedia.org/wiki/International_Boxing_Association_%28for-profit_organization%29" shape="rect">IBA</a>\n                        World Super-Heavyweight Champion and also held the\n                        <a title="World Athletic Association" href="http://en.wikipedia.org/wiki/World_Athletic_Association" shape="rect">WAA</a>\n                        World Heavyweight title.\n                        <a rel="nofollow" title="http://www.findarticles.com/p/articles/mi_qn4176/is_20040722/ai_n14579697" href="http://www.findarticles.com/p/articles/mi_qn4176/is_20040722/ai_n14579697" class="external autonumber" shape="rect">[2]</a>\n                        Esch\'s round body, bald head and vicious scowl, make him a menacing (yet highly entertaining) fight figure. His combined professional fight record currently stands at 90 wins with 63 knockouts, 17 losses and 5 draws. Butterbean currently resides in\n                        <a title="Jasper, Alabama" href="http://en.wikipedia.org/wiki/Jasper%2C_Alabama" shape="rect">Jasper, Alabama</a>\n                        where he owns a restaurant, Mr Bean\n                        <br clear="none"></br>\n                        <img border="0" alt="" src="http://4.bp.blogspot.com/_KSjbKemZ_cI/SF9DTtyEBOI/AAAAAAAABGU/_wIBvvqe8qA/s400/butterbean+1.jpg" style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" id="BLOGGER_PHOTO_ID_5214960899504473314"></img>\n                        <span style="color: rgb(102, 102, 102);font-size:180%;">\n                          <span class="mw-headline">Fighting career</span>\n                        </span>\n                      </p>\n                      <p style="color: rgb(102, 102, 102);">\n                        <a name="Boxing" id="Boxing" shape="rect"></a>\n                      </p>\n                      <h3 style="color: rgb(102, 102, 102);">\n                        <span class="editsection"></span>\n                        <span class="mw-headline">Boxing</span>\n                      </h3>\n                      <p>\n                        Known as the &quot;King of 4 rounders&quot;, Butterbean developed a cult following after he burst onto the\n                        <a title="Toughman Contest" href="http://en.wikipedia.org/wiki/Toughman_Contest" shape="rect">Toughman Contest</a>\n                        scene in the United States before entering the world of professional boxing in 1994. He was a five time World Toughman Heavyweight Champion with a record of 56-5 with 36 knockouts (not counted towards pro career).\n                      </p>\n                      <p>\n                        While a majority of his opponents were technically limited club-level fighters early in his career, he did move up the ranks to win the\n                        <a title="International Boxing Association (for-profit organization)" href="http://en.wikipedia.org/wiki/International_Boxing_Association_%28for-profit_organization%29" shape="rect">IBA</a>\n                        World Super-Heavyweight Championship on\n                        <a title="April 12" href="http://en.wikipedia.org/wiki/April_12" shape="rect">April 12</a>\n                        ,\n                        <a title="1997" href="http://en.wikipedia.org/wiki/1997" shape="rect">1997</a>\n                        (which he never lost before relinquishing the title). Butterbean faced former\n                        <a title="World Boxing Council" href="http://en.wikipedia.org/wiki/World_Boxing_Council" shape="rect">WBC</a>\n                        and\n                        <a title="International Boxing Federation" href="http://en.wikipedia.org/wiki/International_Boxing_Federation" shape="rect">IBF</a>\n                        World Champion\n                        <a title="Larry Holmes" href="http://en.wikipedia.org/wiki/Larry_Holmes" shape="rect">Larry Holmes</a>\n                        in 2002, and while Holmes won a unanimous 10-round decision, Butterbean was credited with a controversial knockdown in the final round, the announcers had said it was a slip. Esch\'s most recent title shot came on\n                        <a title="October 15" href="http://en.wikipedia.org/wiki/October_15" shape="rect">October 15</a>\n                        ,\n                        <a title="2005" href="http://en.wikipedia.org/wiki/2005" shape="rect">2005</a>\n                        where he lost a split decision against George Linberger for the\n                        <a title="North American Boxing Council" href="http://en.wikipedia.org/wiki/North_American_Boxing_Council" shape="rect">NABC</a>\n                        Super-Heavyweight title (whom Esch had beaten in March 2000 in his final defense of the IBA title, taking Linberger\'s WAA World Heavyweight title).\n                      </p>\n                      <p>\n                        Esch\'s professional boxing record is 77 wins with 58 knockouts, 7 losses and 4 draws. He won his last boxing match against Joe Siciliano, which occurred on\n                        <a title="March 9" href="http://en.wikipedia.org/wiki/March_9" shape="rect">March 9</a>\n                        ,\n                        <a title="2007" href="http://en.wikipedia.org/wiki/2007" shape="rect">2007</a>\n                        at the Palladium.\n                        <a rel="nofollow" title="http://www.telegram.com/apps/pbcs.dll/article?AID=/20061015/COLUMN36/610150599/-1/COLUMN" href="http://www.telegram.com/apps/pbcs.dll/article?AID=/20061015/COLUMN36/610150599/-1/COLUMN" class="external autonumber" shape="rect">[4]</a>\n                        That same night, Esch\'s son, Brandon &quot;Babybean&quot;, lost in his professional debut against\n                        <a title="Matthew Eckerly (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Matthew_Eckerly&amp;action=edit&amp;redlink=1" class="new" shape="rect">Matthew Eckerly</a>\n                        .\n                        <a rel="nofollow" title="http://www.telegram.com/apps/pbcs.dll/article?AID=/20070310/NEWS/703100509/1009/SPORTS" href="http://www.telegram.com/apps/pbcs.dll/article?AID=/20070310/NEWS/703100509/1009/SPORTS" class="external autonumber" shape="rect">[5]</a>\n                      </p>\n                      <p>\n                        <a name="Mixed_Martial_Arts" id="Mixed_Martial_Arts" shape="rect"></a>\n                      </p>\n                      <h3>\n                        <span class="editsection"></span>\n                        <span style="color: rgb(102, 102, 102);" class="mw-headline">Mixed Martial Arts</span>\n                      </h3>\n                      <p>\n                        Butterbean\'s previous fighting experiences led him to venture into\n                        <a title="Mixed martial arts" href="http://en.wikipedia.org/wiki/Mixed_martial_arts" shape="rect">mixed martial arts</a>\n                        . At\n                        <a title="K-1 Premium Dynamite!!" href="http://en.wikipedia.org/wiki/K-1_Premium_Dynamite%21%21" shape="rect">K-1 Premium 2003</a>\n                        on\n                        <a title="December 31" href="http://en.wikipedia.org/wiki/December_31" shape="rect">December 31</a>\n                        ,\n                        <a title="2003" href="http://en.wikipedia.org/wiki/2003" shape="rect">2003</a>\n                        , Butterbean lost his first MMA bout to 155 lbs Japanese fighter\n                        <a title="Genki Sudo" href="http://en.wikipedia.org/wiki/Genki_Sudo" shape="rect">Genki Sudo</a>\n                        via tap out to a\n                        <a title="Leglock" href="http://en.wikipedia.org/wiki/Leglock#Heel_hook" shape="rect">heel hook</a>\n                        . Esch regrouped, going 6-0-1 in appearances in\n                        <a title="King of the Cage" href="http://en.wikipedia.org/wiki/King_of_the_Cage" shape="rect">King of the Cage</a>\n                        ,\n                        <a title="Gracie Fighting Championships (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Gracie_Fighting_Championships&amp;action=edit&amp;redlink=1" class="new" shape="rect">Gracie Fightfest</a>\n                        , and\n                        <a title="Rumble on the Rock" href="http://en.wikipedia.org/wiki/Rumble_on_the_Rock" shape="rect">Rumble on the Rock</a>\n                        including a TKO stoppage of\n                        <a title="Wesley Correira" href="http://en.wikipedia.org/wiki/Wesley_Correira" shape="rect">Cabbage Correira</a>\n                        . Esch returned to Japan with the\n                        <a title="PRIDE Fighting Championships" href="http://en.wikipedia.org/wiki/PRIDE_Fighting_Championships" shape="rect">PRIDE Fighting Championships</a>\n                        on\n                        <a title="August 26" href="http://en.wikipedia.org/wiki/August_26" shape="rect">August 26</a>\n                        ,\n                        <a title="2006" href="http://en.wikipedia.org/wiki/2006" shape="rect">2006</a>\n                        to compete at Bushido 12 against\n                        <a title="Ikuhisa Minowa" href="http://en.wikipedia.org/wiki/Ikuhisa_Minowa" shape="rect">Ikuhisa Minowa</a>\n                        , a 185 lbs fighter, to whom he lost via armbar at 4:25 of round one. Less than two months later, Butterbean was scheduled to fight\n                        <a title="K-1" href="http://en.wikipedia.org/wiki/K-1" shape="rect">K-1</a>\n                        legend\n                        <a title="Mark Hunt" href="http://en.wikipedia.org/wiki/Mark_Hunt" shape="rect">Mark Hunt</a>\n                        at Pride FC\'s first North American show on\n                        <a title="October 21" href="http://en.wikipedia.org/wiki/October_21" shape="rect">October 21</a>\n                        ,\n                        <a title="2006" href="http://en.wikipedia.org/wiki/2006" shape="rect">2006</a>\n                        . Due to an injury Hunt sustained in training, Esch was matched up against Irish-American professional wrestler and mixed martial artist\n                        <a title="Sean O\'Haire" href="http://en.wikipedia.org/wiki/Sean_O%27Haire" shape="rect">Sean O\'Haire</a>\n                        , whom he defeated via knockout at 30 seconds in the first round.\n                      </p>\n                      <p>\n                        Besides his two submission losses to much smaller opponents (\n                        <a title="Genki Sudo" href="http://en.wikipedia.org/wiki/Genki_Sudo" shape="rect">Genki Sudo</a>\n                        and\n                        <a title="Ikuhisa Minowa" href="http://en.wikipedia.org/wiki/Ikuhisa_Minowa" shape="rect">Ikuhisa Minowa</a>\n                        ), Butterbean\'s only other loss came to then\n                        <a title="Cage Rage Championships" href="http://en.wikipedia.org/wiki/Cage_Rage_Championships" shape="rect">Cage Rage</a>\n                        World Heavyweight Champion and current #1 ranked Super-Heavyweight,\n                        <a title="Rob Broughton" href="http://en.wikipedia.org/wiki/Rob_Broughton" shape="rect">Rob Broughton</a>\n                        . On\n                        <a title="February 10" href="http://en.wikipedia.org/wiki/February_10" shape="rect">February 10</a>\n                        , Butterbean rebounded by knocking out\n                        <a title="James Thompson (fighter)" href="http://en.wikipedia.org/wiki/James_Thompson_%28fighter%29" shape="rect">James Thompson</a>\n                        43 seconds into the first round at Cage Rage 20. Butterbean then defeated\n                        <a title="Zuluzinho" href="http://en.wikipedia.org/wiki/Zuluzinho" shape="rect">Zuluzinho</a>\n                        via submission at\n                        <a title="PRIDE 34" href="http://en.wikipedia.org/wiki/PRIDE_34" shape="rect">PRIDE 34</a>\n                        on\n                        <a title="April 8" href="http://en.wikipedia.org/wiki/April_8" shape="rect">April 8</a>\n                        ,\n                        <a title="2007" href="http://en.wikipedia.org/wiki/2007" shape="rect">2007</a>\n                        . Although he\'s been overweight throughout his career, at the time of the fight, Esch weighed an astonishing 407 pounds (185 kg) to match his opponents weight, who also weighs 185 kg but is 8 inches (20 centimeters) taller.\n                        <a rel="nofollow" title="http://www.youtube.com/watch?v=sibYvv7vgnE" href="http://www.youtube.com/watch?v=sibYvv7vgnE" class="external autonumber" shape="rect">[6]</a>\n                      </p>\n                      <p>\n                        Butterbean\'s next fight was on\n                        <a title="July 14" href="http://en.wikipedia.org/wiki/July_14" shape="rect">July 14</a>\n                        against current\n                        <a title="Cage Rage Championships" href="http://en.wikipedia.org/wiki/Cage_Rage_Championships" shape="rect">Cage Rage</a>\n                        World Heavyweight Champion\n                        <a title="Tengiz Tedoradze" href="http://en.wikipedia.org/wiki/Tengiz_Tedoradze" shape="rect">Tengiz Tedoradze</a>\n                        at Cage Rage 22, losing via TKO.\n                        <a title="Global Fighting Championships (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Global_Fighting_Championships&amp;action=edit&amp;redlink=1" class="new" shape="rect">Global Fighting Championships</a>\n                        had scheduled a main event bout between Esch and\n                        <a title="Ruben Villareal" href="http://en.wikipedia.org/wiki/Ruben_Villareal" shape="rect">Ruben Villareal</a>\n                        for their inaugural event, but the event was canceled when half the scheduled matchups could not take place due to medical issues (Esch vs Villareal was the only viable main event).\n                        <a rel="nofollow" title="http://www.sherdog.com/news/news.asp?n_id=8645" href="http://www.sherdog.com/news/news.asp?n_id=8645" class="external autonumber" shape="rect">[7]</a>\n                        He was then scheduled to fight Jimmy Ambriz as the main event of Xcess Fighting\'s debut card, but was a no show for the weigh-in citing scheduling conflicts.\n                        <a rel="nofollow" title="http://www.boxing2007.com/FightReport/2007/ButterbeanPullsOut.htm" href="http://www.boxing2007.com/FightReport/2007/ButterbeanPullsOut.htm" class="external autonumber" shape="rect">[8]</a>\n                        Esch most recently defeated\n                        <a title="Tom Howard" href="http://en.wikipedia.org/wiki/Tom_Howard" shape="rect">Tom Howard</a>\n                        by submission around 4:47 in the first round in an exhibition in his hometown of Jasper, Alabama. His youngest son Caleb (19) also won that night, along with his oldest son Brandon &quot;Babybean&quot; Esch (22) making his Pro mma debut also winning, via 22 second TKO. Bean Most recently lost to Nick Penner.\n                        <a rel="nofollow" title="http://www.edmontonsun.com/Sports/OtherSports/2007/12/29/4744487.html" href="http://www.edmontonsun.com/Sports/OtherSports/2007/12/29/4744487.html" class="external free" shape="rect">http://www.edmontonsun.com/Sports/OtherSports/2007/12/29/4744487.html</a>\n                      </p>\n                      <p>\n                        Butterbean\'s MMA record is currently 12 wins (4 knockouts and 8 submissions), 5 losses and 1 draw. He is training with\n                        <a title="American Top Team" href="http://en.wikipedia.org/wiki/American_Top_Team" shape="rect">American Top Team</a>\n                        to improve his ground game.\n                        <a rel="nofollow" title="http://www.sherdog.com/videos/videos.asp?v_id=944" href="http://www.sherdog.com/videos/videos.asp?v_id=944" class="external autonumber" shape="rect">[9]</a>\n                        <a title="Sherdog" href="http://en.wikipedia.org/wiki/Sherdog" shape="rect">Sherdog</a>\n                        Power Ratings has Esch ranked as the #5 Super-Heavyweight in the world across all MMA organizations after his loss to Tedoradze.\n                        <a rel="nofollow" title="http://www.sherdog.com/stats/powerratings.asp?stats_page=upr_fighter_current.asp" href="http://www.sherdog.com/stats/powerratings.asp?stats_page=upr_fighter_current.asp" class="external autonumber" shape="rect">[10]</a>\n                      </p>\n                      <table style="text-align: left;" class="wikitable">\n                        <tbody>\n                          <tr>\n                            <td rowspan="1" colspan="6" align="center">11 Wins - 7 Losses - 1 Draw (4 KO\'s)</td>\n                          </tr>\n                          <tr>\n                            <td style="background: rgb(240, 240, 240) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Date</b>\n                            </td>\n                            <td style="background: rgb(240, 240, 240) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Result</b>\n                            </td>\n                            <td style="background: rgb(240, 240, 240) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Opponent</b>\n                            </td>\n                            <td style="background: rgb(240, 240, 240) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Event</b>\n                            </td>\n                            <td style="background: rgb(240, 240, 240) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Method</b>\n                            </td>\n                            <td style="background: rgb(240, 240, 240) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Round, Time</b>\n                            </td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">04/11/2008</td>\n                            <td style="background: rgb(255, 221, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-no2" rowspan="1" colspan="1">Loss</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Patrick Smith (fighter)" href="http://en.wikipedia.org/wiki/Patrick_Smith_%28fighter%29" shape="rect">Pat Smith</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="YAMMA Pit Fighting" href="http://en.wikipedia.org/wiki/YAMMA_Pit_Fighting" shape="rect">YAMMA - Pit Fighting 1</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Submission (Strikes)</td>\n                            <td rowspan="1" colspan="1">Round 1, 3:17</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">02/09/2008</td>\n                            <td style="background: rgb(255, 221, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-no2" rowspan="1" colspan="1">Loss</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Matt Blaine (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Matt_Blaine&amp;action=edit&amp;redlink=1" class="new" shape="rect">Matt Blaine</a>\n                            </td>\n                            <td rowspan="1" colspan="1">MMA Event in Muskegon</td>\n                            <td rowspan="1" colspan="1">Submission (Injury)</td>\n                            <td rowspan="1" colspan="1">Round 2, 1:05</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">12/28/2007</td>\n                            <td style="background: rgb(255, 221, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-no2" rowspan="1" colspan="1">Loss</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Nick Penner (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Nick_Penner&amp;action=edit&amp;redlink=1" class="new" shape="rect">Nick Penner</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="TFC-First Blood (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=TFC-First_Blood&amp;action=edit&amp;redlink=1" class="new" shape="rect">TFC-First Blood</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Submission (Armlock)</td>\n                            <td rowspan="1" colspan="1">Round 1, 2:47</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">12/01/2007</td>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Tom Howard" href="http://en.wikipedia.org/wiki/Tom_Howard" shape="rect">Tom Howard</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="The Final Chapter MMA- A&amp;A Arena Jasper (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=The_Final_Chapter_MMA-_A%26A_Arena_Jasper&amp;action=edit&amp;redlink=1" class="new" shape="rect">The Final Chapter MMA- A&amp;A Arena Jasper</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Submission (Armlock)</td>\n                            <td rowspan="1" colspan="1">Round 1, 4:47</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">10/13/2007</td>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Pete Sischo (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Pete_Sischo&amp;action=edit&amp;redlink=1" class="new" shape="rect">Pete Sischo</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Combat Warfare X (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Combat_Warfare_X&amp;action=edit&amp;redlink=1" class="new" shape="rect">Combat Warfare X</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Submission (Keylock)</td>\n                            <td rowspan="1" colspan="1">Round 3, 2:35</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">07/14/2007</td>\n                            <td style="background: rgb(255, 221, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-no2" rowspan="1" colspan="1">Loss</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Tengiz Tedoradze" href="http://en.wikipedia.org/wiki/Tengiz_Tedoradze" shape="rect">Tengiz Tedoradze</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Cage Rage 22 (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Cage_Rage_22&amp;action=edit&amp;redlink=1" class="new" shape="rect">Cage Rage 22</a>\n                            </td>\n                            <td rowspan="1" colspan="1">TKO (Punches)</td>\n                            <td rowspan="1" colspan="1">Round 1, 4:26</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">04/08/2007</td>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Zuluzinho" href="http://en.wikipedia.org/wiki/Zuluzinho" shape="rect">Zuluzinho</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="PRIDE 34" href="http://en.wikipedia.org/wiki/PRIDE_34" shape="rect">PRIDE 34 - Kamikaze</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Submission (Keylock)</td>\n                            <td rowspan="1" colspan="1">Round 1, 2:35</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">02/10/2007</td>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="James Thompson (fighter)" href="http://en.wikipedia.org/wiki/James_Thompson_%28fighter%29" shape="rect">James Thompson</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Cage Rage 20 (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Cage_Rage_20&amp;action=edit&amp;redlink=1" class="new" shape="rect">Cage Rage 20 - Born 2 Fight</a>\n                            </td>\n                            <td rowspan="1" colspan="1">KO</td>\n                            <td rowspan="1" colspan="1">Round 1, 0:43</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">01/18/2007</td>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Charles Hodges" href="http://en.wikipedia.org/wiki/Charles_Hodges" shape="rect">Charles Hodges</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Palace Fighting Championships - King of the Ring (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Palace_Fighting_Championships_-_King_of_the_Ring&amp;action=edit&amp;redlink=1" class="new" shape="rect">Palace Fighting Championships - King of the Ring</a>\n                            </td>\n                            <td rowspan="1" colspan="1">KO (Right Punch)</td>\n                            <td rowspan="1" colspan="1">Round 1, 0:45</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">12/09/2006</td>\n                            <td style="background: rgb(255, 221, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-no2" rowspan="1" colspan="1">Loss</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Rob Broughton" href="http://en.wikipedia.org/wiki/Rob_Broughton" shape="rect">Rob Broughton</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Cage Rage 19" href="http://en.wikipedia.org/wiki/Cage_Rage_19" shape="rect">Cage Rage 19 - Fearless</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Submission (Tap To Strikes)</td>\n                            <td rowspan="1" colspan="1">Round 2, 3:43</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">10/21/2006</td>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Sean O\'Haire" href="http://en.wikipedia.org/wiki/Sean_O%27Haire" shape="rect">Sean O\'Haire</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="PRIDE 32" href="http://en.wikipedia.org/wiki/PRIDE_32" shape="rect">PRIDE 32 - Real Deal</a>\n                            </td>\n                            <td rowspan="1" colspan="1">TKO (Punches)</td>\n                            <td rowspan="1" colspan="1">Round 1, 0:29</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">08/26/2006</td>\n                            <td style="background: rgb(255, 221, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-no2" rowspan="1" colspan="1">Loss</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Ikuhisa Minowa" href="http://en.wikipedia.org/wiki/Ikuhisa_Minowa" shape="rect">Ikuhisa Minowa</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="PRIDE Bushido 12" href="http://en.wikipedia.org/wiki/PRIDE_Bushido_12" shape="rect">PRIDE Bushido 12</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Submission (Armbar)</td>\n                            <td rowspan="1" colspan="1">Round 1, 4:25</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">07/15/2006</td>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Rich Weeks (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Rich_Weeks&amp;action=edit&amp;redlink=1" class="new" shape="rect">Rich Weeks</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Fightfest (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Fightfest&amp;action=edit&amp;redlink=1" class="new" shape="rect">Fightfest 5 - Korea vs USA</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Submission</td>\n                            <td rowspan="1" colspan="1">Round 1, 1:29</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">05/20/2006</td>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Matt Eckerle (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Matt_Eckerle&amp;action=edit&amp;redlink=1" class="new" shape="rect">Matt Eckerle</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Fightfest (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Fightfest&amp;action=edit&amp;redlink=1" class="new" shape="rect">Fightfest 4</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Submission</td>\n                            <td rowspan="1" colspan="1">Round 1, 0:56</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">04/21/2006</td>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Aaron Aguilera" href="http://en.wikipedia.org/wiki/Aaron_Aguilera" shape="rect">Aaron Aguilera</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Rumble on the Rock" href="http://en.wikipedia.org/wiki/Rumble_on_the_Rock" shape="rect">Rumble on the Rock 9</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Submission (Choke)</td>\n                            <td rowspan="1" colspan="1">Round 2, 1:15</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">04/14/2006</td>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Leo Sylvest" href="http://en.wikipedia.org/wiki/Leo_Sylvest" shape="rect">Leo Sylvest</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Fightfest (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Fightfest&amp;action=edit&amp;redlink=1" class="new" shape="rect">Fightfest 2 - Global Domination</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Submission (Choke)</td>\n                            <td rowspan="1" colspan="1">Round 1, ?:??</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">01/20/2006</td>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Wesley Correira" href="http://en.wikipedia.org/wiki/Wesley_Correira" shape="rect">Wesley Correira</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Rumble on the Rock" href="http://en.wikipedia.org/wiki/Rumble_on_the_Rock" shape="rect">Rumble on the Rock 8</a>\n                            </td>\n                            <td rowspan="1" colspan="1">TKO (Doctor Stoppage)</td>\n                            <td rowspan="1" colspan="1">Round 2, 5:00</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">12/09/2005</td>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Walley Keenboom (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Walley_Keenboom&amp;action=edit&amp;redlink=1" class="new" shape="rect">Walley Keenboom</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Fightfest (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Fightfest&amp;action=edit&amp;redlink=1" class="new" shape="rect">Fightfest 1 - Royce Gracie Fightfest</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Submission</td>\n                            <td rowspan="1" colspan="1">Round 1, 2:37</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">02/25/2005</td>\n                            <td style="background: rgb(197, 210, 234) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">Draw</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Michael Buchkovich (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Michael_Buchkovich&amp;action=edit&amp;redlink=1" class="new" shape="rect">Michael Buchkovich</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="King of the Cage" href="http://en.wikipedia.org/wiki/King_of_the_Cage" shape="rect">King of the Cage - Payback</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Draw</td>\n                            <td rowspan="1" colspan="1">Round 2, 5:00</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">12/31/2003</td>\n                            <td style="background: rgb(255, 221, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-no2" rowspan="1" colspan="1">Loss</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Genki Sudo" href="http://en.wikipedia.org/wiki/Genki_Sudo" shape="rect">Genki Sudo</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="K-1 Premium Dynamite!!" href="http://en.wikipedia.org/wiki/K-1_Premium_Dynamite%21%21" shape="rect">K-1 Premium 2003 Dynamite</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Submission (Heel Hook)</td>\n                            <td rowspan="1" colspan="1">Round 2, 0:41</td>\n                          </tr>\n                        </tbody>\n                      </table>\n                      <p>\n                        <a name="Kickboxing" id="Kickboxing" shape="rect"></a>\n                      </p>\n                      <h3>\n                        <br clear="none"></br>\n                        <span class="editsection"></span>\n                        <span style="color: rgb(102, 102, 102);" class="mw-headline"></span>\n                      </h3>\n                      <h3>\n                        <span style="color: rgb(102, 102, 102);" class="mw-headline">Kickboxing</span>\n                      </h3>\n                      <p>\n                        Like several other popular boxers, Butterbean ventured into the sport of\n                        <a title="Kickboxing" href="http://en.wikipedia.org/wiki/Kickboxing" shape="rect">kickboxing</a>\n                        in 2003. His first bout was a 1st round knockout of two-time K-1 World Champion Yusuke Fujimoto at\n                        <a title="K-1 Beast (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=K-1_Beast&amp;action=edit&amp;redlink=1" class="new" shape="rect">K-1 Beast</a>\n                        , which came just two weeks after his 1st round knockout over Troy Roberts in a boxing match on\n                        <a title="June 13" href="http://en.wikipedia.org/wiki/June_13" shape="rect">June 13</a>\n                        ,\n                        <a title="2003" href="http://en.wikipedia.org/wiki/2003" shape="rect">2003</a>\n                        . Esch eventually evolved into a complete mixed martial artist and is no longer an active professional kickboxer, having his last\n                        <a title="K-1" href="http://en.wikipedia.org/wiki/K-1" shape="rect">K-1</a>\n                        standup appearance in July 2005.\n                      </p>\n                      <table style="text-align: left;" class="wikitable">\n                        <tbody>\n                          <tr>\n                            <td rowspan="1" colspan="6" align="center">2 Wins - 3 Losses - 0 Draw (1 KO\'s)</td>\n                          </tr>\n                          <tr>\n                            <td style="background: rgb(240, 240, 240) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Date</b>\n                            </td>\n                            <td style="background: rgb(240, 240, 240) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Result</b>\n                            </td>\n                            <td style="background: rgb(240, 240, 240) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Opponent</b>\n                            </td>\n                            <td style="background: rgb(240, 240, 240) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Event</b>\n                            </td>\n                            <td style="background: rgb(240, 240, 240) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Method</b>\n                            </td>\n                            <td style="background: rgb(240, 240, 240) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Round, Time</b>\n                            </td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">07/29/2005</td>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Marcus Royster (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Marcus_Royster&amp;action=edit&amp;redlink=1" class="new" shape="rect">Marcus Royster</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="K-1 World Grand Prix" href="http://en.wikipedia.org/wiki/K-1_World_Grand_Prix" shape="rect">K-1 World Grand Prix 2005 in Hawaii</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Decision 0-3</td>\n                            <td rowspan="1" colspan="1">Round 3</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">06/26/2004</td>\n                            <td style="background: rgb(255, 221, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-no2" rowspan="1" colspan="1">Loss</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Montanha Silva (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Montanha_Silva&amp;action=edit&amp;redlink=1" class="new" shape="rect">Montanha Silva</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="K-1 Beast (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=K-1_Beast&amp;action=edit&amp;redlink=1" class="new" shape="rect">K-1 Beast 2004 in Shizuoka</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Decision 3-0</td>\n                            <td rowspan="1" colspan="1">Round 3</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">03/14/2004</td>\n                            <td style="background: rgb(255, 221, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-no2" rowspan="1" colspan="1">Loss</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Hiromi Amada" href="http://en.wikipedia.org/wiki/Hiromi_Amada" shape="rect">Hiromi Amada</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="K-1 Beast (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=K-1_Beast&amp;action=edit&amp;redlink=1" class="new" shape="rect">K-1 Beast 2004 in Niigata</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Decision 3-0</td>\n                            <td rowspan="1" colspan="1">Round 3</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">09/21/2003</td>\n                            <td style="background: rgb(255, 221, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-no2" rowspan="1" colspan="1">Loss</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Mike Bernardo" href="http://en.wikipedia.org/wiki/Mike_Bernardo" shape="rect">Mike Bernardo</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="K-1 Survival (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=K-1_Survival&amp;action=edit&amp;redlink=1" class="new" shape="rect">K-1 Survival 2003 Japan GP Final</a>\n                            </td>\n                            <td rowspan="1" colspan="1">KO (Right High Kick)</td>\n                            <td rowspan="1" colspan="1">Round 2, 1:01</td>\n                          </tr>\n                          <tr>\n                            <td rowspan="1" colspan="1">06/29/2003</td>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Yusuke Fujimoto" href="http://en.wikipedia.org/wiki/Yusuke_Fujimoto" shape="rect">Yusuke Fujimoto</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="K-1 Beast (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=K-1_Beast&amp;action=edit&amp;redlink=1" class="new" shape="rect">K-1 Beast II 2003</a>\n                            </td>\n                            <td rowspan="1" colspan="1">KO</td>\n                            <td rowspan="1" colspan="1">Round 1, 1:02</td>\n                          </tr>\n                        </tbody>\n                      </table>\n                      <p>\n                        <a name="WWE_appearances" id="WWE_appearances" shape="rect"></a>\n                      </p>\n                      <h3>\n                        <br clear="none"></br>\n                        <span class="editsection"></span>\n                        <span style="color: rgb(102, 102, 102);" class="mw-headline"></span>\n                      </h3>\n                      <h3>\n                        <span style="color: rgb(102, 102, 102);" class="mw-headline">WWE appearances</span>\n                      </h3>\n                      <p>\n                        Butterbean has appeared twice in\n                        <a title="World Wrestling Entertainment" href="http://en.wikipedia.org/wiki/World_Wrestling_Entertainment" shape="rect">WWE</a>\n                        events competing in boxing matches. In 1997, at the\n                        <a title="In Your House" href="http://en.wikipedia.org/wiki/In_Your_House" shape="rect">In Your House</a>\n                        19: D-Generation X pay-per-view event, he defeated\n                        <a title="Marc Mero" href="http://en.wikipedia.org/wiki/Marc_Mero" shape="rect">Marc Mero</a>\n                        (former\n                        <a title="Golden Gloves" href="http://en.wikipedia.org/wiki/Golden_Gloves" shape="rect">Golden Gloves</a>\n                        champion) via disqualification in a\n                        <a title="Work (professional wrestling)" href="http://en.wikipedia.org/wiki/Work_%28professional_wrestling%29" class="mw-redirect" shape="rect">worked match</a>\n                        . Two years later, Butterbean defeated\n                        <a title="Bart Gunn" href="http://en.wikipedia.org/wiki/Bart_Gunn" class="mw-redirect" shape="rect">Bart Gunn</a>\n                        in a legitimate\n                        <a title="Shootfighting" href="http://en.wikipedia.org/wiki/Shootfighting" shape="rect">shootfight</a>\n                        at\n                        <a title="WrestleMania XV" href="http://en.wikipedia.org/wiki/WrestleMania_XV" shape="rect">WrestleMania XV</a>\n                        , defeating the\n                        <a title="Brawl For All" href="http://en.wikipedia.org/wiki/Brawl_For_All" class="mw-redirect" shape="rect">Brawl For All</a>\n                        champion with ease, knocking him out in 27 seconds.\n                      </p>\n                      <p>\n                        <a name="Media_appearances" id="Media_appearances" shape="rect"></a>\n                      </p>\n                      <h2>\n                        <br clear="none"></br>\n                        <span class="editsection"></span>\n                        <span class="mw-headline"></span>\n                      </h2>\n                      <h2 style="color: rgb(102, 102, 102);">\n                        <span class="mw-headline">Media appearances</span>\n                      </h2>\n                      <p style="color: rgb(102, 102, 102);">\n                        <a name="Movies" id="Movies" shape="rect"></a>\n                      </p>\n                      <h3 style="color: rgb(102, 102, 102);">\n                        <span class="editsection"></span>\n                        <span class="mw-headline">Movies</span>\n                      </h3>\n                      <p>\n                        Butterbean appeared in the film\n                        <i>\n                          <a title="Jackass: The Movie" href="http://en.wikipedia.org/wiki/Jackass:_The_Movie" shape="rect">Jackass: The Movie</a>\n                        </i>\n                        , where he fought\n                        <a title="Johnny Knoxville" href="http://en.wikipedia.org/wiki/Johnny_Knoxville" shape="rect">Johnny Knoxville</a>\n                        in a department store, where Knoxville was floored by Esch and received several stitches in his head after the encounter (the camera catches the concussed Knoxville\n                        <a title="Snoring" href="http://en.wikipedia.org/wiki/Snoring" shape="rect">snoring</a>\n                        ). However, it is obvious in the movie that Butterbean gives Knoxville several\n                        <a title="Rabbit punches" href="http://en.wikipedia.org/wiki/Rabbit_punches" class="mw-redirect" shape="rect">rabbit punches</a>\n                        as Knoxville was going down (he even says to Knoxville &quot;C\'mon, hit me at least once&quot; and offers his cheek, which is punched before he retaliates). While being treated by on-scene medical personnel, a badly beaten (and slightly concussed) Johnny Knoxville asks &quot;Is Butterbean okay?&quot; On the DVD commentary, Knoxville stated that Esch is actually quite friendly outside of the ring, despite his fearsome ringside demeanor. Prior to the skit, Johnny asked Butterbean to go &quot;all out on him.&quot; Butterbean stated, &quot;I can\'t do that Johnny.&quot; When Knoxville repeated himself, Butterbean then replied, &quot;You don\'t have to ask me twice.&quot; Knoxville then claimed he knew he was in trouble.\n                      </p>\n                      <p>\n                        Butterbean also appeared in the film\n                        <i>\n                          <a title="Chairman of the Board (film)" href="http://en.wikipedia.org/wiki/Chairman_of_the_Board_%28film%29" shape="rect">Chairman of the Board</a>\n                        </i>\n                        as the Museum Security Guard with the &quot;chia hair&quot;, a fact that is pointed out on the DVD commentary by the movie\'s star\n                        <a title="Carrot Top" href="http://en.wikipedia.org/wiki/Carrot_Top" shape="rect">Scott &quot;Carrot Top&quot; Thompson</a>\n                        .\n                      </p>\n                      <p>\n                        <a name="Television" id="Television" shape="rect"></a>\n                      </p>\n                      <h3>\n                        <br clear="none"></br>\n                        <span class="editsection"></span>\n                        <span class="mw-headline"></span>\n                      </h3>\n                      <h3 style="color: rgb(102, 102, 102);">\n                        <span class="mw-headline">Television</span>\n                      </h3>\n                      <p>\n                        Butterbean appeared on\n                        <a title="Adult Swim\'s" href="http://en.wikipedia.org/wiki/Adult_Swim%27s" class="mw-redirect" shape="rect">Adult Swim\'s</a>\n                        <a title="Squidbillies" href="http://en.wikipedia.org/wiki/Squidbillies" shape="rect">Squidbillies</a>\n                        where he sang the national athem, very poorly, and ended up beating a fan for making fun of him. Butterbean also appeared on JackAss in which he repeatedly knocked out Star-Johnny Knoxville in public settings\n                      </p>\n                      <p>\n                        <a name="Radio" id="Radio" shape="rect"></a>\n                      </p>\n                      <h3>\n                        <br clear="none"></br>\n                        <span class="editsection"></span>\n                        <span class="mw-headline"></span>\n                      </h3>\n                      <h3 style="color: rgb(102, 102, 102);">\n                        <span class="mw-headline">Radio</span>\n                      </h3>\n                      <p>\n                        Butterbean also fought Dominic Dieter of\n                        <a title="Rover\'s Morning Glory" href="http://en.wikipedia.org/wiki/Rover%27s_Morning_Glory" shape="rect">Rover\'s Morning Glory</a>\n                        , in\n                        <a title="Cleveland, Ohio" href="http://en.wikipedia.org/wiki/Cleveland%2C_Ohio" shape="rect">Cleveland, Ohio</a>\n                        . See video at\n                        <a rel="nofollow" title="http://www.roverradio.com/index.php?option=com_content&amp;task=view&amp;id=3159&amp;Itemid=72" href="http://www.roverradio.com/index.php?option=com_content&amp;task=view&amp;id=3159&amp;Itemid=72" class="external autonumber" shape="rect">[11]</a>\n                      </p>\n                      <p>\n                        <a name="Video_games" id="Video_games" shape="rect"></a>\n                      </p>\n                      <h3>\n                        <br clear="none"></br>\n                        <span class="editsection"></span>\n                        <span class="mw-headline"></span>\n                      </h3>\n                      <h3 style="color: rgb(102, 102, 102);">\n                        <span class="mw-headline">Video games</span>\n                      </h3>\n                      <p>\n                        Butterbean was featured as the cover character as well as the final boss character in the\n                        <a title="EA Sports" href="http://en.wikipedia.org/wiki/EA_Sports" shape="rect">EA Sports</a>\n                        title &quot;Toughman Contest&quot; released in July 1995 for the\n                        <a title="Sega Genesis" href="http://en.wikipedia.org/wiki/Sega_Genesis" class="mw-redirect" shape="rect">Sega Genesis</a>\n                        and\n                        <a title="Sega 32X" href="http://en.wikipedia.org/wiki/Sega_32X" shape="rect">Sega 32X</a>\n                        .\n                        <a rel="nofollow" title="http://www.rottentomatoes.com/g/sega_genesis/toughman_contest/overview.php" href="http://www.rottentomatoes.com/g/sega_genesis/toughman_contest/overview.php" class="external autonumber" shape="rect">[12]</a>\n                        He also appeared as a playable character in the\n                        <a title="EA Sports" href="http://en.wikipedia.org/wiki/EA_Sports" shape="rect">EA Sports</a>\n                        boxing video game\n                        <a title="Knockout Kings 2001" href="http://en.wikipedia.org/wiki/Knockout_Kings_2001" class="mw-redirect" shape="rect">Knockout Kings 2001</a>\n                        .\n                      </p>\n                      <div style="clear: both;"></div>\n                    </div>\n                    <div class="post-footer">\n                      <p class="post-footer-line post-footer-line-1">\n                        <span class="post-author"> Posted by Admin. </span>\n                        <span class="post-timestamp">\n                          at\n                          <a title="permanent link" href="http://best-fighting-video.blogspot.com/2008/06/about-butterbean.html" class="timestamp-link" shape="rect">11:22 PM</a>\n                        </span>\n                        <span class="post-labels"> </span>\n                        <span class="post-comment-link">\n                          <a onclick="" href="http://www.blogger.com/comment.g?blogID=2722533378801149260&amp;postID=4648483510202092659" class="comment-link" shape="rect">0 comments</a>\n                        </span>\n                        <span class="post-backlinks post-comment-link"> </span>\n                        <span class="post-icons">\n                          <span class="item-control blog-admin pid-1511943275">\n                            <a title="Edit Post" href="http://www.blogger.com/post-edit.g?blogID=2722533378801149260&amp;postID=4648483510202092659&amp;from=pencil" shape="rect">\n                              <span class="quick-edit-icon">\xc2\xa0</span>\n                            </a>\n                          </span>\n                        </span>\n                      </p>\n                      <p class="post-footer-line post-footer-line-2"> </p>\n                      <p class="post-footer-line post-footer-line-3"></p>\n                    </div>\n                  </div>\n                  <div class="post uncustomized-post-template">\n                    <a name="2232313783523490865" shape="rect"></a>\n                    <h3 class="post-title">\n                      <a href="http://best-fighting-video.blogspot.com/2008/06/about-kimbo-slice.html" shape="rect">About Kimbo Slice</a>\n                    </h3>\n                    <div class="post-header-line-1"></div>\n                    <div class="post-body">\n                      <p>\n                        Kevin Ferguson (born on February 8, 1974), better known as Kimbo Slice, is a Miami, Florida-based street fighter turned mixed martial arts (MMA) fighter. He first appeared in several filmed underground fights which have spread primarily on the Internet. Kimbo has since left street fighting behind and is now putting his efforts towards becoming a professional mixed martial arts fighter. Rolling Stone called Slice &quot;The King of the Web Brawlers&quot;.\n                        <br clear="none"></br>\n                        Contents\n                        <br clear="none"></br>\n                        <img border="0" alt="" src="http://1.bp.blogspot.com/_KSjbKemZ_cI/SF8-O0LMeNI/AAAAAAAABGM/bjObUyyLV94/s400/kimbo+11.jpg" style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" id="BLOGGER_PHOTO_ID_5214955317763012818"></img>\n                        <br clear="none"></br>\n                        <table style="padding: 0.5em; width: 23em; font-size: 95%; text-align: left; background-color: rgb(255, 255, 255);" class="infobox">\n                          <tbody>\n                            <tr align="center">\n                              <th style="background-color: rgb(208, 208, 208);" rowspan="1" colspan="2">Statistics</th>\n                            </tr>\n                            <tr>\n                              <th style="padding-right: 1.2em; text-align: center;" rowspan="1" colspan="1">Nickname</th>\n                              <td style="text-align: center;" rowspan="1" colspan="1">Kimbo Slice</td>\n                            </tr>\n                            <tr>\n                              <th style="padding-right: 1.2em; text-align: center;" rowspan="1" colspan="1">Height</th>\n                              <td style="text-align: center;" rowspan="1" colspan="1">6 ft 2 in (1.88 m)</td>\n                            </tr>\n                            <tr>\n                              <th style="padding-right: 1.2em; text-align: center;" rowspan="1" colspan="1">Weight</th>\n                              <td style="text-align: center;" rowspan="1" colspan="1">\n                                240\n                                <a title="Pound (mass)" href="http://en.wikipedia.org/wiki/Pound_%28mass%29" shape="rect">lb</a>\n                                (110\n                                <a title="Kilogram" href="http://en.wikipedia.org/wiki/Kilogram" shape="rect">kg</a>\n                                /17\n                                <a title="Stone (mass)" href="http://en.wikipedia.org/wiki/Stone_%28mass%29" shape="rect">st</a>\n                                )\n                              </td>\n                            </tr>\n                            <tr>\n                              <th style="padding-right: 1.2em; text-align: center;" rowspan="1" colspan="1">Nationality</th>\n                              <td style="text-align: center;" rowspan="1" colspan="1">American</td>\n                            </tr>\n                            <tr>\n                              <th style="padding-right: 1.2em; text-align: center;" rowspan="1" colspan="1">Born</th>\n                              <td style="text-align: center;" rowspan="1" colspan="1">\n                                <a title="February 8" href="http://en.wikipedia.org/wiki/February_8" shape="rect">February 8</a>\n                                ,\n                                <a title="1974" href="http://en.wikipedia.org/wiki/1974" shape="rect">1974</a>\n                                <span style="display: none;">\n                                  (\n                                  <span class="bday">1974-02-08</span>\n                                  )\n                                </span>\n                                <span class="noprint">(age 34)</span>\n                              </td>\n                            </tr>\n                            <tr>\n                              <th style="padding-right: 1.2em; text-align: center;" rowspan="1" colspan="1">Fighting out of</th>\n                              <td style="text-align: center;" rowspan="1" colspan="1">\n                                <a title="Miami, Florida" href="http://en.wikipedia.org/wiki/Miami%2C_Florida" shape="rect">Miami, Florida</a>\n                              </td>\n                            </tr>\n                            <tr>\n                              <th style="padding-right: 1.2em; text-align: center;" rowspan="1" colspan="1">Town of birth</th>\n                              <td style="text-align: center;" rowspan="1" colspan="1">\n                                <a title="Nassau, Bahamas" href="http://en.wikipedia.org/wiki/Nassau%2C_Bahamas" shape="rect">Nassau, Bahamas</a>\n                              </td>\n                            </tr>\n                            <tr align="center">\n                              <th style="background-color: rgb(208, 208, 208);" rowspan="1" colspan="2">Mixed martial arts record</th>\n                            </tr>\n                            <tr>\n                              <th style="padding-right: 1.2em; text-align: center;" rowspan="1" colspan="1">Wins</th>\n                              <td style="text-align: center;" rowspan="1" colspan="1">3</td>\n                            </tr>\n                            <tr>\n                              <th style="padding-right: 1.2em; text-align: center;" rowspan="1" colspan="1">Losses</th>\n                              <td style="text-align: center;" rowspan="1" colspan="1">0</td>\n                            </tr>\n                          </tbody>\n                        </table>\n                        <br clear="none"></br>\n                        * 1 Pre-MMA\n                        <br clear="none"></br>\n                        * 2 MMA career\n                        <br clear="none"></br>\n                        * 3 Personal life\n                        <br clear="none"></br>\n                        * 4 Mixed martial arts record\n                        <br clear="none"></br>\n                        * 5 Mixed martial arts pro-exhibition match record\n                        <br clear="none"></br>\n                        * 6 References\n                        <br clear="none"></br>\n                        * 7 External links\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        <span style="color: rgb(102, 102, 102);font-size:180%;">\n                          <span style="font-weight: bold;font-family:verdana;">Pre-MMA</span>\n                        </span>\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        Ferguson was a star defensive football player for Miami Palmetto High School in the Pinecrest area of Miami, Florida. In college, he went on to the University of Miami on academic scholarship, but did not play football. He was there for only a year and a half.[2]\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        As Kimbo Slice, Ferguson worked as a bodyguard for RK Netmedia (otherwise known as RealityKings), a Miami-based pornography production/promotion company responsible for a number of popular adult subscription websites, such as MILF Hunter, and Money Talks. The latter site made YouTube friendly videos of Kimbo giving people charlie horses and tackling them at full speed in exchange for money. [3][4]. Kimbo still maintains close ties with the company who now accompanies him, as his fight entourage before entering the ring. In fact, his manager, known only as IceyMike, works for free for Kimbo. [5] IceyMike can be heard (off camera) and rarely seen in almost every Kimbo-related YouTube video and many Reality Kings videos.\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        <span style="color: rgb(102, 102, 102);font-size:180%;">\n                          <span style="font-weight: bold;font-family:verdana;">MMA career</span>\n                        </span>\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        Kimbo Slice began his career in unsanctioned street fights. A notable street fight was with Sean Gannon, a former Boston Police officer who trains in MMA. [6] Gannon was able to achieve victory over Slice giving him his first defeat. The popularity of the fight, which was distributed throughout the internet, propelled both men into the MMA spotlight.\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        To prepare for sanctioned MMA fights, Slice was trained by retired MMA fighter Bas Rutten. Slice made his sanctioned MMA debut against former WBO Heavyweight champion boxer Ray Mercer at Cage Fury Fighting Championships 5, in Atlantic City on June 23, 2007. The match was scheduled as a three-round exhibition utilizing all professional rules of MMA combat. Slice defeated Mercer with a guillotine choke at 1:12 into the first round.[7] In a post-fight interview, Slice stated that he would like to fight David &quot;Tank&quot; Abbott. Abbott, who was a spectator, stood up from his seat and accepted the call out. One of the matchmakers for CFFC asked Slice for his assurance so that an October 12 bout at Cage Fury Fighting Championships 6 between Slice and &quot;Tank&quot; Abbott could be organized. This event was later canceled due to a promotion dispute. On October 11, 2007, ProElite announced that they had signed Slice to a deal and that he would make his debut on the November 10, 2007 EliteXC.[8] Originally set to make his professional MMA debut against Mike Bourke, the reformed street fighter was set to face Bo Cantrell after Bourke sustained a shoulder injury.[9] Kimbo defeated Cantrell 19 seconds into the first round by submission due to strikes.\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        Slice will be featured on The Iron Ring, a new television series airing on BET which features MMA prospects. Slice will be a part of the selection process for the participants.[10]\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        On February 16, 2008, Kimbo fought Tank Abbott in the main event at EliteXC: Street Certified. He won by KO 43 seconds into the first round due to strikes. At the fight his weight was announced at an all-time low of 234lbs, a far cry from his street fighting days of 280lbs.\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        On May 31, 2008, Kimbo fought in the main event of the first ever mixed martial arts event shown on prime time network television, EliteXC: Primetime. Kimbo\'s opponent James Thompson won the first two rounds on total points[11] [12] [13], although one judge had each fighter winning a round and even points, by repeatedly taking down Slice and grounding and pounding. In the opening seconds of the third round, Kimbo threw a haymaker to Thompson\'s left ear, which ruptured his cauliflower. This was soon followed by three unanswered punches to a standing Thompson, which led to a referee stoppage, that led to the controversial win for Slice. Brett Rogers was particularly critical of Slice\'s victory. Rogers went so far as to call Slice\'s performance &quot;garbage&quot; in a post fight interview.  A Kimbo Slice vs. Brett Rogers fight has reportedly been signed for October.\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                      </p>\n                      <h2 style="color: rgb(102, 102, 102);font-family:verdana;">\n                        <span class="mw-headline">Personal life</span>\n                      </h2>\n                      <p>Slice currently lives with his family in Miami, and is the father of six children: three girls and three boys. His first two sons are named Kevin, and the third is named Kevlar. His three daughters are named Kassandra, Kiara, &amp; Kevina.Slice is engaged.</p>\n                      <h2 style="color: rgb(51, 51, 51);font-family:verdana;">\n                        <span class="mw-headline">Mixed martial arts record</span>\n                      </h2>\n                      <table width="100%" style="font-size: 85%; text-align: left;" id="sortable_table_id_0" class="wikitable sortable">\n                        <tbody>\n                          <tr>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              Result\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Opponent</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Method</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Event</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Date</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Round</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Time</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Location</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Notes</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                          </tr>\n                          <tr>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <span class="flagicon">\n                                <a title="Flag of the United Kingdom" href="http://en.wikipedia.org/wiki/Image:Flag_of_the_United_Kingdom.svg" class="image" shape="rect">\n                                  <img width="22" height="11" border="0" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/22px-Flag_of_the_United_Kingdom.svg.png" alt="Flag of the United Kingdom" class="thumbborder"></img>\n                                </a>\n                              </span>\n                              <span style="display: none;">Thompson</span>\n                              <a title="James Thompson (fighter)" href="http://en.wikipedia.org/wiki/James_Thompson_%28fighter%29" shape="rect">James Thompson</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              TKO (\n                              <a title="Strike (attack)" href="http://en.wikipedia.org/wiki/Strike_%28attack%29" shape="rect">strikes</a>\n                              )\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="EliteXC: Primetime" href="http://en.wikipedia.org/wiki/EliteXC:_Primetime" shape="rect">EliteXC: Primetime</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <span style="display: none;">02008-05-31</span>\n                              <a title="May 31" href="http://en.wikipedia.org/wiki/May_31" shape="rect">31 May</a>\n                              <a title="2008" href="http://en.wikipedia.org/wiki/2008" shape="rect">2008</a>\n                            </td>\n                            <td rowspan="1" colspan="1" align="center">3</td>\n                            <td rowspan="1" colspan="1" align="center">0:38</td>\n                            <td rowspan="1" colspan="1">\n                              <span class="flagicon">\n                                <a title="Flag of the United States" href="http://en.wikipedia.org/wiki/Image:Flag_of_the_United_States.svg" class="image" shape="rect">\n                                  <img width="22" height="12" border="0" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" alt="Flag of the United States" class="thumbborder"></img>\n                                </a>\n                              </span>\n                              <a title="Newark, New Jersey" href="http://en.wikipedia.org/wiki/Newark%2C_New_Jersey" shape="rect">Newark, New Jersey</a>\n                            </td>\n                          </tr>\n                          <tr>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <span class="flagicon">\n                                <a title="Flag of the United States" href="http://en.wikipedia.org/wiki/Image:Flag_of_the_United_States.svg" class="image" shape="rect">\n                                  <img width="22" height="12" border="0" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" alt="Flag of the United States" class="thumbborder"></img>\n                                </a>\n                              </span>\n                              <a title="Tank Abbott" href="http://en.wikipedia.org/wiki/Tank_Abbott" shape="rect">Tank Abbott</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              KO (\n                              <a title="Strike (attack)" href="http://en.wikipedia.org/wiki/Strike_%28attack%29" shape="rect">strikes</a>\n                              )\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="EliteXC: Street Certified" href="http://en.wikipedia.org/wiki/EliteXC:_Street_Certified" shape="rect">EliteXC: Street Certified</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <span style="display: none;">02008-02-16</span>\n                              <a title="February 16" href="http://en.wikipedia.org/wiki/February_16" shape="rect">16 February</a>\n                              <a title="2008" href="http://en.wikipedia.org/wiki/2008" shape="rect">2008</a>\n                            </td>\n                            <td rowspan="1" colspan="1" align="center">1</td>\n                            <td rowspan="1" colspan="1" align="center">0:43</td>\n                            <td rowspan="1" colspan="1">\n                              <span class="flagicon">\n                                <a title="Flag of the United States" href="http://en.wikipedia.org/wiki/Image:Flag_of_the_United_States.svg" class="image" shape="rect">\n                                  <img width="22" height="12" border="0" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" alt="Flag of the United States" class="thumbborder"></img>\n                                </a>\n                              </span>\n                              <a title="Miami, Florida" href="http://en.wikipedia.org/wiki/Miami%2C_Florida" shape="rect">Miami, Florida</a>\n                            </td>\n                          </tr>\n                          <tr>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <span class="flagicon">\n                                <a title="Flag of the United States" href="http://en.wikipedia.org/wiki/Image:Flag_of_the_United_States.svg" class="image" shape="rect">\n                                  <img width="22" height="12" border="0" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" alt="Flag of the United States" class="thumbborder"></img>\n                                </a>\n                              </span>\n                              <span style="display: none;">Cantrell</span>\n                              <a title="Bo Cantrell (page does not exist)" href="http://en.wikipedia.org/w/index.php?title=Bo_Cantrell&amp;action=edit&amp;redlink=1" class="new" shape="rect">Bo Cantrell</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              Submission (\n                              <a title="Strike (attack)" href="http://en.wikipedia.org/wiki/Strike_%28attack%29" shape="rect">strikes</a>\n                              )\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="EliteXC: Renegade" href="http://en.wikipedia.org/wiki/EliteXC:_Renegade" shape="rect">EliteXC: Renegade</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <span style="display: none;">02007-11-10</span>\n                              <a title="November 10" href="http://en.wikipedia.org/wiki/November_10" shape="rect">10 November</a>\n                              <a title="2007" href="http://en.wikipedia.org/wiki/2007" shape="rect">2007</a>\n                            </td>\n                            <td rowspan="1" colspan="1" align="center">1</td>\n                            <td rowspan="1" colspan="1" align="center">0:19</td>\n                            <td rowspan="1" colspan="1">\n                              <span class="flagicon">\n                                <a title="Flag of the United States" href="http://en.wikipedia.org/wiki/Image:Flag_of_the_United_States.svg" class="image" shape="rect">\n                                  <img width="22" height="12" border="0" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" alt="Flag of the United States" class="thumbborder"></img>\n                                </a>\n                              </span>\n                              <a title="Corpus Christi, Texas" href="http://en.wikipedia.org/wiki/Corpus_Christi%2C_Texas" shape="rect">Corpus Christi, Texas</a>\n                            </td>\n                            <td rowspan="1" colspan="1">Professional MMA debut.</td>\n                          </tr>\n                        </tbody>\n                      </table>\n                      <p>\n                        <a name="Mixed_martial_arts_pro-exhibition_match_record" id="Mixed_martial_arts_pro-exhibition_match_record" shape="rect"></a>\n                      </p>\n                      <h2 style="color: rgb(102, 102, 102);font-family:verdana;">\n                        <span class="mw-headline">Mixed martial arts pro-exhibition match record</span>\n                      </h2>\n                      <table width="100%" style="font-size: 85%; text-align: left;" id="sortable_table_id_1" class="wikitable sortable">\n                        <tbody>\n                          <tr>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              Result\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Opponent</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Method</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Event</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Date</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Round</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Time</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Location</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                            <th style="border-style: none none solid solid; background: rgb(227, 227, 227) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" rowspan="1" colspan="1">\n                              <b>Notes</b>\n                              <a onclick="ts_resortTable(this);return false;" href="http://en.wikipedia.org/wiki/Kimbo_Slice#" class="sortheader" shape="rect">\n                                <span class="sortarrow">\n                                  <img alt="\xe2\x86\x93" src="http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif"></img>\n                                </span>\n                              </a>\n                            </th>\n                          </tr>\n                          <tr>\n                            <td style="background: rgb(221, 255, 221) none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: black;" class="table-yes2" rowspan="1" colspan="1">Win</td>\n                            <td rowspan="1" colspan="1">\n                              <span class="flagicon">\n                                <a title="Flag of the United States" href="http://en.wikipedia.org/wiki/Image:Flag_of_the_United_States.svg" class="image" shape="rect">\n                                  <img width="22" height="12" border="0" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" alt="Flag of the United States" class="thumbborder"></img>\n                                </a>\n                              </span>\n                              <a title="Ray Mercer" href="http://en.wikipedia.org/wiki/Ray_Mercer" shape="rect">Ray Mercer</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              Submission (\n                              <a title="Guillotine Choke" href="http://en.wikipedia.org/wiki/Guillotine_Choke" class="mw-redirect" shape="rect">Guillotine Choke</a>\n                              )\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <a title="Cage Fury Fighting Championship 5" href="http://en.wikipedia.org/wiki/Cage_Fury_Fighting_Championship_5" class="mw-redirect" shape="rect">Cage Fury Fighting Championship 5</a>\n                            </td>\n                            <td rowspan="1" colspan="1">\n                              <span style="display: none;">02007-06-23</span>\n                              <a title="June 23" href="http://en.wikipedia.org/wiki/June_23" shape="rect">23 June</a>\n                              <a title="2007" href="http://en.wikipedia.org/wiki/2007" shape="rect">2007</a>\n                            </td>\n                            <td rowspan="1" colspan="1" align="center">1</td>\n                            <td rowspan="1" colspan="1" align="center">1:12</td>\n                            <td rowspan="1" colspan="1">\n                              <span class="flagicon">\n                                <a title="Flag of the United States" href="http://en.wikipedia.org/wiki/Image:Flag_of_the_United_States.svg" class="image" shape="rect">\n                                  <img width="22" height="12" border="0" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png" alt="Flag of the United States" class="thumbborder"></img>\n                                </a>\n                              </span>\n                              <a title="Atlantic City, New Jersey" href="http://en.wikipedia.org/wiki/Atlantic_City%2C_New_Jersey" shape="rect">Atlantic City, New Jersey</a>\n                            </td>\n                          </tr>\n                        </tbody>\n                      </table>\n                      <div style="clear: both;"></div>\n                    </div>\n                    <div class="post-footer">\n                      <p class="post-footer-line post-footer-line-1">\n                        <span class="post-author"> Posted by Admin. </span>\n                        <span class="post-timestamp">\n                          at\n                          <a title="permanent link" href="http://best-fighting-video.blogspot.com/2008/06/about-kimbo-slice.html" class="timestamp-link" shape="rect">10:55 PM</a>\n                        </span>\n                        <span class="post-labels"> </span>\n                        <span class="post-comment-link">\n                          <a onclick="" href="http://www.blogger.com/comment.g?blogID=2722533378801149260&amp;postID=2232313783523490865" class="comment-link" shape="rect">0 comments</a>\n                        </span>\n                        <span class="post-backlinks post-comment-link"> </span>\n                        <span class="post-icons">\n                          <span class="item-control blog-admin pid-1511943275">\n                            <a title="Edit Post" href="http://www.blogger.com/post-edit.g?blogID=2722533378801149260&amp;postID=2232313783523490865&amp;from=pencil" shape="rect">\n                              <span class="quick-edit-icon">\xc2\xa0</span>\n                            </a>\n                          </span>\n                        </span>\n                      </p>\n                      <p class="post-footer-line post-footer-line-2"> </p>\n                      <p class="post-footer-line post-footer-line-3"></p>\n                    </div>\n                  </div>\n                  <div class="post uncustomized-post-template">\n                    <a name="427368874226390040" shape="rect"></a>\n                    <h3 class="post-title">\n                      <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-james-thompson-part-3.html" shape="rect">Kimbo Slice VS James Thompson - Part 3</a>\n                    </h3>\n                    <div class="post-header-line-1"></div>\n                    <div class="post-body">\n                      <p>\n                        <object height="344" width="425">\n                          <param value="http://www.youtube.com/v/78p3jKbLApA&amp;hl=en" name="movie" valuetype="data"></param>\n                          <embed height="344" width="425" type="application/x-shockwave-flash" src="http://www.youtube.com/v/78p3jKbLApA&amp;hl=en"></embed>\n                        </object>\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        BEST FIGHTING VIDEO\n                      </p>\n                      <div style="clear: both;"></div>\n                    </div>\n                    <div class="post-footer">\n                      <p class="post-footer-line post-footer-line-1">\n                        <span class="post-author"> Posted by Admin. </span>\n                        <span class="post-timestamp">\n                          at\n                          <a title="permanent link" href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-james-thompson-part-3.html" class="timestamp-link" shape="rect">9:59 PM</a>\n                        </span>\n                        <span class="post-labels">\n                          Labels:\n                          <a rel="tag" href="http://best-fighting-video.blogspot.com/search/label/Kimbo%20Slice" shape="rect">Kimbo Slice</a>\n                        </span>\n                        <span class="post-comment-link">\n                          <a onclick="" href="http://www.blogger.com/comment.g?blogID=2722533378801149260&amp;postID=427368874226390040" class="comment-link" shape="rect">0 comments</a>\n                        </span>\n                        <span class="post-backlinks post-comment-link"> </span>\n                        <span class="post-icons">\n                          <span class="item-control blog-admin pid-1511943275">\n                            <a title="Edit Post" href="http://www.blogger.com/post-edit.g?blogID=2722533378801149260&amp;postID=427368874226390040&amp;from=pencil" shape="rect">\n                              <span class="quick-edit-icon">\xc2\xa0</span>\n                            </a>\n                          </span>\n                        </span>\n                      </p>\n                      <p class="post-footer-line post-footer-line-2"> </p>\n                      <p class="post-footer-line post-footer-line-3"></p>\n                    </div>\n                  </div>\n                  <div class="post uncustomized-post-template">\n                    <a name="5221046846272105714" shape="rect"></a>\n                    <h3 class="post-title">\n                      <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-james-thompson-part-2.html" shape="rect">Kimbo Slice VS James Thompson - Part 2</a>\n                    </h3>\n                    <div class="post-header-line-1"></div>\n                    <div class="post-body">\n                      <p>\n                        <object height="344" width="425">\n                          <param value="http://www.youtube.com/v/3ptM3ZWr3Xs&amp;hl=en" name="movie" valuetype="data"></param>\n                          <embed height="344" width="425" type="application/x-shockwave-flash" src="http://www.youtube.com/v/3ptM3ZWr3Xs&amp;hl=en"></embed>\n                        </object>\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        BEST FIGHTING VIDEO\n                      </p>\n                      <div style="clear: both;"></div>\n                    </div>\n                    <div class="post-footer">\n                      <p class="post-footer-line post-footer-line-1">\n                        <span class="post-author"> Posted by Admin. </span>\n                        <span class="post-timestamp">\n                          at\n                          <a title="permanent link" href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-james-thompson-part-2.html" class="timestamp-link" shape="rect">9:57 PM</a>\n                        </span>\n                        <span class="post-labels">\n                          Labels:\n                          <a rel="tag" href="http://best-fighting-video.blogspot.com/search/label/Kimbo%20Slice" shape="rect">Kimbo Slice</a>\n                        </span>\n                        <span class="post-comment-link">\n                          <a onclick="" href="http://www.blogger.com/comment.g?blogID=2722533378801149260&amp;postID=5221046846272105714" class="comment-link" shape="rect">0 comments</a>\n                        </span>\n                        <span class="post-backlinks post-comment-link"> </span>\n                        <span class="post-icons">\n                          <span class="item-control blog-admin pid-1511943275">\n                            <a title="Edit Post" href="http://www.blogger.com/post-edit.g?blogID=2722533378801149260&amp;postID=5221046846272105714&amp;from=pencil" shape="rect">\n                              <span class="quick-edit-icon">\xc2\xa0</span>\n                            </a>\n                          </span>\n                        </span>\n                      </p>\n                      <p class="post-footer-line post-footer-line-2"> </p>\n                      <p class="post-footer-line post-footer-line-3"></p>\n                    </div>\n                  </div>\n                  <div class="post uncustomized-post-template">\n                    <a name="5945704821534273005" shape="rect"></a>\n                    <h3 class="post-title">\n                      <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-james-thompson-part-i.html" shape="rect">Kimbo Slice VS James Thompson - Part I</a>\n                    </h3>\n                    <div class="post-header-line-1"></div>\n                    <div class="post-body">\n                      <p>\n                        <object height="344" width="425">\n                          <param value="http://www.youtube.com/v/D3oZy2oEuco&amp;hl=en" name="movie" valuetype="data"></param>\n                          <embed height="344" width="425" type="application/x-shockwave-flash" src="http://www.youtube.com/v/D3oZy2oEuco&amp;hl=en"></embed>\n                        </object>\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        BEST FIGHTING VIDEO\n                      </p>\n                      <div style="clear: both;"></div>\n                    </div>\n                    <div class="post-footer">\n                      <p class="post-footer-line post-footer-line-1">\n                        <span class="post-author"> Posted by Admin. </span>\n                        <span class="post-timestamp">\n                          at\n                          <a title="permanent link" href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-james-thompson-part-i.html" class="timestamp-link" shape="rect">9:56 PM</a>\n                        </span>\n                        <span class="post-labels">\n                          Labels:\n                          <a rel="tag" href="http://best-fighting-video.blogspot.com/search/label/Kimbo%20Slice" shape="rect">Kimbo Slice</a>\n                        </span>\n                        <span class="post-comment-link">\n                          <a onclick="" href="http://www.blogger.com/comment.g?blogID=2722533378801149260&amp;postID=5945704821534273005" class="comment-link" shape="rect">0 comments</a>\n                        </span>\n                        <span class="post-backlinks post-comment-link"> </span>\n                        <span class="post-icons">\n                          <span class="item-control blog-admin pid-1511943275">\n                            <a title="Edit Post" href="http://www.blogger.com/post-edit.g?blogID=2722533378801149260&amp;postID=5945704821534273005&amp;from=pencil" shape="rect">\n                              <span class="quick-edit-icon">\xc2\xa0</span>\n                            </a>\n                          </span>\n                        </span>\n                      </p>\n                      <p class="post-footer-line post-footer-line-2"> </p>\n                      <p class="post-footer-line post-footer-line-3"></p>\n                    </div>\n                  </div>\n                  <div class="post uncustomized-post-template">\n                    <a name="7386601753606263237" shape="rect"></a>\n                    <h3 class="post-title">\n                      <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-mma-cop.html" shape="rect">Kimbo Slice VS MMA Cop</a>\n                    </h3>\n                    <div class="post-header-line-1"></div>\n                    <div class="post-body">\n                      <p>\n                        <object height="344" width="425">\n                          <param value="http://www.youtube.com/v/z_-EBeys8fk&amp;hl=en" name="movie" valuetype="data"></param>\n                          <embed height="344" width="425" type="application/x-shockwave-flash" src="http://www.youtube.com/v/z_-EBeys8fk&amp;hl=en"></embed>\n                        </object>\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        BEST FIGHTING VIDEO\n                      </p>\n                      <div style="clear: both;"></div>\n                    </div>\n                    <div class="post-footer">\n                      <p class="post-footer-line post-footer-line-1">\n                        <span class="post-author"> Posted by Admin. </span>\n                        <span class="post-timestamp">\n                          at\n                          <a title="permanent link" href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-mma-cop.html" class="timestamp-link" shape="rect">9:48 PM</a>\n                        </span>\n                        <span class="post-labels">\n                          Labels:\n                          <a rel="tag" href="http://best-fighting-video.blogspot.com/search/label/Kimbo%20Slice" shape="rect">Kimbo Slice</a>\n                        </span>\n                        <span class="post-comment-link">\n                          <a onclick="" href="http://www.blogger.com/comment.g?blogID=2722533378801149260&amp;postID=7386601753606263237" class="comment-link" shape="rect">0 comments</a>\n                        </span>\n                        <span class="post-backlinks post-comment-link"> </span>\n                        <span class="post-icons">\n                          <span class="item-control blog-admin pid-1511943275">\n                            <a title="Edit Post" href="http://www.blogger.com/post-edit.g?blogID=2722533378801149260&amp;postID=7386601753606263237&amp;from=pencil" shape="rect">\n                              <span class="quick-edit-icon">\xc2\xa0</span>\n                            </a>\n                          </span>\n                        </span>\n                      </p>\n                      <p class="post-footer-line post-footer-line-2"> </p>\n                      <p class="post-footer-line post-footer-line-3"></p>\n                    </div>\n                  </div>\n                  <div class="post uncustomized-post-template">\n                    <a name="4208967432475314923" shape="rect"></a>\n                    <h3 class="post-title">\n                      <a href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-bo-cantrell.html" shape="rect">Kimbo Slice VS Bo Cantrell</a>\n                    </h3>\n                    <div class="post-header-line-1"></div>\n                    <div class="post-body">\n                      <p>\n                        <object height="344" width="425">\n                          <param value="http://www.youtube.com/v/jr7KbJJoVPg&amp;hl=en" name="movie" valuetype="data"></param>\n                          <embed height="344" width="425" type="application/x-shockwave-flash" src="http://www.youtube.com/v/jr7KbJJoVPg&amp;hl=en"></embed>\n                        </object>\n                        <br clear="none"></br>\n                        <br clear="none"></br>\n                        BEST FIGHTING VIDEO\n                      </p>\n                      <div style="clear: both;"></div>\n                    </div>\n                    <div class="post-footer">\n                      <p class="post-footer-line post-footer-line-1">\n                        <span class="post-author"> Posted by Admin. </span>\n                        <span class="post-timestamp">\n                          at\n                          <a title="permanent link" href="http://best-fighting-video.blogspot.com/2008/06/kimbo-slice-vs-bo-cantrell.html" class="timestamp-link" shape="rect">9:46 PM</a>\n                        </span>\n                        <span class="post-labels">\n                          Labels:\n                          <a rel="tag" href="http://best-fighting-video.blogspot.com/search/label/Kimbo%20Slice" shape="rect">Kimbo Slice</a>\n                        </span>\n                        <span class="post-comment-link">\n                          <a onclick="" href="http://www.blogger.com/comment.g?blogID=2722533378801149260&amp;postID=4208967432475314923" class="comment-link" shape="rect">0 comments</a>\n                        </span>\n                        <span class="post-backlinks post-comment-link"> </span>\n                        <span class="post-icons">\n                          <span class="item-control blog-admin pid-1511943275">\n                            <a title="Edit Post" href="http://www.blogger.com/post-edit.g?blogID=2722533378801149260&amp;postID=4208967432475314923&amp;from=pencil" shape="rect">\n                              <span class="quick-edit-icon">\xc2\xa0</span>\n                            </a>\n                          </span>\n                        </span>\n                      </p>\n                      <p class="post-footer-line post-footer-line-2"> </p>\n                      <p class="post-footer-line post-footer-line-3"></p>\n                    </div>\n                  </div>\n                </div>\n                <div id="blog-pager" class="blog-pager">\n                  <span id="blog-pager-older-link">\n                    <a title="Older Posts" href="http://best-fighting-video.blogspot.com/search?updated-max=2008-06-22T21:46:00-07:00&amp;max-results=7" id="Blog1_blog-pager-older-link" class="blog-pager-older-link" shape="rect">Older Posts</a>\n                  </span>\n                  <a href="http://best-fighting-video.blogspot.com/" class="home-link" shape="rect">Home</a>\n                </div>\n                <div class="clear"></div>\n              </div>\n            </div>\n          </div>\n          <div class="clear">\xc2\xa0</div>\n        </div>\n        <div id="footer-wrapper">\n          <div id="footer" class="footer section"></div>\n          <div id="credit">\n            <a href="http://best-fighting-video.blogspot.com/" shape="rect">BEST FIGHTING VIDEO</a>\n            -\n            <a href="http://templatesparanovoblogger.blogspot.com" shape="rect">Templates Novo Blogger </a>\n          </div>\n        </div>\n      </div>\n    </div>\n    <script type="text/javascript"> if (window.jstiming) window.jstiming.load.tick(\'widgetJsBefore\'); </script>\n    <script src="//www.blogger.com/static/v1/widgets/1040267425-widgets.js" type="text/javascript"></script>\n    <script type="text/javascript">\n      if (typeof(BLOG_attachCsiOnload) != \'undefined\' &amp;&amp; BLOG_attachCsiOnload != null) { window[\'blogger_templates_experiment_id\'] = &quot;templatesV1&quot;;window[\'blogger_blog_id\'] = \'2722533378801149260\';BLOG_attachCsiOnload(\'\'); }_WidgetManager._Init(\'//www.blogger.com/rearrange?blogID\\x3d2722533378801149260\',\'//best-fighting-video.blogspot.com/\',\'2722533378801149260\');\n_WidgetManager._SetDataContext([{\'name\': \'blog\', \'data\': {\'blogId\': \'2722533378801149260\', \'bloggerUrl\': \'http://www.blogger.com\', \'title\': \'BEST FIGHTING VIDEO\', \'pageType\': \'index\', \'url\': \'http://best-fighting-video.blogspot.com/\', \'canonicalUrl\': \'http://best-fighting-video.blogspot.com/\', \'canonicalHomepageUrl\': \'http://best-fighting-video.blogspot.com/\', \'homepageUrl\': \'http://best-fighting-video.blogspot.com/\', \'blogspotFaviconUrl\': \'http://best-fighting-video.blogspot.com/favicon.ico\', \'enabledCommentProfileImages\': true, \'adultContent\': false, \'analyticsAccountNumber\': \'\', \'searchLabel\': \'\', \'searchQuery\': \'\', \'pageName\': \'\', \'pageTitle\': \'BEST FIGHTING VIDEO\', \'encoding\': \'UTF-8\', \'locale\': \'en\', \'isPrivate\': false, \'isMobile\': false, \'isMobileRequest\': false, \'mobileClass\': \'\', \'isPrivateBlog\': false, \'languageDirection\': \'ltr\', \'feedLinks\': \'\\74link rel\\75\\42alternate\\42 type\\75\\42application/atom+xml\\42 title\\75\\42BEST FIGHTING VIDEO - Atom\\42 href\\75\\42http://best-fighting-video.blogspot.com/feeds/posts/default\\42 /\\76\\n\\74link rel\\75\\42alternate\\42 type\\75\\42application/rss+xml\\42 title\\75\\42BEST FIGHTING VIDEO - RSS\\42 href\\75\\42http://best-fighting-video.blogspot.com/feeds/posts/default?alt\\75rss\\42 /\\76\\n\\74link rel\\75\\42service.post\\42 type\\75\\42application/atom+xml\\42 title\\75\\42BEST FIGHTING VIDEO - Atom\\42 href\\75\\42http://www.blogger.com/feeds/2722533378801149260/posts/default\\42 /\\76\\n\\74link rel\\75\\42EditURI\\42 type\\75\\42application/rsd+xml\\42 title\\75\\42RSD\\42 href\\75\\42http://www.blogger.com/rsd.g?blogID\\0752722533378801149260\\42 /\\076\', \'meTag\': \'\', \'openIdOpTag\': \'\\74link rel\\75\\42openid.server\\42 href\\75\\42http://www.blogger.com/openid-server.g\\42 /\\76\\n\\74link rel\\75\\42openid.delegate\\42 href\\75\\42http://best-fighting-video.blogspot.com/\\42 /\\76\\n\', \'imageSrcTag\': \'\', \'latencyHeadScript\': \'\\74script type\\75\\42text/javascript\\42\\76(function() { var a\\75window,b\\75\\42jstiming\\42,d\\75\\42tick\\42;var e\\75function(c){this.t\\75{};this.tick\\75function(c,p,h){h\\75void 0!\\75h?h:(new Date).getTime();this.t[c]\\75[h,p]};this[d](\\42start\\42,null,c)},f\\75new e;a.jstiming\\75{Timer:e,load:f};if(a.performance\\46\\46a.performance.timing){var g\\75a.performance.timing,j\\75a[b].load,k\\75g.navigationStart,l\\75g.responseStart;0\\74k\\46\\46l\\76\\75k\\46\\46(j[d](\\42_wtsrt\\42,void 0,k),j[d](\\42wtsrt_\\42,\\42_wtsrt\\42,l),j[d](\\42tbsd_\\42,\\42wtsrt_\\42))}\\ntry{var m\\75null;a.chrome\\46\\46a.chrome.csi\\46\\46(m\\75Math.floor(a.chrome.csi().pageT),j\\46\\0460\\74k\\46\\46(j[d](\\42_tbnd\\42,void 0,a.chrome.csi().startE),j[d](\\42tbnd_\\42,\\42_tbnd\\42,k)));null\\75\\75m\\46\\46a.gtbExternal\\46\\46(m\\75a.gtbExternal.pageT());null\\75\\75m\\46\\46a.external\\46\\46(m\\75a.external.pageT,j\\46\\0460\\74k\\46\\46(j[d](\\42_tbnd\\42,void 0,a.external.startE),j[d](\\42tbnd_\\42,\\42_tbnd\\42,k)));m\\46\\46(a[b].pt\\75m)}catch(n){};a.tickAboveFold\\75function(c){var i\\0750;if(c.offsetParent){do i+\\75c.offsetTop;while(c\\75c.offsetParent)}c\\75i;750\\76\\75c\\46\\46a[b].load[d](\\42aft\\42)};var q\\75!1;function r(){q||(q\\75!0,a[b].load[d](\\42firstScrollTime\\42))}a.addEventListener?a.addEventListener(\\42scroll\\42,r,!1):a.attachEvent(\\42onscroll\\42,r);\\n })();\\74/script\\076\', \'mobileHeadScript\': \'\', \'view\': \'\', \'dynamicViewsCommentsSrc\': \'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js\', \'dynamicViewsScriptSrc\': \'//www.blogblog.com/dynamicviews/04452fcc9c8aa994\'}}, {\'name\': \'skin\', \'data\': {\'vars\': {\'sidebartextcolor\': \'#666666\', \'linkcolor\': \'#005cb9\', \'visitedlinkcolor\': \'#7f7f7f\', \'textcolor\': \'#666666\', \'headerfont\': \'normal bold 99% Times, serif\', \'pagetitlefont\': \'normal bold 283% Courier, monospace\', \'bgcolor\': \'#666666\', \'descriptioncolor\': \'#0066CC\', \'titlecolor\': \'#cc0000\', \'bordercolor\': \'#80bfff\', \'postfooterfont\': \'normal normal 69% Arial, sans-serif\', \'pagetitlecolor\': \'#005CB9\', \'bodyfont\': \'normal normal 104% Trebuchet, Trebuchet MS, Arial, sans-serif\', \'descriptionfont\': \'normal normal 62% Arial, sans-serif\', \'sidebarcolor\': \'#000000\'}, \'override\': \'\'}}, {\'name\': \'view\', \'data\': {\'classic\': {\'name\': \'classic\', \'url\': \'/?view\\75classic\'}, \'flipcard\': {\'name\': \'flipcard\', \'url\': \'/?view\\75flipcard\'}, \'magazine\': {\'name\': \'magazine\', \'url\': \'/?view\\75magazine\'}, \'mosaic\': {\'name\': \'mosaic\', \'url\': \'/?view\\75mosaic\'}, \'sidebar\': {\'name\': \'sidebar\', \'url\': \'/?view\\75sidebar\'}, \'snapshot\': {\'name\': \'snapshot\', \'url\': \'/?view\\75snapshot\'}, \'timeslide\': {\'name\': \'timeslide\', \'url\': \'/?view\\75timeslide\'}}}]);\n_WidgetManager._RegisterWidget(\'_LabelView\', new _WidgetInfo(\'Label1\', \'sidebar\', null, document.getElementById(\'Label1\'), {}, \'displayModeFull\'));\n_WidgetManager._RegisterWidget(\'_HeaderView\', new _WidgetInfo(\'Header1\', \'header\', null, document.getElementById(\'Header1\'), {}, \'displayModeFull\'));\n_WidgetManager._RegisterWidget(\'_NavbarView\', new _WidgetInfo(\'Navbar1\', \'navbar\', null, document.getElementById(\'Navbar1\'), {}, \'displayModeFull\'));\n_WidgetManager._RegisterWidget(\'_BlogView\', new _WidgetInfo(\'Blog1\', \'main\', null, document.getElementById(\'Blog1\'), {\'cmtInteractionsEnabled\': false, \'lightboxEnabled\': true, \'lightboxModuleUrl\': \'//www.blogger.com/static/v1/jsbin/2030570962-lbx.js\', \'lightboxCssUrl\': \'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css\'}, \'displayModeFull\'));\n_WidgetManager._RegisterWidget(\'_BlogArchiveView\', new _WidgetInfo(\'BlogArchive1\', \'newsidebar\', null, document.getElementById(\'BlogArchive1\'), {\'languageDirection\': \'ltr\'}, \'displayModeFull\'));\n    </script>\n  </body>\n</html>'
+p11
+sbsS'mentions'
+p12
+(lp13
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p14
+(dp15
+S'anchor_text'
+p16
+S'Toughman Contest'
+p17
+sS'context'
+p18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p19
+(dp20
+S'middle'
+p21
+S'Toughman Contest'
+p22
+sS'right'
+p23
+S'scene in the United States before entering the world of professional boxing in 1994. He was a five time World Toughman Heavyweight Champion with a'
+p24
+sS'left'
+p25
+S'owns a restaurant, Mr Bean Fighting career Boxing Known as the "King of 4 rounders", Butterbean developed a cult following after he burst onto the'
+p26
+sbsS'freebase_id'
+p27
+S'9202a8c04000641f80000000004cd5cc'
+p28
+sS'raw_text_offset'
+p29
+I27146
+sS'wiki_url'
+p30
+S'http://en.wikipedia.org/wiki/Toughman_Contest'
+p31
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p32
+(dp33
+g16
+S'April 12'
+p34
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p35
+(dp36
+g21
+S'April 12'
+p37
+sg23
+S', 1997 (which he never lost before relinquishing the title). Butterbean faced former WBC and IBF World Champion Larry Holmes in 2002, and while Holmes'
+p38
+sg25
+S'his opponents were technically limited club-level fighters early in his career, he did move up the ranks to win the IBA World Super-Heavyweight Championship on'
+p39
+sbsg27
+S'9202a8c04000641f8000000000004a81'
+p40
+sg29
+I27806
+sg30
+S'http://en.wikipedia.org/wiki/April_12'
+p41
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p42
+(dp43
+g16
+S'1997'
+p44
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p45
+(dp46
+g21
+S'1997'
+p47
+sg23
+S'(which he never lost before relinquishing the title). Butterbean faced former WBC and IBF World Champion Larry Holmes in 2002, and while Holmes won a'
+p48
+sg25
+S'technically limited club-level fighters early in his career, he did move up the ranks to win the IBA World Super-Heavyweight Championship on April 12 ,'
+p49
+sbsg27
+Nsg29
+I27877
+sg30
+S'http://en.wikipedia.org/wiki/1997'
+p50
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p51
+(dp52
+g16
+S'Larry Holmes'
+p53
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p54
+(dp55
+g21
+S'Larry Holmes'
+p56
+sg23
+S'in 2002, and while Holmes won a unanimous 10-round decision, Butterbean was credited with a controversial knockdown in the final round, the announcers had said'
+p57
+sg25
+S'IBA World Super-Heavyweight Championship on April 12 , 1997 (which he never lost before relinquishing the title). Butterbean faced former WBC and IBF World Champion'
+p58
+sbsg27
+S'9202a8c04000641f800000000010caaa'
+p59
+sg29
+I28272
+sg30
+S'http://en.wikipedia.org/wiki/Larry_Holmes'
+p60
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p61
+(dp62
+g16
+S'October 15'
+p63
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p64
+(dp65
+g21
+S'October 15'
+p66
+sg23
+S', 2005 where he lost a split decision against George Linberger for the NABC Super-Heavyweight title (whom Esch had beaten in March 2000 in his'
+p67
+sg25
+S"was credited with a controversial knockdown in the final round, the announcers had said it was a slip. Esch's most recent title shot came on"
+p68
+sbsg27
+S'9202a8c04000641f800000000002d0fd'
+p69
+sg29
+I28571
+sg30
+S'http://en.wikipedia.org/wiki/October_15'
+p70
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p71
+(dp72
+g16
+S'2005'
+p73
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p74
+(dp75
+g21
+S'2005'
+p76
+sg23
+S'where he lost a split decision against George Linberger for the NABC Super-Heavyweight title (whom Esch had beaten in March 2000 in his final defense'
+p77
+sg25
+S"a controversial knockdown in the final round, the announcers had said it was a slip. Esch's most recent title shot came on October 15 ,"
+p78
+sbsg27
+Nsg29
+I28644
+sg30
+S'http://en.wikipedia.org/wiki/2005'
+p79
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p80
+(dp81
+g16
+S'mixed martial arts'
+p82
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p83
+(dp84
+g21
+S'mixed martial arts'
+p85
+sg23
+S'. At K-1 Premium 2003 on December 31 , 2003 , Butterbean lost his first MMA bout to 155 lbs Japanese fighter Genki Sudo via'
+p86
+sg25
+S'son, Brandon "Babybean", lost in his professional debut against Matthew Eckerly . [5] Mixed Martial Arts Butterbean\'s previous fighting experiences led him to venture into'
+p87
+sbsg27
+S'9202a8c04000641f8000000000179e4f'
+p88
+sg29
+I30410
+sg30
+S'http://en.wikipedia.org/wiki/Mixed_martial_arts'
+p89
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p90
+(dp91
+g16
+S'December 31'
+p92
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p93
+(dp94
+g21
+S'December 31'
+p95
+sg23
+S', 2003 , Butterbean lost his first MMA bout to 155 lbs Japanese fighter Genki Sudo via tap out to a heel hook . Esch'
+p96
+sg25
+S"Matthew Eckerly . [5] Mixed Martial Arts Butterbean's previous fighting experiences led him to venture into mixed martial arts . At K-1 Premium 2003 on"
+p97
+sbsg27
+S'9202a8c04000641f80000000000123d0'
+p98
+sg29
+I30629
+sg30
+S'http://en.wikipedia.org/wiki/December_31'
+p99
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p100
+(dp101
+g16
+S'2003'
+p102
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p103
+(dp104
+g21
+S'2003'
+p105
+sg23
+S', Butterbean lost his first MMA bout to 155 lbs Japanese fighter Genki Sudo via tap out to a heel hook . Esch regrouped, going'
+p106
+sg25
+S"[5] Mixed Martial Arts Butterbean's previous fighting experiences led him to venture into mixed martial arts . At K-1 Premium 2003 on December 31 ,"
+p107
+sbsg27
+Nsg29
+I30703
+sg30
+S'http://en.wikipedia.org/wiki/2003'
+p108
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p109
+(dp110
+g16
+S'Genki Sudo'
+p111
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p112
+(dp113
+g21
+S'Genki Sudo'
+p114
+sg23
+S'via tap out to a heel hook . Esch regrouped, going 6-0-1 in appearances in King of the Cage , Gracie Fightfest , and Rumble'
+p115
+sg25
+S'mixed martial arts . At K-1 Premium 2003 on December 31 , 2003 , Butterbean lost his first MMA bout to 155 lbs Japanese fighter'
+p116
+sbsg27
+S'9202a8c04000641f800000000077b427'
+p117
+sg29
+I30845
+sg30
+S'http://en.wikipedia.org/wiki/Genki_Sudo'
+p118
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p119
+(dp120
+g16
+S'King of the Cage'
+p121
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p122
+(dp123
+g21
+S'King of the Cage'
+p124
+sg23
+S', Gracie Fightfest , and Rumble on the Rock including a TKO stoppage of Cabbage Correira . Esch returned to Japan with the PRIDE Fighting'
+p125
+sg25
+S'first MMA bout to 155 lbs Japanese fighter Genki Sudo via tap out to a heel hook . Esch regrouped, going 6-0-1 in appearances in'
+p126
+sbsg27
+S'9202a8c04000641f800000000081667e'
+p127
+sg29
+I31092
+sg30
+S'http://en.wikipedia.org/wiki/King_of_the_Cage'
+p128
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p129
+(dp130
+g16
+S'Rumble on the Rock'
+p131
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p132
+(dp133
+g21
+S'Rumble on the Rock'
+p134
+sg23
+S'including a TKO stoppage of Cabbage Correira . Esch returned to Japan with the PRIDE Fighting Championships on August 26 , 2006 to compete at'
+p135
+sg25
+S'Sudo via tap out to a heel hook . Esch regrouped, going 6-0-1 in appearances in King of the Cage , Gracie Fightfest , and'
+p136
+sbsg27
+Nsg29
+I31409
+sg30
+S'http://en.wikipedia.org/wiki/Rumble_on_the_Rock'
+p137
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p138
+(dp139
+g16
+S'Cabbage Correira'
+p140
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p141
+(dp142
+g21
+S'Cabbage Correira'
+p143
+sg23
+S'. Esch returned to Japan with the PRIDE Fighting Championships on August 26 , 2006 to compete at Bushido 12 against Ikuhisa Minowa , a'
+p144
+sg25
+S'Esch regrouped, going 6-0-1 in appearances in King of the Cage , Gracie Fightfest , and Rumble on the Rock including a TKO stoppage of'
+p145
+sbsg27
+S'9202a8c04000641f8000000000923b28'
+p146
+sg29
+I31539
+sg30
+S'http://en.wikipedia.org/wiki/Wesley_Correira'
+p147
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p148
+(dp149
+g16
+S'PRIDE Fighting Championships'
+p150
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p151
+(dp152
+g21
+S'PRIDE Fighting Championships'
+p153
+sg23
+S'on August 26 , 2006 to compete at Bushido 12 against Ikuhisa Minowa , a 185 lbs fighter, to whom he lost via armbar at'
+p154
+sg25
+S'the Cage , Gracie Fightfest , and Rumble on the Rock including a TKO stoppage of Cabbage Correira . Esch returned to Japan with the'
+p155
+sbsg27
+S'9202a8c04000641f800000000021bb5f'
+p156
+sg29
+I31698
+sg30
+S'http://en.wikipedia.org/wiki/PRIDE_Fighting_Championships'
+p157
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p158
+(dp159
+g16
+S'August 26'
+p160
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p161
+(dp162
+g21
+S'August 26'
+p163
+sg23
+S', 2006 to compete at Bushido 12 against Ikuhisa Minowa , a 185 lbs fighter, to whom he lost via armbar at 4:25 of round'
+p164
+sg25
+S'Fightfest , and Rumble on the Rock including a TKO stoppage of Cabbage Correira . Esch returned to Japan with the PRIDE Fighting Championships on'
+p165
+sbsg27
+S'9202a8c04000641f8000000000d9bbf3'
+p166
+sg29
+I31801
+sg30
+S'http://en.wikipedia.org/wiki/August_26'
+p167
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p168
+(dp169
+g16
+S'2006'
+p170
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p171
+(dp172
+g21
+S'2006'
+p173
+sg23
+S'to compete at Bushido 12 against Ikuhisa Minowa , a 185 lbs fighter, to whom he lost via armbar at 4:25 of round one. Less'
+p174
+sg25
+S'Rumble on the Rock including a TKO stoppage of Cabbage Correira . Esch returned to Japan with the PRIDE Fighting Championships on August 26 ,'
+p175
+sbsg27
+Nsg29
+I31873
+sg30
+S'http://en.wikipedia.org/wiki/2006'
+p176
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p177
+(dp178
+g16
+S'Ikuhisa Minowa'
+p179
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p180
+(dp181
+g21
+S'Ikuhisa Minowa'
+p182
+sg23
+S', a 185 lbs fighter, to whom he lost via armbar at 4:25 of round one. Less than two months later, Butterbean was scheduled to'
+p183
+sg25
+S'stoppage of Cabbage Correira . Esch returned to Japan with the PRIDE Fighting Championships on August 26 , 2006 to compete at Bushido 12 against'
+p184
+sbsg27
+S'9202a8c04000641f800000000088db60'
+p185
+sg29
+I31992
+sg30
+S'http://en.wikipedia.org/wiki/Ikuhisa_Minowa'
+p186
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p187
+(dp188
+g16
+S'K-1'
+p189
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p190
+(dp191
+g21
+S'K-1'
+p192
+sg23
+S"legend Mark Hunt at Pride FC's first North American show on October 21 , 2006 . Due to an injury Hunt sustained in training, Esch"
+p193
+sg25
+S'a 185 lbs fighter, to whom he lost via armbar at 4:25 of round one. Less than two months later, Butterbean was scheduled to fight'
+p194
+sbsg27
+S'9202a8c04000641f80000000002d4dd5'
+p195
+sg29
+I32197
+sg30
+S'http://en.wikipedia.org/wiki/K-1'
+p196
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p197
+(dp198
+g16
+S'Mark Hunt'
+p199
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p200
+(dp201
+g21
+S'Mark Hunt'
+p202
+sg23
+S"at Pride FC's first North American show on October 21 , 2006 . Due to an injury Hunt sustained in training, Esch was matched up"
+p203
+sg25
+S'lbs fighter, to whom he lost via armbar at 4:25 of round one. Less than two months later, Butterbean was scheduled to fight K-1 legend'
+p204
+sbsg27
+S'9202a8c04000641f80000000004ee4bd'
+p205
+sg29
+I32279
+sg30
+S'http://en.wikipedia.org/wiki/Mark_Hunt'
+p206
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p207
+(dp208
+g16
+S'October 21'
+p209
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p210
+(dp211
+g21
+S'October 21'
+p212
+sg23
+S", 2006 . Due to an injury Hunt sustained in training, Esch was matched up against Irish-American professional wrestler and mixed martial artist Sean O'Haire"
+p213
+sg25
+S"of round one. Less than two months later, Butterbean was scheduled to fight K-1 legend Mark Hunt at Pride FC's first North American show on"
+p214
+sbsg27
+S'9202a8c04000641f800000000002d153'
+p215
+sg29
+I32405
+sg30
+S'http://en.wikipedia.org/wiki/October_21'
+p216
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p217
+(dp218
+g16
+S'2006'
+p219
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p220
+(dp221
+g21
+S'2006'
+p222
+sg23
+S". Due to an injury Hunt sustained in training, Esch was matched up against Irish-American professional wrestler and mixed martial artist Sean O'Haire , whom"
+p223
+sg25
+S"Less than two months later, Butterbean was scheduled to fight K-1 legend Mark Hunt at Pride FC's first North American show on October 21 ,"
+p224
+sbsg27
+Nsg29
+I32478
+sg30
+S'http://en.wikipedia.org/wiki/2006'
+p225
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p226
+(dp227
+g16
+S'kickboxing'
+p228
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p229
+(dp230
+g21
+S'kickboxing'
+p231
+sg23
+S'in 2003. His first bout was a 1st round knockout of two-time K-1 World Champion Yusuke Fujimoto at K-1 Beast , which came just two'
+p232
+sg25
+S'Loss Genki Sudo K-1 Premium 2003 Dynamite Submission (Heel Hook) Round 2, 0:41 Kickboxing Like several other popular boxers, Butterbean ventured into the sport of'
+p233
+sbsg27
+S'9202a8c04000641f80000000000221ae'
+p234
+sg29
+I51090
+sg30
+S'http://en.wikipedia.org/wiki/Kickboxing'
+p235
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p236
+(dp237
+g16
+S'June 13'
+p238
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p239
+(dp240
+g21
+S'June 13'
+p241
+sg23
+S', 2003 . Esch eventually evolved into a complete mixed martial artist and is no longer an active professional kickboxer, having his last K-1 standup'
+p242
+sg25
+S'Champion Yusuke Fujimoto at K-1 Beast , which came just two weeks after his 1st round knockout over Troy Roberts in a boxing match on'
+p243
+sbsg27
+S'9202a8c04000641f8000000000020379'
+p244
+sg29
+I51520
+sg30
+S'http://en.wikipedia.org/wiki/June_13'
+p245
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p246
+(dp247
+g16
+S'2003'
+p248
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p249
+(dp250
+g21
+S'2003'
+p251
+sg23
+S'. Esch eventually evolved into a complete mixed martial artist and is no longer an active professional kickboxer, having his last K-1 standup appearance in'
+p252
+sg25
+S'at K-1 Beast , which came just two weeks after his 1st round knockout over Troy Roberts in a boxing match on June 13 ,'
+p253
+sbsg27
+Nsg29
+I51590
+sg30
+S'http://en.wikipedia.org/wiki/2003'
+p254
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p255
+(dp256
+g16
+S'K-1'
+p257
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p258
+(dp259
+g21
+S'K-1'
+p260
+sg23
+S"standup appearance in July 2005. 2 Wins - 3 Losses - 0 Draw (1 KO's) Date Result Opponent Event Method Round, Time 07/29/2005 Win Marcus"
+p261
+sg25
+S'June 13 , 2003 . Esch eventually evolved into a complete mixed martial artist and is no longer an active professional kickboxer, having his last'
+p262
+sbsg27
+S'9202a8c04000641f80000000002d4dd5'
+p263
+sg29
+I51783
+sg30
+S'http://en.wikipedia.org/wiki/K-1'
+p264
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p265
+(dp266
+g16
+S'In Your House'
+p267
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p268
+(dp269
+g21
+S'In Your House'
+p270
+sg23
+S'19: D-Generation X pay-per-view event, he defeated Marc Mero (former Golden Gloves champion) via disqualification in a worked match . Two years later, Butterbean defeated'
+p271
+sg25
+S'K-1 Beast II 2003 KO Round 1, 1:02 WWE appearances Butterbean has appeared twice in WWE events competing in boxing matches. In 1997, at the'
+p272
+sbsg27
+S'9202a8c04000641f800000000031d82a'
+p273
+sg29
+I56860
+sg30
+S'http://en.wikipedia.org/wiki/In_Your_House'
+p274
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p275
+(dp276
+g16
+S'Marc Mero'
+p277
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p278
+(dp279
+g21
+S'Marc Mero'
+p280
+sg23
+S'(former Golden Gloves champion) via disqualification in a worked match . Two years later, Butterbean defeated Bart Gunn in a legitimate shootfight at WrestleMania XV'
+p281
+sg25
+S'Butterbean has appeared twice in WWE events competing in boxing matches. In 1997, at the In Your House 19: D-Generation X pay-per-view event, he defeated'
+p282
+sbsg27
+S'9202a8c04000641f8000000000567df9'
+p283
+sg29
+I56996
+sg30
+S'http://en.wikipedia.org/wiki/Marc_Mero'
+p284
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p285
+(dp286
+g16
+S'Golden Gloves'
+p287
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p288
+(dp289
+g21
+S'Golden Gloves'
+p290
+sg23
+S'champion) via disqualification in a worked match . Two years later, Butterbean defeated Bart Gunn in a legitimate shootfight at WrestleMania XV , defeating the'
+p291
+sg25
+S'twice in WWE events competing in boxing matches. In 1997, at the In Your House 19: D-Generation X pay-per-view event, he defeated Marc Mero (former'
+p292
+sbsg27
+S'9202a8c04000641f800000000013b33d'
+p293
+sg29
+I57093
+sg30
+S'http://en.wikipedia.org/wiki/Golden_Gloves'
+p294
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p295
+(dp296
+g16
+S'Bart Gunn'
+p297
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p298
+(dp299
+g21
+S'Bart Gunn'
+p300
+sg23
+S'in a legitimate shootfight at WrestleMania XV , defeating the Brawl For All champion with ease, knocking him out in 27 seconds. Media appearances Movies'
+p301
+sg25
+S'19: D-Generation X pay-per-view event, he defeated Marc Mero (former Golden Gloves champion) via disqualification in a worked match . Two years later, Butterbean defeated'
+p302
+sbsg27
+S'9202a8c04000641f800000000061511f'
+p303
+sg29
+I57420
+sg30
+S'http://en.wikipedia.org/wiki/Bart_Gunn'
+p304
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p305
+(dp306
+g16
+S'WrestleMania XV'
+p307
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p308
+(dp309
+g21
+S'WrestleMania XV'
+p310
+sg23
+S', defeating the Brawl For All champion with ease, knocking him out in 27 seconds. Media appearances Movies Butterbean appeared in the film Jackass: The'
+p311
+sg25
+S'Marc Mero (former Golden Gloves champion) via disqualification in a worked match . Two years later, Butterbean defeated Bart Gunn in a legitimate shootfight at'
+p312
+sbsg27
+S'9202a8c04000641f800000000049ebba'
+p313
+sg29
+I57622
+sg30
+S'http://en.wikipedia.org/wiki/WrestleMania_XV'
+p314
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p315
+(dp316
+g16
+S'Brawl For All'
+p317
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p318
+(dp319
+g21
+S'Brawl For All'
+p320
+sg23
+S'champion with ease, knocking him out in 27 seconds. Media appearances Movies Butterbean appeared in the film Jackass: The Movie , where he fought Johnny'
+p321
+sg25
+S'champion) via disqualification in a worked match . Two years later, Butterbean defeated Bart Gunn in a legitimate shootfight at WrestleMania XV , defeating the'
+p322
+sbsg27
+S'9202a8c04000641f80000000008efea9'
+p323
+sg29
+I57752
+sg30
+S'http://en.wikipedia.org/wiki/Brawl_For_All'
+p324
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p325
+(dp326
+g16
+S'Jackass: The Movie'
+p327
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p328
+(dp329
+g21
+S'Jackass: The Movie'
+p330
+sg23
+S', where he fought Johnny Knoxville in a department store, where Knoxville was floored by Esch and received several stitches in his head after the'
+p331
+sg25
+S'WrestleMania XV , defeating the Brawl For All champion with ease, knocking him out in 27 seconds. Media appearances Movies Butterbean appeared in the film'
+p332
+sbsg27
+S'9202a8c04000641f800000000045b7f2'
+p333
+sg29
+I58382
+sg30
+S'http://en.wikipedia.org/wiki/Jackass:_The_Movie'
+p334
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p335
+(dp336
+g16
+S'Johnny Knoxville'
+p337
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p338
+(dp339
+g21
+S'Johnny Knoxville'
+p340
+sg23
+S'in a department store, where Knoxville was floored by Esch and received several stitches in his head after the encounter (the camera catches the concussed'
+p341
+sg25
+S'All champion with ease, knocking him out in 27 seconds. Media appearances Movies Butterbean appeared in the film Jackass: The Movie , where he fought'
+p342
+sbsg27
+S'9202a8c04000641f8000000000204937'
+p343
+sg29
+I58507
+sg30
+S'http://en.wikipedia.org/wiki/Johnny_Knoxville'
+p344
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p345
+(dp346
+g16
+S'snoring'
+p347
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p348
+(dp349
+g21
+S'snoring'
+p350
+sg23
+S'). However, it is obvious in the movie that Butterbean gives Knoxville several rabbit punches as Knoxville was going down (he even says to Knoxville'
+p351
+sg25
+S'a department store, where Knoxville was floored by Esch and received several stitches in his head after the encounter (the camera catches the concussed Knoxville'
+p352
+sbsg27
+S'9202a8c04000641f8000000000160f0c'
+p353
+sg29
+I58756
+sg30
+S'http://en.wikipedia.org/wiki/Snoring'
+p354
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p355
+(dp356
+g16
+S'rabbit punches'
+p357
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p358
+(dp359
+g21
+S'rabbit punches'
+p360
+sg23
+S'as Knoxville was going down (he even says to Knoxville "C\'mon, hit me at least once" and offers his cheek, which is punched before he'
+p361
+sg25
+S'his head after the encounter (the camera catches the concussed Knoxville snoring ). However, it is obvious in the movie that Butterbean gives Knoxville several'
+p362
+sbsg27
+S'9202a8c04000641f80000000057045c2'
+p363
+sg29
+I58943
+sg30
+S'http://en.wikipedia.org/wiki/Rabbit_punches'
+p364
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p365
+(dp366
+g16
+S'EA Sports'
+p367
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p368
+(dp369
+g21
+S'EA Sports'
+p370
+sg23
+S'title "Toughman Contest" released in July 1995 for the Sega Genesis and Sega 32X . [12] He also appeared as a playable character in the'
+p371
+sg25
+S'Cleveland, Ohio . See video at [11] Video games Butterbean was featured as the cover character as well as the final boss character in the'
+p372
+sbsg27
+S'9202a8c04000641f80000000002314cf'
+p373
+sg29
+I61837
+sg30
+S'http://en.wikipedia.org/wiki/EA_Sports'
+p374
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p375
+(dp376
+g16
+S'Sega Genesis'
+p377
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p378
+(dp379
+g21
+S'Sega Genesis'
+p380
+sg23
+S'and Sega 32X . [12] He also appeared as a playable character in the EA Sports boxing video game Knockout Kings 2001 . Posted by'
+p381
+sg25
+S'featured as the cover character as well as the final boss character in the EA Sports title "Toughman Contest" released in July 1995 for the'
+p382
+sbsg27
+S'9202a8c04000641f80000000007cc93d'
+p383
+sg29
+I61999
+sg30
+S'http://en.wikipedia.org/wiki/Sega_Genesis'
+p384
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p385
+(dp386
+g16
+S'Sega 32X'
+p387
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p388
+(dp389
+g21
+S'Sega 32X'
+p390
+sg23
+S'. [12] He also appeared as a playable character in the EA Sports boxing video game Knockout Kings 2001 . Posted by Admin. at 11:22'
+p391
+sg25
+S'cover character as well as the final boss character in the EA Sports title "Toughman Contest" released in July 1995 for the Sega Genesis and'
+p392
+sbsg27
+S'9202a8c04000641f80000000000397b1'
+p393
+sg29
+I62085
+sg30
+S'http://en.wikipedia.org/wiki/Sega_32X'
+p394
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p395
+(dp396
+g16
+S'EA Sports'
+p397
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p398
+(dp399
+g21
+S'EA Sports'
+p400
+sg23
+S'boxing video game Knockout Kings 2001 . Posted by Admin. at 11:22 PM 0 comments \xc2\xa0 About Kimbo Slice Kevin Ferguson (born on February 8,'
+p401
+sg25
+S'title "Toughman Contest" released in July 1995 for the Sega Genesis and Sega 32X . [12] He also appeared as a playable character in the'
+p402
+sbsg27
+S'9202a8c04000641f80000000002314cf'
+p403
+sg29
+I62433
+sg30
+S'http://en.wikipedia.org/wiki/EA_Sports'
+p404
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p405
+(dp406
+g16
+S'Knockout Kings 2001'
+p407
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p408
+(dp409
+g21
+S'Knockout Kings 2001'
+p410
+sg23
+S'. Posted by Admin. at 11:22 PM 0 comments \xc2\xa0 About Kimbo Slice Kevin Ferguson (born on February 8, 1974), better known as Kimbo Slice,'
+p411
+sg25
+S'July 1995 for the Sega Genesis and Sega 32X . [12] He also appeared as a playable character in the EA Sports boxing video game'
+p412
+sbsg27
+S'9202a8c04000641f80000000000af8fb'
+p413
+sg29
+I62572
+sg30
+S'http://en.wikipedia.org/wiki/Knockout_Kings_2001'
+p414
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p415
+(dp416
+g16
+S'K-1 Premium 2003'
+p417
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p418
+(dp419
+g21
+S'K-1 Premium 2003'
+p420
+sg23
+S'on December 31 , 2003 , Butterbean lost his first MMA bout to 155 lbs Japanese fighter Genki Sudo via tap out to a heel'
+p421
+sg25
+S"his professional debut against Matthew Eckerly . [5] Mixed Martial Arts Butterbean's previous fighting experiences led him to venture into mixed martial arts . At"
+p422
+sbsg27
+S'9202a8c04000641f8000000000eaf61b'
+p423
+sg29
+I30534
+sg30
+S'http://en.wikipedia.org/wiki/K-1_Premium_Dynamite!!'
+p424
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p425
+(dp426
+g16
+S'Chairman of the Board'
+p427
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p428
+(dp429
+g21
+S'Chairman of the Board'
+p430
+sg23
+S'as the Museum Security Guard with the "chia hair", a fact that is pointed out on the DVD commentary by the movie\'s star Scott "Carrot'
+p431
+sg25
+S'Butterbean then replied, "You don\'t have to ask me twice." Knoxville then claimed he knew he was in trouble. Butterbean also appeared in the film'
+p432
+sbsg27
+S'9202a8c04000641f80000000003ed18b'
+p433
+sg29
+I59792
+sg30
+S'http://en.wikipedia.org/wiki/Chairman_of_the_Board_(film)'
+p434
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Mention
+p435
+(dp436
+g16
+S"Sean O'Haire"
+p437
+sg18
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+Context
+p438
+(dp439
+g21
+S"Sean O'Haire"
+p440
+sg23
+S'PRIDE 32 - Real Deal TKO (Punches) Round 1, 0:29 08/26/2006 Loss Ikuhisa Minowa PRIDE Bushido 12 Submission (Armbar) Round 1, 4:25 07/15/2006 Win Rich'
+p441
+sg25
+S'Ring KO (Right Punch) Round 1, 0:45 12/09/2006 Loss Rob Broughton Cage Rage 19 - Fearless Submission (Tap To Strikes) Round 2, 3:43 10/21/2006 Win'
+p442
+sbsg27
+S'9202a8c04000641f80000000004d69d2'
+p443
+sg29
+I32698
+sg30
+S"http://en.wikipedia.org/wiki/Sean_O'Haire"
+p444
+sbasS'doc_id'
+p445
+I56549
+sS'rare_words'
+p446
+(lp447
+(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p448
+(dp449
+S'word'
+p450
+S'burst'
+p451
+sS'offset'
+p452
+I27050
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p453
+(dp454
+g450
+S'cry'
+p455
+sg452
+I70380
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p456
+(dp457
+g450
+S'heel'
+p458
+sg452
+I30950
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p459
+(dp460
+g450
+S'medical'
+p461
+sg452
+I59141
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p462
+(dp463
+g450
+S'David'
+p464
+sg452
+I69205
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p465
+(dp466
+g450
+S'efforts'
+p467
+sg452
+I64231
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p468
+(dp469
+g450
+S'ringside'
+p470
+sg452
+I59363
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p471
+(dp472
+g450
+S'WAA'
+p473
+sg452
+I28951
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p474
+(dp475
+g450
+S"FC's"
+p476
+sg452
+I32302
+sba(iedu.umass.cs.iesl.wikilink.expanded.data.ttypes
+RareWord
+p477
+(dp478
+g450
+S'rules'
+p479
+sg452
+I69037
+sbasb.

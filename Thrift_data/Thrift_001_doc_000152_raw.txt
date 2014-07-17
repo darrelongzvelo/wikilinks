@@ -1,0 +1,4593 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); El Pollo Real: August 2010 <!-- /*
+----------------------------------------------- Blogger Template Style Name: Minima
+Date: 26 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff"> <Variable name="textcolor" description="Text Color"
+type="color" default="#333"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#58a"> <Variable name="pagetitlecolor" description="Blog Title
+Color" type="color" default="#666"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#999"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#c60">
+<Variable name="bordercolor" description="Border Color" type="color" default="#ccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#999"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#999"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% Georgia, Serif"> <Variable
+name="headerfont" description="Sidebar Title Font" type="font" default="normal normal
+78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable
+name="pagetitlefont" description="Blog Title Font" type="font" default="normal normal
+200% Georgia, Serif"> <Variable name="descriptionfont" description="Blog Description
+Font" type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="postfooterfont" description="Post Footer Font"
+type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="startSide" description="Side where text starts in blog
+language" type="automatic" default="left"> <Variable name="endSide"
+description="Side where text ends in blog language" type="automatic" default="right"> */
+/* Use this with templates/template-twocol.html */ body { background:#ffffff; margin:0;
+color:#333333; font:x-small Georgia Serif; font-size/* */:/**/small; font-size:
+/**/small; text-align: center; } a:link { color:#5588aa; text-decoration:none; }
+a:visited { color:#999999; text-decoration:none; } a:hover { color:#cc6600;
+text-decoration:underline; } a img { border-width:0; } /* Header
+----------------------------------------------- */ #header-wrapper { width:660px;
+margin:0 auto 10px; border:1px solid #cccccc; } #header-inner { background-position:
+center; margin-left: auto; margin-right: auto; } #header { margin: 5px; border: 1px solid
+#cccccc; text-align: center; color:#666666; } #header h1 { margin:5px 5px 0; padding:15px
+20px .25em; line-height:1.2em; text-transform:uppercase; letter-spacing:.2em; font:
+normal normal 200% Georgia, Serif; } #header a { color:#666666; text-decoration:none; }
+#header a:hover { color:#666666; } #header .description { margin:0 5px 5px; padding:0 20px
+15px; max-width:700px; text-transform:uppercase; letter-spacing:.2em; line-height:
+1.4em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+color: #999999; } #header img { margin-left: auto; margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 660px;
+margin:0 auto; padding:10px; text-align:left; font: normal normal 100% Georgia, Serif; }
+#main-wrapper { width: 410px; float: left; word-wrap: break-word; /* fix for long text
+breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE
+sidebar float */ } #sidebar-wrapper { width: 220px; float: right; word-wrap: break-word; /*
+fix for long text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text
+content breaking IE sidebar float */ } /* Headings
+----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+font:normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.2em; color:#999999; }
+/* Posts ----------------------------------------------- */ h2.date-header {
+margin:1.5em 0 .5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #cccccc;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#cc6600; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#cc6600;
+font-weight:normal; } .post h3 strong, .post h3 a:hover { color:#333333; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#999999; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; line-height: 1.4em; } .comment-link { margin-left:.6em; } .post img,
+table.tr-caption-container { padding:4px; border:1px solid #cccccc; }
+.tr-caption-container img { border: none; padding: 0; } .post blockquote { margin:1em 20px;
+} .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #999999; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+#blog-pager-newer-link { float: left; } #blog-pager-older-link { float: right; }
+#blog-pager { text-align: center; } .feed-links { clear: both; line-height: 2.5em; } /*
+Sidebar Content ----------------------------------------------- */ .sidebar { color:
+#666666; line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; }
+.sidebar li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #cccccc; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #cccccc; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; color: #999999; font-weight: bold; line-height: 1.6em; } .profile-datablock
+{ margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:660px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0756130126685334700207\46blogName\75El+Pollo+Real\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://acrazychicken.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://acrazychicken.blogspot.com/\46vt\0751190734581214001778',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+El Pollo Real
+
+
+
+In a perfectly green world, the past is recycled and is not allowed to accumulate
+
+Tuesday, August 31, 2010
+
+
+
+
+
+
+
+Chemistry Is Like Sex: Coupling Illustrated
+
+G.N. Lewis (I wrote about him back here ) was from Berkeley and thus a bit more liberal when
+defining acids and bases: He gave more general definitions of them than BrÃžnsted and
+Lowry did. And while more open-minded, Lewis was a bit of a chauvinist when he argued that a
+base's precious electrons helped "complete the octet" of an acid when they coupled.
+
+
+
+Consider the coupling of a simple base, ammonia, with a simple Lewis acid, borane. If you're
+a jaded chemist who has "seen it all" you might consider just skipping to this link dealing
+with borane and ammonia making borazane as a hydrogen fuel energy source.
+
+
+
+We already "know" what ammonia looks like here --but what about borane?  I wrote a bit about
+boron the element back  here .  Turns out that the word "boron" is etymologically linked to
+the Arabic tongue as well, via the word borax .  Borane, BH 3 , is a natural fit for ammonia's
+lone pair.  Consider its structure:
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_nOTdqVGnOTk/THaoDlScWZI/AAAAAAAAApI/WtoGldtUKxk/s320/bh3.gif
+
+BH 3 looks a bit like NH 3 but completely lacks a lone pair.  BH 3  has only six surrounding
+electrons instead of eight and so is electronically unfulfilled. In the absence of an
+available lone pair, BH 3 readily dimerizes in a head-to-tail fashion with another sister BH 3
+molecule to form B 2 H 6 . Here's an illustration of two BH 3 's getting it on together:
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_nOTdqVGnOTk/THf4oujR0TI/AAAAAAAAApQ/87H4wcOzZwA/s200/Lipscomb_diborane_b2h6_atomic_diagram.png
+When NH 3 and BH 3 prepare to bond, a natural question is where should NH 3 put its lone pair? 
+BH 3 has what's called a "virtual orbital" (there's nothing virtuous about it).  A virtual
+orbital is just an empty electron orbital. It has metes and bounds, despite there being
+nothing there there. Here's a lurid depiction of borane's virtual orbital:
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_nOTdqVGnOTk/THf65JQYv7I/AAAAAAAAApY/pW0CQMp_Ssk/s200/BH3-L.jpg
+
+It's a bit hard to see in the depiction above but all three of borane's tripodal hydrogen limbs
+are squished flat into a planar configuration between the two juicy globes. The red and blue
+empty lobes are equivalent in the eyes of an incoming lone pair: Borane's empty orbital can be
+approached from above or below.  As the ammonia approaches one side of borane, one empty lobe
+enlarges to accept the lone pair while the other shrinks. Also, borane's little hydrogen
+limbs fold back away from the incoming lone pair to accommodate the fit.  The final
+coupling product looks like this:
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_nOTdqVGnOTk/THg9k4TblJI/AAAAAAAAApg/xki18j6-iG8/s400/800px-Ammonia-borane-resonance-2D.png
+
+BH 3 , with the help of ammonia's lone pair, now has an octet of electrons.  Posted by
+
+
+
+chickelit at
+
+
+
+11:14 PM 2 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Boron , Chemistry
+, Chemistry is like sex , hypothesis , nitrogen
+
+
+
+
+
+What Do Electrons Look Like?
+
+I've begun to wonder what naked electrons might look like in my advanced middle age. They
+certainly have shapes and symmetrical features. But are they really invisible? X-rays and
+other electrons can partially locate them and give us complex maps of their densities.
+ Here's an unusual depiction of benzene, a six-sided ring of carbon atoms with six hydrogen
+appendices:
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_nOTdqVGnOTk/S-xPqc3VmxI/AAAAAAAAAcs/hXKkvb_t5UU/s320/benzene.jpeg
+Electron density map of benzene
+
+If pondering what electrons in molecular orbitals look like is weird, consider empty
+electron orbitals, i.e., virtual orbitals.  Something really bothers me about virtual
+orbitals: they're not there there. It really is like something that's invisible--like the
+invisible monster in this Jonny Quest link . Posted by
+
+
+
+chickelit at
+
+
+
+10:29 PM 4 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: cartoons , Jonny
+Quest
+
+
+
+
+
+The Basics Of How Chemistry Is Like Sex
+
+Anyone who has cleaned with Windex has whiffed ammonia, a substance with a rich and
+interesting history that includes its very name:  link .  Note that ammonia was once
+called animal alkali . Muslims-in-science scholars should take note of the origin of the word
+alkali , but should take care not to get the concept of alkaline bases etymologically confused
+with that other Arabic word meaning base .
+
+
+
+Ammonia gas easily condenses into a liquid when compressed (Albert Einstein and his
+erstwhile student LeÃ³ SzilÃ¡rd once patented a refrigerator with no moving parts that
+used ammonia instead of freon). If SzilÃ¡rd's idea had gone anywhere, he may not have
+bothered to have conceived the atomic bomb.
+
+
+
+Ammonia has been variously depicted as NH 3 or better as :NH 3 or better still with its
+electron "lone pair" on full display, as:
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_nOTdqVGnOTk/THahft6Bc6I/AAAAAAAAApA/wDX8RxtykDs/s200/Ammonia-lone-pair-2D.png
+The lobe-like appendage sticking up is called a "lone pair" because there are two electrons
+in the orbital and because they're not associated with any atom except nitrogen.  Some
+depictions of ammonia omit the lone pair but here I prefer the "fig leaf is off" depiction.
+
+
+
+Ammonia is perpetually in search of an acid to quench its baser instincts. Given a proton like H
++ , ammonia and the proton instantly couple to make ammonium NH 4 + in which all four H's become
+equivalent. In a real sense, the incoming acid polarizes the other three H's, sucking
+electrons away from them, making them all more acidic.
+
+
+
+Posted by
+
+
+
+chickelit at
+
+
+
+10:00 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: alchemy ,
+Chemistry is like sex , Hydrogen , hypothesis , nitrogen
+
+
+
+
+
+Acerbic Wet
+
+The Danes and the Brits pioneered graphic depictions of simple chemical reactivity.
+BrÃžnsted and Lowry independently shocked early 20th century chemists with their
+notions of spontaneous self-ionization of water:
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_nOTdqVGnOTk/THpsTUHk0aI/AAAAAAAAAp4/_Ey7n5euqps/s320/340px-Autoprotolyse_eau.svg.png
+
+BrÃžnsted-Lowry theory explains how even the purest distilled water conducts
+electricity (which requires something charged). In their scheme, one water acts like a base
+by accepting a proton, while the other one acts like an acid, donating a proton. The slight but
+measurable extent of such H-swapping is real enough--a normal glass of water has a measurable
+concentration of H 3 O + of about 10 -7 units or a pH of 7 (pH is like a Richter scale). An equal &
+countervailing amount of hydroxide, OH - neutralizes the acid.
+
+
+
+Now consider adding anything to that glass of water which increases the amount of H 3 O +  (but
+not OH - ).  Such a thing which donates an H + to a neutral water molecule is called an acid in
+English.  The Germans call them SÃ€ure , which is related to our word sour. Svante
+Arrhenius (the august savant who also thought up AGW), came up with the idea first. Posted by
+
+
+
+chickelit at
+
+
+
+5:56 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Chemistry ,
+Chemistry is like sex , History of Chemistry , Hydrogen , oxygen
+
+Sunday, August 29, 2010
+
+
+
+
+
+
+
+The Red Baron (2010)
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_nOTdqVGnOTk/THpwPSIddGI/AAAAAAAAAqA/Kw9rME_wryA/s400/Bundesarchiv_Bild_183-2004-0430-501,_Jagdstaffel_11,_Manfred_v._Richthofen.jpg
+
+
+
+What great drama, The Red Baron  is.
+
+
+
+See it!
+
+
+
+Discuss! Posted by
+
+
+
+chickelit at
+
+
+
+7:38 AM 2 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: WW I
+
+Saturday, August 28, 2010
+
+
+
+
+
+
+
+Urban Reclamation: Help Wanted-None
+
+
+
+Image:
+http://2.bp.blogspot.com/_nOTdqVGnOTk/THlaunaoJrI/AAAAAAAAApo/QVFUNHT3m_8/s320/help+wanted.jpg
+click to enlarge
+
+
+
+Image:
+http://2.bp.blogspot.com/_nOTdqVGnOTk/THlbUb-x4EI/AAAAAAAAApw/O0N6mujBdcs/s320/demolition.jpg
+click to enlarge
+
+Posted by
+
+
+
+chickelit at
+
+
+
+11:56 AM 3 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1984 , Cleveland ,
+Reclamation
+
+Friday, August 27, 2010
+
+
+
+Cash Cab Fridays
+
+The fall school semester started yesterday and I resumed what we call Cash Cab Friday today. 
+I drive my two kids to the local middle school along with a neighbor kid in the mornings.  The
+drive is short--10 minutes tops-- but just long enough to pick their little brains. 
+
+
+
+I ask them questions as a group and they have to formulate the answer together just like on the TV
+show.  Each correct answer is worth a quarter which I pay out in cash. Last year I tried to
+formulate themes for the inquisitions like math, history, geography, but usually tilted
+towards things that I think they should know.  I also try to challenge them too with unusual
+practical things that strike me as interesting.  Believe me, I learn a lot too just
+formulating the questions in a straight forward way.
+
+
+
+Today's questions included:
+
+
+
+What are a skunk's two natural means of defense?
+
+
+
+Correct answer is of course the odor gland but also the distinct white stripe: no other
+mammal has this and baby skunks have them at birth.  The stripe is a visual defense cue "hey,
+leave me alone I'm a skunk." A challenge question was "what is the skunk's natural
+predator? " The answer is large birds of prey that  mostly lack a sense of smell.
+
+
+
+Another question was: "what's the last day of summer called?"  Fall equinox. "What is the
+significance of the fall equinox?" The answer I was looking for of course was the day on which
+day and night are equal.  They missed that one. That cued me into a little mini lesson of
+equinoxes, and solstices. 
+
+
+
+Another question was: "name three common household appliances that heat water".  Water
+heater, stove, microwave were all accepted as answers. Dishwasher was not because it uses
+household hot water and heats inside to dry.
+
+
+
+"Name three common household appliances which heat air." Answers accepted were clothes
+dryer, dishwasher, hairdryer.
+
+
+
+I'm also trying to get them to distinguish between appliances that use electricity and those
+which use natural gas.
+
+
+
+It turns out that I have two budding math geniuses along for the ride.  The neighbor boy, in 7th
+grade, is skipping 7th grade math and going to 8th grade math. My daughter, just starting 6th
+grade, pegged the standardized math test last year and so we're hoping she continues her
+interest. Posted by
+
+
+
+chickelit at
+
+
+
+10:05 AM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Cash Cab ,
+parenting
+
+Wednesday, August 25, 2010
+
+
+
+The Essence of Distillation
+
+Distillation is an ancient art, bequeathed to the Western world by medieval alchemy. If
+someone were serious about Muslim contributions to science, I suggest starting with the
+alchemists .
+
+
+
+I once wrote the blogger vbspurs a mini-lesson on coffee making using a stovetop espresso
+maker:
+
+Yes. BTW, the different aesthetic designs of those things actually hide the true inner
+beauty: upwards steam extraction of oils and essences, a short retort, and then a gentle
+collection cup, shielded from direct heat. We've own[ed] several designs, but they're
+really all the same. link Many substances won't distill and the technique is really only
+useful for liquids in a chemistry lab or at an oil refinery. I found a totally cool
+description of how petroleum distillation works here .
+
+
+
+The essence of an idea can be distilled from crude thought too. All it takes is a little focused
+energy--just enough to set it free from context--and a little care in gathering and enjoying
+it. Posted by
+
+
+
+chickelit at
+
+
+
+11:56 AM 5 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: alchemy ,
+Chemistry , hypothesis , vbspurs
+
+
+
+
+
+Letters Home: "I just got off K.P. What a day for it, on my birthday."
+
+My father quickly settled into the new barracks in Germany. On his birthday he wrote home
+asking for news. He also described sending gifts home, an adventure, a surprise meeting of
+an old acquaintance, and a little souvenir that I now have.
+
+
+
+August 25, 1952
+
+Nellingen Casern
+
+
+
+
+
+Dear Mom and Dad and all,
+
+
+
+
+
+I just got off K.P. What a day for it, on my birthday.
+
+
+
+NELLINGEN CASERN is the name of the camp. It's 12 1/2 miles to Stuttgart. Yvonne N. is the girl I
+got a letter from, Ilene W's cousin.   What model Ford did R. get? Is the Merc. still running?
+What did Jr. do with the old '36 Ford pickup? Did R. junk the 'Hot Rod'?
+
+
+
+Last Thur. and Fri. about 50 of us drove 2 1/2 ton trucks to another camp near Nurnberg. It's 122
+miles from here and it took 2 days to make two trips. One kid wrecked his so they won't let him
+drive anymore.  I think we make another trip tomorrow.   The second day I was over here I met
+Marvin W. in the mess hall. He sure was surprised to see me. He's on a track team and has been
+traveling all over Europe. He said he was going to Finland in Sept. to run . [1] We saw some pretty
+country. I've been to town once so far. You can buy anything you want awful cheap. The only catch
+is it costs a lot to send anything to the States.  It cost one guy $4.80 to send a music box home by
+airmail. That's more than the music box cost. I bought a stein (or you could call it a beer mug)
+with a music box in the bottom that plays the 3rd man theme. [2]  It's made out of china so it will
+be hard to send. It looks something like this. [3]
+
+
+
+Image:
+http://4.bp.blogspot.com/_nOTdqVGnOTk/THKJaex6FDI/AAAAAAAAAoI/Yrc_Mbw6UDg/s320/stein.jpg
+click to enlarge Payday I will send you a head scarf.  It's got a map of Germany on it hand
+painted but won't wash out.
+
+I got a letter from M. today too. [4] It took her letter 7 days by 3¢ and yours came in 4 days. How
+long does it take mine to get there?  You should have gotten two letters from me. One I mailed
+from France.  I'll send more pictures next letter.   I can't think of much to say as we don't do
+too much of anything.   Send my drivers license over. I will have to have them to get Eucom
+License's. So far all I got is a permit to drive.     I might buy a motorcycle in March if I can
+save $200 from what I don't send home. I should get $50.00 the first.   This is all for now.
+
+love,
+
+V. ___________________
+
+[1] The 1952 Summer Olympics were in Helsinki.
+
+
+
+[2] The theme song from the film The Third Man (1949):  link   And here's the Beatles doing the
+same: link .  The Third Man has the famous scene where Orson Welles says:
+
+You know what the fellow said – in Italy, for thirty years under the Borgias, they had
+warfare, terror, murder and bloodshed, but they produced Michelangelo, Leonardo da Vinci
+and the Renaissance. In Switzerland, they had brotherly love, they had five hundred years of
+democracy and peace – and what did that produce? The cuckoo clock. I lived in Switzerland for
+two years and I love Italy so I can relate to that.
+
+
+
+[3]  I have that beer stein now.  It looks like this:
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_nOTdqVGnOTk/THKLL8aU3FI/AAAAAAAAAoQ/XTMFVh8r7LM/s320/IMG_0312.JPG
+
+It still plays the The Third Man theme. There's a wind-up mechanism with a little lever
+underneath that turns it on and off when you pick it up and put it down. My mother gave it to me
+after my father passed away.  There's a little handwritten post-it note inside that my
+brother discovered the other day when he was visiting and admiring it. The note says
+"Bruce's". Though it appears to be in my mother's handwriting, I felt like my dad left
+it in there for me to find after all these years. 
+
+
+
+[4] M. is his older sister, who is still living. Two younger sisters and his youngest brother
+are still alive too.
+
+
+
+Posted by
+
+
+
+chickelit at
+
+
+
+12:01 AM 4 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1952 , Letters
+Home , nostalgia
+
+Tuesday, August 24, 2010
+
+
+
+
+
+
+
+Deconstructing Karleton Armstrong
+
+
+
+Image:
+http://2.bp.blogspot.com/_nOTdqVGnOTk/THK7VySOXqI/AAAAAAAAAoY/TzNgTRcsa20/s400/Badger.jpg
+Badger Ordnance, target of antiwar aerial bombers in 1969
+
+In the film River's Edge , a former student radical-turned-middle-school-teacher
+bullies from his pulpit: "We stopped a war man".   I've been rethinking a nostalgic post I
+wrote back here last spring about the Sterling Hall bombing in Madison. Not rethinking in the
+sense of changing my opinion, but rather deepening and wishing to augment what I wrote then.
+This was prompted by my reading up on the Kent State shootings.
+
+
+
+Karleton Armstong, Sterling Hall bomber/ring-leader, has stated that the Kent State
+shootings were the catalyst which turned him violent later that summer:  linkage Fellow
+bomber David Fine also  stated :
+
+Really, after Kent State [in May 1970], I think people's viewpoints really changed. They saw
+people shot and that sort of upped the ante, or so we thought. That was the real motivating
+factor. I dissent from that opinion based on facts:  Kent State occurred in May of 1970,
+after Armstrong et al . had attempted to bomb Badger Ordnance  from a Cessna aircraft on
+December 31, 1969.  It was that attempted bombing which gave the bunch their name, the New
+Year's Gang.
+
+
+
+Can one argue that the attempted bombing of Badger Ordnance was somehow less violent-that
+accidental deaths would not have occurred?
+
+
+
+It's reasonable that they were thinking that Badger would shut down that New Year's Eve and
+everybody would be home or out celebrating. But such a place was never empty-empty and someone
+like a night watchman could have died had their unexploded aerial bomb gone off.  Would
+Armstrong and Fine have reasoned that such a death was justified? Who knows.
+
+
+
+Kent State was a horrific event which needlessly accelerated unrest. But but I'm
+still not buying Armstrong's motivational reasoning, based on chronological facts.
+
+
+
+[ added :  My brother reminded me the other day of a story my grandfather passed down through an
+uncle. My grandfather worked at Badger Ordnance in the 40s and 50s.  At the time there were
+strict no smoking rules defined according to area (they were handling mostly gunpowder). 
+Apparently, there was an explosion on site back in the early days, caused by a careless worker
+who had ignored the rules.  According to urban legend, all they ever found of him were his
+boots.] Posted by
+
+
+
+chickelit at
+
+
+
+1:42 AM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1970 , Karleton
+Armstrong , Madison
+
+Monday, August 23, 2010
+
+
+
+Words about acids, bases, and polarizing forces
+
+The words "acid" and "base" are functional terms, and not labels.  They describe what a
+substance does, rather than what it is. ~ R. von Handler The quote comes from an
+undergraduate chemistry textbook.  I assume that von Handler was a German physical
+chemist, but I've been unable to find anything else about him or his work. Schade .
+
+
+
+Von Handler is saying that nominal concepts like acid and base are better understood as the 
+functional concepts acidity and basicity. Some things are better understood by what they
+do rather than what they are. So to get at what von Handler was trying to say, we just have to
+think about what acids and bases do and that's easy: they attract opposite polarity and they
+repel like polarity.  In the natural world acids and bases polarize other molecules
+using attractive and repulsive forces to hasten change. Back here I wrote:
+
+How nature really works (at a chemical level) is polarization followed by attack followed by
+depolarization. Wish I could explain it better because it really is a simple concept. Posted
+by
+
+
+
+chickelit at
+
+
+
+5:12 PM 12 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Chemistry ,
+hypothesis , political science
+
+Sunday, August 22, 2010
+
+
+
+Wait Wait! Rewind to 1964 Again!
+
+Amazing Journey: The Story of the Who  is a wonderful "warts and all" style documentary that
+came out in 2007. So many "rockumentaries" just rehash the old but this one gives some
+wonderful insights that I didn't realize:
+
+
+
+    
+
+    - offshore pirate radio like  Radio Caroline played a huge role in launching the The Who.
+     State-controlled media, the BBC, actually suppressed things back then (image that).
+
+    
+
+    
+
+    - Pete Townshend had an epiphany while driving a car and hearing "I Can't Explain" on the
+    radio: he realized:  I have a sponsor...I have a patron...this is art!
+
+    
+
+    
+
+    - By far the best treat was a rare 1964 film of the The Who at the Railway Hotel. Watch it
+    here:
+
+    
+
+
+
+
+
+
+
+Roger Daltrey was the man!  The Detours/High Numbers were his band at that point in time.
+ They hadn't written any original material yet and Roger still called the shots more or less
+(just like Brian Jones did in the Stones at first).  Look at him in 1964.  As my wife remarked,
+he's the only one of them who could walk around dressed like that right now and still look cool:
+the sunglasses, the hair, his shirt & white jeans.
+
+
+
+I completely agree with her.  The others look like dorks: Entwistle with his vertical
+striped Kingston Trio shirt; Moon with his horizontal striped shirt looks like a child;
+Townshend's shirt buttoned up so high it looks like he's ready for church or school. Posted by
+
+
+
+chickelit at
+
+
+
+12:08 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1964 , 50 years of
+myTunes , fashion , The Who
+
+Friday, August 20, 2010
+
+
+
+Winston Churchill and "Fool's Overture"
+
+While dwelling on 1965 memories, I thought it fitting to pay respects to Winston Churchill,
+who died in January of that year and whose funeral I recall watching as a kid on TV. Twelve years
+later, in 1977, the UK band Supertramp released a song  called Fool's Overture , which I
+always thought referred to Churchill (there is a recording of his voice in the song fer
+Chrisakes). I also thought this was common knowledge, but I recall discussing this topic
+one night over on the Althouse blog with someone convinced that the lyrics referred to Jesus.
+
+
+
+You can hear the song  here . (embedding was disabled for that video otherwise I'd put it
+here). Here are the lyrics for the song along with my specific reasons why it refers to
+Churchill:
+
+
+
+History recalls how great the fall can be
+
+While everybody's sleeping, the boats put out to sea [1]
+
+Borne on the wings of time
+
+It seemed the answers were so easy to find [2]
+
+Too late, the prophets cry
+
+The island's sinking, let's take to the sky [3]
+
+
+
+Called the man a fool, stripped him of his pride
+
+Everyone was laughing up until the day he died [4]
+
+And though the wound went deep
+
+Still he's calling us out of our sleep [5]
+
+My friends, we're not alone
+
+He waits in silence to lead us all home [6]
+
+
+
+So you tell me that you find it hard to grow
+
+Well I know, I know, I know
+
+And you tell me that you've many seeds to sow
+
+Well I know, I know, I know [7]
+
+
+
+Can you hear what I'm saying?
+
+Can you see the parts that I'm playing?
+
+Holy man, rocker man, come-on queenie,
+
+Joker man, spider man, blue-eyed meanie [8]
+
+
+
+So you found your solution
+
+What will be your last contribution?
+
+Live it up, rip it up, why so lazy?
+
+Give it out, dish it out, let's go crazy! [9]
+
+
+
+Yeah! ________________________
+
+[1] Refers to Francis Drake's night time attacks to fend off the Spanish Armada in 1588.
+
+[2] Refers to the British Empire's subsequent historical momentum and a sense of
+entitlement.
+
+[3] I've no idea who the "prophets" were of the time but their message was to abandon the ship of
+state.
+
+[4] Refers to the replacement of Churchill by the Labour Party and the subsequent
+decades-long deconstruction of his legacy (note that this song was written in 1977, prior to
+the ascendency of Thatcher).
+
+[5] & [6] Here is where the allusion to a force from beyond (ostensibly the memory of Churchill)
+may have caused that Althouse commenter to remark that he thought the song was about Jesus.
+
+[7] Here the songwriter is answering the unspoken retort from British youth--that
+maturity is hard, that the legacy is too hard to live up to.
+
+[8] Refers to the spectrum of people present in the 1970s Britain: religious, culture,
+celebrity, social, misfit--each one is a character.
+
+[9] Refers to the state of anarchy amongst the mid 1970's youth in Britain. Posted by
+
+
+
+chickelit at
+
+
+
+1:02 PM 6 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1965 , 1977 ,
+Althouse , Churchill , Thatcher
+
+
+
+
+
+Silver, Gold, & Lead
+
+This news story about Mel Fisher's stolen gold this morning reminded me of two things:
+
+
+
+(1) John Wayne, confronting and shooting a cattle rustler in the movie Chisum (1970):
+
+
+
+Bandito: Did you bring any gold?  John Wayne: Nope!  Bandito: Did you bring any silver? 
+John Wayne: Nope, just lead!
+
+and (2)  My father, who met Mel Fisher:
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_nOTdqVGnOTk/TG6I7rnLnuI/AAAAAAAAAoA/2M6nIuvCtZY/s320/melfisher.jpg
+Posted by
+
+
+
+chickelit at
+
+
+
+7:42 AM 2 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Elements , Gold ,
+Lead , shipwrecks , Silver
+
+
+
+
+
+A Satirical Song About A Satyrical Briton
+
+
+
+Image:
+http://1.bp.blogspot.com/_nOTdqVGnOTk/TG2b0stz-sI/AAAAAAAAAn4/CS6kn1iGNBs/s320/kinks.bmp
+
+For reasons still not completely clear, The Kinks were banned from touring the US as a band from
+about 1965 to 1969. It had something to do with fighting too much and a labor dispute.  Just
+imagine--4 years of not playing to sold out audiences in the US--all that unrealized concert
+revenue.  Regret much?
+
+
+
+Kinks fans have used this enforced isolation to describe why the band turned inwards and wrote
+particularly scathing material about British society in the mid to late 1960s.  One of the
+songs, Dedicated Follower Of Fashion , was allegedly penned with Brian Jones in mind,
+though others have claimed the inspirational role. London was in full bloom in 1966 and it
+really doesn't matter who Ray Davies' Leopold Bloom really was.
+
+
+
+Brian Jones, founding member of the (Rollin') Stones and charter member of the  27 Club ,
+R.I.P.
+
+
+
+Posted by
+
+
+
+chickelit at
+
+
+
+12:04 AM 2 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1966 , 50 years of
+myTunes , fashion , Kinks , pop music , Rolling Stones , Stuck in '66
+
+Thursday, August 19, 2010
+
+
+
+
+
+
+
+Meet the Father of Loud
+
+
+
+Image:
+http://2.bp.blogspot.com/_nOTdqVGnOTk/TGxdnD9aPeI/AAAAAAAAAn0/aIEV_lrrBvk/s320/Jim_Marshall_at_Summer_NAMM_2007.jpg
+
+Jim Marshall  (b. 1923) played a key role in developing the amplified guitar sound of several
+mid-60's (and later) rock guitarists.  Legend has it that Eric Clapton started much of this
+when, hanging around Jim Marshall's music shop in London, he requested that Marshall make him
+an amplifier that would fit in the trunk (boot) of a car.  Marshall did so and Clapton
+immediately used the combination of the Marshall amplifier with the Gibson Les Paul guitar on
+the 1966 John Mayall & Bluesbreakers album.  You can hear the now familiar but then
+never-heard-of-before sound here on the song Hideaway :
+
+
+
+
+
+
+
+BTW, that was John McVie (who later put the "Mac" in Fleetwood Mac) on bass guitar.
+
+
+
+Hideaway was a blues number first recorded by Freddie King. Here is the original King version
+for comparison; note the sound of the guitar:
+
+
+
+
+
+
+
+Legend also has it that Pete Townshend and John Entwistle pioneered the use of higher powered
+"Marshall Stacks", allegedly in order to hear themselves over Keith Moon's drumming. But
+it was Jimi Hendrix who really put the Marshall amplifier on the map.
+
+
+
+There's a great story about the Marshall sound here .  Who knew that the secret behind
+Marshall's amps was harmonic overtones? Posted by
+
+
+
+chickelit at
+
+
+
+12:01 AM 3 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1966 , 50 years of
+myTunes , Eric Clapton , Hendrix , pop music , Stuck in '66 , The Who
+
+Wednesday, August 18, 2010
+
+
+
+
+
+
+
+The Beached Boys
+
+I really haven't much to say about the Beach Boys.  I was ambivalent towards them as a kid when
+they were on the radio all the time (before the days of "Classic Rock").  The first song I
+remember really liking was Good Vibrations .  Of course the Beach Boys really were about
+Brian Wilson.  It's a shame that he lost control of himself (a bit like Elvis).  I wonder what
+he's up to now.  Seems like he could make a fortune selling memories. 
+
+
+
+As a kid I remember being jealous of another family whose dad my dad worked with because they
+took a station wagon summer vacation to Southern California and went to Disneyland. That
+hurt. But going to Florida in 1968 made up for it (in part). I didn't visit California until 1988
+and moved there about 7 years later.
+
+
+
+Here's a Beach Boys song that features the Wrecking Crew and especially Carol Kaye on the
+electric bass:
+
+
+
+
+
+
+
+The lyrics...
+
+The first mate he got drunk
+
+And broke in the Captain's trunk
+
+The constable had to come and take him away
+
+Sheriff John Stone
+
+Why don't you leave me alone, yeah yeah
+
+Well I feel so broke up I wanna go home ...remind me of a nursery rhyme my mother used to sing to
+me well before that song came out in 1966:
+
+The monkey he got drunk
+
+He climbed the elephant's trunk
+
+The elephant sneezed and fell on his knees
+
+And that was the end of the monk monk monk! [ ADDED ] OK this is pretty cool:
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_nOTdqVGnOTk/THReuRf0tkI/AAAAAAAAAow/VdhXER0K994/s320/brian+wilson.bmp
+Posted by
+
+
+
+chickelit at
+
+
+
+6:46 PM 5 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1966 , 50 years of
+myTunes , Stuck in '66
+
+Tuesday, August 17, 2010
+
+
+
+California's Shadow Economy
+
+Last night I put the recycle bins out to the curb containing a couple sixpacs of empty beer cans
+and bottles that my brother and I had generated over the week.  Normally, the municipal crews
+come by at around 6:30 AM and pick these up along with plastic and paper recycles.  This
+morning I went out and added some more paper and plastic to the collection bins.  Sure enough,
+some enterprising individual had come through during the night and picked through, taking
+all the aluminum and glass before the City could get to them, leaving only the paper and
+plastic.
+
+
+
+I don't know quite what to think of this.  On the one hand, the aluminum and glass are
+commercially more valuable-enough to support the effort of our shadow economy.  On the
+other hand, the municipality is stuck recycling the stuff of lesser value, missing out the
+stuff that would help the whole system pay for itself. Posted by
+
+
+
+chickelit at
+
+
+
+6:56 AM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: recycling
+
+Monday, August 16, 2010
+
+
+
+
+
+
+
+The Wrecking Crew (2008)
+
+
+
+Image:
+http://2.bp.blogspot.com/_nOTdqVGnOTk/TGmec-2XTaI/AAAAAAAAAns/F276BbTBe6c/s320/carolkaye_1974-lib.jpg
+Those boots were made for walkin'. Carol Kaye behind the scenes.
+
+Imagine if every hit song of the late 50s, 60s, 70s, and even into the 80s was performed by one
+band. Ridiculous, huh? Well, guess what? It's closer to reality than you may think. That quote
+was taken from a review for the film  The Wrecking Crew (2008).  I haven't seen the movie
+yet but I'd like to--but Netflix doesn't carry it and I'm too cheap to buy it at Amazon.
+
+
+
+There is a fair bit about the Wrecking Crew over at Wiki .  Back in the day, big label record
+companies didn't trust all the members of a band to go into a recording studio without screwing
+things up.  Only the indispensable stars of a recording act would sit for a recording
+session. The rest of the musicians were professional session musicians like bassist  Carol
+Kaye  (above) at Capitol Records in L.A.
+
+
+
+Detroit had its own "wrecking crew" and there's a film called  Standing In The Shadows of
+Motown (2002) that tells their story. Posted by
+
+
+
+chickelit at
+
+
+
+5:33 PM 2 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 50 years of
+myTunes , cool women
+
+Sunday, August 15, 2010
+
+
+
+Three Accidents That Enriched The Guitar Driven Sound Of Rock n Roll:
+
+1961 : Dick Dale and Leo Fender invent the reverb surf guitar sound:
+
+Leo Fender kept giving Dale amps and Dale kept blowing them up! Till one night Leo and his right
+hand man Freddy T. went down to the Rendezvous Ballroom on the Balboa Peninsula in Balboa,
+California and stood in the middle of four thousand screaming dancing Dick Dale fans and said
+to Freddy, I now know what Dick Dale is trying to tell me. Back to the drawing board. A special 85
+watt output transformer was made that peaked 100 watts when Dale would pump up the volume of his
+amp, this transformer would create the sounds along with Dale's style of playing, the kind of
+sounds that Dale dreamed of. BUT! they now needed a speaker that would handle the power and not
+burn up from the volume that would come from Dale's guitar. Leo, Freddy and Dale went to the
+James B. Lansing speaker company, and they explained that they wanted a fifteen inch speaker
+built to their specifications. That speaker would soon be known as the 15'' JBL -D130 speaker.
+It made the complete package for Dale to play through and was named the Single Showman Amp. When
+Dale plugged his Fender Stratocaster guitar into the new Showman Amp and speaker cabinet,
+Dale became the first creature on earth to jump from the volume scale of a modest quiet guitar
+player on a scale of 4 to blasting up through the volume scale to TEN! That is when Dale became the
+'Father of Heavy Metal' as quoted from Guitar Player Magazine. Dale broke through the
+electronic barrier limitations of that era! 1964 : Dave Davies of The Kinks invents grunge
+sound while recording "You Really Got Me":
+
+The influential distortion sound of the guitar track was created after guitarist Dave Davies
+sliced the speaker cone of his guitar amplifier with a razor blade and poked it with a pin. The
+amplifier was affectionately called "little green," after the name of the amplifier made by
+the Elpico company, and purchased in Davies' neighbourhood music shop, slaved into a Vox
+AC-30. link 1965 : Roger McGuinn accidently invents the "jingle-jangle" guitar sound of The
+Byrds:
+
+While 'tracking' The Byrds' first single, 'Mr. Tambourine Man', at Columbia studios,
+McGuinn discovered an important component of his style. 'The 'Rick' [Rickenbacker guitar]
+by itself is kind of thuddy,' he notes. 'It doesn't ring. But if you add a compressor, you get
+that long sustain. To be honest, I found this by accident. The engineer, Ray Gerhardt, would
+run compressors on everything to protect his precious equipment from loud rock and roll. He
+compressed the heck out of my 12-string, and it sounded so great we decided to use two tube
+compressors [likely Teletronix LA-2As] in series, and then go directly into the board.
+That's how I got my 'jingle-jangle' tone. It's really squashed down, but it jumps out from the
+radio. With compression, I found I could hold a note for three or four seconds, and sound more
+like a wind instrument. Later, this led me to emulate John Coltrane's saxophone on 'Eight
+Miles High". Without compression, I couldn't have sustained the riff's first note.' link .
+
+1966 : Eric Clapton combines the Gibson Les Paul and the Marshall Amplifier: link Posted by
+
+
+
+chickelit at
+
+
+
+5:39 PM 2 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1961 , 1964 , 1965 ,
+1966 , 50 years of myTunes , Dick Dale , Eric Clapton , Kinks , surf music , The Byrds
+
+Saturday, August 14, 2010
+
+
+
+
+
+
+
+Sometimes Being Cool Is Just Uncool
+
+
+
+Image:
+http://3.bp.blogspot.com/_nOTdqVGnOTk/TGcrnyiWtjI/AAAAAAAAAnc/vnVywXKpxTI/s320/elvis.jpg
+
+Back in 1977 Elvis came through Madison, Wisconsin on what turned out to be his last tour.  My
+mom and dad went and my dad asked me if I wanted to go too -- my brother was in the Navy at the time --
+but I declined because at age seventeen I was just too cool to go see Elvis.
+
+People my age openly mocked Elvis. We were just too young to remember what he had done by fusing
+white hillbilly music with black rhythm and blues. We couldn't see past his bloated 1970's
+image.  Instead we paid dearly to go see bands like Led Zeppelin play Whole Lotta Love ,
+unknowingly helping them to pay off the settlement they made with Willie Dixon over
+plagiarism.  Still our derision of Elvis never rose to the outright animus of Public
+Enemy's Chuck D in Fight The Power : Elvis was a hero to most but he never meant shit to me you see, s
+traight up racist that sucker was, simple and plain, mother fuck him and John Wayne. Elvis
+never lost something, even in the months before his death: watch him flash that boyish smile
+here in Unchained Melody.  Then back it up and watch the whole thing.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_nOTdqVGnOTk/TGc0ujyQn7I/AAAAAAAAAnk/Zj1v04XxJB8/s320/elvis_stamp.jpg
+
+   Posted by
+
+
+
+chickelit at
+
+
+
+5:36 PM 2 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1977 , Elvis ,
+Heroes On Stamps , philately
+
+Friday, August 13, 2010
+
+
+
+
+
+
+
+50 Years Of MyTunes: 1965 Can't Get No Satisfaction
+
+
+
+Image:
+http://2.bp.blogspot.com/_nOTdqVGnOTk/TGWx96fvI-I/AAAAAAAAAm0/oShwFciCeNE/s320/don+draper+stoic+4.jpg
+
+When I'm watchin' my TV And a man comes on and tells me How white my shirts can be But he can't be a
+man 'cause he doesn't smoke The same cigarettes as me
+
+This is getting tougher. Too many songs!  Keep in mind that I'm just trying to pick out my
+favorites from each year--I'm not trying to be all inclusive.  What I've had to do now is to
+carve out the Beatles and the Beach Boys and to divvy up what's left. I'll leave discussions of
+the Beatles to a professional like Ron.  I suppose I should eventually say what I think about
+the Beach Boys.  But not today.
+
+
+
+1965 was another big change year for rock 'n' roll. A couple of new favorite groups appeared on
+the scene: most notably The Byrds, The Who & The Yardbirds (all big guitar sounds). Here
+are my nominees with the emboldened winner:
+
+
+
+(I Can't Get No) Satisfaction ~ Rolling Stones
+
+Like A Rolling Stone ~ Bob Dylan
+
+My Generation  ~ The Who
+
+Turn, Turn, Turn ~ The Byrds
+
+The Sounds Of Silence~ Simon & Garfunkel
+
+The Tracks Of My Tears ~ Smokey Robinsion & The Miracles
+
+California Dreamin' ~ The Mamas & The Papas
+
+Do You Believe In Magic ~ Lovin' Spoonful
+
+I Got You (I Feel Good) ~ James Brown
+
+I Fought The Law ~ Bobby Fuller Four
+
+I Can't Help Myself ~ Four Tops
+
+For Your Love ~ Yardbirds
+
+Unchained Melody ~ Righteous Brothers
+
+Hang On Sloopy ~ McCoys
+
+Stop! In The Name Of Love ~ Supremes Posted by
+
+
+
+chickelit at
+
+
+
+5:23 PM 9 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1965 , 50 years of
+myTunes
+
+
+
+
+
+Letters To Freya: The Trial of Helmuth James von Moltke
+
+
+
+Image:
+http://1.bp.blogspot.com/_nOTdqVGnOTk/TGXMkYo8_-I/AAAAAAAAAnE/ckKc-zd_6Bg/s320/Bundesarchiv_Bild_147-1277,_Volksgerichtshof,_Helmuth_James_Graf_v._Moltke.jpg
+Helmuth James von Moltke on trial in 1945
+
+The passage below is excerpted from Letters To Freya  and requires some background. I wrote
+briefly about Freya von Moltke here .  Her husband, Count Helmuth James von Moltke , was a
+German lawyer secretly active in anti-Nazi resistance. He managed to stay undetected
+until near the end but after the last attempt on Hitler's life he was betrayed and arrested. In
+this passage, written shortly before his execution, von Moltke describes the trial, a
+psychological battle between himself and Roland Freisler , the Nazi judge who tried and
+condemned him. Freisler was the same judge who had tried and convicted Sophie Scholl and the
+other members of the White Rose resistance group. There is actual archive film of Freisler
+presiding over trials here . Von Moltke wrote:
+
+In one of his tirades Freisler said to me:  Only in one respect are we and Christianity alike:
+we demand the whole man!     I don't know if the others sitting there took it all in, for it was
+sort of a dialogue--a spiritual one between Freisler and myself, for I could not utter many
+words--in which we two got to know each other through and through. Of the whole gang Freisler
+was the only one who recognized me, and of the whole gang he is the only one who knows why he has to
+kill me. There was nothing about a 'complicated man' or 'complicated thoughts' or
+'ideology', but 'the fig leaf is off'. But only for Herr Freisler.  We talked, as it were in a
+vacuum. He made not a single joke at my expense, as he had done with Delp and Eugen. No, this was
+grim earnest:  From whom do you take your orders? From the Beyond or from Adolf Hitler? Who
+commands your loyalty and your faith?     All rhetorical questions, of course.--Anyhow,
+Freisler is the first National Socialist who has grasped who I am, and the good Mueller* is a
+simpleton. _____________________
+
+* Heinrich MÃŒller , Gestapo chief, last seen in the bunker the day after Hitler committed
+suicide. MÃŒller eluded capture and his whereabouts after the war were never positively
+determined.
+
+
+
+I selected this particular passage because it reminds me of the psychological dynamics of The
+Grand Inquisitor within Dostoevsky's The Brothers Karamazov with Freisler playing the role
+of the Grand Inquisitor and von Moltke the Christ-like figure. The difference of course is
+that Dostoevsky was writing 19th century fiction while von Moltke's trial really occurred 75
+years ago. Posted by
+
+
+
+chickelit at
+
+
+
+4:07 PM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: cool books , Free
+Will , Letters To Freya
+
+I am connascent with Mad Men
+
+There is a very brief close-up in Season 1, Episode 1 of Mad Men  of a calendar dated March
+1960 which is my birth month/year ( linkage ). I am connascent with the storyline of this TV
+show.  Connascent was my response to a word challenge posed by amba over here  and is
+supposed to convey the notion of "being born at the same time" in a historical sense.
+
+
+
+Most of the characters in  Mad Men  already have quite a few years on them in 1960.  That
+explains why I haven't found anyone to identify with yet. I mean, some of the characters
+remotely resemble some of the grownup people I recall from back then. But growing up in the
+backwater of Madison and semi-rural Wisconsin is a far cry from Manhattan. Maybe I should
+start looking at some of the kids (i.e., baby Gene) for self identity. Maybe I should give it up.
+My recollections of 1965 are being around lots and lots of other kids.  I'm not getting that
+feeling from Mad Men .
+
+
+
+If you don't follow Twitter you should do it just to follow the Mad Men "live-tweeting" remarks
+on Sunday nights by @vbspurs and @kngfish . Posted by
+
+
+
+chickelit at
+
+
+
+11:03 AM 3 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1960 , Amba , ron ,
+vbspurs
+
+How the Dutch tongue avoids the same-sex marriage controversy
+
+The Netherlands were of course one of the first European countries to recognize same-sex
+marriage rights but to my knowledge, no one there has ever made a serious move towards
+corresponding same-sex marriage rites. Long before the Dutch government recognized
+same-sex marriages, they distinguished between marriages recognized by the state and
+marriages recognized by the church. Linguistically, it's kind of a rights vs rites
+distinction. The Dutch words are burgerlijk huwelijk for civil marriage and kerkelijk
+huwelijk for church marriage.
+
+
+
+It's important to recognize that those terms predate the acceptance of same-sex marriage in
+that country by decades.  When the time came to broaden the meaning of burgerlijk huwelijk to
+include same-sex couples, there was no corresponding need to broaden the meaning of
+kerkelijk huwelijk .  I am unsure what religious freedom the Dutch people enjoy, but judging
+from the protections granted to Muslims I'd guess that they're pretty broad.
+
+
+
+The linguistic situation in this country is more nuanced.  Claimants for the word
+"marriage" to cover same-sex unions are insensitive to other's rites while claimants to the
+word "marriage" to exclude same-sex unions are insensitive to other's rights. I'm not sure
+there is any easy way to resolve this. Posted by
+
+
+
+chickelit at
+
+
+
+10:34 AM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Dutch , Gay Rites ,
+politics
+
+Wednesday, August 11, 2010
+
+
+
+
+
+
+
+Letters Home: "We got here at last...this country is Beautiful"
+
+
+
+Image:
+http://4.bp.blogspot.com/_nOTdqVGnOTk/TGKunihRryI/AAAAAAAAAms/WbhgIQNxBqo/s320/index2.jpg
+Nellingen Barracks as they looked in 1955. Photo used with permission. The original can be
+found here .)
+
+Tuesday Aug 11, 1952
+
+Nellingen Caserne, West Germany Dear Mom and Dad and all, We got here at last. I thought maybe I
+would have a letter from you when I got here, but I haven’t yet. I had one letter from a girl in
+Milwaukee. We landed in France the 6th and stayed overnight. It took us 3 days from there to
+Germany. After a day’s train ride we finally got here. Nellingen Caserne is the name of the
+camp. [1] The nearest town is NÃŒrtingen. The nearest Big town is Stuttgart. We are below
+Frankfurt. A little over 200 miles from the Russian Border. [2]   I took a picture of the White
+Cliffs of Dover. It looked nice, but this country is Beautiful. This camp used to be a German
+Airbase. [3] You can see for miles. Everything is new. All the Buildings. It’s a small camp. I
+like it so far. The theater just opens up today. The P.X. hasn’t been open to long. We can buy
+most anything. Just like back in the States. We won’t get passes for two weeks yet. We
+haven’t been paid for a mo. so I suppose my checks stopped coming.When we do get paid it will be
+in scripts, which can only be spent in camp. If we go to town we have to trade it for marks. 1 mark is
+23.8 cents, or close to a quarter. Scripts are just paper from 5¢ to $20.00.  Marks are coins.
+I’ll send some next time. [4] Let me know how long it takes for this to get there. I think about 6
+days.  We are supposed to be near Frankfurt, but the camp isn’t finished yet. We also will
+get Border patrol but not for a while yet. We got new tanks. [5]  I haven’t saw them yet but I
+will. We got a new, big mess hall and is the food ever good. I’ll send pictures as soon as I can of
+this place and the towns around here. All the buildings are brick, with Brown tops. We saw quite
+a few places that are not rebuilt yet from World War II. We sure did a lot of building over here
+since the war. All Brick houses with Red roofs. I can look out the window and see a church. The
+Mueller boy is still with me. He got three letters from his wife. In some of the small towns
+around here, they have barnyards on mainstreet. I guess the water is unsafe to drink. The 141
+has already got its name up for being rough-a lot of the guys celebrated last night with fights
+and everything. They got a big Beer garden on post and the German beer is 16% alcohol. They can
+keep the stuff as far as I'm concerned. I can't see where it would do me any good. They told us you
+have to watch out for the girls in Stuttgart. They fight over GIs. Guess I'd better stay away
+from there. Ha! Ha! My A.P.O. number changed, it's 46 now. Bye for now. V. P.S. write soon. I will
+____________
+
+[1] The correct spelling is Nelligen Kaserne.
+
+[2]  The "Russian Border" meant of course the Czech border.
+
+[3] There's a fantastic website about the camp here .
+
+[4] A 1-Mark note that he saved from his time overseas:
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_nOTdqVGnOTk/TGcP-bKujiI/AAAAAAAAAnU/2c0vCm4LX10/s200/mark1.jpg
+
+[5] He's referring to the new Patton class of tanks coming out of Detroit.  I discussed this
+briefly back here . Posted by
+
+
+
+chickelit at
+
+
+
+7:26 AM 6 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1952 , Letters
+Home
+
+Tuesday, August 10, 2010
+
+
+
+
+
+
+
+50 Years Of MyTunes: 1964 Got Kinda Kinky
+
+
+
+Image:
+http://4.bp.blogspot.com/_nOTdqVGnOTk/TGBKo5LCxyI/AAAAAAAAAmE/WodJchXEUYE/s320/Kinks.jpg
+
+The Beatles and the Beach Boys dominated the charts in 1964 and so everyone's favorite is
+likely to be one of their songs.  But notice other trends emerging in the list below including
+Motown & other British Invasion groups.  And there's Bob Dylan still caught up in his
+folk mode.  I voted Kinks for their enduring effect on the guitar-driven sound, but that
+may just be me.
+
+
+
+You've Lost That Lovin' Feeling ~ The Righteous Brothers
+
+My Girl ~ The Temptations
+
+You Really Got Me ~ The Kinks
+
+House Of The Rising Sun ~ The Animals
+
+Where Did Our Love Go ~ Supremes
+
+She's Not There ~ The Zombies
+
+The Times They Are A'Changin' ~ Bob Dylan
+
+Dancing In The Street ~ Martha & the Vandellas
+
+Under The Boardwalk ~ The Drifters
+
+Gloria ~ Them (Van Morrison)
+
+Baby I Need Your Lovin'  ~ Four Tops
+
+Do Wah Diddy Diddy ~ Manfred Mann
+
+Needles And Pins ~ The Searchers
+
+Rag Doll ~ The Four Seasons
+
+Baby Love ~ The Supremes
+
+Chapel Of Love ~ Dixie Cups
+
+Tell Her No ~ The Zombies
+
+How Sweet It Is (To Be Loved By You)  ~ Marvin Gaye
+
+Leader Of The Pack ~ Shangri-Las
+
+Come See About Me ~ Supremes
+
+Time Is On My Side ~ Rolling Stones
+
+The Little Old Lady (From Pasadena) ~ Jan & Dean
+
+It's All Over Now ~ Rolling Stones
+
+The "In" Crowd ~ Dobie Gray Posted by
+
+
+
+chickelit at
+
+
+
+12:50 PM 6 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1964 , 50 years of
+myTunes , pop music
+
+
+
+
+
+Who Was Hot In 1952?
+
+
+
+Image:
+http://4.bp.blogspot.com/_nOTdqVGnOTk/TGDQZMZFVgI/AAAAAAAAAmc/vpHOZXpTGhU/s200/MuddyWatersStamp.gif
+
+Image:
+http://1.bp.blogspot.com/_nOTdqVGnOTk/TGDQk3dPXMI/AAAAAAAAAmk/6gdBPVlJjfA/s200/Stamp1993HankWilliams.jpg
+
+My Letters Home  and 50 years of Mytunes series got me to thinking about popular music back in
+1952. At the time, the music markets (like most everything else) were still racially
+segregated, targeting and selling to different markets. Two notable musical artists were at
+their peak in 1952: Muddy Waters and Hank Williams.
+
+
+
+Muddy Waters charted two hit songs that year with  She Moves Me and All Night Long , but would go
+on to greater heights and would inspire an entire generation of white blues artists. Hank
+Williams had seven successful singles in 1952: Jambalaya (On The Bayou) , You Win Again , The
+Wild Side Of Live , Honky Tonk Blues, Settin' The Woods On Fire, Half As Much , and the eerily
+prescient  I'll Never Get Out Of This World Alive .  Hank Williams died the following year
+at the age of 29. Posted by
+
+
+
+chickelit at
+
+
+
+12:37 PM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1952 , Heroes On
+Stamps , philately , pop music
+
+Tuesday, August 3, 2010
+
+
+
+
+
+
+
+Everything You Always Wanted to Know About Chemistry But Were Afraid To Ask
+
+Chemistry is all about electrons. Electrons used to go by old-fashioned names like
+corpuscles and were once even thought to move like fluids in an ether. So chemistry is really
+all about atoms and molecular bodies exchanging precious electrons.
+
+
+
+Most garden variety chemistry is unimolecular or bimolecular. Unimolecular chemistry is
+dissociative, which on the one hand sounds asocial but on the other hand really just means to
+come undone. Bimolecular chemistry is more about two things coming together. Molecular
+threesomes do occur but they are rare (as one can imagine) and are technically called
+termolecular reactions. Concerted orgies of four or more molecular bodies are mostly
+just pure fantasy, unless there is some sort of prior bondage involved as sometimes occurs
+amongst biomolecules.  We'll save that for another day and focus on just the basics.
+
+
+
+When two atoms or molecular bodies get together to react, there's always a donor and an
+acceptor (of the precious electrons).  Now besides the obvious connotations of donor and
+acceptor, it also turns out that the electron donor and acceptor parts of molecules have
+certain shapes. You may have also heard tell about HOMO's and LUMO's but that's getting a bit
+too technical.  We'll save that for elective or advanced classes. Suffice to say that some
+molecules can be both donors and acceptors depending on the shapes and energy levels of
+the coupling partner(s).
+
+
+
+Many of the concepts I've just introduced can be illustrated graphically. One of my
+personal favorites is the simple coupling of H 2 with O 2 to make water (or steam).  But it turns
+out that this simple reaction is "forbidden" and so unfit for the present discussion. 
+Meanwhile, here's a different diagram to wet your appetites:
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_nOTdqVGnOTk/S7aYTdg7TiI/AAAAAAAAAYU/KeebAW5PIlY/s320/Inertvsstable.jpg
+Posted by
+
+
+
+chickelit at
+
+
+
+5:18 PM 6 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Chemistry ,
+Chemistry is like sex , hypothesis
+
+
+
+
+
+50 Years Of MyTunes: 1963
+
+
+
+US Birthrates (per thousand people) vs. Year
+
+Image:
+http://3.bp.blogspot.com/_nOTdqVGnOTk/TFc9kwy6haI/AAAAAAAAAl0/uKYVPeh-P5Q/s320/U.S.BirthRate.1909.2003.png
+click on it to enlarge
+
+Demographics are telling. Consider that the avant-boomers were just turning 18 in 1963 and
+that the real middle of the demographic bulge was yet to enter puberty. Holy
+producer-consumer symbiosis!  But I'm not saying anything new so I'll shut up.
+
+
+
+Here are the contenders for best song of 1963.  Notice that I had to give the Beatles a poll of
+their own. Please vote early and vote often.
+
+
+
+Anything by The Beatles in 1963 (see special poll below)
+
+Anything by The Beach Boys off Surfin' USA
+
+My Boyfriend's Back ~ The Angels
+
+Louie Louie  ~ The Kingsmen
+
+Blowing in the Wind ~ Bob Dylan
+
+Surf City   ~ Jan and Dean
+
+Ring of Fire ~ Johnny Cash
+
+Glad All Over ~ Dave Clark Five
+
+Heat Wave ~ Martha Reeves & The Vandellas
+
+Hanky Panky ~ Tommy James & the Shondells
+
+On Broadway ~ Drifters
+
+He's So Fine ~ The Chiffons
+
+Puff the Magic Dragon ~ Peter Paul & Mary
+
+Be My Baby ~ Ronettes
+
+Walk Right In ~ Rooftop Singers
+
+In Dreams  ~ Roy Orbison
+
+Surfin' Bird ~ Trashmen
+
+Dominique ~ The Singing Nuns
+
+Wipe Out ~ T he Surfaris
+
+
+
+Take my poll! Posted by
+
+
+
+chickelit at
+
+
+
+6:54 AM 6 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1963 , 50 years of
+myTunes , demographics , pop music
+
+Monday, August 2, 2010
+
+
+
+
+
+
+
+Letters Home: An 18-Day Transatlantic Cruise
+
+Aug 2, 1952 sat nite Dear Mom, Dad and All, I suppose you were wondering if I was ever going to
+write. There was no mail coming or going off the ship so it didn’t do any good to write. We left
+camp Thursday July 24 by train and got to New Orleans the next day. When we got there we didn’t
+lose any time getting on the ship. At 4:00 Fri afternoon a navy band saw us off. The water sure was
+blue in the Gulf of Mexico. It took us four days to go around Florida. The first night was too hot
+to sleep.  It’s a lot cooler now though. We went through the Keys of Florida at night, but I
+did get to see Miami. The only fish I saw were sharks and flying fish. Some of the guys saw two
+whales. We have good eats. I haven’t done a lick of work since I been on this tub. 8 days.  We
+sleep about level with the water. It's crowded but I sleep good. If I’m not sleeping I’m
+eating. I saw two movies since I been on here. “ The Thing ” and “ I was an American Spy ”.
+We get the news everyday and hear music over the loud speaker. There’s around 4,000 men and
+boys on this ship so you can just about guess how big it is. [1] I sure was surprised when I met Jim
+P. on here. He’s going to France. He’s in the Air Force.  There’s 3 tank Battalions and 2
+air force Batt on here. The Air Force is getting off in France. I won’t get to mail this until we
+dock in France this Tuesday, Aug 5th. [2] I sure got a sun tan from laying on the deck. Another
+thing I saw was 2 big black twisters sucking water in the sky.  It looked something like this:
+
+Image:
+http://1.bp.blogspot.com/_nOTdqVGnOTk/TFPHdznoNTI/AAAAAAAAAlc/Knhqhxxl1qg/s320/twister.jpg
+I took a picture of it. I also got pictures of some of the big ships that were in New Orleans going
+up and down the Mississippi. It rained twice, but no high waves yet. I haven’t felt a bit sick
+yet. I’ll write again as soon as I can when we get to Germany. I’ll be there by the time you get
+this. love, V.
+
+P.S. We can’t have American money over there. We have to change it to scripts which can be
+exchanged for Marks. One mark is 25¢.
+
+[ An unsent postcard tucked inside the letter ]:
+
+
+
+Image:
+http://4.bp.blogspot.com/_nOTdqVGnOTk/TFPHJqQgwOI/AAAAAAAAAlM/3GwSDG_9Xa8/s320/greely.jpg
+
+
+
+Image:
+http://2.bp.blogspot.com/_nOTdqVGnOTk/TFPHSL_4wxI/AAAAAAAAAlU/Zkes6p11OfI/s320/greely+ii.jpg
+______________________
+
+[1] Wiki info on the   USS General A. W. Greely
+
+
+
+[2]  The post card says La Pallice, France. La Pallice harbor hosted German submarine pens
+which still exist and were used in the filming of Das Boot . Posted by
+
+
+
+chickelit at
+
+
+
+7:32 AM 6 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: 1952 , Letters
+Home
+
+Sunday, August 1, 2010
+
+
+
+
+
+
+
+"You Are My Medicine"
+
+
+
+Image:
+http://1.bp.blogspot.com/_nOTdqVGnOTk/TEzCLRA1ejI/AAAAAAAAAkc/PPopUv4DIGk/s320/tic.jpg
+
+A week ago my wife and I saw Dick Dale play a show at the Coach House in San Juan Capistrano. I
+dropped a few emotional tweets about the show  here , here ,  here and here , and even wrote a
+comment over on Sissy Willis' blog here . I can't add much more. Dick Dale has his own long
+history and I feel very fortunate to have seen this latest show. According to this reporter,
+rumors of his imminent retirement are exaggerated. I hope so.
+
+
+
+Dick Dale is 73 years old now and has been performing locally since 1955. When he first came
+onstage he gave a long spiel about fighting cancer and about having to cancel a bunch of
+upcoming shows, including a tour of Japan. He told the audience "No way could I cancel this
+show--you are my medicine."
+
+ 
+
+He said that he was running a fever of 102. My wife, who has cared for a lot of cancer patients,
+could read between the lines and knew exactly what he was going through treatment-wise.  His
+weakness forced him to sit the entire show but it didn't matter--he played as well as he ever
+had. We were seated at a table across from a gentleman who has followed Dick Dale since 1961 and
+he was clearly enjoying this one as much as ever. I'm sorry I don't have a better photo of Dale. I
+felt drawn to him, wanting to get closer to him more and more as the show unfolded. But the very
+front was occupied by close friends and family and there just wasn't any way to politely
+intrude on their space and so I didn't.
+
+
+
+What got me emotionally was the obvious bond between father and son onstage. Jimmy Dale, who
+just turned 18, has been playing onstage with his dad since he was little.  There were times
+when both father and son would be playing in unison and Dick would take his hands off the guitar
+as if to say "look no hands" while Jimmy just kept the riff going.  That's amazing.  Such
+obvious affection between the two.
+
+
+
+Dick Dale has a reputation for eschewing drugs and alcohol. He says that he went through the
+treatments without pain meds. After the show his last words were again "You are my medicine!"
+ When he stood up after the show, he visibly grimaced in pain and he was helped offstage by his
+son and another man. We never saw him again.
+
+
+
+After the show, Jimmy was hanging around the fans, posing for pictures and signing the usual
+autographs. I thought of a photo but it was too dark and I didn't have a flash. My wife took
+Jimmy's hand and told him: "You tell your Dad that he's a great inspiration for cancer
+patients." He said "I will."
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_nOTdqVGnOTk/TFWJkjN_f2I/AAAAAAAAAlk/1A8LK--98bM/s320/DaleRon-wr.jpg
+
+Photo used with permission of  Ron Posted by
+
+
+
+chickelit at
+
+
+
+8:00 AM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: cancer , Dick Dale
+, surf music Newer Posts Older Posts Home Subscribe to: Posts (Atom)
+
+Other blogs I like
+
+    
+
+    - Instapundit AT AMAZON, warehouse deals in Electronics. Also, today only: Save up to 40%
+    on Kitchens of India…
+
+    
+
+    - EBL Why the White House lied about Libya: Diplomats requested additional security
+    prior to the deadly attack of September 11, 2012 and White House denied that request...
+
+    
+
+    - Le·gal In·sur·rec·tion Hating Breitbart Trailer
+
+    
+
+    - Virtual Mirage Energy Self-Sufficiency
+
+    
+
+    - The Bit Maelstrom Fred Won't Move Out
+
+    
+
+    - Ambiance Wax off….
+
+    
+
+    - MÑºDEÐ¯Ð˜ DEKADEÐ˜CE The future of newsprint
+
+    
+
+    - Pete Terranova Graveyard Special - Book Review
+
+    
+
+    - musing minds It Be Talk Like A Pirate Day!
+
+    
+
+    - Fluffy Stuffin' An Excellent Fan Video!
+
+    
+
+    - Chip's Perspective Our Humorless Overlords
+
+    
+
+    - sisu Haley Barbour knows what women like
+
+    
+
+    - Living In A Golden Age London Olympics: 1908
+
+    
+
+    - Death's Door Distillery Photo Journal of a Still in Motion
+
+    
+
+    - The Compulsive Copyeditor The Subtle Shadings of Spellings and Synonyms
+
+    
+
+    - TY
+
+    
+
+    - DRUDGE REPORT 2012®
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/6130126685334700207/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/6130126685334700207/comments/default";
+holder.currentBlogUrl = "http://acrazychicken.blogspot.com/"; holder.currentBlogId
+= "6130126685334700207"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#666666"; skin['ENDCAP_LINK_COLOR'] = "#5588aa";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#5588aa"; skin['CONTENT_TEXT_COLOR'] =
+"#666666"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#5588aa";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#999999"; skin['CONTENT_HEADLINE_COLOR'] =
+"#cc6600"; skin['FONT_FACE'] = "normal normal 100% Georgia, Serif";
+google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-1lc3vx568d1bi",
+height: 260, site: "13438459017212614123", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2012 (179)
+
+        - ►  September (3)
+
+        
+
+        
+
+        - ►  August (23)
+
+        
+
+        
+
+        - ►  July (28)
+
+        
+
+        
+
+        - ►  June (12)
+
+        
+
+        
+
+        - ►  May (17)
+
+        
+
+        
+
+        - ►  April (16)
+
+        
+
+        
+
+        - ►  March (30)
+
+        
+
+        
+
+        - ►  February (23)
+
+        
+
+        
+
+        - ►  January (27)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (270)
+
+        - ►  December (33)
+
+        
+
+        
+
+        - ►  November (29)
+
+        
+
+        
+
+        - ►  October (10)
+
+        
+
+        
+
+        - ►  September (26)
+
+        
+
+        
+
+        - ►  August (27)
+
+        
+
+        
+
+        - ►  July (19)
+
+        
+
+        
+
+        - ►  June (2)
+
+        
+
+        
+
+        - ►  May (25)
+
+        
+
+        
+
+        - ►  April (27)
+
+        
+
+        
+
+        - ►  March (23)
+
+        
+
+        
+
+        - ►  February (27)
+
+        
+
+        
+
+        - ►  January (22)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2010 (204)
+
+        - ►  December (19)
+
+        
+
+        
+
+        - ►  November (21)
+
+        
+
+        
+
+        - ►  October (17)
+
+        
+
+        
+
+        - ►  September (21)
+
+        
+
+        
+
+            - ▼  August (32)
+
+            - Chemistry Is Like Sex: Coupling Illustrated
+
+            
+
+            - What Do Electrons Look Like?
+
+            
+
+            - The Basics Of How Chemistry Is Like Sex
+
+            
+
+            - Acerbic Wet
+
+            
+
+            - The Red Baron (2010)
+
+            
+
+            - Urban Reclamation: Help Wanted-None
+
+            
+
+            - Cash Cab Fridays
+
+            
+
+            - The Essence of Distillation
+
+            
+
+            - Letters Home: "I just got off K.P. What a day for ...
+
+            
+
+            - Deconstructing Karleton Armstrong
+
+            
+
+            - Words about acids, bases, and polarizing forces
+
+            
+
+            - Wait Wait! Rewind to 1964 Again!
+
+            
+
+            - Winston Churchill and "Fool's Overture"
+
+            
+
+            - Silver, Gold, & Lead
+
+            
+
+            - A Satirical Song About A Satyrical Briton
+
+            
+
+            - Meet the Father of Loud
+
+            
+
+            - The Beached Boys
+
+            
+
+            - California's Shadow Economy
+
+            
+
+            - The Wrecking Crew (2008)
+
+            
+
+            - Three Accidents That Enriched The Guitar Driven So...
+
+            
+
+            - Sometimes Being Cool Is Just Uncool
+
+            
+
+            - 50 Years Of MyTunes: 1965 Can't Get No Satisfactio...
+
+            
+
+            - Letters To Freya: The Trial of Helmuth James von M...
+
+            
+
+            - I am connascent with Mad Men
+
+            
+
+            - How the Dutch tongue avoids the same-sex marriage ...
+
+            
+
+            - Letters Home: "We got here at last...this country ...
+
+            
+
+            - 50 Years Of MyTunes: 1964 Got Kinda Kinky
+
+            
+
+            - Who Was Hot In 1952?
+
+            
+
+            - Everything You Always Wanted to Know About Chemist...
+
+            
+
+            - 50 Years Of MyTunes: 1963
+
+            
+
+            - Letters Home: An 18-Day Transatlantic Cruise
+
+            
+
+            - "You Are My Medicine"
+
+            
+
+        
+
+        
+
+        
+
+        - ►  July (15)
+
+        
+
+        
+
+        - ►  June (13)
+
+        
+
+        
+
+        - ►  May (10)
+
+        
+
+        
+
+        - ►  April (16)
+
+        
+
+        
+
+        - ►  March (15)
+
+        
+
+        
+
+        - ►  February (14)
+
+        
+
+        
+
+        - ►  January (11)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (41)
+
+        - ►  December (14)
+
+        
+
+        
+
+        - ►  November (3)
+
+        
+
+        
+
+        - ►  October (3)
+
+        
+
+        
+
+        - ►  September (2)
+
+        
+
+        
+
+        - ►  August (6)
+
+        
+
+        
+
+        - ►  July (5)
+
+        
+
+        
+
+        - ►  June (3)
+
+        
+
+        
+
+        - ►  May (4)
+
+        
+
+        
+
+        - ►  April (1)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+About Me
+
+
+
+    Image:
+    http://4.bp.blogspot.com/-XwQnIgUPgkU/UGcIvFYOmWI/AAAAAAAACMQ/7xYu0EJrhaI/s220/PA.jpg
+
+        chickelit
+
+    
+
+        Born and bred from stock rooted in Wisconsin's Driftless Area . Like my father said:
+        "If people can't control themselves, the government will. If the government can't
+        control itself, another government will." -VMB
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Labels
+
+    
+
+    - 1250 (1)
+
+    
+
+    - 1324 (1)
+
+    
+
+    - 1620 (1)
+
+    
+
+    - 1627 (1)
+
+    
+
+    - 1634 (1)
+
+    
+
+    - 1667 (1)
+
+    
+
+    - 1669 (1)
+
+    
+
+    - 1710 (1)
+
+    
+
+    - 1718 (1)
+
+    
+
+    - 1728 (1)
+
+    
+
+    - 1769 (6)
+
+    
+
+    - 1771 (1)
+
+    
+
+    - 1773 (1)
+
+    
+
+    - 1780 (1)
+
+    
+
+    - 1782 (1)
+
+    
+
+    - 1784 (2)
+
+    
+
+    - 1791 (1)
+
+    
+
+    - 1794 (1)
+
+    
+
+    - 1800 (2)
+
+    
+
+    - 1801 (1)
+
+    
+
+    - 1810 (1)
+
+    
+
+    - 1813 (1)
+
+    
+
+    - 1823 (1)
+
+    
+
+    - 1828 (1)
+
+    
+
+    - 1829 (1)
+
+    
+
+    - 1845 (1)
+
+    
+
+    - 1848 (2)
+
+    
+
+    - 1850 (1)
+
+    
+
+    - 1852 (1)
+
+    
+
+    - 1858 (2)
+
+    
+
+    - 1859 (1)
+
+    
+
+    - 1860 (1)
+
+    
+
+    - 1861 (1)
+
+    
+
+    - 1864 (1)
+
+    
+
+    - 1865 (1)
+
+    
+
+    - 1866 (1)
+
+    
+
+    - 1867 (1)
+
+    
+
+    - 1868 (2)
+
+    
+
+    - 1871 (1)
+
+    
+
+    - 1875 (2)
+
+    
+
+    - 1877 (1)
+
+    
+
+    - 1878 (1)
+
+    
+
+    - 1886 (1)
+
+    
+
+    - 1889 (2)
+
+    
+
+    - 1890 (1)
+
+    
+
+    - 1893 (1)
+
+    
+
+    - 1894 (2)
+
+    
+
+    - 1895 (1)
+
+    
+
+    - 1896 (4)
+
+    
+
+    - 1897 (3)
+
+    
+
+    - 1898 (3)
+
+    
+
+    - 1900 (1)
+
+    
+
+    - 1901 (3)
+
+    
+
+    - 1903 (1)
+
+    
+
+    - 1904 (2)
+
+    
+
+    - 1907 (1)
+
+    
+
+    - 1908 (1)
+
+    
+
+    - 1909 (5)
+
+    
+
+    - 1910 (2)
+
+    
+
+    - 1911 (1)
+
+    
+
+    - 1912 (22)
+
+    
+
+    - 1913 (1)
+
+    
+
+    - 1914 (2)
+
+    
+
+    - 1915 (4)
+
+    
+
+    - 1916 (2)
+
+    
+
+    - 1917 (2)
+
+    
+
+    - 1918 (2)
+
+    
+
+    - 1919 (1)
+
+    
+
+    - 1921 (3)
+
+    
+
+    - 1922 (1)
+
+    
+
+    - 1923 (1)
+
+    
+
+    - 1924 (1)
+
+    
+
+    - 1926 (3)
+
+    
+
+    - 1927 (1)
+
+    
+
+    - 1931 (1)
+
+    
+
+    - 1932 (2)
+
+    
+
+    - 1934 (1)
+
+    
+
+    - 1935 (2)
+
+    
+
+    - 1936 (1)
+
+    
+
+    - 1937 (2)
+
+    
+
+    - 1938 (2)
+
+    
+
+    - 1939 (1)
+
+    
+
+    - 1940 (1)
+
+    
+
+    - 1941 (2)
+
+    
+
+    - 1942 (2)
+
+    
+
+    - 1943 (8)
+
+    
+
+    - 1944 (6)
+
+    
+
+    - 1945 (1)
+
+    
+
+    - 1946 (1)
+
+    
+
+    - 1947 (1)
+
+    
+
+    - 1948 (1)
+
+    
+
+    - 1950 (1)
+
+    
+
+    - 1951 (5)
+
+    
+
+    - 1952 (32)
+
+    
+
+    - 1953 (21)
+
+    
+
+    - 1955 (2)
+
+    
+
+    - 1957 (2)
+
+    
+
+    - 1958 (3)
+
+    
+
+    - 1959 (2)
+
+    
+
+    - 1960 (3)
+
+    
+
+    - 1961 (2)
+
+    
+
+    - 1962 (5)
+
+    
+
+    - 1963 (5)
+
+    
+
+    - 1964 (8)
+
+    
+
+    - 1965 (5)
+
+    
+
+    - 1966 (12)
+
+    
+
+    - 1967 (4)
+
+    
+
+    - 1968 (6)
+
+    
+
+    - 1969 (3)
+
+    
+
+    - 1970 (9)
+
+    
+
+    - 1971 (8)
+
+    
+
+    - 1972 (7)
+
+    
+
+    - 1973 (4)
+
+    
+
+    - 1974 (4)
+
+    
+
+    - 1975 (10)
+
+    
+
+    - 1976 (6)
+
+    
+
+    - 1977 (8)
+
+    
+
+    - 1978 (5)
+
+    
+
+    - 1979 (10)
+
+    
+
+    - 1980 (1)
+
+    
+
+    - 1981 (2)
+
+    
+
+    - 1982 (4)
+
+    
+
+    - 1983 (4)
+
+    
+
+    - 1984 (15)
+
+    
+
+    - 1985 (2)
+
+    
+
+    - 1986 (5)
+
+    
+
+    - 1987 (3)
+
+    
+
+    - 1988 (2)
+
+    
+
+    - 1989 (1)
+
+    
+
+    - 1990 (1)
+
+    
+
+    - 1991 (1)
+
+    
+
+    - 1992 (8)
+
+    
+
+    - 1993 (1)
+
+    
+
+    - 1994 (1)
+
+    
+
+    - 1995 (1)
+
+    
+
+    - 1996 (3)
+
+    
+
+    - 1997 (4)
+
+    
+
+    - 2000 (1)
+
+    
+
+    - 2001 (1)
+
+    
+
+    - 2002 (1)
+
+    
+
+    - 2007 (1)
+
+    
+
+    - 2009 (1)
+
+    
+
+    - 2010 (1)
+
+    
+
+    - 2011 (2)
+
+    
+
+    - 2012 (2)
+
+    
+
+    - 50 years of myTunes (82)
+
+    
+
+    - 9/11 (3)
+
+    
+
+    - 9mm (5)
+
+    
+
+    - abortion (3)
+
+    
+
+    - alchemy (10)
+
+    
+
+    - Allman Bros (3)
+
+    
+
+    - allotropes (3)
+
+    
+
+    - Althouse (19)
+
+    
+
+    - Aluminum (2)
+
+    
+
+    - Amba (6)
+
+    
+
+    - Antimony (1)
+
+    
+
+    - architectural indigestion (2)
+
+    
+
+    - Argon (2)
+
+    
+
+    - Arsenic (5)
+
+    
+
+    - Art (5)
+
+    
+
+    - atheism (2)
+
+    
+
+    - Bacon (2)
+
+    
+
+    - banjo (2)
+
+    
+
+    - beer (4)
+
+    
+
+    - Beryllium (3)
+
+    
+
+    - Bigeleisen (2)
+
+    
+
+    - biking (1)
+
+    
+
+    - Bitter Living Through Chemistry (3)
+
+    
+
+    - BJM (1)
+
+    
+
+    - blake (the tweeter) (1)
+
+    
+
+    - bloghetti carbonara (35)
+
+    
+
+    - Bohr (3)
+
+    
+
+    - Boron (4)
+
+    
+
+    - Breaking Away (4)
+
+    
+
+    - bridges (4)
+
+    
+
+    - Bromine (5)
+
+    
+
+    - Calcium (2)
+
+    
+
+    - cancer (2)
+
+    
+
+    - carbon (7)
+
+    
+
+    - Carol Herman (3)
+
+    
+
+    - Carothers (3)
+
+    
+
+    - cartoons (4)
+
+    
+
+    - Cash Cab (1)
+
+    
+
+    - Catenation (11)
+
+    
+
+    - Cesium (2)
+
+    
+
+    - Chemistry (13)
+
+    
+
+    - Chemistry is like sex (10)
+
+    
+
+    - Chemistry of Sex (2)
+
+    
+
+    - Chicago (5)
+
+    
+
+    - chlorine (2)
+
+    
+
+    - Christmas (8)
+
+    
+
+    - chromium (3)
+
+    
+
+    - Chu on this (7)
+
+    
+
+    - chuckb (1)
+
+    
+
+    - Churchill (4)
+
+    
+
+    - Cleveland (11)
+
+    
+
+    - Cobalt (3)
+
+    
+
+    - Cocktails (7)
+
+    
+
+    - coinage (6)
+
+    
+
+    - Conservative Notions (5)
+
+    
+
+    - Conversations with Henry (25)
+
+    
+
+    - Conversations with Me (9)
+
+    
+
+    - Conversations with Ritmo (8)
+
+    
+
+    - cool books (46)
+
+    
+
+    - cool women (11)
+
+    
+
+    - copper (14)
+
+    
+
+    - Cracked Emcee (2)
+
+    
+
+    - Darcy (1)
+
+    
+
+    - Davy (6)
+
+    
+
+    - DBQ (1)
+
+    
+
+    - DC (2)
+
+    
+
+    - death (10)
+
+    
+
+    - demographics (4)
+
+    
+
+    - diamond (3)
+
+    
+
+    - Dick Dale (5)
+
+    
+
+    - Diesel (3)
+
+    
+
+    - disney (5)
+
+    
+
+    - Djerassi (1)
+
+    
+
+    - Drums (8)
+
+    
+
+    - Dutch (3)
+
+    
+
+    - Dylan (4)
+
+    
+
+    - earthquakes (2)
+
+    
+
+    - EBL (1)
+
+    
+
+    - Economics (2)
+
+    
+
+    - Einstein (4)
+
+    
+
+    - electrons (15)
+
+    
+
+    - Elements (15)
+
+    
+
+    - Elvis (2)
+
+    
+
+    - Energy (18)
+
+    
+
+    - Entropy (11)
+
+    
+
+    - Enzymes (4)
+
+    
+
+    - Eric Clapton (3)
+
+    
+
+    - etymology (6)
+
+    
+
+    - faith (7)
+
+    
+
+    - Family (20)
+
+    
+
+    - Faraday (8)
+
+    
+
+    - fashion (3)
+
+    
+
+    - fluorine (2)
+
+    
+
+    - Forgotten Americans (7)
+
+    
+
+    - Forgotten Brits (9)
+
+    
+
+    - Frank Lloyd Wright (2)
+
+    
+
+    - Free Will (2)
+
+    
+
+    - French (11)
+
+    
+
+    - Freud (3)
+
+    
+
+    - Friedman (2)
+
+    
+
+    - Frost (2)
+
+    
+
+    - Gallium (4)
+
+    
+
+    - games (4)
+
+    
+
+    - garage mahal (1)
+
+    
+
+    - Gay Rites (2)
+
+    
+
+    - Geistiges Eigentum (3)
+
+    
+
+    - Gems (2)
+
+    
+
+    - George Vukelich (1)
+
+    
+
+    - Germanium (3)
+
+    
+
+    - gnomon (4)
+
+    
+
+    - Gold (8)
+
+    
+
+    - grad school (1)
+
+    
+
+    - graffiti (1)
+
+    
+
+    - Guns (9)
+
+    
+
+    - Hammond's postulate (2)
+
+    
+
+    - Hawaii (2)
+
+    
+
+    - Haz (2)
+
+    
+
+    - Heat (7)
+
+    
+
+    - Helium (4)
+
+    
+
+    - Hendrix (7)
+
+    
+
+    - Heroes On Stamps (15)
+
+    
+
+    - Highway 41 (1)
+
+    
+
+    - hippies (5)
+
+    
+
+    - History (2)
+
+    
+
+    - History of Chemistry (5)
+
+    
+
+    - Hitchcock (1)
+
+    
+
+    - horns (4)
+
+    
+
+    - Hunter S. Thompson (2)
+
+    
+
+    - Hydrogen (9)
+
+    
+
+    - hypothesis (66)
+
+    
+
+    - Ike (2)
+
+    
+
+    - Imagination (4)
+
+    
+
+    - immigration (2)
+
+    
+
+    - inglese italianato (18)
+
+    
+
+    - Instapundit (1)
+
+    
+
+    - Inventors (19)
+
+    
+
+    - iron (14)
+
+    
+
+    - Iron Sights (4)
+
+    
+
+    - Irony (13)
+
+    
+
+    - Isotopes (14)
+
+    
+
+    - James Joyce (2)
+
+    
+
+    - Japan (2)
+
+    
+
+    - Jason (the commenter) (3)
+
+    
+
+    - jazz (1)
+
+    
+
+    - Jeff Beck (2)
+
+    
+
+    - Jefferson (2)
+
+    
+
+    - Jonny Quest (3)
+
+    
+
+    - Karleton Armstrong (2)
+
+    
+
+    - Kingston Trio (4)
+
+    
+
+    - Kinks (2)
+
+    
+
+    - KoFo (3)
+
+    
+
+    - Krypton (1)
+
+    
+
+    - Laplace (2)
+
+    
+
+    - Last Letters From Stalingrad (28)
+
+    
+
+    - Lavoisier (11)
+
+    
+
+    - Lead (5)
+
+    
+
+    - Led Zeppelin (7)
+
+    
+
+    - Letters Home (57)
+
+    
+
+    - Letters To Freya (4)
+
+    
+
+    - Lewis (5)
+
+    
+
+    - Lithium (6)
+
+    
+
+    - LL (5)
+
+    
+
+    - Madison (11)
+
+    
+
+    - Magnesium (2)
+
+    
+
+    - Magnetism (2)
+
+    
+
+    - MamaM (2)
+
+    
+
+    - Mamet (1)
+
+    
+
+    - manganese (3)
+
+    
+
+    - marriage (1)
+
+    
+
+    - Meade (1)
+
+    
+
+    - memory diving (10)
+
+    
+
+    - Mendeleev (2)
+
+    
+
+    - Mercury (5)
+
+    
+
+    - Misspent Youth (6)
+
+    
+
+    - Mitt Romney (6)
+
+    
+
+    - Molybdenum (1)
+
+    
+
+    - movie review (2)
+
+    
+
+    - narcissism (1)
+
+    
+
+    - neologisms (3)
+
+    
+
+    - Neon (2)
+
+    
+
+    - Netflix (3)
+
+    
+
+    - Neutrons (4)
+
+    
+
+    - Nickel (4)
+
+    
+
+    - Niobium (1)
+
+    
+
+    - Nirvana (1)
+
+    
+
+    - nitrogen (15)
+
+    
+
+    - NMR (1)
+
+    
+
+    - nodes (2)
+
+    
+
+    - nostalgia (10)
+
+    
+
+    - Oh The Germanity (25)
+
+    
+
+    - Old World Wisconsin (15)
+
+    
+
+    - Olympics (2)
+
+    
+
+    - Oppenheimer (2)
+
+    
+
+    - ourosboros (4)
+
+    
+
+    - oxygen (12)
+
+    
+
+    - Palladian (1)
+
+    
+
+    - parenting (8)
+
+    
+
+    - Patti Smith (4)
+
+    
+
+    - Pauling (3)
+
+    
+
+    - periodicity (22)
+
+    
+
+    - philately (21)
+
+    
+
+    - Philology (1)
+
+    
+
+    - philosophy (2)
+
+    
+
+    - phosphorus (5)
+
+    
+
+    - Photography (2)
+
+    
+
+    - Physics (1)
+
+    
+
+    - Pink Floyd (2)
+
+    
+
+    - Planck (3)
+
+    
+
+    - planets (2)
+
+    
+
+    - poetry (7)
+
+    
+
+    - political science (43)
+
+    
+
+    - politics (36)
+
+    
+
+    - Polonium (1)
+
+    
+
+    - Pompeii (1)
+
+    
+
+    - pop music (19)
+
+    
+
+    - Portola (6)
+
+    
+
+    - potassium (2)
+
+    
+
+    - prophecy (3)
+
+    
+
+    - protons (1)
+
+    
+
+    - Quantum of Solstice (1)
+
+    
+
+    - radioactivity (23)
+
+    
+
+    - Radium (3)
+
+    
+
+    - reader_iam (2)
+
+    
+
+    - Reclamation (7)
+
+    
+
+    - recycling (1)
+
+    
+
+    - Redirection (2)
+
+    
+
+    - resonance (3)
+
+    
+
+    - Revisiting Highway 61 (10)
+
+    
+
+    - roadtrips (5)
+
+    
+
+    - Rolling Stones (1)
+
+    
+
+    - Rome (3)
+
+    
+
+    - ron (4)
+
+    
+
+    - Rubidium (2)
+
+    
+
+    - Ruthenium (3)
+
+    
+
+    - Rutherford (7)
+
+    
+
+    - Saltpeter (2)
+
+    
+
+    - Scandium (1)
+
+    
+
+    - Selenium (1)
+
+    
+
+    - Shenanigans (2)
+
+    
+
+    - shill (1)
+
+    
+
+    - shipwrecks (15)
+
+    
+
+    - Silicon (1)
+
+    
+
+    - Silly Putty (1)
+
+    
+
+    - Silver (7)
+
+    
+
+    - sissywillis (3)
+
+    
+
+    - Socratic method (2)
+
+    
+
+    - Soddy (7)
+
+    
+
+    - sodium (3)
+
+    
+
+    - Spanish (1)
+
+    
+
+    - sports (1)
+
+    
+
+    - spuren noch (8)
+
+    
+
+    - Status Quo (1)
+
+    
+
+    - Strontium (1)
+
+    
+
+    - Structure (2)
+
+    
+
+    - Stuck in '66 (7)
+
+    
+
+    - suicide (6)
+
+    
+
+    - sulfur (4)
+
+    
+
+    - Summer of Love (4)
+
+    
+
+    - surf music (10)
+
+    
+
+    - technetium (3)
+
+    
+
+    - Thanks (1)
+
+    
+
+    - Thatcher (1)
+
+    
+
+    - The Byrds (2)
+
+    
+
+    - The Doors (1)
+
+    
+
+    - The Elements Series (45)
+
+    
+
+    - The Pill (1)
+
+    
+
+    - The Who (8)
+
+    
+
+    - Things seem exactly as they are (3)
+
+    
+
+    - Thomson (1)
+
+    
+
+    - Thorium (1)
+
+    
+
+    - Time (5)
+
+    
+
+    - Times Beach (6)
+
+    
+
+    - Tin (4)
+
+    
+
+    - Titanic (28)
+
+    
+
+    - Titanium (4)
+
+    
+
+    - transmutation (6)
+
+    
+
+    - travel (4)
+
+    
+
+    - trees (5)
+
+    
+
+    - Trooper York (5)
+
+    
+
+    - Tungsten (2)
+
+    
+
+    - Twain (6)
+
+    
+
+    - umpolung (2)
+
+    
+
+    - unions (4)
+
+    
+
+    - Uranium (4)
+
+    
+
+    - urine (3)
+
+    
+
+    - Vanadium (3)
+
+    
+
+    - vbspurs (6)
+
+    
+
+    - veterans (2)
+
+    
+
+    - War Letters (6)
+
+    
+
+    - Watt (4)
+
+    
+
+    - Wealth Makers (7)
+
+    
+
+    - wikisucks (3)
+
+    
+
+    - Wings of Dove (8)
+
+    
+
+    - WW I (13)
+
+    
+
+    - WW II (3)
+
+    
+
+    - x (13)
+
+    
+
+    - Xenon (1)
+
+    
+
+    - You'll Never Guess Why (1)
+
+    
+
+    - Yttrium (1)
+
+    
+
+    - zinc (7)
+
+    
+
+    - Zirconium (1)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png  
+
+Search This Blog
+
+Loading... #uds-searchControl .gs-result .gs-title, #uds-searchControl .gs-result
+.gs-title *, #uds-searchControl .gsc-results .gsc-trailing-more-results,
+#uds-searchControl .gsc-results .gsc-trailing-more-results * { color:#5588aa; }
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result
+.gs-title a:visited * { color:#999999; } #uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-publishedDate { color: #999999; } #uds-searchControl .gs-result
+a.gs-visibleUrl, #uds-searchControl .gs-result .gs-visibleUrl { color: #cc6600; }
+#uds-searchControl .gsc-results { border-color: #cccccc; background-color: #ffffff; }
+#uds-searchControl .gsc-tabhActive { border-color: #cccccc; border-top-color:
+#cc6600; background-color: #ffffff; color: #333333; } #uds-searchControl
+.gsc-tabhInactive { border-color: #cccccc; background-color: transparent; color:
+#5588aa; } #uds-searchClearResults { border-color: #cccccc; }
+#uds-searchClearResults:hover { border-color: #cc6600; } #uds-searchControl
+.gsc-cursor-page { color: #5588aa; } #uds-searchControl .gsc-cursor-current-page {
+color: #333333; }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'6130126685334700207';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d6130126685334700207','//acrazychicken.blogspot.com/2010_08_01_archive.html','6130126685334700207');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'6130126685334700207', 'bloggerUrl': 'http://www.blogger.com', 'title': 'El Pollo
+Real', 'pageType': 'archive', 'url':
+'http://acrazychicken.blogspot.com/2010_08_01_archive.html', 'canonicalUrl':
+'http://acrazychicken.blogspot.com/2010_08_01_archive.html',
+'canonicalHomepageUrl': 'http://acrazychicken.blogspot.com/', 'homepageUrl':
+'http://acrazychicken.blogspot.com/', 'blogspotFaviconUrl':
+'http://acrazychicken.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'August 2010', 'pageTitle': 'El Pollo Real: August 2010', 'encoding': 'UTF-8', 'locale':
+'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass':
+'', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42El Pollo Real -
+Atom\42 href\75\42http://acrazychicken.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42El
+Pollo Real - RSS\42
+href\75\42http://acrazychicken.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42El Pollo Real - Atom\42
+href\75\42http://www.blogger.com/feeds/6130126685334700207/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0756130126685334700207\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#666666', 'linkcolor':
+'#5588aa', 'visitedlinkcolor': '#999999', 'textcolor': '#333333', 'headerfont':
+'normal normal 78% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif',
+'pagetitlefont': 'normal normal 200% Georgia, Serif', 'bgcolor': '#ffffff',
+'descriptioncolor': '#999999', 'titlecolor': '#cc6600', 'bordercolor': '#cccccc',
+'postfooterfont': 'normal normal 78% \47Trebuchet MS\47, Trebuchet, Arial, Verdana,
+Sans-serif', 'pagetitlecolor': '#666666', 'bodyfont': 'normal normal 100% Georgia,
+Serif', 'endSide': 'right', 'startSide': 'left', 'descriptionfont': 'normal normal 78%
+\47Trebuchet MS\47, Trebuchet, Arial, Verdana, Sans-serif', 'sidebarcolor':
+'#999999'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic',
+'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url':
+'/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'},
+'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar',
+'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url':
+'/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_CustomSearchView',
+new _WidgetInfo('CustomSearch1', 'footer', null,
+document.getElementById('CustomSearch1'), {'title': 'Search This Blog',
+'includeBlog': true, 'includePostLinks': true, 'includeWeb': false, 'linkLists':
+[{'id': 'BlogList2', 'title': 'Other blogs I like'}], 'blogUrl':
+'http://acrazychicken.blogspot.com/', 'loadingMsg': 'Loading...', 'thisBlogMsg':
+'This Blog', 'linkedFromHereMsg': 'Linked From Here', 'theWebMsg': 'The Web',
+'backgroundColor': '#ffffff', 'textColor': '#333333', 'dateColor': '#999999',
+'linkColor': '#5588aa', 'urlColor': '#cc6600', 'visitedLinkColor': '#999999',
+'borderColor': '#cccccc', 'activeBorderColor': '#cc6600'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList2',
+'sidebar', null, document.getElementById('BlogList2'), {'numItemsToShow': 0,
+'totalItems': 17}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1',
+'sidebar', null, document.getElementById('Followers1'), {'title': 'Followers',
+'codeSnippet': '\74script type\75\42text/javascript\42\76\n if (!window.google ||
+!google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75
+\42http://www.blogger.com/feeds/6130126685334700207/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/6130126685334700207/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://acrazychicken.blogspot.com/\42;\n
+holder.currentBlogId \75 \0426130126685334700207\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-1kdy588dt7c31\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#666666\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#5588aa\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#5588aa\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#666666\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#5588aa\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#999999\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#cc6600\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 100% Georgia, Serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-1kdy588dt7c31\42,\n height: 260,\n \n \n \n site:
+\04213438459017212614123\42,\n \n locale: \47en\47 },\n skin);\n \74/script\076'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ProfileView', new
+_WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LabelView', new
+_WidgetInfo('Label1', 'sidebar', null, document.getElementById('Label1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'),
+{'title': 'Pages', 'links': [{'href': 'http://acrazychicken.blogspot.com/', 'title':
+'Home', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+

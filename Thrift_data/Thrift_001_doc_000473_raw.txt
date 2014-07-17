@@ -1,0 +1,965 @@
+
+
+
+
+Mexico Sea Turtles: A Magical Time of the Year (function() { var cx =
+'016474116467456296202:zcdp2tq_pxi' var gcse = document.createElement('script');
+gcse.type = 'text/javascript'; gcse.async = true; gcse.src =
+(document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_logo.png?1348686979
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_b_search.png?1348686979
+    var currentIndex = -1 var default_phrase = "Home Listings by City"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686979
+        Consumer
+
+        - Home Improvement
+
+        
+
+        - Home Buying
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Home Selling
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686979
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  Home : Blogs : Thomas Lloyd - Mexico Broker Referral Program : TOP Mexico Real Estate .reblog
+{ margin-left: 4px; } Tweet
+
+Mexico Sea Turtles: A Magical Time of the Year
+
+
+
+A few days ago by the night, we took our kids to the Beach.  Not during the day, but we arrived
+during the evening.  A Mexico Real Estate Beach somewhere between Tulum and Playa del
+Carmen.  A beautiful beach not well known, hardly any tourists know of its existence, but it
+is one of the most important beaches of Quintana Roo in regards to the Mexico Sea Turtles
+.  During these dates, Turtle eggs begin hatching and a delicate life cycle begins.
+
+
+
+Image: http://i255.photobucket.com/albums/hh138/beatlo/Sea%20Turtles/Turtle2.jpg
+ 
+
+The initiation of this period is celebrated by the people of Playa del Carmen, Tulum and the
+people from Xcaret ecological parks.  They invite the children of the region, to
+participte, to witness, and most important to learn and educate others of the fragile life
+that exists and shares this planet with us.  What better way to educate a child…and an
+adult… than with an outdoor theatre on the Mexican Caribbean Ocean!
+
+
+
+Image: http://i255.photobucket.com/albums/hh138/beatlo/Sea%20Turtles/Us.jpg  
+
+We parked the car alongside the highway and walked towards a dirtroad hidden in the
+jungle and mangroves.  Soon the lights of a bus started to near us arriving from the
+beach.  Full of excited young staff of the Xcaret park.  They invited us into their bus,
+and began an explanation to the kids that we would be going down onto the beach to witness a
+magical event that occurs once a year.  Today was a party to celebrate this occurence.  But,
+as what we should always do with mother nature, try to leave as little evidence as possible
+that you or your family were present.  Leave as little of an ecological footprint
+as possible.
+
+                   
+
+Image: http://i255.photobucket.com/albums/hh138/beatlo/Sea%20Turtles/Nature.jpg
+
+One Flower was given to each person as they entered onto the beach.  We sat on a beach towel, a
+dark night as the clouds hid the Moon and most of the stars yet it made a nice dark backdrop
+for the event.  Zen music began lightly in the background against the waves pounding of
+the Mexican Caribbean Ocean.  Suddenly, 50 yards down the beach, Mother Nature appeared,
+dancing, slowly, and nearing to the invited witnesses.  She was the host, speaking to
+the children, she was the story teller. 
+
+“Nature has Guardians that live amongst us humans.  They are here to help the balance, to
+help the probabilities of survival and reproduction for the weak creatures that live
+on this planet.   Guardians such as Earth, the Guardian of the Winds, the Water Guardian,
+and the Guardian of the Fire.”  
+
+                    
+
+Image:
+http://i255.photobucket.com/albums/hh138/beatlo/Sea%20Turtles/Elements.jpg
+
+The actors appeared during her explanation with magnificant costumes and on stilts. 
+The interesting fact was how these wonderful actors were able to dance on the beach and on their
+stilts.  After the 4 Guardians danced, Mother Nature went on to introduce the sacred Mexico
+Sea Turtle.  50 yards down the beach, again with the assistance of the dark shade cover from
+the clouds, appearing out of nowhere, a large SEA TURTLE the size of a Suburban Truck was
+crawling slowly towards the audience.  The gasps came from all the kids (and many
+adults) at the beautifully designed costume.  The Mexico Sea Turtle was lit up underneath
+and the light transparented through the fabrics, making a magical theatrical
+representation of this creature.  We later learned that it took approximately 7 actors to
+move this micro float around the stage. 
+
+“I am so exhausted,  I have swam from so far away over 100s of miles, I feel as if my interior is
+about to explode, I can`t go on much more”   the voice of the female turtle whispered. 
+“Yet, something draws me to this place.  It feels like…home, I have been here
+before.”   The children then witnessed how the dirt started flying as the huge turle
+begins digging a hole to bear her eggs.  With the music playing, the turtle then finishes
+laying, and then crawls towards the Caribbean water.  Mother nature says that the turtle
+is sad to leave her babies, because she knows that many will not survive their long
+journey, will not survive all the predators, and will not survive the dangerous waters. 
+But, when she gets to the water, she rejoices and has hope.  A beautiful message and our kids
+abosorbed it like sponges.  Back on the stage, the beach,  about 12 eggs lit up in
+greenish colors the size of huge pillows were left glowing on the sand.  Little actors, the
+ages of 6 and 8 picked up the eggs which were dangling at the end of sticks, started
+dancing on the beach with Caribbean music.  After this dance, the lights on the
+eggs slowly flickered off one by one.  But as they flickered off, the lights of
+small turles began flickering on, also on the end of sticks.  Again the music very
+festive as the small actors ran around the dark beach with only the figures of small
+turtles bouncing in the darkness.  Soon the music began to slow down, and a adult actor
+dressed as a mix of a wild dog, wolf, lioncat appeared and started to chase the
+turtles.   Soon it was joined by another adult actor representing birds with large vicious
+claws and beak.  Finally, as mother nature explained “the worst enemy to the turtle that
+does most harm…Man”   An actor in a over sized human puppet appeared on the beach to
+join the other two predators chasing the turtles.  Our kids… wide eyed and sitting on my
+lap by then grabbing a hold of my hand. 
+
+                   
+
+Image: http://i255.photobucket.com/albums/hh138/beatlo/Sea%20Turtles/Fire.jpg
+
+To the rescue,  the four guardians who were standing in the four corners during the entire
+show, came back to the center stage.  The music picked up, and they began their dance amongst
+the turtles and the predators.  They saved the day as all three predators were chased off back
+into the jungle with the cheers of the children.  The small turtle lights than began moving
+towards the shore, their lights slowly flickered off representing their arrival to the
+beautiful and magical Caribbean Ocean.  Mother Nature finished her story by
+inviting all the children and adults to throw the flower that was given to them at the entrance,
+into the ocean in rememberence of the bravery of the small turtles who survive. 
+
+                   
+
+Image: http://i255.photobucket.com/albums/hh138/beatlo/Sea%20Turtles/Turtle.jpg
+
+The kids were then invited to see actual live baby turtles as the biologists had various eggs
+that were just hatched over the past week.  Many ready for this first stage of their
+beautiful, adventurous life in the Ocean Waters and shores of Mexico.  To become part of this
+society and to get involved in helping the education and communication of saving these and
+other species, please contact this wonderful Mexico organization ( See link ).
+
+ 
+
+
+
+Image:
+http://i255.photobucket.com/albums/hh138/beatlo/Sea%20Turtles/seaturtle-1.jpg
+*There are seven living species of sea turtles in the world.
+
+*Some of the largest sea turtles, measure upto six or seven feet (2 m) in length at maturity,
+and three to five feet (1 to 1.5 m) in width, weighing up to 1300 pounds (650 kg).
+
+*The fact that most species return to nest at the locations where they were born seems to
+indicate an imprint of that location’s magnetic features with the turtles.
+
+ 
+
+ 
+
+ 
+
+
+
+Image: http://www.boomersabroad.com/images//topmexico1.jpg
+
+"Mexico's Leading Network of Specialists for Finding and Purchasing Mexican Properties
+Safely!"
+
+Thomas Lloyd, Graduate from Purdue University Business School with a degree in
+Management/Financial Option Investment.  With 15 years work experience in Mexico and
+professional license and degree in Mexican real estate, he is the current president of
+TOPMexicoRealEstate.   Posted by Thomas Lloyd - Mexico Broker Referral Program on
+08/19/2009 09:54 AM   Comments (0)   turtles in mexico , tulum , playa del carmen , mexico sea
+turtles , mexico real estate   Generate short URL
+
+0 Comments on Mexico Sea Turtles: A Magical Time of the Year Notify me of new comments: Email:
+
+Image: /images/24-message-info.png What does the graphic say?
+
+Image: /plugin_assets/fruit_captcha/images/f1.gif Leave a response… var
+RecaptchaOptions = { theme : 'custom', custom_theme_widget: 'recaptcha_widget' };
+
+Name:
+
+Email:
+
+(optional) Comment: //<![CDATA[ tinyMCE.init( { mode:'exact', convert_urls: false,
+elements:'blog_comment_comment', theme:'advanced', plugins: 'spellchecker',
+theme_advanced_toolbar_location: 'top', theme_advanced_buttons1 : 'bold, italic,
+underline, strikethrough, justifyleft, justifycenter, justifyright, justifyfull,
+outdent,indent, bullist, numlist,preview,spellchecker', extended_valid_elements:
+'object[classid|codebase|width|height|align|embed|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata],param[name|value],embed[quality|type|pluginspage|width|height|src|align|wmode|flashvars|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata]',
+plugin_preview_width : '600', plugin_preview_height : '600', theme_advanced_buttons2 :
+'', theme_advanced_buttons3 : '', file_browser_callback : 'fileBrowserCallBack',
+spellchecker_rpc_url : '/action/spellcheck' }); //]]> Spam Prevention: Incorrect please
+try again Type the two words above Type the numbers you hear
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/sound.gif?1348686979
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/photo.gif?1348686979
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/reload.gif?1348686979
+Event.observe(window, 'load', initLazyLoad); function initLazyLoad() {
+$$("div.comment_image").each(function(e){ e.style.backgroundImage =
+"url("+e.getAttribute('imagesrc')+")" }) }   function contact(aid) { //documentation
+on this: http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/rainmaker_large.png?1348686979
+
+Thomas Lloyd - Mexico Broker Referral Program
+
+Monticello , IN
+
+More about me…
+
+Top Mexico Real Estate
+
+Office Phone: (512) 879-6546
+
+Cell Phone: (984) 807-9079
+
+Email Me Everything you need to know about Mexico Real Estate. Looking for Mexico properties?
+Do you want a Mexico Oceanfront Preconstruction Condo? Or maybe looking to Retire to Mexico.
+Learn tips and inside advise on Mexico Luxury Real Estate from a top Mexico Real Estate agent,
+Thomas Lloyd
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686979
+Listings
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686979
+Links
+
+
+
+    
+
+    - Mexico Real Estate Experts Blog
+
+    
+
+    - Top Mexico Real Estate
+
+    
+
+    - Playa del Carmen Real Estate
+
+    
+
+    - Tulum Real Estate
+
+    
+
+    - Cozumel Real Estate
+
+    
+
+    - Cancun Real Estate
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686979
+Archives
+
+
+
+    
+
+    - September 2012 (3)
+
+    
+
+    - August 2012 (9)
+
+    
+
+    - July 2012 (8)
+
+    
+
+    - June 2012 (11)
+
+    
+
+    - May 2012 (5)
+
+    
+
+    - April 2012 (3)
+
+    
+
+    - March 2012 (4)
+
+    
+
+    - February 2012 (7)
+
+    
+
+    - January 2012 (10)
+
+    
+
+    - December 2011 (13)
+
+    
+
+    - November 2011 (21)
+
+    
+
+    - October 2011 (13)
+
+    
+
+    - July 2011 (5)
+
+    
+
+    - June 2011 (10)
+
+    
+
+    - May 2011 (17)
+
+    
+
+    - April 2011 (35)
+
+    
+
+    - March 2011 (5)
+
+    
+
+    - February 2011 (26)
+
+    
+
+    - January 2011 (19)
+
+    
+
+    - December 2010 (15)
+
+    
+
+    - November 2010 (17)
+
+    
+
+    - October 2010 (24)
+
+    
+
+    - September 2010 (25)
+
+    
+
+    - August 2010 (26)
+
+    
+
+    - July 2010 (21)
+
+    
+
+    - June 2010 (29)
+
+    
+
+    - May 2010 (21)
+
+    
+
+    - April 2010 (19)
+
+    
+
+    - March 2010 (23)
+
+    
+
+    - February 2010 (22)
+
+    
+
+    - January 2010 (20)
+
+    
+
+    - December 2009 (19)
+
+    
+
+    - November 2009 (20)
+
+    
+
+    - October 2009 (19)
+
+    
+
+    - September 2009 (21)
+
+    
+
+    - August 2009 (15)
+
+    
+
+    - July 2009 (23)
+
+    
+
+    - June 2009 (8)
+
+    
+
+    - April 2009 (3)
+
+    
+
+    - March 2009 (4)
+
+    
+
+    - February 2009 (2)
+
+    
+
+    - January 2009 (3)
+
+    
+
+    - December 2008 (2)
+
+    
+
+    - November 2008 (2)
+
+    
+
+    - October 2008 (5)
+
+    
+
+    - September 2008 (4)
+
+    
+
+    - July 2008 (3)
+
+    
+
+    - June 2008 (2)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find IN real estate agents and Monticello real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/new_design/eho.gif?1348686979
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

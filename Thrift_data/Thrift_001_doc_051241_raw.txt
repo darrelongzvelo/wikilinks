@@ -1,0 +1,951 @@
+
+
+
+
+BEST FIGHTING VIDEO (function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); <!-- /* ----------------------------------------------- Templates Novo Blogger
+Template TecnoWorld CriaÃ§Ã£o: Ariane url:
+http://templatesparanovoblogger.blogspot.com 19 jan 2008 Distributed by:
+http://BTemplates.com Por favor, nÃ£o retire os crÃ©ditos!
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#FFFFFF"> <Variable name="textcolor" description="Text Color"
+type="color" default="#484848"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#F9AC39"> <Variable name="pagetitlecolor" description="Blog
+Title Color" type="color" default="#005CB9"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#FF7220"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#16110D">
+<Variable name="bordercolor" description="Border Color" type="color"
+default="#8CA754"> <Variable name="sidebarcolor" description="Sidebar Title Color"
+type="color" default="#E7B99A"> <Variable name="sidebartextcolor"
+description="Sidebar Text Color" type="color" default="#5F6B22"> <Variable
+name="visitedlinkcolor" description="Visited Link Color" type="color"
+default="#F9AC39"> <Variable name="bodyfont" description="Text Font" type="font"
+default="normal normal 100% 'Palatino Linotype',Trebuchet,Verdana,Sans-serif">
+<Variable name="headerfont" description="Sidebar Title Font" type="font"
+default="normal bold 78% 'Trebuchet',Trebuchet,Arial,Verdana,Sans-serif"> <Variable
+name="pagetitlefont" description="Blog Title Font" type="font" default="normal bold
+200% 'Lucida Grande',Trebuchet,Verdana,Sans-serif"> <Variable
+name="descriptionfont" description="Blog Description Font" type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Verdana, Sans-serif"> <Variable
+name="postfooterfont" description="Post Footer Font" type="font" default="normal
+normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif"> */ body { margin:0 auto
+0px; background: #666666; color:gray; font: x-small "Lucida Grande", Trebuchet, Verdana,
+Sans-serif; font-size/* */:/**/small; font-size: /**/small; text-align: lcenter; }
+a:link { color:#005cb9; text-decoration:none; } a:visited { color:#7f7f7f;
+text-decoration:none; } a:hover { color:#cc0000; text-decoration:underline; } a img {
+border-width:0; } #navbar #Navbar1 iframe{ display:none; visibility:none; } /* Header
+----------------------------------------------- */ #header-wrapper { width:1010px;
+height:225px; margin:0 auto 0px; } #header { margin:0 auto 0px; width:1010px;
+height:225px; text-align: left; color:#005CB9; background: #ffffff
+url(http://i27.tinypic.com/spdeuh.jpg) no-repeat top left; } #header h1 { margin:0 auto
+0px; padding:75px 0px 0px 240px; line-height:1.1em; text-transform:capitalize;
+letter-spacing:.1em; font: normal bold 283% Courier, monospace; text-align: left; }
+#header a { color:#005CB9; text-decoration:none; } #header a:hover { color:#005CB9; }
+#header .description { max-width:800px; margin-top:5px; margin-left: 260px;
+text-transform:capitalize; letter-spacing:.2em; line-height: 1.2em; font: normal
+normal 62% Arial, sans-serif; color: #0066CC; text-align: left; } #navigation{
+height:35px; width: 1010px; line-height:2.7em; margin:-12px 0px 0px 0px; *margin:0px;
+_margin:0px; background: #204973; } #navigation li{ float:left; list-style-type:none;
+white-space:nowrap; } #navigation li a{ display:block; padding:0 10px; font-size:0.9em;
+font-weight:bold; text-transform:uppercase; text-decoration:none;
+background-color:inherit; color: #ffffff; } * html #navigation a {width:1%;} #navigation
+.selected,#navigation a:hover{ background:transparent; color:#ffffff;
+text-decoration:none; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 1010px;
+margin:0 auto 0px; padding:0px; text-align:left; font: normal normal 104% Trebuchet,
+Trebuchet MS, Arial, sans-serif; background: #ffffff ; } #main-wrapper { padding-top: 0px;
+width: 500px; float: right; word-wrap: break-word; /* fix for long text breaking sidebar
+float in IE */ overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ }
+*html #main-wrapper { width: 487px;} #sidebar-wrapper { padding-top: 0px; padding-right:
+30px; padding-left: 15px; width: 210px; float: left; word-wrap: break-word; /* fix for long
+text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content
+breaking IE sidebar float */ } #newsidebar-wrapper { padding-top: 0px; padding-left: 30px;
+padding-right: 15px; width: 210px; float: right; word-wrap: break-word; /* fix for long
+text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content
+breaking IE sidebar float */ } /* Headings
+------------------------------------------------ */ h2 { margin:1.5em 0 .75em;
+font:normal bold 99% Times, serif; line-height: 1.4em; text-transform:capitalize;
+letter-spacing:.2em; color:#000000; } /* Posts
+----------------------------------------------- */ h2.date-header { text-align:
+left; font: normal normal 62% Arial, sans-serif; text-transform:capitalize; font-size:
+0.8em; color: #666666; margin-top: -8px; } .post { margin: 0px; padding-bottom:1.4em;
+color: #666666; } .post h3 { padding-bottom: 5px; margin: 3px 0px 3px 20px; font: bold 14pt
+"Lucida Sans", arial; letter-spacing: -1px; text-align: left; margin-bottom: 14px;
+color: #033D72;} .post h3 a, .post h3 a:visited, .post h3 strong { margin: 3px 0px 3px 20px;
+text-decoration: none; color: #033D72;} } .post h3 strong, .post h3 a:hover {
+text-decoration: none; color: #033D72;} } .post p { margin:10 0 .75em; line-height:1.5em; }
+.post-footer { margin: .75em 0; color:#333333; padding-left: 5px;
+text-transform:uppercase; letter-spacing:.1em; font: normal normal 69% Arial,
+sans-serif; font-weight:bold; line-height: 1.1em; border-top:1px dotted #80bfff; }
+.comment-link { margin-left:.6em; } .post img { padding:4px; } .post blockquote { padding:
+10px 10px 10px 35px; font-size: 100%; background:
+url(http://img181.imageshack.us/img181/1096/blockjc0.jpg) no-repeat top left;
+color: #8F9192;} } .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { padding-left: 10px;
+margin:1em 0; font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #000000; } #comments-block { padding-left: 5px; margin:1em 0
+1.5em; line-height:1.3em; } #comments-block .comment-author { padding-left: 5px;
+margin:.5em 0; } #comments-block .comment-body { padding-left: 5px; margin:.25em 0 0; }
+#comments-block .comment-footer { padding-left: 5px; margin:-.25em 0 2em; line-height:
+1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { padding-left: 5px; margin:0 0 .75em; } .deleted-comment { padding-left:
+5px; font-style:italic; color:gray; } .feed-links { padding-left: 15px; line-height:
+2em;} #blog-pager-newer-link { padding: 5px; float: left; } #blog-pager-older-link {
+padding: 5px; float: right; } #blog-pager { text-align: center; } /* Sidebar Content
+----------------------------------------------- */ .sidebar { color: #666666;
+text-align: left; text-size: 98%; } .sidebar h2 { margin: 0px; padding: 3px 0; color:
+#000000; text-indent: 20px; text-align: left; font-size: 100%; background: #204973; }
+.sidebar ul { list-style:none; margin: 0px; padding:0 0 0; } .sidebar li { margin:0;
+padding:0 0 6px 10px; text-indent:-15px; line-height:1.4em; } .sidebar ul li {
+vertical-align: top; padding: 5px 0px 6px 35px; background:
+url(http://img248.imageshack.us/img248/790/barrahy1.jpg) no-repeat bottom; }
+.sidebar .widget { margin:0px; padding: 5px; } .main .widget{ margin:5px; padding:0 0
+0.9em; } .main .Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: center;
+margin: 4px; padding: 4px; border: 1px solid #80bfff; } .profile-data { margin:5px;
+text-transform:uppercase; letter-spacing:.1em; font: normal normal 69% Arial,
+sans-serif; color: #000000; font-weight: bold; line-height: 1.2em; } .profile-datablock
+{ margin: 5px; } .profile-textblock { margin: 5px; line-height: 1.6em; } .profile-link {
+margin: 5px; font: normal normal 69% Arial, sans-serif; text-transform: uppercase;
+letter-spacing: .1em; } /* Footer ------------------------------------------------ */
+#footer { clear: both; background:
+url(http://img212.imageshack.us/img212/5074/footeron6.jpg) repeat-x; width: 100%;
+height: 44px; font-size: 8pt; color: #043062;} #footer a { font-size: 8pt; text-align:
+left; text-decoration: none; color: #043062;} #footer a:hover { text-decoration: none;
+color: #1B508D;} /* Credit ------------------------------------------------ */
+#credit { width:1010px; margin:0 auto 0px; text-align: center; background: #666666; }
+#credit a:link { color:gray; text-decoration:none; } #credit a:visited { color:gray;
+text-decoration:none; } #credit a:hover { color:gray; text-decoration:underline; } /**
+Page structure tweaks for layout editor wireframe */ body#layout #header { margin-left:
+0px; margin-right: 0px; } #navbar-iframe { height: 0px; visibility: hidden; display: none;
+} #fecha { height: 60px; background:
+url(http://img338.imageshack.us/img338/7906/datehs7.jpg) no-repeat; margin: 12px;
+width: 54px; text-align: center; float: left; } .fecha_dia { display: block; color:
+#D5F3FF; font: 2.1em Georgia; padding-top: 2px; text-align: center; margin-top: -5px; }
+.fecha_mes { display: block; color: #005C80; padding: 0px 0px; text-align: center;
+text-transform: uppercase; font-size: 12px; font-weight: bold; } .fecha_anio { display:
+block; color: #005C80; padding: 2px 0; text-align: center; text-transform: uppercase;
+font-size: 10px; font-weight: bold; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+    function remplaza_fecha(d){ var da = d.split(' '); dia = "<div
+    class='fecha_dia'>"+da[0]+"</div>"; //Le otorgamos una clase al dÃ­a mes = "<div
+    class='fecha_mes'>"+da[1].slice(0,3)+"</div>"; //Le otorgamos una clase al mes
+    anio = "<div class='fecha_anio'>"+da[2]+"</div>"; //Le otorgamos una clase al aÃ±o
+    document.write(dia+mes+anio); } function setAttributeOnload(object, attribute,
+    val) { if(window.addEventListener) { window.addEventListener('load', function(){
+    object[attribute] = val; }, false); } else { window.attachEvent('onload',
+    function(){ object[attribute] = val; }); } } gapi.load("iframes-styles-bubble",
+    function() { if (window.iframes && iframes.open) { iframes.open(
+    '//www.blogger.com/navbar.g?targetBlogID\0752722533378801149260\46blogName\75BEST+FIGHTING+VIDEO\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://best-fighting-video.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://best-fighting-video.blogspot.com/\46vt\758475004712342008583',
+    { container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } });
+    (function() { var script = document.createElement('script'); script.type =
+    'text/javascript'; script.src =
+    '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var head =
+    document.getElementsByTagName('head')[0]; if (head) { head.appendChild(script);
+    }})(); skip to main | skip to sidebar
+
+    - Home
+
+    
+
+    - Comments (RSS)
+
+    
+
+    - Entries (RSS)
+
+    
+
+    - Edit
+
+    
+
+
+
+BEST FIGHTING VIDEO
+
+
+
+Watch the best finghting collection video over the internet.Learn how the fighter survive.
+
+Marcadores
+
+    
+
+    - ButterBean (13)
+
+    
+
+    - Kimbo Slice (13)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Arquivo do blog
+
+    
+
+        - ▼  2008 (28)
+
+            - ▼  June (28)
+
+            - About Butterbean
+
+            
+
+            - About Kimbo Slice
+
+            
+
+            - Kimbo Slice VS James Thompson - Part 3
+
+            
+
+            - Kimbo Slice VS James Thompson - Part 2
+
+            
+
+            - Kimbo Slice VS James Thompson - Part I
+
+            
+
+            - Kimbo Slice VS MMA Cop
+
+            
+
+            - Kimbo Slice VS Bo Cantrell
+
+            
+
+            - Kimbo Slice VS Tank Abbot
+
+            
+
+            - Kimbo Slice VS Ray Mercer
+
+            
+
+            - Kimbo Slice vs Dreads
+
+            
+
+            - Kimbo Slice VS Adryan
+
+            
+
+            - Kimbo Slice vs Chico
+
+            
+
+            - Kimbo Slice VS The Bouncer
+
+            
+
+            - Kimbo Slice VS 2 Guys (Afropuf & Big Mac)
+
+            
+
+            - Kimbo Slice VS Big D
+
+            
+
+            - ButterBean VS Paul Springer
+
+            
+
+            - Butterbean VS Gunn
+
+            
+
+            - Butterbean VS Mitch Rose
+
+            
+
+            - Butterbean VS Nick Penner
+
+            
+
+            - Butterbean VS Bob Sapp (Sumo Contest)
+
+            
+
+            - Butterbean VS Patrick Smith
+
+            
+
+            - Butterbean VS Larry Holmes
+
+            
+
+            - Butterbean VS Monaco
+
+            
+
+            - Butterbean VS Yusuke Fujimoto
+
+            
+
+            - Butterbean VS Genki Sudo
+
+            
+
+            - Butterbean VS Zuluzinho
+
+            
+
+            - Butterbean VS Tengiz Tedoradze
+
+            
+
+            - Butterbean VS Sean O'Haire
+
+            
+
+        
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+
+
+remplaza_fecha('Sunday, June 22, 2008');
+
+About Butterbean
+
+
+
+Eric Scott "Butterbean" Esch (born August 3 , 1968 in Bay City, Michigan ) is a professional
+Super-Heavyweight boxer , kickboxer and mixed martial artist . Butterbean stands 5 ft 11 in
+(180cm) tall and weighs 416 pounds (183 kg). [1] He is the former IBA World Super-Heavyweight
+Champion and also held the WAA World Heavyweight title. [2] Esch's round body, bald head and
+vicious scowl, make him a menacing (yet highly entertaining) fight figure. His combined
+professional fight record currently stands at 90 wins with 63 knockouts, 17 losses and 5
+draws. Butterbean currently resides in Jasper, Alabama where he owns a restaurant, Mr Bean
+
+
+
+Image:
+http://4.bp.blogspot.com/_KSjbKemZ_cI/SF9DTtyEBOI/AAAAAAAABGU/_wIBvvqe8qA/s400/butterbean+1.jpg
+Fighting career
+
+
+
+Boxing
+
+
+
+Known as the "King of 4 rounders", Butterbean developed a cult following after he burst onto
+the Toughman Contest scene in the United States before entering the world of professional
+boxing in 1994. He was a five time World Toughman Heavyweight Champion with a record of 56-5
+with 36 knockouts (not counted towards pro career).
+
+While a majority of his opponents were technically limited club-level fighters early in his
+career, he did move up the ranks to win the IBA World Super-Heavyweight Championship on April
+12 , 1997 (which he never lost before relinquishing the title). Butterbean faced former WBC
+and IBF World Champion Larry Holmes in 2002, and while Holmes won a unanimous 10-round
+decision, Butterbean was credited with a controversial knockdown in the final round, the
+announcers had said it was a slip. Esch's most recent title shot came on October 15 , 2005 where
+he lost a split decision against George Linberger for the NABC Super-Heavyweight title (whom
+Esch had beaten in March 2000 in his final defense of the IBA title, taking Linberger's WAA
+World Heavyweight title).
+
+Esch's professional boxing record is 77 wins with 58 knockouts, 7 losses and 4 draws. He won his
+last boxing match against Joe Siciliano, which occurred on March 9 , 2007 at the Palladium. [4]
+That same night, Esch's son, Brandon "Babybean", lost in his professional debut against
+Matthew Eckerly . [5]
+
+
+
+Mixed Martial Arts
+
+
+
+Butterbean's previous fighting experiences led him to venture into mixed martial arts . At
+K-1 Premium 2003 on December 31 , 2003 , Butterbean lost his first MMA bout to 155 lbs Japanese
+fighter Genki Sudo via tap out to a heel hook . Esch regrouped, going 6-0-1 in appearances in
+King of the Cage , Gracie Fightfest , and Rumble on the Rock including a TKO stoppage of Cabbage
+Correira . Esch returned to Japan with the PRIDE Fighting Championships on August 26 , 2006 to
+compete at Bushido 12 against Ikuhisa Minowa , a 185 lbs fighter, to whom he lost via armbar at
+4:25 of round one. Less than two months later, Butterbean was scheduled to fight K-1 legend
+Mark Hunt at Pride FC's first North American show on October 21 , 2006 . Due to an injury Hunt
+sustained in training, Esch was matched up against Irish-American professional wrestler
+and mixed martial artist Sean O'Haire , whom he defeated via knockout at 30 seconds in the first
+round.
+
+Besides his two submission losses to much smaller opponents ( Genki Sudo and Ikuhisa Minowa ),
+Butterbean's only other loss came to then Cage Rage World Heavyweight Champion and current #1
+ranked Super-Heavyweight, Rob Broughton . On February 10 , Butterbean rebounded by knocking
+out James Thompson 43 seconds into the first round at Cage Rage 20. Butterbean then defeated
+Zuluzinho via submission at PRIDE 34 on April 8 , 2007 . Although he's been overweight
+throughout his career, at the time of the fight, Esch weighed an astonishing 407 pounds (185
+kg) to match his opponents weight, who also weighs 185 kg but is 8 inches (20 centimeters)
+taller. [6]
+
+Butterbean's next fight was on July 14 against current Cage Rage World Heavyweight Champion
+Tengiz Tedoradze at Cage Rage 22, losing via TKO. Global Fighting Championships had
+scheduled a main event bout between Esch and Ruben Villareal for their inaugural event, but
+the event was canceled when half the scheduled matchups could not take place due to medical
+issues (Esch vs Villareal was the only viable main event). [7] He was then scheduled to fight
+Jimmy Ambriz as the main event of Xcess Fighting's debut card, but was a no show for the weigh-in
+citing scheduling conflicts. [8] Esch most recently defeated Tom Howard by submission
+around 4:47 in the first round in an exhibition in his hometown of Jasper, Alabama. His
+youngest son Caleb (19) also won that night, along with his oldest son Brandon "Babybean" Esch
+(22) making his Pro mma debut also winning, via 22 second TKO. Bean Most recently lost to Nick
+Penner. http://www.edmontonsun.com/Sports/OtherSports/2007/12/29/4744487.html
+
+Butterbean's MMA record is currently 12 wins (4 knockouts and 8 submissions), 5 losses and 1
+draw. He is training with American Top Team to improve his ground game. [9] Sherdog Power
+Ratings has Esch ranked as the #5 Super-Heavyweight in the world across all MMA organizations
+after his loss to Tedoradze. [10] 11 Wins - 7 Losses - 1 Draw (4 KO's) Date Result Opponent Event
+Method Round, Time 04/11/2008 Loss Pat Smith YAMMA - Pit Fighting 1 Submission (Strikes)
+Round 1, 3:17 02/09/2008 Loss Matt Blaine MMA Event in Muskegon Submission (Injury) Round 2,
+1:05 12/28/2007 Loss Nick Penner TFC-First Blood Submission (Armlock) Round 1, 2:47
+12/01/2007 Win Tom Howard The Final Chapter MMA- A&A Arena Jasper Submission (Armlock) Round
+1, 4:47 10/13/2007 Win Pete Sischo Combat Warfare X Submission (Keylock) Round 3, 2:35
+07/14/2007 Loss Tengiz Tedoradze Cage Rage 22 TKO (Punches) Round 1, 4:26 04/08/2007 Win
+Zuluzinho PRIDE 34 - Kamikaze Submission (Keylock) Round 1, 2:35 02/10/2007 Win James
+Thompson Cage Rage 20 - Born 2 Fight KO Round 1, 0:43 01/18/2007 Win Charles Hodges Palace
+Fighting Championships - King of the Ring KO (Right Punch) Round 1, 0:45 12/09/2006 Loss Rob
+Broughton Cage Rage 19 - Fearless Submission (Tap To Strikes) Round 2, 3:43 10/21/2006 Win
+Sean O'Haire PRIDE 32 - Real Deal TKO (Punches) Round 1, 0:29 08/26/2006 Loss Ikuhisa Minowa
+PRIDE Bushido 12 Submission (Armbar) Round 1, 4:25 07/15/2006 Win Rich Weeks Fightfest 5 -
+Korea vs USA Submission Round 1, 1:29 05/20/2006 Win Matt Eckerle Fightfest 4 Submission
+Round 1, 0:56 04/21/2006 Win Aaron Aguilera Rumble on the Rock 9 Submission (Choke) Round 2,
+1:15 04/14/2006 Win Leo Sylvest Fightfest 2 - Global Domination Submission (Choke) Round 1,
+?:?? 01/20/2006 Win Wesley Correira Rumble on the Rock 8 TKO (Doctor Stoppage) Round 2, 5:00
+12/09/2005 Win Walley Keenboom Fightfest 1 - Royce Gracie Fightfest Submission Round 1, 2:37
+02/25/2005 Draw Michael Buchkovich King of the Cage - Payback Draw Round 2, 5:00 12/31/2003
+Loss Genki Sudo K-1 Premium 2003 Dynamite Submission (Heel Hook) Round 2, 0:41
+
+
+
+
+
+
+
+
+
+Kickboxing
+
+
+
+Like several other popular boxers, Butterbean ventured into the sport of kickboxing in 2003.
+His first bout was a 1st round knockout of two-time K-1 World Champion Yusuke Fujimoto at K-1
+Beast , which came just two weeks after his 1st round knockout over Troy Roberts in a boxing
+match on June 13 , 2003 . Esch eventually evolved into a complete mixed martial artist and is no
+longer an active professional kickboxer, having his last K-1 standup appearance in July
+2005. 2 Wins - 3 Losses - 0 Draw (1 KO's) Date Result Opponent Event Method Round, Time
+07/29/2005 Win Marcus Royster K-1 World Grand Prix 2005 in Hawaii Decision 0-3 Round 3
+06/26/2004 Loss Montanha Silva K-1 Beast 2004 in Shizuoka Decision 3-0 Round 3 03/14/2004
+Loss Hiromi Amada K-1 Beast 2004 in Niigata Decision 3-0 Round 3 09/21/2003 Loss Mike Bernardo
+K-1 Survival 2003 Japan GP Final KO (Right High Kick) Round 2, 1:01 06/29/2003 Win Yusuke
+Fujimoto K-1 Beast II 2003 KO Round 1, 1:02
+
+
+
+
+
+
+
+
+
+WWE appearances
+
+
+
+Butterbean has appeared twice in WWE events competing in boxing matches. In 1997, at the In
+Your House 19: D-Generation X pay-per-view event, he defeated Marc Mero (former Golden
+Gloves champion) via disqualification in a worked match . Two years later, Butterbean
+defeated Bart Gunn in a legitimate shootfight at WrestleMania XV , defeating the Brawl For All
+champion with ease, knocking him out in 27 seconds.
+
+
+
+
+
+
+
+
+
+Media appearances
+
+
+
+
+
+Movies
+
+
+
+Butterbean appeared in the film Jackass: The Movie , where he fought Johnny Knoxville in a
+department store, where Knoxville was floored by Esch and received several stitches in his
+head after the encounter (the camera catches the concussed Knoxville snoring ). However, it
+is obvious in the movie that Butterbean gives Knoxville several rabbit punches as Knoxville
+was going down (he even says to Knoxville "C'mon, hit me at least once" and offers his cheek,
+which is punched before he retaliates). While being treated by on-scene medical personnel, a
+badly beaten (and slightly concussed) Johnny Knoxville asks "Is Butterbean okay?" On the DVD
+commentary, Knoxville stated that Esch is actually quite friendly outside of the ring,
+despite his fearsome ringside demeanor. Prior to the skit, Johnny asked Butterbean to go "all
+out on him." Butterbean stated, "I can't do that Johnny." When Knoxville repeated himself,
+Butterbean then replied, "You don't have to ask me twice." Knoxville then claimed he knew he
+was in trouble.
+
+Butterbean also appeared in the film Chairman of the Board as the Museum Security Guard with
+the "chia hair", a fact that is pointed out on the DVD commentary by the movie's star Scott
+"Carrot Top" Thompson .
+
+
+
+
+
+
+
+
+
+Television
+
+
+
+Butterbean appeared on Adult Swim's Squidbillies where he sang the national athem, very
+poorly, and ended up beating a fan for making fun of him. Butterbean also appeared on JackAss in
+which he repeatedly knocked out Star-Johnny Knoxville in public settings
+
+
+
+
+
+
+
+
+
+Radio
+
+
+
+Butterbean also fought Dominic Dieter of Rover's Morning Glory , in Cleveland, Ohio . See
+video at [11]
+
+
+
+
+
+
+
+
+
+Video games
+
+
+
+Butterbean was featured as the cover character as well as the final boss character in the EA
+Sports title "Toughman Contest" released in July 1995 for the Sega Genesis and Sega 32X . [12]
+He also appeared as a playable character in the EA Sports boxing video game Knockout Kings 2001
+.
+
+Posted by Admin. at 11:22 PM 0 comments  
+
+
+
+
+
+About Kimbo Slice
+
+
+
+Kevin Ferguson (born on February 8, 1974), better known as Kimbo Slice, is a Miami,
+Florida-based street fighter turned mixed martial arts (MMA) fighter. He first appeared in
+several filmed underground fights which have spread primarily on the Internet. Kimbo has
+since left street fighting behind and is now putting his efforts towards becoming a
+professional mixed martial arts fighter. Rolling Stone called Slice "The King of the Web
+Brawlers".
+
+Contents
+
+
+
+Image:
+http://1.bp.blogspot.com/_KSjbKemZ_cI/SF8-O0LMeNI/AAAAAAAABGM/bjObUyyLV94/s400/kimbo+11.jpg
+
+Statistics Nickname Kimbo Slice Height 6 ft 2 in (1.88 m) Weight 240 lb (110 kg /17 st )
+Nationality American Born February 8 , 1974 ( 1974-02-08 ) (age 34) Fighting out of Miami,
+Florida Town of birth Nassau, Bahamas Mixed martial arts record Wins 3 Losses 0
+
+* 1 Pre-MMA
+
+* 2 MMA career
+
+* 3 Personal life
+
+* 4 Mixed martial arts record
+
+* 5 Mixed martial arts pro-exhibition match record
+
+* 6 References
+
+* 7 External links
+
+
+
+
+
+Pre-MMA
+
+
+
+Ferguson was a star defensive football player for Miami Palmetto High School in the Pinecrest
+area of Miami, Florida. In college, he went on to the University of Miami on academic
+scholarship, but did not play football. He was there for only a year and a half.[2]
+
+
+
+As Kimbo Slice, Ferguson worked as a bodyguard for RK Netmedia (otherwise known as
+RealityKings), a Miami-based pornography production/promotion company responsible for a
+number of popular adult subscription websites, such as MILF Hunter, and Money Talks. The
+latter site made YouTube friendly videos of Kimbo giving people charlie horses and tackling
+them at full speed in exchange for money. [3][4]. Kimbo still maintains close ties with the
+company who now accompanies him, as his fight entourage before entering the ring. In fact, his
+manager, known only as IceyMike, works for free for Kimbo. [5] IceyMike can be heard (off
+camera) and rarely seen in almost every Kimbo-related YouTube video and many Reality Kings
+videos.
+
+
+
+
+
+MMA career
+
+
+
+Kimbo Slice began his career in unsanctioned street fights. A notable street fight was with
+Sean Gannon, a former Boston Police officer who trains in MMA. [6] Gannon was able to achieve
+victory over Slice giving him his first defeat. The popularity of the fight, which was
+distributed throughout the internet, propelled both men into the MMA spotlight.
+
+
+
+To prepare for sanctioned MMA fights, Slice was trained by retired MMA fighter Bas Rutten.
+Slice made his sanctioned MMA debut against former WBO Heavyweight champion boxer Ray Mercer
+at Cage Fury Fighting Championships 5, in Atlantic City on June 23, 2007. The match was
+scheduled as a three-round exhibition utilizing all professional rules of MMA combat. Slice
+defeated Mercer with a guillotine choke at 1:12 into the first round.[7] In a post-fight
+interview, Slice stated that he would like to fight David "Tank" Abbott. Abbott, who was a
+spectator, stood up from his seat and accepted the call out. One of the matchmakers for CFFC
+asked Slice for his assurance so that an October 12 bout at Cage Fury Fighting Championships 6
+between Slice and "Tank" Abbott could be organized. This event was later canceled due to a
+promotion dispute. On October 11, 2007, ProElite announced that they had signed Slice to a
+deal and that he would make his debut on the November 10, 2007 EliteXC.[8] Originally set to
+make his professional MMA debut against Mike Bourke, the reformed street fighter was set to
+face Bo Cantrell after Bourke sustained a shoulder injury.[9] Kimbo defeated Cantrell 19
+seconds into the first round by submission due to strikes.
+
+
+
+Slice will be featured on The Iron Ring, a new television series airing on BET which features
+MMA prospects. Slice will be a part of the selection process for the participants.[10]
+
+
+
+On February 16, 2008, Kimbo fought Tank Abbott in the main event at EliteXC: Street Certified.
+He won by KO 43 seconds into the first round due to strikes. At the fight his weight was announced
+at an all-time low of 234lbs, a far cry from his street fighting days of 280lbs.
+
+
+
+On May 31, 2008, Kimbo fought in the main event of the first ever mixed martial arts event shown
+on prime time network television, EliteXC: Primetime. Kimbo's opponent James Thompson won
+the first two rounds on total points[11] [12] [13], although one judge had each fighter
+winning a round and even points, by repeatedly taking down Slice and grounding and pounding.
+In the opening seconds of the third round, Kimbo threw a haymaker to Thompson's left ear, which
+ruptured his cauliflower. This was soon followed by three unanswered punches to a standing
+Thompson, which led to a referee stoppage, that led to the controversial win for Slice. Brett
+Rogers was particularly critical of Slice's victory. Rogers went so far as to call Slice's
+performance "garbage" in a post fight interview. A Kimbo Slice vs. Brett Rogers fight has
+reportedly been signed for October.
+
+
+
+
+
+Personal life
+
+
+
+Slice currently lives with his family in Miami, and is the father of six children: three girls
+and three boys. His first two sons are named Kevin, and the third is named Kevlar. His three
+daughters are named Kassandra, Kiara, & Kevina.Slice is engaged.
+
+Mixed martial arts record
+
+Result
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Opponent
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Method
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Event
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Date
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Round
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Time
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Location
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Notes
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Win
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/22px-Flag_of_the_United_Kingdom.svg.png
+Thompson James Thompson TKO ( strikes ) EliteXC: Primetime 02008-05-31 31 May 2008 3 0:38
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png
+Newark, New Jersey Win
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png
+Tank Abbott KO ( strikes ) EliteXC: Street Certified 02008-02-16 16 February 2008 1 0:43
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png
+Miami, Florida Win
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png
+Cantrell Bo Cantrell Submission ( strikes ) EliteXC: Renegade 02007-11-10 10 November 2007 1
+0:19
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png
+Corpus Christi, Texas Professional MMA debut.
+
+
+
+Mixed martial arts pro-exhibition match record
+
+Result
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Opponent
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Method
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Event
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Date
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Round
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Time
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Location
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Notes
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/sort_none.gif Win
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png
+Ray Mercer Submission ( Guillotine Choke ) Cage Fury Fighting Championship 5 02007-06-23 23
+June 2007 1 1:12
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/22px-Flag_of_the_United_States.svg.png
+Atlantic City, New Jersey
+
+Posted by Admin. at 10:55 PM 0 comments  
+
+
+
+
+
+Kimbo Slice VS James Thompson - Part 3
+
+
+
+
+
+
+
+BEST FIGHTING VIDEO
+
+Posted by Admin. at 9:59 PM Labels: Kimbo Slice 0 comments  
+
+
+
+
+
+Kimbo Slice VS James Thompson - Part 2
+
+
+
+
+
+
+
+BEST FIGHTING VIDEO
+
+Posted by Admin. at 9:57 PM Labels: Kimbo Slice 0 comments  
+
+
+
+
+
+Kimbo Slice VS James Thompson - Part I
+
+
+
+
+
+
+
+BEST FIGHTING VIDEO
+
+Posted by Admin. at 9:56 PM Labels: Kimbo Slice 0 comments  
+
+
+
+
+
+Kimbo Slice VS MMA Cop
+
+
+
+
+
+
+
+BEST FIGHTING VIDEO
+
+Posted by Admin. at 9:48 PM Labels: Kimbo Slice 0 comments  
+
+
+
+
+
+Kimbo Slice VS Bo Cantrell
+
+
+
+
+
+
+
+BEST FIGHTING VIDEO
+
+Posted by Admin. at 9:46 PM Labels: Kimbo Slice 0 comments  
+
+
+
+Older Posts Home   BEST FIGHTING VIDEO - Templates Novo Blogger if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'2722533378801149260';BLOG_attachCsiOnload('');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d2722533378801149260','//best-fighting-video.blogspot.com/','2722533378801149260');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'2722533378801149260', 'bloggerUrl': 'http://www.blogger.com', 'title': 'BEST
+FIGHTING VIDEO', 'pageType': 'index', 'url':
+'http://best-fighting-video.blogspot.com/', 'canonicalUrl':
+'http://best-fighting-video.blogspot.com/', 'canonicalHomepageUrl':
+'http://best-fighting-video.blogspot.com/', 'homepageUrl':
+'http://best-fighting-video.blogspot.com/', 'blogspotFaviconUrl':
+'http://best-fighting-video.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': '',
+'pageTitle': 'BEST FIGHTING VIDEO', 'encoding': 'UTF-8', 'locale': 'en', 'isPrivate':
+false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42BEST FIGHTING
+VIDEO - Atom\42
+href\75\42http://best-fighting-video.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42BEST FIGHTING VIDEO - RSS\42
+href\75\42http://best-fighting-video.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42BEST FIGHTING VIDEO - Atom\42
+href\75\42http://www.blogger.com/feeds/2722533378801149260/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0752722533378801149260\42 /\076',
+'meTag': '', 'openIdOpTag': '\74link rel\75\42openid.server\42
+href\75\42http://www.blogger.com/openid-server.g\42 /\76\n\74link
+rel\75\42openid.delegate\42
+href\75\42http://best-fighting-video.blogspot.com/\42 /\76\n', 'imageSrcTag': '',
+'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#666666', 'linkcolor':
+'#005cb9', 'visitedlinkcolor': '#7f7f7f', 'textcolor': '#666666', 'headerfont':
+'normal bold 99% Times, serif', 'pagetitlefont': 'normal bold 283% Courier, monospace',
+'bgcolor': '#666666', 'descriptioncolor': '#0066CC', 'titlecolor': '#cc0000',
+'bordercolor': '#80bfff', 'postfooterfont': 'normal normal 69% Arial, sans-serif',
+'pagetitlecolor': '#005CB9', 'bodyfont': 'normal normal 104% Trebuchet, Trebuchet MS,
+Arial, sans-serif', 'descriptionfont': 'normal normal 62% Arial, sans-serif',
+'sidebarcolor': '#000000'}, 'override': ''}}, {'name': 'view', 'data': {'classic':
+{'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard',
+'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_LabelView', new
+_WidgetInfo('Label1', 'sidebar', null, document.getElementById('Label1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/2030570962-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'newsidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull'));
+

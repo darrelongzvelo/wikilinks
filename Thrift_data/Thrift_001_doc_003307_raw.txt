@@ -1,0 +1,739 @@
+
+
+ØªØšÙ„ÙŠØºØ§Øª X
+
+Image: http://www.blogfa.com/ads/banner2/4845267427500.gif window.setTimeout(
+"document.getElementById ('6348481272').style.display='none'" ,90000);
+BlogComments=[650,1,649,2,648,1,647,1,645,1,644,0,643,0,642,0,641,0,640,0,639,2,638,3,635,1,631,2,626,1,617,3,614,0,611,0,608,0,607,1,606,0,599,0,597,0,592,0,587,2,585,1,583,1,577,0,575,0,573,0];
+
+-ØªØ±ÙˆÛŒØ¬ Ùˆ Ø¢Ù…ÙˆØ²ØŽ Ú©ØŽØ§ÙˆØ±Ø²ÛŒ
+Ú¯Ø±Ú¯Ø§Ù† function GetBC(lngPostid) { intTimeZone=12600;
+strBlogId="aeegau"; intCount=-1; strResult=""; try { for
+(i=0;i<BlogComments.length;i+=2) { if (BlogComments[i]==lngPostid)
+intCount=BlogComments[i+1] ; } } catch( e) { } if ( intCount==-1)
+strResult="Ø¢Ø±ØŽÛŒÙˆ Ù†ØžØ±Ø§Øª"; if ( intCount==0)
+strResult="Ù†ØžØ± ØšØ¯Ù‡ÛŒØ¯"; if ( intCount>0) strResult=intCount
++ " Ù†ØžØ±" ; strUrl="/comments/?blogid=" +strBlogId + "&postid=" + lngPostid +
+"&timezone=" + intTimeZone ; strResult ="<a href=\"javascript:void(0)\"
+onclick=\"javascript:window.open('" + strUrl +
+"','blogfa_comments','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no
+,width=500px,height=500px')\" >" + strResult + " </a>" ; document.write ( strResult ) ; }
+function OpenLD() {
+window.open('/links','blogfa_ld','status=yes,scrollbars=yes,toolbar=no,menubar=no,location=no
+,width=500px,height=500px'); return true; }
+
+ØµÙ�Ø­Ù‡ Ø§ÙˆÙ„ Ø¢Ø±ØŽÙŠÙˆ Ù…Ø·Ø§Ù„Øš
+ÙŸØ³Øª Ø§Ù„ÙƒØªØ±ÙˆÙ†ÙŠÙƒ
+ÙŸØ±ÙˆÙ�Ø§ÛŒÙ„ RSS 2.0  
+
+-ØªØ±ÙˆÛŒØ¬ Ùˆ Ø¢Ù…ÙˆØ²ØŽ Ú©ØŽØ§ÙˆØ±Ø²ÛŒ
+Ú¯Ø±Ú¯Ø§Ù†   ÙƒØŽØ§ÙˆØ±Ø²ÙŠØŒØªØ±ÙˆÙŠØ¬ØŒ
+Ø¢Ù…ÙˆØ²ØŽØŒ Ù…Ø¯ÙŠØ±ÙŠØª Ùˆ ØªÙˆØ³Ø¹Ù‡
+ÙŸØ§ÙŠØ¯Ø§Ø± ÙƒØŽØ§ÙˆØ±Ø²ÙŠ Ø¢Ù…Ø§Ø±
+ÙˆØšÙ„Ø§Ú¯ آمار ÙŸÙŠÙˆÙ†Ø¯ Ù‡Ø§ Ù…Ø±ÙˆØ¬
+Ú©ØŽØ§ÙˆØ±Ø²ÛŒ
+Ù†ÙˆÛŒÙ†(ØšØ²Ø±Ú¯ØªØ±ÛŒÙ† Ù…Ø±Ø¬Ø¹
+Ø®ØšØ±ÛŒ ØªØ±ÙˆÛŒØ¬ Ùˆ Ø¢Ù…ÙˆØ²ØŽ
+Ú©ØŽØ§ÙˆØ±Ø²ÛŒ Ø¯Ø± Ø§ÛŒØ±Ø§Ù†)
+Ú¯Ù�ØªÙ…Ø§Ù† Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡ÛŒ(Ø¯Ú©ØªØ±
+Ø§ØšÙˆØ§Ù„Ù‚Ø§Ø³Ù… ØŽØ±ÛŒÙ� Ø²Ø§Ø¯Ù‡)
+Ø±ÙˆØ³ØªØ§ÛŒ Ø²ÛŒØšØ§ÛŒ
+ØªÙ„ÙˆØšØ§Øº(Ù…Ù‡Ù†Ø¯Ø³ Ø­Ø³ÛŒÙ†
+Ø§Ø­Ù…Ø¯ÛŒ Ú¯Ø±Ø¬ÛŒ Ø®ÛŒÙ„ÛŒ)
+Ù‡Ø²Ø§Ø±Ø³Ù†Ú¯Ø± Ø¢Ù…Ù„(Ù…Ù‡Ù†Ø¯Ø³
+Ø³ÛŒØ¯ Ù…Ø­Ù…Ø¯ Ù…ÙˆØ³ÙˆÛŒØ§Ù†
+Ú©Ø±ÛŒÙ…ÛŒ) Ù‡Ù… Ø³Ù�Ø± ØšØ§ ØšØ±Ú¯(Ø¹Ø²Øª
+Ø§Ù„Ù‡ ØºØ²Ø§Ù†ÛŒ) Ø¯Ú©ØªØ± Ø³ÛŒØ¯
+Ù…Ø­Ù…ÙˆØ¯ Ø­Ø³ÛŒÙ†ÛŒ Ø§Ù†Ø¬Ù…Ù†
+ØªØ±ÙˆÛŒØ¬ Ùˆ Ø¢Ù…ÙˆØ²ØŽ Ú©ØŽØ§ÙˆØ±Ø²ÛŒ
+Ø§ÛŒØ±Ø§Ù† Ø§Ù†Ø¬Ù…Ù† ØªØ±ÙˆÛŒØ¬ Ùˆ
+Ø¢Ù…ÙˆØ²ØŽ
+Ú©ØŽØ§ÙˆØ±Ø²ÛŒ-Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡
+ØªÙ‡Ø±Ø§Ù† Ø§Ù†Ø¬Ù…Ù† ØªØ±ÙˆÛŒØ¬ Ùˆ
+Ø¢Ù…ÙˆØ²ØŽ Ú©ØŽØ§ÙˆØ±Ø²ÛŒ Ø±Ø§Ø²ÛŒ
+Ú©Ø±Ù…Ø§Ù†ØŽØ§Ù‡ Ø§Ù†Ø¬Ù…Ù† ØªØ±ÙˆÙŠØ¬
+Ùˆ Ø¢Ù…ÙˆØ²ØŽ Ú©ØŽØ§ÙˆØ±Ø²ÛŒ
+Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡ Ø±Ø§Ù…ÙŠÙ† Ø§Ù‡ÙˆØ§Ø²
+ØªØ±ÙˆÛŒØ¬ Ùˆ Ø¢Ù…ÙˆØ²ØŽ Ú©ØŽØ§ÙˆØ±Ø²ÛŒ
+Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡ Ø¢Ø²Ø§Ø¯
+Ø§Ø³Ù„Ø§Ù…ÛŒ(ÙˆØ§Ø­Ø¯ Ú¯Ø±Ù…Ø³Ø§Ø±)
+ØšØ§ØºØšØ§Ù†ÛŒ Ùˆ Ú¯ÛŒØ§Ù‡Ø§Ù†
+Ø¯Ø§Ø±ÙˆÛŒÛŒ (ØµØ¯Ø§Ù‚Øª Ø­ÙˆØ±) Ø§Ù†Ø§Ø±
+(ØšØ§ØºØšØ§Ù†ÛŒ 89 Ú¯Ø±Ú¯Ø§Ù†)
+Ú¯Ù€Ù€ÛŒÙ€Ù€Ø§Ù‡Ù€Ù€Ù†Ø§Ù…Ù‡
+Ø§Ù‚ØªØµØ§Ø¯ Ú©ØŽØ§ÙˆØ±Ø²ÛŒ-ØªÙ‡Ø±Ø§Ù†
+Ú©ØŽØ§ÙˆØ±Ø²ÛŒ Ùˆ Ù…Ú©Ø§Ù†ÛŒÚ© Ú¯Ø±ÙˆÙ‡
+Ø¢Ù…ÙˆØ²ØŽÙŠ Ø­Ø±Ù�Ù‡ Ùˆ Ù�Ù† Ú©Ù†Ú¯Ø§Ù†
+Ø§Ú©ÙˆÙ„ÙˆÚ˜ÛŒ Ú¯ÛŒØ§Ù‡Ø§Ù† Ø²Ø±Ø§Ø¹ÛŒ
+Ù…Ú©Ø§Ù†ÛŒÚ© Ù…Ø§ØŽÛŒÙ†Ù‡Ø§ÛŒ
+Ú©ØŽØ§ÙˆØ±Ø²ÛŒ Ú¯Ø±Ú¯Ø§Ù†
+Ú©Ù„Ø±ÙˆÙ�ÛŒÙ„ Ø²Ø±Ø§Ø¹Øª Ùˆ Ø§ØµÙ„Ø§Ø­
+Ù†ØšØ§ØªØ§Øª-87-Ú¯Ø±Ú¯Ø§Ù† ÙŸØ±ÙˆØ±ØŽ Ú¯Ù„
+Ùˆ Ú¯ÛŒØ§Ù‡ Ø²ÛŒÙ†ØªÛŒ Ø§Ù‚ØªØµØ§Ø¯
+Ú©ØŽØ§ÙˆØ±Ø²ÛŒ Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡
+Ø±Ø§Ù…ÛŒÙ† ØšÚ†Ù‡ Ù‡Ø§ÛŒ ØšØ§ØºØšØ§Ù†ÛŒ
+Ù�Ø±Ø¯ÙˆØ³ÛŒ ÙŸØ§ÛŒÚ¯Ø§Ù‡ Ø¢Ù…Ø§Ø± Ùˆ
+Ø§Ø·Ù„Ø§Ø¹Ø§Øª Ø±ÙˆØ³ØªØ§ÛŒÛŒ
+Ù…Ú©Ø§Ù†ÛŒÚ© Ù…Ø§ØŽÛŒÙ†Ù‡Ø§ÛŒ
+Ú©ØŽØ§ÙˆØ±Ø²ÛŒ-Ø±Ø§Ø²ÛŒ Ø­ØŽØ±Ù‡
+ØŽÙ†Ø§Ø³ÛŒ Ùˆ Ø¢Ù�Ø§Øª Ú¯ÛŒØ§Ù‡ÛŒ
+Ú¯Ø±ÙˆÙ‡ Ù…Ù‡Ù†Ø¯Ø³ÛŒ Ø¢Øš
+Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡ Ø²Ù†Ø¬Ø§Ù†
+Ø¯Ø§Ù†ØŽØ¬ÙˆÛŒØ§Ù† Ú©ØŽØ§ÙˆØ±Ø²ÛŒ Ùˆ
+Ù…Ù†Ø§ØšØ¹ Ø·ØšÛŒØ¹ÛŒ Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡
+ÙŸÛŒØ§Ù… Ù†ÙˆØ±(Ù„ÙˆØ§Ø³Ø§Ù†Ø§Øª)
+Ø¯Ø§Ù†ØŽØ¬ÙˆÛŒØ§Ù† Ú¯ÛŒØ§Ù‡ÙŸØ²ØŽÚ©ÛŒ 88
+Ú¯Ø±Ú¯Ø§Ù† ÙˆØ±Ù…ÛŒ Ú©Ù…ÙŸÙˆØ³Øª
+Ø³Ø§ÙˆÙ‡ - Ù‚Ù… ØŽÛŒÙ„Ø§Øª Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡
+Ø¢Ø²Ø§Ø¯ ØŽÙ‡Ø±Ú©Ø±Ø¯ Ø³Ø§ÛŒØª
+Ø¢Ù…ÙˆØ²ØŽÛŒ Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡
+ØšØ§ØºØšØ§Ù†ÛŒ-87-Ø³Ø§Ø±ÛŒ
+ØªØ±ÙˆÛŒØ¬ÛŒØ§Ù†90Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡
+Ú¯Ø±Ú¯Ø§Ù† ØªØ±ÙˆÛŒØ¬ Ùˆ Ø¢Ù…ÙˆØ²ØŽ
+Ú©ØŽØ§ÙˆØ±Ø²ÛŒ Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡ Ø¬ÛŒØ±Ù�Øª
+ØŽÙˆØ±Ø§ÛŒ Ù‡Ù…Ø§Ù‡Ù†Ú¯ÛŒ
+Ø§Ù†Ø¬Ù…Ù†Ù‡Ø§ÛŒ
+Ø¹Ù„Ù…ÛŒ-Ø¯Ø§Ù†ØŽØ¬ÙˆÛŒÛŒ
+Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡ Ú¯Ø±Ú¯Ø§Ù† Ù‚Ø§Ù„Øš
+ÙˆØšÙ„Ø§Ú¯ ÙŸÙŠÙˆÙ†Ø¯Ù‡Ø§ÙŠ
+Ø±ÙˆØ²Ø§Ù†Ù‡ Ù…Ø¬Ù„Ù‡ Ø¹Ù„ÙˆÙ…
+ØªØ±ÙˆÛŒØ¬ Ùˆ Ø¢Ù…ÙˆØ²ØŽ Ú©ØŽØ§ÙˆØ±Ø²ÛŒ
+Agricultural Education Magazine Ú˜ÙˆØ±Ù†Ø§Ù„
+Ø¢Ù†Ù„Ø§ÛŒÙ† Ø¢Ù…ÙˆØ²ØŽ Ú©ØŽØ§ÙˆØ±Ø²ÛŒ
+(JAE) Ù…Ø¬Ù„Ù‡ Ø¹Ù„ÙˆÙ… Ú©ØŽØ§ÙˆØ±Ø²ÛŒ Ùˆ
+Ù…Ù†Ø§ØšØ¹ Ø·ØšÙŠØ¹ÛŒ (JASNR)
+Ø§ØªÙˆÙ…Ø§Ø³ÛŒÙˆÙ† Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡
+Ú¯Ø±Ú¯Ø§Ù† Ù‚Ø§Ù„Øš ØšÙ„Ø§Ú¯Ù�Ø§ Sociology
+
+
+
+Image: http://www.pages.drexel.edu/%7Ectc27/psych.gif
+
+
+
+Image:
+http://insosorc01.googlepages.com/sociology_image_slice2.jpg/sociology_image_slice2-full.jpg
+
+Sociology is a branch of the social sciences that uses systematic methods of empirical
+investigation [ 1 ] [ 2 ] and critical analysis [ 3 ] to develop and refine a body of knowledge
+about human social structure and activity, sometimes with the goal of applying such
+knowledge to the pursuit of social welfare. Its subject matter ranges from the micro level of
+face-to-face interaction to the macro level of societies at large.
+
+Sociology is a broad discipline in terms of both methodology and subject matter. Its
+traditional focuses have included social relations , social stratification , social
+interaction , culture and deviance , and its approaches have included both qualitative and
+quantitative research techniques. As much of what humans do fits under the category of social
+structure or social activity, sociology has gradually expanded its focus to such far-flung
+subjects as the study of economic activity , health disparities , and even the role of social
+activity in the creation of scientific knowledge . The range of social scientific methods has
+also been broadly expanded. The " cultural turn " of the 1970s and 1980s brought more
+humanistic interpretive approaches to the study of culture in sociology. Conversely, the
+same decades saw the rise of new mathematically rigorous approaches, such as social network
+analysis.
+
+Â 
+
+Contents
+
+    [ hide ]
+
+    -
+
+        1 History of sociology
+
+        - 1.1 Key figures
+
+        
+
+        - 1.2 Institutionalizing sociology as an academic discipline
+
+        
+
+        - 1.3 Positivism and anti-positivism
+
+        
+
+        - 1.4 Twentieth-century developments
+
+        
+
+        - 1.5 Sociological debates
+
+        
+
+    
+
+    
+
+        - 2 Scope and topics of sociology
+
+        - 2.1 The Internet
+
+        
+
+    
+
+    
+
+    - 3 Practical applications of sociology
+
+    
+
+    - 4 Sociological research methods
+
+    
+
+    - 5 Sociology and other social sciences
+
+    
+
+        - 6 See also
+
+        - 6.1 Related theories, methods and fields of inquiry
+
+        
+
+        - 6.2 Lists
+
+        
+
+    
+
+    
+
+    - 7 Footnotes
+
+    
+
+    - 8 Bibliography
+
+    
+
+    - 9 Further reading
+
+    
+
+        - 10 External links
+
+        - 10.1 Professional associations
+
+        
+
+        - 10.2 Other resources
+
+        
+
+    
+
+    
+
+
+
+Â 
+
+Â 
+
+Â 
+
+History of sociology Main article: History of sociology
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Auguste_Comte.jpg/180px-Auguste_Comte.jpg
+Auguste Comte
+
+Sociological reasoning is much older than the term â€œsociology.â€� Sociology,
+including economic, political, and cultural systems, has proto-sociological origins in
+the common stock of human knowledge and philosophy . Social analysis has been carried out by
+scholars and philosophers from at least as early as the time of Plato .
+
+The term " sociology " was first used in 1780 by the French essayist Emmanuel Joseph SieyÃšs
+(1748-1836) in an unpublished manuscript. [ 4 ]
+
+The word was later used in 1838 by the French thinker Auguste Comte . [ 5 ] Comte had earlier used
+the term "social physics", but that term had subsequently been appropriated by others,
+notably Adolphe Quetelet . Comte hoped to unify history, psychology and economics. He
+believed that society's acquisition of knowledge passed through three basic stages:
+theological , metaphysical , and positive . Comte argued that if society could grasp the
+structure of this progress, it could prescribe suitable remedies for social ills. [ 6 ] Comte
+has come to be viewed as the "Father of Sociology". [ 6 ]
+
+Sociology later evolved, as a scientific discipline, as an academic response to the
+challenges of modernity and modernization , such as industrialization and urbanization ,
+that emerged in the early 19th century.
+
+
+
+[ edit ] Key figures
+
+
+
+"Classical" theorists of sociology from the late 19th and early 20th centuries include
+Vilfredo Pareto , Karl Marx , Ludwig Gumplowicz , Ferdinand TÃ¶nnies , Ã‰mile Durkheim ,
+Herbert Spencer , Georg Simmel , Max Weber , and George Herbert Mead . Like Comte, these figures
+did not consider themselves only "sociologists". Their works addressed religion ,
+education , economics , law , psychology , ethics , philosophy and theology . Their theories
+have been applied in a variety of academic disciplines and beyond. Each key figure is
+typically associated with a particular theoretical perspective and orientation used to
+interpret and understand human behaviour.
+
+Other significant figures include Zygmunt Bauman , Ulrich Beck , Howard Becker , Daniel Bell ,
+Peter Berger , Peter Blau , Herbert Blumer , Pierre Bourdieu , Dieter Claessens , Randall
+Collins , Charles Horton Cooley , Lewis A. Coser , Ralf Dahrendorf , W. E. B. Dubois , Norbert
+Elias , Gilberto Freyre , Michel Foucault , Herbert Gans , Harold Garfinkel , Anthony Giddens ,
+Erving Goffman , Stuart Hall , George Homans , Bruno Latour , Thomas Luckmann , Karl Mannheim ,
+Marcel Mauss , Robert K. Merton , Robert Michels , C. Wright Mills , Talcott Parsons , Anselm
+Strauss , Gabriel Tarde , W. I. Thomas , John Urry , Thorstein Veblen , Immanuel Wallerstein ,
+and Jeffrey Weeks .
+
+
+
+[ edit ] Institutionalizing sociology as an academic discipline
+
+
+
+The discipline was taught under its own name for the first time in 1890, at the University of
+Kansas , Lawrence . The course, whose title was Elements of Sociology , was first taught by
+Frank Blackmar . It is the oldest continuing sociology course in the United States. The
+Department of History and Sociology at the University of Kansas, the first fully fledged
+independent university in the United States, was established in 1891. [ 7 ] [ 8 ] The department
+of sociology at the University of Chicago was established in 1892 by Albion W. Small , who, in
+1895, founded the American Journal of Sociology . [ 9 ]
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Emile_Durkheim.jpg/160px-Emile_Durkheim.jpg
+Ã‰mile Durkheim
+
+The first European department of sociology was founded in 1895, at the University of Bordeaux
+by Ã‰mile Durkheim , founder of L'AnnÃ©e Sociologique (1896). The first sociology
+department to be established in the United Kingdom was at the London School of Economics and
+Political Science (home of the British Journal of Sociology ) in 1904. [ 10 ] In 1919, a
+sociology department was established in Germany at the Ludwig Maximilians University of
+Munich by Max Weber , and in 1920 in Poland by Florian Znaniecki .
+
+International co-operation in sociology began in 1893, when RenÃ© Worms founded the
+Institut International de Sociologie , which was later eclipsed by the much larger
+International Sociological Association (ISA), founded in 1949. [ 11 ] In 1905, the American
+Sociological Association , the world's largest association of professional sociologists,
+was founded, and in 1909 the Deutsche Gesellschaft fÃŒr Soziologie ( German Society for
+Sociology ) was founded by Ferdinand TÃ¶nnies and Max Weber , among others.
+
+
+
+[ edit ] Positivism and anti-positivism
+
+Main articles: Positivism , Sociological positivism , and Antipositivism
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Max_Weber_1894.jpg/180px-Max_Weber_1894.jpg
+Max Weber
+
+The methodological approach towards sociology by early theorists, led by Comte, was to treat
+it in much the same manner as natural science , applying much the same methods as those used in
+the natural sciences. The emphasis on empiricism and the scientific method sought to provide
+an incontestable foundation for any sociological claims or findings, and to distinguish
+sociology from less empirical fields such as philosophy . This methodological approach,
+called positivism , is based on the assumption that the only authentic knowledge is
+scientific knowledge, and that such knowledge can come only from positive affirmation of
+theories through strict scientific and quantitative methods.
+
+Reactions against positivism began when German philosopher Georg Wilhelm Friedrich Hegel
+voiced opposition to both empiricism, which he rejected as uncritical, and determinism,
+which he viewed as overly mechanistic. [ 12 ] Although Karl Marx's dialectical materialism
+â€”as Marx's colleague Friedrich Engels referred to his and Marx's
+methodologyâ€”contrasted sharply with Hegel's idealism , his methodology was
+Hegelian insofar as it rejected positivism in favour of critical analysis, which seeks to
+supplement the empirical acquisition of "facts" with the elimination of illusions. [ 13 ] As
+critical theorists David Ashley and David Michael Orenstein observe, "Marx often pointed
+out that rational inquiry would be superfluous if the essence of things coincided directly
+with appearances"; [ 14 ] Marx thus understood that appearances need to be critiqued, not
+simply documented.
+
+Other philosophers, including Heinrich Rickert and even the empiricist Wilhelm Dilthey ,
+questioned positivist and naturalist approaches to studying social life . Rickert and
+Dilthey argued that the natural world differs from the social world because of unique aspects
+of human society, such as meanings, symbols , rules , norms , and values , all of which inform
+human cultures . This view was further developed by Max Weber , who introduced the term
+antipositivism . According to this view, which is closely related to antinaturalism ,
+sociological research should concentrate on human cultural values , symbols , and social
+processes viewed from a subjective perspective.
+
+Weber was a hermeneuticist, more interested in interpreting subjective meaning than in
+charting objective action. Yet he also felt that sociology should be a "science", able to
+identify causal relationshipsâ€”especially among ideal types , or hypothetical
+simplifications of complex social phenomena. [ 15 ] As a nonpositivist, however, Weber
+recognized that the selection and construction of ideal types was itself a subjective
+process, and realized that, unlike the causal relationships sought in positivistic
+science, those found between ideal types are not "ahistorical, invariant, or
+generalizable." [ 16 ] For example, Ashley and Orenstein point out that Weber, in his seminal
+work, The Protestant Ethic and the Spirit of Capitalism , did not intend to suggest that the
+spirit of capitalism could not flourish outside the Protestant ethic (it has) or that factors
+outside the Protestant ethic did not contribute to the spirit of capitalism in the West (they
+did). What mattered to Weber was that the relationship between the two factors helped to
+distinguish the character of Western Europeâ€”and the meaning derived by the subjects
+in itâ€”from the rest of the world. [ 17 ]
+
+Ã‰mile Durkheim was a major proponent of empirical sociological research, [ 18 ] both
+qualitative and quantitative. For example, he used ethnographic data to theorize about the
+social origins of religion , and compiled statistical information in order to understand the
+social roots of suicide . Yet his empirical bent may be overstated, perhaps as a result of the
+co-opting of his theories by the American positivist Talcott Parsons. [ 19 ] Durkheim
+gathered data, not for data's sake, but in order to understand and promote social evolution
+and reform. [ 19 ] Additionally, therefore, the original spirit of Durkheim's work may have
+become distorted by a growing disjuncture between institutionalized academia on the one
+hand, and the agitation and dynamics of reform and progress on the other. [ 19 ]
+
+
+
+[ edit ] Twentieth-century developments
+
+An example of a social network diagram.
+
+In the early 20th century, sociology expanded in the United States of America , including
+developments in both macrosociology , concerned with the evolution of societies , and
+microsociology , concerned with everyday human social interactions. Based on the pragmatic
+social psychology of George Herbert Mead , Herbert Blumer and, later, the Chicago school ),
+sociologists developed symbolic interactionism . [ 20 ]
+
+In Europe, in the Interwar period , sociology generally was both attacked by increasingly
+totalitarian governments and rejected by conservative universities. At the same time,
+originally in Austria and later in the U.S., Alfred SchÃŒtz developed social
+phenomenology , which would later inform social constructionism . Also, members of the
+Frankfurt school , most of whom moved to the U.S. to escape Nazi persecution, developed
+critical theory , integrating critical, idealistic and historical materialistic elements
+of the dialectical philosophies of Hegel and Marx with the insights of Freud , Max Weber
+â€”in theory, if not always in nameâ€”and others. In the 1930s in the U.S., Talcott
+Parsons developed action theory which integrated the study of social order and the
+voluntaristic aspects of macro and micro structural factors, while placing this discussion
+within a higher epistemological and explanatory context of system theory and cybernetics.
+
+Since World War II , sociology has been revived in Europe, although during the Stalin and Mao
+eras it was suppressed in the communist countries. In the mid-20th century, there was a
+generalâ€”but not universalâ€”trend for U.S.-American sociology to be more
+scientific in nature, due partly to the prominence at that time of action theory and other
+system-theoretical approaches. Sociologists developed new types of quantitative and
+qualitative research methods. In the second half of the 20th century, sociological research
+has been increasingly employed as a tool by governments and businesses. Parallel with the
+rise of various social movements in the 1960s, theories emphasizing social struggle,
+including conflict theory , which sought to counter so-called "functionalist approaches."
+Neomarxist theories had a brief renaissance and thereafter declined.
+
+The positivist tradition continues to be highly influential in sociology, especially in the
+United States, where a large number of the world's sociologists reside and practice [ 21 ] . The
+discipline's two leading American journals, American Journal of Sociology and American
+Sociological Review , primarily publish research in the positivist tradition, with ASR
+exhibiting greater diversity (the British Journal of Sociology , on the other hand,
+publishes primarily non-positivist articles) [ 21 ] . The twentieth century saw significant
+improvements to the quantitative methodologies employed in sociology. The development of
+longitudinal studies that follow the same population over the course of years or decades
+enabled researchers to study long-term phenomena and increased their ability to infer
+causality . The vast increase in the size of data sets produced by the new survey methodologies
+was followed by the invention of new statistical techniques for analyzing this data. The
+analysis of this data is usually done with statistical software packages such as Stata or SPSS
+.
+
+Social network analysis is an example of a new paradigm in the positivist tradition. The
+influence of social network analysis is pervasive in many sociological sub fields such as
+economic sociology (see the work of J. Clyde Mitchell , Harrison White , or Mark Granovetter ,
+for example), organizational behavior , historical sociology , political sociology , or the
+sociology of education . There is also a minor revival of a more independent, empirical
+sociology in the spirit of C. Wright Mills , and his studies of the Power Elite in the United
+States of America, according to Stanley Aronowitz. [ 22 ]
+
+
+
+[ edit ] Sociological debates
+
+
+
+Throughout the development of sociology, controversies have raged about how to emphasize or
+integrate concerns with subjectivity , objectivity , intersubjectivity and practicality
+in theory and research. The extent to which sociology may be characterized as a " science " has
+remained an area of considerable debate, which has addressed basic ontological and
+epistemological philosophical questions. One outcome of such disputes has been the ongoing
+formation of multidimensional theories of society, such as the continuing development of
+various types of critical theory . Another outcome has been the formation of public sociology
+, which emphasizes the usefulness of sociological analysis to various social groups .
+
+******************************************************
+
+Scope and topics of sociology
+
+Sociology as a discipline never had well-defined boundaries. Although throughout the early
+19th century it was primarily concerned with the social organization of complex industrial
+societies , it has now expanded into the traditional areas of anthropology , economics , and
+political science with the study of non-Western societies, culture , economic activity and
+politics (just as, in many cases, those disciplines extended into the traditional areas of
+sociology).
+
+
+
+[ edit ] The Internet
+
+Main article: Sociology of the Internet
+
+The Internet is of interest to sociologists in various ways. The Internet can be used as a tool
+for research (for example, conducting online questionnaires), a discussion platform, and
+as a research topic. Sociology of the Internet in the broad sense includes analysis of online
+communities (i.e. newsgroups , social networking sites) and virtual worlds .
+Organizational change is catalyzed through new media like the Internet, thereby
+influencing social change at-large . This creates the framework for a transformation from an
+industrial to an informational society (see Manuel Castells). Online communities can be
+studied statistically through network analysis and at the same time interpreted
+qualitatively through virtual ethnography . Social change can be studied through
+statistical demographics , or through the interpretation of changing messages and symbols
+in online media studies .
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Takeshita_street_view.jpg/180px-Takeshita_street_view.jpg
+
+Practical applications of sociology
+
+Â 
+
+Sociological research informs educators , planners , lawmakers , administrators ,
+developers , business leaders , and people interested in resolving social problems and
+formulating public policy .
+
+Public sociology is an approach to sociology that seeks to engage wider audiences and become,
+in the words of Michael Burawoy , the "mirror and conscience of society". Main article: social
+research
+
+Methods of sociological inquiry vary. The type of methodology used researching sociology is
+predicated upon the theoretical orientation of the researcher(s). The basic goal of
+sociological research is to understand the social world in its many forms. Quantitative
+methods and qualitative methods are two main types of sociological research . Sociologists
+often use the quantitative methods , such as social statistics or network analysis to
+investigate the structure of a social process or describe patterns in social relationships.
+Sociologists also often use the qualitative methods such as focused interviews , group
+discussions and ethnographic methods to investigate social processes. Sociologists also
+use applied research methods such as evaluation research and assessment .
+
+    The following list of research methods is neither exclusive nor exhaustive.
+    Researchers may adopt one or more than one type of research methodology for a research
+    project. Types of research methods include the following:
+
+    - Archival research : sometimes referred to as "Historical Method". This research uses
+    information from a variety of historical records such as biographies, memoirs and news
+    releases.
+
+    
+
+    - Content analysis : The contents of interviews and questionnaires are analyzed using
+    systematic approaches. An example of this type of research methodology is known as
+    "grounded theory." Books and mass media are also analyzed to study how people
+    communicate and the messages people talk or write about.
+
+    
+
+    - Experimental research : The researcher isolates a single social process or social
+    phenomena and uses the data to either confirm or construct social theory. Participants
+    (also referred to as "subjects") are randomly assigned to various conditions or
+    "treatments", and then analyses are made between groups. Randomization allows the
+    researcher to be sure that the treatment is having the effect on group differences and not
+    any extraneous factors.
+
+    
+
+    - Survey research : The researcher obtains data from interviews, questionnaires, or
+    similar feedback from a set of people chosen (including random selection) to represent a
+    particular population of interest. Survey items from an interview or questionnaire may
+    be open-ended or closed-ended.
+
+    
+
+    - Life history : This is the study of the personal life trajectories. Through a series of
+    interviews, the researcher can probe into the decisive moments or various influences in
+    their life.
+
+    
+
+    - Longitudinal study : This is an extensive examination of a specific person or group over
+    a long period of time.
+
+    
+
+    - Observation : Using data from the senses, one records information about social
+    phenomenon or behavior. Observation techniques can be either participant observation
+    or non-participant observation. In participant observation, the researcher goes into
+    the field (such as a community or a place of work), and participates in the activities of
+    the field for a prolonged period of time in order acquire a deep understanding of it. Data
+    acquired through these techniques may be analyzed either quantitatively or
+    qualitatively.
+
+    
+
+
+
+The choice of a method in part often depends on the researcher's epistemological approach to
+research as well as the researchers theoretical perspective. For example, researchers who
+are concerned with a statistical generalization to assign to a population will most likely
+administer structured interviews with a survey questionnaire to a carefully selected
+sample population. By contrast, sociologists, especially ethnographers, who are more
+interested in having a full contextual understanding of group members lives will choose
+participant observation , observation, and open-ended interviews. Many studies combine
+several of these methodologies. Adopting three (3) methodologies is referred to as
+"triangulation".
+
+As is the case in most disciplines, sociologists are often divided into distinctive camps of
+support for particular research methodologies. This is based upon the researcher's
+theoretical orientation. In practice, some sociologists combine different research
+methods and approaches, since different methods produce different types of findings that
+correspond to different aspects of societies. For example, quantitative methods may help
+describe social patterns , while qualitative approaches could help to understand how
+individuals understand those patterns. This, however, does not mean that a qualitative
+approach can not identify or define patterns of behavior. Nonetheless, the method of
+analysis of the data obtained from a research methodology may be qualitative, quantitative
+or both.
+
+Â 
+
+Sociology and other social sciences
+
+Sociology shares deep ties with a wide array of other disciplines that also deal with the study
+of society. The fields of anthropology , economics , political science and psychology have
+influenced and have been influenced by sociology and these fields share a great amount of
+history and common research interests. Social psychology within sociology is often
+referred to as "sociological social psychology". Two of the founders of social psychology as
+we understand it today are Muzafer Sherif and Carolyn Wood Sherif [ citation needed ] , known
+for their work on the Robbers Cave Experiment [ 23 ] . The Sherifs also wrote several editions of
+"An Outline of Social Psychology" [ 24 ] [ 25 ] .
+
+Today, sociology and other social sciences are better contrasted according to methodology
+rather than by objects of study. Additionally, unlike sociology, psychology and
+anthropology have forensic components that deal with anatomy and other types of laboratory
+research.
+
+Sociobiology , is the study of how social behavior and organization has been influenced by
+evolution and other biological process . The field blends sociology with a number of other
+sciences, such as anthropology , biology , zoology , and others. Although the field once
+rapidly gained acceptance, it has remained highly controversial within the sociological
+academy. Sociologists often criticize the study for depending too greatly on the effects of
+genes in defining behavior. Sociologists often respond by citing a complex relationship
+between nature and nurture .
+
+Sociology is also widely used in management science , especially in the field of
+organizational behavior as well as in fields such as social work .
+
+Â 
+
+
+
+Image: http://frazer.rice.edu/%7Eerkan/blog/archives/birdfluaviaire-cartton.jpg
+
+
+
+
+
+ØšØ§Ø²Ø¯ÛŒØ¯ Ø§ÛŒÙ† Ù…Ø·Ù„Øš Ø§Ø²
+ØªØ§Ø±ÛŒØ® 26 Ø¢Ø°Ø±Ù…Ø§Ù‡ 1390 ØªØ§ Ø§ÛŒÙ†
+Ù„Ø­ØžÙ‡ Ù…Ø±ØªØšÙ‡ ØšÙˆØ¯Ù‡ Ø§Ø³Øª
+Ù†ÙˆØŽØªÙ‡ ØŽØ¯Ù‡ Ø¯Ø± ØªØ§Ø±ÙŠØ®
+ÛŒÚ©ØŽÙ†ØšÙ‡ 1388/01/23 ØªÙˆØ³Ø· Ù…Ù‡Ù†Ø¯Ø³
+Ø­Ø³ÛŒÙ† Ø§Ø­Ù…Ø¯ÛŒ Ú¯Ø±Ø¬ÛŒ Ø®ÛŒÙ„ÛŒ
+GetBC(259);
+
+Image: http://www.magri.ir/images/links/logo.png Ø¯Ø±ÛŒØ§Ù�Øª
+Ù†ØŽØ±ÛŒØ§Øª Ø§Ù„Ú©ØªØ±ÙˆÙ†ÛŒÚ©ÛŒ
+
+
+
+Image: http://www.mesmaili.com/ebook/Bimarihaye%20gandom.png
+
+Image:
+http://www.mesmaili.com/ebook/Pesticides%20Of%20Agriculture-%28M-Esmaili%29.png
+
+Image: http://www.mesmaili.com/ebook/punica_granatum.png
+
+Image: http://www.mesmaili.com/ebook/maghalenevici.png
+
+
+
+(Ú©ÙŸÛŒ ØšØ±Ø¯Ø§Ø±ÛŒ Ø§Ø² Ù…Ø·Ø§Ù„Øš ØšØ§
+Ø°Ú©Ø± Ù…Ù†ØšØ¹ ØšÙ„Ø§Ù…Ø§Ù†Ø¹ Ø§Ø³Øª )
+Ø¯Ø±ØšØ§Ø±Ù‡ Ù…Ø§
+
+Image: http://www.blogfa.com/photo/a/aeegau.jpg
+
+Ú©Ù„ÛŒÙ‡ Ø­Ù‚ÙˆÙ‚ Ù…Ø§Ø¯ÛŒ Ùˆ Ù…Ø¹Ù†ÙˆÛŒ
+ÙˆØšÙ„Ø§Ú¯ Ù…ØªØ¹Ù„Ù‚ ØšÙ‡ Ú¯Ø±ÙˆÙ‡
+Ù…Ù‡Ù†Ø¯Ø³ÛŒ ØªØ±ÙˆÛŒØ¬ Ùˆ Ø¢Ù…ÙˆØ²ØŽ
+Ú©ØŽØ§ÙˆØ±Ø²ÛŒ Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡ Ø¹Ù„ÙˆÙ…
+Ú©ØŽØ§ÙˆØ±Ø²ÛŒ Ùˆ Ù…Ù†Ø§ØšØ¹ Ø·ØšÛŒØ¹ÛŒ
+Ú¯Ø±Ú¯Ø§Ù† Ø§Ø³Øª.Ù‡Ù…Ú©Ø§Ø±ÛŒ Ùˆ
+Ù…ØŽØ§Ø±Ú©Øª Ø¯Ø§Ù†ØŽØ¬ÙˆÛŒØ§Ù† Ø³Ø§ÛŒØ±
+Ú¯Ø±Ø§ÛŒØŽÙ‡Ø§ÛŒ Ú©ØŽØ§ÙˆØ±Ø²ÛŒ Ø¢Ø²Ø§Ø¯
+ØšÙˆØ¯Ù‡ Ùˆ Ù…ÙˆØ¬Øš Ø³Ø±Ø§Ù�Ø±Ø§Ø²ÛŒ
+Ù…Ø§Ø³Øª.
+
+
+
+Ø¯Ø§Ù†ØŽØ¬ÙˆÛŒØ§Ù† Ú¯Ø±ÙˆÙ‡ ØªØ±ÙˆÛŒØ¬ Ùˆ
+Ø¢Ù…ÙˆØ²ØŽ Ú©ØŽØ§ÙˆØ±Ø²ÛŒ
+
+Ø¯Ø§Ù†ØŽÚ¯Ø§Ù‡ Ø¹Ù„ÙˆÙ… Ú©ØŽØ§ÙˆØ±Ø²ÛŒ
+Ùˆ Ù…Ù†Ø§ØšØ¹ Ø·ØšÛŒØ¹ÛŒ Ú¯Ø±Ú¯Ø§Ù†
+Ø¬Ø¯ÛŒØ¯ØªØ±ÛŒÙ† Ù…Ø·Ø§Ù„Øš
+Ø¯Ù�Ø§Ø¹ÛŒÙ‡ Ø¯ÙˆÙ…ÛŒÙ† ÙŸØ§ÛŒØ§Ù†
+Ù†Ø§Ù…Ù‡ Ú¯Ø±ÙˆÙ‡ Ø¯Ù�Ø§Ø¹ÛŒÙ‡
+Ù†Ø®Ø³ØªÛŒÙ† ÙŸØ§ÛŒØ§Ù† Ù†Ø§Ù…Ù‡
+Ú¯Ø±ÙˆÙ‡ Ø¢ØºØ§Ø² Ø·Ø±Ø­ Ù‡Ø§ÛŒ
+ØªØ­Ù‚ÛŒÙ‚Ø§ØªÛŒ Ø³ÙˆÛŒØ§ Ø¯Ø±
+Ø§ÛŒØ³ØªÚ¯Ø§Ù‡ ØªØ­Ù‚ÛŒÙ‚Ø§Øª
+Ú©ØŽØ§ÙˆØ±Ø²ÛŒ Ú¯Ø±Ú¯Ø§Ù† Ù‚Ø§ØšÙ„
+ØªÙˆØ¬Ù‡ Ø¯Ø§Ù†ØŽØ¬ÙˆÛŒØ§Ù† Ø¯Ø±Ø³
+Ú©Ø§Ø±Ø¢Ù…ÙˆØ²ÛŒ(Ù†ÛŒÙ…Ø³Ø§Ù„
+ØªØ§ØšØ³ØªØ§Ù†ÛŒ) Ø§ØšØ±Ø§Ø²
+Ù‡Ù…Ø¯Ø±Ø¯ÛŒ Ù‚Ø§ØšÙ„ ØªÙˆØ¬Ù‡
+Ø¯Ø§Ù†ØŽØ¬ÙˆÛŒØ§Ù† Ø¯Ø±Ø³ ÙŸØ±ÙˆÚ˜Ù‡
+ØªØšØ±ÛŒÚ© ØšÙ‡ ØšØ±Ú¯Ø²ÛŒØ¯Ú¯Ø§Ù†
+Ø¢Ø²Ù…ÙˆÙ† Ø§Ø±ØŽØ¯ Ø§Ø·Ù„Ø§Ø¹ÛŒÙ‡
+Ø³Ø§Ø²Ù…Ø§Ù† Ù‡Ø§ÛŒ ØªØ±ÙˆÛŒØ¬ÛŒ
+Ú©ØŽØ§ÙˆØ±Ø²Ù…Ø­ÙˆØ± ØªÙ…Ø¯ÛŒØ¯
+Ù…Ù‡Ù„Øª Ø§Ø±Ø³Ø§Ù„ Ø¢Ø«Ø§Ø± ØšÙ‡
+Ù‡Ù…Ø§ÛŒØŽ Ù…Ù„ÛŒ ØªÙˆØ³Ø¹Ù‡
+Ø±ÙˆØ³ØªØ§ÛŒÛŒ Ø¯Ø±Ø¢Ù…Ø¯ÛŒ ØšØ± Ù†ØžØ§Ù…
+ØªØ±ÙˆÛŒØ¬ ØªØ¹Ø§ÙˆÙ†ÛŒ ØšØ¯ÙˆÙ† ØŽØ±Ø­
+Ø®Ø¯Ø§Ø­Ø§Ù�Øž Ø¯ÙˆØ³ØªØ§Ù† ... Ø·Ù„ÛŒØ¹Ù‡
+ØšÙ‡Ø§Ø± Ù�Ø±Ø§Ø®ÙˆØ§Ù† Ú¯ÙŠØ§Ù‡
+Ø¯Ø§Ø±Ú†ÙŠÙ† Ø±Ù…Ø² Ø¬ÙˆØ§Ù†ÙŠ Ø§Ø³Øª
+Ú¯Ø±ÙˆÙ‡ ØªØ±ÙˆÛŒØ¬ Ùˆ Ø¢Ù…ÙˆØ²ØŽ
+Ú©ØŽØ§ÙˆØ±Ø²ÛŒ Ø§Ù�ØªØ®Ø§Ø±Ø¢Ù�Ø±ÛŒÙ†
+Ù‡Ù�ØªÙ‡ ÙŸÚ˜ÙˆÙ‡ØŽ Ø¬Ø¹Ù�Ø±ÛŒ Ø³Ù…ÙˆÙ…
+Ø±Ø§ Ø§Ø² ØšØ¯Ù† Ø¯Ù�Ø¹ Ù…ÛŒâ€ŒÚ©Ù†Ø¯
+Ø§Ù†ØªÙ‚Ø§Ù„ Ø¢Øš ØšÙ‡
+Ø²Ù…ÙŠÙ†â€ŒÙ‡Ø§ÙŠ Ø²Ø±Ø§Ø¹ÙŠØŒÚ¯Ø§Ù…ÙŠ
+ØšØ²Ø±Ú¯ Ø¯Ø± ØªÙˆØ³Ø¹Ù‡
+Ø¢Ø°Ø±ØšØ§ÙŠØ¬Ø§Ù† ØºØ±ØšÙŠ ØšÙ† Ø³Ø§ÛŒ
+(Bonsai) Ø¢Ù…ÛŒØ²Ù‡ Ø§ÛŒ Ø§Ø² Ù‡Ù†Ø± Ùˆ
+ØšØ§ØºØšØ§Ù†ÛŒ ØªØµØ§ÙˆÛŒØ±ÛŒ Ø§Ø²
+ØšÙ†Ø³Ø§ÛŒ Ù…Ø¹Ø±Ù�ÛŒ Ø§ÙˆÙ„ÛŒÙ†
+ØªØ±ÙˆÛŒØ¬ÛŒ Ø¯Ø± Ø³Ø§Ù„Ú¯Ø±Ø¯
+Ø§Ø³ØªØ®Ø¯Ø§Ù… ÙˆÛŒ Ø¯Ø±ÛŒØ§Ù�Øª
+Ù†ØŽØ±ÛŒØ§Øª Ø§Ù„Ú©ØªØ±ÙˆÙ†ÛŒÚ©ÛŒ
+ØšØ±Ø§ÙŠ Ù…Ù‚Ø§ØšÙ„Ù‡ ØšØ§
+Ø®ØŽÙƒØ³Ø§Ù„ÙŠ Ø§Ø®ØªØµØ§Øµ ÙŠØ§Ù�Øª
+Ø³ÙˆÙ…Ù€ÛŒÙ€Ù† Ù‡Ù€Ù…Ù€Ù€Ø§ÛŒÙ€Ù€ØŽ
+Ø®Ø¯Ù…Ù€Ø§Øª Ù�Ù†Ù€Ù€Ø§ÙˆØ±ÛŒ
+Ø§Ø·Ù„Ø§Ø¹Ù€Ø§Øª Ùˆ Ø§Ø±ØªØšÙ€Ø§Ø·Ø§Øª
+Ø¯Ø± Ø±ÙˆØ³Ù€Ù€ØªØ§ Ù…ÙˆØ¶ÙˆØ¹Ø§Øª
+Ø§Ø·Ù„Ø§Ø¹ÛŒÙ‡ Ù‡Ø§ Ø§Ø®ØšØ§Ø±
+Ú©ØŽØ§ÙˆØ±Ø²ÛŒ Ø³Ø±Ú¯Ø±Ù…ÛŒ Ùˆ ØªÙ�Ø±ÛŒØ­
+Ø§Ø®ØšØ§Ø± Ø¹Ù„Ù…ÛŒ Ù†ØŽØ±ÛŒÙ‡ Ù‡Ø§ÛŒ
+ØªØ±ÙˆÛŒØ¬ÛŒ Ù†ÙˆÙŠØ³Ù†Ø¯Ú¯Ø§Ù†
+Ù…Ø¯ÛŒØ±ÛŒØª Ø³Ø§ÛŒØª Ø§ÛŒÙ…Ø§Ù†
+Ù…Ø­Ù…Ø¯Ø¹Ù„ÛŒ ÙŸÙˆØ±Ù…Ù„Ú©ØŽØ§Ù‡
+Ø­Ù…ÛŒØ¯ Ø¬ØšØ±ØŠÛŒÙ„ÛŒ Ù…Ù‡Ù†Ø¯Ø³
+Ø­Ø³ÛŒÙ† Ø§Ø­Ù…Ø¯ÛŒ Ú¯Ø±Ø¬ÛŒ Ø®ÛŒÙ„ÛŒ
+Ø¹ØšØ¯Ø§Ù„Ø±Ø¶Ø§ Ù…Ø­Ù…ÙˆØ¯ÛŒ Ø³Ø±Ø§ÛŒ
+
+Image: http://......gif ØªÙ…Ø§Ù…ÛŒ Ø­Ù‚ÙˆÙ‚ Ø§ÛŒÙ†
+ÙˆØšÙ„Ø§Ú¯ Ù…Ø­Ù�ÙˆØž Ø§Ø³Øª | Ø·Ø±Ø§Ø­ÛŒ
+Ùˆ Ù…ÛŒÚ©Ø³ Ù‚Ø§Ù„Øš : Ù…Ø­Ù…Ø¯
+Ø§Ø³Ù…Ø§Ø¹ÛŒÙ„ÛŒ Ø§ÙˆÙ„ Ù‚Ø§Ù„Øš
+ÙˆØšÙ„Ø§Ú¯
+

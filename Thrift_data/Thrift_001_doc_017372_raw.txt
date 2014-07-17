@@ -1,0 +1,935 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); a new life in the sea: Codex of all Codices | Knowing, Part 2 <!-- /* /* Variable
+definitions ==================== <Variable name="bgcolor" description="Page
+Background Color" type="color" default="#000"> <Variable name="textcolor"
+description="Text Color" type="color" default="#333"> <Variable name="linkcolor"
+description="Link Color" type="color" default="#58a"> <Variable
+name="pagetitlecolor" description="Blog Title Color" type="color" default="#666">
+<Variable name="descriptioncolor" description="Blog Description Color" type="color"
+default="#999"> <Variable name="titlecolor" description="Post Title Color"
+type="color" default="#c60"> <Variable name="bordercolor" description="Border Color"
+type="color" default="#ccc"> <Variable name="sidebarcolor" description="Sidebar
+Title Color" type="color" default="#999"> <Variable name="sidebartextcolor"
+description="Sidebar Text Color" type="color" default="#666"> <Variable
+name="visitedlinkcolor" description="Visited Link Color" type="color"
+default="#999"> <Variable name="bodyfont" description="Text Font" type="font"
+default="normal normal 100% Georgia, Serif"> <Variable name="headerfont"
+description="Sidebar Title Font" type="font" default="normal normal 78% 'Trebuchet
+MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable name="pagetitlefont"
+description="Blog Title Font" type="font" default="normal normal 200% Georgia, Serif">
+<Variable name="descriptionfont" description="Blog Description Font" type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif">
+<Variable name="postfooterfont" description="Post Footer Font" type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif">
+<Variable name="startSide" description="Side where text starts in blog language"
+type="automatic" default="left"> <Variable name="endSide" description="Side where
+text ends in blog language" type="automatic" default="right"> */ /* Use this with
+templates/template-twocol.html */ body { background:#000000; margin:0; color:#666666;
+font:x-small Georgia Serif; font-size/* */:/**/small; font-size: /**/small;
+font-size:14px; text-align: center; } a:link { color:#3b8ae5; text-decoration:none; }
+a:visited { color:#3b8ae5; text-decoration:none; } a:hover { color:#074190;
+text-decoration:underline; } a img { border-width:0; } /* Header
+----------------------------------------------- */ #header-wrapper { width:900px;
+margin-left:0px; margin-right:0px; border:0px ; } #header-inner { background-position:
+center; margin-left: 0px; margin-right: 0px; } #header { margin: 0px; border: 0px solid
+#999999; text-align: center; color:#074190; } #header h1 { margin:0px; padding:0px 0px;
+line-height:1.2em; text-transform:uppercase; letter-spacing:.2em; font: normal
+normal 200% Georgia, Serif; } #header a { color:#074190; text-decoration:none; } #header
+a:hover { color:#074190; } #header .description { margin:0px; padding:0px;
+max-width:900px; text-transform:uppercase; letter-spacing:.2em; line-height: 1.4em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif; color:
+#999999; } #header img { margin-left: auto; margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { background:
+#ffffff; width: 900px; margin:auto; padding:0px; text-align:left; font: normal100%
+Verdana, sans-serif; } #left-sidebar-wrapper { background: #ffffff; width: 207px;
+border-right: 0px dotted #999999; margin-right: 0px; margin-left: 0px; padding: 0px;
+float: left; word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ }
+#main-wrapper { background: #ffffff; width: 456px; margin-right: 5px; margin-left: 5px;
+padding: 5px; float: left; word-wrap: break-word; /* fix for long text breaking sidebar
+float in IE */ overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ }
+.label-size { font-size:120% } .blog-title a:link {color:#0b439f; } .item-title a:link
+{color:#366616 ; } #sidebar-wrapper { background: #ffffff; width: 215px; margin-right:
+1px; margin-left: 0px; border-left: 0px dotted #999999; padding: 0px; float: right;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */ overflow: hidden;
+/* fix for long non-text content breaking IE sidebar float */ } /* Headings
+----------------------------------------------- */ h2 { font: normal 86% Verdana,
+sans-serif; line-height: 1.4em; letter-spacing:.2em; color:#666666;
+font-weight:bold; } /* Posts ----------------------------------------------- */
+h2.date-header { margin:.5em 0 .5em; font-family:helvetica,sans-serif;
+font-weight:normal; font-size:13px; color:#3A3939; } .post { margin:.5em 0 1.5em;
+border-bottom:1px dotted #999999; padding-bottom:1.5em; } .post h3 { margin:.25em 0 0;
+padding:0 0 4px; font-size:140%; font-weight:normal; line-height:1.4em;
+color:#074190; font-weight:bold; } .post h3 a, .post h3 a:visited, .post h3 strong {
+display:block; text-decoration:none; color:#074190; font-weight:normal;
+font-weight:bold; } .post h3 strong, .post h3 a:hover { color:#666666; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#003366; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% Verdana, sans-serif; line-height: 1.4em; }
+.comment-link { margin-left:.6em; } .post img { padding:4px; border:1px solid #999999; }
+.post blockquote { margin:1em 20px; } .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #003366; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+#blog-pager-newer-link { float: left; } #blog-pager-older-link { float: right; }
+#blog-pager { text-align: center; } .feed-links { clear: both; line-height: 2.5em; } /*
+Sidebar Content ----------------------------------------------- */ .sidebar { color:
+#666666; line-height: 1.5em; padding-left:0px; padding-right:0px; } .sidebar1 { color:
+#666666; line-height: 1.5em; padding-left:5px; padding-right:5px; width: 206px;
+background-color: #f2f2f2; overflow: auto; padding-left: 12px; padding-right: 12px; }
+.sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; } .sidebar li { margin:0;
+padding-top:0; padding-right:0; padding-bottom:.25em; padding-left:15px;
+text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main .widget {
+border-bottom:1px dotted #999999; margin:0 0 0; padding:0 0 1.5em; } .sidebar2 .widget,
+.main .widget { border-bottom:1px dotted #999999; margin:0 0 0; padding:0 0; } .main .Blog {
+border-bottom-width: 0; } /* Profile -----------------------------------------------
+*/ .profile-img { float: left; margin-top: 0; margin-right: 0px; margin-bottom: 5px;
+margin-left: 0; padding: 4px; border: 1px solid #999999; } .profile-data { margin:0;
+text-transform:uppercase; letter-spacing:.1em; font: normal normal 78% Verdana,
+sans-serif; color: #003366; font-weight: bold; line-height: 1.6em; } .profile-datablock
+{ margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 78% Verdana, sans-serif; text-transform: uppercase;
+letter-spacing: .1em; } /* Footer ----------------------------------------------- */
+#footer { width:900px; clear:both; margin:0 auto; padding-top:10px; line-height: 1.6em;
+letter-spacing:.1em; text-align: center; } #navbg { background-color: #083378;
+margin-left: 6px; margin-right: 6px; text-color: white; font-weight: bold; } #right1 {
+width: 206px; background-color: #f2f2f2; overflow: auto; padding-left: 12px;
+padding-right: 12px; } #PageList1{margin-left:10px;} #PageList1 ul
+li{margin-right:50px} #PageList1 li a
+{font-size:12px;color:#ffffff;text-decoration:none; font-weight:bold;}
+h2{margin-left:0px; font-size:18px; font-weight:bold;letter-spacing:0px} #HTML2 {
+margin-left:10px; } #Label1 {padding-left:12px; padding-right:12px; } #Label1 h2
+{font-family:times new roman;font-size:21px} #HTML10 {margin-left:5px;} #HTML4
+{margin-left:0px;} blog-list-container #BlogList1 { background-color: #e8f2fe;
+border:5px solid #ffffff;border-bottom:1px dotted #999999;} #BlogList1 h2
+{font-family:times new roman;margin-left:8px;padding-top:0px;color:black}
+#BlogList2 {margin-left:6px} .blog-list-container .item-time {font-style:normal}
+#navbg { background-color: #083378; margin-left: 6px; margin-right: 6px; text-color:
+white; border-top:2px solid #ffffff; padding:2px 2px 2px 2px; }body { font-size:14px;
+color:#3a3939; }#BlogList1 { background-color: #e8f2fe; border:5px solid
+#ffffff;border-bottom:1px dotted #999999;} .post h3 {line-height:2em;} h2.date-header
+{ margin:.5em 0 .5em; font-family:helvetica,sans-serif; font-weight:normal;
+font-size:13px; color:#3A3939; font-weight:bold; } #Feed4 { padding-left:8px; } #Feed1 {
+padding-left:8px; } #Feed5 { padding-left:8px; } --> body
+{font-family:helvetica,sans-serif;font-size:14px;} a.stbar.chicklet img
+{border:0;height:16px;width:16px;margin-right:3px;vertical-align:middle;}
+a.stbar.chicklet {height:16px;line-height:16px;} var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0752021518580618548946\46blogName\75a+new+life+in+the+sea\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLACK\46layoutType\75LAYOUTS\46searchRoot\75http://anewlifeinthesea.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://anewlifeinthesea.blogspot.com/\46targetPostID\0752243198892426071399\46blogPostOrPageUrl\75http://anewlifeinthesea.blogspot.com/2011/02/codex-of-all-codecies-knowing-part-2.html\46vt\0753545299163631321373',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Image:
+http://3.bp.blogspot.com/_NJ0Rk21q6oU/S4wTFpO-X_I/AAAAAAAAAyg/XO8F2UA79K8/S1600-R/NewLifeHeader.jpg
+
+Pages
+
+    
+
+    - Home
+
+    
+
+    - About This Project
+
+    
+
+    - About Michael Lombardi
+
+    
+
+    - Contact
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+All commerce and donations generated through this Blog benefits Ocean Opportunity
+
+Inc. , a 501(c)3 not for profit
+
+organization.
+
+Image: https://www.paypal.com/en_US/i/scr/pixel.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Check out our work at
+National Geographic!
+
+
+
+Image:
+http://4.bp.blogspot.com/_NJ0Rk21q6oU/TSL5Gx00MWI/AAAAAAAAA-M/6hKp3joXpZ8/S197/national_geographic_logo_sm.jpg
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Get the OO VISA Card
+
+
+
+Image:
+http://3.bp.blogspot.com/_NJ0Rk21q6oU/TSMHvPWxmgI/AAAAAAAAA-k/M8a3_lRJs_o/S197/card.jpg
+
+
+
+Image:
+http://1.bp.blogspot.com/_NJ0Rk21q6oU/TSMH5bdarDI/AAAAAAAAA-s/6m6hk-OFCqs/S197/applu_now_btn.gif
+Rewarding for you and us
+
+Ocean Opportunity
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+buy OO stuff!
+
+
+
+
+
+Image:
+http://external.ak.fbcdn.net/safe_image.php?d=AQBD4bUrtJOweTWr&w=90&h=90&url=http%3A%2F%2Foceanopportunity.qbstores.com%2Fimages%2Fstyle_logo%2Fss%2F1870%2Frnd%2F795f9%2Flogo_group_id%2F11145%2Fstyle_id%2F8055.html%3Fw%3D200
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (WIDGETBOX)
+WIDGETBOX.renderWidget('4c6f8120-7163-4a4c-8c2e-26ccc5aa3b3a'); Get the a new life in
+the sea widget and many other great free widgets at Widgetbox !
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+
+
+Image: http://www.oceanopportunity.com/images/lifeinthesealogos/iPhone.jpg
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://s03.flagcounter.com/count/osB/bg=FFFFFF/txt=003366/border=FFFFFF/columns=2/maxflags=12/viewers=our+global+reach/labels=1/
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Share this Blog
+
+
+
+var addthis_pub="oceanopportunity";
+
+Image: http://s7.addthis.com/static/btn/lg-share-en.gif
+
+
+
+Image: http://buttons.googlesyndication.com/fusion/add.gif
+
+
+
+
+
+Image: http://www.feedburner.com/fb/images/pub/powered_by_fb.gif
+
+
+
+Image: http://twitter-badges.s3.amazonaws.com/twitter-b.png
+
+
+
+
+
+subscribe via email
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Related products from Amazon.com
+
+if (!window.gadgets || !gadgets.rpc) { document.write('<script
+type="text/javascript"' +
+'src="//www-blogger-opensocial.googleusercontent.com/gadgets/js/rpc.js?container\x3dblogger\x26nocache\x3d0\x26debug\x3d0\x26c\x3d1\x26v\x3d86998f150f168aa91fa5ee2c8983b68e\x26sv\x3d9">'
++ '</scr'+'ipt>'); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.currentPost =
+"http://www.blogger.com/feeds/2021518580618548946/posts/default/2243198892426071399";
+holder.currentComments =
+"http://www.blogger.com/feeds/2021518580618548946/2243198892426071399/comments/default";
+holder.currentPostUrl = ""; holder.currentPostId = 2243198892426071399
+holder.postFeed =
+"http://www.blogger.com/feeds/2021518580618548946/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/2021518580618548946/comments/default";
+holder.currentBlogUrl = "http://anewlifeinthesea.blogspot.com/";
+holder.currentBlogId = "2021518580618548946"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); }
+gadgets.rpc.setRelayUrl("sidebar-gadget1",
+'//9dl7h78ivl8smpn7vl3d9mo2g1ajbhaj-a-blogger-opensocial.googleusercontent.com/gadgets/files/container/rpc_relay.html');
+gadgets.rpc.setAuthToken("sidebar-gadget1", "-7912327664770534028");
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png <!--
+google_ad_client="pub-9721532937028851"; google_ad_host="pub-1556223355139109";
+google_ad_host_channel="00000"; google_ad_width=120; google_ad_height=240;
+google_ad_format="120x240_as"; google_ad_type="text";
+google_color_border="FFFFFF"; google_color_bg="FFFFFF";
+google_color_link="003366"; google_color_url="5588AA";
+google_color_text="666666"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Best Earth Mystery Blogs onlinecourses.net
+
+
+
+Image:
+http://images.blognation.com/themes/directory/badges/interestingblogs/small-bottom.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+
+
+Image: http://www.oceanopportunity.com/images/Sponsors/EGCLogo.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Monday, February 7, 2011
+
+
+
+Codex of all Codices | Knowing, Part 2
+
+Email This BlogThis! Share to Twitter Share to Facebook
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=michaellombardi-20&l=bil&camp=213689&creative=392969&o=1&a=B001GCUO02
+
+
+
+Image:
+http://www.oceanopportunity.com/images/lifeinthesealogos/NewLifeSquare.jpg In
+continuing this review and analysis of the film ' Knowing ', we must absolutely address the
+numeric sequence which was obsessively scribed by the character Lucinda Embry. The sheet
+of paper containing several hundred seemingly random digits was placed into an elementary
+school's 'time capsule' to be opened some 50 years later. Upon opening and rediscovery of this
+number sequence, we are taken on a thrilling journey to unlock the secrets embedded in this
+sequence of digits - which as interpreted - is a key to a deterministic (see Part 1) past,
+present, and future existence (or rather destruction).
+
+
+
+Image:
+http://ws.amazon.com/widgets/q?MarketPlace=US&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&ASIN=B001GCUO02&tag=michaellombardi-20
+Codes, symbols, and translative indices have been among those most controversial topics
+throughout history. Science has uncovered factual significance with several coded objects
+- and yet an equal number of conspiracies have evolved from them. This is largely given that the
+historical knowledge gap is so broad and left wide open for interpretation - wildly
+imaginative interpretation in many cases.
+
+With 2012 around the corner, this topic has been right out there in the mainstream public eye,
+and in full force. We frequently hear about deep and dark conspiracies associated with things
+like the Dresden Codex , Nostradamus , Georgia Guidestones , the Rosetta Stone , and even the
+Bible . All of this is truly fascinating, but one can only hope that some hard science comes from
+their interpretations to help us narrow that broad knowledge gap out there and help us
+progress somewhat constructively rather than wallowing away in front of the tv thinking that
+the world is coming  to an end!
+
+
+
+In 'Knowing', the codex that we are presented with is a number sequence. This is unique from
+those previously listed as numbers are considered a universal mode of communication, as
+opposed to communicating in a specific language. In fact, count systems have been discovered
+that may be as early as 35,000 years old, making numbers the oldest known mode of written
+communication. Lucinda, in her extra-terrestrial state of  possession,
+communicated in numbers to allow her message of Earthly disasters to be understood by
+anyone in the future - any race, any language, any age, and possibly even on any other
+intelligent planet.
+
+
+
+It is not too far fetched to send numeric messages into the future for this very purpose. In
+fact,  Carl Sagan is well known for the first, using the Arecibo telescope in 1974, in an
+attempt to solicit a response from extra-terrestrial intelligences.
+
+
+
+Numbers are at the foundation of everything - including all of the bits and bytes behind
+this website. Numbers run so deep in all aspects of life, that we often seek to define
+relationships in nature and fundamental existence with numerical sequences and patters.
+And herein lies our problem with 'Knowing'...are the patterns that we arrive at with -
+including those with statistical significance - manifestations of creativity?
+coincidences of random chance ? some universally implicated determinism? or prophecy?
+
+
+
+That item - prophecy - will be addressed in our review of 'Knowing', Part 3.
+
+
+
+Stay tuned.
+
+
+
+References
+
+LaLonde, L. (1974). The Upgraded Arecibo Observatory Science, 186 (4160), 213-218 DOI:
+10.1126/science.186.4160.213
+
+
+
+Sitler, R. (2006). The 2012 Phenomenon New Age Appropriation of an Ancient Mayan Calendar
+Nova Religio, 9 (3), 24-38 DOI: 10.1525/nr.2006.9.3.024
+
+
+
+ Related articles
+
+    
+
+    - random chance vs determinism | Knowing, Part 1 (anewlifeinthesea.blogspot.com)
+
+    
+
+    - the historical value of the history on The History Channel
+    (anewlifeinthesea.blogspot.com)
+
+    
+
+
+
+Image:
+http://img.zemanta.com/zemified_e.png?x-id=101e79ce-d587-4997-9264-cb779ec6c63d
+
+Image: http://www.blogger.com/img/icon18_email.gif Blog Topics: Bible , Carl Sagan ,
+Dresden Codex , Georgia Guidestones , Rosetta Stone
+
+No comments:
+
+    
+
+
+
+
+
+Post a Comment
+
+
+
+Thank you for engaging in constructive discussion and sharing your thoughts about the
+topics, opinions, and experiences presented in this Blog.
+
+
+
+Defamatory comments, or those that may cause damage to others will be deleted immediately.
+
+
+
+Happy Blogging! BLOG_CMT_createIframe('http://www.blogger.com/rpc_relay.html',
+'16700966206020510040'); <!-- google_ad_client="pub-9721532937028851";
+google_ad_host="pub-1556223355139109"; google_ad_width=234; google_ad_height=60;
+google_ad_format="234x60_as"; google_ad_type="text";
+google_ad_host_channel="0001+S0007+L0007"; google_color_border="FFFFFF";
+google_color_bg="FFFFFF"; google_color_link="5387AB"; google_color_url="15222B";
+google_color_text="15222B"; //--> Newer Post Older Post Home Subscribe to: Post Comments
+(Atom) window.___gcfg = {'lang': 'en'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})(); var linkwithin_site_id = 192886;
+
+Image: http://www.linkwithin.com/pixel.png
+
+Recent Posts on 'a New Life'
+
+    
+
+    - life on Mars? does it matter? NASA's 'Curiosity' is slated to land on the Red Planet on
+    August 6th. From the perspective of an explorer/innovator, this is indeed fascina...
+
+    
+
+    - A Last Dive for Glowing Animals - NYTimes.com From our friends and colleagues at the
+    American Museum of Natural History and the City University of New York, posted in the New
+    York Times:...
+
+    
+
+    - composure, aptitude, & situational awareness A recent series of very routine working
+    dives reminded me of what has come to be my 'trinity' in diving - composure, aptitude , and
+    situatio...
+
+    
+
+    - sharky summers in New England Summers here in New England bring a few things for shark
+    lovers - 'summertime blues' off of the Rhode Island coast, Discovery's 'Shark Wee...
+
+    
+
+    - shedding some light on a 'lost continent' The age old question that is at the fundamental
+    drive of almost every scientific and intellectual pursuit - our origins. Within that
+    lies th...
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/-HbymsXT9yS4/UChdy7rucDI/AAAAAAAABG0/GtC5LuUh8Ww/s72-c/SubsalveThanks.JPG
+    an in between era using in between technology I recently returned from the field, working
+    in a remote stretch of the Exumas, Bahamas - where I consider my home away from home.
+    The object...
+
+    
+
+    - on and in an aquatic state Late yesterday afternoon, the phone rang and the 'hello' was
+    forgone. I was met only with a  'you're leaving at midnight'... This wasn't t...
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png <!--
+google_ad_client="pub-9721532937028851"; google_ad_host="pub-1556223355139109";
+google_ad_width=468; google_ad_height=60; google_ad_format="468x60_as";
+google_ad_type="text"; google_ad_host_channel="0001";
+google_color_border="FFFFFF"; google_color_bg="FFFFFF";
+google_color_link="15222B"; google_color_url="5588AA";
+google_color_text="999999"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+
+
+Hello & Welcome!
+
+
+
+Our Blue Planet is more accessible than ever... and yet we've had just a glimpse.
+
+
+
+This blog represents my small contribution to the global picture - providing insight,
+forethought, and discussion - as the world continues to evolve, and draw ever closer to a new
+life in the sea.
+
+
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+
+
+Image: http://www.oceanopportunity.com/images/lifeinthesealogos/BlackBeans.jpg
+
+Image:
+http://www.assoc-amazon.com/e/ir?t=explortechnog-20&l=as2&o=1&a=1450585302
+
+
+
+<!-- amazon_ad_tag="michaellombardi-20"; amazon_ad_width="160";
+amazon_ad_height="600"; amazon_color_border="659EC7"; amazon_color_logo="FFFFFF";
+amazon_color_link="659EC7"; amazon_ad_logo="hide"; amazon_ad_link_target="new";
+amazon_ad_border="hide"; amazon_ad_title="titles by Michael Lombardi"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Facebook Badge
+
+Michael Lombardi
+
+
+
+Image: http://badge.facebook.com/badge/718081020.213.937078433.png
+
+Create Your Badge
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Something to Watch
+
+Loading...
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Great Minds Think Alike...
+
+    
+
+    - The Discovery Enterprise
+
+    Image:
+    http://3.bp.blogspot.com/-zOoLFnUfL2o/UGvhn96gm5I/AAAAAAAAGP4/-P7eCokdqWY/s72-c/Return+to+Antikythera.jpg
+    Return to Antikythera - *Yesterday the British Newspaper The Guardian reported that a
+    team of marine archaeologists will return to the site of Antikythera, Greece to begi... 4
+    hours ago
+
+    
+
+    - NYT > Thomas L. Friedman OP-ED COLUMNIST; China Needs Its Own Dream - The so-called
+    American Dream won’t work for China. How will its new leaders handle the dramatic
+    growth of its emerging middle class? 7 hours ago
+
+    
+
+    - Earthfiles.com Articles Linda Moulton Howe Keynote Speaker, Paradigm Symposium Oct.
+    18 - ANCIENT ALIENS • ARCHAEOLOGY • ANTHROPOLOGY • ARTIFICIAL INTELLIGENCE •
+    ANCIENT COSMOLOGY Paradigm Symposium • October 18-21, 2012 • M I N N E A P O L I S ... 8
+    hours ago
+
+    
+
+    - TED Blog Mind Amplifier: New TED ebook author asks whether digital media can make us
+    smarter - Are we becoming blank-eyed cyberzombies, thanks to the internet and all the
+    tech tools we obsess about every day? Instead of asking whether the Web is maki... 15 hours
+    ago
+
+    
+
+    - National Geographic News Watch Seeing Our Planet Through Children’s Eyes - The
+    winners of Children’s Eyes On Earth International Youth Photography Contest were
+    announced today, with first prize going to eight-year-old Anastasya Vo... 16 hours ago
+
+    
+
+    - The Ocean Project Blog
+
+    Image:
+    http://1.bp.blogspot.com/-5eft5fLqPmw/UGsTbgm8U9I/AAAAAAAAAhk/x4Wr69VEXiw/s72-c/OA_mentions.jpg
+    NEW: Special Report on the Public Awareness of Ocean Acidification - Back in 2008 The
+    Ocean Project tested the term "ocean acidification" (OA) in our market research and
+    found it was nowhere on the public radar. This past ... 19 hours ago
+
+    
+
+    - ecoRI Front Page News Barrington Passes Bag Ban ... Sort Of - By TIM FAULKNER/ecoRI News
+    staff BARRINGTON — Instead of banning plastic grocery bags outright, the Town Council
+    compromised by passing a ban that expire... 1 day ago
+
+    
+
+    - The Atlantean Conspiracy
+
+    Image: http://img.youtube.com/vi/wdc7THPJn7c/default.jpg Max Igan Shows His Face
+    Live in Palestine - Max Igan, one of the great voices in the conspiracy community, for
+    years has always purposely remained a faceless voice on the radio, no pictures of h... 2
+    days ago
+
+    
+
+    - Daniel Pink How are free agents doing these days? - A long time ago, in a galaxy far, far
+    away, I wrote a book about the rise of people working for themselves. A lot has happened
+    since then — a historic rece... 6 days ago
+
+    
+
+    - NOAA Ocean Today Happening Now: Arctic Sea Ice Sets Record Low (high resolution video) -
+    Recent analysis on Arctic sea ice conditions paints a grim picture. According to the
+    National Snow and Ice Data Center, the summer sea ice minimum extent h... 6 days ago
+
+    
+
+    - The Blog of Author Tim Ferriss Always Be Closing: Y Combinator and The Art of the Pitch -
+    NSFW: Alec Baldwin in Glengarry Glen Ross. This film has a 96% rating on Rotten Tomatoes.
+    The above video was first sent to me by a star EMC sales rep in 2... 1 week ago
+
+    
+
+    - Rebreather Pro Make an iPad checklist for your rebreather - Making iPad Checklists I
+    recently turned all my paper checklists into iPad forms that would allow me to use a
+    checklist on the iPad and then email or save ... 1 week ago
+
+    
+
+    - Expedition News
+
+    Image:
+    http://4.bp.blogspot.com/-7oh4UQEj57c/UFzrWtJbfXI/AAAAAAAAARY/eDhSCRVm6_g/s72-c/EC%2B-%2BOCEARCHMaryLeeshark.jpg
+    Fishermen Join Scientists to Tag Sharks Off Cape Cod - ** It was an historic moment in shark
+    research when marine scientists and a crew of seven fishermen became the first to attach
+    real-time satellite tag... 1 week ago
+
+    
+
+    - Explorers Club News Bertrand Piccard Keynotes The Explorers Club Lowell Thomas Awards
+    Dinner , Oct. 13, New York - Sir David Attenborough, David Hempleman-Adams, LVO, OBE, MED
+    ’00, William Thomas, Ph.D., FN ’89, Scott Wallace FN ’07 NEW YORK, N.Y. (Aug. 29,
+    2012) – The ... 5 weeks ago
+
+    
+
+    - The New Atlantis | Futurisms Idealizing Childhood - I have to say it was a surprise a few
+    days back to find a link on Drudge for an article that Julian Savulescu has published in
+    *Reader’s Digest*, of all pl... 1 month ago
+
+    
+
+    - Waitt Foundation Announcing the release of MPAtlas.org - Unique new tool points out
+    lack of ocean parks, shows hope for the future... 3 months ago
+
+    
+
+    - NOAA, Ocean Explorer Podcast Cayman Islands Twilight Zone 2007 (audio) - This 2007
+    expedition to the Cayman Islands will set new benchmarks in ocean exploration technical
+    diving research. Remarkable advances in this technology w... 5 months ago
+
+    
+
+    - DEEPSEA CHALLENGE » Expedition Journal Believing in Exploration - Today we made two
+    more dives with the DEEPSEA CHALLENGER. They were brief excursions to moderate depths
+    but confirmed the team’s ability to turn the sub a... 5 months ago
+
+    
+
+    - Echoing Green Blog Typical Tuesday with Acumen Fund's James Wu - [image: image/jpeg
+    icon] Echoing-Green-James-Wu-Typical-Tuesday.jpg Our Typical Tuesday series is
+    designed to give you a window into what real social i... 7 months ago
+
+    
+
+    - Seasteading Institute Establishment of autonomous ocean communities: current
+    options and future evolution - After many months of research, I present the final
+    document of the dissertation that I am submitting to the PhD committee at my University.
+    The full text... 1 year ago
+
+    
+
+    - Moon and Mars Exploration News NASA Announces Lunabotics Mining Competition Winners -
+    Thirty-six teams of undergraduate and graduate students from around the globe tested
+    their robot designs in a challenge at the Kennedy Space Center Visitor... 1 year ago
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png   for undersea
+visitors and practitioners (64) our future (44) recent events in ocean news (43) Atlantis
+(28) events (23) expeditions | in the field (23) the 'think tank' (22) geek 'aqua' culture (21)
+our economy (21) our health (20) some history (18) for educators (17) underwater living (15)
+Bahamas (14) for kids (14) commercial diving (11) get involved (11) Social Sciences (10)
+field dispatches (10) press releases (10) undersea habitation (10) Earth (9) National
+Geographic Society (9) literature reviews (9) Exploration (8) other media (8) science of the
+deep (8) sustainability (7) Aquatic ape hypothesis (6) Evolution (6) Philosophy (6) Tongue
+of the Ocean (6) mesophotic (6) new publications and articles (6) History (5) Manfish (5)
+Psychology (5) Space (5) life aquatic (5) Archaeology (4) Dennis Chamberland (4) Earth
+Sciences (4) Earth science (4) Edgar Cayce (4) Homo Aquaticus (4) Jacques Cousteau (4) Lost
+Civilizations (4) NASA (4) Oceanography (4) Rhode Island (4) Scuba diving (4) Technical
+diving (4) Activism (3) Ancients (3) Chariots of the Gods (3) Cousteau (3) Erich von
+DÃ€niken (3) National Geographic (3) Religion and Spirituality (3) University of Rhode
+Island (3) World population (3) conservation (3) ocean state (3) underwater habitat (3) 2012
+(2) Anthropocene (2) Bible prophecy (2) Blue Planet (2) Brown University (2) Business (2)
+Cave diving (2) Egypt (2) Exuma Sound (2) Financial Services (2) Gregorian calendar (2)
+Health (2) Hypothermia (2) James Cameron (2) Manned mission to Mars (2) Mars (2) Mayan
+Calendar (2) Moon (2) National Geographic Channel (2) New England (2) Newport Rhode Island
+(2) Obama (2) Ocean (2) Pressure (2) Professional diving (2) Providence (2) United Nations
+(2) benthic ecology (2) blue sharks (2) explorer (2) ocean exploration (2) rebreathers (2)
+saturation diving (2) sealab (2) shark attacks (2) twilight zone (2) underwater constructon
+(2) wet welding (2) AMNH (1) Abraham Maslow (1) Albert Einstein (1) Alien abduction (1)
+American Academy of Underwater Sciences (1) Andrea Doria (1) Anno Domini (1) Antarctica (1)
+Aquarius (1) Bahama (1) Barack Obama (1) Beach (1) Bible (1) Bill Stone (1) Blue State Coffee
+(1) Blue-collar worker (1) Book of Revelation (1) Boston Harbor (1) CNN (1) Capitalism (1)
+Carbon dioxide (1) Carl Sagan (1) Coffee (1) Communion (1) Coral bleaching (1) Coral reef (1)
+Cuba (1) Diving (1) Dresden Codex (1) Earth Day (1) Elaine Morgan (1) Energy (1) Epic of
+Gilgamesh (1) Erich von Daniken (1) Extraterrestrial life (1) Fourth Kind (1) Geologic time
+scale (1) Georgia Guidestones (1) Get-It-Done Guy (1) Giza Plateau (1) Globalization (1)
+Google Earth Ocean (1) Gulf of Maine (1) Gulf of Mexico (1) Hakim Bey (1) Hall of Records (1)
+History Channel (1) Holocene (1) Home Depot (1) Hurricane Irene (1) Ice age (1) India (1)
+Ishtar (1) Judeo-Christian (1) Julian calendar (1) Lloyd Bridges (1) Low Earth orbit (1) MCE
+(1) Marine biology (1) Mermaid (1) Michael Townsend (1) Middle East (1) My Providence (1) Neil
+Armstrong (1) New Age (1) New Year (1) New Years Eve (1) New York City (1) Non-profit
+organization (1) Nostradamus (1) Paranormal (1) Physics (1) Plato (1) Randomness (1)
+Reproduction (1) Republican Party (1) Richard Cooper (1) Rosetta Stone (1) Shipyard (1)
+Stonehenge (1) Sumer (1) Thomas Friedman (1) Thomas Jefferson (1) Times Square (1) Tom Mount
+(1) UFO (1) Unidentified flying object (1) United States Congress (1) United States
+Declaration of Independence (1) United States Department of Labor (1) University of
+Connecticut (1) Utopia (1) Vermont (1) Wall Street (1) Whitley Strieber (1) Wilson Bentley
+(1) Work (1) Yoga (1) Zahi Hawass (1) abyss (1) adaptation (1) aquarium (1) ben hellwarth (1)
+bioluminescence (1) bluewater diving (1) bock wall (1) book release (1) book review (1)
+chakras (1) chicken of the sea (1) clam dredge (1) communications (1) ctenophore (1)
+derilissus lombardii (1) digital age (1) dirty jobs (1) dive instruction (1) entertainment
+(1) first post on blog (1) fitness to dive (1) ft wetheril (1) great white shark cape cod (1)
+hazmat (1) human evolution (1) jamestown scuba (1) lionfish (1) mariana trench (1)
+metabolism (1) movie reviews (1) nantucket shoals (1) new england diving (1) new fish species
+(1) new world order (1) new world view (1) newport diving center (1) ocean advocate (1) ocean
+state scuba (1) providence college (1) refraction (1) revitalizing America (1) running (1)
+seafood (1) sewer diving (1) shark finning (1) solar power (1) stress (1) trieste (1)
+underwater imaging (1) underwater psychology (1) underwater torch (1) water (1) white
+sharks (1)
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png var gaJsHost =
+(("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js'
+type='text/javascript'%3E%3C/script%3E")); try { var pageTracker =
+_gat._getTracker("UA-9871462-1"); pageTracker._trackPageview(); } catch(err) {} if
+(window.jstiming) window.jstiming.load.tick('widgetJsBefore'); if
+(typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'2021518580618548946';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d2021518580618548946','//anewlifeinthesea.blogspot.com/2011/02/codex-of-all-codecies-knowing-part-2.html','2021518580618548946');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'2021518580618548946', 'bloggerUrl': 'http://www.blogger.com', 'title': 'a new life in
+the sea', 'pageType': 'item', 'url':
+'http://anewlifeinthesea.blogspot.com/2011/02/codex-of-all-codecies-knowing-part-2.html',
+'canonicalUrl':
+'http://anewlifeinthesea.blogspot.com/2011/02/codex-of-all-codecies-knowing-part-2.html',
+'canonicalHomepageUrl': 'http://anewlifeinthesea.blogspot.com/', 'homepageUrl':
+'http://anewlifeinthesea.blogspot.com/', 'blogspotFaviconUrl':
+'http://anewlifeinthesea.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': false, 'adultContent': false,
+'disableAdSenseWidget': false, 'analyticsAccountNumber': '', 'searchLabel': '',
+'searchQuery': '', 'pageName': 'Codex of all Codices | Knowing, Part 2', 'pageTitle': 'a new
+life in the sea: Codex of all Codices | Knowing, Part 2', 'encoding': 'UTF-8', 'locale': 'en',
+'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42a new life in the
+sea - Atom\42
+href\75\42http://anewlifeinthesea.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42a
+new life in the sea - RSS\42
+href\75\42http://anewlifeinthesea.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42a new life in the sea - Atom\42
+href\75\42http://www.blogger.com/feeds/2021518580618548946/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0752021518580618548946\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42a
+new life in the sea - Atom\42
+href\75\42http://anewlifeinthesea.blogspot.com/feeds/2243198892426071399/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'googleProfileUrl':
+'https://plus.google.com/101295350514546608450', 'imageSrcTag': '',
+'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId':
+'pub-9721532937028851', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#666666', 'linkcolor':
+'#3b8ae5', 'visitedlinkcolor': '#3b8ae5', 'textcolor': '#666666', 'headerfont': '
+normal 86% Verdana, sans-serif', 'pagetitlefont': 'normal normal 200% Georgia, Serif',
+'bgcolor': '#000000', 'descriptioncolor': '#999999', 'titlecolor': '#074190',
+'bordercolor': '#999999', 'postfooterfont': 'normal normal 78% Verdana, sans-serif',
+'pagetitlecolor': '#074190', 'bodyfont': 'normal100% Verdana, sans-serif', 'endSide':
+'right', 'startSide': 'left', 'descriptionfont': 'normal normal 78% \47Trebuchet MS\47,
+Trebuchet, Arial, Verdana, Sans-serif', 'sidebarcolor': '#003366'}, 'override': ''}},
+{'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'},
+'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name':
+'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url':
+'/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'},
+'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name':
+'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'footer',
+null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1',
+'crosscol', null, document.getElementById('PageList1'), {'title': 'Pages', 'links':
+[{'href': 'http://anewlifeinthesea.blogspot.com/', 'title': 'Home',
+'isCurrentPage': false}, {'href':
+'http://anewlifeinthesea.blogspot.com/p/about-this-project.html', 'title': 'About
+This Project', 'isCurrentPage': false}, {'href':
+'http://anewlifeinthesea.blogspot.com/p/about-michael-lombardi.html', 'title':
+'About Michael Lombardi', 'isCurrentPage': false}, {'href':
+'http://anewlifeinthesea.blogspot.com/p/contact.html', 'title': 'Contact',
+'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1', 'sidebar',
+null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar',
+null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar',
+null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_VideoBarView', new _WidgetInfo('VideoBar1',
+'sidebar', null, document.getElementById('VideoBar1'), {'title': 'Something to
+Watch', 'format': 'VERTICAL', 'expression': 'ytchannel:oceanopportunity'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogListView', new
+_WidgetInfo('BlogList2', 'sidebar', null, document.getElementById('BlogList2'),
+{'numItemsToShow': 0, 'totalItems': 21}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML14',
+'left-sidebar', null, document.getElementById('HTML14'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7',
+'left-sidebar', null, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5',
+'left-sidebar', null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6',
+'left-sidebar', null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML13',
+'left-sidebar', null, document.getElementById('HTML13'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML9',
+'left-sidebar', null, document.getElementById('HTML9'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML8',
+'left-sidebar', null, document.getElementById('HTML8'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML11',
+'left-sidebar', null, document.getElementById('HTML11'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML10',
+'left-sidebar', null, document.getElementById('HTML10'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_GadgetView', new _WidgetInfo('Gadget1',
+'left-sidebar', null, document.getElementById('Gadget1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense2',
+'left-sidebar', null, document.getElementById('AdSense2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML15',
+'left-sidebar', null, document.getElementById('HTML15'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML12',
+'left-sidebar', null, document.getElementById('HTML12'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML3', 'main', null, document.getElementById('HTML3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PopularPostsView', new
+_WidgetInfo('PopularPosts2', 'main', null,
+document.getElementById('PopularPosts2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense3', 'main',
+null, document.getElementById('AdSense3'), {}, 'displayModeFull'));
+

@@ -1,0 +1,3214 @@
+
+
+
+
+"Bending Over Backwards"... A Simplified Version of the New FHA Credit Score Guidelines...
+(function() { var cx = '016474116467456296202:zcdp2tq_pxi' var gcse =
+document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/headers/ar_home_logo.png?1348686267
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_b_search.png?1348686267
+    var currentIndex = -1 var default_phrase = "Find Homes for Sale in your city"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686267
+        Consumer
+
+        - Home Improvement
+
+        
+
+        - Home Buying
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Home Selling
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686267
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  Home : Blogs : Fort Worth Real Estate - - - Karen Anne Stone : Fort Worth Real Estate View
+.reblog { margin-left: 4px; } Tweet
+
+"Bending Over Backwards"... A Simplified Version of the New FHA Credit Score Guidelines...
+
+
+
+Although I agree that having an excellent local Realtor, of course, is incredibly
+important... there is nothing quite as valuable, besides that, for a buyer to have during the
+purchase of their home... than a knowledgeable, professional loan officer.
+
+It used to be that when getting an FHA loan... before all of the current mortgage mess... that
+all of the lenders would "bend over backwards..." offering easy qualifying guidelines, and
+incredibly "imaginative," and perhaps fraudulent, ways of obtaining FHA financing.
+
+
+
+Image: /image_store/uploads/6/9/7/0/0/ar128417839600796.jpg
+
+Those days are gone.   No more "bending over backwards" for lenders.
+
+With that in mind, I have seen several explanations detailing some of the many changes to FHA
+financing that have already taken place, and some that WILL take place... effective October
+4, 2010.
+
+Many of those explanations have been involved and very difficult to understand.
+
+So... here is a simple and brief run-down of what can have the biggest impact on whether or not
+our buyers get loan approval if they pursue FHA financing.  And by the way... I have been using
+FHA financing for many, many years with my buyers, and give it my highest recommendation.
+
+Credit Scores:
+
+Buyers with a credit score over 580... are eligible to apply for maximum borrowing power...
+maximum financing... with a minimum of 3.5% down payment.  Depending on other factors, they
+may or may not be approved.
+
+Buyers with a credit score between 500 and 579 are eligible to apply for FHA financing, but
+will be required to put a minimum of 10% of the purchase price... as their down payment.  The
+lenders call this limiting the loan to a 90 percent LTV... or a ninety-percent loan-to-value
+ratio.  Depending on other factors, they may or may not be approved.
+
+Buyers with a credit score below 500... are not eligible for FHA-insured mortgage financing.
+
+The main rumor that was scaring both Realtors and buyers, and sellers as well, was that if a
+buyer had a credit score below 580... that they could no longer get FHA financing.  If that had
+been true... it would have had a MAJOR impact on both buyer financing in particular, and on the
+real estate market in general.  Whew !
+
+It is possible for them to obtain this financing... depending on many other "mitigating"
+factors.  Like reserves, job stability, source of down payment, and lots of other stuff.
+
+--------------------
+
+To My Loan Officer Friends:   This is meant to be a "simplified" presentation of the value...
+positive or negative... of certain ranges of credit scores. 
+
+Nowhere... in anything that has been written here... did I say that someone with a 501 credit
+score would be approved.  I know that.  This was not meant to be "misleading."  It was meant
+to be an overview, a brief simplified version.  A place to start.
+
+And... even though the scores I quoted may have been "acceptable" to the FHA... sure, the great
+majority of lenders would not take these loans unless the buyers had a ton of offsetting or
+mitigating factors.
+
+If I wanted to, I could have written fifteen hundred words on this subject.   I am familiar with
+a great deal of the underwriting guidelines, and I understand that most other Realtors are
+not.  that is why the words "Simplified Version" appear in the title.
+
+The FHA guidelines do not tell lenders what loans they MUST accept.  They tell lenders what
+loans they "could" accept... and still have them be within the FHA Guidelines.
+
+----------------------
+
+NOTE:  If you liked this post... why not subscribe to my blog ?  Go to the upper right, and
+click on the link that says "subscribe..." right below my picture and below the "email me"
+link.
+
+
+
+Image: /image_store/uploads/3/2/1/2/0/ar132874847002123.png  
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/star.gif?1348686267
+Posted by Fort Worth Real Estate - - - Karen Anne Stone on 09/11/2010 12:25 AM   Comments (110)
+  FHA Financing Down Payment and Credit Score Requirements in the ActiveRain Channel   new
+fha down payment financing and credit score requirements , tutorials   Generate short URL
+Post is included in group: 1st Time Buyers
+
+Post is included in group: BananaTude
+
+Post is included in group: LATE NIGHT - EARLY MORNING AT ACTIVERAIN
+
+Post is included in group: NIGHT OWLS AT ACTIVERAIN
+
+Post is included in group: Texas Real Estate
+
+
+
+110 Comments on "Bending Over Backwards"... A Simplified Version of the New FHA Credit Score
+Guidelines... SEP 11 2010
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686979
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686979
+
+Karen..I can live with that ...Thank you for the info  you have been very Helpful
+
+Hannah Hannah Williams (Re/Max Eastern inc.) 12:29am • #1
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Karen - thanks for the info! It's very helpful!
+
+:) Kathy Kathy Smiley (Prudential California Realty) 12:35am • #2
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+Once again, you break it down succinctly and with expertise.  Thanks, Karen! Jennifer
+Prestwich Your Castle RE Colorado (Henderson, Thornton, Broomfield and Westminster)
+12:41am • #3
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Hannah:  Most of the explanations that I have seen of the new guidelines have been so
+complicated.  This new credit score information is mostly what the majority of Realtors
+want to know. Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and
+Tarrant County) 12:42am • #4
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Kathy:  You are very welcome.  It's the former teacher in me... always at the chalkboard...
+teaching. Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and
+Tarrant County) 12:43am • #5
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Jennifer:  I could have gone on for pages and pages... but why ?  I do have a pretty good grasp
+of all of the new regulations, and of the old ones, as well.  But most Realtors don't want to
+hear about it.  They just want a quick way of getting a decent idea of whether or not their buyer
+is "financable."  This does it.
+
+Jennifer... you are both very kind in your comments, and very, very welcome.  Have a great
+weekend. Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and
+Tarrant County) 12:46am • #6
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686621
+
+Simple and to the point - now if anyone was in doubt  - they'd now exactly what the score was! :)
+Liz Moras ~ Chilliwack Realtor, Garrison Crossing,Chilliwack, Abbotsford (Harrison Hot
+Springs, Cultus Lake) 12:52am • #7
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686979
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686979
+
+Karen Anne is that you bending over backwards lol Marilyn Boudreaux, Lake Charles Realtor
+Lake Charles LA Real Estate (Marilyn Boudreaux, Century 21 Mike D. Bono & Co.'s) 12:52am • #8
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Liz:   Simple is often better than complicated.  And, it is what most folks want.  Why
+should a loan officer write a whole book about something, when all most Realtors want to know is
+"what works in the field?" Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort
+Worth and Tarrant County) 12:59am • #9
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Marilyn:  No, that is not me.  Don't I wish !  Actually, it is a friend of mine who is a
+part-time dancer, full-time Realtor.  This was taken during her recent short vacation in
+New Orleans.  I believe there is also a video.  I also heard the video is now on YouTube. 
+<dopey smile>
+
+By the way, Marilyn.  That is nine words.  Ya need one more to get points... LOL. Fort Worth
+Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County) 1:01am •
+#10
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+
+Karen Anne,  I appreciate your easy to understand explanation, it is very helpful.
+ Curious though what your thoughts are on that 500 score?  To me... it's kind of bringing
+back some scary nightmares.   Debbie Atwood (Century 21 Real Estate Center Everett, WA)
+2:00am • #11
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Debbie:  As you saw from the post, the lower the credit score, the more down payment
+required.  The score... of 500, for example, is a starting point.  From there...
+everything else is weighed... and the overall risk is measured.  With a score of only 500...
+the buyer must show, after all info is in, that there are other "compensating factors" that
+balance out, and strengthen the loan. 
+
+For example... if somehow the buyer had personally "saved" the ten percent down payment... it
+weighed heavily on the plus side.  If they had been simply given that money by parents... even
+though they then HAD the down payment, it was not seen as anywhere NEAR the positive
+compensating factor as it would have been if they had saved it themselves.
+
+OK... I got off track.  Back to "the stuff."
+
+Loans are approved or rejected on the basis of one thing, and one thing, only.  Risk !  The
+lender puts together the complete package on the borrower... and gets a complete picture. 
+Just like getting a diagnosis from a doctor.
+
+After all the preliminary work is done, the lender simply steps back, looks at "the big
+picture"... and must decide if the risk to lend to that loan applicant, is worth the money they
+will make on the loan... and the probability that the borrower will perform... that is, make
+the payments.
+
+If this post gets some "activity"... I think I will write several more posts on the simplified
+process of getting a loan approved.  I have always felt, that as a Realtor, that it was
+critical that I know my mortgage financing.  And, with that in mind, I had NO problem
+whatsoever asking a buyer about their financial information. 
+
+And, you must know, from what you have seen from me so far, that the only way anyone can dare ask
+about that stuff... is if that buyer... is "relaxed" with you, and now feels she knows you,
+likes you, and trusts you.  Basically, that is my starting point. Fort Worth Real Estate - - -
+Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County) 2:13am • #12
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+Karen-Anne. Lenders that coach and advise consumers on credit repair are going to be the the
+ones that do most of the work in the future. This is not a bad thing for the industry. Ellie
+McIntire Homes for sale in Howard County Maryland (Ellicott City Clarksville Howard County
+Maryland Real Estate) 2:22am • #13
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+
+Karen Anne - I have to say, you really are good at explaining things so thoroughly.
+ Everything you explained in the comment box is exactly what was going through my mind - so I
+wonder just how many lenders these days are willing to take that risk?  The point of the
+borrower saving or not saving the down is a good point but there had to be a lot going on to get that
+500 score too (or not going on)  
+
+I'm not in any way saying I'm against the idea.  I just find it interesting that FHA would even
+contemplate this with all the trouble fannie mae and freddie mac are having today.  Just a
+thought. Debbie Atwood (Century 21 Real Estate Center Everett, WA) 2:37am • #14
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/31c0417b26cd6f5e946c2056e1bcbb328d041df4.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+Karen: Very informative and entertaining blog post. And a very interesting photo, too.
+Thanks for sharing! Agent Aaron | Jenna Gallen | Capitol Home Team (StepStone Realty LLC,
+Broker) 3:57am • #15
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/21e6146e6d58d44845c14df53012b05d033db2c4.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686979
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686979
+
+We need a cheat sheet to keep up with the ever changing guidelines--thanks for providing one.
+Norma Toering Palos Verdes Homes in Los Angeles Area (REMAX Palos Verdes Realty Broker
+Associate Lic# 01147470) 7:54am • #16
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/31c0417b26cd6f5e946c2056e1bcbb328d041df4.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+Karen! I didn't know you use to be a teacher!
+
+You should teach (if you don't already) some real estate courses.... you make an excellent
+ex-plainer... Hope you weren't an English teacher...my crammer is not so great. But I still
+like to write.
+
+You so remind me of someone ...can't put my finger on it, but you do.
+
+Coming to you from Texas... Sussie Sutton (United Texas Realtors) 10:16am • #17
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348684471
+
+Hi Karen Anne,   Good post!  We just did an FHA loan and the credit score had to be 620.  We were
+at 619 and kept trying and trying to raise that score 1 point.  Finally, made it.  IT was
+tough! Ricki Eichler,Broker,GRI,ABR,TAHS,ePRO your Texas Hill Country connection (Ricki
+Eichler Real Estate LLC) 10:19am • #18
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/9b659a3be5c76d99e1747f08e8ab13a686c80a7b.gif?1348615406
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348615406
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348615406
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348615406
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348615406
+
+Thanks for the easy and simple version of the requirements Karen Anne.  Some other summaries
+would put you to sleep before you could finish reading.  Now I'll go for my nap. Al Raymondi,
+Ocean View Realty Group in Ormond Beach Florida 1:23pm • #19
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Karen this is a very straightforward account of the FHA changes. I agree lenders should not
+overcomplicate the explanation of changes in the lending world.
+
+Although FHA will insure loans down to 580 score most lenders actually require a 620.
+
+  Markita Woods FHA and VA Loans Woodbridge Mortgage Lender (WestStar Mortgage
+NLMS#196099) 1:24pm • #20
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/21e6146e6d58d44845c14df53012b05d033db2c4.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686621
+
+FHA is a good tool in our tool belts for buyers - many agents have been confused about the
+guidelines so this should clear that up (at least for those that read it).  Do you remember the
+days when people had to have good scores, money down and a job - before it all went nuts.  Of
+course people should have a job, good credit and some money down.  Just makes sense! Anna
+'Banana' Kruchten - Phoenix Real Estate Broker,CRS 602-380-4886 (Phoenix Property Shoppe)
+1:26pm • #21
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348615406
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+
+i don't want to sound like a doubting thomas, well okay i don't mind. show me the buyer who closed
+with a score between 500-525.
+
+you'll need to prove to me that that can actually be done. a copy of the tri merged credit report
+and hud will do. Jay Beckingham (American Eagle Mortgage Co.) 1:41pm • #22
+
+Karen, you gave a very accurate description of the new FHA guidelines. The problem is these are
+more restrictive than before this latest memo when FHA had no minimum credit score.
+Regardless of what FHA says you will have a very difficult time finding a lender who will go
+below 620. I hear of some lenders that promise they can go to 580 but I'm not sure I believe that.
+
+From an FHA lenders standpoint nothing has changed in regard to credit score. Of course the
+new MIP changes are going to impact all of us, with the higher payments.
+
+Thanks for your article.
+
+Wayne Wayne Thompson, CMB (Walden Mortgage Group) 2:14pm • #23
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+My first thought at seeing the photo in your post was "OUCH!"  Thank you for the nuts and bolts
+of the whole score issue.  I do think people will enjoy and need more posts about simplifying
+or demystifying the whole loan process. Kristen Wheatley | Lewiston/Auburn Maine Real
+Estate Agent (The Maine Real Estate Network) 2:33pm • #24
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/8176fe792b3a008ac6a5c9831825ce90b47e1315.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/21b71b9f37edbedc44f411197b05e07357b2bf9f.gif?1348685941
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+Karen-Anne, thanks for the detailed explanation. It does make sense the way you described it.
+However, I am of the same mind thatWayne and Jay are. Most lenders that I know won't even
+consider anything under 580, so if there are examples of people actually closing a loan with
+that scores under 580, then that would be a plus... William James Walton, Sr. Greater
+Waterbury Real Estate (WEICHERT, REALTORSÂ® - Briotti Group) 2:40pm • #25
+
+Thanks for the info!  I knew this, but it's good to see someone else out there spreading the
+word! Christa Borellini (Prudential California) 3:01pm • #26
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348685941
+
+Hi Karen Anne - I agree with Wayne's comment just above.  The fact that FHA loans are not credit
+score driven has meant nothing over the past few years because of lenders placing their own
+overlays on the product.  And I'm not sure they will relax those overlays any time soon.  But
+it's good to know where HUD stands because there may come a day when the 580 score borrower will
+be able to obtain an FHA loan.  Tchaka Owen (Keller Williams Realty) 3:50pm • #27
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+
+Karen.. sure, this is simple to read... but why a loan officer should explain this in more
+detail. You state this..
+
+"Buyers with a credit score between 500 and 579 are eligible for FHA financing, but will be
+required to put a minimum of 10% of the purchase price... as their down payment.  The lenders
+call this limiting the loan to a 90 percent LTV... or a ninety-percent loan-to-value ratio."
+
+As much as this statement is true, if I had written this post, I would have added an important
+reminder... Consumers, be very careful on those that can say that they can do under 580.. I
+haven't seen it happen in over 2 years.  I know a few lenders up to 6 months ago had this, but they
+still didn't close these.
+
+In regards to credit scores from 580 to 600... Yes, there are a few that can do this... but the
+rate is any where from 1% to 1 1/2% higher with usually 1 to 2 points more. So my point to that is
+that I would again put out an important message.. Hey, anyone promising you FHA loans under
+600, even under 620, be very very leery. Yes, they have guidelines that allow them to originate
+these loans, and not only are they more costly, they are harder to close.. the guidelines are
+more complicated and require more than anything above 620. There are a few reasons to this...
+
+Don't get me wrong, you put the correct info out there.  But with no warning labels.  So as a
+consumer, which is how I also look at posts such as these, I would think.. hey honey, we can get a
+FHA loan with 3.5% down with our lousy 585 credit score.  And then the added problem, you will
+have a loan officer that will use this to their advantage to bring them in the door, even though
+they know they have really no shot in closing the loan. "It's called sticking crap on the wall,
+hoping that it sticks."  You know how many e-mails or calls I get a month, from someone that was
+told they could get a loan with under a 620, the loan officer said no problem, yet 2 months later,
+they never closed..  more than I could count on 1 hand...  it happens and that is where we need
+to educate within a post, and not just give the basics.. just my opinion.
+
+Overall..  I just try to think in detail, because then borrowers put hope in their heads, and
+then they find a loan officer that will drag that hope out.... it's sad, yet it happens.  And I
+wrote about these same updates on 9/5/10, called FHA mortgage updates. I didn't want to link it
+in my comment, unless you wouldn't mind. But please take a look at it, maybe it will give you an
+idea of what I am talking about.  thanks
+
+
+
+Image: /image_store/uploads/4/3/8/9/4/ar128423535749834.png Jeff Belonger-The FHA
+Expert - FHA Loans - FHA mortgages - USDA loans - VA Loans ( Social Media - Infinity Home Mortgage
+Company, Inc) 4:02pm • #29
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+I agree with Jeff. Here locally we are seeing lender overlay's requiring a 620.  So while
+technically you could, in theory, get an FHA loan, trying to find a real lender to do so is a whole
+other ballgame.  I'm all about succint, but lender overlays are really important to talk
+about as well.  If you know of someone in your local area that does them without the overlay, I
+would post a link to them. Otherwise I can see consumers going crazy trying to find them. Melina
+Tomson, M.S. Principal Broker/Owner (Tomson Burnham, llc Licensed in the State of Oregon)
+4:25pm • #30
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+
+Karen Anne, Have to say that Jeff nailed it...the issue at hand remains in that ominous
+mortgage lender's term "overlay".  FHA basic guidelines have little to do with what lenders
+will underwriter as most are in a "CYA" mode.  I have no access to a lender who would finance a
+500 credit score with a 10% down payment.
+
+A 500 credit score with will get a consumer a "Uncle Guido" loan at 15% interest rate and 10
+points up front and a maximum of 65% loan to value...and the loan documents will arrive in a
+violin case. 
+
+As a loan officer, one has to read All Regs...then proceed on to all of the exceptions each
+specific lender is making.  Very, very difficult to categorically state anything one way or
+another these days.
+
+  Deborah "Dee Dee" Garvin Academy Mortgage (Academy Mortgage Corporation) 4:26pm • #31
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/cfd6897ece0ce65b25f37d4a35cb171252c00107.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Thank you Karen, very good post for sure today.
+
+Patricia/Seacoast NH PATRICIA AULSON, REALTOR Portsmouth NH Homes-Hampton NH Homes
+(PRUDENTIAL VERANI REALTY- Portsmouth NH Real Estate ) 4:43pm • #32
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348615406
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348615406
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348615406
+
+As a couple of others have mentioned, every lender has placed their own credit score minimum
+overlay on top of the HUD guidelines.  In general, the Secondary Market has had a 620+ minimum
+requirement for going on 2 years now.  This is even when FHA has no minimum credit score
+requirement.  Until the Secondary Market relaxes the current minimum, these changes will
+have zero impact from HUD's previous policy. Rodney Mason - FHA 203K/ USDA /VA / HomePath
+Renovation Specialist - GA / AL (Prospect Mortgage, Atlanta, GA) 5:40pm • #33
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348615406
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348615406
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348615406
+
+Karen Anne - aside from this being a very good post, I saw your picture and thought I would check
+in.  How are you feeling?  Last I heard you were going in for a medical procedure.  Are you
+better?  Was it successful? Jay Markanich - Northern VA Home Inspector (Jay Markanich Real
+Estate Inspections, LLC) 6:51pm • #34
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/21b71b9f37edbedc44f411197b05e07357b2bf9f.gif?1348684471
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348684471
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348684471
+
+Karen Anne:  I had a listing agent colleague ask me the other day why they should care about FHA
+"rules ...."  With all the multiple-offer listings, the rules are strong indicators if you
+have a real deal or if it just looks good on paper.  Thanks for the Reader's Digest version of
+the scores - obviously individual circumstances are involved, but the "rule out" barrier is
+lowered with the content of your post.  It's a lot better to be able to suggest to my seller
+"This one is unlikely to close ..." and have some easy to understand written third-party
+backup! Jack Mossman, The Nines Team in Stockton (The Nines Team Realty) 7:46pm • #35
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686621
+
+Thanks for the details Karen Anne. The screws continue to tighten even with FHA. Gary Woltal -
+Assoc. Broker REALTORÂ® SFR Dallas Ft. Worth (Keller Williams Realty) 11:54pm • #36 SEP
+12 2010
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/8176fe792b3a008ac6a5c9831825ce90b47e1315.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686621
+
+Good overview, Karen.  Nice an simple.  Anything over 500 and you can get a loan.  Thank
+goodness. Jane Peters - Los Angeles Real Estate DRE# 01439865 (Power Brokers Int'l) 12:34am
+• #37
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/31c0417b26cd6f5e946c2056e1bcbb328d041df4.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685941
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+There is a misconception that FHA requires a 620 credit score now for a standard 3.5% down loan.
+It's not true. FHA requires a 580 score. Unfortunately, you can't find many lenders who will do
+one without the 620, so it's effectively the same. Agent Aaron | Jenna Gallen | Capitol Home
+Team (StepStone Realty LLC, Broker) 12:42am • #38
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/f511987ae13a5e62a8491bcbe9919fca8d772c2a.gif?1348615406
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348615406
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348615406
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348615406
+
+Karent Anne,
+
+Looks like it is still not easy if possible at all to get a Lender to go that low. But times change
+quickly, so we'll see.
+
+What a terrific photo, BTW Jon Zolsky, Daytona Beach, FL. FunCoast Realty, 386-405-4408
+2:02am • #39
+
+Good topic of discussion. In general lenders have their own underwriting overlays. Sure HUD
+will accept 580 or below credit score, but most lenders are already requesting a minimum of
+620 FICO score. I agree with Jeff Belonger comments above.
+
+In conlusion - if you have clients with below 620 FICO, recommend to have their scores fixed
+first. Pacific Coast Financial LLC 10:31am • #40
+
+Karen Anne,
+
+Great Post and good comments here.  This is still a tough market to get the deal closed and to
+know what the Buyer's options are.  I just send them to a mortgage person to explain what is out
+there...because it probably changed 10 minutes ago. 10:37am • #41
+
+Great work Karen:
+
+ 
+
+I can easily understand what you wrote and it's a great starting point for counseling FHA
+buyers.  Now, where do we find those buyers? 10:50am • #42
+
+I have herd so many different versions of the requirements for the 580 and below.  I can't even
+find a lender in my area offering any loans under 580.  Most say they don't have the software to
+do it, do you know if the software will be released on Oct 4th?  I'm in a hard hit part of Florida,
+were  a lot of "good people" had their credit scores affected mostly due to the buying frenzy
+in 2005, and now have lost their investments. Would sure like t help them out. Thanks for your
+insight! Effie Aultman 10:50am • #43
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+To My Loan Officer Friends:   This post is meant to be a "simplified" presentation of the
+value... positive or negative... of certain ranges of credit scores. 
+
+Nowhere... in anything that has been written here... did I say that someone with a 501 credit
+score would be approved.  I know that.  This was not meant to be "misleading."  It was meant
+to be an overview, a brief simplified version.  A place to start.
+
+And... even though the scores I quoted may have been "acceptable" to the FHA... sure, the great
+majority of lenders would not take these loans unless the buyers had a ton of offsetting or
+mitigating factors.  But possibly someone, somewhere, perhaps under some rock... could
+approve it.
+
+And surely, there would have to be quite a few "mitigating" or "offsetting" factors. 
+Lenders approve loans according to one criteria... "Risk."  So, if a borrower had a credit
+score below 620, 0r below 580... yes, it would fall within the FHA parameters, but no, it would
+probably not be approved by the great majority of FHA lenders.  Without, that is, many other
+factors that might improve or lessen the risk.
+
+Like... reserves.  I don't know if lenders still can require what we "oldie but goodie"
+Realtors remember as being called "pledge" accounts, but IF... some lender wanted the buyer
+to deposit say... one year of total PITI payment in a "pledged" account, that would certainly
+lessen the risk.
+
+Like... job stability and likelihood of continued employment.  If the buyer is in a shaky
+employment field, and has no reserves, it is quite possible that this buyer would not be
+approved.
+
+If this buyer was going from a much higher payment, to a much lower payment... and the spread was
+pretty great... that might be a "mitigating" factor... helping some lender somewhere to
+accept the loan.
+
+There are many other "mitigating" or off-setting factors that could sway some lenders to
+accept the loan, when the majority of others would not.  The best answer is... "it all
+depends."
+
+The FHA said that such a score in the lowest category... 500 - 579... was "acceptable" to
+them.  It did not say that approval was "probable."
+
+The FHA sets the overall guidelines.  Different lenders then are able to "shrink" those
+guidelines to fit their OWN corporate personalities and acceptabilities.
+
+If I wanted to, I could have written fifteen hundred words on this subject.  Although I am
+familiar with a great deal of the underwriting guidelines, I understand that most other
+Realtors are not.  That is why the words "Simplified Version" appear in the title.
+
+The FHA guidelines do not tell lenders what loans they MUST accept.  They tell lenders what
+loans they "could" accept... and still have those loans be within the FHA Guidelines.
+Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County)
+11:00am • #44
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+
+Prior to accepting payment to secure a credit report, determining the DTI is essential
+because most buyers fail to qualify because they exceed the DTI ratios.
+
+These GSE's will be reformed next year, so with mandatory federal and state licensed
+mortgage loan officers (MLO), consumers will have a choice to work with a licensed or
+registered MLO. A registered MLO isn't required to take federal or state license tests to
+assist consumers in securing loans, so, whom would you recommend your client get a loan
+from and why, a licensed or registered MLO? Kimo Jarrett, Realtor, Huntington Beach,
+(714) 476-3822, Wiki Wiki Realty (Investments, Commercial, Residential) 11:37am • #45
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348684471
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348684471
+
+Thank you for the "Simplified Version" for this "Simplified Realtor"!  Now. we need to find
+some "Simplified Lenders" as nobody in my area wants to talk to a buyer under 620!  FHA brings
+back memories, as that was about the only loan used in the mid 90s, unless they had a significant
+down payment! Woody Edwards (Home For Life Realty, LLC) 11:44am • #46
+
+Thanks for the information.  That is very helpful. Brenda Maddox 11:48am • #47
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Ellie:   I have always used the kind of lenders who would "adopt" my buyers if necessary, and
+help them with the "human" stuff that was often necessary.  Usually, these loan officers
+were women who had breastfed their children.  Very similar activities... <smile> Fort
+Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County)
+12:04pm • #48
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Debbie:   As you know, FHA laid down the minimum guidelines for acceptablilty by FHA. 
+Lenders then took over, and tightened them according to their own corporate business lending
+philosophy. Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and
+Tarrant County) 12:06pm • #49
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Aaron:   I know... you once dated a girl like that.  LOL.  Seriously, I am glad you liked the
+post, and I am also glad you read it with the spirit with which it was written in mind.  You are
+quite welcome ! Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and
+Tarrant County) 12:08pm • #50
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Norma:   Yes... excellent choice of words.  Cheat Sheet.  Used to use that all the time in
+high school... LOL.  There is so much more involved in getting an FHA loan approved, but this
+post, at least the way I originally wrote it, was meant to be a 'cheat sheet' sort of starting
+point. Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant
+County) 12:12pm • #52
+
+Hello Karen, and thank you very much for sharing....it is always a pleasure reading about all
+those instructive comments and thoughts on AR...your statements including of a few others
+demonstrate, as shown in the latest blogs, clearly also a complete union of professional
+empathy, universal compassion, thought, and heart ...thank you!
+
+Peter Michelbach - Real Estate and Business Agent - David Grace Real Estate - Perth W.
+Australia abc88@people.net.au Peter Michelbach 12:13pm • #53
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Sussie in # 17:   I know.  I remind you of someone who is kind, gentle, empathetic,
+intelligent, and very witty most of the time, but when required, can be quite sarcastic, and
+even almost "hair-triggered" if pushed far enough... LOL.
+
+Seriously, thanks so much.  Yes, a former teacher.  Degree in Psychology, minors in
+Philosophy and French, and ended up teaching math, english, religion and girls phys ed in the
+Cleveland Catholic Schools.
+
+If you figure out who I remind you of, let me know.  I am guessing it's either Sandra Bullock or
+Jennifer Aniston.  Am I close ?  <silly smile>  Fort Worth Real Estate - - - Karen Anne Stone
+(New Home Hunters of Fort Worth and Tarrant County) 12:17pm • #54
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685093
+
+Hello Ms. Bullock. 
+
+Thanks for the FHA article - I appreciate that it was written like the old
+suggested length of a woman's skirt! Neal Mansfield Cedar Creek Lake Realty (Keller
+Williams) 12:25pm • #55
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Peter in # 53:   What sweet things you say.  You obviously are a great judge of character...
+<smile>  And, I am quite impressed that you are reading this all the way from Australia.  I
+hope, in addition to the post at the top... you also read MY comment # 44 that attempted to answer
+those lenders who chimed in adding lots of information, with said additions being true,
+stretched this post past my intent of this, which as the title plainly said, was "s Simplified
+Version."
+
+My comment # 44 adds more detail about additional lending approval parameters, but again,
+tries to do so in "Simplified" terms... aimed at Realtors who may do an EXCELLENT job, but who do
+not normally get all that much "into" the "hairy'ness" of underwriting guidelines.
+
+Again, Peter... thanks so much for reading this, and even more, thanks so much for
+commenting.  Your comment is great evidence of the far-reaching'ness of Active Rain. 
+Have a Great Week ! Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth
+and Tarrant County) 12:32pm • #56
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+
+Karen,
+
+Anyone who is in the business as long as I have knows that the FHA information you have provided
+is HUGELY important. What lenders will do within those acceptable parameters changes over
+time. Right now the lenders are MORE conservative than the guideline.  But we have just left
+an environment where FHA was used less because the conventional lenders were more lenient
+than FHA guidelines....much more lenient.
+
+Agents need to know what the FHA guidelines are, because their clients may have read that
+somewhere and ask the agent questions. Knowing the correct answer is always of value to an
+agent. "Yes, what you have read, that you can have a score as low as 500, is correct as to FHA
+printed and available guidelines. BUT local lenders do not have to, and largely do not, grant
+loans on that basis." To be able to interpret the available information for a client is of
+value. 
+
+By reading this an agent might answer "Can I get a mortgage with a credit score of 540?" The
+informed, intelligent answer is "Technically...yes. Realistically...not likely." :)
+Then the prospective buyer will know that it will be an uphill climb and a long shot. But
+sometimes the long shots win. Not often...but sometimes. 
+
+Most agents don't like to waste their time on "long shots". I see that every day with short
+sales. A young man came to me to buy a house after two other agents laughed at his stated goal.
+Said it couldn't be done. He is now living in that home because I was not afraid of the long shot
+and worked up a strategy for his success. Yes, it had a 5% chance of working. Yes, most agents
+want a more solid basis than a 5% chance of working and don't like to waste their time. But
+knowing everything there is to know...even though those professionals are few and far
+between, often make the difference between the client's success and failure.
+
+Thank you for providing the full, unedited, "rules" of the game!
+
+  ARDELL DellaLoggia (Sound Realty) 12:34pm • #57
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348685093
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685093
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685093
+
+Hi Karen,  It is a very good post and I appreciate the information.  However, not one person
+has broached the possibility that a Buyer with such a low credit score might not be a good
+candidate for purchasing a home.  Home ownership is a BIG responsibility.  In terms of the
+future stability of the real estate market, the large number of people who are just walking
+away from their homes is setting a precedent that may change our market forever.  Combine
+that with the large number of people who have credit scores below 600 and I wonder if anything
+will ever be the same again.  A philosophy teacher said to me years ago that "society has it own
+momentum" and this latest change in thinking is taking us in a scary direction.  A good while
+back a poster on AR said something that stuck with me.  She said her home was under water
+but she would be staying in it and making the payments because she couldn't imagine doing
+anything else.  She said she never expected the bank or anyone else to share in her homes
+appreciation and the same was true of it's loss in value.  Since then, I've seen distressed
+sales in the low end of our market increase to one in four listings.  By some estimates, it will
+be one in two by next summer.  Those numbers point to a lot of folks buying homes who do not
+share her ethical position and are likely, in many cases, just not in a position to do so.  I do
+belive that home ownership is the American dream and should remain so but I also understand
+that not everyone should buy a home.  Helping people do what doesn't make sense isn't help
+at all.      Beverly Femia - Broker RealtorÂ® Stager - Greater Wilmington, NC Area
+(Coldwell Banker Sea Coast Advantage) 12:36pm • #58
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Neal & Katie in # 55:   Finally... someone who appreciates the intent of this post.  Huggs to
+you, my new friends.  And... I just LOVE your opening greeting in your comment.  Thanks for
+reading all those comments in addition to my post.  That is really the best way to get the most
+out of a post like this.
+
+My intent with this post was to share... not to try and get out my big intellectual guns and try to
+impress.  I don't need to do that.  And... great analogy about the old suggested length of a
+woman's skirt.
+
+Honestly, I cannot tell you how much your "greeting" made me smile.  It "made" my morning.
+Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County)
+12:38pm • #59
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Ricki in # 18:   Thanks for your kind words.  Wow... getting that 619 credit score stretched
+that extra point can be rough, I know.  Great job by both you and the lender, and by your buyers
+as well, I am sure.  Nice to "see" you.  <smile> Fort Worth Real Estate - - - Karen Anne Stone
+(New Home Hunters of Fort Worth and Tarrant County) 12:44pm • #60
+
+I'm working a project selling 1st time home buyers in new construction homes starting in the
+$150's and FHA has financed over 60% of all our clients. We have 2 mortgage brokers working hard
+for us and that is one of our best assetts.
+
+rochesternewlistings.com 12:45pm • #61
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Al at Ocean View in # 19:   Cool.  Someone else who understood that this was the "simplified"
+version.  Yes... a few of the lenders who have commented on this post can give AWESOME
+explanations of FHA guidelines and conditions... but yes, it puts many readers to sleep, and
+often "loses" many of their readers who get barely into their complicated explanations, get
+frustrated, and quit reading.
+
+I sincerely hope your nap went well.  I got up late this morning, and almost slept past the time
+I normally take my morning nap.  Whew !  That was close ! Fort Worth Real Estate - - - Karen Anne
+Stone (New Home Hunters of Fort Worth and Tarrant County) 12:49pm • #62
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/31c0417b26cd6f5e946c2056e1bcbb328d041df4.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Fortunately I've only had one client turned down for a mortgage in the last year. 
+Unfortunately it was someone very dear to my heart, me!
+
+Aloha! Richard T Dolbeare, R(B), ABR, CRS, RSPS BS/MS - Engineering Hawaii Dreams Today
+(Keller Williams Realty) 12:54pm • #63
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Dan Hansmeier at "Rochester" in # 61:   I looked at your website, and see that the "Rochester"
+is Rochester, Minnesota.  I believe that folks there are usually much more conservative in
+MN than in many other areas of the US population, so I am not surprised that your two local
+mortgage brokers might be working their tails off getting buyers approved with lower, but
+still FHA-acceptable credit scores, than might lenders in other more "dice-rolling"
+markets.
+
+It makes sense... and for me, your "typical buyer" and their more conservative nature, might
+fall into what I called the "mitigating factors" category.  Thanks for the comment, which
+adds weight to the intent of my post. Fort Worth Real Estate - - - Karen Anne Stone (New Home
+Hunters of Fort Worth and Tarrant County) 12:57pm • #64
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Markita in # 20:   Actually, the FHA new guideline say that FHA will "insure" loans with lower
+scores.  The trick is to find buyers with scores like that... but with enough mitigating
+factors that lenders will also accept them.  As you know, the funds... the money for the
+loan... does not come from the FHA.  It comes from the lender, and/or their investor. Fort
+Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County)
+1:04pm • #65
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348615406
+
+That was the most information post ever.  Not only the original blog but all of the comments
+beyond.  I think I know more about FHA than most at this point.  Thank you everyone!!! Monica
+Atherton (Coldwell Banker~Residential Brokerage) 1:06pm • #66
+
+Hello again Karen, grateful and honored I am by your comments! Yet it is through  the
+wonderful people I met on my journey, the circumstances  in time, space and condition who
+helped me reflect not just on my own ups and downs on the music of life, but to take a holistic
+professional approach to self, the community I embrace and beyond. Jane #37 Thank goodness 
+ and Beverley #58, have a further insight, to new challenges and horizons in the
+interpretation of the American dream, I dare to add the Australian dream and the Global
+dream....to global peace and abundance, success and emotional, professional and spiritual
+fulfilment. The global economies are all connected, our common success or failure will
+effect us all...so let's list. list and sell!
+
+Peter Michelbach - Real Estate and Business Agent - David Grace R/E - Perth W. Australia -
+abc88@people.net.au Peter Michelbach 1:08pm • #68
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Anna Banana in # 21:   Things still need to make sense.  They just need to make a whole lot
+more sense than they used to.  Funny how often... that sooner or later... the "old" becomes
+"new" again.
+
+Loans have always been approved according to the risk level of the buyer.  Then, the goofy
+lenders started taking all sorts of crazy risks, or did not even pay attention to the degree of
+risk.  Congress pushed through a relaxing of loan oversight... thanks to folks like Dick
+Cheney pushing lender deregulation... but that all came back to bit us ALL in the
+you-know-where. 
+
+Now, we see an "over-compensation" swing of that pendulum.  Things will again ease a tad, but
+it will take time. Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth
+and Tarrant County) 1:10pm • #69
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Jay in # 22:   This post was NOT meant to be an "extensive treatise" on FHA underwriting
+guidelines, and the corresponding overlay of lender additional requirements.  May I
+suggest a re-reading the post, and also taking a peek at MY comment # 44.  Have a great
+Sunday. Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant
+County) 1:16pm • #72
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Kristen in # 24:   Yes... me too.  I wish I could say I used to be that limber... but I never
+was.  Actually... I CAN remember being a very young child, and being limber and pliable
+enough to be able to put my own big toe in my own "toddler's mouth."  Jeez... if I could only
+remember what I did yesterday.
+
+Funny how the lenders commenting on this post just ran away with stuff... and ignored the
+"simplified" intent I plainly stated.
+
+Due to the "tsimis"... I think that is the correct spelling of the Lithuanian word for
+"hubbub"... that brought the "flavor" of so many of the lender's comments... I think I will
+write another post about "mitigating circumstances" than can strengthen the viabiliby of
+lower-credit-score buyers.
+
+as an aside here:   any Lithuanian readers who can assist me with the correct spelling of
+"tsimis"... please advise... <smile> Fort Worth Real Estate - - - Karen Anne Stone (New Home
+Hunters of Fort Worth and Tarrant County) 1:23pm • #74
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Karen,
+
+ A well simplified blog about the FHA program. I think however that you should have expanded
+on the mortgage reqirements to obtain this type of financing. Bob Amato of Empire Home
+Mortgage Inc 1:26pm • #76
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Tchaka in # 27:   This post was NOT meant to be an "extensive treatise" on FHA underwriting
+guidelines, and the corresponding overlay of lender additional requirements.  May I
+suggest a re-reading the post, and also taking a peek at MY comment # 44.  Have a great
+Sunday. Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant
+County) 1:27pm • #77
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+
+Karen... I keep reading your comments.... and the intent or not, simplified or not, us lenders
+aren't missing the point of this post. As mentioned by many, your simplified post could have
+mentioned some details as we have mentioned.  Sorry, but this kind of information makes it
+sound like some of these kinds of FHA loans can be done. Yes, FHA says they can, but not one lender
+will do a FHA loan with credit scores under 580. That is a fact now... and this post makes it a tad
+misleading, because it's not mentioned.. this is your simplified version but consumers and
+realtors reading this will think it can be done.. and search for it. I know you want to help and
+had no intentions... and you might never comment on my posts again... but this should not be put
+out there to the public. You can still have a simplified version with some explanation. As I
+mentioned, I just wrote about this today.  thanks
+
+
+
+Image: /image_store/uploads/9/2/0/7/2/ar128431287827029.png Jeff Belonger-The FHA
+Expert - FHA Loans - FHA mortgages - USDA loans - VA Loans ( Social Media - Infinity Home Mortgage
+Company, Inc) 1:35pm • #78
+
+Karen,Your post and the comments that followed points out the very big gap in what HUD intends
+for borrwers and what the HUD approved lenders actually do for them.
+
+to simplify even more add the following.
+
+* Lenders may require higher scores and additional conditions. See you local FHA loan officer
+for specifics.
+
+  Lee Walsh 1:40pm • #80
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+None of my FHA lenders will touch any borrowers with a score less than 620, so this new FHA ruling
+really does not matter much. Of course there are a few lenders out there that will work with a sub
+580 borrower..pulling teeth with these lenders and clients if you ask me. Time to focus on
+quality buyers with quality profiles who in turn will get approved with quality lenders, as
+this will make all of our jobs and worlds a little easier. Thanks for the information and post, I
+see you get a lot of blogs posted on here, good for you :)
+
+ 
+
+Cheers Michael Deery (Citywide Financial Corp) 1:40pm • #81
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Jeff Belonger in # 78:   I am glad you are re-commenting, because I was just about to respond to
+your first comment in # 29.
+
+I will not give you the same copied and pasted" response I have given to four folks... just above
+this comment/response.
+
+Actually, it was YOUR original post... your lengthly, and excellent explanation of the new
+FHA guidelines... that inspired me to write this post.
+
+You are incredibly knowledgeable, and I am sure you are excellent at your craft.  However...
+there are so many folks who "might" start reading your "treatise"... which, is a good word, but
+in the way that I am using it, I am also being mildly sarcastic here... folks might... after
+wading through all the technical stuff... become so "snowed under..." that they simply give
+up reading any further.
+
+This post was meant for those folks. 
+
+I tried to put in several "disclaimers" as to the existence of "mitigating factors"... and
+again, I was not even trying... to duplicate the scholarly intent of your typically
+very-well-written posts.
+
+As you probably know, there are many agents "out there" who don't even get into qualifying
+guidelines to the extent that my "simplified version" was written.  I have often heard
+Realtors say to their buyers... when the buyers asked them about such basic things as
+"mortgage payments"... I have heard them say... "Oh, I don't get into that.  I just give you
+the name of three loan officers to call."
+
+I understand that a little knowledge can be a dangerous thing, and I also see the doubt that can
+form in a buyer's mind when it appears their Realtor doesn't even know enough about financing
+to even talk "basics" with them.  THOSE are the folks for whom this post was written.
+
+My point of view here... is that the opinion that this post is "a tad misleading" is in the eyes of
+the reader/beholder.  I have inserted many disclaimers about there being other things
+involved in getting the loan approved... and statements about "mitigating factors" as well.
+
+Jeff... I don't think my above post was misleading... especially for folks... agents... who
+actually took the time to read it, and understand what I was saying.
+
+I will check out your post that you just wrote today.  I am curious about whether you refer to
+this post or not.
+
+By the way... our "back and forth" here should not and will not preclude me from "ever
+commenting on your posts again."  My heart and brain do not work that way.  We simply have
+conflicting opinions.  Having conflicting opinions, and then reading the opinions of
+others, and "taking it all in"... is how we "grow."  Again... have a Great Sunday.
+
+By the way... this post was intended to be a "public post" and will remain that way.  But, I
+appreciate your concern. Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort
+Worth and Tarrant County) 1:54pm • #82
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348686267
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686267
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686267
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686267
+
+Karen...  one thing, you didn't add those disclaimers until after some of the comments left
+by loan officers. Hey, I appreciate the disclaimers.. but if we didn't ciomment, would there
+have been any disclaimers then?  I did see the update and do appreciate it.  It's how we all
+grow and learn.
+
+In regards to mentioning your post when I wrote mine.. at first didn't... because I didn't want
+anyone to think that I was slamming you.  You did a good job in what you wrote... but I think it
+needed to be explained in more detail. I know this post was written for the consumer, which is my
+main problem and concern. Sorry, but I will still disagree with the simplified version and
+state that it can be misleading... It wasn't that your post had wrong information, but that it
+was missing explanation to what can and can't be done.
+
+overall... your statements above make it sound liked these types of loans can be done, because
+of FHA says so in their guidelines. But the fact of the matter, the reality is that credit scores
+under 580 can't be done right now. Scores betwee 580 to 619... extremely difficult. As I
+mentioned, I get many e-mails from borrowers who were promised these such loans and 2 to 3
+months later, they were denied.   All the lenders that I have seen do loans with credit
+scores from 580 to 619 want 10% down, even though FHA says it can be done with 3.5%.  I just
+think, even in a post such as this, that this needs to be mentioned.
+
+As far as myself mentioning your post, if you don't want it mentioned, just let me know. Again, I
+don't want people to think that I am bashing your post or trying to be negative... and that some
+might not read my whole post that you talked about.. sorry, but boring or not, I think consumers
+will read the whole post. it's some of the realtors on AR or in general that don't read the whole
+post.  Their loss.. consumers want good accurate information and not part of the picture...
+thanks for your feedback and input.
+
+
+
+Image: /image_store/uploads/2/3/2/9/8/ar12843152789232.png Jeff Belonger-The FHA
+Expert - FHA Loans - FHA mortgages - USDA loans - VA Loans ( Social Media - Infinity Home Mortgage
+Company, Inc) 2:14pm • #83
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/cfd6897ece0ce65b25f37d4a35cb171252c00107.gif?1348685941
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685941
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685941
+
+As with most of the mortgage guidelines coming out of Washington these days - the banks CAN, but
+it doesn't mean they WILL.
+
+The best thing a prospective buyer can do is get busy on raising those credit scores. Much as I
+dislike the banks, I can't really say I blame them for not wanting to do a repeat of the mortgage
+crisis by lending to folks who are poor money managers. Marte Cliff (Marte Cliff Copywriting)
+2:42pm • #84
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/21e6146e6d58d44845c14df53012b05d033db2c4.gif?1348615406
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348615406
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/d70939d843dd7f93801362bd67b6f469c2a7930a.gif?1348615406
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348615406
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348615406
+
+I think they ought to bring back the old rule; if you could afford the rent and the mortgage is
+about the same or less you can qualify. Gene Riemenschneider East Contra Costa Home Sales
+01492725 (Home Point Real Estate) 3:45pm • #85
+
+Karen Anne- A very thought (and comment) provoking post. For the last several years I
+have recommended and worked with one mortgage broker. I introduce my Buyers who aren't
+pre-qualified to her and then let them work out the financing. She tells me how much the Buyers
+can offer and off we go to find a suitable property. She stays current on her regulations and
+rules and I stay up to date on mine. I handle the real estate and the mortgage broker handles the
+financing. This division of labor works well for both of us. BTW, she has qualified
+several Buyers who have been rejected by loan officers at big banks. It's amazing what one can
+do when their income is dependent on their production.    Mike
+Goff-www.southwestoregonrealestate.com (Oregon Mountain Real Estate) 4:00pm • #86
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Melina and Deborah:   This post was NOT meant to be an "extensive treatise" on FHA
+underwriting guidelines, and the corresponding overlay of lender additional
+requirements.  May I suggest a re-reading the post, and also taking a peek at MY comment #
+44 and comment # 82.   Have a great Sunday. Fort Worth Real Estate - - - Karen Anne Stone (New Home
+Hunters of Fort Worth and Tarrant County) 4:01pm • #87
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Patricia in # 32:   You are quite welcome.
+
+By the way... did you even READ this post ?  LOL. Fort Worth Real Estate - - - Karen Anne Stone
+(New Home Hunters of Fort Worth and Tarrant County) 4:03pm • #89
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Jay in # 34:   I very much appreciate your concern about my health.  The tests I took made my
+Cardiologist even more suspicious and concerned.  He wants to do a bunch of blood tests...
+and then perhaps a cardiac catheterization if the results of the blood tests show that is
+feasible... before making a definitive judgment.  I do, however, think I know what he has
+in mind, and I will follow up with you in a private email.
+
+I so appreciate your concern.  My own daughter hasn't even asked... <dorky, crinkled smile>
+Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County)
+4:10pm • #91
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Jack in # 35:   The quality of the buyer, and their viability of their loan approval is ALWAYS to
+be considered in multiple-offer situations.  As we both know... a lower offer by a much
+stronger buyer is usually the better overall choice for the seller. Fort Worth Real Estate - - -
+Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County) 4:13pm • #92
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Gary in # 36:   The lenders MUST continue to tighten the screws.  I think what we are seeing now
+regarding the stringent lender overlays on top of the FHA Guidelines... is a sign that the
+pendulum has over-swung the middle-ground... and has gone on to being probably overly
+strict.
+
+As we veterans know, that is what usually happens.  Then, after time, the pendulum swings
+back towards the middle again. Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of
+Fort Worth and Tarrant County) 4:15pm • #93
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Jane in # 37:   Not exactly.  With a score as low as 500... and up to 579... the number of hoops
+and super-strong mitigating factors a buyer MUST have to even have a glimpse of a chance to get
+approved by the lender... considering their "overlays..." is quite huge.  Obviously, the
+lower the credit score goes... downward... from 579... the closer to impossible it gets.
+
+For a buyer with such a credit score... although the FHA says they will "accept" the loan if the
+lender approves it, the lender overlays must be considered.  And, with the lenders having
+been burned so badly over the last four years... the lower the score, the closer to impossible
+it can get.
+
+In mortgage financing... the only "sure thing" is that there is NO "sure thing." Fort Worth
+Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County) 4:19pm •
+#94
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Aaron in # 38:   Yes, essentially it IS the same thing.  See Dan's comment in # 61, and my
+response in # 64 about the scarcity and the value of having a lender who can, and has decided to
+work within the FHA Guidelines... and has a less stringent lender "overlay" on top of the FHA
+Guidelines. 
+
+Plain and simple... if the risk is assumed to be too high because of circumstances other than
+the credit score, the lender can, and will, decide to make other, more stringent requirements
+to act as mitigating factors for the negatives in the buyer's case. Fort Worth Real Estate - - -
+Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County) 4:25pm • #95
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Jon in # 39:   Correct.  Lots of mitigating factors will have to be present to make up for what
+the lender sees as too risky of a score, even though FHA would accept it IF the lender did. Fort
+Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County)
+4:27pm • #96
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Jayne in # 41:   I agree.  But, it is always a good idea for us, as Realtors, to have a decent
+"working knowledge" of current mortgage requirements so we can at least look acceptably
+knowledgeable to our clients... both buyers and sellers.
+
+And yes... depending on the individual lender you are working with... things COULD have
+changed ten minutes ado. Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort
+Worth and Tarrant County) 4:31pm • #98
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Mystery commentor in # 42:   Thanks so much.  I thought so... although so many of my lender
+friends are "rainin' down" on me and my post.  LOL.
+
+Cool... you read the post.  I wish some others read it as thoroughly.  Yes, this is a
+"starting point."  Now, where do we find those buyers ?  In what some others call their
+"sphere of influence..." which I call my "sphere of relationships." 
+
+Referrals are always the best source, regardless of what ANYBODY says about other sources. 
+Blogging is also an excellent source.  Joe Stumpf and his By Referral Only organization is
+the one "trainer" I recommend. 
+
+Some say Brian Buffini, but I have taken Buffini's Mentoring course, and am a Buffini
+Certified Mentor, but even so, I recommend By Referral Only and Joe Stumpf over Buffini. Fort
+Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County)
+4:36pm • #99
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Effie with Coastal Realty Group in # 42:   I honestly wonder if software isn't the
+problem.  What I am guessing is... that they are saying they cannot feed YOUR buyer info into
+their "automatic approval software"... whatever it is called (need some lender help here
+with the name of the software)... and get an automatic approval.
+
+It may be their OWN software prepared by their lender.  Remember... it is the individual
+LENDER who makes the approval.  They can, and DO have stricter requirements... often called
+a "lender overlay"... which, as one might guess, sits on top of the FHA Underwriting
+Guidelines.
+
+Not sure here, but I am guessing that it is the software of individual lenders.  (Jeff ?)
+
+I very much appreciate your "very human" situation regarding a lot of "good people."  Some of
+those buyers just might have some very good personal financial "mitigating factors" that
+could serve to offset their short sale or foreclosure histories, but I am sure that so many
+lenders around you have been burned... prolly more like "incinerated" by the current
+mortgage mess... and just, as a corporate policy, cannot and will not touch these buyers.
+
+And... with the last word you used... "investments"... that can make a difference.  If the
+home in question was the buyer's actual residence... and they lost it through short sale or
+foreclosure... that is one thing.
+
+If that home home was "an investment"... perhaps a "spec" home that they tried to buy and hold as
+an additional investment, and then ended up losing it... that is another matter entirely, and
+not "can be" but "will certainly be" a major problem... and may make it impossible for them to
+get a loan for from three to seven years... depending on other parameters.
+
+I checked Active Rain, and see you are in the Port St Joe area southwest of Tallahassee... right
+on the ocean... and am guessing there have been a lot of short sales there... perhaps from
+"investment" homes.  Ouch !
+
+I hoped some of this helped.  Take care... I wish you and your clients the best. Fort Worth Real
+Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County) 4:54pm • #100
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Kimo in # 45:   Yes, the DTI... debt to income ration... is essential.  And I am guessing that
+even though the credit score may be acceptable, if the debt to income ratio is outside the
+Guidelines, the loan is rejected.
+
+Not sure what you mean by a GSE.  Did you mean GFE... Good Faith Estimate ? 
+Anyway... obviously, the more qualified the mortgage loan officer is, the better. Fort
+Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County)
+4:59pm • #101
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Woody in # 46:   Simplified version... as contrasted with a "so overly technical and
+complicated, and full of mortgage industry lingo that most buyers or Realtors give up reading
+it about a third of the way through, if they make it that long" version.  <nasty smile>
+
+My guess is that as long as you are bring a buyer that ONLY meets minimum standards, and does NOT
+have any super-strong offsetting factors to balance against those "minimum items"... you
+will have a tough time getting buyers approved.
+
+I have dealt with FHA financing since way back in the early 1970's.  If anyone things things
+are "interesting" now... you shouldda been there in 1973... LOL.
+
+By the way... the significant down payment... over and above the FHA minimums for that
+particular credit score category... would be what I am calling "mitigating factors" or
+offsetting factors.
+
+For example... one question would be whether or not a buyer with a credit score of 579 would be
+approved if they had 50% down ?  Well, if that were the case, they probably would not be going
+after FHA financing in the first place. Fort Worth Real Estate - - - Karen Anne Stone (New Home
+Hunters of Fort Worth and Tarrant County) 5:06pm • #102
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Brenda in # 47:   You are very welcome. Fort Worth Real Estate - - - Karen Anne Stone (New Home
+Hunters of Fort Worth and Tarrant County) 5:06pm • #103
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+ARDELL in # 57:   Wow... if only everyone were this knowledgeable.  Excellent comment. 
+What you have to say, and your willingness to take on the "long shot" buyer who was told by two
+other Realtors laughed at... says volumes about you.
+
+Sounds like me... <smile>  There is such a great feeling to be able to take someone who has had
+their visions of their own home-owning dreams made fun of... and then have the "motherly
+patience" to take them, hold their hands, and of course, have the extensive knowledge to know
+exactly what to do with them.
+
+What a great feeling to help make those types of buyer's dreams come true.  You sound like an
+ANGEL of a Realtor.  I already knew you knew your stuff... but now I know you also "care."
+
+It's that old, but very true saying... "I don't care how much you know... until I know how much
+you care."  My compliments to you, Young Lady.  <smile>
+
+And... you are very welcome. Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of
+Fort Worth and Tarrant County) 5:14pm • #104
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Beverly in # 58:   I wrote a post last November 8, 2010 titled "When was the Last Time you
+Counselled a Buyer, and Suggested they Continue Renting ?" 
+
+ Right now I am in Internet Explored and don't know how to put the link into this comment for
+it.  My Firefox, which I normally, is not working properly... so I cannot give you the link. 
+I will try to do it later... and then continue my comment to you.
+
+But... in short, yes... there ARE times when a Realtor must, in acting in their fiduciary
+capacity for their client/buyer... must recommend that they do not purchase.
+
+It is just, for that buyer, the right thing to do.
+
+Beverly :   Here is the link to the post I mentioned above.    
+
+When Was the Last Time You Counseled a Buyer... and Suggested They Continue Renting ?
+
+Have a great week ! Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth
+and Tarrant County) 5:24pm • #105
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348686267
+
+Hi Karen,
+
+Great post that was simple and informative. I bookmarked instantly. Congrats on the Feature!
+It was a nice commenting back and forth with you on Friday. Jeremy St. Louis 6:46pm • #107
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348686979
+I believe most lenders are taking issue with this statement: "The main rumor that was scaring
+both Realtors and buyers, and sellers as well, was that if a buyer had a credit score below
+580... that they could no longer get FHA financing.Â  If that had been true... it would have
+had a MAJOR impact on both buyer financing in particular, and on the real estate market in
+general.Â  Whew !" I think they're just trying to point out that it's NOT a rumor - it IS true -
+and it shouldn't have ANY impact because minimum scores were already higher than these
+increased HUD minimums. A vital subject and one we all should understand. Thank you for
+starting the discussion! Jana Holmstrup - VP Ops - Kings Mortgage Services, Inc. 7:00pm •
+#108
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348684471
+
+Wow, what a discussion.  Thanks for the information! Carrie Sampron, ABR SFR & Kathy Sampron
+(303) 931-3629 Highlands Ranch (Home Real Estate) 7:23pm • #109
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Peter in Perth, Australia # 68:   You are very welcome.  And I do agree, that all
+economies are connected. 
+
+And, to slightly paraphrase the poet John Donne from his "Devotions upon Emergent Occasions
+"... Meditation XVII in 1624... "no woman or man is an island... all of us are pieces of the
+whole."  
+
+And then the remainder of that quote by John Donne... "any man's death dimishes me, because I am
+involved in Mankinde ; And therefore never send to know for whom the bell tolls; it tolls for
+thee."
+
+Peter, you are getting quite philosophical on me, my friend.  Yes... as you said, "the global
+economies are all connected, and our commen success of failure will effect us all."
+
+Again... take care... have a great week. Fort Worth Real Estate - - - Karen Anne Stone (New Home
+Hunters of Fort Worth and Tarrant County) 7:29pm • #110
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Full Service in # 80:   Your disclaimer that you offer is short, to the point, and well written,
+and covers just about any eventuality.  Thanks for the suggestion. Fort Worth Real Estate - -
+- Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County) 7:37pm • #113
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Michael in # 81:   Only focusing on "quality buyers with quality profiles" ends up ignoring
+the tough-to-qualify buyers that ARDELL so eloquently speaks about in her comment # 57, and in
+my response in # 104.
+
+I think a nice mixture is the more "human" way to go... at least that's the way I do it.  I may not
+have as long of a list of closings as you at the end of the month, but I know I have made some great
+folks very and often tearfully happy by helping them make their dreams come true.
+
+So... to use your words... pull some teeth with those clients and lenders.  You just proved my
+point.  Yes, there ARE some lenders "out there."  You might list them here in an additional
+comment, as many folks commenting here have all but said those lenders do not exist.  Bingo !
+Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County)
+7:43pm • #114
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Marte in # 84:   Of course it would be great for all prospective buyers to "get busy on raising
+those credit scores."  But... how very kind of you to imply that part of the mortgage crisis
+is the fault of those "folks who are poor money managers." 
+
+Tell that to the husband and wife whose jobs were outsourced to Bangalore, India... and then
+their former employers were given a tax break to celebrate with.  Yeah... those doggone poor
+money managers.  Very impressive. Fort Worth Real Estate - - - Karen Anne Stone (New Home
+Hunters of Fort Worth and Tarrant County) 7:48pm • #115
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Gene in # 85:   It was all so simple way back then.  But, then again... if you failed to pay the
+rent, you were evicted.  If you failed to pay your mortgage, you lost your home, your credit,
+and who knows what.  Also, owning that same home brings along with more expenses than does
+simply renting it.
+
+But yes... times were much simpler then. Fort Worth Real Estate - - - Karen Anne Stone (New Home
+Hunters of Fort Worth and Tarrant County) 7:51pm • #116
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Mike in # 86:   First of all, thanks for your kind words.  It sounds like you have an excellent
+partnership working between you, your buyers, and your mortgage broker.
+
+That she is willing to work with some of the "tough ones..." and has gotten approvals for buyers
+who have been rejected by other loan officers... further proves one of the points of this
+post... as far as mitigating factors are concerned.
+
+To add to your last sentence... yes, it is amazing what one can do when their income is dependent
+on their production, and when they "know their stuff," and when they know how to work hard
+enough to find answers where others thought they did not exist.  Excellent.  By the way,
+keep that lender hidden.  She is a prize. Fort Worth Real Estate - - - Karen Anne Stone (New Home
+Hunters of Fort Worth and Tarrant County) 7:56pm • #117
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Jeremy in # 107:   Thank you for your kind comments.  And yes, it was nice both reading AND
+commenting with you on your Taste of Mystic post.  Did you attend ?  How was the pizza ? 
+
+I would have loved to have been up there with you... but instead I sit here... typing comments
+and responses.  My friend, you got the better deal... <smile> Fort Worth Real Estate - - -
+Karen Anne Stone (New Home Hunters of Fort Worth and Tarrant County) 7:59pm • #118
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Jana at Kings Mortgage in # 108:   It appears that several commentors have said
+that they have gotten sub-580 buyers approved... so I guess it goes back to BEING a rumor. 
+
+Also, with you being in California, and with the overwhelming short sale and foreclosure
+problems there, and the large amount of investor buyers who have lost their homes, it is no
+wonder that the "lender overlays" are so harsh.
+
+And... you are quite welcome. Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of
+Fort Worth and Tarrant County) 8:04pm • #119
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Carrie & Kathy in # 109:   Yes, it has been somewhat of a marathon.  And, you are quite
+welcome.  By the way, if you have not done so already, try and read both the post, and all of the
+comments.  It IS quite an education.  Take care... Fort Worth Real Estate - - - Karen Anne
+Stone (New Home Hunters of Fort Worth and Tarrant County) 8:06pm • #121
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/791a59033857b7bf7b47df1ebb75881129ba0216.gif?1348686621
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348686621
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686621
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348686621
+
+A top lender, with years of experience, especially with FHA and VA, is an absolute must, as a key
+part of your team. I am so lucky to have found such a person. I've been using him since 1996.
+
+As you know, sometimes buyers have already hooked up with a lender, before we meet. And
+sometimes that makes me cringe!
+
+But my guy has often rescued my buyers when "their" buddy had messed up the deal and the buyers
+were in jeopardy of not getting their house.
+
+You need to be choosey about who is on your "team", as it were. Jon Quist, ABR, CRS, ePRO, GRI
+800-557-9798 (LONG REALTY) 8:48pm • #123 SEP 13 2010
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/ec92ec5bc14e083c3aaca6055538a36c1b00ee5f.gif?1348686979
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348686979
+
+The government-sponsored enterprises (GSEs) are a group of financial services
+corporations created by the United States Congress . Their function is to enhance the flow of
+credit to targeted sectors of the economy and to make those segments of the capital market more
+efficient and transparent. The desired effect of the GSEs is to enhance the availability and
+reduce the cost of credit to the targeted borrowing sectors: agriculture , home finance and
+education.
+
+Congress created the first GSE in 1916 with the creation of the Farm Credit System ; it
+initiated GSEs in the home finance segment of the economy with the creation of the Federal Home
+Loan Banks in 1932; and it targeted education when it chartered Sallie Mae in 1972 (although
+Congress allowed Sallie Mae to relinquish its government sponsorship and become a fully
+private institution via legislation in 1995).
+
+The residential mortgage borrowing segment is by far the largest of the borrowing segments in
+which the GSEs operate. GSEs hold or pool approximately $5 trillion worth of mortgages.
+
+Some of the GSEs (such as Fannie Mae and Freddie Mac until 2008) have been privately owned but
+publicly chartered; others, such as the Federal Home Loan Banks , are owned by the
+corporations that use their services.
+
+GSE securities carry no explicit government guarantee of creditworthiness, but lenders
+grant them favorable interest rates, and the buyers of their securities offer them high
+prices. This is partly due to an "implicit guarantee" that the government would not allow such
+important institutions to fail or default on debt. This perception has allowed Fannie Mae and
+Freddie Mac to save an estimated $2 billion per year in borrowing costs. This implicit
+guarantee was tested by the subprime mortgage crisis , which caused the U.S. government to
+bail out and put into conservatorship Fannie Mae and Freddie Mac in September, 2008. Kimo
+Jarrett, Realtor, Huntington Beach, (714) 476-3822, Wiki Wiki Realty (Investments,
+Commercial, Residential) 12:21am • #124
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+Kimo in # 124:   Thanks so much for your excellent explanation of GSE's.  I "knew" that was
+what mannie and Freddie were call... I just could not put it together at the time of your
+comment.
+
+What I did NOT know... was all the rest of the information you provided... which is just
+stunning.  I appreciate you taking that much time to share.  Thanks so much.
+
+I am going to take some time, and treat your comment as if it were a "class" in GSE's... and learn
+as much as I can from the links.  Again, thank you very much. Fort Worth Real Estate - - - Karen
+Anne Stone (New Home Hunters of Fort Worth and Tarrant County) 1:40pm • #129
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/81c931f47308b507a7596824757b7bf3b0e9956c.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+To all commentors:   Thank you all so much for your participation.  I have appreciated all of
+your responses except one... the one that I felt was an attack.
+
+After receiving a follow-up comment from that same person... it appears that the purpose of my
+"Simplified Version" post has been fulfilled, and that anything further is not warranted. 
+
+So, I am going to close this post for further comments.  Before I do that... I am going to also
+delete that one... shall I say "over-stated" reader comment, and my response to it as well,
+just to return the tone to "a better place"... and then put this "baby" in her crib and let her
+drift off to sleep.
+
+Thanks again.  I hope those of you, mostly Realtors, who took this post as it was intended...
+as a "Simplified Version" type of post... found something of value in it.  Have a great week,
+everyone. Fort Worth Real Estate - - - Karen Anne Stone (New Home Hunters of Fort Worth and
+Tarrant County) 1:58pm • #131
+
+Comments have been disabled by the author Event.observe(window, 'load', initLazyLoad);
+function initLazyLoad() { $$("div.comment_image").each(function(e){
+e.style.backgroundImage = "url("+e.getAttribute('imagesrc')+")" }) }   function
+contact(aid) { //documentation on this:
+http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/946/55946/large/IMG_5936_-_New_AR_profile_picture_-_side_view_more_pixels_-_127_KB.jpg?1291240626
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/rainmaker_large.png?1348686267
+
+Fort Worth Real Estate - - - Karen Anne Stone
+
+Fort Worth , TX
+
+More about me…
+
+New Home Hunters of Fort Worth and Tarrant County
+
+Address: Serving the entire Dallas/Fort Worth Metroplex, Dallas/Fort Worth, TX
+
+Office Phone: (817) 929-3400
+
+Cell Phone: (817) 929-3400
+
+Email Me The Real Estate Market in Fort Worth and Tarrant County offers such a great value to
+both "first time" and "move up" buyers. Karen Anne's blog gives you up-to-date market news,
+and features many of the great homes available at great prices !
+
+
+
+
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/minus.gif?1348686267
+Listings
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/minus.gif?1348686267
+Links
+
+
+
+    
+
+    - Fort Worth Real Estate Online
+
+    
+
+    - New Home Dreams
+
+    
+
+    - Nice Catholic Girl from Cleveland
+
+    
+
+    - Mothers Fighting for Others
+
+    
+
+    - My Older Sister
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/minus.gif?1348686267
+Archives
+
+
+
+    
+
+    - September 2012 (4)
+
+    
+
+    - August 2012 (3)
+
+    
+
+    - July 2012 (2)
+
+    
+
+    - June 2012 (2)
+
+    
+
+    - May 2012 (2)
+
+    
+
+    - April 2012 (3)
+
+    
+
+    - March 2012 (8)
+
+    
+
+    - February 2012 (9)
+
+    
+
+    - January 2012 (1)
+
+    
+
+    - December 2011 (5)
+
+    
+
+    - November 2011 (3)
+
+    
+
+    - October 2011 (7)
+
+    
+
+    - September 2011 (5)
+
+    
+
+    - August 2011 (10)
+
+    
+
+    - July 2011 (18)
+
+    
+
+    - June 2011 (3)
+
+    
+
+    - May 2011 (2)
+
+    
+
+    - April 2011 (5)
+
+    
+
+    - March 2011 (7)
+
+    
+
+    - February 2011 (11)
+
+    
+
+    - January 2011 (19)
+
+    
+
+    - December 2010 (8)
+
+    
+
+    - November 2010 (13)
+
+    
+
+    - October 2010 (12)
+
+    
+
+    - September 2010 (42)
+
+    
+
+    - August 2010 (13)
+
+    
+
+    - July 2010 (10)
+
+    
+
+    - June 2010 (36)
+
+    
+
+    - May 2010 (25)
+
+    
+
+    - April 2010 (22)
+
+    
+
+    - March 2010 (7)
+
+    
+
+    - February 2010 (24)
+
+    
+
+    - January 2010 (5)
+
+    
+
+    - December 2009 (4)
+
+    
+
+    - November 2009 (10)
+
+    
+
+    - October 2009 (7)
+
+    
+
+    - September 2009 (22)
+
+    
+
+    - August 2009 (19)
+
+    
+
+    - July 2009 (26)
+
+    
+
+    - June 2009 (20)
+
+    
+
+    - May 2009 (43)
+
+    
+
+    - April 2009 (33)
+
+    
+
+    - March 2009 (44)
+
+    
+
+    - February 2009 (36)
+
+    
+
+    - January 2009 (17)
+
+    
+
+    - December 2008 (12)
+
+    
+
+    - November 2008 (14)
+
+    
+
+    - October 2008 (21)
+
+    
+
+    - September 2008 (12)
+
+    
+
+    - August 2008 (36)
+
+    
+
+    - July 2008 (18)
+
+    
+
+    - June 2008 (13)
+
+    
+
+    - May 2008 (23)
+
+    
+
+    - April 2008 (37)
+
+    
+
+    - March 2008 (13)
+
+    
+
+    - February 2008 (17)
+
+    
+
+    - January 2008 (20)
+
+    
+
+    - December 2007 (30)
+
+    
+
+    - November 2007 (30)
+
+    
+
+    - October 2007 (40)
+
+    
+
+    - September 2007 (23)
+
+    
+
+    - August 2007 (5)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find TX real estate agents and Fort Worth real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/new_design/eho.gif?1348686267
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

@@ -1,0 +1,738 @@
+
+
+
+
+Cozen Picks Up 19 Lawyers from New York IP Boutique function startList() { if
+(document.all&&document.getElementById) { var collUL =
+document.getElementsByTagName("UL"); for (j=0; j<collUL.length; j++) { if
+(collUL[j].id=="nav") { navRoot = collUL[j]; for (i=0; i<navRoot.childNodes.length;
+i++) { node = navRoot.childNodes[i]; if (node.nodeName=="LI") {
+node.onmouseover=function() { this.className+=" over" } node.onmouseout=function() {
+this.className=this.className.replace(" over", "") } } } } // navRoot =
+document.getElementById("nav"); } } }/* startList */ /* the getObj and init functions are
+for search */ d=document; function getObj(id){ var i,x; d=document;
+if(!(x=d[id])&&d.all)x=d.all[id]; for (i=0;!x&&i<d.forms.length;i++)
+x=d.forms[i][id]; if(!x && document.getElementById) x=document.getElementById(id);
+return x; } function init() { pgLoaded=3; getObj('t3').className="sel";
+document.SearchForm.Ntt.focus(); startList(); } <!-- var abc = Math.random() + ""; var
+random = abc.substring(2,abc.length); // -->
+
+<!-- document.write('<sc'+'ript language="JavaScript1.1"
+src="http://ad.doubleclick.net/adj/alm.americanlawyer/amlawdaily;dcopt=ist;pos=728a;ptype=41;tile=1;sz=728x90;ord='
++ random + '?"><\/s'+'cript>'); // --> <!-- var abc = Math.random() + ""; var random =
+abc.substring(2,abc.length); // -->
+
+Image:
+http://ad.doubleclick.net/ad/alm.americanlawyer/amlawdaily;dcopt=ist;pos=728a;ptype=41;tile=1;sz=728x90
+/* Need to keep the everything inside the DIV */ document.write("<div id='globalnav'>");
+globalNav("mlj");//this is mlj so that no sign in bar appears document.write("</div>"); //
+End globalnav div /* Need to keep the everything inside the DIV */
+
+ALM Media
+
+    
+
+    - Law.com Home
+
+    
+
+    - Newswire
+
+    
+
+    - LawJobs
+
+    
+
+    - CLE Center
+
+    
+
+    - LawCatalog
+
+    
+
+    - Our Sites
+
+    
+
+    - Advertise
+
+    
+
+
+
+    Image: http://www.law.com/img/rebrand_headers/am_law_daily_header.gif
+
+    - This Site
+
+    
+
+    - Law.com Network
+
+    
+
+    - Legal Web
+
+    
+
+    var tabs = new Array(); tabs[0] = Array('0'); tabs[1] = Array('1'); tabs[2] =
+    Array('0'); var TB=3; // Set to the t# for the span that's selected by default function
+    ymst(o,i){ if(i==TB)return false; fm=document.SearchForm;
+    fm.cx.value=tabs[i-1][0]; getObj('t'+i).className="sel";
+    getObj('t'+TB).className="norm"; if(TB-1>0&&(TB-1)!=i){
+    getObj('t'+(TB-1)).className="norm"; } if(i-1>0){
+    getObj('t'+(i-1)).className="norm"; } TB=i; if(i!=3) { fm.N.value="0"; } }
+
+    - HOME
+
+    
+
+    - THE AM LAW DAILY
+
+    
+
+    - LITIGATION DAILY
+
+    
+
+    - RANKINGS
+
+    
+
+    - VIDEOS
+
+    
+
+    - MAGAZINE
+
+    
+
+    - ADVERTISE
+
+    
+
+    - SUBSCRIBE
+
+    
+
+    - FREE ACCESS
+
+    
+
+    - CONTACT US
+
+    
+
+    -
+
+    Image: http://www.law.com/img/tal/rss.gif
+
+    
+
+
+
+THE AM LAW DAILY
+
+    
+
+    - The Firms
+
+    
+
+    - The Work
+
+    
+
+    - The Score
+
+    
+
+    - The Churn
+
+    
+
+    - The Talent
+
+    
+
+    - The Management
+
+    
+
+    - The World
+
+    
+
+    - The Life
+
+    
+
+
+
+SURVEYS AND RANKINGS
+
+    
+
+    - AM LAW 100
+
+    
+
+    - AM LAW 200
+
+    
+
+    - AM LAW TECH
+
+    
+
+    - A-LIST
+
+    
+
+    - GLOBAL 100
+
+    
+
+    - CORPORATE SCORECARD
+
+    
+
+    - DEALMAKERS OF
+
+    THE YEAR
+
+    
+
+    - MIDLEVEL ASSOCIATES SURVEY
+
+    
+
+    - SUMMER ASSOCIATES SURVEY
+
+    
+
+    - DIVERSITY SCORECARD
+
+    
+
+    - PRO BONO SCORECARD
+
+    
+
+    - LITIGATION DEPARTMENT OF
+
+    THE YEAR
+
+    
+
+    - LATERALS REPORT
+
+    
+
+    - LAW FIRM LEADERS
+
+    
+
+    - Lifetime Achievers
+
+    
+
+    - Legal Intelligence
+
+    
+
+    - WOMEN PARTNER WATCH
+
+    
+
+
+
+MAGAZINE
+
+    
+
+    - Current Issue
+
+    
+
+    - Previous Issue
+
+    
+
+    - Search Archive
+
+    
+
+
+
+SPECIAL REPORTS
+
+    
+
+    - Intellectual Property
+
+    
+
+    - Labor & Employment
+
+    
+
+    - LITIGATION
+
+    
+
+    - FOCUS EUROPE
+
+    
+
+    - ASIAN LAWYER
+
+    
+
+    - STUDENT EDITION
+
+    
+
+
+
+VIDEOS
+
+
+
+Bookstore
+
+
+
+Legal Recruiters
+
+Digital Edition
+
+
+
+Hall of Fame
+
+
+
+ALM EVENTS
+
+
+
+SUBSCRIBE
+
+
+
+ADVERTISE
+
+
+
+ABOUT US
+
+
+
+FEATURED SPONSORS
+
+<!-- document.write('<sc'+'ript language="JavaScript1.1"
+src="http://ad.doubleclick.net/adj/alm.americanlawyer/amlawdaily;pos=125a;ptype=41;tile=7;sz=200x200;ord='
++ random + '?"><\/s'+'cript>'); // -->
+
+    Image:
+    http://ad.doubleclick.net/ad/alm.americanlawyer/amlawdaily;pos=125a;ptype=41;tile=7;sz=200x200
+    <!-- document.write('<sc'+'ript language="JavaScript1.1"
+    src="http://ad.doubleclick.net/adj/alm.americanlawyer/amlawdaily;pos=texta;ptype=41;tile=15;sz=200x200;ord='
+    + random + '?"><\/s'+'cript>'); // --> <!-- document.write('<sc'+'ript
+    language="JavaScript1.1"
+    src="http://ad.doubleclick.net/adj/alm.americanlawyer/amlawdaily;pos=textb;ptype=41;tile=16;sz=200x200;ord='
+    + random + '?"><\/s'+'cript>'); // --> <!-- document.write('<sc'+'ript
+    language="JavaScript1.1"
+    src="http://ad.doubleclick.net/adj/alm.americanlawyer/amlawdaily;pos=textc;ptype=41;tile=17;sz=200x200;ord='
+    + random + '?"><\/s'+'cript>'); // -->
+
+
+
+LAW.COM NETWORK
+
+    
+
+    - Sites
+
+    
+
+    - Jobs
+
+    
+
+    - Verdicts
+
+    
+
+    - LawCatalog
+
+    
+
+    - Experts
+
+    
+
+    - Online CLE
+
+    
+
+    - Legal Intelligence
+
+    
+
+    - Events
+
+    
+
+    - Resources
+
+    
+
+    - Law Firm Papers
+
+    
+
+    - Court Reporters
+
+    
+
+    - Legal Dictionary
+
+    
+
+    - Legal Blogs
+
+    
+
+
+
+The Firms
+
+
+
+June 21, 2011 1:28 PM
+
+Cozen Picks Up 19 Lawyers from New York IP Boutique
+
+
+
+Posted by Brian Baxter
+
+Cozen O'Connor has recruited 19 lawyers, including five senior partners, from 27-lawyer New
+York IP litigation boutique Cohen Pontani Lieberman & Pavane , reports sibling publication
+The Legal Intelligencer .
+
+The moves, effective July 1, include Cohen Pontani name partners Thomas Pontani, Martin
+Pavane, and Lance Lieberman. The new hires will give Philadelphia-based Cozen 24 full-time
+IP and patent prosecution lawyers in New York and 33 firmwide.
+
+"Adding this talented group helps us fulfill our strategy of building a top-notch team to
+serve our national and international clients," Cozen president Thomas "Tad" Decker said in a
+statement released by the firm . "We have made great strides in continuing our growth in New
+York, and the team from Cohen Pontani is yet another example of our commitment to
+strategically grow in response to our clients' needs."
+
+Cozen's last large expansion in New York was in April 2009 when the firm took on 30 lawyers from
+the Manhattan office of WolfBlock , which was winding down after a dissolution vote in March of
+that year .
+
+Cozen previously expanded in Manhattan in 2005 when the firm added 38 of 45 lawyers from
+Fischbein Badillo Wagner Harding . Those hires brought Cozen additional commercial
+litigation and real estate expertise, as well as political connections. (One partner from
+that group, former government relations cohead Raymond Harding , was charged with pocketing
+fees for political favors before copping a plea last month .)
+
+In an interview with the Intelligencer, Cozen's Decker suggested that Cohen Pontani might
+soon dissolve. (Lead partners leaving the firm were not immediately available for
+comment.) Eight of the firm's IP attorneys, including one partner and three senior counsel,
+are not making the move to Cozen. According to Decker, his firm had a set plan for expanding in
+New York by a certain number of lawyers.
+
+Additional growth plans in New York will focus on other specialty groups, Decker told The
+Intelligencer. The firm has two offices in Manhattan--one downtown, near the state and
+federal courts, and another in midtown--as a result of the WolfBlock hires from two years ago,
+according to sibling publication the New York Law Journal . The new hires from Cohen Pontani
+will join Cozen's midtown office.
+
+Also joining Cozen from Cohen Pontani are senior partners Thomas Langer and Edward Weisz, as
+well as partners Kent Cheng, Lisa Ferrari, Alfred Froebrich, Julia Kim, Allan Morrison,
+Steven Shelton, and Michael Stuart. Carl Wischhusen is joining Cozen as of counsel, while
+Darren Mogil, Marilyn Neiman, Ian Blum, Alphonso Collins, Enshan Hong, and Aaron Mace are
+coming aboard as associates. Decker told The Intelligencer that he was introduced to the
+lawyers from Cohen Pontani through "friends of friends," and not a legal recruiter.
+
+The Intelligencer reports that Cozen was interested in Cohen Pontani's patent prosecution
+work for Fortune 100 companies and large clients in Europe, Japan, and South Korea. In April,
+sibling publication Corporate Counsel reported that Cohen Pontani had successfully
+represented India's Dr. Reddy's Laboratories in a patent infringement suit brought by drug
+giant Sanofi-Aventis.
+
+In joining Cozen, the Cohen Pontani lawyers will have greater support for their work on larger
+cases, including the Sanofi-Aventis matter, Decker told The Intelligencer. He hopes the
+union will help in making pitches to chief patent counsel for prospective new clients.
+
+The announced addition of the Cohen Pontani team continues Cozen's recent hiring push. In May
+the firm brought on 14 lawyers from Epstein Becker & Green's Houston office , including five
+partners from what was once Wickliff & Hall, the first minority-owned firm in Texas to
+represent significant corporate clients. And last summer, 15 lawyers and government
+affairs professionals joined Cozen when the firm acquired Washington, D.C.-based boutique
+Sher & Blackwell .
+
+According to the most recent Am Law 100 financial data , Cozen saw gross revenue drop 4.5
+percent to $277.5 million in 2010, while profits per partner at the now 575-lawyer firm
+decreased nearly 7 percent to $605,000.
+
+Cohen Pontani becomes the latest in a series of New York IP boutiques to fall on hard times.
+Darby & Darby dissolved in March 2010 and Morgan & Finnegan filed for bankruptcy and broke up a
+year before that , following the demise of other IP boutiques like  Pennie & Edmonds and Fish &
+Neave . Make a comment
+
+Comments (0)
+
+Save & Share: function fbs_click()
+{u=location.href;t=document.title;window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return
+false;} Facebook | Del.ic.ious | var mystring = "http://digg.com/submit?url="; var temp =
+"http://amlawdaily.typepad.com/amlawdaily/2011/06/cozen-cohen-pontani.html";
+mystring += temp; temp = "Cozen Picks Up 19 Lawyers from New York IP Boutique"; mystring +=
+"&title=" + temp.replace(/\s/g,'%2b'); mystring += "&bodytext="; mystring +=
+"&media=News&topic="; document.write("<a href='"+mystring+"'>Digg It</a>"); | Email |
+
+
+
+Reprints & Permissions
+
+Comments
+
+
+
+Report offensive comments to The Am Law Daily . hostName = '.typepad.com';
+
+Post a comment
+
+checkLocal();
+
+If you have a TypeKey or TypePad account, please Sign In
+
+You are currently signed in as (nobody) . Sign Out
+
+Name:
+
+
+
+Email Address: (Not displayed with comment.)
+
+
+
+URL:
+
+
+
+Remember personal info?
+
+Comments:
+
+commentSignIn(); var s_account = "almtal,almglobal"; var
+s_linkInternalFilters="javascript:,law.com/jsp/tal,amlawdaily.typepad.com,store.law.com,localhost"
+<!-- var pageTitle=document.title; var blogTitle = ""; var blogName = "am law daily"; var
+theUrl = window.location.pathname.split( '/' ); pageTitle = pageTitle.split("The Am Law
+Daily").join(""); pageTitle = pageTitle.split("The American Lawyer - ").join("");
+pageTitle = pageTitle.toLowerCase(); if(location.pathname.indexOf("amlawdaily/20")
+> 0){ if(location.pathname.indexOf("index.html") > 0){ var urlMonth = theUrl[3]; var
+urlYear = theUrl[2]; if (urlMonth == "01"){ urlMonth = "january"; } else if (urlMonth ==
+"02"){ urlMonth = "february"; } else if (urlMonth == "03"){ urlMonth = "march"; } else if
+(urlMonth == "04"){ urlMonth = "april"; } else if (urlMonth == "05"){ urlMonth = "may"; } else
+if (urlMonth == "06"){ urlMonth = "june"; } else if (urlMonth == "07"){ urlMonth = "july"; }
+else if (urlMonth == "08"){ urlMonth = "august"; } else if (urlMonth == "09"){ urlMonth =
+"september"; } else if (urlMonth == "10"){ urlMonth = "october"; } else if (urlMonth == "11"){
+urlMonth = "november"; } else if (urlMonth == "12"){ urlMonth = "december"; } else { urlMonth =
+"archive"; } pageTitle = urlMonth + " " + urlYear; } else { var urlPath = theUrl[4]; urlPath =
+urlPath.split("html").join(""); urlPath = urlPath.split("-").join(" "); blogTitle =
+pageTitle; pageTitle = "blog"; } } if(pageTitle == ""){ pageTitle = "home"; } if (pageTitle !=
+""){ pageTitle = pageTitle; } if(location.pathname.indexOf("") > 0){ blogName = "am lit
+daily"; } function _scStrip(a){ a = a.split("|").join(""); a = a.split("&").join(""); a =
+a.split("'").join(""); a = a.split("#").join(""); a = a.split("$").join(""); a =
+a.split("%").join(""); a = a.split("^").join(""); a = a.split("*").join(""); a =
+a.split("!").join(""); a = a.split("<").join(""); a = a.split(">").join(""); a =
+a.split("~").join(""); a = a.split(";").join(""); a = a.split("-").join(""); a =
+a.split(".").join(""); a = a.split(": ").join(":"); a = a.split(" :").join(":"); return
+a; } /* Set SC Vars */ s_account="" s.server="tal" s.pageName=s.server + ":" + blogName + ":" +
+_scStrip(pageTitle); s.channel=s.server + ":" + blogName + ":" + _scStrip(pageTitle);
+s.prop1=s.server + ":" + blogName; // Site Section s.prop2=s.server + ":" + blogName + ":" +
+_scStrip(pageTitle); // Site SubSection s.prop3=s.prop2; // Site SubSection Detail
+s.prop4=s.prop3; // Additional SubSection Level s.prop5="" // Links - Page Name s.prop6=""
+// Links - Global Link Name s.prop7="" // Links - Page Name/Link Name s.prop8="" // Links - Link
+Position s.prop9="" // Internal Search Terms s.prop10="" // s.prop11="" // Content ID
+s.prop12=_scStrip(blogTitle) // Content Title s.prop13="" // Content Type s.prop14="" //
+Content Byline s.prop15="" // Content Source s.prop16="" // Content Subscription Status
+s.prop17="" // Leads - Application Name s.prop18="" // Photo - Audio Gallery Name
+s.prop19="" // Photo - Audio Title s.prop20="" // s.prop21="" // User - ID Email s.prop22=""
+// User - Subscription Type s.prop23="" // New/Repeat Visitor (30 days) s.prop24="" // New
+Visitor s.prop25="" // Repeat Visitor s.prop26="" // GeoSegmentation s.prop27="" // Times
+Visited Per Month s.prop28="" // Days Since Last Visit s.prop29="" // Share - Name
+s.prop30="" //Blog Title s.prop31="" // Blog ID s.prop32=_scStrip(blogTitle); // Blog
+Name s.prop33="" // Detail Content Category s.prop34="" // s.prop35="" // s.prop36="" //
+Advertiser Name s.prop37="" // s.prop38="" // s.prop39="" // Playlist Name s.prop40="" //
+Finding Method s.prop41="" // Time s.prop42="" // Day s.prop43="" // s.prop44="" //
+s.prop45="" // s.prop46="" // Channel - Name s.prop47="" // Channel - Partner s.prop48="" //
+Channel - Typed Keyword s.prop49="" // s.prop50="" // s.events="" // Events /********** DO
+NOT ALTER ANYTHING BELOW THIS LINE ! **********/ var
+s_code=s.t();if(s_code)document.write(s_code) //-->
+<!--if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')//-->
+
+Image: http://alm.122.2o7.net/b/ss/almMainDev/1/H.21--NS/0
+
+
+
+Image: http://www.twitterbuttons.com/upload/images/6dc65623fdtwitter-bg-t.png
+
+Image: http://www.buttonshut.com/Facebook-Buttons/Facebook-Buttons-11-2-.png
+
+
+
+
+
+theamlawdaily@alm.com
+
+Feedjit Live Website Statistics
+
+
+
+
+
+
+
+Image: http://www.law.com/img/tal/newsletter/amlawdaily_newsletter.gif
+
+From the Law.com Newswire
+
+maxArticles=5;
+if(maxArticles>NewsHeadlines.length){maxArticles=NewsHeadlines.length;} for (i=
+0;i < maxArticles; i++){ if ( NewsHeadlines[i] != "empty<br>" ){
+document.writeln(NewsHeadlines[i]); } document.writeln("\n<br>"); }
+
+Image: http://www.law.com/img/blog/email_icon_blue.gif Sign up to receive
+
+Legal Blog Watch by email
+
+Image: http://www.law.com/img/blog/white_arrow_orange.gif View a Sample
+
+Advertisement
+
+
+
+<!-- document.write('<sc'+'ript language="JavaScript1.1"
+src="http://ad.doubleclick.net/adj/alm.americanlawyer/amlawdaily;pos=300a;ptype=41;tile=2;sz=300x250;ord='
++ random + '?"><\/s'+'cript>'); // -->
+
+Image:
+http://ad.doubleclick.net/ad/alm.americanlawyer/amlawdaily;pos=300a;ptype=41;tile=2;sz=300x250
+<!-- var extra_happy = Math.floor(1000000000 * Math.random()); document.write('<img
+src="http://www.typepad.com/t/stats?blog_id=1577670&amp;user_id=2881424&amp;page='
++ escape(location.href) + '&amp;referrer=' + escape(document.referrer) + '&amp;i=' +
+extra_happy + '" width="1" height="1" alt="" style="position: absolute; top: 0; left: 0;"
+/>'); // --> Terms and Conditions | Privacy Policy About ALM | About Law.com | Customer Support
+ 
+
+
+
+Image: http://www.law.com/img/universal/alm_footer_logo2009.gif Close [ X ]
+setIASiteCode("TAL"); if (userHasNotSeenAd()) { if
+((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+showAd = false; } else { showAd = true; document.write('<scr' + 'ipt language="JavaScript"
+type="text/javascript"
+src="http://ad.doubleclick.net/adj/alm.americanlawyer/home;pos=500a;ptype=21;tile=20;sz=500x300;ord='
++ random + '?"></scr'+'ipt>'); } }
+if(window.focus){checkIfInterstitialAdShouldRun();} _qoptions = {
+tags:"typepad.core" }; _qacct="p-fcYWUmj5YbYKM"; quantserve();
+
+Image: http://pixel.quantserve.com/pixel/p-fcYWUmj5YbYKM.gif?tags=typepad.core
+var captchaImgAttempts = 0; var allowAnonComments = '0'; var registrationRequired = 0; var
+registrationOptional = 1; var emailRequired = 0; var useAvatars = 0; var
+showSignInMessaging = 0; var jsonURL = "/.services/json-rpc"; var captchaSrc =
+"/.services/captcha?code_encrypted="; var alertCommentCannotBeBlank = "You can not
+leave an empty comment. Please enter some text in the Comment field."; var
+alertEditingExpired = "Sorry, you're no longer allowed to edit this comment. You may have
+taken too much time before submitting your edit or someone may have already replied to it.";
+var alertAuthorCannotBeBlank = "Name must not be blank."; var alertEmailCannotBeBlank =
+"Email Address must not be blank."; var alertAuthorAndEmailCannotBeBlank = "Name and email
+address are both required!"; var alertEmailIsInvalid = "The Email Address you entered is
+invalid. Please enter a valid email address."; var alertUnauthorizedAction = "The comments
+on this post are closed."; var msgPostReplyTo = "Reply to "; var msgInReplyTo = "In reply to ";
+var msgPostAComment = "Post a comment "; var atpCommentsPath =
+"/.shared/js/atpcomments_yui.js?v=5"; var hasChanged = 0; var hostName =
+".typepad.com"; var tp_comment_token =
+"1349258401-4d89282137561c71bd2f918c105087bd5b961123:kCYbVETVFYoB5LE3"; var
+use_recaptcha = 1; var recaptcha_publickey =
+"6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e"; var isPage = 0; var blog_xid =
+"6a00e55044cbaf883400e55030b2068833"; var xid = ""; var injectCode = '<div
+id=\"comment-preview\" class=\"hiddenBox\">\n\t<h3 id=\"header-verify-comment\"
+class=\"comments-header hiddenBox\">Verify your Comment<\/h3>\n <h3
+id=\"header-preview-comment\" class=\"comments-header hiddenBox\">Previewing your
+Comment<\/h3>\n\t<div class=\"comments-content\">\n\t\t<div
+class=\"comment\">\n\t\t\t<div id=\"comment-preview-content\"
+class=\"comment-content\">\n\t\t\t<\/div>\n\t\t\t<p
+class=\"comment-footer\">\n\t\t\t\tPosted by: \n\t\t\t\t<span
+id=\"comment-preview-author\"><\/span>&nbsp;|&nbsp;<span
+id=\"comment-preview-datetime\"><\/span>\n\t\t\t<\/p>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n<div
+id=\"comment-preview-confirmation\" class=\"hiddenBox yellowBox\">\n <p>This is only
+a preview. Your comment has not yet been posted.<\/p>\n \t<form
+id=\"comment-preview-form\"\n \t\tmethod=\"post\"\n
+\t\tonsubmit=\"atpComments.interceptPost(1); return false;\">\n\t\t<input
+type=\"submit\" name=\"post\" id=\"comment-confirm-post\"
+value=\"&nbsp;Post&nbsp;\" onclick=\"atpComments.interceptPost(1); return
+false;\"/>\t\t \n\t\t<input type=\"submit\" name=\"edit\" id=\"comment-edit\"
+value=\"&nbsp;&nbsp;Edit&nbsp;&nbsp;\" onclick=\"atpComments.previewOnly(2);
+return false;\"/>\n <span id=\"previewFormSpinner\" class=\"hiddenBox\"><img
+src=\"/.shared/images/spinner.gif\" alt=\"Working...\"
+/><\/span>\n\t<\/form>\n<\/div>\n<div id=\"comment-error\" class=\"hiddenBox
+redBox\">\t \n Your comment could not be posted. Error type: <span
+id=\"comment-error-msg\"><\/span> \n<\/div>\t\n<div id=\"comment-complete\"
+class=\"hiddenBox redBox\">\n Your comment has been saved. Comments are moderated and will
+not appear until approved by the author. <a href=\"javascript:void 0;\"
+onclick=\"window.location.hash=\'#comment-form\';window.location.reload(false)\">Post
+another comment<\/a>\n<\/div>\t\n<div id=\"comment-captcha\" class=\"hiddenBox
+yellowBox\">\t\n <div id=\"captchaText\">\n\t <p id=\"captchaFailMsg\"
+class=\"captchaErrorText hiddenBox\">The letters and numbers you entered did not match
+the image. Please try again.<\/p>\t \t \n\t <p>As a final step before posting your comment,
+enter the letters and numbers you see in the image below. This prevents automated programs
+from posting comments.<\/p>\n\t <p><span id=\"comment-captcha-viewalt\">Having
+trouble reading this image? <a href=\"#comment-captcha\"
+onClick=\"atpComments.generateReCaptcha();\">View an
+alternate.<\/a><\/span><\/p>\n <\/div>\n <form id=\"comment-captcha-form\" \n\t\t
+method=\"post\"\n\t\t onsubmit=\"atpComments.submitWithReCaptcha(); return
+false;\">\n <div id=\"recaptcha_content\">\n <noscript>\n <iframe
+src=\"6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e\" height=\"300\" width=\"500\"
+frameborder=\"0\"><\/iframe><br />\n <textarea name=\"recaptcha_challenge_field\"
+rows=\"3\" cols=\"40\"><\/textarea>\n <input type=\'hidden\'
+name=\'recaptcha_response_field\' value=\'manual_challenge\' />\n <\/noscript>\n
+<\/div>\n <script type=\"text/javascript\">\n $(document).ready(function() {\n
+Recaptcha.create(\"6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e\",\n
+\"recaptcha_content\", {\n theme: \"red\",\n callback:
+Recaptcha.focus_response_field\n });\n });\n <\/script>\n <p>\n <input
+type=\"submit\" name=\"continue\" id=\"captcha-continue\"
+value=\"&nbsp;Continue&nbsp;\" />\n <span id=\"captchaFormSpinner\"
+class=\"commentSpinner hiddenBox\"><img src=\"/.shared/images/spinner.gif\"
+alt=\"Working...\" /><\/span>\n <\/p>\n <\/form>\n<\/div>\n'; var entryPermalink =
+"http://amlawdaily.typepad.com/amlawdaily/2011/06/cozen-cohen-pontani.html"; var
+inlineReply = document.createElement("div"); var commentFooterLinks; var
+commentHeader; var commentReplyXID; var commentReplyAuthor; var commentReplyComplete;
+var inlineReplyLoaded = 0; var commentFormNum = undefined; /* Deprecated but still exists in
+advanced template sets, so must be defined */ function xidToCommentPermalink (entryUrl,
+xid) { return entryUrl + "?cid=" + xid + "#comment-" + xid; } /* Deprecated advanced template
+functions */ function handleSubmit() { return true; }; function handleChange() { return
+true; }; var TPToolbar = { src:
+"http://www.typepad.com/services/toolbar?blog_id=6a00e55044cbaf883400e55030b2068833&asset_id=6a00e55044cbaf883401538f5577c2970b&atype=Individual&to=http%3A%2F%2Famlawdaily.typepad.com%2Famlawdaily%2F2011%2F06%2Fcozen-cohen-pontani.html&autofollowed=0",
+asset_xid: "6a00e55044cbaf883401538f5577c2970b", bookmarklet_uri:
+"http://static.typepad.com/.shared/js/qp/loader-combined-min.js" }; var
+TYPEPAD___bookmarklet_domain = "http://www.typepad.com/";
+document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ?
+"https://sb" : "http://b") + ".scorecardresearch.com/beacon.js'%3E%3C/script%3E"));
+COMSCORE.beacon({ c1: 2, c2: "6035669", c3: "", c4:
+"http://amlawdaily.typepad.com/amlawdaily/2011/06/cozen-cohen-pontani.html", c5:
+"", c6: "", c15: "" });
+
+Image:
+http://b.scorecardresearch.com/b?c1=2&c2=6035669&c3=&c4=http%3A%2F%2Famlawdaily.typepad.com%2Famlawdaily%2F2011%2F06%2Fcozen-cohen-pontani.html&c5=&c6=&c15=&cv=1.3&cj=1
+

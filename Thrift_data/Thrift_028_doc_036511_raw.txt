@@ -1,0 +1,691 @@
+
+
+
+
+The Great Geek Manual » This Day in Geek History: April 30 var arrAffiliates = { 'com' :
+'thegregeeman-20', 'co.uk' : 'thegregeeman-21', 'de' : 'thegregeema03-21', 'fr' :
+'thegregeema00-21', 'ca' : 'thegregeema0d-20', 'co.jp' : '', 'jp' : '', 'it' : '', 'cn' : '',
+'es' : '' }; var strUrlAjax =
+'http://thegreatgeekmanual.com/blog/wp-content/plugins/amazon-affiliate-link-localizer/ajax.php';
+//<![CDATA[ function external_links_in_new_windows_loop() { if (!document.links) {
+document.links = document.getElementsByTagName('a'); } var change_link = false; var
+force = ''; var ignore = ''; for (var t=0; t<document.links.length; t++) { var all_links =
+document.links[t]; change_link = false;
+if(document.links[t].hasAttribute('onClick') == false) { // forced if the address starts
+with http (or also https), but does not link to the current domain
+if(all_links.href.search(/^http/) != -1 &&
+all_links.href.search('thegreatgeekmanual.com') == -1) { // alert('Changeda
+'+all_links.href); change_link = true; } if(force != '' && all_links.href.search(force)
+!= -1) { // forced // alert('force '+all_links.href); change_link = true; } if(ignore != '' &&
+all_links.href.search(ignore) != -1) { // alert('ignore '+all_links.href); // ignored
+change_link = false; } if(change_link == true) { // alert('Changed '+all_links.href);
+document.links[t].setAttribute('onClick',
+'javascript:window.open(\''+all_links.href+'\'); return false;');
+document.links[t].removeAttribute('target'); } } } } // Load function
+external_links_in_new_windows_load(func) { var oldonload = window.onload; if (typeof
+window.onload != 'function'){ window.onload = func; } else { window.onload = function(){
+oldonload(); func(); } } }
+external_links_in_new_windows_load(external_links_in_new_windows_loop); //]]> /*
+<![CDATA[ */
+jQuery.ajax({type:'GET',url:'http://thegreatgeekmanual.com/blog/wp-admin/admin-ajax.php',data:'postviews_id=21853&action=postviews',cache:false});/*
+]]> */ ggv2id='2c622587'; var infolink_pid = 264971; var infolink_wsid = 0; _uacct =
+"UA-878025-1"; urchinTracker(); _uacct = "UA-878025-2"; urchinTracker();
+
+
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/corner-banner.png
+
+The Great Geek Manual
+
+    
+
+    - Blog
+
+    
+
+ 
+
+This Day in Geek History: April 30
+
+
+
+30 Apr 2012   Geek History
+
+
+
+1006
+
+
+
+Image: http://thegreatgeekmanual.com/images/geekhistory/april/supernova-1006.jpg
+Supernova SN 1006 , the brightest supernova in recorded history, occurs in the southern
+constellation Lupus , near the star Beta Lupi . Chinese and Arabic astronomers note the
+supernova, but the speed of the still-expanding shock wave won’t be measured for nearly a
+millennium. The event is also recorded by observers in Egypt, Iraq, Italy, Japan, and
+Switzerland. From the careful descriptions recorded by Chinese astronomers of how the light
+varies, the Supernova is apparently yellow in color and visible for over a year.
+
+
+
+1665
+
+
+
+Image:
+http://thegreatgeekmanual.com/images/geekhistory/april/the-great-plague-in-london.jpg
+Samuel Pepys makes his first diary reference to the Great Plague in London . “Great fears of
+the sicknesses here in the City, it being said that two or three houses are already shut up. God
+preserve us all.” The diary entries continue throughout the year, documenting the
+terrible conditions in the city as many thousands die, until Winter’s freezing cold
+reduces the number of fleas that spread the disease. The symptoms of the plague begin like
+those of a bad cold. A high fever follows, with vomiting and painful black swellings, called
+buboes appearing in the groin and under the armpits. His diaries will cover a period from
+January 1660 to May 1669. In them, he will also write about the Great Fire of London in 1666.
+
+1796
+
+The first U.S. patent for a pill of any kind is issued to Samuel Lee, Jr., of Connecticut, for a
+“Composition of bilious pills” which he markets as “Lee’s Windham Pills.” The
+pills are highly popular for a long period. An 1803 advertisement for “Doctor Lee’s
+Patent New-London Bilious Pills” will describe them as “Interesting to all sea-faring
+People” and promise to cure a variety of ills, including “foul stomachs, where pukes are
+indicated.”
+
+1878
+
+Louis Pasteur lectures at the French Academy of Science in support of his germ theory of
+disease , in which he holds that many diseases are caused by tiny organisms. Pasteur also
+describes ways to prevent infection, and provides skeptics with an experiment with which to
+prove the theory to themselves.
+
+1883
+
+The Edison Electric Illuminating Co. is incorporated. It will later build the first
+three-wire central station for incandescent lighting in the U.S.
+
+1897
+
+At the Royal Institution Friday Evening Discourse, Joseph John Thomson , first announces the
+existence of what will later be known as electrons . Thomson tells the audience that earlier in
+the year, he had made a surprising discovery. He had found a particle of matter a thousand times
+smaller than the atom. He calls it a corpuscle, meaning “small body.” Although Thomson is
+the director of the Cavendish Laboratory at the University of Cambridge , and one of the most
+respected scientists in Great Britain, the scientists present find the news difficult to
+believe. They believe that the atom is the smallest and most indivisible part of matter in
+existence. Nevertheless, the electron is historically the first elementary particle to be
+discovered.
+
+1935
+
+The two millionth U.S. patent is granted to Joseph Ledwinka for a method of vehicle wheel
+construction.
+
+1938
+
+The cartoon short Porky’s Hare Hunt debuts in movie theaters, introducing Bugs Bunny .
+
+1939
+
+Cosmic rays entering a Geiger-Mueller counter produce electrical impulses used to control
+electrical power. The first ever such event is used for the illumination ceremony of the 1939
+New York World’s Fair. The counter, at the Hayden Planetarium in New York City, switches on
+an electrical circuit wired to a display at the Lagoon of Nations where relays activate local
+battery circuits, ringing bells and flashing lights to signal each capture of a cosmic ray.
+Guest speaker Albert Einstein explains cosmic rays. Unfortunately, his accent and a faulty
+amplification system render his words incomprehensible to the crowd. Upon the tenth ray’s
+signal, a huge light is meant to be turned on to illuminate the 600 foot Trylon triangular
+spire, but the power source fails.
+
+The RCA -owned NBC network launches regular public television service with the formal
+opening of the 1939 New York World’s Fair by President Franklin Roosevelt . (It is the first
+of only two appearances Roosevelt will make on television.) The service will air two hours of
+programs a week, to be received on RCA sets, in order to “to make the art of television
+available to the public.” By the end of the year, a thousand receivers will be sold in the U.S.
+The screens of the receivers are initially only about five inches across.
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/plugins/wp-greet-box/images/rss_icon.png
+Hello there! If you are new here, you might want to subscribe to the RSS feed for updates on this
+topic. Pages: 1 2 3
+
+<!-- google_ad_client = "pub-5458530472845924"; google_ad_width = 250;
+google_ad_height = 250; google_ad_format = "250x250_as"; google_ad_type = "text_image";
+google_ad_channel = ""; google_color_border = "e9e9e9"; google_color_bg = "eeeeee";
+google_color_link = "FF9c00"; google_color_text = "000000"; google_color_url =
+"2f63b3"; //-->
+
+<!-- google_ad_client = "pub-5458530472845924"; google_ad_width = 250;
+google_ad_height = 250; google_ad_format = "250x250_as"; google_ad_type = "text_image";
+google_ad_channel = ""; google_color_border = "e9e9e9"; google_color_bg = "eeeeee";
+google_color_link = "FF9c00"; google_color_text = "000000"; google_color_url =
+"2f63b3"; //-->
+
+/* <![CDATA[ */ var disqus_url =
+'http://thegreatgeekmanual.com/blog/this-day-in-geek-history-april-30'; var
+disqus_identifier = '21853 http://thegreatgeekmanual.com/blog/?p=21853'; var
+disqus_container_id = 'disqus_thread'; var disqus_domain = 'disqus.com'; var
+disqus_shortname = 'greatgeekmanual'; var disqus_title = "This Day in Geek History: April
+30"; var disqus_config = function () { var config = this; // Access to the config object /* All
+currently supported events: * preData â€” fires just before we request for initial data
+* preInit - fires after we get initial data but before we load any dependencies * onInit - fires
+when all dependencies are resolved but before dtpl template is rendered * afterRender - fires
+when template is rendered but before we show it * onReady - everything is done */
+config.callbacks.preData.push(function() { // clear out the container (its filled for
+SEO/legacy purposes) document.getElementById(disqus_container_id).innerHTML = '';
+}); config.callbacks.onReady.push(function() { // sync comments in the background so we
+don't block the page var script = document.createElement('script'); script.async = true;
+script.src = '?cf_action=sync_comments&post_id=21853'; var firstScript =
+document.getElementsByTagName( "script" )[0];
+firstScript.parentNode.insertBefore(script, firstScript); }); }; var
+facebookXdReceiverPath =
+'http://thegreatgeekmanual.com/blog/wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+/* ]]> */ /* <![CDATA[ */ var DsqLocal = { 'trackbacks': [ ], 'trackback_url':
+"http:\/\/thegreatgeekmanual.com\/blog\/this-day-in-geek-history-april-30\/trackback"
+}; /* ]]> */ /* <![CDATA[ */ (function() { var dsq = document.createElement('script');
+dsq.type = 'text/javascript'; dsq.async = true; dsq.src = 'http' + '://' + disqus_shortname
++ '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.73';
+(document.getElementsByTagName('head')[0] ||
+document.getElementsByTagName('body')[0]).appendChild(dsq); })(); /* ]]> */
+
+Add to Social Bookmarks
+
+
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/delicious.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/reddit.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/technorati.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/furl.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/blinklist.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/netscape.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/yahoo_myweb.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/newsvine.png
+
+
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/socializer.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/magnolia.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/stumbleupon.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/google.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/rawsugar.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/squidoo.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/spurl.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/blinkbits.png
+
+
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/netvouz.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/rojo.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/bmarks.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/comments.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/scuttle.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/feedmelinks.png
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/yigg.png
+
+    Image:
+    http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/social/wong.png
+
+    -
+
+    Archives
+
+        
+
+        - October 2012
+
+        
+
+        - September 2012
+
+        
+
+        - August 2012
+
+        
+
+        - July 2012
+
+        
+
+        - June 2012
+
+        
+
+        - May 2012
+
+        
+
+        - April 2012
+
+        
+
+        - March 2012
+
+        
+
+        - February 2012
+
+        
+
+        - January 2012
+
+        
+
+        - December 2011
+
+        
+
+        - November 2011
+
+        
+
+    
+
+    Categories
+
+        
+
+        - Gadgets & More
+
+        
+
+        - T-Shirts
+
+        
+
+        - Geek History
+
+        
+
+        - Geekology
+
+        
+
+        - Geek Reading
+
+        
+
+        - Humor
+
+        
+
+        - Graphical Gags
+
+        
+
+        - Motivational
+
+        
+
+        - Videos
+
+        
+
+        - Webcomic
+
+        
+
+        - Infographics
+
+        
+
+        - Japan 101
+
+        
+
+        - Links
+
+        
+
+        - Media
+
+        
+
+        - Books
+
+        
+
+        - Book Reviews
+
+        
+
+        - Movies
+
+        
+
+        - Music
+
+        
+
+        - Short Films
+
+        
+
+        - Television
+
+        
+
+        - Video Games
+
+        
+
+        - News
+
+        
+
+        - Photo Galleries
+
+        
+
+        - Books
+
+        
+
+        - Quotations
+
+        
+
+        - Rantings
+
+        
+
+        - Science
+
+        
+
+        - Software & Tech
+
+        
+
+    
+
+    
+
+    -
+
+    Related Posts
+
+        
+
+        - April Fool’s Day Link Round-Up
+
+        
+
+        - Picture of the Week: Einstein Tribute
+
+        
+
+        - April Sources
+
+        
+
+        - Motivational Poster: Gaming Obsession
+
+        
+
+    
+
+    
+
+    -
+
+    Sponsors
+
+        
+
+        - Host Color: Multiple Web Site Hosting
+
+        
+
+        - Take home a robot vacuum cleaner from Robomaid.
+
+        
+
+    
+
+    <!-- google_ad_client = "pub-5458530472845924"; google_ad_width = 234;
+    google_ad_height = 60; google_ad_format = "234x60_as"; google_ad_type = "text";
+    google_ad_channel = ""; google_color_border = "E9E9E9"; google_color_bg = "EEEEEE";
+    google_color_link = "FF9C00"; google_color_text = "000000"; google_color_url =
+    "2F63B3"; //-->  
+
+    
+
+
+
+Blog Roll
+
+    
+
+    - Bibliophile Stalker
+
+    
+
+    - The Daily Top 10
+
+    
+
+    - The Geekanerd Blog
+
+    
+
+    - I Can Has Motivation
+
+    
+
+    - (Jeff)isageek
+
+    
+
+    - The Lair of the Evil DM
+
+    
+
+    - Lisa Paitz Spindler
+
+    
+
+    - The Presurfer
+
+    
+
+    - Not So Motivational
+
+    
+
+    - The Science of Fiction
+
+    
+
+    - Weirdwarp
+
+    
+
+    - Coming Soon...
+
+    
+
+    - Coming Soon...
+
+    
+
+    - Coming Soon...
+
+    
+
+    - Coming Soon...
+
+    
+
+
+
+Site Info
+
+    
+
+    - About the Author
+
+    
+
+    - Book Reviews by Author
+
+    
+
+    - Book Reviews by Title
+
+    
+
+    - Contact the Author
+
+    
+
+    - Credits
+
+    
+
+    - Disclaimers and Notices
+
+    
+
+    - Donations
+
+    
+
+    - Hostcolor
+
+    
+
+    - Recommended Reading
+
+    
+
+    - Site Services
+
+    
+
+    - Site Statistics
+
+    
+
+    - Subscribe via E-Mail or RSS
+
+    
+
+
+
+Popular Posts
+
+    
+
+    - Blogging is a lot like Sex...
+
+    
+
+    - Motivational Monday: Humorous Posters
+
+    
+
+    - Picture of the Week: Harry Potter Porn
+
+    
+
+    - Portable Utilities for USB Drives
+
+    
+
+    - Programming is like Sex...
+
+    
+
+    - Neville Longbottom's Favorite Plant
+
+    
+
+    - Seven Unexpected Harry Potter Endings
+
+    
+
+    - Sex Advice from a D&D Player
+
+    
+
+    - Signs the IT Department is out of Hand
+
+    
+
+    - Top Ten Halo Pick-Up Lines
+
+    
+
+    - Top RapidShare Link Communities
+
+    
+
+    - Top Ten Signs a D&D Player is Gay
+
+    
+
+    - Top Ten Turn Down Lines for Geek Chicks
+
+    
+
+    - A Traditional D&D Thanksgiving
+
+    
+
+    - The Ultimate D&D Gaming FlowChart
+
+    
+
+
+
+Image:
+http://thegreatgeekmanual.com/blog/wp-content/themes/notso_freshe/images/hostcolor.gif
+
+508 CSS XHTML
+
+Website Credits & Disclaimers _uacct = "UA-878025-1"; urchinTracker();
+

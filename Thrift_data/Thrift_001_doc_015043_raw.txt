@@ -1,0 +1,2044 @@
+
+
+
+
+#header-wrapper, #header, .header, #sidebar-wrapper, .sidebar, #footer-wrapper,
+#footer, .date-header, .post-meta-data, .comment-link, .comment-footer, #blog-pager,
+#backlinks-container, #navbar-section, .subscribe_notice, .noprint {display: none;}
+#main-wrapper {width: 95%}
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Anali's First Amendment: 4/1/08 if (navigator.userAgent.indexOf('MSIE 6') == -1) {
+WebFontConfig = { google: { families: [ 'Chewy', 'Calligraffitti' ], api:
+'//themes.googleusercontent.com/fonts/css?kit=vLVN2Y-z65rVu1R7lWdvyCajoB6j53e3YUjc-qsw1p4'
+}, loading: function() { if (window.jstiming)
+window.jstiming.load.tick('webfontLoading'); }, active: function() { if
+(window.jstiming) window.jstiming.load.tick('webfontActive'); } }; (function() { var
+wf = document.createElement('script'); wf.src =
+'//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type =
+'text/javascript'; wf.async = 'true'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s);
+})(); } else { document.documentElement.className = 'wf-inactive'; } <!-- /*
+----------------------------------------------- Blogger Template Style Name: Minima
+Designer: Douglas Bowman URL: www.stopdesign.com Date: 26 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff"> <Variable name="textcolor" description="Text Color"
+type="color" default="#333"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#58a"> <Variable name="pagetitlecolor" description="Blog Title
+Color" type="color" default="#666"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#999"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#c60">
+<Variable name="bordercolor" description="Border Color" type="color" default="#ccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#999"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#999"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% Georgia, Serif"> <Variable
+name="headerfont" description="Sidebar Title Font" type="font" default="normal normal
+78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable
+name="pagetitlefont" description="Blog Title Font" type="font" default="normal normal
+200% Georgia, Serif"> <Variable name="descriptionfont" description="Blog Description
+Font" type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="postfooterfont" description="Post Footer Font"
+type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="startSide" description="Side where text starts in blog
+language" type="automatic" default="left"> <Variable name="endSide"
+description="Side where text ends in blog language" type="automatic" default="right"> */
+/* Use this with templates/template-twocol.html */ body { background:#ffffff; margin:0;
+color:#333333; font:x-small Georgia Serif; font-size/* */:/**/small; font-size:
+/**/small; text-align: center; } a:link { color:#b82e2e; text-decoration:none; }
+a:visited { color:#666666; text-decoration:none; } a:hover { color:#666666;
+text-decoration:underline; } a img { border-width:0; } /* Header
+----------------------------------------------- */ #header-wrapper { width:845px;
+margin:0 auto 10px; border:0px solid #ffffff; } #Header1 { margin-left: -100px; }
+#header-inner { background-position: center; margin-left: auto; margin-right: auto; }
+#header { margin: 5px; border: 0px solid #ffffff; text-align: center; color:#191919; }
+#header h1 { margin:5px 5px 0; padding:15px 20px .25em; line-height:1.3em;
+text-transform:uppercase; letter-spacing:.2em; font: normal normal 200% Georgia,
+Serif; } #header a { color:#191919; text-decoration:none; } #header a:hover {
+color:#191919; } #header .description { margin:0 5px 5px; padding:0 20px 15px;
+max-width:940px; text-transform:uppercase; letter-spacing:.2em; line-height: 1.4em;
+font: normal normal 14px Chewy; color: #191919; } #header img { margin-left: auto;
+margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 985px;
+margin:0 auto; padding:10px; text-align:left; font: normal normal 100% Georgia, Serif; }
+#left-sidebar-wrapper { width: 126px; margin-right: 20px; margin-left: 15px; float:
+left; word-wrap: break-word; /* fix for long text breaking sidebar float in IE */ overflow:
+hidden; /* fix for long non-text content breaking IE sidebar float */ } #main-wrapper { width:
+615px; margin-right: 1px; margin-left: 1px; float: left; word-wrap: break-word; /* fix for
+long text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content
+breaking IE sidebar float */ } #sidebar-wrapper { width: 165px; margin-right: 1px;
+margin-left: 1px; float: right; word-wrap: break-word; /* fix for long text breaking
+sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE sidebar
+float */ } /* Headings ----------------------------------------------- */ h2 {
+margin:1.5em 0 .75em; font:normal normal 14px Calligraffitti; line-height: 1.4em;
+text-transform:uppercase; letter-spacing:.2em; color:#999999; } /* Posts
+----------------------------------------------- */ h2.date-header { margin:1.5em 0
+.5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #ffffff;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#666666; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#666666;
+font-weight:normal; } .post h3 strong, .post h3 a:hover { color:#333333; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#999999; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 80% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; line-height: 1.4em; } .comment-link { margin-left:.6em; } .post img {
+padding:4px; border:1px solid #ffffff; } .post blockquote { margin:1em 20px; } .post
+blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #999999; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+#blog-pager-newer-link { float: left; } #blog-pager-older-link { float: right; }
+#blog-pager { text-align: center; } .feed-links { clear: both; line-height: 2.5em; } /*
+Sidebar Content ----------------------------------------------- */ .sidebar { color:
+#666666; line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; }
+.sidebar li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #ffffff; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #ffffff; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 80% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; color: #999999; font-weight: bold; line-height: 1.6em; } .profile-datablock
+{ margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 80% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:940px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\07527165670\46blogName\75Anali\47s+First+Amendment\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://analisfirstamendment.blogspot.com/search\46blogLocale\75en_US\46v\0752\46homepageUrl\75http://analisfirstamendment.blogspot.com/\46vt\75-5479775293375908259',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Image:
+http://3.bp.blogspot.com/-Ig975Fwu_xc/T_iUUU6v3ZI/AAAAAAAAEeU/ECCiY7hboEs/s1600/header.jpg
+
+Dishing up tasty servings of life, food + current events
+
+Pages
+
+    
+
+    - Home
+
+    
+
+    - {About + Contact}
+
+    
+
+    - {Recipe Index}
+
+    
+
+    - {Blogroll}
+
+    
+
+    - {My Life List}
+
+    
+
+    - {Places To Visit}
+
+    
+
+    - {Media Buzz}
+
+    
+
+    - {All Aboard The Arc!}
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png var
+linkwithin_site_id = 3160; (function () { var elem = document.createElement('script');
+elem.type = 'text/javascript'; elem.src =
+'http://www.linkwithin.com/widget.js?rand=' + Math.random();
+document.getElementsByTagName('head')[0].appendChild(elem); })();
+
+Image: http://www.linkwithin.com/pixel.png
+
+register to vote!
+
+
+
+Image:
+http://1.bp.blogspot.com/-GQIInNFJItQ/UGjZaPrC1NI/AAAAAAAAF6I/7aK0kKDetuI/s126/OurTime-Last_Call-sidebar.jpg
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+back to law school
+
+
+
+Image:
+http://3.bp.blogspot.com/-AAeuTAjCAzA/UEDH6rMiSLI/AAAAAAAAFvY/-Opqwjowyg8/s126/back_to_law_school.jpg
+
+A series of interviews that's not just for law students.
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Subway Stories
+
+
+
+Image:
+http://1.bp.blogspot.com/-kFjNNCs2JZw/T_t_WJlnCeI/AAAAAAAAEhI/b2huqrZGQe4/s120/south%2Bstation.jpg
+
+Sharing my adventures on the T
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Currently Reading
+
+
+
+Image:
+http://1.bp.blogspot.com/-1r9jzmk5I8I/UCfnqyigzDI/AAAAAAAAFPE/2EcLiieasY4/s150/Five_Chiefs.jpg
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Recently Watched
+
+
+
+Image:
+http://4.bp.blogspot.com/-nYM3ljOwZLI/UGvBGy5LwDI/AAAAAAAAF60/I_Qh1EE1Vpw/s150/Hereafter.jpg
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://3.bp.blogspot.com/-VHRL7wmRTxc/TtsMXDIlMtI/AAAAAAAAEJE/iI6XMAj-GJ0/s1600/Kwanzaa100x113.jpg
+
+Recipes and Food Stories from the African Diaspora
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+7th World Bread Day
+
+
+
+Image: http://farm9.staticflickr.com/8446/8005854922_b0db76ec7c.jpg
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+sponsors
+
+* * * * * * * * * *
+
+    Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+    rubix.answers.com
+
+        - Top Brands
+
+        - Organic Food Coupons
+
+        
+
+        - Online Travel Deals
+
+        
+
+        - G Adventures Coupon
+
+        
+
+        - Pfaltzgraff Coupon Code
+
+        
+
+        - Expedia Promotional Code
+
+        
+
+    
+
+    
+
+var sn_a = '100075;
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Week of October 1 - 7, 2012
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+~ Science + Cooking 2012: A free public lecture series by chefs + food experts at Harvard on
+Mondays at 7pm through early December.
+
+~ Boston's Public Markets continue up to Thanksgiving. Monday + Wednesday at City Hall Plaza.
+Tuesday + Thursday at Dewey Square. Copley Square Farmers Market takes place Tuesday + Friday
+up to Thanksgiving week as well. The SoWa Open Market is on Sundays through October 28th.
+
+~ See culinary events + farm festivals happening in the Bay State this month.
+
+~ Questions about this blog? If you are a company, before you send me an email, please read the
+FAQ .
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Tuesday, April 29, 2008
+
+
+
+Two Years Blogging + Lunch @ Sauciety
+
+
+
+Image:
+http://2.bp.blogspot.com/_EaTrs3A_q_c/SBc3XGkYCGI/AAAAAAAABXA/CTxp4a6wbPI/s400/menu+forks+glasses+(2).jpg
+
+Today is my two year blog anniversary! I cannot believe that time has passed so quickly. One of
+the best things about blogging is meeting so many new fun people .
+
+
+
+Yesterday I had the best time meeting up with another one of my favorite bloggers. T from the
+blog Notes of an Anesthesioboist ! T is just as lovely and fun as I thought she would be from
+reading her blog. She's an anesthesiologist and writes about work, but she also started
+playing the oboe and writes about that too and all sorts of other interesting things. She loves
+to travel and has a sweet tooth just like me. We were both completely on the same page when it came
+to the menu. Dessert! That was our number one priority.
+
+
+
+But first I have to tell you how we ended up where we ended up. You know I'm always having random
+adventures and yesterday was no different. Okay, so of course I was running late and ended up
+having to drive instead of taking the T, otherwise I would not have made it into Boston on time. I
+was hoping that I'd be able to find a parking space in the garage near where I work, but it was
+full. So I called T and asked her if I could pick her up in front of the cafe where we had planned to
+eat. We could then decide what to do. I felt so bad, because at this point, T has never met me and
+I'm really just a random person and she suddenly had to get into my car.
+
+
+
+Well, my Beetle isn't very scary, so she hopped in anyway. We were in the middle of a ton of
+traffic and it took about three tries just to make it through one light. I suggested that we head
+over to the Fort Point Channel area, because there are supposed to be a lot of restaurants and
+there would be parking. So it's grey and foggy and rainy out and we're driving down Summer
+Street.
+
+
+
+T noticed that there was a Westin Hotel with a parking garage. She said that they usually have
+really good restaurants. So we pulled into the garage, go upstairs and ask if they have a
+restaurant. We were directed to Sauciety . Now we had planned to just have a simple lunch and all
+of a sudden we were going to a really nice restaurant with well-dressed business traveller
+type people. We were both dressed rather casually. Neither of us even knew there was a Westin
+there. The interior is really pretty - wide open spaces with trees and very modern furniture.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_EaTrs3A_q_c/SBc1W2kYCFI/AAAAAAAABW4/zgoNvxTCVUs/s400/sauciety+sign+(2).jpg
+
+
+
+Because T is anonymous on her blog and we didn't plan on any fine dining, I didn't bring my
+camera. I was just going to take a few shots of our meal with my camera phone, so these aren't the
+best pictures. By now I should know to always bring my camera no matter what. Lesson learned
+again!
+
+
+
+At this point, we are laughing and can't believe the little adventure that we've had and that we
+wound up at The Westin. It was so incredibly random. We spoke about how sometimes in life you end
+up in a place far different than you ever planned, but that maybe you end up where you're
+supposed to be. So we were meant to be in elegant surroundings.
+
+
+
+When you walk to the entrance of Sauciety , instead of a regular sign, they have the name
+projected in lights on the wall. It looks far better than my picture. We asked to look at the
+menu. We were given the lunch menu , which looked fine, but we were both rather alarmed that we
+didn't see any dessert. We asked about it and were given a dessert menu . It looked amazing! T
+decided on the crÃšme bruleÃ© trio and I knew that I had to try the cappuccino intrigue .
+
+
+
+So based on the dessert, we decided to go in. Again, with our focus being on the dessert, we
+decided to use our calories wisely and split the market salad with champagne vinaigrette and
+the crispy calamari . I just can't get excited over salad when there's dessert to talk about,
+but the vinaigrette was quite tasty. The calamari was good, but extremely salty, so I only had a
+few pieces.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_EaTrs3A_q_c/SBc-C2kYCHI/AAAAAAAABXI/GR168Bz0xlk/s400/dessert+collage.jpg
+
+
+
+Oh and I almost forgot about our waiter! He brought us the bill while we were eating. Isn't he
+supposed to upsell with dessert? Maybe he was so disappointed in us, because we both only had
+water for drinks and we split appetizers. So we told him we wanted dessert and he gave us both
+very disapproving looks. That was really odd. Did he think we didn't deserve dessert?
+
+
+
+Anyway, we got our desserts and they were both wonderful! I don't think I can quite capture the
+intrigue of the cappuccino intrigue . When you get to the middle, you suddenly see the
+chocolate sauce dribbling out. Ah, the intrigue! It was so fun! I especially wanted to capture
+it in a picture, but maybe when T writes up her post, her pictures will be better. She did bring
+her camera. So that was my lunch adventure with T . I hope we can do it again soon.
+
+
+
+*Updated* - T has written up a fun post about our meet-up. Read it here .
+
+
+
+
+
+Anali's First Amendment © 2006-2008. All rights reserved.
+
+
+
+This Post's Link
+
+
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Two Years Blogging + Lunch @ Sauciety var a2a_config = a2a_config ||
+{};a2a_config.linkname_escape=1;a2a_config.linkurl="http://analisfirstamendment.blogspot.com/2008/04/two-years-blogging-lunch-sauciety.html";
+Posted by Lisa Johnson at 10:03 AM 22 dollops of whipped cream
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Labels:
+blog anniversary , blogmeet , Boston , Notes of an Anesthesioboist , restaurants , Sauciety ,
+The Westin
+
+Friday, April 25, 2008
+
+
+
+Subway Stories - Couples
+
+
+
+Image:
+http://1.bp.blogspot.com/_EaTrs3A_q_c/SBHdgWkYCEI/AAAAAAAABWw/I-OMoRXZdTs/s400/South+Station+Entrance.jpg
+
+
+
+I haven't written any tales from the T in quite some time, because nothing particularly
+remarkable has happened. Well I don't know what was in the air last night or in the stars, but I
+couldn't help but noticing three couples arguing. Maybe they weren't arguing, but just
+having animated conversations at a heightened volume. I don't know.
+
+
+
+Walking down Summer Street towards South Station, to my left I heard a woman talking rather
+loudly. She said, "You always do that!" Then he denied it. She was tall and they were both
+wearing very casual clothes. I was walking really fast, so I didn't hear much else. Then at the
+entrance to South Station to my right, a dressed up couple was talking really loudly too. I was
+more focused on making my train than listening to them, so I couldn't hear what they were
+saying. I should have lingered a bit, because I waited twenty minutes for the train.
+
+
+
+When I got out at Wollaston, there was another couple at the entrance talking loudly. But they
+could have just been playing around, because they seemed to be sort of wrestling with each
+other. It's interesting seeing these little snapshots of people's lives.
+
+
+
+My curiosity about the possible planetary influences last night got the best of me, so I just
+found an astrological prediction for yesterday. There was something going on! Look here .
+Below is an excerpt from KT theAstrologer at BlogHer.
+
+"Well, it’s here at last — Mars opposing Jupiter. About ten days ago I posted a list of
+keyword phrases for these two can-do planets. At the risk of being repetitive, here are just a
+few of the myriad possibilities for the energy being created today: increased aggression and
+pushing things too far."
+
+Did anyone else notice these types of interactions last night?
+
+
+
+
+
+Anali's First Amendment © 2006-2008. All rights reserved.
+
+
+
+This Post's Link
+
+
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Subway Stories - Couples var a2a_config = a2a_config ||
+{};a2a_config.linkname_escape=1;a2a_config.linkurl="http://analisfirstamendment.blogspot.com/2008/04/subway-stories-couples.html";
+Posted by Lisa Johnson at 9:23 AM 8 dollops of whipped cream
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Labels:
+astrology , Boston , couples , Massachusetts , Red Line , South Station , Subway Stories
+
+Tuesday, April 22, 2008
+
+
+
+Happy Earth Day!
+
+I couldn't let Earth Day pass without saying something about the day. Our planet certainly is
+in peril, so I'm sure that most of us are trying to make changes, no matter how small, whenever we
+can.
+
+
+
+I stopped buying bottled water and bought a reusable plastic bottle. Although now with the
+current discussion about the dangers of plastic bottles containing BPA , I may have to replace
+this bottle with a safer one. I've only recently become aware of these dangers even though
+articles like this one were discussing it back in 2003. I'll have to do some searching for a safe
+reusable plastic bottle.
+
+
+
+In this post from last year , I mentioned that I bought some bamboo sheets, which are supposed to
+be environmentally friendly. Although, this article adds some doubt to all the green claims.
+Anyway, I really like these sheets . They are very soft, cool in the summer, and warm in the
+winter.
+
+
+
+In the end, I don't know how much my green efforts help the earth. It seems that for every good
+that I intend, there is often a downside too. All I can do is keep trying. Kermit knew what he was
+talking about when he said that it wasn't easy being green .
+
+
+
+Anali's First Amendment © 2006-2008. All rights reserved.
+
+
+
+This Post's Link
+
+
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Happy Earth Day! var a2a_config = a2a_config ||
+{};a2a_config.linkname_escape=1;a2a_config.linkurl="http://analisfirstamendment.blogspot.com/2008/04/happy-earth-day.html";
+Posted by Lisa Johnson at 10:39 AM 10 dollops of whipped cream
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Labels:
+bamboo sheets , BPA , Earth Day , environment , plastic
+
+The Philadelphia Brand
+
+
+
+Image:
+http://1.bp.blogspot.com/_EaTrs3A_q_c/SA3gdWkYCBI/AAAAAAAABWY/8bQhXOyT09I/s400/muffin+on+plate.jpg
+
+
+
+When I think about the Philadelphia Sound , the first song that comes to my mind is Disco Inferno
+by The Trammps . I loved that song! The refrain, "Burn baby burn" and those horns playing in the
+background are ingrained in memories of my youth. Watch the video here and enjoy a real
+classic.
+
+
+
+According to the Wikipedia entry, the song first came out in 1976, which I remember as being the
+year of the Bicentennial . The 4th of July was huge that year! I think that my parents brought me
+and my brother to Plimouth Plantation at one point and also to see the Tall Ships. It seemed like
+that summer was filled with activity and music and fun. I remember wanting to see the Liberty
+Bell in Philadelphia . We didn't go and I've still never seen it. Philadelphia is also the
+hometown of two of my favorite artists, Jill Scott and Will Smith . What is it about
+Philadelphia?
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_EaTrs3A_q_c/SA3f-mkYCAI/AAAAAAAABWQ/rj72_YUSQzk/s400/muffin+collage.jpg
+
+
+
+Well last night, I came home from work and made Raspberry-Cream Cheese Muffins . See the
+original recipe here . Many of my groceries are the store brand, because they are cheaper and
+usually taste the same as the more expensive brands. As I was combining the ingredients, I
+realized that I was NOT using Philadelphia Cream Cheese ! That brand really sticks in your
+mind. And I think I even saw one of their angel commercials while I was watching Medium . Love
+that show!
+
+
+
+Then of course, today is the Pennsylvania Primary . The day we Democrats have anticipated for
+more than a month. Subconsciously politics and food get combined in my head. Or maybe food and
+everything get combined in my head? Hmmm. Well, I don't expect Obama to win today, but I hope
+that the votes will be close. Maybe even a tie. Now wouldn't that be something? By the way, these
+muffins are delicious.
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_EaTrs3A_q_c/SA3fw2kYB_I/AAAAAAAABWI/08ojHgY6k14/s400/muffins+baked.jpg
+
+
+
+Raspberry-Cream Cheese Muffins
+
+(adapted from Cooking.com)
+
+
+
+2 cups flour
+
+1/2 cup light brown sugar
+
+2 tsp. baking powder
+
+1/4 tsp. baking soda
+
+1/4 tsp. salt
+
+3/4 cup light cream cheese
+
+2 eggs
+
+3/4 cup vanilla rice milk
+
+1/2 tsp. vanilla
+
+1 cup frozen raspberries
+
+
+
+In large bowl, combine cream cheese, eggs, and sugar with spoon. The cream cheese will remain
+in clumps. Add milk, and vanilla. Stir well. Add salt, soda, powder, and flour. Stir just until
+combined, then stir in raspberries. Pour batter into prepared muffin pans and bake at 400
+degrees for twenty minutes.
+
+
+
+
+
+Anali's First Amendment © 2006-2008. All rights reserved.
+
+
+
+This Post's Link
+
+
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+The Philadelphia Brand var a2a_config = a2a_config ||
+{};a2a_config.linkname_escape=1;a2a_config.linkurl="http://analisfirstamendment.blogspot.com/2008/04/philadelphia-brand.html";
+Posted by Lisa Johnson at 7:27 AM 8 dollops of whipped cream
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Labels:
+baking , Barack Obama , Democrat , muffins , Pennsylvania Primary , Philadelphia , voting
+
+Monday, April 21, 2008
+
+
+
+Beans + Sprouts
+
+
+
+Image:
+http://4.bp.blogspot.com/_EaTrs3A_q_c/SA3BoGkYB6I/AAAAAAAABVg/yAL0GDpLUN0/s400/sprouts+%2B+beans+cooked.jpg
+
+Back in the fall, I saw this post for a quick vegetable dish and filed it away to try later.
+Recently I started thinking about a can of cannellini beans that I had sitting in my cupboard. I
+also had some Brussel sprouts. Then I remembered this recipe.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_EaTrs3A_q_c/SA3CHWkYB7I/AAAAAAAABVo/wrAQNphSrCs/s400/veggies+in+collander.jpg
+
+
+
+I didn't follow the recipe exactly. I sauteed the rinsed beans and quartered sprouts in a
+little butter, sesame oil, and some lemon olive oil too. I added just a pinch of salt and
+sprinkled some pepper. These are really good and the colors are warm and Spring-like. I'll
+definitely make them again soon.
+
+
+
+
+
+Anali's First Amendment © 2006-2008. All rights reserved.
+
+
+
+This Post's Link
+
+
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Beans + Sprouts var a2a_config = a2a_config ||
+{};a2a_config.linkname_escape=1;a2a_config.linkurl="http://analisfirstamendment.blogspot.com/2008/04/beans-sprouts.html";
+Posted by Lisa Johnson at 12:23 AM 8 dollops of whipped cream
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Labels:
+Brussel sprouts , cooking , food , recipes , vegetables
+
+Thursday, April 17, 2008
+
+
+
+Dreaming About The Candidates
+
+I just found the coolest blog and had to share it with you guys. Click here to see it.
+
+
+
+It's called The Metaphysical Poll and it's broken into three different blogs. You can read
+random peoples' dreams about the presidential candidates. If you had a dream about either one
+of them, or the election in general, you can submit yours and share it with the world.
+
+
+
+Check out I Dream of Barack , I Dream of Hillary , and I Dream of McCain .
+
+
+
+After everyone watching the debate tonight, I'm sure many of us may just find ourself dreaming
+about one of them.
+
+
+
+There is even some dream analysis. Here is a portion edited for clarity.
+
+
+
+"Analyzed in these terms, the most frequent emotions in the Hillary dreams are fear (34) and
+confusion (34), followed by happiness (23), sadness (16), and anger (15).
+
+
+
+For Barack, the most frequent emotion is happiness (35), then confusion (28), fear (20),
+anger (16), and sadness (9)...
+
+
+
+W]hat stands out is the high happiness and low fear in the Barack dreams and the high confusion
+in the Hillary dreams. No one would deny, I think, that Hillary’s campaign has been
+surprised by Obama’s rise and unsure of how to regain her once formidable lead.
+
+
+
+Nor could anyone who’s attended an Obama rally dispute the idea that he’s trying to banish
+people’s fears and stimulate their hopes. Perhaps one could say the Barack dreamers are too
+happy and not scared enough—that’s a charge made by his “realist” critics."
+
+I'm getting ready to go to sleep and it's definitely NOT 3:00 am. I wonder if I'll dream about the
+debate? Did any of you?
+
+
+
+Anali's First Amendment © 2006-2008. All rights reserved.
+
+
+
+This Post's Link
+
+
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Dreaming About The Candidates var a2a_config = a2a_config ||
+{};a2a_config.linkname_escape=1;a2a_config.linkurl="http://analisfirstamendment.blogspot.com/2008/04/dreaming-about-candidates.html";
+Posted by Lisa Johnson at 1:12 AM 10 dollops of whipped cream
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Labels:
+Barack Obama , blog , dreaming , Hillary Clinton , John McCain , politics
+
+Tuesday, April 15, 2008
+
+
+
+Waffling On Tax Day
+
+
+
+Image:
+http://4.bp.blogspot.com/_EaTrs3A_q_c/SATZnUqMuoI/AAAAAAAABUg/1ZEqWUT_MnE/s400/waffle+overflow.jpg
+
+No, I didn't waffle on filing my taxes. They are finally done! But I did make waffles for
+breakfast. And since they are a nice golden color, I thought they'd be perfect for my
+submission to A Taste Of Yellow .
+
+
+
+Image:
+http://2.bp.blogspot.com/_EaTrs3A_q_c/SATdi0qMurI/AAAAAAAABU4/tcO1rutLMSY/s200/yellow_logo_3.jpg
+
+Barbara's annual event helps raise cancer awareness as part of LiveSTRONG Day , which is May
+13th this year.
+
+
+
+Click here to read my submission from last year. Look here to read last years' roundup of
+submissions by 149 food bloggers.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_EaTrs3A_q_c/SATaKUqMupI/AAAAAAAABUo/4mGcz4TSv0Q/s400/cooked+waffles.jpg
+
+
+
+These Rice Milk Brown Sugar Waffles were really good. Very light and crisp on the outside, but
+tender on the inside.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_EaTrs3A_q_c/SATbUUqMuqI/AAAAAAAABUw/qz3396-9zs0/s400/waffles+%2B+strawberries.jpg
+
+
+
+I used this recipe , but with vanilla rice milk in place of buttermilk and I reduced the salt to
+half a teaspoon.
+
+
+
+Anali's First Amendment © 2006-2008. All rights reserved.
+
+
+
+This Post's Link
+
+
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Waffling On Tax Day var a2a_config = a2a_config ||
+{};a2a_config.linkname_escape=1;a2a_config.linkurl="http://analisfirstamendment.blogspot.com/2008/04/waffling-on-tax-day.html";
+Posted by Lisa Johnson at 12:10 PM 15 dollops of whipped cream
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Labels:
+A Taste Of Yellow , blog event , bloggers , breakfast , LiveStrong Day - 2008 , taxes , waffles
+
+Sunday, April 13, 2008
+
+
+
+I Like Cookie Dough More Than Cookies
+
+
+
+Image:
+http://1.bp.blogspot.com/_EaTrs3A_q_c/SAIh8EqMunI/AAAAAAAABUY/5fpPxpFfJo0/s400/cookie+dough.jpg
+
+This reminds me of a confession that I should be sending to PostSecret . But it's my truth and I
+own it.
+
+
+
+If you've never visited PostSecret , it's a pretty interesting phenomenon, but kind of tragic
+sometimes. This post grossed me out. Why did it have to be about cookbooks?
+
+
+
+This CVS post I found quite funny in particular. The CVS Coupon Post that I wrote has given me
+more hits on this blog than any other. It's the post that keeps on giving. However the bitter
+anonymous comments are starting to pile up and I don't know how to respond to them anymore.
+
+
+
+And yes, I did say bitter . Hopefully I won't have to explain myself later like Obama. The
+controversey is now being referred to as Bitter-gate . The insanity of this campaign is
+astonishing.
+
+
+
+And I just learned via Jack & Jill Politics that a new website has just gone up called Bitter
+Voters For Obama ! Their motto is the following.
+
+"Bitter, and proud of it. Clinton says we're 'resilient,' but we can't take it any more. McCain
+says 'let em eat Lemons,' but what we really need is a leader who can turn lemons into lemonade:
+Barack Obama." That sounds good to me! They're even selling T-shirts already. Well, God bless
+America.
+
+
+
+And moving from the bitter turning to sweet, back to the really sweet, here is the recipe for the
+cookie dough. Or cookies if you must bake them. I cut the amounts in half, except I kept the
+amount of almond extract the same. I used white chocolate chips and didn't have any almonds.
+Enjoy!
+
+
+
+Anali's First Amendment © 2006-2008. All rights reserved.
+
+
+
+This Post's Link
+
+
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+I Like Cookie Dough More Than Cookies var a2a_config = a2a_config ||
+{};a2a_config.linkname_escape=1;a2a_config.linkurl="http://analisfirstamendment.blogspot.com/2008/04/i-like-cookie-dough-more-than-cookies.html";
+Posted by Lisa Johnson at 11:07 AM 6 dollops of whipped cream
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Labels:
+baking , Barack Obama , bitter , Bitter Voters For Obama , Bitter-gate , comments , cookies ,
+coupons , CVS , politics , PostSecret
+
+Friday, April 11, 2008
+
+
+
+I Love Boston In The Springtime
+
+
+
+Image:
+http://2.bp.blogspot.com/_EaTrs3A_q_c/R_9-i8M9X3I/AAAAAAAABUQ/EnATdzJLwM4/s400/blossoms.jpg
+
+Check out some more Spring photos on flickr .
+
+
+
+
+
+Anali's First Amendment © 2006-2008. All rights reserved.
+
+
+
+This Post's Link
+
+
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+I Love Boston In The Springtime var a2a_config = a2a_config ||
+{};a2a_config.linkname_escape=1;a2a_config.linkurl="http://analisfirstamendment.blogspot.com/2008/04/i-love-boston-in-springtime.html";
+Posted by Lisa Johnson at 10:57 AM 7 dollops of whipped cream
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Labels:
+Back Bay , Boston , flowers , Massachusetts , Spring , trees
+
+Wednesday, April 09, 2008
+
+
+
+Not Mine
+
+
+
+Image:
+http://1.bp.blogspot.com/_EaTrs3A_q_c/R_zW9553roI/AAAAAAAABUI/tPCe8UmUg0A/s200/Receipt.jpg
+
+If you checked out my most recent post on Leap183 , you'll see a few plastic and paper bags on the
+floor. For my normal weekly grocery shopping I go to Stop & Shop . I always ask for paper and
+plastic. I hate when they don't after I ask. My reason is so that the bags are sturdy enough to
+make it all the way from my car and up the stairs to my apartment. I've had several rips with just
+plain single paper or single plastic. It's not fun. Also, instead of buying trash bags, I
+re-use the grocery bags.
+
+
+
+Another use for the bags is to cover the floor when I repot my plants. Which I did on Monday with
+one plant that had not been repotted for at least four years. It was really time. Anyway, when I
+was grabbing a bag, this store receipt fell out. My first thought was that I hadn't seen it
+before, so I didn't deduct the amount from my check book. Eeek!
+
+
+
+Luckily I looked at the total, which was way more than I spend and I didn't recognize the types of
+items. Shortbread cookies from the Bakeshop and Dark Ring Ding Jr. I didn't even know Dark Ring
+Ding Jr.'s existed! They do sound good though! I don't think I've bought Ring Dings since high
+school. I used to love most of the Drake's Cakes - Yodels and Devil Dogs too. I ate one of Drake's
+Cakes everyday during Study. Those are some nice memories actually...
+
+
+
+And I loved the shortbread cookies that I made , but I'm not usually a huge fan and probably
+wouldn't buy them at the store. Especially since they're so easy to make. For the rare times
+when I buy cookies at the store, it's usually chocolate-chip because I need them immediately.
+
+
+
+So after this thorough food analysis, I realized that this was not my receipt. Also, there are
+beef baby back ribs and I don't eat beef. It's funny what you can learn about someone from what
+they buy or don't buy at the grocery store. I always find it fascinating what other people put
+into their carts. And people have commented on things that I've bought too. Rice milk for
+instance. One of the cashiers asked me a ton of questions.
+
+
+
+Do you notice what's in other peoples' carts or look at the food in front of yours at the
+register? Do you ever look at the person to match them up with their food? Does it look like
+that's what they actually eat? Maybe it's just me...
+
+
+
+I just learned via my cousin Enyasi , that the James Beard Award Nominees were recently
+announced. Now this is a nice reference list if you plan to do some cookbook shopping. I'm going
+to go take another look.
+
+
+
+*Updated 4/11/08* - Suldog's comment reminded me of this cool blog and book that has
+collections of peoples' grocery lists. Find it here .
+
+
+
+Anali's First Amendment © 2006-2008. All rights reserved.
+
+
+
+This Post's Link
+
+
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Not Mine var a2a_config = a2a_config ||
+{};a2a_config.linkname_escape=1;a2a_config.linkurl="http://analisfirstamendment.blogspot.com/2008/04/not-mine.html";
+Posted by Lisa Johnson at 10:41 AM 12 dollops of whipped cream
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Labels:
+Devil Dogs , Drake's Cakes , food , groceries , James Beard Award Nominees , plants , Ring Dings ,
+shopping , Stop + Shop , Yodels
+
+Monday, April 07, 2008
+
+
+
+What would happen if ...
+
+
+
+Image:
+http://1.bp.blogspot.com/_EaTrs3A_q_c/R_q-mZ53rfI/AAAAAAAABS8/P2X2Pg-0H-8/s400/SVC3.jpg
+
+If I tried to make a slightly healthier version of my adapted version of the famous Swedish
+Visiting Cake . And what if I used a smaller and taller pan to make it even cuter?
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_EaTrs3A_q_c/R_rBmZ53rgI/AAAAAAAABTE/PfO0J9HfElU/s400/SVC4.jpg
+
+
+
+This is what happened. It's a mini-cake! Or a GIGANTIC cupcake! And it was still really good.
+I'm having so much fun with this cake. Below is the recipe at the moment. I'm sure I'll think of
+something new to do with it next week. I think I'm becoming obsessed with this recipe.
+
+
+
+It's getting to be almost as bad as the World Peace Cookies ! I'm going to refer to my version of
+this cake as the Pi version, because I think that I'll be baking and adapting this cake
+infinitum.
+
+
+
+Swedish Visiting Cake - The Pi Version
+
+( Adapted from Dorie Greenspan )
+
+
+
+1/2 stick unsalted butter = 4T or 1/4 cup (melted)
+
+1/4 cup vanilla yogurt
+
+1/4 cup Splenda
+
+scant 3/4 cup sugar
+
+2 eggs
+
+2 tsp. vanilla extract
+
+1/4 tsp. salt
+
+1 cup flour
+
+scant 1/4 cup sweetened flaked coconut (for topping)
+
+
+
+Combine all ingredients except for coconut in medium bowl. Stir well. I used a large ceramic
+ramekin to bake this. I think that's still the correct term even if it's not individually
+sized. Please correct me if I'm wrong. It took longer than before to bake - close to an hour at 350
+degrees.
+
+
+
+Let cool before removing from pan. Top with coconut and admire the sheer cuteness of this
+little cake.
+
+
+
+*Updated* Starbucks is giving out free coffee tomorrow! Below is an excerpt from this press
+release .
+
+"Visit any participating U.S. Starbucks store on Tuesday, April 8 at 9 a.m. Pacific Time (12
+p.m. Eastern Time) and Starbucks will give all customers a complimentary short (8 oz.) cup of
+the new Pike Place Roast™ to enjoy as they participate in a simultaneous, nationwide,
+coast-to-coast, coffee tasting conducted by Starbucks coffee experts."
+
+Hopefully all tips will go to the, ahem, correct parties.
+
+
+
+Anali's First Amendment © 2006-2008. All rights reserved.
+
+
+
+This Post's Link
+
+
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+What would happen if ... var a2a_config = a2a_config ||
+{};a2a_config.linkname_escape=1;a2a_config.linkurl="http://analisfirstamendment.blogspot.com/2008/04/what-would-happen-if.html";
+Posted by Lisa Johnson at 8:22 PM 6 dollops of whipped cream
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Labels:
+baking , cake , Dorie Greenspan , Pi Version , single layer cakes , Starbucks , Swedish Visiting
+Cake , tips
+
+A Very Sexy Event
+
+
+
+Image:
+http://4.bp.blogspot.com/_EaTrs3A_q_c/R_qVvJ53rdI/AAAAAAAABSs/goCbu5TMwFY/s200/strawberryseductionlogo.jpg
+
+The Strawberry Seduction Roundup is finally here! Click here to take a seat at Mikes's Table
+and enjoy the view.
+
+
+
+Anali's First Amendment © 2006-2008. All rights reserved.
+
+
+
+This Post's Link
+
+
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+A Very Sexy Event var a2a_config = a2a_config ||
+{};a2a_config.linkname_escape=1;a2a_config.linkurl="http://analisfirstamendment.blogspot.com/2008/04/very-sexy-event.html";
+Posted by Lisa Johnson at 5:41 PM 3 dollops of whipped cream
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Labels:
+blog event , Mike's Table , Roundup , strawberries , Strawberry Seduction
+
+Friday, April 04, 2008
+
+
+
+Chai Tea Oatmeal
+
+
+
+Image:
+http://4.bp.blogspot.com/_EaTrs3A_q_c/R_ZQIJ53rcI/AAAAAAAABSk/Q4wR0dW6_6Y/s400/chai+oatmeal.jpg
+
+Last night I made some chai tea. Not real chai tea. I have tea bags. I do plan on making some from
+scratch soon though. I've been saving recipes for the past few weeks.
+
+
+
+So anyway, I use vanilla rice milk and add a chai tea bag. I was so tired last night, I forgot that I
+was steeping the tea until I was ready to go to sleep. So I just put some plastic wrap over the cup
+and stuck it in the fridge.
+
+
+
+This morning, I was making my oatmeal and getting ready to put in the rice milk. I figured that
+I'd try the chai tea instead. It's really good! I added some raisins and brown sugar and the
+oatmeal had some extra spice. Plus the smell was wonderful. Just another idea to add some
+excitement to your morning oatmeal.
+
+
+
+*Updated 1/2/10* This is old news, but this photo is on TasteSpotting too!
+
+
+
+Anali's First Amendment © 2006-2008. All rights reserved.
+
+
+
+This Post's Link
+
+
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Chai Tea Oatmeal var a2a_config = a2a_config ||
+{};a2a_config.linkname_escape=1;a2a_config.linkurl="http://analisfirstamendment.blogspot.com/2008/04/chai-tea-oatmeal.html";
+Posted by Lisa Johnson at 11:56 AM 20 dollops of whipped cream
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Labels:
+breakfast , chai tea , food , oatmeal
+
+Wednesday, April 02, 2008
+
+
+
+A Free Burrito!
+
+
+
+Image:
+http://3.bp.blogspot.com/_EaTrs3A_q_c/R_RAvZ53rbI/AAAAAAAABSc/Hv0GQEPEQdA/s400/Chipotle.jpg
+
+I'm not a huge fan of Mexican food. I do enjoy it, but I usually don't crave it like I do Italian or
+seafood. When I got home from work today, I received the usual junk mail and bills, but I also
+received this very stylish advertisement, well more like an invitation. It was addressed to
+"Resident" so it wasn't really for me personally, but I do reside here and will take free stuff
+where I can get it.
+
+
+
+To whoever designed this campaign, "Good job!" I'm assuming that the restaurant Chipotle
+sent these out to everyone in the area. I don't live near Brighton and I'm usually not in that
+area, but the next time I'm sort of in the area, I think I'll stop by Chipotle to take a look and a
+taste. The menu looks very simple, but good. Have any of you tried this place?
+
+
+
+Anali's First Amendment © 2006-2008. All rights reserved.
+
+
+
+This Post's Link
+
+
+
+
+
+Image: //assets.pinterest.com/images/PinExt.png
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+A Free Burrito! var a2a_config = a2a_config ||
+{};a2a_config.linkname_escape=1;a2a_config.linkurl="http://analisfirstamendment.blogspot.com/2008/04/free-burrito.html";
+Posted by Lisa Johnson at 10:25 PM 17 dollops of whipped cream
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Labels:
+Brighton , Chipotle , Cleveland Circle , free stuff , Massachusetts , restaurants Newer Posts
+Older Posts Home Subscribe to: Posts (Atom) window.___gcfg = {'lang':
+'en_US'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+About Me
+
+
+
+    Image:
+    http://2.bp.blogspot.com/-cQybXRQOU1M/TnEFDT1h4dI/AAAAAAAAECc/_qnv5Yoefnw/s220/twitter%2Bphoto%2BJuly%2B2011.jpg
+
+        Lisa Johnson
+
+    
+
+        Welcome to the blog! Learn a little more here .
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+A Must-Read Local Food Blog
+
+“Lisa’s site has great newsy content, keeping you up-to-date on all the latest food
+events happening in the city. She also shares delicious dessert recipes like Lemon Marmalade
+Filled Walnut Scones and how to make a great picnic.”
+
+
+
+~ BostInno , August 2012
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+#mc_embed_signup{background:#fff; clear:left; font:14px
+Helvetica,Arial,sans-serif; } /* Add your own MailChimp form style overrides in your site
+stylesheet or in this style block. We recommend moving this block and the preceding CSS link to
+the HEAD of your HTML file. */ Subscribe to our mailing list
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Monthly Archives
+
+Monthly Archives October 2012 (2) September 2012 (18) August 2012 (23) July 2012 (18) June
+2012 (9) May 2012 (10) April 2012 (11) March 2012 (11) February 2012 (11) January 2012 (10)
+December 2011 (9) November 2011 (6) October 2011 (8) September 2011 (11) August 2011 (13) July
+2011 (14) June 2011 (15) May 2011 (12) April 2011 (18) March 2011 (17) February 2011 (16)
+January 2011 (16) December 2010 (23) November 2010 (19) October 2010 (20) September 2010 (16)
+August 2010 (19) July 2010 (18) June 2010 (17) May 2010 (23) April 2010 (11) March 2010 (16)
+February 2010 (21) January 2010 (18) December 2009 (13) November 2009 (13) October 2009 (13)
+September 2009 (8) August 2009 (11) July 2009 (12) June 2009 (11) May 2009 (19) April 2009 (13)
+March 2009 (14) February 2009 (14) January 2009 (18) December 2008 (16) November 2008 (15)
+October 2008 (19) September 2008 (6) August 2008 (13) July 2008 (17) June 2008 (15) May 2008
+(12) April 2008 (14) March 2008 (19) February 2008 (26) January 2008 (16) December 2007 (15)
+November 2007 (32) October 2007 (17) September 2007 (11) August 2007 (13) July 2007 (12) June
+2007 (14) May 2007 (11) April 2007 (12) March 2007 (13) February 2007 (15) January 2007 (13)
+December 2006 (12) November 2006 (16) October 2006 (13) September 2006 (15) August 2006 (12)
+July 2006 (15) June 2006 (17) May 2006 (9) April 2006 (1)
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://www.blogher.com/files/BH_Syndicate_2-1_0.jpg
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/27165670/posts/default"; holder.commentFeed =
+"http://www.blogger.com/feeds/27165670/comments/default"; holder.currentBlogUrl =
+"http://analisfirstamendment.blogspot.com/"; holder.currentBlogId = "27165670";
+return holder; }); } if (!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#666666"; skin['ENDCAP_LINK_COLOR'] = "#b82e2e";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#b82e2e"; skin['CONTENT_TEXT_COLOR'] =
+"#666666"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#b82e2e";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#191919"; skin['CONTENT_HEADLINE_COLOR'] =
+"#666666"; skin['FONT_FACE'] = "normal normal 100% Georgia, Serif";
+google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-thr2sc45nuoe",
+height: 260, site: "11183274225406516059", locale: 'en_US' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://i515.photobucket.com/albums/t357/sitsgirls/SS_150x150_button.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Instagram
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Morning Coffee
+
+    
+
+    - Flickr Breakfast Pool Antica Dolceria Bonajuto 4 hours ago
+
+    
+
+    - A CUP OF JO
+
+    Image:
+    http://2.bp.blogspot.com/-9FqZD_jzZoU/UGuq5dpH-BI/AAAAAAAAx4A/jW3F8llgHec/s72-c/cupofjo-fall-shoes-black-loafers-tutorial.jpg
+    Great shoes for fall 6 hours ago
+
+    
+
+    - Soul Aperture
+
+    Image:
+    http://3.bp.blogspot.com/-XyIE2bIdAoM/UGxpdBHCIyI/AAAAAAAAGfg/R9047a2DAGc/s72-c/IMG_2588.jpg
+    {10/3} 9 hours ago
+
+    
+
+    - Honestly WTF Simone Camille 12 hours ago
+
+    
+
+    - Paris Breakfast
+
+    Image:
+    http://2.bp.blogspot.com/-llCu9lpovkI/UGw1HeGkwII/AAAAAAAAtOU/4rys7GpozT4/s72-c/1+18+Marie-Antoinette+Parfum3.jpg
+    Les Adieux Ã  la Reine 12 hours ago
+
+    
+
+    - Prana Light London...Highlights Part II 20 hours ago
+
+    
+
+    - chookooloonks blog countdown to ethiopia (and about that one campaign) 21 hours ago
+
+    
+
+    - The Blue Hour J Morgan Puett for the NYTimes T Magazine Blog 1 day ago
+
+    
+
+    - pia jane bijkerk five everyday photos… 3 days ago
+
+    
+
+    - 3191 Miles Apart 28 September 12 • MAV 5 days ago
+
+    
+
+    - An Inch of Time
+
+    Image:
+    http://2.bp.blogspot.com/-sAa_Q9jEb9g/UGWrj_rlVlI/AAAAAAAABbw/03Dl-t7rgVc/s72-c/Barn+door.jpg
+    Thought for the Day 5 days ago
+
+    
+
+    - simply breakfast
+
+    Image:
+    http://1.bp.blogspot.com/-tlblvvjOrjQ/UFxvCzv1pXI/AAAAAAAAHuU/6jnqySxUeDM/s72-c/Brooklyn_Makers.jpg
+    1 week ago
+
+    
+
+    - NECESSARY ROOM
+
+    Image:
+    http://4.bp.blogspot.com/-rRyYw7dgcco/UFKUzHyv5eI/AAAAAAAADRc/1WZWfdOmsy4/s72-c/flower2.JPG
+    simple things... 2 weeks ago
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Salt + Pepper
+
+    
+
+    - GOOD Interactive Infographic: What's the State of Healthcare in America? 1 hour ago
+
+    
+
+    - POLITICO Top Stories It's showtime in Denver 3 hours ago
+
+    
+
+    - Love and Lemons tuna cakes with yuzu yogurt 5 hours ago
+
+    
+
+    - Oh Joy! feeling like i love you in french... 11 hours ago
+
+    
+
+    - vintage everyday
+
+    Image:
+    http://2.bp.blogspot.com/-EUubbEoT-6E/UGxJnj2dHOI/AAAAAAAByfQ/rG8zdyW9K0E/s72-c/A+car+caravan+takes+GOP+presidential+candidate+Thomas+Dewey+into+the+countryside+in+September+1948.jpg
+    Classic Photos From the Campaign Trail 11 hours ago
+
+    
+
+    - OccupyWallSt News 160+ Cities Joining #globalNOISE on #O13. Get Banging! 1 day ago
+
+    
+
+    - Cookie and Kate Simple Greek Avocado Sandwich (and a Panera contest) 2 days ago
+
+    
+
+    - The Best Remedy DIY cocktails 5 days ago
+
+    
+
+    - like a strawberry milk Pure morning – Burnt honey, vanilla, and parsnip ice-cream 6
+    days ago
+
+    
+
+    - Cocktail Remedy Gimme some Cheese & Crack 1 week ago
+
+    
+
+    - sundaysuppers An Autumn Dinner, Oct 18 :: Tickets on Sale ! 3 weeks ago
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Dessert
+
+    
+
+    - RowdyKittens Something Fun: A Book Giveaway
+
+    
+
+    - Carrots 'N' Cake My Car Is A Money Pit
+
+    
+
+    - reading my tea leaves
+
+    Image:
+    http://3.bp.blogspot.com/-s6qIyAJep0Y/UGxSaTjTdQI/AAAAAAAAFMU/PZ6oUmOTDg4/s72-c/BEDROOM.jpg
+    life in *your* tiny apartment.
+
+    
+
+    - Tiny House Blog Ella’s Tiny House Update
+
+    
+
+    - elephantine two for today
+
+    
+
+    - The Blacker The Berry Food Homemade Vanilla Extract
+
+    
+
+    - Brooklyn Tweed BT Fall 12
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Tapas
+
+    
+
+    - Hei Astrid
+
+    Image:
+    http://1.bp.blogspot.com/-h00c71etGXs/UGx5SOFspJI/AAAAAAAAP7M/wha6gBLFvv8/s72-c/083ps.jpg
+    I love my baby, but... 7 hours ago
+
+    
+
+    - Flanboyant Eats Smoked Turkey Sausage & Almond Caramel w/Rum Stuffed Apple 8 hours ago
+
+    
+
+    - UrbanBushBabes 2012 Presidential Debate: Are You Watching & What You Need to Know! 8
+    hours ago
+
+    
+
+    - The Duo Dishes Announcing A Seasonal Vegan Cooking Demo 1 day ago
+
+    
+
+    - Coco Cooks Slow Roasted Red Cabbage and Apples with Balsamic Glaze 1 day ago
+
+    
+
+    - Como Water Baked Coconut-Herbed Brown Rice 1 day ago
+
+    
+
+    - Try Anything Once A Walk through Madhogarh 2 days ago
+
+    
+
+    - My Life Runs On Food Plum Cardamon Chicken Wings 2 days ago
+
+    
+
+    - Fresh Fall Raspberry Pie 5 days ago
+
+    
+
+    - Simply Eating Better | With Tonya Peele Recipe:: Quick Steel-cut Oatmeal with Pumpkin 1
+    week ago
+
+    
+
+    - Sweet Amandine
+
+    Image:
+    http://1.bp.blogspot.com/-AIb1M8RPKMQ/UFPdoLCFsmI/AAAAAAAABd8/9NJ-asOSX3k/s72-c/above.jpg
+    We make them so 2 weeks ago
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Bread Basket
+
+    
+
+    - Design*Sponge DIY Project: Tiered Hanging Pots 9 hours ago
+
+    
+
+    - Superhero Journal Niki + Dave’s Santa Cruz wedding 9 hours ago
+
+    
+
+    - Fly Moniquilla Notebooks 13 hours ago
+
+    
+
+    - AphroChic AphroChic Joins Dove's Self-Esteem Weekend 21 hours ago
+
+    
+
+    - Mrs. O Vibrant in the Buckeye State 1 day ago
+
+    
+
+    - decor8 Stylist Anna Gillar Writes An Inspiring Blog Because… 2 days ago
+
+    
+
+    - 55 Secret Street NYFW: The Blonds Backstage SS 2013 MAC Cosmetics, Moroccan Oil and CND 1
+    week ago
+
+    
+
+    - la porte rouge
+
+    Image:
+    http://3.bp.blogspot.com/-qdVsnrch4dQ/UGKDEPmOmZI/AAAAAAAASgw/omaBZDs0gHM/s72-c/DSCF8731.jpg
+    not from the hill, but all so lovely 1 week ago
+
+    
+
+    - red thread
+
+    Image:
+    http://1.bp.blogspot.com/-asCVb25KyrM/T_uer38nW8I/AAAAAAAAKpI/48zD-V1SksQ/s72-c/napa_road1.png
+    Napa again 1 month ago
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png   Disclaimer: Nothing
+stated on Anali's First Amendment should be construed as legal advice. No attorney client
+relationships have been formed on this blog. © 2006-2012. Anali's First Amendment/Lisa C.
+Johnson. All rights reserved. Do not use writing or photographs without permission.
+
+Image:
+http://www.flickriver.com/badge/user/favorites/recent/shuffle/medium-horiz/ffffff/333333/97718981@N00.jpg
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Thank you for visiting!
+
+~ Blog word of the year: Acceptance ~
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png var _wau = _wau || [];
+_wau.push(["small", "545y385fulo9", "rlo"]); (function() {var
+s=document.createElement("script"); s.async=true;
+s.src="http://widgets.amung.us/small.js";
+document.getElementsByTagName("head")[0].appendChild(s); })();
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://s25.sitemeter.com/meter.asp?site=s25AnalisFirstAmendment
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png var _qevents = _qevents
+|| []; (function() { var elem = document.createElement('script'); elem.src =
+(document.location.protocol == "https:" ? "https://secure" : "http://edge") +
+".quantserve.com/quant.js"; elem.async = true; elem.type = "text/javascript"; var scpt =
+document.getElementsByTagName('script')[0]; scpt.parentNode.insertBefore(elem,
+scpt); })(); _qevents.push({ qacct:"p-0cryYhjXsHeeA" });
+
+Image: //pixel.quantserve.com/pixel/p-0cryYhjXsHeeA.gif if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'27165670';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d27165670','//analisfirstamendment.blogspot.com/2008_04_01_archive.html','27165670');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '27165670',
+'bloggerUrl': 'http://www.blogger.com', 'title': 'Anali\47s First Amendment',
+'pageType': 'archive', 'url':
+'http://analisfirstamendment.blogspot.com/2008_04_01_archive.html',
+'canonicalUrl':
+'http://analisfirstamendment.blogspot.com/2008_04_01_archive.html',
+'canonicalHomepageUrl': 'http://analisfirstamendment.blogspot.com/',
+'homepageUrl': 'http://analisfirstamendment.blogspot.com/', 'blogspotFaviconUrl':
+'http://analisfirstamendment.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'4/1/08', 'pageTitle': 'Anali\47s First Amendment: 4/1/08', 'encoding': 'UTF-8',
+'locale': 'en-US', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false,
+'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks':
+'\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42Anali\46#39;s First Amendment - Atom\42
+href\75\42http://analisfirstamendment.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42Anali\46#39;s First Amendment - RSS\42
+href\75\42http://analisfirstamendment.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Anali\46#39;s First Amendment - Atom\42
+href\75\42http://www.blogger.com/feeds/27165670/posts/default\42 /\76\n\74link
+rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\07527165670\42 /\076', 'meTag': '',
+'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#666666', 'linkcolor':
+'#b82e2e', 'visitedlinkcolor': '#666666', 'textcolor': '#333333', 'headerfont':
+'normal normal 14px Calligraffitti', 'pagetitlefont': 'normal normal 200% Georgia,
+Serif', 'bgcolor': '#ffffff', 'descriptioncolor': '#191919', 'titlecolor': '#666666',
+'bordercolor': '#ffffff', 'postfooterfont': 'normal normal 80% \47Trebuchet MS\47,
+Trebuchet, Arial, Verdana, Sans-serif', 'pagetitlecolor': '#191919', 'bodyfont':
+'normal normal 100% Georgia, Serif', 'endSide': 'right', 'startSide': 'left',
+'descriptionfont': 'normal normal 14px Chewy', 'sidebarcolor': '#999999'}, 'override':
+''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url':
+'/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'},
+'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name':
+'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url':
+'/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'},
+'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML8', 'footer',
+null, document.getElementById('HTML8'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1', 'footer',
+null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'footer',
+null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'footer',
+null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1',
+'crosscol', null, document.getElementById('PageList1'), {'title': 'Pages', 'links':
+[{'href': 'http://analisfirstamendment.blogspot.com/', 'title': 'Home',
+'isCurrentPage': false}, {'href':
+'http://analisfirstamendment.blogspot.com/p/about-contact.html', 'title': '{About
++ Contact}', 'isCurrentPage': false}, {'href':
+'http://analisfirstamendment.blogspot.com/p/recipe-index.html', 'title': '{Recipe
+Index}', 'isCurrentPage': false}, {'href':
+'http://analisfirstamendment.blogspot.com/p/blogroll.html', 'title':
+'{Blogroll}', 'isCurrentPage': false}, {'href':
+'http://analisfirstamendment.blogspot.com/p/my-life-list.html', 'title': '{My Life
+List}', 'isCurrentPage': false}, {'href':
+'http://analisfirstamendment.blogspot.com/p/places-to-visit.html', 'title':
+'{Places To Visit}', 'isCurrentPage': false}, {'href':
+'http://analisfirstamendment.blogspot.com/p/media-buzz.html', 'title': '{Media
+Buzz}', 'isCurrentPage': false}, {'href':
+'http://analisfirstamendment.blogspot.com/p/all-aboard-arc.html', 'title': '{All
+Aboard The Arc!}', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1',
+'sidebar', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text2', 'sidebar',
+null, document.getElementById('Text2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7', 'sidebar',
+null, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML3', 'sidebar', null, document.getElementById('HTML3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML5', 'sidebar', null, document.getElementById('HTML5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_FollowersView', new
+_WidgetInfo('Followers1', 'sidebar', null, document.getElementById('Followers1'),
+{'title': 'Followers', 'codeSnippet': '\74script type\75\42text/javascript\42\76\n
+if (!window.google || !google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75 \42http://www.blogger.com/feeds/27165670/posts/default\42;\n
+\n \n \n holder.commentFeed \75
+\42http://www.blogger.com/feeds/27165670/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://analisfirstamendment.blogspot.com/\42;\n
+holder.currentBlogId \75 \04227165670\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-hvx56jo2eenl\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#666666\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#b82e2e\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#b82e2e\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#666666\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#b82e2e\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#191919\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#666666\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 100% Georgia, Serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-hvx56jo2eenl\42,\n height: 260,\n \n \n \n site: \04211183274225406516059\42,\n
+\n locale: \47en_US\47 },\n skin);\n \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar',
+null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML9', 'sidebar',
+null, document.getElementById('HTML9'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList1',
+'sidebar', null, document.getElementById('BlogList1'), {'numItemsToShow': 0,
+'totalItems': 13}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList5',
+'sidebar', null, document.getElementById('BlogList5'), {'numItemsToShow': 0,
+'totalItems': 11}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList3',
+'sidebar', null, document.getElementById('BlogList3'), {'numItemsToShow': 0,
+'totalItems': 7}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList4',
+'sidebar', null, document.getElementById('BlogList4'), {'numItemsToShow': 0,
+'totalItems': 11}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList2',
+'sidebar', null, document.getElementById('BlogList2'), {'numItemsToShow': 0,
+'totalItems': 9}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView',
+new _WidgetInfo('HTML11', 'left-sidebar', null, document.getElementById('HTML11'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image3', 'left-sidebar', null, document.getElementById('Image3'),
+{'resize': true}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image7',
+'left-sidebar', null, document.getElementById('Image7'), {'resize': true},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image4', 'left-sidebar', null, document.getElementById('Image4'),
+{'resize': true}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image2',
+'left-sidebar', null, document.getElementById('Image2'), {'resize': true},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image6', 'left-sidebar', null, document.getElementById('Image6'),
+{'resize': true}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image1',
+'left-sidebar', null, document.getElementById('Image1'), {'resize': false},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML12', 'left-sidebar', null, document.getElementById('HTML12'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextView', new
+_WidgetInfo('Text3', 'left-sidebar', null, document.getElementById('Text3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML10', 'left-sidebar', null, document.getElementById('HTML10'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML6', 'main', null, document.getElementById('HTML6'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

@@ -1,0 +1,4137 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Music Video with Lyrics added by Allan5742: December 2010 <!-- /*
+----------------------------------------------- Blogger Template Style Name: Minima
+Blue Date: 26 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#135"> <Variable name="textcolor" description="Text Color"
+type="color" default="#ccc"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#9bd"> <Variable name="pagetitlecolor" description="Title
+Color" type="color" default="#eee"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#79b"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#fc6">
+<Variable name="bordercolor" description="Border Color" type="color" default="#468">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#579"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#ccc"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#a7a"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif"> <Variable name="headerfont"
+description="Sidebar Title Font" type="font" default="normal bold 78% 'Trebuchet
+MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable name="pagetitlefont"
+description="Blog Title Font" type="font" default="normal bold 200% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif"> <Variable name="descriptionfont"
+description="Blog Description Font" type="font" default="normal normal 78% 'Trebuchet
+MS', Trebuchet, Verdana, Sans-serif"> <Variable name="postfooterfont"
+description="Post Footer Font" type="font" default="normal normal 78% 'Trebuchet MS',
+Trebuchet, Verdana, Sans-serif"> <Variable name="startSide" description="Start side in
+blog language" type="automatic" default="left"> <Variable name="endSide"
+description="End side in blog language" type="automatic" default="right"> */ /* Use this
+with templates/template-twocol.html */ body { background:#073763; margin:0;
+color:#cccccc; font:x-small "Trebuchet MS", Trebuchet, Verdana, Sans-Serif;
+font-size/* */:/**/small; font-size: /**/small; text-align: center; } a:link {
+color:#eeeeee; text-decoration:none; } a:visited { color:#aa77aa;
+text-decoration:none; } a:hover { color:#ffcc66; text-decoration:underline; } a img {
+border-width:0; } /* Header ----------------------------------------------- */
+#navbar-iframe {display: none !important;} #header-wrapper { width:660px; margin:0 auto
+10px; border:1px solid #446688; } #header-inner { background-position: center;
+margin-left: auto; margin-right: auto; } #header { margin: 5px; border: 1px solid #446688;
+text-align: center; color:#eeeeee; } #header h1 { margin:5px 5px 0; padding:15px 20px
+.25em; line-height:1.2em; text-transform:uppercase; letter-spacing:.2em; font:
+normal bold 200% 'Trebuchet MS',Trebuchet,Verdana,Sans-serif; } #header a {
+color:#eeeeee; text-decoration:none; } #header a:hover { color:#eeeeee; } #header
+.description { margin:0 5px 5px; padding:0 20px 15px; max-width:700px;
+text-transform:uppercase; letter-spacing:.2em; line-height: 1.4em; font: normal
+normal 78% 'Trebuchet MS', Trebuchet, Verdana, Sans-serif; color: #7799bb; } #header img {
+margin-left: auto; margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 660px;
+margin:0 auto; padding:10px; text-align:left; font: normal normal 100% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif; } #main-wrapper { width: 410px; float: left;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */ overflow: hidden;
+/* fix for long non-text content breaking IE sidebar float */ } #sidebar-wrapper { width:
+220px; float: right; word-wrap: break-word; /* fix for long text breaking sidebar float in IE
+*/ overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ } /*
+Headings ----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+font:normal bold 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif; line-height:
+1.4em; text-transform:uppercase; letter-spacing:.2em; color:#eeeeee; } /* Posts
+----------------------------------------------- */ h2.date-header { margin:1.5em 0
+.5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #446688;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#ffcc66; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#ffcc66;
+font-weight:bold; } .post h3 strong, .post h3 a:hover { color:#cccccc; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#eeeeee; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Verdana,
+Sans-serif; line-height: 1.4em; } .comment-link { margin-left:.6em; } .post img,
+table.tr-caption-container { padding:4px; border:1px solid #446688; }
+.tr-caption-container img { border: none; padding: 0; } .post blockquote { margin:1em 20px;
+} .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #eeeeee; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+.feed-links { clear: both; line-height: 2.5em; } #blog-pager-newer-link { float: left; }
+#blog-pager-older-link { float: right; } #blog-pager { text-align: center; } /* Sidebar
+Content ----------------------------------------------- */ .sidebar { color: #cccccc;
+line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; } .sidebar
+li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #446688; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #446688; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Verdana,
+Sans-serif; color: #eeeeee; font-weight: bold; line-height: 1.6em; } .profile-datablock
+{ margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 78% 'Trebuchet MS', Trebuchet, Verdana, Sans-serif;
+text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:660px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0751334473961456247007\46blogName\75Music+Video+with+Lyrics+added+by+Alla...\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://allan-musicvideos.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://allan-musicvideos.blogspot.com/\46vt\0751337125613806628219',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Music Video with Lyrics added by Allan5742
+
+
+
+Hello and welcome to my website. Here, you can download old to latest music video with lyrics
+added by me. More posts to come just keep visiting. Enjoy and have a nice day. Followers widget
+is now added. You may now follow my blog for new and hot music videos with lyrics.
+
+Pages
+
+    
+
+    - Home
+
+    
+
+    - Full DVD
+
+    
+
+    - Credit to Donator
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+FEATURED MUSIC VIDEO
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Thursday, December 23, 2010
+
+
+
+Westlife - Safe
+
+
+
+Image:
+http://2.bp.blogspot.com/_SznndU_spVU/TRKk9zkePkI/AAAAAAAAAzM/qk-9WgdSqsw/s320/Westlife%2B-%2BSafe.jpg
+Song Info:
+
+
+
+"Safe" is the lead single from Irish pop band Westlife 's eleventh studio album, Gravity . The
+single is expected to be released in the United Kingdom on 14 November 2010 via Digital
+Download, with a physical release following on November 15. [ 1 ] Band member Mark Feehily
+first confirmed via his Twitter account that copies of the single will be made available in
+Ireland on 12 November 2010, three days earlier than the rest of the world. [ 2 ] The single's
+B-Side, "Please Stay", was recorded in 2009, and was promised to be included on the next single
+released following " What About Now ". [ 3 ] Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 54.5 MiB
+
+PlayTime : 3mn 49s
+
+Bit rate : 1992 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 3
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Music Video with
+Lyrics Part 007 Best of Boy Band DVD 01 , Westlife
+
+Westlife - I'm Already There
+
+
+
+Image:
+http://1.bp.blogspot.com/_SznndU_spVU/TRKkTxFxdwI/AAAAAAAAAzE/tqgwlCQ1yZs/s320/Westlife%2B-%2BI%2527m%2BAlready%2BThere.jpg
+Song Info:
+
+
+
+This rendition of the said song is the track number 4 in the ninth studio album of Westlife , Back
+Home . It entered the UK download chart at #74 after "The Westlife Show" in December 2007. The
+song was not released as a single but peaked at #62 on the Official UK Singles Chart.
+
+In 2008 where X Factor Series 5 was held, a band participant named JLS performed the Westlife
+version and it re-entered the UK charts at #106 and peaked at #63. It entered also the Official
+Irish Singles Chart at #47. Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 76.0 MiB
+
+PlayTime : 4mn 10s
+
+Bit rate : 2548 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 4
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Music Video with
+Lyrics Part 007 Best of Boy Band DVD 01 , Westlife
+
+Westlife - Written In The Stars
+
+
+
+Image:
+http://4.bp.blogspot.com/_SznndU_spVU/TRKjGl6JWQI/AAAAAAAAAy8/oCqGtqm9a5o/s320/Westlife%2B-%2BWritten%2BIn%2BThe%2BStars.jpg
+Album Info:
+
+
+
+Unbreakable – The Greatest Hits Vol. 1 is the fourth album and first greatest hits Westlife
+and was released on 11 November 2002. It peaked at #1 in the UK and at #66 in Australia and sold
+close to 1.4 million copies in the UK alone. It is also the band's longest charting album. The
+album was the 9th best selling of 2002 in the UK. It managed to re-enter the 2007 UK Year-end
+albums chart at #107. On October 2008, IFPI announced that this album is already 2x Platinum or
+exceeding to two million sales in Europe. On UK Year-end 2008 album charts, the said album
+re-entered at #79 with 191 000 copies sold with the said year only. The album is currently the
+ninth biggest selling boyband record ever in the UK. [ 1 ] The album spent 55 ( 1 year and one week)
+weeks on the UK Top 100 Albums chart. [ 2 ] album by Irish boyband
+
+The album consists of their past hit singles along with the following 6 new songs like "How Does
+It Feel" and "Love Takes Two" . The band's hit single " Flying Without Wings " was re-recorded as
+a duet with Korean superstar BoA and Cristian Castro , and was included on the Asian and Spanish
+version of the album respectively that serve as bonus tracks. The first single released from
+the album was " Unbreakable ", a UK #1 single. The second single, " Tonight/Miss You Nights "
+peaked at #3 in the UK. The song "Written in the Stars" was sampled by DJ Ironik for his song "Stay
+with Me", released in 2008. Unbreakable sold 4 million worldwide Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 76.0 MiB
+
+PlayTime : 4mn 10s
+
+Bit rate : 2548 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 5
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Music Video with
+Lyrics Part 007 Best of Boy Band DVD 01 , Westlife
+
+Westlife - Angel's Wings
+
+
+
+Image:
+http://2.bp.blogspot.com/_SznndU_spVU/TRKh2BXtsEI/AAAAAAAAAy0/QoJfy1IZqQo/s320/Westlife%2B-%2BAngel%2527s%2BWings.jpg
+Album Info:
+
+
+
+Coast to Coast is the second album by Irish boyband Westlife , released on November 6, 2000 on
+RCA records. Five official singles were released in UK and Ireland . Close , Soledad , and
+Puzzle of My Heart were released in airplay on the Philippines. While En Ti Deje Mi Amor was a
+physical single release in Spanish-speaking countries only.
+
+
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 61.9 MiB
+
+PlayTime : 4mn 3s
+
+Bit rate : 2136 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Music Video with
+Lyrics Part 007 Best of Boy Band DVD 01 , Westlife
+
+Wednesday, December 22, 2010
+
+
+
+Westlife - Tonight
+
+
+
+Image:
+http://4.bp.blogspot.com/_SznndU_spVU/TRG7tPWYFoI/AAAAAAAAAys/L3PjXM4DJBk/s320/Westlife%2B-%2BTonight.jpg
+Song Info:
+
+
+
+"Tonight"/"Miss You Nights" is the second and last single released from Westlife 's greatest
+hits album, 'Unbreakable'. It was released as a double A-Side in the UK, but in some other
+countries, both songs were released separately. The single peaked at #3 on the UK Singles
+Chart, becoming the band's second non-chart topper. It sold over 115 000 in UK so far. [ 1 ]
+
+
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 78.2 MiB
+
+PlayTime : 4mn 30s
+
+Bit rate : 2427 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 5
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Music Video with
+Lyrics Part 007 Best of Boy Band DVD 01 , Westlife
+
+Westlife - Angel
+
+
+
+Image:
+http://4.bp.blogspot.com/_SznndU_spVU/TRG6nXXnF2I/AAAAAAAAAyk/YuH5ZrYyQjk/s320/Westlife%2B-%2BAngel.jpg
+Album Info:
+
+
+
+
+
+Westlife is the Irish boyband Westlife 's debut studio album. It was released on November 1,
+1999 in the UK , and contains three singles, " Swear It Again ", " If I Let You Go " and " Flying
+Without Wings ", all of which had been UK #1 singles. The album entered the UK chart at its number
+2 peak, selling little over 83,000, 1,000 sales short of being number one, which was occupied
+by Steptacular by Steps. It was the 8th best selling of 1999 in the UK, and went on to sell four
+million copies worldwide. The album is currently the seventh biggest selling boyband record
+ever in the UK. [ 1 ] The album spent 74 weeks (1 year and five months) in the UK Top 100 Albums
+chart. [ 2 ] Overseas, it was released in the US in 2000 with a different tracklisting, adding
+"My Private Movie" produced by Cutfather and Joe. It remains the only Westlife album to date to
+chart in the US, peaking at #129 on the Billboard 200. It also peaked at #15 in Australia. " More
+Than Words ", a cover of the original song by Extreme , was released as a single in Brazil, where
+it peaked at #2. In December that same year the double a-side single " I Have A Dream "/" Seasons
+In The Sun " became the Christmas #1 single of the year. In March 2000, the fifth and final single
+from the album, " Fool Again ", was released and also debuted at #1. With this, Westlife
+achieved five #1 singles from the same album in less than a year, a record that remains unbroken
+to date.
+
+
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 63.3 MiB
+
+PlayTime : 4mn 26s
+
+Bit rate : 1990 Kbps
+
+
+
+Download:
+
+
+
+(Follow this site and post comment here to receive download link for this music video with
+lyrics) Posted by allan5742 0 comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Music Video with
+Lyrics Part 007 Best of Boy Band DVD 01 , Music Video With Lyrics Part 014 Love Songs DVD 06 ,
+Westlife
+
+Westlife - Evergreen
+
+
+
+Image:
+http://2.bp.blogspot.com/_SznndU_spVU/TRG5tZfN7FI/AAAAAAAAAyc/43NYbX3mzX0/s320/Westlife%2B-%2BEvergreen.jpg
+Song Info:
+
+
+
+"Evergreen" is a pop song, co-written by JÃ¶rgen Elofsson , Per Magnusson and David Kreuger
+, and originally recorded by Westlife . The song appears on their album World of Our Own , and was
+released as a single, only in the Philippines , where it reached number 3 due to the insistent
+demand of their fans. The song was made famous by Pop Idol UK series 1 winner Will Young .
+
+The song was chosen to be the first single by the winner of Pop Idol and was recorded by the final
+three acts of the show, Will Young, Gareth Gates and Darius Danesh .
+
+The song was performed on Pop Idol in the final by both Young and Gates. Young went on to win the
+show, and released "Evergreen" as a double A-side single, along with " Anything Is Possible ",
+which was also recorded by the final three and performed by the final two. The single went
+straight to the number one spot in the UK Singles Chart and stayed there for three consecutive
+weeks, only to be knocked off the top spot by Gates' debut single, " Unchained Melody ". It
+became the fastest-selling debut in UK chart history, selling 403,027 copies on its day of
+release. It went on to sell over 1.7 million copies and in the official list of the all-time
+best-selling singles in the UK issued later that year, it appeared 11th. It is also the
+best-selling single of the 21st century in the United Kingdom so far.
+
+The song was included on Young's debut album, From Now On .
+
+Gates' version of the song was also released as a B-side to his single, "Unchained Melody".
+
+On December 31, 2009 the song was named number one of UK singles chart of the first decade of the
+21st century
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 60.2 MiB
+
+PlayTime : 4mn 6s
+
+Bit rate : 2051 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Music Video with
+Lyrics Part 007 Best of Boy Band DVD 01 , Westlife
+
+Westlife - Puzzle Of My Heart
+
+
+
+Image:
+http://1.bp.blogspot.com/_SznndU_spVU/TRG5AeWIJgI/AAAAAAAAAyU/vMRTWXisEf4/s320/Westlife%2B-%2BPuzzle%2BOf%2BMy%2BHeart.jpg
+Album Info:
+
+
+
+Coast to Coast is the second album by Irish boyband Westlife , released on November 6, 2000 on
+RCA records. Five official singles were released in UK and Ireland . Close , Soledad , and
+Puzzle of My Heart were released in airplay on the Philippines. While En Ti Deje Mi Amor was a
+physical single release in Spanish-speaking countries only.
+
+
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 52.7 MiB
+
+PlayTime : 3mn 39s
+
+Bit rate : 2016 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Music Video with
+Lyrics Part 007 Best of Boy Band DVD 01 , Westlife
+
+Westlife - I Wanna Grow Old With You
+
+
+
+Image:
+http://2.bp.blogspot.com/_SznndU_spVU/TRG3dUrJs4I/AAAAAAAAAyM/nLhgJgmaU0E/s320/Westlife%2B-%2BI%2BWanna%2BGrow%2BOld%2BWith%2BYou.jpg
+Artist Info:
+
+
+
+Westlife are an Irish pop group formed on 3 July 1998 . The group's original lineup comprised
+Nicky Byrne , Kian Egan , Mark Feehily , Shane Filan and Brian McFadden (departed from the band
+in 2004). The group is the only act in British or Irish history to have their first seven singles
+go straight to Number 1, and they have gone on to sell over 44 million records worldwide [ 1 ]
+which includes their studio, single, video, and compilation albums. [ 2 ] [ 3 ] Despite the
+group's worldwide success, they've only had one U.S. hit on the Billboard Hot 100 charts:
+"Swear It Again", which made it to #20 in 2000.
+
+Westlife were originally signed by Simon Cowell and are currently managed by Louis Walsh .
+They garnered 14 number one singles in the United Kingdom, the third-highest in UK history,
+tying with Cliff Richard and trailing behind only Elvis Presley and The Beatles . The group has
+also broken a few top records, including "Music artist with most consecutive number 1's in the
+UK". It was officially announced by the Official Charts Company that they are the "2nd biggest
+selling artist" (trailing behind Robbie Williams ) and "Biggest selling band of the decade"
+(beating Coldplay ) in UK with 11 million album sales. [ 4 ]
+
+On 1 June 2008, Westlife marked their 10th anniversary with a concert in Croke Park, Dublin
+which saw more than 83,000 fans attending the special occasion. Music Week revealed on their
+website that Westlife is the official third top touring act within the years 2005–2008,
+while they were 7th top touring act of 2008. [ 5 ] Also in 2008, they were declared as Ireland's
+ninth-richest celebrities under 30 years old and 13th in general with 36 million euros as a
+group. [ 6 ] In 2009, they dropped as 16th richest Irish with estimated 8 million euros each. [ 7 ]
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 66.9 MiB
+
+PlayTime : 4mn 5s
+
+Bit rate : 2286 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Music Video with
+Lyrics Part 007 Best of Boy Band DVD 01 , Westlife
+
+Westlife - When You're Looking Like That
+
+
+
+Image:
+http://3.bp.blogspot.com/_SznndU_spVU/TRG2wVn2HPI/AAAAAAAAAyE/RZekK4pvBFo/s320/Westlife%2B-%2BWhen%2BYou%2527re%2BLooking%2BLike%2BThat.jpg
+Song Info:
+
+
+
+"When You're Looking Like That" is the sixth and final single to be released from Westlife 's
+second studio album, Coast To Coast . The single was only released in Australia, Asia, Latin
+America, and most notably Europe, however, although being one of the more popular tracks in
+the UK, and a music video being played regularly on UK music channels, the single was not
+released in the UK or Ireland.
+
+
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 107 MiB
+
+PlayTime : 3mn 50s
+
+Bit rate : 3885 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Music Video with
+Lyrics Part 007 Best of Boy Band DVD 01 , Westlife
+
+Blue Feat. Elton John - Sorry Seems To Be The Hardest Word
+
+
+
+Image:
+http://3.bp.blogspot.com/_SznndU_spVU/TRG12Iwfd-I/AAAAAAAAAx8/cywTRatgoeA/s320/Blue%2BFeat.%2BElton%2BJohn%2B-%2BSorry%2BSeems%2BTo%2BBe%2BThe%2BHardest%2BWord.jpg
+Song Info:
+
+
+
+The song was covered in 2002 by English boyband Blue . The song was recorded as a collaboration
+with Elton John , and was the second single from their second album, One Love . The song peaked at
+No. 1 on the UK Singles Charts .
+
+
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 62.2 MiB
+
+PlayTime : 3mn 27s
+
+Bit rate : 2517 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Blue , Elton John ,
+Music Video with Lyrics Part 007 Best of Boy Band DVD 01
+
+Westlife - Bop Bop Baby
+
+
+
+Image:
+http://2.bp.blogspot.com/_SznndU_spVU/TRFZdy4PTtI/AAAAAAAAAxw/M7MdXmXDDGc/s320/Westlife%2B-%2BBop%2BBop%2BBaby.jpg
+Song Info:
+
+
+
+"Bop Bop Baby" is the third single to be released from Westlife 's third studio album, 'World Of
+Our Own'. The single peaked at #5 on the UK Singles Chart, the lowest top position of reached by a
+single by this band. However, during an interview, the band claimed this was due to the obscure
+choice of single, as they would have much preferred to release 'Why Do I Love You' - and had even
+recorded a video for it. The song was written by band members Shane Filan and Brian McFadden ,
+alongside producers and writers Chris O'Brien and Graham Murphy . It sold over 120 000 on UK so
+far. [ 1 ]
+
+
+
+Music Video Info:
+
+
+
+The video was initially to be directed by Vaughn Arnell and was to feature the band in front of
+the Irish skyline. But instead, the video was directed by Max & Diana, and featured the band in a
+sour-looking castle, battling an enemy of the English Crown.
+
+
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 95.9 MiB
+
+PlayTime : 4mn 23s
+
+Bit rate : 3057 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Music Video with
+Lyrics Part 007 Best of Boy Band DVD 01 , Westlife
+
+Blue - Guilty
+
+
+
+Image:
+http://3.bp.blogspot.com/_SznndU_spVU/TRFYWl5FHhI/AAAAAAAAAxo/2SiDo9mZjRY/s320/Blue%2B-%2BGuilty.jpg
+Song Info:
+
+
+
+"Guilty" is a 2003 single by the British boy-band Blue from their third album of the same name .
+It reached a peak position of #2 on the UK singles chart and placed within the top 40 in many other
+countries. It was co-written by Gary Barlow , the singer/songwriter from the popular English
+boyband Take That .
+
+
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 84.6 MiB
+
+PlayTime : 3mn 47s
+
+Bit rate : 3122 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Blue , Music Video
+with Lyrics Part 007 Best of Boy Band DVD 01
+
+Tuesday, December 21, 2010
+
+
+
+Kylie Minogue - Get Outta My Way
+
+
+
+Image:
+http://3.bp.blogspot.com/_SznndU_spVU/TRBPrUw_8fI/AAAAAAAAAxg/MphfpK1ds4Y/s320/Kylie%2BMinogue%2B-%2BGet%2BOutta%2BMy%2BWay.jpg
+Song Info:
+
+
+
+"Get Outta My Way" is a dance-pop song by Australian recording artist Kylie Minogue from her
+eleventh studio album, Aphrodite . It was released as the second single internationally on 27
+September 2010. [ 1 ] It peaked at number twelve on the UK Singles Chart , and charted at number
+sixty-nine in her native Australia, making it her least successful single on the Australian
+charts to date.The song hit number one on Spanish Itunes chart December 13th. The song became
+her fifth number-one single on Billboard 's Hot Dance Club Songs chart in the US. [ 2 ]
+
+
+
+Music Video Info:
+
+
+
+The music video was filmed at Pinewood Studios in London on 18 August 2010, and directed by
+British directing team AlexandLiane and features live projections by Frieder Weiss. It
+premiered on Minogue's official YouTube channel on 3 September 2010. [ 9 ] [ 10 ]
+
+
+
+A good part of the video shows the projections of Frieder Weiss. The video begins with Minogue
+and her dancers moving slowly on a dynamic, fuchsia and mimetic dance floor . Each one of them is
+surrounded by a glow that follows their movements in real time. Minogue has sports gloves that
+illuminate her face and body. In the second verse of the song, she appears on stage with white
+chairs, wearing a gold outfit . The chairs are incorporated to the choreography. Minogue and
+her dancers later appear dancing in front of a wall that projects more dynamic lighting.
+Minogue appears on pedestal, which arises from a delicate layer of water. Following an
+instrumental solo, Kylie walks up a white stairway towards a simulated Sun , accompanied by
+dancers. The music video then shows a rapid mix of all the previous scenes in the video,
+returning at the end to the initial dancers on the floor with Kylie. Entertainment Weekly said
+that "It’s literally just a super-hot Kylie dancing and writhing around on the floor,
+wearing an endless array of fabulous outfits and being generally beautiful. To put it simply,
+it’s a video that just makes you smile." [ 11 ]
+
+
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 87.5 MiB
+
+PlayTime : 3mn 38s
+
+Bit rate : 3359 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Kylie Minogue ,
+Music Video with Lyrics Part 008 Dance Music DVD 01
+
+Enrique Iglesias Feat. Nicole Scherzinger - Heartbeat
+
+
+
+Image:
+http://1.bp.blogspot.com/_SznndU_spVU/TRBNzicAaKI/AAAAAAAAAxY/jYc5lnI-qSw/s320/Enrique%2BIglesias%2BFeat.%2BNicole%2BScherzinger%2B-%2BHeartbeat.jpg
+Song Info:
+
+
+
+"Heartbeat" is a song by Spanish pop singer Enrique Iglesias , taken from his ninth studio
+album , Euphoria . Written by Iglesias and his long-term collaborators, Jamie Scott and Mark
+Taylor , the mid-tempo ballad features co-vocals from American R&B / pop recording artist
+Nicole Scherzinger (of the Pussycat Dolls ). "Heartbeat" has a melody based on futuristic
+piano sounds and incorporates elements of dance music .
+
+The song was released as the album's third overall single, though it is the second
+English-language single, on June 8, 2010 in the United States and later in October 2010 France
+and the United Kingdom. Critics praised the song for the way that Iglesias and Scherzinger's
+voices complimented each other. An accompanying music video features the pair in emotive
+mood-lit scenes, where digitally produced colored heartbeats react as they interact with
+each other and the lyrics of the song.
+
+Music Video Info:
+
+
+
+The music video treatment for "Heartbeat" was directed by Hiro Murai and premiered on
+September 14, 2010. It features the use of a inner throbbing lights and Scherzinger wearing a
+lace outfit. [ 9 ] The overal concept of the video sees a "shirtless Iglesias against a dark
+black background, while red and orange 'heartbeats' are added in simulation with his
+heartbeat. Then Nicole Scherzinger, who is sitting nude, waist-up against a solid black
+background, but with blue and purple 'heartbeats'." The Music Video was filmed in
+Kentwood,Michigan. [ 10 ]
+
+
+
+The video starts off with Enrique seen shirtless against a dark black background. As the music
+starts, Enrique is seen singing while digitally added red and orange "heartbeats" are added
+in simulation with his heartbeat. Nicole breaks into the song where she is seen sitting nude
+waist up against a solid black background. Similar to Enrique, digitally added blue and
+purple "heartbeats" are added in simulation with her heartbeat. In the following scene,
+Nicole and Enrique are seen together in a white, mirrored room. Enrique is wearing a red
+t-shirt and jeans while Nicole is wearing a red bra and underwear with a black lace dress
+over-top. The video cuts to a scene where the hook of the song kicks in; they're seen face to face
+looking like they're about to kiss while singing their parts. During the scene they're seen
+with a black spotlight on them while alternating blue and green background lighting is added.
+The video ends with Enrique's "heartbeat" darkening with each beat until it eventually fades
+out into a solid black screen.
+
+
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 75.3 MiB
+
+PlayTime : 4mn 17s
+
+Bit rate : 2455 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Enrique Iglesias
+, Nicole Scherzinger
+
+Cascade - Fever (Extended Edit)
+
+
+
+Image:
+http://4.bp.blogspot.com/_SznndU_spVU/TRBJYOI1jmI/AAAAAAAAAxQ/iXXGmVvBuAg/s320/Cascade%2B-%2BFever%2B%2528Extended%2BEdit%2529.jpg
+Artist Info:
+
+
+
+Cascada (pronounced /kÉ™ËˆskÉ‘Ë�dÉ™/ [ 1 ] ) is a German eurodance group
+active since 2004. They are most famous for their songs " Everytime We Touch " which won them a
+World Music Award What Hurts the Most " which reached the charts in 2008, and " Evacuate the
+Dancefloor " which became their first UK number one single in 2009. So far the group has sold an
+estimated 15 million copies of their three albums, and 35 million singles worldwide. Cascada
+consists of the German-born English singer Natalie Horler , and Record producers DJ Manian
+and Yanou . Cascada was originally founded as "Cascade", but the name had to be changed due to
+trademark conflict with the musician Kaskade . [ citation needed ] . In 2010 Cascada was
+announced as the second most downloaded dance artist of all time only being beaten by
+international dance producer David Guetta . [ 2 ]
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 91.2 MiB
+
+PlayTime : 4mn 600ms
+
+Bit rate : 3179 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Cascade , Music
+Video with Lyrics Part 008 Dance Music DVD 01
+
+Alexis Jordan - Happiness
+
+
+
+Image:
+http://1.bp.blogspot.com/_SznndU_spVU/TRBImDY2cCI/AAAAAAAAAxI/83F0X6Fdq4U/s320/Alexis%2BJordan%2B-%2BHappiness.jpg
+Song Info:
+
+
+
+"Happiness" is the debut single by American singer Alexis Jordan . It was released on
+September 6, 2010 in the US and November 1, 2010 in the UK. A remix EP was released on September 6,
+2010 in the United States . [ 1 ] The single's official music video was released on May 19, 2010 to
+Jordan's official YouTube channel. [ 2 ] The song samples 'Brazil' by Deadmau5 . The uptempo
+dance song lyrically speaks of somebody making Alexis happy, as well as romantic regret,
+realisation and ultimately exultation. [ 3 ] [ 4 ] Mariah Carey and Whitney Houston has been
+listed as inspiration for the single.
+
+The song has become a critical and commercial hit in the US as well as on international markets.
+Despite failing to chart on Billboard 's Hot 100 singles chart in the US, it did manage to peak at
+the top of their Hot Dance Club Songs chart, with the aid of the remixed versions of the single.
+It has also become a major hit in the United Kingdom, debuting and peaking at number 3 on the UK
+Singles Chart , as well as number 2 on the UK Upfront Club Chart. It has also peaked inside the Top
+40 of countries such as Scotland, Ireland and the European Hot 100 Singles .
+
+The single has also received good reviews from critics, with many commenting on Jordan's
+vocal abilities and the uptempo beat of the song. Several websites have also praised the Jump
+Smokers' remix of the single, calling it the main reason the single topped the US dance charts.
+Some critics have even compared her to big name artist such as Rihanna and BeyoncÃ© . Music
+Video Info:
+
+
+
+The official music video, released on May 19, 2010 was directed by Aggressive and has a
+futuristic theme to it. The video features Jordan sitting in the back of a car, while the man she
+loves is sitting on a bench right outside. [ 10 ] The two are breaking up and exchange last looks
+just as the wind picks up setting the city in motion. The road begins sliding and Alexis' car is
+carried away as she begins to sing the song.
+
+The video is intercut with scenes of Jordan singing the song alone, as well as dancing with four
+other back-up dancers. [ 11 ] The video also shows scenes of an elderly holding a Dalmatian by
+its leash as the sidewalk moves and the dog must walk on it like a treadmill to stay in place. At
+the end of the video, Jordan stops the city, and reverses it's motion sending the car back to the
+man she loves. [ 11 ] [ 12 ] [ 13 ] Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 84.7 MiB
+
+PlayTime : 3mn 59s
+
+Bit rate : 2970 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 1
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Alexis Jordan ,
+Music Video with Lyrics Part 008 Dance Music DVD 01
+
+My Chemical Romance - Na Na Na
+
+
+
+Image:
+http://4.bp.blogspot.com/_SznndU_spVU/TRBHZeqY9nI/AAAAAAAAAxA/_3R4I7ww0rU/s320/My%2BChemical%2BRomance%2B-%2BNa%2BNa%2BNa.jpg
+Song Info:
+
+
+
+"Na Na Na (Na Na Na Na Na Na Na Na Na)" is a song by My Chemical Romance . It was released as the first
+single from their fourth studio album, Danger Days: The True Lives of the Fabulous Killjoys .
+
+
+
+Music Video Info:
+
+
+
+The music video premiered on MTV on October 14, 2010. The video was co-directed by Roboshobo
+and Gerard Way and features comic book author Grant Morrison . [ 8 ] The music video was first
+previewed in the short trailer titled " Art is the Weapon " which was released on September 17,
+2010. [ 9 ] Album opener "Look Alive, Sunshine" was included in the music video. [ 10 ] MTV posted
+photo previews on October 8, and a 30 second preview video on October 11. [ 11 ]
+
+The video features a strangely garbed outlaw gang called the Killjoys ( Gerard Way as Party
+Poison, Mikey Way as Kobra Kid, Ray Toro as Jet Star and Frank Iero as Fun Ghoul), who are being
+pursued in the badlands around Battery City by the sinister executive Korse (Morrison) of
+Better Living Industries (BL/ind) and his vampire-masked henchmen (the Draculoids); in
+between battles with Better Living, the gang are indulging in pornographic magazines, fast
+driving, and hacking vending machines. The Killjoys have a young girl as one of their members
+(portrayed by Grace Jeanette ), who BL/ind is out to capture. At the end of the video, after a
+Mexican standoff , the Killjoys lie defeated on the ground, and the girl has been captured by
+Korse and the Draculoids. Korse tells the Killjoys to "keep running." The music video for
+later single " SING " is a companion piece and continues the story of the Killjoys and BL/ind.
+
+In an interview with the band for KROQ , Gerard Way revealed that members of the band Mindless
+Self Indulgence appear in the video, with guitarist Steve, Righ? as the DJ, "Dr. Death
+Defying", and vocalist Jimmy Urine as the "main, tall Draculoid (a masked character in a white
+suit)". [ 12 ] Urine was originally intended to play the roller skater "Show Pony", but was
+changed to a Draculoid as he cannot skate. [ 2 ] After the video's premiere, MTV released a
+"Pop-Culture Cheat Sheet" listing many of the movie and TV references in the video, including
+films such as Blade Runner , Easy Rider and Terminator 2: Judgement Day . [ 13 ] There is also a
+reference to their previous album ' The Black Parade ' at the 1:28 marker in the video where a
+half buried skeleton wearing a black marching jacket at the bottom of the screen can be seen.
+Similarly, in one of the "Transmissions" by Dr. Death on the band's website features a Killjoy
+(presumably Party Poison) searching through an abandoned room, passing by Mikey Way's Black
+Parade uniform and picking up one of the skull-designed masks featured in Black Parade
+merchandise, before finding the Mouskat mask seen in the video for Na Na Na . Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 62.9 MiB
+
+PlayTime : 3mn 11s
+
+Bit rate : 2753 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Music Video with
+Lyrics Part 012 Alternative DVD 01 , My Chemical Romance
+
+Ke$ha - Your Love Is My Drug
+
+
+
+Image:
+http://1.bp.blogspot.com/_SznndU_spVU/TRBFoRFJNiI/AAAAAAAAAw4/yyPeOSM8Scw/s320/Ke%2524ha%2B-%2BYour%2BLove%2BIs%2BMy%2BDrug.jpg
+Song Info:
+
+
+
+"Your Love Is My Drug" is a song by American recording artist and songwriter Kesha , from her
+debut album, Animal . It was released as the album's third single on May 21, 2010. The song was
+written by Kesha, Pebe Sebert, with Ammo , who co-produced the song with Dr. Luke and Benny
+Blanco . "Your Love Is My Drug"'s initial writing took place during a plane ride. Kesha stated
+the song had a carefree message and wasn't meant to be taken too seriously.
+
+Critical reception of the song has been mixed to positive. Critics complimented the hook but
+had mixed reactions with the chorus. Some praised Kesha for knowing her way around a strong pop
+chorus, while others called it predictable and dull. Prior to the release of Animal , the song
+charted in the United States, the United Kingdom, and Canada. Since being released as a single
+it has gone on to reach the top five in Australia and the United States, as well as reaching the
+top ten in Canada. It has gone on to sell over two million copies in the US alone. Kesha performed
+the song alongside " Tik Tok " on the thirty-fifth season of Saturday Night Live The Beatles '
+Yellow where she was covered in glow in the dark tribal-like make-up. In the music video, Kesha
+is portrayed in the desert while being chased around by her love interest. The main idea behind
+the video is being so in love with someone that you lose your head, comparable to love being a
+drug. The video features a digital animation aspect which was inspired by
+
+
+
+Music Video Info:
+
+
+
+The music video for the song, directed by Honey, [ 20 ] was shot on April 6 and April 7, 2010 in the
+Lancaster, California desert. [ 21 ] It premiered on Vevo at 12:01 a.m. on May 13, 2010. [ 22 ]
+Kesha described the concept behind the video in an interview, "I wanted it to be like a
+psychedelic trip of the mind, comparable with being so disgustingly in love with someone that
+you lose your head." [ 1 ] She chose to also incorporate an animal aspect to the video explaining
+that she was "a huge animal lover". [ 23 ] Kesha elaborated on the experience, "I also ride an
+elephant — no big deal! — and, um, I dance around a cave with black-light body paint and a
+python. I was in a cave, in the desert, and it was really fun." [ 1 ] When asked about the
+inspiration for the video, she said "This video was inspired by the Beatles' Yellow Submarine
+movie, the animation aspect. There's a little bit of [that] in there too". [ 1 ]
+
+The video begins with Kesha waking up next to her love interest; she then proceeds to run away
+while being chased by the man. Kesha walks through the desert while split scenes of her are
+shown where she is riding an elephant and wearing a tiger mask while crawling around in the
+sand. They are later seen on a boat singing and pretending to row while digitally animated
+water is added. It then cuts to a scene of all animation in which Kesha is portrayed as a mermaid.
+The mermaid and the man share a kiss; the video then jumps to a scene on a rocky hillside with
+Kesha walking around the sand with the man standing above on a rock. The video then cuts to
+another scene where Kesha is covered in glow in the dark body paint while dancing around in a
+cave with a python around her neck. [ 24 ] The video ends with Kesha and her lover sitting around a
+campfire while still in the desert. [ 25 ]
+
+James Montgomery from MTV said that "Your Love Is My Drug" was a "supremely catchy pop tune" and
+that the video was "the perfectly blissed-out accompaniment." Montgomery chided the video
+for "not making much sense" but noted "that hardly matters" as "Kesha has stumbled on a perfect
+formula for pop success: Don't think too big, or too much. Sometimes an elephant ride is just an
+elephant ride". His conclusion of the video and of Kesha herself was, "It's a lot harder than
+you'd think to make something seem this effortless. Like I said, you can accuse Kesha of many
+things — but don't ever say she's not smart. " [ 24 ] Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 65.6 MiB
+
+PlayTime : 2mn 50s
+
+Bit rate : 3234 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Ke$ha , Music
+Video with Lyrics Part 005 Urban Club DVD 01
+
+Justin Bieber - U Smile
+
+
+
+Image:
+http://3.bp.blogspot.com/-vA5drOcRQOU/To_VjOLFH0I/AAAAAAAABrQ/Ke_LK94ArTY/s320/phpAyrDsaPM.jpg
+
+
+
+
+
+Song Info:
+
+
+
+"U Smile" is a song performed by Canadian recording artist Justin Bieber . It was written by
+Bieber, Jerry Duplessis , Arden Altino, and Dan August Rigo, and produced by Duplessis and
+Altino. According to Bieber, the song is dedicated to his fans. The song was released as the
+second digital-only single from the latter half of Bieber's debut album on March 16, 2010. It
+will be released to mainstream radio in Canada on August 9, 2010, followed by a mainstream and
+rhythmic release on August 24, 2010, in the United States as the album's third single.
+
+The song, a piano and instrument driven blue-eyed soul ballad, garnered acclaim from critics
+as a standout track from the album. The song charted at seventeen and twenty-seven
+respectively in the United States and Canada, and later charted in the United Kingdom. Bieber
+performed the song as an intro to " Baby " on the ninth season of American Idol and on Saturday
+Night Live . Music Video Info:
+
+
+
+On September 30, 2010, the video for "U Smile" premiered online. [ 12 ] Bieber had stated that
+the video for "U Smile" was about "letting fans experience the ultimate fantasy for any
+hard-core Belieber: being Justin's girlfriend", further explaining in a tweet, "I took the
+opportunity 2 make a video 4 the fans, about a fan, and how we could fall IN LOVE." [ 12 ] Mawuse
+Ziegbe from MTV met the video with a positive review. Ziegbe felt that the video suggested "a
+more mature Bieber, who appears to relish the quiet moments with his gal pal away from the
+nonstop fan hysteria." [ 12 ] Ziegbe also felt that the video "displayed [Biebers] skills as an
+instrumentalist, as he belts out the lyrics from behind a grand piano throughout much of the
+vid." [ 12 ]
+
+
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 57.3 MiB
+
+PlayTime : 3mn 12s
+
+Bit rate : 2491 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info)
+
+Posted by allan5742 0 comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Justin Bieber ,
+Music Video with Lyrics Part 001 Love Songs DVD 01
+
+Cheryl Cole - Promise This
+
+
+
+Image:
+http://3.bp.blogspot.com/_SznndU_spVU/TRBC42a5X8I/AAAAAAAAAwo/hjybBgqzG-A/s320/Cheryl%2BCole%2B-%2BPromise%2BThis.jpg
+Song Info:
+
+
+
+"Promise This" is a song by British recording artist Cheryl Cole from her second studio album
+Messy Little Raindrops . It was released in the United Kingdom and Ireland as the album's lead
+single on 24 October 2010 by Fascination Records . The up-tempo dance-pop song was written by
+American singer Priscilla Renea , British music producer Wayne Wilkins , and Christopher
+Jackson and produced by Wilkins. The lyrics to "Promise This" reference Cole's personal life
+and relationships, as well as incorporating the French language . The song received
+generally favorable reviews from music critics.
+
+The single's release came in the aftermath of a public divorce from footballer Ashley Cole as
+well as a life-threatening battle with malaria . "Promise This" is accompanied by a Sophie
+Muller -directed music video featuring Cole dancing as a ballerina. It also features scenes
+including Cole dressed as a flamenco dancer and a black leotard outfit. She performed the
+single live on the seventh series of The X Factor on 24 October 2010. "Promise This" became
+Cole's second solo number-one single in the United Kingdom and Ireland. In the UK it became the
+biggest selling first-week non-charity single of the year with over 157,000 copies sold.
+Music Video Info:
+
+
+
+The video for the song was directed by Sophie Muller and was debuted on 21 September 2010 on UK
+television channel ITV2 . [ 22 ] It incorporates scenes of "silhouetted shapes, cut-outs and
+projected imagery". [ 23 ] Digital Spy 's Ryan Love described the theme of the video as "dark and
+glossy". [ 4 ] The X Factor official magazine said the video for the song was "gothic ballet". [
+24 ] OK! magazine column to say "[Cole's] gone ballerina theme this time - she used to be a great
+ballerina and went to the London Royal Ballet School , so that's quite fitting." [ 25 ]
+
+
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 89.5 MiB
+
+PlayTime : 3mn 22s
+
+Bit rate : 3706 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Cheryl Cole ,
+Music Video with Lyrics Part 008 Dance Music DVD 01
+
+Big Time Rush - 'Til I Forget About You
+
+
+
+Image:
+http://1.bp.blogspot.com/_SznndU_spVU/TRBBcuZAojI/AAAAAAAAAwg/HFqVoUGCBxQ/s320/Big%2BTime%2BRush%2B-%2B%2527Til%2BI%2BForget%2BAbout%2BYou.jpg
+Artist Info:
+
+
+
+Big Time Rush (also known as BTR ) is an American KCA nominated pop/rock quartet band created by
+Nickelodeon , that signed a record deal in 2009, and was made known by the American television
+series, Big Time Rush . The band consists of four real-life best friends: Kendall Schmidt ,
+James Maslow , Carlos Pena Jr. and Logan Henderson . In 2010, The band was nominated for
+"Favorite International Band" at the Australian Kids Choice Awards .
+
+
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 101 MiB
+
+PlayTime : 3mn 54s
+
+Bit rate : 3596 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 1
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Big Time Rush
+
+Kim Leoni - Medicine
+
+
+
+Image:
+http://4.bp.blogspot.com/_SznndU_spVU/TRA_5K7JHRI/AAAAAAAAAwY/cyDEjFh-V3c/s320/Kim%2BLeoni%2B-%2BMedicine.jpg
+Artist Info:
+
+
+
+Kim Leoni is a charismatic, half Indonesian half Dutch performer living in Amsterdam, The
+Netherlands. Thanks to her parents, Kim spent her childhood living on three continents –
+Asia, Europe and the USA. While living in Miami, Kim joined a dance troupe and spent her teenage
+years dancing and performing in clubs throught the state of Florida and beyond. Kim
+attributes her love for music to the percussive sounds of Indonesia , and her love of dancing
+and performing to the first dance steps she learned on the streets of Miami. At the age of 17 Kim
+returned to the Netherlands and found herself a target of interest of several modelling
+agencies, which led her to a short-lived career as a model. However, finding her initial
+modelling career unappealing and dull, she returned to her first love - music, performing
+with a local pop band and gathering her first studio experiences. In August 2006, a chance
+meeting with producers Michel Pollen and Brane Kovak (at a birthday party of a mututal friend,
+where Kim gave an impromptu singing performance!) led to the first collaboration – the song
+called “Again”, an impassionate tale of a stormy relationship “based on a true
+story”. “At first, we were drawn to Kim by her charisma and beauty, but when we heard the
+voice we knew we had to start making music together.”– say the producers, who are already
+working with Kim on the first Kim Leoni album.
+
+
+
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 50.4 MiB
+
+PlayTime : 2mn 45s
+
+Bit rate : 2556 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Kim Leoni , Music
+Video with Lyrics Part 008 Dance Music DVD 01
+
+Hannah - I Believe In You (Cahill Remix)
+
+
+
+Image:
+http://2.bp.blogspot.com/_SznndU_spVU/TRA9vIVbkEI/AAAAAAAAAwQ/Q4eTC7uV3mg/s320/Hannah%2B-%2BI%2BBelieve%2BIn%2BYou%2B%2528Cahill%2BRemix%2529.jpg
+Artist Info:
+
+
+
+Having already secured number 1 club hits in the U.S, Europe and the UK, multi-talented singer
+songwriter Hannah returns to unleash her unique brand of contemporary pop music on the world
+once again.
+
+Born in Estonia but a UK resident for almost a decade now, Hannah has been writing music and
+performing from a young age; her very first track penned at just 13 won her a national
+competition which catapulted her career, and she hasn’t looked back! The award winning
+music artist has a huge international fan base which includes trance legend Paul Van Dyk, who
+has been spinning Hannah’s international No.1 club hit and Ibiza anthem ‘I Believe In
+You’ all summer long.
+
+Co-written with Steve Booker, the song-writing supremo behind Duffy's international
+platinum selling hit 'Mercy', Hannah’s forthcoming single Sanity boasts collaborations
+with a long line of exceptionally cool producers from across the globe, including Dr Kucho,
+Adam K & Soha, Wilson & Ingram, Mikael Weermets, Marcus Schmitz, Bimbo Jones, Sharp Boys and
+Riffs & Rays.
+
+Accompanied by a cutting edge video produced by the directors of chart topping videos by
+Scissor Sisters, Basement Jaxx, Danni Minogue and The Streets, and with costume design by Fee
+Jones, the high profile fashionista responsible for styling Kylie in her much acclaimed
+video ‘Can’t Get You Out Of My Head’, Sanity is an energetic mix of funky beats, powerful
+vocals and a bass line which will infiltrate your mind and have you addicted in an instant!
+Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 57.3 MiB
+
+PlayTime : 3mn 15s
+
+Bit rate : 2453 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Hannah , Music
+Video with Lyrics Part 008 Dance Music DVD 01
+
+Kylie Minogue - All The Lovers (DMCA by blogger.com no to be published again)
+
+
+
+Image:
+http://4.bp.blogspot.com/_SznndU_spVU/TRA8MA4FMxI/AAAAAAAAAwI/vvOpjKgM5g8/s320/Kylie%2BMinogue%2B-%2BAll%2BThe%2BLovers.jpg
+Song Info:
+
+
+
+"All the Lovers" is a song by Australian recording artist Kylie Minogue . It is the first single
+from her eleventh studio album, Aphrodite . "All the Lovers" was written by English
+electropop duo Kish Mauve and was one of the last songs to be recorded for the album. Minogue
+chose the song as the first single since she felt it was reflective of the euphoric mood of
+Aphrodite . "All the Lovers" is a midtempo electropop song with prominent synthesizers, that
+has been compared to Minogue's 2004 single " I Believe in You ". Its lyrics are an invitation to
+the dancefloor, while comparing previous relationships to one's current lover. "All the
+Lovers" was positively received by contemporary critics, who praised its dance anthem
+nature and deemed it as a classic Minogue single.
+
+The song became a commercial success particularly in Europe, reaching the top ten in
+countries such as Belgium, Germany, Ireland and Italy, and peaking inside the top five in
+France, Slovakia and the United Kingdom. The accompanying music video was inspired by the
+installations of Spencer Tunick , and portrays Minogue on top of a flash mob of people wearing
+white underwear, surrounded by different white floating objects. Minogue explained that
+the video was an expression of her view on sexuality and sensuality. It received positive
+reviews, with critics complimenting its aesthetic and imagery. "All the Lovers" has been
+performed by Minogue in a number of live appearances, including the fifth's season finale of
+Germany's Next Topmodel . Music Video Info:
+
+
+
+The music video for "All the Lovers" was filmed on May 8 and May 9, 2010 in downtown Los Angeles,
+California . It was directed by Joseph Kahn , who was reportedly chosen by Minogue since he
+could give the video a fresh, new feel. [ 26 ] The concept is a re-imagination of works by
+American artist Spencer Tunick , known for his installations that feature large numbers of
+nude people. Kahn and Minogue created two treatments for the video, but chose the edgier
+option. [ 27 ] [ 28 ] Minogue wears jewelry from designer Shaun Leane. [ 29 ] The video begins with
+a flash mob of people dropping items with QR Code on them. Although the code isn't directly
+scannable from the video, a blogger has reconstructed the code to reveal that it says "LOVE." [
+citation needed ] They then start kissing while taking their clothes off in an empty street.
+They gather on the middle in their white underwear, where Minogue appears surrounded by
+doves, wearing a white cobweb-style t-shirt over a black bra and knickers, with matching
+white thigh high boots. [ 26 ] [ 30 ] The flash mob becomes bigger as the video continues. During
+the song's bridge, a white horse gallops between couples kissing. The buildings are
+surrounded by floating marshmallows as well as a giant inflatable elephant. [ 31 ] The video
+was noted by some critics for featuring a number of same-sex couples , which Minogue explained
+paid homage to her gay audience who helped propel her initial success. [ 32 ] Minogue said of the
+music video after its release, She originally wanted to wear sombre clothes for the shoots,
+but Kahn insisted on a smaller white outfit.
+
+"People go nuts over it, so that’s amazing. [Kahn] came up with a brilliant, simple idea and
+executed it so sensitively, I thought. It’s still cutting edge, it still gets you a little
+hot under the collar, but I think there’s a real sensitivity. It’s what I’m about and
+what I love. [...] What I'm so thrilled about is the energy that comes through and that oneness.
+[...] It is a perfect and genuine expression of how I feel about sexuality and sensuality. I
+totally believe love should be for love's sake." [ 33 ] [ 34 ] [ 35 ] Media Info:
+
+
+
+Format : AVI
+
+Format/Info : Audio Video Interleave
+
+Format/Family : RIFF
+
+File size : 55.5 MiB
+
+PlayTime : 3mn 15s
+
+Bit rate : 2386 Kbps
+
+
+
+Download:
+
+
+
+(Follow my blog and I will send download links to your contact info) Posted by allan5742 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: Kylie Minogue ,
+Music Video with Lyrics Part 008 Dance Music DVD 01 Newer Posts Older Posts Home Subscribe to:
+Posts (Atom)
+
+Any amount can help to maintain the files on the server. Thank you
+
+
+
+Image: https://www.paypal.com/en_US/i/scr/pixel.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/1334473961456247007/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/1334473961456247007/comments/default";
+holder.currentBlogUrl = "http://allan-musicvideos.blogspot.com/";
+holder.currentBlogId = "1334473961456247007"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#cccccc"; skin['ENDCAP_LINK_COLOR'] = "#eeeeee";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#eeeeee"; skin['CONTENT_TEXT_COLOR'] =
+"#cccccc"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#eeeeee";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#7799bb"; skin['CONTENT_HEADLINE_COLOR'] =
+"#ffcc66"; skin['FONT_FACE'] = "normal normal 100% \x27Trebuchet
+MS\x27,Trebuchet,Verdana,Sans-serif";
+google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-1h7vtd6xnn9tk",
+height: 260, site: "13713594229854507625", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Follow by Email
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Visitors Lounge
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Bookmark and Share
+
+var addthis_config = {"data_track_clickback":true};
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Visitors since April 18, 2011
+
+rm_f1st('0','220','true','false','000000','6pqwobng8j4','true','ff0000');
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Visitors since March 9, 2010
+
+
+
+Image:
+http://hitwebcounter.com/counter/counter.php?page=214039&style=0010&nbdigits=6&type=page&initCount=146302
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Philippine Standard Time
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Search
+
+Loading... #uds-searchControl .gs-result .gs-title, #uds-searchControl .gs-result
+.gs-title *, #uds-searchControl .gsc-results .gsc-trailing-more-results,
+#uds-searchControl .gsc-results .gsc-trailing-more-results * { color:#eeeeee; }
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result
+.gs-title a:visited * { color:#aa77aa; } #uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-publishedDate { color: #eeeeee; } #uds-searchControl .gs-result
+a.gs-visibleUrl, #uds-searchControl .gs-result .gs-visibleUrl { color: #ffcc66; }
+#uds-searchControl .gsc-results { border-color: #446688; background-color: #073763; }
+#uds-searchControl .gsc-tabhActive { border-color: #446688; border-top-color:
+#ffcc66; background-color: #073763; color: #cccccc; } #uds-searchControl
+.gsc-tabhInactive { border-color: #446688; background-color: transparent; color:
+#eeeeee; } #uds-searchClearResults { border-color: #446688; }
+#uds-searchClearResults:hover { border-color: #ffcc66; } #uds-searchControl
+.gsc-cursor-page { color: #eeeeee; } #uds-searchControl .gsc-cursor-current-page {
+color: #cccccc; }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Live Traffic
+
+Feedjit Live Blog Stats
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Popular Posts
+
+    
+
+    -
+
+    Image:
+    http://2.bp.blogspot.com/_SznndU_spVU/TOd3JoLKU0I/AAAAAAAAAo0/v65xxOtPJlU/s72-c/Rihanna%2B-%2BOnly%2BGirl%2B%2528In%2BThe%2BWorld%2529.jpg
+    Rihanna - Only Girl (In The World)
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/_SznndU_spVU/THTUJifm1JI/AAAAAAAAAbg/BV4SbPhh57A/s72-c/Alphaville+-+Forever+Young.bmp
+    Alphaville - Forever Young
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/_SznndU_spVU/TOd2n5nk5PI/AAAAAAAAAok/t9KMtqHE7pM/s72-c/Labrinth%2B-%2BLet%2BThe%2BSun%2BShine.jpg
+    Labrinth - Let The Sun Shine
+
+    
+
+    -
+
+    Image:
+    http://2.bp.blogspot.com/_SznndU_spVU/TSZ6AsTbm9I/AAAAAAAAA3U/7PXP2tmnFUk/s72-c/Guns%2B%2527N%2BRoses%2B-%2BDon%2527t%2BCry.jpg
+    Guns 'N Roses - Don't Cry
+
+    
+
+    -
+
+    Image:
+    http://2.bp.blogspot.com/_SznndU_spVU/TRG3dUrJs4I/AAAAAAAAAyM/nLhgJgmaU0E/s72-c/Westlife%2B-%2BI%2BWanna%2BGrow%2BOld%2BWith%2BYou.jpg
+    Westlife - I Wanna Grow Old With You
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/-EzJ-Rm1crPU/TaZgksoq8GI/AAAAAAAABMU/tmltulqn8H8/s72-c/Jessie%2BJ.%2BFeat.%2BB.O.B%2B-%2BPrice%2BTag.bmp
+    Jessie J. Feat. B.O.B - Price Tag
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/_SznndU_spVU/TOSYjqliXmI/AAAAAAAAAi8/XNwuubmVW6Q/s72-c/Celine%2BDion%2B-%2BI%2BWant%2BYou%2BTo%2BNeed%2BMe.jpg
+    Celine Dion - I Want You To Need Me
+
+    
+
+    -
+
+    Image:
+    http://2.bp.blogspot.com/_SznndU_spVU/TSZ5F3cSuoI/AAAAAAAAA3E/3TmZg-07B_Q/s72-c/Bon%2BJovi%2B-%2BAlways.jpg
+    Bon Jovi - Always
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/_SznndU_spVU/TRBBcuZAojI/AAAAAAAAAwg/HFqVoUGCBxQ/s72-c/Big%2BTime%2BRush%2B-%2B%2527Til%2BI%2BForget%2BAbout%2BYou.jpg
+    Big Time Rush - 'Til I Forget About You
+
+    
+
+    -
+
+    Image:
+    http://2.bp.blogspot.com/-RvDax5jLQ3w/TZrWh82-urI/AAAAAAAABL0/08Ln_CAq9Ag/s72-c/Daze%2B-%2BSuperhero.bmp
+    Daze - Superhero
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Archive
+
+    
+
+        - ►  2012 (1)
+
+        - ►  January (1)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (348)
+
+        - ►  September (44)
+
+        
+
+        
+
+        - ►  August (36)
+
+        
+
+        
+
+        - ►  July (20)
+
+        
+
+        
+
+        - ►  June (22)
+
+        
+
+        
+
+        - ►  May (51)
+
+        
+
+        
+
+        - ►  April (10)
+
+        
+
+        
+
+        - ►  March (25)
+
+        
+
+        
+
+        - ►  February (60)
+
+        
+
+        
+
+        - ►  January (80)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2010 (338)
+
+            - ▼  December (72)
+
+            - Westlife - Safe
+
+            
+
+            - Westlife - I'm Already There
+
+            
+
+            - Westlife - Written In The Stars
+
+            
+
+            - Westlife - Angel's Wings
+
+            
+
+            - Westlife - Tonight
+
+            
+
+            - Westlife - Angel
+
+            
+
+            - Westlife - Evergreen
+
+            
+
+            - Westlife - Puzzle Of My Heart
+
+            
+
+            - Westlife - I Wanna Grow Old With You
+
+            
+
+            - Westlife - When You're Looking Like That
+
+            
+
+            - Blue Feat. Elton John - Sorry Seems To Be The Hard...
+
+            
+
+            - Westlife - Bop Bop Baby
+
+            
+
+            - Blue - Guilty
+
+            
+
+            - Kylie Minogue - Get Outta My Way
+
+            
+
+            - Enrique Iglesias Feat. Nicole Scherzinger - Heartb...
+
+            
+
+            - Cascade - Fever (Extended Edit)
+
+            
+
+            - Alexis Jordan - Happiness
+
+            
+
+            - My Chemical Romance - Na Na Na
+
+            
+
+            - Ke$ha - Your Love Is My Drug
+
+            
+
+            - Justin Bieber - U Smile
+
+            
+
+            - Cheryl Cole - Promise This
+
+            
+
+            - Big Time Rush - 'Til I Forget About You
+
+            
+
+            - Kim Leoni - Medicine
+
+            
+
+            - Hannah - I Believe In You (Cahill Remix)
+
+            
+
+            - Kylie Minogue - All The Lovers (DMCA by blogger.co...
+
+            
+
+            - Michael BublÃ© - Hollywood
+
+            
+
+            - Mohombi - Bumpy Ride
+
+            
+
+            - An Epic, No Less - Echo Of Love
+
+            
+
+            - Nelly Furtado - Say It Right
+
+            
+
+            - Adam Lambert - If I Had U
+
+            
+
+            - Joe Mcelderry - Ambitions
+
+            
+
+            - Keana Texeira - Next New You
+
+            
+
+            - Gucci Mane Feat. Ray J - Remember When
+
+            
+
+            - Jeremih Feat. Ludacris - I Like
+
+            
+
+            - M.I.A. - XXXO
+
+            
+
+            - Cheryl Cole - Parachute
+
+            
+
+            - Daughtry - It's Not Over
+
+            
+
+            - Kaci Bataglia Feat. Ludacris - Body Shots (Dave Au...
+
+            
+
+            - Enrique Iglesias Feat. Pitbull - I Like It (Jersey...
+
+            
+
+            - Inna - 10 Minutes
+
+            
+
+            - Nicole Scherzinger - Poison
+
+            
+
+            - Anberlin - Impossible
+
+            
+
+            - Britney Spears - Everytime
+
+            
+
+            - Westlife - Uptown Girl
+
+            
+
+            - Jason Derulo - The Sky's The Limit
+
+            
+
+            - Ironik Feat Jessica Lowndes - Falling In Love
+
+            
+
+            - Jay Sean Feat. Nicki Minaj - 2012 (It Ain't The En...
+
+            
+
+            - Maroon 5 - Give A Little More
+
+            
+
+            - Pink - Raise Your Glass
+
+            
+
+            - Justin Bieber - Love Me
+
+            
+
+            - Taylor Swift - The Best Day
+
+            
+
+            - Sunny Sweeney - From A Table Away
+
+            
+
+            - The Beach Girl5 - Scratch
+
+            
+
+            - Katy Perry - Firework
+
+            
+
+            - Taylor Swift - White Horse
+
+            
+
+            - Robyn - Hang With Me
+
+            
+
+            - Selena Gomez & The Scene - A Year Without Rain
+
+            
+
+            - Taylor Swift - Mine
+
+            
+
+            - Usher Feat. Pitbull - DJ Got Us Fallin' In Love
+
+            
+
+            - Katy Perry - Teenage Dream - (Kaskade Remix)
+
+            
+
+            - Alex Gaudino Feat. Maxine - I'm In Love (I Wanna D...
+
+            
+
+            - Edward Maya Feat. Mia Martina - Stereo Love
+
+            
+
+            - Christina Aguilera - Not Myself Tonight
+
+            
+
+            - The Ting Tings - Hands
+
+            
+
+            - Klaas vs Haddaway - What Is Love 2K9 (Extended Edi...
+
+            
+
+            - J. Randall - Spirit Of The Radio
+
+            
+
+            - Afrojack Feat. Eva Simons - Take Over Control
+
+            
+
+            - Alexis Jordan - Happiness (Jump Smokers Extended M...
+
+            
+
+            - Taylor Swift - Fearless
+
+            
+
+            - ATC - Thinking Of You
+
+            
+
+            - Ashley Tisdale - Suddenly
+
+            
+
+            - 3oh!3 - Double Vision
+
+            
+
+        
+
+        
+
+        
+
+        - ►  November (71)
+
+        
+
+        
+
+        - ►  October (2)
+
+        
+
+        
+
+        - ►  September (13)
+
+        
+
+        
+
+        - ►  August (4)
+
+        
+
+        
+
+        - ►  July (5)
+
+        
+
+        
+
+        - ►  May (61)
+
+        
+
+        
+
+        - ►  April (52)
+
+        
+
+        
+
+        - ►  March (58)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Music Videos with Lyrics added by allan5742
+
+    
+
+    - 'N Sync (1)
+
+    
+
+    - 2 Unlimited (1)
+
+    
+
+    - 3oh3 (1)
+
+    
+
+    - 50 Cent (1)
+
+    
+
+    - 98 Degrees (2)
+
+    
+
+    - A*Teens (5)
+
+    
+
+    - A-Ha (1)
+
+    
+
+    - A1 (3)
+
+    
+
+    - Aaron Carter (1)
+
+    
+
+    - Ace Of Base (4)
+
+    
+
+    - Adam Barta (2)
+
+    
+
+    - Adam Lambert (1)
+
+    
+
+    - Aerosmith (1)
+
+    
+
+    - Afrojack (2)
+
+    
+
+    - Air Supply (5)
+
+    
+
+    - Akon (3)
+
+    
+
+    - Alan Jackson (1)
+
+    
+
+    - Alesha Dixon (1)
+
+    
+
+    - Alex Gaudino (1)
+
+    
+
+    - Alexis Jordan (2)
+
+    
+
+    - Alice Cooper (1)
+
+    
+
+    - Alice DeeJay (1)
+
+    
+
+    - Alicia Keys (2)
+
+    
+
+    - Alison Krauss (1)
+
+    
+
+    - Alizee (2)
+
+    
+
+    - All 4 One (2)
+
+    
+
+    - All Star (1)
+
+    
+
+    - Alphaville (2)
+
+    
+
+    - Aly and AJ (1)
+
+    
+
+    - Amanda (1)
+
+    
+
+    - Amanda Morra (1)
+
+    
+
+    - An Epic No Less (1)
+
+    
+
+    - Anberlin (1)
+
+    
+
+    - Angie Be (1)
+
+    
+
+    - Anna Nalick (1)
+
+    
+
+    - AnnaGrace (1)
+
+    
+
+    - Another Level (1)
+
+    
+
+    - Apocalyptica (1)
+
+    
+
+    - Aqua (1)
+
+    
+
+    - Ashley Tisdale (1)
+
+    
+
+    - ATC (1)
+
+    
+
+    - Atlantic Starr (1)
+
+    
+
+    - Atomic Kitten (1)
+
+    
+
+    - Avril Lavigne (2)
+
+    
+
+    - B.G. The Prince Of Rap (1)
+
+    
+
+    - B.o.B. (2)
+
+    
+
+    - B.o.B. Jessie J. (1)
+
+    
+
+    - Baby Alice (1)
+
+    
+
+    - Babybird (1)
+
+    
+
+    - Babyface (1)
+
+    
+
+    - Backstreet Boys (11)
+
+    
+
+    - Basia (1)
+
+    
+
+    - Basshunter (1)
+
+    
+
+    - Bee Gees (1)
+
+    
+
+    - Belini (1)
+
+    
+
+    - Beyonce (2)
+
+    
+
+    - BeyoncÃ© - Best Thing I Never Had (1)
+
+    
+
+    - Big Time Rush (1)
+
+    
+
+    - Black Eyed Peas (4)
+
+    
+
+    - Blue (6)
+
+    
+
+    - Blue System (1)
+
+    
+
+    - Bon Jovi (5)
+
+    
+
+    - Bosson (1)
+
+    
+
+    - Boyz II Men (3)
+
+    
+
+    - Boyzone (19)
+
+    
+
+    - Brian May (1)
+
+    
+
+    - Brian McKnight (2)
+
+    
+
+    - Britney Spears (13)
+
+    
+
+    - Bruno Mars (3)
+
+    
+
+    - Bryan Adams (5)
+
+    
+
+    - Bubbler (1)
+
+    
+
+    - Cappella (1)
+
+    
+
+    - Carrie Underwood (3)
+
+    
+
+    - Cascade (1)
+
+    
+
+    - Celine Dion (15)
+
+    
+
+    - Charice Feat. Iyaz (1)
+
+    
+
+    - Cheryl Cole (2)
+
+    
+
+    - Chevelle (1)
+
+    
+
+    - China Crisis (1)
+
+    
+
+    - Chris Brown (1)
+
+    
+
+    - Chris Willis (1)
+
+    
+
+    - Chris Young (1)
+
+    
+
+    - Christina Aguilera (4)
+
+    
+
+    - Ciara (1)
+
+    
+
+    - Cindy Santini (1)
+
+    
+
+    - Colbie Caillat (2)
+
+    
+
+    - Colton Ford (1)
+
+    
+
+    - Corona (1)
+
+    
+
+    - Countess Luann (1)
+
+    
+
+    - Craig Smart (1)
+
+    
+
+    - Crystal Bernard (1)
+
+    
+
+    - Culture Beat (2)
+
+    
+
+    - Culture Club (1)
+
+    
+
+    - Cutting Crew (1)
+
+    
+
+    - Cyndi Lauper (1)
+
+    
+
+    - Daniel Bedingfield (2)
+
+    
+
+    - Daniel Powter (4)
+
+    
+
+    - Danielle Barbe (1)
+
+    
+
+    - Daughtry (2)
+
+    
+
+    - David Archuleta (2)
+
+    
+
+    - David Guetta (4)
+
+    
+
+    - Daze (1)
+
+    
+
+    - Debbie Gibson (2)
+
+    
+
+    - Def Leppard (1)
+
+    
+
+    - Depeche Mode (3)
+
+    
+
+    - Destiny's Child (1)
+
+    
+
+    - Dev (1)
+
+    
+
+    - Diddy (1)
+
+    
+
+    - Dido (1)
+
+    
+
+    - Dino (1)
+
+    
+
+    - Dizzee Rascal (1)
+
+    
+
+    - DJ Bobo (2)
+
+    
+
+    - Drake (1)
+
+    
+
+    - Duran Duran (2)
+
+    
+
+    - DVDrip Music Video With Lyrics Part 008 Dance DVD 01 (1)
+
+    
+
+    - DVDrip Music Video With Lyrics Part 016 Urban Club DVD 02 (1)
+
+    
+
+    - E-Type (1)
+
+    
+
+    - Edward Maya (2)
+
+    
+
+    - Eiffel 65 (1)
+
+    
+
+    - Elton John (5)
+
+    
+
+    - Emilia (1)
+
+    
+
+    - Emily Osment (1)
+
+    
+
+    - Eminem (1)
+
+    
+
+    - Enrique Iglesias (4)
+
+    
+
+    - Erasure (1)
+
+    
+
+    - Escape The Fate (1)
+
+    
+
+    - Europe (2)
+
+    
+
+    - Eurythmics (1)
+
+    
+
+    - Eva Simons (1)
+
+    
+
+    - Everything But The Girl (1)
+
+    
+
+    - Extreme (1)
+
+    
+
+    - Faith Hill (1)
+
+    
+
+    - Far East Movement (1)
+
+    
+
+    - Fergie (1)
+
+    
+
+    - Fiction Factory (1)
+
+    
+
+    - Firehouse (2)
+
+    
+
+    - Five (1)
+
+    
+
+    - Flo Rida (3)
+
+    
+
+    - Foreigner (1)
+
+    
+
+    - Fra Lippo Lippi (1)
+
+    
+
+    - Fugative (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 001 Love Songs DVD 01 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 002 Love Songs DVD 02 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 003 Pop Songs DVD 01 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 004 Classic Love Songs DVD 01 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 005 Urban Club DVD 01 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 006 Love Songs DVD 03 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 007 Best of Boyband DVD 01 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 008 Dance Music DVD 01 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 009 Love Songs DVD 04 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 010 Slow Rock DVD 02 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 011 Best of Taylor Swift DVD 01 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 012 Alternative DVD 01 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 013 Love Songs DVD 05 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 014 Love Songs DVD 06 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 015 Love Songs DVD 07 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 016 Urban Club DVD 02 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 017 Dance DVD 02 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 018 Dance DVD 03 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 019 Urban Club DVD 03 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 020 Love Songs DVD 08 (1)
+
+    
+
+    - Full DVD Music Video With Lyrics Part 021 Best of Boyband DVD 02 (1)
+
+    
+
+    - Gary Barlow (1)
+
+    
+
+    - Gary Numan (1)
+
+    
+
+    - Gavin Rossdale (1)
+
+    
+
+    - Gil Ofarim (1)
+
+    
+
+    - Gin Blossoms (1)
+
+    
+
+    - Girls Aloud (1)
+
+    
+
+    - Gloria Estefan (1)
+
+    
+
+    - Greg Parys (1)
+
+    
+
+    - Groove Coverage (1)
+
+    
+
+    - Gucci Mane (1)
+
+    
+
+    - Guns 'N Roses (1)
+
+    
+
+    - Guy Sebastian (1)
+
+    
+
+    - Gwen Stefani (1)
+
+    
+
+    - Haddaway (1)
+
+    
+
+    - Hannah (1)
+
+    
+
+    - Hayley Williams (1)
+
+    
+
+    - Heath Hunter (1)
+
+    
+
+    - Her Majesty and The Wolves (1)
+
+    
+
+    - Hoobastank (1)
+
+    
+
+    - Human League (1)
+
+    
+
+    - Information Society (1)
+
+    
+
+    - Inna (3)
+
+    
+
+    - Interpol (1)
+
+    
+
+    - Ironik (1)
+
+    
+
+    - Iyaz (3)
+
+    
+
+    - J. Randall (1)
+
+    
+
+    - James Blunt (2)
+
+    
+
+    - Janet Jackson (2)
+
+    
+
+    - Jason Derulo (3)
+
+    
+
+    - Jason Mraz (1)
+
+    
+
+    - Jay Sean (1)
+
+    
+
+    - Jennifer Lopez (2)
+
+    
+
+    - Jeremih (1)
+
+    
+
+    - Jes (1)
+
+    
+
+    - Jesse McCartney (1)
+
+    
+
+    - Jessica Lowndes (1)
+
+    
+
+    - Jessica Simpson (1)
+
+    
+
+    - Jessie J. (1)
+
+    
+
+    - Jewel (3)
+
+    
+
+    - Jim Brickman (1)
+
+    
+
+    - Joe Mcelderry (1)
+
+    
+
+    - John Waite (1)
+
+    
+
+    - Johnny Hates Jazz (1)
+
+    
+
+    - JoJo (3)
+
+    
+
+    - Jon B. (1)
+
+    
+
+    - Jon Secada (1)
+
+    
+
+    - Jonas Brothers (1)
+
+    
+
+    - Jordin Sparks (1)
+
+    
+
+    - Josh Groban (2)
+
+    
+
+    - Journey (1)
+
+    
+
+    - Julianne Hough - Is That So Wrong (1)
+
+    
+
+    - Justin Bieber (6)
+
+    
+
+    - Kaci Bataglia (2)
+
+    
+
+    - Kanye West (1)
+
+    
+
+    - Katharine Mcphee (2)
+
+    
+
+    - Katy Perry (6)
+
+    
+
+    - Ke$ha (2)
+
+    
+
+    - Ke$ha - Blow (1)
+
+    
+
+    - Keana Texeira (1)
+
+    
+
+    - Keith Urban (1)
+
+    
+
+    - Kelly Clarkson (4)
+
+    
+
+    - Kelly Rowland (1)
+
+    
+
+    - Keri Hilson (1)
+
+    
+
+    - Kesha (1)
+
+    
+
+    - Kevin Rudolf (1)
+
+    
+
+    - Kid Cudi (1)
+
+    
+
+    - Kim Leoni (1)
+
+    
+
+    - Kim Wilde (1)
+
+    
+
+    - Kimberly Cole (1)
+
+    
+
+    - KKe$ha (1)
+
+    
+
+    - Klaas (1)
+
+    
+
+    - Kraftwerk (1)
+
+    
+
+    - Kylie Minogue (5)
+
+    
+
+    - La Bouche (1)
+
+    
+
+    - Labrinth (1)
+
+    
+
+    - Lady Antebellum (3)
+
+    
+
+    - Lady Gaga (1)
+
+    
+
+    - Lasgo (1)
+
+    
+
+    - LeAnn Rimes (1)
+
+    
+
+    - Lenka (1)
+
+    
+
+    - Leon Jackson (1)
+
+    
+
+    - Leona Lewis (1)
+
+    
+
+    - Lil Wayne (2)
+
+    
+
+    - Limahl (1)
+
+    
+
+    - Lisa Loeb (1)
+
+    
+
+    - Lolene (1)
+
+    
+
+    - Lonestar (2)
+
+    
+
+    - Longo and Wainwright (1)
+
+    
+
+    - Luciana (1)
+
+    
+
+    - Ludacris (5)
+
+    
+
+    - M.I.A. (1)
+
+    
+
+    - M2M (1)
+
+    
+
+    - Madonna (5)
+
+    
+
+    - Mandy Moore (4)
+
+    
+
+    - Mariah Carey (2)
+
+    
+
+    - Maroon 5 (4)
+
+    
+
+    - Maxine (1)
+
+    
+
+    - Meatloaf (1)
+
+    
+
+    - Meck (1)
+
+    
+
+    - Mel C. (1)
+
+    
+
+    - Men At Work (1)
+
+    
+
+    - Mia Martina (1)
+
+    
+
+    - Michael BublÃ© (1)
+
+    
+
+    - Michael Jackson (3)
+
+    
+
+    - Michael Learns To Rock (2)
+
+    
+
+    - Michelle Branch (1)
+
+    
+
+    - Middle Class Rut (1)
+
+    
+
+    - Mike Posner (1)
+
+    
+
+    - Miley Cyrus (1)
+
+    
+
+    - Millionaires (1)
+
+    
+
+    - Mindless Behavior (1)
+
+    
+
+    - Miranda (1)
+
+    
+
+    - Mitchel Musso (1)
+
+    
+
+    - Modern English (1)
+
+    
+
+    - Mohombi (1)
+
+    
+
+    - Mr. Big (1)
+
+    
+
+    - Mr. President (1)
+
+    
+
+    - Music Video with Lyrics Part 001 Love Songs DVD 01 (30)
+
+    
+
+    - Music Video with Lyrics Part 002 Love Songs DVD 02 (30)
+
+    
+
+    - Music Video with Lyrics Part 003 Pop Songs DVD 01 (30)
+
+    
+
+    - Music Video With Lyrics Part 004 - Classic Love Songs DVD 01 (30)
+
+    
+
+    - Music Video with Lyrics Part 005 Urban Club DVD 01 (30)
+
+    
+
+    - Music Video with Lyrics Part 006 Love Songs DVD 03 (30)
+
+    
+
+    - Music Video with Lyrics Part 007 Best of Boy Band DVD 01 (50)
+
+    
+
+    - Music Video with Lyrics Part 008 Dance Music DVD 01 (30)
+
+    
+
+    - Music Video with Lyrics Part 009 Love Songs DVD 04 (30)
+
+    
+
+    - Music Video with Lyrics Part 010 Slow Rock DVD 01 (30)
+
+    
+
+    - Music Video with Lyrics Part 011 Best of Taylor Swift DVD 01 (13)
+
+    
+
+    - Music Video with Lyrics Part 012 Alternative DVD 01 (29)
+
+    
+
+    - Music Video With Lyrics Part 013 Love Songs DVD 05 (29)
+
+    
+
+    - Music Video With Lyrics Part 014 Love Songs DVD 06 (30)
+
+    
+
+    - Music Video With Lyrics Part 015 Love Songs DVD 07 (30)
+
+    
+
+    - Music Video With Lyrics Part 016 Urban Club DVD 02 (30)
+
+    
+
+    - Music Video With Lyrics Part 017 Dance DVD 02 (30)
+
+    
+
+    - Music Video With Lyrics Part 018 Dance DVD 03 (30)
+
+    
+
+    - Music Video With Lyrics Part 019 Urban Club DVD 03 (30)
+
+    
+
+    - Music Video With Lyrics Part 020 Love Songs DVD 08 (30)
+
+    
+
+    - My Chemical Romance (1)
+
+    
+
+    - Natalie Imbruglia (1)
+
+    
+
+    - Nayer (1)
+
+    
+
+    - Nazareth (1)
+
+    
+
+    - Ne-Yo (2)
+
+    
+
+    - Nelly (2)
+
+    
+
+    - Nelly Furtado (4)
+
+    
+
+    - New Kids On The Block (2)
+
+    
+
+    - New Order (1)
+
+    
+
+    - Nick Lachey (1)
+
+    
+
+    - Nicki Minaj (2)
+
+    
+
+    - Nicole Scherzinger (4)
+
+    
+
+    - Non-Stop Videomix (3)
+
+    
+
+    - Oleta Adams (1)
+
+    
+
+    - OMC (1)
+
+    
+
+    - Papa Roach (1)
+
+    
+
+    - Paris Hilton (1)
+
+    
+
+    - Paula Abdul (1)
+
+    
+
+    - Peter Andre (1)
+
+    
+
+    - Peter Cetera (2)
+
+    
+
+    - Pharao (2)
+
+    
+
+    - Phil Collins (4)
+
+    
+
+    - Pink (1)
+
+    
+
+    - Pitbull (6)
+
+    
+
+    - Pussycat Dolls (1)
+
+    
+
+    - R. Kelly (2)
+
+    
+
+    - R.E.M. (2)
+
+    
+
+    - Ray J (1)
+
+    
+
+    - Real McCoy (2)
+
+    
+
+    - Richard Marx (2)
+
+    
+
+    - Richard Vission (1)
+
+    
+
+    - Rick Astley (1)
+
+    
+
+    - Rick Price (1)
+
+    
+
+    - Ricky J (1)
+
+    
+
+    - Rihanna (6)
+
+    
+
+    - Robbie Williams (1)
+
+    
+
+    - Robin Beck - The First Time (1)
+
+    
+
+    - Robyn (2)
+
+    
+
+    - Rod Stewart (1)
+
+    
+
+    - Ronan Keating (2)
+
+    
+
+    - Roxette (24)
+
+    
+
+    - Russian Radio (1)
+
+    
+
+    - S Club 7 (3)
+
+    
+
+    - Sam Brown (1)
+
+    
+
+    - Sammy Adams (1)
+
+    
+
+    - Savage Garden (3)
+
+    
+
+    - Say It Twice (1)
+
+    
+
+    - Scorpions (2)
+
+    
+
+    - Selena Gomez and The Scene (9)
+
+    
+
+    - Shaft (1)
+
+    
+
+    - Shakira (2)
+
+    
+
+    - Shania Twain (2)
+
+    
+
+    - Shayne Ward (5)
+
+    
+
+    - Shontelle (1)
+
+    
+
+    - Simple Minds (1)
+
+    
+
+    - Simply Red (2)
+
+    
+
+    - Sinead O'Connor (1)
+
+    
+
+    - Skillet (1)
+
+    
+
+    - Sky Ferreira (1)
+
+    
+
+    - Slim Thug (1)
+
+    
+
+    - Snap (1)
+
+    
+
+    - Snoop Dogg (1)
+
+    
+
+    - Sophie B. Hawkins (1)
+
+    
+
+    - Soul Asylum (1)
+
+    
+
+    - Spandau Ballet (1)
+
+    
+
+    - Spice Girls (3)
+
+    
+
+    - Starshell (1)
+
+    
+
+    - Static Revenger (1)
+
+    
+
+    - Sting (2)
+
+    
+
+    - Stone Sour (1)
+
+    
+
+    - Stone Temple Pilots (1)
+
+    
+
+    - Sunday Girl (1)
+
+    
+
+    - Sunny Sweeney (1)
+
+    
+
+    - Super Junior (1)
+
+    
+
+    - Surface (1)
+
+    
+
+    - T-Pain (1)
+
+    
+
+    - T-Spoon (1)
+
+    
+
+    - T.A.T.U. (1)
+
+    
+
+    - Taio Cruz (3)
+
+    
+
+    - Take That (1)
+
+    
+
+    - Taylor Dayne (1)
+
+    
+
+    - Taylor Swift (16)
+
+    
+
+    - Tears For Fears (2)
+
+    
+
+    - The Adventures (1)
+
+    
+
+    - The Beach Girl5 (1)
+
+    
+
+    - The Camouflage (1)
+
+    
+
+    - The Cataracs (1)
+
+    
+
+    - The Classic Crime (1)
+
+    
+
+    - The Corrs (14)
+
+    
+
+    - The Jets (1)
+
+    
+
+    - The Pretty Reckless (1)
+
+    
+
+    - The Psychedelic Furs (1)
+
+    
+
+    - The Saturdays (1)
+
+    
+
+    - The Ting Tings (1)
+
+    
+
+    - The Wanted (2)
+
+    
+
+    - Tim McGraw (1)
+
+    
+
+    - Tina Arena (3)
+
+    
+
+    - Tino Coury (1)
+
+    
+
+    - TLC (1)
+
+    
+
+    - Toni Braxton (2)
+
+    
+
+    - Tori Amos (1)
+
+    
+
+    - Toto (2)
+
+    
+
+    - Travie McCoy (3)
+
+    
+
+    - Trina (1)
+
+    
+
+    - Usher (4)
+
+    
+
+    - Usher Feat. Will.I.Am (1)
+
+    
+
+    - Vanessa Williams (1)
+
+    
+
+    - Vengaboys (3)
+
+    
+
+    - Vika Jigulina (1)
+
+    
+
+    - Weezer (1)
+
+    
+
+    - Westlife (36)
+
+    
+
+    - Wet Wet Wet (1)
+
+    
+
+    - When In Rome (1)
+
+    
+
+    - Whitney Houston (6)
+
+    
+
+    - Will.I.Am (1)
+
+    
+
+    - Wynter Gordon (1)
+
+    
+
+    - Yael Naim (1)
+
+    
+
+    - Zac Brown Band (1)
+
+    
+
+    - Zachary Levi (1)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png  
+
+DISCLAIMER
+
+Allan5742.com does not store any files on its server nor claim any copyright on any music
+videos in this pages. All posted here are copyrighted by its respective owners.
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'1334473961456247007';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d1334473961456247007','//allan-musicvideos.blogspot.com/2010_12_01_archive.html','1334473961456247007');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'1334473961456247007', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Music Video
+with Lyrics added by Allan5742', 'pageType': 'archive', 'url':
+'http://allan-musicvideos.blogspot.com/2010_12_01_archive.html', 'canonicalUrl':
+'http://allan-musicvideos.blogspot.com/2010_12_01_archive.html',
+'canonicalHomepageUrl': 'http://allan-musicvideos.blogspot.com/', 'homepageUrl':
+'http://allan-musicvideos.blogspot.com/', 'blogspotFaviconUrl':
+'http://allan-musicvideos.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'December 2010', 'pageTitle': 'Music Video with Lyrics added by Allan5742: December 2010',
+'encoding': 'UTF-8', 'locale': 'en', 'isPrivate': false, 'isMobile': false,
+'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false,
+'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42
+type\75\42application/atom+xml\42 title\75\42Music Video with Lyrics added by
+Allan5742 - Atom\42
+href\75\42http://allan-musicvideos.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42Music Video with Lyrics added by Allan5742 - RSS\42
+href\75\42http://allan-musicvideos.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Music Video with Lyrics added by Allan5742 - Atom\42
+href\75\42http://www.blogger.com/feeds/1334473961456247007/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0751334473961456247007\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#cccccc', 'linkcolor':
+'#eeeeee', 'visitedlinkcolor': '#aa77aa', 'textcolor': '#cccccc', 'headerfont':
+'normal bold 78% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif',
+'pagetitlefont': 'normal bold 200% \47Trebuchet MS\47,Trebuchet,Verdana,Sans-serif',
+'bgcolor': '#073763', 'descriptioncolor': '#7799bb', 'titlecolor': '#ffcc66',
+'bordercolor': '#446688', 'postfooterfont': 'normal normal 78% \47Trebuchet MS\47,
+Trebuchet, Verdana, Sans-serif', 'pagetitlecolor': '#eeeeee', 'bodyfont': 'normal
+normal 100% \47Trebuchet MS\47,Trebuchet,Verdana,Sans-serif', 'endSide': 'right',
+'startSide': 'left', 'descriptionfont': 'normal normal 78% \47Trebuchet MS\47,
+Trebuchet, Verdana, Sans-serif', 'sidebarcolor': '#eeeeee'}, 'override': ''}},
+{'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'},
+'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name':
+'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url':
+'/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'},
+'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name':
+'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1', 'footer',
+null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1',
+'crosscol', null, document.getElementById('PageList1'), {'title': 'Pages', 'links':
+[{'href': 'http://allan-musicvideos.blogspot.com/', 'title': 'Home',
+'isCurrentPage': false}, {'href':
+'http://allan-musicvideos.blogspot.com/p/test.html', 'title': 'Full DVD',
+'isCurrentPage': false}, {'href':
+'http://allan-musicvideos.blogspot.com/p/credit-to-donator.html', 'title':
+'Credit to Donator', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'crosscol',
+null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar',
+null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1',
+'sidebar', null, document.getElementById('Followers1'), {'title': 'Followers',
+'codeSnippet': '\74script type\75\42text/javascript\42\76\n if (!window.google ||
+!google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75
+\42http://www.blogger.com/feeds/1334473961456247007/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/1334473961456247007/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://allan-musicvideos.blogspot.com/\42;\n
+holder.currentBlogId \75 \0421334473961456247007\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-18wdfbmtpq0gc\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#cccccc\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#eeeeee\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#eeeeee\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#cccccc\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#eeeeee\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#7799bb\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#ffcc66\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 100% \\x27Trebuchet MS\\x27,Trebuchet,Verdana,Sans-serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-18wdfbmtpq0gc\42,\n height: 260,\n \n \n \n site:
+\04213713594229854507625\42,\n \n locale: \47en\47 },\n skin);\n \74/script\076'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_FollowByEmailView', new
+_WidgetInfo('FollowByEmail1', 'sidebar', null,
+document.getElementById('FollowByEmail1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar',
+null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'sidebar',
+null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebar',
+null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar',
+null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7', 'sidebar',
+null, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_CustomSearchView', new
+_WidgetInfo('CustomSearch1', 'sidebar', null,
+document.getElementById('CustomSearch1'), {'title': 'Search', 'includeBlog': true,
+'includePostLinks': false, 'includeWeb': false, 'linkLists': [], 'blogUrl':
+'http://allan-musicvideos.blogspot.com/', 'loadingMsg': 'Loading...',
+'thisBlogMsg': 'This Blog', 'linkedFromHereMsg': 'Linked From Here', 'theWebMsg': 'The
+Web', 'backgroundColor': '#073763', 'textColor': '#cccccc', 'dateColor': '#eeeeee',
+'linkColor': '#eeeeee', 'urlColor': '#ffcc66', 'visitedLinkColor': '#aa77aa',
+'borderColor': '#446688', 'activeBorderColor': '#ffcc66'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML9', 'sidebar',
+null, document.getElementById('HTML9'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new
+_WidgetInfo('PopularPosts1', 'sidebar', null,
+document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LabelView', new
+_WidgetInfo('Label1', 'sidebar', null, document.getElementById('Label1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

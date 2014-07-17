@@ -1,0 +1,769 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); IN - LINE HOCKEY PHILIPPINES <!-- /* * Blogger Template Style * * Sand Dollar * by Jason
+Sutter * Updated by Blogger Team */ /* Variable definitions ==================== <Variable
+name="textcolor" description="Text Color" type="color" default="#000"> <Variable
+name="bgcolor" description="Page Background Color" type="color" default="#f6f6f6">
+<Variable name="pagetitlecolor" description="Blog Title Color" type="color"
+default="#F5DEB3"> <Variable name="pagetitlebgcolor" description="Blog Title
+Background Color" type="color" default="#DE7008"> <Variable name="descriptionColor"
+description="Blog Description Color" type="color" default="#9E5205" /> <Variable
+name="descbgcolor" description="Description Background Color" type="color"
+default="#F5E39e"> <Variable name="titlecolor" description="Post Title Color"
+type="color" default="#9E5205"> <Variable name="datecolor" description="Date Header
+Color" type="color" default="#777777"> <Variable name="footercolor"
+description="Post Footer Color" type="color" default="#444444"> <Variable
+name="linkcolor" description="Link Color" type="color" default="#DE7008"> <Variable
+name="footerlinkcolor" description="Post Footer Link Color" type="color"
+default="#968a0a"> <Variable name="visitedlinkcolor" description="Visited Link
+Color" type="color" default="#DE7008"> <Variable name="sidebarcolor"
+description="Sidebar Title Color" type="color" default="#B8A80D"> <Variable
+name="sidebarlinkcolor" description="Sidebar Link Color" type="color"
+default="#999999"> <Variable name="bordercolor" description="Border Color"
+type="color" default="#e0ad12"> <Variable name="bodyfont" description="Text Font"
+type="font" default="normal normal 100% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-Serif"> <Variable name="headerfont"
+description="Sidebar Title Font" type="font" default="normal bold 150%
+Verdana,Sans-serif"> <Variable name="dateHeaderFont" description="Date Header Font"
+type="font" default="normal bold 105% 'Trebuchet MS',Trebuchet,Verdana,Sans-serif">
+<Variable name="pagetitlefont" description="Blog Title Font" type="font"
+default="normal bold 300% Verdana,Sans-Serif"> <Variable name="titlefont"
+description="Post Title Font" type="font" default="normal bold 160%
+Verdana,Sans-Serif"> <Variable name="startSide" description="Start side in blog
+language" type="automatic" default="left"> <Variable name="endSide" description="End
+side in blog language" type="automatic" default="right"> */ body { margin:0px;
+padding:0px; background:#020417; color:#ffffff; font-size: small; } #outer-wrapper {
+font:normal normal 118% Trebuchet, Trebuchet MS, Arial, sans-serif; } a { color:#ffffff; }
+a:hover { color:#666666; } a img { border-width: 0; } #content-wrapper { padding-top: 0;
+padding-right: 1em; padding-bottom: 0; padding-left: 1em; } @media all { div#main {
+float:right; width:66%; padding-top:30px; padding-right:0; padding-bottom:10px;
+padding-left:1em; border-left:dotted 1px #C3D9FF; word-wrap: break-word; /* fix for long
+text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content
+breaking IE sidebar float */ } div#sidebar { margin-top:20px; margin-right:0px;
+margin-bottom:0px; margin-left:0; padding:0px; text-align:left; float: left; width:
+31%; word-wrap: break-word; /* fix for long text breaking sidebar float in IE */ overflow:
+hidden; /* fix for long non-text content breaking IE sidebar float */ } } @media handheld {
+div#main { float:none; width:90%; } div#sidebar { padding-top:30px; padding-right:7%;
+padding-bottom:10px; padding-left:3%; } } #header { padding-top:0px;
+padding-right:0px; padding-bottom:0px; padding-left:0px; margin-top:0px;
+margin-right:0px; margin-bottom:0px; margin-left:0px; border-bottom:dotted 1px
+#C3D9FF; background:#cc0000; } h1 a:link { text-decoration:none; color:#020417 } h1
+a:visited { text-decoration:none; color:#020417 } h1,h2,h3 { margin: 0; } h1 {
+padding-top:25px; padding-right:0px; padding-bottom:10px; padding-left:5%;
+color:#020417; background:#cc0000; font:normal bold 379% Georgia, Times, serif;
+letter-spacing:-2px; } h3.post-title { color:#666666; font:normal bold 115% Verdana,
+sans-serif; letter-spacing:-1px; } h3.post-title a, h3.post-title a:visited { color:
+#666666; } h2.date-header { margin-top:10px; margin-right:0px; margin-bottom:0px;
+margin-left:0px; color:#cc0000; font: normal bold 105% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif; } h4 { color:#aa0033; } #sidebar h2 { color:#333333;
+margin:0px; padding:0px; font:normal bold 165% Verdana,Sans-serif; } #sidebar .widget {
+margin-top:0px; margin-right:0px; margin-bottom:33px; margin-left:0px;
+padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;
+font-size:95%; } #sidebar ul { list-style-type:none; padding-left: 0; margin-top: 0; }
+#sidebar li { margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px;
+padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;
+list-style-type:none; font-size:95%; } .description { padding:0px; margin-top:7px;
+margin-right:12%; margin-bottom:7px; margin-left:5%; color:#b3b3b3;
+background:transparent; font:bold 100% Verdana,Sans-Serif; } .post { margin-top:0px;
+margin-right:0px; margin-bottom:30px; margin-left:0px; } .post strong { color:#ffffff;
+font-weight:bold; } pre,code { color:#cccccc; } strike { color:#cccccc; } .post-footer {
+padding:0px; margin:0px; color:#e6e6e6; font-size:80%; } .post-footer a { border:none;
+color:#020417; text-decoration:none; } .post-footer a:hover {
+text-decoration:underline; } #comments { padding:0px; font-size:110%;
+font-weight:bold; } .comment-author { margin-top: 10px; } .comment-body {
+font-size:100%; font-weight:normal; color:black; } .comment-footer {
+padding-bottom:20px; color:#e6e6e6; font-size:80%; font-weight:normal;
+display:inline; margin-right:10px } .deleted-comment { font-style:italic; color:gray;
+} .comment-link { margin-left:.6em; } .profile-textblock { clear: both; margin-left: 0; }
+.profile-img { float: left; margin-top: 0; margin-right: 5px; margin-bottom: 5px;
+margin-left: 0; border: 2px solid #cc0000; } #sidebar a:link { color:#cccccc;
+text-decoration:none; } #sidebar a:active { color:#ff0000; text-decoration:none; }
+#sidebar a:visited { color:sidebarlinkcolor; text-decoration:none; } #sidebar a:hover {
+color:#333333; text-decoration:none; } .feed-links { clear: both; line-height: 2.5em; }
+#blog-pager-newer-link { float: left; } #blog-pager-older-link { float: right; }
+#blog-pager { text-align: center; } .clear { clear: both; } .widget-content { margin-top:
+0.5em; } /** Tweaks for layout editor preview */ body#layout #outer-wrapper { margin-top: 0;
+} body#layout #main, body#layout #sidebar { margin-top: 10px; padding-top: 0; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0754142130707055798595\46blogName\75IN+-+LINE+++HOCKEY+++PHILIPPINES\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://inlinehockeyphilippines.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://inlinehockeyphilippines.blogspot.com/\46vt\75-4821061478467867525',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+IN - LINE HOCKEY PHILIPPINES
+
+
+
+In line skating was a hit in this country during the 90's and now we believe that we can bring
+inline skating back to life and then introduce in-line hockey as well. Life is short... Now is
+the time for this country to LEARN, LOVE and LIVE inline hockey.
+
+Tuesday, April 7, 2009
+
+
+
+
+
+
+
+1 day tournament
+
+
+
+Image:
+http://1.bp.blogspot.com/_2nSJfU2j8Us/Sdw4WvL0sKI/AAAAAAAAAlo/48LkRUg7AA4/s320/36x54+tarp.jpg
+Posted by
+
+
+
+iHoP at
+
+
+
+10:37 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Tuesday, March 17, 2009
+
+
+
+
+
+
+
+Revive..Relive...Reborn
+
+
+
+Image:
+http://2.bp.blogspot.com/_2nSJfU2j8Us/ScCLNLavODI/AAAAAAAAADU/-oBRtihm95U/s320/hockey+ad.jpg
+
+After so many years of being stagnant, In-Line hockey enthusiasts will gather for a 1 day
+mini-tournament. It's main purpose is to gather all Filipino In-Line hockey players and just
+play the game that we love, hoping that from this "get together" event, new ideas will rise and
+the ball will start rolling.
+
+
+
+When: April 18, 2009
+
+Where: Columbian
+
+Time: 8am-8pm
+
+
+
+
+
+updates to follow...
+
+
+
+that's all for now!
+
+
+
+Live life, play hockey
+
+
+
+:) Posted by
+
+
+
+iHoP at
+
+
+
+10:33 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Wednesday, February 25, 2009
+
+
+
+
+
+
+
+Manila Roosters participate in the MIHT 09..and won....new friends :D
+
+
+
+Image:
+http://2.bp.blogspot.com/_2nSJfU2j8Us/SaYVxLgxYuI/AAAAAAAAADE/ZjxFF2_GAZk/s320/n501653030_1374251_3961.jpg
+
+For the details about the tournament please check out...
+
+
+
+underdogsmalaysia.blogspot.com
+
+miht09.blogspot.com
+
+
+
+:P
+
+
+
+Special thanks to the Underdogs for taking us around.
+
+Jason Demers, for playing with us and being our pimp dadeee for the tournament.
+
+
+
+To the Roosters, may we have more quality players next year.. Hopefully.. to also play not only
+for fun but also to play our best game...
+
+
+
+Remember..
+
+
+
+live life..love hockey
+
+
+
+Salamati!~ Posted by
+
+
+
+iHoP at
+
+
+
+8:01 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Thursday, August 14, 2008
+
+
+
+
+
+
+
+goal
+
+
+
+Image:
+http://2.bp.blogspot.com/_2nSJfU2j8Us/SKUEXhLQoII/AAAAAAAAACg/6TR0nARK73o/s320/hockey2.jpg
+
+We had a goal made.. here's the picture..
+
+it costs 3,500, it is detachable and quite ok to travel :D Posted by
+
+
+
+iHoP at
+
+
+
+9:20 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Tuesday, July 15, 2008
+
+
+
+
+
+
+
+Singapore Trip_wayy back
+
+Photobucket Album
+
+Image:
+http://i175.photobucket.com/albums/w152/jaja_mamaril/singapore_2005/105209043106_0_ALB.jpg
+Posted by
+
+
+
+iHoP at
+
+
+
+9:01 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Thursday, June 19, 2008
+
+
+
+
+
+
+
+bcard
+
+
+
+Image:
+http://4.bp.blogspot.com/_2nSJfU2j8Us/SFtCV8RnHtI/AAAAAAAAABQ/w-VN7vEuUCI/s320/hooters.JPG
+Posted by
+
+
+
+iHoP at
+
+
+
+10:37 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+IN-LINE HOCKEY wiki's definition
+
+"Inline hockey , often referred to simply as roller hockey in the United States , is a team sport
+played on a smooth plastic surface, such as Sport Court , intended to allow for least
+resistance with the puck and players' wheels. Inline hockey is most popular in areas with
+indoor artificial inline hockey rinks which make it a year-round sport at the amateur,
+scholastic, and professional levels. It is a North American professional sport , and is
+represented by the Professional Inline Hockey Association and Major League Roller Hockey at
+the highest level."
+
+( in-line hockey source )
+
+
+
+
+
+Chief differences from ice hockey
+
+
+
+    Many persons encountering inline hockey for the first time may already be familiar with
+    ice hockey. Beyond the physical differences between ice skates and inline roller
+    skates, the chief differences between inline and ice hockey are:
+
+    1 - No checking. Contact is allowed, but only when aiming to play the puck.
+
+    
+
+    2 - Relaxed or no offsides in the USA (tournament rules enforce center line offsides but no
+    neutral zone; varies from country to country).
+
+    
+
+    3 - No icing (tournament rules may enforce this; varies from country to country).
+
+    
+
+    4 - Played with 4 players (instead of 5 for ice) and a goalie from each team.
+
+    
+
+    5 - Instead of a rubber puck, the game is played with a non-bounce plastic puck with hard
+    nubs to reduce friction. Lighter than an ice puck.
+
+    
+
+    6 - Players wear a long and less padded pant specifically made for added mobility in roller
+    hockey and often don't wear shoulder pads (no checking).
+
+    
+
+
+
+The major differences: four players instead of five, relaxed off sides, and no checking, all
+contribute in giving inline hockey a different style than ice hockey while keeping the
+spirit. The game moves faster with more of a focus on finesse than strength and is more free
+flowing often resulting in higher scoring than ice hockey.
+
+for more info...
+
+
+
+
+
+
+
+Posted by
+
+
+
+iHoP at
+
+
+
+9:09 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Labels: in line
+philippines , in-line hockey 101 Older Posts Home Subscribe to: Posts (Atom)
+
+Pictures
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+In-Line Hockey in South East Asia
+
+    
+
+    - Malaysian In-liine Hockey Tournament 2009
+
+    
+
+    - In-Line Hockey Hong Kong
+
+    
+
+    - Malaysian In-Line Hockey Team
+
+    
+
+    - In-Line Skating in Malaysia
+
+    
+
+    - In line hockey Philippines
+
+    
+
+    - In Line Hockey Singapore
+
+    
+
+    - Regent Travel Corporation
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ▼  2009 (3)
+
+            - ▼  April (1)
+
+            - 1 day tournament
+
+            
+
+        
+
+        
+
+        
+
+        - ►  March (1)
+
+        
+
+        
+
+        - ►  February (1)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2008 (8)
+
+        - ►  August (1)
+
+        
+
+        
+
+        - ►  July (1)
+
+        
+
+        
+
+        - ►  June (3)
+
+        
+
+        
+
+        - ►  April (1)
+
+        
+
+        
+
+        - ►  March (2)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Send us a message
+
+View shoutbox
+
+Free chat widget @ ShoutMix
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Contributors
+
+    
+
+    - Super Duper Sumo
+
+    
+
+    - iHoP
+
+    
+
+    - Pearl
+
+    
+
+    - Shiny
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png sc_project=3534580;
+sc_invisible=0; sc_partition=39; sc_security="4b508251";
+
+Image: http://c40.statcounter.com/3534580/0/4b508251/0/
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Regular Saturday games will be held at Philippine Columbian Association
+
+In-Line Hockey games are held at Philippine Columbian Association e very Saturdays from
+4:00pm-7:00pm.
+
+
+
+Contact Person
+
+
+
+Christel +6328-502-09-60
+
+manila.roosters@gmail.com
+
+(02)489-42-13
+
+
+
+
+
+
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Philippine Columbian Association
+
+
+
+Image:
+http://2.bp.blogspot.com/_2nSJfU2j8Us/R9-JC0EBSlI/AAAAAAAAAA8/mcNbmA0J7GI/S230/columbian.gif
+
+How to get there?
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Personal sites of In-Line Hockey Players
+
+    
+
+    - Facebook Profile - Manila Roosters
+
+    
+
+    - Yora Delatorre
+
+    
+
+    - Rooster Beth
+
+    
+
+    - Christel Janine Mamaril
+
+    
+
+    - Reynald T. Zapanta
+
+    
+
+    - Charles Remus Cambaliza
+
+    
+
+    - Adrian Teng
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png   if
+(window.jstiming) window.jstiming.load.tick('widgetJsBefore'); if
+(typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'4142130707055798595';BLOG_attachCsiOnload('');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d4142130707055798595','//inlinehockeyphilippines.blogspot.com/','4142130707055798595');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'4142130707055798595', 'bloggerUrl': 'http://www.blogger.com', 'title': 'IN - LINE
+HOCKEY PHILIPPINES', 'pageType': 'index', 'url':
+'http://inlinehockeyphilippines.blogspot.com/', 'canonicalUrl':
+'http://inlinehockeyphilippines.blogspot.com/', 'canonicalHomepageUrl':
+'http://inlinehockeyphilippines.blogspot.com/', 'homepageUrl':
+'http://inlinehockeyphilippines.blogspot.com/', 'blogspotFaviconUrl':
+'http://inlinehockeyphilippines.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'', 'pageTitle': 'IN - LINE HOCKEY PHILIPPINES', 'encoding': 'UTF-8', 'locale': 'en',
+'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42IN - LINE HOCKEY
+PHILIPPINES - Atom\42
+href\75\42http://inlinehockeyphilippines.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42IN
+- LINE HOCKEY PHILIPPINES - RSS\42
+href\75\42http://inlinehockeyphilippines.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42IN - LINE HOCKEY PHILIPPINES - Atom\42
+href\75\42http://www.blogger.com/feeds/4142130707055798595/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0754142130707055798595\42 /\076',
+'meTag': '', 'openIdOpTag': '\74link rel\75\42openid.server\42
+href\75\42http://www.blogger.com/openid-server.g\42 /\76\n\74link
+rel\75\42openid.delegate\42
+href\75\42http://inlinehockeyphilippines.blogspot.com/\42 /\76\n', 'imageSrcTag':
+'', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'linkcolor': '#ffffff', 'visitedlinkcolor':
+'#2D6E89', 'textcolor': '#ffffff', 'headerfont': 'normal bold 165%
+Verdana,Sans-serif', 'pagetitlefont': 'normal bold 379% Georgia, Times, serif',
+'descriptionColor': '#b3b3b3', 'titlefont': 'normal bold 115% Verdana, sans-serif',
+'bgcolor': '#020417', 'bordercolor': '#C3D9FF', 'titlecolor': '#666666', 'datecolor':
+'#cc0000', 'footerlinkcolor': '#020417', 'descbgcolor': '#cc0000', 'pagetitlecolor':
+'#020417', 'bodyfont': 'normal normal 118% Trebuchet, Trebuchet MS, Arial, sans-serif',
+'endSide': 'right', 'startSide': 'left', 'dateHeaderFont': 'normal bold 105%
+\47Trebuchet MS\47,Trebuchet,Verdana,Sans-serif', 'pagetitlebgcolor': '#cc0000',
+'sidebarcolor': '#333333', 'sidebarlinkcolor': '#cccccc', 'footercolor': '#e6e6e6'},
+'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url':
+'/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'},
+'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name':
+'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url':
+'/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'},
+'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar',
+null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList2',
+'sidebar', null, document.getElementById('LinkList2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML2', 'sidebar', null, document.getElementById('HTML2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ProfileView', new
+_WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'sidebar', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextView', new
+_WidgetInfo('Text1', 'sidebar', null, document.getElementById('Text1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image1', 'sidebar', null, document.getElementById('Image1'),
+{'resize': true}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1',
+'sidebar', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

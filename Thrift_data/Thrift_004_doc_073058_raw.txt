@@ -1,0 +1,2813 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); To Be Read, and Reread, Upon my Untimely Demise: February 2010 <!-- /*
+----------------------------------------------- Blogger Template Style Name: Minima
+Date: 26 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff"> <Variable name="textcolor" description="Text Color"
+type="color" default="#333"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#58a"> <Variable name="pagetitlecolor" description="Blog Title
+Color" type="color" default="#666"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#999"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#c60">
+<Variable name="bordercolor" description="Border Color" type="color" default="#ccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#999"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#999"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% Georgia, Serif"> <Variable
+name="headerfont" description="Sidebar Title Font" type="font" default="normal normal
+78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable
+name="pagetitlefont" description="Blog Title Font" type="font" default="normal normal
+200% Georgia, Serif"> <Variable name="descriptionfont" description="Blog Description
+Font" type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="postfooterfont" description="Post Footer Font"
+type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="startSide" description="Side where text starts in blog
+language" type="automatic" default="left"> <Variable name="endSide"
+description="Side where text ends in blog language" type="automatic" default="right"> */
+/* Use this with templates/template-twocol.html */ body { background:#ffffcc; margin:0;
+color:#000000; font:x-small Georgia Serif; font-size/* */:/**/small; font-size:
+/**/small; text-align: center; } a:link { color:#0066CC; text-decoration:none; }
+a:visited { color:#cc0000; text-decoration:none; } a:hover { color:#00264c;
+text-decoration:underline; } a img { border-width:0; } /* Header
+----------------------------------------------- */ #header-wrapper { width:660px;
+margin:0 auto 10px; border:1px solid #cc6600; } #header-inner { background-position:
+center; margin-left: auto; margin-right: auto; } #header { margin: 5px; border: 1px solid
+#cc6600; text-align: center; color:#185800; } #header h1 { margin:5px 5px 0; padding:15px
+20px .25em; line-height:1.2em; text-transform:uppercase; letter-spacing:.2em; font:
+normal normal 200% Verdana, sans-serif; } #header a { color:#185800;
+text-decoration:none; } #header a:hover { color:#185800; } #header .description {
+margin:0 5px 5px; padding:0 20px 15px; max-width:700px; text-transform:uppercase;
+letter-spacing:.2em; line-height: 1.4em; font: normal normal 78% 'Trebuchet MS',
+Trebuchet, Arial, Verdana, Sans-serif; color: #008040; } #header img { margin-left: auto;
+margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 660px;
+margin:0 auto; padding:10px; text-align:left; font: normal normal 99% Georgia, Serif; }
+#main-wrapper { width: 410px; float: left; word-wrap: break-word; /* fix for long text
+breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE
+sidebar float */ } #sidebar-wrapper { width: 220px; float: right; word-wrap: break-word; /*
+fix for long text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text
+content breaking IE sidebar float */ } /* Headings
+----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+font:normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.2em; color:#400058; }
+/* Posts ----------------------------------------------- */ h2.date-header {
+margin:1.5em 0 .5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #cc6600;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#00264c; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#00264c;
+font-weight:normal; } .post h3 strong, .post h3 a:hover { color:#000000; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#400058; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; line-height: 1.4em; } .comment-link { margin-left:.6em; } .post img,
+table.tr-caption-container { padding:4px; border:1px solid #cc6600; }
+.tr-caption-container img { border: none; padding: 0; } .post blockquote { margin:1em 20px;
+} .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #400058; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+#blog-pager-newer-link { float: left; } #blog-pager-older-link { float: right; }
+#blog-pager { text-align: center; } .feed-links { clear: both; line-height: 2.5em; } /*
+Sidebar Content ----------------------------------------------- */ .sidebar { color:
+#341473; line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; }
+.sidebar li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #cc6600; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #cc6600; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; color: #400058; font-weight: bold; line-height: 1.6em; } .profile-datablock
+{ margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:660px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0755113431684180319448\46blogName\75To+Be+Read,+and+Reread,+Upon+my+Untim...\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://mattitiyahu.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://mattitiyahu.blogspot.com/\46vt\75-6140357689395110416',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+To Be Read, and Reread, Upon my Untimely Demise
+
+
+
+Musing til I'm losing. Fakin it til im makin it.
+
+Sunday, February 28, 2010
+
+
+
+HEY! You can't hang around here no more.
+
+If I've learned anything about the good things in life, it's that when you're on a roll, don't
+question it, just go with it.   And so, we have more pictures from the locker room (this is a
+prelude to the conclusion of the series " The Five People You Meet in the Men's Locker Room ").
+
+
+
+They have moved me into a larger locker (same locker room) at the gym, and now I have a full 7 ft. of
+locker at my command.  It's actually quite a luxury after the half-locker.  Today's
+picture comes from just a few lockers down from mine:
+
+
+
+Image:
+http://2.bp.blogspot.com/_q3mOmbdYwYU/S4sDALUzCuI/AAAAAAAAAL0/ckQVFw4Ryuw/s320/suit%20on%20locker.jpeg
+If you can't tell right away from the picture, this guy has decided that even the 7 ft. of space in
+his locker are not enough for drying his swimsuit.  So he hangs it from the outside of his
+locker, threaded through the lock.  While you can't tell from this picture, the suit is
+generally hung liner side out.  This is his bathing suit's constant state.  What I mean to
+say is, it NEVER goes in the locker.
+
+
+
+This, in a few words.  Is fucking disgusting.  For many reasons.
+
+
+
+1)  For those around him, we don't want to have to look/happen to graze against the dick-juice
+side of your dirty bathing suit.  How presumptuous of you to assume that you can just hang
+your dirty grossness out in the open.  Do you see ANYONE else resorting to that kind of
+behavior.  No.  Put your friggin pants in your friggin locker.
+
+
+
+2)  What is the theory behind your decision to hang your bathing suit out in the open instead of
+inside the locker.  I can tell you from experience that I manage to get mine dry with a simple
+wringing and hanging.  Don't want a damp locker?  Do you understand what a locker is?  Do
+you think that hanging it outside the locker and inside the environment of the greater locker
+area is cleaner.   The general state of the locker area is already a moldy mossy
+virus-infected grey.  How can you want your drawers spending MORE time in that.  So.
+ Much.  Badness.   That sir, is a gross mistake.  Which brings us to 3.
+
+
+
+3)  How naive are you to believe that your leaving your cheese encrusted swim shorts out to
+offend us all isn't going to be met with any retaliation?   I'm not saying it was me (I'm not
+saying it wasn't, but I'm not saying it was), but I've seen various people drip their wetness on
+it.   I might have even seen a snot rocket head in it's direction.  Why would you shake your own
+grossness into it.  It's like a cloth spider web just waiting to be tampered with.   In my
+dreams I take Ben-Gay to those bad boys (I'd wear gloves for application of course), but the
+owner has so much back hair already, that I would  feel like I was piling on to his misfortune.
+
+
+
+But seriously folks, that nasty.
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+HEY! You can't hang around here no more.
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/hey-you-cant-hang-around-here-no-more.html";
+posted by mattitiyahu at 7:15 PM 2 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook <!-- google_ad_client="pub-8401540424582193";
+google_ad_host="pub-1556223355139109"; google_ad_width=300; google_ad_height=250;
+google_ad_format="300x250_as"; google_ad_type="text_image";
+google_ad_host_channel="0001+S0009+L0007"; google_color_border="FFFFCC";
+google_color_bg="FFFFCC"; google_color_link="00264C"; google_color_url="000000";
+google_color_text="000000"; //-->
+
+Friday, February 26, 2010
+
+
+
+The Toilet Knows What you did last Dumper
+
+Ok. I have to admit it. I have a problem. I can't stop taking pictures in bathrooms. This is
+serious guys. Why does hilarious stuff keep happening in the confines of washrooms. But, I
+have to stay pure to my virtues and report it. Because who else will bring you behind the brown
+curtain if i don't.
+
+Usually the men's bathrooms in the psychology building are a refuge. Being that Psychology is
+a fairly female dominant field, the chance of someone even entering the bathroom at the same
+time as you is slim. I'm not endorsing it as a hang out spot or anything, but if you did need a
+reliable place to hide out--it's there.
+
+Until a few weeks ago when the signs got put up. Check this out:
+
+Image:
+http://2.bp.blogspot.com/_q3mOmbdYwYU/S4hwsO9bV_I/AAAAAAAAALk/s8DnNgsKtq4/s400/toiletsign1.jpeg
+This sign was posted over every urinal and toilet in the building (at least in the men's rooms)!
+Now first of all, "Be Health." What does that even mean. It reminds me of that show Mr. Slim
+Goodbody (remember when a name like that was PC, even for an educational show) in the 80's with
+the guy with the bodysuit picturing his insides (c-c-c-creepy). I don't use a public toilet to
+"be health," i go there to shamefully take a dump. To force me to be socially conscious at the
+same time is really above my pay-grade.
+
+And perhaps it's just the dirty Wesleyan hippie in me, but we were taught: "if it's yellow let it
+mellow" in order to "Be Environment," in the hopes that our water preservation would help
+future generations "Be health." I realize it's a state school, but do we really have to remind
+people to flush.
+
+Admittedly I'm being kinda a dick. I'm sure these signs are the result of the janitors getting
+fed up with the aforementioned horrific aim of the undergrads and their urine and putting
+signs up in order to cut down on the constant urine stench they must be forced to deal with. But
+I'm a snarky grad student, and it's still my blogs-honest job to make fun of this.
+
+Turns out, I'm not the only one. Some grad student (or dare i suggest faculty?) finally reached
+their breaking point and posted this sign (eerily similar to the orignal) above the 6th floor
+shitter:
+
+Image:
+http://1.bp.blogspot.com/_q3mOmbdYwYU/S4hzAUlNKYI/AAAAAAAAALs/aZMTIvxsavQ/s400/toiletsign2.jpeg
+I laughed. It's not even the best possible way to go. But the effort they took to cut the paper the
+same way as the original is what sold it for me. Also, the fact that this particular bathroom
+smelled of residual poo also seemed ironic.
+
+I think i would have chosen: " The stalls have eyes. Be Victim " It's also effective in that it's
+hard to shit when your are scared--hence "scared shitless." And therefore, less work for the
+janitors. This is why I became a Social Psychologist.
+
+The only other sign I've ever seen in my building is a mysterious one that appeared on the wall
+above the stairwell which read: " The stairs feel your steps. " Weird right? It was removed
+eventually, before i got a chance to replace it with " The steps feel your stares. " Shame.
+
+
+
+
+
+
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+The Toilet Knows What you did last Dumper
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/toilet-knows-what-you-did-last-dumper.html";
+posted by mattitiyahu at 8:04 PM 2 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Thursday, February 25, 2010
+
+
+
+It makes it all worth it.
+
+So I had a hard day. One of those days where it feels like every time I fix one problem it sprouts
+two new problems that need solving. And it really was no one's fault. But it was just non-stop
+all day--boom boom boom. I didn't even find time to eat. And the one positive of the day (besides
+that the rain cleaned my car--which badly needed cleaning) was that I was able to go home at 8, as
+opposed to 9:30. And I didn't tell my gf, cause I thought i'd surprise her.
+
+Image:
+http://3.bp.blogspot.com/_q3mOmbdYwYU/S4dX5UjEP7I/AAAAAAAAALc/waH25JkoF6U/s400/imgres.jpeg
+10 minutes before i'm going to leave i get the text: "making dinner for us. Probably going to eat
+soon. But it will be here for you :)"
+
+that's the shit folks. the poo. the tits. the good stuff. Knowing that working late is sucky,
+she made dinner for us . that's what they call the 'little things.'
+
+Know what else. She bought me chocolate covered almonds. I love those. I am a lucky bitch.
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+It makes it all worth it.
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/it-makes-it-all-worth-it.html";
+posted by mattitiyahu at 11:59 PM 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+The SwimMan
+
+So, do any of you know what it's like to swim laps while listening to Jay-Z.  I do.  Today I used
+my SwimMan waterproofed iPod Nano in the pool.  I've been waiting for this thing for awhile.
+ I didn't realize that while you may be paying for 4-5 day delivery, that timer starts when
+they actually mail it to you.  And there is no time limit for that.  I was quite worried when a
+week after i sent in my PayPal money (I am still not adept enough to know how these processes
+work, and therefore innately distrust the whole process), I still had no fun water music.
+ Bummed and worried, I contacted the company in California, and they informed me of the
+backorder situation on their product.  I was close to asking if their email system was on
+backorder, but to be honest the man was so friendly, accommodating, and genuine that i
+didn't have the heart.  In all honesty, I was just excited to get the product and less
+concerned with expressing my frustration.
+
+
+
+So it came.  And it's as advertised.  Well, it's as advertised in that it didn't break or fry
+my face off when I used it today.  It is going to take a little getting used to having the buds in
+my ear while swimming--and by that i mean it will take some time until i stop constantly
+worrying that i am getting water in my ears or that the earbuds are going to fall out and break the
+whole system.  But, those are mostly my problems, not the SwimMan's.  Musically, it was
+a revelation.  Gliding through the water to Snow Patrol really suits me. Some things I
+learned:
+
+1) Rap/Hip-Hop is the shit when in the water.  Stereotypically, this seems ironic.
+ Physically, this makes perfect sense.   2)  Me First and the Gimme Gimmes thought up the
+best "theme" for a band ever.  They play 70's and 80's standards (Walking on Sunshine, Ain't
+no Sunshine When She's Gone, etc. -- trying to subtly influence the local weather here with my
+song choices)--except they rock them out punk style.  Every single song is amazing.  In and
+out of the pool.  Just saying. 3)  Some songs don't translate to the pool.  Barenaked
+Ladies or They Might Be Giants are good examples.  While I love their music, I love them
+primarily for their funny/intelligent wordplay and that just isn't the "it" factor for
+getting my body moving.  
+
+Speaking of "Body Moving," I should add that song to my swim playlist.  Speaking of swimming
+playlists, i need more exercise songs.  Swimming is the first non-team sport oriented
+exercise I have ever accomplished any consistency with. That is how a graduate student
+says that they've quit every other exercise form they've tried (running is the devil's
+sport--more on that later--FOR SURE).  Because of this, my music falls more into the
+'relaxin' category than the 'move your body' genre.  So, if you have groove music--send it my
+way.  Burn me a CD.  It's what Jesus would do.  
+
+ps.  This was the scene in my building's bathroom today.  
+
+Image:
+http://1.bp.blogspot.com/_q3mOmbdYwYU/S4cQB93icgI/AAAAAAAAALY/A9Epq0GQPkE/s320/bathroom%20chair.jpg
+
+I'm not even sure what to think here.  Pooping with a friend?  Putting your legs up while you
+poop?  Long distance high board peeing contest?  Balance your book upright to read while
+pooping?  Phobia of putting your book-bag on the floor (maybe that one is even
+understandable considering what i have decided is the undergraduates' lack of urinal aim)?
+ I'm stymied.  So once again, I took a picture in a bathroom of the bathroom.  This is
+becoming a strange habit.
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+The SwimMan
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/swimman.html";
+posted by mattitiyahu at 7:12 PM 11 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Wednesday, February 24, 2010
+
+
+
+Kids: From A to Pee
+
+
+
+Kids man, kids.
+
+Tonight, while I was waiting for my sandwich to finish cooking, a girl and her father came into
+the pizza shop. The girl was right around what I would classify as "brat aged." She was past the
+cute toddler phase and headed squarely into that awkward "why is my body getting lumpy"
+period. I associate this age group with a "mine mine mine me me me" attitude and generally not a
+whole lot of fun to be around. She tugged on he dad's pant leg and asked for some change. "Here we
+go" i thought to myself. "Why?" her dad asked. "For that," she replied, and pointed to the
+collection jar for the Haiti Relief Fund. "Well," i thought to myself, "I'm the asshole." She
+later waited to hold the door for me on my way out. Whata nice kid.
+
+Image:
+http://4.bp.blogspot.com/_q3mOmbdYwYU/S4SeoLtR7kI/AAAAAAAAALM/0m2LQme2NVI/s400/41zGcgqSJwL._AA280_.jpeg
+
+When I was her age, I thought girls peed out of their butts. It's true. And, after thinking about
+this some, it's actually not that far-fetched a conclusion. I mean, as a little tot, all you are
+told is that boys pee standing up, and girls sit down. Isn't it logical to conclude that if I sit
+down to poop out of my butt, girls must sit down to poop OR pee out of their butts. Now again, I'm
+not arguing that I was correct, I'm just saying it's understandable. And it's not like I logged
+(hehe. I said logged) a whole bunch of time in the little girl's room.
+
+Even today the other sex's peeing ability remains a bit of a mystery. I mean its like you women
+have this unpredictable nozzle of the water gun attached right there to your body, able to
+shoot off in any direction. And I'm not being derogatory here. I'm just pointing out that this
+is one of those things that the opposite sex can never totally grasp. Like how you women will
+never know what it feels like to pee around a corner. And I think that having some mystery is
+good, whether you find it in the flight of a bird, the laugh of a child, or the unpredictable
+nature of a woman's pee-hole.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Kids: From A to Pee
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/kids-from-to-pee.html";
+posted by mattitiyahu at 12:49 PM 2 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Tuesday, February 23, 2010
+
+
+
+Phone Rage
+
+Today at 8:30pm I got a call from a campus number on my cell phone. Worried that it was job
+related, I answered. "Hello, I'm looking for Mr. Zimbler." "This is he." "Hi Matt, how are you
+doing tonight?" "fine thanks." "Great, my names James and I'm an undergrad here at UMass, I'm
+calling from the UMass a*YAWWWN*nnual fund." (Yes. He actually yawned, on the phone, while in
+the middle of saying the organization he was working for.)
+
+Me: "Wait. You're calling from the Alumni Association"
+
+James: "No, the Annual Fund, we're run by different people (same purpose?)."
+
+Me: "Do you know that I'm still a student here?"
+
+James: "Well, that must mean that you got your Masters on your way to a PhD."
+
+Me: "Bingo."
+
+James: *cough laughs to himself* "Well . . . ah . . . then this is kinda awkward . . . you got any
+extra money kickin around. . . ?"
+
+Me: BOOMING LAUGHTER
+
+James: "Well . . . I"
+
+Me: "Let me stop you right there James. As a grad student making what I can only say is near the
+poverty line, I don't really have any extra funds kicking around that I'd like to additionally
+give to the school."
+
+James: "You'd be amazed how many people are in the position."
+
+Me: "No I wouldn't. Goodbye James."
+
+
+
+Image:
+http://1.bp.blogspot.com/_q3mOmbdYwYU/S4SYMDqSyYI/AAAAAAAAALE/KotDW3LXQEQ/s400/telephone-cord-forming_~x18179319.jpeg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Now this is one of those situations much like the one last week , where what I want to say (what I
+want to unleash) is an unholy tirade about the audacity of a school asking for money from a
+graduate student while simultaneously arguing to reduce our pay while increasing our fees.
+Asking for money after raising the price of grad student gym fees from $120 a year to $290. And
+you are sharing my cell information with campus fund raising organizations? That doesn't
+make me feel good. That feels like a breech of trust. You can lick my taint Annual fund. Lick. My.
+Taint.
+
+But that's not James' fault. He's smoking weed and dialing names on a list for his work study
+money. So I'm not gonna let it out on him. But I swear, I'm one fee increase away from making an
+office worker cry. I'm not proud of it. But that doesn't make it not true.
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Phone Rage
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/today-at-830pm-i-got-call-from-campus.html";
+posted by mattitiyahu at 9:42 PM 3 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Monday, February 22, 2010
+
+
+
+Left Turn Only
+
+
+
+Image:
+http://4.bp.blogspot.com/_q3mOmbdYwYU/S4IsRtqlhhI/AAAAAAAAAK0/Cr4v00DlEDo/s400/stock-photo-left-turn-sign-38678044.jpeg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+There is something secretly beautiful about two cars at a red light, opposite each other, both
+turning left simultaneously when the light turns green. There is a moment where you just have
+to commit to trusting the idea that the person in the other car isn't going to screw you both and
+plow into you instead of turning. In that choreography there is beauty.
+
+( I chose this photo because it was called "stock-photo-left-turn-sign. Which just happened
+to be exactly what I wanted. If you want to give shutterstock some business, their numbers at
+the bottom)
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Left Turn Only
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/left-turn-only.html";
+posted by mattitiyahu at 1:58 AM 4 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Sunday, February 21, 2010
+
+
+
+How Babies are Destroying America
+
+It's not entirely my fault that this is such a confusing time.  As a man in his 30's (albeit
+early thirties!) it seems as if my peers are dropping kids like quarters at an arcade.  I mean,
+people who I didn't even know had significant others are popping up on Facebook sporting el
+baby belly.  
+
+Image:
+http://3.bp.blogspot.com/_q3mOmbdYwYU/S4F8L0mY1QI/AAAAAAAAAKo/BI8P99Dk9ww/s320/baby-boy-and-puppy6.jpeg
+
+And while there is nothing at all WRONG with this of course, it kinda makes my head spin.
+ Here's why.
+
+In high school I was brought up, like many children of the 80's and early 90's (pre-Juno), that
+teen pregnancy was the worse possible fate.  I mean, at least the way it was presented to me, it
+would have be preferable to stick a hepatitis infected needle in my arm than knock up one of
+my 16-year-old classmates.  It's not difficult to see how I didn't lose my virginity in high
+school considering that I connected baby making with at least 1 of the 4 horsemen
+(horse-people?) of the apocalypse.  Something about a teenaged girl's belly growing
+seemed to make god cry, and I didn't want any part of that.  (Thankfully, even god liked
+playing with boobies.)
+
+This mindset didn't stop in college.  While I finally moved past the 'sex = baby' barrier, I
+still got the feeling that if I came home and told my parents that i had gotten one of my
+classmates pregnant, my rents would have begun some sort of religious fasting process
+involving wearing black, ripping their clothes, and shouting to our Jewish ancestors, "our
+son is dead!"  (this is an exaggeration--they would never disown me--but you get the idea).
+  
+
+So now, well post-college, i realize that this mentality is still ingrained in the nooks
+and crannies of my life approach.  When someone tells me they're pregnant, my first
+half-second reaction (before my common sense kicks in) is, " man are your parents going to be
+pissed. "   But that's just the thing.  The exact opposite is true!  Parents are DYING for
+grandkids.  What initially was a parent's fear of their child's lifelong scarlet letter has
+turned into the search for the holy grail (excuse my mixing my metaphors/literature/media).
+ 
+
+Someone pulled the ol switch-a-roo on me, and frankly I'm kinda pissed about it. After a
+lifetime of successfully NOT knocking anyone up, NOW i'm expected to turn all of that
+repression around and aim for insemination.  Not cool parents.  Not cool social
+expectations.  Fuck you onions !  Just when I thought I'd gotten the hang of this whole
+'growing up' thing, babies have to come along with their squishy cuteness and change all the
+rules.  
+
+Screw this.   I'm getting a dog.
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+How Babies are Destroying America
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/how-babies-are-destroying-america.html";
+posted by mattitiyahu at 1:37 PM 5 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: babies , growing up , humor
+
+Saturday, February 20, 2010
+
+
+
+They should call it "Unsurance" not Insurance
+
+To be honest, I was planning on, after yesterday's more serious post, coming back at you with a
+can't miss comedy from my past.  Oh, the best laid plans.  How they always fail.
+
+
+
+Speaking of fail, today (the 19th) has been brought to you by the letters, F, A, I, & L.  Since
+it's best not to try and write nostalgic comedy when under the influence of stress-induced
+anger, the misadventures of young mattitiyahu will have to wait.  Hopefully, in its stead,
+you will enjoy the stupidity forced upon me as much as I detested it.  Enjoy.
+
+
+
+Yesterday I called a prescription into the pharmacy.  This is not unusual, as my jovial
+attitude and kind disposition are the result of a good amount of therapy and low doses of
+anti-depression and anti-anxiety medication.  I also have more annoying, non-fatal,
+genetic flaws than I could have ever imagined.  We're talking lactose-intolerance, eye
+infections, deviated septum, ingrown hairs--it's an endless list.  So usually i am taking
+some medication to alleviate whatever form of annoying inconvenience my body has decided to
+serve up recently (im looking forward to future gluten-intolerance). A few minutes later the
+pharmacy called back and asked me to bring my insurance card with me, as they were having
+trouble getting the medication (which was essentially a refill) to go through my
+insurance.  This is common enough, as is the general incompetence of the pharmacy staff.
+
+
+
+The next day, today, I brought my card to the pharmacy and gave it to them.   They said that their
+computer says that I do not currently have insurance coverage for drugs.  This being what I
+would consider one of the main functions of insurance, i was (i think understandably)
+concerned.  I went home and called my provider.  They said, their computer said (see a
+pattern), that my insurance had not been renewed as of 1/31/10.  So i currently had no health
+insurance, and I had no idea or inkling that my coverage had been discontinued.  Now I was
+worried.  I was shocked actually.  My own irresponsibility I can suffer, but doing
+everything "correctly" and ending up being left out to dry without my knowledge is firmly not
+ok.  I asked the insurance women who, at the university level, is responsible for letting the
+insurance company know that I should have insurance.  She said the university bursar's
+office.  And so my journey (taking place in the 45 free minutes I've had today [currently
+typing this at work in the lab]) continued to the bursar.
+
+
+
+The woman on the other end of the phone sounded young.  Undergrad young.  I am sad to say that I
+am already jaded enough in my post-graduate career that when dealing with something as
+serious as my getting or not getting health coverage, I do not want my destiny in the hands of a
+UMass undergrad.  More on that another time (I do, in general, really enjoy both interacting
+and teaching undergrads).  Long story short here, the young woman said, that her computer
+said, that I am paying for health insurance, so I should have it.   My reaction: EXACTLY! 
+and (sarcastically) "well at least if i'm not getting covered, i'm paying for it."  Sigh.  I
+ask the woman, if this is the case, and she now knows it is, why the "unsurance" company still
+does not know it.  She tells me that this falls under the umbrella of "health services." 
+Which means, that she will transfer me.
+
+
+
+Getting transferred is the emotionally equivalent of "it's not me, it's you."  Besides the
+fact that 30% of the times i've been transferred I've been disconnected (necessitating i
+start the whole phone chain process over), I usually end up feeling no closer to my goal than I
+started--and i have to repeat my situation over and over until I hate myself.  On some level
+all of this transferring, put on hold, talk to my supervisor, crap is designed to test how
+upset you REALLY are--and hoping that in the end you'll give up and just hang up.  I resent
+this.  As does any person who has ever had a problem that they could not ignore.
+
+
+
+So the person I talk to at the health center asks what department I need.  I say insurance.
+ "Hold please, I'll transfer."  (*i look at the camera a la Jim from the Office)
+
+
+
+Next woman, "Hello, how can I help you."  I begin to explain the situation.  She interrupts,
+"Ok, I'm going to transfer you to so-and-so, she deals with that insurance."  3rd transfer.
+ I'm hating myself.  I'm hating them.  But, in fairness, I do feel like I am getting closer
+to the epicenter of the problem.  Boy am I right.
+
+
+
+Last woman, "How can I help you?"  I explain, again.  She tells me, that her computer says,
+that i am correct and I should have insurance, but they just haven't put the paperwork through
+yet.  I ask what that entails.  She says that they have to update my insurance "by hand."
+ "By hand" is another one of those expressions that has lost it's actual meaning, and now
+simply is used to denote something being laborious.  I mean, she isn't meant to take the
+computer apart and write in pencil that my insurance should be renewed on the inside--before
+replacing the cover.  She means, of course, that she must navigate onto her computer screen
+to a place where my info is stored, and most likely check a box.  This is not, in my opinion,
+laborious.  Boring, sure.  Laborious, no.
+
+
+
+And even if it were difficult--it is Feb. 19th (full disclosure: I am now finishing this post on
+the 20th)--almost 3 full weeks from when they let my insurance expire.  If there is a pile
+of paper work that determines whether or not people are getting insurance coverage, wouldn't
+one assume that even if you were late in getting things done, you would not leave that
+particular pile left untouched for weeks on end?  Isn't this a fairly high priority pile?  I
+bet THEIR health coverage doesn't depend on any of the information in that pile.  Here, I
+briefly think to myself that if this woman transfers me I might have to bomb their building.
+ Thankfully, sh"e does not.
+
+
+
+This is my god damn health coverage.  Check the fucking boxes sister!  And not just mine.
+ Check the fucking boxes of everyone who has been deemed to be paying for their insurance and
+yet stil doesn't have it.  I feel like im teaching this woman the basics of her job by hand.  By
+which i mean that it feels laborious talking to this woman's dimwittedness.  I ask her if she
+realizes that this "oversight" (i'm doing my best to stay calm.  I do not say,
+"laziness, incompetence, stupidity, apathy, . . .) has prevented me from getting my
+medications (i purposely don't specify which meds--cause i want her to feel badly about
+this).  She apologizes and says she will rush it through.  I say a somewhat curt, "thank
+you--that would be appreciated."  I know I'm being kind of a bitch here, but come on!!!  I
+rarely get too steamed, but me not having health insurance because of, from what i get tell, no
+good reason, is seriously uncool .  I would not go to a middle school dance with this
+problem--it would ruin my reputation.
+
+
+
+And another thing.  I emphasized how much of this problem was diagnosed along the way by
+computer screens.  There is this thing called "the internet" now.   Let's get these
+computers talking and figure out a way to streamline this problem.  But lets face it, i'll
+probably be going to see a robot doctor before we see the health care/insurance system
+streamlined.  A boy can dream.
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+They should call it "Unsurance" not Insurance
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/they-should-call-it-unsurance-not.html";
+posted by mattitiyahu at 5:29 PM 4 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Thursday, February 18, 2010
+
+
+
+The Fastest Man on Ice
+
+I have been getting into the Winter Olympics. While I understand that there are many sound
+arguments both for and against the Olympics, I honestly don't care. All I know is that i have
+been pretty psyched up to watch all of the crazy events no matter if it includes skiing with a gun
+(biathlon) or cleaning ice with almost supernatural OCD (curling). I dont recall being this
+into the games in previous years, so I can only imagine that this change has at least something
+to do with the fact that my gf, who was a competitive x-country skier through high school, gets
+super excited for the games. And i, as is my tendency, generally get pretty psyched up for
+things my gf is psyched about. I am, admittedly, easily excitable. It's a good dynamic
+overall.
+
+
+
+But something happened last night during the speed skating event that got me pretty friggin
+mad at NBC (who is broadcasting the Olympics), and I feel the need to share what took place with
+you all, as both a matter of venting and perhaps even a quick social psychology lesson. Get out
+your pencils (laptops), class is in session.
+
+
+
+Shani Davis, for those of you who don't follow the games that closely, is the reining 1000m
+speed skater (he will also compete for the 1500m) from the US. He was brought up by a single
+mother in Chicago, and he is black. Shani Davis , at what is considered the speed-skating
+"middle distances," is the fastest man on skates. He's beautiful to watch and, from my
+understanding, has an absolutely grueling training regimen. Additionally, for those of you
+who might not assume this, there are NOT a lot of black speed skaters. Rephrase: I do not know of
+any other black speed skaters ever. Shani was the first African-American to win a Winter
+Olympic gold medal--ever.
+
+
+
+Image:
+http://1.bp.blogspot.com/_q3mOmbdYwYU/S32X4Jgx88I/AAAAAAAAAKk/78LyZ0KqJMs/s200/imgres.jpeg
+
+It also needs to be said that Shani is . . . um . . . quirky. He trains separately from the US team and
+recently even called Steven Colbert (who saved US speed-skating by helping them raise
+sponsorship) "a jerk." He later raced Colbert (giving the novice a 12 min. head
+start--hilarious tv) and blew his doors off. All this is to say that Shani has not been without
+controversy throughout his career. Some of it deserved, some of it not deserved.
+
+
+
+But last night, as Shani was winning his second gold in defending his 1000m gold, the NBC
+announcer said this, "Wow, Shani Davis, who just has amazing natural talent , . . . " I don't know
+how the sentence ended. My anger has clouded my memory. Now, let me tell you why that statement
+is racist.
+
+
+
+I'm sure the announcer doesn't "hate black people." He wouldn't say he's racist at all. But he
+is participating in a practice that devalues the accomplishments of the minority, in order to
+keep the status quo of privilege tilted in his favor. To say that Shani has, "natural ability"
+at speed skating, is laughable. On a lot of levels. First, it is explaining away all of the
+incredible amounts of training and work it takes for anyone to be the best at any sport (even
+curling). I don't care if you are born with blades growing out of your feet, you still can't be
+the fastest person after 1000m on ice without unwavering dedication and sacrifice. Second,
+natural ability huh. The ability that Shani was born with for going fast on ice. Yah, that's
+likely. I mean, just considering the incredible number of opportunities Black youths have to
+get on the ice . . . i mean . . . there is natural talent all over the place. Oh wait, no. Shani Davis,
+quirky or not, overcame what have got to be unrelenting odds to become the athlete he is. And
+once again, AT SPEED SKATING! To call his success a result of some innate ability, and not to
+credit his success to him as an individual, is to explain away Shani's triumph as a matter of
+essentially genetic luck. And this has everything to do with race. America has a long and
+un-proud tradition of explaining away Black successes as a matter of some predetermined
+genetic physical advantage (my friend, also black, when I recounted this story added, "yah,
+Shani must have thought the ice was grass, and just ran."). This serves to discredit the idea
+that the minority group member earned his/her success and distances the minority group from
+being able to take credit for their success. It also serves to create the idea,
+linguistically, that positive traits from minority group members are specific to that
+individual, whereas positive traits of majority group members, are more generalizable to
+the group (e.g. Norwegian's are great at x-country. Instead of, Sven has incredible innate
+ability.). Rest assured, when the valence is reversed, aka. negative attributes about
+minorities, the language generalizes to the group once again (and negative majority group
+traits are individualized to the specific individual, to spare the group). And now, all of
+this bullshit has people thinking that Black people are born at a physical advantage.
+
+
+
+*edit: From the response this post is getting (which i LOVE) i feel the need to clarify
+something. I think what is missing from my explanation is the inflection of the announcer who,
+in my mind, was explaining Shani's success as a factor of his natural ability RATHER than his
+grueling workout regime and training--which are insane.
+
+On an unrelated note, I saw a news report the other day talking about a recent car accident that,
+" police believe 'speed' was a factor in " Good thing I was sitting down when i heard that. (I
+would love to see what 2 parked cars getting in an accident would look like.)
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+The Fastest Man on Ice
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/fastest-man-on-ice.html";
+posted by mattitiyahu at 2:41 PM 10 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Tuesday, February 16, 2010
+
+
+
+Interesting Matt fact #628
+
+I like green peppers.  That is not the interesting fact. You should have known that because
+that is not interesting.  I say that i like green peppers because I have a fairly extensive "no
+fly zone" when it comes to vegetables, (I'm looking at you eggplant.  asparagus.
+ brussel sprouts.) that the green pepper is nowhere near.
+
+
+
+*tangent.  Whenever I tell someone that I don't like eggpant, their first reaction is one of
+pity.  I don't know why, but I see it, and it's there.  After that split second when the part of
+their brains that mediate "appropriate behavior" kick in, their tune changes in a more
+Hare-Krishna direction.  By which I mean-- conversion .  "oh, I make it so it tastes just
+like a chicken cutlet."  But here are the problemS that I have with that.
+
+1) If I want to eat something that tastes "just like a chicken cutlet," why don't I just eat a
+chicken cutlet.
+
+
+
+In my mind, they respond, "oh, but eggplant is so much better for you."
+
+
+
+2) In almost all cases, this is true.  the EXCEPTION of course being when you bread and deep fry
+the shit out of either of them.  At that point, I don't really think the health benefit margins
+are too thick.
+
+
+
+Image:
+http://2.bp.blogspot.com/_q3mOmbdYwYU/S3ouMUhw6UI/AAAAAAAAAKg/huYGF4-m0X8/s320/See%20full%20size%20image.jpeg
+
+3) It is an insult to food to think that the preferred preparation of a food would be to try and
+mask its taste to taste like something else.  Now I realize that this totally imaginary
+conversation I'm having is about chicken/eggplant cutlets, so getting all philosophical
+about the place of food is a bit of a reach, if not just completely nit-picky.  But you're
+forgetting something.
+
+
+
+I'm having an imaginary conversation with myself.  So I can BE reach-y and nit-picky.  that
+said, I respect eggplant enough to realize that people enjoy it.  And I am ok not being one of
+those people.  Let's just leave it at that.
+
+
+
+end tangent*
+
+
+
+This was a blog about an interesting fact about me if you recall.  ADD is amazing.
+
+Anyways.  When I cut open a green pepper, and you get that weird white almost foamy stuff that
+connects the inner pepper walls to the seedy core.  That white stuff.  Freaks.  Me.  Out.
+  I think it's gross and otherworldly.  It's a totally green food, why is there white in
+there.  And the consistency is totally inconsistent with the rest of the vegetable.
+  The pepper iscrisp and firm. The alien white crap is limp and fungus-y, and is the vegetive
+equivalent of the limp "dead fish" handshake.  Fuck that freaky white shit. ( seen here on the
+viewer's right side )
+
+
+
+Image:
+http://1.bp.blogspot.com/_q3mOmbdYwYU/S3os5mTXQRI/AAAAAAAAAKc/jUzDUyIrszo/s320/04.jpeg
+
+On a separate note, I respect garlic for having an outer skin that knows its place.  You
+squeeze (great word--Q & Z, both 10 points) a garlic clove hard enough and that skin will slip
+right off.  It realizes that its function is to act as a barrier up to the point that the garlics
+innards are being accessed, at which point, its job is over and the quicker it gets out of the way
+the better.  Good on' yah garlic skin.
+
+Not onions.  Onion skin will cling and grasp at itself like saran-wrap on, well, saran-wrap.
+ it can be an awful bother.  Fuck you onion skin.
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Interesting Matt fact #628
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/interesting-matt-fact-628.html";
+posted by mattitiyahu at 12:33 AM 10 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Sunday, February 14, 2010
+
+
+
+Picking Teams and Righting Wrongs
+
+I can honestly say that I have never met a German person I did not like.  Ever.  In all of my
+travels (including a brief stint to Germany), the German people in sum have been friendly,
+outgoing, and really smiley.  I say this as an introduction to what I can only say is one of
+those irrational things about me.
+
+
+
+Here goes:  As a jew, I don't hold any German person responsible for the atrocities that
+took place in and around that country circa the late 1930's-1940's.  I don't.  That would be
+ridiculous, uncalled for, and even a bit xenophobic (oh yah--rocked an "x" word).  But,
+here's the thing.  I DO, however, take those negative feelings from history out on the German
+national teams.  This includes Olympics, World Cup, and any other international
+competition where competitors are identified by their flag.  I root against the
+Germans.  Across the board.
+
+
+
+Image:
+http://2.bp.blogspot.com/_q3mOmbdYwYU/S3g13GvGg0I/AAAAAAAAAKY/xIOtaRnqnck/s400/51718216.jpeg
+
+And it would be highly irrational of you to tell me that this is a highly irrational reaction.
+ The reason i'm writing about it is indeed because I realize how totally f'd up it would seem to
+normal humans.
+
+
+
+The way I figure it is that we all need an outlet for our conscious and subconscious anger and
+resentment. And I can't find a more victimless purge valve than me screaming at the Polish ski
+jumper to knock the German's off the medal-stand.  Or, perhaps even more risquÃ©, for the
+German biathletes to not be such accurate snipers.  Did I say snipers?  I meant
+marksmen/women.
+
+
+
+I think you all feel me.
+
+
+
+ps.  I come by this irrationality quite honestly as, after a horrendous experience with a
+Brazilian exchange student (he shit-smeared our bathroom), my mother and father always root
+against Brazil in the World Cup.
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Picking Teams and Righting Wrongs
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/picking-teams-and-righting-wrongs.html";
+posted by mattitiyahu at 12:42 PM 2 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Saturday, February 13, 2010
+
+
+
+Saturday's Review of Friday
+
+I didn't realize it was a 3 day weekend until i went to bed last night.  That either means im
+super out of it or that I've gone soft in grad school.  Probably a combination.
+
+
+
+I'm gonna jump around this Sat. morning, so try and keep up.
+
+
+
+1.  Yesterday was the Olympic opening ceremonies.  I watched them.  They were long.  I
+can summarize for all of you who didn't have the free time to watch an hour long parade of
+nations.  It was broken into 4 sections.
+
+     A) Intro--a snowboarder boarded through the Olympic rings.  The 4 native nations
+said hello (Hello natives!!!--*waves vigorously*).  It actually was touching how much
+they featured the native peoples of Canada.  Reminded me how much the US would never do that.
+
+     B) The previously mentioned parade-o-countries.
+
+     C) Video/projection/dance/peter-pan high flying act/slam poetry.  This was by far
+the best part.  The way they synced up the projections with live action really worked, and
+they could even project pictures on the audience.  It came out really beautifully.  Not
+much to make fun of here as i even rewinded some parts to see them again (shout out to the Orca's
+swimming across the stage).  Also in this section was some downright Canadian
+entertainment.  I talking tap-dancing in flannel (actual sparks flying out of their tap
+shoes) and fiddlers of course (tons o fiddlers).  IN JEAN JACKETS!!!!  oh Canada--i love
+you so much right now.  They were one step away from making the torches shaped like hockey
+sticks--swear.
+
+     D) All hell breaks loose.  After a technologically perfect show, things begin to
+break down as one of the 4 torch stands which is meant to rise and form one meta-torch stand,
+doesn't.  The music plays on and everyone's just kinda sitting tight.  Finally the TV
+commentators say, "truth be told, something's technologically not working correctly."
+ They then launch into the failure which is Canada and how it's really more like a glorified
+Maine than its own country.  Ok, I'm exaggerating.  But they did seem to make this
+malfunction a big deal.  This is a sporting event right?  It's not like Canada needs this
+ceremony to go off perfectly to please their glorious ruler so that he can make a play
+for nuclear independence.   It's Canada.
+
+
+
+Image:
+http://2.bp.blogspot.com/_q3mOmbdYwYU/S3ba5P2MQPI/AAAAAAAAAKU/jg_AvZA1HxE/s400/n2TePLiD28cl.jpeg
+     The announcers then babble on about "we're going to take a break--no we're not--now we
+are" all while Gretzky, a.k.a. "the great one" (cept for that whole gambling incident)
+hitches a ride to downtown Vancouver to light the outdoor torch.  My favorite line from
+the announcers, "It seems like someone must have let slip where the outdoor torch lighting was
+taking place, because there is a good amount of people collecting."  Um . . . the cauldron is
+about 3 stories high and looks like a glowing blue snowflake.  I don't think they needed to
+poster the neighborhood for this secret to creep out.  It was either the Olympic torch or the
+worst cover for a terrorist attempt ever.
+
+
+
+2.  Yesterday a Harvard trained biologist was denied tenure at Alabama University, and
+proceeded to lose her shit and go on a shooting spree , killing 3 colleagues.  Now, there is no
+part of this that i condone, obviously, but i think when PhD's start picking up guns because of
+tenure denial, we get an idea of how broken that academic process really is.   Tenure is the
+holy grail of the academic.  It is an ephemeral concept that means job security and even a
+drop or two of carte blanche.  After 5 years of being a prof's bitch (grad school) and then at
+least 5 more years of nose-to-the-grindstone work to submit your tenure portfolio, you can
+see how one could be upset by the denial of a decade's worth of one's contribution.   im just
+trying to give you guys some context.
+
+
+
+3.  On Fridays, the Social Psych department at UMass has a speaker series, where
+psychologists from the  northeast come and give a talk about their research for about an
+hour.   Yesterday's talk was about the effects of social support in romantic relationships
+(e.g. if having your partner's support helps you in preparing for the bar exam).  Without
+getting into it, it turned out that the type of support was an important variable.  Which led
+to this gem:
+
+
+
+Speaker: "One guy in our study said that he actually went on a trip down to Florida for the week
+leading up to his gf taking the bar in order to give her space to prepare.  Now, of course, this
+is not the kind of support you would want to give if she had breast cancer."
+
+
+
+Way to drive your point home.
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Saturday's Review of Friday
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/saturdays-review-of-friday.html";
+posted by mattitiyahu at 12:10 PM 2 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Thursday, February 11, 2010
+
+
+
+SI Swimsuit Issue is a Misnomer
+
+So on Monday I received my SI Swimsuit Issue (Im a subscriber).  I know that you can call or
+write to not get this issue (timed to line up with Valentine's Day each year--somehow I know
+this reinforces my last blog post --im just not sure how exactly) and instead receive an extra
+issue added to the end of your subscription, but frankly that takes even a modicum of energy.
+ One which I am not willing to spend on my magazine subscription.
+
+
+
+ (*Brief Tangent:  I also subscribe to Newsweek.  This subscription began as a gift from a
+friend of mine [one of those 2 for 1 deals] but i have resubscribed since.  I tell you this only
+because somehow the name on the subscription reads "Multitiyahu."  It remains the funniest
+and my favorite misspelling of my name thus far in life.  I partially think I resubscribed
+because I simply couldn't do without the giggle I get every time I read the name on the cover. End
+brief tangent*)
+
+
+
+So today, Thursday, I thumbed through the swimsuit magazine for the first time.  And here are
+my thoughts.
+
+
+
+1) Yes, Bar Refaeli is the hottest jew I have ever seen (I'm sure that link will help my blog's hit
+count).
+
+
+
+2) Brooklyn Decker , aka. the Swimsuit cover model this year, aka. tennis star Andy Roddick's
+wife, is totally fucking weird looking.  I can't look at her and NOT think of E.T. dressed up
+like a lady.  That's just my opinion.
+
+
+
+3) I cannot find anyway to call this a "Swimsuit" issue.  Most of the pictures I saw had the
+models holding their tops.  Not really the way to sell swimwear.  And not really focusing on
+the fabrics.  Unless "swimsuits" now include a ton of boob colored material,  they
+certainly don't put the 'wear' in 'swimwear' (or swim for that matter--none of em are in the
+water).  Usually, and I'm assuming still, they have a section where the "suits" are
+literally painted onto the models.  Swimsuit issue?  No.  The appearance of naked ladies
+issue? Yes.
+
+
+
+4) Speaking of naked lady issues, I also can't find an excuse to put this stuff in a sports
+magazine.  I mean, I enjoy the content as much as the next hetero guy, but seeing models lying
+on rocks, while potentially grueling work (shhhh. don't tell Detroit that this qualifies as
+work, let alone grueling work), is not a sport (similar to how golf isn't a sport--walking
+is--golf = hobby--but that's a blog for another day). Can we agree that bikini ladies are not
+'sports relevant.'  (Can we agree that i've used too many quotes in this post in general.) I
+think everyone will be happier if we just admit that the majority (not all, but the majority) of
+sports fans are male, and males (not all, but the majority) like to look at pictures of scantily
+clad pretty women, and thus, we have the Swimsuit Issue.  I don't feel like Sherlock Holmes
+revealing this, but it goes just a little bit too unsaid.  I should add that they do have a
+section where they have actual female athletes in bathing suits (this year the Olympic
+Downhill Ski Team), but personally, while it is nice to see how amazing these athletes' bodies
+are from so much training, it just seems even more objectifying since these women are so
+talented at things other than looking beautiful.  (they used to have a section featuring
+male athletes with their wives in bikinis.  Egalitarian FAIL)
+
+
+
+5) So here is the crux of my argument (and also, why the magazine went unopened for 4 days).  I
+can get past the moral outrage of the existence of this issue.  In reality, I have none.  SI
+makes it more than easy to not receive it and compensates you.  By now, everyone knows what
+they're getting if they do choose to get this particular issue, and I don't feel the need to
+babysit America.
+
+
+
+But me, I'm pro porn.  Porn has tons of good uses (inside and outside relationships--again,
+another blog [cause it's got bad uses too, certainly]).  One of the uses it is particularly
+good for is looking at naked people.  It's the best at it actually.   To drive home this point,
+I give you a conversation I have a number of years ago with my younger male cousin, who was
+probably a freshman or sophomore in high school at the time.
+
+
+
+I decided to try and be the cool older cousin and give him my old porno mags from when I was in high
+school (i was out of college already at this point).  The only magazines that I still had (and i
+never had that many) were the creme de la creme.  A who's who of "high class" unrated porn
+(great stories).  Anyway, I go up to his room and hand over my collection, which he flips
+through, and thanks me for somewhat off-handedly.  "That's it?" I ask, somewhat befuddled
+by his lack of elation in his new found wealth.  "Um . . . you've heard of the internet right?"
+was his reply.
+
+
+
+Image:
+http://1.bp.blogspot.com/_q3mOmbdYwYU/S3Su6x-D6YI/AAAAAAAAAKQ/G0TXcdUwKiw/s320/imgres.jpeg
+
+
+
+I am fortunes fool once again.  Little did I know that porno mags had already become the stone
+tablet of porn distribution.  In my defense, when he did get around to looking through them,
+he told me they were pretty sweet.  (Damn right they were sweet, they were my girlfriend for 3
+years).
+
+
+
+What I'm trying to say here is that, to me, the swimsuit issue is just another form of soft core
+porn.  Well developed airbrushed gorgeous porn.  But still porn.  And still soft core.
+ If I really want to look at naked ladies for some alone time, I am going to look at naked ladies.
+ Not almost naked ladies.  And if i'm being honest, and I think it's apparent that I am, I'm
+probably going to watch videos of those naked ladies in action, not still shots.  All and all,
+SI is a poor man's porn.  Or a 14-year-olds.  Maybe the swimsuit issue is today what the
+Victoria's Secret catalog was in my day.  aka. "better than nothing." (Though nothing can be
+fun too ;-))
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+SI Swimsuit Issue is a Misnomer
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/si-swimsuit-issue-is-misnomer.html";
+posted by mattitiyahu at 8:29 PM 6 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Wednesday, February 10, 2010
+
+
+
+True Hollywood Story: Valentine's Day
+
+I should start by saying that I have never had a bad Valentine's Day.
+
+Ok, that's not true.  One year my then girlfriend's dog died on Valentine's Day and her mom
+decided to go ahead and call her up at college and tell her that evening (ingenius mother's
+birth control tactic?). . . which i happened to be visiting her for.  It was a mess.  But even
+still, consoling someone you love on the death of their pet certainly isn't what I was
+expecting on that day, but it's also definitely part of the job description of being a
+significant other.  So i sucked it up.  But that's the worst of it.  Really.  In college i
+would use Valentine's Day as an excuse to ask beautiful women that were a bit intimidating out
+on dates.  Both times I had a wonderful evening.
+
+
+
+But here is the thing.  I hate Valentine's Day.  I really really really hate hate hate it, and
+I think it's a bad thing.  I don't feel this strongly about most subjects, but on this i will
+take a stand.  One of the excitements of getting my PhD as a "relationship expert" is so that I
+can say, I'm an expert on romantic relationships, and Valentine's Day is fucked up and should
+be done away with.
+
+
+
+Image:
+http://1.bp.blogspot.com/_q3mOmbdYwYU/S3N_FV6sjwI/AAAAAAAAAKM/2-pEC97JMcM/s400/Chocolate-Rose--19973.jpeg
+
+Let me explain.
+
+
+
+If you are in a relationship, I have no doubt that it is possible, and possibly even wonderful,
+to set aside some time for you and your significant to do something, just the two of you (or three
+of you or four of you, I don't judge).  Putting aside the fact that part of a healthy
+relationship is letting your partner know that they are loved and cared for all the time, I
+understand that we all lose sight of that from time to time and take those we love the most for
+granted.  But lets understand something.  This paragraph so far, is talking about the VAST
+minority of people in America.
+
+
+
+For most people in relationships (still focusing on them to start), Valentine's Day creates
+an amazing artificial pressure to do something particularly special for your loved one.
+ Putting pressure on most relationships is akin to farting in your relationship's face: you
+may survive it, but you're not going to enjoy it.  Pressure creates two separate sets of
+expectations (from each partner) and therefore creates the possibility for an incredible
+amount of unnecessary let down and disappointment.  The irony being that Valentine's Day
+creates tension, fights, and conflict for couples that otherwise probably wouldn't be
+fighting.  So even for the subsection of the population that presumably should benefit from
+this "holiday," you see negative returns.
+
+
+
+And now the single people.  Let's be real folks, the majority of people who are single out
+there are not socially adept enough to just "make sure they have a date" for Valentine's day.
+ That's just the truth.  Even many of those who can get dates don't always have people around
+they WANT to date at any particular time.  And what could make those people feel more
+jump-off-a-bridge awful than a day (and month leading up to it) where the
+media/society/restaurants/stores all tell you that the only way to have value is through
+your love with another (actualized through a credit card).  That is some utter bullshit
+right there folks.  And people DO get sad.  Depressed.  Forlorn.  And if they don't, they
+still can end up internalizing that negativity and the message that their lives are
+incomplete without a relationship.  And then Valentine's day goes and announces this
+message from its candy heart, chocolate-rose covered megaphone that there is something
+wrong with you if you're single.  And it's like revving your Lamborghini's engine in front of
+a homeless guy driving his shopping cart.  It's like driving a Hummer when the world is slowly
+burning.  It's just so utterly douchey that I can't be a part of it.
+
+
+
+If you're in a relationship, you lose.
+
+If you're not in a relationship, you lose.
+
+That's called a lose-lose.  (Even Michael Scott knows that that's not what you want)
+
+This is so not a good holiday.
+
+
+
+The only real winners on Valentine's Day are card companies, chocolate makers, flower sales
+(online flower prices are skyrocketing [for love]), and jewelry stores.  And frankly, I
+don't care if you throw that stuff off a bridge, it the lonely 14 year olds I'm more concerned
+about.
+
+
+
+Just say no to the perpetuation of pressuring us to love on any particular day.  Love
+everyday.
+
+
+
+And, for the record, buying the discounted Valentine's Day candy on the 15th is TOTALLY
+kosher.
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+True Hollywood Story: Valentine's Day
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/true-hollywood-story-valentines-day.html";
+posted by mattitiyahu at 10:53 PM 5 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Tuesday, February 9, 2010
+
+
+
+Paying the Piper: Award Blog: This one goes out to Karen and Arthur
+
+It is time to pay the piper.  This is my blogs first award show.  This one is the pay-off for the
+worst contest ever created (my bad) and the haiku contest (my good).
+
+
+
+Image:
+http://3.bp.blogspot.com/_q3mOmbdYwYU/S3G8mJd03XI/AAAAAAAAAKI/S_lcDQaKssE/s320/imgres.jpeg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+First Karen.  She won the "guess the fruit" contest.  She correctly identified
+said calabash from its file name "calabash.jpeg." Great job Karen.  Great job me.  But
+a deal is a deal and here is what I have to tell you about Karen.  While I met Karen as a lowly
+undergrad at Wesleyan, we were not friends.  I can't say exactly why that is.   We weren't
+enemies.  But I was a dance major and she wore skinny jeans and hung out with film majors (i
+think).  So, different circles I guess.  Anyways, it was both of our losses.  Thankfully,
+post-college, we re-met through mutual friends and realized the amazingness of each other.
+ And Karen, make no mistake, is amazing.  Here's an example.  One day before leaving the
+country for 2 weeks, I call Karen and tell her how I am an idiot and I am looking for a place to park
+my car in Boston for, um, 2 weeks.  I am doing things last minute (unshockingly) and I've just
+realized that it costs over $300 to park your car in a garage for 2 weeks.  Karen's first
+response is, "no problem."  Her second response is to actually figure out how that is going to
+work out.  Now, in the end, I found a solution that didn't entail Karen parking my car at her
+friends house for me, but what is really important here is how readily she activated to help a
+friend.  That's the stuff that counts in my book.  Unfortunately for her, she has found
+herself surrounded by absent-minded goofball friends like myself so often, that she has
+elevated the idea of "good friend" into an artform.  She is the one to call when you need
+bailing out of jail when you don't want it to accompany a lecture (thankfully hasn't happened
+yet).  She's the poo.  the tits.  the shit.  She's good people.   Strangely, Karen
+recently moved into the apartment AND bedroom of an ex-girlfriend of mine from when I was
+living in Boston.  This coincidence was the motivation for this text exchange:
+
+
+
+ME: Brunch with gf's grandparents tomorrow.  We look forward to seeing you in Amherst soon.
+ ps. I've done messy * insert sex act * in your bedroom.  Mua!
+
+Karen: That blows.  In reference to both facts.
+
+flash forward to a text days later.
+
+Karen:  I would love you to stay here, but I had to burn that house down after your last text.
+ Sorry.
+
+
+
+A good friend, and funny.
+
+
+
+Prize #2.  With due respect to all who entered (shout out to Melissa, John, and Erin) I think
+it's clear that Art Black won the haiku update contest with this gem:
+
+
+
+
+
+    
+
+        myocardial
+
+        infarctions aside, life's good.
+
+        i heart insurance. Whenever you can use "myocardial" as your first 5 syllables, you
+        are starting ahead of the pack.  On the unfunny side, it pains me that one of my
+        favorite people in the world would go have a heart attack at 31 just to win a friggin
+        blog contest.  A+ for commitment Arthur, but you have got to chill out.  For those
+        of you who get connected to people you have never met extremely quickly, you will be
+        pleased to know that Art is recovering well and hopefully this experience will
+        prevent any more medical funny business in the future.
+
+        As for his reward, I offer this story.  Art and I met on a high school Jewish youth
+        group teen tour bus trip (that's a lot of adjectives) across the USA (both ways).  We
+        became close friends.  The year after that summer, we went on another Jewish teen
+        tour that took us to Poland (aka. concentration camps) and Israel (Israel looks
+        absolutely incredible when juxtaposed with seeing the past slaughter and
+        burning of millions of people--fyi).  We followed up these trips with visits to
+        Kentucky (where he was living--my first and only time eating KFC) and to Conn. (where
+        I was going to college--my first and not only time shrooming).   But this story comes
+        from the bus teen tour in high school (sophomores?).
+
+        As part of this trip, we moved in and out of hotels almost daily.  The 45 of us
+        would descend on a hotel, take over a floor for a day or two, and then be gone as
+        suddenly as we had arrived.  As we went through some of the southern states there was
+        the added bonus of it seeming like some Jewish UFO landing everywhere we went.  We
+        once wrapped tefillin  during a service (those things the authorities thought
+        were bombs and landed a plane because a boy was wearing) at a truck stop in Alabama.  A
+        little scary and a lot funny.  Anyhoo.  The whole group of us was in the lobby area of
+        one of these hotels, in the process of checking-out.  I, as is not uncommon, needed
+        to go to the bathroom.  As I walked into the bathroom, Art was washing his hands on his
+        way out and he alerted me to the fact that our friend Alan (notorious funny) was in the
+        occupied stall.  I took the other stall and began to chat with Alan.  As sometimes
+        happens when I start talking, I just kinda go and go and go.  It was probably a whole
+        minute before I realize that Alan wasn't replying.  This is typical Alan.  Sure
+        sure, make ME feel like the asshole.  I wave my hand under the stall, "Alan.
+         HELLLLLLLLO.  WTF (I probably said the whole "What the fuck" as I'm not sure WTF
+        had been popularized yet).  Why aren't you talking to me?"  I got fed up. "ALAN!" I
+        reached under the stall and grab Alan's pants and yanked.  
+
+        " Get the FUCK out of here!"  
+
+        That was not Alan.  That voice was entirely too low and too "old sounding" to be
+        anyone under 50, let alone a high schooler.  I would say it scared the shit out of me,
+        but alas, I already had taken care of that.  I didn't even wipe.  I pulled up my pants
+        and hauled ass out of there.  The nice thing about being transient all summer is that
+        your suitcase is always nearby.  I quickly found mine and changed shoes (My thought
+        process being that this is the only way Mr. Pulled-Pants could really identify me).
+         I next found Art and punched him.  Then i told him what happened.  The we laughed
+        really hard.   And that is the story of how i harassed a total stranger while we
+        were both taking a shit.  Another gold star on my record.
+
+    
+
+
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Paying the Piper: Award Blog: This one goes out to Karen and Arthur
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/paying-piper-award-blog-this-one-goes.html";
+posted by mattitiyahu at 2:55 PM 2 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Monday, February 8, 2010
+
+
+
+Upper Middle Class White Kid Games
+
+Yesterday my gf and i hosted a superbowl party (suck it manning). By all accounts, it went well.
+But the real action, as reality show has taught us, happens before the guests arrive. The gf and
+I gave our house a cleanin, by which i mean we removed all features that would denote someone
+living there.
+
+Image:
+http://4.bp.blogspot.com/_q3mOmbdYwYU/S3DdDyxKL5I/AAAAAAAAAJ8/l-yH9TvsuUM/s400/dirty-room.jpeg
+
+
+
+
+
+(*Note: This is NOT my actual house!) This is strange to me. I am not, by nature, a cleaner. I do
+have a "dirtiness line" that I will not let my living space get to, but it usually revolves
+around what I like to call "wet mess." Clothes on the floor, papers strewn about, bags and
+blankets lying around = dry mess. Mold, left out paints, spills = wet mess. So i find it strange
+that the social norm here is to clear out all of the landmarks of activity living. Don't get me
+wrong, our house certainly needed the vacuum, so all and all it was a win win, but i just find it so
+unnecessary. As long as it's not disgusting or smelly, who cares. I certainly don't. If your
+house has a comfortable chair for me to sit in--im happy. Hell, even a carpeted floor is plenty.
+Who am I to judge how you want to keep your living space. I don't have to live there--you do.
+
+This said, when i DO clean, I go totally OCD. I will scrub that sink until there aren't even any
+streaks left from the sponge. I will polish that facet. This is pretty out of character for me,
+but I picked it up quite honestly from my father, who would clean the countertop (*cough* still
+cleans the countertop *cough*) so obsessively that I used to purposely position crumbs at
+either end to make him go back-and-forth and back-and-forth. You've gotta loved
+upper-middle class white kid games. Yah just gotta.
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+Upper Middle Class White Kid Games
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/upper-middle-class-white-kid-games.html";
+posted by mattitiyahu at 10:39 PM 1 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Sunday, February 7, 2010
+
+
+
+The more I know, the more I just figure out how little I know.
+
+Please tell me this is everyone.
+
+I had all day to work on an assignment for school.
+
+So I caffeinated, and I facebooked. and I videochatted. and I watched a little tv. showered.
+more caffeine. more facebook. news. read some news. email. other email.
+
+and before I know it, it's 8pm and I haven't written anything. Did I write a few pages. Yes. But in
+order to do what could have been done in 2 or 3 solid hours in the morning, I had to torture myself
+and stress and procrastinate all day. These are the days that I wish I could get do-overs on.
+
+I'll try again tomorrow.
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+The more I know, the more I just figure out how little I know.
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/more-i-know-more-i-just-figure-out-how.html";
+posted by mattitiyahu at 12:50 AM 1 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Friday, February 5, 2010
+
+
+
+My Yoko
+
+
+
+Image:
+http://1.bp.blogspot.com/_q3mOmbdYwYU/S2ys8D-iziI/AAAAAAAAAJ0/JMBFNkDBToc/s400/104_0430.JPG
+I'm going to take a break from my Vegas fiasco to wish my friend Yoko Kurosaki (pictured on left)
+a very happy birthday.
+
+Back in 2004 I spent a year teaching English out in the mountains in Japan. While the experience
+itself was absolutely indispensable, my particular job (which was to go to all 100+ middle and
+elementary schools in the county--twice) was not a prizewinner. This being the case, I really
+had to make the most of the positives during my time there, and my friendship with Yoko was one of
+my favorite positives.
+
+Out in the country, there aren't many twenty-somethings. Generally, around that age you
+either go away to school or migrate to a city. In my little country county, this seemed
+particularly true. Yoko was about my age and was assigned to teach in a special English program
+at one of the smaller middle schools. This school, essentially a magnet English school, was
+down the block from my house and requested my teaching services on a fairly regular basis
+(more-so than any other school). Being able to have repeated visits with the same school
+allowed me to form a relationship with some of the students (my favorite part of teaching).
+During the summer, I even was allowed (after heavily volunteering and pleading) to go to that
+school to help out with their sports clubs, instead of sitting at a desk in the county
+educational building watching "Love Actually" on repeat (the only movie i had on my
+computer).
+
+So Yoko, whose own English far exceeded the English ability of both most Japanese and most
+Japanese English teachers (there was more than one instance at other schools where the
+[usually older] English teacher would try to teach students absolutely horrifyingly
+incorrect grammar--causing great tension between them and the foreigner trying to teach
+proper English) was sent out to the country to help with their special English program. Yoko's
+family lived in a more populated area closer to Tokyo and she too was therefore a bit of a
+transplant out in the country. But what makes Yoko special to me, and what I can never thank her
+enough for, is that she too decided to make the most of the opportunity we had together, and
+really opened up to me as a friend. While this may seem like an incredibly small thing from the
+outside, in the Japanese culture, opening up is not something done lightly. I'm pretty sure
+there were only a few instances (besides those with Yoko) where I felt that the Japanese people
+I was with let me "behind the curtain." And it isn't without risk. While the Japanese won't tell
+you anything mean to your face, they gossip like crazy. [For example: One American English
+teacher left his town after 3 years thinking he was loved by all. Only after his departure did it
+come out that he was resented for his laziness and flaunting of the rules. When I went to his
+schools (i went to everyone's schools), I too thought they loved him. ] And additionally, when
+there are only 6 or 7 white people in the entire county, you can be sure they were talking about
+us.
+
+(*Tangent. To give you an idea of my visibility, I couldn't go to the grocery store between 6-8
+during the week because all of the students would come running up to me asking for my autograph.
+Absolutely crazy. End Tangent*)
+
+So, considering that Yoko and I had a completely platonic friendship, being sen out with me was
+a fairly high amount of risk for a non-romantic person. But she saw me, lost in the middle of a
+rice field and way out of my element, and she essentially took pity on me. She helped me learn my
+surroundings and how to navigate the basic interactions necessary to happiness and
+survival. It's incredible what one visit to a restaurant with a "translator" can do for all of
+your successive visits there (one thing is that it gets you food you actually wanted).
+
+And we didn't have outlandish adventures. We got sushi, wen't to the mall in a nearby city, we
+just hung out. But while that kind of interaction with foreigners was common in the Mecca's of
+Tokyo and Kyoto, for me--out in the middle of nowhere--they were few and far between. Being
+friends with Yoko helped me to see the depth of the individuals I was working with, instead of
+falling into the trap of seeing the Japanese people as one united entity. Yoko also gave me the
+freedom to bring my creativity to the English curriculum. She let me conduct a Halloween class
+where the kids were allowed to dress up (see pictures--I dressed as a Japanese bathroom door)
+with bobbing for apples (they'd never heard of it), pumpkin carving, and a drawing contest
+(the products of which we used to decorate the classroom).
+
+Image:
+http://1.bp.blogspot.com/_q3mOmbdYwYU/S2yrTiWAC4I/AAAAAAAAAI0/IbB_cam6BFg/s400/100_0087.JPG
+
+Image:
+http://2.bp.blogspot.com/_q3mOmbdYwYU/S2yr1rwVOlI/AAAAAAAAAJc/FAopJYyZ-jE/s400/100_0091_r1.jpg
+
+
+
+Image:
+http://3.bp.blogspot.com/_q3mOmbdYwYU/S2yr1Se_2aI/AAAAAAAAAJU/l72g5Tu4mDc/s400/100_0090.JPG
+
+
+
+Image:
+http://3.bp.blogspot.com/_q3mOmbdYwYU/S2yr1fCPtII/AAAAAAAAAJM/IPr35iLYlZE/s400/100_0089.JPG
+
+
+
+Image:
+http://4.bp.blogspot.com/_q3mOmbdYwYU/S2yr09TSHYI/AAAAAAAAAJE/V739QNDygjQ/s400/100_0084.JPG
+
+
+
+Image:
+http://3.bp.blogspot.com/_q3mOmbdYwYU/S2ys70nltwI/AAAAAAAAAJs/z-I3EDbxW0E/s400/100_0094.JPG
+
+Image:
+http://4.bp.blogspot.com/_q3mOmbdYwYU/S2ysR8bi5xI/AAAAAAAAAJk/moO92ORVpts/s400/100_0092_r1.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pic 2. The kid in this picture was called "Mame" because his head was shaped like a bean (which is
+what mame means). He was, if i had one, my favorite.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pic 3. Me as a bathroom door, with cowgirl, dog, Mickey Mouse, Samurai, old japanese farmer,
+guy in white, and Mame as an old bald guy with glasses.
+
+Pic 4. Jack-o-lanterns!!! (Pumpkins are green in Japan)
+
+Pic 6. Yoko showing the girls how it's done (a 13 year old girl in every culture fears getting her
+hair wet at school)
+
+Pic 7. A champion
+
+Yoko also taught me a measure of compassion. Now, when i see Japanese (or really any
+non-English speaking) tourists wandering around a city, my first instinct is to try to help
+them navigate their way. Once you have lived and been shown kindness in a culture where you
+can't even read the street-signs , it is harder to ignore foreign tourists as if they are simply
+a noisy obtrusive inconvenience in my getting from point A to point B. And that's Yoko's fault.
+:)
+
+And while, unfortunately, I have not been able to se Yoko since I left Japan in 2005, we keep in
+touch. And hopefully, in the not too too distance future, we will meet up again. But until then,
+there is plenty of room for her in my heart.
+
+Happy birthday Yoko. Much love.
+
+
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+My Yoko
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/my-yoko.html";
+posted by mattitiyahu at 5:41 PM 1 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Thursday, February 4, 2010
+
+
+
+The Vegas Vixen Paradox
+
+I'm not sure if it needs to be said explicitly, but i will anyway: Vegas is known for its
+prostitutes.  Said more accurately, Vegas is known for its hookers, massage parlors, call
+girls, strippers, back rooms, lap dances, delivery hookers (they bring em right to your
+room), and the invention of dollar bills as sexual currency.  There are men at every corner
+slapping leaflets against their hands to advertise for massage parlors.  Everywhere.  I
+swear a significant percentage of people on the strip at any given time are naked.    In
+short.  They are there.  They are everywhere.
+
+
+
+But here is the thing.  The number of women in Vegas that look like hookers . . . I mean women that
+look like you could pay for their services . . .  Are everywhere.  In numbers so large that
+they could not possibly all actually be prostitutes.  Because, apparently there is
+something about Vegas that, much like the Halloween Vortex, makes it allowable (and even
+encouraged) for women to dress outlandishly slutty.  Dresses were so short that i saw more
+than one crotch flash in my 4 days.   Is there something about being in the presence of actual
+hookers that makes women want to fit in with them?  It was strange.
+
+Image:
+http://2.bp.blogspot.com/_q3mOmbdYwYU/S2te4yIu1vI/AAAAAAAAAIw/aeU5ZWhcnsw/s400/272734451_785acbbff3.jpeg
+
+I will say this Paradox was accentuated by the popularity of the new term "cougar."  I saw some
+old meat that looked like it was bound together by the saran wrap clinging to its flesh.
+ Dressed up old lady is still old lady.  And I saw MUCH more of it that I felt altogether
+comfortable with.  Perhaps I should start redefining my image of "old," because Vegas is
+lightyears ahead of me.  
+
+All and all i left Vegas realizing two things from the women around me.
+
+1)  Vegas's sadness is accentuated by the fact that everyone in Vegas is single (or acting
+single).  The lack of bonds gives a sense of a lack of bonds.
+
+2)  I could never live in Vegas for an extended amount of time and come away with a healthy
+relationship to women in general.  The mere fact that the first thought that entered my mind
+when I looked at provocatively dressed women was, "is she a hooker?" would doom me to
+constant objectification.  It's just another part of the sickness that is Sin City.
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+The Vegas Vixen Paradox
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/vegas-vixen-paradox.html";
+posted by mattitiyahu at 6:58 PM 2 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Wednesday, February 3, 2010
+
+
+
+The $38 Buffet
+
+
+
+
+
+
+
+
+
+Now, there really are quite a few negatives about Vegas that I feel need to be shared. But, in the
+spirit of optimism, i'm going to go with one of the positives. And thus begins the story of the
+$38 buffet.
+
+Saturday night, my final night on the strip, a few friends and I were looking for a relatively
+inexpensive, tasty ( remember what I had eaten the night before ) dinner option. Having
+already eaten at Burger Bar (YUM!--so good I suggested going again), we decided to hit up the
+Bellagio Buffet.
+
+
+
+Now, I'm going to be honest, "buffet," to me, does not have a good connotation. When I think of a
+buffet I think of a line of food laid out on a table or set of hotplates, that sits, touched or
+untouched, for a block of time not unlike the block of time you are supposed to reserve for the
+cable guys arrival ("just be at home anywhere from 10am - 4pm, we'll get to you"). So the chance
+of getting food that has been sitting out is generally pretty high. I, for reasons I can only
+think must be tied to my experiences, also think of Chinese food and multiple forms of fried
+noodles and rice. There have been exceptions to the rule. I once went to a glorious Indian
+wedding in NYC whose endless Indian delicacies rocked my sari off (figuratively). But this,
+sadly, was the exception, and most buffet dinners I have had have led to extended visits to
+Sergeant Porcelain's infirmary. It's conservation of mass folks--what goes in, must come
+out. All of this is to say that when the group decided on buffet, I was not thrilled. But it
+promised to be relatively inexpensive, so I acquiesced (im a cheap date). Because of the 5
+person limit for cabbies, I took the bus and met the rest of the group at the Bellagio. (*Begin
+tangent. The Bellagio is beautiful. It is everything the Riviera is not. There are rooms
+dedicated simply to art exhibits and floral displays. It has a huge fountain [from the end of
+Ocean's 11] outside that shoots streams of water in time with songs blasted from the heavens.
+I'm not saying that the consumption culture of Vegas is my thing, but if it is your thing, the
+Bellagio is your thing. End Tangent*) By the time I got the the hotel, there was a line for the
+buffet (not a good start) and I was full on hangry (so hungry that I'm angry). Like everywhere in
+Vegas, there was also a second line for "people with buffet line passes" aka. "hotel approved
+cutters." My friends were at the food already, and I was not about to eat alone. I cut. Sue me. I
+don't care. Turns out, as karma would see to it, cutting only allowed you to move directly to the
+register to pay for said buffet. "How many?" she asked. "just one for the buffet" i replied. "38
+dollars," she retorted. "Just one," I repeated. She just pointed to the register (which
+glowed $38.00 ).
+
+Full stop. I have seen Pulp Fiction, and thus have heard of a 5 dollar milk shake. But a 38 dollar
+buffet!!! I did not see how this could be possible. In my vision of lined up food, a 38 dollar
+buffet must stretch for miles. Alas, peer pressure kicked in. They were inside and eating, I
+was outside and hangry. I paid. I felt robbed and a little violated (which, in all honesty, was
+kinda a constant feeling in Vegas). And then I saw it, and all of my tension and angry melted
+away.
+
+In looking for my friends I happened upon the sushi station (yes, station). The sushi station
+is a full circular counter with a sushi chef in the middle. On it there ia all-you-can-eat sushi
+ranging from seaweed salad, to basic salmon and tuni sushi, to elaborate hand rolls. I
+immediately have two simultaneous thoughts.
+
+1)The first is that I begin to understand that the Bellagio will be redefined my previously
+held notion of "buffet."
+
+2) I realize that, though I was planning on eating cheaply, I will, nevertheless, be eating my
+money's worth.
+
+Your see, the sushi bar was merely the tip of the P izza-the-Hut that was the epic display of food
+at the Bellagio buffet. Where the Riviera made me suspect that there was, quite possibly, no
+actual kitchen on the premises, the Bellagio made me think that they actually had a working
+farm behind their double doors. I immediately made the decision that vegetables and starches
+would NOT be a part of my dinner, and that I should forgo poultry in favor of the goods of the
+oceans and land. I totally understand why i avoided the vegetables and starches (the prior
+have no food in their food and the later take up more than their share of space), but I can't
+honestly tell you how i so automatically discarded the possibility of eating foul. But the
+decision was automatic. Thus, this happened.
+
+Salmon -- 4 ways -- sushi, some kind of raw hawaiian salad, cooked, and smoked Tuna -- sushi &
+handroll Sea Bass -- not mutated, not ill-tempered Shrimp -- in paella and a la carte Mussels --
+in paella, poached, steamed, and in red sause Giant Crab Legs -- from Alaska and Japan Kobe Beef
+(un-ba-fucking-believable. this was my 2nd time eating Kobe [both this trip] and its juicy
+deliciousness really was as epic as I heard) Prime Rib Short Rib (didn't fall off the
+bone--grrrrr) Roast (not that good) Lamb Chop (the best kind of lollipop) Lamb some other way
+
+aaaaaaand I think that covers the main course. If you haven't guessed yet. I am not a vegetarian
+(Captain Obvious to the rescue!). I do think I need to take a second to say that there is a very
+good argument for this monstrous buffet being evil. The amount of excess and, i can only
+imagine, waste, is really indefensible. But, seeing as I plan on bagging on Vegas pretty hard
+in the upcoming blogs, I am trying to ignore the negative here with a semi-blind eye. Feel free
+to express your outrage in the comments if you so choose. And with that, onto dessert.
+
+Creme Brulee Key Lime Pie Eclair (with chocolate filling!?! Fail.) Peach/Apricot Mouse
+(which was yum) Bread Pudding (orgasmic--and many people's fav) Carmel Sause (eaten both on
+stuff and with my fingers--I love carmel/butterscotch almost as much as Fluff ) Flan (flan
+itself--not great, sause around it, drank that right up i DRINK YOUR FLAN JUICE . . . I DRINK IT UP
+) A banana (dipped in carmel) Other desserts of note that I didn't eat -- soft-serve ice cream
+station, apple crisp, cheesecake)
+
+I even had a little fun with my food (for $38, there should be an actual playground for playing
+with your food). Here's my little food sculpture:
+
+Image:
+http://2.bp.blogspot.com/_q3mOmbdYwYU/S2ocdGeRc5I/AAAAAAAAAIs/Cn9g-zxfPqc/s400/banana%20penis.jpeg
+(i am so immature. this picture was made with 2 key-lime pies and carmel sause. there is a little
+bread pudding hanging off the side of the pie, but isn't there always. I still say it's
+hilarious.)
+
+Other notes RE: the buffet. There was a salad bar station, which i imagine has never once needed
+refilling. I am sure I missed both important things that I ate and that were available that I
+missed. The point is that this "buffet" was so elaborate that you could actually miss things.
+No longer constrained to a straight line, this non-linear food display occupied a small
+football field with pretty much every food that I know of. I now understand that buffet =
+choice, and the Bellagio certainly gives you plenty of that.
+
+After the meal, I had eaten so much that my food baby felt like it was pregnant with twins. I felt a
+little like a pre-juiced Violet Beauregarde . The punchline here is that as I went to the
+bathroom post meal, I was SHOCKED to see that it only contained one stall!!! This, i thought,
+must be an oversight. There is no way that that many humans can pound that much food, and then
+there is only one receptacle for return. Thankfully, for myself and others, upon exiting the
+buffet, there is a rather large bathroom directly outside the buffet area. I realized soon
+afterwards that this is most likely designed purposely to move visitors out of the buffet area
+as soon as they reach capacity, so they don't, um, unload, and come back for more.
+
+
+
+On a helpful note, if you start doing your taxes now, you'll get your return right around when
+your friends are frantically trying to send their taxes in. And there ain't nothing better
+that riding one's high douche horse (a saying my friends and I have come up with for behavior
+including correcting someone's spelling in an IM conversation) right around tax time. Don't
+say I didn't ever teach you anything. ;)
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+The $38 Buffet
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/38-buffet.html";
+posted by mattitiyahu at 8:28 PM 3 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Labels: buffet , TMI , Vegas
+
+Tuesday, February 2, 2010
+
+
+
+I Vomit Up Chunks of Food Better than the Riviera Hotel
+
+(Think Eminem) Look whose back, Look whose back, Look whose back!
+
+
+
+I've missed you and I've missed blogging to you. I really have. Having no internet access
+(again, WTF Vegas!) for 4 days, to me, is like the loss of a trusted friend. I can say fairly
+confidently that I can more capably deal with being apart from my gf for that period of time than
+i can deal with being disconnected from el interwebo. And I realize that this means that i have a
+problem. And I'm past the first step of admitting that it is a problem. But i am obstinate in my
+refusal to proceed to step two--actually doing anything about it. The upside, of course, is
+that these little voyages to new locales (this time for a psych conference) are virtual
+treasure chests of blog fodder. And while I will save you all from conference related info, I
+think you'll enjoy some of experiences on the sin which is Sin City.
+
+
+
+To begin this Vegas themed week, a warning. If you are going to Las Vegas at any time in the near
+future, do NOT go to the Riviera Hotel and Casino (i would include a link to it, but I don't want it
+to get any unearned attention). When we told the cab driver we were headed there, he replied,
+"What, you going to visit your grandparents or something." And he was right. The place looks
+like the hotel that was left out in the sun until it turned a nice urine yellow color (the walls,
+the carpet), and instead of compensating with lower prices, instead they decided to charge
+extra for everything. And while I already gave the concrete examples of the gym, internet, and
+exercise area costing extra, here's a better philosophical example. We asked an older
+gentleman who worked for the hotel and was stationed near the hotel check-in if he could direct
+us to what was essentially the rear entrance to the building. After giving us the walking
+directions to get through the hotel, he not so subtly hinted that perhaps we could tip him for
+such a service. We responded by completely ignoring his not so subtle request. Because, oh my
+friggin god. Should I tip you for urinating all by yourself as well? Is his thought process that
+anything he does besides just standing in one space is tip worthy? It was not only him though. I
+saw dealers guilting players into tipping as well. Instead of a vibe of classiness and wealth
+cajoling you into spending your money, the Riviera decided to take the claw and scrape and wear
+you down approach. F that. F that big time. I would stop bagging the hotel here, but they really
+deserve more. Unfortunately (and through very little fault of his own) the grad student in
+charge of the "School Reunion Dinner" on Friday night, scheduled our reservations for the
+Asian restaurant at the Riviera. My expectations were low, but it was all you could eat and
+dessert was included (i still wasn't excited to be truthful--but their were good people
+there). The result failed to meet even my lowest expectations. The buffet style greasy mess
+had salted crab legs (how does one even do that?) and unsalted edimame (which tasted like wet
+cardboard). I couldn't even identify some of the proteins in what I will call their "Mu Shu
+Mix." Thinking about the meal now is literally giving me dry heaves. And when I asked about
+dessert (thinking how can you f-up sugar [they would show me]), they replied, "we're working
+on it."
+
+They said this in a way that made me think that someone was in the kitchen (if there was a kitchen)
+was literally trying to figure out what he could pass off as dessert. They settled on (slightly
+dehydrated) sliced fruit. i didn't see one person eat it. The punchline? This, sadly, cost us
+almost 30 dollars a person. I left un-full un-satisfied and un-happy. So, once more, AVOID THE
+RIVIERA. Additionally, even grad students (used to living . . . um . . . modestly) changed
+hotels what for the exposed pipes and general grobstequeness of their initial room.
+
+
+
+With this warning in place, tomorrow I will turn a more positive note in my story titled: the $38
+buffet.
+
+ps. last chance to enter your haiku update in my haiku life update contest!
+
+
+
+Image: http://static.addtoany.com/buttons/share_save_171_16.png
+
+I Vomit Up Chunks of Food Better than the Riviera Hotel
+a2a_linkname_escape=1;a2a_linkurl="http://mattitiyahu.blogspot.com/2010/02/i-vomit-up-chunks-of-food-better-than.html";
+posted by mattitiyahu at 2:02 AM 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Newer Posts Older Posts Home Subscribe to: Posts (Atom)
+window.___gcfg = {'lang': 'en'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+Search Da Blog
+
+Loading... #uds-searchControl .gs-result .gs-title, #uds-searchControl .gs-result
+.gs-title *, #uds-searchControl .gsc-results .gsc-trailing-more-results,
+#uds-searchControl .gsc-results .gsc-trailing-more-results * { color:#0066CC; }
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result
+.gs-title a:visited * { color:#cc0000; } #uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-publishedDate { color: #400058; } #uds-searchControl .gs-result
+a.gs-visibleUrl, #uds-searchControl .gs-result .gs-visibleUrl { color: #00264c; }
+#uds-searchControl .gsc-results { border-color: #cc6600; background-color: #ffffcc; }
+#uds-searchControl .gsc-tabhActive { border-color: #cc6600; border-top-color:
+#00264c; background-color: #ffffcc; color: #000000; } #uds-searchControl
+.gsc-tabhInactive { border-color: #cc6600; background-color: transparent; color:
+#0066CC; } #uds-searchClearResults { border-color: #cc6600; }
+#uds-searchClearResults:hover { border-color: #00264c; } #uds-searchControl
+.gsc-cursor-page { color: #0066CC; } #uds-searchControl .gsc-cursor-current-page {
+color: #000000; }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Mattiti
+
+
+
+    Image:
+    http://4.bp.blogspot.com/_q3mOmbdYwYU/St-gpiVY4xI/AAAAAAAAACA/B9diG-plKHo/S220/103_0350.JPG
+
+        mattitiyahu
+
+    
+
+        Amherst, MA, United States
+
+    
+
+        I'm a freshly hatched phd. and i specialize in romantic relationships. so yes. i'm
+        the god damn doctor of love. I'm also an ex-dance major. a Halloween baby. apologies
+        to capitalization and punctuation sticklers.
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Subscribe To . . . me!
+
+
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png All Comments
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png All Comments
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/5113431684180319448/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/5113431684180319448/comments/default";
+holder.currentBlogUrl = "http://mattitiyahu.blogspot.com/"; holder.currentBlogId =
+"5113431684180319448"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#341473"; skin['ENDCAP_LINK_COLOR'] = "#0066CC";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#0066CC"; skin['CONTENT_TEXT_COLOR'] =
+"#341473"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#0066CC";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#008040"; skin['CONTENT_HEADLINE_COLOR'] =
+"#00264c"; skin['FONT_FACE'] = "normal normal 99% Georgia, Serif";
+google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-hqo1v3ldesaj",
+height: 260, site: "03963521456292002490", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Follow by Email
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png <!--
+google_ad_client="pub-8401540424582193"; google_ad_host="pub-1556223355139109";
+google_alternate_ad_url="http://img2.blogblog.com/img/blogger_ad.html";
+google_ad_width=200; google_ad_height=200; google_ad_format="200x200_as";
+google_ad_type="text_image"; google_ad_host_channel="0001+S0006+L0001";
+google_color_border="FFFFCC"; google_color_bg="FFFFCC";
+google_color_link="400058"; google_color_url="0066CC";
+google_color_text="341473"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2012 (36)
+
+        - ►  October (2)
+
+        
+
+        
+
+        - ►  September (9)
+
+        
+
+        
+
+        - ►  August (2)
+
+        
+
+        
+
+        - ►  July (3)
+
+        
+
+        
+
+        - ►  June (5)
+
+        
+
+        
+
+        - ►  May (3)
+
+        
+
+        
+
+        - ►  April (3)
+
+        
+
+        
+
+        - ►  March (3)
+
+        
+
+        
+
+        - ►  February (3)
+
+        
+
+        
+
+        - ►  January (3)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (76)
+
+        - ►  December (2)
+
+        
+
+        
+
+        - ►  November (7)
+
+        
+
+        
+
+        - ►  October (6)
+
+        
+
+        
+
+        - ►  September (6)
+
+        
+
+        
+
+        - ►  August (6)
+
+        
+
+        
+
+        - ►  July (6)
+
+        
+
+        
+
+        - ►  June (6)
+
+        
+
+        
+
+        - ►  May (9)
+
+        
+
+        
+
+        - ►  April (8)
+
+        
+
+        
+
+        - ►  March (7)
+
+        
+
+        
+
+        - ►  February (7)
+
+        
+
+        
+
+        - ►  January (6)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2010 (142)
+
+        - ►  December (9)
+
+        
+
+        
+
+        - ►  November (7)
+
+        
+
+        
+
+        - ►  October (12)
+
+        
+
+        
+
+        - ►  September (7)
+
+        
+
+        
+
+        - ►  August (9)
+
+        
+
+        
+
+        - ►  July (9)
+
+        
+
+        
+
+        - ►  June (9)
+
+        
+
+        
+
+        - ►  May (11)
+
+        
+
+        
+
+        - ►  April (11)
+
+        
+
+        
+
+        - ►  March (18)
+
+        
+
+        
+
+            - ▼  February (22)
+
+            - HEY! You can't hang around here no more.
+
+            
+
+            - The Toilet Knows What you did last Dumper
+
+            
+
+            - It makes it all worth it.
+
+            
+
+            - The SwimMan
+
+            
+
+            - Kids: From A to Pee
+
+            
+
+            - Phone Rage
+
+            
+
+            - Left Turn Only
+
+            
+
+            - How Babies are Destroying America
+
+            
+
+            - They should call it "Unsurance" not Insurance
+
+            
+
+            - The Fastest Man on Ice
+
+            
+
+            - Interesting Matt fact #628
+
+            
+
+            - Picking Teams and Righting Wrongs
+
+            
+
+            - Saturday's Review of Friday
+
+            
+
+            - SI Swimsuit Issue is a Misnomer
+
+            
+
+            - True Hollywood Story: Valentine's Day
+
+            
+
+            - Paying the Piper: Award Blog: This one goes out to...
+
+            
+
+            - Upper Middle Class White Kid Games
+
+            
+
+            - The more I know, the more I just figure out how li...
+
+            
+
+            - My Yoko
+
+            
+
+            - The Vegas Vixen Paradox
+
+            
+
+            - The $38 Buffet
+
+            
+
+            - I Vomit Up Chunks of Food Better than the Riviera ...
+
+            
+
+        
+
+        
+
+        
+
+        - ►  January (18)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (47)
+
+        - ►  December (19)
+
+        
+
+        
+
+        - ►  November (16)
+
+        
+
+        
+
+        - ►  October (12)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+but you don't have to take my word for it . . . or theirs
+
+    
+
+    - The Whale in the Room Freshly Pressed: Editors’ Picks for September 2012 1 day ago
+
+    
+
+    - Bridesmaiding Throw On That Old Bridesmaids Dress, Raise Money For A Good Cause, And
+    Enter To Win! 6 days ago
+
+    
+
+    - When You Feel It, You Know What I'm Listening To Today: Macklemore 1 week ago
+
+    
+
+    - The Sassy Curmudgeon 5 Ways You Can Tell Chris Brown is A Huge Douchebag From This One
+    Photo 2 weeks ago
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png  
+
+CC
+
+
+
+Image: http://creativecommons.org/images/public/somerights20.png
+
+To Be Read, and Reread, Upon my Untimely Demise by Mattitiyahu is licensed under a Creative
+Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Counter
+
+var sc_project=5360276; var sc_invisible=0; var sc_partition=48; var sc_click_stat=1;
+var sc_security="e9556a4a";
+
+Image: http://c.statcounter.com/5360276/0/e9556a4a/0/
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'5113431684180319448';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d5113431684180319448','//mattitiyahu.blogspot.com/2010_02_01_archive.html','5113431684180319448');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'5113431684180319448', 'bloggerUrl': 'http://www.blogger.com', 'title': 'To Be Read,
+and Reread, Upon my Untimely Demise', 'pageType': 'archive', 'url':
+'http://mattitiyahu.blogspot.com/2010_02_01_archive.html', 'canonicalUrl':
+'http://mattitiyahu.blogspot.com/2010_02_01_archive.html',
+'canonicalHomepageUrl': 'http://mattitiyahu.blogspot.com/', 'homepageUrl':
+'http://mattitiyahu.blogspot.com/', 'blogspotFaviconUrl':
+'http://mattitiyahu.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'February 2010', 'pageTitle': 'To Be Read, and Reread, Upon my Untimely Demise: February
+2010', 'encoding': 'UTF-8', 'locale': 'en', 'isPrivate': false, 'isMobile': false,
+'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false,
+'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42
+type\75\42application/atom+xml\42 title\75\42To Be Read, and Reread, Upon my Untimely
+Demise - Atom\42 href\75\42http://mattitiyahu.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42To
+Be Read, and Reread, Upon my Untimely Demise - RSS\42
+href\75\42http://mattitiyahu.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42To Be Read, and Reread, Upon my Untimely Demise - Atom\42
+href\75\42http://www.blogger.com/feeds/5113431684180319448/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0755113431684180319448\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId':
+'pub-8401540424582193', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#341473', 'linkcolor':
+'#0066CC', 'visitedlinkcolor': '#cc0000', 'textcolor': '#000000', 'headerfont':
+'normal normal 78% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif',
+'pagetitlefont': 'normal normal 200% Verdana, sans-serif', 'bgcolor': '#ffffcc',
+'descriptioncolor': '#008040', 'titlecolor': '#00264c', 'bordercolor': '#cc6600',
+'postfooterfont': 'normal normal 78% \47Trebuchet MS\47, Trebuchet, Arial, Verdana,
+Sans-serif', 'pagetitlecolor': '#185800', 'bodyfont': 'normal normal 99% Georgia,
+Serif', 'endSide': 'right', 'startSide': 'left', 'descriptionfont': 'normal normal 78%
+\47Trebuchet MS\47, Trebuchet, Arial, Verdana, Sans-serif', 'sidebarcolor':
+'#400058'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic',
+'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url':
+'/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'},
+'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar',
+'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url':
+'/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'footer', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML2', 'footer', null, document.getElementById('HTML2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_CustomSearchView', new
+_WidgetInfo('CustomSearch1', 'sidebar', null,
+document.getElementById('CustomSearch1'), {'title': 'Search Da Blog', 'includeBlog':
+true, 'includePostLinks': true, 'includeWeb': false, 'linkLists': [{'id': 'BlogList1',
+'title': 'but you don\47t have to take my word for it . . . or theirs'}], 'blogUrl':
+'http://mattitiyahu.blogspot.com/', 'loadingMsg': 'Loading...', 'thisBlogMsg':
+'This Blog', 'linkedFromHereMsg': 'Linked From Here', 'theWebMsg': 'The Web',
+'backgroundColor': '#ffffcc', 'textColor': '#000000', 'dateColor': '#400058',
+'linkColor': '#0066CC', 'urlColor': '#00264c', 'visitedLinkColor': '#cc0000',
+'borderColor': '#cc6600', 'activeBorderColor': '#00264c'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1',
+'sidebar', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_SubscribeView', new _WidgetInfo('Subscribe1',
+'sidebar', null, document.getElementById('Subscribe1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1',
+'sidebar', null, document.getElementById('Followers1'), {'title': 'Followers',
+'codeSnippet': '\74script type\75\42text/javascript\42\76\n if (!window.google ||
+!google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75
+\42http://www.blogger.com/feeds/5113431684180319448/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/5113431684180319448/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://mattitiyahu.blogspot.com/\42;\n
+holder.currentBlogId \75 \0425113431684180319448\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-wxgcprgm59ng\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#341473\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#0066CC\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#0066CC\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#341473\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#0066CC\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#008040\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#00264c\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 99% Georgia, Serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-wxgcprgm59ng\42,\n height: 260,\n \n \n \n site: \04203963521456292002490\42,\n
+\n locale: \47en\47 },\n skin);\n \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowByEmailView', new
+_WidgetInfo('FollowByEmail1', 'sidebar', null,
+document.getElementById('FollowByEmail1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense1',
+'sidebar', null, document.getElementById('AdSense1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogListView', new
+_WidgetInfo('BlogList1', 'sidebar', null, document.getElementById('BlogList1'),
+{'numItemsToShow': 0, 'totalItems': 4}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'),
+{'title': 'Pages', 'links': [{'href': 'http://mattitiyahu.blogspot.com/', 'title':
+'Home', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+

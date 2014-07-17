@@ -1,0 +1,2854 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); REFLECTIONS: June 2010 <!-- /* -----------------------------------------------
+Blogger Template Style Name: Rounders 4 Date: 27 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="mainBgColor" description="Main Background
+Color" type="color" default="#466"> <Variable name="mainTextColor" description="Text
+Color" type="color" default="#ced"> <Variable name="postTitleColor"
+description="Post Title Color" type="color" default="#fff"> <Variable
+name="dateHeaderColor" description="Date Header Color" type="color" default="#cf4">
+<Variable name="borderColor" description="Post Border Color" type="color"
+default="#bbb"> <Variable name="mainLinkColor" description="Link Color" type="color"
+default="#fff"> <Variable name="mainVisitedLinkColor" description="Visited Link
+Color" type="color" default="#fff"> <Variable name="titleTextColor"
+description="Blog Title Color" type="color" default="#fff"> <Variable
+name="topSidebarHeaderColor" description="Top Sidebar Title Color" type="color"
+default="#fff"> <Variable name="topSidebarBgColor" description="Top Sidebar
+Background Color" type="color" default="#9b5"> <Variable name="topSidebarTextColor"
+description="Top Sidebar Text Color" type="color" default="#fff"> <Variable
+name="topSidebarLinkColor" description="Top Sidebar Link Color" type="color"
+default="#fff"> <Variable name="topSidebarVisitedLinkColor" description="Top
+Sidebar Visited Link Color" type="color" default="#eee"> <Variable
+name="bottomSidebarBgColor" description="Bottom Sidebar Background Color"
+type="color" default="#fff"> <Variable name="bottomSidebarTextColor"
+description="Bottom Sidebar Text Color" type="color" default="#666"> <Variable
+name="bottomSidebarLinkColor" description="Bottom Sidebar Link Color" type="color"
+default="#475"> <Variable name="bottomSidebarVisitedLinkColor" description="Bottom
+Sidebar Visited Link Color" type="color" default="#798"> <Variable name="bodyFont"
+description="Text Font" type="font" default="normal normal 100% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="pageTitleFont" description="Blog
+Title Font" type="font" default="normal bold 200% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="descriptionFont"
+description="Description Font" type="font" default="normal normal 100% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="headerFont" description="Sidebar
+Title Font" type="font" default="normal bold 100% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="postTitleFont" description="Post
+Title Font" type="font" default="normal bold 135% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="startSide" description="Start side in
+blog language" type="automatic" default="left"> <Variable name="endSide"
+description="End side in blog language" type="automatic" default="right"> */ body {
+background:#bca; margin:0; text-align:center; line-height: 1.5em; font: x-small
+Trebuchet MS, Verdana, Arial, Sans-serif; color:#cceedd; font-size/* */:/**/small;
+font-size: /**/small; } /* Page Structure
+----------------------------------------------- */ /* The images which help create
+rounded corners depend on the following widths and measurements. If you want to change these
+measurements, the images will also need to change. */ #outer-wrapper { width:740px;
+margin:0 auto; text-align:left; font: normal normal 100% 'Trebuchet
+MS',Verdana,Arial,Sans-serif; } #main-wrap1 { width:485px; float:left;
+background:#446666
+url("http://www1.blogblog.com/rounders4/corners_main_bot.gif") no-repeat left
+bottom; margin:15px 0 0; padding:0 0 10px; color:#cceedd; font-size:97%;
+line-height:1.5em; word-wrap: break-word; /* fix for long text breaking sidebar float in IE
+*/ overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ }
+#main-wrap2 { float:left; width:100%;
+background:url("http://www1.blogblog.com/rounders4/corners_main_top.gif")
+no-repeat left top; padding:10px 0 0; } #main {
+background:url("http://www.blogblog.com/rounders4/rails_main.gif") repeat-y left;
+padding:0; width:485px; } #sidebar-wrap { width:240px; float:right; margin:15px 0 0;
+font-size:97%; line-height:1.5em; word-wrap: break-word; /* fix for long text breaking
+sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE sidebar
+float */ } .main .widget { margin-top: 0; margin-right: 13px; margin-bottom: 4px;
+margin-left: 13px; } .main .Blog { margin: 0; } /* Links
+----------------------------------------------- */ a:link { color: #ffffff; }
+a:visited { color: #ffffff; } a:hover { color: #ffffff; } a img { border-width:0; } /* Blog
+Header ----------------------------------------------- */ #header-wrapper {
+background: #476 url("http://www2.blogblog.com/rounders4/corners_cap_top.gif")
+no-repeat left top; margin-top:22px; margin-right:0; margin-bottom:0; margin-left:0;
+padding-top:8px; padding-right:0; padding-bottom:0; padding-left:0; color:#ffffff; }
+#header { background:url("http://www1.blogblog.com/rounders4/bg_hdr_bot.jpg")
+no-repeat left bottom; padding:0 15px 8px; } #header h1 { margin:0; padding:10px 30px 5px;
+line-height:1.2em; font: normal bold 200% 'Trebuchet MS',Verdana,Arial,Sans-serif; }
+#header a, #header a:visited { text-decoration:none; color: #ffffff; } #header
+.description { margin:0; padding:5px 30px 10px; line-height:1.5em; font: normal normal
+100% 'Trebuchet MS',Verdana,Arial,Sans-serif; } /* Posts
+----------------------------------------------- */ h2.date-header { margin-top:0;
+margin-right:28px; margin-bottom:0; margin-left:43px; font-size:85%;
+line-height:2em; text-transform:uppercase; letter-spacing:.2em; color:#ccff44; }
+.post { margin:.3em 0 25px; padding:0 13px; border:1px dotted #bbbbbb; border-width:1px 0;
+} .post h3 { margin:0; line-height:1.5em;
+background:url("http://www2.blogblog.com/rounders4/icon_arrow.gif") no-repeat
+10px .5em; display:block; border:1px dotted #bbbbbb; border-width:0 1px 1px;
+padding-top:2px; padding-right:14px; padding-bottom:2px; padding-left:29px; color:
+#ffffff; font: normal bold 135% 'Trebuchet MS',Verdana,Arial,Sans-serif; } .post h3 a,
+.post h3 a:visited { text-decoration:none; color: #ffffff; } .post h3 a:hover {
+background-color: #bbbbbb; color: #ffffff; } .post-body { border:1px dotted #bbbbbb;
+border-width:0 1px 1px; border-bottom-color:#446666; padding-top:10px;
+padding-right:14px; padding-bottom:1px; padding-left:29px; } html>body .post-body {
+border-bottom-width:0; } .post-body { margin:0 0 .75em; } .post-body blockquote {
+line-height:1.3em; } .post-footer { background: #577; margin:0; padding-top:2px;
+padding-right:14px; padding-bottom:2px; padding-left:29px; border:1px dotted
+#bbbbbb; border-width:1px; font-size:100%; line-height:1.5em; color: #acb; } /* The
+first line of the post footer might only have floated text, so we need to give it a height. The
+height comes from the post-footer line-height */ .post-footer-line-1 { min-height:1.5em;
+_height:1.5em; } .post-footer p { margin: 0; } html>body .post-footer {
+border-bottom-color:transparent; } .uncustomized-post-template .post-footer {
+text-align: right; } .uncustomized-post-template .post-author,
+.uncustomized-post-template .post-timestamp { display: block; float: left;
+text-align:left; margin-right: 4px; } .post-footer a { color: #fff; } .post-footer a:hover
+{ color: #eee; } a.comment-link { /* IE5.0/Win doesn't apply padding to inline elements, so we
+hide these two declarations from it */ background/*
+*/:/**/url("http://www.blogblog.com/rounders4/icon_comment_left.gif") no-repeat
+left 45%; padding-left:14px; } html>body a.comment-link { /* Respecified, for IE5/Mac's
+benefit */
+background:url("http://www.blogblog.com/rounders4/icon_comment_left.gif")
+no-repeat left 45%; padding-left:14px; } .post img, table.tr-caption-container {
+margin-top:0; margin-right:0; margin-bottom:5px; margin-left:0; padding:4px;
+border:1px solid #bbbbbb; } .tr-caption-container img { border: none; margin: 0; padding:
+0; } blockquote { margin:.75em 0; border:1px dotted #bbbbbb; border-width:1px 0;
+padding:5px 15px; color: #ccff44; } .post blockquote p { margin:.5em 0; }
+#blog-pager-newer-link { float: left; margin-left: 13px; } #blog-pager-older-link {
+float: right; margin-right: 13px; } #blog-pager { text-align: center; } .feed-links {
+clear: both; line-height: 2.5em; margin-left: 13px; } /* Comments
+----------------------------------------------- */ #comments { margin:-25px 13px 0;
+border:1px dotted #bbbbbb; border-width:0 1px 1px; padding-top:20px; padding-right:0;
+padding-bottom:15px; padding-left:0; } #comments h4 { margin:0 0 10px; padding-top:0;
+padding-right:14px; padding-bottom:2px; padding-left:29px; border-bottom:1px dotted
+#bbbbbb; font-size:120%; line-height:1.4em; color:#ffffff; } #comments-block {
+margin-top:0; margin-right:15px; margin-bottom:0; margin-left:9px; } .comment-author
+{ background:url("http://www.blogblog.com/rounders4/icon_comment_left.gif")
+no-repeat 2px .3em; margin:.5em 0; padding-top:0; padding-right:0; padding-bottom:0;
+padding-left:20px; font-weight:bold; } .comment-body { margin:0 0 1.25em;
+padding-top:0; padding-right:0; padding-bottom:0; padding-left:20px; } .comment-body
+p { margin:0 0 .5em; } .comment-footer { margin:0 0 .5em; padding-top:0; padding-right:0;
+padding-bottom:.75em; padding-left:20px; } .comment-footer a:link { color: #ced; }
+.deleted-comment { font-style:italic; color:gray; } .comment-form { padding-left:20px;
+padding-right:5px; } #comments .comment-form h4 { padding-left:0px; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 0; border: 4px solid
+#ffffff; } .profile-datablock { margin-top: 0; margin-right: 15px; margin-bottom: .5em;
+margin-left: 0; padding-top: 8px; } .profile-link {
+background:url("http://www.blogblog.com/rounders4/icon_profile_left.gif")
+no-repeat left .1em; padding-left:15px; font-weight:bold; } .profile-textblock { clear:
+both; margin: 0; } .sidebar .clear, .main .widget .clear { clear: both; } #sidebartop-wrap {
+background:#99bb55 url("http://www.blogblog.com/rounders4/corners_prof_bot.gif")
+no-repeat left bottom; margin:0px 0px 15px; padding:0px 0px 10px; color:#ffffff; }
+#sidebartop-wrap2 {
+background:url("http://www2.blogblog.com/rounders4/corners_prof_top.gif")
+no-repeat left top; padding: 10px 0 0; margin:0; border-width:0; } #sidebartop h2 {
+line-height:1.5em; color:#ffffff; border-bottom: 1px dotted #ffffff; font: normal bold
+100% 'Trebuchet MS',Verdana,Arial,Sans-serif; margin-bottom: 0.5em; } #sidebartop a {
+color: #ffffff; } #sidebartop a:hover { color: #eeeeee; } #sidebartop a:visited { color:
+#eeeeee; } /* Sidebar Boxes ----------------------------------------------- */
+.sidebar .widget { margin:.5em 13px 1.25em; padding:0 0px; } .widget-content { margin-top:
+0.5em; } #sidebarbottom-wrap1 { background: #ffffff
+url("http://www.blogblog.com/rounders4/corners_side_top.gif") no-repeat left top;
+margin:0 0 15px; padding:10px 0 0; color: #666666; } #sidebarbottom-wrap2 {
+background:url("http://www1.blogblog.com/rounders4/corners_side_bot.gif")
+no-repeat left bottom; padding:0 0 8px; } #sidebar {
+background:url("http://www1.blogblog.com/rounders4/rails_side.gif") repeat-y; }
+#sidebar { color: #666666; } #sidebar h2 { color: #666666; border-bottom: 1px dotted
+#666666; margin-bottom: 0.5em; } #sidebar a { color: #447755; } #sidebar a:hover, #sidebar
+a:visited { color: #779988; } .sidebar h2 { margin:0; padding:0 0 .2em; line-height:1.5em;
+font:normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif; } .sidebar ul {
+list-style:none; margin:0 0 1.25em; padding:0; } .sidebar ul li {
+background:url("http://www2.blogblog.com/rounders4/icon_arrow_sm.gif") no-repeat
+2px .25em; margin:0; padding-top:0; padding-right:0; padding-bottom:3px;
+padding-left:16px; margin-bottom:3px; border-bottom:1px dotted #bbbbbb;
+line-height:1.4em; } .sidebar p { margin:0 0 .6em; } /* Footer
+----------------------------------------------- */ #footer-wrap1 { clear:both;
+margin:0 0 10px; padding:15px 0 0; } #footer-wrap2 { background:#447766
+url("http://www2.blogblog.com/rounders4/corners_cap_top.gif") no-repeat left top;
+color:#ffffff; } #footer {
+background:url("http://www.blogblog.com/rounders4/corners_cap_bot.gif")
+no-repeat left bottom; padding:8px 15px; } #footer hr {display:none;} #footer p
+{margin:0;} #footer a {color:#ffffff;} #footer .widget-content { margin:0; } /** Page
+structure tweaks for layout editor wireframe */ body#layout #main-wrap1, body#layout
+#sidebar-wrap, body#layout #header-wrapper { margin-top: 0; } body#layout #header,
+body#layout #header-wrapper, body#layout #outer-wrapper { margin-left:0,
+margin-right: 0; padding: 0; } body#layout #outer-wrapper { width: 730px; } body#layout
+#footer-wrap1 { padding-top: 0; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\07517250635\46blogName\75REFLECTIONS\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75TAN\46layoutType\75LAYOUTS\46searchRoot\75http://adekgraffiti.blogspot.com/search\46blogLocale\75en_GB\46v\0752\46homepageUrl\75http://adekgraffiti.blogspot.com/\46vt\75-985299172533102400',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+REFLECTIONS
+
+
+
+CONFUSING AND CONFUSED COSMOPOLITAN METROPOLITAN JOURNEYING THROUGH LIFE
+
+Wednesday, June 30, 2010
+
+
+
+Round of 16 Round-up
+
+
+
+Where shall I start? Let’s try from the beginning then. South Korea fought valiantly to
+equalise but sat back after the goal and let Uruguay score their second to win. The Black Stars
+became the only surviving African outfit to progress to the quarter-finals after beating the
+USA 2-1 after toiling for two hours. Then in the much-awaited Germany-England match , England
+was mullered as the young Germans blitzkrieged a convincing 4-1 win. I watched F1 just before
+that and when Vettel crossed the line followed by Hamilton and Button, I did wonder if the
+Germans would also overcome the English in the footie match. Boy, was I right. Oh and Joachim
+LÃ¶ew wore the same top as he did when the Germans play Socceroos. Maybe it was a good luck
+charm outfit.
+
+
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_xX6lhB-jw58/TCsRS-zumRI/AAAAAAAAC90/84jwBbM8WrI/s320/GER-ENG+coach+%26+team.jpg
+Different match, same outfit. Job well done, regardless
+
+
+
+The second match of that day was not without controversy either as Tevez scored his and
+Argentina’s first goal from an offside position. Oranje didn’t put a very convincing
+display but still won over the Slovaks. Of course, no one expected Brazil to be out yet (though I
+wish they are) and they beat Chile 3-0. Paraguay and Japan played a scoreless match but the
+South American side kicked off the last Asian team on penalties. And in the Iberian derby,
+Spain beat Portugal by one goal. So in the quarter-finals, there are four South American
+teams, three European and one African.
+
+
+
+Like I said before , this is the first World Cup where I don’t support England. There have been
+angry reactions to the exit and frankly I don’t blame these angry voices. But you can’t
+blame foreign players in the EPL for the dire performance of English players because without
+foreign players, the English players and indeed the League would be worse. Had it not been for
+Valencia, would Roo-Shrek be scoring for ManUre? And besides, there are enough Generation M
+players in the German side making it quite an ethnically diverse multi-culti team ,
+‘foreign’if you like.
+
+
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_xX6lhB-jw58/TCsQ-dvXKLI/AAAAAAAAC9s/UciFC4sdBxk/s320/GER-ENG+headlines.jpg
+Some of the media headlines; for more images go here (for interesting statistics, go here ).
+The final word perhaps goes to Bild, a German tabloid: ‘ Thank you, Football God. It was a
+goal, as clear as Wembley in 1966 was no goal. But this time England is crying .’
+
+
+
+
+
+
+
+I’m sorry, England. And so was the German chancellor who told David Cameron she was sorry
+Lampard’s ‘goal’ did not stand. According to Owen Gibson, there are five reasons why
+England was embarrassed by Germany. Another simple truth is England was not prepared
+especially for counter-attack and they really should have contained Ozil as advised by David
+Pleat. The Germans may be young and unheard of – not as famous as the English players as Lahm
+put it, the Bundesliga may not be as popular as the EPL but the Germans sure were superb and
+played much better for their country than their English counterparts (the English team is
+less than the sum of its parts). You can play the blame game and regurgitate all the excuses
+there are but there’s no denying that a complete overhaul and radical rethink is required
+now and apparently there are ten ways to save the English football. Maybe all they need is a
+football brain . And why replace Defoe with Heskey? That was such a stupid decision by Capello
+– well, unless he wanted Shrek to play alongside Donkey. And perhaps he should have taken
+Walcott along to South Africa; after all, Arsenal were down by two goals at home against
+Barcelona, in came Walcott and his presence helped us score two goals to equalise.
+
+
+
+The World Cup has ended for supposedly world-class players like Drogba (ended even before the
+round of 16), Roo-Shrek, Lampard, Stevie G, Terry-ble and Cristina. One question: is the Nike
+advert cursed then?
+
+
+
+~~~~~~~~
+
+
+
+I dreamt of the Portuguese skipper last night. Yes, that’s right, I dreamt of Cristina. I
+didn’t just dream of him but dreamt we were going out on a date. What the??? Wait, what made me
+think it was a dream? Nightmare, more like. Oh why don’t I dream instead of my funny and cute
+Cesc who only buys books in English and watches Desperate Housewives and 90210?
+
+
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_xX6lhB-jw58/TCsQ1-Ye3LI/AAAAAAAAC9k/XKxc_p2jWvg/s320/bearded+cescy.jpg
+So dreamy... and would be even more so if not for the beard. Gillette, won’t you sponsor this
+matador please?
+
+
+
+
+
+~~~~~~~~
+
+
+
+Isetan Summer Bazaar kicks off this Friday and it’s as if they know my latest shopping
+inclination: there will be an accessories-and-watch clearance at the Gallery of the KLCC
+outlet. No question where I’m heading this Friday lunchtime.
+
+SCRIBBLED BY ADEK FÃ€B at 6/30/2010 05:54:00 PM postCount('4904941011129856102'); |
+postCountTB('4904941011129856102');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: CESC , WORLD CUP
+
+
+
+Friday, June 25, 2010
+
+
+
+SIGN No More
+
+
+
+What can you do in 11 hours and 5 minutes? Pretty much a lot, I’m sure you agree. In that amount
+of time, I can fly from Asia to Europe, another person can do his 9-5 job plus some overtime, and
+yet another someone out there could be in labour and perhaps even deliver her first child into
+the world. Well, you get my drift. But did you expect a tennis match to last that long? Well, one
+such epic match took exactly that to conclude before Isner finally emerged triumphant after
+the match was resumed after being tied at 59-59 .
+
+
+
+In that same amount of time too, Les Blues went back to France and Thierry Henry paid President
+Sarkozy a visit .
+
+
+
+Eleven hours ago, Azzurri was still in contention but now, Ciao Azzurri , Cannavaro and team.
+And ciao Bendtner too. The good thing is Robin van Persie finally found the net for Oranje ’s
+first goal. The All Whites drew a goalless match against Paraguay and were out too. So no more
+SIGN for me at this World Cup as the I in the SIGN had left. So I mourn along with Italy at their
+short-lived World Cup campaign, at the exit of the defending champion and the end of the hawt
+Italians. It’s something I’ll have to get used, just like I have to get used to an Azzurri
+team bereft of Alessandro Nesta, Pippo Inzaghi, Alessandro del Pierro and Totti.
+
+
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_xX6lhB-jw58/TCSJzKPBWeI/AAAAAAAAC9c/lz0kwG4bvDU/s320/WC2010+RvP+scores.jpg
+RvP scores for Oranje
+
+
+
+Image:
+http://1.bp.blogspot.com/_xX6lhB-jw58/TCSJpugsjzI/AAAAAAAAC9U/8mUn_Hg87Ik/s320/Italian-National-Team-Photo.jpg
+Ciao, hawt stuff *sniff*
+
+SCRIBBLED BY ADEK FÃ€B at 6/25/2010 06:53:00 PM postCount('2406395507099729368'); |
+postCountTB('2406395507099729368');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: TENNIS , WORLD CUP
+
+
+
+Thursday, June 24, 2010
+
+
+
+World Cup 2010 Day 13
+
+
+
+Let’s see what has been happening around the world before we talk footie, shall we.
+Australia now has a new PM and its first woman at that. An earthquake struck Ottawa. And the
+usual news of flood (killing dozens in Brazil and China ), politics (Zimbabwe PM sacked four of
+his Ministers) and all that.
+
+
+
+On the Arsenal front, Rambo is recovering nicely . Matt Slater talks about the FÃ bregas
+saga here and reckons Cesc will stay a Gunner and not a goner.
+
+
+
+OK, let’s now talk about the World Crap, I mean, World Cup.
+
+
+
+I watched the Slovenia-England match and was disappointed that the Slovenes didn’t play as
+well as they did against the US. They could have advanced but for a late, late goal from
+Landycakes. England is second in the table and will meet the winner of Group D.
+
+
+
+Woke up to watch the second half of the Ghana-Germany match and was relieved to see Germany win.
+Ghana still progress though despite the loss. Socceroos won and though they were already
+almost out, I’m still glad they beat Serbia.
+
+
+
+As the Germans won the group, it will be a salivating Germany-England clash (and check out the
+new English WAGs !). Ghana will meet the US.
+
+
+
+I can’t wait for the weekend already! I also can’t wait for the next fashion statement from
+the German coach, Joachim LÃ¶w/Loew.The Germans sure have stylish swagger and the coach
+himself can consider modelling part-time for Hugo Boss after the World Cup.
+
+
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_xX6lhB-jw58/TCL8NgGsORI/AAAAAAAAC9M/kqk7pdXRSOU/s320/jogi+de-oz.jpg
+
+
+
+Image:
+http://3.bp.blogspot.com/_xX6lhB-jw58/TCL8BNb6OeI/AAAAAAAAC9E/IcNJVDeKAMs/s320/jogi+de-serbia.JPG
+
+Image:
+http://3.bp.blogspot.com/_xX6lhB-jw58/TCL7ByvPp7I/AAAAAAAAC88/spTWFfl1e8o/s320/jogi+de-ghana.jpg
+
+SCRIBBLED BY ADEK FÃ€B at 6/24/2010 01:29:00 PM postCount('7554273557959313411'); |
+postCountTB('7554273557959313411');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: ARSENAL , REFLECTIONS , WORLD CUP
+
+
+
+Wednesday, June 23, 2010
+
+
+
+What's New, Scooby-Doo?
+
+
+
+The good-looking new Chancellor tabled the new Budget yesterday. It’s a tough new budget
+(go here for details at a glance) aimed at balancing the books by 2016. Among others (and
+something that will impact non-UK residents, well those who will visit the UK anyway), UK VAT
+will be increased to 20% from 4 January 2011. Osborne told the House of Commons: ‘With this
+unavoidable budget, we’ve had to increase taxes, we’ve had to pay the bills of past
+irresponsibility, we’ve had to relearn the virtue prudence. Today we take decisive action
+to deal with the debts we inherited and confront the greatest economic risk facing our
+country.’
+
+
+
+~~~~~~~~
+
+
+
+I find myself buying a few items of accessories of late. I make a mental note to try and buy
+something in some countries I visit – amber necklace in Krakow, FabergÃ© pendants and
+amber bracelet in Russia, Swarovski pendant and bracelet in DÃŒsseldorf and Paris
+respectively, a leather bracelet and ring in FÃšs and leather necklaces in Marrakesh (just
+remembered I didn’t buy anything in RÄ«ga) ... and now that I’m back, I’m still buying
+them! Bought some necklaces and brooches from a Korean store in Ampang Point on Sunday
+(there’s a sizeable Korean population in Ampang if you don’t already know. Actually, I
+wanted to buy some tops at the Korean store but the neckline was a bit plunging). I’ve always
+thought the Koreans (in those dramas I watch) have a funny sense of dressing and accessorising
+but somehow they look good in what they wear.
+
+
+
+A mate once told me that since befriending me, she found herself buying accessories too,
+implying she has been influenced by me. I never knew myself to be an influence on anyone before
+(OK, I am trying to get my nephew to be a Gooner *ahem* - and succeeding I think). I suppose I do
+like buying accessories. I have what I call ‘shopping phases’: there was a time when I was
+into semi-precious stones and ‘crystal’ accessories (at one stage, I was familiar with
+rose quartz, chalcedony, agate, carnelian etc talk).
+
+
+
+Let’s see how long this current phase will last and what I will buy next (eeeks!).
+
+
+
+~~~~~~~~
+
+
+
+Cesc finally saw some World Cup action when he came on as a sub in the match against Honduras
+(seen here bored to tears while waiting). Pique bled more of that precious Barcelona DNA on the
+pitch – though I’m sure it was still for naught. Earlier, Portugal scored Seven Up against
+North Koreans and Chile beat a Senderos-less Switzerland 1-0. Last night, Uruguay beat
+Mexico and the French were fried and toasted. *Sniff* for Yoann Gourcuff. Henry came on as a sub
+in what could potentially be his last World Cup. Hopefully, there will be a French footie
+Revolution soon. Uruguay beat Mexico but the two are through to the Round of 16 anyway. They are
+joined by the Argies and South Korea who beat Greece and drew with Nigeria respectively.
+
+
+
+I can’t decide which I would watch tonight: Slovenia vs England or Algeria vs USA.
+
+SCRIBBLED BY ADEK FÃ€B at 6/23/2010 01:20:00 PM postCount('5831220856811373981'); |
+postCountTB('5831220856811373981');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: REFLECTIONS , WORLD CUP
+
+
+
+Monday, June 21, 2010
+
+
+
+Getaway 2010: Step By Step
+
+
+
+OK, now that I have all those episodes done, allow me now to talk about the things that I did in
+preparation to the getaway. The steps are not necessarily in order: e.g. I initiated step 2
+early but we only executed it in mid-April.
+
+
+
+Step 1: Itinerary
+
+
+
+I started drawing the itinerary as early as last year in my head. Started drawing it out in
+detail in early January 2010 with Frankfurt being the starting and ending point. I then
+searched for possible connections and potential cities/countries that included Russia and
+Morocco. Trust me, when I started, I had at least three additional countries included in my
+itinerary.
+
+
+
+I had to re-draw my itinerary and change the starting/ending city to Paris when MAS had its
+travel fair in early February as the KUL-FRA-KUL was not on offer. Then I had to re-draw the
+consequent cities/countries and dropped some countries off as Lin felt the itinerary was too
+packed. Had it been me alone, I would have gone ahead anyway because it’s not often that I can
+go on a two-week holiday, and I might as well travel as much/far as I can while I’m at it.
+
+
+
+Like I said, drawing itineraries involved finding potential cities and countries to visit
+and hence included finding flight and ground transportation connections. But I love doing
+all these anyway.
+
+
+
+Step 2: Visa, Visa, Visa
+
+
+
+Oh no, I wasn’t referring to Visa card (I prefer to use MasterCard to Visa anyway) but the visa
+requirements. Most European countries no longer impose visa requirements on Malaysians but
+some still do, unfortunately (some of the former Soviet Union countries). I called up my
+parents’ trusted travel agent and asked him if he knew who could help arrange for Russian
+visas and he suggested calling Parlo . Turned out that, yes, Parlo does arrange not only for
+Russian visa, but also Moroccan. There’s another travel agency that can also help with
+Russian visa but they don’t do Moroccan. The cost for a Russian visa is RM560/person and if
+you need it in a hurry, add another RM200 (the other travel agency charges RM10 less). Moroccan
+visa costs RM130. So, yes, it was a steep cost for me - especially since shortly after that, I had
+to make a new passport as I feared my fully stamped passport would pose problems to the Russian
+authority (especially the Russian). Of course this also meant extra effort - retrieving my
+passport from Parlo, going to the immigration to make a new passport, collecting the passport
+the next morning and sending the new one to Parlo again. Anyway, I digress.
+
+
+
+Of course you also need a piece of passport photo each for each visa application.
+
+
+
+Step 3: Lodging
+
+
+
+I set out to find accommodation for us at all the cities we would be staying at. And re-did the
+process for triple-sharing lodgings for Riga, Moscow and Saint Petersburg when Fifi
+confirmed going. I always set a ceiling of E30/night. Some places cost us more, some less. I
+purposely chose a hotel close to the railway station in DÃŒsseldorf as we had to board an
+early morning bus to the airport from the railway station. For Marrakesh, I chose Riad Dar
+Khmissa which is located between Jamaa el Fna and the Medina. For Paris, I had some misgivings
+about some of the hotels and went into websites such as tripadvisor.com to find out the
+reviews. Also as metro stations almost always have stairs instead of escalators or lifts, in
+the end, I chose a hotel close to Gare du Nord. I prefer walking to lugging my bag up and down the
+stupid stairs.
+
+
+
+Step 4: Ground Transportation
+
+
+
+I also searched for ground transportation - from airport/train station to the city centre,
+from the city centre to the airport, getting to the hotel etc. That’s another reason for
+choosing a hotel near Gare du Nord; it’s on the RER B line to/from the airport. And thanks to a
+link, I also managed to find out the Moscow-Saint Petersburg overnight train schedules, the
+costs of overnight train rides (different trains charge different rates and they started
+from as ‘little’ as E59.99 for a berth or E39.95 for a third class seat), how many berths
+were left and how to buy them. We bought the train tickets online as we didn’t fancy having to
+communicate to surly train people in Moscow.
+
+
+
+Step 5: Where to go and what to do
+
+
+
+This is a joint effort between the three of us and hence I will not, cannot and should not take
+full credit for it. We bought tickets for the ballet at Bolshoi, Hermitage in Saint Petersburg
+and Versailles online.
+
+
+
+Step 6: Prayer times, halal restaurants and local mosques
+
+
+
+I searched for prayer times and halal restaurants (and vegetarian too) if any (not applicable
+in Morocco and Paris as one is a Muslim country and the other has a sizeable Muslim population).
+
+
+
+Step 7: Money, money, money
+
+
+
+Thanks to the depreciating Euro, we got more out of our Ringgit this time around. The downside
+of a depreciating Euro though is that some moneychangers in KL were running out of Euro and GBP.
+
+
+
+Step 8: Leave application
+
+
+
+I had already alerted my supervisor and colleagues that I would be taking leave as early as back
+in February (told you the steps are not in order). I finally applied for leave nine days before
+departure.
+
+
+
+Step 9: Pack!
+
+
+
+What to bring? As usual, I was guided by my packing order to some extent. Apart from the usual
+(clothes, toiletries, prayer attire and compass, food, air and train tickets, museum
+tickets), I also packed copies of my passport. Ahh, but I over-packed as usual ;(
+
+
+
+Step 10: Pray
+
+
+
+And I don’t just mean performing prayers. I prayed that the journey would go smoothly, that
+there would be no volcanic ash cloud threatening disruption of our journey, that we would not
+face bureaucracy problems in Russia and elsewhere and that we wouldn’t miss our flight,
+train, bus etc. well, I did get delayed at the Moscow immigration but that was it, thankfully.
+
+
+
+~~~~~~~~
+
+
+
+Germany suffered a shocking loss to Serbia (well, they were down to ten men), Slovenia scored
+two wonderful goals (I could not fault the way the Slovenes play at all; they were such a joy to
+watch – except, they should have scored more and won. And remember, to get to the World Cup,
+the least populous nation in the World Cup beat Russia – and that surely was no mean feat) but
+the US (the most populous nation in the competition) equalised and the Three Lions were so bad
+that they only managed a goalless draw with the Desert Foxes (according to Steven Howard, the
+former were ‘ drab, dreary, depressing, disjointed, at times desperate and, overall, dull
+as ditchwater ’). Oranje sliced the Blue Samurais (though they played shakily and
+nervously), Ghana only managed a draw with ten-man Socceroos and it was Danish Delight as the
+Danes beat Cameroon 2-1 to send the latter packing out of the World Cup. The Slovaks displayed a
+tired performance against Paraguay (they lost 0-2), Azzurri couldn’t get past the bulky
+All Whites despite all the attack and Brazil became the first team to win with ten men, beating
+Ivory Coast 3-1.
+
+
+
+I still don’t get why Klose and Kaka were red-carded. They are not and have never been
+malicious type of players. Oh, just read that apparently Brazil didn’t play like Brazil and
+Fabiano is a lying cheat.
+
+SCRIBBLED BY ADEK FÃ€B at 6/21/2010 01:48:00 PM postCount('7221861418833679864'); |
+postCountTB('7221861418833679864');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: TRIPS , WORLD CUP
+
+
+
+Friday, June 18, 2010
+
+
+
+Getaway 2010: Episode 10
+
+
+
+Tuesday, 1 June 2010: CMN - CDG
+
+
+
+Out Of Africa
+
+
+
+We left early this morning and took the cab to the train station. We’d already bought our
+second-class tickets to the airport yesterday and went to the platform. The train was
+slightly late (how could a train bound for an airport be late?!) and at first, the electronic
+boards showed the train would leave from two platforms. Finally the right train pulled up and
+we got in. It was a forty minute ride to the airport and we had to go through security to enter the
+terminal one person at a time (imagine the bottleneck). After that, we made our way to the right
+terminal to check in for our easyJet flight.
+
+
+
+There was just enough to time to have a cup of hot chocolate and some pastries before we went in.
+Not even time to shop (I was running out of dirham anyway) as we had to board the plane almost
+immediately, no thanks to the thorough body check we had to go through. I shopped from the
+airline duty-free though (oh dear!).
+
+
+
+We landed at Paris Charles de Gaulle at 1 pm and after collecting our bags, took the RER B train to
+Gare du Nord. The stupid thing was we had to use coins to buy our tickets (and as we decided to buy
+return tickets, we needed Euro17 in coins) and the stupider thing was we only sighted one
+machine that could change your Euro notes into coins. After 30 minutes of train ride and ten
+minutes of walking in Gare du Nord itself, we finally emerged at Rue de Dunkurque and walked to
+our hotel . After checking in, we freshened up and left to explore the area. We had been to Paris
+twice before and never been to SacrÃ© Coeur so we decided to head there first. It started to
+rain as we neared the church... I was worried that I wouldn’t get to experience a proper
+summer but I really needn’t have worried. What would summer be without rain, eh.
+
+
+
+The rain got heavier and we entered the church to get dry. It stopped raining when we left the
+church and walked down the hill. We walked all the way to Galeries Lafayette ; I left Lin there
+promising to meet again just before the store closed at 8 and walked on to the Opera/Madeleine
+area. I was late in coming back as the distance was longer than I expected. We took the metro back
+and had dinner at a kebab restaurant (I had lahmacun ; the DÃŒsseldorf version, while not
+great, tasted better). Kebab meals cost more in Paris too.
+
+
+
+Wednesday, 2 June 2010
+
+
+
+Versailles
+
+
+
+The morning started off overcast. We took the train and changed for RER C to Versailles Rive
+Gauche station to visit ChÃ¢teau de Versailles (a UNESCO World Heritage Site) exactly a
+week after we visited the Russian Versailles. We had bought tickets online and were waved in
+after a cursory glance and scribble on our printout tickets. We spent about two hours there
+before exploring the gardens. The sun came out and we spent a lovely summer day in the garden. We
+also walked to Grand Trianon and Petit Trianon. I couldn’t help thinking of the vanity,
+extravagance and arrogance of the past royalties for building all these great palaces and
+vast parks only to leave them all behind.
+
+
+
+We finally returned back to the station and took the train back to Paris. We stopped first at
+Printemps and Galeries Lafayatte before returning back to the hotel. Dinner was had at
+another Turkish restaurant.
+
+
+
+Thursday, 3 June 2010
+
+
+
+Shopping!
+
+
+
+Today, we took the RER A to La VallÃ©e Village near Disneyland Paris (we had already been to
+Disneyland Paris when it was known as Euro Disney). Because we actually stopped at the
+Disneyland station and had to buy another ticket to Val d’Europe where La VallÃ©e Village
+is, we only arrived at almost noon. I also called home to wish Abah Happy Birthday. We left after
+4 pm and returned to hotel before venturing out again after 6 pm (stores close late on
+Thursdays). I didn’t buy much though as what I had set my eyes on were either not available or
+already sold out. Yes, such discipline!
+
+
+
+Dinner was had at the resto we went the evening before. By now, I was already sick of meat in
+general and kebab in particular.
+
+
+
+Friday/Saturday, 4/5 June 2010
+
+
+
+From Paris With Love
+
+
+
+Well, would you believe it, after months of planning, the getaway was coming to an end already.
+We left after 8.30 am, walked to Gare du Nord and took the RER B train to Charles de Gaulle. It was
+an express train (i.e. with limited stops) so we arrived at the airport after 20 minutes or so.
+Although it was not yet 10 am, the check-in counters were already opened and so we checked in.
+
+
+
+We submitted our tax claims – I must remember to use my plastic next time, opting for the
+refund to be credited into my credit card instead; paying in cash does not pay as there was a
+Euro3 charge for cash refund (I only realised I couldn’t opt for the refund to be credited
+into my credit card after having paid in cash) plus it took longer – before walking up the ugly
+glass tunnel to passport control. A short browse at the duty-free shops followed before we
+headed for the gate.
+
+
+
+It was an empty flight and so I was able to stretch out. But despite that, I couldn’t sleep.
+Bahhh. And the movie From Paris With Love was among those in the in-flight entertainment but I
+skipped it as I read the reviews were not good.
+
+
+
+We landed at KLIA 10 minutes past 6 on Saturday. I went to perform prayers before walking to the
+carousel. Saw my bag pass me by, ran after it and then ran all the way to the train making it with
+four minutes to go. Yea, I get fit that way.
+
+
+
+‘Til the next adventure then.
+
+
+
+~~~~~~~~
+
+
+
+Well, last night’s footie results were hardly surprising with Argentina registering a 4-1
+win over South Korea, Greece resurrecting their chances with a 2-1 victory over Nigeria and
+Les Blues feeling the blues after a 2-0 defeat to Mexico.
+
+
+
+And Arsenal will start the new season with an away trip to Anfield .
+
+SCRIBBLED BY ADEK FÃ€B at 6/18/2010 05:17:00 PM postCount('7185798134646342008'); |
+postCountTB('7185798134646342008');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: EUROPE , TRIPS , WORLD CUP
+
+
+
+Thursday, June 17, 2010
+
+
+
+Getaway 2010: Episode 9
+
+
+
+Monday, 31 May 2010
+
+
+
+Hot In Here / Casablanca
+
+
+
+We woke up especially early to catch a glimpse of the Atlas Mountains before the intense sun
+obliterated any sign of them in the horizon. Even then, we could barely see the peaks before the
+morning sun rendered any further sighting impossible. After breakfast, we set out to find
+Palais el Bahia and after many twists and turns and wrong directions given (and burning most of
+my breakfast calories), we finally reached the Palace. The entrance fee was dirt cheap at 10
+Dirham (less than a Euro). The palace was built in the 19th century and was intended to be the
+greatest palace of its time. After that, we sauntered to Dar Si Said, a grand palace albeit a
+smaller version of Bahia (built by the same family as the Bahia) and which now houses the Museum
+of Moroccan Art. The entrance fee was also 10 Dirham.
+
+
+
+After that, we strolled to Djemaa el Fna for one last look. We also did another round of henna
+tattoo before walking back to our guesthouse to check out. We managed to hail an old Mercedes
+taxi (not a petit one for once!); it cost us 40 Dirham to the train station. At the train station,
+we bought first-class tickets for the 1300 train bound for Casablanca.
+
+
+
+Lunch was had at KFC (I know, I know. But it was either that or McDonald’s). I packed my
+unfinished chicken and fries. After that, we walked to our carriage, boarded the train and
+bade goodbye to Marrakesh. There were a man and a woman in our carriage so no chance for
+stretching out then. And my, it was a hot, hot ride! So stuffy. It was like we were in a hamman or a
+banya!
+
+
+
+We arrived at Casablanca at 1610 and took a cab to our hotel (we also arranged with the driver for
+someone to pick us up the next morning). At that hour, it felt like Marrakesh and I felt like a
+human kebab minus the skewer. It was THAT hot!!!
+
+
+
+Our hotel overlooked a square, a road and beyond that, the port of Casablanca. We ventured out
+after 6 pm and walked in the winding alleys to the medina. And my, what a disappointment it was.
+Seriously, in terms of cities and souk and atmosphere, FÃšs ranks the highest (let’s say
+9.8 out of 10), Marrakesh in second place (7.8 out of 10) and Casablanca in the distant third (4
+out of 10). (Oh and we discovered bed-bugs too the following morning so that should bring down
+the rating even further.) Needless to say, we didn’t buy anything at the souk. We returned
+back to the hotel by another route and after climbing up to the rooftop, retired in our room for
+the rest of the evening.
+
+
+
+To be continued
+
+
+
+~~~~~~~~
+
+
+
+I love footie upsets and I try to support the underdogs whenever I can. La Roja , La Furia Roja and
+host Bafana Bafana were in action last night. La Roja were the Red Hot Chile Peppers beating
+Honduras by a goal. There was to be no Spanish Inquisition though as the Swiss Roll-ed on and
+Bafana Bafana lost to a strong Uruguay side. I was rooting for the Swiss because I (still) am
+angry with some Barcelona players (and there are six of them on the Spanish squad) for being
+bigmouth disrespectful dolts (all that talk about Cesc’s Barcelona DNA with no regard
+whatsoever to his long-term contract at Arsenal. Oh, and now they’re thinking of bringing
+in Torres ? Dream on, Barcelona!). You should have just focussed on the World Cup but no,
+instead you chose to talk about why Cesc should leave Arsenal (Cesc, you can foresee spending
+your time on the bench as you did last night if you go to Barcelona). Well, they were complacent,
+cocksure, overconfident and arrogant as only the Spaniards can be. Diego Benaglio, you were
+brilliant. Kudos to Hitzfeld for getting it right especially as Spain had no Plan B . So Pique
+bleeding all that Barcelona DNA on the pitch was for naught.
+
+
+
+I’ll still be watching to see how far Spain can progress at the world stage; they had always
+been labelled as underachievers (as the Portuguese are) but hey they did win the European
+Championship two years ago so let’s see. After all, it’s only their first match and surely
+still too early to tell - although history shows that a team that lost its opening match never
+won the World Cup. So, the pain in Spain ... falls mainly on the World Cup.
+
+
+
+Wenger has lent his thoughts as to why the World Cup this edition has been boring. Well, I
+thought last night’s Spain-Switzerland match was entertaining. Arseblog agreed too:
+‘Most enjoyable game of the tournament so far, by a long way. Stats confirm Xavi’s DNA was
+93% Djemba-Djemba today.’
+
+SCRIBBLED BY ADEK FÃ€B at 6/17/2010 01:19:00 PM postCount('447574584180021405'); |
+postCountTB('447574584180021405');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: AFRICA , TRIPS , WORLD CUP
+
+
+
+Wednesday, June 16, 2010
+
+
+
+Getaway 2010: Episode 8
+
+
+
+Sunday, 30 May 2010
+
+
+
+Merry Marrakesh / Mad Dogs And Englishmen
+
+
+
+We had breakfast at the rooftop after 9 this morning, a fact that Hassan (the camp chap)
+remarked on. We left for the medina of Marrakesh (also a UNESCO World Heritage Site) at 10 and
+boy, was it hot, hot, hot. In case you don’t already know, the Abu Dhabi segment of the movie
+Sex and the City 2 was filmed in Marrakesh.
+
+
+
+We walked to Djemaa el Fna , the square and market place in the city’s medina quarter, about
+100 metres away from our riad and walked on to Koutoubia Mosque. The mosque is named after the
+booksellers market that used to be located here and its 70-metre high minaret is the finest of
+the three great 12th century Almohad minarets (the others are the Giralda in Seville and the
+unfinished Hassan Tower in Rabat). We spent some time going around the mosque and to the
+adjacent garden before returning to Djemaa El Fna. There are always people at the square:
+musicians, Berber women offering henna tattoo services, story tellers, snake charmers,
+monkey owners and stalls selling either freshly squeezed orange juice or dried fruits such as
+figs and dates. As it was getting really hot, we decided to seek shelter from the covered souks,
+just adjacent to the square. The different souks all combined to form the largest souk in all of
+Morocco. Just like the medina in FÃšs, you can buy almost everything here from spices to
+shoes, djellabas , kaftans, potteries, leather goods, glassware, textile etc. But things
+cost more in Marrakesh and even the stall-owners were less friendly. And unlike FÃšs where I
+was tempted by almost everything I saw, I was hardly tempted in Marrakesh – despite the wider
+pathway which made the medina seem less crowded, absence of donkeys and waste, abundance of
+goods on display, neater stalls, covered pathway etc, I didn’t feel tempted at all. To be
+honest, I much prefer FÃšs to Marrakesh despite its haphazard souk and dust and the
+occasional donkey. I feel FÃšs has more character and is more authentic.
+
+
+
+After the souk, we walked out into the hot, hot sun and went to Almoravid Koubba . We took
+pictures from outside then turned and walked to Medersa Ben Youssef, a religious school
+established in the 14th century and rebuilt in Andalusian style in the 16th century. Built to
+rival those in FÃšs, this is the largest medersa (madrasah) in Morocco. We bought a combo
+ticket (for the medersa, the museum and koubba) and went in. It’s a beautiful building with a
+courtyard and cells on the first floor for the hundreds of students who studied there. After
+that we sought shelter in the Museum of Marrakesh (housed in the restored Palais Mnebbi)
+before braving the scorching sun again and headed back to Almoravid Koubba .
+
+
+
+Lunch was had at CafÃ© Chegrouni where we had a good view of Djemaa el Fna and the souk. We
+headed back to the guesthouse for a siesta after that. It was just too hot to be doing anything
+else! I remarked to Lin as we panted back that only Mad Dogs and Englishmen would go out in that
+heat.
+
+
+
+Lin woke me up from my afternoon siesta and after freshening up, we walked out to find Mellah
+(the old Jewish quarter ). It was almost 6 in the evening but the sun was still shining brightly.
+We were wandering around when a Berber chap approached us and offered to show us directions.
+Now, in Morocco, there are a lot of people who offer to do this and expect some tip in return. But
+this chap insisted that he would take us for free and that he would accept just syukran for his
+efforts. So we followed him and he showed us the residential area in that part of the city (quite
+dirty) and the various Berber medicine and spice shops in the souk (unlike the souk near Jemaa
+el Fna, this one didn’t look as if it was frequented by tourists). He also showed us Palais El
+Bahia (it was closed then though) and upon my request, also brought us to the synagogue. I
+wasn’t happy that we had to give the rabbi some money for allowing us to enter the synagogue; I
+think places of worship regardless of faith should not charge visitors for entry.
+
+
+
+He then showed us the way to Djemaa el Fna from Bab Agnaou and asked for 100 dirham. I commented on
+this and he murmured something about the money being for the babies. Right, work on the guilt
+part and manipulate people’s feelings that way. Next time, don’t say you’re helping
+for free, for your brownie points, for words of syukran and gratitude, when you determined how
+much we should pay you at the end. It made us reluctant to pay and feel less sincere and wiped off
+some of the goodwill feeling too.
+
+
+
+We walked to Djemaa el Fna and noted that the evening crowd had descended upon the square and
+surrounding areas. We decided to walk to Koutoubia Mosque and capture it in the sunset before
+returning back to the square. I entered the mosque briefly but didn’t venture far; suffice
+to capture those answering the call to prayer.
+
+
+
+We walked back to the square in the fast disappearing twilight and before we realised it, night
+had fallen. The square really came to life at night as the square is turned into an open air
+food-court with dozens of stalls selling what looked to us the exact same fare. The crowd which
+were previously in the nearby souks now seemed to gravitate towards the square - and the exotic
+and tantalising aromas and entertaining sights. The beat of drums seemed to grow louder and
+the hustle and bustle seemed to rage more intensely.
+
+
+
+We stopped at a stall and had dinner. I had some soup and salad as I was already tired of meat.
+Besides I wanted to try some snails (escargot?) at one of the smaller stalls. Lin had some meat
+but told me the meat tasted bland. We then proceeded to one of the escargot stalls and I asked for
+a ‘petit’ bowl as I wasn’t sure how I’d take to the taste. After that, we had a glass of
+fresh OJ each. After a spot of shopping (Lin, not me), we returned back to the guesthouse but not
+before buying ice-cream. We then climbed up to the rooftop to enjoy the evening – still hot
+and humid – and even from there, we could hear the beat of drums from the square and see the
+smoke emanating from the myriad food stalls. I still prefer the FÃšs rooftop.
+
+
+
+To be continued
+
+
+
+~~~~~~~~
+
+
+
+The All Whites managed a draw with the Slovakians (who have always played second fiddle to
+half-sister Czech Republic) and the Ivory Coast also drew with Portugal. Am I the only who
+found the World Cup 2010 to be lacking so far in terms of excitement and goals (except for the
+Germany-Socceroos match)? (OK, Arseblog think it’s been dull and dreary too). And
+contrary to what some think, I think North Korea will be a threat; they proved as much to Brazil.
+
+
+
+Meet the new kit on the block ! The more I see, the more I like it. For a list of Arsenal kits over the
+years, go here .
+
+SCRIBBLED BY ADEK FÃ€B at 6/16/2010 01:48:00 PM postCount('3087833356831153525'); |
+postCountTB('3087833356831153525');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: AFRICA , TRIPS , WORLD CUP
+
+
+
+Tuesday, June 15, 2010
+
+
+
+Getaway 2010: Episode 7
+
+
+
+Saturday, 29 May 2010: FEZ - RAK
+
+
+
+Festive FÃšs
+
+
+
+Breakfast was served in the lovely living room and I was very impressed with the table setting,
+the food, the cutlery, etc... very, very professional, charming and lovely.
+
+
+
+We left the guesthouse after promising Bernard we’d meet him in the car-park by 2 pm and went
+to the car-park to get a petit taxi to the medina. Except we kind of took a wrong turn somewhere
+and after asking for directions, somehow ended up at Place Rcif and upon further exploration,
+found ourselves in the medina itself! We asked for directions for Talaa Seghira.
+
+
+
+We were at Place Seffarine when Lin was persuaded by a coppersmith to enter his shop. I lingered
+outside. Then the same chap volunteered to show us a place where someone used to stay. I
+cautioned Lin that it was probably a ploy but he seemed genuine. I followed, grumbling. And
+what do we know, we found ourselves in a house full of carpets. Someone took us up to the roof
+where there were some girls working the carpet loom (I think that’s the word. I later found
+out that was only for demo) and down the stairs again. We were served mint tea and given
+explanation on yes, you guess it, carpets. Berber carpets, FÃšs carpets, the difference
+between the carpets, the motives, the colours... I found it boring and was ready to go. I had
+bought carpets in Makkah and had no need for any new carpet. (I especially wanted to roll my eyes
+every time he said we would be helping 1,400+ single mothers or something like that with our
+purchases – I should think I want to help myself first seeing I’m single too).
+
+
+
+But Lin was persuaded and finally I agreed to buy one too. We took our time choosing our carpets,
+paid for them and left. The carpets would be couriered back. Hopefully one day I would look back
+and said what a wise purchase that was.
+
+
+
+We walked around some and managed to find our way back to Bab Boujeloud. There were a lot more
+people today in the souk, it being Saturday and all, and a lot more traffic (donkeys ferrying
+goods). So we had to fight the throng of the Saturday shoppers, the loaded donkeys, the donkey
+owners, the shopkeepers who were luring customers besides trying to avoid the donkey dung and
+urine and the usual dust of the souk. The friendly locals were always trying to guess where we
+were from, calling out ‘Konnichiwa’, ‘Japanese?’, ‘Chinese?’, or
+‘Korea?’. We heard these all throughout the time we were in Morocco.
+
+
+
+We walked back down Talaa Kebira - seriously, I’d just advise you to choose Talaa Kebira.
+Ignore Talaa Seghira! - to the henna shop we stopped at yesterday and had another session of
+henna tattoo as the henna tattoo we did yesterday had all disappeared. This time, we were
+happier with the outcome.
+
+
+
+We rushed back and bought lunch to go and while we were waiting, went to search for a mosque to
+perform prayers. After that, we rushed back to collect our lunch orders and asked Said to help
+get a petit taxi for us back to the parking near Dar Melody.
+
+
+
+Bernard was waiting for us and maybe it was my imagination but he didn’t look to happy with us
+(it was well after 2 pm after all). We went back to Dar Melody, fetched our bags and went back to
+the parking area. He drove us to the train station and we rushed to get the ticket to Marrakesh.
+The purchase finally done, we rushed to the gate, bade farewell to Bernard and rushed for the
+train – which had to be on another platform but of course. Sod’s law. So we went down and up
+the stairs and ran for the first class carriage. Before long, I felt as if my lungs were bursting
+so we just got on the train and walked up to the first class from the second class. We had barely
+collapsed into our seats when the train pulled away from the station. Phew!
+
+
+
+We spread out on the seats and napped away. The train filled up as the journey progressed and
+after Casa Oasis (one of the stations in Casablanca), we were joined by other passengers.
+
+
+
+Our 1450 train was supposed to reach Marrakesh at 2205 and I started panicking when I realised
+it was already 2225 and the train was still running. I had every reason to be panicked: I did
+after all miss a station in Sri Lanka because unbeknown to Andrea and me, we were on an express
+train. We had to return back to our intended station by bus.
+
+
+
+Lin asked the girl next to her and she assured us we had not yet reached Marrakesh. Great, I
+thought, so trains don’t run on time in Morocco. And just as we neared Marrakesh (well, most
+passengers were getting ready to disembark), the train stopped. In the middle of nowhere.
+After a few minutes, we found out the reason for this: the train had hit someone. Yikes.
+‘Looks like we’ll arrive after midnight after all,’ I whispered to Lin: we had
+purposely chosen to leave FÃšs at 1450 rather than at 1650 because we would only reach
+Marrakesh after midnight if we took the latter train.
+
+
+
+After what seemed an eternity, the train moved again. We all broke into relieved smiles and
+were so happy when we reached Marrakesh train station. We took a petit taxi to our guesthouse,
+Dar Khmissa . We did reach the guesthouse around midnight. Thankfully the (slightly camp)
+chap who opened the door didn’t scold us for our late arrival. I apologised and quickly
+explained the reason for our late arrival. It had been a long day indeed.
+
+
+
+I shall stop here on that note.
+
+
+
+To be continued
+
+
+
+~~~~~~~~
+
+
+
+It was Robin van Persie vs Nicklas Bendtner yesterday and RvP’s Oranje needed Dutch Courage
+to win by two goals. The Blue Samurai beat the Cameroons and The Italian Job was not executed
+well when the Azzurri only managed a draw with Paraguay.
+
+SCRIBBLED BY ADEK FÃ€B at 6/15/2010 01:30:00 PM postCount('6017081166305589388'); |
+postCountTB('6017081166305589388');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: AFRICA , TRIPS , WORLD CUP
+
+
+
+Monday, June 14, 2010
+
+
+
+Getaway 2010: Episode 6
+
+
+
+Friday, 28 May 2010: NRN - FEZ
+
+
+
+Escape 2 Africa
+
+
+
+We left the hotel early as we had to catch the 0700 bus to Weeze Airport. Yes, RyanAir always
+flies to/from airports located in remote places. It was drizzling when we left and the sun
+finally broke through at almost 8 am. We went to have our visa checked before dropping off our
+bags at the bag drop-off counter. And yes, just like Russia, we need to have visa to enter
+Morocco.
+
+
+
+We were sitting down for some drinks when we heard our names being announced. Lin hurriedly
+drank her recently purchased cuppa and we rushed off to check. We went from the information
+counter to the service counter before someone at the gates told us we needed to go to the bag
+security area. That meant going through the screening procedure. One airport personnel was
+already waiting to lead us to the bag security area. Turned out they detected the lighter that
+Lin bought in Moscow and asked to see it. They examined it and having satisfied themselves that
+it didn’t contain any dangerous gas, told Lin her bag was clear.
+
+
+
+We then joined the other exotic-looking passengers (most were Moroccans) in the boarding
+room. The ladies were really lovely but I can’t say the same for the guys. Well, think of new
+Arsenal boy, Marouane Chamakh. He’s not ugly but not overly handsome. Certainly not as
+good-looking as French Algerian Nasri.
+
+
+
+We landed at FÃšs (also spelt as Fez) at 1220 and when we finally cleared immigration and
+collected our bags from the conveyor belt, our host Bernard was already waiting for us. After
+changing money at the moneychanger, we drove off to the city, about 15 km away. I was so excited
+to finally set foot on African soil!
+
+
+
+In the car, we attempted to converse with Bernard. Not easy considering he’s French (he
+moved to FÃšs two years ago) but we got by with our limited French - and some hand gestures. He
+asked our plans and offered to take us to the train station the following day.
+
+
+
+We finally reached the parking place near to his dwelling (near the tanneries! And FÃšs is
+well-known for its tanneries). Bernard then tipped some local lads to help us with our luggage
+and we walked the dusty path up and down to Dar Melody , a bed-and-breakfast kind of guesthouse
+run by himself and his wife, Laurence (and before the trip, I actually thought Bernard and
+Laurence were a couple of middle-aged men who were either in a relationship or the best of
+friends. Well, Laurence isn’t exactly a feminine name, is it?). And my, what a guesthouse it
+was. The couple took two years to renovate the place and live there too with their doll-hugging
+dog (I was surprised to see the dog but was relieved that it retreated with its doll in the
+couple’s bedroom on the ground floor. And I found out later that there are dogs in Muslim
+countries like Morocco. Maybe I expected it to be dog-free like Saudi Arabia). Our room was at
+the top floor (why do we always get top floor rooms especially in places where there are no lifts
+and the staircase is so narrow and steep???) and my, what a jaw-dropping lovely room it was too.
+Heck, we spent some time taking photos of the lounge and our room and we hadn’t even gone to the
+medina. Laurence served us some lovely strawberries and orange juice. Thoughtful!
+
+
+
+After freshening up and performing prayers, Bernard brought us to the medina. He left us at
+Said Restaurant and we had our late lunch there before exploring the medina and the souk. As it
+was a Friday, quite a lot of shops were closed. Actually, all the better as we spent too long
+already at those that were opened! The medina of FÃšs is a UNESCO World Heritage Site.
+
+
+
+We chose to walk down Talaa Kebira (main road, kebira being a derivation of kabir which means
+big/large/great) over Talaa Seghira. There are signs to indicate where you are. These signs
+have an eight-point star shape that will guide you between the main places in the medina. Talaa
+Kebira runs from Bab Boujeloud all the way down to the Karaouiyne Mosque in the heart of the
+medina. We managed to get a henna tattoo, bought some souvenirs and snapped pictures all the
+way ;) I really, really, really love the medina despite the dust and dirt. It all seemed so
+authentic. I love the architecture and character of the medina too. And FÃšs is the
+handicraft capital of Morocco; so if you go, get your souvenirs here and not elsewhere. And
+bargain, bargain, bargain! I fell in love with so many things and it was all I could do not to buy
+them all. And they were sooo cheappp too *sigh*. It was my consideration for my bag (which was
+already hovering around 16 kg already. I know, I know, I packed too much. Again.) and the fact
+that my money is finite that disciplined me into purchasing only what I did. What can you get
+there? Leatherware, copper, babouche, potteries, carpets... the list goes on and on. Do
+beware of shopkeepers who want to introduce you to their cousin or uncle or brother whatnot who
+has a textile/carpet factory/store or who can show you the tannery or pottery is.
+
+
+
+We walked down right to Karaouiyne Mosque before turning back. Not bad for our first day in
+FÃšs: we’d covered a major part of the medina without getting lost! Now to climb back up to
+where we started... we had dinner at Said Restaurant before requesting Said to help get a petit
+taxi back to Dar Melody.
+
+
+
+I went to the rooftop for a night view of the medina. There was a full moon, a light breeze and a
+lovely temperature *sigh*. Heaven.
+
+
+
+To be continued
+
+
+
+~~~~~~~~
+
+
+
+The host South Africa kicked off the World Cup with a fantastic goal but Mexico equalised later
+to deny all three points to Bafana Bafana (Carlos Vela was as anonymous as he was in the Arsenal
+jersey all season). The Demonic Domenech’s France played a dire match against 10-man
+Uruguay, Engerland drew with the USA after a Robert Green howler. South Korea had a convincing
+win over the Greeks while the Argentines played like the Arsenal (many shots but only one
+goal). Algeria the Desert Foxes were unlucky to lose, Ghana was lucky to win (I didn’t want
+Serbia to win anyway) and it was all about the German efficiency in the late match.
+
+
+
+And Arsenal fan Lewis Hamilton won the Canadian Grand Prix! The McLaren duo won one-two and
+Lewis now leads the drivers championship for the first time in 18 months.
+
+SCRIBBLED BY ADEK FÃ€B at 6/14/2010 01:41:00 PM postCount('7407332914929706675'); |
+postCountTB('7407332914929706675');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: AFRICA , F1 , TRIPS , WORLD CUP
+
+
+
+Friday, June 11, 2010
+
+
+
+Getaway 2010: Episode 5
+
+
+
+Thursday, 27 May 2010: LED - CGN
+
+
+
+Time Flies When You’re Having Fun
+
+
+
+Well, all good things come to an end and our Russian trip came to an end today. A light drizzle
+greeted us this morning and we left the apartment after 8 am, walked to Gostiny Dvor metro
+station and rode the metro to Moskovskaya station. From the station, we took bus #13 to the
+airport for our German Wings noon flight to Cologne-Bonn. And thank God we got through
+immigration without being questioned about not ing our visas. The flight was rather
+uneventful except when we were about to descend, we felt the plane climbed up again. ‘Back to
+St Petersburg,’ remarked the lady next to Lin and we shared a puzzled smile. The pilot then
+explained that they sighted another plane about to descend to the same runway and they pulled
+up again to avoid a collision. Wow, talk about German efficiency. It’s nice to have the pilot
+explained everything to us and assured us all was well again.
+
+
+
+From the plane, we boarded the airport shuttle but Fifi had to switch to another shuttle bus
+along with the few other passengers who were continuing on with their connecting flights (she
+was flying back to London Stansted by the same airline at 1425) so we said our goodbyes then. Lin
+and I bought some food at a supermarket at the airport (good food at last! And in a language we
+could understand!) before walking to the connecting train station for our 1444 train to
+DÃŒsseldorf. We had already bought the ticket online and purposely chose this time. We had
+to change trains at Cologne however but being Germany, there are lifts everywhere for the
+convenience of travellers. No one came to check our tickets though.
+
+
+
+We arrived at DÃŒsseldorf after half-past three and after collecting maps at the Tourist
+Information Office, walked to our hotel . After checking in, I went out alone to check what the
+city has to offer. It’s a charming compact city and so I managed to cover quite a bit of ground.
+And the shops !!! I never knew DÃŒsseldorf has very good stores – from high street stores to
+luxury goods boutiques. I can happily settle there. Oh and I sighted some Porsches and
+Ferraris too – all in the short few hours I was out and about.
+
+
+
+Met up with Lin after 8.30 pm and we had dinner at a Turkish restaurant. I had lahmacun or the
+Turkish version of pizza. Lovely but not as delicious as the one I had at Lake Como . A short
+stroll after dinner ensued before we headed back to the hotel.
+
+
+
+To be continued
+
+
+
+~~~~~~~~
+
+
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_xX6lhB-jw58/TBHDijp01eI/AAAAAAAAC8w/oHdo6hKf7dg/s200/WC2010.jpg
+The World Cup 2010 kicks off today!!! Contrary to the last World Cup , I will not be rooting for
+England (I don’t have any problems with Capello, just with some players in the squad). I will
+be watching out for the SIGN i.e., Spain (they’ve really improved since the last World Cup),
+Italy (if only for the hawt-looking players), Germany (they have always been consistent) and
+the Netherlands. Of course I would try to watch and catch up with as many teams as I can (I
+definitely don’t want to root for only one country), well except for Argentina and France (I
+have issues with Maradona and Raymond Domenech Dominatrix).
+
+
+
+Who will you be watching out for?
+
+SCRIBBLED BY ADEK FÃ€B at 6/11/2010 01:07:00 PM postCount('1436643919751000736'); |
+postCountTB('1436643919751000736');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: EUROPE , TRIPS , WORLD CUP
+
+
+
+Thursday, June 10, 2010
+
+
+
+Getaway 2010: Episode 4
+
+
+
+Tuesday, 25 May 2010
+
+
+
+‘Remember, Saint Petersburg* is Russian but it is not Russia.’ - Tsar Nicholas II -
+
+
+
+Our train pulled into Moskovsky train station of Saint Petersburg at 0645 and we emerged from
+the train to a cold morning. After navigating our way out of the station, we emerged at Nevsky
+Prospekt or Nevsky Avenue (named after the 13th century national hero credited for defeating
+the Swedish and German invading armies), the main thoroughfare in Saint Petersburg (or Piter
+as it is informally known). We walked to Mayakovskava metro station and took the metro to
+Gostiny Dvor, the nearest metro station to our apartment at the Admiralteyskaya nab.
+(Admiralty Embankment). The Admiralteystkaya station is actually the nearest to our
+apartment; alas it is an unfinished station, otherwise we could’ve take the metro all the
+way here.
+
+
+
+Victor, the manager, was already waiting for us and helped us to check-in. My heart sank when I
+saw the apartment building, but I told myself that, hey, even the building of the Moscow
+apartment didn’t look attractive from outside. But this time, the apartment really was
+bad. After freshening up, Fifi and I set out to find a supermarket to buy our provisions. Our
+apartment was not located in a residential area; it was surrounded by offices and hence the
+first grocery store was some blocks away and the supermarket slightly further up. We finally
+set off for the State Hermitage Museum at almost noon (!). The prime attraction for Piter, the
+Hermitage is a massive palace-cum-museum showing the highlights of over 3 million of pieces
+from all over the world. We had earlier bought the two-day combined ticket online to save
+ourselves from queueing. We spent hours at the Hermitage. It was close to closing time when we
+finally walked out.
+
+
+
+A little note on the State Hermitage Museum: the world’s largest art collection here rivals
+both the Louvre and the Prado in architectural, historical and artistic significance. After
+commissioning its construction in 1769 and filling it with works of art, Catherine the Great
+wrote of the treasures: ‘The only ones to admire all this are the mice and me.’ To the
+public’s general fortune, thankfully, this is no longer true; the collection was made
+public in 1852.
+
+
+
+We then walked across the Palace Square to Nevsky Prospect and turned left when we reached
+Griboedov Canal and walked along the canal to the Church of the Saviour on Spilled Blood (aka
+the Church on Spilt Blood and the Cathedral of the Resurrection of Christ. The name refers to
+the blood of Tsar Alexander II who was assassinated on this site in 1881). To me, it looked like a
+sister of the St Basil’s Cathedral in Moscow. After some Kodak moments, we checked out the
+souvenirs fair (market, more like) near the church and then walked around the city before
+heading back to the apartment.
+
+
+
+* The historic centre of Saint Petersburg is a UNESCO World Heritage Site. Where Moscow is big
+on Lenin (statues here and there), Piter is unsurprisingly big on Peter the Great, the
+city’s founder.
+
+
+
+Wednesday, 26 May 2010
+
+
+
+Why Does It Always Rain On Me?
+
+
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_xX6lhB-jw58/TBB34jIx94I/AAAAAAAAC8o/ZUYSyiSd_f0/s320/rain+on+me.jpg
+Sorry, I can’t resist this picture
+
+
+
+
+
+I had read somewhere that Piter only enjoys about 30 days of dry weather in a year and today was
+one of those 335 days. We walked in the moderate morning rain to the dock in front of the Winter
+Palace to catch one of the two hydrofoils to Peterhof , a summer residence designed and built by
+Peter the Great (who else). The series of gardens and palaces are also referred to as the
+Russian Versailles. The palace ensemble along with the city centre of Peterhof is a UNESCO
+World Heritage Site.
+
+
+
+It continued raining and didn’t let up at all as the day progressed. So we walked around the
+Lower Gardens (we arrived at a pier and approached the palace from the lower park) to the Grand
+Cascade and Grand Palace and watched the fountains at the Grand Cascade start at 10 am in the
+rain. Then we climbed up the stairs to the Grand Palace and joined the throng of other visitors
+and queued for more than half an hour to purchase the ticket. It was one of the wettest, most
+uncomfortable thirty minutes of my life. Although I had my brolly, I was still wet from the rain
+dripping down from other people’s brollies. Bahhh.
+
+
+
+We finally entered and after purchasing our tickets, went down a corridor. After the cloak
+room, we donned on some shoe coverings (to protect the floor, you see. The whole complex was
+closed the day before as it usually is on the last Tuesday of the month so all the more reason to
+keep the newly cleaned floors sparkling. Brilliant idea, eh, except it made me feel as if I was
+skidding on ice throughout). We were not allowed to take pictures inside the palace (alas!)
+but all the rooms were oh so awesomely and breathtakingly beautiful. But don’t take my word
+for it, go see it for yourself.
+
+
+
+After that awesome eye feast, we left and headed for the Upper Gardens. It had continued to rain
+steadily throughout but with extra wind factor. So we hurried about and went down again to the
+Lower Gardens (after pleading with the ticket inspectors who initially didn’t want to let
+us re-enter the palace grounds. See, there’s an admission fee for the Lower Gardens and we
+had already passed through the Lower Gardens on our way to the palace albeit briefly). We
+wandered around taking pictures of the various fountains before fighting our way back to the
+pier. I say fighting because by now the wind had taken the form of a gale, so strong that it
+rendered our brollies unworkable. And we fought against the wind and the pissing rain and the
+spray of the Gulf of Finland seawater to reach our 2 pm hydrofoil. Not an easy task, I can assure
+you. Trust me. As if that ordeal wasn’t enough, we had to endure a rough ride back, no thanks to
+the choppy water. It was a wonder I didn’t get seasick (for the record, I even got
+‘seasick’ after the Sydney river cruise).
+
+
+
+We reached Piter half an hour later and walked back to the apartment with shaky legs. We decided
+to rest the bad boat-ride off. We went out again at 5 pm (the rain had finally stopped – for
+then) and, having decided that a visit to either the Menshikov Palace or the Museum of the
+Imperial Porcelain Factory or State Hermitage Preservation and Storage Centre (part of our
+two-day Hermitage ticket) was not feasible, headed for Zayachy Island (aka Hare Island)
+where the Peter and Paul Fortress is. Peter and Paul Fortress (Petropavlovskaya Krepost) is
+the original citadel of the city. The fortress was established by Peter the Great on the small
+Hare Island by the north bank of Neva River. The Peter and Paul Cathedral which is located in the
+fortress is where all of Russia’s Tsars from Peter the Great himself to Catherine the Great
+to Nicholas II are buried, the last being finally laid to rest with his family and servants in
+July 1998. The Tsars prior to Peter were buried in the Archangel Cathedral in the Moscow
+Kremlin.
+
+
+
+After walking around the island, we walked to the nearby Mosque (Sobornaja metschetj), the
+largest mosque in northern Europe and the world’s northern-most mosque. We even went
+inside and took a picture or two (despite being told not to). There’s a halal butcher near the
+mosque where we enquired if there was a halal restaurant in the city.
+
+
+
+We left the mosque and walked to the Cabin of Peter the Great , Peter’s first residence during
+his supervision of the construction of St. Petersburg and the city’s first built wooden
+house.
+
+
+
+After popping over to a nearby store (but were told we couldn’t purchase anything as the
+cashier had closed for the day), we walked to Gorkovskaya metro station and boarded the metro
+to Sennaya Ploschad (Sennaya Square) and went to find Sofra , a halal Turkish restaurant
+recommended by the butcher earlier. The menu was in Russian and a Chris O’Donnell
+doppelgÃ€nger casanova (a fellow patron himself) helped us with our orders.
+
+
+
+We only left after 10 pm and walked in the twilight* back to our apartment. Our last night in
+Saint Petersburg *sigh*. I love Saint Petersburg. It’s just so elegant and beautiful. The
+birthplace of Russian ballet, the city was built by Peter the Great (hence the name although of
+course it changed names a few times to Petrograd to Leningrad before reverting back to Saint
+Petersburg) to create a ‘Window to the West’ and drag Russia from its backward roots in
+‘Asiatic’ Moscow and Byzantium toward the more advanced countries of the West.
+
+
+
+* Because it is so far north, St Petersburg enjoys ‘white nights’ for three weeks in June
+when the sky never completely darkens.
+
+
+
+To be continued
+
+SCRIBBLED BY ADEK FÃ€B at 6/10/2010 01:35:00 PM postCount('7522147431002718583'); |
+postCountTB('7522147431002718583');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: EUROPE , TRIPS
+
+
+
+Wednesday, June 09, 2010
+
+
+
+Getaway 2010: Episode 3
+
+
+
+Sunday, 23 May 2010
+
+
+
+Larger Than Life
+
+
+
+Today, we set off for the Kremlin . We walked around the grounds passing the Tomb of the Unknown
+Soldier, the Arsenal (yes!) and the Alexander Garden on our way to Kutafiya Tower where we
+queued to get our tickets to the Architectural Ensemble of the Cathedral Square and the
+Armoury Chamber. Foreign tourists pay substantially more than the locals, as the case is
+almost everywhere. We spent hours in the grounds and the Armoury Chamber (our visiting time
+was at 1-2.30 pm).
+
+
+
+After that, we walked out and went to the Red Square. We’d missed the visiting hours for the
+Lenin Mausoleum (I’m not a fan of him) so we joined the masses at the Red Square. There were
+some outdoor activities there: rock climbing, skateboarding, wrestling (or was it
+boxing?), futsal... at least those were some that I saw. We walked on to St Basil’s Cathedral
+and continued where we let off yesterday. After that, sensing rain was imminent, we decided to
+check out GUM (pronounced as ‘Goom’ and short for Glavnyi Universalnyi Magazin, yeah,
+what a mouthful). It’s a seriously lovely building both on the outside and inside.
+
+
+
+We left GUM and went to the nearby stalls. It started to rain after a while – and this turned out
+to be good for us as some stall-keepers decided to offer discounts. I spotted some FÃ bregas
+matryoshka dolls ;) – no, Lin, not FÃ bregas FabergÃ© dolls or FÃ bregas FabergÃ©
+eggs (opps! That has double meaning somehow), it’s FabergÃ© eggs. OK, OK, I better stop.
+
+
+
+We developed some serious leg muscles today... everything in Moscow was Larger Than Life (and
+building blocks have never seemed larger) and they sure don’t do things half-way there!
+It’s like everything has to be bigger and grander than anything else.
+
+
+
+Monday, 24 May 2010
+
+
+
+From Russia With Love
+
+
+
+Now, if you’re in Russia for more than three working days excluding weekends and public
+holidays, you should register your visa (don’t ask. To me, it sounds something like a
+money-making scheme) – this is in addition to obtaining a Russian visa which isn’t cheap
+by the way for which you may need visa support (yes, it does sound complicated. And expensive).
+Fifi had, however, checked with the Real Russia people in the UK and they assured her that we
+would not need to register our visa as we would not be in any one city for more than three working
+days; however, we were still worried (especially after my immigration encounter) and
+decided to check out with the post office (we know that we could register through a post
+office).
+
+
+
+So after breakfast, we went to Kurskaya Railway Station to print out our train tickets to Saint
+Petersburg that night (we had earlier bought the tickets online but must change the vouchers
+for tickets. Thank God for the Internet; a few years ago, you would not have been able to
+purchase Russian train tickets online). However, this proved easier said than done. We
+discovered that not many Muscovites were at all helpful and the odd one or two who were didn’t
+know how to use the self-help kiosk. So we struggled until the lady from the Information
+Counter (who had earlier brusquely gestured to us to use the kiosk) stepped out of her booth,
+presumably on her way to the ladies, helped us. That accomplished finally, we took the metro to
+Teatralnaya and walked to the post office at Tverskaya ulitsa. Now, Tverskaya Street is
+Moscow’s main shopping street. We found the post office (hidden within some building) and
+found out from a couple who had their Russian friend help them with the registration that they
+had been there for 45 minutes and counting already – and this friend was a Russian who could
+understand and read Russian and Cyrillic alphabets (so imagine how long it would take us
+non-Russian Cyrillic-illiterate trio). And apparently, we need to get the registration
+form online somewhere. We debated whether or not to proceed: Real Russia had advised Fifi
+there was no need; Alex had convinced us there was no need; but the Russian friend of the couple
+we met wasn’t sure. In the end, we decided not to do it. Instead, we bought some postcards and
+sent them home. I signed mine ‘ From Russia With Love .’
+
+
+
+We walked up Tverskaya Street and passed beautiful buildings and statues. We also stopped at
+Yeliseyevsky Gastronom, a food-hall located in a beautiful building (with chandeliers to
+boot!). After ooh-ing and aah-ing at the dÃ©cor and other buildings, we finally arrived at
+Mayakovskaya metro station. Now some of Moscow metro stations are tourist attractions in
+their own right and if you are in Moscow and you have some spare time, do, do, do visit them if you
+can. There are stations ornamented with heroic sculptures, paintings, stained glass,
+carvings, mosaics and glittering chandeliers. With trains running every two minutes and
+considerably cheap fares (less than a Euro for any ride valid until you exit the system),
+travelling by metro is very reliable here – and get this, they never have any strikes. It’s
+just unthinkable. Millions of Muscovites rely on the metro to get around. Anyway, I digress.
+
+
+
+We took the metro to the All Russia Exhibition Centre or more commonly known by its old name,
+VDNKh (short for Vystavka Dostizheniy Narodnovo Khozyaystva, yeah, I know, I know, what a
+mouthful), to spend the afternoon. After walking around the vast grounds of the Centre, we
+took a monorail from Sergeya Eyzenshteyna station to Timiryazevskaya where we then changed
+to metro, and after a few photo shoots at a few metro stations, we finally returned to the
+apartment. Fifi cooked dinner and we had an early dinner.
+
+
+
+Alex then came before 9 pm and after chatting with him, we thanked him and left. We took the train
+to Komsomolskaya metro station and walked to Leningradsky vokzal, from where we would board
+the 11 pm 026Ð� - Smena A.Betankurtrain overnight train to Saint Petersburg. We boarded
+the train at 10.30 pm and settled in our berth. A Russian lady joined in our quad-sharing berth
+and she showed us how to turn the seats into beds, how to pull out the ladder to climb up to the
+upper bunk, how to lock the berth door...we then settled in our beds and before long, the train
+pulled away from the station. On to our next destination!
+
+
+
+To be continued
+
+SCRIBBLED BY ADEK FÃ€B at 6/09/2010 01:22:00 PM postCount('7337175213087890944'); |
+postCountTB('7337175213087890944');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: EUROPE , TRIPS
+
+
+
+Tuesday, June 08, 2010
+
+
+
+Getaway 2010: Episode 2
+
+
+
+Saturday, 22 May 2010: RIX - SVO
+
+
+
+Rosy (?!) Rossiya
+
+
+
+We left after breakfast and walked to a bus stop to catch our bus back to the airport. Our Air
+Baltic flight took off at 1105 – after someone dealt with a drunk man sitting at the business
+area and talked him off the plane (we later saw him in a police car as we were taking off) - and we
+landed at Moscow Sheremetyevo Airport at 1415 local time (Moscow is three hours ahead of GMT).
+God, what a horrible-looking airport it was and we had to endure such a crazy long queue
+(seriously, even clearing the Haj immigration wasn’t as bad). We were practically the last
+ones to reach the immigration counter and guess what? There was some problem with my passport
+or my visa or whatever and what it meant was I was shuffled from one counter to another and had to
+endure an additional thirty-plus minutes of waiting – by which time, another plane-load of
+new passengers had arrived. I was so angry that at the end, I was feeling close to tears (how
+oxymoronic).
+
+
+
+After my passport got its requisite stamp, I asked what the problem was and the stupid lady
+said, ‘No English.’ Typical, I thought, and without thinking swore out aloud. She seemed
+to understand and this irony was not lost on me. I said, ‘Oh so you don’t understand English
+but you understand what ‘F*** you’ means?’ and she retaliated by refusing to let me got
+through the metal barrier. I don’t know why the thought of slowly rotting away in a Russian
+prison cell still hadn’t occurred to me then but I was really that furious. I was let off after
+a while and I stormed off. Yeah, I know I should learn to curb my temper and especially when
+dealing with foreign immigration. It was not exactly a rosy reception from Rossiya but there
+you go. Anyway, that brief episode aside: I’ve been dreaming to come to this country for some
+time now and finally, there I was!
+
+
+
+We then took the aeroexpress train to Belorussky Station and, as we were still struggling with
+our Cyrillic then, asked a passerby which metro station we should go to take a train to
+Kitai-Gorod. From Kitai-Gorod metro station, we walked to Nova Hostel . Actually, we met
+Alex, the owner, on our way there and he had almost given up on us (I’d forgotten that I
+mentioned arriving between 4-5 pm). We apologised and I explained that I was delayed longer
+than expected at the airport. He told us he had two places: one at Kitai-Gorod (with cats!) and
+another at Kurskaya (no cats). We told him we didn’t mind cats as long as there are no dogs but
+as the one at Kitai-Gorod had no hot water and he thought it’d be a problem for us, he’d
+arranged for us to stay at Kurskaya anyway. So we agreed and followed him. He hailed down a car
+and we all somehow got in, all four of us (including Alex) – OK five, including the driver –
+and our bags, and went to Kurskaya. (OK, actually in Moscow, you can hail down any car and the
+driver, depending on his destination, may agree to take you for a fee. But don’t try this
+alone as he may instead kidnap you. Stick to the metro!) His apartment was in a nondescript
+building but it was a superbly beautiful apartment with three bedrooms, one living room (with
+Internet!), one kitchen and a big, clean bathroom. We were happy with this.
+
+
+
+We rushed to put our bags and explained that we were rushing to go to the Bolshoi Theatre for our
+La fille mal gardee ballet show (the tickets were bought online on Tuesday and Wednesday (two
+tickets at RUB800 each and the third ticket at RUB2000) before our journey but we agreed to
+split the cost equally). It was quite hilarious really when you think of it: there we were,
+dumping our bags and searching our wallet to pay him for the rent, and frantically explaining
+to Alex that we had to rush off with him explaining how to get there by metro. It was like wham,
+bam, thank-you-man and off we went.
+
+
+
+The Bolshoi Theatre is undergoing renovation so our show was in the new ballroom which was
+equally grand and impressive and took our breath away. And I haven’t even got to the part of
+the crystal chandeliers yet. I don’t know much about ballet but I enjoyed the show, the
+ambience, and the experience very much.
+
+
+
+After the show (and some photo taking), we left and walked to the Red Square (Krasnaya
+Ploschad). There’s nothing red about the square at all of course; in fact, the name comes
+from the Russian word krasnaya meaning ‘beautiful’. Site of the Victory Day Parade just a
+fortnight before, Red Square is the heart of Moscow and the first destination for most
+visitors to Moskva. It is surrounded by St Basil’s Cathedral, the State History Museum,
+Lenin’s Mausoleum, a section of the Kremlin’s long brick walls and GUM, the magnificent
+shopping complex (pronounced as ‘Goom’). The Red Square and Kremlin are both UNESCO
+World Heritage Sites. We were awed by the sights and magnitude of everything we saw today and
+we’d only been in Moscow for a few hours!!!
+
+
+
+We finally returned to the apartment after 10 pm (or was it 11?). For a while, we were a bit lost:
+in our haste to leave for the Bolshoi earlier, we forgot to note the landmarks (except for HSBC
+Bank which shared the same building as the apartment), the exit from the metro station, the
+street name... but finally we managed to find the apartment alright.
+
+
+
+To be continued
+
+SCRIBBLED BY ADEK FÃ€B at 6/08/2010 01:26:00 PM postCount('2447937906398541079'); |
+postCountTB('2447937906398541079');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: EUROPE , TRIPS
+
+
+
+Monday, June 07, 2010
+
+
+
+Getaway 2010: Episode 1
+
+
+
+This trip had been planned since January. Flight ticket to Europe was bought in February and
+the subsequent flights bought in February and March, causing quite a dent in my pocket. Oh
+well. This time, I’ve decided to share my experience in bite-size entries (OK, some bites
+may be large). And this is how the story goes...
+
+
+
+Thursday, 20 May 2010: KUL-CDG
+
+
+
+I left home for KL Sentral at 8.30 pm (Mummy and Abah insisted on sending me to KL Sentral because
+they don’t trust lil’ me taking a cab at night alone all by myself, yes, believe it) and met
+up with Lin after 9 pm. We bought KLIA Express tickets and checked in our bags. Our flight took
+off on time and we settled in, hoping sleep would take over. No success for me on that point.
+
+
+
+Friday, 21 May 2010: CDG - RIX
+
+
+
+The Terminal / RÄ«ga Rigour
+
+
+
+We landed at 0645 Paris time and it was already a bright early summer morning (or late spring).
+It would be a long wait until our next flight out - we decided we’d fly out on the same day
+instead of going into the city and then back to the airport again a few days later. Seriously, I
+hate Charles de Gaulle Airport. It’s ugly and doesn’t offer comfortable seats for
+travellers to relax. Why, KLIA is so much better. And no eye candies either.
+
+
+
+We finally boarded Air Baltic for our flight out with an overnight transit in RÄ«ga. We
+purposely chose this flight for a number of reasons: (i) the direct flight also transits in
+RÄ«ga for a few hours (it’s a direct flight but not a direct non-stop flight); (ii) if we
+took the direct flight, we’d arrive into the third city of the day after 9 pm and I wasn’t
+keen to navigate the city to our hostel at that hour; (iii) this flight cost less than a direct
+flight to the third city; and (iv) we get a free city thrown in at a lower cost so why not? Besides
+the Historic Centre of RÄ«ga is a UNESCO World Heritage Site.
+
+
+
+We landed at RÄ«ga International Airport after 6 pm, well after the scheduled time of 1750
+(Latvia is two hours ahead of GMT) and met up with Fifi who flew in from London Gatwick to join us.
+After changing money at parex bank, we took bus #22 to the city. The bus stopped right opposite
+our hostel in the Old Town and we checked in first before venturing to check out VecrÄ«ga (Old
+RÄ«ga). Because it’s in VecrÄ«ga, the hostel had a really serious and narrow staircase
+and we had to haul our bags up the three (or four? Well enough to make us huff and puff on our way up)
+floors to our room. Fortunately, our room with its three double-decker beds and one double bed
+had its own bathroom.
+
+
+
+(Actually Fifi only confirmed joining us on 20 April and bought her air tickets two days later
+as she only received the green light to take leave then. I had already booked double rooms in
+three cities and had to make new search for triple rooms in those cities upon her confirmation.
+Only hostels offer triple rooms hence why we had to stay at one of those. I still refused to book
+three beds in a dorm though.)
+
+
+
+We walked around VecrÄ«ga and visited the Statue of Roland, the Blackheads House, Town
+Hall, saw St Peter’s Church from afar, walked past the Dome Cathedral and the Dome Square,
+the Cats’ House, the Three Brothers or TrÄ«s brÄ�ÄŒi (the oldest stone houses still
+standing in the city), past the Old City Wall, Jacobs Barracks (the longest building in the
+city) and the Powder Tower before crossing over to the Lalma Clock and on to the Freedom
+Monument. We even walked the extra block to the Navity of Christ Orthodox Cathedral before
+returning back to the Blackheads House and then to the hostel. We met the occasional drunk
+English and Irishmen on our way around VecrÄ«ga – not surprising as RÄ«ga is considered
+a destination for stagnights. We also met a young friendly Latvian who took the time to show us
+around some places.
+
+
+
+Dinner was had at the hostel kitchen. Knackered, we then decided to call it a day. Only to be
+woken up in the wee hours of the morning by some drunk trying to open our door. Scary, but not as
+scary as what I encountered in Bonn last year.
+
+
+
+To be continued
+
+SCRIBBLED BY ADEK FÃ€B at 6/07/2010 01:33:00 PM postCount('1798093050031966316'); |
+postCountTB('1798093050031966316');
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: EUROPE , TRIPS
+
+Newer Posts Older Posts Home Subscribe to: Comment Feed (RSS)
+
+SOME DAYS ARE BETTER THAN OTHERS
+
+
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+11 O'CLOCK TICK TOCK
+
+obj = new Object;obj.clockfile = "2002-orange.swf";obj.TimeZone = "GMT0800";obj.width =
+150;obj.height = 150;obj.wmode = "transparent";showClock(obj);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+I WILL FOLLOW
+
+    
+
+    - 7amkickoff -- The Arsenal blog from an American perspective Fergie hates foreign
+    divers loves the domestic ones 12 minutes ago
+
+    
+
+    - Andrey Arshavin - official website
+
+    
+
+    - Arseblog - It's fuckin' excellent ... an Arsenal blog Win a Highbury print 1 hour ago
+
+    
+
+    - Arsenal Analysis Arsenal vs Coventry video highlights 5 days ago
+
+    
+
+    - Arsenal Blog @OleOle Arseblog has moved 1 year ago
+
+    
+
+    - Arsenal FC News Feed Pictures: Champions League press conference 3 hours ago
+
+    
+
+    - Bacary Sagna, Professional Footballer - Latest News
+
+    
+
+    - Be a Gooner. Be a Giver.
+
+    
+
+    - Cesc FÃ bregas
+
+    
+
+    - Cesc FÃ bregas - official website
+
+    
+
+    - Cesc FÃ bregas fansite Pictures : Cesc Fabregas vs Chelsea – 2nd Leg (24 April
+    2012)Champions League Semi Finals 5 months ago
+
+    
+
+    - Denilson 15
+
+    
+
+    - Fab 4 Arsenal Still Happy & A Bit Proud 10 months ago
+
+    
+
+    - Freddie Speaks Up! | Official Freddie Ljungberg Blog | freddie.speaksup.com First
+    Home Game in Chicago 2 years ago
+
+    
+
+    - Johan Djourou Official Website - Johan Djourou Official Website match slovÃ©nie 3
+    weeks ago
+
+    
+
+    - Nicklas Bendtner - Frontpage - Official website
+
+    
+
+    - Per Mertesacker | The Official Homepage
+
+    
+
+    - The Memory Bank Wishing On A (Shooting) Star 4 days ago
+
+    
+
+    - The Offside - Arsenal By: sandrahn 5 years ago
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+ANOTHER TIME, ANOTHER PLACE
+
+    
+
+    - BBC
+
+    
+
+    - Google News
+
+    
+
+    - FREAKONOMICS
+
+    
+
+    - Funny Cats
+
+    
+
+    - Travel
+
+    
+
+    - WWF
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://4.bp.blogspot.com/_xX6lhB-jw58/SYKcgQv2BWI/AAAAAAAABWY/cDkqCsKhi10/S1600-R/spca.JPG
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://2.bp.blogspot.com/_xX6lhB-jw58/SMDqXbCOqEI/AAAAAAAAAtM/O5kTjdONRIc/S240/HappyBunnyAboutMe.jpg
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://www.criticsrant.com/bb/readinglevel/img/genius.jpg
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://mingle2.com/img/bb/blog_rating/g.jpg
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+ARSENAL
+
+
+
+Image:
+http://1.bp.blogspot.com/_xX6lhB-jw58/SYKfrPpA55I/AAAAAAAABXQ/0_fGF0lbwtM/S1600-R/arsenal_crest.JPG
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://1.bp.blogspot.com/_xX6lhB-jw58/SYLMw9MNwLI/AAAAAAAABXw/ffZe09knEiI/S240/Emirates+Stadium+thumb.jpg
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Loading...
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+CESC FÃ€BREGAS
+
+
+
+Image:
+http://1.bp.blogspot.com/_xX6lhB-jw58/SYKdsbuf5cI/AAAAAAAABWw/Yy1IMXJKF-U/S1600-R/fabregas_barclays_potm.jpg
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://1.bp.blogspot.com/_xX6lhB-jw58/SYKdzH3QmxI/AAAAAAAABW4/Niry3cwYJmc/S240/fabregas%26wenger+awards.jpg
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Loading...
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Which football player
+are you?
+
+Francesc Fabregas
+
+A creative playmaker who dominates the midfield! Click Here to Take This Quiz
+
+Brought to you by YouThink.com quizzes and personality tests.
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+THE WHOLE SHEBANG OF PAST REFLECTIONS
+
+    
+
+    - October 2012 (1)
+
+    
+
+    - September 2012 (8)
+
+    
+
+    - August 2012 (6)
+
+    
+
+    - July 2012 (6)
+
+    
+
+    - June 2012 (4)
+
+    
+
+    - May 2012 (7)
+
+    
+
+    - April 2012 (4)
+
+    
+
+    - March 2012 (8)
+
+    
+
+    - February 2012 (7)
+
+    
+
+    - January 2012 (10)
+
+    
+
+    - December 2011 (4)
+
+    
+
+    - November 2011 (5)
+
+    
+
+    - October 2011 (8)
+
+    
+
+    - September 2011 (6)
+
+    
+
+    - August 2011 (6)
+
+    
+
+    - July 2011 (7)
+
+    
+
+    - June 2011 (4)
+
+    
+
+    - May 2011 (10)
+
+    
+
+    - April 2011 (10)
+
+    
+
+    - March 2011 (5)
+
+    
+
+    - February 2011 (8)
+
+    
+
+    - January 2011 (7)
+
+    
+
+    - December 2010 (6)
+
+    
+
+    - November 2010 (3)
+
+    
+
+    - October 2010 (6)
+
+    
+
+    - September 2010 (7)
+
+    
+
+    - August 2010 (8)
+
+    
+
+    - July 2010 (7)
+
+    
+
+    - June 2010 (15)
+
+    
+
+    - May 2010 (6)
+
+    
+
+    - April 2010 (10)
+
+    
+
+    - March 2010 (11)
+
+    
+
+    - February 2010 (10)
+
+    
+
+    - January 2010 (11)
+
+    
+
+    - December 2009 (8)
+
+    
+
+    - November 2009 (12)
+
+    
+
+    - October 2009 (12)
+
+    
+
+    - September 2009 (10)
+
+    
+
+    - August 2009 (9)
+
+    
+
+    - July 2009 (5)
+
+    
+
+    - June 2009 (11)
+
+    
+
+    - May 2009 (5)
+
+    
+
+    - April 2009 (10)
+
+    
+
+    - March 2009 (13)
+
+    
+
+    - February 2009 (9)
+
+    
+
+    - January 2009 (10)
+
+    
+
+    - December 2008 (8)
+
+    
+
+    - November 2008 (12)
+
+    
+
+    - October 2008 (8)
+
+    
+
+    - September 2008 (14)
+
+    
+
+    - August 2008 (12)
+
+    
+
+    - July 2008 (7)
+
+    
+
+    - June 2008 (10)
+
+    
+
+    - May 2008 (3)
+
+    
+
+    - April 2008 (10)
+
+    
+
+    - March 2008 (8)
+
+    
+
+    - February 2008 (5)
+
+    
+
+    - January 2008 (8)
+
+    
+
+    - December 2007 (7)
+
+    
+
+    - November 2007 (5)
+
+    
+
+    - October 2007 (9)
+
+    
+
+    - September 2007 (11)
+
+    
+
+    - August 2007 (9)
+
+    
+
+    - July 2007 (9)
+
+    
+
+    - June 2007 (13)
+
+    
+
+    - May 2007 (7)
+
+    
+
+    - April 2007 (13)
+
+    
+
+    - March 2007 (12)
+
+    
+
+    - February 2007 (7)
+
+    
+
+    - January 2007 (7)
+
+    
+
+    - December 2006 (7)
+
+    
+
+    - November 2006 (6)
+
+    
+
+    - October 2006 (10)
+
+    
+
+    - September 2006 (12)
+
+    
+
+    - August 2006 (13)
+
+    
+
+    - July 2006 (13)
+
+    
+
+    - June 2006 (11)
+
+    
+
+    - May 2006 (5)
+
+    
+
+    - April 2006 (13)
+
+    
+
+    - March 2006 (11)
+
+    
+
+    - February 2006 (12)
+
+    
+
+    - January 2006 (5)
+
+    
+
+    - December 2005 (2)
+
+    
+
+    - November 2005 (1)
+
+    
+
+    - October 2005 (2)
+
+    
+
+    - September 2005 (8)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+TRAVEL QUOTE
+
+Travel Quote of the Day
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+CURRENCY CONVERTER
+
+Currency Converter
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Word of the Day
+#WordOfTheDay {width:100%;border:1px #000000 solid;background-color:#FFF0F5}
+#WordOfTheDay H3 {font:bold 12pt '';color:#000000} #WordOfTheDay TD.WoDLeft {font:bold
+10pt '';color:#000000} #WordOfTheDay TD {font:normal 10pt '';color:#000000}
+#WordOfTheDay A {color:#666699}
+
+arboreal
+
+Definition: Relating to or resembling a tree. Synonyms: arborical , arborous
+document.getElementById("tfd_wod_div").style.display=""
+
+Article of the Day #ArticleOfTheDay {width:100%;border:1px #000000
+solid;background-color:#FFF0F5} #ArticleOfTheDay H3 {margin-top:0px;font:bold 12pt
+'';color:#000000} #ArticleOfTheDay TD {font:normal 10pt '';color:#000000}
+#ArticleOfTheDay A {color:#666699}
+
+This Day in History #TodaysHistory {width:100%;border:1px #000000
+solid;background-color:#FFF0F5} #TodaysHistory H3 {margin-top:0px;font:bold 12pt
+'';color:#000000} #TodaysHistory TD {font:normal 10pt '';color:#000000}
+#TodaysHistory A {color:#666699}
+
+Today's Birthday #TodaysBirthday {width:100%;border:1px #000000
+solid;background-color:#FFF0F5} #TodaysBirthday H3 {margin-top:0px;font:bold 12pt
+'';color:#000000} #TodaysBirthday TD {font:normal 10pt '';color:#000000}
+#TodaysBirthday A {color:#666699}
+
+In the News #InTheNews {width:100%;border:1px #000000 solid;background-color:#FFF0F5}
+#InTheNews H3 {margin-top:0px;font:bold 12pt '';color:#000000} #InTheNews TD
+{font:normal 10pt '';color:#000000} #InTheNews A {color:#666699}
+
+Quote of the Day #QuoteOfTheDay {width:100%;border:1px #000000
+solid;background-color:#FFF0F5} #QuoteOfTheDay TD {font:normal 10pt
+'';color:#000000} #QuoteOfTheDay A {color:#666699} When one has finished building one's
+house, one suddenly realizes that in the process one has learned something that one really
+needed to know in the worst way--before one began.
+
+Friedrich Nietzsche
+
+(1844-1900) document.getElementById("tfd_quote_div").style.display=""
+
+Spelling Bee #TfdBee {border:1px #000000 solid;background-color:#FFF0F5;padding:2px}
+#TfdBee {font:normal 10pt '';color:#000000} #TfdBee A {color:#666699} #TfdBee
+.spell_word {font-size:110%;clear:all;margin-bottom:5px} #TfdBee INPUT { font-size:
+11pt; margin:0; padding:0;} #tfd_bee_sound
+{float:left;width:40px;height:40px;margin-right:5px} #tfd_bee_sound IMG
+{width:100%;height:100%;border:none} #tfd_bee_def {font-size:80%} #tfd_bee_score
+{float:right;margin:0 0 5px 2px} .tfd_bee_correct {background-color: lightgreen}
+.tfd_bee_wrong {background-color: pink} .tfd_bee_na {background-color: white}
+
+Image: http://img.tfd.com/m/add2g.gif difficulty level: easy hard expert score: -
+please wait...   spell the word:
+
+Match Up #MatchUp {width:100%;border:1px #000000 solid;background-color:#FFF0F5}
+#MatchUp TD {font:normal 10pt '';color:#000000} #MatchUp A {color:#666699} #tfd_MatchUp
+INPUT.tfd_txt {border:1px black
+solid;height:16pt;font-size:10pt;width:100px;cursor:pointer;margin-top:2px;margin-right:4px;text-align:center}
+
+Image: http://img.tfd.com/m/add2g.gif Match each word in the left column with its synonym
+on the right. When finished, click Answer to see the results. Good luck!
+
+
+
+ 
+
+Hangman #Hangman {border:1px #000000 solid;background-color:#FFF0F5;height:240px}
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://4.bp.blogspot.com/_xX6lhB-jw58/SYKhSWcyo5I/AAAAAAAABXg/k4E5-7lEhis/S760/emirates+stadium.jpg
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://1.bp.blogspot.com/-by0H2KH3OWE/TaV37pxzkSI/AAAAAAAADu8/yV2frSqqH7Y/s730/Arsenal%2B-%2Bstadium.jpg
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://1.bp.blogspot.com/_xX6lhB-jw58/SYKhvfuvZTI/AAAAAAAABXo/jPrgiTikhk0/S760/fab+header.jpg
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://2.bp.blogspot.com/_xX6lhB-jw58/SUrudyZ6fRI/AAAAAAAABGg/xsiE22s56DI/S760/arsenal+photo+shoot.jpg
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://1.bp.blogspot.com/_xX6lhB-jw58/SUrvV1qNUaI/AAAAAAAABGo/5cy1hr2JIFw/S760/cesc-fabregas+arsenal.jpg
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+VISITED COUNTRIES
+
+
+
+Image:
+http://www.world66.com/myworld66/visitedCountries/worldmap?visited=CAUSMXMATNALATBEBABGHRCZDKEEFIFRDEGRHUISIEITLVLTLUMKMTNLNOPLPTRORUYUSKSIESSECHUKVABHCYSATRAEBNKHCNINIDJPLAMYMVMMPHSGLKKRTWTHVNAUNZ
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'17250635';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d17250635','//adekgraffiti.blogspot.com/2010_06_01_archive.html','17250635');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '17250635',
+'bloggerUrl': 'http://www.blogger.com', 'title': 'REFLECTIONS', 'pageType':
+'archive', 'url': 'http://adekgraffiti.blogspot.com/2010_06_01_archive.html',
+'canonicalUrl': 'http://adekgraffiti.blogspot.com/2010_06_01_archive.html',
+'canonicalHomepageUrl': 'http://adekgraffiti.blogspot.com/', 'homepageUrl':
+'http://adekgraffiti.blogspot.com/', 'blogspotFaviconUrl':
+'http://adekgraffiti.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': 'June
+2010', 'pageTitle': 'REFLECTIONS: June 2010', 'encoding': 'UTF-8', 'locale': 'en-GB',
+'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42REFLECTIONS -
+Atom\42 href\75\42http://adekgraffiti.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42REFLECTIONS - RSS\42
+href\75\42http://adekgraffiti.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42REFLECTIONS - Atom\42
+href\75\42http://www.blogger.com/feeds/17250635/posts/default\42 /\76\n\74link
+rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\07517250635\42 /\076', 'meTag': '',
+'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'bottomSidebarLinkColor': '#447755',
+'mainVisitedLinkColor': '#ffffff', 'postTitleFont': 'normal bold 135% \47Trebuchet
+MS\47,Verdana,Arial,Sans-serif', 'borderColor': '#bbbbbb', 'mainTextColor':
+'#cceedd', 'pageTitleFont': 'normal bold 200% \47Trebuchet
+MS\47,Verdana,Arial,Sans-serif', 'titleTextColor': '#ffffff',
+'topSidebarVisitedLinkColor': '#eeeeee', 'postTitleColor': '#ffffff',
+'mainBgColor': '#446666', 'mainLinkColor': '#ffffff', 'topSidebarTextColor':
+'#ffffff', 'bottomSidebarTextColor': '#666666', 'bottomSidebarVisitedLinkColor':
+'#779988', 'headerFont': 'normal bold 100% \47Trebuchet
+MS\47,Verdana,Arial,Sans-serif', 'bottomSidebarBgColor': '#ffffff',
+'topSidebarBgColor': '#99bb55', 'bodyFont': 'normal normal 100% \47Trebuchet
+MS\47,Verdana,Arial,Sans-serif', 'descriptionFont': 'normal normal 100% \47Trebuchet
+MS\47,Verdana,Arial,Sans-serif', 'dateHeaderColor': '#ccff44', 'endSide': 'right',
+'topSidebarLinkColor': '#ffffff', 'startSide': 'left', 'topSidebarHeaderColor':
+'#ffffff'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic',
+'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url':
+'/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'},
+'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar',
+'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url':
+'/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image2', 'footer', null, document.getElementById('Image2'), {'resize':
+true}, 'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image5', 'footer', null, document.getElementById('Image5'), {'resize':
+true}, 'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image6', 'footer', null, document.getElementById('Image6'), {'resize':
+true}, 'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image8', 'footer', null, document.getElementById('Image8'), {'resize':
+true}, 'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image9', 'footer', null, document.getElementById('Image9'), {'resize':
+true}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'footer', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML3', 'sidebartop', null, document.getElementById('HTML3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML2', 'sidebartop', null, document.getElementById('HTML2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogListView', new
+_WidgetInfo('BlogList1', 'sidebartop', null, document.getElementById('BlogList1'),
+{'numItemsToShow': 0, 'totalItems': 19}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1',
+'sidebartop', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image1',
+'sidebartop', null, document.getElementById('Image1'), {'resize': false},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image7', 'sidebartop', null, document.getElementById('Image7'),
+{'resize': true}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView',
+new _WidgetInfo('HTML6', 'sidebartop', null, document.getElementById('HTML6'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML4', 'sidebartop', null, document.getElementById('HTML4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image3', 'sidebartop', null, document.getElementById('Image3'),
+{'resize': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image11',
+'sidebartop', null, document.getElementById('Image11'), {'resize': true},
+'displayModeFull')); _WidgetManager._RegisterWidget('_SlideshowView', new
+_WidgetInfo('Slideshow1', 'sidebartop', null,
+document.getElementById('Slideshow1'), {'title': '', 'computedFeed':
+'http://picasaweb.google.com/data/feed/base/user/adektuty/albumid/5293608838101246129?alt\75rss\46hl\75en_US',
+'linkNewWindow': false, 'randomizeFeed': false, 'speed': 3000}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image4',
+'sidebartop', null, document.getElementById('Image4'), {'resize': false},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image10', 'sidebartop', null, document.getElementById('Image10'),
+{'resize': true}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_SlideshowView', new _WidgetInfo('Slideshow2',
+'sidebartop', null, document.getElementById('Slideshow2'), {'title': '',
+'computedFeed':
+'http://picasaweb.google.com/data/feed/base/user/adektuty/albumid/5293674950790149633?alt\75rss\46hl\75en_US',
+'linkNewWindow': true, 'randomizeFeed': false, 'speed': 3000}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7', 'sidebartop',
+null, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML8', 'sidebar', null, document.getElementById('HTML8'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML9', 'sidebar', null, document.getElementById('HTML9'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML5', 'sidebar', null, document.getElementById('HTML5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/3811339452-lbx_en-GB.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

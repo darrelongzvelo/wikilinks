@@ -1,0 +1,1014 @@
+
+
+
+
+Grand Illumination in the Historic Area: Colonial Williamsburg, Virginia (function() { var
+cx = '016474116467456296202:zcdp2tq_pxi' var gcse = document.createElement('script');
+gcse.type = 'text/javascript'; gcse.async = true; gcse.src =
+(document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/headers/ar_home_logo.png?1348686267
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_b_search.png?1348686267
+    var currentIndex = -1 var default_phrase = "Home Listings by City"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686267
+        Consumer
+
+        - Home Buying
+
+        
+
+        - Home Improvement
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Home Selling
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686267
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  body { background: #000000
+url(/image_store/customizer/elaine1_background_3994_colonail_williamsburg_1.jpg)
+repeat fixed center top; margin: 0; padding: 0; } table#blog_content { width: 960px; margin:
+0 auto; } td.blog_content_td { background: #ffffff; } #top_menu { border: none;
+background-color:#000000; background-image: none; } #top_menu li a, #top_menu li
+span.fake_menu_item { color: #000000; text-shadow: none; } #top_menu .top_dropdown ul li
+a:hover { background: none !important; } #logo_wrapper { background: white; } #header {
+margin-top: 0; padding-top: 0; border: none !important; } .nav { margin: 0 !important;
+border-width: 0 !important; } #top_menu .top_dropdown { border: none;
+background-color:#000000; } #top_menu .top_dropdown a, #top_menu .top_dropdown
+.inner_menu_header { color:#000000 !important; } #top_menu .top_dropdown
+.inner_menu_header { text-decoration: underline; } #top_menu .top_dropdown ul li a:hover
+{ background-color:#000000; font-weight: bold; } .top_dropdown { margin-top: 5px; } * html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * + html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * html
+.top_dropdown { margin-top: 3px; z-index: 1000; } * + html .top_dropdown { margin-top: 19px;
+z-index: 1000; } Home : Blogs : Elaine VonCannon : Elaine's Blog .reblog { margin-left: 4px; }
+Tweet
+
+Grand Illumination in the Historic Area: Colonial Williamsburg, Virginia
+
+
+
+Grand Illumination in the Historic Area: Colonial Williamsburg, Virginia
+
+ 
+
+By: Elaine VonCannon ABR, SRES, REALTOR, Notary, Team Leader, Residential and Commercial
+Property Manager, Managing Partner VonCannon-Starke Commercial Division, Member of the
+National Association of Residential Property Managers, Award Winning Agent, RE/MAX Hall of
+Fame, Licensed in Virginia, Member of Commercial Council VAR, Director WAAR MLS Board
+
+ 
+
+ 
+
+A Grand Illumination is an outdoor ceremony involving the simultaneous activation of
+lights. The most common form of the ceremony involves turning on Christmas lights .
+
+ 
+
+One of the older of such community events began at Colonial Williamsburg , the restored
+Historic District of the former Virginia capital city of Williamsburg in 1935. It is held
+there each year on the Sunday of the first full weekend in December. (That is, if December
+begins on a Sunday, the event is held the following Sunday.) Williamsburg's Grand
+Illumination, which also involves fireworks, is based loosely on the colonial (and English )
+tradition of placing lighted candles in the windows of homes and public buildings to
+celebrate a special event. The winning of a war and the birthday of the reigning monarch are
+examples of such national events. Many candles appeared in darkened windows in New York after
+the September 11, 2001 attacks .
+
+ 
+
+In recent times, in many cities much larger than Williamsburg, such as Richmond, Virginia ,
+multiple skyscrapers and other buildings are decorated with long mostly-vertical strings
+of lights of a common theme, and are activated simultaneously in "Grand Illumination"
+ceremonies. Some communities, such as Norfolk, Virginia and Asheville, North Carolina ,
+have Grand Illumination parades . In Chattanooga, Tennessee , a similar event is called the
+"Grand Illumination On The River." In Oak Bluffs, Massachusetts on Martha's Vineyard , Grand
+Illumination is one of the most significant events each summer, immediately preceded by a
+Community Sing. In the United Kingdom , the "Grand Illumination" ceremony is generally
+referred to as "Turning On The Lights", and occurs in virtually all towns and cities
+throughout the country.
+
+ 
+
+In the 18th century, illuminations were sometimes held to commemorate the birth of the
+reigning sovereign. Today we hold a Grand Illumination in the Historic Area. Musical
+performances from multiple stages and firework displays from three different locations
+within the Historic Area make this event one that is not to be missed! Start your holiday season
+off with a pleasant memory of a present experience in the past.
+
+ 
+
+Musical performances begin at 5:15 p.m., and fireworks displays from three locations—the
+Palace, Magazine, and Capitol—at 7 p.m.
+
+ 
+
+No ticket or reservation required.
+
+ 
+
+ 
+
+Venue:
+
+ 
+
+Colonial Williamsburg
+
+ 
+
+Address:
+
+ 
+
+Colonial Williamsburg
+
+ 
+
+1 Visitor Center Drive
+
+ 
+
+Williamsburg, VA 23185
+
+ 
+
+Region Hampton Roads
+
+ 
+
+Locality Williamsburg City
+
+ 
+
+Date(s)/Time:
+
+ 
+
+Sunday, December 04, 2011 (5:00 PM-7:30 PM)
+
+ 
+
+Phone : (800) 447-8679
+
+ 
+
+Website www.colonialwilliamsburg.com/visit/holidays/index.cfm
+
+ 
+
+Grand Illumination www.colonialwilliamsburg.com/visit/christmas/index.cfm
+
+ 
+
+ 
+
+Come on out and join the festive occasion!
+
+ 
+
+ 
+
+Visit my web sites to view other listings at www.voncannonrealestate.com    
+www.estatesinvirginia.com www.elainesrealestate.com You will also find articles, my
+radio shows and TV appearance and more information on homes, the Virginia real estate market
+and my team.
+
+ 
+
+ 
+
+
+
+Image: http://insiderspassport.com/images/GI.jpg
+
+ 
+
+ 
+
+Image:
+http://mrwilliamsburg.files.wordpress.com/2010/11/grand-illumination-williamsburg-va.jpg
+
+ 
+
+
+
+Image: http://static.panoramio.com/photos/original/17152297.jpg   Posted by Elaine
+VonCannon on 11/26/2011 11:29 AM   Comments (0)   grand illumination , colonial
+williamsburg , december , christmas , james city county , city of williamsburg , historic
+homes , fireworks , realtor   Generate short URL Post is included in group: Active Rain Block
+Party
+
+Post is included in group: Dedicated Bloggers
+
+Post is included in group: Heritage Properties, Historic Sites and Antiques .
+
+Post is included in group: Most Active ActiveRain Blogging Agents
+
+Post is included in group: RealtorsÂ®
+
+
+
+0 Comments on Grand Illumination in the Historic Area: Colonial Williamsburg, Virginia
+Notify me of new comments: Email:
+
+Image: /images/24-message-info.png What does the graphic say?
+
+Image: /plugin_assets/fruit_captcha/images/f225.gif Leave a response… var
+RecaptchaOptions = { theme : 'custom', custom_theme_widget: 'recaptcha_widget' };
+
+Name:
+
+Email:
+
+(optional) Comment: //<![CDATA[ tinyMCE.init( { mode:'exact', convert_urls: false,
+elements:'blog_comment_comment', theme:'advanced', plugins: 'spellchecker',
+theme_advanced_toolbar_location: 'top', theme_advanced_buttons1 : 'bold, italic,
+underline, strikethrough, justifyleft, justifycenter, justifyright, justifyfull,
+outdent,indent, bullist, numlist,preview,spellchecker', extended_valid_elements:
+'object[classid|codebase|width|height|align|embed|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata],param[name|value],embed[quality|type|pluginspage|width|height|src|align|wmode|flashvars|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata]',
+plugin_preview_width : '600', plugin_preview_height : '600', theme_advanced_buttons2 :
+'', theme_advanced_buttons3 : '', file_browser_callback : 'fileBrowserCallBack',
+spellchecker_rpc_url : '/action/spellcheck' }); //]]> Spam Prevention: Incorrect please
+try again Type the two words above Type the numbers you hear
+
+Image: http://activeagent-prod-assets3.ar-img.com/images/sound.gif?1348686267
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/photo.gif?1348686267
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/reload.gif?1348686267
+Event.observe(window, 'load', initLazyLoad); function initLazyLoad() {
+$$("div.comment_image").each(function(e){ e.style.backgroundImage =
+"url("+e.getAttribute('imagesrc')+")" }) }   function contact(aid) { //documentation
+on this: http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/093/118093/large/the_very_best.jpg?1255273307
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/rainmaker_large.png?1348686267
+
+Elaine VonCannon
+
+Williamsburg , VA
+
+More about me…
+
+Coldwell Banker Traditions
+
+Address: 312-A Lightfoot Road, Williamsburg, Va, 23188
+
+Office Phone: (757) 345-5056
+
+Cell Phone: (757) 288-4685
+
+Email Me My blogs reflect my observations on life, real estate and my own state of the union
+(Elaine's world). I write my entries as a way to express myself and all the positive and
+negative aspects of real estate. I also use it to promote my listings and maybe even your
+enjoyment in reading it.
+
+
+
+
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/minus.gif?1348686267
+Listings
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/minus.gif?1348686267
+Links
+
+
+
+    
+
+    - real estate
+
+    
+
+    - virginia homes
+
+    
+
+    - investment property
+
+    
+
+    - 1031 tax exchange
+
+    
+
+    - property management
+
+    
+
+    - Williamsburg, Virginia, homes for sale
+
+    
+
+    - residential homes for sale in Virginia
+
+    
+
+    - commerical real estate in Virginia
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/minus.gif?1348686267
+Archives
+
+
+
+    
+
+    - September 2012 (2)
+
+    
+
+    - August 2012 (5)
+
+    
+
+    - July 2012 (3)
+
+    
+
+    - June 2012 (5)
+
+    
+
+    - May 2012 (6)
+
+    
+
+    - April 2012 (5)
+
+    
+
+    - March 2012 (1)
+
+    
+
+    - February 2012 (3)
+
+    
+
+    - January 2012 (1)
+
+    
+
+    - December 2011 (3)
+
+    
+
+    - November 2011 (10)
+
+    
+
+    - August 2011 (5)
+
+    
+
+    - July 2011 (2)
+
+    
+
+    - June 2011 (11)
+
+    
+
+    - May 2011 (1)
+
+    
+
+    - April 2011 (3)
+
+    
+
+    - March 2011 (2)
+
+    
+
+    - February 2011 (5)
+
+    
+
+    - January 2011 (5)
+
+    
+
+    - December 2010 (2)
+
+    
+
+    - November 2010 (3)
+
+    
+
+    - October 2010 (6)
+
+    
+
+    - September 2010 (10)
+
+    
+
+    - August 2010 (3)
+
+    
+
+    - July 2010 (9)
+
+    
+
+    - June 2010 (6)
+
+    
+
+    - May 2010 (2)
+
+    
+
+    - April 2010 (1)
+
+    
+
+    - March 2010 (5)
+
+    
+
+    - February 2010 (2)
+
+    
+
+    - January 2010 (2)
+
+    
+
+    - December 2009 (4)
+
+    
+
+    - November 2009 (19)
+
+    
+
+    - October 2009 (22)
+
+    
+
+    - September 2009 (8)
+
+    
+
+    - August 2009 (13)
+
+    
+
+    - July 2009 (3)
+
+    
+
+    - June 2009 (9)
+
+    
+
+    - May 2009 (6)
+
+    
+
+    - April 2009 (18)
+
+    
+
+    - March 2009 (9)
+
+    
+
+    - February 2009 (1)
+
+    
+
+    - January 2009 (1)
+
+    
+
+    - November 2008 (12)
+
+    
+
+    - October 2008 (10)
+
+    
+
+    - September 2008 (10)
+
+    
+
+    - July 2008 (23)
+
+    
+
+    - June 2008 (34)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find VA real estate agents and Williamsburg real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/new_design/eho.gif?1348686267
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

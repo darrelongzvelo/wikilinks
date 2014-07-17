@@ -1,0 +1,12797 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); A Good Choice . . .: May 2011 <!-- /*
+----------------------------------------------- Blogger Template Style Name:
+Rounders 2 Date: 27 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="mainBgColor" description="Main Background
+Color" type="color" default="#fff"> <Variable name="mainTextColor" description="Text
+Color" type="color" default="#000"> <Variable name="postTitleColor"
+description="Post Title Color" type="color" default="#333"> <Variable
+name="dateHeaderColor" description="Date Header Color" type="color" default="#810">
+<Variable name="borderColor" description="Post Border Color" type="color"
+default="#bbb"> <Variable name="mainLinkColor" description="Link Color" type="color"
+default="#b30"> <Variable name="mainVisitedLinkColor" description="Visited Link
+Color" type="color" default="#c63"> <Variable name="titleBgColor" description="Page
+Header Background Color" type="color" default="#710"> <Variable name="titleTextColor"
+description="Blog Title Color" type="color" default="#fff"> <Variable
+name="topSidebarHeaderColor" description="Top Sidebar Title Color" type="color"
+default="#fff"> <Variable name="topSidebarBgColor" description="Top Sidebar
+Background Color" type="color" default="#999"> <Variable name="topSidebarTextColor"
+description="Top Sidebar Text Color" type="color" default="#fff"> <Variable
+name="topSidebarLinkColor" description="Top Sidebar Link Color" type="color"
+default="#fff"> <Variable name="topSidebarVisitedLinkColor" description="Top
+Sidebar Visited Link Color" type="color" default="#ddd"> <Variable name="bodyFont"
+description="Text Font" type="font" default="normal normal 100% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="pageTitleFont" description="Blog
+Title Font" type="font" default="normal bold 200% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="descriptionFont" description="Blog
+Description Font" type="font" default="normal normal 100% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="headerFont" description="Sidebar
+Title Font" type="font" default="normal bold 100% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="postTitleFont" description="Post
+Title Font" type="font" default="normal bold 135% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="startSide" description="Start side in
+blog language" type="automatic" default="left"> <Variable name="endSide"
+description="End side in blog language" type="automatic" default="right"> */ body {
+background:#ccc; margin:0; text-align:center; line-height: 1.5em; font:x-small
+Trebuchet MS, Verdana, Arial, Sans-serif; color:#000000; font-size/* */:/**/small;
+font-size: /**/small; } /* Page Structure
+----------------------------------------------- */ /* The images which help create
+rounded corners depend on the following widths and measurements. If you want to change these
+measurements, the images will also need to change. */ #outer-wrapper { width:740px;
+margin:0 auto; text-align:left; font: normal normal 100% 'Trebuchet
+MS',Verdana,Arial,Sans-serif; } #main-wrap1 { width:485px; float:left;
+background:#ffffff
+url("http://www1.blogblog.com/rounders2/corners_main_bot.gif") no-repeat left
+bottom; margin:15px 0 0; padding:0 0 10px; color:#000000; font-size:97%;
+line-height:1.5em; word-wrap: break-word; /* fix for long text breaking sidebar float in IE
+*/ overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ }
+#main-wrap2 { float:left; width:100%;
+background:url("http://www1.blogblog.com/rounders2/corners_main_top.gif")
+no-repeat left top; padding:10px 0 0; } #main {
+background:url("http://www.blogblog.com/rounders2/rails_main.gif") repeat-y left;
+padding:0; width:485px; } #sidebar-wrap { width:240px; float:right; margin:15px 0 0;
+font-size:97%; line-height:1.5em; word-wrap: break-word; /* fix for long text breaking
+sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE sidebar
+float */ } .main .widget { margin-top: 4px; width: 468px; padding: 0 13px; } .main .Blog {
+margin: 0; padding: 0; width: 484px; } /* Links
+----------------------------------------------- */ a:link { color: #bb3300; }
+a:visited { color: #cc6633; } a:hover { color: #cc6633; } a img { border-width:0; } /* Blog
+Header ----------------------------------------------- */ #header-wrapper {
+background:#771100 url("http://www2.blogblog.com/rounders2/corners_cap_top.gif")
+no-repeat left top; margin-top:22px; margin-right:0; margin-bottom:0; margin-left:0;
+padding-top:8px; padding-right:0; padding-bottom:0; padding-left:0; color:#ffffff; }
+#header { background:url("http://www.blogblog.com/rounders2/corners_cap_bot.gif")
+no-repeat left bottom; padding:0 15px 8px; } #header h1 { margin:0; padding:10px 30px 5px;
+line-height:1.2em; font: normal bold 200% 'Trebuchet MS',Verdana,Arial,Sans-serif; }
+#header a, #header a:visited { text-decoration:none; color: #ffffff; } #header
+.description { margin:0; padding:5px 30px 10px; line-height:1.5em; font: normal normal
+100% 'Trebuchet MS',Verdana,Arial,Sans-serif; } /* Posts
+----------------------------------------------- */ h2.date-header { margin-top:0;
+margin-right:28px; margin-bottom:0; margin-left:43px; font-size:85%;
+line-height:2em; text-transform:uppercase; letter-spacing:.2em; color:#881100; }
+.post { margin:.3em 0 25px; padding:0 13px; border:1px dotted #bbbbbb; border-width:1px 0;
+} .post h3 { margin:0; line-height:1.5em;
+background:url("http://www2.blogblog.com/rounders2/icon_arrow.gif") no-repeat
+10px .5em; display:block; border:1px dotted #bbbbbb; border-width:0 1px 1px;
+padding-top:2px; padding-right:14px; padding-bottom:2px; padding-left:29px; color:
+#333333; font: normal bold 135% 'Trebuchet MS',Verdana,Arial,Sans-serif; } .post h3 a,
+.post h3 a:visited { text-decoration:none; color: #333333; } a.title-link:hover {
+background-color: #bbbbbb; color: #000000; } .post-body { border:1px dotted #bbbbbb;
+border-width:0 1px 1px; border-bottom-color:#ffffff; padding-top:10px;
+padding-right:14px; padding-bottom:1px; padding-left:29px; } html>body .post-body {
+border-bottom-width:0; } .post-body { margin:0 0 .75em; } .post-body blockquote {
+line-height:1.3em; } .post-footer { background: #eee; margin:0; padding-top:2px;
+padding-right:14px; padding-bottom:2px; padding-left:29px; border:1px dotted
+#bbbbbb; border-width:1px; font-size:100%; line-height:1.5em; color: #666; } /* The
+first line of the post footer might only have floated text, so we need to give it a height. The
+height comes from the post-footer line-height */ .post-footer-line-1 { min-height:1.5em;
+_height:1.5em; } .post-footer p { margin: 0; } html>body .post-footer {
+border-bottom-color:transparent; } .uncustomized-post-template .post-footer {
+text-align: right; } .uncustomized-post-template .post-author,
+.uncustomized-post-template .post-timestamp { display: block; float: left;
+text-align:left; margin-right: 4px; } .post-footer a { color: #bb3300; } .post-footer
+a:hover { color: #cc6633; } a.comment-link { /* IE5.0/Win doesn't apply padding to inline
+elements, so we hide these two declarations from it */ background/*
+*/:/**/url("http://www.blogblog.com/rounders/icon_comment_left.gif") no-repeat
+left 45%; padding-left:14px; } html>body a.comment-link { /* Respecified, for IE5/Mac's
+benefit */
+background:url("http://www.blogblog.com/rounders2/icon_comment_left.gif")
+no-repeat left 45%; padding-left:14px; } .post img, table.tr-caption-container {
+margin-top:0; margin-right:0; margin-bottom:5px; margin-left:0; padding:4px;
+border:1px solid #bbbbbb; } .tr-caption-container img { border: none; margin: 0; padding:
+0; } blockquote { margin:.75em 0; border:1px dotted #bbbbbb; border-width:1px 0;
+padding:5px 15px; color: #881100; } .post blockquote p { margin:.5em 0; }
+#blog-pager-newer-link { float: left; margin-left: 13px; } #blog-pager-older-link {
+float: right; margin-right: 13px; } #blog-pager { text-align: center; } .feed-links {
+clear: both; line-height: 2.5em; margin-left: 13px; } /* Comments
+----------------------------------------------- */ #comments { margin:-25px 13px 0;
+border:1px dotted #bbbbbb; border-width:0 1px 1px; padding-top:20px; padding-right:0;
+padding-bottom:15px; padding-left:0; } #comments h4 { margin:0 0 10px; padding-top:0;
+padding-right:14px; padding-bottom:2px; padding-left:29px; border-bottom:1px dotted
+#bbbbbb; font-size:120%; line-height:1.4em; color:#333333; } #comments-block {
+margin-top:0; margin-right:15px; margin-bottom:0; margin-left:9px; } .comment-author
+{ background:url("http://www.blogblog.com/rounders2/icon_comment_left.gif")
+no-repeat 2px .3em; margin:.5em 0; padding-top:0; padding-right:0; padding-bottom:0;
+padding-left:20px; font-weight:bold; } .comment-body { margin:0 0 1.25em;
+padding-top:0; padding-right:0; padding-bottom:0; padding-left:20px; } .comment-body
+p { margin:0 0 .5em; } .comment-footer { margin:0 0 .5em; padding-top:0; padding-right:0;
+padding-bottom:.75em; padding-left:20px; } .comment-footer a:link { color: #000000; }
+.deleted-comment { font-style:italic; color:gray; } .comment-form { padding-left:20px;
+padding-right:5px; } #comments .comment-form h4 { padding-left:0px; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 0; border: 4px solid
+#ffffff; } .profile-datablock { margin-top:0; margin-right:15px; margin-bottom:.5em;
+margin-left:0; padding-top:8px; } .profile-link {
+background:url("http://www.blogblog.com/rounders2/icon_profile_left.gif")
+no-repeat left .1em; padding-left:15px; font-weight:bold; } .profile-textblock { clear:
+both; margin: 0; } .sidebar .clear, .main .widget .clear { clear: both; } #sidebartop-wrap {
+background:#999999 url("http://www.blogblog.com/rounders2/corners_prof_bot.gif")
+no-repeat left bottom; margin:0px 0px 15px; padding:0px 0px 10px; color:#ffffff; }
+#sidebartop-wrap2 {
+background:url("http://www2.blogblog.com/rounders2/corners_prof_top.gif")
+no-repeat left top; padding: 10px 0 0; margin:0; border-width:0; } #sidebartop h2 {
+line-height:1.5em; color:#ffffff; border-bottom: 1px dotted #ffffff; margin-bottom:
+0.5em; font: normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif; } #sidebartop a {
+color: #ffffff; } #sidebartop a:hover { color: #dddddd; } #sidebartop a:visited { color:
+#dddddd; } /* Sidebar Boxes ----------------------------------------------- */
+.sidebar .widget { margin:.5em 13px 1.25em; padding:0 0px; } .widget-content { margin-top:
+0.5em; } #sidebarbottom-wrap1 { background:#ffffff
+url("http://www.blogblog.com/rounders2/corners_side_top.gif") no-repeat left top;
+margin:0 0 15px; padding:10px 0 0; color: #000000; } #sidebarbottom-wrap2 {
+background:url("http://www1.blogblog.com/rounders2/corners_side_bot.gif")
+no-repeat left bottom; padding:0 0 8px; } .sidebar h2 { margin:0; padding:0 0 .2em;
+line-height:1.5em; font:normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif; }
+.sidebar ul { list-style:none; margin:0 0 1.25em; padding:0; } .sidebar ul li {
+background:url("http://www2.blogblog.com/rounders2/icon_arrow_sm.gif") no-repeat
+2px .25em; margin:0; padding-top:0; padding-right:0; padding-bottom:3px;
+padding-left:16px; margin-bottom:3px; border-bottom:1px dotted #bbbbbb;
+line-height:1.4em; } .sidebar p { margin:0 0 .6em; } #sidebar h2 { color: #333333;
+border-bottom: 1px dotted #333333; } /* Footer
+----------------------------------------------- */ #footer-wrap1 { clear:both;
+margin:0 0 10px; padding:15px 0 0; } #footer-wrap2 { background:#771100
+url("http://www2.blogblog.com/rounders2/corners_cap_top.gif") no-repeat left top;
+color:#ffffff; } #footer {
+background:url("http://www.blogblog.com/rounders2/corners_cap_bot.gif")
+no-repeat left bottom; padding:8px 15px; } #footer hr {display:none;} #footer p
+{margin:0;} #footer a {color:#ffffff;} #footer .widget-content { margin:0; } /** Page
+structure tweaks for layout editor wireframe */ body#layout #main-wrap1, body#layout
+#sidebar-wrap, body#layout #header-wrapper { margin-top: 0; } body#layout #header,
+body#layout #header-wrapper, body#layout #outer-wrapper { margin-left:0,
+margin-right: 0; padding: 0; } body#layout #outer-wrapper { width: 730px; } body#layout
+#footer-wrap1 { padding-top: 0; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\07525444336\46blogName\75A+Good+Choice++.+.+.\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://agoodchoice.blogspot.com/search\46blogLocale\75en_US\46v\0752\46homepageUrl\75http://agoodchoice.blogspot.com/\46vt\75-4799578706801393677',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+A Good Choice . . .
+
+
+
+America is in the midst of a raging cultural and spiritual war. Forces of Good, Light,
+Conservatism and a Judeo-Christian Worldview daily battle the forces of Evil, Darkness,
+Socialism, False Religions and Philosophies. A Good Choice is on the frontlines exposing
+evil across America’s political and social spectrum.
+
+Monday, May 30, 2011
+
+
+
+Obama's failed leadership on Medicare reform
+
+
+
+Image:
+http://3.bp.blogspot.com/-x_bvuC29KEA/TePgR2-zzlI/AAAAAAAAF0Q/9PrvvV5k0ls/s320/lame+duck.jpg
+O n Saturday I read the following tweet by Tim Pawlenty as quoted in the Mansfield (Ohio)
+News Journal article titled, " After Obama's European tour, challenges at home ."
+
+
+
+"(S)orry to interrupt your European pub crawl, but what was your Medicare plan?" --- Tim
+Pawlenty tweet
+
+Our Teleprompted President is a better Campaigner-in-Chief than he is Commander-in-Chief.
+He demonstrates that he lacks basic leadership experience and skills. He must be defeated in
+November 2012.
+
+
+
+http:// www.CampaignToDefeatObama.com
+
+
+
+Image:
+http://2.bp.blogspot.com/-AAkGp99y6Ds/TePgKKAerOI/AAAAAAAAF0M/W74lklrGIjk/s1600/campaign+to+defeat+obama.jpg
+Posted by gregjaye at 2:22 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Barack Obama , Medicare , Tim
+Pawlenty
+
+Let's give back Mr. Obama his Saturday mornings!
+
+
+
+Image:
+http://1.bp.blogspot.com/-1FRmXXRec7c/TePST--r1KI/AAAAAAAAF0I/TN-rqa5zIVw/s200/obama-golfing.jpg
+H at tip goes to the June issue of Newsmax Magazine , which published the following quote of the
+current occupier of the White House:
+
+
+
+"I miss Saturday morning, rolling out of bed, not shaving, getting into my car with my girls,
+driving tohe supermarket, squeezing the fruit, getting my car washed, taking walks."
+
+--- Barack Obama to the editors and publishers of the Hearst magazines, lamenting his lack of
+privacy Nothing would be better for America than to give the radical liberal Mr. Obama more
+free time and Americans more freedom by electing a strong conservative President in November
+of 2012. Posted by gregjaye at 1:24 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: '12 Election , Barack Obama
+
+Hip Hop Rap on Abortion
+
+H at tip goes to @yosephdaviyd on Twitter who posted a link to this excellent video. Powerful
+lyrics follow. Memorial Day is an opportunity to remember our fallen Veterans in the various
+wars in which America has participated. It is also an opportune time to remember the 53 million
+plus babies of Veterans and others who have been murdered in their mothers' wombs. This is
+nothing less than an American Holocaust, an American Atrocity. May God forgive us our great
+sin.
+
+.
+
+
+
+
+
+Chapter 4: Abortion
+
+
+
+
+
+This thing is drastic - my sadness I can’t mask it.
+
+
+
+It’s tragic how wombs have turned into caskets .
+
+Genocide on the unborn – Have you seen this?
+
+Babies sacrificed on the altar of convenience .
+
+
+
+
+
+
+
+At least two lives are shredding - Impossible, not to regret it,
+
+As hard as she tries, she won’t forget it.
+
+A personal war that hurts to the core ,
+
+But yet there’s hope with a merciful Lord! Posted by gregjaye at 4:50 AM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Abortion , American Atrocity ,
+American Holocaust , Song Lyrics
+
+Sunday, May 29, 2011
+
+
+
+The Whole Armor of God, Part 13b
+
+Today I return to my series of articles commenting on the concept and principles involved in
+the Armor of God, which the Apostle Paul described in the New Testament. This is the topic of the
+Sunday school lesson, which I am currently teaching.
+
+.
+
+Image:
+http://4.bp.blogspot.com/-dwwdJ7HGT6I/TeFTFF0IgpI/AAAAAAAAAoc/fuqejleNs6Y/s400/Armored%2BCross.png
+
+That you may be able to withstand in the evil day: Ephesians 6:13.
+
+.
+
+Evil comes against each one of us in one form or another. This scripture (Ephesians 6:13) is
+telling us that we are to be able to withstand it (evil).
+
+
+
+Solomon writes that evil comes upon us unawares. Ecclesiastics 9:11,12 illustrates this
+fact, “I returned, and saw under the sun, that the race is not to the swift, nor the battle to
+the strong, neither yet bread to the wise, nor yet riches to men of understanding, nor yet
+favour to men of skill; but time and chance happeneth to them all. For man also knoweth not his
+time: as the fishes that are taken in an evil net, and as the birds that are caught in the snare; so
+are the sons of men snared in an evil time, when it falleth suddenly upon them."
+
+
+
+Solomon writes that time and chance takes place, and overtakes all people. We live thinking
+that life will continue on only to discover we are old. This happens through no fault of one’s
+own. It just happens. Chance happens to each of us. A person is at the wrong place at the wrong
+time or is at the right place at the right time.
+
+
+
+To deal with the unexpected, or even to prevent it, requires faith in God and God’s help. Only
+He knows the future.
+
+
+
+My brother, at 17 years of age in September of 1969, was driving south on State Route 19 out of
+Fremont, Ohio. He crossed a railroad track and started around a wide bend trying to drive it
+at 75 miles per hour. The front right tire went off the pavement onto the gravel berm. He
+quickly whipped the steering wheel to the left at which point the car rolled, the door flew
+open, and he was thrown out of the car. It rolled over him: killing him instantly. He was caught
+at an evil time which came upon him suddenly. Before we say he didn’t withstand in the evil day
+we need to realize that he was born-again. That means that he went to heaven when he died.
+
+
+
+Granted, this was a situation of his individual choosing. When you are being thrown out of the
+car and the car is rolling over you; your options are few. At that time, your previous
+relationship with the Almighty becomes mighty important. Jesus said, “I am the way, the
+truth, and the life: no man comes to the Father but by me (John 14:6).” Once a person is
+born-again they are going to heaven when they die. They do not have to fear the future. You can
+repent of your sins by confessing to God that you are a sinner and inviting Jesus into your heart
+and be born again.
+
+
+
+December 22, 1964 I had my own encounter of being caught at an evil time. Driving down a mountain
+road in Iran toward Kerman, Iran I rolled the ¾ ton truck I was driving. I was pulling a trailer
+behind me which had no brakes. In negotiating a wide left hand turn in the road the trailer tried
+to pass me on the right. I turned the steering wheel to get the truck aligned with the trailer but
+to no avail and the truck ran into the side of the mountain and rolled over. When the accident was
+investigated the investigators were amazed that the cab was not torn off the truck. They
+noticed that I had lashed a completely full propane bottle, five feet in height, to a bow behind
+the cab and the truck pivoted on the propane bottle. The truck was still drivable although the
+cab heater was smashed. The company commander was tired of the troops having accidents so he
+put out the word that the next soldier to have a vehicle accident was going to be hung. Not
+actually of course, but the soldier may wish he were dead after the company commander finished
+with him. Yours truly was the next soldier to have a vehicle accident. Another small problem
+was that I had not passed my driver’s test to get a driver's license. I was given a license
+anyway. The motor pool sergeant ssid he would teach me to drive. He had not, so he was also
+facing big trouble.
+
+
+
+To repair the vehicle; parts were taken off of other vehicles which were salvage vehicles. The
+cost of the parts thus used was counted as zero. One vehicle was over a thousand miles away and a
+mechanic had to take a boat to the vehicle to retrieve it. On the trip He was even caught in foul
+weather on the Strait of Hormuz and in a fire fight between warring tribes on the other side of
+the Strait from Iran in Oman. The financial threshold for reporting an accident was fifty
+dollars. The stated cost of repairing the vehicle came to forty-seven dollars and fifty
+cents. The accident was never reported. God had taken care of me both in the accident and in the
+aftermath.
+
+
+
+Remember, the evil day comes at a time when we are not expecting it. It is God’s power that
+protects us and sees us through enabling us to withstand in the evil day.
+
+
+
+The Psalmist makes this statement in Psalms 46:1b-7:
+
+
+
+“God is our refuge and strength, a very present help in trouble. Therefore will not we fear,
+though the earth be removed, and though the mountains be carried into the midst of the sea;
+Though the waters thereof roar and be troubled, though the mountains shake with the swelling
+thereof. Selah.
+
+
+
+“There is a river, the streams whereof shall make glad the city of God, the holy place of the
+tabernacles of the most High. God is in the midst of her; she shall not be moved: God shall help
+her, and that right early.
+
+
+
+“The heathen raged, the kingdoms were moved: he uttered his voice, the earth melted. The
+LORD of hosts is with us; the God of Jacob is our refuge. Selah.”
+
+
+
+It is important to withstand in the evil day when our faith is attacked. We are to be faithful
+unto death.
+
+
+
+What Jesus said to the church of Smyrna is appropriate for each one of us today. Revelation 2:10
+states, “Fear none of those things which thou shalt suffer: behold, the devil shall cast
+some of you into prison, that ye may be tried; and ye shall have tribulation ten days: be thou
+faithful unto death, and I will give thee a crown of life.”
+
+
+
+The statement in Revelation 12:11 is worth remembering today. “And they overcame him
+(Satan) by the blood of the Lamb, and by the word of their testimony; and they loved not their
+lives unto the death.”
+
+
+
+A vivid demonstration of the above verse is that of the first martyr, Stephen. His history is
+found in Acts 6:8-7:60. Stephen was disputing with some people of the synagogue of the
+Libertines, Cyrenians, Alexandrians, Cilicia and Asia. These brought Stephen before the
+council and brought false charges against him. When he was allowed to speak he preached to them
+telling them that Jesus is the Prophet Moses spoke about who would come after Moses. The
+council was enraged at Stephen. They dragged him out of Jerusalem and stoned him to death.
+Stephen held on to his faith and was faithful unto death. He withstood in the evil day.
+
+
+
+In 1974 the North Korean government claimed to have eradicated the last of the Christians in
+the country. It seems they were building a road for their leader to travel in the country when
+they found 29 Christians who had been living underground for two decades. Four of the group
+were quickly hung by the neck. The others were allowed to live so they could be crushed while
+alive with a steam-roller beginning with the feet and moving up the torso with each successive
+pass.
+
+
+
+Does this seem cruel to you? Barack Husain Obama has just signed hate crimes legislation
+protecting homosexuality. His avowed goal is to make each American accept homosexuality as a
+normal life style. The Christians have not been united politically in this country to support
+godliness in government policies thus allowing the godless to legalize immorality and
+punish godliness. Unless the situation is changed quickly overt state persecution of
+Christians is possible.
+
+
+
+Prepare now to withstand in the evil day. Posted by Sam at 9:05 AM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Barack Obama , Evil , God ,
+Homosexuality , Iran , Jesus Christ
+
+Saturday, May 28, 2011
+
+
+
+What is absolute anathema to the Left
+
+
+
+Image:
+http://4.bp.blogspot.com/-sj_g7HUMTOI/TeFwOXZ5MhI/AAAAAAAAF0A/fWaKtDdwQiU/s200/lloyd_marcus.jpg
+Lloyd Marcus What troubles, upsets, irritates, infuriates, and concerns the radical Left
+elites, who currently are in power in government, media, entertainment, etc. in America, are
+conservative blacks and conservative women. Blacks especially, who wander off or escape the
+Leftist owned or managed plantations, raise the intense ire of their “entitled” or
+“rightful” masters.
+
+
+
+
+
+The liberal politicians and other so-called elites claim to “protect” and
+“provide” for the downtrodden minority. All they want in return is their vote. They
+pander to their base, minorities and unions, just like the RINOs pander do to the pro-life and
+Tea Party conservatives only for their vote at election time and do the opposite or nothing
+when they arrive in Washington. A perfect example is the pittance of real spending cuts that
+were extracted by Speaker Boehner in the Fiscal Year 2010 budget so-called showdown with
+Nancy Pelosi ’s and Harry Reid ’s Democrat comrades.
+
+
+
+
+
+The current issue of the Tea Party Review (June 2011) magazine has a number of excellent
+articles about conservative women and men, black and white who have the audacity to walk away
+from the Democratic Party and its lies and destructive core philosophy.
+
+
+
+
+
+In one article, “ The heart and soul of a black Tea Partier ,” on page 21 Sakina Mengle asks
+the following insightful question, “… (I)s the American Dream under Obama ’s
+administration slowly devolving into an unrecognizable nightmare wrapped in
+ultraliberal/Progressive ideology?” It most certainly is. It is rapidly devolving,
+Sakina . The dreams of our President’s father, which he has taken as his own, are a socialist,
+Marxist nightmare and no utopia.
+
+
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/-WtScvqueSgM/TeFwY4AS-fI/AAAAAAAAF0E/T0dKqWXjVv8/s200/sakina+mengle.jpg
+Sakina Mengle Mengle goes on to observe in regard to the election of our half-baked,
+half-black President, “I am left to surmise that it was racism, swathed in black pride,
+dipped in white guilt, and gobbled up by the establishment media that put an obscure
+inexperienced state senator (and one-term federal Senator) into the White House.” Well
+said, my sentiments exactly!
+
+
+
+
+
+Posted by gregjaye at 6:04 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Baraack Obama , Black
+Conservatives , Conservatives , Tea Party Movement
+
+Thursday, May 26, 2011
+
+
+
+Herman Cain Should Get an F.
+
+
+
+
+
+Saturday, Greg gave Herman Cain an "A" grade after the first debate .  After reading this
+article, I think you will change your mind.  Cain says that he is not a politician because he
+has never held a public office.  Yet he was the chairman of the Kansas City branch of the
+Federal Reserve.  Basically this means that he is technically holding a position within a
+private institution, but with tremendous political powers that should not even be given to
+elected officials, much less a corporate employee.  Hat tip to Fortunateson of the Daily
+Paul for this one.
+
+
+
+http://youtu.be/Ol45PnAIFRU
+
+I politely questioned Herman Cain about his praise of the TARP Bailouts back in 2008 and his
+chiding of free market purists... I then went on to ask him his opinion of billions of taxpayer
+dollars being spent to bailout Foreign Banks in China/Libya/etc... When I mentioned that..
+he high tailed it out of there... told me that it was too long of a question to ask.. and one of his
+supporters slapped my wrist/forearm (I was shaking hands with Mr. Cain while I was
+questioning him)
+http://www.tennesseesonsofliberty.com/2011/05/herman-cain-exposed.html
+
+
+
+Herman Cain has also said that there is no need to audit the Federal Reserve even though the Fed
+bailed out many countries secretly INCLUDING LIBYA.  You now know whose side he is really on.
+ I can't see anyone in the field of candidates that I could vote for except Ron Paul or possibly
+Michele Bachmann if she runs.  Either way I will have to hold my nose while voting.
+
+
+
+And remember that Cain said that he supported Mitt Romney in the 2008 primary.  Unless Cain
+does really, really well, he will almost certainly give his delegates to Romney.  Ron Paul,
+on the other hand, *might* give his delegates to Michele Bachmann (Gary Johnson will almost
+surely have dropped out by then).  Bachmann was on a short list of about 30 candidates for
+Congress which Ron Paul endorsed in 2008.  I am not sure though who Michele Bachmann would
+give her delegates to if she drops out before the end, but it doesn't really matter if there is no
+one else left worth voting for. Posted by Matt at 8:26 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Audit , Bailouts , Federal Reserve
+Bank , Libya , Michele Bachmann , RINO , Ron Paul , TARP
+
+FBI Performs Damage Control for Big Pharma
+
+Posted by Matt at 12:08 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: FBI , Fraud , Johnson and Johnson ,
+Media Bias , Murder , Pharmaceutical Industry
+
+Monday, May 23, 2011
+
+
+
+Governor Paul LePage: The Maine thing is the main thing
+
+
+
+
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/-TIseWYDzL8I/Tdl8bdm2zhI/AAAAAAAAFz8/wnF6gpAG-kU/s320/Canadian+Lynx.jpg
+"It's time we start defending the interests of those who want to work and invest in Maine with
+the same vigor that we defend tree frogs and the Canadian lynx."   --- Maine Governor Paul
+LePage called his state's working families and small businesses "endangered." He plans to
+target environmental regulations that are stifling productivity. Posted by gregjaye at
+4:19 AM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Extreme Environmentalism ,
+Governor Paul LePage
+
+Sunday, May 22, 2011
+
+
+
+Why Evil Exists in the World Today, Part 2
+
+
+
+Image:
+http://3.bp.blogspot.com/-LHJvr7vGKUs/TdkXLz544vI/AAAAAAAAAoU/1lkZF-pXiyM/s400/tree%2Bof%2Bgood%2Band%2Bevil.jpg
+
+
+
+We see evil all around us today. TV, newspapers, and radio all chronicle the ravages of evil. I
+am continuing in a new series today, taking a brief break from my current series, “Armor of
+God.”
+
+
+
+If you wanted someone to love you; wouldn’t you want them to love you of their own free will,
+rather than because they had no other choice?
+
+
+
+God Provided the Human Race with A Choice: To Obey God or To Disobey God
+
+
+
+
+
+God accomplished giving mankind a choice at the time of creation. He created the Garden of Eden
+and put in it the Tree of Life and also the Tree of the Knowledge of Good and Evil.
+
+
+
+Genesis 2:15-17, “And the LORD God took the man, and put him into the Garden of Eden to dress it
+and to keep it. And the LORD God commanded the man, saying, Of every tree of the garden thou
+mayest freely eat: But of the tree of the knowledge of good and evil, thou shalt not eat of it: for
+in the day that thou eatest thereof thou shalt surely die.”
+
+
+
+Satan used the serpent to deceive Eve. She chose to disobey God by eating of the fruit of the Tree
+of the Knowledge of Good and Evil. Adam, who was not deceived, also disobeyed God by eating of
+the fruit of the Tree of the Knowledge of Good and Evil.
+
+
+
+Genesis 3:6, “And when the woman saw that the tree was good for food, and that it was pleasant
+to the eyes, and a tree to be desired to make one wise, she took of the fruit thereof, and did eat,
+and gave also unto her husband with her; and he did eat.”
+
+
+
+I Timothy 2:14, “Adam was not deceived, but the woman being deceived was in the
+transgression.”
+
+
+
+This was how sin originated in mankind. The source of temptation was Satan, who is the
+personification of evil. Eve, then Adam, succumbed to the temptation and sinned. Human
+nature has been fallen ever since. Posted by Sam at 9:56 AM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Adam , Eve , Evil , God , Satan , Sin ,
+Temptation
+
+Saturday, May 21, 2011
+
+
+
+Assessment of Announced Candidates for President as of 5/21/2011, Updated 11 PM
+
+Updated 11:00 pm 5/21/2011 after I found out that Herman Cain formally announced that he is
+running for President.
+
+
+
+Hat tip goes to OneNewsNow.com for the pictures of the candidates. You can read a more in-depth
+account of what the candidates are saying here .  
+
+
+
+All of the announced candidates in the race for Presidents are listed below.  They are
+listing in my preferred order of ability and preparation for service in that most important
+office. There is a reason why I list the incumbent last. if the election were held
+today amoung the announce candidates I could only vote for two of the following
+candidates, that would be Herman Cain and Dr. Paul .
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/-ZD-k6Y-U2o8/Tdh65jIKa4I/AAAAAAAAFz0/7p0jCn1Xk-M/s1600/herman-cain_jpg.jpg
+  Earlier today C-Span reported that Herman Cain announced that he was running for
+President. When I initially wrote this article I was unaware that Mr. Cain was running. I
+listened to his 30 minute announcement speech , which he made in Atlanta. He immediately rises
+to the top of my list. Here is  why I think he is the best candidate in the current field,,
+listen to his words from today's speech, "Is America ready for a real leader, or (does she want
+to stay with) a (Teleprompter) reader?" That is powerful stuff. This guy is a social as well as a
+fiscal conservative. I would rate him an A  as Presidential material.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/-dpBYWSXP3QE/TdgyCTX2jLI/AAAAAAAAFzs/HpZmSef3bPE/s1600/RonPaul_status3.jpg
+  Congressman Ron Paul is strong on fiscal conservative issues, he wants to get control of the
+Federal Reserve, he questions our entanglements overseas. I would rate him a C+ candidate as
+Presidential material.
+
+
+
+Image:
+http://4.bp.blogspot.com/-yRGxoF8ujLQ/TdgxUaGdxNI/AAAAAAAAFzo/iD4pqBhsQZk/s1600/NewtGingrich_status3.jpg
+Former Speaker of the House Newt Gingrich has some good ideas, but he also has some very bad
+ideas. He turned me off forever when he joined with Nancy Pelosi in support of Global
+Warming. This is inexcusable for a Conservative. He is too inconsistent for me. I would
+rate him a  D- candidate as Presidential material.
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/-zhKI19H9Lss/TdgxMbVqTsI/AAAAAAAAFzk/_NnIfDGxM9E/s1600/GaryJohnson_status3.jpg
+I don't know too much about this former Governor. His performance in the first GOP debate
+in South Carolina a few weeks ago showed that he was much to libertarian for me. He seemed to be
+very weak on the key social issues. I would rate him an  F candidate as Presidential material.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/-QTbrILaU_iU/TdgxEGiCqnI/AAAAAAAAFzg/YshEHEQoX9Q/s1600/BarackObama_status3.jpg
+I know too much about this candidate. Prior to his election in 2008  Barack Obama  was the
+least qualified, most inexperienced, and least prepared. He has proven over the past 2 1/2
+years to be even more inept and inappropriate for this nation's highest office  than when he
+was elected. He remains the least qualified and inexperienced. He is literally a vehicle
+being used by George Soros and the Left to destroy this nation. He must be defeated. I look at him
+as having served Jimmy Carter 's second term, therefore, he is term-limited! He is
+un-rate-able as a candidate to continue as President. Posted by gregjaye at 11:19 PM No
+comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: '12 Election , Barack Obama , Gary
+Johnson , Newt Gingrich , Ron Paul
+
+Obama’s Middle East Policy: Throw Israel under the bus!
+
+
+
+Image:
+http://4.bp.blogspot.com/-saCfv84aEww/TdfDOOkh1LI/AAAAAAAAFzY/_qNqXjv-nQ8/s200/obamaevileye_Netanyahu-vi.jpg
+Obama in his second major speech on the Middle East not only throws Israel under the bus, but he
+backs up the bus and runs over the nation of Israel, then abandons it for dead! Below are a couple
+of troublesome quotes from President Barack Husein Obama ’s Teleprompted speech, which he
+delivered this week. This was a very insulting speech given less than 24 hours prior to a
+meeting with the Israeli Prime Minister Benjamin Netanyahu .
+
+
+
+“The US believes that negotiations should result in two states, with permanent
+Palestinian borders with Israel, Jordan, and Egypt, and permanent Israeli borders with
+Palestine .”
+
+
+
+“As for security, every state has the right to self-defense, and Israel must be able to
+defend itself - by itself - against any threat.”
+
+In the first he wants the borders of Israel to be returned to pre-1967, prewar demarcation.
+This is a joke. Israel was attacked. A war occurred. Israel won the war, they ceased the spoils
+of war, now Obama wants to see Israel give up their land. Whose side is this guy on? It sure seems
+that in everything he does he favors the Muslim cause. And he says he is a Christian?
+
+
+
+As for the second quote the President is saying that Israel is on its own. He appears to be
+abandoning Americans strongest and perhaps only ally in the Middle East. Is this how we treat
+our friends? I agree with those who state that this man is anti-Sematic.
+
+
+
+Once again this controversial and increasingly unpopular President has demonstrated his
+own and his entire administration’s vast inexperience and his and their Muslim and Marxist
+bias.
+
+
+
+See also:
+
+
+
+IsraelYoureNotAlone.com  
+
+
+
+and
+
+
+
+Letting Israel know 'you're not alone'  Posted by gregjaye at 9:57 AM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Barack Obama , Benjamin Netanyahu ,
+Israel , Marxism , Muslim
+
+Friday, May 20, 2011
+
+
+
+Who in the Obama administration will replace PBS’s Jim Lehrer?
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/-hln7fsmW604/TdcG49Yg7RI/AAAAAAAAFzU/z-2Qm3TSvVo/s400/Jim+Lehrer.jpg
+Jim Lehrer , long-time PBS NewsHour anchor
+
+“The veteran anchor of PBS NewsHour , Jim Lehrer , will step down from his position after 36
+years.
+
+“As expected, PBS is already searching the Obama administration for a replacement!”
+
+
+
+--- NewsBusted , Episode 5/20/2011
+
+
+
+
+
+NewsBusted is a conservative comedy webcast about the news of the day, uploaded every Tuesday
+and every Friday. Their newest NewBusted episode includes the excerpt above.
+
+
+
+
+
+See right panel of this blog and click on the picture to watch this 2-3 minute comedy YouTube
+video. Posted by gregjaye at 8:31 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Media Bias , PBS
+
+Obama’s first term is really Carter’s second term. Obviously it’s time for a change
+
+
+
+“The malaise-filled economic train wreck of the Carter years has risen zombie-like from
+the ash heap of history to inflict its special brand of pain and suffering.” --- Bill Wilson ,
+President of Americans for Limited Government,  in his www.NetRightDaily.com article,
+  " Is it Jimmy Carter All Over Again? "
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/-587Jyfd6Jes/TdbxTwDJ9FI/AAAAAAAAFzM/PnGk2wAWmuU/s400/Obama_Carter_01.png
+
+Image:
+http://1.bp.blogspot.com/-065J0IMEuRE/TdbxJ1mUKBI/AAAAAAAAFzI/9Zfj7AXnPoE/s400/Barack+%2526+Jimmy.jpg
+
+Barack Obama  = Jimmy Carter 2.0
+
+
+
+Posted by gregjaye at 7:02 PM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: '12 Election , Barack Obama , Jimmy
+Carter
+
+Thursday, May 19, 2011
+
+
+
+So you want to nullify violations of the Constitution
+
+Posted by Matt at 9:48 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: civil disobedience , Elections ,
+Lawsuits , Mass Resistance , Nullification , Standing Doctrine , States Rights
+
+Shallow Small Group
+
+Posted by Matt at 9:26 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Humor , Small Groups
+
+Wednesday, May 18, 2011
+
+
+
+RomneyCare inspired ObamaCare!
+
+
+
+Image:
+http://1.bp.blogspot.com/-OofqbGeVpbw/TdRjETQHxWI/AAAAAAAAFzE/Kd8UjTNo75s/s400/romneycare-obamacare2.jpg
+
+“ Mitt Romney says the first thing he’d do as President is undo ObamaCare.
+
+
+
+
+
+“Of course, that way he can replace it with RomneyCare!”
+
+
+
+
+
+--- NewsBusted , Episode 5/17/2011 Comment:
+
+
+
+We do not need another fake conservative. They tried that with McCain in '08. We need the real
+thing. How about Herman Cain , Alan West , or Thaddeous McCotter ?
+
+
+
+NewsBusted is a conservative comedy webcast about the news of the day, uploaded every Tuesday
+and every Friday. Their newest NewBusted episode includes the excerpt above.
+
+
+
+
+
+See right panel of this blog and click on the picture to watch this 2-3 minute comedy YouTube
+video.
+
+
+
+Posted by gregjaye at 8:28 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Barack Obama , Barack Obama
+Government-Run Healthcare , Gov. Mitt Romney , Socialized Medicine
+
+Tuesday, May 17, 2011
+
+
+
+Raising the roof over the debt ceiling
+
+
+
+Image:
+http://2.bp.blogspot.com/-EkewJ4FgHuI/TdMVi0CiAFI/AAAAAAAAFzA/lxPmlA5O-jE/s320/Debt+Ceiling.jpg
+
+The Columbus (Ohio) Dispatch runs a regular feature in its newspaper identifying an
+important issue to the local community and asking for the vote of the readers on that
+particular issue along with any related comment. Occasionally I will respond and make a
+comment on the issue raised, as I did on today’s topic.
+
+The Hot Issue:
+
+
+
+Do you think Congress should raise the federal debt ceiling without huge budget cuts?
+
+______ Yes
+
+__ X __ No
+
+
+
+My Response:
+
+
+
+No, in fact, Congress should LOWER the debt ceiling and immediately cut spending. The crisis
+is not an insufficient debt ceiling. The crisis is that government has been SPENDING beyond
+its means. Enough is enough. We need to get a handle on our expenditures. If it mean drastic cuts
+across the board, so be it.
+
+
+
+I believe that most Americans want Washington's spending spree to stop. This is a winning
+political issue. More importantly, it's the right thing to do. It's the moral thing to do. This
+is why the GOP won the majority seats in the House of Representatives. The big question is will
+the Republicans stand on principle or will they bow to Wasting-a-ton, D.C. mentality, the way
+we've always done it, and raise the ceiling?  Posted by gregjaye at 8:49 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: National Debt , Wasteful
+Government Spending
+
+Monday, May 16, 2011
+
+
+
+David Garver Obituary
+
+Here is one of the most unusual obituaries I have ever seen. Notice where it is suggested that
+friends make memorial donations.
+
+
+
+
+
+DAVID L. GARVER David L. Garver, 68, went home to be with the Lord early Friday morning. ...
+David loved his country and was a proud member of the North Central Ohio Tea Party ... ... At
+Dave's request, memorial contributions may be made to any political candidate opposing
+Sherrod Brown or Barack Obama.
+
+David Garver Obituary: View David Garver's Obituary by News Journal Posted by gregjaye at
+10:49 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Barack Obama , Senator Sherrod
+Brown , Tea Party Participant
+
+Sunday, May 15, 2011
+
+
+
+Why Evil Exists in the World Today, Part 1
+
+
+
+Image:
+http://4.bp.blogspot.com/-5G8k7e4F_t4/Tc6pZ4G88fI/AAAAAAAAAoE/VR9sL8jhzSM/s400/monkeys-hear-no-evil-see-no-evil-speak-no-evil.jpg
+
+We see evil all around us today. TV, newspapers, and radio all chronicle the ravages of evil. I
+am starting a new series today, taking a brief break from my current series, “Armor of
+God.”
+
+
+
+
+
+If you wanted someone to love you; wouldn’t you want them to love you of their own free will,
+rather than because they had no other choice?
+
+
+
+
+
+Creation of the Human Race  
+
+
+
+God created man in His own image, after His own likeness, and gave him dominion over the earth
+(authority over other created things on earth).
+
+In Genesis 1:26, 27 we read, “And God said, ‘Let us make man in our image, after our
+likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and
+over the cattle, and over all the earth, and over every creeping thing that creepeth upon the
+earth.’ So God created man in His own image, in the image of God created He him; male and female
+created He them.” Therefore, man is the highest form of God's creation. In other words, you
+and I are God's ultimate masterpiece.
+
+
+
+Part of being like God (made in His image) is having the ability to choose of one’s own
+freewill, having self determination. In order for people to have the ability to choose to obey
+and love God, they also had to have the ability to choose to not obey and not to love God. This is
+the source of freedom and liberty. America's founders understood and acted on this
+principle, which is based on the morality found in the Holy Bible. That is the reason why
+we have been a free and a great nation.   Posted by Sam at 10:54 AM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Creation , Evil , God
+
+Saturday, May 14, 2011
+
+
+
+Our (Still) Unsecured Borders
+
+D espite wide evidence to the contrary, such as murders of border patrol agents and Americans
+living along our southern border, continuous drug and human trafficking, our increasingly
+controversial and unpopular President contends our borders are now secured. He mocks those
+of us who recognize the truth about our borders as unwilling to recognize his repeated
+assertion that he has made the borders more secure than they ever have been. He cunningly tries
+to paint conservatives as wholly anti-immigrants, when we really oppose outright ILLEGAL
+immigration and strongly support LEGAL immigration.  
+
+
+
+  The President repeats over and over the mantra that our borders are secured. He lies. They
+are not. The borders remain porous. Immigration laws remain essentially unenforced.
+Sanctuary cities continue to disregard the rule of law. Now his recent campaign speech to his
+hopeful 'Hispanic base' in Texas was just that, campaign rhetoric, campaign promises. 
+
+Hat tip goes to the HotAirPundit , which posted this YouTube video featuring Arizona Governor
+Jan Brewer on its website recently.
+
+
+
+Posted by gregjaye at 5:35 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: border security , Gov. Jan Brewer ,
+Illegal Immigration
+
+Wednesday, May 11, 2011
+
+
+
+Less talk, more action from GOP "Leaders"!!!
+
+
+
+I received an email from Speaker of the U.S. House of Representatives John Boehner . I
+immediately shot back the following reply:
+
+S peaker Boehner -
+
+
+
+Do you mean what you say? The American people would like to see Republicans stand on the
+principles that they espouse. Seems once you are safely entrenched in Washington for another
+two years, you forget those promises you made.
+
+
+
+I am disappointed with the Republican Party as a whole and how little you got in the Fiscal Year
+2011 budget battle. In my eyes you lost big time.
+
+
+
+We must stop spending. A good place to start is DECREASING the debt ceiling back a couple of
+billion instead of raising it even one blue cent.
+
+
+
+Please DO something ... I for one am quite tired of all the rhetoric and empty promises!
+
+
+
+Sincerely,
+
+
+
+- GregJaye
+
+
+
+
+
+
+
+JOHN BOEHNER'S E-BULLETIN: WEDNESDAY, MAY 11
+
+  No Debt Limit Increase Without Significant Cuts And Reforms
+
+
+
+This week, I addressed the Economic Club of New York on our efforts to create a better
+environment for private sector job growth by cutting government spending, preventing
+job-crushing tax hikes, and eliminating excessive federal regulations.  One of the major
+issues that I addressed in my remarks is something that I know that many of you have questions
+and concerns about: President Obama’s request that we raise the national debt limit.  
+
+  While it is true that allowing America to default by refusing to allow any increase in the
+debt limit once it expires would be irresponsible, it would be more irresponsible to raise
+the debt ceiling without simultaneously taking dramatic steps to reduce spending and reform
+the budget process. 
+
+In my speech, I made clear that without significant spending cuts and reforms to reduce our
+debt, there will be no debt limit increase.  These cuts should be greater than the
+accompanying increase in debt authority the president is given, and they should be actual
+cuts and program reforms.  Broad deficit or debt targets that punt the tough questions to the
+future are not acceptable.
+
+   We need to send a signal to investors and entrepreneurs everywhere that America is
+serious about dealing with our spending addiction.  We must increase confidence in our
+economy and reduce uncertainty for small businesses.  We need to encourage the creation
+American jobs. Posted by gregjaye at 6:14 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Sunday, May 08, 2011
+
+
+
+The Whole Armor of God, Part 13A
+
+
+
+Today I continue my series of articles commenting on the concept and principles involved in
+the Armor of God , which the Apostle Paul described in the New Testament. This is the topic of the
+Sunday school lesson, which I am currently teaching.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/-wjvDJYWdz-A/Tcag3z9tXRI/AAAAAAAAFyw/e7sopqxNvqQ/s400/armor-of-god1.jpg
+
+Stand against the wiles of the devil, Ephesians 6:11.
+
+To “stand” means to remain in an upright position. To remain unchanged in one’s
+opinion, attitude, point of view, to resist hostilities, and to hold one’s ground.  Not
+giving in to contraction.
+
+In this passage, Ephesians 6:11, a person is standing against the wiles of Satan. These can
+come into a person’s mind as thoughts or suggestions from others. You may wonder, “Where
+did that thought come from,” or may even think it is your own thought. Satan can insert
+thoughts into our mind. On the other hand, you may hear what someone else says. They both can be a
+wile of the devil.
+
+In one such case God has recorded for us in the Holy Bible found in Acts 4:32-37; 5:1-11. People
+were selling property and bringing the whole amount of the sale to the Apostles and giving it to
+the church. Ananias and Sapphira evidently wanted the prestige of giving 100% of the sale of
+their property, but they also wanted the money. They came upon a plan to sell their property,
+give 50% to the Apostles and the church, and say it was the total price of the land. This way they
+thought they would get both prestige and money. It never occurred to them that this was a wile of
+the devil. The first key they failed to notice was that they had to lie to carry out their plan. Of
+course they may have thought, “Who will know the difference.” Evidently, they figured
+God would never notice or even care.
+
+When Ananias brought the money, Peter asked him why Satin had filled his heart to lie to the Holy
+Spirit. Peter told him that he had not lied to man but to God. Upon hearing this Ananias fell down
+dead at the feet of Peter. God had recognized the wile of the devil and stood against it.
+Sapphira came to Peter three hours later and Peter asked her if the property was sold for such
+and such a price. She said that it was the price. Peter asked, “Why did you agree with your
+husband to test the Spirit of the Lord?” Then Peter said, “The feet of those who buried your
+husband are at the door and they will bury you also.  Then she fell down dead also.”
+
+Another wile happened in Ephesus when the Apostle Paul was there. We read of it in Acts
+19:23-41; 20:1. Demetrius, a silversmith, figured out that if images made with hands are not
+considered gods by the masses of people the lack of demand for his images of the goddess Artemis
+would put him into finical ruin. He told the other silversmiths that their livelihood
+depended on this traffic of the images of Artemis. Furthermore the temple would fall into
+disrepair. They stirred up several people of the population of Ephesus to riot against the
+Christians shouting “Great is Artemis of Ephesians.” The town clerk said that the courts
+were open and they could bring any charges to the court but there was no reason to riot. Paul then
+left for Macedonia .
+
+We may remember the stages of a wile.
+
+1. Being approached with a false front.  2. Close approximation to the truth exaggerating
+the negative.  3. Total lie exaggerating the positive.  4. Enamored by the wonderful
+prospects  5.  Forget and disregard the truth; believe a lie and disobey God.
+
+One must know and believe the truth. The battle ground is in our mind, which directs a
+person’s actions. This is where knowledge of scripture is necessary. As is written in
+Psalms 119:11, “Thy word have I hid in mine heart, that I might not sin against thee.”
+
+There must be a desire to do God’s will. A person must have a desire to do God’s will. Jesus
+has this desire. Scripture records this in Psalms 40:8, “I delight to do thy will, O my God:
+yea, thy law is within my heart.” Notice that the delight to do God’s will is accompanied by
+knowledge of God’s word in the heart. Paul writes that Jesus was obedient to the point of
+death. Philippians 2:8, “He humbled Himself, and became obedient unto  death, even the
+death of the cross.”
+
+The person who loves God will want to know what He says and will desire to do what He says. Jesus
+states in John 14:21, “He that hath my commandments, and keepeth them, he it is that loveth
+me:”
+
+Do you love God? If not, you can pray and ask God for help in loving Him. Posted by Sam at 10:02 AM 1
+comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Bible , God , Jesus , Satan
+
+Saturday, May 07, 2011
+
+
+
+Sheriff Mack Speaks in Ohio
+
+
+
+Image:
+http://4.bp.blogspot.com/-FG1Hwu_WkrA/TcYIRNazpaI/AAAAAAAAFys/3Q03gcNEz5w/s400/SheriffMack03.jpg
+
+Sheriff Richard Mack spoke this week in two locations in Ohio. I attended his presentation
+today in Delaware, Ohio. Sheriff Mack is one of the sheriffs who sued President Clinton over
+the implementation of the Brady Bill, which tried to implement stringent controls on the use
+of guns throughout the U.S. Wikipedia explains, " Mack received national attention in Mack v.
+United States (later restyled to  Printz v. United States ) in his tenure as a local sheriff
+for opposition to the   Brady Handgun Violence Prevention Act   on the basis that it is
+unconstitutional due to congressional action to compel state officers to execute Federal
+law."
+
+He spoke about the state sovereignty issue and the need for local officials and we
+the people to take back the freedoms we have lost through the years to the
+expansion of powers by the federal government. One major point he made was that Socialism and
+Freedom are incompatible. Mack says that there is a battle between the Constitutions of the
+U.S. and various states and such anti-constitutional things as: Political Correctness,
+Federal Programs, Federal Policies, Federal Regulations, and politicians who don't care
+about their oath of office. Mack emphasized that the oath government officials take at every
+level of government should mean something, but it in practice means little. This must
+change. 
+
+To learn more about the former Arizona Sheriff's work today see his websites at
+www.SheriffMack.com or  www.CSPOA.org .
+
+Sheriff Mack dedicated his presentation to Judge John Roll , who happened to be the district
+judge who ruled in Sheriff Mack 's case originally and who was also the judge who was murdered in
+the Tucson massacre at which the Congresswoman Giffords   was severely wounded. It was
+informative that no mention of the judge's stellar constitutional judicial stance
+was ever mentioned in his obituary or media coverage of his death. Mack also dedicated the
+meeting to his mother, who had passed away this week. He gamely when ahead and made his two
+presentations in Ohio saying his mother would have wanted him to do it. Tomorrow is Mother's
+Day and I pray Sheriff Mack and his family will be comforted by God and the
+positive remembrances of his mother.   Posted by gregjaye at 11:08 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Judge John Roll , Sheriff Richard
+Mack , State Sovereignty
+
+Friday, May 06, 2011
+
+
+
+The Union Libel
+
+
+
+Image:
+http://2.bp.blogspot.com/-i97nnFSqj8g/TcS4EdF6GTI/AAAAAAAAFyo/y3nDn3uKWzY/s400/Union+LIBLEL.png
+Cartoon found on GetLiberty.org 5/5/2011 Posted by gregjaye at 11:21 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Government Unions , Public Sector
+Unions.
+
+Republican Presidential Debate
+
+
+
+Wow! This seems early.   We have a whole year until the election.   Watch the debate at the
+links below.
+
+part 1: http://www.youtube.com/watch?v=0t0kARR4WWM part 2:
+http://www.youtube.com/watch?v=qQdXoRlJNP8 part 3:
+http://www.youtube.com/watch?v=-MLmakvy2c0 part 4:
+http://www.youtube.com/watch?v=DIlH9dxbvM8 part 5:
+http://www.youtube.com/watch?v=eToBYuMqo7Y part 6:
+http://www.youtube.com/watch?v=BAiwMEhfFTg part 7: 
+http://www.youtube.com/watch?v=JdaUqDFGA9I
+
+
+
+Posted by Matt at 7:53 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: '12 Presidential Election ,
+Presidential Debates , Ron Paul
+
+Thursday, May 05, 2011
+
+
+
+National Day of Prayer
+
+I was asked to lead a teaching time at the University of Cincinnati Christian Grads group for
+the National Day of Prayer.  I gave each person in the group one or two scriptures to read about
+the government or national repentance and then we prayed for America and other countries
+around the world.
+
+
+
+There is not much of the Day left, but take some time and read these passages, reflect on them and
+ask God to help guide the leaders of all of the nations of the world in the way peace and liberty.
+
+
+
+Source of Authority Proverbs 8:14-15 Matthew 28:18
+
+Liberty Galatians 5:13
+
+Peace I Timothy 2:1-4
+
+National Repentance 2 Chronicles 7:14
+
+Nation Under God Psalms 33:12-22
+
+Trusting in God as a Nation Psalms 20:7 Isaiah 31:1
+
+Equality in Judgment Deuteronomy 1:17
+
+Justice Proverbs 31:8-9
+
+Hypocrisy in Judgment Matthew 7:1-4
+
+Purpose of Government and Obedience to It Romans 13:1-7 I Peter 2:13-17   Posted by Matt at
+10:48 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: National Day of Prayer
+
+Petition Signing on Election Day
+
+This week I went to the polls where I collected signatures for the Ohio Healthcare Freedom
+Amendment.  While I was there, there were other people collecting signatures for the repeal
+of SB. 5.  The presence of the other petitioners was somewhat helpful to us and vice versa,
+because some people who were held up signing the other petition would have walked away while I
+getting someone else to sign.  One of the anti-SB. 5 guys was even handing out gospel tracts.
+
+
+
+A few of the voters didn't want to sign any petitions--they did not even want to hear an
+explanation of what the petitions were about.
+
+
+
+On the other hand, some people signed both petitions, without hardly even a decent
+explanation of it.  You just have to say "we just want to get this on the ballot so that the
+voters can decide", and they sign.  (What if it was about putting Jews in concentration
+camps?  "We just want to get it on the ballot"???!!!)  Dumb.
+
+
+
+There were a few who signed mine, but not the SB. 5 repeal, but I think that there were a lot more
+who signed it than mine.  This is particularly disturbing considering that this was in a very
+conservative area.  I am getting a sense that, rightly or wrongly, a lot of policemen,
+firefighters, and teachers are angry at the Republicans for enacting this SB. 5.  I've got a
+bad feeling that the Republicans are going take a beating in Ohio, Wisconsin, and other
+midwest states in 2012.  Not that a Republican sweep would necessarily be the best thing for
+this country (that would depend on who they nominate), but retaining the Presidency and large
+gains for the Democrats at all levels of government might just finish us off as a nation.
+
+
+
+As for the SB. 5 bill itself, I am still undecided and I tend to think it is not the end of world
+either if it is repealed or not.  But I have not read the bill, but have only glanced at it.
+ Just reading the bill does not mean anything, though because its full of statements about
+repealing, editing, or adding in words or short phrases to the Ohio Revised Code.  You can't
+really see what it is about unless you read the portion of the Ohio Revised Code before and after
+the change.  I doubt that very many of either the supporters or opposition to the repeal have
+done that.  I think that, like a lot of other issues, both sides are exaggerating the effects
+of this bill.  When I was asked if I would sign, I simply responded that I couldn't because I
+hadn't read the bill.  With the Ohio Healthcare Freedom Amendment, it is different because
+you can read what will be added to the state constitution right on the petition (and it is not
+very long).  One petitioner for the repeal of SB. 5 told me that the bill would encourage jobs
+to be filled by out of state workers.  (Well, if it somehow shows favoritism to them, then
+yeah, I get your point, but if it treats out of state and in state applicants the same, then
+what's the problem?)  I have heard that SB. 5 gets rid of some statewide rules for collective
+bargaining, and gives more control to the local governments.  If this is really all it is, and
+if the local governments can still have the choice of whether or not to have collecting
+bargaining and determine the rules for it, then I'm all for SB. 5.  That is basically my
+position on the issue, let the people who are served by the public employees decide how they are
+paid, not people on the other side of the state. Posted by Matt at 10:32 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Ballot Initiatives , Collective
+Bargaining , Ohio
+
+Obama Will Get No Hat Tip From Me
+
+Why did Obama "do right thing" and get Osama?  Well, first of all Obama is obviously a puppet of
+the New World Order and the corporations which contributed to his campaign.  His orders may
+as well have come off of a teleprompter.  Secondly, it wasn't Obama who got him, it was the Navy
+Seals.  And finally, I don't even know if all of this is real or not.  I am not entirely
+convinced that Osama didn't die a long time ago, or isn't somehow still alive even.  I have no
+real reason to believe the news media, the pentagon, and certainly not the White House.  So
+whether the New World Order had some reason for taking out Osama or whether they had some reason
+to make people think that he died, I don't know.  But it does seem to make people forget about
+Libya, and this could boost Obama in the polls.  But the Bible says,
+
+And for this cause God shall send them strong delusion, that they should believe a lie:  That
+they all might be damned who believed not the truth, but had pleasure in unrighteousness. 
+
+2 Thessalonians 2:11-12 (KJV) Posted by Matt at 9:52 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Baraack Obama , Deception ,
+Government-controlled media , Lies , Osama Bin Laden
+
+Wednesday, May 04, 2011
+
+
+
+Late Night Takes: Will Gadhafi be next to join Saddam & Osama?
+
+
+
+Image:
+http://3.bp.blogspot.com/-rcf9VsPJCzc/TcH9R--X5MI/AAAAAAAAFyk/yvELyQiyHBg/s400/Gadhafi.jpg
+
+
+
+Late Night Humor
+
+
+
+The Tonight Show With Jay Leno
+
+
+
+
+
+·      President Obama has done something that no one else has been able to do. He got
+Donald Trump to shut up. ·      Saddam Hussein is dead, and Osama bin Laden is dead. If
+you’re Moammar Gadhafi, living in exile is starting to sound really good. ·      NATO
+bombed Gadhafi’s compound in Tripoli . The bombing damaged countless antique rugs and
+curtains, leaving Gadhafi with absolutely nothing to wear.
+
+Late Night With Jimmy Fallon
+
+
+
+
+
+·      Rush Limbaugh said yesterday that Obama never would have tracked down bin Laden if
+it weren’t for George W. Bush’s policies. Although in fairness, Obama never would have
+even been elected if it weren’t for George W. Bush’s policies.
+
+These jokes are courtesy of   NewsMax.com   (Hat Tip!), which periodically sends out an
+email compilation of late night jokes, few of which are worth repeating … however, these
+were the exceptions in the batch I received today.
+
+Posted by gregjaye at 9:30 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Gadhafi , Islamic Terrorism , Osama
+Bin Laden , Saddam Hussein
+
+Tuesday, May 03, 2011
+
+
+
+Late Night Takes: Let Bygones be Bin Laden
+
+
+
+
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/-sXsiu9gsmwA/TcCoxYWjwEI/AAAAAAAAFyg/ACH9-paEPpg/s400/Osama-Rot-in-Hell.jpg
+
+Late Night Humor
+
+The Tonight Show With Jay Leno
+
+
+
+
+
+·      The good news: Osama bin Laden is dead. The bad news: there is no bad news. ·
+     For their honeymoon, the royal couple wants to go somewhere they can have complete
+privacy and no one in the country will give away their location. I think they’re going to
+Pakistan .
+
+Jimmy Kimmel Live!
+
+
+
+
+
+·      I would like us to kill bin Laden every Sunday night. It makes for a much brighter
+start to the week. ·      After all the talk about caves, bin Laden was hiding in a
+million-dollar mansion in Pakistan . The CIA became suspicious when they learned there was a
+million-dollar mansion in Pakistan . ·      I just want to point out that “buried at
+sea” means “dumped in the ocean.” This could be the best Shark Week ever.
+
+These jokes are courtesy of   NewsMax.com   (Hat Tip!), which periodically sends out an
+email compilation of late night jokes, few of which are worth repeating … however, these
+were the exceptions in the batch I received today. Posted by gregjaye at 9:16 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Islam , Islamic Terrorist , Osama
+Bin Laden Newer Posts Older Posts Home Subscribe to: Posts (Atom) window.___gcfg = {'lang':
+'en_US'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+Reign of Obama Ends (Hopefully)
+
+Countdown to Inauguration Day 2013
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Twitter
+
+Tweet
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Follow by Email
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+The U.N. needs to go!
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Contributors
+
+    
+
+    - Matt
+
+    
+
+    - Patricia
+
+    
+
+    - Sam
+
+    
+
+    - Polly
+
+    
+
+    - gregjaye
+
+    
+
+    - Fred
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+NewsBusted Episode 6/22/2012
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+ALG's The Week Ahead 1/23-28/12
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+ALL Report: The 3% Lie StopPlannedParenthood.com
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Alliance Defense Fund Weekly Update 1/23/2012
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2012 (176)
+
+        - ►  September (5)
+
+        
+
+        
+
+        - ►  August (5)
+
+        
+
+        
+
+        - ►  July (4)
+
+        
+
+        
+
+        - ►  June (19)
+
+        
+
+        
+
+        - ►  May (16)
+
+        
+
+        
+
+        - ►  April (21)
+
+        
+
+        
+
+        - ►  March (33)
+
+        
+
+        
+
+        - ►  February (30)
+
+        
+
+        
+
+        - ►  January (43)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2011 (554)
+
+        - ►  December (55)
+
+        
+
+        
+
+        - ►  November (32)
+
+        
+
+        
+
+        - ►  October (40)
+
+        
+
+        
+
+        - ►  September (54)
+
+        
+
+        
+
+        - ►  August (48)
+
+        
+
+        
+
+        - ►  July (53)
+
+        
+
+        
+
+        - ►  June (55)
+
+        
+
+        
+
+            - ▼  May (32)
+
+            - Obama's failed leadership on Medicare reform
+
+            
+
+            - Let's give back Mr. Obama his Saturday mornings!
+
+            
+
+            - Hip Hop Rap on Abortion
+
+            
+
+            - The Whole Armor of God, Part 13b
+
+            
+
+            - What is absolute anathema to the Left
+
+            
+
+            - Herman Cain Should Get an F.
+
+            
+
+            - FBI Performs Damage Control for Big Pharma
+
+            
+
+            - Governor Paul LePage: The Maine thing is the main...
+
+            
+
+            - Why Evil Exists in the World Today, Part 2
+
+            
+
+            - Assessment of Announced Candidates for President a...
+
+            
+
+            - Obama’s Middle East Policy: Throw Israel under the...
+
+            
+
+            - Who in the Obama administration will replace PBS’s...
+
+            
+
+            - Obama’s first term is really Carter’s second term....
+
+            
+
+            - So you want to nullify violations of the Constitut...
+
+            
+
+            - Shallow Small Group
+
+            
+
+            - RomneyCare inspired ObamaCare!
+
+            
+
+            - Raising the roof over the debt ceiling
+
+            
+
+            - David Garver Obituary
+
+            
+
+            - Why Evil Exists in the World Today, Part 1
+
+            
+
+            - Our (Still) Unsecured Borders
+
+            
+
+            - Less talk, more action from GOP "Leaders"!!!
+
+            
+
+            - The Whole Armor of God, Part 13A
+
+            
+
+            - Sheriff Mack Speaks in Ohio
+
+            
+
+            - The Union Libel
+
+            
+
+            - Republican Presidential Debate
+
+            
+
+            - National Day of Prayer
+
+            
+
+            - Petition Signing on Election Day
+
+            
+
+            - Obama Will Get No Hat Tip From Me
+
+            
+
+            - Late Night Takes: Will Gadhafi be next to join Sad...
+
+            
+
+            - Late Night Takes: Let Bygones be Bin Laden
+
+            
+
+            - Bad O-Man, Gone For Good ...
+
+            
+
+            - Reverend Jones Exposes Evil
+
+            
+
+        
+
+        
+
+        
+
+        - ►  April (34)
+
+        
+
+        
+
+        - ►  March (38)
+
+        
+
+        
+
+        - ►  February (63)
+
+        
+
+        
+
+        - ►  January (50)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (757)
+
+        - ►  December (64)
+
+        
+
+        
+
+        - ►  November (86)
+
+        
+
+        
+
+        - ►  October (69)
+
+        
+
+        
+
+        - ►  September (78)
+
+        
+
+        
+
+        - ►  August (58)
+
+        
+
+        
+
+        - ►  July (64)
+
+        
+
+        
+
+        - ►  June (56)
+
+        
+
+        
+
+        - ►  May (53)
+
+        
+
+        
+
+        - ►  April (52)
+
+        
+
+        
+
+        - ►  March (57)
+
+        
+
+        
+
+        - ►  February (59)
+
+        
+
+        
+
+        - ►  January (61)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (874)
+
+        - ►  December (52)
+
+        
+
+        
+
+        - ►  November (73)
+
+        
+
+        
+
+        - ►  October (46)
+
+        
+
+        
+
+        - ►  September (61)
+
+        
+
+        
+
+        - ►  August (108)
+
+        
+
+        
+
+        - ►  July (97)
+
+        
+
+        
+
+        - ►  June (82)
+
+        
+
+        
+
+        - ►  May (78)
+
+        
+
+        
+
+        - ►  April (73)
+
+        
+
+        
+
+        - ►  March (66)
+
+        
+
+        
+
+        - ►  February (61)
+
+        
+
+        
+
+        - ►  January (77)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2008 (827)
+
+        - ►  December (64)
+
+        
+
+        
+
+        - ►  November (96)
+
+        
+
+        
+
+        - ►  October (74)
+
+        
+
+        
+
+        - ►  September (83)
+
+        
+
+        
+
+        - ►  August (66)
+
+        
+
+        
+
+        - ►  July (75)
+
+        
+
+        
+
+        - ►  June (60)
+
+        
+
+        
+
+        - ►  May (57)
+
+        
+
+        
+
+        - ►  April (53)
+
+        
+
+        
+
+        - ►  March (60)
+
+        
+
+        
+
+        - ►  February (68)
+
+        
+
+        
+
+        - ►  January (71)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2007 (445)
+
+        - ►  December (54)
+
+        
+
+        
+
+        - ►  November (60)
+
+        
+
+        
+
+        - ►  October (36)
+
+        
+
+        
+
+        - ►  September (32)
+
+        
+
+        
+
+        - ►  August (30)
+
+        
+
+        
+
+        - ►  July (38)
+
+        
+
+        
+
+        - ►  June (30)
+
+        
+
+        
+
+        - ►  May (34)
+
+        
+
+        
+
+        - ►  April (34)
+
+        
+
+        
+
+        - ►  March (34)
+
+        
+
+        
+
+        - ►  February (31)
+
+        
+
+        
+
+        - ►  January (32)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2006 (193)
+
+        - ►  December (31)
+
+        
+
+        
+
+        - ►  November (30)
+
+        
+
+        
+
+        - ►  October (30)
+
+        
+
+        
+
+        - ►  September (13)
+
+        
+
+        
+
+        - ►  August (15)
+
+        
+
+        
+
+        - ►  July (9)
+
+        
+
+        
+
+        - ►  June (19)
+
+        
+
+        
+
+        - ►  May (21)
+
+        
+
+        
+
+        - ►  April (25)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+News
+
+    
+
+    - NewsBusters
+
+    
+
+    - Answering Muslims
+
+    
+
+    - Daily Jot
+
+    
+
+    - One News Now
+
+    
+
+    - DEBKA file
+
+    
+
+    - Accuracy in Media
+
+    
+
+    - World Net Daily
+
+    
+
+    - Christian News Service
+
+    
+
+    - Cross Action News
+
+    
+
+    - Cybernet News Service
+
+    
+
+    - Covenent News
+
+    
+
+    - News Max
+
+    
+
+    - Drudge Report
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Key Legislation Watch - Federal (US) & Ohio (OH)
+
+    
+
+    - (US) H.R. 1, "Stimulus (Pork & Payoff) Package" The American Recovery & Reinvestment
+    Act of 2009 PASSED HOUSE - IN SENATE - OPPOSE
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Links
+
+    
+
+    - Alliance Defense Fund
+
+    
+
+    - American Center for Law & Justice
+
+    
+
+    - American Family Association
+
+    
+
+    - American Policy Roundtable
+
+    
+
+    - American Right to Life
+
+    
+
+    - AmerIcan Values
+
+    
+
+    - American View
+
+    
+
+    - American Vision
+
+    
+
+    - Americans for Truth
+
+    
+
+    - Answers in Genesis
+
+    
+
+    - Are You a Good Person?
+
+    
+
+    - Association of Pro Life Physicians
+
+    
+
+    - Bible Gateway
+
+    
+
+    - Care Net
+
+    
+
+    - Center for Bio-Ethical Reform
+
+    
+
+    - Center for Reclaiming America for Christ
+
+    
+
+    - Citizen USA (newspaper)
+
+    
+
+    - Citizens for Community Values (Ohio)
+
+    
+
+    - Concerned Women for America
+
+    
+
+    - Coulter, Ann
+
+    
+
+    - Daily Jot
+
+    
+
+    - DEBATEitOUT
+
+    
+
+    - Discovery Institute
+
+    
+
+    - Eagle Forum
+
+    
+
+    - Faith 2 Action
+
+    
+
+    - Family Research Council
+
+    
+
+    - Federation for American Immigration Reform
+
+    
+
+    - GrassFire.org
+
+    
+
+    - High Impact Leadership Coalition
+
+    
+
+    - Institute on the Constitution
+
+    
+
+    - Jews for Jesus
+
+    
+
+    - Liberty Counsel
+
+    
+
+    - Limbaugh, David
+
+    
+
+    - MassResistance
+
+    
+
+    - Miller, Matt Political Blog
+
+    
+
+    - National Pro-Life Alliance
+
+    
+
+    - Numbers U.S.A.(Immigration Issues)
+
+    
+
+    - Ohio Christian Alliance
+
+    
+
+    - Pharmacists for Life International
+
+    
+
+    - Principled Policy Blog
+
+    
+
+    - Pro-Life Ohio
+
+    
+
+    - ProLifeBlogs
+
+    
+
+    - RealChoice
+
+    
+
+    - Reasons to Believe
+
+    
+
+    - Shared Hope International
+
+    
+
+    - Stop the ACLU
+
+    
+
+    - Thomas More Society (Chicago)
+
+    
+
+    - Traditional Values Coalition
+
+    
+
+    - Wallbuilders
+
+    
+
+    - Whats Right Whats Left Ministries
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Labels
+
+    
+
+    - "Religion of Peace" (1)
+
+    
+
+    - "Super Congress" (2)
+
+    
+
+    - "Winning the Future" (1)
+
+    
+
+    - $250000 (1)
+
+    
+
+    - ' (1)
+
+    
+
+    - '08 Election (24)
+
+    
+
+    - '08 President (1)
+
+    
+
+    - '08 Presidential Politics (205)
+
+    
+
+    - '08 Presidential Politics Media Bias (16)
+
+    
+
+    - '10 Election (30)
+
+    
+
+    - '12 Election (21)
+
+    
+
+    - '12 Presidential Election (32)
+
+    
+
+    - '12 Presidential Politics (5)
+
+    
+
+    - 'Politics (3)
+
+    
+
+    - 'Welfare (1)
+
+    
+
+    - . (2)
+
+    
+
+    - .Death (1)
+
+    
+
+    - .Life (1)
+
+    
+
+    - .Pro-Life (14)
+
+    
+
+    - /tea Party Platform (1)
+
+    
+
+    - 10th Amendment (5)
+
+    
+
+    - 111th Congress (1)
+
+    
+
+    - 112th Congress (6)
+
+    
+
+    - 12th Amendment (1)
+
+    
+
+    - 13th Amendment (2)
+
+    
+
+    - 14th Amendment (13)
+
+    
+
+    - 15th Amendment (1)
+
+    
+
+    - 16th Amendment (4)
+
+    
+
+    - 17th Amendment (2)
+
+    
+
+    - 2009 Election (1)
+
+    
+
+    - 2010 Election (41)
+
+    
+
+    - 2012 (1)
+
+    
+
+    - 2012 E (1)
+
+    
+
+    - 2012 Election (24)
+
+    
+
+    - 20th Amendment (1)
+
+    
+
+    - 22nd Amendment (1)
+
+    
+
+    - 23rd Amendment (1)
+
+    
+
+    - 25th Amendment (1)
+
+    
+
+    - 2nd Amendment (5)
+
+    
+
+    - 3rd Amendment (1)
+
+    
+
+    - 4th Amendment (8)
+
+    
+
+    - 501(c)(3) (4)
+
+    
+
+    - 5th Amendment (6)
+
+    
+
+    - 5th/3rd Bank (2)
+
+    
+
+    - 666 (1)
+
+    
+
+    - 6th Amendment (1)
+
+    
+
+    - 7th Amendment (1)
+
+    
+
+    - 8th Amendment (2)
+
+    
+
+    - 9/12 (1)
+
+    
+
+    - 911 (4)
+
+    
+
+    - 911 Truth (2)
+
+    
+
+    - A Culture Corrupted (3)
+
+    
+
+    - A Little Comic Relief (3)
+
+    
+
+    - Aaron Kein (1)
+
+    
+
+    - AARP (3)
+
+    
+
+    - ABC News (1)
+
+    
+
+    - Abel (1)
+
+    
+
+    - Aborftion (2)
+
+    
+
+    - Aborion (2)
+
+    
+
+    - Abortion (292)
+
+    
+
+    - Abortion Funding (30)
+
+    
+
+    - Abortion Industry (4)
+
+    
+
+    - Abortion' (1)
+
+    
+
+    - Abortionists (11)
+
+    
+
+    - Abottion (1)
+
+    
+
+    - Abraham (9)
+
+    
+
+    - Abram (1)
+
+    
+
+    - abrogation (1)
+
+    
+
+    - Absollute Power (1)
+
+    
+
+    - Abstinence (7)
+
+    
+
+    - Absurdistan (6)
+
+    
+
+    - Academia (1)
+
+    
+
+    - Academic Freedom (15)
+
+    
+
+    - Academic Grants (1)
+
+    
+
+    - Accountability (4)
+
+    
+
+    - accounting laws (1)
+
+    
+
+    - ACLU (14)
+
+    
+
+    - ACLU. anti-American (1)
+
+    
+
+    - ACORN (15)
+
+    
+
+    - Act of God (1)
+
+    
+
+    - Action After the Tea Party David Barton (1)
+
+    
+
+    - Action After the Tea Party Hot Issue (2)
+
+    
+
+    - Action After the Tea Party Tyranny (9)
+
+    
+
+    - Activists (4)
+
+    
+
+    - Adam (6)
+
+    
+
+    - Adam Andrzjewski (1)
+
+    
+
+    - Addiction (2)
+
+    
+
+    - ADF (1)
+
+    
+
+    - Adolf Hitler (5)
+
+    
+
+    - Adoption (3)
+
+    
+
+    - Adrianna Huffington (1)
+
+    
+
+    - Adult Stem Cell Research (5)
+
+    
+
+    - Adultery (5)
+
+    
+
+    - AFA (7)
+
+    
+
+    - Affirmative Action (1)
+
+    
+
+    - Afghanistan (9)
+
+    
+
+    - AFT (3)
+
+    
+
+    - Age Discrimination (1)
+
+    
+
+    - Agenda 21 (2)
+
+    
+
+    - Agriculture (2)
+
+    
+
+    - AIDS (1)
+
+    
+
+    - AIG (2)
+
+    
+
+    - aily Jot (1)
+
+    
+
+    - Al Franken (4)
+
+    
+
+    - Al Qaeda (12)
+
+    
+
+    - Al sharption (1)
+
+    
+
+    - Al Sharpton (6)
+
+    
+
+    - Alabama (1)
+
+    
+
+    - Alan Grayson (2)
+
+    
+
+    - Alan Keyes (9)
+
+    
+
+    - Alaska (9)
+
+    
+
+    - Alaska Independence Party (1)
+
+    
+
+    - Alaska Right to Life (3)
+
+    
+
+    - Alexis de Tocqueville (1)
+
+    
+
+    - Algore (31)
+
+    
+
+    - Alibi Czar (1)
+
+    
+
+    - Alien and Sedition Acts (1)
+
+    
+
+    - ALL Report (1)
+
+    
+
+    - Allah (17)
+
+    
+
+    - Alleged Sex Abuse (1)
+
+    
+
+    - Allen West (4)
+
+    
+
+    - Alliance Defense Fund (2)
+
+    
+
+    - Alternative Lifestyles (1)
+
+    
+
+    - Alvin Green (1)
+
+    
+
+    - Amademjad (1)
+
+    
+
+    - Ambulocetus (1)
+
+    
+
+    - Amercian History (4)
+
+    
+
+    - Amercian Life League (3)
+
+    
+
+    - America (30)
+
+    
+
+    - America Bashing (1)
+
+    
+
+    - American (1)
+
+    
+
+    - American Atrocity (111)
+
+    
+
+    - American Exceptionalism (5)
+
+    
+
+    - American Hero (1)
+
+    
+
+    - American history (3)
+
+    
+
+    - American History Revisionist (1)
+
+    
+
+    - American Holocaost (5)
+
+    
+
+    - American Holocaust (103)
+
+    
+
+    - American Holocust (1)
+
+    
+
+    - American Patriot (3)
+
+    
+
+    - American RTL (2)
+
+    
+
+    - American Solutions (1)
+
+    
+
+    - American Troops (3)
+
+    
+
+    - American VAaues (2)
+
+    
+
+    - American Values (12)
+
+    
+
+    - American View (1)
+
+    
+
+    - Americanism (1)
+
+    
+
+    - Americans for Prosperity (3)
+
+    
+
+    - Americans for Truth (3)
+
+    
+
+    - Amerivan Holocaust. (2)
+
+    
+
+    - Amerivan Holocaust. Pro-Death (21)
+
+    
+
+    - Amish (2)
+
+    
+
+    - Amish Grace (1)
+
+    
+
+    - Amnesty (31)
+
+    
+
+    - Amnesty Illegal Immigration (3)
+
+    
+
+    - Anarchy (5)
+
+    
+
+    - Andrew Breitbart (1)
+
+    
+
+    - Androgynous (1)
+
+    
+
+    - Andy Stern (1)
+
+    
+
+    - Angela McGlowan (1)
+
+    
+
+    - Angels (1)
+
+    
+
+    - Anger Towards God (10)
+
+    
+
+    - Anglican (1)
+
+    
+
+    - Animal rights (4)
+
+    
+
+    - Anit-Marriage (1)
+
+    
+
+    - Ann Arbor (1)
+
+    
+
+    - Ann Coulter (6)
+
+    
+
+    - Anohony Weiner (1)
+
+    
+
+    - Anthony Weiner (2)
+
+    
+
+    - Anthony Weiner (2)
+
+    
+
+    - Anti (1)
+
+    
+
+    - Anti-American (2)
+
+    
+
+    - Anti-capitalism (1)
+
+    
+
+    - Anti-Christian (3)
+
+    
+
+    - Anti-Semitic (2)
+
+    
+
+    - Antichrist (1)
+
+    
+
+    - Anwar Al Awlaki (1)
+
+    
+
+    - Apology (2)
+
+    
+
+    - Apology Veterans (1)
+
+    
+
+    - Apostacy (1)
+
+    
+
+    - Apostacy in the Church (4)
+
+    
+
+    - Apostasy (11)
+
+    
+
+    - Apostasy in the Church (1)
+
+    
+
+    - Appeasement (14)
+
+    
+
+    - Appropriations Bills (2)
+
+    
+
+    - Apstasy in the Church (1)
+
+    
+
+    - Archaeopteryx (1)
+
+    
+
+    - Arizona (11)
+
+    
+
+    - Arizona Shooting (1)
+
+    
+
+    - Arlen Specter (6)
+
+    
+
+    - Armor of God (19)
+
+    
+
+    - Arms (3)
+
+    
+
+    - Arrogance (5)
+
+    
+
+    - Article III section 2 (4)
+
+    
+
+    - Article V (1)
+
+    
+
+    - Articles of Freedom (18)
+
+    
+
+    - ARTL (1)
+
+    
+
+    - Assassination (2)
+
+    
+
+    - Asset Forfeiture (1)
+
+    
+
+    - assets (1)
+
+    
+
+    - Assimilation (2)
+
+    
+
+    - Assination (1)
+
+    
+
+    - Astronomy (1)
+
+    
+
+    - Atheism (13)
+
+    
+
+    - Atkins' Diet (1)
+
+    
+
+    - Atlanta (1)
+
+    
+
+    - AttackWatch (1)
+
+    
+
+    - Attitude (1)
+
+    
+
+    - Attorney General (1)
+
+    
+
+    - Audacity (1)
+
+    
+
+    - Audit (2)
+
+    
+
+    - Authority (4)
+
+    
+
+    - Autumn (1)
+
+    
+
+    - Axis of Evil (7)
+
+    
+
+    - Ayatollah Ali Khameini (1)
+
+    
+
+    - Baby-murder (4)
+
+    
+
+    - Babylon (3)
+
+    
+
+    - Bad Medicine (1)
+
+    
+
+    - Bailout Bill (5)
+
+    
+
+    - Bailoutl (1)
+
+    
+
+    - Bailouts (30)
+
+    
+
+    - Bailouts. Wasteful Government Spending (5)
+
+    
+
+    - Balance Budget Amendment (1)
+
+    
+
+    - Balanced Budget (9)
+
+    
+
+    - Balanced Budget Amendment (3)
+
+    
+
+    - Balancing the Budget (5)
+
+    
+
+    - Ballot Initiatives (4)
+
+    
+
+    - Banking (5)
+
+    
+
+    - Banks (1)
+
+    
+
+    - Baptism (1)
+
+    
+
+    - Baraack Obama (13)
+
+    
+
+    - Barack Obama (8)
+
+    
+
+    - Barack ;Obama (2)
+
+    
+
+    - Barack Obama (436)
+
+    
+
+    - Barack Obama Government-Run Healthcare (4)
+
+    
+
+    - Barb Davis White (1)
+
+    
+
+    - Barbara Boxer (2)
+
+    
+
+    - Barney Frank (6)
+
+    
+
+    - Barney Franks (1)
+
+    
+
+    - Barrack Obama (4)
+
+    
+
+    - Barry Soetoro (4)
+
+    
+
+    - Bart Stupak (2)
+
+    
+
+    - Believe (1)
+
+    
+
+    - Ben Bernenke (2)
+
+    
+
+    - Ben Franklin (1)
+
+    
+
+    - Ben Quayle (1)
+
+    
+
+    - Ben Stein (3)
+
+    
+
+    - Benjamin Netanyahu (1)
+
+    
+
+    - Benjamin Rush (1)
+
+    
+
+    - Bernie Madoff (1)
+
+    
+
+    - Bestiality (1)
+
+    
+
+    - Betrayal (1)
+
+    
+
+    - Better Business Bureau (1)
+
+    
+
+    - Betty Sutton (2)
+
+    
+
+    - Bias (2)
+
+    
+
+    - Bible (96)
+
+    
+
+    - Biblical Prophecy (2)
+
+    
+
+    - Bibliology (1)
+
+    
+
+    - Big Government (38)
+
+    
+
+    - Bigotry (6)
+
+    
+
+    - Bilderberg (2)
+
+    
+
+    - Bill Ayers (6)
+
+    
+
+    - Bill Clinton (6)
+
+    
+
+    - Bill Gates (1)
+
+    
+
+    - Bill O'Reilly (2)
+
+    
+
+    - Bill Russell (1)
+
+    
+
+    - Bill Wilson (5)
+
+    
+
+    - Bill Yarbrough (1)
+
+    
+
+    - Billboards (5)
+
+    
+
+    - Billy Graham (1)
+
+    
+
+    - Bioethics (1)
+
+    
+
+    - Bipartisanship (1)
+
+    
+
+    - Birth Control Pills (2)
+
+    
+
+    - Birth Rate (1)
+
+    
+
+    - BJ Lawson (2)
+
+    
+
+    - Black Conservatives (2)
+
+    
+
+    - Black Day (1)
+
+    
+
+    - Black Genocide (5)
+
+    
+
+    - Black Liberation Theology (1)
+
+    
+
+    - Blackmail (1)
+
+    
+
+    - Blackout (1)
+
+    
+
+    - Blackwater (2)
+
+    
+
+    - Blasphemy (4)
+
+    
+
+    - Blockade (2)
+
+    
+
+    - Blogs (1)
+
+    
+
+    - Blow-back (1)
+
+    
+
+    - Bob Barr (3)
+
+    
+
+    - Bob Bennett (1)
+
+    
+
+    - Bob Bird (1)
+
+    
+
+    - Bob Conley (1)
+
+    
+
+    - Bob Latta (1)
+
+    
+
+    - Bob Schaffer (1)
+
+    
+
+    - Bob Woodward (1)
+
+    
+
+    - Bobby Jindal (2)
+
+    
+
+    - Body of Christ (2)
+
+    
+
+    - Body Scanners (1)
+
+    
+
+    - Books (4)
+
+    
+
+    - border security (33)
+
+    
+
+    - Borders (12)
+
+    
+
+    - Boy Scouts of America (4)
+
+    
+
+    - Boycott (6)
+
+    
+
+    - Brad Stine (2)
+
+    
+
+    - Bradley Manning (1)
+
+    
+
+    - Brainwashed (3)
+
+    
+
+    - Bread of Life (1)
+
+    
+
+    - Brian Baird (1)
+
+    
+
+    - Brian Rohrbacher (1)
+
+    
+
+    - Bribery (6)
+
+    
+
+    - Bride (1)
+
+    
+
+    - bridge (1)
+
+    
+
+    - Britain (1)
+
+    
+
+    - Brokeback Mt. (1)
+
+    
+
+    - Brother in Christ (1)
+
+    
+
+    - Brother's Keeper (1)
+
+    
+
+    - Brownback (5)
+
+    
+
+    - Bruce Fein (1)
+
+    
+
+    - Buddhism (1)
+
+    
+
+    - Budget (2)
+
+    
+
+    - Bulembu (1)
+
+    
+
+    - Bumber Snickers (2)
+
+    
+
+    - Bumper Snicker (13)
+
+    
+
+    - Bumper Snickers (14)
+
+    
+
+    - Bumper Sticker (6)
+
+    
+
+    - Bumper Sticker. Freedom (1)
+
+    
+
+    - Bumper Stickers (8)
+
+    
+
+    - Bureaucrats (3)
+
+    
+
+    - Burning of the Qur'an (2)
+
+    
+
+    - Business (1)
+
+    
+
+    - Busted (1)
+
+    
+
+    - Cabinet (1)
+
+    
+
+    - CADC (1)
+
+    
+
+    - Cain (1)
+
+    
+
+    - California (2)
+
+    
+
+    - Camp American (1)
+
+    
+
+    - Campaign Contributions (3)
+
+    
+
+    - Campaign Promises (11)
+
+    
+
+    - Campaigning (3)
+
+    
+
+    - Canada (2)
+
+    
+
+    - Cancer (1)
+
+    
+
+    - Candidate Calculator (1)
+
+    
+
+    - Candidate Questionnaires (3)
+
+    
+
+    - Candles (1)
+
+    
+
+    - Cannibalsim (1)
+
+    
+
+    - Cap and Tax (9)
+
+    
+
+    - Cap and Trade (26)
+
+    
+
+    - Capitalism (19)
+
+    
+
+    - carbon dioxide (2)
+
+    
+
+    - Card Check (1)
+
+    
+
+    - Care Net (1)
+
+    
+
+    - Caring About People (1)
+
+    
+
+    - Caroline Kennedy (2)
+
+    
+
+    - Carolyn Kennedy (1)
+
+    
+
+    - Cartoon (56)
+
+    
+
+    - Cartoons (223)
+
+    
+
+    - Cartoons. (1)
+
+    
+
+    - Cartooon (1)
+
+    
+
+    - Case for War (9)
+
+    
+
+    - Cash for Clunkers (3)
+
+    
+
+    - Casinos (1)
+
+    
+
+    - Catechism (1)
+
+    
+
+    - Catholic (5)
+
+    
+
+    - CBR (2)
+
+    
+
+    - CBS (1)
+
+    
+
+    - CCV (7)
+
+    
+
+    - CDA (3)
+
+    
+
+    - CDC (3)
+
+    
+
+    - CEDAW (2)
+
+    
+
+    - Censorship (5)
+
+    
+
+    - Census (1)
+
+    
+
+    - Centralizing Power (4)
+
+    
+
+    - Certificate of Need (1)
+
+    
+
+    - CFR (3)
+
+    
+
+    - Chage (1)
+
+    
+
+    - Chai Feldblum (1)
+
+    
+
+    - Chain of Life 2009 (1)
+
+    
+
+    - Chance (1)
+
+    
+
+    - Change (39)
+
+    
+
+    - Chaos (1)
+
+    
+
+    - Character (11)
+
+    
+
+    - Charity (5)
+
+    
+
+    - Charlatans (6)
+
+    
+
+    - Charles Djou (1)
+
+    
+
+    - Charles Finney (1)
+
+    
+
+    - Charlie Crist (1)
+
+    
+
+    - Charlie Rangel (1)
+
+    
+
+    - Cheating (1)
+
+    
+
+    - Chevy Volt (1)
+
+    
+
+    - Chicago Council on Global Affairs (1)
+
+    
+
+    - Chicago Politics (12)
+
+    
+
+    - Chick-fil-A (1)
+
+    
+
+    - Child Abuse (1)
+
+    
+
+    - Children (6)
+
+    
+
+    - Children of Satan (3)
+
+    
+
+    - China (15)
+
+    
+
+    - Chinese (2)
+
+    
+
+    - Choice (1)
+
+    
+
+    - Chris Christie (1)
+
+    
+
+    - Chris Coons (1)
+
+    
+
+    - Chris Dodd (2)
+
+    
+
+    - Chris Matthews (3)
+
+    
+
+    - Chrisitanity (4)
+
+    
+
+    - Christ (2)
+
+    
+
+    - Christian (7)
+
+    
+
+    - Christian Persecution (2)
+
+    
+
+    - Christian-bashing (1)
+
+    
+
+    - Christianity (82)
+
+    
+
+    - Christians (9)
+
+    
+
+    - Christine O'Donnell (4)
+
+    
+
+    - Christmas (25)
+
+    
+
+    - Christophobia (3)
+
+    
+
+    - Chritianity (2)
+
+    
+
+    - Chromosomes (1)
+
+    
+
+    - Chrstianity (2)
+
+    
+
+    - Chuck Baldwin (4)
+
+    
+
+    - Chuck Colson (1)
+
+    
+
+    - Chuck Hagel (1)
+
+    
+
+    - Chuck Norris (1)
+
+    
+
+    - Chuck Woolery (2)
+
+    
+
+    - Church (5)
+
+    
+
+    - Churck Norris (1)
+
+    
+
+    - CIA (1)
+
+    
+
+    - Cicero (1)
+
+    
+
+    - Cincinnati (1)
+
+    
+
+    - Cisero (1)
+
+    
+
+    - Citizen Mandate (1)
+
+    
+
+    - Citizenship (3)
+
+    
+
+    - Civic Action (1)
+
+    
+
+    - civil disobedience (6)
+
+    
+
+    - Civil Liberties (17)
+
+    
+
+    - Civil Rights Act (1)
+
+    
+
+    - Civil Unions (3)
+
+    
+
+    - Civil War (1)
+
+    
+
+    - CleanHotels.com (1)
+
+    
+
+    - Clenard Childress (1)
+
+    
+
+    - Cleveland (1)
+
+    
+
+    - Cleveland Browns (2)
+
+    
+
+    - Climate Change (10)
+
+    
+
+    - Climate Change Hoax (1)
+
+    
+
+    - Climategale (1)
+
+    
+
+    - Climategate (9)
+
+    
+
+    - Clint Eastwood (3)
+
+    
+
+    - Cloning (5)
+
+    
+
+    - Cloture (2)
+
+    
+
+    - CNN (4)
+
+    
+
+    - CNP (1)
+
+    
+
+    - Coach Dave Daubenmire (2)
+
+    
+
+    - coim (1)
+
+    
+
+    - Collective (1)
+
+    
+
+    - Collective Bargaining (4)
+
+    
+
+    - Collectivism (2)
+
+    
+
+    - Collins Bailey (2)
+
+    
+
+    - Colorado Right to Life (1)
+
+    
+
+    - Columbia University (1)
+
+    
+
+    - Columbus (1)
+
+    
+
+    - Columbus Tea Party (2)
+
+    
+
+    - Commander in Chief (1)
+
+    
+
+    - Commerce (1)
+
+    
+
+    - Commercialism (2)
+
+    
+
+    - common law (1)
+
+    
+
+    - Common Sense (2)
+
+    
+
+    - Commonsense Living (2)
+
+    
+
+    - Communication (1)
+
+    
+
+    - Communisim (1)
+
+    
+
+    - Communism (17)
+
+    
+
+    - Communist (1)
+
+    
+
+    - Community Defense Act (2)
+
+    
+
+    - community organizing (2)
+
+    
+
+    - Compassion (1)
+
+    
+
+    - Compeon and Ramos (2)
+
+    
+
+    - Comprehensive Immigration Reform (2)
+
+    
+
+    - Comprehensive Sex Ed (4)
+
+    
+
+    - Compromise (13)
+
+    
+
+    - Compulsory Abortion (1)
+
+    
+
+    - Con (1)
+
+    
+
+    - Condom-based sex ed (3)
+
+    
+
+    - Confidence Game (1)
+
+    
+
+    - Congress (51)
+
+    
+
+    - Congressional Budget Office (1)
+
+    
+
+    - Congressman Pete Stark (1)
+
+    
+
+    - Connie Mack (2)
+
+    
+
+    - conscience (3)
+
+    
+
+    - Conscience clause (2)
+
+    
+
+    - Conservationism (2)
+
+    
+
+    - Conservatism (25)
+
+    
+
+    - Conservative (28)
+
+    
+
+    - Conservative of Convenience (6)
+
+    
+
+    - Conservative. Conspiracy (1)
+
+    
+
+    - Conservatives (14)
+
+    
+
+    - Conservativism (14)
+
+    
+
+    - Conspiracy (2)
+
+    
+
+    - Constitution (47)
+
+    
+
+    - Constitution Day (3)
+
+    
+
+    - Constitution Party (9)
+
+    
+
+    - Constitutional Amendment (17)
+
+    
+
+    - Constitutional Crisis (8)
+
+    
+
+    - Constitutionalists (1)
+
+    
+
+    - Conterfeit Marriage (1)
+
+    
+
+    - Contest (1)
+
+    
+
+    - Continental Congress (21)
+
+    
+
+    - Contracts (1)
+
+    
+
+    - Conversion (3)
+
+    
+
+    - Copyright Law (1)
+
+    
+
+    - Corporate Greed (6)
+
+    
+
+    - Corporate Sell Out (4)
+
+    
+
+    - Corruption (13)
+
+    
+
+    - Corwin Amendment (1)
+
+    
+
+    - Country Club Republicans (2)
+
+    
+
+    - Coup (1)
+
+    
+
+    - Courage (4)
+
+    
+
+    - Cover Up (2)
+
+    
+
+    - CPAC 2012 (1)
+
+    
+
+    - Craig Becker (1)
+
+    
+
+    - Creation (16)
+
+    
+
+    - Creation Care (1)
+
+    
+
+    - Creation Museum (5)
+
+    
+
+    - Creationism (15)
+
+    
+
+    - Creationsim (1)
+
+    
+
+    - Creator (4)
+
+    
+
+    - Crime (1)
+
+    
+
+    - Criminalization of Christianity (1)
+
+    
+
+    - Criminalize Women (1)
+
+    
+
+    - Criminals (2)
+
+    
+
+    - Critics (1)
+
+    
+
+    - Crony Capitalism (2)
+
+    
+
+    - Crystal Dixon (1)
+
+    
+
+    - CSPAN (1)
+
+    
+
+    - Cuba (2)
+
+    
+
+    - cults (1)
+
+    
+
+    - Cultural Corruption (9)
+
+    
+
+    - Cultural Heritage (1)
+
+    
+
+    - Culture (1)
+
+    
+
+    - Culture of Death (11)
+
+    
+
+    - Culture of Life (7)
+
+    
+
+    - Culture War (9)
+
+    
+
+    - CutCapBalance (7)
+
+    
+
+    - Cuyahoga County (1)
+
+    
+
+    - CWA (1)
+
+    
+
+    - Cynthia McKinney (2)
+
+    
+
+    - Czars (8)
+
+    
+
+    - D (1)
+
+    
+
+    - D and E (1)
+
+    
+
+    - D and X (1)
+
+    
+
+    - DADT (4)
+
+    
+
+    - Daily Jot (8)
+
+    
+
+    - Dalai Lama (1)
+
+    
+
+    - Dan Quayle (1)
+
+    
+
+    - Dan Rather (2)
+
+    
+
+    - Dana Loesch (2)
+
+    
+
+    - Daniel Imperato (1)
+
+    
+
+    - Daniel Webster (1)
+
+    
+
+    - Darfur (1)
+
+    
+
+    - Darkness (2)
+
+    
+
+    - Darrell Issa (1)
+
+    
+
+    - Darren Castle (1)
+
+    
+
+    - Darwin (2)
+
+    
+
+    - Dave Daubenmire (3)
+
+    
+
+    - David (1)
+
+    
+
+    - David Brownlow (2)
+
+    
+
+    - David Eugene Price (1)
+
+    
+
+    - David James Manning (1)
+
+    
+
+    - David Letterman (2)
+
+    
+
+    - David Lewis (1)
+
+    
+
+    - David Macko (1)
+
+    
+
+    - David McAloon (1)
+
+    
+
+    - David Petraeus (2)
+
+    
+
+    - Davis-Bacon Act (1)
+
+    
+
+    - day of silence (1)
+
+    
+
+    - DEA (1)
+
+    
+
+    - Dear Leader (2)
+
+    
+
+    - Death (6)
+
+    
+
+    - Death and Dying (3)
+
+    
+
+    - Death Panel (2)
+
+    
+
+    - Death Panels (5)
+
+    
+
+    - Death Penalty (4)
+
+    
+
+    - Deathstyle (1)
+
+    
+
+    - debate (5)
+
+    
+
+    - Debates (1)
+
+    
+
+    - Debauchery (1)
+
+    
+
+    - Debbie Wasserman Schultz (1)
+
+    
+
+    - Debra Medina (2)
+
+    
+
+    - Debt (24)
+
+    
+
+    - Debt Ceiling (19)
+
+    
+
+    - Debt Ceiling Crisis (2)
+
+    
+
+    - Decadence (1)
+
+    
+
+    - Deception (8)
+
+    
+
+    - Declaration of Independence (5)
+
+    
+
+    - Declaration of War (3)
+
+    
+
+    - Dedication (1)
+
+    
+
+    - Deeming (1)
+
+    
+
+    - DefeatTheDebt.com (1)
+
+    
+
+    - Defense Department (1)
+
+    
+
+    - Deficit (16)
+
+    
+
+    - Deficit spending (8)
+
+    
+
+    - Deficity (3)
+
+    
+
+    - Dehumanization (1)
+
+    
+
+    - Delaware (2)
+
+    
+
+    - Delegates (1)
+
+    
+
+    - Delia Lopez (3)
+
+    
+
+    - Deminse of America (1)
+
+    
+
+    - Demise of America (13)
+
+    
+
+    - Democracy (8)
+
+    
+
+    - Democrat Party (22)
+
+    
+
+    - Democratic Party (32)
+
+    
+
+    - Democrats (20)
+
+    
+
+    - Demons (1)
+
+    
+
+    - Dennis Kucinich (7)
+
+    
+
+    - Department of Homeland Security (7)
+
+    
+
+    - Department of Justice (3)
+
+    
+
+    - Dependency on Government (2)
+
+    
+
+    - Deport (2)
+
+    
+
+    - depravity (2)
+
+    
+
+    - Depression (1)
+
+    
+
+    - Derek Bell (1)
+
+    
+
+    - Descendants of Abraham (1)
+
+    
+
+    - Desperados (1)
+
+    
+
+    - Despots (1)
+
+    
+
+    - Destroying America (1)
+
+    
+
+    - Destruction of America (1)
+
+    
+
+    - DHHS (8)
+
+    
+
+    - DHS (1)
+
+    
+
+    - Dialogue (1)
+
+    
+
+    - Diana DeGette (1)
+
+    
+
+    - Dick Cheney (3)
+
+    
+
+    - Dick Lugar (2)
+
+    
+
+    - Dictators (1)
+
+    
+
+    - Diplomacy (1)
+
+    
+
+    - Dirty Tricks (2)
+
+    
+
+    - DISCLOSE Act (1)
+
+    
+
+    - Discrimination (5)
+
+    
+
+    - Dishonesty (2)
+
+    
+
+    - Disobedience (2)
+
+    
+
+    - Dispatch (1)
+
+    
+
+    - Dissidents (1)
+
+    
+
+    - Diversity (5)
+
+    
+
+    - Divine Providence (1)
+
+    
+
+    - Divorce (2)
+
+    
+
+    - DNA (2)
+
+    
+
+    - DNC (1)
+
+    
+
+    - Doing Right (2)
+
+    
+
+    - DOMA (7)
+
+    
+
+    - Dome of the Rock (1)
+
+    
+
+    - Domestic partnerships (1)
+
+    
+
+    - Domestic terrorism (9)
+
+    
+
+    - Domestic terrorist (20)
+
+    
+
+    - Domestic Terrorists (4)
+
+    
+
+    - Don Wildmon (1)
+
+    
+
+    - Don't Ask Don't Tell (3)
+
+    
+
+    - Donald Grundman (1)
+
+    
+
+    - Donald Rumsfeld (1)
+
+    
+
+    - Donald Trump (1)
+
+    
+
+    - Doug Patterson (1)
+
+    
+
+    - Dr. Ajai Lall (1)
+
+    
+
+    - Dr. Alveda King (4)
+
+    
+
+    - Dr. D. James Kennedy (1)
+
+    
+
+    - Dr. George Tiller (15)
+
+    
+
+    - Dr. James Dobson (1)
+
+    
+
+    - Dr. James Dotson (1)
+
+    
+
+    - Dr. James Holsinger (1)
+
+    
+
+    - Dr. Laura (1)
+
+    
+
+    - Dr. Phil (1)
+
+    
+
+    - Dr. Rob Steele (1)
+
+    
+
+    - Dr. Suess (1)
+
+    
+
+    - Dr.David Prentice (1)
+
+    
+
+    - Dr.Patrick Johnson (3)
+
+    
+
+    - Dr.Patrick Johnston (1)
+
+    
+
+    - DREAM act (5)
+
+    
+
+    - Drill Baby Drill (2)
+
+    
+
+    - Drudge Report (2)
+
+    
+
+    - Drug Trafficking (1)
+
+    
+
+    - Drugs (10)
+
+    
+
+    - Dubai (1)
+
+    
+
+    - Due Process (2)
+
+    
+
+    - Dumbing Down (1)
+
+    
+
+    - Duncan Hunter (15)
+
+    
+
+    - E-cards (1)
+
+    
+
+    - Earl Blumenauer (2)
+
+    
+
+    - Earmarks (2)
+
+    
+
+    - Earth Day (1)
+
+    
+
+    - earth2obama.org (1)
+
+    
+
+    - Earthquake (1)
+
+    
+
+    - Easter (5)
+
+    
+
+    - Ecomy (2)
+
+    
+
+    - Economic Collapse (43)
+
+    
+
+    - Economic Crisis (7)
+
+    
+
+    - Economic Revitalization (8)
+
+    
+
+    - Economy (74)
+
+    
+
+    - Economy. Lyrics (1)
+
+    
+
+    - ectopic (1)
+
+    
+
+    - Ed Freeman (1)
+
+    
+
+    - Ed Schultz (1)
+
+    
+
+    - Editorial (1)
+
+    
+
+    - Education (62)
+
+    
+
+    - Education Funding (1)
+
+    
+
+    - EEOC (2)
+
+    
+
+    - Egypt (2)
+
+    
+
+    -
+    Ehttp://2.bp.blogspot.com/_hyECORLe2jg/TM9F9F28_jI/AAAAAAAAFj4/L4Z35wB2eHI/s1600/TAKE-OUT-THE-TRASH.jpglection
+    2010 (1)
+
+    
+
+    - Eisenhower (1)
+
+    
+
+    - Elder (1)
+
+    
+
+    - Elderly (1)
+
+    
+
+    - Electio 2012 (1)
+
+    
+
+    - Election 2010 (23)
+
+    
+
+    - Election 2012 (3)
+
+    
+
+    - Election Day (1)
+
+    
+
+    - Election Fraud (11)
+
+    
+
+    - Election Law (2)
+
+    
+
+    - Election Process (3)
+
+    
+
+    - Elections (10)
+
+    
+
+    - Electoral College (4)
+
+    
+
+    - Electronic Voting Machines (4)
+
+    
+
+    - Elena Kagan (7)
+
+    
+
+    - Eligibility for Office (7)
+
+    
+
+    - Elijah Cummings (1)
+
+    
+
+    - Eliot Spitzer (1)
+
+    
+
+    - Elite (1)
+
+    
+
+    - Elitism (4)
+
+    
+
+    - Elitists (3)
+
+    
+
+    - Embryonic Stem Cell Resarch (14)
+
+    
+
+    - Embryonic Stem Cell Research (4)
+
+    
+
+    - Embryonic Stem-Cell Research (7)
+
+    
+
+    - Eminent Domain (3)
+
+    
+
+    - Empty-Calorie Foods (3)
+
+    
+
+    - End Times (2)
+
+    
+
+    - ENDA (6)
+
+    
+
+    - Endorsements (1)
+
+    
+
+    - Enemies of America (4)
+
+    
+
+    - Energy Policy (29)
+
+    
+
+    - Enforce the law (1)
+
+    
+
+    - English Only (7)
+
+    
+
+    - Entertainment (4)
+
+    
+
+    - Entitlements (3)
+
+    
+
+    - Entropy (1)
+
+    
+
+    - environmentalism (16)
+
+    
+
+    - Episcopalian (1)
+
+    
+
+    - Equal justice (5)
+
+    
+
+    - Equality (1)
+
+    
+
+    - Eric Holder (12)
+
+    
+
+    - Eros (1)
+
+    
+
+    - ESCR (1)
+
+    
+
+    - Establishment of Religion (4)
+
+    
+
+    - Estate Tax (1)
+
+    
+
+    - Etch-a-Sketch (1)
+
+    
+
+    - Eternal Death (2)
+
+    
+
+    - Eternal Life (5)
+
+    
+
+    - Eternity (2)
+
+    
+
+    - Ethics (6)
+
+    
+
+    - Eucharist (1)
+
+    
+
+    - Eugenics (6)
+
+    
+
+    - Eureka Sprngs (1)
+
+    
+
+    - European Banks (2)
+
+    
+
+    - European Socialism (17)
+
+    
+
+    - Euthanasia (11)
+
+    
+
+    - Evangelism Opportunities (1)
+
+    
+
+    - Eve (4)
+
+    
+
+    - Evelyn Stratton (1)
+
+    
+
+    - Evil (21)
+
+    
+
+    - Evil. Religion (1)
+
+    
+
+    - evolution (27)
+
+    
+
+    - Evolution of the Horse (1)
+
+    
+
+    - Execution (1)
+
+    
+
+    - Executive Power (2)
+
+    
+
+    - Exodus International (1)
+
+    
+
+    - Exodus Mandate (1)
+
+    
+
+    - EXPELLED (3)
+
+    
+
+    - Exploitation (1)
+
+    
+
+    - Extortion (3)
+
+    
+
+    - Extreme Environmentalism (18)
+
+    
+
+    - Extremists (1)
+
+    
+
+    - Eye for an Eye (2)
+
+    
+
+    - Fair Tax (1)
+
+    
+
+    - Fair Trade (2)
+
+    
+
+    - Fairness Doctrine (6)
+
+    
+
+    - FairTax (1)
+
+    
+
+    - Faith (16)
+
+    
+
+    - Faith and Action (2)
+
+    
+
+    - Faith-Based Initiative (2)
+
+    
+
+    - Faithfully Execute Clause (2)
+
+    
+
+    - Fall of America (1)
+
+    
+
+    - false arrest (1)
+
+    
+
+    - False Christianity (10)
+
+    
+
+    - False Messiah (10)
+
+    
+
+    - False Religions (12)
+
+    
+
+    - Families (2)
+
+    
+
+    - Family (8)
+
+    
+
+    - Family Values (13)
+
+    
+
+    - Farmers (1)
+
+    
+
+    - fascism (5)
+
+    
+
+    - Fast and Furious (3)
+
+    
+
+    - fat cats (1)
+
+    
+
+    - fat rats (1)
+
+    
+
+    - Fatah (1)
+
+    
+
+    - Father (1)
+
+    
+
+    - Father's Day (3)
+
+    
+
+    - Father. (1)
+
+    
+
+    - Fatherhood (4)
+
+    
+
+    - Fatwa. Taqiyya (1)
+
+    
+
+    - FBI (4)
+
+    
+
+    - FDR (1)
+
+    
+
+    - Fearing God (1)
+
+    
+
+    - Federal Budget (8)
+
+    
+
+    - Federal Debt (18)
+
+    
+
+    - Federal Deficit (20)
+
+    
+
+    - Federal Funding of Abortion (1)
+
+    
+
+    - Federal Holidays (1)
+
+    
+
+    - Federal Reserve (17)
+
+    
+
+    - Federal Reserve Bank (2)
+
+    
+
+    - Feel Good Religion (2)
+
+    
+
+    - Felipe Calderon (1)
+
+    
+
+    - FEMA Camps (2)
+
+    
+
+    - Feminism (5)
+
+    
+
+    - feminists (1)
+
+    
+
+    - Fence (2)
+
+    
+
+    - Fiat Currency (2)
+
+    
+
+    - Fidel Castro (6)
+
+    
+
+    - Financial 'Reform' (1)
+
+    
+
+    - Financial reform (1)
+
+    
+
+    - Fire Congress (13)
+
+    
+
+    - First Amendment (45)
+
+    
+
+    - Fiscal Child Abuse (1)
+
+    
+
+    - Fitness (1)
+
+    
+
+    - Five Pillars (1)
+
+    
+
+    - Flash Mob (1)
+
+    
+
+    - Flip Flopper (4)
+
+    
+
+    - Florida (3)
+
+    
+
+    - FOCA (3)
+
+    
+
+    - Food Crisis (2)
+
+    
+
+    - food stamps (3)
+
+    
+
+    - For a Conservative Congress (52)
+
+    
+
+    - For a Conservative Senate (17)
+
+    
+
+    - Ford Motor Company (3)
+
+    
+
+    - Foreclosures (1)
+
+    
+
+    - Foreign Aid (5)
+
+    
+
+    - Foreign Policy (10)
+
+    
+
+    - Forgiveness (4)
+
+    
+
+    - fornication (4)
+
+    
+
+    - Fossil Record (1)
+
+    
+
+    - Founding Fathers (5)
+
+    
+
+    - Fox News (3)
+
+    
+
+    - Fractional Reserve Banking (1)
+
+    
+
+    - Francis Bellamy (1)
+
+    
+
+    - Frank Marshall Davis (1)
+
+    
+
+    - Franklin Graham (1)
+
+    
+
+    - Franksgiving (2)
+
+    
+
+    - Fraud (14)
+
+    
+
+    - FRC (3)
+
+    
+
+    - FRC Action (2)
+
+    
+
+    - Fred Thompson (4)
+
+    
+
+    - Freddie Mac (1)
+
+    
+
+    - Frederick Bastiat (1)
+
+    
+
+    - Free Enterprise (4)
+
+    
+
+    - Free Enterprise System (3)
+
+    
+
+    - Free Flow of Information Act (1)
+
+    
+
+    - Free Speech Rights (8)
+
+    
+
+    - Free Trade (1)
+
+    
+
+    - Freedom (46)
+
+    
+
+    - Freedom From Religion Foundation (1)
+
+    
+
+    - Freedom of Choice Act (1)
+
+    
+
+    - Freedom of Expression (6)
+
+    
+
+    - Freedom of Religion (30)
+
+    
+
+    - Freedom of Speech (15)
+
+    
+
+    - Freedom of the Press (1)
+
+    
+
+    - Friendship (2)
+
+    
+
+    - funeral (1)
+
+    
+
+    - Funny Business (2)
+
+    
+
+    - Fusion Centers (1)
+
+    
+
+    - Future (1)
+
+    
+
+    - Gabriel (1)
+
+    
+
+    - Gaddafi (4)
+
+    
+
+    - Gadhafi (1)
+
+    
+
+    - Gaffes (3)
+
+    
+
+    - Gahdafi (1)
+
+    
+
+    - Gambling (9)
+
+    
+
+    - Gangster Government (3)
+
+    
+
+    - GAO (1)
+
+    
+
+    - Gary Johnson (1)
+
+    
+
+    - Gas Prices (9)
+
+    
+
+    - Gastoons (6)
+
+    
+
+    - Gay (2)
+
+    
+
+    - Gay Pride Parade (1)
+
+    
+
+    - Gay Rights (3)
+
+    
+
+    - Gaza (2)
+
+    
+
+    - GDP (1)
+
+    
+
+    - Geitner (1)
+
+    
+
+    - Gender (2)
+
+    
+
+    - General Anthony Zinni (1)
+
+    
+
+    - General Pace (1)
+
+    
+
+    - General Petraeus (1)
+
+    
+
+    - General Sada (1)
+
+    
+
+    - General Welfare (2)
+
+    
+
+    - Generational Genocide (1)
+
+    
+
+    - Genocide (2)
+
+    
+
+    - Geocentricity (1)
+
+    
+
+    - George Allen (1)
+
+    
+
+    - George Bush (5)
+
+    
+
+    - George Lilly (1)
+
+    
+
+    - George Soros (8)
+
+    
+
+    - George Voinovich (3)
+
+    
+
+    - George Washington (1)
+
+    
+
+    - George Will (1)
+
+    
+
+    - Gerrymandering (1)
+
+    
+
+    - Gitmo (5)
+
+    
+
+    - Giving (5)
+
+    
+
+    - GLAAD (1)
+
+    
+
+    - Glenn Beck (10)
+
+    
+
+    - Global Blasphemy Resolution (1)
+
+    
+
+    - Global Warming (29)
+
+    
+
+    - Global Warming Alarmism (10)
+
+    
+
+    - Global Warming Hoax (49)
+
+    
+
+    - Global Warmng (1)
+
+    
+
+    - Global Zero (1)
+
+    
+
+    - Globalists (2)
+
+    
+
+    - God (254)
+
+    
+
+    - God Satan (3)
+
+    
+
+    - God Will Rule on Earth (1)
+
+    
+
+    - God's Judgments (4)
+
+    
+
+    - God's Law (9)
+
+    
+
+    - Godless (2)
+
+    
+
+    - Gold and Silver Coins (2)
+
+    
+
+    - Goldman Sachs (2)
+
+    
+
+    - Goloden Calf (1)
+
+    
+
+    - Good (3)
+
+    
+
+    - Good Samaritan (1)
+
+    
+
+    - Google (1)
+
+    
+
+    - GOP (25)
+
+    
+
+    - Gordon Harold Smith (1)
+
+    
+
+    - Gorgeous Women (1)
+
+    
+
+    - Gospel (5)
+
+    
+
+    - Gov. Blagojevich (3)
+
+    
+
+    - Gov. Bobby Jindal (1)
+
+    
+
+    - Gov. Jan Brewer (1)
+
+    
+
+    - Gov. John Kasich (4)
+
+    
+
+    - Gov. Kathleen Sebelius (4)
+
+    
+
+    - Gov. Mitt Romney (16)
+
+    
+
+    - Gov. Rick Perry (14)
+
+    
+
+    - Gov. Scott Walker (1)
+
+    
+
+    - Gov. Strickland (5)
+
+    
+
+    - Governing (1)
+
+    
+
+    - Government (11)
+
+    
+
+    - Government Corruption (3)
+
+    
+
+    - Government Funding (3)
+
+    
+
+    - Government Motors (5)
+
+    
+
+    - Government Regulation (9)
+
+    
+
+    - Government Run Healthcare (5)
+
+    
+
+    - Government Schools (12)
+
+    
+
+    - Government Takeovers (1)
+
+    
+
+    - Government Unions (1)
+
+    
+
+    - Government Waste (2)
+
+    
+
+    - Government-controlled media (4)
+
+    
+
+    - Government-run Education (4)
+
+    
+
+    - Government-run Health (1)
+
+    
+
+    - Government-run healthcare (57)
+
+    
+
+    - Government-run heatlhcare (2)
+
+    
+
+    - Government-run schools (2)
+
+    
+
+    - Governor Bobby Jindal (2)
+
+    
+
+    - Governor Paul LePage (1)
+
+    
+
+    - Governor Sarah Palin (16)
+
+    
+
+    - Governor Scott Walker (3)
+
+    
+
+    - Governors (3)
+
+    
+
+    - Govertment Spending (1)
+
+    
+
+    - Grace (1)
+
+    
+
+    - Graduate Students (1)
+
+    
+
+    - Graft (1)
+
+    
+
+    - Grand Jury (2)
+
+    
+
+    - Graphic Pictures of Aborted Babies (5)
+
+    
+
+    - Great Society (1)
+
+    
+
+    - Greece (1)
+
+    
+
+    - Green Energy (1)
+
+    
+
+    - Green Police (1)
+
+    
+
+    - Groucho Marx (1)
+
+    
+
+    - Ground Zero Mosque (9)
+
+    
+
+    - Gulf oil crisis (13)
+
+    
+
+    - Gulf War (1)
+
+    
+
+    - gun control (11)
+
+    
+
+    - Gun Owners of America (1)
+
+    
+
+    - Gun Rights (1)
+
+    
+
+    - Guttmacher Institute (1)
+
+    
+
+    - Gving (1)
+
+    
+
+    - H.R. 1207 (1)
+
+    
+
+    - H.R. 1562 (1)
+
+    
+
+    - H.R. 3010 (1)
+
+    
+
+    - H.R. 3200 (1)
+
+    
+
+    - H1N1 (2)
+
+    
+
+    - Habeas Corpus (2)
+
+    
+
+    - Haii (1)
+
+    
+
+    - Haiti (2)
+
+    
+
+    - Hamas (8)
+
+    
+
+    - Hank Williams Jr. (1)
+
+    
+
+    - Hans Blix (1)
+
+    
+
+    - Hardball (1)
+
+    
+
+    - Harry Reid (25)
+
+    
+
+    - Hate Crimes (17)
+
+    
+
+    - Hate Speech (3)
+
+    
+
+    - Hatred (5)
+
+    
+
+    - Hawking (1)
+
+    
+
+    - Healt (1)
+
+    
+
+    - Healtcare Rationing (3)
+
+    
+
+    - Health Care (1)
+
+    
+
+    - Health care "reform' (1)
+
+    
+
+    - Health Care 'Reform' (2)
+
+    
+
+    - Health Care Reform (17)
+
+    
+
+    - Health Insurance (1)
+
+    
+
+    - Healthcare (4)
+
+    
+
+    - Healthcare "reform" (1)
+
+    
+
+    - Healthcare Cost (11)
+
+    
+
+    - Healthcare Deform (1)
+
+    
+
+    - Healthcare Rationing (3)
+
+    
+
+    - Healthcare Reform (16)
+
+    
+
+    - Hear Their Cry (31)
+
+    
+
+    - Heartbeat Bill (3)
+
+    
+
+    - Heaven (7)
+
+    
+
+    - Heavens (1)
+
+    
+
+    - hell (19)
+
+    
+
+    - Helmet of Salvation (1)
+
+    
+
+    - Heresy (1)
+
+    
+
+    - Heretics (1)
+
+    
+
+    - Herman Cain (4)
+
+    
+
+    - Hermeneutics (2)
+
+    
+
+    - Heroes (3)
+
+    
+
+    - Heroism (1)
+
+    
+
+    - Hidden Agenda (1)
+
+    
+
+    - Hillary Clinton (2)
+
+    
+
+    - Hillary Rodham (26)
+
+    
+
+    - Hillary Rodham-Clinton (1)
+
+    
+
+    - Hinduism (1)
+
+    
+
+    - Hindus (2)
+
+    
+
+    - Hisotry (1)
+
+    
+
+    - History (4)
+
+    
+
+    - Hitler (1)
+
+    
+
+    - Hoe Cakes (1)
+
+    
+
+    - Holly Hunter (1)
+
+    
+
+    - Hollywood (4)
+
+    
+
+    - Holocaust (2)
+
+    
+
+    - Holy Spirit (2)
+
+    
+
+    - Home Schooling (6)
+
+    
+
+    - Homeland Security (3)
+
+    
+
+    - Homeless (2)
+
+    
+
+    - Homeschooling (1)
+
+    
+
+    - Homoexuality (16)
+
+    
+
+    - homosexual agenda (74)
+
+    
+
+    - Homosexual Rights (13)
+
+    
+
+    - Homosexuality (93)
+
+    
+
+    - homosexuals (5)
+
+    
+
+    - Honesty (1)
+
+    
+
+    - Honor Killing (2)
+
+    
+
+    - Honorcide (1)
+
+    
+
+    - Hope (17)
+
+    
+
+    - Hosni Mubarik (1)
+
+    
+
+    - Hospitals (1)
+
+    
+
+    - Hostage crisis (1)
+
+    
+
+    - Hot Issue (6)
+
+    
+
+    - Hot Topics (16)
+
+    
+
+    - Hotels (1)
+
+    
+
+    - houri (1)
+
+    
+
+    - Housing Collapse (1)
+
+    
+
+    - How to Videos (2)
+
+    
+
+    - Howard Dean (1)
+
+    
+
+    - HR 10 (1)
+
+    
+
+    - HR 256 (1)
+
+    
+
+    - HR 262 (1)
+
+    
+
+    - HR 3590 (1)
+
+    
+
+    - HR 4137 (1)
+
+    
+
+    - HRC (3)
+
+    
+
+    - Hubris (1)
+
+    
+
+    - Huckabee (4)
+
+    
+
+    - Hugo Chavez (3)
+
+    
+
+    - Human Beings (1)
+
+    
+
+    - Human Cloning (3)
+
+    
+
+    - Human Life Amendment (2)
+
+    
+
+    - Human Rights (3)
+
+    
+
+    - Human Rights Campaign (2)
+
+    
+
+    - Human Rights Council (1)
+
+    
+
+    - Humanities (1)
+
+    
+
+    - Humer (1)
+
+    
+
+    - Humor (93)
+
+    
+
+    - Humor. TelePrompter (1)
+
+    
+
+    - Hunter (3)
+
+    
+
+    - Hunting (1)
+
+    
+
+    - Hurricanes (1)
+
+    
+
+    - Hype (1)
+
+    
+
+    - Hypocrisy (20)
+
+    
+
+    - Identity Politics (1)
+
+    
+
+    - IDES (1)
+
+    
+
+    - Idolatry (9)
+
+    
+
+    - Ilegal Alens (1)
+
+    
+
+    - Illam (1)
+
+    
+
+    - Illegal Aliens (64)
+
+    
+
+    - Illegal Immigraation (5)
+
+    
+
+    - Illegal Immigration (43)
+
+    
+
+    - Illegal Job Actions (1)
+
+    
+
+    - Illigal aliens (1)
+
+    
+
+    - Illinois (2)
+
+    
+
+    - Ilsamic Terrorism (1)
+
+    
+
+    - Ilsamic Terrorists (7)
+
+    
+
+    - IMF (3)
+
+    
+
+    - Immigraion (1)
+
+    
+
+    - Immigration (24)
+
+    
+
+    - Immorality (12)
+
+    
+
+    - Impeachment (5)
+
+    
+
+    - Imperialism (1)
+
+    
+
+    - Imus (2)
+
+    
+
+    - Incest (2)
+
+    
+
+    - Income Tax (4)
+
+    
+
+    - Incompetency (2)
+
+    
+
+    - Incorporation (1)
+
+    
+
+    - Incorporation of Churches (3)
+
+    
+
+    - Inde (1)
+
+    
+
+    - Indecision (1)
+
+    
+
+    - Independence Day (2)
+
+    
+
+    - India (3)
+
+    
+
+    - Indiana (1)
+
+    
+
+    - Indians (1)
+
+    
+
+    - Individual (1)
+
+    
+
+    - Indoctrination (3)
+
+    
+
+    - Infanticide (2)
+
+    
+
+    - Inflation (1)
+
+    
+
+    - Information (2)
+
+    
+
+    - Injustice (8)
+
+    
+
+    - Insanity (3)
+
+    
+
+    - Inside Poll Worker (1)
+
+    
+
+    - insider trading (1)
+
+    
+
+    - Inspiration (3)
+
+    
+
+    - Inspirational (3)
+
+    
+
+    - Institute for Principled Policy (3)
+
+    
+
+    - Integration (1)
+
+    
+
+    - Integrity (2)
+
+    
+
+    - Intellectual Property Rights (1)
+
+    
+
+    - Intellegent Design (4)
+
+    
+
+    - intelligence (2)
+
+    
+
+    - Intelligent (1)
+
+    
+
+    - Intelligent Design (3)
+
+    
+
+    - Internal Terrorism (8)
+
+    
+
+    - International Law (3)
+
+    
+
+    - Internet (2)
+
+    
+
+    - Interstate Commerce (2)
+
+    
+
+    - Intervarsity Press (1)
+
+    
+
+    - Intolerance (6)
+
+    
+
+    - Investments (2)
+
+    
+
+    - IPAB (1)
+
+    
+
+    - Iran (21)
+
+    
+
+    - Iraq War (23)
+
+    
+
+    - Irreducible Complexity (1)
+
+    
+
+    - IRS (8)
+
+    
+
+    - Isaac (1)
+
+    
+
+    - Islam (115)
+
+    
+
+    - Islamic Jihad (19)
+
+    
+
+    - Islamic Terror (3)
+
+    
+
+    - Islamic Terrorism (82)
+
+    
+
+    - Islamic Terrorist (2)
+
+    
+
+    - Islamic Terrorists (24)
+
+    
+
+    - Islamo-facism (1)
+
+    
+
+    - Islamo-fascism (1)
+
+    
+
+    - Israel (21)
+
+    
+
+    - ITerrorism (1)
+
+    
+
+    - J.D. Hayworth (3)
+
+    
+
+    - Jack Cashill (1)
+
+    
+
+    - Jackie Mason (1)
+
+    
+
+    - Jacob (1)
+
+    
+
+    - James Baker (1)
+
+    
+
+    - James Hartline (1)
+
+    
+
+    - Jan Brewer (1)
+
+    
+
+    - Jane Kaczmarek (1)
+
+    
+
+    - Janet Napolitano (9)
+
+    
+
+    - Janet Parshall (1)
+
+    
+
+    - Jay Leno (2)
+
+    
+
+    - Jay Sekulow (1)
+
+    
+
+    - Jean Schmidt (1)
+
+    
+
+    - Jeff Flake (1)
+
+    
+
+    - Jeff Foxworthy (2)
+
+    
+
+    - Jeff Kuhner (1)
+
+    
+
+    - Jeff Merkley (1)
+
+    
+
+    - Jehova (1)
+
+    
+
+    - Jeopardy (1)
+
+    
+
+    - Jeremiah the prophet (1)
+
+    
+
+    - Jeremiah Wright (6)
+
+    
+
+    - Jerry Falwell (2)
+
+    
+
+    - Jerusalem (1)
+
+    
+
+    - Jesse Jackson (6)
+
+    
+
+    - Jessie Jackson (1)
+
+    
+
+    - Jesus (50)
+
+    
+
+    - Jesus Chirst (20)
+
+    
+
+    - Jesus Christ (97)
+
+    
+
+    - Jesus Chrst (1)
+
+    
+
+    - Jewish Holocaust (3)
+
+    
+
+    - Jews (5)
+
+    
+
+    - JFK (1)
+
+    
+
+    - Jihad (12)
+
+    
+
+    - Jill Stanek (1)
+
+    
+
+    - jilting (1)
+
+    
+
+    - Jim Deakin (1)
+
+    
+
+    - Jim DeMint (1)
+
+    
+
+    - Jimmy Carter (3)
+
+    
+
+    - Joan of Arc (1)
+
+    
+
+    - Job (1)
+
+    
+
+    - Job Performance (1)
+
+    
+
+    - Jobs (16)
+
+    
+
+    - Jobs Soetoro/Obama (8)
+
+    
+
+    - Joe Biden (28)
+
+    
+
+    - Joe Friday (1)
+
+    
+
+    - Joe Lieberman (1)
+
+    
+
+    - Joe Miller (13)
+
+    
+
+    - Joe Sestak (1)
+
+    
+
+    - Joe the Plumber (5)
+
+    
+
+    - Joe Walsh (1)
+
+    
+
+    - Joel Dykstra (1)
+
+    
+
+    - John 3:16 (1)
+
+    
+
+    - John Adams (2)
+
+    
+
+    - John Birch Society (1)
+
+    
+
+    - John Boehner (12)
+
+    
+
+    - John Bolton (1)
+
+    
+
+    - John Cornyn (1)
+
+    
+
+    - John Dennis (2)
+
+    
+
+    - John Edwards (6)
+
+    
+
+    - John Freshwater (44)
+
+    
+
+    - John Hostettler (1)
+
+    
+
+    - John Howard (1)
+
+    
+
+    - John Kasich (4)
+
+    
+
+    - John Locke (1)
+
+    
+
+    - John McCain (84)
+
+    
+
+    - John McCain Conservativism (2)
+
+    
+
+    - John Murtha (1)
+
+    
+
+    - John Piper (1)
+
+    
+
+    - John Travolta (1)
+
+    
+
+    - Johnson and Johnson (1)
+
+    
+
+    - Joker (1)
+
+    
+
+    - Jokes (3)
+
+    
+
+    - Jon Husted (2)
+
+    
+
+    - Jonathan (1)
+
+    
+
+    - Joseph Pitts (1)
+
+    
+
+    - Joseph Stalin (1)
+
+    
+
+    - Josh Mandel (1)
+
+    
+
+    - Journalistic Jihad (1)
+
+    
+
+    - Jr. Crony Capitalism (1)
+
+    
+
+    - Judaism (2)
+
+    
+
+    - Judge Andrew Napolitano (5)
+
+    
+
+    - Judge David Hamilton (1)
+
+    
+
+    - Judge John Roll (1)
+
+    
+
+    - Judge Kennedy (1)
+
+    
+
+    - Judge Roberts (1)
+
+    
+
+    - Judge Roy Moore (2)
+
+    
+
+    - Judge Sonia Sotomayor (4)
+
+    
+
+    - Judge Vaughn Walker (1)
+
+    
+
+    - Judges (4)
+
+    
+
+    - Judgment (4)
+
+    
+
+    - Judicial Activism (19)
+
+    
+
+    - Judicial Tyranny (9)
+
+    
+
+    - Judiciary (3)
+
+    
+
+    - Judson Phillips (1)
+
+    
+
+    - Julian Assange (2)
+
+    
+
+    - Junk Science (1)
+
+    
+
+    - Juror Bias (1)
+
+    
+
+    - Jury Duty (6)
+
+    
+
+    - Jury Nullification (5)
+
+    
+
+    - Just a Thought (1)
+
+    
+
+    - Justice (8)
+
+    
+
+    - Karl Marx (3)
+
+    
+
+    - Karl Priest (1)
+
+    
+
+    - Karl Rove (1)
+
+    
+
+    - Kathryn Erbe (1)
+
+    
+
+    - Kay "Bailout" Hutchinson (1)
+
+    
+
+    - Keith Ellison (1)
+
+    
+
+    - Ken Blackwell (1)
+
+    
+
+    - Ken Cuccinelli II (2)
+
+    
+
+    - Ken Ham (2)
+
+    
+
+    - Ken Hutcherson (1)
+
+    
+
+    - Ken Matesz (1)
+
+    
+
+    - Kentucky (1)
+
+    
+
+    - Kenya (2)
+
+    
+
+    - Kevorkian (1)
+
+    
+
+    - Keynesian Economics (1)
+
+    
+
+    - Kim Jong Il (3)
+
+    
+
+    - King of Kings (1)
+
+    
+
+    - King's Island (1)
+
+    
+
+    - Kirk Cameron (2)
+
+    
+
+    - Kissing (1)
+
+    
+
+    - Knowing God (2)
+
+    
+
+    - Koran (81)
+
+    
+
+    - Kroger (1)
+
+    
+
+    - Kwame Kilpatrick (1)
+
+    
+
+    - Kyoto Treaty (2)
+
+    
+
+    - L.O.S.T. (1)
+
+    
+
+    - L:aughs (1)
+
+    
+
+    - Labor Unions (8)
+
+    
+
+    - Lake of Fire (1)
+
+    
+
+    - Lame Duck 111th Congress (3)
+
+    
+
+    - LaRaza (1)
+
+    
+
+    - Larry Lessig (1)
+
+    
+
+    - Late Night Jokes (35)
+
+    
+
+    - Late Night Takes (28)
+
+    
+
+    - Late Night Takes J (1)
+
+    
+
+    - Laughs (41)
+
+    
+
+    - Laura Ingram (1)
+
+    
+
+    - Law (5)
+
+    
+
+    - Law and Fact (3)
+
+    
+
+    - Law and Order (1)
+
+    
+
+    - Law of the Sea Treaty (2)
+
+    
+
+    - Lawlessness (3)
+
+    
+
+    - Lawsuits (12)
+
+    
+
+    - Lawyers (1)
+
+    
+
+    - LDI (1)
+
+    
+
+    - Leadershiip (1)
+
+    
+
+    - Leadership (13)
+
+    
+
+    - Leading (1)
+
+    
+
+    - Lech Walesa (1)
+
+    
+
+    - Leftist (17)
+
+    
+
+    - Leftists (9)
+
+    
+
+    - Lefty Loonz (4)
+
+    
+
+    - LeftyLoonz (8)
+
+    
+
+    - Legal Tender (1)
+
+    
+
+    - Legislation (2)
+
+    
+
+    - Lesbians (3)
+
+    
+
+    - Let him go (1)
+
+    
+
+    - Letters of Marque and Reprisal (3)
+
+    
+
+    - Liar (2)
+
+    
+
+    - Liberal (7)
+
+    
+
+    - Liberal Racism (6)
+
+    
+
+    - Liberalism (86)
+
+    
+
+    - Liberals (11)
+
+    
+
+    - Liberalsim (3)
+
+    
+
+    - Liberation Theology (1)
+
+    
+
+    - Libertarian Party (6)
+
+    
+
+    - Libertarianism (4)
+
+    
+
+    - LiberTEA Party (2)
+
+    
+
+    - Liberty (64)
+
+    
+
+    - Libverals (1)
+
+    
+
+    - Libya (5)
+
+    
+
+    - Lie Detector Tests (1)
+
+    
+
+    - Lieft (1)
+
+    
+
+    - Lies (41)
+
+    
+
+    - Life (10)
+
+    
+
+    - Life Sentences (1)
+
+    
+
+    - Light (7)
+
+    
+
+    - Lila Rose (1)
+
+    
+
+    - Limited Government (1)
+
+    
+
+    - Linda Goldthorpe (1)
+
+    
+
+    - Lindsay Graham (1)
+
+    
+
+    - Lindsey Graham (3)
+
+    
+
+    - Literal Interpretation of the Bible (3)
+
+    
+
+    - Litmus Test (1)
+
+    
+
+    - Living Beyond Your Means (1)
+
+    
+
+    - Lloyd Marcus (1)
+
+    
+
+    - Lobby (1)
+
+    
+
+    - Lobbyists (2)
+
+    
+
+    - Loss of Property Rights (5)
+
+    
+
+    - Loss of Sovereignty (3)
+
+    
+
+    - Lou Bartletta (1)
+
+    
+
+    - Lou Dobbs (2)
+
+    
+
+    - Louis Farrakhan (1)
+
+    
+
+    - Love (7)
+
+    
+
+    - Loyalty (1)
+
+    
+
+    - Lucy (1)
+
+    
+
+    - Ludites (1)
+
+    
+
+    - Lugar (1)
+
+    
+
+    - Luther (1)
+
+    
+
+    - Lying (13)
+
+    
+
+    - Lyn Noziger (1)
+
+    
+
+    - Lyndon Johnson (1)
+
+    
+
+    - Lyrics (3)
+
+    
+
+    - Macroevolution (1)
+
+    
+
+    - Magnetism (1)
+
+    
+
+    - Mahmoud Ahmadinejad (5)
+
+    
+
+    - Major Crimes Act (1)
+
+    
+
+    - Major Hasan (1)
+
+    
+
+    - Male-Female Differences (1)
+
+    
+
+    - Maliki (1)
+
+    
+
+    - Mamorial Day (1)
+
+    
+
+    - Man (2)
+
+    
+
+    - Mancow (1)
+
+    
+
+    - Mandates (3)
+
+    
+
+    - Manhattan Declaration (1)
+
+    
+
+    - Manufacturing (1)
+
+    
+
+    - Mao (1)
+
+    
+
+    - Marc Dann (4)
+
+    
+
+    - Marco Rubio (5)
+
+    
+
+    - Marcus Borden (1)
+
+    
+
+    - Marcy Kaptur (1)
+
+    
+
+    - Margaret Sanger (1)
+
+    
+
+    - Margaret Thatcher (1)
+
+    
+
+    - Marijuana (3)
+
+    
+
+    - Marilyn Musgrave (1)
+
+    
+
+    - Marines (2)
+
+    
+
+    - Mark Levin (4)
+
+    
+
+    - Mark Neumann (1)
+
+    
+
+    - Mark of the Beast (1)
+
+    
+
+    - Mark Sanford (1)
+
+    
+
+    - Mark Twain (2)
+
+    
+
+    - Marriage (25)
+
+    
+
+    - Marriage Amendments (8)
+
+    
+
+    - Marriage License (1)
+
+    
+
+    - Marriage Protection Act (3)
+
+    
+
+    - Mars (1)
+
+    
+
+    - Martin Luther King Jr. (3)
+
+    
+
+    - Marxism (104)
+
+    
+
+    - Marxist (6)
+
+    
+
+    - Marxists (2)
+
+    
+
+    - Mary (2)
+
+    
+
+    - Mary Jo Kilroy (1)
+
+    
+
+    - Mary Taylor (1)
+
+    
+
+    - Maryland (3)
+
+    
+
+    - Maryland’s 5th district (2)
+
+    
+
+    - Masculine (2)
+
+    
+
+    - Mass Resistance (2)
+
+    
+
+    - Materialism (2)
+
+    
+
+    - Matisyahu (1)
+
+    
+
+    - Matt Trewhella (1)
+
+    
+
+    - Matthew Shepard (1)
+
+    
+
+    - Max Rieske (1)
+
+    
+
+    - Maxine Waters (1)
+
+    
+
+    - Maxism (7)
+
+    
+
+    - Mayhem (1)
+
+    
+
+    - Mayor Bloomberg (1)
+
+    
+
+    - McCain (3)
+
+    
+
+    - McDonalds (4)
+
+    
+
+    - Mecca (1)
+
+    
+
+    - Media (11)
+
+    
+
+    - Media Bias (117)
+
+    
+
+    - Media Biias (1)
+
+    
+
+    - Media Malpractice (40)
+
+    
+
+    - Media Manipulation (18)
+
+    
+
+    - Medica Bias (1)
+
+    
+
+    - Medicaid Fraud (1)
+
+    
+
+    - medical malpractice (4)
+
+    
+
+    - Medicare (4)
+
+    
+
+    - Medicare Advantage (1)
+
+    
+
+    - Medina (1)
+
+    
+
+    - Meet the Press (1)
+
+    
+
+    - Meghan McCain (1)
+
+    
+
+    - Meida Bias (2)
+
+    
+
+    - Meidia Manipulation (1)
+
+    
+
+    - Mel Gibson (1)
+
+    
+
+    - Memorial Day (4)
+
+    
+
+    - Mental-Health Screening (1)
+
+    
+
+    - Mentor (1)
+
+    
+
+    - methodological naturalism (1)
+
+    
+
+    - methotrexate (1)
+
+    
+
+    - Mexican Mafia (1)
+
+    
+
+    - Mexico (5)
+
+    
+
+    - Mexico City Policy (4)
+
+    
+
+    - Michael Bloomberg (1)
+
+    
+
+    - Michael Delavar (1)
+
+    
+
+    - Michael J. Fox (1)
+
+    
+
+    - Michael Jackson (5)
+
+    
+
+    - Michael Jingozian (1)
+
+    
+
+    - Michael Newdow (1)
+
+    
+
+    - Michael Ramirez (11)
+
+    
+
+    - Michael Reagan (2)
+
+    
+
+    - Michael Savage (1)
+
+    
+
+    - Michael Scheuer (1)
+
+    
+
+    - Michael Steele (3)
+
+    
+
+    - Michael Vick (1)
+
+    
+
+    - Michele Bachmann (15)
+
+    
+
+    - Michelle Malkin (2)
+
+    
+
+    - Michelle Obama (12)
+
+    
+
+    - Michigan (1)
+
+    
+
+    - Microevolution (1)
+
+    
+
+    - Middle East (4)
+
+    
+
+    - Mike Castle (1)
+
+    
+
+    - Mike DeWine (3)
+
+    
+
+    - Mike Hargadon (1)
+
+    
+
+    - Mike Huckabee (32)
+
+    
+
+    - Mike Huckabee Rodham-Clinton (5)
+
+    
+
+    - Mike Lee (1)
+
+    
+
+    - Mike Pence (4)
+
+    
+
+    - Mike Reagan (1)
+
+    
+
+    - Military (20)
+
+    
+
+    - Military Industrial Complex (1)
+
+    
+
+    - Militia (1)
+
+    
+
+    - Milk (1)
+
+    
+
+    - Million Dollars (1)
+
+    
+
+    - Miltia (1)
+
+    
+
+    - Mind (1)
+
+    
+
+    - Mining (1)
+
+    
+
+    - Miracles (2)
+
+    
+
+    - Misquoting (1)
+
+    
+
+    - Missing in Action (1)
+
+    
+
+    - Missionaries (8)
+
+    
+
+    - Mississippi (1)
+
+    
+
+    - Mistakes (2)
+
+    
+
+    - Mitch McConnell (5)
+
+    
+
+    - Mitt Romney (18)
+
+    
+
+    - Mittt Romney (1)
+
+    
+
+    - Moderate (3)
+
+    
+
+    - Mohamed (2)
+
+    
+
+    - Mohammed (7)
+
+    
+
+    - Molotov Mitchell (8)
+
+    
+
+    - Moment of Truth (1)
+
+    
+
+    - Money (7)
+
+    
+
+    - Money Laundering (1)
+
+    
+
+    - Moral Relativism (4)
+
+    
+
+    - Morality (25)
+
+    
+
+    - Mormonism (9)
+
+    
+
+    - Moses (10)
+
+    
+
+    - mosque (3)
+
+    
+
+    - Mosques (2)
+
+    
+
+    - Most Scandalous Politician of 2008 (1)
+
+    
+
+    - Mother Teresa (2)
+
+    
+
+    - Mother Theresa (3)
+
+    
+
+    - Mother's Day (1)
+
+    
+
+    - Motherhood (1)
+
+    
+
+    - Mount Sinai (4)
+
+    
+
+    - MoveOn.org (1)
+
+    
+
+    - MoveOutCongress.com (11)
+
+    
+
+    - MoveOutCongress.org (3)
+
+    
+
+    - MovieGuide (2)
+
+    
+
+    - Movies (95)
+
+    
+
+    - Movies. Media Research Center (1)
+
+    
+
+    - MSNBC (2)
+
+    
+
+    - MSNBC Poll (1)
+
+    
+
+    - MTV (1)
+
+    
+
+    - Mujahadeen (1)
+
+    
+
+    - Multiculturalism (1)
+
+    
+
+    - Murder (7)
+
+    
+
+    - Musharaf (1)
+
+    
+
+    - Music (5)
+
+    
+
+    - Muslim (9)
+
+    
+
+    - Muslim extremists (2)
+
+    
+
+    - Muslims (25)
+
+    
+
+    - N.O.W. (1)
+
+    
+
+    - NAACP (5)
+
+    
+
+    - NACC (1)
+
+    
+
+    - NAE (6)
+
+    
+
+    - NAFTA (2)
+
+    
+
+    - Naional Debt (2)
+
+    
+
+    - Nancy Pelosi (63)
+
+    
+
+    - Nancy Zimpher (1)
+
+    
+
+    - Nanny State (1)
+
+    
+
+    - NARAL (5)
+
+    
+
+    - NASDAQ (1)
+
+    
+
+    - Natiohnal Debt (1)
+
+    
+
+    - Nation Building (2)
+
+    
+
+    - National Budget (4)
+
+    
+
+    - National Day of Prayer (5)
+
+    
+
+    - National Debt (70)
+
+    
+
+    - National Defense (10)
+
+    
+
+    - National Deficit (49)
+
+    
+
+    - National Guard (1)
+
+    
+
+    - National identity (1)
+
+    
+
+    - National Press Club (1)
+
+    
+
+    - National Right to Life (3)
+
+    
+
+    - National Security (22)
+
+    
+
+    - National Sovereignty (1)
+
+    
+
+    - Nationalization (1)
+
+    
+
+    - Nationalized Healthcare (28)
+
+    
+
+    - Nationalized Healthcare Liberty (2)
+
+    
+
+    - Nationalized Industry (4)
+
+    
+
+    - Nationalized Medicine (4)
+
+    
+
+    - Native Americans (1)
+
+    
+
+    - Natural Born Citizen Clause (7)
+
+    
+
+    - Natural Gas (1)
+
+    
+
+    - Natural Selection (1)
+
+    
+
+    - Nature (1)
+
+    
+
+    - Navy (2)
+
+    
+
+    - Nazism (1)
+
+    
+
+    - NBC (1)
+
+    
+
+    - NCPA (1)
+
+    
+
+    - NEA (9)
+
+    
+
+    - Neanderthal Man (1)
+
+    
+
+    - Nebuchadnezzar (1)
+
+    
+
+    - Neo-Nazi (1)
+
+    
+
+    - Neocon (1)
+
+    
+
+    - Neoconfederacy (2)
+
+    
+
+    - Neocons (5)
+
+    
+
+    - Net Neutrality (3)
+
+    
+
+    - Nevada (5)
+
+    
+
+    - Nevada Town Halls (1)
+
+    
+
+    - New Age Religions (2)
+
+    
+
+    - New World Order (4)
+
+    
+
+    - New Year Resolution (1)
+
+    
+
+    - New York Times (4)
+
+    
+
+    - NewBusted (11)
+
+    
+
+    - NewBusters (1)
+
+    
+
+    - News/Busted (3)
+
+    
+
+    - NewsBusted (224)
+
+    
+
+    - NewsBusted Walmart (2)
+
+    
+
+    - NewsBuster (1)
+
+    
+
+    - NewsBusters (7)
+
+    
+
+    - Newsbuted (2)
+
+    
+
+    - NewsMax (9)
+
+    
+
+    - Newsweek (2)
+
+    
+
+    - Newt Gingrich (21)
+
+    
+
+    - NIH (5)
+
+    
+
+    - No Real Change (1)
+
+    
+
+    - Nobel Peace Prize (5)
+
+    
+
+    - Nobody Cares (1)
+
+    
+
+    - Non-violent Resistance (2)
+
+    
+
+    - None of the Above (1)
+
+    
+
+    - Norm Coleman (2)
+
+    
+
+    - North American Union (6)
+
+    
+
+    - North Carolina (2)
+
+    
+
+    - North Dakota (1)
+
+    
+
+    - North Korea (4)
+
+    
+
+    - North Pole (1)
+
+    
+
+    - Notre Dame (12)
+
+    
+
+    - Notre Dame Scandal (1)
+
+    
+
+    - NOW (3)
+
+    
+
+    - NPR (5)
+
+    
+
+    - Nuclear (4)
+
+    
+
+    - Nuclear energy (1)
+
+    
+
+    - Nullification (6)
+
+    
+
+    - Numismatics (1)
+
+    
+
+    - O's gotta gO (1)
+
+    
+
+    - Oathkeepers (1)
+
+    
+
+    - Obama (4)
+
+    
+
+    - Obama Administration (1)
+
+    
+
+    - Obama Watch (2)
+
+    
+
+    - ObamaCare (126)
+
+    
+
+    - ObamaCare Funnies (1)
+
+    
+
+    - ObamaCrimes.com (1)
+
+    
+
+    - ObamaForgery.com (1)
+
+    
+
+    - Obamaisms (2)
+
+    
+
+    - Obamanomics (5)
+
+    
+
+    - ObamaScare (1)
+
+    
+
+    - Obameter (3)
+
+    
+
+    - Obamunism (1)
+
+    
+
+    - obedience (1)
+
+    
+
+    - Obesity (2)
+
+    
+
+    - Obituaries (1)
+
+    
+
+    - ObmaCare Funnies (1)
+
+    
+
+    - Obnoxious (1)
+
+    
+
+    - Obstinacy (1)
+
+    
+
+    - Occupy Wall Street (11)
+
+    
+
+    - October Baby (1)
+
+    
+
+    - OFA (1)
+
+    
+
+    - Office of Minority Health (1)
+
+    
+
+    - Offshore Balancing (1)
+
+    
+
+    - Ohio (25)
+
+    
+
+    - Ohio AG (1)
+
+    
+
+    - Ohio Bills (1)
+
+    
+
+    - Ohio Christian Alliance (1)
+
+    
+
+    - Ohio H.B. 1 (1)
+
+    
+
+    - Ohio HB 228 (1)
+
+    
+
+    - Ohio Issue 1 (1)
+
+    
+
+    - Ohio Issue 2 (3)
+
+    
+
+    - Ohio Issue 5 (1)
+
+    
+
+    - Ohio Liber-TEA Party (1)
+
+    
+
+    - Ohio Politics (6)
+
+    
+
+    - Ohio Sovereignty Amendment (2)
+
+    
+
+    - Ohio SUB SB 174 (1)
+
+    
+
+    - Ohio Zack Space (1)
+
+    
+
+    - Oil (6)
+
+    
+
+    - Oklahoma (2)
+
+    
+
+    - Old Testament (1)
+
+    
+
+    - Olympics (3)
+
+    
+
+    - On the Lighter Side (1)
+
+    
+
+    - One Socialist Nation Rally (1)
+
+    
+
+    - One World Government (4)
+
+    
+
+    - One-Man (1)
+
+    
+
+    - One-Man One-Woman Marriage (6)
+
+    
+
+    - One-Term Blunder (1)
+
+    
+
+    - One-Woman Marriage (2)
+
+    
+
+    - Oneness (3)
+
+    
+
+    - Open Records Act (1)
+
+    
+
+    - Operation Rescue (4)
+
+    
+
+    - oppmedia (1)
+
+    
+
+    - Opposition Media (35)
+
+    
+
+    - Opposition Medica (2)
+
+    
+
+    - Opposition to Government (2)
+
+    
+
+    - Oprah Winfrey (2)
+
+    
+
+    - Oregon (3)
+
+    
+
+    - Organization of the Islamic Conference (1)
+
+    
+
+    - Organized Crme (1)
+
+    
+
+    - Organizing for America (2)
+
+    
+
+    - Orrin Hatch (1)
+
+    
+
+    - Osama Bin Laden (13)
+
+    
+
+    - Overcoming Temptations (2)
+
+    
+
+    - Overpopulation (1)
+
+    
+
+    - P and G (1)
+
+    
+
+    - Paganism (3)
+
+    
+
+    - Pakistan (4)
+
+    
+
+    - Palestine (4)
+
+    
+
+    - Palin Derangement Syndrome (1)
+
+    
+
+    - Pam Geller (1)
+
+    
+
+    - Pam Tebow (1)
+
+    
+
+    - Parables (2)
+
+    
+
+    - Parental Primacy (6)
+
+    
+
+    - Parents (1)
+
+    
+
+    - Paris Hilton (1)
+
+    
+
+    - Parkinson's Disease (1)
+
+    
+
+    - Partial Birth Abortion (8)
+
+    
+
+    - Partiot Act (1)
+
+    
+
+    - Pass the Salt (3)
+
+    
+
+    - Pat Robertson (6)
+
+    
+
+    - Pat Sellers (1)
+
+    
+
+    - Pat Tiberi (2)
+
+    
+
+    - Pat Toomey (4)
+
+    
+
+    - Path to Citizenship (1)
+
+    
+
+    - Patriarchs (1)
+
+    
+
+    - Patrick Henry (3)
+
+    
+
+    - Patriot Act (4)
+
+    
+
+    - Patriotism (10)
+
+    
+
+    - Paul Broun (1)
+
+    
+
+    - Paul Harvey (2)
+
+    
+
+    - Pay Day Lending (1)
+
+    
+
+    - PBS (4)
+
+    
+
+    - PDS (1)
+
+    
+
+    - Peace (6)
+
+    
+
+    - Peace and Safety (1)
+
+    
+
+    - Peace of God (1)
+
+    
+
+    - Pedophilia (2)
+
+    
+
+    - Peg Luksik (1)
+
+    
+
+    - Pelosi's Fall (1)
+
+    
+
+    - PelosiCare (3)
+
+    
+
+    - Penalty (1)
+
+    
+
+    - Pennsylvania (2)
+
+    
+
+    - Perscution (2)
+
+    
+
+    - Persecution (6)
+
+    
+
+    - Perseverance (1)
+
+    
+
+    - Personal Responsibility (6)
+
+    
+
+    - Personhood (19)
+
+    
+
+    - Perversion (5)
+
+    
+
+    - Pesonhood Amendment (1)
+
+    
+
+    - Pet Ban (1)
+
+    
+
+    - PETA (1)
+
+    
+
+    - Pete Hoekstra (1)
+
+    
+
+    - Peter Lewis (1)
+
+    
+
+    - Petitions (1)
+
+    
+
+    - Petitions for Redress of Grievances (2)
+
+    
+
+    - PFAW (1)
+
+    
+
+    - Pharmaceutical Industry (3)
+
+    
+
+    - Pharmacy (2)
+
+    
+
+    - Photo Finishers (1)
+
+    
+
+    - physical death (1)
+
+    
+
+    - Physician Assisted Suicide (2)
+
+    
+
+    - Physicians (1)
+
+    
+
+    - Pied Piper (1)
+
+    
+
+    - Pigford Case (1)
+
+    
+
+    - Pink Slips (1)
+
+    
+
+    - Piracy (1)
+
+    
+
+    - Pirates (2)
+
+    
+
+    - PJTV (1)
+
+    
+
+    - Plan of Destruction (1)
+
+    
+
+    - Planned Parenthood (57)
+
+    
+
+    - Playing Politics (55)
+
+    
+
+    - Playing Poltics (3)
+
+    
+
+    - Pledge of Allegiance (3)
+
+    
+
+    - PNC Bank (1)
+
+    
+
+    - Poems (4)
+
+    
+
+    - Poking Fun (2)
+
+    
+
+    - Police (2)
+
+    
+
+    - Politcal Corruption (7)
+
+    
+
+    - Political Correctness (41)
+
+    
+
+    - Political Corruption (42)
+
+    
+
+    - Political Doubletalk (2)
+
+    
+
+    - Political Issues (4)
+
+    
+
+    - Political Philosophies (1)
+
+    
+
+    - Political Surveys (1)
+
+    
+
+    - Political Terrorism (1)
+
+    
+
+    - Politician (1)
+
+    
+
+    - Politicians (8)
+
+    
+
+    - Politics (19)
+
+    
+
+    - Politics and Faith (5)
+
+    
+
+    - Politics. Liberalism (1)
+
+    
+
+    - politifact.com (3)
+
+    
+
+    - Politiicans (3)
+
+    
+
+    - pollution (2)
+
+    
+
+    - Poltical Capital (1)
+
+    
+
+    - Poluticians (6)
+
+    
+
+    - Polygamy (2)
+
+    
+
+    - Polytheism (1)
+
+    
+
+    - Poor (3)
+
+    
+
+    - Pope Benedict (2)
+
+    
+
+    - Population Control (2)
+
+    
+
+    - Population Demographics (1)
+
+    
+
+    - Pork (5)
+
+    
+
+    - Pornography (11)
+
+    
+
+    - positivism (1)
+
+    
+
+    - Post Office (1)
+
+    
+
+    - Poverty (7)
+
+    
+
+    - Power (5)
+
+    
+
+    - Pravada (1)
+
+    
+
+    - Pravda (1)
+
+    
+
+    - Prayer (19)
+
+    
+
+    - Preaching (1)
+
+    
+
+    - Precinct Committeeman (3)
+
+    
+
+    - pregnancy (2)
+
+    
+
+    - Preparedness (1)
+
+    
+
+    - Presbyterian (2)
+
+    
+
+    - Prescription Drugs (4)
+
+    
+
+    - President Jimmy Carter (2)
+
+    
+
+    - President Andrew Jackson (1)
+
+    
+
+    - President Barack Obama (13)
+
+    
+
+    - President Bill Clinton (10)
+
+    
+
+    - President BPresident Obama (1)
+
+    
+
+    - President Bush (44)
+
+    
+
+    - President George W. Bush (5)
+
+    
+
+    - President Jimmy Carter (12)
+
+    
+
+    - President Jimmy Carterm Appeasement (1)
+
+    
+
+    - President Jimmy Crter (1)
+
+    
+
+    - President Karzai (1)
+
+    
+
+    - President Obama (42)
+
+    
+
+    - President Obma (1)
+
+    
+
+    - President Ronald Reagan (12)
+
+    
+
+    - President Soetoro/Obama (2)
+
+    
+
+    - President Thomas Jefferson (2)
+
+    
+
+    - Presidential Address (1)
+
+    
+
+    - Presidential debate (2)
+
+    
+
+    - Presidential Debates (6)
+
+    
+
+    - Presidential Qualifications (38)
+
+    
+
+    - Presidents (1)
+
+    
+
+    - Prevention First Act (1)
+
+    
+
+    - Pride (3)
+
+    
+
+    - Prince of Peace (1)
+
+    
+
+    - Principles (6)
+
+    
+
+    - Priorities (4)
+
+    
+
+    - Prisoner Swap (1)
+
+    
+
+    - Prisons (1)
+
+    
+
+    - privacy (1)
+
+    
+
+    - Privacy Rights (5)
+
+    
+
+    - Privatization (2)
+
+    
+
+    - Pro-Choice (1)
+
+    
+
+    - Pro-Death (58)
+
+    
+
+    - Pro-Li' (1)
+
+    
+
+    - Pro-Life (83)
+
+    
+
+    - Pro-Marriage (1)
+
+    
+
+    - Proclamation March (3)
+
+    
+
+    - Procter and Gamble (1)
+
+    
+
+    - ProDeath (4)
+
+    
+
+    - Prodigal Son (1)
+
+    
+
+    - Production (1)
+
+    
+
+    - Profanity (1)
+
+    
+
+    - Progressive (2)
+
+    
+
+    - Progressive Insurance (1)
+
+    
+
+    - Progressives (1)
+
+    
+
+    - Progressivism (3)
+
+    
+
+    - Prohibition (1)
+
+    
+
+    - Project Gunrunner (2)
+
+    
+
+    - ProLife (5)
+
+    
+
+    - Promiscuity (2)
+
+    
+
+    - Proof of Citizenship (1)
+
+    
+
+    - Propaganda (16)
+
+    
+
+    - Property Rights (3)
+
+    
+
+    - Proposition 8 (7)
+
+    
+
+    - Protection Against Invasion Clause (1)
+
+    
+
+    - Protest (2)
+
+    
+
+    - Protor and Gamble (1)
+
+    
+
+    - Psychosocial Engineering (1)
+
+    
+
+    - Public Option (1)
+
+    
+
+    - Public Sector Jobs (2)
+
+    
+
+    - Public Sector Unions. (3)
+
+    
+
+    - Pulitzer Prize (1)
+
+    
+
+    - Puns (1)
+
+    
+
+    - Qaddafi (2)
+
+    
+
+    - Qoute Unquote (5)
+
+    
+
+    - Qualification (1)
+
+    
+
+    - Quality Healthcare (1)
+
+    
+
+    - Quantitative Easing (2)
+
+    
+
+    - Quiz (1)
+
+    
+
+    - Quote Unquote (11)
+
+    
+
+    - Quote/Unquote (9)
+
+    
+
+    - Quotes (18)
+
+    
+
+    - Qur'an (14)
+
+    
+
+    - Quran (1)
+
+    
+
+    - R.J. Harris (2)
+
+    
+
+    - Race Baiting (9)
+
+    
+
+    - Race Card (5)
+
+    
+
+    - Racial Discrimination (3)
+
+    
+
+    - racial injustice (1)
+
+    
+
+    - Racism (18)
+
+    
+
+    - Radical (2)
+
+    
+
+    - Radical Left (24)
+
+    
+
+    - Radical Leftist (3)
+
+    
+
+    - Radical Socialists (6)
+
+    
+
+    - Radicalism (2)
+
+    
+
+    - Radicals (1)
+
+    
+
+    - Rahm Emanuel (2)
+
+    
+
+    - Rahm Emmanuel (1)
+
+    
+
+    - Ralph Nader (2)
+
+    
+
+    - Rand Paul (17)
+
+    
+
+    - Randall Terry (6)
+
+    
+
+    - Random Acts of Kindness (1)
+
+    
+
+    - Randy Alcorn (1)
+
+    
+
+    - Rape (4)
+
+    
+
+    - Rape cover-up (2)
+
+    
+
+    - Rape Tom Cole (1)
+
+    
+
+    - Ray Comfort (2)
+
+    
+
+    - Ray Stevens (3)
+
+    
+
+    - Read the Bills Act (2)
+
+    
+
+    - Reagan (4)
+
+    
+
+    - Reality Report (6)
+
+    
+
+    - Reason (1)
+
+    
+
+    - Rebellion (2)
+
+    
+
+    - Recall (1)
+
+    
+
+    - Recession (1)
+
+    
+
+    - Recipes (1)
+
+    
+
+    - Reconciliation (2)
+
+    
+
+    - Recovery Summer (2)
+
+    
+
+    - Red Beckman (1)
+
+    
+
+    - Redemption (4)
+
+    
+
+    - Redistribution of Wealth (9)
+
+    
+
+    - Redistricting (2)
+
+    
+
+    - RedState (2)
+
+    
+
+    - Refineries (1)
+
+    
+
+    - Regulations (1)
+
+    
+
+    - ReidCare (2)
+
+    
+
+    - Reincarnation (1)
+
+    
+
+    - REINS Act (1)
+
+    
+
+    - Relationships (2)
+
+    
+
+    - Relgious Left (3)
+
+    
+
+    - Religion (3)
+
+    
+
+    - Religion of Hate (2)
+
+    
+
+    - Religious Left (1)
+
+    
+
+    - Religious Liberty (7)
+
+    
+
+    - Religiousity (1)
+
+    
+
+    - Remember in November (3)
+
+    
+
+    - Remembering 9/11 (1)
+
+    
+
+    - Remission of Sins (3)
+
+    
+
+    - Rep Michele Bachmann (3)
+
+    
+
+    - Rep. Allen West (1)
+
+    
+
+    - Rep. Betty Sutton (1)
+
+    
+
+    - Rep. Jeff Flake (1)
+
+    
+
+    - Rep. Jim Jordan (8)
+
+    
+
+    - Rep. John Boccieri (3)
+
+    
+
+    - Rep. John Boehner (6)
+
+    
+
+    - Rep. John Conyers (1)
+
+    
+
+    - Rep. John Dingell (1)
+
+    
+
+    - Rep. Justin Amash (1)
+
+    
+
+    - REp. Michele Bachmann (1)
+
+    
+
+    - Rep. Paul Ryan (3)
+
+    
+
+    - Rep. Scott Garrett (1)
+
+    
+
+    - Rep. Steve King (1)
+
+    
+
+    - Rep. Thaddeus McCotter (1)
+
+    
+
+    - Rep. Tom Tancredo (12)
+
+    
+
+    - Rep. Zack Space (1)
+
+    
+
+    - Reparations (2)
+
+    
+
+    - Repeal HCR (7)
+
+    
+
+    - Repeal ObamaCare (3)
+
+    
+
+    - Repentance (9)
+
+    
+
+    - Repentence (6)
+
+    
+
+    - Representation (1)
+
+    
+
+    - Representative Cliff St (1)
+
+    
+
+    - Representative Jack Kingston (1)
+
+    
+
+    - Republic (2)
+
+    
+
+    - Republican Party (7)
+
+    
+
+    - Republican Study Group (1)
+
+    
+
+    - Republicans (4)
+
+    
+
+    - Restor Honor Rally (1)
+
+    
+
+    - Restore America Rally (1)
+
+    
+
+    - Restoring Honor Rally (1)
+
+    
+
+    - Resurrection (7)
+
+    
+
+    - Retake America (1)
+
+    
+
+    - Rev. Joe Wright (1)
+
+    
+
+    - Revelation (1)
+
+    
+
+    - Revisionist History (3)
+
+    
+
+    - Revival (2)
+
+    
+
+    - Rewards (1)
+
+    
+
+    - Richard Lugar (1)
+
+    
+
+    - Richard Mack (1)
+
+    
+
+    - Richard Mourdock (2)
+
+    
+
+    - Rick (1)
+
+    
+
+    - Rick Barber (1)
+
+    
+
+    - Rick Santelli (4)
+
+    
+
+    - Rick Santorum (20)
+
+    
+
+    - Rick Warren (3)
+
+    
+
+    - Right to Bear Arms (5)
+
+    
+
+    - Right to Life (3)
+
+    
+
+    - Right to Life Act (1)
+
+    
+
+    - Righteousness (1)
+
+    
+
+    - Righting First Amendment Wrongs (32)
+
+    
+
+    - rights (1)
+
+    
+
+    - RINO (16)
+
+    
+
+    - RINO. 2012 Election (2)
+
+    
+
+    - RINOs (17)
+
+    
+
+    - Riots (1)
+
+    
+
+    - Rober F. Kennedy (1)
+
+    
+
+    - Robert Gates (1)
+
+    
+
+    - Robert Gibbs (1)
+
+    
+
+    - Robert Owens (7)
+
+    
+
+    - Robert Pape (1)
+
+    
+
+    - Robert Rector (1)
+
+    
+
+    - Rodham (1)
+
+    
+
+    - Rodham-Clinton (37)
+
+    
+
+    - Roe v. Wade (7)
+
+    
+
+    - Roger Wicker (1)
+
+    
+
+    - Rohm Emanuel (1)
+
+    
+
+    - Role of Government (1)
+
+    
+
+    - Roman Catholic Church (5)
+
+    
+
+    - Ron Paul (53)
+
+    
+
+    - Rosanna Pulido (1)
+
+    
+
+    - Rosie O'Donnell (1)
+
+    
+
+    - RU486 (2)
+
+    
+
+    - Rudy Giuiani (7)
+
+    
+
+    - Rudy Giuliani (3)
+
+    
+
+    - Rudy Guiliani (1)
+
+    
+
+    - Rule of Law (3)
+
+    
+
+    - Rupert Murdock (1)
+
+    
+
+    - Rush Limbaugh (10)
+
+    
+
+    - Russia (7)
+
+    
+
+    - Ruth Ginsburg (3)
+
+    
+
+    - S 909 (1)
+
+    
+
+    - S. 5 (1)
+
+    
+
+    - S.E.I.U. (1)
+
+    
+
+    - Sabotage (1)
+
+    
+
+    - Sacred (1)
+
+    
+
+    - Saddam Hussein (7)
+
+    
+
+    - Sadomasochism (1)
+
+    
+
+    - Safety (1)
+
+    
+
+    - Salvation (23)
+
+    
+
+    - Salvation Bible (1)
+
+    
+
+    - Salvation Sin (2)
+
+    
+
+    - Same-sex "marriage" (26)
+
+    
+
+    - Same-sex "marriage" Jesus Christ (1)
+
+    
+
+    - Sanctify of Life (1)
+
+    
+
+    - sanctions (1)
+
+    
+
+    - Sanctity of Life (1)
+
+    
+
+    - Sanctity of Life Act (2)
+
+    
+
+    - Sanctuary City (1)
+
+    
+
+    - Sandy O'Brien (2)
+
+    
+
+    - Santa Claus (2)
+
+    
+
+    - Sara Palin (4)
+
+    
+
+    - Sarach Palin (1)
+
+    
+
+    - Sarah Palin (52)
+
+    
+
+    - Satan (46)
+
+    
+
+    - Satan. Song (1)
+
+    
+
+    - Saudi Arabia (5)
+
+    
+
+    - Saul Alinsky (5)
+
+    
+
+    - Savior (1)
+
+    
+
+    - Scamnesty (1)
+
+    
+
+    - Scare Tactics (3)
+
+    
+
+    - scene it? (1)
+
+    
+
+    - SCHIP (1)
+
+    
+
+    - School Choice (3)
+
+    
+
+    - School vouchers (5)
+
+    
+
+    - Schools (4)
+
+    
+
+    - Schori (1)
+
+    
+
+    - Science (7)
+
+    
+
+    - Scientific American (1)
+
+    
+
+    - Scitt Angelle (1)
+
+    
+
+    - Scott Brown (5)
+
+    
+
+    - SCOTUS (2)
+
+    
+
+    - Scripture (3)
+
+    
+
+    - Sean Hannity (5)
+
+    
+
+    - Sears (1)
+
+    
+
+    - SEC (1)
+
+    
+
+    - Secession (1)
+
+    
+
+    - Second Amendment (15)
+
+    
+
+    - Secrecy (2)
+
+    
+
+    - Secretary of State (1)
+
+    
+
+    - Secular (1)
+
+    
+
+    - Secular Humanism (12)
+
+    
+
+    - Secular-Humanism (4)
+
+    
+
+    - Secular-Muslim (1)
+
+    
+
+    - Secure the borders (1)
+
+    
+
+    - Security Alert Level (1)
+
+    
+
+    - Security and Prosperity Partnership (1)
+
+    
+
+    - Security Breaches (1)
+
+    
+
+    - Seeker Friendly (1)
+
+    
+
+    - SEIU (5)
+
+    
+
+    - Self Sufficiency (1)
+
+    
+
+    - Semantics (1)
+
+    
+
+    - Sen Jim DeMint (4)
+
+    
+
+    - Sen Pat Toomey (1)
+
+    
+
+    - Sen. Chuck Schumer (2)
+
+    
+
+    - Sen. Edward Kennedy (3)
+
+    
+
+    - Sen. Harry Reid (1)
+
+    
+
+    - Sen. Jim DeMint (1)
+
+    
+
+    - Sen. Jim Ihnofe (1)
+
+    
+
+    - Sen. John Kerry (1)
+
+    
+
+    - Sen. John McCain (1)
+
+    
+
+    - Sen. Keith Faber (1)
+
+    
+
+    - Sen. Kennedy (2)
+
+    
+
+    - Sen. Lisa Murkowski (11)
+
+    
+
+    - Sen. McCain (4)
+
+    
+
+    - Sen. Oren Hatch (1)
+
+    
+
+    - Sen. Orrin Hatch (1)
+
+    
+
+    - Senate Conservative Fund (1)
+
+    
+
+    - Senator Al Gore (3)
+
+    
+
+    - Senator Barbara Boxer (3)
+
+    
+
+    - Senator Edward Kennedy (4)
+
+    
+
+    - Senator Fred Thompson (1)
+
+    
+
+    - Senator Harry Reid (28)
+
+    
+
+    - Senator McConnell (1)
+
+    
+
+    - Senator Mitch McConnell (1)
+
+    
+
+    - Senator Sam Brownback (1)
+
+    
+
+    - Senator Sherrod Brown (7)
+
+    
+
+    - Senators (1)
+
+    
+
+    - Senicide (1)
+
+    
+
+    - Seniors (6)
+
+    
+
+    - Separation of Church and State (13)
+
+    
+
+    - Separation of God and State (1)
+
+    
+
+    - Separation of Powers (6)
+
+    
+
+    - September 11th (2)
+
+    
+
+    - Sermon on the Mount (1)
+
+    
+
+    - Sesame Street (1)
+
+    
+
+    - Seth Morgan (1)
+
+    
+
+    - Sex (1)
+
+    
+
+    - Sex Ed (7)
+
+    
+
+    - sex scandal (3)
+
+    
+
+    - Sex trade (2)
+
+    
+
+    - Sex Trafficking (2)
+
+    
+
+    - Sexim (1)
+
+    
+
+    - Sexism (1)
+
+    
+
+    - Sexploitation (2)
+
+    
+
+    - Sexual Harassment (2)
+
+    
+
+    - sexual immorality (12)
+
+    
+
+    - Sexual orientation discrimination (3)
+
+    
+
+    - Sexuallly Oriented Businesses (3)
+
+    
+
+    - Shakedown (2)
+
+    
+
+    - Shamnesty (1)
+
+    
+
+    - Sharia Law (16)
+
+    
+
+    - Sharing Your Faith (1)
+
+    
+
+    - Sharron Angle (6)
+
+    
+
+    - Sheep (1)
+
+    
+
+    - Sheila Jackson Lee (1)
+
+    
+
+    - Sheriff Joe Arpaio (1)
+
+    
+
+    - Sheriff Richard Mack (3)
+
+    
+
+    - Sheryl Crow (1)
+
+    
+
+    - Shining God's Light (3)
+
+    
+
+    - Shopping (1)
+
+    
+
+    - Sign of the times (6)
+
+    
+
+    - Signs of the Tmes (10)
+
+    
+
+    - Simplicity (1)
+
+    
+
+    - Sin (19)
+
+    
+
+    - Single-Payer Healthcare (18)
+
+    
+
+    - Single-Payer Insurance (1)
+
+    
+
+    - Sinners (2)
+
+    
+
+    - Situational Ethics (1)
+
+    
+
+    - Slavery (14)
+
+    
+
+    - sloganeering (1)
+
+    
+
+    - Small Groups (1)
+
+    
+
+    - Social Issues (2)
+
+    
+
+    - Social justice (1)
+
+    
+
+    - Social Security (2)
+
+    
+
+    - Social Security Numbers (1)
+
+    
+
+    - Socialism (194)
+
+    
+
+    - Socialism Change (2)
+
+    
+
+    - Socialist (11)
+
+    
+
+    - Socialist agenda (1)
+
+    
+
+    - Socialistm (3)
+
+    
+
+    - Socialists (2)
+
+    
+
+    - Socialized Healthcare (8)
+
+    
+
+    - Socialized Medicine (71)
+
+    
+
+    - Socialsim (2)
+
+    
+
+    - Sodomy (2)
+
+    
+
+    - Soetor/Obama (2)
+
+    
+
+    - Soetoro./Obama (11)
+
+    
+
+    - Soetoro/Obama (316)
+
+    
+
+    - Soetoro/Obama NewsBusters (1)
+
+    
+
+    - Soetoro/Obamo (2)
+
+    
+
+    - Soetoro/Obmaa (1)
+
+    
+
+    - Soetoro/Ogama (2)
+
+    
+
+    - Solomon (1)
+
+    
+
+    - Solutions (1)
+
+    
+
+    - Solyndra (2)
+
+    
+
+    - Somalia (1)
+
+    
+
+    - Song (16)
+
+    
+
+    - Song Lyrics (17)
+
+    
+
+    - Songs (10)
+
+    
+
+    - Sonia Sotomayor (5)
+
+    
+
+    - Sotomayor (2)
+
+    
+
+    - SOTU 2012 (1)
+
+    
+
+    - South Carolina Primary (1)
+
+    
+
+    - South Dakota (2)
+
+    
+
+    - South Dakota Right to Life (1)
+
+    
+
+    - South Korea (1)
+
+    
+
+    - Sovereignty (10)
+
+    
+
+    - Soviet Union (2)
+
+    
+
+    - sowing and reaping (1)
+
+    
+
+    - Speaker John Boehner (3)
+
+    
+
+    - Special Interests (3)
+
+    
+
+    - Special Olympics (1)
+
+    
+
+    - Speciation (1)
+
+    
+
+    - Spending (1)
+
+    
+
+    - Spin (1)
+
+    
+
+    - Spiritual (2)
+
+    
+
+    - Spiritual death (2)
+
+    
+
+    - Spiritual Warfare (1)
+
+    
+
+    - Spirituality (2)
+
+    
+
+    - Spm (1)
+
+    
+
+    - Sports (3)
+
+    
+
+    - Spys (1)
+
+    
+
+    - St. Parick (1)
+
+    
+
+    - Stability (1)
+
+    
+
+    - Stalin (1)
+
+    
+
+    - Stand Up (1)
+
+    
+
+    - Standards (1)
+
+    
+
+    - Standing Armies (2)
+
+    
+
+    - Standing Doctrine (2)
+
+    
+
+    - Stanley McChrystal (1)
+
+    
+
+    - Star of Bethlehem (1)
+
+    
+
+    - Star Parker (1)
+
+    
+
+    - START (2)
+
+    
+
+    - State of the Union 2008 (1)
+
+    
+
+    - State Sovereignty (6)
+
+    
+
+    - States Rights (10)
+
+    
+
+    - Statesman (2)
+
+    
+
+    - Statism (3)
+
+    
+
+    - Statistics (1)
+
+    
+
+    - STD (1)
+
+    
+
+    - Stealing (1)
+
+    
+
+    - Stealing Elections (4)
+
+    
+
+    - Stealth Jihad (1)
+
+    
+
+    - Steny Hoyer (2)
+
+    
+
+    - Steve Chabot (1)
+
+    
+
+    - Steve Christopher (2)
+
+    
+
+    - Steve Driehaus (4)
+
+    
+
+    - Steve Jobs (2)
+
+    
+
+    - Steven Keillor (1)
+
+    
+
+    - Stimulus (23)
+
+    
+
+    - stock market (1)
+
+    
+
+    - Stone-Ground (1)
+
+    
+
+    - Stoning (2)
+
+    
+
+    - Street Preachers (1)
+
+    
+
+    - Strikes (1)
+
+    
+
+    - Strip Clubs (1)
+
+    
+
+    - Study (1)
+
+    
+
+    - Sudan (1)
+
+    
+
+    - Suicide Terrorism (1)
+
+    
+
+    - Sunni (1)
+
+    
+
+    - Supercommittee (1)
+
+    
+
+    - Supreme Court (6)
+
+    
+
+    - Supreme Judge of the World (1)
+
+    
+
+    - Surgeon General (1)
+
+    
+
+    - Surrender Monkeys (1)
+
+    
+
+    - Survival (1)
+
+    
+
+    - Susan B. Anthony's List (1)
+
+    
+
+    - Susan G. Komen (1)
+
+    
+
+    - Sustainable Development (4)
+
+    
+
+    - Swaziland (1)
+
+    
+
+    - Swine Influenza (3)
+
+    
+
+    - Symbolism vs. Substance (1)
+
+    
+
+    - T-Shirts (2)
+
+    
+
+    - Take Back This Nation (2)
+
+    
+
+    - Taking Back the Rainbow (25)
+
+    
+
+    - Taliban (2)
+
+    
+
+    - Talk (1)
+
+    
+
+    - Talk Radio (3)
+
+    
+
+    - Talking Feds (1)
+
+    
+
+    - Tancredo (3)
+
+    
+
+    - Taqiyya (2)
+
+    
+
+    - TARP (5)
+
+    
+
+    - Tax and Spend (1)
+
+    
+
+    - Tax and Spend Liberals (19)
+
+    
+
+    - Tax Breaks (3)
+
+    
+
+    - Tax Deductable Giving (1)
+
+    
+
+    - Tax evasion (11)
+
+    
+
+    - Tax Havens (1)
+
+    
+
+    - Tax Rebate (1)
+
+    
+
+    - taxes (33)
+
+    
+
+    - Taxpayers (1)
+
+    
+
+    - Tea Party (4)
+
+    
+
+    - Tea Party Coloring Book (1)
+
+    
+
+    - Tea Party Express (4)
+
+    
+
+    - Tea Party Movement (117)
+
+    
+
+    - Tea Party Movemet (2)
+
+    
+
+    - Tea Party Participant (5)
+
+    
+
+    - Tea Party Participants (7)
+
+    
+
+    - Tea Party Particpants (1)
+
+    
+
+    - Tea Party Patriots (7)
+
+    
+
+    - Tea Party Protests (88)
+
+    
+
+    - Tea Party Protests. (1)
+
+    
+
+    - Teacher Unions (1)
+
+    
+
+    - Ted Cruz (1)
+
+    
+
+    - Ted Stevens (1)
+
+    
+
+    - Ted Strickland (7)
+
+    
+
+    - Ted Turner (1)
+
+    
+
+    - Teddy Roosevelt (2)
+
+    
+
+    - Teleprompter (11)
+
+    
+
+    - Telepromted (1)
+
+    
+
+    - Television (2)
+
+    
+
+    - Temple Mount (1)
+
+    
+
+    - Temptation (1)
+
+    
+
+    - Ten Comandments (1)
+
+    
+
+    - Ten Commandments (10)
+
+    
+
+    - Tenth Amendment (1)
+
+    
+
+    - Term Limits (2)
+
+    
+
+    - Terri Sachiavo (1)
+
+    
+
+    - Terrible Triumvirate (1)
+
+    
+
+    - Terrorism (17)
+
+    
+
+    - Terrorist (2)
+
+    
+
+    - Terry Jones (1)
+
+    
+
+    - Texas (4)
+
+    
+
+    - Thad Cochran (1)
+
+    
+
+    - Thaddeus McCotter (1)
+
+    
+
+    - Thanksgiving (7)
+
+    
+
+    - Thanksgiving Dinner (1)
+
+    
+
+    - The Bible (6)
+
+    
+
+    - the Cross (2)
+
+    
+
+    - the devil (2)
+
+    
+
+    - The Draft (1)
+
+    
+
+    - The Fall of Man (6)
+
+    
+
+    - The Flesh (1)
+
+    
+
+    - The Golden Rule (1)
+
+    
+
+    - The Justice Foundation (1)
+
+    
+
+    - The Messiah (1)
+
+    
+
+    - the Obama Legacy (1)
+
+    
+
+    - The Other Side (1)
+
+    
+
+    - the PASS Act (1)
+
+    
+
+    - The Presidency (5)
+
+    
+
+    - The Revolution (2)
+
+    
+
+    - TheAmericanView (1)
+
+    
+
+    - Theft (9)
+
+    
+
+    - Theism (1)
+
+    
+
+    - Theonomism (1)
+
+    
+
+    - Third Party Candidates (10)
+
+    
+
+    - Thomas More Law Center (1)
+
+    
+
+    - Thomas Paine (3)
+
+    
+
+    - thomas.loc.gov (1)
+
+    
+
+    - Thought Crime (1)
+
+    
+
+    - Thoughts (1)
+
+    
+
+    - Thugacracy (1)
+
+    
+
+    - Tiger Woods (3)
+
+    
+
+    - Tim Geitner (2)
+
+    
+
+    - Tim Johnson (1)
+
+    
+
+    - Tim Pawlenty (2)
+
+    
+
+    - Tim Tebow (6)
+
+    
+
+    - Time (4)
+
+    
+
+    - Timothy Geithner (2)
+
+    
+
+    - tion (1)
+
+    
+
+    - Tithing (1)
+
+    
+
+    - Title of Nobility (1)
+
+    
+
+    - Toledo (1)
+
+    
+
+    - tolerance (11)
+
+    
+
+    - Tom Brinkman (1)
+
+    
+
+    - Tom Ridge (2)
+
+    
+
+    - Tom Rooney (1)
+
+    
+
+    - Tom Woods (1)
+
+    
+
+    - tongue (1)
+
+    
+
+    - Tony Perkins (2)
+
+    
+
+    - Tony Rezko (2)
+
+    
+
+    - Torture (5)
+
+    
+
+    - Totalitarianism (3)
+
+    
+
+    - Town Hall Meetings (12)
+
+    
+
+    - Track and Tax Bill (1)
+
+    
+
+    - Trade (1)
+
+    
+
+    - Trade Deficit (1)
+
+    
+
+    - Traditional Marriage (1)
+
+    
+
+    - Tragedy (1)
+
+    
+
+    - Traitors (5)
+
+    
+
+    - Transformers (1)
+
+    
+
+    - Transparency (1)
+
+    
+
+    - Treason (3)
+
+    
+
+    - Treaties (1)
+
+    
+
+    - Trede (1)
+
+    
+
+    - Tribute (1)
+
+    
+
+    - Trinity (1)
+
+    
+
+    - Trivializing Sin (1)
+
+    
+
+    - Trojan Horse (1)
+
+    
+
+    - True American (1)
+
+    
+
+    - Trusting in Jesus (4)
+
+    
+
+    - Truth (10)
+
+    
+
+    - Tryanny (1)
+
+    
+
+    - TSA (9)
+
+    
+
+    - Tucson Massacre (1)
+
+    
+
+    - Turth (1)
+
+    
+
+    - TV (1)
+
+    
+
+    - TV Shows (2)
+
+    
+
+    - twitter (1)
+
+    
+
+    - Tyranny (60)
+
+    
+
+    - U.N. (1)
+
+    
+
+    - U.N. Convention On The Rights Of The Child (1)
+
+    
+
+    - U.S. Attorneys (2)
+
+    
+
+    - U.S. House (2)
+
+    
+
+    - U.S. Senate (3)
+
+    
+
+    - UFOs (1)
+
+    
+
+    - Ultrasound (1)
+
+    
+
+    - Unbelievers (1)
+
+    
+
+    - Undeclared Wars (1)
+
+    
+
+    - Underwear (1)
+
+    
+
+    - Unemployment (6)
+
+    
+
+    - Union (1)
+
+    
+
+    - Union corruption (2)
+
+    
+
+    - Union thugs (2)
+
+    
+
+    - Unions (5)
+
+    
+
+    - United Nations (14)
+
+    
+
+    - Universal Healthcare (43)
+
+    
+
+    - Universtal Healthcare (1)
+
+    
+
+    - unPlanned (1)
+
+    
+
+    - Unversal Healthcare (2)
+
+    
+
+    - US Congress (1)
+
+    
+
+    - US Supreme Court (14)
+
+    
+
+    - Usurpation of Office (11)
+
+    
+
+    - Usury (1)
+
+    
+
+    - V Chip (1)
+
+    
+
+    - Vacation (1)
+
+    
+
+    - Valentine (1)
+
+    
+
+    - Values (5)
+
+    
+
+    - Values Voters (8)
+
+    
+
+    - Van Irion (1)
+
+    
+
+    - Van Jones (1)
+
+    
+
+    - Vatican City (1)
+
+    
+
+    - Vaughn Walker (1)
+
+    
+
+    - Vengence (1)
+
+    
+
+    - Veterans (7)
+
+    
+
+    - Veto (2)
+
+    
+
+    - Vice President (1)
+
+    
+
+    - Victoria Jackson (3)
+
+    
+
+    - Vietman War (1)
+
+    
+
+    - Violence (2)
+
+    
+
+    - Violent Crime (1)
+
+    
+
+    - Virginia (2)
+
+    
+
+    - Virginia Tech massacre (2)
+
+    
+
+    - Virtue (2)
+
+    
+
+    - Vladimir Putin (1)
+
+    
+
+    - Voinovich (3)
+
+    
+
+    - Voir Dire (1)
+
+    
+
+    - Voodoo (1)
+
+    
+
+    - Vote (1)
+
+    
+
+    - votepact.org (1)
+
+    
+
+    - Voter Fraud (13)
+
+    
+
+    - Voter Id (2)
+
+    
+
+    - Voter Intimidation (1)
+
+    
+
+    - Voter Resources (1)
+
+    
+
+    - Voting (6)
+
+    
+
+    - voting rights (1)
+
+    
+
+    - VPI Massacre (3)
+
+    
+
+    - WAKW (1)
+
+    
+
+    - Wal Street Reform (1)
+
+    
+
+    - Wall Street Journal (1)
+
+    
+
+    - WallBuilders (1)
+
+    
+
+    - Walter Jones (4)
+
+    
+
+    - War (8)
+
+    
+
+    - War Bonds (1)
+
+    
+
+    - War Crimes (1)
+
+    
+
+    - War in Iraq (4)
+
+    
+
+    - War on Terror (16)
+
+    
+
+    - War on Women (1)
+
+    
+
+    - War Powers (4)
+
+    
+
+    - War. George Washington (1)
+
+    
+
+    - Warren Christopher (1)
+
+    
+
+    - Washington D.C. (3)
+
+    
+
+    - Washington Post (1)
+
+    
+
+    - Wasteful Government Spending (124)
+
+    
+
+    - Wasteful Government Spending Humor (1)
+
+    
+
+    - Wasteful Government Waste (1)
+
+    
+
+    - Wasting-a-ton DC (12)
+
+    
+
+    - Waterboarding (1)
+
+    
+
+    - Watergate (2)
+
+    
+
+    - Wayne Allyn Root (2)
+
+    
+
+    - We the People Act (2)
+
+    
+
+    - We the People Foundation (3)
+
+    
+
+    - Weapons of Mass Destruction (2)
+
+    
+
+    - Welfare (7)
+
+    
+
+    - Welfare Fraud (1)
+
+    
+
+    - Welfare State (1)
+
+    
+
+    - Well Duh (1)
+
+    
+
+    - Western Culture (1)
+
+    
+
+    - Where's the birth certificate? (5)
+
+    
+
+    - White House (2)
+
+    
+
+    - WHO (1)
+
+    
+
+    - Who am I (1)
+
+    
+
+    - Whole Foods (2)
+
+    
+
+    - wicca (1)
+
+    
+
+    - Wicked Witch (1)
+
+    
+
+    - Wikileaks (3)
+
+    
+
+    - Wilberforce (1)
+
+    
+
+    - Will Rogers (1)
+
+    
+
+    - Willam Warren (1)
+
+    
+
+    - William Ayers (1)
+
+    
+
+    - William Jefferson (1)
+
+    
+
+    - William Kostric (1)
+
+    
+
+    - William Warren (3)
+
+    
+
+    - Winston Churchill (1)
+
+    
+
+    - Wisconsin (1)
+
+    
+
+    - Wisdom (4)
+
+    
+
+    - Wisom (1)
+
+    
+
+    - Witnessing (8)
+
+    
+
+    - WMD (2)
+
+    
+
+    - WND (1)
+
+    
+
+    - Wolves (1)
+
+    
+
+    - Woman (1)
+
+    
+
+    - Women in Politics (1)
+
+    
+
+    - Women in the church (1)
+
+    
+
+    - Women's Rights (1)
+
+    
+
+    - Womens' Rights (1)
+
+    
+
+    - Word of God (5)
+
+    
+
+    - words (3)
+
+    
+
+    - Works Righteousness Salvation (4)
+
+    
+
+    - World (2)
+
+    
+
+    - World Hunger (1)
+
+    
+
+    - World War I (1)
+
+    
+
+    - World War II (1)
+
+    
+
+    - World's Shortest Books (1)
+
+    
+
+    - WorldNetDaily (3)
+
+    
+
+    - Worldviews (3)
+
+    
+
+    - Worship (2)
+
+    
+
+    - Worth Reading (2)
+
+    
+
+    - Wrong Priorities (4)
+
+    
+
+    - WTC 7 (1)
+
+    
+
+    - y (1)
+
+    
+
+    - Year in Review (1)
+
+    
+
+    - Young Cons (2)
+
+    
+
+    - Young Earth Creationism (1)
+
+    
+
+    - Yousef Nadarkhani (1)
+
+    
+
+    - YouTube video (4)
+
+    
+
+    - Zach Space (2)
+
+    
+
+    - Zell Miller (1)
+
+    
+
+    - Zombie (1)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://mycounter.tinycounter.com/index.php?user=gjevnikar
+
+
+
+Image: http://buttons.blogger.com/bloggerbutton1.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+ABORTIONS
+
+.abCountCSS,.abCountCSS:hover,.abCountCSS:visited { // Change the appearance by
+changing the below values cursor:help; font-family: arial; font-size: large;
+font-weight: bold; color: white; background-color:black}
+abortionCounter("developed", "disp2", "abCountPos", "abCountCSS");
+
+Abortion Counter from www.1way2God.net
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+BlogTalkRadio
+
+
+
+Image: http://www.blogtalkradio.com/img/180x60_wht.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Klanned Parenthood
+
+
+
+Image: http://www.LifeDynamics.com/banners/Banner_Klan2_1.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png var
+sc_project=3296768; var sc_invisible=0; var sc_partition=21; var
+sc_security="9b8968f7";
+
+Image: http://c22.statcounter.com/3296768/0/9b8968f7/0/
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'25444336';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d25444336','//agoodchoice.blogspot.com/2011_05_01_archive.html','25444336');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '25444336',
+'bloggerUrl': 'http://www.blogger.com', 'title': 'A Good Choice . . .', 'pageType':
+'archive', 'url': 'http://agoodchoice.blogspot.com/2011_05_01_archive.html',
+'canonicalUrl': 'http://agoodchoice.blogspot.com/2011_05_01_archive.html',
+'canonicalHomepageUrl': 'http://agoodchoice.blogspot.com/', 'homepageUrl':
+'http://agoodchoice.blogspot.com/', 'blogspotFaviconUrl':
+'http://agoodchoice.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'analyticsAccountNumber': '', 'searchLabel': '',
+'searchQuery': '', 'pageName': 'May 2011', 'pageTitle': 'A Good Choice . . .: May 2011',
+'encoding': 'UTF-8', 'locale': 'en-US', 'isPrivate': false, 'isMobile': false,
+'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false,
+'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42
+type\75\42application/atom+xml\42 title\75\42A Good Choice . . . - Atom\42
+href\75\42http://agoodchoice.blogspot.com/feeds/posts/default\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42A Good Choice . . . -
+RSS\42
+href\75\42http://agoodchoice.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42A Good Choice . . . - Atom\42
+href\75\42http://www.blogger.com/feeds/25444336/posts/default\42 /\76\n\74link
+rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\07525444336\42 /\076', 'meTag': '',
+'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'mainVisitedLinkColor': '#cc6633',
+'postTitleFont': 'normal bold 135% \47Trebuchet MS\47,Verdana,Arial,Sans-serif',
+'borderColor': '#bbbbbb', 'mainTextColor': '#000000', 'pageTitleFont': 'normal bold
+200% \47Trebuchet MS\47,Verdana,Arial,Sans-serif', 'titleTextColor': '#ffffff',
+'topSidebarVisitedLinkColor': '#dddddd', 'postTitleColor': '#333333',
+'mainBgColor': '#ffffff', 'titleBgColor': '#771100', 'mainLinkColor': '#bb3300',
+'topSidebarTextColor': '#ffffff', 'headerFont': 'normal bold 100% \47Trebuchet
+MS\47,Verdana,Arial,Sans-serif', 'topSidebarBgColor': '#999999', 'bodyFont':
+'normal normal 100% \47Trebuchet MS\47,Verdana,Arial,Sans-serif', 'descriptionFont':
+'normal normal 100% \47Trebuchet MS\47,Verdana,Arial,Sans-serif', 'dateHeaderColor':
+'#881100', 'endSide': 'right', 'topSidebarLinkColor': '#ffffff', 'startSide': 'left',
+'topSidebarHeaderColor': '#ffffff'}, 'override': ''}}, {'name': 'view', 'data':
+{'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name':
+'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML5', 'footer', null, document.getElementById('HTML5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML4', 'footer', null, document.getElementById('HTML4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML2', 'footer', null, document.getElementById('HTML2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML3', 'footer', null, document.getElementById('HTML3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML9', 'sidebartop', null, document.getElementById('HTML9'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML8', 'sidebartop', null, document.getElementById('HTML8'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_FollowByEmailView', new
+_WidgetInfo('FollowByEmail1', 'sidebartop', null,
+document.getElementById('FollowByEmail1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML10',
+'sidebartop', null, document.getElementById('HTML10'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1',
+'sidebartop', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'sidebar',
+null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML12', 'sidebar',
+null, document.getElementById('HTML12'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7', 'sidebar',
+null, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML11', 'sidebar',
+null, document.getElementById('HTML11'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextListView', new
+_WidgetInfo('TextList1', 'sidebar', null, document.getElementById('TextList1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextListView', new
+_WidgetInfo('TextList2', 'sidebar', null, document.getElementById('TextList2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList1', 'sidebar', null, document.getElementById('LinkList1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LabelView', new
+_WidgetInfo('Label1', 'sidebar', null, document.getElementById('Label1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'sidebar', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/2030570962-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'),
+{'title': 'Pages', 'links': [{'href': 'http://agoodchoice.blogspot.com/', 'title':
+'Home', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+

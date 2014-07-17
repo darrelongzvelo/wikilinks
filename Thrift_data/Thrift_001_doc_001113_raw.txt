@@ -1,0 +1,1132 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Commercial Space if (navigator.userAgent.indexOf('MSIE 6') == -1) { WebFontConfig =
+{ google: { families: [ 'Tinos' ], api:
+'//themes.googleusercontent.com/fonts/css?kit=uEejoB7RACUK3s-W0a63ag' }, loading:
+function() { if (window.jstiming) window.jstiming.load.tick('webfontLoading'); },
+active: function() { if (window.jstiming)
+window.jstiming.load.tick('webfontActive'); } }; (function() { var wf =
+document.createElement('script'); wf.src =
+'//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type =
+'text/javascript'; wf.async = 'true'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s);
+})(); } else { document.documentElement.className = 'wf-inactive'; } <!-- /*
+----------------------------------------------- Blogger Template Style Name: Minima
+Date: 26 Feb 2004 Updated by: Blogger Team 3 column by:
+http://www.simplebloggertutorials.com/
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff"> <Variable name="textcolor" description="Text Color"
+type="color" default="#333"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#58a"> <Variable name="pagetitlecolor" description="Blog Title
+Color" type="color" default="#666"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#999"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#c60">
+<Variable name="bordercolor" description="Border Color" type="color" default="#ccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#999"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#999"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% Georgia, Serif"> <Variable
+name="headerfont" description="Sidebar Title Font" type="font" default="normal normal
+78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable
+name="pagetitlefont" description="Blog Title Font" type="font" default="normal normal
+200% Georgia, Serif"> <Variable name="descriptionfont" description="Blog Description
+Font" type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="postfooterfont" description="Post Footer Font"
+type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="startSide" description="Side where text starts in blog
+language" type="automatic" default="left"> <Variable name="endSide"
+description="Side where text ends in blog language" type="automatic" default="right"> */
+/* Use this with templates/template-twocol.html */ body { background:#ffffff; margin:0;
+color:#333333; font:x-small Georgia Serif; font-size/* */:/**/small; font-size:
+/**/small; text-align: center; } a:link { color:#0b5394; text-decoration:none; }
+a:visited { color:#6fa8dc; text-decoration:none; } a:hover { color:#cc6600;
+text-decoration:underline; } a img { border-width:0; } /* Header
+----------------------------------------------- */ #header-wrapper { width:890px;
+margin:0 auto 10px; border:1px solid #cccccc; } #header-inner { background-position:
+center; margin-left: auto; margin-right: auto; } #header { margin: 5px; border: 1px solid
+#cccccc; text-align: center; color:#000000; } #header h1 { margin:5px 5px 0; padding:15px
+20px .25em; line-height:1.2em; text-transform:uppercase; letter-spacing:.2em; font:
+normal bold 250% Tinos; } #header a { color:#000000; text-decoration:none; } #header
+a:hover { color:#000000; } #header .description { margin:0 5px 5px; padding:0 20px 15px;
+max-width:880px; text-transform:uppercase; letter-spacing:.2em; line-height: 1.4em;
+font: italic normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif; color:
+#333333; } #header img { margin-left: auto; margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width:890px;
+margin:0 auto; padding:10px; text-align:left; font: normal normal 100% Tinos; }
+#main-wrapper { width: 410px; margin:0 10px 0 0; float: left; word-wrap: break-word; /* fix
+for long text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text
+content breaking IE sidebar float */ } #sidebar-wrapper { width: 220px; float: right;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */ overflow: hidden;
+/* fix for long non-text content breaking IE sidebar float */ } #left-sidebar-wrap { width:
+220px; margin:0 10px 0 0; float: left; word-wrap: break-word; overflow: hidden; } /*
+Headings ----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+font:normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.2em; color:#999999; }
+/* Posts ----------------------------------------------- */ h2.date-header {
+margin:1.5em 0 .5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #cccccc;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#cc6600; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#cc6600;
+font-weight:normal; } .post h3 strong, .post h3 a:hover { color:#333333; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#999999; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; line-height: 1.4em; } .comment-link { margin-left:.6em; } .post img,
+table.tr-caption-container { padding:4px; border:1px solid #cccccc; }
+.tr-caption-container img { border: none; padding: 0; } .post blockquote { margin:1em 20px;
+} .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #999999; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+#blog-pager-newer-link { float: left; } #blog-pager-older-link { float: right; }
+#blog-pager { text-align: center; } .feed-links { clear: both; line-height: 2.5em; } /*
+Sidebar Content ----------------------------------------------- */ .sidebar { color:
+#666666; line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; }
+.sidebar li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #cccccc; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #cccccc; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; color: #999999; font-weight: bold; line-height: 1.6em; } .profile-datablock
+{ margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:880px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0756618880\46blogName\75Commercial+Space\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://acuriousguy.blogspot.com/search\46blogLocale\75en_US\46v\0752\46homepageUrl\75http://acuriousguy.blogspot.com/\46targetPostID\0755089130076680906134\46blogPostOrPageUrl\75http://acuriousguy.blogspot.com/2011/01/canadas-military-space-policy-part-4.html\46vt\07541357087252568047',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Commercial Space
+
+
+
+Focused on Canadian money making activities high above the skies...
+
+Pages
+
+    
+
+    - Home
+
+    
+
+    - About this Blog
+
+    
+
+    - About the Author
+
+    
+
+    - Our Weekly Mailing List
+
+    
+
+    - Context & Background Materials
+
+    
+
+    - Space Jobs & Career Boards
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Sunday, January 16, 2011
+
+Canada's Military Space Policy:
+
+Part 4, Funding an Appropriate Force
+
+
+
+The November 2010 announcement that the Department of National Defence (DND) is set to
+release an "updated" but not substantially changed Canadian military space policy early in
+2011 seems to be just in time for the next federal budget. This suggests a series of obvious
+questions.
+
+
+
+Image:
+http://3.bp.blogspot.com/_SjnNZeKhheo/TTMWy1Xx8xI/AAAAAAAAAmg/MesgI7MkCHI/s200/Canadian+peackeeping+missions+in+2003.jpg
+Canadian peacekeeping missions in 2003
+
+Part one of this blog post (" The Axworthy Doctrine ") tried to answer some of those questions by
+focusing on how the dissolution of the Soviet Union in the early 1990's led to a new Canadian
+focus on aggressive, international peacekeeping missions requiring space focused
+communication and surveillance capabilities of a type which Canada did not then possess.
+
+
+
+The plan to acquire those assets (mostly by borrowing them from the Americans) became the core
+of our first military space policy in 1998.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_SjnNZeKhheo/TTNxhVAD_YI/AAAAAAAAAm0/JPCBYV2VvrE/s320/The+Northwest+Passage.jpg
+The Northwest Passage from the World Cultural Pictorial website. Part two (" The Changing
+Political Landscape ") discussed why Canada had no military space policy previous to 1998 by
+going back to the 1960's and the federal liberal party, which refused to differentiate
+between space based military assets for communication/ surveillance and the placing of
+actual weapons in space.
+
+
+
+Since both were bad, neither could be publicly supported and developed.
+
+
+
+Part three (" Towards Northern Sovereignty ") dealt with the changing focus of Canadian
+foreign policy from international peacekeeping towards northern sovereignty, a policy
+which often places us at odds with traditional allies (such as the US) and makes it difficult to
+borrow their equipment.
+
+
+
+So what tools does the Canadian military need to acquire in order to reliably perform its
+missions? To answer that question, we need to know the missions.
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_SjnNZeKhheo/TTMkTwOpqaI/AAAAAAAAAmo/N2h3pAqDmnQ/s400/Announncing+the+Canada+First+Defence+Strategy.jpg
+Defence Minister Peter MacKay and Prime Minister Stephen Harper announcing the Canada First
+Defence Strategy on May 12th, 2008. Current Canadian defence policy is defined by the 2008
+Canada First Defence Strategy (CFDS) which, according to Wikipedia , mandates the
+capability to undertake a variety of missions, either separately or together. These
+include:
+
+    
+
+    - Conducting daily domestic and continental operations, including the Arctic and
+    through NORAD .
+
+    
+
+    - Supporting a major international event in Canada, such as the 2010 Winter Olympics .
+
+    
+
+    - Responding to a major terrorist attack.
+
+    
+
+    - Supporting civilian authorities during a domestic crisis or natural disaster.
+
+    
+
+    - Leading and/or conducting a major international operation for an extended period.
+
+    
+
+    - Deploying forces in response to crises elsewhere in the world for shorter periods.
+
+    
+
+
+
+Image:
+http://1.bp.blogspot.com/_SjnNZeKhheo/TTNo_hvn8II/AAAAAAAAAmw/x6VECGYXyoE/s200/Arctic+offshore+patrol+ship.jpg
+The proposed arctic offshore patrol ship. Of course, the government intends to make a series
+of equipment purchases in order to bolster the DND ability to undertake the above missions.
+These include:
+
+    
+
+    - New military trucks, land combat vehicles and support systems 
+
+    
+
+    - C-17 Globemaster and C-130J Hercules aircraft plus CH-47F Chinook helicopters for
+    troop transport and additional fixed wing aircraft for maritime patrol, and search and
+    rescue
+
+    
+
+    - New navel vessels including at least one icebreaker (the CCGS John G. Diefenbaker ),
+    three joint support vessels (to replace the aging HMCS Protecteur and HMCS Preserver ),
+    between six to eight arctic offshore patrol ships and the Canadian single class surface
+    combatant (which will replace the aging Iroquois class destroyers starting in
+    2016-2017 and the Halifax-class frigates at a later date).
+
+    
+
+    - 65 new Lockheed Martin F-35 Lighting II fighter jets to replace 1980s era CF-18 Hornets .
+
+    
+
+Naturally, when purchases are contemplated a budget is needed and the budget for this program
+is a big one. In essence, it requires an annual increase in DND funding from $18 billion in
+2007-2008 to over $30 billion by 2027-2028 and totals out at around $490 billion over the 20
+year period covered by the strategy.
+
+
+
+That's a lot of money.
+
+
+
+The space component of the package is designed primarily to tie together all the big ticket
+ships, planes and other equipment to insure that they can communicate with each other and
+sense what's going on around them. As the eyes and ears of the future Canadian Forces, the space
+component might also be the most important part of the program (it's certainly the least
+expensive).
+
+
+
+
+
+Image:
+http://www.stephentaylor.ca/images/2011-01-05_Australia_flood_RGB_export02.png A
+colour composite image derived from RADARSAT-2 on January 5, 2011, relative to an archived
+scene of April 9, 2010. Areas of flooding are distinguished in red. Images c/o MDA . Canadian
+capabilities in this area are presently wrapped around RADARSAT , RADARSAT 2 and the
+follow-on RADARSAT Constellation project. The RADARSAT program provides "wide area
+surveillance" of the Canadian north (and pretty much everywhere else if the January 16th,
+2011 Montreal Gazette article titled " Space agency provides flood disaster images to
+Australia " is any guide). They use a variety of synthetic aperture radars (SAR) designed to
+obtain a finer spatial resolution than is possible with conventional photography or radar
+scans.
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_SjnNZeKhheo/TTORoT7IapI/AAAAAAAAAnA/uwbPu36_9UM/s200/Radarsat+Constellation.jpg
+One of three satellites in the RADARSAT Constellation. It should also be noted that this type
+of technology has obvious resource management and search and rescue (SAR) applications,
+which makes it an easy sell to the business minded Stephen Harper conservative government.
+
+
+
+The Harper government has indeed been extraordinarily kind to RADARSAT prime contractor
+MacDonald Dettwiler (MDA) over the last two years since blocking the sale of the MDA space
+technology division to US based Alliant Techsystems (ATK).
+
+
+
+MDA is also the prime contractor for the DND Surveillance of Space (Sapphire) project, which
+is part of the Canadian Space Surveillance System (CSSS) and a component of the US Space
+Surveillance Network (SSN). MDA also builds unmanned aerial vehicles (UAV's) for DND, which
+have applications for northern sovereignty and contributes avionics for Canadian military
+aircraft .
+
+
+
+Image:
+http://4.bp.blogspot.com/_SjnNZeKhheo/TTOS-P2B6jI/AAAAAAAAAnE/0QVhhUVvULA/s200/America%2527s+hat.jpg
+One interpretation of Canada US relations.
+
+Because of the large amounts of money involved (and with so much of the program undefined)
+there seems to be quite a bit of lobbying from DND, the Canadian Space Agency (CSA) and others to
+add specific programs to the CFDS program.
+
+
+
+Examples which have broken through the standard media disinterest in the topic include the
+January 3rd, 2011 post on the David Pugliese's Defence Watch blog titled " Does the Canadian
+Forces and Space Agency Need its own Rocket to Launch Satellites? " and the January 4th, 2011
+Spaceref.ca post " Is Canadian Sovereignty at Risk by a Lack of an Indigenous Satellite Launch
+Capability? "
+
+
+
+Of course, the key to the implementation of the complete plan is consistent policy and long
+term funding guarantees, a situation that doesn't seem entirely reasonable given Canadian
+political history over the last few decades. According to the Air Force Association of Canada
+2008 position paper titled " Implementing the Canada First Defence Strategy :"
+
+While it is easy to support the initiatives announced by the Government, the ‘devil is in the
+details’ when it comes to implementation. Of significant importance will be the adequacy
+of funding. With consumer inflation gradually rising, and equivalent rates for military
+purchases traditionally higher, the adequacy of a 2% increase is in question.
+
+
+
+Indeed, the Standing Senate Committee on National Defence and Security has been openly
+critical of the need for the Government to redress the level of the Defence budget to ensure
+that the CFDS is affordable. Perhaps that's why no one is holding their breath for the upcoming
+federal budget, which likely isn't going to define the path to the future for the Canada First
+Defence Plan.
+
+
+
+That path likely won't come clear until after the next federal election, which might happen
+this year, or might not.
+
+    
+
+Posted by Chuck Black
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://www.blogger.com/img/icon18_edit_allbkg.gif Labels: Canadian Space
+Agency , Canadian Space Strategy , Department of National Defence , MDA
+
+0 comments:
+
+    
+
+
+
+
+
+Post a Comment
+
+
+
+BLOG_CMT_createIframe('http://www.blogger.com/rpc_relay.html',
+'18256602619004415959');
+
+
+
+
+
+Newer Post Older Post Home Subscribe to: Post Comments (Atom) Subscribe now to the Space
+Conference News (SCN) Subscription Service and and receive three months advanced notice of
+90+ space science, technology, engineering and mathematics events every month.
+
+... One Month Subscription: $39.95 CAD - monthly One Year Subscription: $199.95 CAD - yearly
+
+Image: https://www.paypalobjects.com/en_US/i/scr/pixel.gif The latest edition ,
+covering October, November and December 2012 is on sale now.
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+ShareThis
+
+var switchTo5x=false;stBlogger2.init("http://w.sharethis.com/button/buttons.js",
+{"sharethis":["","ShareThis",""]} );var f =
+document.getElementById("st_finder");var c =
+f.parentNode.parentNode.childNodes;for (i=0;i<c.length;i++) { try {
+c[i].style.display = "none"; } catch (err) {}}
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Loading...
+#uds-searchControl .gs-result .gs-title, #uds-searchControl .gs-result .gs-title *,
+#uds-searchControl .gsc-results .gsc-trailing-more-results, #uds-searchControl
+.gsc-results .gsc-trailing-more-results * { color:#0b5394; } #uds-searchControl
+.gs-result .gs-title a:visited, #uds-searchControl .gs-result .gs-title a:visited * {
+color:#6fa8dc; } #uds-searchControl .gs-relativePublishedDate, #uds-searchControl
+.gs-publishedDate { color: #999999; } #uds-searchControl .gs-result a.gs-visibleUrl,
+#uds-searchControl .gs-result .gs-visibleUrl { color: #cc6600; } #uds-searchControl
+.gsc-results { border-color: #cccccc; background-color: #ffffff; } #uds-searchControl
+.gsc-tabhActive { border-color: #cccccc; border-top-color: #cc6600; background-color:
+#ffffff; color: #333333; } #uds-searchControl .gsc-tabhInactive { border-color:
+#cccccc; background-color: transparent; color: #0b5394; } #uds-searchClearResults {
+border-color: #cccccc; } #uds-searchClearResults:hover { border-color: #cc6600; }
+#uds-searchControl .gsc-cursor-page { color: #0b5394; } #uds-searchControl
+.gsc-cursor-current-page { color: #333333; }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Recent Useful Articles
+
+Two Billion Dollars for the Canadian Space Agency - A budget primer.
+
+
+
+The Hard Truth About the Budget and Canadian Space - Reviews are mixed.
+
+
+
+Global Space Industry Grows 41% Over Five Years - Faster than other sectors.
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blogs Being Tracked
+
+    
+
+    - 21st Century Waves The Napoleon of the Poles and Our Future in Space 1 day ago
+
+    
+
+    - AIAC - Latest News Statement from AIAC in response to the appointment of Tom Jenkins as
+    Special Advisor to the Minister of Public Works 4 days ago
+
+    
+
+    - Centauri Dreams Collier’s: Gorgeous Art, Breathtaking Ideas 2 hours ago
+
+    
+
+    - Coalition for Space Exploration CSExtra – Tuesday, October 2, 2012 4 hours ago
+
+    
+
+    - Defence Watch Defence Watch Is On Assignment – Posts Start Again On Oct. 6 5 days ago
+
+    
+
+    - ESA Top News A curious cold layer in the atmosphere of Venus 1 day ago
+
+    
+
+    - EurekAlert! - Business and Economics Research!America honors trailblazers in health
+    research advocacy 12 hours ago
+
+    
+
+    - Evadot Find a way or make one 1 month ago
+
+    
+
+    - Export Law Blog Brits Target Propofol Exports to U.S. 5 days ago
+
+    
+
+    - floridatoday Delta IV rocket prepped for Thursday launch 1 day ago
+
+    
+
+    - hacklab Toronto Letting the magic blue smoke out. 1 week ago
+
+    
+
+    - Hyperbola Mars Curiosity Rover finds smooth round pebbles pointing to river erosion 4
+    days ago
+
+    
+
+    - IPinSpace One Spark Event may Ignite your Space Startup 5 days ago
+
+    
+
+    - Kentucky Space Blog CubeSat launcher improvement: "more complex missions" 1 day ago
+
+    
+
+    - MaRS Discovery District Sir Ken Robinson brings his insight and passion to MaRS 3 hours
+    ago
+
+    
+
+    - Moonandback Jeff Krukin — The NewSpace Industry | Moonandback Interview 1 hour ago
+
+    
+
+    - MSNBC Cosmic Log Postage stamps celebrate the planet 14 hours ago
+
+    
+
+    - NASA Watch Orbital and SpaceX Make Progress 12 hours ago
+
+    
+
+    - NASASpaceFlight.com Orbital’s Antares closing in on debut launch following pad
+    arrival 19 hours ago
+
+    
+
+    - New Space from Scoopit Jeff Krukin -- NASA Love Affair | Moonandback 13 hours ago
+
+    
+
+    - NewSpace Journal Rowling’s curious cosmic vacancy 2 days ago
+
+    
+
+    - NewSpace Watch October 2012 Issue of Thruster - NewSpace Global's Monthly Market
+    Tracking Report 2 hours ago
+
+    
+
+    - Planetary Society Blog Beautiful rocks ahead at Glenelg, but first, Curiosity must dig
+    in the sand 17 hours ago
+
+    
+
+    - RE$EARCH MONEY Opinion Leader: Dr Daniel Woolf, Principal and Vice-Chancellor,
+    Queen's University 1 week ago
+
+    
+
+    - Reddit Space News Spectacular view of ATV-3 & ISS in orbit (undocked on the 28th sept. and
+    impact forecast on the 3rd oct.) 21 hours ago
+
+    
+
+    - Res Communis IAC 2012, Naples, Italy 8 hours ago
+
+    
+
+    - Space Boomerang Australian Space Policy to be called "Satellite Utilisation Policy" 3
+    hours ago
+
+    
+
+    - Space Conference News Upcoming Events for October 2012 2 weeks ago
+
+    
+
+    - Space Policy Online Orbital's Antares Rolls Out to Pad as NASA Celebrates 54th Birthday
+    1 day ago
+
+    
+
+    - Space Politics O’Keefe: president still defining NASA’s mission 2 hours ago
+
+    
+
+    - Space Prizes Space Prize Roundup: Skybox Imaging and Conrad Foudation, UAV Outback
+    Challenge, Reach for the Stars Rockets, More 13 hours ago
+
+    
+
+    - SPACE.com Journey with Atlantis: Public Invited to Last Space Shuttle Delivery 33
+    minutes ago
+
+    
+
+    - SpaceDaily.Com Measuring the universe's 'exit door' 9 hours ago
+
+    
+
+    - Spaceports APPLY NOW: Miner Job Opportunities 1 hour ago
+
+    
+
+    - SpaceRef Canada Next Generation Canadarms Unveiled at MacDonald Dettwiler Facility
+    in Brampton 4 days ago
+
+    
+
+    - Surry Satellite Space blog SSTL showcases innovation at the IAC 5 days ago
+
+    
+
+    - Talking Space Online Episode 430: My Science in Space, Ready, Set, Go! 3 days ago
+
+    
+
+    - Team Phoenicia 3rd Annual Team Phoenicia Nanosat Launcher Seminar: Registration Now
+    Open 1 week ago
+
+    
+
+    - The Night Sky Guy Giant Asteroid Rich in Hydrogen 1 week ago
+
+    
+
+    - The Once and Future Moon Hit-and-Run Science 3 days ago
+
+    
+
+    - The Star Spot Episode 13: Ancient Aliens, Astrology, and Pseudoatronomy, with Guy P.
+    Harrison 1 week ago
+
+    
+
+    - UK Rocketeers High-altitude bioprospecting 3 days ago
+
+    
+
+    - University Affairs E-learning company gets $3.5 million to set up in N.L. 9 hours ago
+
+    
+
+    - UrtheCast UN’s Earth Watch: Monitoring Disasters from Space 17 hours ago
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://3.bp.blogspot.com/-pdz7V7xYK4U/TlHGMPY3FZI/AAAAAAAAA50/rQ6xm4eZSDo/s1600/UPCOMING_EVENTS.jpg
+
+For the comprehensive list of 90+ upcoming STEM focused conferences in October 2012, check
+out the Space Conference News blog by clicking on the graphic above.
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png new TWTR.Widget({
+version: 2, type: 'profile', rpp: 14, interval: 30000, width: 220, height: 400, theme: {
+shell: { background: '#ababab', color: '#ffffff' }, tweets: { background: '#ffffff',
+color: '#262626', links: '#545bde' } }, features: { scrollbar: true, loop: false, live:
+false, behavior: 'all' } }).render().setUser('acuriousguy').start();
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Archived Posts
+
+    
+
+        - ►  2012 (73)
+
+        - ►  October (1)
+
+        
+
+        
+
+        - ►  September (9)
+
+        
+
+        
+
+        - ►  August (6)
+
+        
+
+        
+
+        - ►  July (3)
+
+        
+
+        
+
+        - ►  June (9)
+
+        
+
+        
+
+        - ►  May (10)
+
+        
+
+        
+
+        - ►  April (9)
+
+        
+
+        
+
+        - ►  March (8)
+
+        
+
+        
+
+        - ►  February (8)
+
+        
+
+        
+
+        - ►  January (10)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2011 (103)
+
+        - ►  December (4)
+
+        
+
+        
+
+        - ►  November (9)
+
+        
+
+        
+
+        - ►  October (11)
+
+        
+
+        
+
+        - ►  September (8)
+
+        
+
+        
+
+        - ►  August (9)
+
+        
+
+        
+
+        - ►  July (10)
+
+        
+
+        
+
+        - ►  June (8)
+
+        
+
+        
+
+        - ►  May (10)
+
+        
+
+        
+
+        - ►  April (8)
+
+        
+
+        
+
+        - ►  March (8)
+
+        
+
+        
+
+        - ►  February (9)
+
+        
+
+        
+
+            - ▼  January (9)
+
+            - Posters for Hadfield, NASA for Rent, Academia Laun...
+
+            
+
+            - CSA Contracts for Earth Observation RADARSAT II ...
+
+            
+
+            - MDA and the H-II Transfer Vehicle The unmanned Ja...
+
+            
+
+            - MDA and the Cygnus Cargo Spacecraft According to ...
+
+            
+
+            - Canada's Military Space Policy: Part 4, Funding an...
+
+            
+
+            - The Shrinking Market for Sounding Rockets Last Ma...
+
+            
+
+            - Favoring Informed and Spirited Public Discussion ...
+
+            
+
+            - Advocating DND & CSA Rockets According to David P...
+
+            
+
+            - Canada's Military Space Policy: Part 3, Towards No...
+
+            
+
+        
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (78)
+
+        - ►  December (9)
+
+        
+
+        
+
+        - ►  November (8)
+
+        
+
+        
+
+        - ►  October (10)
+
+        
+
+        
+
+        - ►  September (2)
+
+        
+
+        
+
+        - ►  June (8)
+
+        
+
+        
+
+        - ►  May (10)
+
+        
+
+        
+
+        - ►  April (8)
+
+        
+
+        
+
+        - ►  March (9)
+
+        
+
+        
+
+        - ►  February (10)
+
+        
+
+        
+
+        - ►  January (4)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (50)
+
+        - ►  November (8)
+
+        
+
+        
+
+        - ►  October (9)
+
+        
+
+        
+
+        - ►  September (9)
+
+        
+
+        
+
+        - ►  August (3)
+
+        
+
+        
+
+        - ►  July (9)
+
+        
+
+        
+
+        - ►  June (9)
+
+        
+
+        
+
+        - ►  May (3)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://www.topblogs.ca/button.php?u=chuckblack
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png   if
+(window.jstiming) window.jstiming.load.tick('widgetJsBefore'); if
+(typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'6618880';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d6618880','//acuriousguy.blogspot.com/2011/01/canadas-military-space-policy-part-4.html','6618880');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '6618880',
+'bloggerUrl': 'http://www.blogger.com', 'title': 'Commercial Space', 'pageType':
+'item', 'url':
+'http://acuriousguy.blogspot.com/2011/01/canadas-military-space-policy-part-4.html',
+'canonicalUrl':
+'http://acuriousguy.blogspot.com/2011/01/canadas-military-space-policy-part-4.html',
+'canonicalHomepageUrl': 'http://acuriousguy.blogspot.com/', 'homepageUrl':
+'http://acuriousguy.blogspot.com/', 'blogspotFaviconUrl':
+'http://acuriousguy.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': '',
+'pageTitle': 'Commercial Space', 'encoding': 'UTF-8', 'locale': 'en-US', 'isPrivate':
+false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Commercial
+Space - Atom\42 href\75\42http://acuriousguy.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42Commercial Space - RSS\42
+href\75\42http://acuriousguy.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Commercial Space - Atom\42
+href\75\42http://www.blogger.com/feeds/6618880/posts/default\42 /\76\n\74link
+rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0756618880\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Commercial
+Space - Atom\42
+href\75\42http://acuriousguy.blogspot.com/feeds/5089130076680906134/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'googleProfileUrl':
+'https://plus.google.com/111976514537213098381', 'postImageThumbnailUrl':
+'http://3.bp.blogspot.com/_SjnNZeKhheo/TTMWy1Xx8xI/AAAAAAAAAmg/MesgI7MkCHI/s72-c/Canadian+peackeeping+missions+in+2003.jpg',
+'imageSrcTag': '\74link rel\75\42image_src\42
+href\75\42http://3.bp.blogspot.com/_SjnNZeKhheo/TTMWy1Xx8xI/AAAAAAAAAmg/MesgI7MkCHI/s72-c/Canadian+peackeeping+missions+in+2003.jpg\42
+/\76\n', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#666666', 'linkcolor':
+'#0b5394', 'visitedlinkcolor': '#6fa8dc', 'textcolor': '#333333', 'headerfont':
+'normal normal 78% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif',
+'pagetitlefont': 'normal bold 250% Tinos', 'bgcolor': '#ffffff', 'descriptioncolor':
+'#333333', 'titlecolor': '#cc6600', 'bordercolor': '#cccccc', 'postfooterfont':
+'normal normal 78% \47Trebuchet MS\47, Trebuchet, Arial, Verdana, Sans-serif',
+'pagetitlecolor': '#000000', 'bodyfont': 'normal normal 100% Tinos', 'endSide':
+'right', 'startSide': 'left', 'descriptionfont': 'italic normal 78% \47Trebuchet MS\47,
+Trebuchet, Arial, Verdana, Sans-serif', 'sidebarcolor': '#999999'}, 'override': ''}},
+{'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'},
+'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name':
+'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url':
+'/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'},
+'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name':
+'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1',
+'crosscol', null, document.getElementById('PageList1'), {'title': 'Pages', 'links':
+[{'href': 'http://acuriousguy.blogspot.com/', 'title': 'Home', 'isCurrentPage':
+false}, {'href': 'http://acuriousguy.blogspot.com/p/resume.html', 'title': 'About
+this Blog', 'isCurrentPage': false}, {'href':
+'http://acuriousguy.blogspot.com/p/about-author.html', 'title': 'About the Author',
+'isCurrentPage': false}, {'href':
+'http://acuriousguy.blogspot.com/p/our-weekly-mailing-list.html', 'title': 'Our
+Weekly Mailing List', 'isCurrentPage': false}, {'href':
+'http://acuriousguy.blogspot.com/p/context-background-materials.html', 'title':
+'Context \46 Background Materials', 'isCurrentPage': false}, {'href':
+'http://acuriousguy.blogspot.com/p/page-two.html', 'title': 'Space Jobs \46 Career
+Boards', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image2', 'sidebar',
+null, document.getElementById('Image2'), {'resize': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar',
+null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar',
+null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML5', 'sidebar', null, document.getElementById('HTML5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML3', 'left-sidebar', null, document.getElementById('HTML3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_CustomSearchView', new
+_WidgetInfo('CustomSearch1', 'left-sidebar', null,
+document.getElementById('CustomSearch1'), {'title': '', 'includeBlog': true,
+'includePostLinks': true, 'includeWeb': true, 'linkLists': [], 'blogUrl':
+'http://acuriousguy.blogspot.com/', 'loadingMsg': 'Loading...', 'thisBlogMsg':
+'This Blog', 'linkedFromHereMsg': 'Linked From Here', 'theWebMsg': 'The Web',
+'backgroundColor': '#ffffff', 'textColor': '#333333', 'dateColor': '#999999',
+'linkColor': '#0b5394', 'urlColor': '#cc6600', 'visitedLinkColor': '#6fa8dc',
+'borderColor': '#cccccc', 'activeBorderColor': '#cc6600'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1',
+'left-sidebar', null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList1',
+'left-sidebar', null, document.getElementById('BlogList1'), {'numItemsToShow': 0,
+'totalItems': 44}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'showBacklinks': true, 'postId': '5089130076680906134', 'lightboxEnabled': true,
+'lightboxModuleUrl': '//www.blogger.com/static/v1/jsbin/1664432155-lbx.js',
+'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML2', 'main', null, document.getElementById('HTML2'), {},
+'displayModeFull'));
+

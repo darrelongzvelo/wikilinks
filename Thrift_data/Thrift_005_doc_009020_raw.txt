@@ -1,0 +1,2875 @@
+
+
+
+
+(function() { var a=window,c="jstiming",d="tick";var
+e=function(b){this.t={};this.tick=function(b,o,f){f=void 0!=f?f:(new
+Date).getTime();this.t[b]=[f,o]};this[d]("start",null,b)},h=new
+e;a.jstiming={Timer:e,load:h};if(a.performance&&a.performance.timing){var
+i=a.performance.timing,j=a[c].load,k=i.navigationStart,l=i.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT);m&&(a[c].pt=m)}catch(n){};a.tickAboveFold=function(b){var
+g=0;if(b.offsetParent){do
+g+=b.offsetTop;while(b=b.offsetParent)}b=g;750>=b&&a[c].load[d]("aft")};var
+p=!1;function
+q(){p||(p=!0,a[c].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",q,!1):a.attachEvent("onscroll",q);
+})(); No Limit Wrestling: October 2008 #navbar-iframe { display:block } <!-- /*
+----------------------------------------------- Blogger Template Style Name:
+Rounders 2 Date: 27 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="mainBgColor" description="Main Background
+Color" type="color" default="#fff"> <Variable name="mainTextColor" description="Text
+Color" type="color" default="#000"> <Variable name="postTitleColor"
+description="Post Title Color" type="color" default="#333"> <Variable
+name="dateHeaderColor" description="Date Header Color" type="color" default="#810">
+<Variable name="borderColor" description="Post Border Color" type="color"
+default="#bbb"> <Variable name="mainLinkColor" description="Link Color" type="color"
+default="#b30"> <Variable name="mainVisitedLinkColor" description="Visited Link
+Color" type="color" default="#c63"> <Variable name="titleBgColor" description="Page
+Header Background Color" type="color" default="#710"> <Variable name="titleTextColor"
+description="Blog Title Color" type="color" default="#fff"> <Variable
+name="topSidebarHeaderColor" description="Top Sidebar Title Color" type="color"
+default="#fff"> <Variable name="topSidebarBgColor" description="Top Sidebar
+Background Color" type="color" default="#999"> <Variable name="topSidebarTextColor"
+description="Top Sidebar Text Color" type="color" default="#fff"> <Variable
+name="topSidebarLinkColor" description="Top Sidebar Link Color" type="color"
+default="#fff"> <Variable name="topSidebarVisitedLinkColor" description="Top
+Sidebar Visited Link Color" type="color" default="#ddd"> <Variable name="bodyFont"
+description="Text Font" type="font" default="normal normal 100% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="pageTitleFont" description="Blog
+Title Font" type="font" default="normal bold 200% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="descriptionFont" description="Blog
+Description Font" type="font" default="normal normal 100% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="headerFont" description="Sidebar
+Title Font" type="font" default="normal bold 100% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="postTitleFont" description="Post
+Title Font" type="font" default="normal bold 135% 'Trebuchet
+MS',Verdana,Arial,Sans-serif"> <Variable name="startSide" description="Start side in
+blog language" type="automatic" default="left"> <Variable name="endSide"
+description="End side in blog language" type="automatic" default="right"> */ body {
+background:#ccc; margin:0; text-align:center; line-height: 1.5em; font:x-small
+Trebuchet MS, Verdana, Arial, Sans-serif; color:#000000; font-size/* */:/**/small;
+font-size: /**/small; } /* Page Structure
+----------------------------------------------- */ /* The images which help create
+rounded corners depend on the following widths and measurements. If you want to change these
+measurements, the images will also need to change. */ #outer-wrapper { width:740px;
+margin:0 auto; text-align:left; font: normal normal 100% 'Trebuchet
+MS',Verdana,Arial,Sans-serif; } #main-wrap1 { width:485px; float:left;
+background:#2BA94F
+url("http://www1.blogblog.com/rounders2/corners_main_bot.gif") no-repeat left
+bottom; margin:15px 0 0; padding:0 0 10px; color:#000000; font-size:97%;
+line-height:1.5em; word-wrap: break-word; /* fix for long text breaking sidebar float in IE
+*/ overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ }
+#main-wrap2 { float:left; width:100%;
+background:url("http://www1.blogblog.com/rounders2/corners_main_top.gif")
+no-repeat left top; padding:10px 0 0; } #main {
+background:url("http://www.blogblog.com/rounders2/rails_main.gif") repeat-y left;
+padding:0; width:485px; } #sidebar-wrap { width:240px; float:right; margin:15px 0 0;
+font-size:97%; line-height:1.5em; word-wrap: break-word; /* fix for long text breaking
+sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE sidebar
+float */ } .main .widget { margin-top: 4px; width: 468px; padding: 0 13px; } .main .Blog {
+margin: 0; padding: 0; width: 484px; } /* Links
+----------------------------------------------- */ a:link { color: #cc0000; }
+a:visited { color: #cc6633; } a:hover { color: #cc6633; } a img { border-width:0; } /* Blog
+Header ----------------------------------------------- */ #header-wrapper {
+background:#771100 url("http://www2.blogblog.com/rounders2/corners_cap_top.gif")
+no-repeat left top; margin-top:22px; margin-right:0; margin-bottom:0; margin-left:0;
+padding-top:8px; padding-right:0; padding-bottom:0; padding-left:0; color:#ffffff; }
+#header { background:url("http://www.blogblog.com/rounders2/corners_cap_bot.gif")
+no-repeat left bottom; padding:0 15px 8px; } #header h1 { margin:0; padding:10px 30px 5px;
+line-height:1.2em; font: italic bold 290% 'Trebuchet MS',Verdana,Arial,Sans-serif; }
+#header a, #header a:visited { text-decoration:none; color: #ffffff; } #header
+.description { margin:0; padding:5px 30px 10px; line-height:1.5em; font: normal normal
+100% 'Trebuchet MS',Verdana,Arial,Sans-serif; } /* Posts
+----------------------------------------------- */ h2.date-header { margin-top:0;
+margin-right:28px; margin-bottom:0; margin-left:43px; font-size:85%;
+line-height:2em; text-transform:uppercase; letter-spacing:.2em; color:#881100; }
+.post { margin:.3em 0 25px; padding:0 13px; border:1px dotted #bbbbbb; border-width:1px 0;
+} .post h3 { margin:0; line-height:1.5em;
+background:url("http://www2.blogblog.com/rounders2/icon_arrow.gif") no-repeat
+10px .5em; display:block; border:1px dotted #bbbbbb; border-width:0 1px 1px;
+padding-top:2px; padding-right:14px; padding-bottom:2px; padding-left:29px; color:
+#000000; font: normal bold 135% 'Trebuchet MS',Verdana,Arial,Sans-serif; } .post h3 a,
+.post h3 a:visited { text-decoration:none; color: #000000; } a.title-link:hover {
+background-color: #bbbbbb; color: #000000; } .post-body { border:1px dotted #bbbbbb;
+border-width:0 1px 1px; border-bottom-color:#2BA94F; padding-top:10px;
+padding-right:14px; padding-bottom:1px; padding-left:29px; } html>body .post-body {
+border-bottom-width:0; } .post-body { margin:0 0 .75em; } .post-body blockquote {
+line-height:1.3em; } .post-footer { background: #eee; margin:0; padding-top:2px;
+padding-right:14px; padding-bottom:2px; padding-left:29px; border:1px dotted
+#bbbbbb; border-width:1px; font-size:100%; line-height:1.5em; color: #666; } /* The
+first line of the post footer might only have floated text, so we need to give it a height. The
+height comes from the post-footer line-height */ .post-footer-line-1 { min-height:1.5em;
+_height:1.5em; } .post-footer p { margin: 0; } html>body .post-footer {
+border-bottom-color:transparent; } .uncustomized-post-template .post-footer {
+text-align: right; } .uncustomized-post-template .post-author,
+.uncustomized-post-template .post-timestamp { display: block; float: left;
+text-align:left; margin-right: 4px; } .post-footer a { color: #cc0000; } .post-footer
+a:hover { color: #cc6633; } a.comment-link { /* IE5.0/Win doesn't apply padding to inline
+elements, so we hide these two declarations from it */ background/*
+*/:/**/url("http://www.blogblog.com/rounders/icon_comment_left.gif") no-repeat
+left 45%; padding-left:14px; } html>body a.comment-link { /* Respecified, for IE5/Mac's
+benefit */
+background:url("http://www.blogblog.com/rounders2/icon_comment_left.gif")
+no-repeat left 45%; padding-left:14px; } .post img, table.tr-caption-container {
+margin-top:0; margin-right:0; margin-bottom:5px; margin-left:0; padding:4px;
+border:1px solid #bbbbbb; } .tr-caption-container img { border: none; margin: 0; padding:
+0; } blockquote { margin:.75em 0; border:1px dotted #bbbbbb; border-width:1px 0;
+padding:5px 15px; color: #881100; } .post blockquote p { margin:.5em 0; }
+#blog-pager-newer-link { float: left; margin-left: 13px; } #blog-pager-older-link {
+float: right; margin-right: 13px; } #blog-pager { text-align: center; } .feed-links {
+clear: both; line-height: 2.5em; margin-left: 13px; } /* Comments
+----------------------------------------------- */ #comments { margin:-25px 13px 0;
+border:1px dotted #bbbbbb; border-width:0 1px 1px; padding-top:20px; padding-right:0;
+padding-bottom:15px; padding-left:0; } #comments h4 { margin:0 0 10px; padding-top:0;
+padding-right:14px; padding-bottom:2px; padding-left:29px; border-bottom:1px dotted
+#bbbbbb; font-size:120%; line-height:1.4em; color:#000000; } #comments-block {
+margin-top:0; margin-right:15px; margin-bottom:0; margin-left:9px; } .comment-author
+{ background:url("http://www.blogblog.com/rounders2/icon_comment_left.gif")
+no-repeat 2px .3em; margin:.5em 0; padding-top:0; padding-right:0; padding-bottom:0;
+padding-left:20px; font-weight:bold; } .comment-body { margin:0 0 1.25em;
+padding-top:0; padding-right:0; padding-bottom:0; padding-left:20px; } .comment-body
+p { margin:0 0 .5em; } .comment-footer { margin:0 0 .5em; padding-top:0; padding-right:0;
+padding-bottom:.75em; padding-left:20px; } .comment-footer a:link { color: #000000; }
+.deleted-comment { font-style:italic; color:gray; } .comment-form { padding-left:20px;
+padding-right:5px; } #comments .comment-form h4 { padding-left:0px; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 0; border: 4px solid
+#ffffff; } .profile-datablock { margin-top:0; margin-right:15px; margin-bottom:.5em;
+margin-left:0; padding-top:8px; } .profile-link {
+background:url("http://www.blogblog.com/rounders2/icon_profile_left.gif")
+no-repeat left .1em; padding-left:15px; font-weight:bold; } .profile-textblock { clear:
+both; margin: 0; } .sidebar .clear, .main .widget .clear { clear: both; } #sidebartop-wrap {
+background:#3D81EE url("http://www.blogblog.com/rounders2/corners_prof_bot.gif")
+no-repeat left bottom; margin:0px 0px 15px; padding:0px 0px 10px; color:#ffffff; }
+#sidebartop-wrap2 {
+background:url("http://www2.blogblog.com/rounders2/corners_prof_top.gif")
+no-repeat left top; padding: 10px 0 0; margin:0; border-width:0; } #sidebartop h2 {
+line-height:1.5em; color:#000000; border-bottom: 1px dotted #000000; margin-bottom:
+0.5em; font: normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif; } #sidebartop a {
+color: #ffffff; } #sidebartop a:hover { color: #dddddd; } #sidebartop a:visited { color:
+#dddddd; } /* Sidebar Boxes ----------------------------------------------- */
+.sidebar .widget { margin:.5em 13px 1.25em; padding:0 0px; } .widget-content { margin-top:
+0.5em; } #sidebarbottom-wrap1 { background:#2BA94F
+url("http://www.blogblog.com/rounders2/corners_side_top.gif") no-repeat left top;
+margin:0 0 15px; padding:10px 0 0; color: #000000; } #sidebarbottom-wrap2 {
+background:url("http://www1.blogblog.com/rounders2/corners_side_bot.gif")
+no-repeat left bottom; padding:0 0 8px; } .sidebar h2 { margin:0; padding:0 0 .2em;
+line-height:1.5em; font:normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif; }
+.sidebar ul { list-style:none; margin:0 0 1.25em; padding:0; } .sidebar ul li {
+background:url("http://www2.blogblog.com/rounders2/icon_arrow_sm.gif") no-repeat
+2px .25em; margin:0; padding-top:0; padding-right:0; padding-bottom:3px;
+padding-left:16px; margin-bottom:3px; border-bottom:1px dotted #bbbbbb;
+line-height:1.4em; } .sidebar p { margin:0 0 .6em; } #sidebar h2 { color: #000000;
+border-bottom: 1px dotted #000000; } /* Footer
+----------------------------------------------- */ #footer-wrap1 { clear:both;
+margin:0 0 10px; padding:15px 0 0; } #footer-wrap2 { background:#771100
+url("http://www2.blogblog.com/rounders2/corners_cap_top.gif") no-repeat left top;
+color:#ffffff; } #footer {
+background:url("http://www.blogblog.com/rounders2/corners_cap_bot.gif")
+no-repeat left bottom; padding:8px 15px; } #footer hr {display:none;} #footer p
+{margin:0;} #footer a {color:#ffffff;} #footer .widget-content { margin:0; } /** Page
+structure tweaks for layout editor wireframe */ body#layout #main-wrap1, body#layout
+#sidebar-wrap, body#layout #header-wrapper { margin-top: 0; } body#layout #header,
+body#layout #header-wrapper, body#layout #outer-wrapper { margin-left:0,
+margin-right: 0; padding: 0; } body#layout #outer-wrapper { width: 730px; } body#layout
+#footer-wrap1 { padding-top: 0; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } } (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+No Limit Wrestling
+
+
+
+A daily blog by a life-long wrestling fan to share thoughts about wrestling issues and old
+school memories.
+
+Friday, October 31, 2008
+
+
+
+Kimbo Slice to fight in the UFC?
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/kimbo.jpg
+
+Photo courtesy of worldofcombat.net
+
+
+
+While waiting for trick-o-treaters this evening, I read an interesting article on Yahoo!
+Sports' MMA section that had the headline " UFC offers 'Kimbo Slice' spot on 'The Ultimate
+Fighter .' " Curiously, I clicked on the link and nearly fell out of my chair at what I proceeded
+to read.
+
+
+
+According to an MMAjunkie.com staffer who reported the story on MMAjunkie.com, Ultimate
+Fighting Championship [UFC] President Dana White , who has publicly voiced his displeasure
+over how Slice was hyped by EliteXC as an Mixed Martial Arts commodity, recently offered Slice
+[pictured above] an opportunity to join the UFC at the post-UFC 90 press conference by saying
+Slice can be on " The Ultimate Fighter " should it feature a heavyweight edition.
+
+
+
+Don't think though that White's position on Slice's lack of skills has changed as White went on
+to say that he doesn't consider Slice a real athlete, he has done nothing to deserve being in the
+UFC, he wouldn't win "The Ultimate Fighter" and has done nothing except get 10 million hits on
+YouTube for his backyard fights.
+
+
+
+One has to keep in mind though that even if the White has a heavyweight edition of "The Ultimate
+Fighter" and Slice takes him up on the offer, which he most likely won't since he got exposed by
+Seth Petruzelli , little is known about the current status of EliteXC fighter contracts for
+the defunct organization and Slice, along with other fighters, could be tied up in court
+battles for a long time.
+
+
+
+Also, don't hold your breath about White having the UFC match Slice's $500,000 salary for his
+fight against Petruzelli as there's a better chance of hell freezing over and the Devil giving
+free sleigh rides before White shells out that much money for Slice.
+
+
+
+I personally feel torn on the issue. On the one hand, I am sick of Slice and him being presented as
+an MMA fighter when he's nothing more than an over-rated, no talent bum who has a glass jaw. On
+the other hand, I would love to see him in the UFC and get destroyed worse than what Petruzelli
+did to him, that way the selected few who are still crying that Slice took a dive against
+Petruzelli will see first hand that Slice has no business in the octagon and should just fade
+into obscurity since his 15 minutes of fame expired. Posted by Mister Allred at 11:37 PM No
+comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Thursday, October 30, 2008
+
+
+
+Wrestling Recipes Week 9 - Devilish Cupcakes
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/ArielCupcake-2.jpg
+
+Photo courtesy of WWE Magazine
+
+
+
+
+
+On this Halloween Eve night, I figured it was only appropriate that I post my weekly recipe a day
+earlier so people can have a chance to make this devilish treat for their Halloween parties
+tomorrow night or for their Halloween weekend.
+
+
+
+This recipe, which was featured in the July 2007 issue of WWE Magazine , was for Shelly "Ariel"
+Martinez 's "Devilish cupcakes which Martinez said "are to die for" once one sinks their
+"fangs" into them.
+
+
+
+
+
+DEVILISH CUPCAKES
+
+
+
+
+
+INGREDIENTS :
+
+*2.5 cups all purpose flour
+
+*1.5 cups sugar
+
+*2/3 cup baking cocoa
+
+*1/2 tsp. baking soda
+
+*1/4 tsp. baking powder
+
+*3/4 cup shortening
+
+*2 eggs
+
+*1 tsp. vanilla
+
+*1.5 cups water
+
+*1 container chocolate frosting
+
+
+
+
+
+DIRECTIONS :
+
+1) Heat oven to 350-degrees.
+
+2) Line cupcake pan with cupcake wrappers.
+
+3) Combine all ingredients into a bowl.
+
+4) Using a mixer, mix ingredients for three minutes.
+
+5) Add batter into cupcake wrappers.
+
+6) Bake in oven for 20-25 minutes.
+
+7) Top with chocolate frosting. Posted by Mister Allred at 6:30 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Wednesday, October 29, 2008
+
+
+
+Bar incident involving Booker T & Boogeyman
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/_MG_3753.jpg
+
+Photo courtesy of tnawrestling.com
+
+
+
+This evening, I came across a post on a message board that stated Booker T. Huffman [pictured
+above] and Marty "Boogeyman" Wright [pictured below] had been in a bar altercation.
+Curiously, I clicked the article title and was amazed to find out that Mr. Huffman is planning
+to picket a sports bar in Houston, Texas [Mr. Huffman's hometown] called Vito's Deck House
+because of what he believes was discrimination against the Christian Faith .
+
+
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/martywright-1.jpg
+
+Photo courtesy of gerweck.net
+
+
+
+According to the Wrestling Observer Newsletter , Booker and Wright went to the sports bar this
+past Sunday afternoon to watch an NFL game and were approached by a bartender who told the
+gentlemen that Wright, who was wearing a cross, had to remove his cross or leave due to the cross
+being in violation of the bar's dress code.
+
+
+
+Upon hearing this news, Booker got upset and asked to speak to the manager, who explained that
+Wright's cross violated the dress code. Booker then asked where the dress code was posted at
+and amazingly, the dress code wasn't posted anywhere inside the sports bar, at which point
+Booker refused to leave and told Wright not to leave as well.
+
+
+
+As expected, the police were called and after arriving, told Booker and Wright to leave the
+premises. Booker attempted to inform the police and manager that he saw two other patrons at
+the bar wearing crosses and they were not approached by management and told to leave [It should
+be noted that the two patrons in question left the sports bar when they saw Booker and Wright
+being kicked-out over Wright wearing his cross].
+
+
+
+As a result of this incident, Booker has scheduled a protest and hopes to get as much publicity
+as possible to inform people about the sports bar suppressing people's freedom to express
+their belief in God.
+
+
+
+All I have to say is this makes me respect Mr. Huffman even more. I admire the fact that he stood up
+for what he believed in and didn't back down, even when the police came and told him to leave, and
+for also standing up for a friend in Mr. Wright.
+
+
+
+Why should Mr. Wright have to remove his cross when that's what he believes in? Also, I have
+never heard of a bar having a dress code. I mean, I've heard of clubs having and enforcing dress
+codes but a bar?
+
+
+
+It would be interesting to know the race of the two patrons Mr. Huffman mentioned to the police
+
+because this story sounds borderline race-related with religion being used as a shield to
+hide the true motive of the bartender.
+
+
+
+It is a sad reality that here in 2008, we could be on the verge of having the first Black president
+in the history of the United States and we still have incidents like this happening. It's
+story's like this that make me wonder if we are truly in 2008 and have made as much progress as
+people continuously preach or if we are still stuck in 1958 with just higher prices and
+different clothes.
+
+
+
+I hope Mr. Huffman's protest is a successful one that not only gets the word out but causes such
+an outcry that the bartender and manager of the sports bar are held accountable for their
+actions. Posted by Mister Allred at 6:32 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Tuesday, October 28, 2008
+
+
+
+Update on M.O.P. lawsuit against John Cena & WWE
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/JohnCena002.jpg
+
+Photo courtesy of starpulse.com
+
+
+
+Earlier today, TMZ.com post an article that updated the current lawsuit brought against both
+World Wrestling Entertainment [WWE] and John Cena [pictured above] by the Royalty Network
+Inc , more specifically, Jamal Grinnage and Eric Murray, better known as Lil' Fame and Billy
+Danze of M.O.P . [Mash Out Posse].
+
+
+
+According to the report, both Mr. Grinnage and Murray want Cena and WWE to cease and desist in
+their use of Cena's theme song, "My Time is Now" [which you can sample below] due to their claim
+the song heavily borrows material from their hit "Ante Up" [which you can sample below] and
+that WWE's lawyers found some person to sign off on the license who was only a receptionist and
+didn't have the authority to do so.
+
+
+
+The focal point of musical contention is one non-English line, "BRRR Abado," that appears in
+the original song once and in Cena's song three times. The suit asks for the destruction of
+Cena's theme song, all DVD's with the song pulled off shelves and $150,000 fro the defendants.
+Cena and WWE have yet to comment.
+
+
+
+After reading this article, I decided to go to youtube and see what exactly Mr. Grinnage and
+Murray are upset about and after discovering the lyric in question, I nearly fell out of my
+chair because other than that line, THE SONGS SOUND NOTHING ALIKE! Don't believe me, listen
+for yourself:
+
+
+
+"Ante Up" by M.O.P.
+
+
+
+
+
+"My Time is Now" by John Cena
+
+
+
+
+
+Right there is the proof. Even if you don't like Cena, you have to admit that the two songs, with
+the exception of the beginning lyric, sound NOTHING ALIKE, especially when you consider Cena
+wrote his song by himself!
+
+
+
+Personally, I feel this is just another case of some lackluster, never-will-be-anything
+stars trying to get some free money and press at the expense of others. It's a sad reality but
+that's how the world works today....washed up people suing for whatever they think will get
+them money. Either get some real talent or do us all a favor and fade into obscurity.
+
+
+
+I said this in my last blog about this subject and I'll say it again....these gentlemen [and I
+use that term loosely] were so upset with the secretary signing off on the permission to use the
+lyric and with Cena and WWE for using it in their song that they waited a whole THREE-AND-A-HALF
+YEARS to file suit and are only asking for $150,000? Hogwash.
+
+
+
+Lastly, I am surprised no one has pointed out this interesting tidbit...for those who own the
+WWE CD " Raw Greatest Hits: 15th Anniverary Edition " that came out in Dec. 2007, if you look
+inside the CD booklet, WWE actually "credited" M.O.P.'s song "Ante Up" and thanked them for
+the use of it.
+
+
+
+So please explain this to me like I'm a five-year old when considering the last fact.......Why
+exactly are M.O.P. suing them again? Posted by Mister Allred at 5:14 PM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Monday, October 27, 2008
+
+
+
+Wrestling legend S.D. Jones passes away at age 63
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/SDJONES.jpg
+
+Photos courtesy of wwe.com
+
+
+
+Before I begin, I want to give my condolences to Mr. Efriam's widow Kay, his son, two daughters
+[Donna and Abigail], his four grandchildren and his brother.
+
+
+
+Earlier today, I read an article on Slam! Sports that broke the news wrestling legend Conrad
+Efriam, better known as S.D. "Speical Delivery" Jones [pictured above], passed away on
+Sunday at the age of 63 in Antigua due to complications following a stroke he had on Wednesday.
+
+
+
+His widow, Kay, told Slam! Sports that he had been in fine health and on Wednesday, had been
+laughing, singing and had just fed the dogs, when he suddenly called her name, showed his
+fingers and his body went limp. At the doctors office, Kay found out that three-quarters of his
+brain was bleeding and covered in blood.
+
+
+
+Even though he could not speak in the hospital, he could write and according to Kay, wrote 'I
+want to go straight to New York." Kay went on to say that he recognized her and then squeezed her
+hand.
+
+
+
+Efriam was last seen on a national broadcast at the WWE Hall of Fame Induction Ceremony the
+night before Wrestlemania 22 in April 2006, where he inducted " Mr. U.S.A. Tony Atlas ," his
+former traveling and tag-team partner in the WWE .
+
+
+
+Long-time wrestling fans will remember Efriam as a solid competitor who despite his " jobber "
+status, could believably get in the ring with the biggest names of the 1980's, such as Randy
+Savage , Don Muraco and Paul Orndorff to name a few, and come close to pulling off a victory on any
+given night.
+
+
+
+Of course, Efriam's biggest accolade came at the inaugural Wrestlemani a event in 1985, where
+he was defeated in the second match of the night by King Kong Bundy in a record time of "9
+seconds," which was the announced time even though the actual time was "24-seconds" from
+bell-to-bell.
+
+
+
+Interestingly, Efriam told Slam! Sports in 2004 that he was concerned that such a beating in
+front of a national audience would damage his career but Vince McMahon persuaded him that a
+humiliating loss to Bundy would achieve the company's goal of developing a monstrous rival to
+the likes of Hulk Hogan and Andre the Giant and for his effort, received a very nice payday.
+
+
+
+After a 22-year career in the ring, Efriam retired from the industry in 1991, lost a tremendous
+amount of weight and began working for the New York Daily News , driving newspapers. In Nov.
+2007, Efriam retired from the newspaper industry and moved back to his native Antigua.
+
+
+
+Being born in 1984, I didn't get to see that much of Efriam in the ring but the things I do remember
+are his two LJN action figures , one of which featured a red shirt and the other, a tropical shirt
+[both of which I owned]; his lost to Bundy at Wrestlemania; his cameo in the " Land of a 1000
+Dances" music video and being featured as a bonus match from the 1986 WWE Australia tour in the
+extras section of the WWE Global Warning Tour DVD released in 2002.
+
+
+
+Even though I didn't get to see much of him, everything I have read about Efriam has stated that
+he was one of the classiest, if not the classiest, individuals one would ever meet in their
+lifetime and was a joy to be around. I have never read one negative thing about Efriam, other
+than his professional wins and loss record, and will remember him as someone who always put on a
+great show.
+
+
+
+It just sucks that another wrestler I grew up watching, who was a good man and relatively young,
+has now passed away. The only thing that makes me feel a bit better is knowing God must be a huge
+wrestling fan to be able to deal with all their egos up there.
+
+
+
+If anyone would like to send any emails of memories of Mr. Efriam or notes of condolences, the
+editor of Slam! Sports will forward them to Kay if you send them to the following address:
+goliver@canoemail.com
+
+
+
+God Bless and may you Rest in Peace Mr. Efriam. You were a good man who touched a lot of lives and
+will make Heaven a much a better place with just your presence.
+
+
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/SDJONES2.jpg
+
+
+
+Posted by Mister Allred at 5:45 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Sunday, October 26, 2008
+
+
+
+Florida Championship Wrestling Episode #3
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/20080708_header.jpg
+
+Photo courtesy of fcwwrestling.com
+
+
+
+Since it is Sunday, that means its time for the next episode of Florida Championship Wrestling
+. However, if you watched last week's episode, you know that Eddie "Primo" Colon and Eric Perez
+won the tag-titles in the Main Event. This week, the team of Joe Hennig and Heath Miller are
+tag-champions [with no mention of Colon & Perez losing the titles] and "Natural" Nick Nemeth
+is going by his RAW name, " Dolph Ziggler " and Josh Matthews , not Todd Grisham , is calling the
+action with Dusty Rhodes.
+
+
+
+The reason for these sudden changes is because World Wrestling Entertainment [WWE} started
+taping FCW shows over the summer and apparently, have decided to skip a plethora of episodes in
+an attempt to catch-up and reflect the current status of its main roster.
+
+
+
+
+
+FCW Opening Intro
+
+
+
+
+
+
+
+Dolph Ziggler vs. TJ Wilson
+
+
+
+
+
+
+
+Drew McIntyre vs. Gabe Tuft
+
+
+
+
+
+
+
+Sinn "Kizarny" Bowdie vs. Scotty Goldman
+
+
+
+
+
+
+
+Joe Hennig/Heath Miller vs. Jake Gabriel/Mike Kruel
+
+
+
+
+
+
+
+Sheamus O'Shaunessy calls out Batista
+
+
+
+
+
+
+
+Eric Escobar vs. Johnny Curtis [Part 1]
+
+
+
+
+
+
+
+Escobar vs. Curts [Part 2] Posted by Mister Allred at 2:37 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Saturday, October 25, 2008
+
+
+
+John Cena & WWE sued over Cena's theme song
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/john_cena.jpg
+
+Photo courtesy of ign.com
+
+
+
+
+
+Shortly before his WWE Championship title match against John Bradshaw Layfield at
+Wrestlemania 21 in 2005, John Cena [pictured above] changed his entrance song from " Word Life
+" to " My Time is Now ," a track which was featured on his debut album, " You Can't See Me ."
+
+
+
+Three-and-a-half years later, Cena, along with World Wrestling Entertainment [WWE] and
+Sony BMG Music , are finding themselves locked-up in a lawsuit with " The Royalty Network Inc "
+due to the intellectual property of Cena's entrance song.
+
+
+
+RNI is claiming that WWE and Cena have been using the music under false pretenses due to the
+copyright being signed over to them by somebody who didn't have the power to do so and are
+requesting that all properties containing the music, such as videogames, DVD's and CD's, be
+destroyed and that WWE pay them damages of $150,000.00 and the cost of court fees.
+
+
+
+Cena is listed in the lawsuit because he added lyrics to the music and according to RNI, is
+trying to pass it off as his own, which they claim the music never legally belonged to hi or the
+WWE.
+
+
+
+Should RNI be successful in this lawsuit, Cena would obviously have to give up his entrance
+music and WWE would find themselves in familiar territory of having to literally edit out
+every piece of merchandise on retail that has Cena's entrance song, which is basically every
+released dvd since Wrestlemania 21, and re-release it with new music.
+
+
+
+All I have to say about this is.......Give me a freaking break! People are in such a hurry
+nowadays to sue any and everyone for the dumbest little things in an attempt to get rich quick
+and this particular lawsuit is beyond ridiculous as Cena and WWE are basically being sued for
+something musicians do all the time with music.
+
+
+
+If RNI was so upset about this, why did it take them three-and-a-half years to file this lawsuit
+and why are they only asking for $150,000? That amount is chump change to Vince McMahon who just
+gave away close to five-million dollars of his own money this past summer in his " McMahon
+Million Dollar Mania Sweepstakes ."
+
+
+
+The only good thing about this news is that when Cena returns in a few weeks, this may urge
+McMahon and WWE to change Cena's entrance song, which I admit has run its course, and give Cena a
+fresh start with a new tune. That or McMahon may just write RNI a nice fee to forget about all
+this, which is probably what they want.
+
+
+
+If you would like to read more about this, you can access the full case files for $.08 per page on
+the New York Southern Distric Court's Electronic Court Filings [ECF] System by clicking the
+following link: https://ecf.nysd.uscourts.gov/cgi-bin/iqquerymenu.pl?333752 Posted
+by Mister Allred at 1:34 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Friday, October 24, 2008
+
+
+
+Wrestling Recipes Week 8 - Priceless Chicken Fingers
+
+
+
+Image:
+http://i6.photobucket.com/albums/y250/CSUMB84/CodyRhodesChickenFingers-1.jpg
+
+Photo courtesy of WWE Magazine
+
+
+
+One of my all-time favorite snacks has been chicken fingers a.k.a. chicken strips since I can
+remember. You can imagine how thrilled I was when in the April 2008 issue of WWE Magazine , there
+was a recipe that took chicken fingers to another level. Thanks to the self-appointed "Prince
+of Professional Wrestling" Cody Rhodes , this tasty snack combines two childhood
+favorites...chicken strips and Cap'n Crunch cereal . Enjoy.
+
+
+
+
+
+PRICELESS CAP'N CRUNCH CHICKEN FINGERS
+
+
+
+INGREDIENTS :
+
+*2 Pounds of chicken tenders
+
+*4 cups of Cap'n Crunch cereal
+
+*1 egg
+
+*1 cup milk
+
+*1 cup flour
+
+*2 tsp. black pepper
+
+*2 tsp. garlic powder
+
+*Vegetable Oil
+
+
+
+DIRECTIONS :
+
+1) Crush Cap'n Crunch cereal in a bowl and set aside.
+
+2) In another bowl, beat eggs into milk.
+
+3) In third bowl, combine flour, garlic powder and black pepper.
+
+4) Cover chicken in flour mixture and dip into eggs and coat with Cap'n Crunch crumbs.
+
+5) Coat frying pan with vegetable oil and place over medium flame.
+
+6) Cook coated tenders in oil until golden brown on each side [Best served with honey mustard].
+Posted by Mister Allred at 3:27 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Thursday, October 23, 2008
+
+
+
+Vince wants wrestlers called "entertainers?"
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/lg_wwe_logo-732114.jpg
+
+Photo courtesy of Myspace.com
+
+
+
+
+
+Late last night, I read a report on PWInsider.com that stated World Wrestling Entertainment
+[WWE] has told all of their on-air announcers to start referring to the wrestlers as
+"entertainers" and to avoid calling them wrestlers, or even superstars, on all future
+broadcasts.
+
+
+
+The reason for this sudden and unusual request is because WWE wants to begin classifying
+themselves as an entertainment touring company rather than a legitimate sporting event in an
+attempt to avoid falling under the jurisdiction of many state Athletic Commissions and
+getting out having to pay taxes for their touring events.
+
+
+
+This just further proves that Vince McMahon needs to hand the company over to either Stephanie
+or Shane , who would be my personal preference. It appears the older Vince gets, the more he
+comes up with outlandish and ridiculous ideas and schemes. Do I have to mention his wonderful
+ideas of " Katie Vick ," " Father vs. Daughter I Quit Match ," and the rejected incest storyline
+of him wanting to be the father of Stephanie's un-born child? The man is clearly Looney-Tunes!
+
+
+
+How long does Vince actually think this will last? I mean, professional wrestling has been
+around forever and saying John Cena , for example, had a life-long dream to become a
+professional "entertainer" doesn't have the same punch to it as saying he had a life-long
+dream to become a professional "wrestler."
+
+
+
+Also, anyone who thinks professional wrestling it is a legitimate sporting event rather than
+an exhibition needs to slapped upside the head, especially since way back in 1989, McMahon
+publicly admitted his company was "sports-entertainment" in order to get around the
+regulation of the State Athletic Commission in New Jersey, where " Summerslam 89 " was held. I
+guess Vince has now figured a way out to take care of the other 49-states.
+
+
+
+This leads me to believe one of two things...either Vince is hard-up for money, which I doubt
+since he gave away five-times as much money as he spends on taxes, or, he is finally making good
+on what he promised to do back in 1999 when he told Reuters-Business Recorder that WWE is a
+variety show as opposed to wrestling. " This is not two guys in their underwear in the ring.
+We're going way beyond that ," said McMahon. " One day we will figure out how to take the word
+'wrestling' out of World Wrestling Entertainment. I like to think we are in the mainstream
+public entertainment business ."
+
+
+
+Having just finished watching this week's ECW on Sci-Fi episode on wwe.com, it appears this is
+being enforced as color-commentator Matt Striker referred to Finlay , Evan Bourne and Mark
+Henry as "entertainers" and not "superstars" during the main-event.
+
+
+
+Somewhere right now, mens such as Lou Thez , Buddy Rodgers , Stu Hart , Owen Hart , Brian Pillman ,
+Wahoo McDaniel and all the other deceased professional wrestlers are rolling-around in
+their graves as a result of this news. Posted by Mister Allred at 11:35 AM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Wednesday, October 22, 2008
+
+
+
+TNA Knockout Traci Brooks suffered from Erb's Palsy
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/_MG_0254.jpg
+
+Photo courtesy of tnawrestling.com
+
+
+
+Earlier today, I read an interesting interview [which can be read here ] current TNA Knockout
+Traci Brooks [pictured above] did with the Chicago Sun-Times . In the interview, Ms. Brooks
+revealed for the first time that she suffered from Erb's Palsy as an infant and was able to
+overcome it as a result of her mother's persistence, dedication and the fact that her mother
+made her exercise her arm every day until she was two years old.
+
+
+
+Ms. Brooks went on to say that she was in a sling that was attached over her heady in her buggy, was
+one-out-of-six kids with the condition at the time and the only one to benefit in a positive
+manner as a result of her mother's exercise regimen.
+
+
+
+For those who are not familiar with Erb's Palsy [pictured below], it is paralysis of the arm
+caused by injury to the upper group of the arm's main nerves, specifically the spinal roots
+C5-C7, and almost always occurs during birth.
+
+
+
+
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/Brachial_plexus-1.jpg
+
+Photo courtesy of wikipedia.com
+
+
+
+
+
+The most common cause of Erb's Palsy is " dystocia ," an abnormal or difficult childbirth, such
+as the infant's head and neck being pulled towards the side at the same time as the shoulders are
+passing through the birth canal .
+
+
+
+The condition can also be caused by excessive pulling on the baby's shoulders during a "vertex
+delivery," which is a head first delivery, and can also present itself to adults following a
+traumatic fall on the side of the neck. Depending on the nature of the damage, the paralysis can
+either resolve on its own over a period of months, through physical therapy or require
+surgery.
+
+
+
+I honestly had never heard of this condition until I read Ms. Brooks' interview. I also never
+noticed that she has a lack of muscle definition on her right side (maybe that's because I'm
+never looking are her muscles but rather, her other talents) or that the condition actually
+affects her in the ring, both physically and mentally as she doesn't view herself as a
+Superstar, but rather as a girl with a disability and not perfect like she and other Knockouts
+are perceived.
+
+
+
+After reading this article, I have even more respect for Ms. Brooks and hope she is able to get
+the word out about this condition that I don't think many people know about or even knows exist.
+It's weird and scary to think that as soon as your born, you could already be suffering from
+something.
+
+
+
+If TNA wrestling was smart, they would use this to their advantage and have Ms. Brooks become a
+spokeswoman for organizations, such as EPG , that work in correlation with this condition
+that can affect just about anyone.
+
+
+
+This should also serve as a reminder to anyone but specifically young women, that one can do and
+overcome anything life throws at them as long as they set their mind to it, are willing to work
+hard and never giving up. Posted by Mister Allred at 3:34 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Tuesday, October 21, 2008
+
+
+
+What went wrong for EliteXC and where do its fighters go?
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/elitexc-logo-1.jpg
+
+Photo courtesy of EliteXC.com
+
+
+
+Late last night, it was reported by Sherdog.com that EliteXC , the second-biggest Mixed
+Martial Arts [MMA] promotion in the United States, had begun filing the paperwork for
+bankruptcy and will officially close its doors this week, ceasing operations after two years
+of existence, joining the International Fight League [IFL] as the second MMA promotion in
+three months to shut-down.
+
+
+
+The " Night of Champions " event scheduled for Nov. 8 on Showtime , which was the be headlined by
+Joey Villasenor vs. Robbie Lawler and Nick Diaz vs. Eddie Alvarez , has already be canceled and
+all EliteXC fighters and training camps have been notified of the company's sudden closure,
+leaving a lot of questions left to be answered and fighters, such as Gina Carano , wondering
+what will happen to their careers.
+
+
+
+One of the main reasons for the sudden closure was EliteXC's mis-manage of money that should
+have been spent on developing and adding depth to the roster by acquiring a significant number
+of quality fighters whose contracts had expired, which would have been the best way to compete
+with the Ultimate Fighting Championship [UFC] for supremacy.
+
+
+
+Instead, Pro Elite , EliteXC's parent company, purchased other promotional companies such
+as ICON , Rumble on the Rock , King of the Cage , Spirit MC and Cage Rage , all of which
+collectively, cost tens of millions of dollars and delivered nothing except a huge hole in
+EliteXC's wallet that put them $55 million in debt ( Dave Meltzer of Yahoo! sports reported
+that Cage Rage cost an estimated $18 million alone).
+
+As a result of this mis-manage, EliteXC got no fighters of interest, a fight library that
+wasn't worth a-tenth of what it cost and was forced to have the same fighters constantly fight,
+such as Diaz, who appeared on nearly every EliteXC card, due to a lack of depth on the roster.
+
+In addition, the recent Kimbo Slice / Seth Petruzelli fight didn't help EliteXC as not only was
+Slice, who EliteXC made their top star, knocked out by an unknown light-heavyweight in 14
+seconds on National Television, exposing him as the fraud he was, but the company is being
+investigated by the Florida State Athletic Commission due to Petruzelli's post fight
+comments that EliteXC officials would give him a bonus if he kept the fight with Slice standing
+and didn't take him down.
+
+
+
+Showtime, which aired all but three EliteXC events and owned 20-percent stake in Pro Elite,
+appeared to be the company's' saving grace when they filed a public notice with the U.S.
+Securities and Exchange Commission on Sept. 17 to enter preliminary negotiations for the
+purchase of EliteXC. Unfortunately for EliteXC, Showtime pulled out due to failing
+negotiations and the controversy surrounding the Slice/Petruzelli fight .
+
+
+
+Now that the company is no more, the question now is what happens to fighters such as Slice,
+Carano, Lawler, Jake Shields and others? Slice will NOT be signed to the UFC, let's get that
+cleared right now. He is a gimmick with no fighting skills and will most likely head to Japan,
+where the larger-than-life gimmick is successful. Just look at Bob Sapp .
+
+
+
+Lawler and Diaz have already had a cup-of-coffee with the UFC and I don't see UFC President Dana
+White jumping at the chance to sign them. Alvarez will have several offers, most notably
+Japan's DREAM organization and perhaps, Donald Trump 's Affliction promotion . Shields may
+be signed to the UFC so he can have a title match against Georges St. Pierre and Villasenor may
+get another crack at the UFC.
+
+
+
+Unfortunately, the one going to be left out in the cold is Carano, who despite her popularity
+and being a superb fighter, is not a favorite of White's, who has gone on record with his disdain
+for women's mixed martial arts.
+
+
+
+The one thing that may help Carano is that White cannot ignore her popularity as she has become
+as popular [and more so in my opinion] as any UFC fighter and is no gimmick. White should do the
+right thing and sign Carano to a UFC contract because even though he may not like women's
+fighting, he does like great fights and Carano, who is a wonderful ambassador for the sport,
+delivers everytime.
+
+
+
+White needs to put his ego aside and sign Carano, as well as the rest of EliteXC's women's
+division to UFC contracts as not only is it the strongest women's division in all of MMA, but
+their fights are guaranteed to be fight of the night on any card at any venue. If White cannot put
+his ego aside for great business, I'm sure Affliction wouldn't mind snatching them up or CBS ,
+who is rumored to develop an all female fighting organization with said women. Posted by
+Mister Allred at 6:06 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Monday, October 20, 2008
+
+
+
+Thoughts on Hulk Hogan's Celebrity Championship Wrestling
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/home-header-2.jpg
+
+Photo courtesy of CMT.com
+
+
+
+For the last several weeks, Country Music Television (CMT) has been heavily advertising the
+premiere episode of Hulk Hogan's "Celebrity Championship Wrestling ," which premiered this
+past Saturday night. Now, I hadn't planned to watch it because the show didn't seem that
+appealing and didn't seem to be that entertaining.
+
+
+
+However, I got a call from my parents Sunday morning, who said I had to check out the show
+because, as my mom said, I would be surprised with the show and who was impressive. My mom was
+right on both accounts and I found myself enjoying the show and was greatly impressed with
+Trishelle Cannatella , who showed great ring presence and potential in her match and Danny
+Bodaduce , who I think missed his calling as a professional wrestler.
+
+
+
+For those who didn't see the show, allow me to give you a quick synopsis...there are 10
+celebrities on the show [ Dennis Rodman , Bodaduce, Butterbean , Cannatella, Dustin Diamond ,
+Erin Murphy , Frank Stallone , Tiffany , Nikki Ziering , Todd Bridge s] who are split into two
+teams. One team is coached by Brutus "the Barber" Beefcake and the other is coached by Brian
+Knobbs .
+
+
+
+The way the show works is that the celebrities are shown several wrestling holds and moves in
+training and have several hours to not only learn the moves and holds, but to also incorporate
+those moves into a match they will put on in front of a live crowd. However, the matches are not
+Team Beefcake vs. Team Knobbs. Rather, the matches are inter-squad and the coaches decide who
+will be the faces (good guys), heels (bad guys) and managers .
+
+
+
+At the end of the two matches, both of which are judged by Hogan, Jimmy Hart and Eric Bischoff ,
+one team is selected as the winner and for the losing team, one celebrity will be sent home based
+on the judges decision. The last celebrity left standing will win the "Celebrity
+Championship Wrestling" title belt.
+
+
+
+I didn't think I would say this but I am a fan of the show and can't wait to see next week's episode,
+as long as I remember that its on, which shouldn't be too hard since its the only show CMT is
+advertising right now.
+
+
+
+My only gripe is that Rodman is on the show and while Rodman was my favorite NBA player, I don't
+think its fair he's on the show since he's had prior ring experience by wrestling for WCW in the
+late 1990's and a few independent shows.
+
+
+
+Other than that, I like the approach the show has taken, having the celebrities put on mini
+matches after training rather than attempting to make the show a legitimate wrestling
+promotion with the celebrities, and hope that ratings are strong enough for a second season.
+Posted by Mister Allred at 2:56 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Sunday, October 19, 2008
+
+
+
+Florida Championship Wrestling Episode #2
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/20080708_header.jpg
+
+Photo courtesy of fcwwrestling.com
+
+
+
+
+
+Last week, I posted the inaugural episode of Florida Championship Wrestling , World
+Wrestling Entertainment 's official developmental territory, and have decided that since
+the new episodes air every Sunday evening at six o'clock on the Brighthouse Sports Network , I
+will be showing the previous week's episode right here on Sunday's for your viewing pleasure.
+All videos are courtesy of youtube user " KaceCC " and remember, these episodes were taped this
+past summer.
+
+
+
+
+
+FCW Intro
+
+
+
+
+
+
+
+Sheamus O'Shaunessy vs. Ricky Ortiz
+
+
+
+
+
+
+
+Chris Jericho speaks to the fans
+
+
+
+
+
+
+
+Evan Bourne vs. Aja Jr.
+
+
+
+
+
+
+
+6-Man Tag Match
+
+
+
+
+
+
+
+Diva Twist off hosted by Kelly Kelly
+
+
+
+
+
+
+
+The Empire vs. Eric Perez & Eddie Colon [FCW Tag Titles]
+
+Posted by Mister Allred at 1:24 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Saturday, October 18, 2008
+
+
+
+Who is this "Kizarny" coming to Smackdown?
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/sinn.jpg
+
+Photo courtesy of gerweck.net
+
+
+
+For the last couple of weeks on Smackdown , creepy vignettes (one of which you can view the end of
+this entry) have aired during the broadcast that show various shots of people at carnivals as
+carnival music plays in the background and then, a deranged man with blonde hair (who appears
+as a cross between Chris Jericho and Johnny Devine with Captain Jack Sparrow facial hair)
+appears and says his name is "Kizarny" and begins speaking in Carny tongue.
+
+
+
+These vignettes, which most fans have said are both creepy and interesting, have led to people
+wanting to know more about this "Kizarny" individual. His real name is Nick Cvjetkovich
+(pictured above) but is better known as "The Carnival Freak" Sinn Bowdee from Florida
+Championship Wrestling (FCW), World Wrestling Entertainment 's (WWE) official
+developmental territory.
+
+
+
+In addition, Cvjetkovich, who has been under WWE development since July 2007 after spending
+nine-years on the independent scene, was featured in the Nov. 2008 issue of WWE Magazine ,
+along with several other FCW prospects, and it was stated that Cvjetkovich is a
+self-described anarchist hippie who once slept in his car when it was 20-degrees below zero en
+route from Nova Scotia to Tijuana for a match. Cvjetkovich is also an avid artist, designing
+every tattoo on his body.
+
+
+
+For fun, Cvjetkovich had this to say to WWE Magazine, "For stuff and giggles, I'll walk into a
+Waffle House wearing a pink bunny t-shirt and eyeliner just to see what happens. I'm a really
+peaceful, playful guy, but if people make eye contact, they shrink in their seats. If I can
+scare people doing that, then I'm bringing something to the table."
+
+
+
+Posted by Mister Allred at 10:50 AM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Friday, October 17, 2008
+
+
+
+Wrestling Recipe's Week 7 -Stratusfying Banoffee Pie
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/TrishStratusCreamPie-2.jpg
+
+Photo courtesy of WWE Magazine
+
+
+
+If your like most people in the world, chances are you love dessert and let's be honest, who
+doesn't. In the Oct. 2006 issue of WWE Magazine , seven-time WWE Women's Champion Trish
+Stratus was gracious enough to share with the readers a recipe for "Banoffee Pie" that she
+requested from the head chef of a catering company in the United Kingdom when WWE went on tour in
+2006.
+
+
+
+According to Stratus, the chef said, "If I tell you, I'll have to kill you," to which Stratus
+replied, "Buddy, I"m a six-time WWE Women's champion. If you don't give it to me, I'll crush
+you." After some arm wringing and giving the chef an autographed photo of herself, Stratus was
+able to score the recipe and share a little piece of the UK with her fans.
+
+
+
+
+
+STRATUSFYING BANOFFEE PIE
+
+
+
+
+
+INGREDIENTS :
+
+*1 14oz. can sweetened condensed milk
+
+*20 plain crushed digestive biscuits (will make 1 1/2 cups crumbs)
+
+*5 tbsp. unsalted butter
+
+*2 bananas
+
+*1 pint heavy cream
+
+
+
+DIRECTIONS :
+
+1) On the stovetop, pour sweetened condensed milk into top of double boiler.
+
+2) Place over boiling water.
+
+3) Simmer over low heat for 1-to-1 1/2 hours, stirring occasionally until thick & caramel
+colored.
+
+4) Beat until smooth.
+
+5) Check water in bottom of double boiler to ensure pan is not dry.
+
+6) In bowl, combine biscuit crumbs and melted butter.
+
+7) Use spoon to blend well.
+
+8) Press mixture into pie pan, refrigerate until ready to use.
+
+9) Pour caramelized sweetened condensed milk into chilled crust.
+
+10) Slice bananas and arrange atop caramel layer.
+
+11) Top pie with whipped cream. Posted by Mister Allred at 11:14 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Thursday, October 16, 2008
+
+
+
+Bobby Lashley set to make MMA debut
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/bobbylashley.jpg
+
+Photo courtesy of wwe.com
+
+
+
+Yesterday, it was confirmed by LordsofPain.net that former World Wrestling Entertainment
+(WWE) Superstar and ECW Champion, Bobby Lashley (pictured above), will be making his Mixed
+Martial Arts (MMA) debut on Dec. 13 against an unknown opponent. The fight is scheduled to take
+place in Miami at the American Airlines Arena but it is unknown if it will be for the American
+Fight League (AFL), the promotion Lashley signed with and is in financial turmoil, or one of
+the bigger MMA promotions.
+
+
+
+Lashley, who reluctantly walked away from a six-figure contract with WWE shortly before his
+return from injury in Jan. 2008 due to what Lashley claimed as circumstances beyond his
+control, has been training in MMA for the last year with America Top Team (ATT) in Flor. and has
+been praised by everyone at ATT for his tremendous work ethic and being a student of MMA.
+
+
+
+Of course, there have been critics that have been bad-mouthing Lashley, saying he's going to
+get destroyed in his first fight and that he's only doing this because Brock Lesnar did it and
+he's trying to replicate Lesnar like he did in WWE.
+
+
+
+First off, those critics need to STFU immediately about the comparisons between Lashley and
+Lesnar. WWE never attempted to make Lashley a newer version of Lesnar. That came from internet
+message boards where people were comparing Lashley and Lesnar due to them both wearing black
+attire and Lashley jumping on the apron like Lesnar did during his time in WWE. In fact, if you
+watch their WWE matches, they wrestled two different styles as Lesnar was more technical and
+power whereas Lashley was a pure power wrestler.
+
+
+
+As far as MMA comparisons, I personally believe Lashley has more credible fighting skills
+than Lesnar because in addition to being an amateur wrestling champion, Lashley trains heavy
+in boxing, kick-boxing and is Army trained in hand-to-hand combat. Lashley is as strong and
+quick as Lesnar but also comes with a more varied style than Lesnar, who prefers
+ground-and-pound.
+
+
+
+I honestly cannot wait to see how Lashley performs in MMA. I honestly think he could make it big
+in MMA with his tremendous work ethic and will surprise a lot of people who are already trying to
+write him off as another Kimbo Slice.
+
+
+
+Lastly, I would like to share with you a youtube video of an interview Lashley gave to
+MMArated.com earlier this month about his transition into MMA. In this interview, Lashley
+comes off as an extremely humble and down-to-earth person that one wishes nothing but the best
+for him in his new occupation.
+
+
+
+
+
+Posted by Mister Allred at 5:45 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Wednesday, October 15, 2008
+
+
+
+EliteXC lowballing female fighter Gina Carano
+
+
+
+Image:
+http://i6.photobucket.com/albums/y250/CSUMB84/82216_lhcaarhtoa_xxlarge.jpg
+
+Photo courtesy of proelite.com
+
+
+
+Earlier today, I was reading the MMA Section on Yahoo! Sports and came across an article about
+Gina Carano (pictured above), who is not only the hottest woman on the planet but also the top
+female star of Mixed Martial Arts (MMA).
+
+
+
+In the article , Yahoo! Sports Kevin Iole was responding to a fan-letter that was upset with his
+singling-out of Carano for having trouble making an un-reachable weight of 140-pounds for
+her most recent bout on " EliteXC Heat ," which is hard for Carano due to her having to film NBC's
+American Gladiators as " Crush " and NBC wanting her to be near 160-pounds for the tapings.
+
+
+
+Of course the simple solution would be for EliteXC to make the women's division 145-pounds
+instead of 140 since "Cyborg" Santos , who will be Carano's next opponent, fought at
+148-pounds on the same show in an undercard bout, but that's another story for another time.
+
+
+
+Anyway, in Iole's response, he mentioned that Carano, who is the company's top-draw now that
+Kimbo Slice was exposed for the fraud he truly is by Seth Petruzelli at "Heat," only made
+$25,000 for her fight against Kelly Kobold , which ratings show was the most-watched fight of
+the night.
+
+
+
+Even more eye-opening is the fact that Carano made less than Slice ($500,000), Andrei
+Arlovski ($500,000), Roy Nelson ($80,000), Petruzelli ($50,000), Jake Shields ($50,000),
+Murilo Rua ($35,000) and Benji Radach ($30,000). In addition, there are unconfirmed reports
+that Arlovski received a $1 million bonus that raised his overall pay to $1.5 million.
+
+
+
+How can anyone in that company justify paying Slice 20-times more than Carano when Carano not
+only won, but was the reason people tuned in to see the event in the first place? The ratings
+showed an increase in viewership for her fight and a huge decline when the fight was over. Also,
+Carano dominated her fight and won by unamous decesion, unlike Slice who not only lost in
+14-seconds but lost to a LIGHT HEAVYWEIGHT whom he had a 30-pound weight advantage.
+
+
+
+This is a total lack of respect shown by EliteXC to Carano, who has done more for the company than
+Slice and is a prime example, along with the controversy that EliteXC officials told
+Petruzelli to keep the fight with Slice standing , of why the company is $60 million in the hole
+and may lose its contract with CBS .
+
+
+
+Lastly, should EliteXC survive long enough for the fans to get Cyborg vs. Carano, I agree with
+Iole that no matter what is left on Carano's contract, EliteXC should rip it up and give her a new
+one that pays her what she's worth. If not, I'm sure Dana White and the UFC would love to start a
+women's division and have Carano as the star since that is where the "Big Boys" fight and soon,
+could be where the "Big Girls" fight. Posted by Mister Allred at 6:13 PM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Tuesday, October 14, 2008
+
+
+
+WWE surprisingly releases Lance Cade
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/lancecade.jpg
+
+Photo courtesy of wwe.com
+
+
+
+A little while ago, it was posted on wwe.com that Lance Cade was released from the company after
+being on the main roster for a little over four-years.
+
+
+
+The move was shocking to say the least and has left people scratching their heads as it appeared
+Cade was being groomed for big things in the company and was in the midst of his biggest singles
+push of his career, feuding with Shawn Michaels , the main who trained him, and being Chris
+Jericho 's sidekick.
+
+
+
+Honestly, while the release came out of left field, it shouldn't be that surprising when one
+considers how much time and effort WWE has spent trying to get Cade over with the crowd. When he
+first debuted in the fall/winter of 2003, he was paired with Mark Jindrak and the two made for a
+decent, young tag-team.
+
+
+
+After the WWE 2004 draft, Jindrak was drafted to Smackdown and Cade was paired with Jonathan
+Coachman , who served as Cade's mouthpiece. After it was apparent the pair wasn't working out,
+Cade went to the developmental area for a while before coming back in Fall 2005, teaming with
+Trevor Murdoch in a "Western Cowboy Redneck" tag-team that lasted until a few months ago and
+the duo had several tag-team title reigns.
+
+
+
+It could just be a case of WWE cutting their losses as pairing Cade with Jericho could have been a
+last resort effort and they must have felt it wasn't working out. That or Cade did something or
+got caught with something we don't know about because I thought he would have a job for life
+since he was trained by Michaels.
+
+
+
+I think what hinder and hurt Cade's career was he couldn't connect with the fans as he is plain as
+vanilla ice-cream. There is nothing about him that oozes charisma, unlike another Michaels
+trained student, Brian Kendrick , who despite his small statute is close to becoming the
+top-heel on Smackdown behind Vladimir Kozlov .
+
+
+
+I'm reminded of a Raw event I attended in San Jose in May 2004 and during one of the matches that
+was taped for the international version of " Sunday Night Heat ," Cade was having a match
+against Val Venis and the annoying gentlemen behind me, who thought they knew everything,
+said the following when one asked if he brought his camera, "Yeah I brought it but I'm not gonna
+waste film on Lance Cade." That about sums up Cade's career in WWE.
+
+
+
+However, like others who are released, he may be back one-day. For the WWE to give him a seal of
+approval by keeping him employed for so long and giving him all these chances, I don't see them
+just releasing him outright in what was their biggest try to get him over.
+
+
+
+Lastly, does anyone else find it ironic that Cryme Tyme was brought back to the company earlier
+this year and now, Cade and Murdoch are now both gone from WWE and this time last year, Cryme Tyme
+was released after an incident at a house show involving them and Cade and Murdoch? That type of
+irony writes itself. Posted by Mister Allred at 4:14 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Monday, October 13, 2008
+
+
+
+Chris Masters shoots on Ultimate Warrior
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/chrismordetzky.jpg
+
+Photo courtesy of wwe.com
+
+
+
+Earlier today, I read a very interesting article on Slam! Sports that featured an interview
+with former WWE Superstar Chris Mordetzky (pictured above), better known as " The
+Masterpiece" Chris Masters . In this interview, Masters had some very choice words for The
+Ultimate Warrior with regards to appearing on the same wrestling show as him in Barcelona
+Spain last June that featured the Warrior's comeback match against former WWE Superstar
+Orlando Jordan .
+
+
+
+In the article, which can be read by clicking here , Mordetzky refers to Warrior as the
+"Ultimate A-hole" and stated the following.... "The guy is 50 years old and he expected the red
+carpet rolled out for him in NWE ....We were doing a three-week tour of Spain and they brought
+him in to create a buzz for the product. He had one match to do with Orlando Jordan for our big show
+in Barcelona.....They rented him a house and flew out his wife and daughters and all I was
+hearing about from the guys higher up was his moaning and saying, 'I am the Ultimate Warrior,
+you should be promoting this more,' and doing everything he possibly could to make it hard for
+those of us who were working every day busting our rears."
+
+
+
+Mordetzky was not done there as the then took aim at Warrior's match, pretty much calling it
+horrible. "The guy trained for this match like it was a bodybuilding show. He hadn't wrestled
+legitimately in about 15 years, because let's be honest, that WCW run doesn't even count. He
+gave Orlando a hiptoss and a backdrop and then blew up in two minutes; there was nothing that
+Orlando could do. He stunk the whole joint out. We were backstage and it was unlike any
+atmosphere I have ever felt. We asked Juventud Guerrera what they were chanting in Spanish and
+it was things like boring and BS. Whatever he thinks his value is, he is completely delusional.
+It is safe to say the Ultimate Warrior is an a-hole, the best way to describe him is ugh."
+
+
+
+Wow! Tell us how you really feel about Warrior Mr. Mordetzky. I think its safe to say that this
+story is a prime example of why no professional wrestling company in the States has wanted
+Warrior to work for their organization since he left WCW in 1998 after Hulk Hogan avenged his
+Wrestlemania VI loss to Warrior. What else do you expect from a gentleman that legally changed
+his name to "Warrior" and speaks in a form of tongue that no one, not even his most devout fans,
+can understand.
+
+
+
+Warrior really has a high opinion of himself and appears to be living off of past glory. I cannot
+believe that a small time independent wrestling organization actually accommodated
+Warriors requests and demands when any other promoter would have told Warrior to get lost.
+
+
+
+However, I don't know why it came as a surprise to Mordetzky or any of the other wrestlers that
+Warrior was blown up in the ring after doing several moves. Shoot, at the height and prime of his
+career, Warrior blew himself up before the matches even started by sprinting to the ring,
+which was the most exciting part of his entrance once his trademark music hit. Once the bell
+rang and the match started, it was all downhill from there.
+
+
+
+I wonder how long it will take Warrior to post a rebuttal commentary to Mordetzky's comments.
+But what would be the point? No logical person would be able to understand or translate what he
+would be saying. Posted by Mister Allred at 4:35 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Sunday, October 12, 2008
+
+
+
+"I'm Dolph Ziggler and I've been suspended"
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/8310980.jpg
+
+Photo courtesy of wwe.com
+
+
+
+
+
+For the last several weeks, a strange blonde individual has been appearing in backstage
+segments of Monday Night Raw and introducing himself to various people. With the appearance
+of a porn-star, this person introduces himself as follows, " Hi, I'm Dolph Ziggler " and
+proceeds to shake hands and casually walks away as the person he introduced himself to has a
+befuddled look on his face that reads, "Who the hell was that?"
+
+
+
+For those who don't recognize the name or the person, it is none other than Nick Nemeth , better
+known as "Nicky" from the annoying Spirit Squad group and the most recent WWE Superstar to be
+suspended for 30-days for violating the WWE Wellness Policy .
+
+
+
+Nemeth, who was called back up to the Raw roster on Sept. 15 and appeared in his first backstage
+segment that same night, joins the list with the likes of William Regal , D.H. Smith , Jeff Hardy
+, Chavo Guerrero , Randy Orton , John Morrison , Jimmy Wang Yang and countless others who have
+been suspended for violating the Policy since its inception in Feb. 2006 (for a complete list
+of who has violated the Wellness Policy and been suspended or fired, click here ).
+
+
+
+Nemeth is only suspended 30-days due to this being his first strike but if he gets strike two, he
+will be suspended 60-days, just like Guerrero, Hardy and Regal, and his third strike will
+result in his termination from the company.
+
+
+
+It just baffles and amazes me that these guys continue to try to get around the Wellness Policy,
+thinking they won't get caught it will be the other people who get busted. I have to give WWE
+credit as they have been enforcing the Wellness Policy ever since the Chris Benoit
+Murder/Suicide case in the summer of 2007 and if you don't believe me, just ask Hardy, who was
+suspended for Wrestlemania 24 , and Regal, who was in line for a WWE Championship feud against
+Triple H .
+
+
+
+At least Nemeth didn't cheat like Afa Jr., better known as Manu , attempted to do earlier this
+year when he used a prosthetic penis to pass his test, which forced WWE to change the testing
+procedure by making it mandatory the wrestlers drop their pants below the knees in front of a
+doctor for all future drug tests. Posted by Mister Allred at 12:35 PM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Saturday, October 11, 2008
+
+
+
+Scott Hall involved in incident at roasting event
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/hall.jpg
+
+Photo courtesy of obsessedwithwrestling.com
+
+
+
+
+
+Late last night, it was reported by Wrestling Observer and Mixed Martial Arts contributer to
+Yahoo Sports , Dave Metzler , that last night's " Legends of the Ring VII " event, which was
+attended by the likes of Ric Flair , Raven , Nikolai Volkoff , The Iron Sheik , and others, ended
+in controversy after an incident involving Scott Hall (pictured above) and comedian Jimmy
+Graham .
+
+
+
+According to the report, Hall, who had been heavily drinking, lost control when Graham, who
+once was a wrestler, made the following tasteless comment to Bill Apter while roasting the
+Iron Sheik..."Bill Apter, you look deader than Owen Hart ."
+
+
+
+Immediately after the comment was made, Hall charged the banquet table and started throwing
+punches at Graham. Hall then grabbed the microphone from Graham and began yelling about how
+Graham was disrespecting Owen Hart.
+
+
+
+Security, police and former wrestler Jim Powers had to restrain Hall and take him out of the
+building. Hall was eventually escorted to his room but not before going on a cursing tirade
+that included him giving the DX Crotch Chop to King Kong Bundy after Bundy told him to let it go.
+
+
+
+While I don't condone how Hall behaved or his drinking for that matter since he just got out of
+rehab on Vince McMahon and the WWE 's bill, Graham is just as much at fault as Hall for making that
+tasteless remark.
+
+
+
+Also, do not attempt to defend Graham by using "it was a roast" as an excuse because by doing so,
+one is condoning the use of anything, including racial slurs, in the name of good humor. That is
+illogical and totally dis-respectful on the part of the roaster, who in this situation,
+failed to use professional courtesy and decorum.
+
+
+
+In addition, I am surprised that in a room full of wrestling legends, Hall was the only one who
+had a set to stand up and say something about the lack of respect Graham was exuding. Nothing can
+justify anyone using Hart's name in that matter and what point exactly was Graham trying to
+make by using Hart's name? It was un-creative and wouldn't have been funny using anyone's
+name.
+
+
+
+Did Hall go overboard in his standing-up for Hart's good name? Yes, but one needs to take into
+account that Hall actually knew Hart both professionally and personally and anyone one of us
+would have become defensive and acted in a similar matter had someone made a tasteless joke at
+the expense of a lost loved one who was killed in a tragic matter.
+
+
+
+UPDATE : Graham claims in his newest blog that the remark he made was as follows, "After Sheik
+and Hacksaw Jim Duggan were caught sniffing coke in the parking lot, his {Sheik} career fell
+faster than Owen Hart."
+
+
+
+That remark is more offensive than the initial reported remark, showing this guy Graham is a
+first class jerk and is lucky Hall was the only person with a set to stand-up for Owen. As for the
+rest of the wrestlers in that room who remained silent when that joke was told, I've lost a lot of
+respect for them. Posted by Mister Allred at 6:08 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Friday, October 10, 2008
+
+
+
+Wrestling Recipes Week 6 - Xtreme Butternut Bonanza
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/hardycook.jpg
+
+Photo courtesy of WWE Magazine
+
+
+
+
+
+Finding quick and healthy meals can be troublesome for a lot of people as there is simply not
+enough time in the day for most folks after a long day of work. That was until the "Charismatic
+Enigma" Jeff Hardy submitted his tasty and healthy dish to WWE Magazine for the March 2007
+issue. In addition to being tasty and healthy, this dish takes less than 15 minutes to prepare
+and all one needs is three simple ingredients.
+
+
+
+SOUTHERN FRIED SQUASH
+
+
+
+INGREDIENTS :
+
+*2 large butternut or yellow squash
+
+*1/2 cup of cornmeal
+
+*Cooking oil
+
+
+
+DIRECTIONS :
+
+1) Heat cooking oil in large skillet.
+
+2) Slice squash into several pieces and place in a bowl with cornmeal.
+
+3) Cover bowl and shake until squash is fully coated with cornmeal.
+
+4) Carefully place slices of squash into skillet.
+
+5) Cook for 10 minutes or until browned.
+
+6) Stir occasionally.
+
+7) Add salt and pepper to taste. Posted by Mister Allred at 4:35 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Thursday, October 9, 2008
+
+
+
+Victoria close to hanging up her wrestling boots?
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/victoria06-1.jpg
+
+Photo courtesy of wwe.com
+
+
+
+Earlier today, I discovered some heart-breaking news in that second all-time favorite WWE
+Diva is close to retiring and that Diva in question happens to Victoria , who amazingly is
+37-years old and has been on the main roster for six-years.
+
+
+
+In her recent MySpace blog , Victoria said the following, "I have been doing my best to lay the
+Smackdown every Friday night. I hope everyone followed us to MyNetwork . Again, I am very
+thankful to have had a long and successful WWE career. Although between you and me, I think I
+have one more championship run left before I hang up the wrestling boots. What do you think?"
+
+
+
+Yes, its going to suck when Victoria does decide to hang up her wrestling boots but she has left
+quite an impression and legacy amongst her fans. I vividly remember following her career when
+she was starting out in Ohio Valley Wrestling (OVW), the WWE developmental territory at the
+time, under the name "Queen Victoria" and a member of " Revolution ."
+
+
+
+When she debuted in WWE as the "psycho-stalker" of Trish Stratus , who is my favorite Diva of
+all-time, I honestly thought the girl was crazy which meant she was either really good at
+portraying that character or she really was crazy. In this case, the less known, the better.
+
+
+
+Even though Victoria was suppose to be the heel (bad girl) in the feud with Trish, I couldn't
+help but notice Victoria was quite attractive and had a killer body even though she was a bit
+crazy. In addition, her matches with Trish, such as the Survivor Series 2002 "Hardcore Match"
+where she won the WWE Women's Championship and the Chicago Street Fight against Trish on Raw,
+were two of the best matches in the history of WWE, male or female.
+
+
+
+As a result of her crazy persona, the fans actually turned Victoria face by cheering for her and
+when Trish turned heel at Wrestlemania XX , Victoria found herself as the top-female face in
+the company. Oddly though, the thing that made Victoria popular in the first place was the
+first thing the creative geniuses scrapped from her character when she became a fan favorite.
+
+
+
+Instead of crazy Victoria, fans were treated to a Victoria that smiled, kissed young boys in
+the audience on her way to the ring and danced upon coming out to her entrance music. It's no
+wonder why that version of Victoria fell-flat with fans (but not before shaving Molly Holly
+bald).
+
+
+
+There was a small glimmer of hope when Victoria turned on Christy Hemme during a 2005 Raw event
+after losing a bikini contest and from her promo that night, it appeared the crazy Victoria was
+back. Unfortunately, it only lasted that night as after their match at Vengeance 2005 ,
+Victoria soon found herself as a sidekick to Torrie Wilson and Candice Michelle and hasn't had
+any main storylines since then. Rather, just a bunch of random, filler matches.
+
+
+
+Despite the lack of storylines, Victoria has handled everything like a true professional,
+remaining in tip-top shape, never complaining about her lack of airtime, giving it her all in
+all her matches and recently opened " Black Widow Customs " car shop that has already done cars
+for two current WWE Superstars.
+
+
+
+To conclude this entry, I would like to share with you a video that Victoria put on her official
+MySpace page and was created by youtube user "Stratusfaction911." The song is "This is My Now"
+by Jordin Sparks . Enjoy.
+
+
+
+Posted by Mister Allred at 11:07 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Wednesday, October 8, 2008
+
+
+
+Florida Championship Wrestling Episode #1
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/20080708_header.jpg
+
+Photo courtesy of Florida Championship Wrestling
+
+
+
+
+
+Last month, I posted a blog that discussed "The Wrestler's Creed" of Florida Championship
+Wrestling , the official developmental territory of World Wrestling Entertainment . At the
+time of that post, FCW had yet to air on national television but had started taping shows to air
+on television in July of this year. That was until last week.
+
+
+
+On Oct 2, it was reported by Mike Johnson of PWInsider.com that FCW would debut Oct. 5 on the
+Brighthouse Sports Network at 6 p.m. The channel is available to those who are Brighthouse
+Cable subscribers in the regional area but not to those who are satellite customers.
+
+
+
+Since I live in Calif., I had no way of seeing this premiere nor did I even know it was airing until
+the other day when a youtube user posted several segments of the show, including the first
+match between Shawn Spears and T.J. Wilson .
+
+
+
+After watching that match and the cool intro video, both of which you can see at the conclusion
+of this entry, I was left wanting more and asking myself why the heck isn't Wilson on the main WWE
+roster?
+
+
+
+Another aspect of the show I like is that while it is showcasing future hopefuls of wrestling in
+today's era, the show has that old-school vibe to it with the sound stage that is reminiscent of
+the old World Championship Wrestling studio that had the various country flags around the
+ring and even better is having Dusty Rhodes on commentary.
+
+
+
+Think about it....Sunday night wrestling at 6 p.m. with Dusty Rhodes on commentary. I feel
+like a four-year old fan again and that's a good thing.
+
+
+
+As promised and as a special bonus, here is the ENTIRE first episode of FCW in chronological
+order, courtesy of youtube user "KaceCC." Enjoy!
+
+
+
+
+
+FCW Video Intro
+
+
+
+
+
+
+
+Card Rundown
+
+
+
+
+
+
+
+Ric Flair Speech
+
+
+
+
+
+
+
+Shawn Spears vs. T.J. Wilson
+
+
+
+
+
+
+
+6-Person Tag-Match
+
+
+
+
+
+
+
+Nic Nemeth vs. Greg Jackson
+
+
+
+
+
+
+
+John Cena addresses the crowd
+
+
+
+
+
+
+
+FCW Championship - Jake Hager vs. Heath Miller
+
+Posted by Mister Allred at 9:07 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Tuesday, October 7, 2008
+
+
+
+Thoughts on the Raven/Kanyon/Sanders lawsuit against WWE
+
+Earlier today, I read an article on the Connecticut Employment Law Blog that detailed the
+ongoing lawsuit against World Wrestling Entertainment (WWE) filed by wrestlers Scott
+"Raven" Levy , Chris "Kanyon" Klucsartits and Mike Sanders .
+
+
+
+Basically, these three men, all former employees of WWE and WCW , are claiming that they were
+improperly classified as "independent contractors" and not employees. The basis of WWE's
+counter argument is that pro wrestlers don't have a legal claim and even if they did, those
+claims are barred by statute of limitations.
+
+
+
+I'm sorry but this lawsuit reeks of "bitter ex-employee syndrome." Maybe its just me but let's
+consider whose bringing this lawsuit. It has been well documented that Mr. Levy (pictured
+below) had a near two decade drug addiction, taking up to as many as 200 pills A DAY and was
+released the first time by WWE in the mid 1990's as a result of his drug addiction. As a result of
+this reckless habit, Mr. Levy began suffering from a serious thyroid condition in 2005 that
+resulted in a massive weight gain and most likely has no money as a result of his drug spending
+habit and medical bills.
+
+
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/raven2.jpg
+
+All photos courtesy of obsessedwithwrestling.com
+
+
+
+Mr. Klucsartits (pictured below) claimed that WWE released him from his contract as a result
+of him being gay but he didn't come out of the closet until months after his WWE release in 2003,
+the same year Mr. Levy was released a second time from the company, and I don't think he has done
+anything since, other than hyping and making the big announcement about his sexual
+preference.
+
+
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/kanyon.jpg
+
+
+
+Mr. Sanders (pictured below) didn't even make it to the main roster in WWE during his time in the
+company as he was a part of a group of WCW wrestlers that included Evan Karagias , Elix Skipper ,
+Jimmy Yang , Kaz Hayashi , Reno and Kwee Wee that were released in December 2001 without
+appearing on WWE television after WWE bought WCW (trainers Brian Adams and Haku were also
+released).
+
+
+
+
+
+Image: http://i6.photobucket.com/albums/y250/CSUMB84/sanders.jpg
+
+
+
+Mr. Sanders and the group of wrestlers he was released with spent their entire duration in the
+company in Heartland Wrestling Assocation (HWA) which was one of two developmental
+territories for the WWE at the time, the other of which was Ohio Valley Wrestling (OVW).
+
+
+
+The last anyone heard of Mr. Sanders in professional wrestling was when he was a part of Vince
+Russo's Sports Entertainment Extreme (S.E.X.) stable in Total Nonstop Action (TNA)
+wrestling from late 2002-03 and is now a stand-up comedian.
+
+
+
+I just find it odd that these three men were so upset and distraught with their releases some
+five-seven years ago that they are just now bringing this lawsuit to light, especially since
+Mr. Levy wrestled in TNA from 2003-2006 and was the heavyweight champion at one point.
+
+
+
+One would think that if this lawsuit had any merit or if what they claim was that big of a problem
+for all wrestlers, there would be more names lined-up to do something about it besides these
+ex-mid carders and curtain jerker.
+
+
+
+I honestly don't see these gentlemen being successful with this lawsuit, especially given
+Mr. Levy's drug history and just seems like a desperate ploy by three men who have no money.
+
+
+
+Another thing to consider is that should these men be successful with this lawsuit, this could
+set a precedent and slippery slope that any former wrestler who wasted their money on drugs,
+sex and alcohol could now ask for compensation for wasting their money on frivolous things.
+
+
+
+I'm surprised these gentlemen haven't tabbed Charles "Konnan" Ashenoff to be a co-plaintiff
+in this lawsuit since he likes suing anyone who doesn't agree with him and his views. Posted by
+Mister Allred at 5:12 PM No comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Newer Posts Older Posts
+Home Subscribe to: Posts (Atom)
+
+Suscribe to No Limit Wrestling
+
+
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png All Comments
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png All Comments
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+About Me
+
+
+
+    Image:
+    http://1.bp.blogspot.com/_leW61ZxHNV8/SLbu0n9KgSI/AAAAAAAAAAM/22ZfCif4sTQ/S220/n83901852_30080001_7476.jpg
+
+        Mister Allred
+
+    
+
+        A 2007 graduate of Cal State Monterey Bay who works as an 8th grade algebra teacher,
+        who has been a life-long fan of professional wrestling.
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Fans
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/8379151302029748534/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/8379151302029748534/comments/default";
+holder.currentBlogUrl = "http://nolimitwrestling.blogspot.com/";
+holder.currentBlogId = "8379151302029748534"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Fans";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#000000"; skin['ENDCAP_LINK_COLOR'] = "#000000";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#000000"; skin['CONTENT_TEXT_COLOR'] =
+"#000000"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#FFFFFF";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000"; skin['CONTENT_HEADLINE_COLOR'] =
+"#000000"; skin['FONT_FACE'] = "normal normal 100% \x27Trebuchet
+MS\x27,Verdana,Arial,Sans-serif";
+google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-gg4ij5eac1np",
+height: 260, site: "03353828965362364372", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2009 (6)
+
+        - ►  January (6)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2008 (126)
+
+        - ►  December (31)
+
+        
+
+        
+
+        - ►  November (30)
+
+        
+
+        
+
+            - ▼  October (31)
+
+            - Kimbo Slice to fight in the UFC?
+
+            
+
+            - Wrestling Recipes Week 9 - Devilish Cupcakes
+
+            
+
+            - Bar incident involving Booker T & Boogeyman
+
+            
+
+            - Update on M.O.P. lawsuit against John Cena & WWE
+
+            
+
+            - Wrestling legend S.D. Jones passes away at age 63
+
+            
+
+            - Florida Championship Wrestling Episode #3
+
+            
+
+            - John Cena & WWE sued over Cena's theme song
+
+            
+
+            - Wrestling Recipes Week 8 - Priceless Chicken Finge...
+
+            
+
+            - Vince wants wrestlers called "entertainers?"
+
+            
+
+            - TNA Knockout Traci Brooks suffered from Erb's Pals...
+
+            
+
+            - What went wrong for EliteXC and where do its fight...
+
+            
+
+            - Thoughts on Hulk Hogan's Celebrity Championship Wr...
+
+            
+
+            - Florida Championship Wrestling Episode #2
+
+            
+
+            - Who is this "Kizarny" coming to Smackdown?
+
+            
+
+            - Wrestling Recipe's Week 7 -Stratusfying Banoffee P...
+
+            
+
+            - Bobby Lashley set to make MMA debut
+
+            
+
+            - EliteXC lowballing female fighter Gina Carano
+
+            
+
+            - WWE surprisingly releases Lance Cade
+
+            
+
+            - Chris Masters shoots on Ultimate Warrior
+
+            
+
+            - "I'm Dolph Ziggler and I've been suspended"
+
+            
+
+            - Scott Hall involved in incident at roasting event
+
+            
+
+            - Wrestling Recipes Week 6 - Xtreme Butternut Bonanz...
+
+            
+
+            - Victoria close to hanging up her wrestling boots?
+
+            
+
+            - Florida Championship Wrestling Episode #1
+
+            
+
+            - Thoughts on the Raven/Kanyon/Sanders lawsuit again...
+
+            
+
+            - What a surprise...Triple H keeps the belt at a PPV...
+
+            
+
+            - Petruzelli destroys EliteXC hype machine and defea...
+
+            
+
+            - Wrestling Recipes Week 5 - Army Brat Tapas
+
+            
+
+            - WWE History of I.C. Title Match Listings Released
+
+            
+
+            - Undertaker possibly developing arthritis?
+
+            
+
+            - Smackdown All-Star Kickoff Preview
+
+            
+
+        
+
+        
+
+        
+
+        - ►  September (30)
+
+        
+
+        
+
+        - ►  August (4)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png There was an error in
+this gadget
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png There was an error in
+this gadget
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Wrestling Encyclopedia Britannica
+
+if (!window.gadgets || !gadgets.rpc) { document.write('<script
+type="text/javascript"' +
+'src="//www-blogger-opensocial.googleusercontent.com/gadgets/js/rpc.js?container\x3dblogger\x26nocache\x3d0\x26debug\x3d0\x26c\x3d1\x26v\x3d364cd2481b83b55e77830a85eb8fa7d6\x26sv\x3d9">'
++ '</scr'+'ipt>'); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/8379151302029748534/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/8379151302029748534/comments/default";
+holder.currentBlogUrl = "http://nolimitwrestling.blogspot.com/";
+holder.currentBlogId = "8379151302029748534"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); }
+gadgets.rpc.setRelayUrl("sidebar-gadget2",
+'http://www.britannica.com/gadgets/files/container/rpc_relay.html');
+gadgets.rpc.setAuthToken("sidebar-gadget2", "-3450824200424428272");
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+World Wrestling Entertainment
+
+    
+
+    - WWE
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Total Non-stop Action Wrestling
+
+    
+
+    - TNA
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Florida Championship Wrestling
+
+    
+
+    - FCW
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Kayfabe Memories
+
+    
+
+    - KM
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Wrestling's "Big 3" History
+
+    
+
+    - Big 3
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Obsessed With Wrestling
+
+    
+
+    - OWW
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Ultimate Fighting Championship
+
+    
+
+    - UFC
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+World Extreme Cagefighting
+
+    
+
+    - WEC
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Elite Xtreme Combat
+
+    
+
+    - EliteXC
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Dream MMA
+
+    
+
+    - DREAM
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+K-1 Grand Prix
+
+    
+
+    - K-1
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+MMA on Yahoo! Sports
+
+    
+
+    - MMA
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'8379151302029748534';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('http://www.blogger.com/rearrange?blogID\x3d8379151302029748534','//nolimitwrestling.blogspot.com/2008_10_01_archive.html','8379151302029748534');
+_WidgetManager._SetPageActionUrl('http://www.blogger.com/display?blogID\x3d8379151302029748534','APq4FmAcKNrFh8lmBHGCQFvLbTcU9uf-rrT77yugot3wVGGdwPVEFHEFO8p1vvKOaih1pu2ZJazlZGJWOfzkFCG4z8OgP1hZIejEedrc8ogSW8sJALWN5-g\x3d','AOuZoY4oVB3Qb0IXpKUFYZDoNAZznQaM_A:1345666931072');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'8379151302029748534', 'bloggerUrl': 'http://www.blogger.com', 'title': 'No Limit
+Wrestling', 'pageType': 'archive', 'url':
+'http://nolimitwrestling.blogspot.com/2008_10_01_archive.html', 'canonicalUrl':
+'http://nolimitwrestling.blogspot.com/2008_10_01_archive.html',
+'canonicalHomepageUrl': 'http://nolimitwrestling.blogspot.com/', 'homepageUrl':
+'http://nolimitwrestling.blogspot.com/', 'blogspotFaviconUrl':
+'http://nolimitwrestling.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'October 2008', 'pageTitle': 'No Limit Wrestling: October 2008', 'encoding': 'UTF-8',
+'locale': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false,
+'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks':
+'\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42No
+Limit Wrestling - Atom\42
+href\75\42http://nolimitwrestling.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42No
+Limit Wrestling - RSS\42
+href\75\42http://nolimitwrestling.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42No Limit Wrestling - Atom\42
+href\75\42http://www.blogger.com/feeds/8379151302029748534/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\758379151302029748534\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,c\75\42jstiming\42,d\75\42tick\42;var
+e\75function(b){this.t\75{};this.tick\75function(b,o,f){f\75void 0!\75f?f:(new
+Date).getTime();this.t[b]\75[f,o]};this[d](\42start\42,null,b)},h\75new
+e;a.jstiming\75{Timer:e,load:h};if(a.performance\46\46a.performance.timing){var
+i\75a.performance.timing,j\75a[c].load,k\75i.navigationStart,l\75i.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT);m\46\46(a[c].pt\75m)}catch(n){};a.tickAboveFold\75function(b){var
+g\0750;if(b.offsetParent){do
+g+\75b.offsetTop;while(b\75b.offsetParent)}b\75g;750\76\75b\46\46a[c].load[d](\42aft\42)};var
+p\75!1;function
+q(){p||(p\75!0,a[c].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,q,!1):a.attachEvent(\42onscroll\42,q);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'mainVisitedLinkColor': '#cc6633',
+'postTitleFont': 'normal bold 135% \47Trebuchet MS\47,Verdana,Arial,Sans-serif',
+'borderColor': '#bbbbbb', 'mainTextColor': '#000000', 'pageTitleFont': 'italic bold
+290% \47Trebuchet MS\47,Verdana,Arial,Sans-serif', 'titleTextColor': '#ffffff',
+'topSidebarVisitedLinkColor': '#dddddd', 'postTitleColor': '#000000',
+'mainBgColor': '#2BA94F', 'titleBgColor': '#771100', 'mainLinkColor': '#cc0000',
+'topSidebarTextColor': '#ffffff', 'headerFont': 'normal bold 100% \47Trebuchet
+MS\47,Verdana,Arial,Sans-serif', 'topSidebarBgColor': '#3D81EE', 'bodyFont':
+'normal normal 100% \47Trebuchet MS\47,Verdana,Arial,Sans-serif', 'descriptionFont':
+'normal normal 100% \47Trebuchet MS\47,Verdana,Arial,Sans-serif', 'dateHeaderColor':
+'#881100', 'endSide': 'right', 'topSidebarLinkColor': '#ffffff', 'startSide': 'left',
+'topSidebarHeaderColor': '#000000'}, 'override': ''}}, {'name': 'view', 'data':
+{'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name':
+'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_SubscribeView', new
+_WidgetInfo('Subscribe1', 'sidebartop', null,
+document.getElementById('Subscribe1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1',
+'sidebartop', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1',
+'sidebartop', null, document.getElementById('Followers1'), {'title': 'Fans',
+'codeSnippet': '\74script type\75\42text/javascript\42\76\n if (!window.google ||
+!google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75
+\42http://www.blogger.com/feeds/8379151302029748534/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/8379151302029748534/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://nolimitwrestling.blogspot.com/\42;\n
+holder.currentBlogId \75 \428379151302029748534\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-etupcq1dghao\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75 \42Fans\42;\n
+skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_BG_COLOR\47] \75
+\42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47] \75 \42#000000\42;\n
+skin[\47ENDCAP_LINK_COLOR\47] \75 \42#000000\42;\n skin[\47ALTERNATE_BG_COLOR\47]
+\75 \42transparent\42;\n \n skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#000000\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#000000\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#FFFFFF\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#000000\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#000000\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 100% \\x27Trebuchet MS\\x27,Verdana,Arial,Sans-serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-etupcq1dghao\42,\n height: 260,\n \n \n \n site: \04203353828965362364372\42,\n
+\n locale: \47en\47 },\n skin);\n \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebartop', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_GadgetView', new
+_WidgetInfo('Gadget1', 'sidebartop', null, document.getElementById('Gadget1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_GadgetView', new
+_WidgetInfo('Gadget3', 'sidebartop', null, document.getElementById('Gadget3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_GadgetView', new
+_WidgetInfo('Gadget2', 'sidebartop', null, document.getElementById('Gadget2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList1', 'sidebar', null, document.getElementById('LinkList1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList2', 'sidebar', null, document.getElementById('LinkList2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList7', 'sidebar', null, document.getElementById('LinkList7'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList4', 'sidebar', null, document.getElementById('LinkList4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList5', 'sidebar', null, document.getElementById('LinkList5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList6', 'sidebar', null, document.getElementById('LinkList6'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList3', 'sidebar', null, document.getElementById('LinkList3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList9', 'sidebar', null, document.getElementById('LinkList9'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList8', 'sidebar', null, document.getElementById('LinkList8'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList11', 'sidebar', null, document.getElementById('LinkList11'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList12', 'sidebar', null, document.getElementById('LinkList12'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList10', 'sidebar', null, document.getElementById('LinkList10'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/2183106335-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

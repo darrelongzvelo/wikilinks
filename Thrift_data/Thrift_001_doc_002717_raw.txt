@@ -1,0 +1,5893 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Advance Indiana: July 2008 <!-- /*
+----------------------------------------------- Blogger Template Style Name: Simple
+Designer: Josh Peterson URL: www.noaesthetic.com
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="keycolor" description="Main Color" type="color"
+default="#66bbdd"/> <Group description="Page Text" selector="body"> <Variable
+name="body.font" description="Font" type="font" default="normal normal 12px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="body.text.color"
+description="Text Color" type="color" default="#222222"/> </Group> <Group
+description="Backgrounds" selector=".body-fauxcolumns-outer"> <Variable
+name="body.background.color" description="Outer Background" type="color"
+default="#66bbdd"/> <Variable name="content.background.color" description="Main
+Background" type="color" default="#ffffff"/> <Variable
+name="header.background.color" description="Header Background" type="color"
+default="transparent"/> </Group> <Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color"
+default="#2288bb"/> <Variable name="link.visited.color" description="Visited Color"
+type="color" default="#888888"/> <Variable name="link.hover.color"
+description="Hover Color" type="color" default="#33aaff"/> </Group> <Group
+description="Blog Title" selector=".header h1"> <Variable name="header.font"
+description="Font" type="font" default="normal normal 60px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif"/> <Variable name="header.text.color" description="Title Color"
+type="color" default="#3399bb" /> </Group> <Group description="Blog Description"
+selector=".header .description"> <Variable name="description.text.color"
+description="Description Color" type="color" default="#777777" /> </Group> <Group
+description="Tabs Text" selector=".tabs-inner .widget li a"> <Variable
+name="tabs.font" description="Font" type="font" default="normal normal 14px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="tabs.text.color"
+description="Text Color" type="color" default="#999999"/> <Variable
+name="tabs.selected.text.color" description="Selected Color" type="color"
+default="#000000"/> </Group> <Group description="Tabs Background"
+selector=".tabs-outer .PageList"> <Variable name="tabs.background.color"
+description="Background Color" type="color" default="#f5f5f5"/> <Variable
+name="tabs.selected.background.color" description="Selected Color" type="color"
+default="#eeeeee"/> </Group> <Group description="Post Title"
+selector="h3.post-title, .comments h4"> <Variable name="post.title.font"
+description="Font" type="font" default="normal normal 22px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif"/> </Group> <Group description="Date Header"
+selector=".date-header"> <Variable name="date.header.color" description="Text
+Color" type="color" default="#222222"/> <Variable
+name="date.header.background.color" description="Background Color" type="color"
+default="transparent"/> </Group> <Group description="Post Footer"
+selector=".post-footer"> <Variable name="post.footer.text.color" description="Text
+Color" type="color" default="#666666"/> <Variable
+name="post.footer.background.color" description="Background Color" type="color"
+default="#f9f9f9"/> <Variable name="post.footer.border.color" description="Shadow
+Color" type="color" default="#eeeeee"/> </Group> <Group description="Gadgets"
+selector="h2"> <Variable name="widget.title.font" description="Title Font"
+type="font" default="normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color"
+default="#000000"/> <Variable name="widget.alternate.text.color"
+description="Alternate Color" type="color" default="#999999"/> </Group> <Group
+description="Images" selector=".main-inner"> <Variable
+name="image.background.color" description="Background Color" type="color"
+default="#ffffff"/> <Variable name="image.border.color" description="Border Color"
+type="color" default="#eeeeee"/> <Variable name="image.text.color"
+description="Caption Text Color" type="color" default="#222222"/> </Group> <Group
+description="Accents" selector=".content-inner"> <Variable name="body.rule.color"
+description="Separator Line Color" type="color" default="#eeeeee"/> <Variable
+name="tabs.border.color" description="Tabs Border Color" type="color"
+default="#eeeeee"/> </Group> <Variable name="body.background" description="Body
+Background" type="background" color="#66bbdd" default="$(color) none repeat scroll top
+left"/> <Variable name="body.background.override" description="Body Background
+Override" type="string" default=""/> <Variable name="body.background.gradient.cap"
+description="Body Gradient Cap" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/> <Variable
+name="body.background.gradient.tile" description="Body Gradient Tile" type="url"
+default="url(//www.blogblog.com/1kt/simple/body_gradient_tile_light.png)"/>
+<Variable name="content.background.color.selector" description="Content Background
+Color Selector" type="string" default=".content-inner"/> <Variable
+name="content.padding" description="Content Padding" type="length" default="10px"/>
+<Variable name="content.padding.horizontal" description="Content Horizontal
+Padding" type="length" default="10px"/> <Variable name="content.shadow.spread"
+description="Content Shadow Spread" type="length" default="40px"/> <Variable
+name="content.shadow.spread.webkit" description="Content Shadow Spread (WebKit)"
+type="length" default="5px"/> <Variable name="content.shadow.spread.ie"
+description="Content Shadow Spread (IE)" type="length" default="10px"/> <Variable
+name="main.border.width" description="Main Border Width" type="length" default="0"/>
+<Variable name="header.background.gradient" description="Header Gradient"
+type="url" default="none"/> <Variable name="header.shadow.offset.left"
+description="Header Shadow Offset Left" type="length" default="-1px"/> <Variable
+name="header.shadow.offset.top" description="Header Shadow Offset Top" type="length"
+default="-1px"/> <Variable name="header.shadow.spread" description="Header Shadow
+Spread" type="length" default="1px"/> <Variable name="header.padding"
+description="Header Padding" type="length" default="30px"/> <Variable
+name="header.border.size" description="Header Border Size" type="length"
+default="1px"/> <Variable name="header.bottom.border.size" description="Header
+Bottom Border Size" type="length" default="1px"/> <Variable
+name="header.border.horizontalsize" description="Header Horizontal Border Size"
+type="length" default="0"/> <Variable name="description.text.size"
+description="Description Text Size" type="string" default="140%"/> <Variable
+name="tabs.margin.top" description="Tabs Margin Top" type="length" default="0" />
+<Variable name="tabs.margin.side" description="Tabs Side Margin" type="length"
+default="30px" /> <Variable name="tabs.background.gradient" description="Tabs
+Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/> <Variable
+name="tabs.border.width" description="Tabs Border Width" type="length"
+default="1px"/> <Variable name="tabs.bevel.border.width" description="Tabs Bevel
+Border Width" type="length" default="1px"/> <Variable name="date.header.padding"
+description="Date Header Padding" type="string" default="inherit"/> <Variable
+name="date.header.letterspacing" description="Date Header Letter Spacing"
+type="string" default="inherit"/> <Variable name="date.header.margin"
+description="Date Header Margin" type="string" default="inherit"/> <Variable
+name="post.margin.bottom" description="Post Bottom Margin" type="length"
+default="25px"/> <Variable name="image.border.small.size" description="Image Border
+Small Size" type="length" default="2px"/> <Variable name="image.border.large.size"
+description="Image Border Large Size" type="length" default="5px"/> <Variable
+name="page.width.selector" description="Page Width Selector" type="string"
+default=".region-inner"/> <Variable name="page.width" description="Page Width"
+type="string" default="auto"/> <Variable name="main.section.margin"
+description="Main Section Margin" type="length" default="15px"/> <Variable
+name="main.padding" description="Main Padding" type="length" default="15px"/>
+<Variable name="main.padding.top" description="Main Padding Top" type="length"
+default="30px"/> <Variable name="main.padding.bottom" description="Main Padding
+Bottom" type="length" default="30px"/> <Variable name="paging.background"
+color="#ffffff" description="Background of blog paging area" type="background"
+default="transparent none no-repeat scroll top center"/> <Variable name="footer.bevel"
+description="Bevel border length of footer" type="length" default="0"/> <Variable
+name="mobile.background.overlay" description="Mobile Background Overlay"
+type="string" default="transparent none repeat scroll top left"/> <Variable
+name="mobile.background.size" description="Mobile Background Size" type="string"
+default="auto"/> <Variable name="mobile.button.color" description="Mobile Button
+Color" type="color" default="#ffffff" /> <Variable name="startSide" description="Side
+where text starts in blog language" type="automatic" default="left"/> <Variable
+name="endSide" description="Side where text ends in blog language" type="automatic"
+default="right"/> */ /* Content ----------------------------------------------- */
+body { font: normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif; color:
+#222222; background: #66bbdd none repeat scroll top left; padding: 0 40px 40px 40px; } html
+body .region-inner { min-width: 0; max-width: 100%; width: auto; } a:link {
+text-decoration:none; color: #2288bb; } a:visited { text-decoration:none; color:
+#888888; } a:hover { text-decoration:underline; color: #33aaff; }
+.body-fauxcolumn-outer .fauxcolumn-inner { background: transparent
+url(//www.blogblog.com/1kt/simple/body_gradient_tile_light.png) repeat scroll top
+left; _background-image: none; } .body-fauxcolumn-outer .cap-top { position: absolute;
+z-index: 1; height: 400px; width: 100%; background: #66bbdd none repeat scroll top left; }
+.body-fauxcolumn-outer .cap-top .cap-left { width: 100%; background: transparent
+url(//www.blogblog.com/1kt/simple/gradients_light.png) repeat-x scroll top left;
+_background-image: none; } .content-outer { -moz-box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 0 10px #333333;
+box-shadow: 0 0 40px rgba(0, 0, 0, .15); margin-bottom: 1px; } .content-inner { padding: 10px
+10px; } .content-inner { background-color: #ffffff; } /* Header
+----------------------------------------------- */ .header-outer { background:
+transparent none repeat-x scroll 0 -400px; _background-image: none; } .Header h1 { font:
+normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif; color: #3399bb;
+text-shadow: -1px -1px 1px rgba(0, 0, 0, .2); } .Header h1 a { color: #3399bb; } .Header
+.description { font-size: 140%; color: #777777; } .header-inner .Header .titlewrapper {
+padding: 22px 30px; } .header-inner .Header .descriptionwrapper { padding: 0 30px; } /* Tabs
+----------------------------------------------- */ .tabs-inner
+.section:first-child { border-top: 1px solid #eeeeee; } .tabs-inner
+.section:first-child ul { margin-top: -1px; border-top: 1px solid #eeeeee; border-left: 0
+solid #eeeeee; border-right: 0 solid #eeeeee; } .tabs-inner .widget ul { background:
+#f5f5f5 url(//www.blogblog.com/1kt/simple/gradients_light.png) repeat-x scroll 0
+-800px; _background-image: none; border-bottom: 1px solid #eeeeee; margin-top: 0;
+margin-left: -30px; margin-right: -30px; } .tabs-inner .widget li a { display:
+inline-block; padding: .6em 1em; font: normal normal 14px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif; color: #999999; border-left: 1px solid #ffffff; border-right: 1px
+solid #eeeeee; } .tabs-inner .widget li:first-child a { border-left: none; } .tabs-inner
+.widget li.selected a, .tabs-inner .widget li a:hover { color: #000000; background-color:
+#eeeeee; text-decoration: none; } /* Columns
+----------------------------------------------- */ .main-outer { border-top: 0 solid
+#eeeeee; } .fauxcolumn-left-outer .fauxcolumn-inner { border-right: 1px solid #eeeeee; }
+.fauxcolumn-right-outer .fauxcolumn-inner { border-left: 1px solid #eeeeee; } /*
+Headings ----------------------------------------------- */ h2 { margin: 0 0 1em 0; font:
+normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif; color: #000000;
+text-transform: uppercase; } /* Widgets
+----------------------------------------------- */ .widget .zippy { color: #999999;
+text-shadow: 2px 2px 1px rgba(0, 0, 0, .1); } .widget .popular-posts ul { list-style: none; }
+/* Posts ----------------------------------------------- */ .date-header span {
+background-color: transparent; color: #222222; padding: inherit; letter-spacing:
+inherit; margin: inherit; } .main-inner { padding-top: 30px; padding-bottom: 30px; }
+.main-inner .column-center-inner { padding: 0 15px; } .main-inner .column-center-inner
+.section { margin: 0 15px; } .post { margin: 0 0 25px 0; } h3.post-title, .comments h4 { font:
+normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif; margin: .75em 0 0; }
+.post-body { font-size: 110%; line-height: 1.4; position: relative; } .post-body img,
+.post-body .tr-caption-container, .Profile img, .Image img, .BlogList .item-thumbnail
+img { padding: 2px; background: #ffffff; border: 1px solid #eeeeee; -moz-box-shadow: 1px
+1px 5px rgba(0, 0, 0, .1); -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1); box-shadow: 1px
+1px 5px rgba(0, 0, 0, .1); } .post-body img, .post-body .tr-caption-container { padding:
+5px; } .post-body .tr-caption-container { color: #222222; } .post-body
+.tr-caption-container img { padding: 0; background: transparent; border: none;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1); -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1); } .post-header { margin: 0 0 1.5em; line-height: 1.6;
+font-size: 90%; } .post-footer { margin: 20px -2px 0; padding: 5px 10px; color: #666666;
+background-color: #f9f9f9; border-bottom: 1px solid #eeeeee; line-height: 1.6;
+font-size: 90%; } #comments .comment-author { padding-top: 1.5em; border-top: 1px solid
+#eeeeee; background-position: 0 1.5em; } #comments .comment-author:first-child {
+padding-top: 0; border-top: none; } .avatar-image-container { margin: .2em 0 0; } #comments
+.avatar-image-container img { border: 1px solid #eeeeee; } /* Comments
+----------------------------------------------- */ .comments .comments-content
+.icon.blog-author { background-repeat: no-repeat; background-image:
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+} .comments .comments-content .loadmore a { border-top: 1px solid #999999; border-bottom:
+1px solid #999999; } .comments .comment-thread.inline-thread { background-color:
+#f9f9f9; } .comments .continue { border-top: 2px solid #999999; } /* Accents
+---------------------------------------------- */ .section-columns td.columns-cell
+{ border-left: 1px solid #eeeeee; } .blog-pager { background: transparent none no-repeat
+scroll top center; } .blog-pager-older-link, .home-link, .blog-pager-newer-link {
+background-color: #ffffff; padding: 5px; } .footer-outer { border-top: 0 dashed #bbbbbb; }
+/* Mobile ----------------------------------------------- */ body.mobile {
+background-size: auto; } .mobile .body-fauxcolumn-outer { background: transparent none
+repeat scroll top left; } .mobile .body-fauxcolumn-outer .cap-top { background-size: 100%
+auto; } .mobile .content-outer { -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15); box-shadow:
+0 0 3px rgba(0, 0, 0, .15); padding: 0 40px; } body.mobile .AdSense { margin: 0 -40px; } .mobile
+.tabs-inner .widget ul { margin-left: 0; margin-right: 0; } .mobile .post { margin: 0; }
+.mobile .main-inner .column-center-inner .section { margin: 0; } .mobile .date-header
+span { padding: 0.1em 10px; margin: 0 -10px; } .mobile h3.post-title { margin: 0; } .mobile
+.blog-pager { background: transparent none no-repeat scroll top center; } .mobile
+.footer-outer { border-top: none; } .mobile .main-inner, .mobile .footer-inner {
+background-color: #ffffff; } .mobile-index-contents { color: #222222; }
+.mobile-link-button { background-color: #2288bb; } .mobile-link-button a:link,
+.mobile-link-button a:visited { color: #ffffff; } .mobile .tabs-inner
+.section:first-child { border-top: none; } .mobile .tabs-inner .PageList
+.widget-content { background-color: #eeeeee; color: #000000; border-top: 1px solid
+#eeeeee; border-bottom: 1px solid #eeeeee; } .mobile .tabs-inner .PageList
+.widget-content .pagelist-arrow { border-left: 1px solid #eeeeee; } --> <!-- body {
+min-width: 1000px; } .content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1000px; max-width: 1000px; _width: 1000px; } .main-inner .columns {
+padding-left: 0; padding-right: 310px; } .main-inner .fauxcolumn-center-outer { left: 0;
+right: 310px; /* IE6 does not respect left and right together */ _width:
+expression(this.parentNode.offsetWidth - parseInt("0") - parseInt("310px") + 'px'); }
+.main-inner .fauxcolumn-left-outer { width: 0; } .main-inner .fauxcolumn-right-outer {
+width: 310px; } .main-inner .column-left-outer { width: 0; right: 100%; margin-left: -0; }
+.main-inner .column-right-outer { width: 310px; margin-right: -310px; } #layout {
+min-width: 0; } #layout .content-outer { min-width: 0; width: 800px; } #layout
+.region-inner { min-width: 0; width: auto; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\07512703782\46blogName\75Advance+Indiana\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://advanceindiana.blogspot.com/search\46blogLocale\75en_US\46v\0752\46homepageUrl\75http://advanceindiana.blogspot.com/\46vt\75-1545891775039368257',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+
+
+Advance Indiana
+
+
+
+Dedicated to the advancement of the State of Indiana by re-affirming our state's
+constitutional principles that: all people are created equal; no religious test shall be
+imposed on our public officials and offices of trust; and no special privileges or immunities
+shall be granted to any class of citizens which are not granted on the same terms to all
+citizens. Advance Indiana, LLC. Copyright 2005-12. All rights reserved.
+
+<!-- google_ad_client="pub-0505465891059243";
+google_ad_host="pub-1556223355139109"; google_ad_width=468; google_ad_height=60;
+google_ad_format="468x60_as"; google_ad_type="text_image";
+google_ad_host_channel="0001+S0012+L0001"; google_color_border="FFFFFF";
+google_color_bg="FFFFFF"; google_color_link="000000"; google_color_url="2288BB";
+google_color_text="222222"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Thursday, July 31, 2008
+
+
+
+Dan Carpenter Has No Sense Of History
+
+Star columnist Dan Carpenter uses his column space today to fawn all over Sen. Barack Obama's
+rock star appearance before a large German crowd, which had actually assembled to hear one of
+Germany's most popular rock bands, when Obama stopped by and took the stage. Carpenter's
+complete lack of history shines through as he compares Obama's speech to speeches given by two
+former presidents (and I emphasize the word "president"), John F. Kennedy and Ronald Reagan.
+Carpenter says:
+
+
+
+What's most interesting, in comparing Obama's moment with Kennedy's, Ronald Reagan's and
+Bill Clinton's before him, is the perspective.
+
+
+
+Their clarion calls for freedom came from a standpoint of national superiority, even
+bellicosity in the Kennedy and Reagan cases. No less obviously than Obama , they were singing
+to the choir back home. The difference, I would suggest, is that Obama wasn't settling for only
+that audience; nor was he letting any audience settle for smug self-righteousness. His
+keeper quote, if you will, is the sort of moral challenge I had given up hearing from anyone who
+might reach the Oval Office: "The walls between the countries with the most and those with the
+least cannot stand. The walls between races and tribes, natives and immigrants, Christian
+and Muslim and Jew cannot stand. These now are the walls we must tear down."
+
+
+
+So Carpenter thinks Kennedy's and Reagan's speeches were all about war-mongering and
+national superiority. Does he have no sense of what the old Soviet Union empire represented to
+the world and, more importantly, the European continent? Fortunately, there are still
+learned Americans who haven't forgotten already. Victor David Hanson puts it into
+perspective as he reacts to Obama's equating the United States to the tyrannical Soviet Union
+(on foreign soil I might add). “The two superpowers that faced each other across the wall of
+this city came too close too often to destroying all we have built and all that we love,” Obama
+said. Hanson retorts:
+
+
+
+I would beg to differ again, and suggest instead that a mass-murdering Soviet tyranny came
+close to destroying the European continent (as it had, in fact, wiped out millions of its own
+people) and much beyond as well — and was checked only by an often lone and caricatured US
+superpower and its nuclear deterrence. When the Soviet Union collapsed, there was no danger
+to the world from American nuclear weapons “destroying all we have built” — while the
+inverse would not have been true, had nuclear and totalitarian communism prevailed. We sleep
+too lightly tonight not because democratic Israel has obtained nuclear weapons, but because
+a frightening Iran just might.
+
+
+
+Kennedy and Reagan weren't speaking on behalf of the American people alone as Carpenter and
+Obama would have us believe. They spoke on behalf of freedom-loving people in Europe and
+elsewhere around the world who feared Soviet dominance would crush freedom in their country
+just like it had throughout Eastern Europe. Does Carpenter forget how many millions of Jews
+were killed at the hands of the Soviet dictators? I'm not surprised that Obama has no sense of
+American history, but I would expect better of Carpenter. And this is not an issue of liberal
+versus conservative. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+6:49 AM 15 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Wednesday, July 30, 2008
+
+
+
+Ed Treacy: Return Of The Living Dead?
+
+Marion County GOP Chairman Tom John reacts to the election of Ed Treacy by the Marion County
+Democrats as their new county chairman in a press release this evening:
+
+
+
+"We have further evidence of the tired disarray in the Marion County Democrat Party. Tonight,
+in their own version of Night of the Living Dead, the Democrats chose to exhume former chairman
+Ed Treacy from the political graveyard. Rather than come up with fresh people or ideas,
+Treacy's return serves as further proof that Democrats have nothing new to offer Marion
+County."
+
+Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+9:03 PM 15 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+
+
+
+
+With Friends Like Ludacris, Can Obama Win?
+
+
+
+Image:
+http://3.bp.blogspot.com/_hi9W7dbsNYY/SJEY2B0PSzI/AAAAAAAAAw0/QvzMnlOd3r4/s400/ludacris_obama.jpg
+Grammy award-winning rapper Ludacris has a reputation for writing rap songs with
+sexually-explicit lyrics which promote violence and disrespect for women. He's apparently
+thought he could boost Sen. Barack Obama's presidential candidacy by writing a rap song about
+how Sen. Hillary Clinton is an "irrelevant bitch" and how "McCain don't belong in ANY chair
+unless he's paralyzed." "It's time to get out and vote! paint the White House black and I'm sure
+that's got 'em terrified." Wow! Yeah, that's going to help Obama out a lot. You can listen to the
+video by clicking here . Here are the lyrics to Ludacris' latest piece of work (Note how much
+they bring home the point I made in my previous post):
+
+
+
+
+
+I'm back on it like I just signed my record dealyeah the best is here, the Bentley Coup paint is
+dripping wet, it got sex appeal never should have hated you never should've doubted him with a
+slot in the president's iPod Obama shattered 'em Said I handled his biz and I'm one of his
+favorite rappers Well give Luda a special pardon if I'm ever in the slammer Better yet put him in
+office, make me your vice president Hillary hated on you, so that b^$&%* is irrelevant Jesse
+talking slick and apologizing for what? if you said it then you meant it how you want it have a
+gut! and all you other politicians trying to hate on my man, watch us win a majority vote in every
+state on my man you can't stop what's bout to happen, we bout to make history the first black
+president is destined and it's meant to be the threats ain't fazing us, the nooses or the jokes
+so get off your ass, black people, it's time to get out and vote! paint the White House black and
+I'm sure that's got 'em terrified McCain don't belong in ANY chair unless he's paralyzed Yeah I
+said it cause Bush is mentally handicapped Ball up all of his speeches and I throw em like candy
+wrap cause what you talking I hear nothing even relevant and you the worst of all 43 presidents
+get out and vote or the end will be near the world is ready for change because Obama is here! cause
+Obama is here
+
+Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+6:56 PM 10 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+McCain Campaign Picks Up On Obama's Celebrity Status
+
+The campaign of GOP presidential candidate Sen. John McCain may have picked up on a theme which
+will resonate with middle America. Sen. Obama's campaign is all about being a celebrity. When
+you peel away the facade, there's no substance underneath. McCain campaign manager Rick
+Davis calls Obama the "biggest celebrity in the world, comparable to Tom Cruise, Britney
+Spears and Paris Hilton." One particular statement following Obama's foreign trip is biting
+him hard and re-enforcing the perception of him as a narcissistic, egotist. Obama told a group
+in Washington after his trip that he is the "symbol" for the world's aspirations for America
+and that we are now at "the moment … that the world is waiting for." Yes, it's the arrival of the
+new messiah . Davis says:
+
+
+
+Only a celebrity of Barack Obama's magnitude could attract 200,000 fans in Berlin who
+gathered for the mere opportunity to be in his presence. These are not supporters or even
+voters, but fans fawning over The One. Only celebrities like Barack Obama go to the gym three
+times a day, demand "MET-RX chocolate roasted-peanut protein bars and bottles of a
+hard-to-find organic brew -- Black Forest Berry Honest Tea" and worry about the price of
+arugula.
+
+
+
+Yet, despite all of the fans, paparazzi and media adoration, the American people still have
+questions: Is Barack Obama prepared to lead? Is being famous the same as being a credible
+commander in chief?
+
+
+
+Like most worldwide celebrities, this status has fueled a certain arrogance. As The
+Washington Post reported this morning, Barack Obama has gone from his party's presumptive
+nominee to "its presumptuous nominee." His advisers are constantly reminded that their
+candidate is not actually the President of the United States, despite the "presidential"
+seal. On his plane, his chair reads "President."
+
+
+
+The arrogance of a man with so few accomplishments is really hard to stomach when you think
+about it. The man has been a U.S. Senator for 3 years and has been campaigning for president for
+more than half of that time. He was an undistinguished member of the Illinois Senate where he
+engaged in "politics as usual", lining the pockets of his political contributors with
+government contracts and jobs. The Washington Post's Richard Cohen hit one out of the
+ballpark today with this simple question to those fawning over Obama's candidacy:
+
+
+
+"'Just tell me one thing Barack Obama has done that you admire,' I asked a prominent Democrat.
+He paused and then said that he admired Obama's speech to the Democratic convention in 2004. I
+agreed. It was a hell of a speech, but it was just a speech. On the other hand, I continued, I could
+cite four or five actions -- not speeches -- that John McCain has taken that elicit my
+admiration, even my awe."
+
+
+
+McCain's campaign manager has Obama pegged. "As the world's biggest celebrity, Barack Obama
+has the entourage and all the trappings of fame," Davis says. "Today, his campaign is more
+about advancing Barack Obama and less about solving the challenges facing our country." In my
+view, Obama epitomizes everything I abhor about my generation. People of my generation
+expect everything without working for anything. They look down upon and disrespect people
+who've found their place through hard, honest work. They hate their parents for what they
+aren't. They admire people who trample all over others resorting to any means, legal or
+otherwise, to get that 5,000 square-feet home with a 3-car garage to fit their Lexus and BMW
+automobiles. Ronald Reagan used to look at our country and say confidently that the best days
+for America are still ahead of us. Does anyone really believe that anymore? Does the Obama
+generation really have any respect for a 70-plus year-old former prisoner of war who
+demonstrated unselfish valor in service to his country? Sadly, I think not. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+6:00 PM 4 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Tuesday, July 29, 2008
+
+
+
+Who Worked For The Russell Foundation?
+
+Some of the subjects of an investigation into the misspent funds of the Russell Foundation
+believe the news media and the blogs have been unfair in their reporting of the bankrupt
+foundation. WRTV's Jack Rinehart broke the story first on the scandal surrounding the
+foundation almost two weeks ago. He reported that a grand jury investigation was being
+conducted to learn how as much as $1.5 million in funds may have been misspent by key persons
+involved in the foundation. Rinehart reported:
+
+
+
+According to the bankruptcy declaration obtained by 6News Friday, the foundation had racked
+up more than $2.5 million worth of debt.
+
+
+
+Records show the foundation's financial officers signed off on credit card bills of
+$106,000, including $36,000 for office rugs.
+
+
+
+The foundation also owned 17 vehicles, including a $50,000 Cadillac Escalade , and
+maintained offices in a southeast side business park on lakefront property.
+
+
+
+Authorities are also investigating missing funds that could total as much as $1.5 million,
+according to court records, Rinehart reported.
+
+
+
+Rinehart's report, quoting Russell Foundation President Bishop Michael Russell, said
+Russell himself had initiated the bankruptcy filing and the reporting of the alleged missing
+funds to the prosecutor's office. "The Russell Foundation and Bishop Michael Russell
+welcome the investigation by authorities into the disappearance of hundreds of thousands of
+dollars from Foundation bank accounts during 2006 and 2007," the statement from Russell's
+attorney read. "The Foundation initiated the request that this matter be fully
+investigated, and will continue to provide full cooperation with the investigators
+assigned to the case." Rinehart's report indicated that search warrants had been executed on
+City-County Councilor Paul Bateman and Manuel Gonzalez by the grand jury. In a later report by
+the Star's Jon Murray, Bateman claimed he had been set up as a scapegoat and had done nothing
+wrong. Bateman appeared to point the finger at Russell. "The bottom line is the guy used Jesus
+Christ to pull us all in," Bateman said. "In the end, it was all a lie."
+
+
+
+Although the bankruptcy filing lists Russell as the President of the foundation, a telephone
+directory on the foundation's website omits his name. The phone directory , however,
+contains a staggering 26 names of persons holding positions with the foundation and
+identified as having a telephone extension at the foundation's headquarters at 4455
+Southport Crossing Way in Indianapolis, which is now closed. That list includes Bateman and
+Gonazales , who held key positions with the organization, but both claimed to work for the
+foundation only as volunteers. You can bet most of the 26 people listed had no clue what was
+going on with the spending and wish their names never appeared on the foundation's website.
+With all of the important titles people were assigned, it's hard to understand why there
+wasn't at least one person who provided a check and balance role in the foundation's spending
+to avoid the $2.5 million bankruptcy the organization now faces. If Bateman and Gonzalez were
+just volunteers, then who was actually employed by the foundation and had responsibility for
+its day-to-day operations? The names and titles of the persons listed on the foundation's
+telephone directory, include the following:
+
+
+
+Patricia Anderson, Director of Funding Disbursement Compliance
+
+Paul Bateman , Chief Corporate Officer
+
+Darryl Borders, Corporate Financial Officer
+
+Heather Bupp , Secretary/Receptionist
+
+Patricia DeWalt , Director of Accounting
+
+A.C. Ellis, Chief Structural Engineer
+
+Janice Focht , Executive Secretary
+
+Erika Fowler, Executive Secretary
+
+Ron Franklin, Chief Corporate Director
+
+Manuel Gonzalez, Chief Financial Advisor
+
+Jennifer Greene, Office Manager
+
+Dr. James Hill, Chief Grant Manager
+
+Kelvin Jarrett, Director of Program Management
+
+Elaine Johnson, Director of Human Resources
+
+Dr. Kevin Jones, Chief Administrative Officer
+
+Dr. Gloria King, Chief of Latino Affairs
+
+Velveeta Knox, Chief Operations Officer
+
+Dr. Roger Knutson , Chief of Technological Research
+
+Kaiser Lowe, Corporate Counsel
+
+Dr. Randall Sheppard, Director of Church Support Grants
+
+Kenneth Torrance, Director of Cost Reimbursement & RF Program Grants
+
+Dr. Elaine Walters, Chief Corporate Liaison
+
+Monica Webster-Lowe, Corporate Counsel
+
+Carline Wilkes, Accounting Manager
+
+Andrea Womack , Director of Human/Social Service Grants
+
+Catherine Zakrajsek Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+5:09 PM 7 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Does Size Matter?
+
+A couple of Democratic blogs are featuring a video of Gov. Mitch Daniels entitled, "Don't Want
+No Short Man Mitch." The photos give one the impression the knock is on Gov. Daniels' short
+stature. Those familiar with the original song by Gillette entitled, "Don't Want No Short
+Dick Man", understand what size means and it has nothing to do with a man's height. The
+uncensored version of the song makes that abundantly clear, if the title doesn't. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+10:43 AM 8 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Sam Carson A Volunteer For Mitch Daniels
+
+Jim Shella blogs about how Sam Carson, son of the late U.S. Rep. Julia Carson (D), is a volunteer
+for Mitch Daniels' re-election campaign . Sam Carson, the first cousin of U.S. Rep. Andre
+Carson and son of Sam (the Daniels' volunteer), first announced last week and then almost as
+quickly withdrew his candidacy for Marion Co. Democratic chairman against Ed Treacy. This
+comes as no surprise to me. Perhaps no other person in the state of Indiana has made more money
+off the Daniels administration than lobbyist Lacy Johnson, a powerful force behind the
+Carson political machine. Recall that Johnson helped bring about businessman Bill Mays as a
+major backer of Daniels in the African-American community four years ago. Johnson also
+successfully lobbied Sen. Earline Rogers and Sen. Glenn Howard to back his Major Moves
+program, which has made lots of money for Johnson's law firm, Ice Miller. Some believe that the
+Daniels administration assigned former excise police officer Andre Carson to the
+Department of Homeland Security to boost his credentials a year ahead of his planned run for
+Congress this year. Also, Daniels' support for Jon Elrod in the special election was a bit hard
+to detect. Think about it. If Sam Carson had managed to win the chairman's race against Treacy,
+Ice Miller would have controlled both political parties in the county lock, stock and barrel.
+Politics is a funny business, isn't it? Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+7:27 AM 1 comment:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: andre carson
+
+Monday, July 28, 2008
+
+
+
+Gallup Poll Puts McCain Ahead By Four Points
+
+A USA Today/Gallup Poll released today gives Sen. John McCain a 4-point, 49%-45% lead in the
+presidential race over Sen. Barack Obama. Those numbers are absolutely stunning given that
+the poll was released after Obama's much ballyooed trip to the Middle East and Europe this past
+week. Last month, this same poll showed McCain down by six points. Most polls still show Obama
+with a slight lead. Over the years, I've found presidential polls taken prior to Labor Day to be
+pretty useless. Syndicated columnist Robert Novak makes this point well in his column today.
+Novak observes that Obama's lead over McCain in most polls is not nearly as good as that held by
+Democratic candidates at similar points in past presidential elections. Novak writes:
+
+
+
+In 1976, Jimmy Carter took a 33-point summer lead over President Gerald Ford and won in a photo
+finish. In 1988, Michael Dukakis led George H.W. Bush by 17 points after being nominated in
+Atlanta before he lost the election. Al Gore and John Kerry were ahead of George W. Bush in the
+summer.
+
+
+
+Novak notes that Obama's numbers, despite his lead, have remained below the 50% level,
+suggesting he is far from closing the deal with voters. This suggests to Novak that McCain
+could still back into a win despite the lousy campaign he is running. This will be Novak's last
+column for awhile. He announced today he has been diagnosed with a brain tumor . This may
+explain the confused state he seemed to be in last week when he was cited by D.C. police for
+striking a pedestrian and driving away. Press coverage of this year's presidential race just
+won't be the same with Tim Russert and now Robert Novak gone from the day-to-day coverage.
+Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+8:25 PM 10 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+City's Finances Still Look Bleak
+
+Even after a record 65% increase in the City's income tax, property tax increases and a $1
+billion pension debt bailout by the State of Indiana, Indianapolis is still operating in the
+red according to the Controller for the City of Indianapolis. The City will even have to take
+out a $150 million loan just to make it through the year. Budget forecasts for the next few years
+look even worse with expenditures expected to surpass revenues in the foreseeable future
+unless drastic changes are made. This is what happens when you live beyond your means for so
+many years. The opening of the $700 million Lucas Oil Stadium this month and the demolition of
+the RCA Dome (despite owing $70 million on it) to make way for a $200 million convention center
+expansion are emblematic of the recklessness with which the City has continued to borrow and
+borrow beyond our means to repay it. According to the numbers released by the Ballard
+administration today, expenditures for the 2008 budget are far exceeding the budget
+approved by Mayor Peterson and the Democratic-controlled council last year--at least $30
+million. With a source of revenue yet to be found to finance the operating and maintenance
+expenses for Lucas Oil Stadium, the City is facing a much worse financial crisis than people
+were led to believe during last year's budget debate. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+8:02 PM 5 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Greg Ballard
+
+Obama's Broken Promise To His African Tribe
+
+The Evening Standard (a foreign publication) gives us the skinny on Sen. Barack Obama's true
+character. Amid great fanfare, Obama visited the tribe of his family in Kenya and a school
+named in his honor in 2006. During the visit, Obama promised assistance to the impoverished
+community. Two years later, family and tribe members are faced with the reality that Obama
+broke the promise he made to them. David Cohen writes:
+
+
+
+The small brick house with no running water, a tin roof and roving chickens, goats and cows is
+owned by Sarah Obama, Barack's 86-year-old step-grandmother. Inside, the walls are
+decorated with a 2008 Obama election sticker, an old "Barack Obama for Senate" poster on which
+he has written "Mama Sarah Habai [how are you?]", a 2005 calendar that says "The Kenyan Wonder
+Boy in the US", and more than a dozen family photos.
+
+
+
+But this bucolic scene in his father's village of Kogelo near the Equator in western Kenya
+conceals a troubling reality that, until now, has never been spoken about. Barack Obama, the
+Evening Standard can reveal, after we went to the village earlier this month, has failed to
+honour the pledges of assistance that he made to a school named in his honour when he visited
+here amid great fanfare two years ago.
+
+
+
+Obama folks will no doubt quickly deny that Obama ever offered any financial assistance to the
+school when he promised help. But even Obama's grandmother thought that was what he meant.
+"When he comes down here, he will change the face of the school and, believe me, our poverty in
+Kogelo will be a thing of the past," Cohen quotes 86-year-old Sarah Obama as saying to the
+community. "Senator Obama has not honoured the promises he gave me when we met in 2006 and in his
+earlier letter to the school," the school's principal now says. "He has not given us even one
+shilling. But we still have hope."
+
+
+
+Isn't it amazing that Sen. Obama can raise record sums of money to fund his own political
+campaign, but he can't raise a few paltry bucks to help out the community of his own family in
+Kenya? How difficult would it have been for him to call up a few of his Hollywood friends and
+raise a few million bucks at a private fundraiser? His visit two years ago was all about another
+photo op for his presidential campaign. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+7:15 AM 5 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Sunday, July 27, 2008
+
+
+
+
+
+
+
+Allstate 400 Disappointing To Fans
+
+
+
+Image:
+http://4.bp.blogspot.com/_hi9W7dbsNYY/SI0-OgvuOEI/AAAAAAAAAws/D8-nq3m-qPU/s400/DSC00524.JPG
+
+
+
+Image:
+http://3.bp.blogspot.com/_hi9W7dbsNYY/SI07NRKecOI/AAAAAAAAAwk/JVtPzY0uc-A/s400/Petty.JPG
+The sight of Richard Petty wasn't enough to make up for what had to be the most disappointing
+running of the Allstate 400 at the Brickyard. Problems with the Goodyear tires and numerous
+scheduled cautions took the excitement out of the race, making it look more like a Formula One
+race than a NASCAR race. Attendance was also noticeably down, reflecting the big economic
+downturn the country is experiencing. Pole sitter Jimmie Johnson held off Carl Edwards to win
+the race. The race saw no more than 12 laps of continuous green light racing at any point in the
+race with about a third of the race being run under the caution lap. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+10:18 PM 3 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Free Rock Concert Drew Crowd In Berlin, Not Obama
+
+History repeats itself in this campaign. A couple of months back the news media failed to
+mention a large crowd in Portland, Oregon gathered for a free concert in a park before Obama
+took the stage. In Berlin, two very popular German bands played a free rock concert to lure
+large crowds and the media failed to report it. The German band, Raemonn , is accustomed to
+drawing large crowds as confirmed by this video . CNN's Christianne Armanpour looked rather
+foolish trying to explain the lack of euphoria for Obama following his speech. “I did ask
+some people as they were leaving what they thought," Armanpour said. "Everybody said good,
+good. But I was surprised that there wasn't this sort of euphoria afterwards, given how many
+people had come to listen and how much it had been anticipated." Psst . . . It was the free
+concert, stupid. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+7:13 AM 9 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Saturday, July 26, 2008
+
+
+
+The Meaning Of "Natural Born Citizen" And What It Means For Obama's Eligibility
+
+A historian and former journalist, Judah Benjamin (a pseudoname), has put together a
+scholarly paper on the meaning of the requirement in Article II of the U.S. Constitution that a
+person be a "natural born citizen" in order to serve as president of the United States and what
+it means for Sen. Barack Obama's eligibility for our nation's highest office. The paper is
+laid out in a two-part series at the Texas Darlin blog. You will likely find his conclusion's
+about the meaning of "natural born" surprising and be even more surprised by his conclusion
+that Obama became an Indonesian citizen after his mother married his step father and moved the
+family to Jakarta when Obama was six years old. Benjamin readily admits he is not a lawyer, but
+his well-researched paper was reviewed by a constitutional lawyer at Columbia University
+and an expert on Indonesian law.
+
+
+
+Benjamin concludes that Obama is barred by Article II from serving as president of the United
+States. His argument can be summed up as follows:
+
+
+
+Barack Obama has been a citizen of multiple nations. And even if his citizenship outside the US
+was renounced, Article II of the U.S. Constitution prohibits him from being President, for
+the same reason that naturalized citizens are prohibited: divided loyalties.
+
+
+
+Article II reads, “No Person except a natural born Citizen, or a Citizen of the United
+States, at the time of the Adoption of this Constitution, shall be eligible to the Office of
+President." Benjamin goes to great pains in his paper to explain this clause does not have
+anything to do with the location where you were born; rather, it's about one's allegiance and
+loyalty to the United States. Quoting Justice Swayne from a precedent-setting case, U.S. v.
+Rhodes , explaining Article II: “All persons born in the Allegiance of the King are Natural-
+Born subjects, and all persons born in the Allegiance of the United States are Natural-Born
+Citizens. Birth and Allegiance go together. Such is the Rule of the Common Law, and it is the
+Common Law of this Country…since as before the Revolution.” Dual nationality,
+according to Benjamin's article, is "impossible as a condition". That's why persons who have
+become naturalized citizens are ineligible to be president Benjamin explains--because
+they have had allegiance to another country. To the extent any law passed by Congress runs
+counter to this understanding, Benjamin reminds us the Constitution will always trump a
+statute no matter how long ago it was written or what people think of its import today.
+
+
+
+Benjamin takes time in his article to address the brush up in the liberal media over Sen. John
+McCain's eligibility to serve under Article II because of his birth in the Panama Canal Zone.
+McCain’s parents, Benjamin explains were "serving as agents, or ambassadors, of their
+country while serving in the Panama Canal Zone." Because McCain's parents had been sent to the
+Panama Canal Zone by our government, their child "born abroad" would always be considered a
+"natural born" citizen. To the extent McCain may have also been considered a "dual citizen"
+under Panamanian law, Benjamin says that status would have been washed away when he joined the
+U.S. Navy. Benjamin dismisses the notion that the 14th Amendment in any way altered the
+requirement in Article II as suggested on Sen. Obama's Fight The Smears website and
+elsewhere.
+
+
+
+In Benjamin's analysis, Obama's problem has nothing to do with whether he was born in the U.S.
+For purpose of his analysis, he assumes Obama was born in Hawaii as he claims. Obama's problem,
+according to Benjamin, is that he has been a citizen of more than one country. And Benjamin's
+main point of contention on this does not rest with his father's Kenyan nationality but rather
+his conclusion that Obama became an Indonesian citizen. What? Yes, that's what Benjamin
+believes based upon everything he has been able to review that is available in the public
+record. Benjamin focuses on Obama's school records from STLP Asisi, his first Elementary
+School. Benjamin says it is undisputed that his school records include the following
+information:
+
+
+
+He was enrolled on January 1st 1968, given Serial No 203 and placed in Class 1 B. His Religion is
+given as Islam, his Nationality Indonesian, his Father’s Name as L Soetoro Ma., his
+Father’s Occupation as Official, Director General’s Office TNI [Topography Division
+Indonesian Army] and his Name as Barry Soetoro.
+
+
+
+Based upon Benjamin's analysis of Indonesian law, Obama had to have been adopted by his step
+father and changed his name to Soetoro. Under Indonesian law, Obama automatically became an
+Indonesian citizen when his step father adopted him. Further, Benjamin supports his
+contention based upon who was eligible to attend a state-run school at which he was later
+enrolled--only Indonesian citizens. But how could Obama have later re-entered the U.S. as a
+U.S. citizen and remained here all of these years? Benjamin surmises that Obama's mother
+retained a U.S. passport for him, which he was issued based upon his birth in the state of
+Hawaii. He left Jakarta using his Indonesian passport as Barry Soetoro when he was ten years
+old and entered the U.S. on his American passport as Barack Obama, a practice Benjamin
+describes as common but not legal. "There is clear prima facie evidence that Senator Barack
+Hussein Obama has held at least two Citizenships, American and Indonesian, Benjamin
+concludes. "Under Article II of the Constitution that disqualifies him for POTUS, and it
+should."
+
+
+
+Benjamin makes some interesting observations about the resolution the U.S. Senate passed
+earlier this year to declare Sen. McCain a "natural born" citizen within the meaning of
+Article II and, thus, eligible to serve as president. "Why were Democratic Senators trying to
+pass a Resolution making Senator McCain undoubtedly legally eligible when this issue had
+already been cleared up in 2000 and again in 2004?" Benjamin asks. He notes a particular
+recital Sen. Obama and Sen. McCaskill insisted on adding to the resolution: “Whereas
+previous presidential candidates were born outside of the United States of America and were
+understood to be eligible to be President". According to Benjamin, based upon news reports,
+Obama and McCaskill attempted to remove from the resolution this recital: "Whereas John
+Sidney McCain, III, was born to American citizens on an American military base in the Panama
+Canal Zone in 1936.” "It seems clear that McCaskill and Obama were attempting to create a
+blanket Resolution covering ALL Foreign Born candidates," Benjamin opines. McCain did not
+need this resolution in Benjamin's view. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+9:05 AM 19 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Natural Born Citizen
+
+Friday, July 25, 2008
+
+
+
+Ethics Committee Votes To Censure Gray
+
+It was supposed to be a bipartisan vote of the City-County Council Ethics Committee to decide
+whether to censure former CCC President Monroe Gray for failing to disclose his business
+relationship with a city contractor on his financial disclosure statement, but Democratic
+member Paul Bateman resigned a few hours before the meeting because of an impending grand jury
+investigation against his involvement in the Russell Foundation and Councilor Bill Oliver
+didn't show up for the meeting. The Ethics Committee's two Republican members voted to
+recommend a censure of Gray to the full council and forward a copy of its report to the Marion
+County Prosecutor. "The entire intent of this committee was to restore confidence in the
+public with City Council that we're doing things in an ethical way," the Star's Francesca
+Jarosz quotes Councilor Pfisterer as saying about the recommendation. Marion Co.
+Prosecutor referred Gray's case of alleged ghost employment at the Indianapolis Fire
+Department to a special prosecutor last year. As with all of these cases of public corruption
+in Marion County, nothing has become of Gray's case. Memo to U.S. Attorney's Office: HELP!
+Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+6:53 AM 6 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Thursday, July 24, 2008
+
+
+
+Obama's Health Care Plan
+
+If you want an indication of what Sen. Barack Obama's plan is for health care, look no further
+than how a big political supporter siphoned off money from pharmaceutical companies for a
+foundation he created and then diverted the money to Obama's pal Tony Rezko, now sitting in
+jail after being convicted on 16 charges of political corruption in federal court earlier
+this year. Obama's good doctor friend, Dr. Paul S. Ray, set up a private foundation to support
+medical research and education. This is what he did with the money according to the Sun-Times:
+
+
+
+While on the county payroll, a top urologist at Cook County Hospital solicited nearly $1
+million from drug companies over the last decade for his private foundation.
+
+
+
+Dr. Paul S. Ray's pitch was that the money would go toward medical research and education.
+
+
+
+But most of the money hasn't gone to health care at all. Instead, Ray invested it -- mostly in
+Tony Rezko.
+
+
+
+Rezko is the convicted influence-peddler who had been a prodigious fund-raiser for
+politicians including Sen. Barack Obama, Gov. Blagojevich and the late Cook County Board
+President John Stroger, the ultimate boss of the county hospitals.
+
+
+
+Ray had long worked with Stroger's godson, Orlando Jones, a top administrator at Cook County
+Hospital who became Stroger's chief of staff. Jones eventually left county government for a
+job with Rezko. Last September, after he had been questioned by the FBI, Jones committed
+suicide.
+
+
+
+Ray set up the Paul S. Ray Urology Education and Research Foundation 16 years ago. It began
+investing with Rezko's companies in 2002, according to reports Ray filed with the Internal
+Revenue Service. The foundation invested $500,000 with Rezko Concessions, which operated
+Panda Express and Papa John's Pizza restaurants. It also put $100,000 into a proposed housing
+development Rezko unsuccessfully sought to build on a 62-acre site along the Chicago River in
+the South Loop.
+
+
+
+Ray, 63, of Chicago, also invested his own money with Rezko, spending millions to buy real
+estate and Papa John's Pizza restaurants from Rezko.
+
+
+
+Can someone explain to me how a health care foundation can invest money in a chain of pizza
+restaurants? Oh yeah, you read my post earlier today on Indianapolis' Russell Foundation so
+you know just how far awry corrupt people can get with these supposed nonprofit entities.
+Well, this is where it gets really interesting. Ray's investments with Rezko didn't turn out
+so well. Recall also that the feds weren't too happy when Tony Rezko showed up at Orlando Jones'
+home a short time after he supposedly committed suicide when he was supposed to be on home
+detention. Jones was a top administrator where Dr. Ray worked. Here's what the Sun-Times
+tells us about Rezko's deals gone bad with Dr. Ray:
+
+
+
+
+
+Ray's foundation appears to have lost the $500,000 it invested with Rezko Concessions --
+nearly half of the foundation's assets. But the foundation apparently got back the $100,000
+invested in Rezko's failed South Loop development.
+
+
+
+Ray is battling lawsuits over two deals with Rezko. One was filed by Jabir Muhammad, a son of
+Nation of Islam founder Elijah Muhammad, claiming Rezko and Ray fraudulently took ownership
+of the South Side mansion where Muhammad lives. The other involves a $646,949 loan Ray
+allegedly got from a Rezko associate, Elie Maloof, to buy the Papa John's restaurants that
+Rezko owned in Wisconsin.
+
+Ray's purchase of those restaurants is part of a second, still-pending criminal case against
+Rezko. Federal prosecutors say Rezko engaged in a conspiracy so Ray could buy the Papa John's
+stores in Wisconsin. Ray -- who has not been charged -- has been granted immunity from
+prosecution to testify against Rezko.
+
+
+
+Yeah, you read that right. Ray and Rezko are entangled in a dispute with the Nation of Islam
+founder's son over the ownership of his Southside mansion. Recall that Rezko played an
+instrumental role in helping Sen. Obama purchase his Southside mansion not too far away from
+Muhammad's mansion. Note that reports indicate that Louis Farrakhan's Nation of Islam has
+provided assistance to Obama's campaign from the get go. And what about that $6,000 Ray
+contributed to Obama's Senate campaign? Obama contributed it to charity after details of his
+financial entanglements with Rezko emerged publicly. Wake up America! Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+11:24 PM 2 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Who Is Russell Foundation Helping?
+
+According to the Russell Foundation's website, the nonprofit doled out an estimated
+$277,500 in grants and contributions in 2007. The following Indianapolis area
+organizations received a grant or contribution for the indicated purposes:
+
+
+
+Gabriel Missionary Baptist Church
+
+$60,000
+
+15 passenger van (value of donation), steel refrigerator, sanctuary upgrade
+
+
+
+Mt. Sinai Missionary Baptist Church
+
+$25,000
+
+15 passenger van (value of donation)
+
+
+
+Heather Norris Family
+
+$5,000
+
+Family Support
+
+
+
+Upon This Rock Productions
+
+$7,000
+
+Annual Cast Banquet
+
+
+
+Healing Streams
+
+$4,500
+
+Ministry Programs
+
+
+
+Drive-By Prayer Vigil
+
+$23,000
+
+15 Passenger Organization Detailed Van (value of donation)
+
+
+
+Community Relief
+
+$5,000
+
+Tax Assistance, Clergy Support
+
+
+
+Homeless Persons
+
+$20,000
+
+Food, Clothing, Shelter
+
+
+
+Youth Groups
+
+$10,000
+
+Summer Camps, After-School Activities
+
+
+
+Emergency Services*
+
+$50,000
+
+Furniture, Rent, Utility, Heaters, Personal Items
+
+
+
+Be Nice Campaign*
+
+$55,000
+
+Community Evaluations & Surveys
+
+
+
+RF Thanksgiving Celebration
+
+$3,000
+
+Baskets & Gift Certificates
+
+
+
+Christmas Support*
+
+$10,000
+
+Indigent Families
+
+
+
+Total RF Grants & Contributions for 2007*
+
+$277,500 Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+4:55 PM 4 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Russell Foundation Scandal Turning Heads
+
+The Russell Foundation describes itself as "a Christian faith-based organization that
+recognizes that all people are made of one blood, and therefore should co-exist as one body of
+people upon the earth, living in various nations, yet emanating from the same instance of
+human origin." People knowledgeable with the grand jury investigation of the nonprofit
+organization in the wake of its recent bankruptcy filing describe a small group of
+individuals squeezing every last ounce of blood out of the organization for their own
+personal benefit. There are tales of a California clothier being flown into town to fit the men
+in charge with the finest in tailored suits. The women had to settle for the best that
+Nordstroms had to offer. A northside jeweler crafted gold rings with "RF" initials to
+distinguish the illustrious crew doing God's work. Exotic rugs were purchased and then
+disappeared without the bill ever being paid. And a high-ranking Indianapolis police
+department official pulled double-duty as "chief of security" for the group. An IMPD police
+cruiser couldnt' cut it. He had a Cadillac Escalade to make his important rounds.
+
+
+
+As the Star's Jon Murray notes in his story yesterday , it is estimated that at least $1 million
+was misappropriated by key officials within the organization. All totalled, the
+foundation's filing lists more than $2.5 million in debts and assets of just $235,000. A grand
+jury investigation is focusing on three individuals, Rev. Michael Russell, Indianapolis
+City County Councilor Paul Bateman and Manuel Gonzalez. While one of the investigated is
+protesting his innocence, a source close to the investigation says the individual cannot
+account for nearly $500,000 in foundation expenditures. The foundation accumulated at one
+point about 17 cars, most of which are identified in the bankruptcy filing. The source says
+forged signatures allowed one of the individuals to get hold of nearly $100,000 using a
+financing scheme through a Connersville car dealer for cars already purchased.
+
+
+
+The source suspects the individuals in charge of the foundation went on the spending spree in
+anticipation of an $11 million investment from an outside investment firm. There were big
+plans. Talks with some of the country's wealthiest businessmen in America were supposedly
+underway--hence the need for a "chief of security". The focus was no longer on helping
+inner-city poor with housing and other needs. There was big talk of a high speed monorail from
+Indianapolis to Chicago, tapping a closed down steel mill in Northwest Indiana that would
+help put many unemployed in Da Region to work. Ethanol production was planned. It all required
+lots of walking around money we're told. Cash-filled wallets were needed to work the halls at
+the State House and our nation's capitol to win support for the foundation's projects
+according to one tale.
+
+
+
+The matter is now in the hands of a Marion County grand jury. The Star's Jon Murray writes,
+"Earlier this month, investigators seized computers, files and financial documents from
+the foundation's headquarters on Indianapolis' Far Southside, according to court
+records." "Another search of Gonzalez's home resulted in the seizure of a computer and
+records." Murray's article notes that a grand jury investigated another nonprofit run by
+Russell's former wife in 2004. "The center's board accused Russell's then-wife, Executive
+Director Florence Alexander, of financial malfeasance, spurring a search of the
+Near-Northside community center by Brizzi's grand jury investigators," Murray writes. "No
+charges resulted, but the center later went into receivership." Will this investigation end
+the same way? Who knows. I would feel more confident if the feds stepped in and took over this
+investigation, particularly since the allegations involve a federal tax-exempt
+organization.
+
+
+
+UPDATE: The Star's Jon Murray reports on the resignation of Councilor Paul Bateman as a member
+of the Council's Ethics Committee following news of the investigation of the Russell
+Foundation. Marion Co. GOP Chairman Tom John called for Bateman's resignation from the panel
+at a press conference outside the City-County Building earlier today.
+
+
+
+UPDATE II: An observant AI reader brought to my attention this story from the July 5, 2008 Gary
+Post-Tribune discussing the death of the planned monorail by the Russell Foundation. John
+Byrne wrote:
+
+
+
+
+
+This time last year, Northwest Indiana was abuzz with the possibilities of a space age public
+transit system and hundreds of local jobs to support it.
+
+Remember the monorail from East Chicago to Indianapolis? Well, it apparently has become yet
+another of the region's transportation pipe dreams.
+
+
+
+Much ink was spilled over the plan, which investors first unveiled to state legislators in
+spring 2007.
+
+
+
+A silent, ecologically sound train could carry people and freight between East Chicago and
+Indianapolis, a model for the rest of the nation.
+
+
+
+Best of all, it wouldn't cost the public a dime to build.
+
+
+
+The Westminster International Corp., a Montana investment group, would front all the money
+to build the transporter on existing railroad right-of-way, company spokesman Richard
+Shafsky told a group of local officials in Merrillville last year.
+
+
+
+And better yet, Shafsky said the company would reopen a local steel mill to construct monorail
+infrastructure and sell it around the country.
+
+
+
+On Wednesday, a spokeswoman for Shafsky said a lack of political support locally killed the
+monorail plan.
+
+
+
+"It never got past the initial discussions," said a representative for Shafsky who declined
+to give her full name.
+
+
+
+Area political consultant Joe Gomeztagle worked on behalf of the monorail investment group
+-- which included the faith-based Indianapolis non-profit the Russell Foundation -- to
+coordinate discussions with decision makers along the proposed route between Lake Michigan
+and the state capital.
+
+
+
+Gomeztagle said he recently received word from Russell Foundation lawyers that the group had
+declared bankruptcy.
+
+
+
+"I was worried as this went along that they would give people around here hope for this monorail
+proposal and then it wouldn't work out," Gomeztagle said.
+
+
+
+Russell Foundation attorneys were not available this week to discuss the agency.
+
+
+
+A telephone number listed on the Russell Foundation Web page has been disconnected.
+
+Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+8:54 AM 21 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Wednesday, July 23, 2008
+
+
+
+Superdelegate Andrew Misled On Residency; Didn't Vote In Indiana Primary
+
+The former head of the Indiana Democratic Party and the Democratic National Committee misled
+the public when he announced on the eve of Indiana's Democratic primary in May that he was
+changing his allegiance from Sen. Hillary Clinton to Sen. Barack Obama . The late move miffed
+the Clinton campaign and Sen. Evan Bayh . Andrew was originally slotted to be a superdelegate
+from the State of Maryland, but he convinced party officials to move his superdelegate status
+to Indiana based on the understanding he supported Clinton for president. When Andrew
+announced his switch, he was criticized for no longer being a resident of Indiana. WISH- TV's
+Jim Shella notes Andrew's defense then:
+
+
+
+"I was born here. I own a house here and I happen to work in Washington just like every United
+State Senator and Congressman does," said Andrew.
+
+
+
+Well, not quite. As Jim Shella points out, the Carmel house Andrew once owned is now owned by
+Colts owner Jim Irsay . Shella also reports that Andrew did not vote in the Indiana primary
+because he isn't a registered voter here. "Several attempts to contact Andrew for comment,
+both at his Washington law office and through associates in Indianapolis, were
+unsuccessful," Shella reports. "Should Andrew be in the Indiana delegation to the Denver
+convention?" Shella asks. Here's the real shocker. Andrew didn't vote in the Maryland
+primary, either. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+7:32 PM 8 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Class Action Lawsuit Filed To Recover Pan Am Plaza Funds
+
+Attorney Paul Ogden made good on his promise and filed a class action lawsuit in Marion
+Superior Court 13 to recover at least $6 million from the recent sale of Pan Am Plaza property by
+the Indiana Sports Corporation to private developers, which was supposed to be repaid to the
+City of Indianapolis as part of a restrictive covenant the City entered into with the ISC when
+it gave the property to ISC in 1985. The administration of Mayor Bart Peterson rushed through
+an amendment to the original development agreement which let ISC off the hook for repayment so
+it could sell of the land for a price the ISC has refused to disclose publicly. The rush to close
+the deal before Peterson's term ended circumvented the law according to Ogden's suit.
+Ogden's suit notes the following deficiencies:
+
+
+
+    
+
+    - The resolution approved by the Metropolitan Development Commission made no mention of
+    the original restrictive covenant.
+
+    
+
+    - The resolution omitted the fact that the amendment to the 1985 development agreement
+    would cause the City to give up $6 million.
+
+    
+
+    - The resolution was approved by MDC on a voice vote along with other proposals without any
+    public debate.
+
+    
+
+    - The City is still paying debt obligation for the original cost of purchasing the Pan Am
+    Plaza property, which was rolled into the bond obligations for Circle Centre Mall.
+
+    
+
+    - State law required Mayor Peterson to bring the proposed change in the redevelopment
+    plan to the City-County Council.
+
+    
+
+    - State law required that there be notice of the proposed modification in the
+    redevelopment plan, information provided to the public at at public hearing, and an
+    opportunity for the public to remonstrate or object to the change--all after the council
+    approved the resolution.
+
+    
+
+    - The Metropolitan Commission was required to take final action determining the public
+    utility and benefit of the proposed project.
+
+    
+
+    - And finally, because the property interest in the covenant exceeded $50,000,
+    City-County Council approval was required.
+
+    
+
+
+
+Hat tip to the Indiana Law Blog, which has more here . See my earlier post on this subject here .
+Ogden's suit notes that the original development agreement was signed by Michael Browning in
+his capacity as Vice President of the ISC. Browning's company was later awarded the right to
+redevelop the property on behalf of the ISC. The ISC recently sold the property in question to a
+development group including Kite Realty Group. Kite was a major contributor to Mayor Bart
+Peterson. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+5:06 PM 3 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+When The Kids Aren't At School
+
+Lawrence Township Trustee Mike Hobbs works as a volunteer at John Marshall Community High
+School. When attendance numbers hovered around 50% recently, Hobbs decided something
+needed to be done to incentivize parents to make sure their kids are in school. He and John
+Marshall principal, Jeff White, came up with a plan. Any parent with a case pending in Hobbs'
+office for rent, utility, food or other emergency assistance will see their case held up if
+their children are enrolled at John Marshall but they aren't attending classes. This will
+provide a little extra incentive to the parents to be responsible in ensuring their kids are in
+school. And if they're in class instead of on the streets, there is less chance they will be
+getting into trouble. What do you think? Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+6:27 AM 10 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Tuesday, July 22, 2008
+
+
+
+Advocates Against Domestic Violence Blame Denial Of Protective Order For Woman's Death
+
+A double-homicide and suicide arising out of a domestic dispute this morning has advocates
+against domestic violence blaming the denial of a protective order for today's tragedy.
+According to WISH-TV, April Wills requested a protective order against her ex-husband, Carl
+Wills. Instead of being granted a traditional protective order, Marion County granted Wills
+what is known as a "non-violent contact order."
+
+
+
+"Most other counties don't even entertain the idea of a non-violent contact order because a
+non-violent contact order is an order that says it's okay to have contact with somebody as long
+as it's not violent," said Kerry Hyatt Blomquist of the Coalition Against Domestic Violence.
+
+
+
+Advocates tell WISH-TV that there has been a growing trend in Marion County to issue a
+"non-violent contact order." In addition to beating another woman last fall, Carl Wills had
+the following run-ins with his ex-wife over the last several months according to the Star:
+
+
+
+In June 2007, Wills knocked on the door of his ex-wife’s Winterberry Drive apartment. When
+she did not answer, according to a report, he slashed a tire on her car.
+
+
+
+In April 2007, Wills kicked in the door of April Wills’ apartment in the 3600 block of Green
+Ash Court, according to another report, and fled the scene before police arrived.
+
+
+
+In January 2006, police arrested Wills for domestic battery after he reportedly punched
+April in the face and body at an apartment in the 4200 block of Majestic Lane.
+
+
+
+Not surprisingly, Wills had a prior conviction for reckless homicide from 1992. According to
+the Star, he served 7 years of his 8-year sentence. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+10:19 PM 14 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Scratch John Edwards From Obama's VP List
+
+No sooner had Time confirmed that former Sen. John Edwards was on Obama's short list for vice
+president than the National Enquirer broke a story alleging that its reporters caught up with
+Edwards at the Beverly Hilton after he left a hotel room of a woman at 2:40 a.m. this morning who
+the tabloid claims gave birth to a child belonging to Edwards. According to the tabloid
+report, Edwards hid out in the hotel's basement bathroom until security arrived to help
+escort him out of the hotel after its reporters confronted him about his alleged meeting in the
+hotel room of Rielle Hunter and his supposed love child. Hunter once did filming work for
+Edwards' presidential campaign. Edwards wife, Elizabeth, is still being treated for
+cancer. Assuming Edwards had any chance of landing a spot on the ticket with Obama, this news
+will certainly wash it away. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+4:07 PM 8 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Monday, July 21, 2008
+
+
+
+Indiana Wins Highest Credit Rating
+
+Standard & Poor's Rating Service has upgraded Indiana's credit rating to AAA, the first time
+in the state's history that it has achieved this status. Gov. Mitch Daniels jumps on the
+announcement. "The upgrade reflects the state's continued strong management that has led to
+the property tax reform that has realigned state and local spending and is not expected to
+impact the state's long-term financial performance," Daniels said. A press release from the
+governor's office notes that schools will be able to borrow money at a lower interest rate as a
+result of the upgrade. Only nine other states enjoy a AAA rating from S&P, including Florida,
+Georgia, North Carolina, Delaware, Virginia, Maryland, Minnesota, Missouri and Utah.
+Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+8:56 PM 12 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+
+
+
+
+Is Jindal McCain's Pick?
+
+
+
+Image:
+http://3.bp.blogspot.com/_hi9W7dbsNYY/SIUiWIF_CQI/AAAAAAAAAwc/NVv0GbP_fqc/s200/jindal.jpg
+Political columnist Bob Novak is reporting that Sen. John McCain may announce his vice
+presidential choice this week. According to Novak , the current favorite is former Gov. Mitt
+Romney. The Fix' Chris Cilizza notes that Sen. McCain is scheduled to travel to New Orleans
+later this week to meet with Louisiana Gov. Bobby Jindal . The 37-year-old is considered a
+rising star in the Republican Party. Despite his young age, Democrats could ill-afford to
+criticize him as unqualified. His resume is much more impressive than Sen. Barack Obama's ,
+the presumptive Democratic nominee. He was elected to Congress the same year Obama was
+elected to the Senate, and last year he won election as governor. He ran the Louisiana
+Department of Health under former Gov. Mike Foster. He served as executive director of the
+National Bipartisan Commission on the Future of Medicare, a 17-member panel charged with
+devising plans to reform Medicare. He later served as Assistant Secretary of Health and Human
+Services in the Bush Administration, an appointment which required Senate confirmation.
+Jindal would become the first Indian-American to land on the national ticket of either party.
+Piyush is his birth name. He adopted the nickname Bobby after the Bobby Brady character from
+the "Brady Bunch."
+
+Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+6:56 PM 19 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Jobs For Ex-Offenders A Top Priority For Ballard
+
+Mayor Greg Ballard is putting his full support behind an effort to encourage Indianapolis
+employers to hire ex-offenders. Colts Coach Tony Dungy has agreed to chair Ballard's
+"Ex-Offender Re-entry Program." Ballard's plan not only includes an effort to place
+ex-offenders in city and county jobs but also a preference in city contracting for businesses
+which agree to employ ex-offenders. A city ordinance is required to enact the bidding
+preference. It is this latter proposal which is likely to draw the ire of some in the business
+community and elsewhere.
+
+
+
+The city is already providing preferences to women and minority-owned businesses. Mayor
+Ballard recently added another preference category for veterans. The net effect of all these
+preferences is to disadvantage male and white-owned businesses which seek to employ the best
+employees available. Hiring ex-offenders could prove both costly and too risky for these
+small business owners. It is also counter-intuitive. Are law-abiding people going to lose
+out to job opportunities because a would-be employer had to hire an ex-offender to win or
+retain a city contract?
+
+
+
+Whenever I read about ideas like this one I'm reminded of William Bennett's, "The Book Of
+Virtues." We've become a society which rewards bad behavior and punishes good behavior. We
+need programs which reward good behavior. It's as if virtue has become a vice. Just wait and see
+who has their hands out first to get a piece of the taxpayer money needed to fund this program.
+The same old "do- gooders " who've been feeding at the public trough for years. Who is going to be
+held to account when a public employee is harmed by the violent act of an ex-offender this
+program compelled to be hired? Or when public funds or property turns up missing because the
+city compelled the hiring of a person with a prior theft-related conviction?
+
+
+
+Of course, the big proponent of this plan is Deputy Mayor Olgen Williams, a convicted felon who
+stole from the U.S. Post Office while employed there to feed his drug habit. Although there is
+evidence Williams turned his life around and successfully obtained a presidential pardon so
+he could run for public office in Indiana, in my mind, his past criminal record should have
+disqualified him from holding such a high-ranking position in our city government. Mayor
+Ballard obviously thinks much differently than I do on this point, and he wants to fill city
+government jobs with more people just like Williams. I know there are many people who think I'm
+being too hard-lined on this particular issue. My parents spent a great deal of time teaching
+their children the importance of understanding right from wrong. It is very disheartening to
+see so much reward in our society today for people who abandon this important principle for the
+quick gain. As long as we continue to embrace a society where there are no bad consequences for
+bad behavior, we shouldn't be surprised at how badly people behave. I guess the motto "Do The
+Crime, Do The Time" has been replaced by "Do The Crime, Reap The Reward." Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+5:06 PM 8 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Greg Ballard
+
+Investor's Business Daily Knocks Obama's Reliance On Lugar
+
+Indiana Daily Insight picks up on a knock in an Investor's Business Daily editorial of Sen.
+Barack Obama's use of Sen. Richard Lugar in his latest ad to bolster his foreign policy
+credentials. IDI's Ed Feigenbaum writes, "Investor's Business Daily editorializes
+negatively about 'The Obama-Lugar 'Coalition', suggesting that U.S. Sen. 'Barack Obama has
+a curious way of trying to hoodwink voters into believing he is more hawkish than they think —
+by showing them how pally he is with a leading Republican dove.'" The editorial puts into
+perspective the non-role Obama has actually played in eliminating Russian nuclear weapons
+and Lugar's own misjudgments on Iraq:
+
+
+
+Obama claims he and Lugar kept Russian nuclear weapons out of the wrong hands. But beyond
+getting a tour of a junkyard for old warheads in Russia in 2005, and supporting
+Lugar-sponsored missile legislation, it's actually unclear what Obama did.
+
+
+
+Lugar is a poor choice of Republican for Obama to pair up with in feigning foreign policy
+credibility. The last thing Lugar did of any note was deliver an interminable speech on the
+Senate floor a year ago. In those remarks, he complained that 'our continuing absorption with
+military activities in Iraq is limiting our diplomatic assertiveness there and elsewhere in
+the world.' He called for 'a multifaceted diplomatic offensive' instead of President Bush's
+military surge.
+
+
+
+Lugar's betrayal was described as historic by the Senate's top Democrat, Harry Reid.
+Portrayed in much of the media as a foreign-policy wise man, Lugar and his advice proved dead
+wrong. Had his counsel been followed last year, a chaotic Iraq would be dominated today by
+al-Qaida and Iran.
+
+
+
+Now Lugar is actually being mentioned as a possible cross-party running mate for Obama. The
+Hoosier claims no interest, but back at the 1980 Republican convention in Detroit the
+then-little-known senator was almost begging publicly to be placed on the ticket with Ronald
+Reagan .... Lugar later sowed distrust with Republicans when he suggested selling out
+Nicaragua's Contra freedom fighters in the 1980s in exchange for a communist Sandinista
+version of 'free elections.'
+
+
+
+Now, in an election year, Lugar describes the assertions in Obama's commercial as 'accurate'
+— rather than taking the opportunity to blast Obama's naive foreign-policy radicalism."
+
+Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+6:54 AM 5 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Sunday, July 20, 2008
+
+
+
+Krauthammer On The "Audacity Of Vanity"
+
+Charles Krauthammer pens a salient column in the Washington Post on Sen. Barack Obama's
+attempt to stage at speech at Brandenburg Gate in Berlin as a nice photo-op for his general
+election campaign against Sen. John McCain. German Chancellor Angela Merkel rightfully
+pointed the egotistical candidate in another direction. As Krauthammer points out in his
+column, Obama, unlike Presidents John F. Kennedy and Ronald Reagan, has not earned the right
+to speak at this historic site. Krauthammer writes:
+
+
+
+What Obama does not seem to understand is that the Brandenburg Gate is something you earn.
+President Ronald Reagan earned the right to speak there because his relentless pressure had
+brought the Soviet empire to its knees and
+
+he was demanding its final "tear down this wall" liquidation. When President John F. Kennedy
+visited the Brandenburg Gate on the day of his "Ich bin ein Berliner" speech, he was
+representing a country that was prepared to go to the brink of nuclear war to defend West
+Berlin.
+
+
+
+Who is Obama representing? And what exactly has he done in his lifetime to merit appropriating
+the Brandenburg Gate as a campaign prop? What was his role in the fight against communism, the
+liberation of Eastern Europe, the creation of what George Bush the elder -- who presided over
+the fall of the Berlin Wall but modestly declined to go there for a victory lap -- called "a
+Europe whole and free"?
+
+
+
+Krauthammer could have also said that both Kennedy and Reagan served their country during
+World War II. Kennedy shunned the advantage a privileged life as the son of an ambassador
+brought him and put his life in harm's way. Reagan set aside his budding movie career for a new
+role acting in training videos for the military. Although not a life threatening role as
+Kennedy's, the actor served the role his country asked of him. Obama can point to no such
+service for his country.
+
+
+
+Krauthammer goes a step further and picks up on the narcissistic nature that many Americans
+are just now beginning to learn about Obama. Krauthammer wonders how a politician with so
+little in the way of achievement could have such an inflated opininon of himself:
+
+
+
+Every senator looks in the mirror and sees a president. Nonetheless, has there ever been a
+presidential nominee with a wider gap between his estimation of himself and the sum total of
+his lifetime achievements?
+
+
+
+Obama is a three-year senator without a single important legislative achievement to his
+name, a former Illinois state senator who voted "present" nearly 130 times. As president of
+the Harvard Law Review, as law professor and as legislator, has he ever produced a single
+notable piece of scholarship? Written a single memorable article? His most memorable work is
+a biography of his favorite subject: himself . . .
+
+
+
+Obama may think he's King Canute, but the good king ordered the tides to halt precisely to
+refute sycophantic aides who suggested that he had such power. Obama has no such modesty.
+
+
+
+Krauthammer's closing is perfect. "As he said on victory night, his rise marks the moment when
+'our planet began to heal.' As I recall -- I'm no expert on this -- Jesus practiced his healing
+just on the sick. Obama operates on a larger canvas." Isn't it refreshing to see a Washington
+pundit with an objective perspective on Obama? This craziness has got to end. Never before has
+someone so unqualified to be president been elevated to represent so much more than what he
+truly is. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+3:57 PM 7 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+John Criticizes Ballard For Transparency
+
+The Star's Brendan O'Shaughnessy takes a look at Mayor Greg Ballard's performance half way
+through his first year. That outgoing Marion Co. Democratic Chairman Mike O'Connor and close
+advisor to former Mayor Bart Peterson directs criticism at Ballard's performance is no
+surprise. Criticism from the Mayor County GOP Chairman, though, is a different matter. Tom
+John, a newly-minted Ice Miller partner, thinks Mayor Ballard is making a mistake by allowing
+the public access to performance reviews prepared by his Administration and promising to
+hold public budget reviews. "Any time you wade into something you can't control, there's a
+risk someone could stand behind you and shoot arrows in your back," John said.
+
+
+
+The public access to performance reviews, which John doesn't want open to the public, is the
+new IndyStat site on the Mayor's website, described as "Accountability In Action For The City
+Of Indianapolis." The Mayor's Office of Enterprise Development conducts regular
+performance evaluations of various agencies of city/county government to review spending
+and performance data and to determine areas for need of improvement or change. If you want to
+peek inside your government, this is the place to go. The site puts key data and critical
+analysis prepared by the Office's Mike Huber and Kristen Tusing at your fingertips. It's also
+all public information, so it's not like Mayor Ballard is giving us access to information to
+which we aren't entitled. And it's entirely in keeping with his promise to bring transparency
+to government. As I recall, John himself issued several press releases during last year's
+campaign touting transparency in government and, specifically, criticizing Mayor
+Peterson and the Democratic-controlled council for shutting the public out of the City's
+budget process. Why John chose to hit Ballard on this of all subjects is beyond me. I think he
+must have had his Ice Miller hat on instead of his county chairman's hat when O'Shaughnessy
+interviewed him for this story, although I suspect his partners wished he had worn the latter
+for this interview.
+
+
+
+The criticism Mike O'Connor directs at Ballard is that he's acting too much like a
+"caretaker." "The mayor (should be) the community cheerleader, the clearinghouse when
+there is a crisis, the only person who can build consensus," O'Connor told O'Shaughnessy. The
+Star's editors picked up on this theme last week, suggesting that Ballard was missing in
+action on the City's continued crime problem and policing concerns. I have issues with his
+approach on a number of issues, but I think the Mayor has been very visible and highly-engaged
+on these and other issues. The "caretaker" description used by O'Connor is actually more
+descriptive of his former boss' management style. He showed up for a lot of photo-ops but
+otherwise seemed to leave it to others to do the heavy lifting. I think Robert Vane summarizes
+this point best with his comment. "Voters decided they wanted a workhorse, not a show horse,
+and that's what they got," Vane said.
+
+
+
+Overall, I was somewhat disappointed in the story. The sidebar to the story contains more
+useful information than the story itself. Many of Ballard's supporters are disappointed in
+some of his actions to date, but this story really didn't touch on it. Turning to the same
+political insiders for key jobs in his administration has been a source of irritation to many.
+Providing such an enlarged role in his administration to Rev. Olgen Williams and his minister
+friends, who played absolutely no role in Mayor Ballard's election last year (and,
+theoretically, if not legally, should never play a role in politics), has been perplexing and
+alienating to his core supporters. And Ballard's slowness in implementing promised ethics
+reforms has signaled more business as usual. At the end of the day, however, Ballard's
+administration is a refreshing change from the corrupt and out of touch Peterson years.
+There's still plenty of time for Ballard to get his act together. Let's hope he's listening.
+Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+6:29 AM 4 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Greg Ballard
+
+Saturday, July 19, 2008
+
+
+
+Drive-By Prayer Minister's Daughter Murdered
+
+Rev. Malachi Walker has been on the forefront of the Peace In The Streets initiative and
+conducts neighborhood prayer gatherings in troubled areas of Indianapolis known as Drive By
+Prayers to discourage youth from taking up crime. Early this morning, his 24-year-old
+daughter, Chanelle Wells, became the City's latest homicide victim . Someone broke into her
+home on the City's Far E astside and shot her multiple times. Police found a handgun, two AK47s
+and marijuana in her home. Wells leaves behind three children ranging in age from 5 months to 6.
+She became the 70 th homicide victim of the year. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+5:06 PM 9 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Ivy Tech Wants To Demolish Historic Building
+
+Ivy Tech won state and city approval for a $69 million construction project at the site of its
+near northside campus in Indianapolis along Fall Creek with the understanding it would
+preserve the historic former St. Vincent Hospital Building facing Fall Creek as you cross the
+bridge on Meridian Street. Now, Ivy Tech officials have presented drawings which propose to
+raze the historic building, along with all the surrounding buildings. This, according to the
+IBJ's Cory Schouten , has the Indiana Historic Landmarks Foundation in an uproar.
+
+
+
+As with anything Ivy Tech does, politics seems to have a role in the project. Schouten notes
+that Ivy Tech dumped its former architect on the project, Jim Schellinger's CSO Architects,
+and replaced it with Schmidt Associates, a big contributor to Gov. Mitch Daniels'
+re-election bid.
+
+
+
+From the outside, the old St. Vincent Hospital appears to be a real treasure and certainly a
+landmark building for the Fall Creek neighborhood. It really is a gateway of sorts as it stands
+facing the greenway along Fall Creek Parkway. Judging by the comments on Schouten's Property
+Lines blog, people aren't real cracked up about the proposed replacement building. Some
+describe it as looking like one of those suburban warehouse buildings. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+8:36 AM 13 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Stopped While Driving White In A Black Neighborhood
+
+Last February, I attended a Mayor's Night Out at the Jubilee Center on the City's near
+northside . Public Safety Director Scott Newman told the gathered neighborhood residents to
+expect stepped up enforcement as a means of getting guns out of the hands of felons. Newman told
+the gathering that routine traffic stops are an effective and legal means of accomplishing
+this objective. Let's put this policy to the test.
+
+
+
+I spoke tonight to a prominent neighborhood leader and local business owner who was subjected
+to one of these "routine traffic stops." Shortly after this fine gentleman, who happens to be
+Caucasian, left a black friend's home in the area of West 29 th Street, he was tailed by an IMPD
+officer. After traveling about five blocks, the officer turned on his lights and pulled him
+over. The officer approached him and demanded to know why he was "buying crack in a black
+neighborhood ." His efforts to explain to the officer that he had simply been visiting a friend
+in the neighborhood weren't succeeding. "Why are you shaking," the officer demanded of him.
+As his nightmare continued, six police officers gathered at the scene. He found himself being
+patted down with his hands on the hood of the car. Drug sniffing dogs were brought to the scene to
+search his car. In a particularly embarrassing moment, a client of the businessman drove by
+among many others, looking on in shock at what he had just witnessed. The officer relentlessly
+badgered him for answers about his whereabouts. Finally, after nearly an hour, the officer
+tossed his driver's license, registration and proof of insurance onto the street. "You got
+lucky today," the officer said as he walked away.
+
+
+
+If Scott Newman believes that routine traffic stops such as the one this man encountered at
+6:45 a.m. this past Monday is legal, then he better head back to law school. This police officer
+had absolutely no probable cause for pulling this man over other than his belief that a white
+man should not be driving in this particular black neighborhood at that time of day. The victim
+in this case has filed a complaint with the City. If the City is wise, a public apology will be
+immediately issued to this man for the police officer's gross misconduct. I think we all share
+a commitment to bringing crime under control in Indianapolis. But this kind of police
+misconduct cannot be tolerated for a moment. If you want to stop someone for speeding,
+ignoring a stop sign or driving with a headlight out, that's fine. Profiling drivers based on
+race in a particular setting, black or white, stopping them and then subjecting them to
+unreasonable searches and detentions is simply unacceptable. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+12:15 AM 18 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Friday, July 18, 2008
+
+
+
+Campo Wins 7th District Nod
+
+The 7th District GOP committeepersons chose Gabrielle Campo to replace Jon Elrod as the
+general election congressional candidate to oppose U.S. Rep. Andre Carson. There were 77
+eligible voters at tonight's caucus. Campo won it on the second ballot over her five male
+opponents after falling a few votes short on the first ballot. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+7:16 PM 11 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Ballard Has Plan To Clean Up Police Department
+
+Public Safety Director Scott Newman announced a plan to get tough on bad cops in the wake of more
+than a half dozen police officers being arrested since the first of the year for a variety of
+crimes. "Nothing can substitute for honest men and women who understand thattheir career as
+police is a sacred trust they hold for the public," Newman said. "Still, it is incumbent on us to
+make sure that every safeguard is put inplace to channel those men and women in the right
+direction, and to helpus find out quickly when they have gone the wrong direction." "We are
+ashamed of the actions of the few, but we are proud of the actions of the many, and we won't
+hesitate to use these measures that we announce today and others to make sure the bad apples are
+plucked out and tossed aside." Here are the steps Newman outlined at yesterday's press
+conference:
+
+
+
+    
+
+    - More intensive supervision of officers in the field.
+
+    
+
+    - Tighter accounting and inventory controls of search warrants and seizures of drugs and
+    money.
+
+    
+
+    - Bringing back the previous practice of polygraph tests for officers assigned to
+    narcotics enforcement, vice, intelligence and property room.
+
+    
+
+    - Creating the position of recruiter in order to ensure the departmentattracts the best,
+    high quality candidates, including establishing apresence on college campuses.
+
+    
+
+    - Establishing a staffed Office of Career Development with the task of guiding officers
+    toward more directed career goals, cultivating management and leadership skills, and
+    providing more consistent evaluations and training.
+
+    
+
+    - Requiring performance evaluations on a regular basis.
+
+    
+
+Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+6:54 AM 7 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Greg Ballard
+
+Photographers Shot At Eastside Fire
+
+A WISH-TV photographer and a freelance photographer were shot early this morning while
+firefighters fought a blaze at an abandoned house in the 800 block of N. Tacoma Street. A
+firefighter's air tank was also hit. Both shooting victims were taken to Methodist Hospital
+according to the Star's Tom Spalding. WISH-TV's Kevin Hankins has been released. "I was just
+gathering shots around the scene and then all of sudden heard a pop and felt something on my left
+back," said Hankins. Fox59 News is reporting a fire at a second abandoned house. You may recall
+that Indianapolis suffered a rash of fires at abandoned homes on the City's southeast side
+last year. Also, Fox News reports that a shooting outside Club Industry this morning led to a
+high speed chase by police ending with a rollover of the fleeing SUV on Keystone Avenue. Just
+another night in the City. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+6:45 AM 4 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Thursday, July 17, 2008
+
+
+
+Obama Influence Peddler Cashing In Early
+
+For the Obama folks, the election in November is a mere formality. In their minds, the race is
+already over and Obama is simply taking a five-month long victory lap to the White House. This
+is particularly true with the sleazy influence peddlers who surround Obama. Long-time Obama
+friend, former staffer and political advisor Dan Shomon offers us a taste of that "Change"
+Obama promises to bring to Washington in this pitch for his government affairs practice:
+
+
+
+“Should ‘CHANGE’ occur in November as polls indicate, we should see a lot of people from
+Illinois moving to Washington, D.C., and taking key spots in an Obama administration. Now is
+the time to anticipate these changes."
+
+
+
+“We will be in Washington, D.C., August 4, 5, and 6, and we’re interested in scheduling a
+meeting with your government affairs team to discuss the changing political landscapes and
+our services and capabilities.”
+
+
+
+“Dan is mentioned in every book about Sen. Obama and is profiled in Sen. Obama’s book,
+‘The Audacity of Hope.’ Dan has been interviewed in recent months by Time magazine, the
+Washington Post, ABC’s ‘20/20,’ CNN, the L.A. Times, the Chicago Tribune and many
+other publications about Sen. Obama.”
+
+
+
+Of course, the Obama campaign professed shock and disappointment at Shomon's solicitation.
+“As Mr. Shomon acknowledges, this e-mail was poorly conceived and inappropriate in both
+tone or content," Obama's campaign said. "He has also committed, and we fully expect, that his
+firm will take the utmost care to avoid in the future actions or any appearances such as that
+raised by this e-mail.” Yeah, right. This guy figures with Tony Rezko headed to prison for a
+long sentence, the field is wide open for him. Note that Shomon's solicitation describes him
+as "Obama’s longest serving campaign adviser and strategist."
+
+
+
+Obama, while in Indiana yesterday, took time out for a lofty interview with Jake Query and
+Terri Stacy , morning show folks at WIBC. It was in keeping with the dumbing down of America
+approach to American politics. The questions were about on this level:
+
+
+
+Terri: Do you wear boxers or briefs? HaHaHaHaHeHeHe
+
+
+
+Jake: Are you a Mountain Dew Man? Hey, Put It Right There.
+
+
+
+Terri: Can I keep one of your used soda cans as a keep-sake?
+
+
+
+Jake: Is it true how big it is, you can tell me, good buddy?
+
+
+
+Terri: Can I hold it? HeHeHeHe?
+
+
+
+Jake: Oh yeah, our boss wanted us to ask you if Evan Bayh is going to be your choice for Vice
+President?
+
+
+
+Terri: Oh, boo! Jeff Smulyan is a party pooper. He cut our pay! Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+6:08 AM 13 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Wednesday, July 16, 2008
+
+
+
+Munster Condo Association Sued For Discrimination
+
+The Justice Department is suing the Autum Ridge Condominium Association in Munster because
+its Board allegedly denied housing to a black couple with children. The Association had a rule
+in place until 2007 which prohibited sales to anyone with children under the age of 18 if the
+children were to live in the units. In this case, however, the previous owner of the condo had
+children living in her unit with her. The Northwest Indiana Times' Joe Carlson's explains
+what led federal authorities to conclude the Association discriminated against the couple:
+
+
+
+According to government filings in Hammond federal court, condo association officials did
+not raise an issue about Valentine's two children violating board policy until after the
+officials learned Valentine and Haddox were black during face-to-face meetings.
+
+
+
+Until June 25, 2007, the association had a rule prohibiting sales to anyone with children
+younger than 18 if the children were to live in the units. But the previous owner, Diane
+Webster- Rangel , had two children living in the condo, federal filings allege.
+
+
+
+Haddox and Valentine would have been the first black residents in the 20-unit development at
+633 South St. since the association was formed in 1986,
+
+the government lawsuit states.
+
+
+
+Department of Justice spokeswoman Jamie Hais said her department's lawsuit is the result of a
+complaint received and investigated by the U.S. Department of Housing and Urban
+Development.
+
+
+
+Civil Rights Division trial attorney M. Elizabeth Parr states in the federal complaint that
+the board's decision not to approve the $122,000 sale between the previous owner and Haddox
+violated the Fair Housing Act by discriminating on the basis of race and familial status.
+
+
+
+Other victims included the seller, who had to accept a lower purchase price from a white buyer
+in 2007, and Haddox's real estate agents, who did not get paid for their work on the deal, the
+lawsuit alleges.
+
+
+
+Collins points out in his story other housing discrimination lawsuits the federal
+government has brought in the region. Last year, the government sued the Town of St. John for
+denying a zoning variance to a man who wanted to allow unmarried persons suffering from MS to
+live in his home for treatment. The town had an ordinance against unmarried persons living
+together in a single residence. In 2002, the government brought a case against Lake County
+after a head of the economic development agency was fired because he supported an affordable
+housing project in Lake Station which might attract minorities. And who said the Bush Justice
+Department doesn't enforce civil rights? Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+6:46 AM 3 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook
+
+Tuesday, July 15, 2008
+
+
+
+Six Candidates Vie For 7th District GOP Nomination
+
+It may seem hard to believe, but there are six candidates who will be competing at this Friday's
+caucus to replace Jon Elrod on the ballot for 7 th District Congress. According to the Indiana
+Daily Insight, they include Gabrielle Campo , Kevin Green, Ray Irvin, Patrick O'Connor,
+Michael Simpson, and Jason Turnbill . As an elected precinct committeeperson in the
+district, I've heard from only one of the candidates. Patrick O'Connor, a claims adjuster for
+Liberty Mutual Insurance Company, who telephoned me this evening. The law firm of Ice Miller,
+as represented by Marion Co. GOP Chairman Tom John and 7 th District GOP committeeman John
+Hammond, is backing Campo . It's no secret that Ice Miller has strong ties to the Center
+Township Democrats (the firm represents Center Township Trustee Carl Drummer) and the
+Carson political machine. Ice Miller partner Lacy Johnson is very close to Andre Carson who,
+like his grandmother, provides an important link to the firm's D.C. lobbying practice. I'm
+not sure what to make of this "party support" for Campo . It's kind of like former Marion Co. GOP
+Chairman John Keeler's support for Greg Jordan in the 2003 mayoral race. Keeler's law firm,
+Baker & Daniels, had a provision in their legal contract with the City of Indianapolis at the
+time which said Keeler couldn't speak out against Mayor Peterson. As you may recall, Jordan
+struggled to raise money and lost badly to Peterson. Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+10:15 PM 6 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: andre carson
+
+
+
+
+
+Ballard Appoints Sanford Fire Chief
+
+
+
+Image:
+http://3.bp.blogspot.com/_hi9W7dbsNYY/SH073Dx3RAI/AAAAAAAAAwU/VJLJfDp7u0Q/s200/Chief+Sanford.JPG
+Mayor Greg Ballard today announced the appointment of veteran firefighter Brian Sanford as
+his choice for Chief of the Indianapolis Fire Department. Sanford formerly served as Deputy
+Chief of IFD’s EMS Division, and until IFD’s most recent consolidation with Warren
+Township, he served as that township’s Fire Chief. According to a press release from the
+Mayor's Office, Sanford "emerged as the top choice through a highly competitive process."
+Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+6:59 PM 2 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Greg Ballard
+
+Anatomy Of An Internet Rumor
+
+Last week, a few local Democratic blogs in a southern state began circulating a rumor that a
+prominent statewide elected Republican official had been caught in bed having sex with a male
+staffer by his wife. The rumor had it that the young up-and-comer, who towed the conservative
+line on things like gay marriage, would be announcing his resignation shortly. Word had it
+that Sen. John McCain's campaign had acted quickly and removed the next Larry Craig from an
+official role in his campaign. The rumor quickly spanned across the Internet, being touted by
+the usual liberal suspects as an another example of a hypocritical family values Republican
+gone bad. By the time it made it's way to the Daily Kos , it wasn't just a rumor, it was a fact. Some
+local Indiana blogs (including those critical of this blog's decision to report Larry
+Sinclair's sex and drug allegations against Sen. Barack Obama ) jumped on the bandwagon as
+well.
+
+
+
+Well, guess what, the resignation of the official never took place. A planned press
+conference to address the claim was supposedly called off after the state's leading
+newspaper decided there was no story to report. One of the local blogs began back-peddling on
+the story. The blog wrote:
+
+
+
+A source close to (Blank), in adamantly denying the allegations about (Blank) in rumors that
+are circulating, called the rumors “atrocious” and “as bad a smear attempt as (Blank)
+faced in 1998.” ((Blank) was a Republican candidate for Lt. Gov. in 1998 when he was
+confronted with accusations that he assaulted and raped a prostitute. The accusations where
+shown to be false, and (Blank) won the election.) Another local blog, which is no fan of the
+high-ranking Republican in question, offered this prescient perspective on the effort to
+make the rumor true on Internet blogs:
+
+
+
+Over the last few weeks of this rumor being propogated , and the last week of this being all over
+the Internet, there hasn ’t been a single shread of corroboration that anything has
+happened except that (Blank) and his wife are on the outs.
+
+
+
+Guess what guys? That story’s pretty old. Here’s a big secret (Blank) probably doesn ’t
+want you to know about. A lot of people that work with and around him don’t like him, and they
+talk smack about him to me and others (mostly others, and then it trickles down to me weeks
+later). I didn ’t bring up his purported marital problems because it didn ’t even occur to
+me to bring it up . . .
+
+
+
+And that record is often believed and spread beyond our small group of readers and beyond the
+Internet. So it becomes accepted by many that Barack Obama is a Muslim who doesn ’t say the
+pledge of allegiance, the September 11 attacks were actually a government conspiracy, and
+(Blank) is actually gay . . .
+
+
+
+So my conclusion is that (Blank) shouldn ’t resign over this petty crap, and those of us who
+are his vocal [and reasonable] opponents shouldn ’t jump on this bandwagon of slander.
+(Blank) is unfit for office and has a history of ethical lapses, immature actions,
+demagoguery, and politicization of his official duties. Do we really have to stoop low and
+become rumor spreaders? Do we need to go so low as to make unfounded accusations about his
+sexuality, especially those of us who cite his homophobia as one reason for our opposition?
+
+
+
+What happened to this prominent southern politician this past week is simply inexcusable.
+The blogs on the Left will do anything to destroy a Republican, no matter how harmful it is to the
+wife and family of the politician whom they are targeting, and justify it based on political
+ideology. I know nothing about this Republican official. Maybe there is some truth to the
+rumors, but it seems to me there should at least be a person with some first-hand knowledge
+stepping forward with information before you go and spread it all over the Internet. You can't
+google this man's name without reading all kinds of stuff about what a hypocritical , closeted
+homosexual he is now. And based on what? As one local blogger said after the fact, "Did any of you
+even bother to ask his wife who supposedly kicked him out of the house if it was true?"
+
+
+
+We saw this same thing earlier this year when a local Democratic blogger published a false and
+defamatory claim that a Republican candidate for Congress was gay and then had the audacity to
+claim he considered the Republican candidate a friend and meant no harm by it when called out on
+it. The same Democratic blogger did the same but even worse to an openly gay Democratic
+candidate for Congress in 2006 so it came as no surprise. Nationally, one blogger has made a
+name for himself outing closeted homosexual politicians, as long as they are Republicans. He
+has repeatedly published unsubstantiated rumors about a southern Republican governor
+being gay. He even named a young male staffer with whom the governor had supposedly had sex,
+only to have the male staffer later deny the claim. As I learned a long time ago, with these kinds
+of people, their ways are always Machiavellian . The ends always justifies the means. If it can
+destroy the person's political career, it's justified whether it's true or not.
+
+
+
+Note that I have intentionally chose not to link to any of the blogs in question or identify the
+name of the politicians in question to avoid propagating the rumors associated with these
+politicians' names. It's easy enough for you to find on your own by doing your own google
+search. I'm not going to give them the satisfaction of boosting traffic to their sites, which
+is the reward they are seeking for their dirty deeds. Several of the usual suspects attempted
+to post comments about the rumor pertaining to this politician on this blog over the last
+several days anonymously, of course, as they always do when carrying out their dirty work.
+Posted by
+
+
+
+Gary R. Welsh at
+
+
+
+3:52 PM 7 comments:
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Newer Posts Older Posts Home Subscribe to: Posts (Atom)
+window.___gcfg = {'lang': 'en_US'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})(); <!-- google_ad_client="pub-0505465891059243";
+google_ad_host="pub-1556223355139109"; google_ad_width=160; google_ad_height=600;
+google_ad_format="160x600_as"; google_ad_type="text_image";
+google_ad_host_channel="0001+S0004+L0001"; google_color_border="FFFFFF";
+google_color_bg="FFFFFF"; google_color_link="000000"; google_color_url="2288BB";
+google_color_text="222222"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png <!--
+google_ad_client="pub-0505465891059243"; google_ad_host="pub-1556223355139109";
+google_ad_width=300; google_ad_height=250; google_ad_format="300x250_as";
+google_ad_type="text_image"; google_ad_host_channel="0001+S0009+L0001";
+google_color_border="FFFFFF"; google_color_bg="FFFFFF";
+google_color_link="000000"; google_color_url="2288BB";
+google_color_text="222222"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Search This Blog
+
+Loading... #uds-searchControl .gs-result .gs-title, #uds-searchControl .gs-result
+.gs-title *, #uds-searchControl .gsc-results .gsc-trailing-more-results,
+#uds-searchControl .gsc-results .gsc-trailing-more-results * { color:#2288bb; }
+#uds-searchControl .gs-result .gs-title a:visited, #uds-searchControl .gs-result
+.gs-title a:visited * { color:#888888; } #uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-publishedDate { color: #777777; } #uds-searchControl .gs-result
+a.gs-visibleUrl, #uds-searchControl .gs-result .gs-visibleUrl { color: #2288bb; }
+#uds-searchControl .gsc-results { border-color: #eeeeee; background-color: #ffffff; }
+#uds-searchControl .gsc-tabhActive { border-color: #eeeeee; border-top-color:
+#eeeeee; background-color: #ffffff; color: #222222; } #uds-searchControl
+.gsc-tabhInactive { border-color: #eeeeee; background-color: transparent; color:
+#2288bb; } #uds-searchClearResults { border-color: #eeeeee; }
+#uds-searchClearResults:hover { border-color: #eeeeee; } #uds-searchControl
+.gsc-cursor-page { color: #2288bb; } #uds-searchControl .gsc-cursor-current-page {
+color: #222222; }
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+About Me
+
+    
+
+        
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+SUPPORT ADVANCE INDIANA
+
+It takes many hours of time to publish content for Advance Indiana. If you enjoy reading the
+content of this blog, please help out by contributing. You can click on the "Make A Donation"
+button below to support Advance Indiana by using PayPal. Thanks to all of those readers who
+have made contributions in the past and continue to support this blog with your
+contributions. If you would rather support the blog using an alternative source of payment or
+would like to advertise on this blog, e-mail me at gwelsh@indy.rr.com for more information.
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Make A Donation
+
+
+
+Image: https://www.paypal.com/en_US/i/scr/pixel.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blogs
+
+    
+
+    - Above The Law
+
+    
+
+    - America's Right
+
+    
+
+    - AmericaBlog
+
+    
+
+    - American Thinker
+
+    
+
+    - Angry White Boy
+
+    
+
+    - Atlas Shrugs
+
+    
+
+    - Blogging Fusion
+
+    
+
+    - BlogNetNews
+
+    
+
+    - Campaign Spot
+
+    
+
+    - Capitol Watch Blog
+
+    
+
+    - CICP Blog
+
+    
+
+    - Daily Caller
+
+    
+
+    - Debbie Schlussel
+
+    
+
+    - Eye On Indianapolis
+
+    
+
+    - Fort Wayne Observed
+
+    
+
+    - Gateway Pundit
+
+    
+
+    - Had Enough Indy?
+
+    
+
+    - Hoosier Access
+
+    
+
+    - Hoosier Ed
+
+    
+
+    - Hoosier Pundit
+
+    
+
+    - Hoosiers For Fair Taxation
+
+    
+
+    - Hot Air
+
+    
+
+    - Hotline Blog
+
+    
+
+    - Indiana Chamber Blog
+
+    
+
+    - Indiana Immigration Law Blog
+
+    
+
+    - Indiana Law Blog
+
+    
+
+    - Indy Foster Parent
+
+    
+
+    - Indy Parking
+
+    
+
+    - Indy Student
+
+    
+
+    - Indy Tax Dollars
+
+    
+
+    - Indy's Political Stock Exchange
+
+    
+
+    - IPOPA
+
+    
+
+    - Jim Shella's Blog
+
+    
+
+    - Jonathan Turley
+
+    
+
+    - Joy Tiz
+
+    
+
+    - Justice And Fortitude
+
+    
+
+    - Lafayette Tea Party
+
+    
+
+    - Manfredeye
+
+    
+
+    - Masson's Blog
+
+    
+
+    - Michelle Malkin
+
+    
+
+    - NewsBusters
+
+    
+
+    - No Boxes Allowed
+
+    
+
+    - No Quarter
+
+    
+
+    - Ogden On Politics
+
+    
+
+    - Opening Arguments
+
+    
+
+    - Porter County Politics
+
+    
+
+    - Property Lines
+
+    
+
+    - Raw Story
+
+    
+
+    - Russ Baker
+
+    
+
+    - Ruth Holladay
+
+    
+
+    - SchansBlog
+
+    
+
+    - SCOTUS
+
+    
+
+    - Speedway Navigator
+
+    
+
+    - Talking Points Memo
+
+    
+
+    - The Fix
+
+    
+
+    - Townhall
+
+    
+
+    - Urbanophile
+
+    
+
+    - Washington Street Politics
+
+    
+
+    - Welcome To My Tea Party
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+News Links
+
+    
+
+    - ABC News: The Note
+
+    
+
+    - Bloomington Alternative
+
+    
+
+    - Breitbart
+
+    
+
+    - Chicago Sun-Times
+
+    
+
+    - Current In Carmel
+
+    
+
+    - Drudge Report
+
+    
+
+    - Evansville Courier & Press
+
+    
+
+    - Fort Wayne Journal-Gazette
+
+    
+
+    - Fox 59 News
+
+    
+
+    - Fox News
+
+    
+
+    - Gary Post-Tribune
+
+    
+
+    - Howey Political Report
+
+    
+
+    - Indiana Daily Insight
+
+    
+
+    - Indiana Wire
+
+    
+
+    - Indianapolis Business Journal
+
+    
+
+    - Indianapolis Recorder
+
+    
+
+    - Indianapolis Star
+
+    
+
+    - Lafayette Journal & Courier
+
+    
+
+    - Louisville Courier-Journal
+
+    
+
+    - New York Times
+
+    
+
+    - Newsmax
+
+    
+
+    - Northwest Indiana Times
+
+    
+
+    - Politico
+
+    
+
+    - Real Clear Politics
+
+    
+
+    - South Bend Tribune
+
+    
+
+    - Terre Haute Tribune-Star
+
+    
+
+    - The Hill
+
+    
+
+    - Washington Post
+
+    
+
+    - WISH-TV
+
+    
+
+    - WorldNetDaily
+
+    
+
+    - WRTV
+
+    
+
+    - WTHR
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Amazon Contextual Product Ads
+
+if (!window.gadgets || !gadgets.rpc) { document.write('<script
+type="text/javascript"' +
+'src="//www-blogger-opensocial.googleusercontent.com/gadgets/js/rpc.js?container\x3dblogger\x26nocache\x3d0\x26debug\x3d0\x26c\x3d1\x26v\x3d86998f150f168aa91fa5ee2c8983b68e\x26sv\x3d9">'
++ '</scr'+'ipt>'); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/12703782/posts/default"; holder.commentFeed =
+"http://www.blogger.com/feeds/12703782/comments/default"; holder.currentBlogUrl =
+"http://advanceindiana.blogspot.com/"; holder.currentBlogId = "12703782"; return
+holder; }); } if (!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); }
+gadgets.rpc.setRelayUrl("sidebar-gadget1",
+'//9dl7h78ivl8smpn7vl3d9mo2g1ajbhaj-a-blogger-opensocial.googleusercontent.com/gadgets/files/container/rpc_relay.html');
+gadgets.rpc.setAuthToken("sidebar-gadget1", "7240919879072283426");
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2012 (648)
+
+        - ►  October (4)
+
+        
+
+        
+
+        - ►  September (74)
+
+        
+
+        
+
+        - ►  August (86)
+
+        
+
+        
+
+        - ►  July (64)
+
+        
+
+        
+
+        - ►  June (63)
+
+        
+
+        
+
+        - ►  May (74)
+
+        
+
+        
+
+        - ►  April (75)
+
+        
+
+        
+
+        - ►  March (64)
+
+        
+
+        
+
+        - ►  February (69)
+
+        
+
+        
+
+        - ►  January (75)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (794)
+
+        - ►  December (64)
+
+        
+
+        
+
+        - ►  November (56)
+
+        
+
+        
+
+        - ►  October (61)
+
+        
+
+        
+
+        - ►  September (56)
+
+        
+
+        
+
+        - ►  August (76)
+
+        
+
+        
+
+        - ►  July (63)
+
+        
+
+        
+
+        - ►  June (66)
+
+        
+
+        
+
+        - ►  May (61)
+
+        
+
+        
+
+        - ►  April (76)
+
+        
+
+        
+
+        - ►  March (77)
+
+        
+
+        
+
+        - ►  February (65)
+
+        
+
+        
+
+        - ►  January (73)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (654)
+
+        - ►  December (49)
+
+        
+
+        
+
+        - ►  November (55)
+
+        
+
+        
+
+        - ►  October (65)
+
+        
+
+        
+
+        - ►  September (71)
+
+        
+
+        
+
+        - ►  August (86)
+
+        
+
+        
+
+        - ►  July (65)
+
+        
+
+        
+
+        - ►  June (63)
+
+        
+
+        
+
+        - ►  May (70)
+
+        
+
+        
+
+        - ►  April (36)
+
+        
+
+        
+
+        - ►  March (15)
+
+        
+
+        
+
+        - ►  February (27)
+
+        
+
+        
+
+        - ►  January (52)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (859)
+
+        - ►  December (59)
+
+        
+
+        
+
+        - ►  November (61)
+
+        
+
+        
+
+        - ►  October (70)
+
+        
+
+        
+
+        - ►  September (76)
+
+        
+
+        
+
+        - ►  August (63)
+
+        
+
+        
+
+        - ►  July (79)
+
+        
+
+        
+
+        - ►  June (68)
+
+        
+
+        
+
+        - ►  May (64)
+
+        
+
+        
+
+        - ►  April (69)
+
+        
+
+        
+
+        - ►  March (77)
+
+        
+
+        
+
+        - ►  February (84)
+
+        
+
+        
+
+        - ►  January (89)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2008 (1049)
+
+        - ►  December (83)
+
+        
+
+        
+
+        - ►  November (54)
+
+        
+
+        
+
+        - ►  October (92)
+
+        
+
+        
+
+        - ►  September (103)
+
+        
+
+        
+
+        - ►  August (89)
+
+        
+
+        
+
+            - ▼  July (79)
+
+            - Dan Carpenter Has No Sense Of History
+
+            
+
+            - Ed Treacy: Return Of The Living Dead?
+
+            
+
+            - With Friends Like Ludacris, Can Obama Win?
+
+            
+
+            - McCain Campaign Picks Up On Obama's Celebrity Stat...
+
+            
+
+            - Who Worked For The Russell Foundation?
+
+            
+
+            - Does Size Matter?
+
+            
+
+            - Sam Carson A Volunteer For Mitch Daniels
+
+            
+
+            - Gallup Poll Puts McCain Ahead By Four Points
+
+            
+
+            - City's Finances Still Look Bleak
+
+            
+
+            - Obama's Broken Promise To His African Tribe
+
+            
+
+            - Allstate 400 Disappointing To Fans
+
+            
+
+            - Free Rock Concert Drew Crowd In Berlin, Not Obama
+
+            
+
+            - The Meaning Of "Natural Born Citizen" And What It ...
+
+            
+
+            - Ethics Committee Votes To Censure Gray
+
+            
+
+            - Obama's Health Care Plan
+
+            
+
+            - Who Is Russell Foundation Helping?
+
+            
+
+            - Russell Foundation Scandal Turning Heads
+
+            
+
+            - Superdelegate Andrew Misled On Residency; Didn't V...
+
+            
+
+            - Class Action Lawsuit Filed To Recover Pan Am Plaza...
+
+            
+
+            - When The Kids Aren't At School
+
+            
+
+            - Advocates Against Domestic Violence Blame Denial O...
+
+            
+
+            - Scratch John Edwards From Obama's VP List
+
+            
+
+            - Indiana Wins Highest Credit Rating
+
+            
+
+            - Is Jindal McCain's Pick?
+
+            
+
+            - Jobs For Ex-Offenders A Top Priority For Ballard
+
+            
+
+            - Investor's Business Daily Knocks Obama's Reliance ...
+
+            
+
+            - Krauthammer On The "Audacity Of Vanity"
+
+            
+
+            - John Criticizes Ballard For Transparency
+
+            
+
+            - Drive-By Prayer Minister's Daughter Murdered
+
+            
+
+            - Ivy Tech Wants To Demolish Historic Building
+
+            
+
+            - Stopped While Driving White In A Black Neighborhoo...
+
+            
+
+            - Campo Wins 7th District Nod
+
+            
+
+            - Ballard Has Plan To Clean Up Police Department
+
+            
+
+            - Photographers Shot At Eastside Fire
+
+            
+
+            - Obama Influence Peddler Cashing In Early
+
+            
+
+            - Munster Condo Association Sued For Discrimination
+
+            
+
+            - Six Candidates Vie For 7th District GOP Nomination...
+
+            
+
+            - Ballard Appoints Sanford Fire Chief
+
+            
+
+            - Anatomy Of An Internet Rumor
+
+            
+
+            - Colts Without Manning Sends Fans Into A Panic
+
+            
+
+            - Another Shooting: One Dead Another Two Shot
+
+            
+
+            - Bush Lifts Offshore Drilling Ban
+
+            
+
+            - Andy Martin Claims He Forced Obama To Admit Illegi...
+
+            
+
+            - Star Warns That More Long-Term Fixes Are Needed
+
+            
+
+            - Ballard Makes Minority Contracting A Priority
+
+            
+
+            - How Chicago Shaped Obama
+
+            
+
+            - New York Times Renews Issue Of McCain's Eligibilit...
+
+            
+
+            - Anatomy Of A Bank Failure
+
+            
+
+            - Sports Corporation Allowed To Beat Taxpayers Out O...
+
+            
+
+            - McCain Sees Opening With Women; MSM Moves Against ...
+
+            
+
+            - Does IPS Need Jackson's Help?
+
+            
+
+            - IMPD Officer Shot
+
+            
+
+            - What Happened To Transparency In Government?
+
+            
+
+            - Iran Successfully Tests Missiles Capable Of Reachi...
+
+            
+
+            - Anti-Obama Comments Land Jesse Jackson In Hot Wate...
+
+            
+
+            - Design Problems With Lucas Oil Stadium?
+
+            
+
+            - Ballard Grasps To Stay On Top Of Crime Wave
+
+            
+
+            - Obama Continues Quest To Be American Idol
+
+            
+
+            - Make That 14 Killings In The Last Two Weeks
+
+            
+
+            - City Claims Savings From Hedging Fuel Purchases
+
+            
+
+            - Twelve Killings In Thirteen Days
+
+            
+
+            - Pence Continues To Weave A Tangled Web
+
+            
+
+            - Murders Heat Up In Indy
+
+            
+
+            - Carpenter On Obama's No-Win Retreats
+
+            
+
+            - Obama Campaign Event Held At Fort Wayne Fire Stati...
+
+            
+
+            - Busted Officer Worked For Escort Service For Past ...
+
+            
+
+            - Will Blago Throw Obama Under The Bus?
+
+            
+
+            - Was McCory Singled Out?
+
+            
+
+            - Nuvo Responds To Prostitution Bust
+
+            
+
+            - Rezko Files Reveal More Dirty Secrets
+
+            
+
+            - Indy Police Corruption Widens
+
+            
+
+            - Reader Response To Abdul's Call For Police Beating...
+
+            
+
+            - Obamas Got Discount Loan On Mansion Convicted Felo...
+
+            
+
+            - Donations Always Welcome
+
+            
+
+            - Tax Rebate Checks Are In The Mail
+
+            
+
+            - Judge Barker Strikes Down New Law Regulating Busin...
+
+            
+
+            - A Don Imus Moment?
+
+            
+
+            - McCain In Town, Should I Care?
+
+            
+
+            - More Than Two Dozen Drug Cases To Be Dismissed
+
+            
+
+        
+
+        
+
+        
+
+        - ►  June (95)
+
+        
+
+        
+
+        - ►  May (78)
+
+        
+
+        
+
+        - ►  April (104)
+
+        
+
+        
+
+        - ►  March (83)
+
+        
+
+        
+
+        - ►  February (92)
+
+        
+
+        
+
+        - ►  January (97)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2007 (1095)
+
+        - ►  December (95)
+
+        
+
+        
+
+        - ►  November (103)
+
+        
+
+        
+
+        - ►  October (98)
+
+        
+
+        
+
+        - ►  September (92)
+
+        
+
+        
+
+        - ►  August (101)
+
+        
+
+        
+
+        - ►  July (94)
+
+        
+
+        
+
+        - ►  June (76)
+
+        
+
+        
+
+        - ►  May (77)
+
+        
+
+        
+
+        - ►  April (88)
+
+        
+
+        
+
+        - ►  March (97)
+
+        
+
+        
+
+        - ►  February (99)
+
+        
+
+        
+
+        - ►  January (75)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2006 (1068)
+
+        - ►  December (66)
+
+        
+
+        
+
+        - ►  November (80)
+
+        
+
+        
+
+        - ►  October (126)
+
+        
+
+        
+
+        - ►  September (100)
+
+        
+
+        
+
+        - ►  August (93)
+
+        
+
+        
+
+        - ►  July (100)
+
+        
+
+        
+
+        - ►  June (108)
+
+        
+
+        
+
+        - ►  May (103)
+
+        
+
+        
+
+        - ►  April (72)
+
+        
+
+        
+
+        - ►  March (79)
+
+        
+
+        
+
+        - ►  February (66)
+
+        
+
+        
+
+        - ►  January (75)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2005 (233)
+
+        - ►  December (50)
+
+        
+
+        
+
+        - ►  November (50)
+
+        
+
+        
+
+        - ►  October (53)
+
+        
+
+        
+
+        - ►  September (13)
+
+        
+
+        
+
+        - ►  August (18)
+
+        
+
+        
+
+        - ►  July (18)
+
+        
+
+        
+
+        - ►  June (19)
+
+        
+
+        
+
+        - ►  May (12)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blogflux
+
+
+
+Image: http://tools.blogflux.com/emailscramble/80x15.gif
+
+Image: http://tools.blogflux.com/rsslinks/button.gif
+
+Image: http://www.blogdigger.com/images/blogdigger2.gif
+
+Image: http://dir.blogflux.com/images/80x15.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png window.___gcfg =
+{"lang": "en_US"}; (function() { var po = document.createElement('script'); po.type =
+'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po,
+s); })();
+
+Subscribe To
+
+
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png All Comments
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png All Comments
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Site Meter
+
+var site="sm4welsh1981"
+
+Image: http://sm4.sitemeter.com/meter.asp?site=sm4welsh1981
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Comment Policy
+
+Advance Indiana allows you to post comments via this blog subject to the guidelines set forth
+herein. You understand that any comments you post are your own and are not those of Advance
+Indiana. You further understand that Advance Indiana is not responsible for the content of
+any external sites referenced in your comments. Unlawful, harassing, defamatory, abusive,
+threatening, harmful, obscene, profane, sexually oriented, racially offensive, or
+otherwise objectionable comments are not acceptable. If you think any content posted or
+otherwise included in Advance Indiana violates the guidelines set forth herein, then please
+alert Advance Indiana. Advance Indiana reserves the right to pre-screen, edit, and remove
+any post as it deems appropriate. You specifically acknowledge that Advance Indiana has no
+obligation to display any post submitted or otherwise provided via Advance Indiana.
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://www.blogger.com/buttons/blogger-powerby-blue.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Popular Posts
+
+    
+
+    -
+
+    Image:
+    http://2.bp.blogspot.com/-T43FeymYbKo/T2SEgtEh3kI/AAAAAAAAB0k/a1MV4UXMUWo/s72-c/Quartering+Act.jpg
+    The People of Indiana v. Richard Lugar: The Third Amendment In 1765, the British enacted a
+    law known as the Quartering Act, which required the American colonists to provide free
+    boarding to the Britis...
+
+    
+
+    - Daniels Gets The Threat Posed By Muslim Terrorism Gov. Mitch Daniels proved himself
+    worthy of the Man of Achievement Award he received last month from Indiana's
+    Anti-Defamation League. Danie...
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/-CAZDjiLXVr8/UFHUQFcV5dI/AAAAAAAACGk/KVWNUj5VvBw/s72-c/USStevens.jpg
+    Ambassador Stevens Raped Before He Was Murdered? The tragic news of Ambassador Chris
+    Stevens murder at the hands of Islamic terrorists after the U.S. consulate in Benghazi,
+    Libya was storme...
+
+    
+
+    -
+
+    Image:
+    http://2.bp.blogspot.com/_hi9W7dbsNYY/Sbj9oD9jmpI/AAAAAAAABNw/aZo4JMUwFVM/s72-c/DSC00583.JPG
+    Cosmopolitan On The Canal Project Destroyed By Fire A major early morning fire in
+    downtown Indianapolis has destroyed the Cosmopolitan On The Canal luxury residential
+    project in the 300 b...
+
+    
+
+    -
+
+    Image:
+    http://4.bp.blogspot.com/-l9naCkT6b_I/UGo8dwV4VhI/AAAAAAAACQc/x4vk15MNq5Q/s72-c/vop.png
+    Citizens Must Demand U.S. Attorney's Office Launch Criminal Investigation Into The
+    Passage Of Proposal 15 Councilor Vop Osili (D) What we witnessed at tonight's
+    City-County Council meeting was one of the most blatant criminal acts in the ...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/-O6eiCOEmFMM/UFE83MUXTuI/AAAAAAAACFs/2tT-kAmBZI0/s72-c/libyanambassador.jpg
+    Ambassador Stevens Was Missing For More Than Five Hours The State Department provided a
+    special briefing to reporters late today on the attack of the U.S. Consulate in Benghazi,
+    Libya that left A...
+
+    
+
+    - Who Paid For Obama's Harvard Law Education? There are many questions which remain
+    unanswered about the mysterious Barack Obama . The mainstream media has vetted Gov.
+    Sarah Palin more...
+
+    
+
+    - Marion County's Past Three Sheriffs All Still On The Payroll An observant reader had
+    an astute reaction to a letter to the editor former Marion County Sheriffs Joe
+    McAtee, Jack Cottey and Frank Anders...
+
+    
+
+    - Four Named Finalists For Public Safety Director The Indianapolis Star has identified
+    four finalists the Ballard administration is considering for the public safety
+    director's job recently...
+
+    
+
+    - Indianapolis Residents Forced To Hire Their Own Police For Protection As Ballard
+    Abandons Them Mayor Greg Ballard may claim that public safety is job one, but his number
+    one priority is funding the private business activities of the do...
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Labels
+
+    
+
+    - A.J. Feeney-Ruiz (3)
+
+    
+
+    - Abortion (3)
+
+    
+
+    - ACS (62)
+
+    
+
+    - Afghanistan (1)
+
+    
+
+    - Anderson Cooper (1)
+
+    
+
+    - andre carson (131)
+
+    
+
+    - Andrew Breitbart (1)
+
+    
+
+    - Andrew Breitbart. (1)
+
+    
+
+    - Animal Care And Control (1)
+
+    
+
+    - Anthony Weiner (4)
+
+    
+
+    - Anti-Suicide Mist (1)
+
+    
+
+    - Apollo (1)
+
+    
+
+    - Arizona Immigration Enforcement Law (1)
+
+    
+
+    - Arnold Schwarzenegger (3)
+
+    
+
+    - arrest (1)
+
+    
+
+    - Auburn car auction (1)
+
+    
+
+    - Ballard (2)
+
+    
+
+    - bankrutpcy (1)
+
+    
+
+    - barack obama (72)
+
+    
+
+    - Barnes v. State (4)
+
+    
+
+    - Baron Hill (2)
+
+    
+
+    - Bart Peterson (2)
+
+    
+
+    - basketball team (2)
+
+    
+
+    - Ben Hunter (1)
+
+    
+
+    - Ben Quayle (4)
+
+    
+
+    - Bernard Pylitt (1)
+
+    
+
+    - Bernie Madoff (1)
+
+    
+
+    - Beth White (1)
+
+    
+
+    - Beurt SerVaas (2)
+
+    
+
+    - Bill Ayers (1)
+
+    
+
+    - Bill Clinton (1)
+
+    
+
+    - Bill Cook (1)
+
+    
+
+    - Birch Bayh (2)
+
+    
+
+    - Birthers (2)
+
+    
+
+    - Bob Kerrey (1)
+
+    
+
+    - Bottoms Up (1)
+
+    
+
+    - Brendan Mullen (2)
+
+    
+
+    - Brian Hasler (3)
+
+    
+
+    - Brian Williams (1)
+
+    
+
+    - Brightpoint (1)
+
+    
+
+    - Brizzi Page Mobarecki FBI (1)
+
+    
+
+    - Broad Ripple Parking Garage (1)
+
+    
+
+    - Capital Improvements Board (4)
+
+    
+
+    - Cardinal Growth (1)
+
+    
+
+    - Carl Brizzi (18)
+
+    
+
+    - Carl Moldthan (3)
+
+    
+
+    - Carlos May (2)
+
+    
+
+    - carmel basketball team (1)
+
+    
+
+    - carmel high school (4)
+
+    
+
+    - Char Lugar (1)
+
+    
+
+    - Charle White (2)
+
+    
+
+    - Charlie Brown (2)
+
+    
+
+    - Charlie White (80)
+
+    
+
+    - Chicago (2)
+
+    
+
+    - chicago politics (1)
+
+    
+
+    - Chris Christie (2)
+
+    
+
+    - Christine Scales (8)
+
+    
+
+    - CIA (1)
+
+    
+
+    - CIB Okeson Keystone Venture Bales Pacers (79)
+
+    
+
+    - Circle Centre Mall (1)
+
+    
+
+    - City-County Council (1)
+
+    
+
+    - civil lawsuit (1)
+
+    
+
+    - Civil Service Code (1)
+
+    
+
+    - Class Action lawsuit (1)
+
+    
+
+    - CLST holdings (3)
+
+    
+
+    - CME (6)
+
+    
+
+    - Collective Bargaining (1)
+
+    
+
+    - Colts (1)
+
+    
+
+    - Conflict of Interest (3)
+
+    
+
+    - Connie Lawson (2)
+
+    
+
+    - Constitutional Eligibility (1)
+
+    
+
+    - Contempt of Police (3)
+
+    
+
+    - corruption (1)
+
+    
+
+    - Crime Beat (1)
+
+    
+
+    - Curtailing Investments (2)
+
+    
+
+    - Dan Burton (5)
+
+    
+
+    - Dan Coats (1)
+
+    
+
+    - Dan Laikin (1)
+
+    
+
+    - Dan Sigler (3)
+
+    
+
+    - Dan Wheldon (1)
+
+    
+
+    - Daniel "Rudy" Ruettiger (1)
+
+    
+
+    - daniels (2)
+
+    
+
+    - David Axelrod (2)
+
+    
+
+    - David Boudia (1)
+
+    
+
+    - David Dreyer (1)
+
+    
+
+    - David Hardy (1)
+
+    
+
+    - David McIntosh (15)
+
+    
+
+    - David Prosser (1)
+
+    
+
+    - Davy Jones (1)
+
+    
+
+    - DCS (3)
+
+    
+
+    - Dearborn County (1)
+
+    
+
+    - Democrat Petition-Forging Scandal (20)
+
+    
+
+    - Department of Workforce Development (1)
+
+    
+
+    - Derek Eitel (1)
+
+    
+
+    - Dick Cady (7)
+
+    
+
+    - dirty money (1)
+
+    
+
+    - Domestic Partner Benefits (2)
+
+    
+
+    - Don Bates (1)
+
+    
+
+    - Donald Lyons (2)
+
+    
+
+    - Donald Trump (11)
+
+    
+
+    - dorothy brown (1)
+
+    
+
+    - drugs (1)
+
+    
+
+    - Due Process (3)
+
+    
+
+    - Duesenberg (1)
+
+    
+
+    - Duesenburg (1)
+
+    
+
+    - Duke (4)
+
+    
+
+    - Duke Bennett (1)
+
+    
+
+    - E-Verify (1)
+
+    
+
+    - East Chicago (2)
+
+    
+
+    - Eavesdropping Laws (1)
+
+    
+
+    - Ener1 (1)
+
+    
+
+    - Englehart Group (1)
+
+    
+
+    - Eric Cantor (1)
+
+    
+
+    - Eric Holder (1)
+
+    
+
+    - Eric Turner (2)
+
+    
+
+    - Ersal Ozdemier (1)
+
+    
+
+    - Ersal Ozdemir (5)
+
+    
+
+    - Establishment Clause (1)
+
+    
+
+    - estate sale (1)
+
+    
+
+    - Evan Bayh (18)
+
+    
+
+    - Fair Finance (43)
+
+    
+
+    - falodun (2)
+
+    
+
+    - FBI Raid (1)
+
+    
+
+    - Fifth Amendment (1)
+
+    
+
+    - First Amendment (9)
+
+    
+
+    - Fourth Amendment (2)
+
+    
+
+    - Fox News (2)
+
+    
+
+    - Frank Straub (10)
+
+    
+
+    - fraud (3)
+
+    
+
+    - Fred Nation (1)
+
+    
+
+    - Fred Sanders (1)
+
+    
+
+    - FSSA (11)
+
+    
+
+    - Gannett (1)
+
+    
+
+    - George Janiec (1)
+
+    
+
+    - George Romney (1)
+
+    
+
+    - Glen Campbell (1)
+
+    
+
+    - Gloria Allred (2)
+
+    
+
+    - Golf Course (1)
+
+    
+
+    - Greg Ballard (333)
+
+    
+
+    - Greg Bowes (1)
+
+    
+
+    - Greg Porter (1)
+
+    
+
+    - Greg Zoeller (7)
+
+    
+
+    - GrinOn Industries (1)
+
+    
+
+    - Gun Control (2)
+
+    
+
+    - Hayslett (1)
+
+    
+
+    - Herb Simon (2)
+
+    
+
+    - Herman Cain (1)
+
+    
+
+    - Hillary Clinton (8)
+
+    
+
+    - HIV/AIDS (1)
+
+    
+
+    - hoge (2)
+
+    
+
+    - House Democrats (1)
+
+    
+
+    - Huston Plan (1)
+
+    
+
+    - IBM (8)
+
+    
+
+    - ICVA (2)
+
+    
+
+    - Illinois (1)
+
+    
+
+    - Immigration (2)
+
+    
+
+    - IMPD (10)
+
+    
+
+    - Indiana Ethics Commission (2)
+
+    
+
+    - Indiana General Assembly (1)
+
+    
+
+    - Indiana House Democrats (1)
+
+    
+
+    - Indiana Pacers (1)
+
+    
+
+    - Indiana Recount Commission (1)
+
+    
+
+    - Indiana State Fair Stage Collapse (14)
+
+    
+
+    - Indiana Supreme Court (1)
+
+    
+
+    - Indianapolis 500 (2)
+
+    
+
+    - Indianapolis Star (1)
+
+    
+
+    - indicted (1)
+
+    
+
+    - Inhabitant (1)
+
+    
+
+    - IPS (1)
+
+    
+
+    - IURC (5)
+
+    
+
+    - Jack Abramoff (1)
+
+    
+
+    - Jackie Walorski (2)
+
+    
+
+    - James Brainard (6)
+
+    
+
+    - james cochran (2)
+
+    
+
+    - James Madison (1)
+
+    
+
+    - James O'Keefe (2)
+
+    
+
+    - James Payne (1)
+
+    
+
+    - james purucker (1)
+
+    
+
+    - James Scott (1)
+
+    
+
+    - James Wallace (9)
+
+    
+
+    - Jerry Sandusky (1)
+
+    
+
+    - Jerry Slusser (2)
+
+    
+
+    - Jesse Jackson (1)
+
+    
+
+    - Jim Caldwell (1)
+
+    
+
+    - Joanne Sanders (1)
+
+    
+
+    - Joe Andrew (1)
+
+    
+
+    - Joe Arpaio (1)
+
+    
+
+    - Joe Donnelly (6)
+
+    
+
+    - Joe Hogsett (6)
+
+    
+
+    - Joe Miller (10)
+
+    
+
+    - Joe O'Connor (1)
+
+    
+
+    - Joe Simpson (2)
+
+    
+
+    - John Bales (8)
+
+    
+
+    - John Clark (2)
+
+    
+
+    - John Edwards (3)
+
+    
+
+    - John Gregg (18)
+
+    
+
+    - John McGoff (10)
+
+    
+
+    - John Roberts (1)
+
+    
+
+    - Jon Corzine (1)
+
+    
+
+    - Jon Huntsman (3)
+
+    
+
+    - Jonathan Turley (1)
+
+    
+
+    - Jr. (1)
+
+    
+
+    - Julia Carson (1)
+
+    
+
+    - JW Marriott (1)
+
+    
+
+    - Karl Rove (2)
+
+    
+
+    - Keenan Hauke (2)
+
+    
+
+    - Kentuck Bridge Boondoggle (2)
+
+    
+
+    - Kevin Yoder (1)
+
+    
+
+    - Killing Fields (1)
+
+    
+
+    - kitzinger (2)
+
+    
+
+    - Kostas Poulakidas (8)
+
+    
+
+    - laskowski (2)
+
+    
+
+    - Lauren Spierer (3)
+
+    
+
+    - Lauren Spierers (2)
+
+    
+
+    - lawsuit (1)
+
+    
+
+    - leerkamp (2)
+
+    
+
+    - Leucadia (5)
+
+    
+
+    - Libertarian Party (1)
+
+    
+
+    - Libraries (1)
+
+    
+
+    - Libya (4)
+
+    
+
+    - Lincoln Plowman (33)
+
+    
+
+    - Litebox (8)
+
+    
+
+    - Little Hatch Act (1)
+
+    
+
+    - Loans (1)
+
+    
+
+    - Lobbyists (1)
+
+    
+
+    - Louis Rosenberg (2)
+
+    
+
+    - ludacris (1)
+
+    
+
+    - Lugar (1)
+
+    
+
+    - Luke Messer (3)
+
+    
+
+    - Manning Twins (1)
+
+    
+
+    - Mara Candelaria-Reardon (1)
+
+    
+
+    - Marco Rubio (1)
+
+    
+
+    - Marion County Coroner (3)
+
+    
+
+    - Marion County Judicial System (2)
+
+    
+
+    - Mark Hyman (1)
+
+    
+
+    - Mark Kirk (1)
+
+    
+
+    - Mark Lubbers (4)
+
+    
+
+    - Mark Massa (1)
+
+    
+
+    - Marriage Discrimination Amendment (2)
+
+    
+
+    - Marriage License Fraud (1)
+
+    
+
+    - Martial Law (1)
+
+    
+
+    - Marty Obst (1)
+
+    
+
+    - Mary Ann Sullivan (1)
+
+    
+
+    - Mary Beth Grismore (2)
+
+    
+
+    - McGuire (1)
+
+    
+
+    - Media (1)
+
+    
+
+    - Melina Kennedy (22)
+
+    
+
+    - Members of Congress (1)
+
+    
+
+    - Merit Selection (1)
+
+    
+
+    - Michael Witte (1)
+
+    
+
+    - Michele Bachmann (1)
+
+    
+
+    - Mike Delph (11)
+
+    
+
+    - Mike Marshall (2)
+
+    
+
+    - Mike Pence (14)
+
+    
+
+    - Mind Trust (1)
+
+    
+
+    - Mitch Daniels (195)
+
+    
+
+    - Mitch Roob (4)
+
+    
+
+    - Mitt Romney (17)
+
+    
+
+    - Morgan Stanley (1)
+
+    
+
+    - Mortgage Fraud (1)
+
+    
+
+    - naples (1)
+
+    
+
+    - National Lampoon (2)
+
+    
+
+    - Natural Born Citizen (81)
+
+    
+
+    - Natural Born Citizenship (1)
+
+    
+
+    - News Corp. (1)
+
+    
+
+    - Newt Gingrich (8)
+
+    
+
+    - NFL (1)
+
+    
+
+    - North of South (2)
+
+    
+
+    - Obamacare (7)
+
+    
+
+    - Obsidian Enterprises (4)
+
+    
+
+    - Occupy Indianapolis (1)
+
+    
+
+    - Ohio regulators (1)
+
+    
+
+    - OmniSource (4)
+
+    
+
+    - Osama bin Laden (3)
+
+    
+
+    - Pacers (2)
+
+    
+
+    - Pamela Geller (1)
+
+    
+
+    - Pardons (2)
+
+    
+
+    - Parking Meter Lease (7)
+
+    
+
+    - Pat Bauer (3)
+
+    
+
+    - Pau Page (1)
+
+    
+
+    - paul bateman (3)
+
+    
+
+    - Paul Page (2)
+
+    
+
+    - Paul Ryan (4)
+
+    
+
+    - Paula Hughes (1)
+
+    
+
+    - Pay To Play (24)
+
+    
+
+    - Perry Township Constable (1)
+
+    
+
+    - Pete Buttigieg (2)
+
+    
+
+    - Peter Rusthoven (1)
+
+    
+
+    - Peyton Manning (1)
+
+    
+
+    - Phillip Hinkle (9)
+
+    
+
+    - Political contributions (2)
+
+    
+
+    - ponzi scheme (12)
+
+    
+
+    - Poppers (9)
+
+    
+
+    - princeton (1)
+
+    
+
+    - Project Veritas (1)
+
+    
+
+    - Property Taxes (1)
+
+    
+
+    - Public Employees (1)
+
+    
+
+    - Public Pensions (1)
+
+    
+
+    - Race Discrimination (1)
+
+    
+
+    - Randall Shepard (2)
+
+    
+
+    - Recount Commission (1)
+
+    
+
+    - Red Rock Pictures Holdings (1)
+
+    
+
+    - Redistricting (3)
+
+    
+
+    - Religious Freedom (1)
+
+    
+
+    - Residence (2)
+
+    
+
+    - Residency (25)
+
+    
+
+    - Richard Daley (4)
+
+    
+
+    - Richard Lugar (144)
+
+    
+
+    - Richard Mourdock (78)
+
+    
+
+    - Rick Perry (3)
+
+    
+
+    - Rick Santorum (7)
+
+    
+
+    - Rick Snow (1)
+
+    
+
+    - Right To Work (8)
+
+    
+
+    - Rod (1)
+
+    
+
+    - Rod Blagojevich (7)
+
+    
+
+    - Rolls-Royce (1)
+
+    
+
+    - Ron Paul (15)
+
+    
+
+    - Roy Houchins (1)
+
+    
+
+    - RTA (1)
+
+    
+
+    - Rupert Boneham (7)
+
+    
+
+    - Rush Limbaugh (1)
+
+    
+
+    - russell foundation (3)
+
+    
+
+    - Ryan Vaughn (58)
+
+    
+
+    - Samex (1)
+
+    
+
+    - Sandra Fluke (1)
+
+    
+
+    - Saul Alinsky (1)
+
+    
+
+    - School Vouchers (1)
+
+    
+
+    - Scott Keller (1)
+
+    
+
+    - Scott McCain. (1)
+
+    
+
+    - Scott Storms (1)
+
+    
+
+    - search warrants (1)
+
+    
+
+    - SEC (2)
+
+    
+
+    - Second Amendment (5)
+
+    
+
+    - Self-Enchrichment (1)
+
+    
+
+    - sexual assault (4)
+
+    
+
+    - State Employees (1)
+
+    
+
+    - Stephen Plopper (1)
+
+    
+
+    - Steve Buyer (1)
+
+    
+
+    - Steve Goldsmith (6)
+
+    
+
+    - Steve Hilbert (1)
+
+    
+
+    - Steve Talley (1)
+
+    
+
+    - Steven David (2)
+
+    
+
+    - Stonewall Democrats (1)
+
+    
+
+    - Sue Ellspermann (1)
+
+    
+
+    - Super Bowl (16)
+
+    
+
+    - Susan Brooks (6)
+
+    
+
+    - Swim team assault (1)
+
+    
+
+    - Tax Abatements (2)
+
+    
+
+    - Taxes (1)
+
+    
+
+    - Terry Curry (10)
+
+    
+
+    - Third Amendment (1)
+
+    
+
+    - Thomas McDermott (1)
+
+    
+
+    - Thomas Roeser (1)
+
+    
+
+    - TIFS (7)
+
+    
+
+    - tim durham (54)
+
+    
+
+    - tim durham II (1)
+
+    
+
+    - tim morrison (2)
+
+    
+
+    - Tim Motsinger (1)
+
+    
+
+    - Timothy Durham (2)
+
+    
+
+    - Todd Rokita (1)
+
+    
+
+    - Tom Charles Huston (1)
+
+    
+
+    - Tom Henry (1)
+
+    
+
+    - Tony Rezko (6)
+
+    
+
+    - Towing (1)
+
+    
+
+    - TWG Capital (1)
+
+    
+
+    - UFOs (1)
+
+    
+
+    - Venture Real Estate (2)
+
+    
+
+    - Venture Value Fund I (1)
+
+    
+
+    - Veolia (1)
+
+    
+
+    - Vi Simpson (2)
+
+    
+
+    - Vop Osili (7)
+
+    
+
+    - Vote Fraud (34)
+
+    
+
+    - Voter Fraud (3)
+
+    
+
+    - Voter ID (2)
+
+    
+
+    - Walkout (4)
+
+    
+
+    - Wall Street Journal (1)
+
+    
+
+    - War Powers Act (2)
+
+    
+
+    - Wayne Seybold (1)
+
+    
+
+    - Welfare Privatization (11)
+
+    
+
+    - WIBC (1)
+
+    
+
+    - William Cellini (3)
+
+    
+
+    - Win Moses (1)
+
+    
+
+    - Young Presidents Organization (1)
+
+    
+
+    - Zach Adamson (1)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Google Analytics
+
+var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-20898809-1']);
+_gaq.push(['_trackPageview']); (function() { var ga =
+document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src
+= ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+'.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s); })();
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Simple template.
+Powered by Blogger .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+window.setTimeout(function() { document.body.className =
+document.body.className.replace('loading', ''); }, 10); if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV2";window['blogger_blog_id'] =
+'12703782';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d12703782','//advanceindiana.blogspot.com/2008_07_01_archive.html','12703782');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '12703782',
+'bloggerUrl': 'http://www.blogger.com', 'title': 'Advance Indiana', 'pageType':
+'archive', 'url': 'http://advanceindiana.blogspot.com/2008_07_01_archive.html',
+'canonicalUrl': 'http://advanceindiana.blogspot.com/2008_07_01_archive.html',
+'canonicalHomepageUrl': 'http://advanceindiana.blogspot.com/', 'homepageUrl':
+'http://advanceindiana.blogspot.com/', 'blogspotFaviconUrl':
+'http://advanceindiana.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': 'July
+2008', 'pageTitle': 'Advance Indiana: July 2008', 'encoding': 'UTF-8', 'locale':
+'en-US', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false,
+'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks':
+'\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42Advance Indiana - Atom\42
+href\75\42http://advanceindiana.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42Advance Indiana - RSS\42
+href\75\42http://advanceindiana.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Advance Indiana - Atom\42
+href\75\42http://www.blogger.com/feeds/12703782/posts/default\42 /\76\n\74link
+rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\07512703782\42 /\076', 'meTag': '',
+'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId':
+'pub-0505465891059243', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script
+type\75\42text/javascript\42
+src\75\42//www.blogger.com/static/v1/jsbin/3651483553-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076',
+'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'content_padding': '10px', 'paging_background':
+'transparent none no-repeat scroll top center', 'image_border_small_size': '2px',
+'body_background_gradient_cap':
+'url(//www.blogblog.com/1kt/simple/gradients_light.png)',
+'tabs_selected_background_color': '#eeeeee', 'body_rule_color': '#eeeeee',
+'header_shadow_spread': '1px', 'header_shadow_offset_left': '-1px',
+'header_padding': '30px', 'link_visited_color': '#888888',
+'mobile_background_size': 'auto', 'post_title_font': 'normal normal 22px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif', 'tabs_text_color': '#999999',
+'date_header_margin': 'inherit', 'header_background_gradient': 'none',
+'content_shadow_spread_webkit': '5px', 'header_bottom_border_size': '1px',
+'header_shadow_offset_top': '-1px', 'mobile_button_color': '#ffffff',
+'widget_title_font': 'normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif',
+'main_section_margin': '15px', 'keycolor': '#66bbdd', 'content_shadow_spread':
+'40px', 'image_background_color': '#ffffff', 'header_font': 'normal normal 60px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif', 'header_background_color': 'transparent',
+'main_border_width': '0', 'main_padding': '15px', 'tabs_border_color': '#eeeeee',
+'image_text_color': '#222222', 'description_text_size': '140%',
+'post_footer_background_color': '#f9f9f9', 'body_background_gradient_tile':
+'url(//www.blogblog.com/1kt/simple/body_gradient_tile_light.png)', 'page_width':
+'auto', 'tabs_background_gradient':
+'url(//www.blogblog.com/1kt/simple/gradients_light.png)',
+'mobile_background_overlay': 'transparent none repeat scroll top left',
+'main_padding_bottom': '30px', 'tabs_background_color': '#f5f5f5',
+'image_border_large_size': '5px', 'post_margin_bottom': '25px',
+'body_background_override': '', 'tabs_margin_side': '30px', 'link_hover_color':
+'#33aaff', 'description_text_color': '#777777', 'body_text_color': '#222222',
+'content_padding_horizontal': '10px', 'endSide': 'right', 'page_width_selector':
+'.region-inner', 'date_header_padding': 'inherit', 'post_footer_text_color':
+'#666666', 'startSide': 'left', 'date_header_color': '#222222', 'tabs_font': 'normal
+normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif',
+'post_footer_border_color': '#eeeeee', 'body_font': 'normal normal 12px Arial, Tahoma,
+Helvetica, FreeSans, sans-serif', 'footer_bevel': '0', 'tabs_bevel_border_width':
+'1px', 'date_header_background_color': 'transparent', 'content_shadow_spread_ie':
+'10px', 'widget_title_text_color': '#000000', 'header_border_horizontalsize': '0',
+'image_border_color': '#eeeeee', 'tabs_border_width': '1px',
+'content_background_color': '#ffffff', 'link_color': '#2288bb',
+'header_text_color': '#3399bb', 'date_header_letterspacing': 'inherit',
+'tabs_margin_top': '0', 'main_padding_top': '30px', 'header_border_size': '1px',
+'tabs_selected_text_color': '#000000', 'content_background_color_selector':
+'.content-inner', 'body_background_color': '#66bbdd',
+'widget_alternate_text_color': '#999999'}, 'override': ''}}, {'name': 'view', 'data':
+{'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name':
+'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_AdSenseView', new
+_WidgetInfo('AdSense2', 'crosscol', null, document.getElementById('AdSense2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'footer-3', null,
+document.getElementById('Attribution1'), {'attribution': 'Simple template. Powered
+by \74a href\75\47http://www.blogger.com\47
+target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_AdSenseView', new
+_WidgetInfo('AdSense3', 'sidebar-right-1', null,
+document.getElementById('AdSense3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense1',
+'sidebar-right-1', null, document.getElementById('AdSense1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_CustomSearchView', new
+_WidgetInfo('CustomSearch1', 'sidebar-right-1', null,
+document.getElementById('CustomSearch1'), {'title': 'Search This Blog',
+'includeBlog': true, 'includePostLinks': true, 'includeWeb': false, 'linkLists':
+[{'id': 'LinkList2', 'title': 'Blogs'}], 'blogUrl':
+'http://advanceindiana.blogspot.com/', 'loadingMsg': 'Loading...', 'thisBlogMsg':
+'This Blog', 'linkedFromHereMsg': 'Linked From Here', 'theWebMsg': 'The Web',
+'backgroundColor': '#ffffff', 'textColor': '#222222', 'dateColor': '#777777',
+'linkColor': '#2288bb', 'urlColor': '#2288bb', 'visitedLinkColor': '#888888',
+'borderColor': '#eeeeee', 'activeBorderColor': '#eeeeee'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1',
+'sidebar-right-1', null, document.getElementById('Profile1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextView', new
+_WidgetInfo('Text2', 'sidebar-right-1', null, document.getElementById('Text2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML2', 'sidebar-right-1', null, document.getElementById('HTML2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList2', 'sidebar-right-1', null,
+document.getElementById('LinkList2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1',
+'sidebar-right-1', null, document.getElementById('LinkList1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_GadgetView', new
+_WidgetInfo('Gadget1', 'sidebar-right-1', null,
+document.getElementById('Gadget1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar-right-1', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML5', 'sidebar-right-1', null, document.getElementById('HTML5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PlusOneView', new
+_WidgetInfo('PlusOne1', 'sidebar-right-1', null,
+document.getElementById('PlusOne1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_SubscribeView', new _WidgetInfo('Subscribe1',
+'sidebar-right-1', null, document.getElementById('Subscribe1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'sidebar-right-1', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextView', new
+_WidgetInfo('Text1', 'sidebar-right-1', null, document.getElementById('Text1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BloggerButtonView', new
+_WidgetInfo('BloggerButton1', 'sidebar-right-1', null,
+document.getElementById('BloggerButton1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new
+_WidgetInfo('PopularPosts1', 'sidebar-right-1', null,
+document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1',
+'sidebar-right-1', null, document.getElementById('Label1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML3', 'footer-1', null, document.getElementById('HTML3'), {},
+'displayModeFull'));
+

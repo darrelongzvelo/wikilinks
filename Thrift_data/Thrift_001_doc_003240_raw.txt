@@ -1,0 +1,2769 @@
+
+
+
+
+/********************************************************** * Standard Tags
+*********************************************************/ body { margin: 0;
+padding: 0; background: #000000; color: #cccccc; font-family: verdana, geneva, lucida,
+'lucida grande', arial, helvetica, sans-serif; font-size: 13px; } a:link, .body_alink {
+color: #cccccc; text-decoration: none; } a:visited, .body_avisited { color: #cccccc; }
+a:hover, a:active, .body_ahover { color: #fde23c; outline: none; } p { margin: 0; padding: 0 0
+10px; } fieldset { margin: 0 0 10px; border: 1px solid #3b3c40; } legend { color: #ffffff;
+font-size: 14px; font-weight: bold; } input, select { font-size: 12px; } textarea, .wysiwyg
+{ font-family: helvetica, verdana, arial, sans-serif; font-size: 13px; } @media only
+screen and (min-device-width: 320px) and (max-device-width: 480px) { html {
+-webkit-text-size-adjust: none; } }
+/********************************************************** * Tables
+*********************************************************/ td { padding: 5px; } .tcat
+{ padding: 3px 5px 5px 5px; color: #e5e5e5; font-size: 14px; white-space: nowrap; } .thead {
+color: #e5e5e5; font-weight: normal; white-space: nowrap; } .trow, .alt1, .alt2 { padding:
+6px; border-bottom: 1px solid #3b3c40; line-height: 18px; }
+/********************************************************** * Misc Helpers
+*********************************************************/ .dg-gray-font { color:
+#808080; font-size: 12px; } .dg-gray-font a { color: #808080; font-size: 12px; }
+.dg-gray-font a:hover { color: #fde23c; } .smallfont { color: #808080; font-size: 12px; }
+.clear { clear:both; } .floatcontainer, .submitrow { clear: both; display: block; }
+.inlinemod { background: #666666 !important; }
+/********************************************************** * Wrapper
+*********************************************************/ #dg-wrap { min-width:
+1010px; background: #000000
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/bg.jpg') center top no-repeat; }
+/********************************************************** * Header
+*********************************************************/ #dg-header-wrap {
+margin: 0 12px; } #dg-header { width: 980px; height: 140px; margin: 0 auto; } #dg-logo {
+padding: 20px 40px 0; } #dg-logo a { display: block; width:367px; height: 82px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png') 0px -70px
+no-repeat; } /********************************************************** * Sub Nav
+*********************************************************/ #dg-sub-nav { margin: 0
+auto; padding: 15px 0 0 40px; } #dg-sub-nav ul { padding: 0; margin: 0; } #dg-sub-nav ul li {
+float: left; display: block; } #dg-sub-nav ul li a { float: left; display: block; padding: 5px
+25px 0 0; color: #ffffff; font-size: 12px; text-decoration: none; } #dg-sub-nav ul li
+a:hover { color: #fde23c; }
+/********************************************************** * VB Menus
+*********************************************************/ .vbmenu_control {
+white-space: nowrap; } .vbmenu_popup { padding: 5px; background: #262626; border: 3px
+solid #919191; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius:
+5px; color: #919191; } .vbmenu_popup .thead { padding: 5px 10px; font-size: 12px;
+text-transform: uppercase; } .vbmenu_popup .vbmenu_option { padding: 8px 10px;
+border-top:1px solid #4f4f4f; } .vbmenu_popup .vbmenu_option a { color: #919191;
+font-size: 13px; text-decoration: none; } .vbmenu_popup .vbmenu_option a:hover { color:
+#ffffff; } .vbmenu_popup .vbmenu_hilite { padding: 8px 10px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png') -200px -160px
+no-repeat; border-top:1px solid #4f4f4f; color: #ffffff; font-size: 13px; }
+.vbmenu_popup .vbmenu_hilite a { color: #ffffff; font-size: 13px; text-decoration: none;
+} /********************************************************** * Breadcrumb
+*********************************************************/ #dg-breadcrumb {
+position: relative; height: 50px; margin: 0 5px; color: #000000; font-size: 12px; }
+#dg-breadcrumb-left { position: absolute; left: 0; width: 20px; height: 50px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/breadcrumb-left.png'); }
+#dg-breadcrumb-right { position: absolute; right: 0; width: 20px; height: 50px;
+background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/breadcrumb-right.png'); }
+#dg-breadcrumb-content { height: 45px; margin: 0 20px; padding: 5px 0 0; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/breadcrumb-bg.png'); }
+#dg-breadcrumb a { color: #000000; text-decoration: none; } #dg-breadcrumb a:hover {
+color: #fde23c; } /********************************************************** *
+Breadcrumb Trail *********************************************************/
+#dg-breadcrumb-trail { position: relative; left: -10px; } #dg-breadcrumb-trail a,
+#dg-breadcrumb-trail span { display: block; float: left; } #dg-breadcrumb-trail span span
+{ display: inline; float: none; } #dg-trail-home { padding: 15px 15px 10px; } #dg-trail-home
+span { width: 14px; height: 17px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png') -50px 0px
+no-repeat; cursor: pointer; } #dg-trail-home:hover span { background-position: -70px
+0px; } #dg-trail-last { padding: 17px 10px; } a.dg-trail-crumb { padding: 17px 10px 14px; }
+span.dg-trail-spacer { position: relative; top:5px; width: 8px; height: 38px;
+background: url('http://d26ya5yqg8yyvs.cloudfront.net/images/crumb-spacer.png')
+center center no-repeat; }
+/********************************************************** * Breadcrumb User
+*********************************************************/ #dg-breadcrumb-user {
+position: absolute; top:10px; right: 17px; padding-left: 15px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/breadcrumb-member-bg.png')
+repeat-x; } /* Shadow */ #dg-breadcrumb-shadow { position: absolute; top:0; left:-43px;
+width: 43px; height: 39px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/breadcrumb-shadow.png')
+no-repeat; } /********************************************************** *
+Breadcrumb Member *********************************************************/
+.dg-breadcrumb-member { float: left; } /* Welcome */ #dg-breadcrumb-welcome { padding:
+13px 15px 13px 0; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/breadcrumb-user-spacer.png')
+right top no-repeat; } /* Profile */ #dg-breadcrumb-profile a { display: block; width: 50px;
+height: 40px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/breadcrumb-user-spacer.png')
+right top no-repeat; } #dg-breadcrumb-profile a span { position: relative; top:9px; left:
+15px; display: block; width: 20px; height: 20px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png') -90px 0px
+no-repeat; } #dg-breadcrumb-profile a:hover span { background-position: -120px 0px; } /*
+Messages */ #dg-breadcrumb-messages a { display: block; width: 40px; height: 40px; }
+#dg-breadcrumb-messages a span { position: relative; top:11px; left: 15px; display:
+block; width: 20px; height: 20px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png') -150px 0px
+no-repeat; } #dg-breadcrumb-messages a:hover span,
+#dg-breadcrumb-messages.dg-new-messages span { background-position: -180px 0px; } /*
+Unread */ #dg-breadcrumb-unread { margin: 2px 0 0; padding: 11px 5px 13px; }
+#dg-breadcrumb-unread.dg-new-messages a { color: #fde23c; }
+/********************************************************** * Breadcrumb Guest
+*********************************************************/ /* Login */
+#dg-breadcrumb-login { position: relative; display: block; float: left; width: 63px;
+height: 26px; margin: 7px 0 0; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png') 0 -30px
+no-repeat; outline: none; } #dg-breadcrumb-login:hover { background-position: -70px
+-30px; } #dg-breadcrumb-login-tabindex { position: absolute; left: -99999px; } /* Login
+Popup */ #dg-login-popup { visibility: hidden; position: absolute; top:25px; width: 63px;
+z-index: 1000; } #dg-login-popup form { position: absolute; left: -80px; width:200px;
+margin: 0; padding: 10px; background: #262626; border: 3px solid #919191; border-radius:
+5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -webkit-box-shadow: rgba(0,
+0, 0, 0.4) 0px 0px 15px 5px; -moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 15px 5px; box-shadow:
+rgba(0, 0, 0, 0.4) 0px 0px 15px 5px; color: #919191; } #dg-login-popup-notch { position:
+relative; top:3px; z-index: 10; display: block; margin: 0 auto; width:27px; height: 13px;
+background: url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png')
+-210px 0px no-repeat; } #dg-login-popup-username-label,
+#dg-login-popup-password-label { display: block; padding: 0 0 5px; }
+#dg-login-popup-username, #dg-login-popup-password { width:190px; margin: 0 0 10px;
+padding: 5px 3px; background: #cccccc; border:none; border-radius:3px; font-size:13px;
+-webkit-border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px;
+box-shadow:inset 0 0 16px #666666; -webkit-box-shadow:inset 0 0 16px #666666;
+-moz-box-shadow:inset 0 0 16px #666666; -webkit-transition:background 0.3s ease-in;
+-moz-transition:background 0.3s ease-in; transition:background 0.3s ease-in; }
+#dg-login-popup-username:focus, #dg-login-popup-password:focus { background:
+#ffffff; box-shadow:inset 0 0 5px #999999; -webkit-box-shadow:inset 0 0 5px #999999;
+-moz-box-shadow:inset 0 0 5px #999999; outline: none; } /* Register */
+#dg-breadcrumb-register { display: block; float: left; width: 83px; height: 26px; margin:
+7px 0 0 8px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png') -140px -30px
+no-repeat; } #dg-breadcrumb-register:hover { background-position: -230px -30px; }
+/********************************************************** * Content Background
+*********************************************************/
+#dg-content-shadow-left { margin: 0 0 0 5px; padding: 0 0 0 10px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/content-shadow-left.png') left
+top repeat-y; } #dg-content-shadow-right { margin: 0 5px 0 0; padding: 0 10px 0 0; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/content-shadow-right.png')
+right top repeat-y; } #dg-content-wrap { padding: 10px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/content-bg.jpg') repeat; }
+#dg-content-bottom { position: relative; z-index: 1; margin: 0 5px; }
+#dg-content-bottom-left { position: absolute; top:0; left: 0; width: 20px; height: 20px;
+background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/content-bottom-left.png')
+no-repeat; } #dg-content-bottom-center { height: 20px; margin: 0 20px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/content-bottom.png') repeat-x; }
+#dg-content-bottom-right { position: absolute; top:0; right: 0; width: 20px; height:
+20px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/content-bottom-right.png')
+no-repeat; } .dg-content-box { padding: 10px; background: #202020; border:1px solid
+#414141; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px;
+box-shadow: 0 0 5px #101012; -webkit-box-shadow: 0 0 5px #101012; -moz-box-shadow: 0 0 5px
+#101012; } /********************************************************** * Fixed Width
+Content *********************************************************/ body.fixed
+#dg-breadcrumb { width:1000px; margin: 0 auto; } body.fixed #dg-content-shadow-left {
+width:990px; margin: 0 auto; } body.fixed #dg-content-shadow-right { margin: 0 auto; }
+body.fixed #dg-content-bottom { width:1000px; margin: 0 auto; }
+/********************************************************** * Redirect
+*********************************************************/ #redirect-box { width:
+600px; margin: 0 auto; } #redirect-box .panelsurround { padding: 10px; background:
+#262626; border: 10px solid #4d4d4d; border-radius: 6px; -webkit-border-radius: 6px;
+-moz-border-radius: 6px; }
+/********************************************************** * Forum Header
+*********************************************************/ .dg-forum-header {
+height: 30px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/forum-header.jpg') repeat-x;
+color: #808080; } .dg-forum-header td { height: auto; white-space: nowrap; }
+.dg-forum-header-left { padding-left: 20px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/forum-header-left.jpg') left top
+no-repeat; } .dg-forum-header-right { background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/forum-header-right.jpg') right
+top no-repeat; } .dg-forum-header-spacer td { height: 5px; padding: 0; }
+/********************************************************** * Forums
+*********************************************************/ .dg-forums td { padding:
+6px; border-bottom: 1px solid #454545; line-height: 18px; } .dg-status-icon-td {
+text-align: left; white-space: nowrap; }
+/********************************************************** * Sub Forums
+*********************************************************/ #dg-subforums-list {
+margin-bottom: 50px; } .dg-sub-forums-tree { display: none; } .dg-has-sub-forums td {
+border-bottom: none; } /* Small */ .dg-sub-forums-small td { padding: 0; border-bottom:
+none; } .dg-sub-forums-small-notch { height: 10px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/subforum-notch.jpg') 70px top
+no-repeat; } .dg-sub-forums-small-content { padding: 5px 10px; background: #404040;
+border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; }
+.dg-sub-forums-small-border { height:10px; border-bottom: 1px solid #454545; } /* Large
+*/ #forums .dg-forums-level2 .dg-status-icon-td { padding-left: 0; } #forums
+.dg-forums-level2 .dg-sub-forums-tree { display: inline; position: relative; top:2px; }
+/********************************************************** * Forum
+*********************************************************/ /* Announcement */
+.dg-announcement { background: #333333; border-radius: 6px; } .dg-announcement td {
+border-bottom: none; } /* Controls */ #dg-forum-controls-above .trow { padding: 10px 0;
+border-bottom: none; } #dg-forum-controls-below .trow { padding: 10px 0; border-bottom:
+none; } .dg-new-thread-button { display: block; width: 108px; height: 26px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png') -320px -30px
+no-repeat; } .dg-new-thread-button:hover { background-position: -440px -30px; } /*
+Threads */ .dg-thread-sticky tr td { background: #333333; border-bottom: 1px solid
+#4d4d4d; } /* Display Options */ #dg-forum-display-options { padding: 20px 0 0; }
+#dg-forum-display-options .trow { border-bottom: none; } /* Active Users */
+#dg-forum-active-users { } #dg-forum-active-users .trow { padding-left:20px;
+border-bottom: none; } /**********************************************************
+* Thread *********************************************************/ /* New Reply */
+.dg-new-reply-button-large { display: block; width: 96px; height: 26px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png') -560px -30px
+no-repeat; } .dg-new-reply-button-large:hover { background-position: -670px -30px; } /*
+Posts */ .dg-post { margin: 0 0 25px; border-radius: 6px; -webkit-border-radius: 6px;
+-moz-border-radius: 6px; } /* Post Header */ .dg-post-header { margin: 0 0 5px; padding: 5px
+0; border-top: 1px solid #808080; } .dg-post-header-count { float: right; }
+.dg-post-header-date { float: left; } .dg-post-header-date img { position: relative;
+top:3px; } /* Post Content */ .dg-post-content { padding: 10px 15px; background: #333333;
+border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; color:
+#cccccc; line-height: 20px; } .dg-post-content a, .dg-post-preview a, .dg-post-review a {
+text-decoration: underline; } .dg-post-title { margin: 0 0 5px; padding: 0 0 5px;
+border-bottom: 1px solid #4d4d4d; } /* Post User */ .dg-post-user { padding: 5px 15px 5px 0;
+line-height: 18px; } .dg-post-user-name { font-size: 16px; } .dg-post-user-avatar {
+padding: 10px 0; } /* Post Mod */ .dg-post-mod { float: left; padding: 5px 0 0; } .dg-post-mod
+img { padding: 0 5px 0 0; } /* Post Buttons */ .dg-post-buttons { float: right; padding: 5px 0 0 ; }
+.dg-post-button { float: right; display: block; margin: 0 0 0 10px; } .dg-post-edit { width:
+52px; height: 17px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png') -470px -0px
+no-repeat; } .dg-post-edit:hover { background-position: -410px -0px; } .dg-post-reply {
+width: 70px; height: 17px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png') -780px -30px
+no-repeat; } .dg-post-reply:hover { background-position: -860px -30px; }
+.dg-post-forward { width: 88px; height: 14px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png') -790px -0px
+no-repeat; } .dg-post-forward:hover { background-position: -690px -0px; }
+.dg-post-quickreply { width: 22px; height: 17px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png') -920px -0px
+no-repeat; } .dg-post-quickreply:hover { background-position: -890px -0px; } /* Post
+Search */ .dg-post-search-thread { margin: 40px 0 0; padding: 0 0 1px; } .dg-post-search {
+margin: 10px 0; padding: 10px; background: #333333; border-radius: 6px;
+-webkit-border-radius: 6px; -moz-border-radius: 6px; color: #ffffff; }
+.dg-post-search-header { margin-bottom: 10px; padding-bottom: 10px; line-height: 20px;
+border-bottom: 1px solid #4d4d4d; } .dg-post-search-content { }
+/********************************************************** * Post Reply
+*********************************************************/ .dg-post-review {
+padding: 10px 15px; background: #333333; border-radius: 6px; -webkit-border-radius:
+6px; -moz-border-radius: 6px; color: #ffffff; line-height: 20px; }
+.dg-post-review-header { margin-bottom: 10px; border-bottom: 1px solid #4d4d4d; }
+/********************************************************** * Page Nav
+*********************************************************/ .dg-pagenav { float:
+right; padding: 2px; background: #4d4d4d; border-radius: 3px; -webkit-border-radius:
+3px; -moz-border-radius: 3px; font-size: 12px; } .dg-pagenav-pageof { float: left;
+padding: 2px 7px 0; } .dg-pagenav-pages { float: left; background: #333333; border-radius:
+3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; } .dg-pagenav-pages a,
+.dg-pagenav-pages span { display: block; float: left; padding: 2px 5px; border-right: 1px
+solid #595959; } .dg-pagenav-pages a:hover, .dg-pagenav-current { background: #fde23c;
+color: #000000; } .dg-pagenav-popup-button { float: left; padding: 5px 3px 0; }
+.dg-pagenav-popup-button td { padding: 0; }
+/********************************************************** * VB Panels
+*********************************************************/ .panel { line-height:
+18px; } .panel a { text-decoration: underline; }
+/********************************************************** * Editor
+*********************************************************/ .dg-editor,
+#vB_Editor_QR { margin: 5px 0 15px; } .dg-editor fieldset a, .dg-editor legend { color:
+#333333 !important; } #vB_Editor_001_controls td { padding:1px; }
+/********************************************************** * BB Code
+*********************************************************/ .dg-bbcode { margin: 0;
+padding: 10px; background: #1e2225; border: 1px solid #cccccc; } .dg-bbcode-quote { }
+.dg-bbcode-code { width:650px; overflow: auto; } .dg-bbcode-php, .dg-bbcode-html {
+width:650px; overflow: auto; background: #ffffff; color: #000000; }
+/********************************************************** * FAQ
+*********************************************************/ #faq a {
+text-decoration: underline; } #faq b { color: #fde23c; font-size: 14px; } #faq .tcat {
+font-size: 18px; } /********************************************************** *
+User CP *********************************************************/ .usercp .tcat {
+height: 30px; padding: 0 10px 0 20px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/usercp-header.png') left top
+no-repeat; } .usercp .thead { padding: 7px 10px; color: #cccccc; font-size: 14px; } .usercp
+.dg-post .thead { background: none; } .usercp legend { color: #fde23c; } /* Nav */
+#dg-usercp-nav { padding: 10px; background: #333333; } #dg-usercp-nav { padding: 10px;
+background: #333333; } #dg-usercp-nav .tcat { padding: 0 0 15px; background: none; border:
+none; } #dg-usercp-nav .thead { background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/tab-bg.jpg') left top repeat-x;
+border: 1px solid #262626; color: #ffffff; font-weight: normal; } .usercp .vbmenu_popup
+.thead { background: none !important; border: none !important; } /* Contacts */ #buddylist {
+padding: 20px 0; } #buddylist li { width:210px; } /* Reply Button */ .usercp .dg-post-reply {
+width: 68px; height: 17px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/adv-sprite.png') -330px -0px
+no-repeat; } .usercp .dg-post-reply:hover { background-position: -250px -0px; }
+/********************************************************** * Member List
+*********************************************************/ #memberList .thead {
+border-bottom: 1px solid #3b3c40; font-size: 12px; }
+/********************************************************** * Member Info
+*********************************************************/ #usercss
+#content_container { margin-right: -350px; } #usercss #content { margin-right: 285px; }
+#profile_tabs .tab_list { border-bottom: 1px solid #404040; } #profile_tabs .tab_list li {
+height: auto; margin: 0 3px 0 0; padding: 7px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/tab-bg.jpg') left top repeat-x;
+border-top-left-radius: 4px; -webkit-border-top-left-radius: 4px;
+-moz-border-top-left-radius: 4px; border-top-right-radius: 4px;
+-webkit-border-top-right-radius: 4px; -moz-border-top-right-radius: 4px;
+text-align: center; } #profile_tabs .tab_list li:hover, #profile_tabs .tab_list li.tcat
+{ background: url('http://d26ya5yqg8yyvs.cloudfront.net/images/tab-hover-bg.jpg')
+left top repeat-x; color: #ffffff; font-weight: normal; } #profile_tabs .block_row {
+padding: 0 0 15px; border: none; } #profile_tabs .thead.block_row { padding: 7px 10px;
+background: url('http://d26ya5yqg8yyvs.cloudfront.net/images/tab-bg.jpg') left top
+repeat-x; } /* Visitor Messages */ #profile_tabs .memberinfo_small, #profile_tabs
+#message_list li.floatcontainer { padding: 10px 0 5px; border-bottom: 1px solid #737373; }
+#profile_tabs #message_list .visitor_message_body { padding-left:6px; } /* About Me */
+#aboutme a { text-decoration: underline; } #profile_tabs #aboutme ul { padding-left: 10px;
+} #profile_tabs #aboutme dt { color: #808080; } #profile_tabs #aboutme dd { margin-bottom:
+15px; } /* Sidebar */ #usercss #sidebar_container { padding: 10px; background: #333333; }
+#usercss #sidebar_container .block_title { clear: both; padding: 7px 10px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/tab-bg.jpg') left top repeat-x;
+border: 1px solid #262626; } #usercss #sidebar_container .block_content { padding: 5px 0
+15px; } #usercss #sidebar_container .block_row { clear: both; } /* Stats */ #stats a {
+text-decoration: underline; } /* Mini Stats */ #usercss #stats_mini dt { color: #ffffff;
+font-weight: bold; } #usercss #stats_mini dd { margin: 0; } /* Mini Friends */ #friends_mini
+#friends_list { padding: 0; } #friends_mini .memberinfo_tiny { width: 80px; } /* Mini Groups
+*/ #groups #social_group_list { padding: 0; } #groups .sgicon { margin-top:10px; }
+/********************************************************** * Footer
+*********************************************************/ #dg-footer-wrap {
+min-width: 1010px; border-top:1px solid #333333; } #dg-footer { padding: 15px 25px; color:
+#808080; font-size: 12px; } #dg-footer a { color: #808080; } #dg-footer a:hover { color:
+#fde23c; } #dg-footer-left { float: left; line-height: 20px; } #dg-footer-right,
+#dg-footer-right select { float: right; } #dg-footer-right td { padding: 0; }
+/********************************************************** * Footer - Who's Online
+*********************************************************/ #dg-whos-online {
+margin: 0 15px; padding-top: 25px; } #dg-whos-online h3 { margin: 0 0 10px 0; padding: 0 0 0
+18px; font-size: 20px; font-weight: normal; } #dg-whos-online-content { padding: 10px;
+background: #262626; border-radius: 6px; -webkit-border-radius: 6px;
+-moz-border-radius: 6px; line-height: 30px; } #dg-whos-online .thead {
+padding-bottom:10px; background:
+url('http://d26ya5yqg8yyvs.cloudfront.net/images/whos-online-hr.jpg') left bottom
+repeat-x; font-size: 14px; } #dg-whos-online .trow { border-bottom: none; }
+.dg-whos-online-info { padding: 5px 0; line-height: 20px; }
+/********************************************************** * Align
+*********************************************************/ .dg-align-left {
+text-align: left; } .dg-align-center { text-align: center; } .dg-align-right {
+text-align: right; } <!-- var SESSIONURL = "s=bd8c18cb60778b2b83a2d93ee0426dd9&"; var
+SECURITYTOKEN = "guest"; var IMGDIR_MISC =
+"http://d26ya5yqg8yyvs.cloudfront.net/images/misc"; var vb_disable_ajax =
+parseInt("0", 10); var YD = YAHOO.util.Dom; var YE = YAHOO.util.Event; // --> /* Login Popup
+------------------------------------- */ function showLoginPopup() {
+YD.setStyle('dg-login-popup', 'visibility', 'visible');
+YD.get('dg-login-popup-username').focus(); YE.addListener(document.body, 'click',
+hideLoginPopup); }; function hideLoginPopup() { YD.setStyle('dg-login-popup',
+'visibility', 'hidden'); YE.removeListener(document.body, 'click', hideLoginPopup);
+}; YE.onDOMReady(function() { YE.addListener('dg-breadcrumb-login', 'click',
+function(e) { YE.stopPropagation(e); YE.preventDefault(e); var visible =
+YD.getStyle('dg-login-popup', 'visibility') == 'visible'; if(visible) {
+hideLoginPopup(); } else { showLoginPopup(); } });
+YE.addListener('dg-breadcrumb-login-tabindex', 'focus', showLoginPopup);
+YE.addListener('dg-login-popup', 'click', function(e) { YE.stopPropagation(e); });
+}); /* Sub-Category Tree ------------------------------------- */
+YE.onDOMReady(function() { if(YD.get('dg-subforums-list')) { var subs =
+YD.getElementsByClassName('dg-forums-level2', 'tr', 'dg-subforums-list'); var
+treeImg = null; for(var i = 0; i < subs.length; i++) {
+if(YD.hasClass(YD.getNextSibling(subs[i]), 'dg-forums-level2')) { treeImg =
+YD.getElementsByClassName('dg-sub-forums-tree', 'img', subs[i])[0]; treeImg.src =
+treeImg.src.replace('tree_ltr', 'tree_t'); } } } }); /* Unread Messages
+------------------------------------- */ YE.onDOMReady(function() { var messages =
+YD.get('dg-breadcrumb-unread').innerText.match(/\d+/g); if(parseInt(messages) > 0)
+{ YD.addClass('dg-breadcrumb-messages', 'dg-new-messages');
+YD.addClass('dg-breadcrumb-unread', 'dg-new-messages'); } });
+JettnJimsHighAvdenturTour:2011 Spills, Thrills & Purtty Giirlls!^)- - Page 7 - ADVrider
+<!-- #links div { white-space: nowrap; } #links img { vertical-align: middle; } -->
+
+    
+
+    - Inmates
+
+    
+
+    - Photos
+
+    
+
+    - Site Rules
+
+    
+
+    - Search
+
+    
+
+    - Today's Posts
+
+    
+
+    - Mark Forums Read
+
+    
+
+Riding Ride reports JettnJimsHighAvdenturTour:2011 Spills, Thrills & Purtty Giirlls!^)-
+User Name Password Remember Me?   Thread Tools Search this Thread Display Modes Page 7  of
+ 21 « First < 3 4 5 6 7 8 9 10 11 17 > Last »
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-10-2011, 08:29 AM # 91
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png
+Jettn Jim vbmenu_register("postmenu_16131902", true); This is Liv'n!!!
+
+Image: image.php?s=bd8c18cb60778b2b83a2d93ee0426dd9&u=159914&dateline=1305608383
+Joined : Mar 2010 Location : Northeast PA, Some... On HIGH ADVENTURE Most! Oddometer : 925
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/cooltu.gif Dude!!! Quote: Originally
+Posted by patl
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/buttons/viewpost.png Good
+stuff, Jim!
+
+
+
+I grew up between Noxon and Thompson Falls, near Trout Creek, and it's always fun to see the
+roads of home in somebody's RR. I need to get back again soon. Thanx brotha...MAN that IS some
+BEAUTIFUL country WOW!!
+
+I can't wait to ride it again ASAP!!! If I did'nt have to go south to see Klim and Happy trails when
+I pull outta here, I'd head out thata way fer sure!
+
+Just AWESOME stuff and it's still stick'n with me now.... __________________
+
+Brittania Composites Carls Cycle Klim USA
+
+Warp9 Wheels Trail Tech ADVstuff Here:
+
+HEL USA/moto-heaven Highway Dirtbikes Soupy's Performance Jettn Jim View Public Profile
+Find More Posts by Jettn Jim
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-10-2011, 10:07 AM # 92
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png
+dec181966 vbmenu_register("postmenu_16132653", true); Dude on a motorcycle
+
+Image: image.php?s=bd8c18cb60778b2b83a2d93ee0426dd9&u=144115&dateline=1268074607
+Joined : Oct 2009 Location : NorCal in the vines Oddometer : 152 Got you covered Hey Jim,
+
+
+
+My wife and I live in Santa Rosa just about 5 miles from Sebastopol. If you need anything let me
+know.
+
+
+
+Great ride & story
+
+
+
+p.s. my teacher studied under o'sensei morihei ueshiba. nice to see others know of him.
+
+
+
+Michael __________________
+
+"I dodge the grave most everyday"
+
+Image: images/smilies/GRIM2A.gif dec181966 View Public Profile Find More Posts by
+dec181966
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-10-2011, 01:51 PM # 93
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png el
+guapo nada vbmenu_register("postmenu_16134380", true); Gnarly Adventurer
+
+Image: image.php?s=bd8c18cb60778b2b83a2d93ee0426dd9&u=147703&dateline=1260412765
+Joined : Nov 2009 Location : Columbia River Gorge, OR Oddometer : 211 Right on.....yeah I took
+about 1001 pictures last summer, I think most of them got into that thread!
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/lol8.gif (thanks for checkin it out!)
+
+
+
+Have a fantastic day and lookin forward to hangin out in the future at some point!
+
+
+
+Quote: Originally Posted by Jettn Jim
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/buttons/viewpost.png Thanx Bud,
+was check'n out some of your ride links...Kewewll stuff, pics and thot's...gotta take the
+time to look thru all of them
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/mwink.gif
+
+Yea man when I get out here again and over your way we gotta do some rid'n and hang a bit
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/friday.gif WoooHooo! Sooo many great
+roads and Sooo much time
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/icon10.gif __________________
+
+"Ride the Tiger. You can see his stripes but you know he's clean."
+
+- Ronnie James Dio - R.I.P. el guapo nada View Public Profile Find More Posts by el guapo nada
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-12-2011, 09:06 AM # 94
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png
+Jettn Jim vbmenu_register("postmenu_16145764", true); This is Liv'n!!!
+
+Image: image.php?s=bd8c18cb60778b2b83a2d93ee0426dd9&u=159914&dateline=1305608383
+Joined : Mar 2010 Location : Northeast PA, Some... On HIGH ADVENTURE Most! Oddometer : 925
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/icon10.gif Thanx for the anything offer!
+Quote: Originally Posted by dec181966
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/buttons/viewpost.png Hey Jim,
+
+
+
+My wife and I live in Santa Rosa just about 5 miles from Sebastopol. If you need anything let me
+know.
+
+
+
+Great ride & story
+
+
+
+p.s. my teacher studied under o'sensei morihei ueshiba. nice to see others know of him.
+
+
+
+Michael p.s. Man that would have been Very Very GOOD! (To study with Ueshiba) Your teacher must
+feel very fortunate....
+
+Yup rolled thru Santa Rosa twice, dang I was riding around there for a couple weeks....next
+time we'll have to ride/visit!
+
+This will teach me to keep the RR UP TO DATE! __________________
+
+Brittania Composites Carls Cycle Klim USA
+
+Warp9 Wheels Trail Tech ADVstuff Here:
+
+HEL USA/moto-heaven Highway Dirtbikes Soupy's Performance Jettn Jim View Public Profile
+Find More Posts by Jettn Jim
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-12-2011, 09:07 AM # 95
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png
+Jettn Jim vbmenu_register("postmenu_16145775", true); This is Liv'n!!!
+
+Image: image.php?s=bd8c18cb60778b2b83a2d93ee0426dd9&u=159914&dateline=1305608383
+Joined : Mar 2010 Location : Northeast PA, Some... On HIGH ADVENTURE Most! Oddometer : 925
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/cooltu.gif Yup Yup will do! Quote:
+Originally Posted by el guapo nada
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/buttons/viewpost.png Right
+on.....yeah I took about 1001 pictures last summer, I think most of them got into that thread!
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/lol8.gif (thanks for checkin it out!)
+
+
+
+Have a fantastic day and lookin forward to hangin out in the future at some point!
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/friday.gif __________________
+
+Brittania Composites Carls Cycle Klim USA
+
+Warp9 Wheels Trail Tech ADVstuff Here:
+
+HEL USA/moto-heaven Highway Dirtbikes Soupy's Performance Jettn Jim View Public Profile
+Find More Posts by Jettn Jim
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-18-2011, 04:36 AM # 96
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png
+Jettn Jim vbmenu_register("postmenu_16194678", true); This is Liv'n!!!
+
+Image: image.php?s=bd8c18cb60778b2b83a2d93ee0426dd9&u=159914&dateline=1305608383
+Joined : Mar 2010 Location : Northeast PA, Some... On HIGH ADVENTURE Most! Oddometer : 925
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/icon10.gif Onward South..............
+Thursday dawns slightly drizzly and drab...
+
+I go to the Flying J again for some bfast and see another bike out in the rain...it's a Ducati.
+then I meet the owner Tom Walsh and ask if he wants to get some coffee while he warms up?
+
+Then ask if he's hungry...he agrees and i say I'm buying...he says no so I say lets flip for
+it...he wins the toss and gets to buy!
+
+He's a hardcoe skiier and is taking the bike to his son since the stance hurts him to ride it much
+anymore.
+
+He's written one book "Damnyankee"
+
+
+
+
+
+This review is from: Damnyankee: A WWII Story of Tragedy and Survival off the West of Ireland
+(Paperback)
+
+"An authentic adventure tale, well told, with solid real life characters you care about. A ten
+member crew of Navy Airmen, the senior man all of 26 years of age, meet their new aircraft, the
+Damnyankee, at the Norfolk Navy Base in the late summer of 1944. As each of these young lads are
+portrayed we feel we know them , all anxious to join the war effort. Tasked to break in this new
+aircraft and become a team, these young airmen begin a journey from Norfolk to the Navy Base at
+Dunkeswell, England where they are to become part of Air Wing Five of the Twelfth Atlantic
+Fleet. Due to a variety of mechanical problems, the Damnyankee has to change course and head
+for Ireland. Ultimately, they wind up adrift in the Atlantic off the Irish Coast. The
+adventure and tragedy is the ordeal at sea and the ultimate loss of five of the crew members. The
+description of this ordeal was a fine example of Mr. Walsh's best writing, truly a first class
+craftsman.
+
+
+
+The survival and recovery demonstrates the best of the Irish: welcoming, resourceful and
+charming. Thanks to this authors solid research and obvious affection for things Irish, this
+tale really begins some forty one years after the events and survivors seek to get the whold
+story.
+
+The evidence, in addition to testimony of critical remaining eyewitnesses is thoroughly
+presented in photos, hotel bills, phone bills,a newspaper clipping and contemporary signed
+documents: all set forth along with a detailed diagram of the Damnyankee herself.
+
+
+
+Really a wonderful, gripping short story, barely 150 pages, that will keep you enthralled
+from start to finish. "
+
+
+
+And is writing another now, he writes articles and submits photography for cycle magazines,
+woohoo! He LOVES the Isle of Man TT and is going over in a couple weeks. The 3rd or 4th time, he's a
+real character and tells me lots of stories of Northern ireland and the TT... It's a great start
+to the day.
+
+I have nooo pics of him or the bike
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/sad.gif huh
+
+
+
+
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-M9bGzhk/0/L/P5120316-L.jpg
+
+I think about beelining it down I-84 since I've burnt some time...buuut again do the right
+thing and head for a break in the clouds to my west. I took this same route last fall, and it will
+give me a chance to stop in on Stephanie Barclay a friend I met when I rode thru Post on that ride.
+
+I get to the Journey Through Time Scenic Byway and then all good roads leading to Post (the
+Geographic Center of Oregon...named after the post in the field outback marking the center
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/deal.gif )
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-C2zBJHV/0/L/P5120323-L.jpg
+
+A contadiction in time and space...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-SVXKgcJ/0/L/P5120322-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-hNJwZvJ/0/L/P5120333-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-jtS3GTN/0/L/P5120338-L.jpg
+
+Check out this meandering creek!
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/eekers.gif
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-F8W32kq/0/L/P5120340-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-5vPW3vv/0/L/P5120343-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-JkQShj2/0/L/P5120345-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-KMJkK8J/0/L/P5120357-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-xBkgnmV/0/L/P5120354-L.jpg
+
+These roads are after gett'n off 84 and onto 7 "The Sumter stage Hwy" it's a fun road...then onto
+26 the John Day Hwy. In John Day get fuel then south on 395 for a couple dozen miles(this section
+has some gooood twisties too!) Go right onto Co Hwy 63 to Co Hwy 67 and onto the Paulina Suplee
+road onto the Paulina Hwy...All real fun roads, Twisty sweepers and NO traffic soo you can RIP!
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/mwink.gif
+
+
+
+I get to Post and run into the same UPS driver that I did last fall!...Must be near the same time a
+day...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-TtF8brX/0/L/P5120362-L.jpg
+
+The Post postoffice...
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/icon10.gif
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-wJVcBTs/0/L/P5120358-L.jpg
+
+Behind the counter I find the Wonderful Miss Stephanie
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/clap.gif We had a really good conversation
+last year and so I sent her some good books which she has given to alot of others to read...she has
+some new stories to share and always a great smile!^)-
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-D8V6nTQ/0/L/P5120368-L.jpg
+
+She fills me up with some great lunch then offers up some "Mint To Be" chocolate mint
+cookies....and says that their the "Best you'll ever have".....I think she may be
+right...YEEUUM!!
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-wFzpPNx/0/L/P5120367-L.jpg
+
+Back outside to throw for "Kenssi" her Australian sheppard mix, a frisbee fetch'n FOOL!
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-KbSKVXd/0/L/P5120365-L.jpg
+
+As I fuel up I notice the help yourself if your outta gas or diesel cans after hours and pay later,
+I had forgotten....you don't see this everywhere it's AWESOME!
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-2s2DXHV/0/L/P5120366-L.jpg
+
+After another great conversation and a hug I head 'er west again. Goodbye Stephanie and
+Kenssi.......... Peace to you both.
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-CqC6TNF/0/L/P5120370-L.jpg
+
+Look'n back at Post...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-MsWm6Wc/0/L/P5120371-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-G8gPhrQ/0/L/P5120378-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-kt54pZ4/0/L/P5120383-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-M9SszdN/0/L/P5120389-L.jpg
+
+I cut inside and get to just below Bend before hitting Hwy 97, then stop at the River Woods
+country store.
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-z62RcDC/0/L/P5120399-L.jpg
+
+As I'm eating lunch a guy rolls in ona Honda with a poochn in a chest pack...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-SKB9LZW/0/L/P5120402-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-qwWVQTh/0/L/P5120404-L.jpg
+
+After I ask the staff if they have a recycling container (Nope) Melanie offers to take my
+bottles and me
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/eekers.gif home! (Haha juuuust kiiiidd'n
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/lol8.gif ) just taking the bottles to put in
+her recycle can.
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-nDWxbV6/0/L/P5120407-L.jpg
+
+I head 'er South toward Redding Ca...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-skRwk8w/0/L/P5120413-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-3X7Pm4Q/0/L/P5120414-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-PLPq7dk/0/L/P5120416-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-RKG5D9Z/0/L/P5120419-L.jpg
+
+To be continued.... __________________
+
+Brittania Composites Carls Cycle Klim USA
+
+Warp9 Wheels Trail Tech ADVstuff Here:
+
+HEL USA/moto-heaven Highway Dirtbikes Soupy's Performance
+
+
+
+Jettn Jim screwed with this post 06-18-2011 at 04:43 AM Jettn Jim View Public Profile Find More
+Posts by Jettn Jim
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-18-2011, 07:54 PM # 97
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png
+Butthead 1000 vbmenu_register("postmenu_16199434", true); I can see your butt Joined : Jul
+2009 Location : Armpit of America-Central Iowa Oddometer : 95 Yo Jim, Your RR continues to
+kicks ass. Your ability to connect with total strangers is amazing to me. The photos remind me
+of my only trip in that region. Camping in Hells Canyon and the ride from Enterprise, WA to
+Lewiston, ID being the high points. Get that engine repaired, enjoy the ride east, and if you
+need anything in the Central Iowa area,don't hesitate to contact me. Butthead 1000 View
+Public Profile Find More Posts by Butthead 1000
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-19-2011, 04:24 PM # 98
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png
+Jettn Jim vbmenu_register("postmenu_16205068", true); This is Liv'n!!!
+
+Image: image.php?s=bd8c18cb60778b2b83a2d93ee0426dd9&u=159914&dateline=1305608383
+Joined : Mar 2010 Location : Northeast PA, Some... On HIGH ADVENTURE Most! Oddometer : 925
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/cooltu.gif Smiles Smiles Smiles.... Hey
+Rick thanx maaan! I might as well use my small arsenal of ability eh?
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/icon10.gif __________________
+
+Brittania Composites Carls Cycle Klim USA
+
+Warp9 Wheels Trail Tech ADVstuff Here:
+
+HEL USA/moto-heaven Highway Dirtbikes Soupy's Performance Jettn Jim View Public Profile
+Find More Posts by Jettn Jim
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-20-2011, 09:48 AM # 99
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png
+Scoutman vbmenu_register("postmenu_16210449", true); Master of Ale
+
+Image: image.php?s=bd8c18cb60778b2b83a2d93ee0426dd9&u=191368&dateline=1331746418
+Joined : Jan 2011 Location : North Idaho -Last of Free America Oddometer : 202 JJ --- Had a great
+time ripping up Joseph Creek with you last week. That 705cc kit turns the KLR from mild mannered
+enduro to a bike capable of riding hard and fast. A little rider skill never hurts either
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/naughty.gif . You are a truely unique
+individual and I feel fortunate to have met you. Keep your feet on the pegs, your face in the wind
+and karma on your side. Look me up should you make it back to Priest Lake and we'll go hit some
+gnarly single track. Scoutman View Public Profile Find More Posts by Scoutman
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-21-2011, 07:55 AM # 100
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png
+Jettn Jim vbmenu_register("postmenu_16218050", true); This is Liv'n!!!
+
+Image: image.php?s=bd8c18cb60778b2b83a2d93ee0426dd9&u=159914&dateline=1305608383
+Joined : Mar 2010 Location : Northeast PA, Some... On HIGH ADVENTURE Most! Oddometer : 925
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/cooltu.gif Will do Brotha! Quote:
+Originally Posted by Scoutman
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/buttons/viewpost.png JJ --- Had a
+great time ripping up Joseph Creek with you last week. That 705cc kit turns the KLR from mild
+mannered enduro to a bike capable of riding hard and fast. A little rider skill never hurts
+either
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/naughty.gif . You are a truely unique
+individual and I feel fortunate to have met you. Keep your feet on the pegs, your face in the wind
+and karma on your side. Look me up should you make it back to Priest Lake and we'll go hit some
+gnarly single track. Was great to meet you too my man! Glad I got to ketch up with you guys on yer
+way to Enterprise and that you n I could go on a little rip up Horse Creek....
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/mwink.gif Since I didn't make it to the
+Rally till all the rid'n was done.
+
+Yup for sure when I roll out next year I'll hit you up and we'll ride....aaand find some COLD Beer
+to swill eh?
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/friday.gif
+
+Peace and good rid'n to you...... Always!^)- __________________
+
+Brittania Composites Carls Cycle Klim USA
+
+Warp9 Wheels Trail Tech ADVstuff Here:
+
+HEL USA/moto-heaven Highway Dirtbikes Soupy's Performance Jettn Jim View Public Profile
+Find More Posts by Jettn Jim
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-21-2011, 10:07 AM # 101
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png
+Jettn Jim vbmenu_register("postmenu_16219113", true); This is Liv'n!!!
+
+Image: image.php?s=bd8c18cb60778b2b83a2d93ee0426dd9&u=159914&dateline=1305608383
+Joined : Mar 2010 Location : Northeast PA, Some... On HIGH ADVENTURE Most! Oddometer : 925
+Still heading South with a plane to catch....ASAP! I near Klamath Lake as the sun begins to
+set...after choosing the BETTER/FUNNER twistier roads earlier today...I'll have to ride
+through the night to make the plane.
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-GkqzBCC/0/L/P5120433-L.jpg
+
+As I roll through Dorris I see signs for the border checkpoint...I'm not carrying any fresh
+fruit or vegatables, buuut I'm not feel'n like chatting ooor opening my gear up tonight sooo I
+take a dirt detour around and catch Hwy 97 on down a bit further...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-vv6WXrn/0/L/P5120436-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-TzqSJF9/0/L/P5120445-L.jpg
+
+Desiree', Me and Mt Hebron...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-f7LQnvr/0/L/P5120455-L.jpg
+
+Yup I'm in NorCal...
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/mwink.gif
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-Bk7bfWx/0/M/P5120457-M.jpg
+
+I stop at a Country Pride for chow south of Reading and meet PGOD (Pretty Girl Of the Day)
+Heidi....youv'e just gotta feeel warm inside when a pretty girl shines her smile on you :^)-
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-RCDQGW4/1/X3/P5120458-X3.jpg
+
+As I'm eating I strike up a conversation with Daniel of the Bit River Tribe. This is Daniel and
+his Nephew Cody...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-rp6NNkp/0/L/P5120459-L.jpg
+
+There are a 11 Bands within the tribe and it now encompasses around 100 sq miles.. We taked of the
+Sacred Salmon and it's tributaries past and present...blocked migration routes....about
+the Great Spirit and how everywhere the Oral traditions are the same from tribe to tribe wheter
+it's Oklahoma Cherokee or Southwestern Navaho or Northwestern Nez Perce etc.... The
+Messages are the Same...and how OUR Culture has forgotten the TRUTH, and how our schools teach
+stories that are mostly lies or to say it lighter... we are kidding ourselves....who
+discovered this or that....
+
+As Daniel Quinn called it.... "The Great Forgetting"
+
+This is a good time for Great talk for a weary rider late in the night..."Food for the Soul as I
+take in food for the Body"
+
+
+
+I get to Jessica's about 5:30am where I'll store some gear before leaving Desiree' at the
+Airport...This is her bike "DR. Reefie Z" a DR400 in the drive.
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-ksBsSc4/0/L/P5120467-L.jpg
+
+I rush to reorganize my gear then talk for a half hour about people and relaionships... then I
+realize I GOTTA GO!!! Maaan I'm gonna be cutting it CLOSE! I manage a few pics as I race to
+Sacremento. It's 110miles and takes 2hrs 10min.... I make it in 1hr 40mins!!! I lane split at
+stops on the fly and use the shoulder to pass too! I use my turn signals and wave at everyone...
+trying to keep the peace with them all amd so that they hopefully don't take it personal that I'm
+getting ahead of them... for all anyone knows my wife's in labor, or there's a loved one on their
+deathbed?
+
+None the less some of them do take it personal and swerve to try and block me...LOL oooh boy...
+now I'LL try not to take them personally! I'm in a rush because if I miss this flight I will miss
+getting home ad suprising Sherri before the clock strikes "Midnight" on our anniversary sooo
+ZOOM ZOOM ZOOM...
+
+
+
+Nothing great since iIdidn't have my tank bag to stick the camera to aaand I was doing WARP 10+
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-rXj7Wvn/0/L/P5120469-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-mV8LsMD/0/L/P5120472-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-7LQtqjn/0/L/P5120493-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-pfcGDfj/0/M/P5120501-M.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Still-heading-South-from/i-vdgFZCk/1/M/P5120481-M.jpg
+
+I get to the airport just barely 10mins before zero and then am by a fellow passenger and his wife
+thaaat the flight is in an hour!? Whaat ooooh boy my baaad... I coulda taken it just a leeeetle
+bit slower...Hmmmmmm well I'm here in time and no one got hurt, that's all that counts.
+
+I meet Louis cleaning the restroom and he tells me he rides too, so I tell him about the people
+trying to block me on the way here. He get's somber and tells me that last year on the way to a show
+in San Francisco his best friend Marcelino and he were moving through traffic and a car put the
+block on them too.... when Marcelino swerved out and around it... An 18 Wheeler inadvertently
+ran over him
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/bncry.gif ............. oooooh boy now
+we're both teared up and I give him a BIG hug ... it's taken all of a year for Louis to let go of the
+anger toward the driver and alot of cages in general. It's been tough for him and still taking
+along time to heal.
+
+There is a Plaque in Memory of Marcelino at the Airport office... I could'nt find it in my rush,
+so that I could post a picture here for all to remember.
+
+If anyone lives near the Sacremento Int Airport (SMF) and could take that pic and PM or email me
+I'd appreciate it, and then post it in this report. Thanx Jim
+
+
+
+I make it to Charlotte N. Carolina and start picking up a weird vibe plus alot of HUMIDITY....
+
+Wendy pics me up in Pa and I suprise Sherri... all according to plan....but the lackluster
+energy I'm feeling from the people (and obviously coming out of me) I see on crowded streets
+takes it's toll on me! :( It seems like I'm looking into aalot of black soul less eyes...
+
+I've been riding and living in sparce population areas with less human static to block out the
+earths energy...and my soul still feels like it's out West sooo I'm kinda incomplete in this
+short term visit... Sad but true I'm not ready to be back here yet though my Angel of a wife is
+here...that seems to be little comfort.
+
+I deffinately still need to tune on this adjustment part of my life....
+
+To show you how out of touch I was.... I didn't get a single picture from home, not of pretty Wendy
+picking me up from the airport, not of any friends and family... aaaand especially saaad none
+of my BEAUTIFUL wife Sherri...
+
+Well lessons to learn.... at least I'm aware of my faults and can/WILL make some adjustments to
+my engine.
+
+
+
+Glad to say that about a week later my head was back on straight (the longest funk in a Looooong
+time!) and Sherri and I are Hunky Dory again as usual... Whew this feels betta!!
+
+Catch you on the flight back out..... JJ __________________
+
+Brittania Composites Carls Cycle Klim USA
+
+Warp9 Wheels Trail Tech ADVstuff Here:
+
+HEL USA/moto-heaven Highway Dirtbikes Soupy's Performance
+
+
+
+Jettn Jim screwed with this post 06-21-2011 at 11:06 AM Jettn Jim View Public Profile Find More
+Posts by Jettn Jim
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-21-2011, 11:09 AM # 102
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png
+Jettn Jim vbmenu_register("postmenu_16219561", true); This is Liv'n!!!
+
+Image: image.php?s=bd8c18cb60778b2b83a2d93ee0426dd9&u=159914&dateline=1305608383
+Joined : Mar 2010 Location : Northeast PA, Some... On HIGH ADVENTURE Most! Oddometer : 925
+Landing back out West... Maan I don't ever wanna have to fly A G A I N! On the flight back West I
+thinking about things and my feelings..I write this note on the plane. "I really enjoyed my
+girls company and visiting friends and family/Dad....but I'm really longing for the open
+spaces of the West.....this has went on since I left there at age 17-1/2...I'm more
+comfortable now accepting that this "is what it is" and my happiness is truly insided me....
+like the little girl Anne Frank had held onto during her 2 year hiding and eventual betrayal to
+the Nazi's. She found out alot about herself and looked inside for her happiness.... SMART
+GIRL!"
+
+"But though I find myself in a better place of inner peace.... I still struggle to fully meld
+into The/Our Culture, which I know in my Core is going 180degrees away from Nature/ The Great
+Spirit... and in it's fullest form....ITSELF!"
+
+
+
+I meet this cool dude on the plane who left Sacremento to fly to Maine to meet up and maybe marry an
+old girlfriend... he sold almost everything and was low on cash... (it didn't work out so he's
+fly'n back home)...so I bought him drinks ther whole way back and he in tiurn gave me this cool
+money clip he made... For the life of me I can't find the note with his name:(..... wait I think I
+put it in my phone?.......... Yup haha he's Jeff Carr a GREAT GUY here's his pic and the clip!^)-
+I neeed to call him abnd see how he's doin'......
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-ZNRjzSR/1/X2/P5170510-X2.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-7ZN8xg2/0/L/P5180514-L.jpg
+
+Sooo as I'm look'n out the window of the plane.... I see about 8-12 faces in the clouds. The
+configuration changes as the plane moves around and past... and reconfigure again.....I
+think I should write a book called "Faces in the Clouds...What we can Learn from the Clouds"
+
+Then as we bank hard right I see in a different cloud formation...4 Eskimo or Siberian
+Indians....hunched forward leaning against the brutal wind, arms held near a shoulder
+holding the packs loaded on their backs....Heading back Home....I get CHILLS and am Amazed at
+the Truth's I see in the Clouds....
+
+I can't take a picture because the moment seems waay to sacred... I'm tearing up now as I type
+this remembering their determined posture....
+
+
+
+I remember back in 1999-2000 when after selling my Race car to Sam Lamanna and then crew
+chief/tuning the car for him on our way to a National Championship...as we were heading west to
+Michigan I looked up at the Clouds and at that point realized that my Mother, her Mother,
+everyone and everything that had ever lived on this planet was in those clouds.... whether
+it's a tree, goat, daisy or a human.... it's made up mostly of water and ALOT of energy...the
+water of course still containing it...(about 60% for us folks on average the blood being 92% )
+So after anything passes on and dries up the/our moisture evaporates back up into the
+atmosphere and becomes rain-snow-gaciers-rivers etc.... the next time you look up into the
+falling rain remember it's life/love falling on your face...:)
+
+
+
+Anyway now that I'm back to the airport and all systems are in check.... the helmet is still
+upright and not full of water. I ride toward Sebastopol to regear and explore the area on our
+bikes...WooooHooo
+
+We walk up town for some chow...here's Jess...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-CtsgpRc/1/X2/P5180517-X2.jpg
+
+This poor guy was explaining.."I'm not crazy...I just have a hard time communicating with
+people" maan i have felt it too my brother....and I HOPE they even HALFWAY atleast understand
+you my brother...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-HRNvRQz/0/L/P5180521-L.jpg
+
+Her mom used to come here as a teenage girl...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-h8Rg5pm/0/L/P5180519-L.jpg
+
+In the East West diner restroom I spot this..
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-WSvQvqC/0/L/P5180523-L.jpg
+
+We meet Herbie..he has an idea to build a fifthwheel trailer for his bike instead of his side
+mount, which doesn't turn very well...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-Frv4m9q/1/X2/P5180525-X2.jpg
+
+Jess wants to show me a street of metal schulptures.. Coooowel! The Artist Patrick Amiot lives
+on Florence ave. too and fits the schulpture to the neighbors houses as well as his own...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-tkWmLwT/0/L/P5180526-L.jpg
+
+2 pretty girls at once woohoo!)
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-cbSmcBT/0/L/P5180532-L.jpg
+
+From Alice in wonderland...there are a couple with this theme...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-864CqP3/0/L/P5180533-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-2j9CDgg/0/L/P5180536-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-W7RWH9S/1/L/P5180535-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-85CRnpc/1/L/P5180539-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-TnwkSP3/0/L/P5180541-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-JH6d2zZ/1/XL/P5180540-XL.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-WrTP57N/0/L/P5180544-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-LwHQ3G3/1/XL/P5180545-XL.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-NBZQPcQ/1/L/P5180546-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-xr32hP3/0/L/P5180547-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-9rhV2v8/0/XL/P5180548-XL.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-fGB2xJ9/0/XL/P5180549-XL.jpg
+
+This one lights up at night looking like movement...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-xgdQT4C/1/XL/P5180551-XL.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-NJxDSJ7/0/L/P5180552-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-WwZ7kfG/0/L/P5180554-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-WFfkfxd/1/X3/P5180553-X3.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-K4DSMgd/0/L/P5180555-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-nTTWQ9x/0/XL/P5180557-XL.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-k4GWKMK/0/L/P5180556-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-5JxVchd/0/L/P5180559-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-FmQrsJ9/0/L/P5180560-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-77vzPdT/0/XL/P5180562-XL.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-xnxMtBH/0/L/P5180563-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-LRdpX6P/0/M/P5180571-M.jpg
+
+Don't know if he did this one?
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-K8CJtpC/1/XL/P5180574-XL.jpg
+
+Then we go to Jess's work an Organic market...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-tcFggxc/0/L/P5180569-L.jpg
+
+She introduces me to Malcom a great homeless dude who's quite a Poet... also a few of his
+friends... I was moved and to show that you get what you put out....I give them everything in my
+pocket about $90-(thank you Sherri for spread'n the love thru me
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/Norton.gif )'cept I keep $3- for coffee
+later. We have a good conversation and I try to shed some positive light on them.
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-v8SHk3m/0/L/P5180568-L.jpg
+
+$hit!!!... I didn't know it but my camera was set to only record 10second clips at this point...
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/eek7.gif He really has a way with his
+delivery....
+
+I took a couple but alas this is all that's left...VIDEOVVV
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-9p3Vfjs/0/L/P5180566-L.jpg
+
+An Adam and Eve with the serpent in the Garden carving we found walking back home...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-CvXxnxj/1/X2/P5180578-X2.jpg
+
+A Buddhist temple...I'd like to see the inside of.
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-8L89gpr/1/X2/P5180579-X2.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-qd2gKKJ/0/L/P5180584-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-H9pR5PV/0/L/P5180586-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-DFzZ8m2/0/L/P5180628-L.jpg
+
+
+
+Then off to the Coast for some Ocean energy... to be continued. __________________
+
+Brittania Composites Carls Cycle Klim USA
+
+Warp9 Wheels Trail Tech ADVstuff Here:
+
+HEL USA/moto-heaven Highway Dirtbikes Soupy's Performance
+
+
+
+Jettn Jim screwed with this post 06-23-2011 at 05:17 AM Jettn Jim View Public Profile Find More
+Posts by Jettn Jim
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-23-2011, 05:41 AM # 103
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png
+Jettn Jim vbmenu_register("postmenu_16234067", true); This is Liv'n!!!
+
+Image: image.php?s=bd8c18cb60778b2b83a2d93ee0426dd9&u=159914&dateline=1305608383
+Joined : Mar 2010 Location : Northeast PA, Some... On HIGH ADVENTURE Most! Oddometer : 925
+Head'n to the Big Water..... We ride toward Bodega Bay...Her mom's 'ol school house.
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-L4jh3JP/0/L/P5180594-L.jpg
+
+And the 'ol school from Alfred Hitchcocks "The Birds"
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-zBBRPKk/0/L/P5180598-L.jpg
+
+Chill time at the beach...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-s6p77XC/0/L/P5180608-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-2jRRM5Z/0/L/P5180612-L.jpg
+
+You can see a face right center of pic...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-PRrHcHv/0/L/P5180614-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-fSt4bDD/0/L/P5180617-L.jpg
+
+Some underwater pics in a tide pool..
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-kK79nPN/0/L/P5180621-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-56xpvg3/0/L/P5180622-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-g5JF6vF/0/L/P5180624-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-MF6kMgS/0/L/P5180626-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-Cwb8DhW/0/L/P5180627-L.jpg
+
+These started getting me wet...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-zGbsGW9/0/L/P5180630-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-3zn5Zgs/0/L/P5180633-L.jpg
+
+These next two are the same wave, it soaked me and blew my oakley's off... i didn't notice till I
+started climbing back up the cliff, Luckily I found them in a tide pool..
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-MdHnLz7/0/L/P5180632-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-3pzfj32/0/L/P5180631-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-JDFBMt5/0/L/P5180637-L.jpg
+
+Relaxation...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-4CdK4qs/0/L/P5180639-L.jpg
+
+The lava seemed to be moaning as it cooled....
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-8dNbxLk/0/M/P5180641-M.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-LBBKPLk/0/L/P5180642-L.jpg
+
+Easter Island looking Stone Sentenel....
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-WvwctRs/0/L/P5180652-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-5KS2TF6/0/L/P5180645-L.jpg
+
+55 second video vvvv
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-qsxZKMR/0/L/P5180650-L.jpg
+
+2 min videovvv
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-vz4cjgL/0/L/P5180651-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-cxXZTcT/0/L/P5180661-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-8PpMZxJ/0/L/P5180670-L.jpg
+
+Goin for Bfast at the East West Cafe...I didn't notice another metal schulpture in front of the
+bike shop...Cooool!
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-sXnxG78/0/L/P5190680-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-cMfcjt2/1/L/P5190678-L.jpg
+
+
+
+
+
+Was a goood day to soak it all in.....
+
+
+
+Then I head for Yosemite to meet up with Jenny and Christine...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-F52jZQm/0/M/P5190695-M.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-7Jr3gN5/0/M/P5190692-M.jpg
+
+Went looking for food in Moccasin, but none to be had...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-wSPqzHz/0/M/P5190708-M.jpg
+
+And I'm glad cause at the top of a nice twisty grade (take your pic there's an old and a new one) i
+find Priest Station
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-N44wKJ8/0/L/P5190726-L.jpg
+
+And see this as I walk in...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-44JD7P9/0/M/P5190714-M.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-Nx5tTNj/0/L/P5190715-L.jpg
+
+Since Jen and I have climbed a bit (Pico de Orizaba 2008 and a 110mph windy Mt Washington the same
+year) I ask about all the gear....
+
+Elevation: 18,491 feet (5,636 meters)
+
+Location: East central Mexico
+
+First Ascent: First known ascent by William Raynolds and G. Maynard (US soldiers) in 1848.
+Probably climbed earlier by locals.
+
+Fast Facts:
+
+    
+
+    - Orizaba is also called by its Aztec name Citlaltepetl , which means “Star
+    Mountain.” It’s also called Volcan Pico de Orizaba , meaning “Volcano Peak of
+    Orizaba."
+
+    
+
+    - Orizaba is the third highest mountain in North America, with only Denali (Mt. McKinley)
+    in Alaska and Mount Logan in Canada being higher.
+
+    
+
+    - Orizaba is the highest peak in the world between 10 and 20 degrees north latitude and the
+    highest volcano in North America.
+
+    
+
+    - The name Orizaba comes from a nearby town and the valley south of the peak. Orizaba is a
+    bastardized Spanish word from the Aztecan name Ahuilizapa (pronounced
+    âwil-lis-â-pan), which translates to “Place of the Playing Water.”
+
+    
+
+    - Orizaba is located 120 miles east of Mexico City on the border of the Mexican states
+    Puebla and Vera Cruz.
+
+    
+
+    - Orizaba is a huge dormant volcano that last erupted between 1545 and 1566.
+
+    
+
+    - The volcano formed in three stages in the Pleistocene Epoch over a million years ago.
+
+    
+
+    - Orizaba is visible on a clear day from the Gulf of Mexico and the city of Veracruz over 60
+    miles to the east.
+
+    
+
+    - Orizaba is relatively easy to climb, but requires competence with an ice axe, crampons,
+    and rope. The climb crosses snowfields and a small glacier. The high altitude can also
+    affect climbers. The traverse along the crater rim to its high point summit is
+    potentially dangerous—a slip leads either into the crater or down the steep-sided
+    volcano.
+
+    
+
+
+
+Image: http://www.kollewin.com/EX/09-15-19/pico-orizaba.jpg
+
+
+
+
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-9F94pB7/1/M/P5190717-M.jpg
+
+The guy working there says his brother climbs and that's how come there is climbing
+memorabilia all over...
+
+After downplaying it for a long while...it turns out he's Steve Anker Conrads brother...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-nGZJVgM/0/L/P5190721-L.jpg
+
+I buy a book by Conrad and David Roberts called "The Lost Explorer: Finding Mallory on Mt.
+Everest. And ask Steve to sign it....Cooool!
+
+Conrad was a key member of a search expedition and the one who spotted Legendary British
+climber George Mallory's body.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Ascents and expeditions of note
+
+    - 1987 Southeast Face Gurney Peak, Kichatna Mountains , Alaska Range , Alaska , USA. FA
+    with Seth 'S.T.' Shaw, Robert Ingle and James Garrett; summit attained May 8, 1987. [2]
+
+    
+
+    - 1989 Northwest Face Mount Hunter , Alaska Range , Alaska , USA. FA with Seth 'S.T.' Shaw,
+    summit attained July 3, 1989. [3]
+
+    
+
+    - 1990 Rodeo Queen , Streaked Wall, Zion National Park , FA with Mugs Stump [4]
+
+    
+
+    - 1992 East Buttress , Middle Triple Peak, Kichatna Spires, Alaska, USA, 2nd ascent with
+    Seth Shaw [5]
+
+    
+
+    - 1992 Shunes Buttress , Red Arch Mountain, Zion , USA, FFA with Dave Jones [6]
+
+    
+
+    - 1994 Badlands (YDS VI 5.10 A3 WI4+, 1000m), South East Face, Torre Egger , Patagonia .
+    Conrad Anker, Jay Smith and Steve Gerberding (USA), FA 12 December 1994. [7]
+
+    
+
+    - 1997 The Northwest Face (V 5.8, 2100m), Peak Loretan, Ellsworth Mountains , Antarctica
+    (solo) Jan 15-16, 1997 [8]
+
+    
+
+    - 1997 Rakekniven , Queen Maud Land , Antarctica , FA with Alex Lowe and Jon Krakauer .
+    Featured in the cover article of the February 1998 National Geographic Magazine . [9]
+
+    
+
+    - 1997 Tsering Mosong , Latok II, Karakorum , FA with Alexander Huber , Thomas Huber and
+    Toni Gutsch [10]
+
+    
+
+    - 1997 Continental Drift , El Capitan , Yosemite, CA, USA FA with Steve Gerberding and
+    Kevin Thaw [11]
+
+    
+
+    - 1999 Mallory and Irvine Research Expedition , Mount Everest , Nepal / Tibet
+
+    
+
+    - 1999 Shishapangma American Ski Expedition, Tibet. Survived a massive avalanche which
+    killed climbing partner Alex Lowe and cameraman David Bridges.
+
+    
+
+    - 2001 East Face of Vinson Massif , Ellsworth Mountains , Antarctica, FA with Jon
+    Krakauer. Featured on PBS series NOVA in February 2003.
+
+    
+
+    - 2005 Southwest Ridge , Cholatse , Khumbu region, Nepal - summit attained with Kevin Thaw
+    , Kris Erickson, John Griber and Abby Watkins on May 12, 2005. [12]
+
+    
+
+    - 2007 Leads Altitude Everest Expedition 2007 , joined by Leo Houlding , Jimmy Chin and
+    Kevin Thaw , retracing Mallory's last steps on Everest.
+
+    
+
+Anker has also climbed notable routes in Yosemite Valley ( California ), Zion National Park (
+Utah ), Baffin Island ( Canada ), and the Ellsworth Mountains in Antarctica.
+
+The Anker family owns the place and alot of the surrounding mountains I'm told.... They have
+AWESOME organic fare and pretty girl Melissa brings it out to me:) Thank you maam!
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-C2ctcVd/1/X2/P5190725-X2.jpg
+
+I meet Tom who just got into riding bikes and has the bike in the opening pic... real nice guy! He
+lives just down the road.
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-mkSJcf2/0/L/P5190723-L.jpg
+
+Back on the road ...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-zg6m7Xz/0/M/P5190733-M.jpg
+
+Tourist head'n for the park...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-NMTtZTp/0/M/P5190741-M.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-3wvprrW/0/M/P5190744-M.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-rx5TVmc/0/L/P5190743-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-MT5RBQK/0/L/P5190748-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-FFnbX32/0/L/P5190752-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-Cm2TrVg/0/L/P5190765-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-vNZ56mL/0/M/P5190769-M.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-7phGS53/0/L/P5190777-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-DRq8xf9/0/L/P5190781-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-4TsxW4x/0/M/P5190793-M.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-33wrdvN/0/L/P5190808-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-Nv77bMH/0/L/P5190820-L.jpg
+
+I finally get to Camp4 and meet up with Jen and Christine, Tina has been freaked out by the Bears
+and sleeping with a knife!
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/eekers.gif I said "Hey noe I don't think I
+wanna sleep with a paranoid chick with a knife in her hand!!
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/eek7.gif hahaha it's sooo niice to see My
+goodest buddy Jenny again and Christine tooo. Her pretty little face and Tush doesn't hurt
+either LOL...Cheers to my sisters
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/friday.gif
+
+Jenny smiling!) and her girl Christine (in a rare moment she isn't smiling)
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-DKJZLxX/0/L/P5190835-L.jpg
+
+Beers around the fire in camp4...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-J6ccHDw/0/L/P5190825-L.jpg
+
+Christine hook'n us up with some chow...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-zkHXVKS/0/M/P5190836-M.jpg
+
+Here she is smiling.... bada bing
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/mwink.gif
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-snrkJMv/0/L/P5200838-L.jpg
+
+We have lotsa cute neighbors doin their yoga preparing to climb...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-SmBZLJT/0/M/P5190832-M.jpg
+
+I meet Paul from search and Rescue, he just got a KLR. He rode a bullet in India so he thinks he's
+ready for the states now...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-vTK55S8/0/L/P5200842-L.jpg
+
+Then Ben Dyson also on a KLR. from the Cumbria Lake District in the UK
+
+"A predominantly rural county, Cumbria is home to the Lake District National Park,
+considered one of the most beautiful areas of the United Kingdom. The area has provided
+inspiration for generations of British and foreign artists, writers and musicians,
+including Beatrix Potter and William Wordsworth. Much of the county is mountainous, with the
+highest point of the county (and of England) being Scafell Pike."
+
+He flew to BC bought the KLR and is now riding to S. America...WoooHoooo
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-VLqgzw5/0/L/P5200845-L.jpg
+
+Were load'n up for Sequoia, I'll catch them down the road tonight...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-KwMr5Pz/0/L/P5200847-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-WV3pw8L/0/L/P5200851-L.jpg
+
+Good eats at Bear Mtn. Pizza Sqauw valley...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-KC2TBfj/0/L/P5200873-L.jpg
+
+After eating I tell the girls that I'm running back to Fresno to hunt up a new rear sprocket... It
+IS TOAST!
+
+I google Wilsons and Justin say's they don't have one in stock..."yup I figured"...Buuut he
+can have one in an hour!!! YeeeHaaa I'll be right down! Turns out that Western Powersports
+wharehouse is just minutes away...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-vStZwLW/0/M/P5200880-M.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-nWxLSzP/0/L/P5200877-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-WLSHxJ7/0/L/P5200876-L.jpg
+
+PGOD Jennifer...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-9FFnDhP/1/X2/P5200878-X2.jpg
+
+Then to a Wally for oil and a 5qt bucket to do an oil change, both sprockets (I'm carrying a 15T)
+and a chain swap (I'm carrying a spare too) After 15,000mi the chain is whooped! The rear
+sprocket only has 2,000 on it and is a JT (mistake at the shop I wanted a Sunstar!!)The Sunstar
+lasted 13,000miles. Front Sunstar get's swapped too after 15,000mi.
+
+My work station...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-XdmmZWb/0/L/P5200883-L.jpg
+
+I've gotta make an aluminum breaker bar to save weight...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-dDLsCVQ/0/L/P5200884-L.jpg
+
+JT after just 2,000miles
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-K7MTswC/0/L/P5200887-L.jpg
+
+15,000mi on old PBI left, new Sunstar on the right...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Sabastopol-to-Yosemite-and/i-BBgKcKp/0/L/P5200885-L.jpg
+
+
+
+On into the night to meet the girls....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__________________
+
+Brittania Composites Carls Cycle Klim USA
+
+Warp9 Wheels Trail Tech ADVstuff Here:
+
+HEL USA/moto-heaven Highway Dirtbikes Soupy's Performance
+
+
+
+Jettn Jim screwed with this post 06-26-2011 at 11:37 PM Jettn Jim View Public Profile Find More
+Posts by Jettn Jim
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-26-2011, 09:21 AM # 104
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png
+Jettn Jim vbmenu_register("postmenu_16256297", true); This is Liv'n!!!
+
+Image: image.php?s=bd8c18cb60778b2b83a2d93ee0426dd9&u=159914&dateline=1305608383
+Joined : Mar 2010 Location : Northeast PA, Some... On HIGH ADVENTURE Most! Oddometer : 925
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/cooltu.gif On to Sequoia to meet the
+giiirls.... The girls went through the park last night sooo I'll go through on my way north
+after breakfast...
+
+At breakfast Dianna is our waitress at Country Waffle in Visalia....
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-GCFfFNT/0/M/P5210502-M.jpg
+
+Her mom's a full blood Cherokee from Oklahoma/Tennessee and owns 3 Honkytonks around LA.
+Diannas been working the resuraunts since kindergarten, and tells her mom "Why you act'n like
+a Cowboy, when you know your an Indian...!"
+
+Due to some funny circumstances Jenny neeeds a lift sooo we load her gear up on Desiree'....WOW
+now that Cogent shock is gett'n a WORKOUT!
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-gFkh7xn/0/L/P5210504-L.jpg
+
+In search of the many goood turns climbing into the park...the weather's overcast so I don't
+take many pics, tho I video alot of the turn action on the GP... film at eleven...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-GmdjMnv/0/L/P5210522-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-wcX9gjs/0/L/P5210529-L.jpg
+
+I see a sign for the Montecito Sequoia Lodge and decide to stop. I've been hauling ass since it's
+not a graeat pic day.... sooo slowing down will be good for me.
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-ZgmHGtm/0/L/P5210542-L.jpg
+
+I meet Greg Nuckolls he's been at the lodge 9yrs(AKA Triggerfish on the forums) He's a KLR guy
+too and has hosted KLR rides and stuff at the Lodge.
+
+Here he is with PGOD Mindy who's been here since May 1st and worked here back in '07
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-d7nzxJs/0/L/P5210543-L.jpg
+
+A few pics of to try to show the Lodges history...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-NB6rQpd/0/L/P5210544-L.jpg
+
+
+
+
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-M6mptq9/0/L/P5210548-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-HskcPHt/0/L/P5210546-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-QMkNbGX/0/XL/P5210552-XL.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-twnqzbT/0/L/P5210556-L.jpg
+
+Here's the Link... http://www.mslodge.com/overview_main.html
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-SJNJgLq/0/L/P5210558-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-FGtPGhW/0/L/P5210559-L.jpg
+
+I meet this family from San Diego who really inspires me....
+
+Their love and positiveness is unwavering Father Rick, Mother Norie and Matt and Ethan
+Thompson. They have lotsa relatives where I've been hang'n out in Lewiston and know the area.
+They brighten my day and after meeting them the Sun pops out and the whole day changes.... Thank
+you folks.
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-CtB7dT5/0/L/P5210565-L.jpg
+
+NEVER SAY NEVER!
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-K56dvTR/0/L/P5210570-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-TrqM6w7/0/L/P5210574-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-ZdhTLB3/0/L/P5210573-L.jpg
+
+I turn off the main Generals hwy and take some TWISTY back roads toward Sqaw Valley like Dunlap,
+Ruth Hill, and others... this is a hidden gem of AWESOME RIDING! I get to miss rocks, sand, and
+cattle too...a nice mix to keep me on my toes. I'd say if your in the area you NEED to go East by
+slightly South and explore some of these roads! WOW whata bunch a FUN...reminds me of eastern
+Tenn/ western N. Carolina a bit... WoooHooo!)
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-JfVLJmq/0/L/P5210589-L.jpg
+
+Some one handed Olympus Video till I get the Gopro going... you know the storyVVV
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-Khxgcnj/0/L/P5210586-L.jpg
+
+Back for some more pizza and a beer...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-hH9zQpb/0/M/P5210591-M.jpg
+
+While sitting in the shop I see two cute girls who are wearing shoulder ribbons from a rodeo and
+another cutey too.. As I glance at them another girl who we are conditioned as a society to not
+see as so cute.... is glancing at me...And I must rethink myselfa and this whole pretty girl
+thing...
+
+How shallow I feel and my mirror starts to Shatter...i'm being torn again between my old lifes
+walk and my new path....
+
+Out in the parking lot I meet Natalia (one of the 3 pretty gilrs from inside) and I tell her the
+thots I had inside, pretty girls, love etc... she's a kindred spirit and has read alot of the
+same books and was raised in Washington too.... Anyway...
+
+
+
+Back on the road...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-QWW2ksD/0/L/P5210592-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-mg9KmFQ/0/L/P5210594-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-PLFH5C8/0/L/P5210599-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-thru-Sequoia-Park-5-21/i-M5VKRZg/0/M/P5210603-M.jpg
+
+Time to call it a night... 2mro it's on back to Sebastopol... __________________
+
+Brittania Composites Carls Cycle Klim USA
+
+Warp9 Wheels Trail Tech ADVstuff Here:
+
+HEL USA/moto-heaven Highway Dirtbikes Soupy's Performance
+
+
+
+Jettn Jim screwed with this post 06-26-2011 at 11:56 PM Jettn Jim View Public Profile Find More
+Posts by Jettn Jim
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/post_old.png
+06-27-2011, 02:14 PM # 105
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/statusicon/user_offline.png
+Jettn Jim vbmenu_register("postmenu_16265389", true); This is Liv'n!!!
+
+Image: image.php?s=bd8c18cb60778b2b83a2d93ee0426dd9&u=159914&dateline=1305608383
+Joined : Mar 2010 Location : Northeast PA, Some... On HIGH ADVENTURE Most! Oddometer : 925
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/icon10.gif Back to finding some TWISTIES
+above the Bay.... I gladly leave the HEAT Fresno valley and head Northwest torward San
+Francisco...I take the more back roads including some dirt to Los Banos and across San Louis
+Resevoir twd Santa Cruz and some more intercoastal mtn riding. Somewhere outside of
+Hollister I spot some squigles on the GPS and hit them up, Salinas rd patchy but for a DS it's FUN!
+:)
+
+I came upon a group of 2 cruisers with 4 Vespas and kindly made my way past...their just not as
+fast on the bumpy surface as me...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-G3GNtH6/0/L/P5220508-L.jpg
+
+Santa Cruz beach fun........
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-rbjrxfj/0/L/P5220521-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-s8k5mjn/0/L/P5220523-L.jpg
+
+Then up 1 to the Bay... Windsurfers...WoooHoooo
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-ZZv8Kjw/0/L/P5220538-L.jpg
+
+Windsurfing video vvv
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-kdPJ5Ww/0/L/P5220536-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-wcLkjd2/0/L/P5220542-L.jpg
+
+Hmmmmmmmmmmmm......
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-zqH9BF4/0/M/P5220529-M.jpg
+
+As I roll through Half Moon Bay I see a guy and his son playing in the back yard... I gotta turn
+around and check this out! Turns out he's Joseph age 30yrs and his boy jack age 4yrs... I thot it
+was so cool to see a dad that made shields and spears to play with his boy!!!
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-5tfMf7t/0/L/P5220557-L.jpg
+
+Across the Golden Gate VideoVVV Sorry about the wind noise...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-wm79dMQ/0/L/P5220568-L.jpg
+
+Then as I fuel up near Novato on the 101 I see a TWISTY road back behind me! It's Lucas Valley Rd and
+I highly recomend it!!!^)-
+
+Angling North and West...Perfect... Let's GO! It's a snaky road w/ pullouts that 40% of the
+people actually use:) the rest I pass as usual..I've been hungry since before SanFran and
+pulled over to peek a few times... Glad I didn't because after Lucas Valley Rd I See thr Rancho
+Nicasio...An old Marin county Landmark reborn.
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-vQhBVtP/0/L/P5220580-L.jpg
+
+I hear live music from the lot and walk in to find EXCELLENT food, a lively atmosphere, an open
+truss ceiling w/ Elk, Caribou, Bear, Water Buffalo and more on the walls. The service is
+excellent too!)
+
+SCORE! funny how if you kinda wait... good things you'll find and or they'll find you!)
+
+
+
+Intro Videovvv
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-S7zsbG5/0/L/P5220578-L.jpg
+
+Small Fire Dept....
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-QhGX7Lr/0/L/P5220586-L.jpg
+
+
+
+The Band is Calafia For a $10-tip in their jar, handed to their pretty helpers I get a pair of Cd's
+Kooooowel! I add another 10- for good measure... the more you give the more you get...aaaah the
+day feels good.
+
+
+
+
+
+Then it's back on the road...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-bnVdDP2/0/L/P5220608-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-bTt6nwM/0/L/P5220594-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-gq6ZDjV/0/L/P5220627-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-H5xwKXh/0/L/P5220640-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-26vsC6p/0/L/P5220648-L.jpg
+
+The Peace Bell at a church just off the PCHwy where the point Reyes Petaluma road meets it...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-dZkbHWz/0/L/P5220641-L.jpg
+
+Peace Bell Video vvv
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-hTtzNNb/0/L/P5220636-L.jpg
+
+Then I spy Dillon Beach and go looking for coffee...more good turns, just off Tomales
+Bay...they're closing but hook me up to thaw a bit...it's in the low 30's.... again.
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-rKczcBx/0/M/P5220650-M.jpg
+
+
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-8wQjnGj/0/L/P5220649-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-xGFqJL4/0/L/P5220652-L.jpg
+
+I get back to Sebastopol and tell jess about the roads and the Rancho Nicasio, and that we should
+go back 2mro for lunch:)
+
+First a night out...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-RTRRb4v/0/L/P5220663-L.jpg
+
+These night time construction girls let jess up on the loader...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-QRSDXg7/0/L/P5220669-L.jpg
+
+Ok we survived that!^)- let's ride....
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-NQBK94h/0/L/P5230674-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-83FxtXW/0/XL/P5230680-XL.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-3mf3Bcp/0/L/P5230678-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-p4nQkW7/0/L/P5230687-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-xQngL3S/0/L/P5230686-L.jpg
+
+At the Rancho we meet this dude...Daanng forget his name sorry buddy:(....he rides 'ol
+schoolstuff
+
+Cool 'ol school T-shirt
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-mBZBmHm/0/L/P5230683-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-bjZnCXK/0/L/P5230684-L.jpg
+
+Then to Nicks cove on Tomales Bay for some oysters and more!
+
+
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-DtTPkvC/0/L/P5230699-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-Zh6VvdJ/0/M/P5230705-M.jpg
+
+Dave hooks us up with Organic local foods and wine. He is super knowledgeable about food and
+wine...me not sooo much:) Turns out THIS IS THE PLACE BBQ oysters were invented! They have
+their own farm and Dave say's the Bay is one of the most Pristine Oyster Bays in the WORLD...
+Kewel we'll eat some pleeeaase.
+
+Nick originally owned it then Ruthy and Al then Pat Kuleto got it 4yrs ago and stuffe ALOTTA $$$
+into it...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-8R6G8hb/0/L/P5230707-L.jpg
+
+It's more high society than I'm used to but we fit right in...haha
+
+There are alotta people from Quebec filming a Bombardier Spyder commercial with the road
+blocked off on and off.
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-b6TcqDd/0/L/P5230713-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-LBFcKkv/0/L/P5230714-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-xSwTTvm/0/L/P5230715-L.jpg
+
+Still the prices were fair for a couple of motorcycle vagabonds sooo we enjoyed...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-bpmvTr2/0/M/P5230708-M.jpg
+
+Another shack out on the Bay...
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-X92H5Mn/0/L/P5230717-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-zZsS5DV/0/L/P5230720-L.jpg
+
+
+
+Image:
+http://jettnjims.smugmug.com/Other/Rolling-to-and-around/i-9TSV7W8/0/L/P5240724-L.jpg
+
+End of a Great coupla days......I'm gonna REALLY miss Jessica....she's deffinately a sista
+from another mother....the last 2 weeks have been super therapeutic and my SOUL feels
+refreshed again....Thank you my Sister I owe you big... and thank you mother earth and brother
+ocean for all the therapy you freely give to us all!
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/bowdown.gif __________________
+
+Brittania Composites Carls Cycle Klim USA
+
+Warp9 Wheels Trail Tech ADVstuff Here:
+
+HEL USA/moto-heaven Highway Dirtbikes Soupy's Performance
+
+
+
+    Jettn Jim screwed with this post 01-21-2012 at 12:11 PM Jettn Jim View Public Profile Find
+    More Posts by Jettn Jim Page 7  of  21 « First < 3 4 5 6 7 8 9 10 11 17 > Last » Share  
+
+    -
+
+    Image: http://d26ya5yqg8yyvs.cloudfront.net/images/misc/facebook_16.png
+    facebook
+
+    
+
+    -
+
+    Image: http://d26ya5yqg8yyvs.cloudfront.net/images/misc/twitter_16.png
+    twitter
+
+    
+
+
+
+« Previous Thread | Next Thread » Thread Tools Search this Thread
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/buttons/printer.gif Show
+Printable Version
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/buttons/sendtofriend.gif Email
+this Page Search this Thread :
+
+
+
+. Display Modes
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/buttons/mode_linear.gif Linear
+Mode
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/buttons/mode_hybrid.gif Switch
+to Hybrid Mode
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/buttons/mode_threaded.gif
+Switch to Threaded Mode
+
+Posting Rules  
+
+Image: http://d26ya5yqg8yyvs.cloudfront.net/images/buttons/collapse_thead.gif You
+may not post new threads You may not post replies You may not post attachments You may not edit
+your posts
+
+
+
+BB code is On Smilies are On [IMG] code is On HTML code is On
+
+
+
+Forum Rules Forum Jump
+
+User Control Panel Private Messages Subscriptions Who's Online Search Forums Forums Home
+Riding     Ride reports     Day Trippin'     Pics, pics, pics...     Layin' down tracks  
+      GPS 101 - Which GPS For Me         GPS Tracks East         GPS Tracks Central        
+GPS Tracks Rockies         GPS Tracks West         GPS Tracks North         GPS Tracks
+Europe         GPS Asia/Oz/Kiwi Land         GPS Outer Darkness     Upcoming    
+ADVrider annual rallies     Trip Planning         Americas         EMEA         Asia
+Pacific     Regional forums         Northeast - Greater Flugistan and home of the carpet
+baggers.         Southeast, The Lair of the Dragon - The Blue Ridge and Smoky Mountains    
+    The Sandbox - AKA Flatistan         Central – From Da Nort Woods to the Plane States  
+      Tejas and the Gulf States         The Rockies – It's all downhill from here...    
+    West – California, the desert southwest and whatever is left         Pacific
+Northwet - Where it's green. And wet.         Alaska         Canada         Europe      
+  Australia             OZ Vendors         New Zealand         Asia         Africa &
+Mid East         Latin America     Face plant     The perfect line and other riding myths  
+  Racing Bikes     GSpot         Oilhead Boxers         Parallel Universe     Orange
+Crush     Beasts     Thumpers     Road warriors     Old's Cool         Airheads      
+  2 smokers     Hacks         Hack Vendors     Trials     Battle scooters     Some
+Assembly Required Gear     Equipment     The Garage     Vendors Fluff     Ask Baldy,
+blame AceRph     Shiny things     Sports Photo Sharing - Hall of Wisdom - Donate - Home -
+Archive - Top
+
+Times are GMT -7.   It's 03:09 PM . • Powered by vBulletin® Version 3.8.5 -- cRAsH ----
+ShakeIt ---- fish -- Fresh -- Asylum -- ADVrider 2.0 <!-- // Main vBulletin Javascript
+Initialization vBulletin_init(); //-->
+

@@ -1,0 +1,774 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); AJITH FANS TRICHY if (navigator.userAgent.indexOf('MSIE 6') == -1) { WebFontConfig =
+{ google: { families: [ 'Cambria' ], api:
+'//themes.googleusercontent.com/fonts/css?kit=-GqmGYQZGWbBLL1qNn2sxA' }, loading:
+function() { if (window.jstiming) window.jstiming.load.tick('webfontLoading'); },
+active: function() { if (window.jstiming)
+window.jstiming.load.tick('webfontActive'); } }; (function() { var wf =
+document.createElement('script'); wf.src =
+'//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type =
+'text/javascript'; wf.async = 'true'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s);
+})(); } else { document.documentElement.className = 'wf-inactive'; } .wf-inactive
+.header h1, .wf-cambria-n4-loading .header h1, .wf-cambria-n4-inactive .header h1 {
+font-family: serif; } <!-- /*----------------------------------------------- Blogger
+Template Style Name: Picture Window Designer: Josh Peterson URL: www.noaesthetic.com
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="keycolor" description="Main Color" type="color"
+default="#1a222a"/> <Variable name="body.background" description="Body Background"
+type="background" color="#111111" default="#111111
+url(//themes.googleusercontent.com/image?id=1OACCYOE0-eoTRTfsBuX1NMN9nz599ufI1Jh0CggPFA_sK80AGkIr8pLtYRpNUKPmwtEa)
+repeat-x fixed top center"/> <Group description="Page Text" selector="body"> <Variable
+name="body.font" description="Font" type="font" default="normal normal 15px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="body.text.color"
+description="Text Color" type="color" default="#333333"/> </Group> <Group
+description="Backgrounds" selector=".body-fauxcolumns-outer"> <Variable
+name="body.background.color" description="Outer Background" type="color"
+default="#296695"/> <Variable name="header.background.color" description="Header
+Background" type="color" default="transparent"/> <Variable
+name="post.background.color" description="Post Background" type="color"
+default="#ffffff"/> </Group> <Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color"
+default="#336699"/> <Variable name="link.visited.color" description="Visited Color"
+type="color" default="#6699cc"/> <Variable name="link.hover.color"
+description="Hover Color" type="color" default="#33aaff"/> </Group> <Group
+description="Blog Title" selector=".header h1"> <Variable name="header.font"
+description="Title Font" type="font" default="normal normal 36px Arial, Tahoma,
+Helvetica, FreeSans, sans-serif"/> <Variable name="header.text.color"
+description="Text Color" type="color" default="#ffffff" /> </Group> <Group
+description="Tabs Text" selector=".tabs-inner .widget li a"> <Variable
+name="tabs.font" description="Font" type="font" default="normal normal 15px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="tabs.text.color"
+description="Text Color" type="color" default="#ffffff"/> <Variable
+name="tabs.selected.text.color" description="Selected Color" type="color"
+default="#336699"/> </Group> <Group description="Tabs Background"
+selector=".tabs-outer .PageList"> <Variable name="tabs.background.color"
+description="Background Color" type="color" default="transparent"/> <Variable
+name="tabs.selected.background.color" description="Selected Color" type="color"
+default="transparent"/> <Variable name="tabs.separator.color"
+description="Separator Color" type="color" default="transparent"/> </Group> <Group
+description="Post Title" selector="h3.post-title, .comments h4"> <Variable
+name="post.title.font" description="Title Font" type="font" default="normal normal
+18px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/> </Group> <Group
+description="Date Header" selector=".date-header"> <Variable
+name="date.header.color" description="Text Color" type="color" default="#333333"/>
+</Group> <Group description="Post" selector=".post"> <Variable
+name="post.footer.text.color" description="Footer Text Color" type="color"
+default="#999999"/> <Variable name="post.border.color" description="Border Color"
+type="color" default="#dddddd"/> </Group> <Group description="Gadgets"
+selector="h2"> <Variable name="widget.title.font" description="Title Font"
+type="font" default="bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color"
+default="#888888"/> </Group> <Group description="Footer" selector=".footer-outer">
+<Variable name="footer.text.color" description="Text Color" type="color"
+default="#cccccc"/> <Variable name="footer.widget.title.text.color"
+description="Gadget Title Color" type="color" default="#aaaaaa"/> </Group> <Group
+description="Footer Links" selector=".footer-outer"> <Variable
+name="footer.link.color" description="Link Color" type="color" default="#99ccee"/>
+<Variable name="footer.link.visited.color" description="Visited Color" type="color"
+default="#77aaee"/> <Variable name="footer.link.hover.color" description="Hover
+Color" type="color" default="#33aaff"/> </Group> <Variable name="content.margin"
+description="Content Margin Top" type="length" default="20px"/> <Variable
+name="content.padding" description="Content Padding" type="length" default="0"/>
+<Variable name="content.background" description="Content Background"
+type="background" default="transparent none repeat scroll top left"/> <Variable
+name="content.border.radius" description="Content Border Radius" type="length"
+default="0"/> <Variable name="content.shadow.spread" description="Content Shadow
+Spread" type="length" default="0"/> <Variable name="header.padding"
+description="Header Padding" type="length" default="0"/> <Variable
+name="header.background.gradient" description="Header Gradient" type="url"
+default="none"/> <Variable name="header.border.radius" description="Header Border
+Radius" type="length" default="0"/> <Variable name="main.border.radius.top"
+description="Main Border Radius" type="length" default="20px"/> <Variable
+name="footer.border.radius.top" description="Footer Border Radius Top" type="length"
+default="0"/> <Variable name="footer.border.radius.bottom" description="Footer
+Border Radius Bottom" type="length" default="20px"/> <Variable
+name="region.shadow.spread" description="Main and Footer Shadow Spread" type="length"
+default="3px"/> <Variable name="region.shadow.offset" description="Main and Footer
+Shadow Offset" type="length" default="1px"/> <Variable
+name="tabs.background.gradient" description="Tab Background Gradient" type="url"
+default="none"/> <Variable name="tab.selected.background.gradient"
+description="Selected Tab Background" type="url"
+default="url(//www.blogblog.com/1kt/transparent/white80.png)"/> <Variable
+name="tab.background" description="Tab Background" type="background"
+default="transparent url(//www.blogblog.com/1kt/transparent/black50.png) repeat
+scroll top left"/> <Variable name="tab.border.radius" description="Tab Border Radius"
+type="length" default="10px" /> <Variable name="tab.first.border.radius"
+description="First Tab Border Radius" type="length" default="10px" /> <Variable
+name="tabs.border.radius" description="Tabs Border Radius" type="length" default="0"
+/> <Variable name="tabs.spacing" description="Tab Spacing" type="length"
+default=".25em"/> <Variable name="tabs.margin.bottom" description="Tab Margin
+Bottom" type="length" default="0"/> <Variable name="tabs.margin.sides"
+description="Tab Margin Sides" type="length" default="20px"/> <Variable
+name="main.background" description="Main Background" type="background"
+default="transparent url(//www.blogblog.com/1kt/transparent/white80.png) repeat
+scroll top left"/> <Variable name="main.padding.sides" description="Main Padding
+Sides" type="length" default="20px"/> <Variable name="footer.background"
+description="Footer Background" type="background" default="transparent
+url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left"/>
+<Variable name="post.margin.sides" description="Post Margin Sides" type="length"
+default="-20px"/> <Variable name="post.border.radius" description="Post Border
+Radius" type="length" default="5px"/> <Variable name="widget.title.text.transform"
+description="Widget Title Text Transform" type="string" default="uppercase"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay"
+type="string" default="transparent none repeat scroll top left"/> <Variable
+name="startSide" description="Side where text starts in blog language" type="automatic"
+default="left"/> <Variable name="endSide" description="Side where text ends in blog
+language" type="automatic" default="right"/> */ /* Content
+----------------------------------------------- */ body { font: normal normal 15px
+Arial, Tahoma, Helvetica, FreeSans, sans-serif; color: #333333; background: #111111
+url(http://3.bp.blogspot.com/-jUX-tGbeupU/T-AnKg8uYgI/AAAAAAAAAUg/CqKIP-fHrsM/s0/Billa2-Wallpapers_7.jpg)
+repeat scroll top right; } html body .region-inner { min-width: 0; max-width: 100%; width:
+auto; } .content-outer { font-size: 90%; } a:link { text-decoration:none; color: #336699; }
+a:visited { text-decoration:none; color: #6699cc; } a:hover {
+text-decoration:underline; color: #33aaff; } .content-outer { background: transparent
+none repeat scroll top left; -moz-border-radius: 0; -webkit-border-radius: 0;
+-goog-ms-border-radius: 0; border-radius: 0; -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+box-shadow: 0 0 0 rgba(0, 0, 0, .15); margin: 20px auto; } .content-inner { padding: 0; } /*
+Header ----------------------------------------------- */ .header-outer {
+background: transparent none repeat-x scroll top left; _background-image: none; color:
+#111111; -moz-border-radius: 0; -webkit-border-radius: 0; -goog-ms-border-radius: 0;
+border-radius: 0; } .Header img, .Header #header-inner { -moz-border-radius: 0;
+-webkit-border-radius: 0; -goog-ms-border-radius: 0; border-radius: 0; } .header-inner
+.Header .titlewrapper, .header-inner .Header .descriptionwrapper { padding-left: 0;
+padding-right: 0; } .Header h1 { font: normal normal 42px Cambria; text-shadow: 1px 1px 3px
+rgba(0, 0, 0, 0.3); } .Header h1 a { color: #111111; } .Header .description { font-size: 130%; }
+/* Tabs ----------------------------------------------- */ .tabs-inner { margin: .5em
+20px 0; padding: 0; } .tabs-inner .section { margin: 0; } .tabs-inner .widget ul { padding: 0;
+background: transparent none repeat scroll bottom; -moz-border-radius: 0;
+-webkit-border-radius: 0; -goog-ms-border-radius: 0; border-radius: 0; } .tabs-inner
+.widget li { border: none; } .tabs-inner .widget li a { display: inline-block; padding: .5em
+1em; margin-right: .25em; color: #ffffff; font: normal normal 15px Arial, Tahoma,
+Helvetica, FreeSans, sans-serif; -moz-border-radius: 10px 10px 0 0;
+-webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px;
+-goog-ms-border-radius: 10px 10px 0 0; border-radius: 10px 10px 0 0; background:
+transparent url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top
+left; border-right: 1px solid transparent; } .tabs-inner .widget li:first-child a {
+padding-left: 1.25em; -moz-border-radius-topleft: 10px;
+-moz-border-radius-bottomleft: 0; -webkit-border-top-left-radius: 10px;
+-webkit-border-bottom-left-radius: 0; -goog-ms-border-top-left-radius: 10px;
+-goog-ms-border-bottom-left-radius: 0; border-top-left-radius: 10px;
+border-bottom-left-radius: 0; } .tabs-inner .widget li.selected a, .tabs-inner .widget
+li a:hover { position: relative; z-index: 1; background: transparent
+url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll bottom; color:
+#336699; -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .15); -webkit-box-shadow: 0 0 3px rgba(0, 0,
+0, .15); -goog-ms-box-shadow: 0 0 3px rgba(0, 0, 0, .15); box-shadow: 0 0 3px rgba(0, 0, 0,
+.15); } /* Headings ----------------------------------------------- */ h2 { font: bold
+normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif; text-transform: uppercase;
+color: #888888; margin: .5em 0; } /* Main
+----------------------------------------------- */ .main-outer { background:
+transparent url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll top
+left; -moz-border-radius: 20px 20px 0 0; -webkit-border-top-left-radius: 20px;
+-webkit-border-top-right-radius: 20px; -webkit-border-bottom-left-radius: 0;
+-webkit-border-bottom-right-radius: 0; -goog-ms-border-radius: 20px 20px 0 0;
+border-radius: 20px 20px 0 0; -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 1px 3px rgba(0, 0,
+0, .15); box-shadow: 0 1px 3px rgba(0, 0, 0, .15); } .main-inner { padding: 15px 20px 20px; }
+.main-inner .column-center-inner { padding: 0 0; } .main-inner .column-left-inner {
+padding-left: 0; } .main-inner .column-right-inner { padding-right: 0; } /* Posts
+----------------------------------------------- */ h3.post-title { margin: 0; font:
+normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif; } .comments h4 { margin:
+1em 0 0; font: normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif; }
+.date-header span { color: #333333; } .post-outer { background-color: transparent;
+border: solid 1px #dddddd; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+border-radius: 5px; -goog-ms-border-radius: 5px; padding: 15px 20px; margin: 0 -20px
+20px; } .post-body { line-height: 1.4; font-size: 110%; position: relative; } .post-header
+{ margin: 0 0 1.5em; color: #999999; line-height: 1.6; } .post-footer { margin: .5em 0 0;
+color: #999999; line-height: 1.6; } #blog-pager { font-size: 140% } #comments
+.comment-author { padding-top: 1.5em; border-top: dashed 1px #ccc; border-top: dashed 1px
+rgba(128, 128, 128, .5); background-position: 0 1.5em; } #comments
+.comment-author:first-child { padding-top: 0; border-top: none; }
+.avatar-image-container { margin: .2em 0 0; } /* Comments
+----------------------------------------------- */ .comments .comments-content
+.icon.blog-author { background-repeat: no-repeat; background-image:
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+} .comments .comments-content .loadmore a { border-top: 1px solid #33aaff; border-bottom:
+1px solid #33aaff; } .comments .continue { border-top: 2px solid #33aaff; } /* Widgets
+----------------------------------------------- */ .widget ul, .widget #ArchiveList
+ul.flat { padding: 0; list-style: none; } .widget ul li, .widget #ArchiveList ul.flat li {
+border-top: dashed 1px #ccc; border-top: dashed 1px rgba(128, 128, 128, .5); } .widget ul
+li:first-child, .widget #ArchiveList ul.flat li:first-child { border-top: none; }
+.widget .post-body ul { list-style: disc; } .widget .post-body ul li { border: none; } /*
+Footer ----------------------------------------------- */ .footer-outer {
+color:#cccccc; background: transparent
+url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left;
+-moz-border-radius: 0 0 20px 20px; -webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0; -webkit-border-bottom-left-radius: 20px;
+-webkit-border-bottom-right-radius: 20px; -goog-ms-border-radius: 0 0 20px 20px;
+border-radius: 0 0 20px 20px; -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 1px 3px rgba(0, 0,
+0, .15); box-shadow: 0 1px 3px rgba(0, 0, 0, .15); } .footer-inner { padding: 10px 20px 20px; }
+.footer-outer a { color: #99ccee; } .footer-outer a:visited { color: #77aaee; }
+.footer-outer a:hover { color: #33aaff; } .footer-outer .widget h2 { color: #aaaaaa; } /*
+Mobile ----------------------------------------------- */ html body.mobile { height:
+auto; } html body.mobile { min-height: 480px; background-size: 100% auto; } .mobile
+.body-fauxcolumn-outer { background: transparent none repeat scroll top left; } html
+.mobile .mobile-date-outer, html .mobile .blog-pager { border-bottom: none; background:
+transparent url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll top
+left; margin-bottom: 10px; } .mobile .date-outer { background: transparent
+url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left; } .mobile
+.header-outer, .mobile .main-outer, .mobile .post-outer, .mobile .footer-outer {
+-moz-border-radius: 0; -webkit-border-radius: 0; -goog-ms-border-radius: 0;
+border-radius: 0; } .mobile .content-outer, .mobile .main-outer, .mobile .post-outer {
+background: inherit; border: none; } .mobile .content-outer { font-size: 100%; }
+.mobile-link-button { background-color: #336699; } .mobile-link-button a:link,
+.mobile-link-button a:visited { color: transparent; } .mobile-index-contents { color:
+#333333; } .mobile .tabs-inner .PageList .widget-content { background: transparent
+url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll bottom; color:
+#336699; } .mobile .tabs-inner .PageList .widget-content .pagelist-arrow { border-left:
+1px solid transparent; } --> <!-- body { min-width: 1160px; } .content-outer,
+.content-fauxcolumn-outer, .region-inner { min-width: 1160px; max-width: 1160px;
+_width: 1160px; } .main-inner .columns { padding-left: 0; padding-right: 280px; }
+.main-inner .fauxcolumn-center-outer { left: 0; right: 280px; /* IE6 does not respect left
+and right together */ _width: expression(this.parentNode.offsetWidth - parseInt("0") -
+parseInt("280px") + 'px'); } .main-inner .fauxcolumn-left-outer { width: 0; } .main-inner
+.fauxcolumn-right-outer { width: 280px; } .main-inner .column-left-outer { width: 0;
+right: 100%; margin-left: -0; } .main-inner .column-right-outer { width: 280px;
+margin-right: -280px; } #layout { min-width: 0; } #layout .content-outer { min-width: 0;
+width: 800px; } #layout .region-inner { min-width: 0; width: auto; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0751824463134233753177\46blogName\75AJITH+FANS+TRICHY\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://ajithrokz.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://ajithrokz.blogspot.com/\46vt\75-1250627359601777507',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+
+
+
+
+
+
+AJITH FANS TRICHY
+
+
+
+
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Monday, June 18, 2012
+
+
+
+
+
+
+
+BILLA 2 TEASER
+
+
+
+Image: http://www.ajithfans.com/article-uploads/2012/06/billa2-soon-1.jpg
+
+
+
+
+
+at
+
+
+
+10:00 PM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Monday, October 25, 2010
+
+
+
+
+
+
+
+ROCKING MANGATHA SONG
+
+
+
+Image:
+http://3.bp.blogspot.com/--3FLGiDq_3o/TqzifaIjYZI/AAAAAAAAAOU/boVqu8BSRw4/s640/2.jpg
+
+
+
+at
+
+
+
+8:28 AM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Friday, July 30, 2010
+
+
+
+
+
+
+
+THE GREAT THALA
+
+Ajith, who preferred to stay away from car racing, is back on track. The actor will wroom on the
+racing track at Sriperumbudur on a Formula 1600 car, one of the vehicles with fastest engines,
+sources say.
+
+Image:
+http://1.bp.blogspot.com/_5Q21inr_T7c/S3aULTBnaKI/AAAAAAAANhc/wcqO-jH_fjU/s400/ajith-car-race-photos-09.jpg
+
+We all know that our beloved Thala Ajith Kumar's love on car race. He has participated in world
+class Formula 3 races and won prizes. As he felt that his racing passion affected his cinema
+career, he stopped participating in car race for the past few years.
+
+Now he has decided to participate in MRF Formula 1600 International Challenge series which is
+to be held at Madras Motor Race Track, Irungattukottai, Sriperumputhur on Feb 14th, 2010
+(Coming Sunday). MRF offers a total prize money of Rs 30 lakhs.
+
+Ajith will be driving the below car...
+
+
+
+
+
+Image: http://www.starajith.com/News/feb1210car1.jpg He is going to race with the newly
+introduced MRF F-1600 race car along with the 'Fastest Indian' F1 racer Narain Karthikeyan
+and rising talent Karan Chandokh. It will be a 15 lap race. The car is built by MRF’s chief
+tuner J. Anand of Coimbatore, and is equipped with 1600cc Ford Duratec engine that develops
+130bhp. at
+
+
+
+4:57 AM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook
+
+Monday, July 26, 2010
+
+
+
+THALA HISTORY
+
+Name Ajith Kumar
+
+Nick names Kaadhal Mannan, Thala, Ultimate Star, Lucky star Profession Actor Date of Birth
+May 1, 1971 Place of Birth Hyderabad Height 5' 11" (1.80 m) Education 10 Std drop out from  Asan
+Memorial Sr. Sec.   School  in 1986 Nationality Indian Family Father:   Subramaniam
+
+Mother:   Mohini
+
+Brother:   Anil Kumar (Cost analyst in New York)  
+
+Brother:   Anup Kumar   (B Tech in naval architecture from IIT,  Madras )
+
+Wife:   Shalini Debut Tamil:   Amaravathi
+
+Telugu:   Prema Pusthagam  
+
+Hindi : Ashoka Marriage date 24th April, 2000 Earlier jobs *Two and Four wheeler mechanic
+
+*Garment exporter based in Erode till 1990. Mango racing A motor car racer until 2005 and took
+part in   Formula 3 championships for the minor outfit,   Mango Racing . In 2004, he became the
+third participant ever from  India after   Narain Karthikeyan   and   Karun Chandok . Pet A
+Dog named Honey
+
+Ambassador An ambassador for the Green Revolution, an awareness campaign to clean up the
+Chennai environment Rajinikanth * He says that he had a complete transformation in his life
+after he got the book "Living with the Himalayan Masters" from Rajinikanth
+
+* I am arrogant enough to say, 'I want his place'.  
+
+* Is working in the remake of 'Billa' a Rajinikanth blockbuster. Entering films Only to pay off
+his debts which were incurred from his failed garment business. Favourites * dress : Jeans and
+T-Shirt
+
+
+
+* colour : Red
+
+
+
+* vacation spot :  London
+
+
+
+*food: Non-vegetarian food (Mutton and beef dishes).
+
+
+
+* shooting location : Kodaikaanal Hobby Listening to music favourite activities in his
+school years NCC, rifle shooting, aero-modelling, bike racing About Reading "I don't read
+anything other than the newspapers, Reader's Digest   or National Geographic " Motor racing
+He   wanted to be a professional motor racer. For lack of sponsors he could not do it. Racing
+accident He   injured his back and had to undergo three major surgeries on his back. He was in
+bed for one-and-a-half years. Biggest competitor Always competes with self Religion
+Shalini is a Protestant Christian and he is a Brahmin from Palghat. He feels that religion is
+not an issue as they are not forcing their views on each other. Shalini * Met her in the film sets
+of "Armarkalam"
+
+* The exact time and date of the meeting - March 17, 1999 at 10.30am. Facts * After his surgery for
+a broken vertebra he lost feeling in his legs, but he took on a vow to recover and walked all the
+way from his home in  Madras  to the Balaji shrine in Tirupathi, in Andhra Pradesh.
+
+
+
+* His mother is a Sindhi and his father a Malayalee
+
+
+
+*   He has a Student Pilot's Licence (SPL) to fly a single engine Cessna A152 aeroplane.
+
+
+
+* He has a garage full of the latest motorcycles and remote-controlled helicopters at his
+Tiruvanmiyur home. Awards * Film fare Award for the film Varalaru 2006
+
+* Film fare Award for the Film Villain 2003
+
+* Dinakaran Cinema Award for the film 'Villain' in 2003,
+
+* Special Actor state award for the film Poovellam Un Vasam 2001
+
+* Film fare Best supporting actor award for the film Kandukondain Kandukondain 2000
+
+* Film fare Award for the film Vaali 1999  
+
+* Best New Face Award from "Bharatmuni Art Academy" for his debut film 'Prema Pusthakam'
+(Telugu).  
+
+* Cinema Express Best Artiste Award. Address AK International
+
+No 5,  Vijayalakshmi Street ,
+
+Mahalingapuram, Chennai 600034. Philosophy of life Live and let live Quote "Acting is a
+learning process, and what you are doing in your early films is essentially picking up the
+nuances, the tricks of your trade. And somewhere along the line, you become analytical, and
+learn to enjoy what you are doing. Essentially, though, I see myself as a director's medium - he
+needs something from me, I deliver it."
+
+
+
+at
+
+
+
+6:47 AM No comments:
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook Home Subscribe to: Posts (Atom) window.___gcfg = {'lang':
+'en'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})(); <!-- google_ad_client="pub-1955957596000417";
+google_ad_host="pub-1556223355139109"; google_ad_width=160; google_ad_height=600;
+google_ad_format="160x600_as"; google_ad_type="text_image";
+google_ad_host_channel="0001+S0004+L0001"; google_color_border="000000";
+google_color_bg="000000"; google_color_link="888888"; google_color_url="666666";
+google_color_text="FFFFFF"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png <!--
+google_ad_client="pub-1955957596000417"; google_ad_host="pub-1556223355139109";
+google_ad_width=160; google_ad_height=600; google_ad_format="160x600_as";
+google_ad_type="text_image"; google_ad_host_channel="0001";
+google_color_border="000000"; google_color_bg="000000";
+google_color_link="888888"; google_color_url="666666";
+google_color_text="FFFFFF"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+My Blog List
+
+    
+
+    - TAMIL LATEST MP3 SONGS
+
+    
+
+    - WELCOME TO ONLINE JOBS PORTAL
+
+    
+
+    - MOBILE ZONE
+
+    
+
+    - PC ZONE
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://www.facebook.com/images/fb_logo_small.png
+
+Image:
+http://badge.facebook.com/badge/55791889522.100000330794700.1335302001.png
+
+Image: http://www.facebook.com/images/icons/fbpage.gif
+
+Parthi King likes
+
+Image:
+http://www.facebook.com/profile/pic.php?oid=AQCdNeNtYWtqAlWFMZrUT01bjfbr0B1Q_C7Ho9GP9_vtHL8OsXqlU6ccdgLSWSCtzvo&size=square
+★ Ultimate Star ~ Thala Ajith ★ Create your Like Badge
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Subscribe via email
+
+
+
+Enter your email address:
+
+
+
+Delivered by FeedBurner
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://2.bp.blogspot.com/_IevlMkT8K_E/TE23YUPR9gI/AAAAAAAAACg/cvmLyvFfA1Y/S300/ajith_17_411200922814123.jpg
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ▼  2012 (1)
+
+            - ▼  June (1)
+
+            - BILLA 2 TEASER
+
+            
+
+        
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (3)
+
+        - ►  October (1)
+
+        
+
+        
+
+        - ►  July (2)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png <!--
+google_ad_client="pub-1955957596000417"; google_ad_host="pub-1556223355139109";
+google_ad_width=160; google_ad_height=600; google_ad_format="160x600_as";
+google_ad_type="text_image"; google_ad_host_channel="0001";
+google_color_border="000000"; google_color_bg="000000";
+google_color_link="000000"; google_color_url="5E5E5E";
+google_color_text="FFFFFF"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+COUNTER
+
+widgeo.net
+
+Image: http://www.widgeo.net/img/logopm.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png var dc_UnitID = 14; var
+dc_PublisherID = 161958; var dc_AdLinkColor = 'blue'; var dc_adprod='ADL'; var
+dc_open_new_win = 'yes';
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Picture Window
+template. Powered by Blogger .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+window.setTimeout(function() { document.body.className =
+document.body.className.replace('loading', ''); }, 10); if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV2";window['blogger_blog_id'] =
+'1824463134233753177';BLOG_attachCsiOnload('');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d1824463134233753177','//ajithrokz.blogspot.com/','1824463134233753177');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'1824463134233753177', 'bloggerUrl': 'http://www.blogger.com', 'title': 'AJITH FANS
+TRICHY', 'pageType': 'index', 'url': 'http://ajithrokz.blogspot.com/',
+'canonicalUrl': 'http://ajithrokz.blogspot.com/', 'canonicalHomepageUrl':
+'http://ajithrokz.blogspot.com/', 'homepageUrl':
+'http://ajithrokz.blogspot.com/', 'blogspotFaviconUrl':
+'http://ajithrokz.blogspot.com/favicon.ico', 'enabledCommentProfileImages': true,
+'adultContent': false, 'disableAdSenseWidget': false, 'analyticsAccountNumber': '',
+'searchLabel': '', 'searchQuery': '', 'pageName': '', 'pageTitle': 'AJITH FANS TRICHY',
+'encoding': 'UTF-8', 'locale': 'en', 'isPrivate': false, 'isMobile': false,
+'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false,
+'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42
+type\75\42application/atom+xml\42 title\75\42AJITH FANS TRICHY - Atom\42
+href\75\42http://ajithrokz.blogspot.com/feeds/posts/default\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42AJITH FANS TRICHY
+- RSS\42 href\75\42http://ajithrokz.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42AJITH FANS TRICHY - Atom\42
+href\75\42http://www.blogger.com/feeds/1824463134233753177/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0751824463134233753177\42 /\076',
+'meTag': '', 'openIdOpTag': '\74link rel\75\42openid.server\42
+href\75\42http://www.blogger.com/openid-server.g\42 /\76\n\74link
+rel\75\42openid.delegate\42 href\75\42http://ajithrokz.blogspot.com/\42 /\76\n',
+'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId':
+'pub-1955957596000417', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script
+type\75\42text/javascript\42
+src\75\42//www.blogger.com/static/v1/jsbin/3651483553-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076',
+'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'content_padding': '0',
+'tabs_selected_background_color': 'transparent', 'region_shadow_spread': '3px',
+'header_padding': '0', 'tab_selected_background_gradient':
+'url(//www.blogblog.com/1kt/transparent/white80.png)', 'link_visited_color':
+'#6699cc', 'tabs_margin_sides': '20px', 'post_title_font': 'normal normal 18px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif', 'tabs_separator_color': 'transparent',
+'tabs_text_color': '#ffffff', 'header_background_gradient': 'none',
+'widget_title_font': 'bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif',
+'tab_first_border_radius': '10px', 'tabs_border_radius': '0', 'keycolor': '#1a222a',
+'content_shadow_spread': '0', 'main_background': 'transparent
+url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left',
+'header_font': 'normal normal 42px Cambria', 'footer_background': 'transparent
+url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left',
+'header_background_color': 'transparent', 'widget_title_text_transform':
+'uppercase', 'footer_link_visited_color': '#77aaee', 'footer_link_hover_color':
+'#33aaff', 'footer_border_radius_bottom': '20px', 'tabs_background_gradient':
+'none', 'tab_background': 'transparent
+url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left',
+'mobile_background_overlay': 'transparent none repeat scroll top left',
+'tabs_background_color': 'transparent', 'header_border_radius': '0',
+'post_margin_sides': '-20px', 'link_hover_color': '#33aaff', 'footer_link_color':
+'#99ccee', 'content_background': 'transparent none repeat scroll top left',
+'tabs_margin_bottom': '0', 'body_text_color': '#333333', 'main_padding_sides':
+'20px', 'post_border_color': '#dddddd', 'footer_text_color': '#cccccc',
+'footer_border_radius_top': '0', 'post_background_color': 'transparent',
+'content_border_radius': '0', 'endSide': 'right', 'post_footer_text_color':
+'#999999', 'startSide': 'left', 'date_header_color': '#333333', 'tabs_font': 'normal
+normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'body_font': 'normal normal
+15px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'post_border_radius': '5px',
+'widget_title_text_color': '#888888', 'content_margin': '20px', 'link_color':
+'#336699', 'footer_widget_title_text_color': '#aaaaaa', 'header_text_color':
+'#111111', 'main_border_radius_top': '20px', 'region_shadow_offset': '1px',
+'tab_border_radius': '10px', 'tabs_selected_text_color': '#336699',
+'body_background_color': '#111111', 'tabs_spacing': '.25em'}, 'override': ''}},
+{'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'},
+'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name':
+'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url':
+'/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'},
+'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name':
+'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'crosscol',
+null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2',
+'sidebar-right-3', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML10',
+'footer-2-2', null, document.getElementById('HTML10'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'footer-3', null,
+document.getElementById('Attribution1'), {'attribution': 'Picture Window template.
+Powered by \74a href\75\47http://www.blogger.com\47
+target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_AdSenseView', new
+_WidgetInfo('AdSense1', 'sidebar-right-1', null,
+document.getElementById('AdSense1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense2',
+'sidebar-right-1', null, document.getElementById('AdSense2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogListView', new
+_WidgetInfo('BlogList1', 'sidebar-right-1', null,
+document.getElementById('BlogList1'), {'numItemsToShow': 0, 'totalItems': 4},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML4', 'sidebar-right-1', null, document.getElementById('HTML4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'sidebar-right-1', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image1', 'sidebar-right-1', null, document.getElementById('Image1'),
+{'resize': true}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar-right-1', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_AdSenseView', new
+_WidgetInfo('AdSense3', 'sidebar-right-2-1', null,
+document.getElementById('AdSense3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1',
+'null', null, document.getElementById('PageList1'), {'title': 'Pages', 'links':
+[{'href': 'http://ajithrokz.blogspot.com/', 'title': 'Home', 'isCurrentPage':
+true}], 'mobile': false}, 'displayModeFull'));
+

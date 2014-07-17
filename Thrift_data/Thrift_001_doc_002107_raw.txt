@@ -1,0 +1,1565 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); May 2011 ~ DB Technoholic <!-- /* -----------------------------------------------
+Template Name : Delphi Author : NewBloggerThemes.com Author URL :
+http://newbloggerthemes.com/ Theme URL :
+http://newbloggerthemes.com/delphi-blogger-template/ Created Date : Tuesday,
+September 7, 2012 License : This template is free for both personal and commercial use, But to
+satisfy the 'attribution' clause of the license, you are required to keep the footer links
+intact which provides due credit to its authors.For more information about this license,
+please use this link :http://creativecommons.org/licenses/by/3.0/
+----------------------------------------------- */ body#layout
+ul{list-style-type:none;list-style:none} body#layout ul
+li{list-style-type:none;list-style:none} body#layout #skiplinks{display:none}
+body#layout #content {width:600px;} /* Variable definitions ====================
+<Variable name="bgcolor" description="Page Background Color" type="color"
+default="#fff"> <Variable name="textcolor" description="Text Color" type="color"
+default="#333"> <Variable name="linkcolor" description="Link Color" type="color"
+default="#58a"> <Variable name="pagetitlecolor" description="Blog Title Color"
+type="color" default="#666"> <Variable name="descriptioncolor" description="Blog
+Description Color" type="color" default="#999"> <Variable name="titlecolor"
+description="Post Title Color" type="color" default="#c60"> <Variable
+name="bordercolor" description="Border Color" type="color" default="#ccc"> <Variable
+name="sidebarcolor" description="Sidebar Title Color" type="color" default="#999">
+<Variable name="sidebartextcolor" description="Sidebar Text Color" type="color"
+default="#666"> <Variable name="visitedlinkcolor" description="Visited Link Color"
+type="color" default="#999"> <Variable name="bodyfont" description="Text Font"
+type="font" default="normal normal 100% Georgia, Serif"> <Variable name="headerfont"
+description="Sidebar Title Font" type="font" default="normal normal 78% 'Trebuchet
+MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable name="pagetitlefont"
+description="Blog Title Font" type="font" default="normal normal 200% Georgia, Serif">
+<Variable name="descriptionfont" description="Blog Description Font" type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif">
+<Variable name="postfooterfont" description="Post Footer Font" type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif">
+<Variable name="startSide" description="Side where text starts in blog language"
+type="automatic" default="left"> <Variable name="endSide" description="Side where
+text ends in blog language" type="automatic" default="right"> */ /* Use this with
+templates/template-twocol.html */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font:inherit
+inherit 100% inherit;margin:0;outline:0;padding:0;vertical-align:baseline}
+html{overflow-y:scroll;font-size:62.5%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+body{background:#fff}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}
+ol,ul{list-style:none} table{border-collapse:separate;border-spacing:0}
+caption,th,td{font-weight:normal;text-align:left}
+blockquote:before,blockquote:after,q:before,q:after{content:""}
+blockquote,q{quotes:"" ""} a:focus{outline:thin dotted} a:hover,a:active{outline:0}
+a img{border:0} body,button,input,select,textarea{color:#666;font:1.3rem/1.5 Open
+sans,sans-serif;background:url(http://4.bp.blogspot.com/-ZDLSMIbwabE/UEliOMTI1pI/AAAAAAAAIbg/Y6MATLplc3o/s1600/tile.png)}
+h1,h2,h3,h4,h5,h6{clear:both;margin:0 0 10px 0} h1 a,h2 a,h3 a,h4 a,h5 a,h6
+a{font-weight:inherit} h1{font-size:26px;line-height:30px}
+h2{font-size:20px;line-height:26px} h3{font-size:18px;line-height:24px}
+h4{font-size:16px;line-height:20px} h5{font-size:14px;line-height:18px}
+h6{font-size:14px;line-height:18px}
+hr{background-color:#ccc;border:0;height:1px;margin-bottom:1.5em}
+p{margin-bottom:1.5em} ul,ol{margin:0 0 1.5em 1em} ul{list-style:disc}
+ol{list-style:decimal} ul ul,ol ol,ul ol,ol ul{margin-bottom:0;margin-left:1em}
+dt{font-weight:bold} dd{margin:0 1.5em 1.5em} b,strong{font-weight:bold}
+dfn,cite,em,i{font-style:italic} blockquote{margin:0 1.5em} address{margin:0 0
+1.5em} pre{background:#eee;font:1.3rem/1.6 "Courier 10
+Pitch",Courier,monospace;margin-bottom:1.6em;padding:1.6em;overflow:auto;max-width:100%}
+code,kbd,tt,var{font:13px Monaco,Consolas,"Andale Mono","DejaVu Sans
+Mono",monospace} abbr,acronym{border-bottom:1px dotted #666;cursor:help}
+mark,ins{background:#fff9c0;text-decoration:none}
+sup,sub{height:0;font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{bottom:1ex} sub{top:.5ex} small{font-size:75%} big{font-size:125%}
+figure{margin:0} table{margin:0 0 1.5em;width:100%;border:1px solid
+#ddd;border-right:none;background:#fff} th{font-weight:bold;padding:10px
+10px;background:#555;color:#fff} tr{padding:5px 5px} td{padding:5px
+10px;border-top:1px solid #ddd;border-right:1px solid #ddd}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle;}
+button,input{*overflow:visible;line-height:normal;} button,html
+input[type="button"],input[type="reset"],input[type="submit"]{border:1px solid
+#ccc;border-color:#ccc #ccc #bbb
+#ccc;border-radius:3px;background:#fafafa;background:-moz-linear-gradient(top,#fafafa
+60%,#e6e6e6 100%);background:-webkit-gradient(linear,left top,left
+bottom,color-stop(60%,#fafafa),color-stop(100%,#e6e6e6));background:-webkit-linear-gradient(top,#fafafa
+60%,#e6e6e6 100%);background:-o-linear-gradient(top,#fafafa 60%,#e6e6e6
+100%);background:-ms-linear-gradient(top,#fafafa 60%,#e6e6e6
+100%);background:linear-gradient(top,#fafafa 60%,#e6e6e6
+100%);filter:progid:DXImageTransform.Microsoft.gradient(
+startColorstr='#fafafa',endColorstr='#e6e6e6',GradientType=0 );box-shadow:inset 0
+2px 1px
+#fff;color:rgba(0,0,0,.8);cursor:pointer;-webkit-appearance:button;font-size:12px;font-size:1.4rem;padding:1.12em
+1.5em .88em;text-shadow:0 1px 0 rgba(255,255,255,.5)} button:hover,html
+input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover{background:#f5f5f5;background:-moz-linear-gradient(top,#f5f5f5
+60%,#dcdcdc 100%);background:-webkit-gradient(linear,left top,left
+bottom,color-stop(60%,#f5f5f5),color-stop(100%,#dcdcdc));background:-webkit-linear-gradient(top,#f5f5f5
+60%,#dcdcdc 100%);background:-o-linear-gradient(top,#f5f5f5 60%,#dcdcdc
+100%);background:-ms-linear-gradient(top,#f5f5f5 60%,#dcdcdc
+100%);background:linear-gradient(top,#f5f5f5 60%,#dcdcdc
+100%);filter:progid:DXImageTransform.Microsoft.gradient(
+startColorstr='#f5f5f5',endColorstr='#dcdcdc',GradientType=0 );border-color:#bbb
+#bbb #aaa #bbb} button:focus,html
+input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,button:active,html
+input[type="button"]:active,input[type="reset"]:active,input[type="submit"]:active{border-color:#aaa
+#bbb #bbb #bbb;box-shadow:inset 0 2px 3px rgba(0,0,0,.15);box-shadow:inset 0 2px 2px
+rgba(0,0,0,.15)}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+input[type=text],textarea{color:#666;border:1px solid #ccc;border-radius:3px}
+input[type=text]:focus,textarea:focus{color:#111} input[type=text]{padding:3px}
+textarea{overflow:auto;padding-left:3px;vertical-align:top;width:98%}
+a{color:royalblue} a:visited{color:#666;}
+a:hover,a:focus,a:active{color:midnightblue}
+.alignleft{display:inline;float:left;margin-right:1.5em}
+.alignright{display:inline;float:right;margin-left:1.5em}
+.aligncenter{clear:both;display:block;margin:0 auto} .clear{clear:both}
+.assistive-text{clip:rect(1px 1px 1px
+1px);clip:rect(1px,1px,1px,1px);position:absolute !important} .sticky{}
+.hentry{margin:0 0 1.5em} .entry-meta{clear:both} .byline{display:none} .single
+.byline,.group-blog .byline{display:inline}
+.entry-content,.entry-summary{margin:1.5em 0 0} .page-links{clear:both;margin:0 0
+1.5em} .blog .format-aside .entry-title,.archive .format-aside
+.entry-title{display:none} .site-header img,.entry-content img,.comment-content
+img,.widget img{max-width:100%;} .site-header img,.entry-content
+img,img[class*="align"],img[class*="wp-image-"]{height:auto;} .site-header
+img,.entry-content img,img.size-full{max-width:100%;width:auto;} .entry-content
+img.wp-smiley,.comment-content
+img.wp-smiley{border:none;margin-bottom:0;margin-top:0;padding:0}
+.wp-caption{border:1px solid #ccc;max-width:100%}
+.wp-caption.aligncenter,.wp-caption.alignleft,.wp-caption.alignright{margin-bottom:1.5em}
+.wp-caption img{display:block;margin:1.2% auto 0;max-width:98%}
+.wp-caption-text{text-align:center} .wp-caption .wp-caption-text{margin:0.8075em
+0} #content .gallery{margin-bottom:1.5em} .gallery-caption{} #content .gallery a
+img{border:none;height:auto;max-width:90%} #content .gallery dd{margin:0} #content
+.gallery-columns-4 .gallery-item{} #content .gallery-columns-4 .gallery-item img{}
+embed,iframe,object{max-width:100%} #content .site-navigation{margin:0 0
+1.5em;overflow:hidden} #content .nav-previous{float:left;width:50%} #content
+.nav-next{float:right;text-align:right;width:50%} .bypostauthor{}
+.topnav{margin-top:10px} #searchbox{float:right} #searchbox label{display:none}
+input#searchsubmit{padding:1px 10px} input#s{height:16px;background:#fff}
+#wrapper{width:958px;background:#fff;padding:20px 19px;border:1px solid
+#c3a58a;margin:50px auto} #header{height:85px}
+.supra{height:30px;margin-bottom:5px} .supra ul.social{margin:0 0;padding:0
+0;float:right} ul.social
+li{float:left;list-style:none;margin-left:10px;text-indent:-9000px} ul.social li
+a{display:block;height:24px;width:24px;-webkit-transition:background 500ms
+ease-in-out;-moz-transition:background 1000ms
+ease-in-out;-ms-transition:background 500ms ease-in-out;-o-transition:background
+500ms ease-in-out;transition:background 500ms ease-in-out} li.twitter
+a{background-position:0
+0;background:url(http://1.bp.blogspot.com/-Woat5SSgHLU/UEliKZ1VUvI/AAAAAAAAIbY/qBggWayAEVA/s1600/social.png)}
+li.twitter
+a:hover{background:url(http://1.bp.blogspot.com/-Woat5SSgHLU/UEliKZ1VUvI/AAAAAAAAIbY/qBggWayAEVA/s1600/social.png);background-position:0
+-216px} li.facebook
+a{background:url(http://1.bp.blogspot.com/-Woat5SSgHLU/UEliKZ1VUvI/AAAAAAAAIbY/qBggWayAEVA/s1600/social.png);background-position:0
+-48px} li.facebook
+a:hover{background:url(http://1.bp.blogspot.com/-Woat5SSgHLU/UEliKZ1VUvI/AAAAAAAAIbY/qBggWayAEVA/s1600/social.png);background-position:0
+-264px} li.feed
+a{background:url(http://1.bp.blogspot.com/-Woat5SSgHLU/UEliKZ1VUvI/AAAAAAAAIbY/qBggWayAEVA/s1600/social.png);background-position:0
+-96px} li.feed
+a:hover{background:url(http://1.bp.blogspot.com/-Woat5SSgHLU/UEliKZ1VUvI/AAAAAAAAIbY/qBggWayAEVA/s1600/social.png);background-position:0
+-312px} li.mail
+a{background:url(http://1.bp.blogspot.com/-Woat5SSgHLU/UEliKZ1VUvI/AAAAAAAAIbY/qBggWayAEVA/s1600/social.png);background-position:0
+-144px} li.mail
+a:hover{background:url(http://1.bp.blogspot.com/-Woat5SSgHLU/UEliKZ1VUvI/AAAAAAAAIbY/qBggWayAEVA/s1600/social.png);background-position:0
+-360px} .top{height:40px;background:#ff743c}
+.logo{float:left;background:#fff;height:40px;padding:0 10px 0 0} .logo
+h1{margin:0;padding:0;text-transform:uppercase;font-weight:800;font-size:36px;line-height:40px}
+.logo h1 a:link,.logo h1 a:visited{color:#444;text-decoration:none}
+#botmenu{margin:5px 0 0 0;font-size:12px;overflow:hidden} #submenu{margin:0
+0;padding:0 0;height:40px} #submenu
+ul{width:auto;float:right;list-style:none;margin:0;padding:0 0} #submenu
+li{float:left;list-style:none;margin:0;padding:0;color:#fff;font-weight:bold;text-transform:uppercase}
+#submenu li a{color:#fff;display:block;margin:0;padding:11px 10px 11px
+10px;text-decoration:none;position:relative} #submenu li a:hover,#submenu li
+a:active,#submenu .current_page_item a{color:#fff} #submenu li
+a.sf-with-ul{padding-right:10px} #submenu li li a,#submenu li li a:link,#submenu li li
+a:visited{color:#eee;width:148px;margin:0;padding:10px 10px;border-bottom:1px
+solid #666;border-top:1px solid #888;border-left:1px solid #888;border-right:1px
+solid
+#666;position:relative;background:#7D7D7D;font-size:12px;font-weight:normal}
+#submenu ul ul li:first-child{border-top:none} #submenu ul ul
+li:last-child{border-bottom:none} #submenu li li:last-child{border-bottom:none}
+#submenu li li a:hover,#submenu li li a:active{background:#666;color:#fff} #submenu li
+ul{z-index:9999;position:absolute;left:-999em;height:auto;width:170px;margin:0
+0;padding:0;background:#282828} #submenu li ul a{width:150px} #submenu li ul
+a:hover,#submenu li ul a:active{} #submenu li ul ul{margin:-40px 0 0 169px} #submenu
+li:hover ul ul,#submenu li:hover ul ul ul,#submenu li.sfHover ul ul,#submenu li.sfHover ul
+ul ul{left:-999em} #submenu li:hover ul,#submenu li li:hover ul,#submenu li li li:hover
+ul,#submenu li.sfHover ul,#submenu li li.sfHover ul,#submenu li li li.sfHover
+ul{left:auto} #submenu li:hover,#submenu li.sfHover{position:static}
+#slidebox{width:960px;height:350px} .cta{border-bottom:5px solid
+#FF743C;padding:30px 30px;text-align:center;font:20px
+Bitter,serif;margin-bottom:10px} #crumbs{margin-top:10px} #crumbs a:link,#crumbs
+a:visited{color:#FF743C} #content{float:left;width:670px;padding:10px 0px 20px
+0px;} .post{margin-bottom:30px} .cover{float:left;width:420px} .title
+h2{font-size:22px} .title h2 a,.title h2 a:link{color:#444;text-decoration:none}
+.postimg{float:left;margin-right:20px;width:200px}
+.postmeta{text-transform:uppercase;font-size:11px} .postmeta a:link,.postmeta
+a:visited{color:#FF743C;text-decoration:none} .comm{float:right} .comm
+a:link,.comm a:visited{color:#FF743C;text-decoration:none}
+.entry{line-height:160%} #sidebar{width:270px;float:right;padding:20px 0} #sidebar
+ul{margin:0;padding:0}
+h3.sidetitl{font-size:14px;margin-bottom:10px;padding-bottom:10px;text-transform:uppercase;color:#444;border-bottom:1px
+solid #ddd} .sidebox{list-style:none;margin:0 0 25px 0} .sidebox
+ul{list-style-type:none;margin:0;padding:0} .sidebox
+li{list-style-type:none;margin:0;padding:0} .sidebox ul
+ul{list-style-type:none;background-repeat:no-repeat;margin:0;padding:0} .sidebox
+ul li{list-style-type:none;margin:0;margin:0 0} .sidebox ul li a:link,.sidebox ul li
+a:visited{color:#666;text-decoration:none} .sidebox ul li a:hover{color:#000}
+.sidebox.widget_categories ul li,.sidebox.widget_pages ul
+li,.sidebox.widget_archive ul li,.sidebox.widget_links ul li,.sidebox.widget_meta ul
+li{border-bottom:1px solid #fff;padding:7px 0} .sidebox.widget_recent_entries ul
+li{padding:7px 0;border-bottom:1px solid #fff} ul#recentcomments
+li.recentcomments{border-bottom:1px solid #fff;padding:5px 0} .sidebox .textwidget
+p{padding:0 10px} .squarebanner ul{margin:0 0 0 0;padding:0} .squarebanner ul
+li{margin:10px 20px 10px 0;list-style:none;float:left}
+li.rbanner{margin-right:0!important}
+#bottom{margin:0;padding:0;background:#858585;border-bottom:1px solid #444}
+#bottom ul{margin:0;padding:0} .botwid{padding:30px
+0;font-size:12px;color:#aaa;list-style:none;width:270px;float:left;margin-left:30px;color:#eee;}
+.botwid
+h2{font-size:14px;margin-bottom:10px;padding-bottom:10px;text-transform:uppercase;color:#fff;border-bottom:1px
+solid #ddd} .botwid ul{list-style-type:none;margin:0;padding:0 0 0 0} .botwid
+li{list-style-type:none;margin:0;padding:0 0;border-bottom:1px solid #A0A0A0}
+.botwid ul ul{list-style-type:none;margin:0;padding:0 0 0
+0;background-repeat:no-repeat} .botwid ul ul
+ul{list-style-type:none;margin:0;padding:0;border:0} .botwid ul ul ul
+ul{list-style-type:none;margin:0;padding:0;border:0} .botwid ul
+li{height:100%;line-height:18px;clear:left;list-style-type:none} .botwid ul li
+a:link,.botwid ul li a:visited{color:#eee;text-decoration:none;padding:7px 0 7px
+0;display:block} .botwid ul li a:hover{color:#fff} .botwid p{padding:7px
+0;margin:0;line-height:150%} .botwid
+table{width:100%;text-align:center;color:#787d7f}
+#footer{background:#FF743C;padding:20px 0;border-top:1px solid
+#FF9870;font-size:12px} .fcred{color:#fff;padding:0 30px} .fcred a:link,.fcred
+a:visited{color:#fff;text-decoration:none} #navigation{}
+.nivoSlider{position:relative;width:100%;height:auto;overflow:hidden}
+.nivoSlider img{position:absolute;top:0;left:0} .nivo-main-image{display:block
+!important;position:relative !important;width:100% !important} .nivoSlider
+a.nivo-imageLink{position:absolute;top:0;left:0;width:100%;height:100%;border:0;padding:0;margin:0;z-index:6;display:none}
+.nivo-slice{display:block;position:absolute;z-index:5;height:100%;top:0}
+.nivo-box{display:block;position:absolute;z-index:5;overflow:hidden} .nivo-box
+img{display:block}
+.nivo-caption{position:absolute;left:0;bottom:0;background:#000;color:#fff;width:100%;z-index:8;padding:5px
+10px;opacity:0.8;overflow:hidden;display:none;-moz-opacity:0.8;filter:alpha(opacity=8);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.nivo-caption p{padding:5px;margin:0} .nivo-caption a{display:inline !important}
+.nivo-html-caption{display:none} .nivo-directionNav
+a{position:absolute;top:45%;z-index:9;cursor:pointer}
+.nivo-prevNav{left:10px;height:22px;width:15px;background:url(http://3.bp.blogspot.com/-O1bhbBY-fAU/UEliHVj_q1I/AAAAAAAAIbI/q7dzCOILcvw/s1600/left_arrow.png);text-indent:-9000px}
+.nivo-nextNav{right:10px;height:22px;width:15px;background:url(http://3.bp.blogspot.com/-Yj3LJE6yLwQ/UEliIht7SDI/AAAAAAAAIbQ/t-n0hoIvzsY/s1600/right_arrow.png);text-indent:-9000px}
+.nivo-controlNav{text-align:center;padding:15px 0;display:none} .nivo-controlNav
+a{cursor:pointer} .nivo-controlNav a.active{font-weight:bold} .sidebar
+h2{font-size:14px;margin-bottom:10px;padding-bottom:10px;text-transform:uppercase;color:#444;border-bottom:1px
+solid #ddd} .sidebar .widget{list-style:none;margin:0 0 25px 0} .sidebar .widget
+ul{list-style-type:none;margin:0;padding:0} .sidebar .widget
+li{list-style-type:none;margin:0;padding:7px 0px;} .sidebar .widget ul
+ul{list-style-type:none;background-repeat:no-repeat;margin:0;padding:0} .sidebar
+.widget ul li{list-style-type:none;margin:0;margin:0 0} .sidebar .widget ul li
+a:link,.sidebox ul li a:visited{color:#666;text-decoration:none} .sidebar .widget ul
+li a:hover{color:#000} .sidebox.widget_categories ul li,.sidebox.widget_pages ul
+li,.sidebox.widget_archive ul li,.sidebox.widget_links ul li,.sidebox.widget_meta ul
+li{border-bottom:1px solid #fff;padding:7px 0} .sidebar .widget .textwidget
+p{padding:0 10px} h2.date-header{margin:1.5em 0 .5em;display:none;} .main
+.widget{margin:0 0 5px;padding:0 0 2px} .main .Blog{border-bottom-width:0} #header
+.description{display:none;} /*
+Comments----------------------------------------------- */
+#comments{padding:0px;background-color:#fff;border:0px solid #000;}
+#comment-name-url{width:365px;float:left}
+#comment-date{width:365px;float:left;margin-top:5px;font-size:10px;}
+#comment-header{float:left;padding:5px 0 40px 10px;margin:5px 0px 15px
+0px;position:relative;background-color:#fff;border:1px dashed #eee;}
+.avatar-image-container{background:url(http://4.bp.blogspot.com/_4HKUHirY_2U/TLlJUqSaolI/AAAAAAAAEq4/qpgAHAOe9x0/s1600/comment-avatar.jpg);width:32px;height:32px;float:right;margin:5px
+10px 5px 5px;border:1px solid #ddd;} .avatar-image-container
+img{width:32px;height:32px;} a.comments-autor-name{color:#000;font:normal bold
+14px Arial,Tahoma,Verdana} a.says{color:#000;font:normal 14px Arial,Tahoma,Verdana}
+.says a:hover{text-decoration:none}
+.deleted-comment{font-style:italic;color:gray}
+#blog-pager-newer-link{float:left} #blog-pager-older-link{float:right}
+#blog-pager{text-align:center} .feed-links{clear:both;line-height:2.5em} /*
+Profile ----------------------------------------------- */
+.profile-img{float:left;margin-top:0;margin-right:5px;margin-bottom:5px;margin-left:0;padding:4px;border:1px
+solid #cccccc}
+.profile-data{margin:0;text-transform:uppercase;letter-spacing:.1em;font:normal
+normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif;color:#999999;font-weight:bold;line-height:1.6em}
+.profile-datablock{margin:.5em 0 .5em} .profile-textblock{margin:0.5em
+0;line-height:1.6em}
+.avatar-image-container{background:url(http://4.bp.blogspot.com/_4HKUHirY_2U/TLlJUqSaolI/AAAAAAAAEq4/qpgAHAOe9x0/s1600/comment-avatar.jpg);width:32px;height:32px;float:right;margin:5px
+10px 5px 5px;border:1px solid #ddd;} .avatar-image-container
+img{width:32px;height:32px;} .profile-link{font:normal normal 78% 'Trebuchet MS',
+Trebuchet, Arial, Verdana,
+Sans-serif;text-transform:uppercase;letter-spacing:.1em}
+.comment-form{max-width:625px;}
+#navbar-iframe{height:0;visibility:hidden;display:none;}
+.cover{float:left;width:100%;} .reaction-buttons
+table{border:none;margin-bottom:5px;} .reaction-buttons table, .reaction-buttons
+td{border:none;} --> //<![CDATA[ function showrecentcomments(json){for(var
+i=0;i<a_rc;i++){var b_rc=json.feed.entry[i];var
+c_rc;if(i==json.feed.entry.length)break;for(var
+k=0;k<b_rc.link.length;k++){if(b_rc.link[k].rel=='alternate'){c_rc=b_rc.link[k].href;break;}}c_rc=c_rc.replace("#","#comment-");var
+d_rc=c_rc.split("#");d_rc=d_rc[0];var
+e_rc=d_rc.split("/");e_rc=e_rc[5];e_rc=e_rc.split(".html");e_rc=e_rc[0];var
+f_rc=e_rc.replace(/-/g," ");f_rc=f_rc.link(d_rc);var g_rc=b_rc.published.$t;var
+h_rc=g_rc.substring(0,4);var i_rc=g_rc.substring(5,7);var
+j_rc=g_rc.substring(8,10);var k_rc=new
+Array();k_rc[1]="Jan";k_rc[2]="Feb";k_rc[3]="Mar";k_rc[4]="Apr";k_rc[5]="May";k_rc[6]="Jun";k_rc[7]="Jul";k_rc[8]="Aug";k_rc[9]="Sep";k_rc[10]="Oct";k_rc[11]="Nov";k_rc[12]="Dec";if("content"
+in b_rc){var l_rc=b_rc.content.$t;}else if("summary" in b_rc){var
+l_rc=b_rc.summary.$t;}else var l_rc="";var
+re=/<\S[^>]*>/g;l_rc=l_rc.replace(re,"");if(m_rc==true)document.write('On
+'+k_rc[parseInt(i_rc,10)]+' '+j_rc+' ');document.write('<a
+href="'+c_rc+'">'+b_rc.author[0].name.$t+'</a>
+commented');if(n_rc==true)document.write(' on '+f_rc);document.write(':
+');if(l_rc.length<o_rc){document.write('<i>&#8220;');document.write(l_rc);document.write('&#8221;</i><br/><br/>');}else{document.write('<i>&#8220;');l_rc=l_rc.substring(0,o_rc);var
+p_rc=l_rc.lastIndexOf("
+");l_rc=l_rc.substring(0,p_rc);document.write(l_rc+'&hellip;&#8221;</i>');document.write('<br/><br/>');}}}
+function rp(json){document.write('<ul>');for(var
+i=0;i<numposts;i++){document.write('<li>');var entry=json.feed.entry[i];var
+posttitle=entry.title.$t;var posturl;if(i==json.feed.entry.length)break;for(var
+k=0;k<entry.link.length;k++){if(entry.link[k].rel=='alternate'){posturl=entry.link[k].href;break}}posttitle=posttitle.link(posturl);var
+readmorelink="(more)";readmorelink=readmorelink.link(posturl);var
+postdate=entry.published.$t;var cdyear=postdate.substring(0,4);var
+cdmonth=postdate.substring(5,7);var cdday=postdate.substring(8,10);var
+monthnames=new
+Array();monthnames[1]="Jan";monthnames[2]="Feb";monthnames[3]="Mar";monthnames[4]="Apr";monthnames[5]="May";monthnames[6]="Jun";monthnames[7]="Jul";monthnames[8]="Aug";monthnames[9]="Sep";monthnames[10]="Oct";monthnames[11]="Nov";monthnames[12]="Dec";if("content"in
+entry){var postcontent=entry.content.$t}else if("summary"in entry){var
+postcontent=entry.summary.$t}else var postcontent="";var
+re=/<\S[^>]*>/g;postcontent=postcontent.replace(re,"");document.write(posttitle);if(showpostdate==true)document.write('
+- '+monthnames[parseInt(cdmonth,10)]+'
+'+cdday);if(showpostsummary==true){if(postcontent.length<numchars){document.write(postcontent)}else{postcontent=postcontent.substring(0,numchars);var
+quoteEnd=postcontent.lastIndexOf("
+");postcontent=postcontent.substring(0,quoteEnd);document.write(postcontent+'...'+readmorelink)}}document.write('</li>')}document.write('</ul>')}
+//]]> summary_noimg = 310; img_thumb_height = 200; img_thumb_width = 200; //<![CDATA[
+function removeHtmlTag(strx,chop){ if(strx.indexOf("<")!=-1) { var s =
+strx.split("<"); for(var i=0;i<s.length;i++){ if(s[i].indexOf(">")!=-1){ s[i] =
+s[i].substring(s[i].indexOf(">")+1,s[i].length); } } strx = s.join(""); } chop = (chop <
+strx.length-1) ? chop : strx.length-2; while(strx.charAt(chop-1)!=' ' && strx.indexOf('
+',chop)!=-1) chop++; strx = strx.substring(0,chop-1); return strx+'...'; } function
+createSummaryAndThumb(pID){ var div = document.getElementById(pID); var summ =
+summary_noimg; var summary = '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
+div.innerHTML = summary; } function createSummaryAndThumb2(pID){ var div =
+document.getElementById(pID); var imgtag = ""; var img =
+div.getElementsByTagName("img"); if(img.length>=1) { imgtag = '<img class="postimg"
+src="'+img[0].src+'" width="'+img_thumb_width+'px"
+height="'+img_thumb_height+'px"/>'; } var summary = imgtag; div.innerHTML = summary; }
+//]]> .cover{float:left;width:420px} var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+    
+
+    - Facebook
+
+    
+
+    - RSS
+
+    
+
+    - Twitter
+
+    
+
+    - Email
+
+    
+
+Search for:
+
+DB Technoholic
+
+
+
+The Technoholic Blog Hello and Welcome to DB Technoholic | Blog | We are starting again.
+
+Monday, May 16, 2011
+
+Must watch this video, first GAMEPLAY video by me. This MOD will make your BMX SUPER FAST! The
+fastest in San Andreas. 
+
+
+
+Image:
+http://3.bp.blogspot.com/-67dmTgsoghQ/T7ptLRSbMJI/AAAAAAAAAPg/xloJWWnAWS4/s1600/Untitled.png
+
+
+
+J ust go to your SAN ANDREAS Download Directory\Data\ and replace the file with mine
+{handling.cfg} Thank you-DB, MOD MADE BY ME. Note:- There is a Bug for Mountain Bikes, I am
+working on it and soon get a new link.
+createSummaryAndThumb2("summary23234722169317701133");
+
+GTA San Andreas - Super Speed BMX Mod.
+
+Posted by Aditya Dubey on 10:01 PM No comments
+
+Must watch this video, first GAMEPLAY video by me. This MOD will make your BMX SUPER FAST! The
+fastest in San Andreas. 
+
+
+
+Image:
+http://3.bp.blogspot.com/-67dmTgsoghQ/T7ptLRSbMJI/AAAAAAAAAPg/xloJWWnAWS4/s1600/Untitled.png
+
+
+
+J ust go to your SAN ANDREAS Download Directory\Data\ and replace the file with mine
+{handling.cfg} Thank you-DB, MOD MADE BY ME. Note:- There is a Bug for Mountain Bikes, I am
+working on it and soon get a new link.
+createSummaryAndThumb("summary3234722169317701133");
+
+Saturday, May 14, 2011
+
+
+
+    
+
+        Windows 7 Ultimate
+
+    
+
+        
+
+        Image:
+        http://4.bp.blogspot.com/-kxf_C5bKGoY/Tc6La6IHeyI/AAAAAAAAADU/KuHMBJ_QsGs/s400/Windows_7_Ultimate_hd_wallpaper.jpg
+        Windows 7 Ultimate contains all of the same features as Windows 7 Enterprise, but
+        unlike the Enterprise edition, it is available to home users on an individual
+        license basis. [ 1 ] Windows 7 Home Premium and Windows 7 Professional users are able
+        to upgrade to Windows 7 Ultimate for a fee using Windows Anytime Upgrade if they wish
+        to do so. [ 1 ] Unlike Windows Vista Ultimate, the Windows 7 Ultimate edition does not
+        include the Windows Ultimate Extras feature or any exclusive features as Microsoft
+        had stated. [ 1 ] However, even though it is the consumer equivalent to Enterprise,
+        like Home Premium, Microsoft will only support Ultimate until 2015.
+
+    
+
+         
+
+    
+
+        Download here:- [not by me]
+        http://thepiratebay.org/torrent/5952553/Windows_7_Ultimate_%2832_Bit%29_x86_%28November_2010%29
+
+    
+
+         
+
+    
+
+createSummaryAndThumb2("summary26721701483657027900");
+
+Windows 7 Ultimate 32-bit Free!
+
+Posted by Aditya Dubey on 7:02 AM No comments
+
+
+
+    
+
+        Windows 7 Ultimate
+
+    
+
+        
+
+        Image:
+        http://4.bp.blogspot.com/-kxf_C5bKGoY/Tc6La6IHeyI/AAAAAAAAADU/KuHMBJ_QsGs/s400/Windows_7_Ultimate_hd_wallpaper.jpg
+        Windows 7 Ultimate contains all of the same features as Windows 7 Enterprise, but
+        unlike the Enterprise edition, it is available to home users on an individual
+        license basis. [ 1 ] Windows 7 Home Premium and Windows 7 Professional users are able
+        to upgrade to Windows 7 Ultimate for a fee using Windows Anytime Upgrade if they wish
+        to do so. [ 1 ] Unlike Windows Vista Ultimate, the Windows 7 Ultimate edition does not
+        include the Windows Ultimate Extras feature or any exclusive features as Microsoft
+        had stated. [ 1 ] However, even though it is the consumer equivalent to Enterprise,
+        like Home Premium, Microsoft will only support Ultimate until 2015.
+
+    
+
+         
+
+    
+
+        Download here:- [not by me]
+        http://thepiratebay.org/torrent/5952553/Windows_7_Ultimate_%2832_Bit%29_x86_%28November_2010%29
+
+    
+
+         
+
+    
+
+createSummaryAndThumb("summary6721701483657027900");
+
+Thursday, May 12, 2011
+
+Internet Download Manager (IDM) is a tool to increase download speeds by up to 5 times, resume
+and schedule downloads. Comprehensive error recovery and resume capability will restart
+broken or interrupted downloads due to lost connections, network problems, computer
+shutdowns, or unexpected power outages. Simple graphic user interface makes IDM user
+friendly and easy to use.Internet Download Manager has a smart download logic accelerator
+that features intelligent dynamic file segmentation and safe multipart downloading
+technology to accelerate your downloads. Unlike other download managers and accelerators
+Internet Download Manager segments downloaded files dynamically during download process
+and reuses available connections without additional connect and login stages to achieve
+best acceleration performance.
+
+Image: http://www.internetdownloadmanager.com/home/IDM_12_idm_250.png Internet
+Download Manager supports proxy servers, ftp and http protocols, firewalls, redirects,
+cookies, authorization, MP3 audio and MPEG video content processing. IDM integrates
+seamlessly into Microsoft Internet Explorer, Netscape, MSN Explorer, AOL, Opera, Mozilla,
+Mozilla Firefox, Mozilla Firebird, Avant Browser, MyIE2, and all other popular browsers to
+automatically handle your downloads. You can also drag and drop files, or use Internet
+Download Manager from command line. Internet Download Manager can dial your modem at the set
+time, download the files you want, then hang up or even shut down your computer when it's done.
+
+
+
+Other features include multilingual support, zip preview, download categories, scheduler
+pro, sounds on different events, HTTPS support, queue processor, html help and tutorial,
+enhanced virus protection on download completion, progressive downloading with quotas
+(useful for connections that use some kind of fair access policy or FAP like Direcway, Direct
+PC, Hughes, etc.), built-in download accelerator, and many others. Version 6.05 adds IDM
+download panel for web-players that can be used to download flash videos from sites like
+YouTube, MySpaceTV, and Google Videos. It also features complete Windows 7 and Vista
+support, YouTube grabber, redeveloped scheduler, and MMS protocol support. The new version
+also adds improved integration for IE and IE based browsers, redesigned and enhanced
+download engine, the unique advanced integration into all latest browsers, improved
+toolbar, and a wealth of other improvements and new features.
+
+Download link with Keygen:- http://www.mediafire.com/?lutp3i61ttwhm12 Turn of your
+anti-virus from downloading till activating...cause your antivirus may delete the keygen,
+cause it's a keygen [all keygen's contain a FAKE virus] *sigh*
+createSummaryAndThumb2("summary21828496491889875705");
+
+Internet Download Manager
+
+Posted by Aditya Dubey on 8:51 AM No comments
+
+Internet Download Manager (IDM) is a tool to increase download speeds by up to 5 times, resume
+and schedule downloads. Comprehensive error recovery and resume capability will restart
+broken or interrupted downloads due to lost connections, network problems, computer
+shutdowns, or unexpected power outages. Simple graphic user interface makes IDM user
+friendly and easy to use.Internet Download Manager has a smart download logic accelerator
+that features intelligent dynamic file segmentation and safe multipart downloading
+technology to accelerate your downloads. Unlike other download managers and accelerators
+Internet Download Manager segments downloaded files dynamically during download process
+and reuses available connections without additional connect and login stages to achieve
+best acceleration performance.
+
+Image: http://www.internetdownloadmanager.com/home/IDM_12_idm_250.png Internet
+Download Manager supports proxy servers, ftp and http protocols, firewalls, redirects,
+cookies, authorization, MP3 audio and MPEG video content processing. IDM integrates
+seamlessly into Microsoft Internet Explorer, Netscape, MSN Explorer, AOL, Opera, Mozilla,
+Mozilla Firefox, Mozilla Firebird, Avant Browser, MyIE2, and all other popular browsers to
+automatically handle your downloads. You can also drag and drop files, or use Internet
+Download Manager from command line. Internet Download Manager can dial your modem at the set
+time, download the files you want, then hang up or even shut down your computer when it's done.
+
+
+
+Other features include multilingual support, zip preview, download categories, scheduler
+pro, sounds on different events, HTTPS support, queue processor, html help and tutorial,
+enhanced virus protection on download completion, progressive downloading with quotas
+(useful for connections that use some kind of fair access policy or FAP like Direcway, Direct
+PC, Hughes, etc.), built-in download accelerator, and many others. Version 6.05 adds IDM
+download panel for web-players that can be used to download flash videos from sites like
+YouTube, MySpaceTV, and Google Videos. It also features complete Windows 7 and Vista
+support, YouTube grabber, redeveloped scheduler, and MMS protocol support. The new version
+also adds improved integration for IE and IE based browsers, redesigned and enhanced
+download engine, the unique advanced integration into all latest browsers, improved
+toolbar, and a wealth of other improvements and new features.
+
+Download link with Keygen:- http://www.mediafire.com/?lutp3i61ttwhm12 Turn of your
+anti-virus from downloading till activating...cause your antivirus may delete the keygen,
+cause it's a keygen [all keygen's contain a FAKE virus] *sigh*
+createSummaryAndThumb("summary1828496491889875705");
+
+Wednesday, May 11, 2011
+
+Counter-Strike: Source is a remake of Counter-Strike , and consequently retains its
+team-based objective-oriented first-person shooter style gameplay. The aim of playing a
+map is to accomplish a map's objective. There are many types of objectives that a map can have,
+but the ultimate goal of the game is to win more rounds than the opposing team, which is
+accomplished by fulfilling the map's winning conditions. Some winning conditions include
+defusing a bomb, rescuing all the hostages, or killing all the members of the opposing team.
+When playing on a server without respawns, if players are killed, they do not respawn until the
+next round, unlike in many other first-person shooter games, where players respawn
+instantly or after a short delay. Moving and shooting also differs noticeably from many other
+first-person shooters. Shooting while moving dramatically decreases accuracy, and
+holding the trigger down to continuously shoot will generally produce severe push-back.
+This can be difficult for beginning players to compensate for because the player's crosshair
+does not correspond with where the bullets actually hit during continuous fire, so beginning
+players may aim too high during automatic fire. The amount of damage done by a hit varies
+dramatically depending upon the body part the bullet hits, with great emphasis on hitting the
+enemies head, which is almost invariably lethal.
+
+DOWNLOAD LINKS {MEDIAFIRE}:[the links are not uploaded by me, they are property of their
+respective uploader] But i have tested that they are viruse free. Part1:-
+http://www.mediafire.com/?thvyyhgzmnf Part2:-
+http://www.mediafire.com/?llnjwybyzb0 Part3:-
+http://www.mediafire.com/?innzws3wviz Part4:-
+http://www.mediafire.com/?odlwgcxrajs Part5:-
+http://www.mediafire.com/?n1hhvommabu Part6:-
+http://www.mediafire.com/?xaz02oz2zhz Part7:-
+http://www.mediafire.com/?vjjwdzpjolo Part8:-
+http://www.mediafire.com/?xnbrz3nwx2k Part9:-
+http://www.mediafire.com/?jgn0wfagvll Part10:-
+http://www.mediafire.com/?jt73vmb0yhy Part11:-
+http://www.mediafire.com/?nenbrscm0jw Part12:-
+http://www.mediafire.com/?kl2twltyyjz Part13:-
+http://www.mediafire.com/?mffldeflhdx Part14:-
+http://www.mediafire.com/?ti3rdl2jauh Part15:-
+http://www.mediafire.com/?bjzdycvz2ad Part16:-
+http://www.mediafire.com/?1vw3mojfmbb Part17:-
+http://www.mediafire.com/?axnzchwjaam Part18:-
+http://www.mediafire.com/?1mijydmnles Part19:-
+http://www.mediafire.com/?xmbjqxhjz21 Part20:-
+http://www.mediafire.com/?abdvatt2pbb Part21:-
+http://www.mediafire.com/?zld2tyvgiud Password:- www.dl4all.com
+createSummaryAndThumb2("summary24856304261706958633");
+
+Get CS: Source for free! NO VIRUSES! only mediafire links! NO SURVEY!
+
+Posted by Aditya Dubey on 6:43 AM No comments
+
+Counter-Strike: Source is a remake of Counter-Strike , and consequently retains its
+team-based objective-oriented first-person shooter style gameplay. The aim of playing a
+map is to accomplish a map's objective. There are many types of objectives that a map can have,
+but the ultimate goal of the game is to win more rounds than the opposing team, which is
+accomplished by fulfilling the map's winning conditions. Some winning conditions include
+defusing a bomb, rescuing all the hostages, or killing all the members of the opposing team.
+When playing on a server without respawns, if players are killed, they do not respawn until the
+next round, unlike in many other first-person shooter games, where players respawn
+instantly or after a short delay. Moving and shooting also differs noticeably from many other
+first-person shooters. Shooting while moving dramatically decreases accuracy, and
+holding the trigger down to continuously shoot will generally produce severe push-back.
+This can be difficult for beginning players to compensate for because the player's crosshair
+does not correspond with where the bullets actually hit during continuous fire, so beginning
+players may aim too high during automatic fire. The amount of damage done by a hit varies
+dramatically depending upon the body part the bullet hits, with great emphasis on hitting the
+enemies head, which is almost invariably lethal.
+
+DOWNLOAD LINKS {MEDIAFIRE}:[the links are not uploaded by me, they are property of their
+respective uploader] But i have tested that they are viruse free. Part1:-
+http://www.mediafire.com/?thvyyhgzmnf Part2:-
+http://www.mediafire.com/?llnjwybyzb0 Part3:-
+http://www.mediafire.com/?innzws3wviz Part4:-
+http://www.mediafire.com/?odlwgcxrajs Part5:-
+http://www.mediafire.com/?n1hhvommabu Part6:-
+http://www.mediafire.com/?xaz02oz2zhz Part7:-
+http://www.mediafire.com/?vjjwdzpjolo Part8:-
+http://www.mediafire.com/?xnbrz3nwx2k Part9:-
+http://www.mediafire.com/?jgn0wfagvll Part10:-
+http://www.mediafire.com/?jt73vmb0yhy Part11:-
+http://www.mediafire.com/?nenbrscm0jw Part12:-
+http://www.mediafire.com/?kl2twltyyjz Part13:-
+http://www.mediafire.com/?mffldeflhdx Part14:-
+http://www.mediafire.com/?ti3rdl2jauh Part15:-
+http://www.mediafire.com/?bjzdycvz2ad Part16:-
+http://www.mediafire.com/?1vw3mojfmbb Part17:-
+http://www.mediafire.com/?axnzchwjaam Part18:-
+http://www.mediafire.com/?1mijydmnles Part19:-
+http://www.mediafire.com/?xmbjqxhjz21 Part20:-
+http://www.mediafire.com/?abdvatt2pbb Part21:-
+http://www.mediafire.com/?zld2tyvgiud Password:- www.dl4all.com
+createSummaryAndThumb("summary4856304261706958633");
+
+Friday, May 6, 2011
+
+Wikipedia
+
+Image:
+http://1.bp.blogspot.com/-t48ci1U9le0/TcQZLb1AeWI/AAAAAAAAACk/-JRyqOUk_5c/s320/Need-for-Speed-Most-Wanted-7-PWRR5ARLHY-1024x768.jpg
+Need for Speed: Most Wanted (commonly abbreviated to as NFS: MW ) is a racing video game ,
+developed by EA Black Box game's street racing -oriented game play, with certain (but not all)
+customization options from the Need for Speed: Underground series. The game is succeeded by
+Need for Speed: Carbon , which serves as a sequel to Most Wanted , and later Need for Speed: World
+, which features both the cities of Rockport and Palmont, making that game a successor to both
+Most Wanted and Carbon . Most Wanted was a commercial success; it sold nearly 6 million copies
+worldwide.
+
+Most Wanted has been released for Windows -based personal computers , the PlayStation 2 ,
+PlayStation Portable , Nintendo GameCube , Xbox , Xbox 360 (as a launch title ), Game Boy
+Advance , Nintendo DS and mobile phones . Another version of Most Wanted, titled Need for
+Speed: Most Wanted: 5-1-0 has been released for the PlayStation Portable . This is the first
+game in the Need for Speed series to be rated T (even though the European version is Still Rated
+3+).
+
+Need for Speed: Most Wanted 'Black Edition', a collector's edition of Most Wanted , was
+released in celebration of the Need for Speed series' 10 th anniversary and in conjunction
+with the release of Most Wanted . The Black Edition features additional races, bonus cars and
+other additional content. The Black Edition also comes with a special feature DVD that
+contains interviews and videos about the game. The Black Edition was released for Microsoft
+Windows , PlayStation 2 and Xbox in the United States and Australia; [1] only the PlayStation 2
+version of Black Edition was released additionally for Europe. [1] [2]
+
+IGN Review 
+
+Image:
+http://1.bp.blogspot.com/-U2peq3E77MY/TcQZ2t5mq9I/AAAAAAAAACo/CMxXFa6HciI/s320/1NeedForSpeedMostWanted-Cover.jpg
+Developers of racing games received a new injection of life and purpose in the last two years.
+The growing popularity of street racing and modding has flourished in the popular culture,
+while Criterion's Burnout series has blazed a path all its own, bringing arcade racing back to
+its pre-Gran Turismo glory days. The Need for Speed series has never clung to a particular
+aspect of pop culture like Rockstar's Midnight Club or a particular car like Sega's Ferrari
+360, but the long-time series struck gold with its light implementation of modding with Need
+for Speed Underground, selling more units worldwide than any game in 2003 with 7.5 million.
+Need for Speed Most Wanted continues the street culture thing, but EA's Canadian development
+team has mined one of the better iterations of the series, Need for Speed Hot Pursuit, fusing
+both rudiments into a newly refined, yet strangely familiar racer.
+
+
+
+NFS Most Wanted is a well-balanced, challenging, and substantial racing game that's worth
+your while on any system. It returns the series to its cop chasing days while incorporating
+street cars, culture, and an impressive display of stylized FMV without forgetting the
+fundamentals: People like to drive sweet-looking, fast cars, they want more than a little
+freedom, and hey, if there are a bunch of hot chicks too? All the better.
+
+
+
+Something Different
+
+Though this is obviously a racing game, the first, most noticeable aspect of Most Wanted is the
+story and presentation. The game is draped in a crazily chromed out, sepia-tone landscape of
+industrial structures, and populated with heavily bloom-lit FMV characters. The first time
+you see the story being told, like me, you will probably gasp in horror, "Wha??? The return of
+crappy FMV?!?!?!!! OOOHHH NOOOOO!" But this mixture of animated, highly colored FMV
+characters and stylized backgrounds is both imaginative and refreshing. And it's risky. I
+mean damn risky. I wouldn't touch FMV with a 50 foot pole if I was a developer these days, but this
+presentation is creative and striking. The actors aren't phenomenally awful either, which
+helps. The story is a typical Saturday morning special narrative. It spins an unimaginative
+tale of revenge and restoration of order, and the bad guys, Razor, and the local cop who meanly
+keys your car in the beginning of the game, are just annoying and evil enough to get your goat.
+From a creative standpoint, the story is worthless, but EA liked its trial run with Brooke
+Burke last year in NFSU2 and retained a less cold, angular female figure to narrate this game
+with Josie Maran (who, in my opinion, is svelte, curvy, and far better at her job than the icy
+Burke). So, you'll keep wanting hook up with her as often as possible.
+
+
+
+But that's not all. The tutorials and blacklist characters are introduced with flair and a
+friendly 'tude. Whole chunks of the background dramatically drop into place to form a
+landscape before you start a race, and the whole presentation is laced with slick, stylish
+graffiti and flickering Fight Club imagery. I like it all. EA may be a corporate,
+market-driven mega-company with monopolistic tendencies, and this may be just another
+attempt to tap into the "underground street" market, but it's done with appealing artistry
+and smart style.
+
+
+
+Torrent download link:- http://www.mediafire.com/?fua8i68a8ho294i
+createSummaryAndThumb2("summary22343109176758697512"); Posted by Aditya Dubey on 8:55
+AM No comments
+
+Wikipedia
+
+Image:
+http://1.bp.blogspot.com/-t48ci1U9le0/TcQZLb1AeWI/AAAAAAAAACk/-JRyqOUk_5c/s320/Need-for-Speed-Most-Wanted-7-PWRR5ARLHY-1024x768.jpg
+Need for Speed: Most Wanted (commonly abbreviated to as NFS: MW ) is a racing video game ,
+developed by EA Black Box game's street racing -oriented game play, with certain (but not all)
+customization options from the Need for Speed: Underground series. The game is succeeded by
+Need for Speed: Carbon , which serves as a sequel to Most Wanted , and later Need for Speed: World
+, which features both the cities of Rockport and Palmont, making that game a successor to both
+Most Wanted and Carbon . Most Wanted was a commercial success; it sold nearly 6 million copies
+worldwide.
+
+Most Wanted has been released for Windows -based personal computers , the PlayStation 2 ,
+PlayStation Portable , Nintendo GameCube , Xbox , Xbox 360 (as a launch title ), Game Boy
+Advance , Nintendo DS and mobile phones . Another version of Most Wanted, titled Need for
+Speed: Most Wanted: 5-1-0 has been released for the PlayStation Portable . This is the first
+game in the Need for Speed series to be rated T (even though the European version is Still Rated
+3+).
+
+Need for Speed: Most Wanted 'Black Edition', a collector's edition of Most Wanted , was
+released in celebration of the Need for Speed series' 10 th anniversary and in conjunction
+with the release of Most Wanted . The Black Edition features additional races, bonus cars and
+other additional content. The Black Edition also comes with a special feature DVD that
+contains interviews and videos about the game. The Black Edition was released for Microsoft
+Windows , PlayStation 2 and Xbox in the United States and Australia; [1] only the PlayStation 2
+version of Black Edition was released additionally for Europe. [1] [2]
+
+IGN Review 
+
+Image:
+http://1.bp.blogspot.com/-U2peq3E77MY/TcQZ2t5mq9I/AAAAAAAAACo/CMxXFa6HciI/s320/1NeedForSpeedMostWanted-Cover.jpg
+Developers of racing games received a new injection of life and purpose in the last two years.
+The growing popularity of street racing and modding has flourished in the popular culture,
+while Criterion's Burnout series has blazed a path all its own, bringing arcade racing back to
+its pre-Gran Turismo glory days. The Need for Speed series has never clung to a particular
+aspect of pop culture like Rockstar's Midnight Club or a particular car like Sega's Ferrari
+360, but the long-time series struck gold with its light implementation of modding with Need
+for Speed Underground, selling more units worldwide than any game in 2003 with 7.5 million.
+Need for Speed Most Wanted continues the street culture thing, but EA's Canadian development
+team has mined one of the better iterations of the series, Need for Speed Hot Pursuit, fusing
+both rudiments into a newly refined, yet strangely familiar racer.
+
+
+
+NFS Most Wanted is a well-balanced, challenging, and substantial racing game that's worth
+your while on any system. It returns the series to its cop chasing days while incorporating
+street cars, culture, and an impressive display of stylized FMV without forgetting the
+fundamentals: People like to drive sweet-looking, fast cars, they want more than a little
+freedom, and hey, if there are a bunch of hot chicks too? All the better.
+
+
+
+Something Different
+
+Though this is obviously a racing game, the first, most noticeable aspect of Most Wanted is the
+story and presentation. The game is draped in a crazily chromed out, sepia-tone landscape of
+industrial structures, and populated with heavily bloom-lit FMV characters. The first time
+you see the story being told, like me, you will probably gasp in horror, "Wha??? The return of
+crappy FMV?!?!?!!! OOOHHH NOOOOO!" But this mixture of animated, highly colored FMV
+characters and stylized backgrounds is both imaginative and refreshing. And it's risky. I
+mean damn risky. I wouldn't touch FMV with a 50 foot pole if I was a developer these days, but this
+presentation is creative and striking. The actors aren't phenomenally awful either, which
+helps. The story is a typical Saturday morning special narrative. It spins an unimaginative
+tale of revenge and restoration of order, and the bad guys, Razor, and the local cop who meanly
+keys your car in the beginning of the game, are just annoying and evil enough to get your goat.
+From a creative standpoint, the story is worthless, but EA liked its trial run with Brooke
+Burke last year in NFSU2 and retained a less cold, angular female figure to narrate this game
+with Josie Maran (who, in my opinion, is svelte, curvy, and far better at her job than the icy
+Burke). So, you'll keep wanting hook up with her as often as possible.
+
+
+
+But that's not all. The tutorials and blacklist characters are introduced with flair and a
+friendly 'tude. Whole chunks of the background dramatically drop into place to form a
+landscape before you start a race, and the whole presentation is laced with slick, stylish
+graffiti and flickering Fight Club imagery. I like it all. EA may be a corporate,
+market-driven mega-company with monopolistic tendencies, and this may be just another
+attempt to tap into the "underground street" market, but it's done with appealing artistry
+and smart style.
+
+
+
+Torrent download link:- http://www.mediafire.com/?fua8i68a8ho294i
+createSummaryAndThumb("summary2343109176758697512");
+
+Thursday, May 5, 2011
+
+
+
+Most people think that hackers are computer criminals. They fail to recognise the fact that
+criminals and hackers are two totally different things. Media is responsible for this.
+Hackers in reality are actually good and extremely intelligent people who by using their
+knowledge in a constructive manner help organisations, companies, goverment, etc. to
+secure documents and secret information on the internet.
+
+createSummaryAndThumb2("summary2326883121729527112"); Posted by Aditya Dubey on 1:52
+AM No comments
+
+
+
+Most people think that hackers are computer criminals. They fail to recognise the fact that
+criminals and hackers are two totally different things. Media is responsible for this.
+Hackers in reality are actually good and extremely intelligent people who by using their
+knowledge in a constructive manner help organisations, companies, goverment, etc. to
+secure documents and secret information on the internet.
+
+createSummaryAndThumb("summary326883121729527112"); Grand Theft Auto: San Andreas  
+is a sandbox-style action-adventure computer and video game developed by Rockstar North in
+the United Kingdom . It is the third 3D game in the Grand Theft Auto video game franchise , the
+fifth original console release and eighth game overall. Originally released for the
+PlayStation 2 in October 2004, [2] the game has since been released for the Xbox and Microsoft
+Windows (PC) in June 2005, and has received wide acclaim and high sales figures on all three
+platforms, and is the best-selling game of all time on PlayStation 2. It was made available on
+Steam on January 4, 2008. [12] Grand Theft Auto: San Andreas was succeeded by Grand Theft Auto:
+Liberty City Stories and was preceded by Grand Theft Auto: Vice City .
+
+
+
+Image:
+http://2.bp.blogspot.com/-7UfAaBU6t6E/TcJZo1m4gcI/AAAAAAAAACM/yrzKyWIpgY4/s320/CJGTA.jpg
+The game is set in the fictional state of San Andreas, which is based on Nevada , California , and
+Arizona , comprising three metropolitan cities, Los Santos, based on Los Angeles , San
+Fierro, based on San Francisco and Las Venturas, based on Las Vegas , with deserts, rivers,
+forests and a mountain separating the cities. Set in late 1992, [13] San Andreas revolves
+around the gang member Carl "CJ" Johnson returning home from Liberty City to Los Santos, San
+Andreas, after learning of his mother's murder. Johnson finds his old friends and family in
+disarray. Over the course of the game, Johnson gradually unravels the plot behind his
+mother's murder while exploring his own business ventures. Like other games in the series,
+San Andreas is composed of elements from driving games and third-person shooters , and
+features "open-world" gameplay that gives the player more control over their playing
+experience. The game adds a number of features, such as car customization, and character
+personalization.    
+
+
+
+IGN Review
+
+Image:
+http://2.bp.blogspot.com/-0PPe95f9OE0/TcJaSvqKMSI/AAAAAAAAACQ/jqcajFAyPeA/s320/san-andreas-wallpaper-gta-grand-theft-auto-big.jpg
+It's not often that we do three unique reviews for one game across multiple platforms. But
+given the length of time between the original PS2 release and the subsequent Xbox and PC
+releases, we felt it important to give it a second look. On top of that, PC gamers may have some
+expectations that may be a little different than console gamers so we decided to
+differentiate those as well. What we found after playing the game for so long is that it's still
+an excellent game on the PC. It looks better than the other two versions and has better combat
+controls while suffering only slightly in the driving department with the mouse and
+keyboard. It's an expansive, awesome, well produced and put together game with a ton of
+different missions of all sorts. While it has its problems, Grand Theft Auto: San Andreas is a
+very entertaining game with hours and hours of fun for those who both want to rip right through
+the story or explore the gigantic environment.
+
+
+
+You will need winRAR:- www.rarlab.com
+
+and the link to the torrent:-
+http://isohunt.com/torrent_details/91707701/Gta+San+Andreas+PC?tab=summary
+createSummaryAndThumb2("summary21086851553851611810");
+
+Grand Theft Auto: San Andreas, RIP 600Mb Torrent.
+
+Posted by Aditya Dubey on 12:48 AM No comments
+
+Grand Theft Auto: San Andreas   is a sandbox-style action-adventure computer and video game
+developed by Rockstar North in the United Kingdom . It is the third 3D game in the Grand Theft
+Auto video game franchise , the fifth original console release and eighth game overall.
+Originally released for the PlayStation 2 in October 2004, [2] the game has since been
+released for the Xbox and Microsoft Windows (PC) in June 2005, and has received wide acclaim
+and high sales figures on all three platforms, and is the best-selling game of all time on
+PlayStation 2. It was made available on Steam on January 4, 2008. [12] Grand Theft Auto: San
+Andreas was succeeded by Grand Theft Auto: Liberty City Stories and was preceded by Grand
+Theft Auto: Vice City .
+
+
+
+Image:
+http://2.bp.blogspot.com/-7UfAaBU6t6E/TcJZo1m4gcI/AAAAAAAAACM/yrzKyWIpgY4/s320/CJGTA.jpg
+The game is set in the fictional state of San Andreas, which is based on Nevada , California , and
+Arizona , comprising three metropolitan cities, Los Santos, based on Los Angeles , San
+Fierro, based on San Francisco and Las Venturas, based on Las Vegas , with deserts, rivers,
+forests and a mountain separating the cities. Set in late 1992, [13] San Andreas revolves
+around the gang member Carl "CJ" Johnson returning home from Liberty City to Los Santos, San
+Andreas, after learning of his mother's murder. Johnson finds his old friends and family in
+disarray. Over the course of the game, Johnson gradually unravels the plot behind his
+mother's murder while exploring his own business ventures. Like other games in the series,
+San Andreas is composed of elements from driving games and third-person shooters , and
+features "open-world" gameplay that gives the player more control over their playing
+experience. The game adds a number of features, such as car customization, and character
+personalization.    
+
+
+
+IGN Review
+
+Image:
+http://2.bp.blogspot.com/-0PPe95f9OE0/TcJaSvqKMSI/AAAAAAAAACQ/jqcajFAyPeA/s320/san-andreas-wallpaper-gta-grand-theft-auto-big.jpg
+It's not often that we do three unique reviews for one game across multiple platforms. But
+given the length of time between the original PS2 release and the subsequent Xbox and PC
+releases, we felt it important to give it a second look. On top of that, PC gamers may have some
+expectations that may be a little different than console gamers so we decided to
+differentiate those as well. What we found after playing the game for so long is that it's still
+an excellent game on the PC. It looks better than the other two versions and has better combat
+controls while suffering only slightly in the driving department with the mouse and
+keyboard. It's an expansive, awesome, well produced and put together game with a ton of
+different missions of all sorts. While it has its problems, Grand Theft Auto: San Andreas is a
+very entertaining game with hours and hours of fun for those who both want to rip right through
+the story or explore the gigantic environment.
+
+
+
+You will need winRAR:- www.rarlab.com
+
+and the link to the torrent:-
+http://isohunt.com/torrent_details/91707701/Gta+San+Andreas+PC?tab=summary
+createSummaryAndThumb("summary1086851553851611810");
+
+Wednesday, May 4, 2011
+
+Wikipedia
+
+Image:
+http://2.bp.blogspot.com/-eU94_eHKOUU/TcJawH4inbI/AAAAAAAAACU/BUvn16eX4YI/s320/Crysis-2-002.jpg
+Crysis 2 is a first-person shooter video game developed by Crytek , published by Electronic
+Arts and was released in North America, Australia, and Europe in March 2011 for Microsoft
+Windows , PlayStation 3 , and Xbox 360 . Officially announced on June 1, 2009, the game is the
+second main installment of the Crysis series , and is the sequel to the 2007 video game Crysis
+and Crysis Warhead . [2] The story was written by author Richard Morgan , [3] another science
+fiction author, Peter Watts , [4] was also consulted and wrote a novel adaptation of the game.
+It is the first game to showcase the CryEngine 3 game engine. The player assumes the control of a
+Force Recon Marine named "Alcatraz"; the successor to Jake "Nomad" Dunn – the protagonist
+from the first game. As Alcatraz, players gain ownership of the Nanosuit 2.0 from Army Delta
+Force officer Laurence "Prophet" Barnes, who returns from the original Crysis , where he was
+Nomad's commanding officer in Raptor Team. CryNet Systems has been hunting Prophet to
+retrieve the suit, inadvertently pursuing Alcatraz, believing he is Prophet. The Nanosuit
+2.0 gives players more freedom in their options in tackling situations on the battlefield.
+The aliens seen in the original game have undergone a major redesigning, abandoning the
+ancient, tentacled exosuits seen in the first game for high-tech humanoid armored war
+machines that stalk Alcatraz through the ravaged New York City. Crytek has stated their
+intention to surpass the original game graphically and gameplay-wise, and have claimed that
+combat in the game will be "catastrophically beautiful". [5] Crytek has also claimed that
+Crysis 2 will have lower system requirements than the original game, but will still exceed the
+original graphically [6] and will also support true stereoscopic 3D . [7] More recently, with
+the release of the PC demo, it is clearly seen that the "minimum" requirements are what's
+required to run the game on "Gamer" settings at an HD resolution. [8] The "Gamer" setting is
+changed to "High" in the final game, but for all intents and purposes it is exactly the same as
+before, and the game can be played at lower resolutions with hardware below the minimum
+requirements.
+
+Image:
+http://4.bp.blogspot.com/-XczDX2FrnzU/TcJbUJkGAmI/AAAAAAAAACY/jPFOjd4epGg/s320/crysis-nano-suit-pc-sc002.jpg
+Crytek has teased the redesigned Nanosuit, called the "Nanosuit 2.0", created by the
+fictional CryNet Systems company, the creators of the first Nanosuit. [9] The new Nanosuit
+supports new and upgraded features. However, suit functionality has been streamlined;
+multiple modes can easily be used simultaneously whenever the user wishes. This is decidedly
+different than the first game, in which the suit was generally limited to a single mode at a time
+and multiple modes cannot be used simultaneously for more than a split-second. The first
+suit's Strength and Speed Modes have been combined into the new Power Mode, the suit
+binoculars function has been upgraded with an advanced Tactical mode, the Cloaking Device
+has been modified to allow increased sensory input and silent melee stealth kills and has been
+renamed to Stealth Mode, while the Armor Mode has been left more or less as is, with the
+exception of slightly restricted agility and an ever-decreasing energy level. There are two
+trailers, with one trailer showing the suit in a wire-frame state, [10] the other showing the
+suit in a complete state. [11] In-fiction, the suit is to feature many improvements over its
+predecessor, giving soldiers freedom to upgrade their suits based on their own style of
+combat. [12] PC Gamer magazine published a preview of Crysis 2 , showing a park and a destroyed
+city street with an alien device in the center. In the article's interview Crytek hints at how
+the game will have "increased verticality" and will be set in a "new type of jungle". Crytek
+confirmed to CVG that Crysis 2 will not use EA's Online Pass system. "All we can say/confirm is
+that we aren't using Online Pass for Crysis 2 ," the studio said in a brief statement. [13]
+
+IGN Review Crysis 2 bears the weight of heavy expectations on its shoulders. PC gamers want a
+new system-crushing game to show off their hardware, and console players were promised the
+"best-looking game ever." In the wake of Modern Warfare's ascension, Crysis fans worried
+that the series' expansion to consoles would lead to a narrow, dumbed-down experience.
+
+
+
+Image:
+http://1.bp.blogspot.com/-Bpas-q7sssE/TcJbp9orNDI/AAAAAAAAACc/N2792ZUfUCw/s320/crysis-2-screenshots-1.jpg
+Thankfully, Crysis 2 sidesteps the excessive simplification of recent shooters with
+Nanosuited grace. It mixes destruction with beauty, and manages to deliver a more focused
+experience than its predecessor while retaining the building blocks of what made the
+original Crysis unique. Crysis 2 is the kind of game that speaks in superlatives -- and even
+when it stumbles, it's quick to recover, always pushing forward to another amazing moment.
+
+DOWNLOAD CRYSIS 2 TORRENT:-  http://thepiratebay.org/torrent/6269113/Crysis_2-FLT
+
+TO OPEN THIS FILE YOU WILL NEED, UTORRENT:-  www.utorrent.com
+
+AND MOUNT THE FILE UR WINDOWS DEFAULT CD/DVD BURNER OR SEARCH
+
+FOR A ISO BURNER FROM GOOGLE AND BURN THE ISO AND START ENJOYING
+
+{THIS TORRENT IS NOT MADE BY ME}
+
+createSummaryAndThumb2("summary2659039721578762263");
+
+Crysis 2
+
+Posted by Aditya Dubey on 12:07 AM No comments
+
+Wikipedia
+
+Image:
+http://2.bp.blogspot.com/-eU94_eHKOUU/TcJawH4inbI/AAAAAAAAACU/BUvn16eX4YI/s320/Crysis-2-002.jpg
+Crysis 2 is a first-person shooter video game developed by Crytek , published by Electronic
+Arts and was released in North America, Australia, and Europe in March 2011 for Microsoft
+Windows , PlayStation 3 , and Xbox 360 . Officially announced on June 1, 2009, the game is the
+second main installment of the Crysis series , and is the sequel to the 2007 video game Crysis
+and Crysis Warhead . [2] The story was written by author Richard Morgan , [3] another science
+fiction author, Peter Watts , [4] was also consulted and wrote a novel adaptation of the game.
+It is the first game to showcase the CryEngine 3 game engine. The player assumes the control of a
+Force Recon Marine named "Alcatraz"; the successor to Jake "Nomad" Dunn – the protagonist
+from the first game. As Alcatraz, players gain ownership of the Nanosuit 2.0 from Army Delta
+Force officer Laurence "Prophet" Barnes, who returns from the original Crysis , where he was
+Nomad's commanding officer in Raptor Team. CryNet Systems has been hunting Prophet to
+retrieve the suit, inadvertently pursuing Alcatraz, believing he is Prophet. The Nanosuit
+2.0 gives players more freedom in their options in tackling situations on the battlefield.
+The aliens seen in the original game have undergone a major redesigning, abandoning the
+ancient, tentacled exosuits seen in the first game for high-tech humanoid armored war
+machines that stalk Alcatraz through the ravaged New York City. Crytek has stated their
+intention to surpass the original game graphically and gameplay-wise, and have claimed that
+combat in the game will be "catastrophically beautiful". [5] Crytek has also claimed that
+Crysis 2 will have lower system requirements than the original game, but will still exceed the
+original graphically [6] and will also support true stereoscopic 3D . [7] More recently, with
+the release of the PC demo, it is clearly seen that the "minimum" requirements are what's
+required to run the game on "Gamer" settings at an HD resolution. [8] The "Gamer" setting is
+changed to "High" in the final game, but for all intents and purposes it is exactly the same as
+before, and the game can be played at lower resolutions with hardware below the minimum
+requirements.
+
+Image:
+http://4.bp.blogspot.com/-XczDX2FrnzU/TcJbUJkGAmI/AAAAAAAAACY/jPFOjd4epGg/s320/crysis-nano-suit-pc-sc002.jpg
+Crytek has teased the redesigned Nanosuit, called the "Nanosuit 2.0", created by the
+fictional CryNet Systems company, the creators of the first Nanosuit. [9] The new Nanosuit
+supports new and upgraded features. However, suit functionality has been streamlined;
+multiple modes can easily be used simultaneously whenever the user wishes. This is decidedly
+different than the first game, in which the suit was generally limited to a single mode at a time
+and multiple modes cannot be used simultaneously for more than a split-second. The first
+suit's Strength and Speed Modes have been combined into the new Power Mode, the suit
+binoculars function has been upgraded with an advanced Tactical mode, the Cloaking Device
+has been modified to allow increased sensory input and silent melee stealth kills and has been
+renamed to Stealth Mode, while the Armor Mode has been left more or less as is, with the
+exception of slightly restricted agility and an ever-decreasing energy level. There are two
+trailers, with one trailer showing the suit in a wire-frame state, [10] the other showing the
+suit in a complete state. [11] In-fiction, the suit is to feature many improvements over its
+predecessor, giving soldiers freedom to upgrade their suits based on their own style of
+combat. [12] PC Gamer magazine published a preview of Crysis 2 , showing a park and a destroyed
+city street with an alien device in the center. In the article's interview Crytek hints at how
+the game will have "increased verticality" and will be set in a "new type of jungle". Crytek
+confirmed to CVG that Crysis 2 will not use EA's Online Pass system. "All we can say/confirm is
+that we aren't using Online Pass for Crysis 2 ," the studio said in a brief statement. [13]
+
+IGN Review Crysis 2 bears the weight of heavy expectations on its shoulders. PC gamers want a
+new system-crushing game to show off their hardware, and console players were promised the
+"best-looking game ever." In the wake of Modern Warfare's ascension, Crysis fans worried
+that the series' expansion to consoles would lead to a narrow, dumbed-down experience.
+
+
+
+Image:
+http://1.bp.blogspot.com/-Bpas-q7sssE/TcJbp9orNDI/AAAAAAAAACc/N2792ZUfUCw/s320/crysis-2-screenshots-1.jpg
+Thankfully, Crysis 2 sidesteps the excessive simplification of recent shooters with
+Nanosuited grace. It mixes destruction with beauty, and manages to deliver a more focused
+experience than its predecessor while retaining the building blocks of what made the
+original Crysis unique. Crysis 2 is the kind of game that speaks in superlatives -- and even
+when it stumbles, it's quick to recover, always pushing forward to another amazing moment.
+
+DOWNLOAD CRYSIS 2 TORRENT:-  http://thepiratebay.org/torrent/6269113/Crysis_2-FLT
+
+TO OPEN THIS FILE YOU WILL NEED, UTORRENT:-  www.utorrent.com
+
+AND MOUNT THE FILE UR WINDOWS DEFAULT CD/DVD BURNER OR SEARCH
+
+FOR A ISO BURNER FROM GOOGLE AND BURN THE ISO AND START ENJOYING
+
+{THIS TORRENT IS NOT MADE BY ME}
+
+createSummaryAndThumb("summary659039721578762263"); Wikipedia Portal 2 is a
+first-person puzzle - platform video game developed by Valve Corporation . It is the sequel to
+the 2007 video game Portal and was announced on March 5, 2010, following a week-long alternate
+reality game based on new patches to the original game. Though initially slated for release in
+the last quarter of 2010, the game was postponed to the week of April 18, 2011. The game was
+released by Valve through Steam for Microsoft Windows and Mac OS X , while the PlayStation 3 ,
+Xbox 360 and retail Windows/OS X versions of the game are distributed by Electronic Arts . The
+game's release on Steam was preceded by a second multi-week alternate reality game, the
+Potato Sack , involving 13 independently-developed titles, culminating in a distributed
+computing spoof to release Portal 2 several hours early.
+
+Portal 2 comprises a series of puzzles that must be solved by teleporting the player's
+character and simple objects using the "portal gun", a device that can create inter-spatial
+portals between flat planes. The game's unique physics allow momentum to be retained through
+portals, requiring creative use of portals to maneuver through the test chambers. Other
+gameplay elements were added to Portal 2 , including tractor beams, laser redirection, and
+special paint-like gels that impart special properties to objects they touch, an idea taken
+from the Independent Games Festival -winning DigiPen student project Tag: The Power of Paint
+.
+
+
+
+Image:
+http://4.bp.blogspot.com/-wGZ0W5OVz6A/TcJcMzSV0lI/AAAAAAAAACg/suFqJcHqBxk/s400/portal-2-wallpaper-HD_1680x1050.jpg
+Within the single player campaign, the player returns as the human Chell, having awakened
+from stasis after several hundred years. Chell must navigate the dilapidated Aperture
+Science Enrichment Center and its test chambers with the portal gun while the facility is
+rebuilt by the reactivated GLaDOS , a rampant artificially intelligent computer. With a
+larger story, Valve introduced additional characters, including Wheatley, voiced by
+Stephen Merchant , and recordings of Aperture Science CEO Cave Johnson, voiced by J.K.
+Simmons . Ellen McLain returns to voice GLaDOS. Additional music from Jonathan Coulton and
+The National appear in the game. Portal 2 also includes a two-player co-operative mode in
+which the player-characters, the robots Atlas and P-body, must work together to complete
+each test chamber using their own individual portal guns.
+
+Though many reviewers were concerned about the difficulty of expanding Portal into a full
+sequel, critics universally praised Portal 2 . The game's writing, pacing, and comedy were
+highlighted as stand-out elements, with critics applauding the voice work of McLain,
+Merchant, and Simmons. Reviews also highlighted the new gameplay elements, the game's
+challenging but surmountable learning curve, and the addition of the co-operative mode.
+
+IGN review The original Portal had the element of surprise. Its style of first-person
+physics-based puzzle gameplay was unique. GLaDOS, the murderous robotic villain, was new
+and vibrant and evil in the most charming way. Cake jokes and songs about surviving
+dismemberment were still hilarious. It was short, succinct and essential. Creating a sequel
+without playing all the same notes and making it feel like Portal: The Longer Version is a tough
+task. For Valve , it's apparently no problem.
+
+From the first moments of waking up in the rusting Aperture Science facility to right before
+the credits roll, Portal 2 rarely falters. The world is bigger, the story thicker, and the
+character development more surprising. The mania of GLaDOS, the facility's operator, is
+molded into unexpected forms alongside a host of brutally funny personalities. The history
+of the Aperture Science facility is filled in, character origins discussed, and though its
+pacing suffers as it occasionally strikes a more serious tone, an abundance of cruel jokes and
+cheerfully sincere death threats prevent it from losing its sarcastic charm. When you're not
+staring at your screen with wrinkled, pained expression on your face trying to figure out a
+puzzle, expect to be laughing.
+createSummaryAndThumb2("summary22150172715869411000");
+
+Portal 2
+
+Posted by Aditya Dubey on 12:05 AM No comments
+
+Wikipedia Portal 2 is a first-person puzzle - platform video game developed by Valve
+Corporation . It is the sequel to the 2007 video game Portal and was announced on March 5, 2010,
+following a week-long alternate reality game based on new patches to the original game.
+Though initially slated for release in the last quarter of 2010, the game was postponed to the
+week of April 18, 2011. The game was released by Valve through Steam for Microsoft Windows
+and Mac OS X , while the PlayStation 3 , Xbox 360 and retail Windows/OS X versions of the game are
+distributed by Electronic Arts . The game's release on Steam was preceded by a second
+multi-week alternate reality game, the Potato Sack , involving 13 independently-developed
+titles, culminating in a distributed computing spoof to release Portal 2 several hours
+early.
+
+Portal 2 comprises a series of puzzles that must be solved by teleporting the player's
+character and simple objects using the "portal gun", a device that can create inter-spatial
+portals between flat planes. The game's unique physics allow momentum to be retained through
+portals, requiring creative use of portals to maneuver through the test chambers. Other
+gameplay elements were added to Portal 2 , including tractor beams, laser redirection, and
+special paint-like gels that impart special properties to objects they touch, an idea taken
+from the Independent Games Festival -winning DigiPen student project Tag: The Power of Paint
+.
+
+
+
+Image:
+http://4.bp.blogspot.com/-wGZ0W5OVz6A/TcJcMzSV0lI/AAAAAAAAACg/suFqJcHqBxk/s400/portal-2-wallpaper-HD_1680x1050.jpg
+Within the single player campaign, the player returns as the human Chell, having awakened
+from stasis after several hundred years. Chell must navigate the dilapidated Aperture
+Science Enrichment Center and its test chambers with the portal gun while the facility is
+rebuilt by the reactivated GLaDOS , a rampant artificially intelligent computer. With a
+larger story, Valve introduced additional characters, including Wheatley, voiced by
+Stephen Merchant , and recordings of Aperture Science CEO Cave Johnson, voiced by J.K.
+Simmons . Ellen McLain returns to voice GLaDOS. Additional music from Jonathan Coulton and
+The National appear in the game. Portal 2 also includes a two-player co-operative mode in
+which the player-characters, the robots Atlas and P-body, must work together to complete
+each test chamber using their own individual portal guns.
+
+Though many reviewers were concerned about the difficulty of expanding Portal into a full
+sequel, critics universally praised Portal 2 . The game's writing, pacing, and comedy were
+highlighted as stand-out elements, with critics applauding the voice work of McLain,
+Merchant, and Simmons. Reviews also highlighted the new gameplay elements, the game's
+challenging but surmountable learning curve, and the addition of the co-operative mode.
+
+IGN review The original Portal had the element of surprise. Its style of first-person
+physics-based puzzle gameplay was unique. GLaDOS, the murderous robotic villain, was new
+and vibrant and evil in the most charming way. Cake jokes and songs about surviving
+dismemberment were still hilarious. It was short, succinct and essential. Creating a sequel
+without playing all the same notes and making it feel like Portal: The Longer Version is a tough
+task. For Valve , it's apparently no problem.
+
+From the first moments of waking up in the rusting Aperture Science facility to right before
+the credits roll, Portal 2 rarely falters. The world is bigger, the story thicker, and the
+character development more surprising. The mania of GLaDOS, the facility's operator, is
+molded into unexpected forms alongside a host of brutally funny personalities. The history
+of the Aperture Science facility is filled in, character origins discussed, and though its
+pacing suffers as it occasionally strikes a more serious tone, an abundance of cruel jokes and
+cheerfully sincere death threats prevent it from losing its sarcastic charm. When you're not
+staring at your screen with wrinkled, pained expression on your face trying to figure out a
+puzzle, expect to be laughing. createSummaryAndThumb("summary2150172715869411000");
+
+Tuesday, May 3, 2011
+
+Hey! Welcome to db's official gaming blog... Here i will post some news regarding games, my
+personal information, some tweaks, tutorials and many other HACKS, CRACKS etc, etc, I may
+give you many download links... either i may have uploaded it or either i will give you the link.
+
+Feel Free to comment......If any download link is broken report it immediately so that other
+visitors don't suffer. I will always thoroughly scan my files either they may be .EXE, .MSI,
+.RAR or .TORRENT. This is not any major company or any other organziation, i am just a boy
+who...................blah....blah...blah. ~~~~~~~~~~~~~~~~ⓘ ⓐⓜ ⓣⓞ
+ⓛⓐⓩⓨ ⓣⓞ ⓦⓡⓘⓣⓔ ⓣⓗⓔⓜ~~~~~~~~~~~~~~ FACEBOOK:-
+www.facebook.com/adityadb.1 MY WEBSITE:- adityadb.yolasite.com YOUTUBE:- 
+www.youtube.com/adityadb906
+
+
+
+createSummaryAndThumb2("summary2818910452120944216"); Posted by Aditya Dubey on 11:41
+PM No comments
+
+Hey! Welcome to db's official gaming blog... Here i will post some news regarding games, my
+personal information, some tweaks, tutorials and many other HACKS, CRACKS etc, etc, I may
+give you many download links... either i may have uploaded it or either i will give you the link.
+
+Feel Free to comment......If any download link is broken report it immediately so that other
+visitors don't suffer. I will always thoroughly scan my files either they may be .EXE, .MSI,
+.RAR or .TORRENT. This is not any major company or any other organziation, i am just a boy
+who...................blah....blah...blah. ~~~~~~~~~~~~~~~~ⓘ ⓐⓜ ⓣⓞ
+ⓛⓐⓩⓨ ⓣⓞ ⓦⓡⓘⓣⓔ ⓣⓗⓔⓜ~~~~~~~~~~~~~~ FACEBOOK:-
+www.facebook.com/adityadb.1 MY WEBSITE:- adityadb.yolasite.com YOUTUBE:- 
+www.youtube.com/adityadb906
+
+
+
+createSummaryAndThumb("summary818910452120944216"); Newer Posts Home Subscribe to:
+Posts (Atom) window.___gcfg = {'lang': 'en'};window.___gapisync = false;(function()
+{var po = document.createElement('script');po.type = 'text/javascript';po.async =
+true;po.src = 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+Popular Posts
+
+    
+
+    -
+
+    Image:
+    http://4.bp.blogspot.com/-kxf_C5bKGoY/Tc6La6IHeyI/AAAAAAAAADU/KuHMBJ_QsGs/s72-c/Windows_7_Ultimate_hd_wallpaper.jpg
+    Windows 7 Ultimate 32-bit Free! Windows 7 Ultimate Windows 7 Ultimate contains all of the
+    same features as Windows 7 Enterprise, but unlike the Enterprise edition, it is...
+
+    
+
+    -
+
+    Image:
+    http://2.bp.blogspot.com/-7UfAaBU6t6E/TcJZo1m4gcI/AAAAAAAAACM/yrzKyWIpgY4/s72-c/CJGTA.jpg
+    Grand Theft Auto: San Andreas, RIP 600Mb Torrent. Grand Theft Auto: San Andreas   is a
+    sandbox-style action-adventure computer and video game developed by Rockstar North in
+    the United K...
+
+    
+
+    -
+
+    Image:
+    http://2.bp.blogspot.com/-eU94_eHKOUU/TcJawH4inbI/AAAAAAAAACU/BUvn16eX4YI/s72-c/Crysis-2-002.jpg
+    Crysis 2 Wikipedia Crysis 2 is a first-person shooter video game developed by Crytek ,
+    published by Electronic Arts and was released in North Ame...
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/-t48ci1U9le0/TcQZLb1AeWI/AAAAAAAAACk/-JRyqOUk_5c/s72-c/Need-for-Speed-Most-Wanted-7-PWRR5ARLHY-1024x768.jpg
+    (no title) Wikipedia Need for Speed: Most Wanted (commonly abbreviated to as NFS: MW ) is a
+    racing video game , developed by EA Black Box game's str...
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/-mENmeWTHetc/TramJxa3lgI/AAAAAAAAAGI/qhf60BTnUMk/s72-c/Steam+Black+Logo.png
+    Cracked Steam 1500+ Steam Games Hey Pal! Today I’m gonna end your search for
+    Cracked/Hacked/Patched Steam forever! In-short >>> You are gonna get 1500+ Games in
+    you...
+
+    
+
+    -
+
+    Image:
+    http://4.bp.blogspot.com/-wGZ0W5OVz6A/TcJcMzSV0lI/AAAAAAAAACg/suFqJcHqBxk/s72-c/portal-2-wallpaper-HD_1680x1050.jpg
+    Portal 2 Wikipedia Portal 2 is a first-person puzzle - platform video game developed by
+    Valve Corporation . It is the sequel to the 2007 video ga...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/-67dmTgsoghQ/T7ptLRSbMJI/AAAAAAAAAPg/xloJWWnAWS4/s72-c/Untitled.png
+    GTA San Andreas - Super Speed BMX Mod. Must watch this video, first GAMEPLAY video by me.
+    This MOD will make your BMX SUPER FAST! The fastest in San Andreas.  J ust go to...
+
+    
+
+    -
+
+    Image:
+    http://3.bp.blogspot.com/-W_K9OJy8aCs/T7pusRqboSI/AAAAAAAAAPo/EpLzTL2TdF0/s72-c/Untitled.png
+    Windows 8 Milestone 7995 - Free Download by Torrent. Windows 8  is the official
+    name for the next version of  Microsoft Windows , a series of  operating systems
+     produced by Microsoft  for u...
+
+    
+
+    -
+
+    Image:
+    http://1.bp.blogspot.com/-V-fBehr6GYI/T7pp06e8vGI/AAAAAAAAAPI/5Um3KdiEC2M/s72-c/nokia-microsoft-partnership_thumb.jpg
+    Microsoft prepared to purchase Nokia phone division for $19B? Ever since former
+    Microsoft executive Stephen Elop joined Nokia , rumors were rampant that the Finnish
+    manufacturer would start using W...
+
+    
+
+    - Internet Download Manager Internet Download Manager (IDM) is a tool to increase
+    download speeds by up to 5 times, resume and schedule downloads. Comprehensive er...
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png function
+setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0753646331766622104244\46blogName\75DB+Technoholic\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://adityadbonline.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://adityadbonline.blogspot.com/\46vt\0751800617931841555588',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); Powered by Blogger .
+
+    Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+    -
+
+    
+
+    -
+
+    Pages
+
+        
+
+        - Home
+
+        
+
+        - Wallpapers
+
+        
+
+        - Find Me Here
+
+        
+
+        - Contact me!
+
+        
+
+    
+
+    Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+    
+
+    -
+
+    Sample Text
+
+    
+
+    Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+    
+
+Copyright © 2012 DB Technoholic | Powered by Blogger
+
+Design by Fabthemes | Blogger Template by NewBloggerThemes.com if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'3646331766622104244';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d3646331766622104244','//adityadbonline.blogspot.com/2011_05_01_archive.html','3646331766622104244');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'3646331766622104244', 'bloggerUrl': 'http://www.blogger.com', 'title': 'DB
+Technoholic', 'pageType': 'archive', 'url':
+'http://adityadbonline.blogspot.com/2011_05_01_archive.html', 'canonicalUrl':
+'http://adityadbonline.blogspot.com/2011_05_01_archive.html',
+'canonicalHomepageUrl': 'http://adityadbonline.blogspot.com/', 'homepageUrl':
+'http://adityadbonline.blogspot.com/', 'blogspotFaviconUrl':
+'http://adityadbonline.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'disableAdSenseWidget': false,
+'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': 'May
+2011', 'pageTitle': 'DB Technoholic: May 2011', 'encoding': 'UTF-8', 'locale': 'en',
+'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42DB Technoholic -
+Atom\42 href\75\42http://adityadbonline.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42DB
+Technoholic - RSS\42
+href\75\42http://adityadbonline.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42DB Technoholic - Atom\42
+href\75\42http://www.blogger.com/feeds/3646331766622104244/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0753646331766622104244\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#666666', 'linkcolor':
+'#5588aa', 'visitedlinkcolor': '#999999', 'textcolor': '#333333', 'headerfont':
+'normal normal 78% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif',
+'pagetitlefont': 'normal normal 200% Georgia, Serif', 'bgcolor': '#ffffff',
+'descriptioncolor': '#999999', 'titlecolor': '#cc6600', 'bordercolor': '#cccccc',
+'postfooterfont': 'normal normal 78% \47Trebuchet MS\47, Trebuchet, Arial, Verdana,
+Sans-serif', 'pagetitlecolor': '#666666', 'bodyfont': 'normal normal 100% Georgia,
+Serif', 'endSide': 'right', 'startSide': 'left', 'descriptionfont': 'normal normal 78%
+\47Trebuchet MS\47, Trebuchet, Arial, Verdana, Sans-serif', 'sidebarcolor':
+'#999999'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic',
+'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url':
+'/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'},
+'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar',
+'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url':
+'/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_PopularPostsView',
+new _WidgetInfo('PopularPosts1', 'sidebartop', null,
+document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1',
+'sidebartop', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'sidebartop', null,
+document.getElementById('Attribution1'), {'attribution': 'Powered by \74a
+href\75\47http://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'footercol2', null, document.getElementById('PageList1'),
+{'title': 'Pages', 'links': [{'href': 'http://adityadbonline.blogspot.com/',
+'title': 'Home', 'isCurrentPage': false}, {'href':
+'http://adityadbonline.blogspot.com/p/best-gaming-wallpapers-ever-d.html',
+'title': 'Wallpapers', 'isCurrentPage': false}, {'href':
+'http://adityadbonline.blogspot.com/p/my-internet-branches-lolz.html', 'title':
+'Find Me Here', 'isCurrentPage': false}, {'href':
+'http://adityadbonline.blogspot.com/p/contact-me.html', 'title': 'Contact me!',
+'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1', 'footercol3',
+null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'),
+{'title': 'Pages', 'links': [{'href': 'http://adityadbonline.blogspot.com/',
+'title': 'Home', 'isCurrentPage': false}, {'href':
+'http://adityadbonline.blogspot.com/p/best-gaming-wallpapers-ever-d.html',
+'title': 'Wallpapers', 'isCurrentPage': false}, {'href':
+'http://adityadbonline.blogspot.com/p/my-internet-branches-lolz.html', 'title':
+'Find Me Here', 'isCurrentPage': false}, {'href':
+'http://adityadbonline.blogspot.com/p/contact-me.html', 'title': 'Contact me!',
+'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+

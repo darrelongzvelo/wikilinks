@@ -1,0 +1,2086 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Rajeev's World: April 2011 <!--
+/*----------------------------------------------- Blogger Template Style Name:
+Picture Window Designer: Josh Peterson URL: www.noaesthetic.com
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="keycolor" description="Main Color" type="color"
+default="#1a222a"/> <Variable name="body.background" description="Body Background"
+type="background" color="#ffffff" default="#111111
+url(//themes.googleusercontent.com/image?id=1OACCYOE0-eoTRTfsBuX1NMN9nz599ufI1Jh0CggPFA_sK80AGkIr8pLtYRpNUKPmwtEa)
+repeat-x fixed top center"/> <Group description="Page Text" selector="body"> <Variable
+name="body.font" description="Font" type="font" default="normal normal 15px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="body.text.color"
+description="Text Color" type="color" default="#333333"/> </Group> <Group
+description="Backgrounds" selector=".body-fauxcolumns-outer"> <Variable
+name="body.background.color" description="Outer Background" type="color"
+default="#296695"/> <Variable name="header.background.color" description="Header
+Background" type="color" default="transparent"/> <Variable
+name="post.background.color" description="Post Background" type="color"
+default="#ffffff"/> </Group> <Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color"
+default="#336699"/> <Variable name="link.visited.color" description="Visited Color"
+type="color" default="#6699cc"/> <Variable name="link.hover.color"
+description="Hover Color" type="color" default="#33aaff"/> </Group> <Group
+description="Blog Title" selector=".header h1"> <Variable name="header.font"
+description="Title Font" type="font" default="normal normal 36px Arial, Tahoma,
+Helvetica, FreeSans, sans-serif"/> <Variable name="header.text.color"
+description="Text Color" type="color" default="#ffffff" /> </Group> <Group
+description="Tabs Text" selector=".tabs-inner .widget li a"> <Variable
+name="tabs.font" description="Font" type="font" default="normal normal 15px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif"/> <Variable name="tabs.text.color"
+description="Text Color" type="color" default="#ffffff"/> <Variable
+name="tabs.selected.text.color" description="Selected Color" type="color"
+default="#242ca7"/> </Group> <Group description="Tabs Background"
+selector=".tabs-outer .PageList"> <Variable name="tabs.background.color"
+description="Background Color" type="color" default="transparent"/> <Variable
+name="tabs.selected.background.color" description="Selected Color" type="color"
+default="transparent"/> <Variable name="tabs.separator.color"
+description="Separator Color" type="color" default="transparent"/> </Group> <Group
+description="Post Title" selector="h3.post-title, .comments h4"> <Variable
+name="post.title.font" description="Title Font" type="font" default="normal normal
+18px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/> </Group> <Group
+description="Date Header" selector=".date-header"> <Variable
+name="date.header.color" description="Text Color" type="color" default="#000000"/>
+</Group> <Group description="Post" selector=".post"> <Variable
+name="post.footer.text.color" description="Footer Text Color" type="color"
+default="#999999"/> <Variable name="post.border.color" description="Border Color"
+type="color" default="#dddddd"/> </Group> <Group description="Gadgets"
+selector="h2"> <Variable name="widget.title.font" description="Title Font"
+type="font" default="bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color"
+default="#888888"/> </Group> <Group description="Footer" selector=".footer-outer">
+<Variable name="footer.text.color" description="Text Color" type="color"
+default="#cccccc"/> <Variable name="footer.widget.title.text.color"
+description="Gadget Title Color" type="color" default="#aaaaaa"/> </Group> <Group
+description="Footer Links" selector=".footer-outer"> <Variable
+name="footer.link.color" description="Link Color" type="color" default="#99ccee"/>
+<Variable name="footer.link.visited.color" description="Visited Color" type="color"
+default="#77aaee"/> <Variable name="footer.link.hover.color" description="Hover
+Color" type="color" default="#33aaff"/> </Group> <Variable name="content.margin"
+description="Content Margin Top" type="length" default="20px"/> <Variable
+name="content.padding" description="Content Padding" type="length" default="0"/>
+<Variable name="content.background" description="Content Background"
+type="background" default="transparent none repeat scroll top left"/> <Variable
+name="content.border.radius" description="Content Border Radius" type="length"
+default="0"/> <Variable name="content.shadow.spread" description="Content Shadow
+Spread" type="length" default="0"/> <Variable name="header.padding"
+description="Header Padding" type="length" default="0"/> <Variable
+name="header.background.gradient" description="Header Gradient" type="url"
+default="none"/> <Variable name="header.border.radius" description="Header Border
+Radius" type="length" default="0"/> <Variable name="main.border.radius.top"
+description="Main Border Radius" type="length" default="20px"/> <Variable
+name="footer.border.radius.top" description="Footer Border Radius Top" type="length"
+default="0"/> <Variable name="footer.border.radius.bottom" description="Footer
+Border Radius Bottom" type="length" default="20px"/> <Variable
+name="region.shadow.spread" description="Main and Footer Shadow Spread" type="length"
+default="3px"/> <Variable name="region.shadow.offset" description="Main and Footer
+Shadow Offset" type="length" default="1px"/> <Variable
+name="tabs.background.gradient" description="Tab Background Gradient" type="url"
+default="none"/> <Variable name="tab.selected.background.gradient"
+description="Selected Tab Background" type="url"
+default="url(//www.blogblog.com/1kt/transparent/white80.png)"/> <Variable
+name="tab.background" description="Tab Background" type="background"
+default="transparent url(//www.blogblog.com/1kt/transparent/black50.png) repeat
+scroll top left"/> <Variable name="tab.border.radius" description="Tab Border Radius"
+type="length" default="10px" /> <Variable name="tab.first.border.radius"
+description="First Tab Border Radius" type="length" default="10px" /> <Variable
+name="tabs.border.radius" description="Tabs Border Radius" type="length" default="0"
+/> <Variable name="tabs.spacing" description="Tab Spacing" type="length"
+default=".25em"/> <Variable name="tabs.margin.bottom" description="Tab Margin
+Bottom" type="length" default="0"/> <Variable name="tabs.margin.sides"
+description="Tab Margin Sides" type="length" default="20px"/> <Variable
+name="main.background" description="Main Background" type="background"
+default="transparent url(//www.blogblog.com/1kt/transparent/white80.png) repeat
+scroll top left"/> <Variable name="main.padding.sides" description="Main Padding
+Sides" type="length" default="20px"/> <Variable name="footer.background"
+description="Footer Background" type="background" default="transparent
+url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left"/>
+<Variable name="post.margin.sides" description="Post Margin Sides" type="length"
+default="-20px"/> <Variable name="post.border.radius" description="Post Border
+Radius" type="length" default="5px"/> <Variable name="widget.title.text.transform"
+description="Widget Title Text Transform" type="string" default="uppercase"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay"
+type="string" default="transparent none repeat scroll top left"/> <Variable
+name="startSide" description="Side where text starts in blog language" type="automatic"
+default="left"/> <Variable name="endSide" description="Side where text ends in blog
+language" type="automatic" default="right"/> */ /* Content
+----------------------------------------------- */ body { font: normal normal 15px
+Arial, Tahoma, Helvetica, FreeSans, sans-serif; color: #000000; background: #ffffff none
+no-repeat scroll center center; } html body .region-inner { min-width: 0; max-width: 100%;
+width: auto; } .content-outer { font-size: 90%; } a:link { text-decoration:none; color:
+#242ca7; } a:visited { text-decoration:none; color: #cc0000; } a:hover {
+text-decoration:underline; color: #ea9999; } .content-outer { background: transparent
+none repeat scroll top left; -moz-border-radius: 0; -webkit-border-radius: 0;
+-goog-ms-border-radius: 0; border-radius: 0; -moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+box-shadow: 0 0 0 rgba(0, 0, 0, .15); margin: 20px auto; } .content-inner { padding: 0; } /*
+Header ----------------------------------------------- */ .header-outer {
+background: #ffffff none repeat-x scroll top left; _background-image: none; color:
+#000000; -moz-border-radius: 0; -webkit-border-radius: 0; -goog-ms-border-radius: 0;
+border-radius: 0; } .Header img, .Header #header-inner { -moz-border-radius: 0;
+-webkit-border-radius: 0; -goog-ms-border-radius: 0; border-radius: 0; } .header-inner
+.Header .titlewrapper, .header-inner .Header .descriptionwrapper { padding-left: 0;
+padding-right: 0; } .Header h1 { font: normal normal 36px Arial, Tahoma, Helvetica,
+FreeSans, sans-serif; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); } .Header h1 a { color:
+#000000; } .Header .description { font-size: 130%; } /* Tabs
+----------------------------------------------- */ .tabs-inner { margin: .5em 20px 0;
+padding: 0; } .tabs-inner .section { margin: 0; } .tabs-inner .widget ul { padding: 0;
+background: #ffffff none repeat scroll bottom; -moz-border-radius: 0;
+-webkit-border-radius: 0; -goog-ms-border-radius: 0; border-radius: 0; } .tabs-inner
+.widget li { border: none; } .tabs-inner .widget li a { display: inline-block; padding: .5em
+1em; margin-right: .25em; color: #000000; font: normal normal 15px Arial, Tahoma,
+Helvetica, FreeSans, sans-serif; -moz-border-radius: 10px 10px 0 0;
+-webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px;
+-goog-ms-border-radius: 10px 10px 0 0; border-radius: 10px 10px 0 0; background:
+transparent url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top
+left; border-right: 1px solid #999999; } .tabs-inner .widget li:first-child a {
+padding-left: 1.25em; -moz-border-radius-topleft: 10px;
+-moz-border-radius-bottomleft: 0; -webkit-border-top-left-radius: 10px;
+-webkit-border-bottom-left-radius: 0; -goog-ms-border-top-left-radius: 10px;
+-goog-ms-border-bottom-left-radius: 0; border-top-left-radius: 10px;
+border-bottom-left-radius: 0; } .tabs-inner .widget li.selected a, .tabs-inner .widget
+li a:hover { position: relative; z-index: 1; background: #666666
+url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll bottom; color:
+#000000; -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .15); -webkit-box-shadow: 0 0 3px rgba(0, 0,
+0, .15); -goog-ms-box-shadow: 0 0 3px rgba(0, 0, 0, .15); box-shadow: 0 0 3px rgba(0, 0, 0,
+.15); } /* Headings ----------------------------------------------- */ h2 { font: normal
+bold 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif; text-transform: uppercase;
+color: #000000; margin: .5em 0; } /* Main
+----------------------------------------------- */ .main-outer { background:
+transparent url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll top
+left; -moz-border-radius: 20px 20px 0 0; -webkit-border-top-left-radius: 20px;
+-webkit-border-top-right-radius: 20px; -webkit-border-bottom-left-radius: 0;
+-webkit-border-bottom-right-radius: 0; -goog-ms-border-radius: 20px 20px 0 0;
+border-radius: 20px 20px 0 0; -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 1px 3px rgba(0, 0,
+0, .15); box-shadow: 0 1px 3px rgba(0, 0, 0, .15); } .main-inner { padding: 15px 20px 20px; }
+.main-inner .column-center-inner { padding: 0 0; } .main-inner .column-left-inner {
+padding-left: 0; } .main-inner .column-right-inner { padding-right: 0; } /* Posts
+----------------------------------------------- */ h3.post-title { margin: 0; font:
+normal bold 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif; } .comments h4 { margin:
+1em 0 0; font: normal bold 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif; }
+.date-header span { color: #333333; } .post-outer { background-color: #ffffff; border:
+solid 1px #666666; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius:
+5px; -goog-ms-border-radius: 5px; padding: 15px 20px; margin: 0 -20px 20px; } .post-body {
+line-height: 1.4; font-size: 110%; position: relative; } .post-header { margin: 0 0 1.5em;
+color: #000000; line-height: 1.6; } .post-footer { margin: .5em 0 0; color: #000000;
+line-height: 1.6; } #blog-pager { font-size: 140% } #comments .comment-author {
+padding-top: 1.5em; border-top: dashed 1px #ccc; border-top: dashed 1px rgba(128, 128,
+128, .5); background-position: 0 1.5em; } #comments .comment-author:first-child {
+padding-top: 0; border-top: none; } .avatar-image-container { margin: .2em 0 0; } /*
+Comments ----------------------------------------------- */ .comments
+.comments-content .icon.blog-author { background-repeat: no-repeat;
+background-image:
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+} .comments .comments-content .loadmore a { border-top: 1px solid #ea9999; border-bottom:
+1px solid #ea9999; } .comments .continue { border-top: 2px solid #ea9999; } /* Widgets
+----------------------------------------------- */ .widget ul, .widget #ArchiveList
+ul.flat { padding: 0; list-style: none; } .widget ul li, .widget #ArchiveList ul.flat li {
+border-top: dashed 1px #ccc; border-top: dashed 1px rgba(128, 128, 128, .5); } .widget ul
+li:first-child, .widget #ArchiveList ul.flat li:first-child { border-top: none; }
+.widget .post-body ul { list-style: disc; } .widget .post-body ul li { border: none; } /*
+Footer ----------------------------------------------- */ .footer-outer {
+color:#000000; background: transparent
+url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left;
+-moz-border-radius: 0 0 20px 20px; -webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0; -webkit-border-bottom-left-radius: 20px;
+-webkit-border-bottom-right-radius: 20px; -goog-ms-border-radius: 0 0 20px 20px;
+border-radius: 0 0 20px 20px; -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .15); -goog-ms-box-shadow: 0 1px 3px rgba(0, 0,
+0, .15); box-shadow: 0 1px 3px rgba(0, 0, 0, .15); } .footer-inner { padding: 10px 20px 20px; }
+.footer-outer a { color: #000000; } .footer-outer a:visited { color: #000000; }
+.footer-outer a:hover { color: #000000; } .footer-outer .widget h2 { color: #ffffff; } /*
+Mobile ----------------------------------------------- */ html body.mobile { height:
+auto; } html body.mobile { min-height: 480px; background-size: 100% auto; } .mobile
+.body-fauxcolumn-outer { background: transparent none repeat scroll top left; } html
+.mobile .mobile-date-outer, html .mobile .blog-pager { border-bottom: none; background:
+transparent url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll top
+left; margin-bottom: 10px; } .mobile .date-outer { background: transparent
+url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left; } .mobile
+.header-outer, .mobile .main-outer, .mobile .post-outer, .mobile .footer-outer {
+-moz-border-radius: 0; -webkit-border-radius: 0; -goog-ms-border-radius: 0;
+border-radius: 0; } .mobile .content-outer, .mobile .main-outer, .mobile .post-outer {
+background: inherit; border: none; } .mobile .content-outer { font-size: 100%; }
+.mobile-link-button { background-color: #242ca7; } .mobile-link-button a:link,
+.mobile-link-button a:visited { color: #ffffff; } .mobile-index-contents { color:
+#000000; } .mobile .tabs-inner .PageList .widget-content { background: #666666
+url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll bottom; color:
+#000000; } .mobile .tabs-inner .PageList .widget-content .pagelist-arrow { border-left:
+1px solid #999999; } --> <!-- body { min-width: 1160px; } .content-outer,
+.content-fauxcolumn-outer, .region-inner { min-width: 1160px; max-width: 1160px;
+_width: 1160px; } .main-inner .columns { padding-left: 215px; padding-right: 250px; }
+.main-inner .fauxcolumn-center-outer { left: 215px; right: 250px; /* IE6 does not respect
+left and right together */ _width: expression(this.parentNode.offsetWidth -
+parseInt("215px") - parseInt("250px") + 'px'); } .main-inner .fauxcolumn-left-outer {
+width: 215px; } .main-inner .fauxcolumn-right-outer { width: 250px; } .main-inner
+.column-left-outer { width: 215px; right: 100%; margin-left: -215px; } .main-inner
+.column-right-outer { width: 250px; margin-right: -250px; } #layout { min-width: 0; }
+#layout .content-outer { min-width: 0; width: 800px; } #layout .region-inner { min-width:
+0; width: auto; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0755144520725039798879\46blogName\75Rajeev\47s+World\46publishMode\75PUBLISH_MODE_HOSTED\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://www.rajeevmahajan.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://www.rajeevmahajan.com/\46vt\75-8782635360629029709',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})();
+
+
+
+Rajeev's World
+
+
+
+Keep the flame alive!!!
+
+
+
+Pages
+
+    
+
+    - Home
+
+    
+
+    - About Me
+
+    
+
+    - Contact Me
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Facebook Badge
+
+Rajeev Mahajan Create Your Badge
+
+Image: http://badge.facebook.com/badge/627663911.540.2038976524.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Friday, April 29, 2011
+
+
+
+
+
+
+
+Of QEII, Long Serving Rulers & the Lust for Power....
+
+
+
+Image:
+http://4.bp.blogspot.com/-FJC0JSUlNqc/TcAQHtafi3I/AAAAAAAACS8/ruu1pMKjBKQ/s320/620px-Royal_Coat_of_Arms_of_the_United_Kingdom.svg.png
+Today, the world witnessed the Royal Wedding - the wedding of Prince William and Catherine
+Middleton . India was not to be left behind in that grand show of pomp and regalia. People waited
+here for the wedding to begin with a certain anxiousness that is normally observed before an
+emotional cricket match, something like an India-Pakistan World Cup encounter.
+Televisions in offices, which are normally reserved for business news channels like CNBC,
+had BBC on, for a change with people huddled around excitedly waiting for a glimpse of their
+favourite royal. Those who had critical work that day, logged on to websites streaming the
+wedding live. And I thought whether I was in British India or an independent India? I found it
+odd that an event of this nature would get work to a standstill, especially since the Royal
+Wedding does not impact India directly or indirectly, by any stretch of imagination. As
+people around me experienced the vicarious thrills of seeing the wedding, I could not help but
+realise that the Queen, Elizabeth II , was nearly 85 years. She has been wearing the Kohinoor on
+her Crown for over 56 years now. It is also a fact that she had refused to abdicate when the
+British Royalty faced a existential crisis prior to and after Lady Diana 's tragic death. And
+she continues to hold on to her Crown and throne, despite her heir, Crown Prince Charles ,
+crossing in to the 60s, well past the normal retirement age in most countries. Modern royalty
+does have examples of monarchs stepping down in favour of younger and more dynamic princes and
+princesses. Wikipedia lists down monarchs of Netherlands, Luxembourg, Cambodia, Bhutan
+and Liechtenstein who have actually stepped down, in the recent past. The same source even
+says abdication is considered normal and even expected in the Netherlands . But the Queen
+still sticks on to her throne stubbornly it seems! Long live the Queen! Now the Queen's 56 years
+on the throne beats the likes of Muammar al-Gaddafi , of Libya, who ruled for 41 years, Ali
+Abdullah Saleh , of Yemen, who has ruled for over 30 years, Fidel Castro of Cuba, who ruled for
+nearly 49 years or even Robert Mugabe who still clings on to his position with brute force after
+31 years of virtual dictatorship. Would the Queen be proud to be a part of this dubious club? I
+doubt that. But then it is power, which is the elixir of life for many of these people. They live,
+eat, drink and sleep on power, they thrive on power, power flows through their veins, makes
+their heart beat. We have seen that in India as well, with the ever increasing number of
+geriatric politicians who desperately cling on power despite being old, paralysed and being
+hardly in control of their senses - prime examples were or are the likes of Arjun Singh , N.D.
+Tiwari , Sitaram Kesari , Sharad Pawar , Karunanidhi , etc. Now the question I have is if these
+people are not in control of their faculties, do they have the right or the capability to govern
+a nation of over 1.2 billion? Now, assume for a moment that I am wrong and that these are indeed
+capable individuals, they why does the Indian government have a retirement age of 58 or 60 for
+its personnel? Would these geriatric politicians ever get recruited into an Indian
+government job, if they were not politicians? The bottomline is that rules are for the ruled
+and are not for the rulers, who rule, virtually rule-free. It takes strength of character to
+nurture the next line of leadership and give up one's position for new blood well in time. The
+Dalai Lama and Nelson Mandela have shown the way on this. The world will continue to respect
+them for this. That's why I respect them the most. I wonder what has shaped their character? Was
+it the 27 years in jail for the Madiba or an exile for the spiritual leader that shaped their
+respective characters? But then not every leader or a statesman is a Dalai Lama or a Nelson
+Mandela .... that's the sad part! Posted by
+
+
+
+Rajeev at
+
+
+
+8:33 PM Email This BlogThis! Share to Twitter Share to Facebook
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif 1 comment: Links to this
+post Reactions:   Labels: dalai lama , Nelson Mandela , politics <!--
+google_ad_client="pub-9028710559317777"; google_ad_host="pub-1556223355139109";
+google_ad_width=300; google_ad_height=250; google_ad_format="300x250_as";
+google_ad_type="text_image"; google_ad_host_channel="0001+S0009+L0007";
+google_color_border="000000"; google_color_bg="000000";
+google_color_link="AADD99"; google_color_url="CCCCCC";
+google_color_text="CCCCCC"; //-->
+
+Thursday, April 28, 2011
+
+
+
+
+
+
+
+MMRCA Deal -- To Buy Or Not To Buy - Was That Ever The Question?
+
+
+
+Image:
+http://2.bp.blogspot.com/-b2qoQRioHwU/Tb65WFlpbPI/AAAAAAAACSs/qKQ7y7JmdFI/s320/800px-FA-18_Hornet_VFA-41.jpg
+The post-Cold War strategic realignments saw India and the United States move closer. That
+closeness culminated in a bear hug when the two countries concluded the nuclear deal. In that
+context, for most observers, it was a foregone conclusion that the Indian Air Force 's order
+for procuring 126 Medium Multi-Role Combat Aircraft ( MMRCA ) at an estimated cost of a
+whopping US$ 9 billion would go to the Americans - either Lockheed Martin's F-16 s or Boeing's
+F/A-18 Super Hornets . These suspicions were further strengthened when Obama visited India.
+There was all that talk about creation of jobs in the United States (read: India awarding
+massive defence contracts to the United States and keeping the assembly lines in the United
+States moving). We all suspected that that there was a quid-pro- quo - Obama would back India's
+bid for permanent membership of the United Nations Security Council in return for creating
+the jobs that Obama has been talking about ad nauseaum ! But there was a problem, Washington.
+The F-16 s have been in operation since the mid-1970s. The Indian Air Force needed fighters to
+replace the aging MiGs . But should we be so desperate for a replacement at any cost, that we end
+up replacing one aging fighter with another one, which is reaching the tail of its design life.
+The F-16 s would not have served the Indian Air Force 's strategic unstated objective of
+staying ahead of the curve vis -a- vis regional powers. Another big factor that went against
+the F-16 s was probably that the Pakistanis have flown the F-16 s already for over 20-odd years,
+they would be ahead of us on the F-16 's learning curve, they would know the limitations and
+flaws of the F-16 s already. Should we be naive and play into the Pakistani hands by buying the
+F-16 s? So why not the F/A-18 Super Hornets then, which are considerably newer machines?
+Dealing with the United States is not easy. We signed the nuclear deal with the United States
+nearly 2 years back, but we are no where close to implementing the deal with them. So would the
+United States actually support India when needed, when faced with a belligerent situation,
+with critical spares and support? Who would want to bet on that? That left the Russians and
+Europeans in the contention for the Indian Air Force 's MMRCA . The Admiral Gorshkov aircraft
+carrier armtwisting episode has left India seething with anger and extreme distrust of the
+Russians. Surely there is a big difference between the Soviet regime and the Russian regime of
+today. Would we want to risk grounding the entire Indian Air Force fleet, if Russia were to
+armtwist us again? Another deciding factor could have been that the MiG-35 s are an
+incremental improvement on the MiG-29 s, which are already operated by the Indian Air Force .
+With the Europeans, it is a different matter. Time and again, we have seen that it is much much
+easier to deal with the Europeans. They surely do move with speed and are far more pragmatic.
+They do not seem bogged down by strategic millstones around their necks. The French proved
+that when they concluded the Areva nuclear reactor deal with us. Putting all strategic eggs in
+one basket, as far as defence supplies go, is a foolish thing to do in light of our geopolitical
+and economical interests. Having denied the MMRCA opportunity to the United States does not
+mean that they do not figure in India's geopolitical radar. So the Indian Air Force would do
+well with a blended fleet of the Sukhoi 30 MKI s, the LCA and the MMRCA -- the Eurofighter Typhoon
+or Dassault Rafale . But as a growing power, we need the strategic lift capability in our region
+of economic interest as well as a capability to launch a stealth assault. When it comes to
+strategic lift capability, no one beats the Americans with the C-17A Globemaster III . Let us
+remember, the Europeans failed at military freighters, with the Airbus A400M freighter not
+doing too well - the South African Air Force even cancelled its orders for the A400M . While
+procurement for the C-17A s gets worked out, the Indian Air Force needs to expedite the
+induction of the C-130J Super Hercules . Stealth airpower has come on our northern skies
+already, with the Chinese having developed and test flying the Chengdu J-20 , in January this
+year (that Robert Gates was in Beijing then was no coincidence!). While India already has an
+understanding with the Russians for jointly developing a fifth generation fighter - HAL and
+Sukhoi are to collaborate on it, we should not wait for another twenty years. We can build a
+stealth capability by giving the Americans a juicy order for the Lockheed Martin F-35
+Lightning II . And we will give them jobs too! To buy or not to buy the American MMRCAs , that was
+the question, that the Indian Air Force has answered well. Now is the time to sit with the
+Americans and close orders for freighters and fifth generation fighters! Posted by
+
+
+
+Rajeev at
+
+
+
+9:38 PM Email This BlogThis! Share to Twitter Share to Facebook
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif 1 comment: Links to this
+post Reactions:   Labels: India , Indian armed forces , Security , United States <!--
+google_ad_client="pub-9028710559317777"; google_ad_host="pub-1556223355139109";
+google_ad_width=300; google_ad_height=250; google_ad_format="300x250_as";
+google_ad_type="text_image"; google_ad_host_channel="0001+S0009+L0007";
+google_color_border="000000"; google_color_bg="000000";
+google_color_link="AADD99"; google_color_url="CCCCCC";
+google_color_text="CCCCCC"; //-->
+
+Wednesday, April 27, 2011
+
+
+
+
+
+
+
+How Weird Can Our Planners Get?
+
+
+
+Image:
+http://2.bp.blogspot.com/-yyqtdYmlEJ4/Tb7ZtLlV2CI/AAAAAAAACS0/DTRBe0QclUY/s320/IMG00257-20110428-1632.jpg
+A few months back, we in Bombay's commercial business district of Bandra Kurla Complex, saw
+that the sides of the roads were being cordoned off. We were told that these were to be cycle
+tracks. The photograph alongside shows the tracks in green. Great idea in general! A greener
+way of transportation. But then the next question is how many people come to Bandra Kurla
+Complex on bicycles? Are habitations close by that riding a bicycle to the this business hub
+would be a fruitful proposition? Having worked in Bandra Kurla Complex for over 5 years now, I
+am convinced that the answer is a big NO. In these 5 years in Bandra Kurla Complex, I have hardly
+seen any one come to work on bicycle. Now the question is how did this project get approved? Was
+any study or survey to support this investment? Did anyone stand to benefit from this wasteful
+investment? This kind of faulty planning ails the metros of India today. It could not get
+weirder than this.... Posted by
+
+
+
+Rajeev at
+
+
+
+9:18 PM Email This BlogThis! Share to Twitter Share to Facebook
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif 2 comments: Links to this
+post Reactions:   Labels: BKC , Bombay , MMRDA , Mumbai <!--
+google_ad_client="pub-9028710559317777"; google_ad_host="pub-1556223355139109";
+google_ad_width=300; google_ad_height=250; google_ad_format="300x250_as";
+google_ad_type="text_image"; google_ad_host_channel="0001+S0009+L0007";
+google_color_border="000000"; google_color_bg="000000";
+google_color_link="AADD99"; google_color_url="CCCCCC";
+google_color_text="CCCCCC"; //-->
+
+Sunday, April 10, 2011
+
+
+
+à€¹à€œ़ाà€°ों à€•ी
+à€–्à€µाà€¹िà€¶ें à€�à€žी -- Hazaaron Ki
+Khwaishein Aisi!
+
+à€¹à€œ़ाà€°ों à€•ी
+à€–्à€µाà€¹िà€¶ें à€�à€žी! Thousands of
+Indians yearn for this, for corruption to be weeded out. For transactions to be free from the
+facilitating à€†à€šा (Anna) . I guess, that it was high time for a person like Anna
+H azare to stand up for what the masses yearn for - à€¹à€œ़ाà€°ों
+à€•ी à€–्à€µाà€¹िà€¶ें! It is indeed atrocious to
+hear about what all scams are being perpetrated by the people in positions of political and
+administrative authority. In March 2010, India was horrified when Ma yawati w as garlanded
+with Rs. 1,000 notes. It was presumed that Rs. 200 cr ores w ere spent in that rally itself! I had
+then echoed Gordon Ge kko's s entiment that for our leaders, Greed is Good ! But it did not stop at
+that. Greed was even better when the 2G te lecom s cam deprived each poor Indian household of
+nearly
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/6px-Indian_Rupee_symbol.svg.png
+20,000. Then onions made us cry - the shortfall was apparently "created" and India was forced
+to import onions. And what not? The problem is that shady deals that our politicians enter into
+through their cronies result in cr ores o f Rupees being siphoned out of the system. And those
+figures are obscene. Here I quote from my blog post of March 2010, Greed is Good : I came across
+two sources on the Net which referred to Swiss Banking Association reports of 2006 and 2008
+which talk of deposits from India exceeding US$ 1.5 trillion, now that's an obscenely,
+astounding Rs. 65,25,000 cr ore. Between then and now nothing would have changed the amounts
+would have only gone up and beyond my imagination. The Indian people are frustrated today.
+Development has all but ceased. The government claims to start off developmental work, but
+not even a penny trickles down. This has created dangerous disparities between the "haves"
+and the "have-nots". All this money stashed abroad can be put to good use - develop the
+education system, build infrastructure, overhaul the bureaucracy and what not. The corrupt
+system is such that one things feeds the other. For instance, business houses have an interest
+in perpetrating corruption to speed up deals and to outwit competition, for which they pay
+bureaucrats and politicians -- Ra diagate i s case in point. Politicians thrive on
+bureaucrats to push the "dirty" deals and they need money from business houses to bank-roll
+election campaigns. And recently, there was some news on bad apples in the judicial system
+also! Neither is the Fourth Estate all that clean. The bo ttomline - - everyone has a vested
+interest in seeing that the corrupt system not only survives but thrives - it's a "you scratch
+my back, I'll scratch your back" kind of environment. Public response to corruption is also
+strange. We tolerate sophisticated corruption at the apex, yet make a big issue out of a
+traffic cop demanding a bribe. I recall a recent incident, when Ne eti a nd I were taking friends
+out for dinner. While taking a U-turn, we jumped lanes and were flagged down by a cop, who did not
+carry a receipt. We wanted to get away by giving him a Rs. 50 banknote, but this friend of ours
+literally threw names of top cops and terrified the young cop, insisting on a receipt which
+came an hour later! Now if a minister can accept bribes that run into billions and launder the
+money away to British Virgin Islands, is a poor cop wrong when he accepts a bribe? Remember, the
+poor cop earns barely Rs. 5,000 a month, lives in a shabby slum, stands up against the weather to
+keep the traffic going. And is throwing names not corruption? When we stand up against
+corruption, we need to ask ourselves whether do this. To weed out this self-sustaining
+system, it will take surely more than a Anna Hazare . How? Time will give us answers. But for now,
+elements in the system would go all out against Anna Hazare and however cynical I may sound, the
+à€–्à€µाà€¹िà€¶ें or wishes would remain wishes.... Posted
+by
+
+
+
+Rajeev at
+
+
+
+8:31 PM Email This BlogThis! Share to Twitter Share to Facebook
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif No comments: Links to this
+post Reactions:   Labels: Economy , India , politics
+
+Saturday, April 9, 2011
+
+
+
+
+
+
+
+The Future of Cricket?
+
+
+
+Image:
+http://4.bp.blogspot.com/-P21FaoH-wkM/TbrQ54cgL-I/AAAAAAAACSk/v6iEKSy6qmg/s320/IMG_0196.JPG
+I must admit this that it was the first time I watched a match from the first to the last ball after
+that famous quarter final encounter between the Indian and the Pakistani side during the 1996
+Wills World Cup! After gorging on Kangaroo steaks and pulping the Pakistani greens into a
+spicy chutney, the Indian team was a worthy entrant into the finals. And before the match, I
+tweeted that India deserved a good cup of Ceylon tea after the match. But we all were
+disappointed to see Sachin and Sehwag get out in the first few overs, courtesy, the killer
+blonde, Malinga . Isn't it true that our countrymen have created a major hype around these so
+called "stalwarts"? How is it that despite their calibre, they always fail to deliver when
+they are most expected to? Had this scenario played out a decade ago, the whole team would then
+have fallen like a pack of cards, but leading from the front is what mattered this time. Captain
+Dhoni 's unbeaten knock alongwith the stabilising partnership of Gautam Gambhir and Virat
+Kohli silenced the lion's roar. The rest was history! The cup was ours! Yes, I said "ours" and
+not Sachin 's. This team played for India, under India's tricolour and not for Sachin , so was it
+fair for the to be termed as Sachin 's cup (is Sachin bigger than India?), especially when his
+contribution was a big naught in the victory? But full marks to Dhoni and Gary Kirsten . It was
+Dhoni 's maturity to take all this crap about this being an individual's cup in his stride,
+obviously he knew the cup was India's. Isn't it true that the IPL was a game changer for Indian
+cricket - exposure to international players in franchisee teams helped us learn from their
+techniques, strategies, training techniques, etc. making them more confident and less
+dependent on the so-called biggies? We cannot take away the credit that is due to Lalit Modi for
+this. The celebrations that followed the cup victory were spontaneous and lusty. The streets
+in Bombay were clogged with revellers on bikes and cars, with vuvuzelas , waving the tricolour
+(I had never seen so many tricolours in one place), with bystanders enthusiastically
+cheering those on cars and bikes. The festivities went on till early in the morning. The
+spontaneous outburst of joy erupted in Delhi too, with a crowd as big as the Holy Ganga that
+flowed in and around the India Gate. And that was a great opportunity for the "First Family" of
+Indian politics to attempt to wash off all the sins of this government -- corruption and
+inaction and lethargy in this flowing Ganga of humanity!!!! This is the popularity of cricket
+in the Indian sub-continent, but it isn't the same elsewhere. Rugby is more popular in
+Australia, football is more popular than cricket in England. For cricket to be an
+commercially viable game, internationally, it has to take on soccer - today it isn't.
+Television viewership proves this. The 2010 FIFA World Cup in South Africa had a viewership of
+400 million per match, as against only 67 million for the finals of 2011 ICC World Cup. That
+speaks a lot about the global popularity of the game. That is because cricket,
+internationally, is a game of the " bada sahebs " with only 10 nations entitled to play test
+matches (and world cups), despite having 105 members - the remaining 95 "minnows" have to
+compete amongst themselves to earn their right to participate! In the long run, this
+apartheid is not good for the commercial success of the game. Let's not forget being a "minnow"
+does not mean that the teams are weak or don't have any potential, as ICC's apartheid makes it
+out to be. Sri Lanka and Zimbabwe were associate members or minnows once. Sri Lanka went on to
+win the cup in 1996, while despite the talent, cricket in Zimbabwe got messed up in the Mugabe
+tangle. What gives these 10 nations the birthright to participate in World Cups and tests,
+despite some of them pathetically performing, like say Zimbabwe, in this World Cup? Even the
+minnow, Ireland, was better than Zimbabwe this time around. Should cricket not evolve like
+football, where regional qualifiers would determine who goes into the world cup? That way the
+minnows would get exposed to the so called biggies and this would also boost the popularity of
+the game in the countries where cricket is still evolving. So if, say, Brazil has to play a
+Suriname in the Latin American qualifiers to earn a berth in the FIFA World Cup, India could do
+well to play against say Singapore or Afghanistan, or say, even Australia compete with the
+minnows of the Pacific, Papua New Guinea or Fiji to earn their respective berths in the ICC
+World Cup. The future of cricket lies in making it an inclusive game. We did win the cup, it was a
+joyous occasion, but cricket still remains the opium of the masses, the intoxicant that stops
+the nation in its tracks (some of India's biggest corporates had an unofficial half day on the
+day of the most emotional, India-Pakistan encounter). Is that not a waste of valuable
+resources? But for now, let the feel good factor last, till the next scam breaks out! And let me
+enjoy my cup of Ceylon tea! Posted by
+
+
+
+Rajeev at
+
+
+
+9:56 PM Email This BlogThis! Share to Twitter Share to Facebook
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif No comments: Links to this
+post Reactions:   Labels: Cricket , India , sport Newer Posts Older Posts Home Subscribe to:
+Posts (Atom) window.___gcfg = {'lang': 'en'};window.___gapisync = false;(function()
+{var po = document.createElement('script');po.type = 'text/javascript';po.async =
+true;po.src = 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})(); Search Engine Submission - AddMe
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png A:hover {color: red;}
+A:active {color: #a50000;} INPUT {font-family: Verdana, Helvetica, Arial;font-size:
+8pt;} SELECT {font-family: Verdana, Helvetica, Arial;font-size: 7pt;width: 270px;}
+A:link.one {text-decoration:none; color: black; } A:active.one {text-decoration:none;
+color: black; } A:visited.one {text-decoration:none; color: black; } A:hover.one
+{text-decoration:underline; color:red;} A:link.two {text-decoration:underline;
+color: black; } A:active.two {text-decoration:underline; color: black; } A:visited.two
+{text-decoration:underline; color: black; } A:hover.two {text-decoration:underline;
+color:red;} #1 {font-family: Verdana, Helvetica, Arial;font-size: 8pt;width: 150px;} #2
+{font-family: Verdana, Helvetica, Arial;font-size: 8pt;width: 270px;} #3 {font-family:
+Verdana, Helvetica, Arial;font-size: 8pt;width: 314px;} #4 {font-family: Verdana,
+Helvetica, Arial;font-size: 7pt;width: 314px;} #5 {font-family: Verdana, Helvetica,
+Arial;font-weight: bold; color:black;font-size: 9pt;} <!-- function
+helpDisplay(selection) { if (selection=="1") { alert("If you are looking for photos of a
+particular aircraft type, use this menu.\n\nYou can choose to view photos of a particular
+aircraft version or to view every aircraft type by a particular aircraft manufacturer. For
+instance, if you choose 'Airbus' in the menu you will be able to view all our photos of Airbus
+aircraft while if you choose the entry for 'Airbus A300' only that particular aircraft type
+will be displayed.\n\nThe list is far from complete, due to space constraints we have chosen
+to only include the aircraft of which we have the most photos. You will find an 'Other'
+selection as the last entry below the list of each aircraft manufacturer that includes
+aircraft not listed.\n\nAlso note that the aircraft you're looking for might not be listed
+under the manufacturer you think it would. Aircraft manufacturers are bought and merged all
+the time resulting in new names for old aircraft types. We have tried to list the aircraft under
+the manufacturer most people would assume to find them. For instance, the DC-9 is listed under
+'McDonnell Douglas', not 'Douglas' or 'Boeing'.\n\nAt the bottom of the list you will find
+entries of smaller manufacturers of which we do not have that many photos. Note that the list is
+far from complete and if you do not find the manufacturer or aircraft type you're looking for,
+use the 'Keywords field', 'Advanced Search' or 'Photo Index' features linked to lower down on
+this page."); } else if(selection=="2") { alert("If you are looking for photos of a
+particular airline, use this menu.\n\nThe airlines are listed alphabetically and only a
+subsection of airlines are included due to space constraints. If you cannot find the airline
+you're looking for, use the 'Keywords field', 'Advanced Search' or 'Photo Index' features
+linked to lower down on this page. We try to list every airline of which we have more than 20
+photos in our database. If you find an airline that we have more than 20 photos of but that isn't
+listed, do not hesitate to contact us so that we can add it.\n\nThe alphabetic separation
+lines (for instance 'C-------------------') are there to make the list easier to use. You can
+select such a separation line and our search engine will display every airline starting with
+the letter of the separation line.\n\nAt the bottom of the list you will find military entries
+(only those we have the most photos of included) as well as aircraft manufacturer colors and
+'Private', 'Untitled' and 'Unknown'."); } else if(selection=="3") { alert("If you are
+looking for photos of a particular category, use this menu. As every other menu, this one can be
+used together with other menus such as the aircraft and airline menus, to produce the required
+search results. \n\nIf you find a photo in an incorrect category, please let us know via the
+'Correct' link you will find beside each photo in our database."); } else if(selection=="4")
+{ alert("If you are looking for photos from a particular country or airport, use this
+menu.\n\nPlease note that we only list a small subset of all the countries and airports from
+where we have photos in our database. Only countries with more than 10 photos and airports with
+more than 50 photos in our database are listed. New entries are automatically added to this
+list as the database grows.\n\nThe last entry of each country list is 'Other', where you will
+find photos from other airports in that particular country."); } else if(selection=="5") {
+alert("If you have problems finding what you're looking for using the above menus or have very
+detailed requirements, the keyword field is for you.\n\nWords written in this field will be
+searched for in all database fields from photographer name and country to location,
+registration, remark field, aircraft, airline etc. Due to this fact, the strain on the server
+is rather high when using keywords and we recommend using the 'Advanced Search' or 'Photo
+Index' features linked to lower down on this page. They are more powerful most of the
+time.\n\nThe keyword field is however a quick and easy way to search our database, here's more
+detailed information on how to conduct a keyword search properly:\n\nAND is the default.
+That is, a search for Douglas and DC-3 in the Aircraft type field returns all entries that
+contain those words. QUOTES (\") allow searches for phrases. That is, a search for \"Douglas
+DC-3\" returns all entries that contain that exact phrase, with space.\n\nMINUS (-)
+eliminates words. That is, a search for Douglas and -McDonnell returns all entries that
+contain Douglas but not McDonnell. You can MINUS a phrase in QUOTES, like Canadair
+-\"Regional Jet\".\n\nThe engine is not case-sensitive.\n\nPlease note: After entering a
+value into the Keywords field, you need to choose what field to search for the keywords in. For
+instance, if your keywork is a registration number, choose Registration from the Keyword
+range menu (the pulldown menu beside the keyword field marked \"Search for...\"). If you need
+to search for your keyword in all fields, choose \"All Fields\" from the Keyword range
+menu."); } else if(selection=="6") { alert("The Range menu is for excluding either military
+or civil entries from appearing in your search result. If you only want to see civil photos,
+choose 'Civil only' and if you only want military entries choose 'Military only'.\n\nNote
+that 'Military only' includes every aircraft with a military registration (sometimes
+government and coastguard) but not 'warbird' types (civil aircraft painted in military
+colors)."); } else if(selection=="7") { alert("Limit your search to no more results than you
+really need. Our database is huge and a search through it all is hard work for our already
+overloaded database server. Thank you!"); } } function formCheck() { if
+((document.SearchEngine.keywrange.value == "") &&
+(document.SearchEngine.keywords.value != "")) { alert("Missing Keyword Range\n\nYou
+have used the Keywords field but not selected a keyword range from the pulldown menu beside the
+keyword field (marked \"Search for...\"). Please select an entry from that menu. For
+instance, if your keyword is a registration number, choose Registration from the keyword
+range menu."); return false; } } // -->
+
+Image: http://www.airliners.net/graphics/red-square.gif Aviation Photo Search Engine
+
+Image: http://www.airliners.net/graphics/red-square.gif Biggest aviation photo
+database on the 'Net Aircraft Type... [ Help ] All Aircraft ----------------------
+Aerospatiale - Aerospatiale-BAC Concorde - Other Aerospatiale Airbus - Airbus A300 --
+Airbus A300 Super Transporter - Airbus A310 - Airbus A318/A319/A320/A321 -- Airbus A318 --
+Airbus A319 -- Airbus A320 -- Airbus A321 - Airbus A330 -- Airbus A330-200 -- Airbus A330-300 -
+Airbus A340 -- Airbus A340-200 -- Airbus A340-300 -- Airbus A340-500 -- Airbus A340-600
+Antonov - Antonov An-2 - Antonov An-8 - Antonov An-12 - Antonov An-22 - Antonov An-24 / An-26 /
+An-28 - Antonov An-30 / An-32 / An-38 - Antonov An-124 Ruslan - Antonov An-225 Mriya - Antonov
+An-70 / An-72 / 74 - Other Antonov ATR - ATR ATR-42 - ATR ATR-72 BAC - BAC 111 One-Eleven - Other BAC
+Beech - Beech 18 - King Air 90 - Beech 99 Airliner/Commuter - Beech 200 Super King Air - Beech 400
+Beechjet - Beech 1900 - Beech 2000 Starship 1 - Other Beech Boeing - Boeing 377 Stratocruiser -
+Boeing 717 - Boeing 707 / 720 -- Boeing 707-100/200 -- Boeing 707-300/400 -- Boeing 720 - Boeing
+727 -- Boeing 727-100 -- Boeing 727-200 - Boeing 737 -- Boeing 737-100/200 -- Boeing
+737-300/400/500 -- Boeing 737-600/700/BBJ -- Boeing 737-800/900/BBJ2 - Boeing 747 --
+Boeing 747-100 -- Boeing 747-200 -- Boeing 747-300 -- Boeing 747-400 -- Boeing 747SP / 747SR -
+Boeing 757 -- Boeing 757-200 -- Boeing 757-300 - Boeing 767 -- Boeing 767-200 -- Boeing 767-300
+-- Boeing 767-400 - Boeing 777 -- Boeing 777-200 -- Boeing 777-300 - Boeing B-17 Flying
+Fortress - Boeing C-97 Stratofreighter - Boeing MD-10 - Other Boeing Bombardier - Bomb.
+BD-100 Challenger 300 - Bomb. BD-700 Global Express/5000 British Aerospace (BAe) -
+BAe-125/HS-125 - BAe 748 - BAe ATP - BAe Jetstream 31 / Super 31 - BAe Jetstream 41 - BAe-146/Avro
+RJ - Other British Aerospace (BAe) Canadair - Canadair CL-44 - Canadair CL-215/415 - Canadair
+CL-600 Challenger - Canadair CL-600 Regional Jet - Other Canadair Cessna - Cessna 150/152 -
+Cessna 172/175/177/182 - Cessna 180/185 Skywagon - Cessna 205/206/207 - Cessna 208 Caravan I
+- Cessna 310/320 - Cessna 336/337 Skymaster - Cessna 401/402/411 - Cessna 404/414/421 -
+Cessna 425/441 Conquest - Cessna 500/501 Citation/I/ISP - Cessna 525 CitationJet/CJ1/CJ2 -
+Cessna 550/1/2 Cit. II/SP/SII/Bravo - Cessna 560 Citation V/Ultra/Encore - Cessna 560XL
+Citation Excel - Cessna 650 Citation III/VI/VII - Cessna 750 Citation X - Other Cessna Convair
+- Convair CV-880/990 - Convair CV-240/340/440 - Convair CV-540/580/600/640/5800 - Other
+Convair Dassault - Dassault Falcon (Mystere) 20/200/XX - Dassault Falcon 50 - Dassault
+Falcon 10/100 - Dassault Falcon 900 - Dassault Falcon 2000 - Dassault Mercure - Dassault
+Rafale - Other Dassault De Havilland - De Havilland DH-104 Dove - De Havilland DH-106 Comet - De
+Havilland DH-114 Heron - De Havilland DH-82 Tiger Moth - Other De Havilland De Havilland
+Canada - De Havilland Canada DHC-2 Beaver - De Havilland Canada DHC-4 Caribou - De Havilland
+Canada DHC-6 Twin Otter - De Havilland Canada DHC-7 Dash 7 - De Havilland Canada DHC-8 Dash 8 -
+Other De Havilland Canada Dornier - Dornier 128/Do-28D Skyservant - Dornier 228 - Dornier 328
+- Other Dornier Douglas - Douglas DC-2 (C-39/42/R2D) - Douglas DC-3 (C-47/53/117/Dakota) -
+Douglas DC-4 (C-54/R5D/Skymaster) - Douglas DC-6 (C-118/R6D/Liftmaster) - Douglas DC-7 -
+Douglas DC-8 (Jet Trader/C-24) - Other Douglas Embraer - Embraer EMB-110 Bandeirante -
+Embraer EMB-120 Brasilia - Embraer ERJ-135 - Embraer ERJ-145 - Embraer 170 - Other Embraer
+Eurocopter - Eurocopter EC-120 Colibri - Eurocopter EC-135/635 - Other Eurocopter
+Fairchild - Fairchild F-27/FH-227 - Fairchild/Swearingen Merlin III - Fairchild/Sw.
+Metro/Merlin IV - Other Fairchild Fairchild Dornier - Fairchild Dornier 328JET - Fairchild
+Dornier 728 - Other Fairchild Dornier Fokker - Fokker 50/60 - Fokker 70/100 - Fokker F-27 &
+Fairchild F-27 - Fokker F-28 - Other Fokker Grumman - Grumman G-159 Gulfstream I - Grumman
+G-1159 Gulfstream II - Grumman G-64/111 Albatross (HU-16) - Other Grumman Gulfstream
+Aerospace - GA G-1159 Gulfstream III/IV/V - Other Gulfstream Aerospace Hawker Siddeley -
+Hawker Siddeley HS-125 - Hawker Siddeley Trident - Other Hawker Siddeley Ilyushin - Ilyushin
+Il-14 - Ilyushin Il-18/20/22/24/38 - Ilyushin Il-62 - Ilyushin Il-76/78/82 - Ilyushin
+Il-86/87 - Ilyushin Il-96 - Ilyushin Il-114 - Other Ilyushin Israel - Israel IAI-1126
+Galaxy/Gulfstream 200 - Other Israel Learjet - Learjet 23/24/25/28/29 - Learjet 31/35/36 -
+Learjet 45/55/60 - Other Learjet Lockheed - Lockheed 10A Electra - Lockheed Constellation -
+Lockheed L-188 Electra - Lockheed Galaxy - Lockheed C-130/L-100 Hercules - Lockheed Jetstar
+- Lockheed L-1011 TriStar - Lockheed Lodestar - Lockheed Starlifter - Other Lockheed
+McDonnell Douglas - McDonnell Douglas DC-9 - McDonnell Douglas DC-10 - McDonnell Douglas
+MD-80 - McDonnell Douglas MD-90 - McDonnell Douglas MD-11 - Other McDonnell Douglas Mil - Mil
+Mi-8/17 - Other Mil Mitsubishi - Mitsubishi MU-2 - Other Mitsubishi Piper - Piper Cub / Super
+Cup - Piper PA-23 Apache/Aztec - Piper PA-24 Comanche - Piper PA-28 Cherokee series - Piper
+PA-28R/RT Arrow - Piper PA-30/39 Twin Comanche - Piper PA-32 Cherokee Six/Lance/Saratoga -
+Piper PA-31 Navajo/Chieftain/Mojave/Cheyenne - Piper PA-34 Seneca - Piper PA-38 Tomahawk -
+Piper PA-46 Malibu - Other Piper Raytheon - Raytheon 390 Premier I - Raytheon Hawker 800/1000 -
+Other Raytheon Saab - Saab 340 - Saab 2000 - Saab 90 Scandia - Other Saab Shorts - Shorts 330 -
+Shorts 360 - Shorts Belfast - Shorts Skyvan / Skyliner - Other Shorts Sikorsky - Sikorsky S-55 /
+S-58 - Sikorsky S-61 / S-62 - Sikorsky S-76 - Other Sikorsky Sud - Sud SE-210 Caravelle - Other
+Sud Tupolev - Tupolev Tu-134 - Tupolev Tu-144 - Tupolev Tu-154 - Tupolev Tu-204 - Tupolev
+Tu-334 - Other Tupolev Vickers - Vickers Vanguard - Vickers VC-10 - Vickers Viscount - Other
+Vickers Yakovlev - Yakovlev Yak-40 - Yakovlev Yak-42 - Yakovlev Yak-142 - Other Yakovlev
+---------------------- -AASI -Aermacchi -Aero -Aero Commander -Aero Spacelines -Aeronca
+-Aerotechnik -AESL -Agusta -American -American Champion -American General -Atlas -Avia
+-Aviation Traders -Avro -BAE Systems -Beagle -Bell -Bellanca -Beriev -Bristol
+-Britten-Norman -Bucuresti -CASA -Cavalier -CCF -Champion -Chincul -Cirrus
+-Commonwealth -Corporate Jets -Curtiss -DINFIA -Enaer -Enstrom -Fairchild Hiller -FFA
+-Gippsland -Grumman American -Gulfstream American -Handley Page -Indaer Chile -Junkers
+-Kaman -Lancair -Let -Lockheed Martin -Martin -Mooney -Morane Saulnier -NAMC -Noorduyn
+-North American -North American Rockwell -Piaggio -Pilatus -PZL-Mielec -Reims -Robin
+-Rockwell -Scottish Aviation -Shaanxi -SIAI-Marchetti -Sino Swearingen -Socata -Stinson
+-Sud Aviation -Swearingen -Terravia -Tiger -VEB -VFW -Victa -Vultee -Weatherly -Zlin
+Airline... [ Help ] All Airlines A------------------------ ACES Colombia Adria Airways Aer
+Arann (Express) Aer Lingus Aer Turas Aero California Aero Continente Aero Lloyd Aerocozumel
+Aeroflot Aerolineas Argentinas Aeromar Aeromexico AeroPeru Aeropostal AeroSvit /
+Aerosweet Airlines Air 2000 Air Adriatic Air Afrique Air Alfa Air Algerie Air Aruba AirAsia
+Air Atlanta Icelandic Air Atlantique Air Austral Air Baltic Air BC Air Belgium Air Berlin
+Airborne Express Air Bosna Air Botnia AirCal Air Caledonie Air Caledonie International Air
+California Aircalin - Air Caledonie International Air Canada Air Canada Jazz Air Canada
+Tango Air Charter Air China Air Columbus Air Dolomiti Air Europa Air Europe Air Finland Air
+Florida Air France Air Freight NZ Air Greenland Air Holland Air Hong Kong Air India Air Inter
+Air Jamaica Air Lib Air Libert� Air Littoral Air Luxor Air Macau Air Madagascar Air Malta Air
+Mauritius Air Moldova Air Moldova International Air Namibia AirNet Systems Air New Zealand
+Air Nippon (ANK) Air Niugini Air North Air Nostrum Air Nova Air One Air Ontario Air OPS Air
+Pacific Air Philippines Air Plus Comet Air Portugal (TAP) Air Resorts Air Seychelles Air
+Sicilia Air Spray Air Tahiti Nui Air Toulouse Airtours International AirTran Air Transat Air
+Transport International - ATI Air UK Air Ukraine Air Wales Air Wisconsin Airzena Georgian
+Airlines Air Zimbabwe AJT Air International Alaska Airlines Alia - Royal Jordanian Airline
+Alitalia All Canada Express All Nippon Airways (ANA) Allegheny Allegiant Air Allegro Aloha
+Airlines AMC Aviation America West Airlines America West Express American Airlines
+American Connection American Eagle American Int'l Airways (Kalitta) American Trans Air
+(ATA) Ameriflight Ansett Australia Antillean Airlines (ALM) AOM French Airlines Apple
+Vacations Arkia Armenian Airlines Arrow Air ASA - Atlantic Southeast Airlines Asiana
+Airlines Aspen Atlantic Coast Airlines Atlantic Coast Jet Atlas Air Aurigny Air Services
+Austral Lineas Aereas Australian Air Express Australian Airlines Austrian Airlines Avensa
+Aviaco Aviacsa Avianca Avianova Aviateca Aviogenex Avioimpex Azzurra Air
+B------------------------ Bahamasair Balair Balkan Balkan Holidays Air BAX Global BCM
+Airlines Belair Belavia Biegert Aviation Biman Bangladesh Blue Scandinavia Bmibaby BMI
+British Midland BMI Regional BOAC Braathens Braniff Bristow Helicopters Brit Air Britannia
+Airways British Air Ferries British Airtours British Airways British Caledonian British
+European British Island Airways British Midland Airways British Midland Commuter British
+World Airlines Burlington Air Express Business Express (Airlines) - BEX Buzz BWIA
+C------------------------ CAAC CAL - Cargo Air Lines Caledonian Cameroon Airlines Canada
+3000 Canadian Airlines CanJet Airlines Cape Air Capital Airlines Capital Cargo
+International Airlines Capitol Cargolux Carnival Casino Express Catalina Flying Boats
+Cathay Pacific Airways Cayman Airways Champion Air Challenge Air Cargo (CAC) Chautauqua
+Airlines CHC Helicopters Chicago Express Airlines (ATA Connection) China Airlines China
+Eastern Airlines China Northwest Airlines China Southern Airlines China Southwest
+Airlines CityJet CityBird Classic Air Comair Combs Freightair Conair Condor Continental
+Airlines Continental Express Continental Micronesia Copa Airlines Corsair Corse Air
+International CP Air Croatia Airlines Crossair Cruzeiro CTA Cubana Cyprus Airways Czech
+Airlines (CSA) D------------------------ Dan-Air DAS Air Cargo Debonair Airways Delsey
+Airlines Delta Air Lines Delta Connection Delta Shuttle Delta Express Denver Ports Of Call
+DETA - Linhas Aereas de Mocambique Deutsche BA DHL Cargo Dominicana Dragonair DutchBird
+E------------------------ Eastern Airlines Eastwind Airlines EasyJet Airlines
+Ecuatoriana Edelweiss Air Egypt Air El Al Israel Airlines Emery Worldwide Emirates Airlines
+Estonian Air Ethiopian Airlines Eurofly EuroLOT European Aircharter EuroWings EVA Air
+Evergreen International Excel Airways Express One F------------------------ Falcon Air
+Falcon Air Express Falcon Aviation Far Eastern Air Transport (FAT) Faucett Federal Express
+(FedEx) Fine Air Finnair First Air Flight West Flightline Flybe - British European Flying
+Finn Airways Flying Tigers Formosa Airlines Freedom Air Freedom Airlines Frontier Futura
+G------------------------ Garuda Indonesia Gemini Air Cargo Germania Germanwings German
+Wings Ghana Airways Global International GO Fly Gol Transportes Aereos Golden Air Great
+China Airlines Great Lakes Airlines Great Plains Airlines Greenlandair - Gronlandsfly
+Guernsey Airlines Gulf Air Guyana Airways H------------------------ Hainan Airlines
+Hamburg Airlines Hamburg International Hapag-Lloyd Hapag-Lloyd Express Harbour Air
+Harlequin Air Hawaiian Air Hawdon Operations HeavyLift HeavyLift - Volga-Dnepr Helios
+Airways Hispania HMY Airways Hola Airlines Horizon Air Horizon Airlines Hughes Airwest
+I------------------------ Iberia Iberia Regional Iberworld Icelandair Impulse Airlines
+Indian Airlines Interflug InterSky Iran Air Iraqi Airways Israir Istanbul Airlines
+J------------------------ JAL Express - JEX JALways Japan Air Charter - JAZ Japan Air
+Commuter (JAC) Japan Air System (JAS) Japan Airlines - JAL Japan Asia Airways - JAA Japan
+TransOcean Air (JTA) Japan Universal System Transport - JUST JAT Airways Jersey European
+Airways Jet2 Jet Airways JetBlue Airways Jetmagic Jetsgo JMC Air Jordanian World Airways -
+JWA K------------------------ K&K Aircraft Kampuchea Airlines Kelowna Flightcraft
+Kendell Airlines Kenya Airways Kitty Hawk KIWI International Airlines KLM Asia KLM - Royal
+Dutch Airlines KLM UK Korean Air Kras Air KTHY - Kibris T�rk H.Y. / Cyprus Turkish AL. Kuwait
+Airways L------------------------ LACSA LAM - Linhas Aereas de Mocambique Lan Chile Lao
+Aviation LAPA Lineas Aereas Lauda Air Legend Airlines Leisure Libyan Arab Airlines
+Linjeflyg Lithuanian Airlines Lloyd Aereo Boliviano Loganair LOT - Polish Airlines /
+Polskie Linie Lotnicze LTE International Airways LTU International Airways Lufthansa
+Luxair M------------------------ Macedonian Airlines Maersk Air Mahalo Air Mahan Air
+Malaysia Airlines Malev - Hungarian Airlines Malm� Aviation Mandarin Airlines Markair
+Martinair MAT - Macedonian Airlines MD Airlines Meridiana Mesa Airlines Mesaba Airlines
+Mexicana Miami Air Middle East Airlines (MEA) Midway Midwest Airlines Midwest Express
+Airlines Midwest Express Connection Mohawk Airlines Moldavian Airlines Monarch Airlines
+Montenegro Airlines Mount Cook Airline(s) MuseAir MyTravel Airways
+N------------------------ Nationair National Airlines New York Air Nigeria Airways
+Nippon Cargo Airlines (NCA) Nordic East Nordic European Airlines North American Airlines
+North Central Airlines Northwest Airlines Northwest Orient Norwegian Air Shuttle Novair
+O------------------------ Olympic Airways Omni Air International Onur Air Orient Thai
+Airlines Orion Airways Ozark P------------------------ Pacific Air Express Pakistan
+Int'l Airlines (PIA) Palmair Pan Am Pegasus Airlines PEOPLExpress PGA Airlines Philippine
+Airlines Piedmont Airlines Planet Airways Pluna Polar Air Cargo Polet Cargo Airlines
+Polynesian Airlines Portugalia Premiair Pro Air Proteus Airlines Provincetown-Boston
+(PBA) PSA Pulkovo Airlines Q------------------------ Qantas QantasLink Qatar Airways
+R------------------------ Regional Airlines Reno Air Republic Airlines Rheintalflug
+Rich International Rio-Sul Royal Air Maroc (RAM) Royal Airlines Royal Brunei Airlines Royal
+Jordanian Airline Royal Tongan Airlines Ryanair Ryan International Airlines
+S------------------------ Sabena Saudi Arabian Airlines Scanair Scandinavian Airlines
+(SAS) Schreiner Airways Servivensa Shanghai Airlines Siberia Airlines Sierra Pacific
+SilkAir Singapore Airlines SkyEurope Airlines SkyNet Airlines Skynet Asia Airways
+Skyservice Skyway Airlines Skyways Skywest Airlines SN Brussels Airlines Sobelair Sol Air
+Song South African Airways SouthCare Southeast Airlines Southern Air Transport Southern
+Winds Southwest Airlines Spanair Spantax Spirit Airlines SriLankan Airlines (Air Lanka)
+STAR Europe Sterling Airways (European) Styrian Spirit Sun Country Airlines Sun Pacific
+SunTrips Sunways Swiftair Swissair Swissair Express Swiss International Air Lines Syrian
+Air T------------------------ TACA TAESA TAM Tampa Colombia Tarom Team Lufthansa Texas
+International Airlines Thai Airways Thomas Cook Airlines Thomas Cook (Condor) TNT Tower Air
+Tradewinds Airlines Transaer Transaero Transamerica TransAsia Airways Trans Asian
+Airlines - TAA Trans Australia Airlines - TAA Transavia Airlines TransBrasil Trans Canada
+Airlines Trans Continental Trans European Airways (TEA) Trans Global Vacations Transjet
+Airways Translift Trans States Airlines Transwede Airways Trans World Airlines (TWA) Trans
+World Express TunisAir Turkish Airlines Tyrolean Airways U------------------------
+Ukraine International Airlines UNI Air Unimed Air United Airlines United Express United
+Nations United Parcel Service (UPS) Universal Airlines Ural Airlines US Airways (USAir) US
+Postal Service USA 3000 Airlines UTA - Union de Transports Aeriens Uzbekistan Airways
+V------------------------ Valujet Vanguard Airlines Varig VASP VG Airlines VIA - Air VIA
+Bulgarian Airways Viasa Vietnam Airlines Virgin Atlantic Virgin Blue Virgin Express Virgin
+Sun Viva Air VLM Airlines Volar Airlines Volare Aircompany Volare Airlines Volga-Dnepr
+Airlines W------------------------ Wardair Canada Western Airlines Western Pacific
+Westjet WinAir World Airways Worldways Canada X------------------------ Xiamen Airlines
+Y------------------------ Yemenia Yes - Linhas Aereas Charter Yugoslav Airlines (JAT)
+Z------------------------ Zantop International Airlines Zip Air
+------------------------- Australia - Air Force Australia - Army Australia - Navy Canada -
+Air Force Canada - Navy Chile - Air Force Finland - Air Force France - Air Force Germany - Air
+Force Japan - Air Force Russia - Air Force South Africa - Air Force Spain - Air Force Sweden - Air
+Force Turkey - Air Force UK - Air Force UK - Army UK - Marines UK - Navy USA - Air Force USA - Army USA -
+Coast Guard USA - Marines USA - Navy Yugoslavia - Air Force ------------------------- Airbus
+Industrie Antonov Design Bureau Boeing Federal Aviation Admin (FAA) McDonnell Douglas NASA
+------------------------- Unknown Untitled Private Country / Airport... [ Help ] All
+Countries / Airports ------------------------- Note: only a selection of countries &
+airports is listed ------------------------- Afghanistan Algeria Angola Antarctica
+Argentina - Buenos Aires - Aeroparque Jorge Newbery (AEP / SABE) - Buenos Aires - Ministro
+Pistarini (Ezeiza) (EZE / SAEZ) - Ushuaia - Malvinas Argentinas (Islas Malvinas) (USH / SAWH)
+- Other airports in Argentina Aruba Australia - Other airports in Australia Australia -
+Australian Capital Territory Australia - New South Wales - Newcastle - Williamtown (NTL /
+YWLM) - Port Macquarie - Scone (NSO / YSCO) - Sydney - Bankstown (BWU / YSBK) - Sydney - Kingsford
+Smith Int. (Mascot) (SYD / YSSY) - Other airports in Australia - New South Wales Australia -
+Northern Territory Australia - Queensland - Archerfield (YBAF) - Brisbane (- Eagle Farm)
+(BNE / YBBN) - Cairns (CNS / YBCS) - Other airports in Australia - Queensland Australia - South
+Australia - Adelaide (ADL / YPAD) - Other airports in Australia - South Australia Australia -
+Tasmania Australia - Victoria - Avalon (Geelong) (AVV / YMAV) - Melbourne - Essendon (MEB /
+YMEN) - Melbourne - Tullamarine (MEL / YMML) - Moorabbin (MBW / YMMB) - Other airports in
+Australia - Victoria Australia - Western Australia - Jandakot (JAD / YPJT) - Perth (PER / YPPH)
+- Other airports in Australia - Western Australia Austria - Aigen im Ennstal (LOXA) - Graz -
+Thalerhof (GRZ / LOWG / LOXG) - Innsbruck - Kranebitten (INN / LOWI) - Linz - Horsching (LNZ /
+LOWL / LOXL) - Salzburg - W.A. Mozart (Maxglan) (SZG / LOWS) - Tulln - Langenlebarn (LOXT) -
+Vienna - Schwechat (VIE / LOWW) - Zeltweg (LOXZ) - Other airports in Austria Bahamas Barbados
+Belgium - Antwerp - Deurne (ANR / EBAW) - Brussels - National (Zaventem) / Melsbroek (BRU / EBBR
+/ EBMB) - Charleroi - Brussels South (Gosselies) (CRL / EBCI) - Coxyde (EBFN) - Florennes
+(EBFS) - Kleine Brogel (EBBL) - Liege (- Bierset) (LGG / EBLG) - Ostend (OST / EBOS) - Schaffen -
+Diest (EBDT) - Verviers / Theux (- Laboru) (EBTX) - Other airports in Belgium Belize Bolivia
+Bosnia - Herzegovina Brazil - Brasilia - Int. (Presidente Juscelino Kubitschek) (BSB / SBBR)
+- Curitiba - Afonso Pena (CWB / SBCT) - Curitiba - Bacacheri (BFH / SBBI) - Florianopolis -
+Hercilio Luz (FLN / SBFL) - Ilheus (- Jorge Amado) (IOS / SBIL) - Londrina (LDB / SBLO) - Maringa -
+Regional (MGF / SBMG) - Porto Alegre - Salgado Filho (POA / SBPA) - Rio de Janeiro - Galeao Int.
+(Antonio Carlos Jobim) (GIG / SBGL) - Rio de Janeiro - Santos Dumont (SDU / SBRJ) - Salvador -
+Int. / Deputado Luis Eduardo Magalhaes (Dois de Julho) (SSA / SBSV) - Sao Paulo - Congonhas (CGH
+/ SBSP) - Sao Paulo - Guarulhos Int. (Cumbica) (GRU / SBGR) - Sorocaba (SOD / SDCO) - Other
+airports in Brazil Brunei - Brunei - Int. (Bandar Seri Begawan) (BWN / WBSB) - Other airports in
+Brunei Bulgaria Burkina Faso Cambodia Canada Canada - Alberta - Calgary - Int. (YYC / CYYC) -
+Edmonton - City Centre (Municipal / Blatchford Field) (YXD / CYXD) - Edmonton - Int. (YEG /
+CYEG) - Other airports in Canada - Alberta Canada - British Columbia - Abbotsford (YXX / CYXX) -
+Vancouver - Int. (YVR / CYVR) - Victoria Int. (YYJ) - Other airports in Canada - British
+Columbia Canada - Manitoba - Winnipeg - Int. (YWG / CYWG) - Other airports in Canada - Manitoba
+Canada - Newfoundland Canada - Northwest Territories Canada - Nova Scotia Canada - Nunavut
+Canada - Ontario - CFB Trenton - Hamilton (YHM / CYHM) - London (YXU / CYXU) - Ottawa -
+Macdonald-Cartier Int. / Uplands (YOW / CYOW / CUUP) - Ottawa - Rockcliffe (YRO / CYRO) -
+Toronto - City Centre (Toronto Island) (YTZ / CYTZ) - Toronto - Lester B. Pearson Int. (Malton)
+(YYZ / CYYZ) - Other airports in Canada - Ontario Canada - Quebec - Lac � la Tortue CSL3/CSU7 -
+Lachute (SE4/CSE4) - Montreal - Dorval Int. (YUL / CYUL) - Montreal - Mirabel Int. (YMX / CYMX) -
+Montreal - St. Hubert (YHU / CYHU) - Quebec - Jean Lesage Int. (YQB / CYQB) - Sherbrooke
+(YSC/CYSC) - Trois-Rivieres (YRQ / CYRQ) - Other airports in Canada - Quebec Canada -
+Saskatchewan Cayman Islands - Georgetown Owen Roberts Int. Airport (GCM/MWCR) - Other
+airports in Cayman Islands Chile - Santiago - Arturo Merino Benitez (Pudahuel) (SCL / SCEL) -
+Santiago - Los Cerrillos (ULC / SCTI) - Other airports in Chile China - Beijing - Capital (PEK /
+ZBAA) - Chongqing-Jiangbei (CKG/ZUCK) - Guangzhou - Baiyun (CAN / ZGGG) - Shanghai - Hongqiao
+(SHA) - Shenzhen (SZX) - Shenzhen - Baoan (SZX / ZGSZ) - Zhuhai Sanzao (ZUH / ZGSD) - Other
+airports in China China - Hong Kong - Hong Kong - Chek Lap Kok Int. (HKG / VHHH) - Hong Kong - Kai Tak
+Int. (HKG / VHHH) (Closed) - Other airports in China - Hong Kong China - Macau - Macau - Int. (MFM /
+VMMC) - Other airports in China - Macau Colombia - Santa Fe de Bogota (Eldorado) (BOG / SKBO) -
+Other airports in Colombia Cook Islands Costa Rica Croatia - Zagreb - Pleso (ZAG / LDZA) - Other
+airports in Croatia Cuba Cyprus Czech Republic - Hradec Kralove (LKHK) - Prague - Ruzyne (PRG /
+LKPR) - Other airports in Czech Republic Denmark - Aalborg (AAL / EKYT) - Billund (BLL / EKBI) -
+Copenhagen - Kastrup (CPH / EKCH) - Copenhagen - Roskilde (Tune) (RKE / EKRK) - Karup (KRP /
+EKKA) - Stauning (STA / EKVJ) - Vaerlose (EKVL) - Other airports in Denmark Dominican Republic
+- Punta Cana (PUJ / MDPC) - Santo Domingo (- Las Americas Int. / Jose Francisco Pena Gomez) (SDQ /
+MDSD) - Other airports in Dominican Republic Ecuador Egypt El Salvador Estonia Ethiopia
+Falkland Islands Fiji Finland - Helsinki - Malmi (HEM / EFHF) - Helsinki - Vantaa (HEL / EFHK) -
+Ivalo (IVL / EFIV) - Jyvaskyla (Tikkakoski - Luonetjarvi) (JYV / EFJY) - Kauhava - Kauhava Ab
+(KAU / EFKA) - Kuopio (- Rissala) (KUO / EFKU) - Oulu (OUL / EFOU) - Tampere - Pirkkala (TMP / EFTP)
+- Turku (TKU / EFTU) - Other airports in Finland France - Basle / Mulhouse - Euro (BSL / MLH / LFSB)
+- Brest - Guipavas (BES / LFRB) - Cambrai - Epinoy (XCB / LFQI) - Chambery / Aix-les-Bains -
+Voglans (CMF / LFLB) - Chateauroux - Deols (Marcel Dassault) (CHR / LFLX) - Dinard / St. Malo -
+Pleurtuit (DNR / LFRD) - Gap - Tallard (GAT / LFNA) - La Ferte - Alais (LFFQ) - Lyons - St. Exupery
+(Satolas) (LYS / LFLL) - Marseilles - Provence (Marignane) (MRS / LFML) - Nancy - Essey (ENC /
+LFSN) - Nantes - Atlantique (Chateau Bougon) (NTE / LFRS) - Nice - Cote d'Azur (NCE / LFMN) -
+Paris - Charles de Gaulle (Roissy) (CDG / LFPG) - Paris - Issy-les-Moulineaux (Heliport de
+Paris) (JDP / LFPI) - Paris - Le Bourget (LBG / LFPB) - Paris - Orly (ORY / LFPO) - Strasbourg -
+Entzheim (SXB / LFST) - Toulouse - Blagnac (TLS / LFBO) - Toussus-le-Noble (TNF / LFPN) - Other
+airports in France French Polynesia Gambia Germany - Augsburg (- Muhlhausen) (AGB / EDMA) -
+Berlin - Gatow (GWW / EDUG) (closed) - Berlin - Schonefeld (SXF / EDDB) - Berlin - Tegel (TXL /
+EDDT) - Berlin - Tempelhof (THF / EDDI) - Bremen (- Neuenland) (BRE / EDDW) - Cologne / Bonn (-
+Konrad Adenauer / Wahn) (CGN / EDDK) - Dortmund - Wickede (DTM / EDLW) - Dresden (- Klotzsche)
+(DRS / EDDC) - Dusseldorf - Int. (Rhein-Ruhr / Lohausen) (DUS / EDDL) - Frankfurt - Hahn (HHN /
+EDFH) - Frankfurt - Main (Rhein-Main AFB) (FRA / FRF / EDDF) - Freiburg im Breisgau (QFB / EDTF) -
+Friedrichshafen (- Lowenthal) (FDH / EDNY) - Hamburg (- Fuhlsbuttel) (HAM / EDDH) - Hamburg -
+Finkenwerder (XFW / EDHI) - Hanover (- Langenhagen) (HAJ / EDDV) - In Hermeskeil - Ingolstadt -
+Manching (ZNQ / ETSI) - Jesenwang (EDMJ) - Karlsruhe - Baden-Baden (Sollingen) (FKB / EDSB) -
+Konigsdorf - Landshut (- Ellermuhle) (QLG / EDML) - Munich (- Franz Josef Strauss) (MUC / EDDM)
+- Munich - Riem (MUC / EDDM) (closed) - Munster / Osnabruck (- Greven) (FMO / EDDG) - Norvenich
+(QOE / ETNN) - Nuremberg (NUE / EDDN) - Oberschleissheim (EDNX / EDMX) - Rostock - Laage (RLG /
+ETNL) - Schmidgaden (EDPQ) - Stuttgart (- Echterdingen) (STR / EDDS) - Other airports in
+Germany Ghana Gibraltar Greece - Athens (- Hellinikon) (ATH / LGAT) - Athens - Eleftherios
+Venizelos (Spata) (ATH / LGAV) - Heraklion - Nikos Kazantzakis (HER / LGIR) - Kerkyra (Corfu) -
+Ioannis Kapodistrias (CFU / LGKR) - Rhodes - Diagoras (Paradisi) (RHO / LGRP) - Other airports
+in Greece Greenland Guadeloupe Guam Guatemala Guyana Honduras Hungary - Budaors (LHBS) -
+Budapest - Ferihegy (BUD / LHBP) - Other airports in Hungary Iceland - Keflavik (KEF) -
+Reykjavik (REK) - Other airports in Iceland India Indonesia - Denpasar / Bali - Ngurah Rai Int.
+(DPS / WRRR) - Jakarta - Int. / Soekarno-Hatta (CGK / WIII) - Pekanbaru - Bandar Udara Sultan
+Syarif Kasim II (PKU / WIBB) - Other airports in Indonesia International Airspace Iran
+Ireland - Dublin (- Collinstown) (DUB / EIDW) - Shannon (SNN / EINN) - Other airports in Ireland
+Israel - Herzliyya (LLHZ) - Megiddo (LLMG) - Tel Aviv (-Jaffa) - Ben Gurion (Lod) (TLV / LLBG) -
+Other airports in Israel Italy - Albenga (Villanova d'Albenga) (- Clemente Panero) (ALL /
+LIMG) - Aviano (- Pagliano e Gori) (AVB / LIPA) - Milan - Linate (LIN / LIML) - Milan - Malpensa
+(MXP / LIMC) - Rivolto (LIPI) - Rome - Fiumicino (Leonardo da Vinci) (FCO / LIRF) - Verona -
+Villafranca (Valerio Catullo) (VRN / LIPX) - Other airports in Italy Jamaica - Montego Bay -
+Donald Sangster Int. (MBJ / MKJS) - Other airports in Jamaica Japan - Fukuoka (Itazuke) (FUK /
+RJFF) - Nagoya - Komaki (NGO / RJNN) - Osaka - Itami Int. (ITM / RJOO) - Osaka - Kansai Int. (KIX /
+RJBB) - Tokyo - Haneda Int. (HND / RJTT) - Tokyo - New Tokyo Int. / Narita (NRT / RJAA) - Other
+airports in Japan Kenya Kosovo Laos Latvia - Riga - Int. (Skulte) (RIX / EVRA) - Other airports
+in Latvia Lebanon Lithuania Luxembourg - Luxembourg (- Findel) (LUX / ELLX) - Other airports
+in Luxembourg Macedonia Malaysia - Kuala Lumpur - Int. (Sepang) (KUL / WMKK) - Penang - Bayan
+Lepas Int. (PEN/WMKP) - Other airports in Malaysia Maldives Malta - Malta - Luqa (MLA / LMML) -
+Other airports in Malta Mauritania Mauritius Mexico - Acapulco - General Juan Alvarez Int'l
+(ACA) - Cancun Int. (CUN) - Mexico City - Benito Juarez Int. (MEX / MMMX) - Other airports in
+Mexico Monaco Mongolia Morocco Myanmar Namibia Nepal - Kathmandu - Tribhuvan Int. (KTM /
+VNKT) - Other airports in Nepal Netherlands - Amsterdam - Schiphol (AMS / EHAM) - Breda -
+Gilze-Rijen (GLZ / EHGR) - Eindhoven (- Welschap) (EIN / EHEH) - Enschede - Twenthe (ENS / EHTW)
+- Hoeven - Seppe (EHSE) - Leeuwarden (LWR / EHLW) - Lelystad (LEY / EHLE) - Maastricht / Aachen (-
+Beek / Zuid Limburg) (MST / EHBK) - Rotterdam (- Zestienhoven) (RTM / EHRD) - Uden - Volkel (UDE /
+EHVK) - Other airports in Netherlands Netherlands Antilles - Curacao - Hato (CUR / TNCC) - St.
+Maarten - Princess Juliana (SXM / TNCM) - Other airports in Netherlands Antilles New Zealand -
+Ardmore (AMZ / NZAR) - Auckland - Int. (AKL / NZAA) - Christchurch - Int. (CHC / NZCH) - Hamilton
+(HLZ / NZHN) - Ohakea (OHA / NZOH) - Wanaka (WKA / NZWF) - Wellington - Int. (WLG / NZWN) - Other
+airports in New Zealand Nicaragua Nigeria Northern Mariana Islands Norway - Bergen -
+Flesland (BGO / ENBR) - Oslo - Fornebu (FBU / ENFB) (closed) - Oslo - Gardermoen (OSL / ENGM) -
+Stavanger - Sola (SVG / ENZV) - Stord - Sorstokken (SRP / ENSO) - Trondheim - Vaernes (TRD / ENVA)
+- Other airports in Norway Oman Pakistan Panama - Panama City - Tocumen Int. (PTY / MPTO) -
+Panama City - Tocumen Int. Airport (PTY / MPTO) - Other airports in Panama Paraguay - Asuncion -
+Silvio Pettirossi (Presidente Stroessner) (ASU / SGAS) - Other airports in Paraguay Peru -
+Lima - Jorge Chavez Int'l (LIM) - Other airports in Peru Philippines - Manila - Ninoy Aquino
+Int. (MNL / RPLL) - Other airports in Philippines Poland - Gdansk - Rebiechowo (GDN / EPGD) -
+Goraszka (EPGO) - Krakow - Balice John Paul II Int. (KRK / EPKK) - Krakow - Rakowice-Czyzyny
+(closed) - Poznan - Lawica (POZ / EPPO) - Radom - Sadkow (EPRA) - Warsaw - Okecie (WAW / EPWA) -
+Warsaw - Okecie / Frederic Chopin (WAW / EPWA) - Wroclaw - Strachowice (WRO / EPWR) - Other
+airports in Poland Portugal - Beja (BA11) (LPBJ) - Faro (FAO / LPFR) - Funchal / Madeira (- Santa
+Cruz) (FNC / LPMA) - Lisbon (- Portela de Sacavem) (LIS / LPPT) - Oporto (- Francisco sa
+Carneiro) (OPO / LPPR) - Other airports in Portugal Puerto Rico - Aguadilla - Rafael Hernandez
+(BQN / TJBQ) - San Juan - Luis Munoz Marin Int. (SJU / TJSJ) - Other airports in Puerto Rico
+Reunion Romania Russia - Monino - Moscow - Domodedovo (DME / UUDD) - Moscow - Sheremetyevo (SVO
+/ UUEE) - Moscow - Vnukovo (VKO / UUWW) - Moscow - Zhukovsky (Ramenskoye) (UUBW) -
+Moscow-Myachkovo - St. Petersburg (Leningrad) - Pulkovo (LED / ULLI) - Other airports in
+Russia Saudi Arabia Senegal Serbia and Montenegro - Belgrade (- Surcin) (BEG / LYBE) - Other
+airports in Serbia and Montenegro Seychelles Singapore - Singapore - Changi (SIN / WSSS) -
+Other airports in Singapore Slovakia - Bratislava - M.R. Stefanik (Ivanka) (BTS / LZIB) -
+Other airports in Slovakia Slovenia - Ljubljana (- Brnik) (LJU / LJLJ) - Other airports in
+Slovenia South Africa - Cape Town - Int. (D.F. Malan) (CPT / FACT) - Johannesburg - Int. (Jan
+Smuts) (JNB / FAJS) - Other airports in South Africa South Korea - Seoul - Kimpo Int. (K-14) (GMP
+/ RKSS) - Other airports in South Korea Spain - Alicante (- El Altet) (ALC / LEAL) - Barcelona (-
+El Prat) (BCN / LEBL) - Bilbao (- Sondica) (BIO / LEBB) - Gerona - Costa Brava (GRO / LEGE) - Gran
+Canaria (- Las Palmas / Gando) (LPA / GCLP) - Ibiza (IBZ / LEIB) - Lanzarote (- Arrecife) (ACE /
+GCRR) - Madrid - Barajas (MAD / LEMD) - Madrid - Cuatro Vientos (LECU / LEVS) - Madrid - Torrejon
+(TOJ / LETO) - Malaga (AGP / LEMG) - Menorca (- Mahon) (MAH / LEMH) - Palma de Mallorca (- Son San
+Juan) (PMI / LEPA / LESJ) - Sabadell (QSA / LELL) - Santiago (de Compostela - Labacolla) (SCQ /
+LEST) - Seville (- San Pablo) (SVQ / LEZL) - Tenerife Norte - Los Rodeos (TFN / GCXO) - Tenerife
+Sur - Reina Sofia (TFS / GCTS) - Vigo (VGO / LEVX) - Other airports in Spain Sri Lanka St. Lucia
+Suriname Swaziland Sweden - Gothenburg - Landvetter (GOT / ESGG) - Malmo - Sturup (MMX / ESMS) -
+Nyk�ping Brandholmen - Orebro - Bofors (ORB / ESOE) - Stockholm - Arlanda (ARN / ESSA) -
+Stockholm - Barkarby (ESKB) - Stockholm - Bromma (BMA / ESSB) - �rebro Gustavsvik - Other
+airports in Sweden Switzerland - Altenrhein (St. Gallen / Rheineck) (ACH / LSZR) - Bern - Belp
+(Belpmoos) (BRN / LSZB) - Buochs (Stans) (LSMU) - Dubendorf (LSMD) - Geneva - Int. (Cointrin)
+(GVA / LSGG) - Lugano (- Agno) (LUG / LSZA) - Mollis (LSMF) - Payerne (LSMP) - Samedan (St.
+Moritz) - Oberengadin (SMV / LSZS) - Sion (- Sitten) (SIR / LSGS / LSMS) - Triengen (LSPN) -
+Zurich (- Kloten) (ZRH / LSZH) - Other airports in Switzerland Taiwan - Kaohsiung - Int. (KHH /
+RCKH) - Taipei - Chiang Kai Shek Int. (TPE / RCTP) - Taipei - Sung Shan (TSA / RCSS) - Other
+airports in Taiwan Tanzania Thailand - Bangkok - Int. (Don Muang) (BKK / VTBD) - Phuket (HKT /
+VTSP) - Other airports in Thailand Trinidad and Tobago - Port of Spain/Trinidad - Piarco Int'l
+(POS) - Scarborough/Tobago - Crown Point (TAB) - Other airports in Trinidad and Tobago
+Tunisia Turkey - Istanbul - Ataturk (Yesilkoy) (IST / LTBA) - Other airports in Turkey Uganda
+UK - England - Alconbury (AYH / EGWZ) (closed) - Biggin Hill (BQH / EGKB) - Birmingham - Int.
+(Elmdon) (BHX / EGBB) - Boscombe Down (EGDM) - Bournemouth - Int. (Hurn) (BOH / EGHH) - Bristol -
+Filton (FZO / EGTG) - Bristol - Lulsgate (BRS / EGGD) - Chichester - Goodwood (EGHR) -
+Coltishall (CLF / EGYC) - Compton Abbas (EGHA) - Cosford (EGWC) - Cottesmore (Oakham) (OKH /
+EGXJ) - Coventry - Baginton (CVT / EGBE) - Cranfield (EGTC) - Duxford (QFO / EGSU) - East
+Midlands (Nottingham) - Castle Donington (EMA / EGNX) - Fairford (FFD / EGVA) - Farnborough
+(FAB / EGLF) - Greenham Common (EGVI) (closed) - In Southampton - Kemble (EGBP) - Lasham (QLA /
+EGHL) - Leeds / Bradford - Yeadon (LBA / EGNM) - Liverpool - John Lennon (Speke) (LPL / EGGP) -
+London - City (LCY / EGLC) - London - Gatwick (LGW / EGKK) - London - Heathrow (LHR / EGLL) - London
+- Luton (LTN / EGGW) - London - Stansted (STN / EGSS) - Manchester - Int. (Ringway) (MAN / EGCC) -
+Manston - Kent Int. (MSE / EGMH / EGUM) - Middle Wallop (EGVP) - Mildenhall (MHZ / GXH / EGUN) -
+Newcastle - Woolsington (NCL / EGNT) - Old Sarum (EGLS) - Old Warden - Biggleswade - Popham
+(EGHP) - Rochester (RCS / EGTO) - Shoreham (ESH / EGKA) - Southampton - Eastleigh (SOU / EGHI) -
+Southend - Rochford (SEN / EGMC) - Teesside - Int. (Middleton St. George) (MME / EGNV) -
+Turweston (EGBT) - Waddington (WTN / EGXW) - Wroughton (EGDT) - Other airports in UK - England
+UK - Guernsey - Guernsey (GCI / EGJB) - Other airports in UK - Guernsey UK - Jersey - Jersey (-
+States) (JER / EGJJ) - Other airports in UK - Jersey UK - Northern Ireland UK - Scotland -
+Aberdeen - Dyce (ABZ / EGPD) - Edinburgh - Turnhouse (EDI / EGPH) - Glasgow - Int. (Abbotsinch)
+(GLA / EGPF) - Glasgow - Prestwick (PIK / EGPK) - Leuchars (St. Andrews) (ADX / EGQL) - Other
+airports in UK - Scotland UK - Wales - Cardiff - Wales (Rhoose) (CWL / EGFF) - Other airports in UK
+- Wales Ukraine United Arab Emirates - Dubai - Int. (DXB / OMDB) - Sharjah - Int. (SHJ / OMSJ) -
+Other airports in United Arab Emirates Uruguay US Virgin Islands USA USA - Alabama -
+Birmingham - Int. (BHM / KBHM) - Huntsville - Int. / Carl T Jones Field (HSV / KHSV) - Other
+airports in USA - Alabama USA - Alaska - Anchorage - Elmendorf AFB (EDF / PAED) - Anchorage - Lake
+Hood Strip / Seaplane (LHD / Z41) - Anchorage - Merrill Field (MRI / PAMR) - Anchorage - Ted
+Stevens Int. (ANC / PANC) - Fairbanks - Int. (FAI / PAFA) - Other airports in USA - Alaska USA -
+Arizona - Chandler - Memorial Airfield (34AZ) - Goodyear - Phoenix / Goodyear (Litchfield
+Municipal) (GYR) - Grand Canyon - National Park (GCN / KGCN) - Kingman (IGM) - Marana (Tucson) -
+Northwest Regional (Avra Valley) (AVW / AVQ) - Marana - Pinal Airpark (Silver Bell AHP / AFB)
+(MZJ) - Mesa - Falcon Field (MSC / FFZ) - Phoenix (Chandler) - Williams Gateway (AFB) (CHD / IWA /
+KIWA) - Phoenix - Deer Valley (Municipal) (DVT) - Phoenix - Sky Harbor Int. (PHX / KPHX) -
+Scottsdale (- Municipal) (SCF / SDL) - Tucson - Davis-Monthan AFB (DMA / KDMA) - Tucson - Int.
+(TUS / KTUS) - Winslow - Lindbergh Regional (Municipal) (INW) - Other airports in USA - Arizona
+USA - Arkansas USA - California - Atwater (Merced) - Castle (AFB) (MER / KMER) - Burbank /
+Glendale / Pasadena (Lockheed Air Terminal) (BUR / KBUR) - Camarillo (Oxnard AFB) (CMA) -
+Chino (CNO) - Edwards - AFB (EDW / KEDW) - Long Beach - Daugherty Field (LGB / KLGB) - Los Angeles -
+Int. (LAX / KLAX) - Mojave (MHV) - Mountain View - Moffett Federal Airfield (NAS) (NUQ / KNUQ) -
+Napa - Napa County (APC) - Oakland - Metropolitan Oakland Int. (OAK / KOAK) - Ontario - Int. (ONT
+/ KONT) - Palm Springs - Int. (Regional / Municipal) (PSP / KPSP) - Ramona (RNM) - Riverside -
+March ARB (AFB / Field) (RIV / KRIV) - Sacramento - Int. (Metropolitan) (SMF / KSMF) -
+Sacramento - McClellan Airfield (AFB) (MCC / KMCC) - San Carlos (SQL) - San Diego - Brown Field
+Municipal (SDM / KSDM) - San Diego - Int. / Lindbergh Field (SAN / KSAN) - San Diego - Miramar MCAS
+(NAS) / Mitscher Field (NKX / KNKX) - San Diego - North Island NAS / Halsey Field (NZY / KNZY) - San
+Diego / El Cajon - Gillespie Field (SEE) - San Francisco - Int. (SFO / KSFO) - San Jose - Norman Y.
+Mineta Int. (Municipal) (SJC / KSJC) - Santa Ana - John Wayne / Orange County (SNA / KSNA) - Santa
+Barbara - Municipal (SBA / KSBA) - Van Nuys (VNY) - Victorville - Southern California
+Logistics (Int.) (George AFB) (VCV) - Other airports in USA - California USA - Colorado -
+Colorado Springs - Municipal (Peterson AFB) (COS / KCOS) - Denver (Broomfield) - Jeffco (BJC)
+- Denver - Centennial (Arapahoe County) (APA) - Denver - Int. (DEN / KDEN) - Denver - Stapleton
+Int. (DEN / KDEN) (Closed) - Longmont - Vance Brand (2V2) - Other airports in USA - Colorado USA -
+Connecticut - Windsor Locks (Hartford / Springfield) - Bradley Int. (BDL / KBDL) - Other
+airports in USA - Connecticut USA - Delaware USA - District of Columbia USA - Florida - Daytona
+Beach - Int. (Regional) (DAB / KDAB) - Fort Lauderdale - Hollywood Int. (FLL / KFLL) - Ft.
+Lauderdale beach - Lakeland - Linder Regional (LAL / KLAL) - Miami - Int. (MIA / KMIA) - Miami -
+Kendall-Tamiami Executive (New Tamiami) (TMB) - Miami - Opa Locka (OPF) - Naples - Municipal
+(APF / KAPF) - Orlando - Int. (McCoy) (MCO / KMCO) - Orlando - Kissimmee Gateway (Municipal)
+(ISM) - Orlando - Sanford (Central Florida Regional) (SFB / KSFB) - Polk City - Worlds Greatest
+Aircraft Collection (FA08) - Tampa - Int. (TPA / KTPA) - West Palm Beach - Palm Beach Int. (PBI /
+KPBI) - Other airports in USA - Florida USA - Georgia - Atlanta - The William B Hartsfield Int.
+(ATL / KATL) - Marietta - Dobbins ARB (Atlanta NAS) (MGE / KMGE) - Other airports in USA - Georgia
+USA - Hawaii - Honolulu - Int. / Hickam AFB (HNL / HIK / PHNL / PHIK) - Kahului (OGG / PHOG) - Other
+airports in USA - Hawaii USA - Idaho - Boise Air Terminal/Gowen Field (BOI) - Other airports in
+USA - Idaho USA - Illinois - Aurora Municipal Airport - (KARR) - Bloomington / Normal - Central
+Illinois Regional (BMI / KBMI) - Chicago - Midway (MDW / KMDW) - Chicago - O'Hare Int. (ORD /
+KORD) - Schaumburg Regional Airport 06C - Other airports in USA - Illinois USA - Indiana - Fort
+Wayne - Int. (Baer Field) (FWA / KFWA) - Indianapolis - Int. (IND / KIND) - Other airports in USA -
+Indiana USA - Iowa - Des Moines - Int. (DSM / KDSM) - Other airports in USA - Iowa USA - Kansas USA -
+Kentucky - Covington / Cincinnati - Northern Kentucky Int. (Greater Cincinnati) (CVG / KCVG)
+- Louisville - Standiford Field Int. (SDF / KSDF) - Other airports in USA - Kentucky USA -
+Louisiana - New Orleans - Louis Armstrong Int. (Moisant Field) (MSY / KMSY) - Other airports in
+USA - Louisiana USA - Maine USA - Maryland - Baltimore / Washington - Int. (Friendship) (BWI /
+KBWI) - Camp Springs - Andrews AFB (Washington NAF) (ADW / NSF / KADW) - Other airports in USA -
+Maryland USA - Massachusetts - Boston - General Edward Lawrence Logan Int. (BOS / KBOS) - Other
+airports in USA - Massachusetts USA - Michigan - Detroit - Metropolitan Wayne County (DTW /
+KDTW) - Detroit - Willow Run (YIP / KYIP) - Pontiac - Oakland Int. (PTK/KPTK) - Other airports in
+USA - Michigan USA - Minnesota - Minneapolis / St. Paul - Int. / Wold Chamberlain Field (MSP /
+KMSP) - Other airports in USA - Minnesota USA - Mississippi - Greenwood - Leflore (GWO / KGWO) -
+Tupelo - Regional (C.D. Lemons Municipal) (TUP / KTUP) - Other airports in USA - Mississippi
+USA - Missouri - Kansas City - Downtown (Municipal) (MKC / KMKC) - Kansas City - Int. (MCI / KMCI)
+- St. Louis - Lambert-St. Louis Int. (STL / KSTL) - Other airports in USA - Missouri USA - Montana
+USA - Nebraska - Omaha - Eppley Airfield (OMA / KOMA) - Other airports in USA - Nebraska USA -
+Nevada - Las Vegas - McCarran Int. (LAS / KLAS) - Nellis AFB - Reno / Tahoe - Int. (Cannon) (RNO /
+KRNO) - Other airports in USA - Nevada USA - New Hampshire - Manchester (MHT / KMHT) - Other
+airports in USA - New Hampshire USA - New Jersey - Newark - Liberty Int. (EWR / KEWR) - Other
+airports in USA - New Jersey USA - New Mexico - Roswell - Industrial Air Center (ROW / KROW) -
+Other airports in USA - New Mexico USA - New York - Albany - Int. (County) (ALB / KALB) - Buffalo -
+Niagara (Greater Buffalo) Int. (BUF / KBUF) - Elmira / Corning - Regional (ELM / KELM) - In New
+York - New York - Floyd Bennett Field (closed) - New York - John F. Kennedy Int. (Idlewild) (JFK /
+KJFK) - New York - La Guardia (LGA / KLGA) - New York - Port Authority Downtown Manhattan / Wall
+Street Heliport (JRB) - Niagara Falls - Int. (IAG / KIAG) - Rhinebeck - Old Rhinebeck (NY94) -
+Rochester - Greater Rochester Int. (Monroe County) (ROC / KROC) - Syracuse - Hancock Int. (SYR
+/ KSYR) - Other airports in USA - New York USA - North Carolina - Charlotte - Douglas Int. (CLT /
+KCLT) - Greensboro - Piedmont Triad Int. (GSO / KGSO) - Hickory - Regional (HKY / KHKY) - Maxton -
+Laurinburg / Maxton (MXE / MEB) - Raleigh / Durham - Int. (RDU / KRDU) - Other airports in USA -
+North Carolina USA - North Dakota - Fargo - Hector Int. (FAR / KFAR) - Other airports in USA -
+North Dakota USA - Ohio - Cleveland - Hopkins Int. (CLE / KCLE) - Columbus - Port Columbus Int.
+(CMH / KCMH) - Dayton - James M. Cox Dayton Int. (DAY / KDAY) - Dayton - Wright-Patterson AFB
+(Wright AFB) (DWF) (closed) - Other airports in USA - Ohio USA - Oklahoma - Tulsa - Int. (TUL /
+KTUL) - Other airports in USA - Oklahoma USA - Oregon - Portland - Int. (PDX / KPDX) - Redmond -
+Roberts Field (RDM / KRDM) - Other airports in USA - Oregon USA - Pennsylvania - Grove City (29D)
+- Philadelphia - Int. (PHL / KPHL) - Pittsburgh - Int. (Greater Pittsburgh) (PIT / KPIT) -
+Washington - Washington County (WSG / AFJ) - Other airports in USA - Pennsylvania USA - Rhode
+Island - Providence - Theodore Francis Green State (PVD / KPVD) - Other airports in USA - Rhode
+Island USA - South Carolina USA - Tennessee - Bristol / Johnson / Kingsport - Tri-Cities
+Regional (McKellar Tri-City) (TRI / KTRI) - Knoxville - McGhee Tyson (TYS / KTYS) - Memphis -
+Int. (MEM / KMEM) - Nashville - Int. (Metropolitan) (BNA / KBNA) - Other airports in USA -
+Tennessee USA - Texas - Amarillo - Int. (AMA / KAMA) - Austin - Bergstrom Int. (AFB) (AUS / KBSM) -
+Dallas - Love Field (DAL / KDAL) - Dallas / Fort Worth - Int. (DFW / KDFW) - Houston - Ellington
+Field (AFB) (EFD) - Houston - George Bush Intercontinental (IAH / KIAH) - Houston - William P.
+Hobby (HOU / KHOU) - San Antonio - Int. (SAT / KSAT) - Other airports in USA - Texas USA - Utah - Salt
+Lake City - Int. (SLC / KSLC) - Other airports in USA - Utah USA - Vermont USA - Virginia - Roanoke -
+Regional / Woodrum Field (ROA / KROA) - Staunton / Waynesboro / Harrisonburg - Shenandoah
+Valley Regional (SHD) - Washington - Dulles Int. (IAD / KIAD) - Washington - Ronald Reagan
+National (DCA / KDCA) - Other airports in USA - Virginia USA - Washington - Everett - Snohomish
+County / Paine Field (PAE / KPAE) - Oak Harbor - Whidbey Island NAS / Ault Field (NUW) - Renton -
+Municipal (RNT / KRNT) - Seattle - Boeing Field / King County Int. (BFI / KBFI) - Seattle / Tacoma
+- Int. (SEA / KSEA) - Other airports in USA - Washington USA - West Virginia - Charleston - Yeager
+(Kanawha) (CRW / KCRW) - Other airports in USA - West Virginia USA - Wisconsin - Madison - Dane
+County Regional / Truax Field (MSN / KMSN) - Milwaukee - General Mitchell Int. (MKE / KMKE) -
+Oshkosh - Wittman Regional (OSH / KOSH) - Other airports in USA - Wisconsin USA - Wyoming -
+Greybull - South Big Horn County (GEY) - Other airports in USA - Wyoming USA � Connecticut
+Venezuela - Caracas - Simon Bolivar Int. / Maiquetia (CCS / SVMI) - Other airports in Venezuela
+Vietnam Zimbabwe - Harare (Salisbury) - Int. (HRE / FVHA) - Other airports in Zimbabwe
+------------------------- Unknown Country Unknown Location -------------------------
+Other - use keywords, photo index or advanced search Category... [ Help ] All Categories
+---------- Passenger Aircraft Cargo Airliners Government Aircraft Military Aircraft
+Private Aircraft Business Aircraft ---------- Flight Decks (Cockpits) Cabin Views
+Aircraft Tail Wings / Winglets Aircraft Nose Close-ups ---------- Aircraft Window Views Air
+to Air Photos Dusk / Night / Dawn Photos ---------- Classic Airliners First built aircraft
+Last built aircraft Preserved, non-flying aircraft ---------- Gliders Single Engine Props
+Helicopters Airships/Blimps Seaplanes Warbirds ---------- Manufacturer Paint Scheme
+Colorful Paint Schemes Other Special Paint Schemes ---------- Airport Overviews Accidents
+/ Incidents / Crashes ---------- Editors Choice Selection Uploaded... [ Help ] Last Day Last 7
+Days Last 30 Days Last 6 Months Last Year All Dates Keywords... [ Help ] Search for... Photo ID
+Registration Aircraft Airline Airport Country Remark Photographer Year All fields
+Range... [ Help ] Civil & Military Military only Civil only Sort By...
+
+Latest Additions First Oldest additions first Most Popular Aircraft A-Z Aircraft Z-A
+Airline A-Z Airline Z-A Location A-Z Location Z-A Country A-Z Country Z-A Photographer A-Z
+Photographer Z-A Year (oldest first) Year (recent first) Limit...
+
+6/Page 15/page 30/page 60/page Display...
+
+Photos & Info Photos Only Info Only
+
+
+
+Include only photos for sale
+
+Stop searching after 100 500 1000 5000 10000 50000 All hits [ Help ]
+
+
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+LABELS
+
+Afghanistan (7) Africa (11) air-india (7) Airbus (1) Al-Qaeda (3) Amritsar (2) anthony
+bourdain (5) Australia (5) Aviation (39) Bandra (4) Bandra Worli Sealink (3) BJP (2) BKC (4)
+BMC (3) Boeing 747 (3) Boeing 787 (3) Bollywood (3) Bombay (50) Bombaypolis (12) British
+Airways (2) Bush (2) Calcutta (4) Chandigarh (2) Chidambaram (8) China (23) Churchgate (4)
+CIA (2) Coco Islands (2) Congress (3) Coorg (2) Cricket (3) dalai lama (4) Delhi (14) Dr.
+Manmohan Singh (18) Dreamliner (2) Economy (15) Egypt (2) environment (2) Facebook (3) Field
+Marshall Sam Maneckshaw (3) Films (14) food (54) football (3) Forrest Gump (4) gender
+equality (3) goa (2) Godavari River (2) Guantamano Bay (2) gujarati (2) health (4) History (2)
+Hong Kong (8) Hyderabad (6) independence day (3) India (101) Indian armed forces (16) Indian
+cuisine (23) Indian diaspora (4) Indian nuclear deal (4) inspirational story (29) Iran (4)
+Irani Cafe (2) Iraq (3) Israel (7) Jacob Zuma (2) Japan (3) Jasmine Revolution (2) jet airways
+(11) Juilia Gillard (2) Jyotiraditya Scindia (2) Kargil (3) Kasab (2) kingfisher airlines
+(3) L.K. Advani (2) ladakh (8) Lalit Modi (2) leh (7) Life (69) Lokhandwala (5) LTTE (5) Macau
+(3) Madiba (2) Malabar (2) Mauritius (2) MMRDA (2) Monsoons (15) Mulayam Singh (2) Mumbai (56)
+Mumbai terror attacks (12) Mythology (7) nature (9) NDTV (2) Neeti (6) Nelson Mandela (6) New
+Link Road (4) North India (3) North Indians (4) North Korea (2) Obama (15) Pacific island (2)
+Pakistan (21) partition (2) photography (57) Poetry (13) politics (30) Pranab Mukherjee (2)
+punjabi (3) Punjabis (4) Rahul Gandhi (2) relationships (29) Sarkozy (3) Security (44)
+Shashi Tharoor (3) Soft Power (3) South Africa (6) south China sea (2) South India (6) spices
+(4) sport (7) Sri Lanka (4) Taiwan (2) Talibanistan (3) tata (2) Technology (4) Tehran (2) The
+New York Times (2) Tibet (4) Tom Hanks (2) Travel (59) Uganda (7) United States (24) UPA (3)
+Vajpayee (2) Vidya Balan (2) Western Express Highway (3) Zambia Airways (2) Zardari (2)
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+My Blog List
+
+    
+
+    - Yoshita's Window 13 hours ago
+
+    
+
+    - LiveFist - The Best of Indian Defence
+
+    Image:
+    http://1.bp.blogspot.com/-bcL_SiMNtMQ/UGhN7OoXjyI/AAAAAAAARO0/cpQ95bF2jEQ/s72-c/DSC07676.JPG
+    3 days ago
+
+    
+
+    - The 100% unofficial blog of the Indian Prime Minister | Desi | Parody | Funny | Smart
+
+    Image:
+    http://4.bp.blogspot.com/-NYJwA7UElEg/UGclrwB3R9I/AAAAAAAAHxo/_ejUmbE96_8/s72-c/bush+calls.jpeg
+    4 days ago
+
+    
+
+    - A Political Kenya in 2009: Latest Breaking News and Politics 1 week ago
+
+    
+
+    - knowprashant -Rants,Chants & A Little Bit Of Wisdom 1 week ago
+
+    
+
+    - Calcutta Chromosome 2 weeks ago
+
+    
+
+    - Stagecraft and Statecraft 2 weeks ago
+
+    
+
+    - Patrick Chovanec 2 weeks ago
+
+    
+
+    - AtT iT uDe thy Al Ti UdE 1 month ago
+
+    
+
+    - Berries of Thought 3 months ago
+
+    
+
+    - My perspective 7 months ago
+
+    
+
+    - Obiter
+
+    Image:
+    http://1.bp.blogspot.com/-pcpou3qBv7g/TrNSPAxb4hI/AAAAAAAAAE4/_PdZIb0ZAVA/s72-c/imagesCANI2P0H.jpg
+    10 months ago
+
+    
+
+    - MERA INDIA MAHAN
+
+    Image:
+    http://4.bp.blogspot.com/-xPEK3bAldEU/TnOAgg7ntzI/AAAAAAAAAV8/zfwXruxYSxk/s72-c/omar-abdullah-2008-12-28-7-3-49.jpg
+    1 year ago
+
+    
+
+    - Ruminations of an ordinary Indian 1 year ago
+
+    
+
+    - Jeetu's Buzz 2 years ago
+
+    
+
+    - Neeti-Reflections 3 years ago
+
+    
+
+    - man from the past 3 years ago
+
+    
+
+    - Amazing world: Within and Outside 4 years ago
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+About Me
+
+
+
+    Image:
+    http://1.bp.blogspot.com/_Me-BvCb5gYk/S8oABn9KkZI/AAAAAAAABeo/GWaWxnqjYXU/S220/DSC01132.JPG
+
+        Rajeev
+
+    
+
+        Mumbai (Bombay), Maharashtra, India
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://qrcode.kaywa.com/img.php?s=6&d=http%3A%2F%2Fwww.rajeevmahajan.com
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+_gos='c3.gostats.com';_goa=311333;_got=4;_goi=1;_goz=1;_gol='free website
+stats';_GoStatsRun();
+
+Image: http://c3.gostats.com/bin/count/a_311333/z_1/t_4/i_1/counter.png
+
+free website stats
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://twitter-badges.s3.amazonaws.com/follow_me-a.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Follow by Email
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Subscribe
+
+
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png All Comments
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png All Comments
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2012 (69)
+
+        - ►  September (12)
+
+        
+
+        
+
+        - ►  August (14)
+
+        
+
+        
+
+        - ►  July (11)
+
+        
+
+        
+
+        - ►  June (5)
+
+        
+
+        
+
+        - ►  May (9)
+
+        
+
+        
+
+        - ►  April (12)
+
+        
+
+        
+
+        - ►  March (3)
+
+        
+
+        
+
+        - ►  February (2)
+
+        
+
+        
+
+        - ►  January (1)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2011 (74)
+
+        - ►  December (6)
+
+        
+
+        
+
+        - ►  November (5)
+
+        
+
+        
+
+        - ►  October (9)
+
+        
+
+        
+
+        - ►  September (7)
+
+        
+
+        
+
+        - ►  August (8)
+
+        
+
+        
+
+        - ►  July (8)
+
+        
+
+        
+
+        - ►  June (3)
+
+        
+
+        
+
+        - ►  May (5)
+
+        
+
+        
+
+            - ▼  April (5)
+
+            - Of QEII, Long Serving Rulers & the Lust for Power....
+
+            
+
+            - MMRCA Deal -- To Buy Or Not To Buy - Was That Ever...
+
+            
+
+            - How Weird Can Our Planners Get?
+
+            
+
+            - à€¹à€œ़ाà€°ों à€•ी
+            à€–्à€µाà€¹िà€¶ें à€�à€žी --
+            Hazaaron Ki Khwaishein...
+
+            
+
+            - The Future of Cricket?
+
+            
+
+        
+
+        
+
+        
+
+        - ►  March (4)
+
+        
+
+        
+
+        - ►  February (5)
+
+        
+
+        
+
+        - ►  January (9)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (117)
+
+        - ►  December (9)
+
+        
+
+        
+
+        - ►  November (6)
+
+        
+
+        
+
+        - ►  October (6)
+
+        
+
+        
+
+        - ►  September (11)
+
+        
+
+        
+
+        - ►  August (10)
+
+        
+
+        
+
+        - ►  July (20)
+
+        
+
+        
+
+        - ►  June (19)
+
+        
+
+        
+
+        - ►  May (8)
+
+        
+
+        
+
+        - ►  April (16)
+
+        
+
+        
+
+        - ►  March (5)
+
+        
+
+        
+
+        - ►  February (4)
+
+        
+
+        
+
+        - ►  January (3)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (58)
+
+        - ►  December (1)
+
+        
+
+        
+
+        - ►  November (4)
+
+        
+
+        
+
+        - ►  October (5)
+
+        
+
+        
+
+        - ►  September (7)
+
+        
+
+        
+
+        - ►  August (9)
+
+        
+
+        
+
+        - ►  July (2)
+
+        
+
+        
+
+        - ►  June (10)
+
+        
+
+        
+
+        - ►  May (6)
+
+        
+
+        
+
+        - ►  April (12)
+
+        
+
+        
+
+        - ►  February (2)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2008 (27)
+
+        - ►  December (6)
+
+        
+
+        
+
+        - ►  November (4)
+
+        
+
+        
+
+        - ►  September (4)
+
+        
+
+        
+
+        - ►  August (7)
+
+        
+
+        
+
+        - ►  July (6)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://static.networkedblogs.com/static/images/logo_small.png Follow this
+blog <!-- if(typeof(networkedblogs)=="undefined"){networkedblogs =
+{};networkedblogs.blogId=393800;networkedblogs.shortName="rajeevs_world";} -->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (!window.google ||
+!google.friendconnect) { document.write('<script type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/5144520725039798879/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/5144520725039798879/comments/default";
+holder.currentBlogUrl = "http://www.rajeevmahajan.com/"; holder.currentBlogId =
+"5144520725039798879"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#000000"; skin['ENDCAP_LINK_COLOR'] = "#242ca7";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#242ca7"; skin['CONTENT_TEXT_COLOR'] =
+"#000000"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#242ca7";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000"; skin['CONTENT_HEADLINE_COLOR'] =
+"#000000"; skin['FONT_FACE'] = "normal normal 15px Arial, Tahoma, Helvetica, FreeSans,
+sans-serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-zwbulxpas18c",
+height: 260, site: "13964868829948420121", locale: 'en' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Feedjit Live Blog Stats
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png new TWTR.Widget({
+version: 2, type: 'profile', rpp: 4, interval: 6000, width: 'auto', height: 300, theme: {
+shell: { background: '#333333', color: '#ffffff' }, tweets: { background: '#000000',
+color: '#ffffff', links: '#4aed05' } }, features: { scrollbar: true, loop: false, live:
+false, hashtags: true, timestamp: true, avatars: false, behavior: 'all' }
+}).render().setUser('mahajanrajeev').start();
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Feedjit Live Blog Stats
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-34211554-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image:
+http://s07.flagcounter.com/map/WzuB/size=l/txt=000000/border=CCCCCC/pageviews=0/viewers=0/
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png © Rajeev Mahajan.
+Picture Window template. Powered by Blogger .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+window.setTimeout(function() { document.body.className =
+document.body.className.replace('loading', ''); }, 10); if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV2";window['blogger_blog_id'] =
+'5144520725039798879';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d5144520725039798879','//www.rajeevmahajan.com/2011_04_01_archive.html','5144520725039798879');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'5144520725039798879', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Rajeev\47s
+World', 'pageType': 'archive', 'url':
+'http://www.rajeevmahajan.com/2011_04_01_archive.html', 'canonicalUrl':
+'http://www.rajeevmahajan.com/2011_04_01_archive.html', 'canonicalHomepageUrl':
+'http://www.rajeevmahajan.com/', 'homepageUrl': 'http://www.rajeevmahajan.com/',
+'blogspotFaviconUrl': 'http://www.rajeevmahajan.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'April 2011', 'pageTitle': 'Rajeev\47s World: April 2011', 'encoding': 'UTF-8',
+'locale': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false,
+'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks':
+'\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42Rajeev\46#39;s World - Atom\42
+href\75\42http://www.rajeevmahajan.com/feeds/posts/default\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Rajeev\46#39;s
+World - RSS\42
+href\75\42http://www.rajeevmahajan.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Rajeev\46#39;s World - Atom\42
+href\75\42http://www.blogger.com/feeds/5144520725039798879/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0755144520725039798879\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId':
+'pub-9028710559317777', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script
+type\75\42text/javascript\42
+src\75\42//www.blogger.com/static/v1/jsbin/3651483553-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076',
+'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'content_padding': '0',
+'tabs_selected_background_color': '#666666', 'region_shadow_spread': '3px',
+'header_padding': '0', 'tab_selected_background_gradient':
+'url(//www.blogblog.com/1kt/transparent/white80.png)', 'link_visited_color':
+'#cc0000', 'tabs_margin_sides': '20px', 'post_title_font': 'normal bold 18px Arial,
+Tahoma, Helvetica, FreeSans, sans-serif', 'tabs_separator_color': '#999999',
+'tabs_text_color': '#000000', 'header_background_gradient': 'none',
+'widget_title_font': 'normal bold 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif',
+'tab_first_border_radius': '10px', 'tabs_border_radius': '0', 'keycolor': '#1a222a',
+'content_shadow_spread': '0', 'main_background': 'transparent
+url(//www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left',
+'header_font': 'normal normal 36px Arial, Tahoma, Helvetica, FreeSans, sans-serif',
+'footer_background': 'transparent
+url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left',
+'header_background_color': '#ffffff', 'widget_title_text_transform': 'uppercase',
+'footer_link_visited_color': '#000000', 'footer_link_hover_color': '#000000',
+'footer_border_radius_bottom': '20px', 'tabs_background_gradient': 'none',
+'tab_background': 'transparent
+url(//www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left',
+'mobile_background_overlay': 'transparent none repeat scroll top left',
+'tabs_background_color': '#ffffff', 'header_border_radius': '0',
+'post_margin_sides': '-20px', 'link_hover_color': '#ea9999', 'footer_link_color':
+'#000000', 'content_background': 'transparent none repeat scroll top left',
+'tabs_margin_bottom': '0', 'body_text_color': '#000000', 'main_padding_sides':
+'20px', 'post_border_color': '#666666', 'footer_text_color': '#000000',
+'footer_border_radius_top': '0', 'post_background_color': '#ffffff',
+'content_border_radius': '0', 'endSide': 'right', 'post_footer_text_color':
+'#000000', 'startSide': 'left', 'date_header_color': '#333333', 'tabs_font': 'normal
+normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'body_font': 'normal normal
+15px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'post_border_radius': '5px',
+'widget_title_text_color': '#000000', 'content_margin': '20px', 'link_color':
+'#242ca7', 'footer_widget_title_text_color': '#ffffff', 'header_text_color':
+'#000000', 'main_border_radius_top': '20px', 'region_shadow_offset': '1px',
+'tab_border_radius': '10px', 'tabs_selected_text_color': '#000000',
+'body_background_color': '#ffffff', 'tabs_spacing': '.25em'}, 'override': ''}},
+{'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'},
+'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name':
+'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url':
+'/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'},
+'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name':
+'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1',
+'crosscol', null, document.getElementById('PageList1'), {'title': 'Pages', 'links':
+[{'href': 'http://www.rajeevmahajan.com/', 'title': 'Home', 'isCurrentPage': false},
+{'href': 'http://www.rajeevmahajan.com/p/about-me.html', 'title': 'About Me',
+'isCurrentPage': false}, {'href':
+'http://www.rajeevmahajan.com/p/contact-me.html', 'title': 'Contact Me',
+'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1',
+'sidebar-right-1', null, document.getElementById('Profile1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML16', 'sidebar-right-1', null, document.getElementById('HTML16'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML8', 'sidebar-right-1', null, document.getElementById('HTML8'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML19', 'sidebar-right-1', null, document.getElementById('HTML19'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_FollowByEmailView', new
+_WidgetInfo('FollowByEmail1', 'sidebar-right-1', null,
+document.getElementById('FollowByEmail1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_SubscribeView', new _WidgetInfo('Subscribe1',
+'sidebar-right-1', null, document.getElementById('Subscribe1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar-right-1', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML12', 'sidebar-right-1', null, document.getElementById('HTML12'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_FollowersView', new
+_WidgetInfo('Followers1', 'sidebar-right-1', null,
+document.getElementById('Followers1'), {'title': '', 'codeSnippet': '\74script
+type\75\42text/javascript\42\76\n if (!window.google || !google.friendconnect) {\n
+document.write(\47\74script type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75
+\42http://www.blogger.com/feeds/5144520725039798879/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/5144520725039798879/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://www.rajeevmahajan.com/\42;\n
+holder.currentBlogId \75 \0425144520725039798879\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-1qaxloxurqw7k\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75 \42\42;\n
+skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_BG_COLOR\47] \75
+\42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47] \75 \42#000000\42;\n
+skin[\47ENDCAP_LINK_COLOR\47] \75 \42#242ca7\42;\n skin[\47ALTERNATE_BG_COLOR\47]
+\75 \42transparent\42;\n \n skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#242ca7\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#000000\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#242ca7\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#000000\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#000000\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-1qaxloxurqw7k\42,\n height: 260,\n \n \n \n site:
+\04213964868829948420121\42,\n \n locale: \47en\47 },\n skin);\n \74/script\076'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML6', 'sidebar-right-1', null, document.getElementById('HTML6'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML18', 'sidebar-right-1', null, document.getElementById('HTML18'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML11', 'sidebar-right-1', null, document.getElementById('HTML11'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'sidebar-right-1', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML10', 'sidebar-right-1', null, document.getElementById('HTML10'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_LabelView', new
+_WidgetInfo('Label1', 'sidebar-left-1', null, document.getElementById('Label1'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_BlogListView', new
+_WidgetInfo('BlogList1', 'sidebar-left-1', null,
+document.getElementById('BlogList1'), {'numItemsToShow': 0, 'totalItems': 18},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML7', 'crosscol-overflow', null, document.getElementById('HTML7'),
+{}, 'displayModeFull')); _WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'footer-3', null,
+document.getElementById('Attribution1'), {'attribution': '&#169; Rajeev Mahajan.
+Picture Window template. Powered by \74a href\75\47http://www.blogger.com\47
+target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'footer-1',
+null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML14', 'footer-1',
+null, document.getElementById('HTML14'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML9', 'main', null, document.getElementById('HTML9'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML2', 'main', null, document.getElementById('HTML2'), {},
+'displayModeFull'));
+

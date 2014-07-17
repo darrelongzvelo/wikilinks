@@ -1,0 +1,2141 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); COMPUTER GATE: LCD (Liquid Crystal Display) <!-- /* ************ START OF CSS STYLING
+************ */ /*
+----------------------------------------------------------------------- Blogger
+Template Design: Greenery Design by: Ourblogtemplates.com, July 2008 Terms of Use: Free
+template with credit linked to Ourblogtemplates.com
+----------------------------------------------------------------------- */ /*
+Variable definitions ======================== <Variable name="bodybgColor"
+description="Body Background Color" type="color" default="#FFBBE8"> <Variable
+name="blogframeColor" description="Blog Background Color" type="color"
+default="#800040"> <Variable name="blogBorderColor" description="Blog Border Color"
+type="color" default="#800040"> <Variable name="headerbgColor" description="Header
+Background Color" type="color" default="#ffffff"> <Variable name="headerBorderColor"
+description="Header Border Color" type="color" default="#800040"> <Variable
+name="blogTitleColor" description="Blog Title Color" type="color" default="#800040">
+<Variable name="blogDescriptionColor" description="Blog Description Color"
+type="color" default="#800040"> <Variable name="linkbarmainBorderColor"
+description="Linkbar Main Border Color" type="color" default="#C94093"> <Variable
+name="linkbarbgColor" description="Linkbar Background Color" type="color"
+default="#C94093"> <Variable name="linkbarBorderColor" description="Linkbar Border
+Color" type="color" default="#9D1961"> <Variable name="linkbarTextColor"
+description="Linkbar Text Color" type="color" default="#ffffff"> <Variable
+name="linkbarHoverBgColor" description="Linkbar Hover Background Color" type="color"
+default="#ffffff"> <Variable name="linkbarHoverTextColor" description="Linkbar
+Hover Text Color" type="color" default="#9D1961"> <Variable name="contentbgColor"
+description="Content Background Color" type="color" default="#ffffff"> <Variable
+name="contentBorderColor" description="Content Border Color" type="color"
+default="#9D1961"> <Variable name="postbgColor" description="Post Background Color"
+type="color" default="#ffffff"> <Variable name="postBorderColor" description="Post
+Border Color" type="color" default="#ffffff"> <Variable name="postTitleColor"
+description="Post Title Color" type="color" default="#000000"> <Variable
+name="dateHeaderColor" description="Date Header Color" type="color"
+default="#000000"> <Variable name="textColor" description="Text Color" type="color"
+default="#191919"> <Variable name="mainLinkColor" description="Main Link Color"
+type="color" default="#333333"> <Variable name="mainHoverLinkColor"
+description="Main Hover Link Color" type="color" default="#9D1961"> <Variable
+name="mainVisitedLinkColor" description="Main Visited Link Color" type="color"
+default="#9D1961"> <Variable name="blogQuoteColor" description="Blog Quote Color"
+type="color" default="#191919"> <Variable name="codeTextColor" description="Code
+Text Color" type="color" default="#660000"> <Variable name="imageBorderColor"
+description="Photo Border Color" type="color" default="#f5f5f5"> <Variable
+name="postfooterbgColor" description="Postfooter Background Color" type="color"
+default="#E590C8"> <Variable name="postfooterBorderColor" description="Postfooter
+Border Color" type="color" default="#E590C8"> <Variable name="postfooterTextColor"
+description="Postfooter Text Color" type="color" default="#b8659C"> <Variable
+name="postfooterLinkColor" description="Postfooter Link Color" type="color"
+default="#b8659C"> <Variable name="commentTabLinkColor" description="Comment Tab
+Link Color" type="color" default="#b8659C"> <Variable name="feedlinksColor"
+description="Feed Links Color" type="color" default="#9D1961"> <Variable
+name="mainsidebarbgColor" description="Main Sidebar Background Color" type="color"
+default="#FFBBE8"> <Variable name="sidebar1bgColor" description="Sidebar1
+Background Color" type="color" default="#FFBBE8"> <Variable name="sidebar2bgColor"
+description="Sidebar2 Background Color" type="color" default="#FFBBE8"> <Variable
+name="sidebar3bgColor" description="Sidebar3 Background Color" type="color"
+default="#FFBBE8"> <Variable name="sidebar1BorderColor" description="Sidebar1
+Border Color" type="color" default="#C94093"> <Variable name="sidebar2BorderColor"
+description="Sidebar2 Border Color" type="color" default="#C94093"> <Variable
+name="sidebar3BorderColor" description="Sidebar3 Border Color" type="color"
+default="#C94093"> <Variable name="sidebar1HeaderBgColor" description="Sidebar1
+Header Background Color" type="color" default="#ffffff"> <Variable
+name="sidebar2HeaderBgColor" description="Sidebar2 Header Background Color"
+type="color" default="#ffffff"> <Variable name="sidebar3HeaderBgColor"
+description="Sidebar3 Header Background Color" type="color" default="#ffffff">
+<Variable name="sidebar1HeaderBorderColor" description="Sidebar1 Header Border
+Color" type="color" default="#C94093"> <Variable name="sidebar2HeaderBorderColor"
+description="Sidebar2 Header Border Color" type="color" default="#C94093"> <Variable
+name="sidebar3HeaderBorderColor" description="Sidebar3 Header Border Color"
+type="color" default="#C94093"> <Variable name="sidebar1HeaderColor"
+description="Sidebar1 Header Color" type="color" default="#000000"> <Variable
+name="sidebar2HeaderColor" description="Sidebar2 Header Color" type="color"
+default="#000000"> <Variable name="sidebar3HeaderColor" description="Sidebar3
+Header Color" type="color" default="#000000"> <Variable name="sidebar1TextColor"
+description="Sidebar1 Text Color" type="color" default="#9D1961"> <Variable
+name="sidebar2TextColor" description="Sidebar2 Text Color" type="color"
+default="#9D1961"> <Variable name="sidebar3TextColor" description="Sidebar3 Text
+Color" type="color" default="#9D1961"> <Variable name="sidebar1LinkColor"
+description="Sidebar1 Link Color" type="color" default="#9D1961"> <Variable
+name="sidebar2LinkColor" description="Sidebar2 Link Color" type="color"
+default="#9D1961"> <Variable name="sidebar3LinkColor" description="Sidebar3 Link
+Color" type="color" default="#9D1961"> <Variable name="sidebar1HoverLinkColor"
+description="Sidebar1 Hover Link Color" type="color" default="#000000"> <Variable
+name="sidebar2HoverLinkColor" description="Sidebar2 Hover Link Color" type="color"
+default="#000000"> <Variable name="sidebar3HoverLinkColor" description="Sidebar3
+Hover Link Color" type="color" default="#000000"> <Variable
+name="sidebar1VisitedLinkColor" description="Sidebar1 Visited Link Color"
+type="color" default="#000000"> <Variable name="sidebar2VisitedLinkColor"
+description="Sidebar2 Visited Link Color" type="color" default="#000000"> <Variable
+name="sidebar3VisitedLinkColor" description="Sidebar3 Visited Link Color"
+type="color" default="#000000"> <Variable name="lowerbarbgColor"
+description="Lowerbar Background Color" type="color" default="#ffffff"> <Variable
+name="lowerbarBorderColor" description="Lowerbar Border Color" type="color"
+default="#C94093"> <Variable name="lowerbarHeaderColor" description="Lowerbar
+Header Color" type="color" default="#000000"> <Variable name="lowerbarTextColor"
+description="Lowerbar Text Color" type="color" default="#9D1961"> <Variable
+name="lowerbarLinkColor" description="Lowerbar Link Color" type="color"
+default="#9D1961"> <Variable name="lowerbarHoverLinkColor" description="Lowerbar
+Hover Link Color" type="color" default="#000000"> <Variable
+name="lowerbarVisitedLinkColor" description="Lowerbar Visited Link Color"
+type="color" default="#000000"> <Variable name="lowerbarListLineColor"
+description="Lowerbar List Line Color" type="color" default="#000000"> <Variable
+name="commentTitleColor" description="Comment Header Color" type="color"
+default="#000000"> <Variable name="commentAuthorBgColor" description="Comment
+Author Background Color" type="color" default="#9D1961"> <Variable
+name="commentboxBorderColor" description="Comment Author Border Color" type="color"
+default="#C94093"> <Variable name="commentauthorColor" description="Comment Author
+Color" type="color" default="#9D1961"> <Variable name="commentTimeStampColor"
+description="Comment Timestamp Color" type="color" default="#C94093"> <Variable
+name="commentTextColor" description="Comment Text Color" type="color"
+default="#4c4c4c"> <Variable name="footerbgColor" description="Footer Background
+Color" type="color" default="#ffffff"> <Variable name="footerBorderColor"
+description="Footer Border Color" type="color" default="#000000"> <Variable
+name="footerHeaderColor" description="Footer Header Color" type="color"
+default="#000000"> <Variable name="footerTextColor" description="Footer Text Color"
+type="color" default="#C94093"> <Variable name="footerLinkColor"
+description="Footer Link Color" type="color" default="#C94093"> <Variable
+name="footerHoverLinkColor" description="Footer Hover Link Color" type="color"
+default="#C94093"> <Variable name="footerVisitedLinkColor" description="Footer
+Visited Link Color" type="color" default="#C94093"> <Variable name="blogTitleFont"
+description="Blog Title Font" type="font" default="normal bold 273% Georgia, Times,
+serif" > <Variable name="blogDescriptionFont" description="Blog Description Font"
+type="font" default="normal normal 104% georgia,helvetica,verdana,Georgia, serif" >
+<Variable name="linkbarTextFont" description="Linkbar Text Font" type="font"
+default="normal normal 77% Verdana, sans-serif" > <Variable name="dateHeaderFont"
+description="Date Header Font" type="font" default="normal bold 117% Arial, sans-serif"
+> <Variable name="postTitleFont" description="Post Title Font" type="font"
+default="normal bold 180% Georgia, Times, serif" > <Variable name="textFont"
+description="Text Font" type="font" default="normal normal 90% Arial, sans-serif" >
+<Variable name="quoteFont" description="Blog Quote Font" type="font" default="normal
+normal 92% helvetica,tahoma,verdana,arial,times,Sans-serif" > <Variable
+name="sidebarHeaderFont" description="Sidebar Title Font" type="font"
+default="normal bold 117% Arial, sans-serif" > <Variable name="sidebarTextFont"
+description="Sidebar Text Font" type="font" default="normal normal 78% Arial, Verdana,
+sans-serif" > <Variable name="postfooterTextFont" description="Post-Footer Text Font"
+type="font" default="normal normal 93% Arial, sans-serif" > <Variable
+name="commentTitleFont" description="Comment Title Font" type="font" default="normal
+bold 120% Arial, sans-serif" > <Variable name="commentTextFont" description="Comment
+Text Font" type="font" default="normal normal 95% Arial, sans-serif" > <Variable
+name="footerHeaderFont" description="Footer Header Font" type="font" default="normal
+bold 131% Trebuchet, Trebuchet MS, Arial, sans-serif" > <Variable name="footerTextFont"
+description="Footer Text Font" type="font" default="normal normal 76% Trebuchet,
+Trebuchet MS, Arial, sans-serif" > */ /* ----- GLOBAL ----- Blogger template design by
+Ourblogtemplates.com */ * {margin:0; padding:0;} body { margin: 0px 0px 0px 0px; padding:
+0px 0px 0px 0px; text-align: center; color: #333333; background: #aad5ff; font-family:
+arial,verdana,helvetica,tahoma,Sans-serif; font-size: 100%; width: 100%; }
+#outer-wrapper { margin: 0 auto; /* to make the template lay in the screen center */ padding:
+0px 0px 0px 0px; margin-top: 15px; margin-bottom: 30px; position: relative; width: 100%;
+text-align: center; } #blog-wrapper { margin: 0 auto; /* to make the template lay in the screen
+center */ padding: 6px 8px 6px 6px; margin-top: 15px; margin-bottom: 10px; text-align:
+center; position: relative; width: 940px; background: #ffffff; border: 1px solid #ffffff;
+} #spacer {clear: both; margin: 0; padding: 0;} /* global link attributes */ a {color:
+#000000; text-decoration: underline;} a:hover {color: #0066CC; text-decoration:
+underline;} a:visited {color: #78B749; text-decoration: underline;} /* Blogger
+Navigation Bar */ #Navbar1 { margin: 0; padding: 0; visibility: hidden; display: none; } /*
+----- HEADER ----- Blogger template design by Ourblogtemplates.com */ #upper-wrapper {
+margin: 0; padding: 0; width: 100%; } #header-wrapper { margin: 0px 0px 0px 0px; padding: 0px
+0px 0px 0px; width: 100%; text-align: center; background: #0066cc; border: 1px solid
+#0066cc; } #header { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; text-align: left; }
+#header h1 { color: #f5f5f5; font: normal bold 199% Trebuchet, Trebuchet MS, Arial,
+sans-serif; text-align: center; margin: 0px 0px 0px 0px; padding: 20px 30px 0px 30px; }
+#header h1 a { text-decoration: none; color: #f5f5f5; } #header h1 a:hover {
+text-decoration: underline; color: #ffffff; } #header .description { color: #ffffff;
+font: normal bold 84% Trebuchet, Trebuchet MS, Arial, sans-serif; text-align: center;
+margin: 0px 0px 0px 0px; padding: 5px 30px 40px 30px; } #header h1 p, #header .description p
+{margin:0;padding:0} #header a img { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;
+border: 0; } /* ----- LINKBAR ----- Blogger template design by Ourblogtemplates.com */
+#linkbar { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; width: 100%; position: relative;
+background: #aad5ff; border: 1px solid #aad5ff; } #linkbar ul { margin: 0px 0px 0px 0px;
+padding: 5px 5px 7px 5px; text-align: left; list-style-type:none; } #linkbar li { display:
+inline; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; } #linkbar h2 { margin: 0px 0px 0px
+0px; padding: 0px 0px 0px 0px; display: none; visibility: hidden; } #linkbar a { clear: both;
+margin: 0px -4px 0px 0px; padding: 3px 20px 3px 20px; width:100%; text-decoration:none;
+font: normal bold 74% Arial, sans-serif; color: #ffffff; border-right: 1px solid #000000; }
+#linkbar a:hover { color: #000000; background: #ffffff; } /* ----- MAIN ----- Blogger
+template design by Ourblogtemplates.com */ #content-wrapper { margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px; width: 100%; position: relative; text-align: left; background:
+#aad5ff; border: 1px solid #ffffff; border-top: 0; } #main-wrapper { float: left; position:
+relative; width: 544px; margin: 6px 0px 6px 6px; padding: 0px 0px 0px 0px; text-align: left;
+background: #ffffff; border: 1px solid #ffffff; word-wrap: break-word; /* fix for long text
+breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE
+sidebar float */ } #main { margin: 0px 0px 0px 0px; padding: 0px 0px 15px 0px; width: 100%;
+color: #333333; font: normal normal 78% Trebuchet, Trebuchet MS, Arial, sans-serif; } #main
+.widget { margin: 0px 0px 0px 0px; padding: 15px 15px 0px 15px; } h2.date-header { margin: 10px
+0px 3px 0px; padding: 0px 0px 0px 0px; text-align: right; color: #4c4c4c; font: italic normal
+89% Arial, sans-serif; text-decoration: none; } .date-header span { margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px; } .post { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;
+line-height: 1.6em; text-align: left; } .post h3 { margin: 0px 0px 4px 0px; padding: 0px 0px
+4px 0px; color: #000000; font: normal bold 158% Verdana, sans-serif; text-decoration:
+none; text-align: left; line-height: 1.6em; } .post h3 a, .post h3 a:visited { color:
+#000000; text-decoration: none; } .post h3 a:hover { color: #000000; text-decoration:
+underline; } .post-body p { /* Fix bug in IE5/Win with italics in posts */ margin: 0px 0px 0px
+0px; padding: 3px 0px 3px 0px; display: inline; /* to fix floating-ads wrapping problem in IE
+*/ height: 1%; overflow: visible; } .post-body p a, .post-body p a:visited { color: #000000;
+text-decoration: underline; } .post-body a:hover { text-decoration: underline; color:
+#0066CC; } .post ul { margin: 0px 0px 0px 0px; padding: 12px 0px 12px 30px; list-style-type:
+disc; line-height: 2.0em; font-size: 95%; } .post ol { margin: 0px 0px 0px 0px; padding: 12px
+0px 12px 30px; line-height: 2.0em; font-size: 95%; } .post li { margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px; line-height: 1.5em; } a img { margin: 5px 5px 5px 5px; padding: 0px 0px
+0px 0px; } .post img { margin: 5px; padding: 3px; border: 1px solid #999999; } /* -----
+POST-FOOTER ----- Blogger template design by Ourblogtemplates.com */ .post-footer {
+display: block; margin: 15px 0px 20px 0px; padding: 5px 6px 5px 6px; text-align: left; font:
+normal normal 86% Arial, sans-serif; color: #808080; font-weight: normal; line-height:
+1.5em; text-decoration: none; background: #f5f5f5; border-top: 1px solid #e6e6e6;
+border-bottom: 1px solid #e6e6e6; } .post-footer-line { margin: 0px 0px 0px 0px; padding:
+0px 0px 0px 0px; } .post-footer-line-1 {padding-top: 0px} .post-footer a { color: #808080;
+text-decoration: none; } .post-footer a:hover { color: #0066CC; text-decoration:
+underline; } .post-footer .post-comment-link a { margin: 0px 10px 0px 10px; padding: 0px
+10px 0px 10px; border-left: 1px solid #808080; color: #000000; font-weight: normal;
+text-decoration: underline; } .post-footer .post-comment-link a:hover { color: #0066CC;
+text-decoration: underline; } #blog-pager { margin: 0px 0px 0px 0px; padding: 5px 0px 5px
+0px; text-align: center; font: normal normal 86% Arial, sans-serif; color: #000000; }
+#blog-pager a {color: #000000} #blog-pager a:hover {color: #0066CC}
+#blog-pager-newer-link { float: left; margin: 0px 0px 0px 0px; padding-left: 3px; }
+#blog-pager-older-link { float: right; margin: 0px 0px 0px 0px; padding-right: 3px; }
+.feed-links { margin: 10px 0px 0px 0px; padding: 0px 3px 0px 3px; clear: both; line-height:
+1.5em; text-align: center; font: normal normal 86% Arial, sans-serif; color: #000000; }
+.feed-links a, .feed-links a:visited {color: #000000} .feed-links a:hover {color:
+#0066CC} /* ----- SIDEBAR ----- Blogger template design by Ourblogtemplates.com */
+#side-wrapper { max-width: 384px; float: right; margin: 0px 0px 0px 0px; padding: 6px 0px 6px
+6px; background: #ffffff; word-wrap: break-word; /* fix for long text breaking sidebar
+float in IE */ overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ }
+#sidebar-wrapper { float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; word-wrap:
+break-word; /* fix for long text breaking sidebar float in IE */ overflow: hidden; /* fix for
+long non-text content breaking IE sidebar float */ } .sidebar { margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px; text-align: left; line-height: 1.4em; font: normal normal 77%
+Arial, sans-serif; } #sidebar1 { width: 348px; margin: 0px 6px 6px 0px; padding: 6px 10px 0px
+10px; color: #000000; background: #ffffff; border: 1px solid #ffffff; } #sidebar2 { width:
+160px; margin: 0px 6px 0px 0px; padding: 6px 10px 0px 10px; color: #000000; background:
+#ffffff; border: 1px solid #ffffff; } #sidebar3 { width: 160px; margin: 0px 0px 0px 0px;
+padding: 6px 10px 0px 10px; color: #000000; background: #ffffff; border: 1px solid #ffffff;
+} #sidebar1 .widget, #sidebar2 .widget, #sidebar3 .widget { margin: 0px 0px 0px 0px;
+padding: 0px 0px 10px 0px; } /* sidebar heading ----- Blogger template design by
+Ourblogtemplates.com */ #sidebar1 h2 { margin: 0px -4px 10px -4px; padding: 3px 15px 3px
+15px; text-align: left; color: #2D8930; font: normal bold 118% Arial, sans-serif;
+background: #0066cc; border: 1px solid #000000; text-align: left; } #sidebar2 h2 { margin:
+0px -4px 10px -4px; padding: 3px 15px 3px 15px; text-align: left; color: #2D8930; font:
+normal bold 118% Arial, sans-serif; background: #0066cc; border: 1px solid #000000;
+text-align: left; } #sidebar3 h2 { margin: 0px -4px 10px -4px; padding: 3px 15px 3px 15px;
+text-align: left; color: #ffffff; font: normal bold 118% Arial, sans-serif; background:
+#0066cc; border: 1px solid #000000; text-align: left; } .sidebar ul, #BlogArchive1 ul {
+margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; list-style-type: none; } .sidebar li,
+#BlogArchive1 li { margin: 0px 0px 0px 0px; padding: 2px 0px 2px 0px; line-height: 1.4em; }
+#sidebar1 a { color: #000000; text-decoration: none; } #sidebar2 a { color: #000000;
+text-decoration: none; } #sidebar3 a { color: #0066cc; text-decoration: none; } #sidebar1
+a:hover { text-decoration: none; color: #0066CC; } #sidebar2 a:hover { text-decoration:
+none; color: #0066CC; } #sidebar3 a:hover { text-decoration: none; color: #0066CC; }
+#sidebar1 a:visited { text-decoration: none; color: #2D8930; } #sidebar2 a:visited {
+text-decoration: none; color: #2D8930; } #sidebar3 a:visited { text-decoration: none;
+color: #2D8930; } .sidebar a img { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; } /* -----
+PROFILE ----- Blogger template design by Ourblogtemplates.com */ .profile-img a img {
+display: block; float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; clear: both; }
+.profile-textblock { margin: 0px 0px 0px 0px; padding: 10px 0px 10px 0px; clear: both;
+line-height: 1.6em; } .profile-data { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;
+font-weight: normal; font-style: italic; } .profile-datablock { margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px; } .profile-link { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+/* ----- BLOCKQUOTE ----- */ blockquote { margin: 12px 30px 12px 20px; padding: 0px 0px 0px
+10px; color: #333333; font: italic normal 97% Arial, sans-serif; line-height: 1.6em;
+color: #333333; } /* ----- CODE ----- */ code { color: #333333; font-size: 110%; } /* -----
+COMMENT ----- Blogger template design by Ourblogtemplates.com */ #comments { margin: 15px
+0px 0px 0px; padding: 0px 0px 15px 0px; text-align: left; color: #4c4c4c; font: normal normal
+105% Arial, sans-serif; } /* comment-header */ #comments h4 { margin: 0px 0px 0px 0px;
+padding: 15px 0px 0px 0px; color: #000000; font: normal bold 130% Arial, sans-serif; }
+.deleted-comment { font-style:italic; color:gray; margin: 3px 0px 3px 0px; }
+.comment-author { display: block; margin: 25px 0px 0px 0px; padding: 7px 10px 7px 10px;
+color: #2D8930; background: #f5f5f5; border-top: 1px dotted #ffffff; border-bottom: 1px
+dotted #ffffff; font-size: 125%; font-weight: normal; } .comment-author a {color:
+#2D8930; text-decoration: none;} .comment-author a:hover {color: #7f7f7f;
+text-decoration: underline;} .comment-author a:visited {color: #2D8930;
+text-decoration: none;} .comment-body {margin: 0; padding: 10px 0px 10px 50px;}
+.comment-body p {margin: 0; padding: 0; line-height: 1.6em;} .comment-footer {margin: 7px
+0px 7px 0px; padding: 0;} .comment-timestamp { margin: 0px 0px 0px 4px; padding: 0px 0px 7px
+4px; color: #7f7f7f; text-decoration: none; font-weight: normal; font-size: 70%;
+font-style: italic; } .comment-timestamp a { color: #7f7f7f; text-decoration: none; }
+.comment-timestamp a:hover {color: #2D8930; text-decoration: underline;} #comments ul
+{margin: 0; padding: 0; list-style-type: none;} #comments li {margin: 0; padding: 0;}
+a.comment-link { /* ie5.0/win doesn't apply padding to inline elements, so we hide these two
+declarations from it */ padding: 0px 0px 0px 0px; } html>body a.comment-link { /*
+respecified, for ie5/mac's benefit */ padding-left: 0px; } /* ----- LOWER SECTION -----
+Blogger template design by Ourblogtemplates.com */ #lower-wrapper { margin: 0; padding: 0;
+width: 100%; font: normal normal 77% Arial, sans-serif; color: #000000; background:
+#f5f5f5; border-top: 1px solid #cccccc; } #lowerbar-wrapper { float: left; margin: 0px 0px
+0px 0px; padding: 0px 0px 15px 0px; width: 33%; text-align: left; line-height: 1.6em;
+background: #f5f5f5; word-wrap: break-word; /* fix for long text breaking sidebar float in
+IE */ overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ }
+#lowerads-wrapper { float: left; margin: 0px 0px 0px 0px; padding: 0px 0px 15px 0px; width:
+920px; text-align: center; background: #f5f5f5; word-wrap: break-word; /* fix for long
+text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content
+breaking IE sidebar float */ } .lowerbar {margin: 0; padding: 0;} .lowerbar .widget {margin:
+0; padding: 20px 40px 0px 60px;} .lowerads {margin: 0; padding: 0;} .lowerads .widget
+{margin: 0; padding: 10px 0px 0px 0px;} .lowerbar h2 { margin: 0px 0px 7px -20px; padding: 0px
+0px 5px 0px; color: #000000; font: normal bold 118% Arial, sans-serif; text-align: left;
+border-bottom: 1px solid #e6e6e6; } .lowerbar ul { margin: 0px 0px 0px 0px; padding: 0px 0px
+0px 0px; list-style-type: none; } .lowerbar li { margin: 0px 0px 7px 0px; padding: 0px 0px 5px
+0px; border-bottom: 1px dashed #e6e6e6; } .lowerbar a {color: #000000; text-decoration:
+none;} .lowerbar a:hover {text-decoration: underline; color: #0066CC;} .lowerbar
+a:visited {text-decoration: none; color: #2D8930;} /* ----- FOOTER ----- Blogger template
+design by Ourblogtemplates.com */ #footer-wrapper { clear: both; display: inline; /*
+handles IE margin bug */ float: left; width: 100%; margin: 6px 0px 0px 0px; padding: 0px 0px 0px
+0px; background: #ffffff; border: 1px solid #ffffff; } #footer { margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px; text-align: center; color: #2D8930; font: normal normal 66% Arial,
+sans-serif; line-height: 1.6em; } #footer h2 { margin: 0px 0px 0px 0px; padding: 3px 0px 3px
+0px; color: #2D8930; font: normal bold 113% Arial, sans-serif; } #footer .widget { margin:
+0px 0px 0px 0px; padding: 7px 10px 7px 10px; } .footer p {margin: 0; padding: 0} .footer a {
+color: #000000; text-decoration: none; } .footer a:hover { color: #cc0000;
+text-decoration: underline; } .footer a:visited { color: #000000; text-decoration: none;
+} /* ----- OUTER ADS ----- Blogger template design by Ourblogtemplates.com */
+#topads-wrapper { margin: 0; padding: 0; position: relative; text-align: center; width:
+100%; } #topads {margin: 0; padding: 0;} #bottomads-wrapper { margin: 0; padding: 0;
+position: relative; text-align: center; width: 100%; } #bottomads {margin: 0; padding:
+10px 0;} /* ----- CREDIT ----- */ #credit { margin: 0px 0px 0px 0px; padding: 2px 0px 0px 0px;
+width: 100%; height: 26px; clear: both; font-family: verdana, helvetica; font-size: 70%;
+color: #777777; font-weight: normal; background: #777777; } #creditleft { margin: 0px 0px
+0px 0px; padding: 7px 0px 0px 0px; height: 26px; position: relative; float: left;
+text-align: left; display: inline; width: 71%; background: #ffffff; } #creditright {
+margin: -33px 0px 0px 0px; padding: 7px 0px 0px 0px; height: 26px; position: relative; float:
+right; text-align:right; display: inline; width: 30%; background: #ffffff; } #creditleft
+p { margin: 0; padding: 0 } #creditright p { margin: 0; padding: 0 } #creditleft a, .creditleft
+a:hover, .creditleft a:visited { color: #777777; text-decoration: underline; }
+#creditright a, .creditright a:hover, .creditright a:visited { color: #777777;
+text-decoration: underline; } /* ************ END OF CSS STYLING ************ */ /** Page
+structure tweaks for layout editor wireframe */ body#layout #main, body#layout #sidebar {
+padding: 0; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0757094449662711957905\46blogName\75COMPUTER+GATE\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://computer-gate.blogspot.com/search\46blogLocale\75en_US\46v\0752\46homepageUrl\75http://computer-gate.blogspot.com/\46targetPostID\0755808767052144014684\46blogPostOrPageUrl\75http://computer-gate.blogspot.com/2009/06/lcd-liquid-crystal-display.html\46vt\0751139454487173268251',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+COMPUTER GATE
+
+
+
+The Gate to Computer Technology Hardware Information, Free Software Download, Games <!--
+google_ad_client = "pub-1767152415190537"; google_ad_host = "pub-1556223355139109";
+google_ad_host_channel="00000"; /* 468x60, created 7/29/08 */ google_ad_slot =
+"9888295336"; google_ad_width = 468; google_ad_height = 60; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Monday, June 8, 2009
+
+
+
+LCD (Liquid Crystal Display)
+
+
+
+
+
+A liquid crystal display ( LCD ) is an electronically-modulated optical device shaped into a
+thin, flat panel made up of any number of color or monochrome pixels filled with liquid
+crystals and arrayed in front of a light source backlight ) or reflector . It is often utilized
+in battery -powered electronic devices because it uses very small amounts of electric power .
+(
+
+A comprehensive classification of the various types and electro-optical modes of LCDs is
+provided in the article LCD classification .
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/LCD_layers.svg/250px-LCD_layers.svg.png
+
+    Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+    Reflective twisted nematic liquid crystal display.
+
+    1 - Polarizing filter film with a vertical axis to polarize light as it enters.
+
+    
+
+    2 - Glass substrate with ITO electrodes . The shapes of these electrodes will determine
+    the shapes that will appear when the LCD is turned ON. Vertical ridges etched on the
+    surface are smooth.
+
+    
+
+    3 - Twisted nematic liquid crystal.
+
+    
+
+    4 - Glass substrate with common electrode film (ITO) with horizontal ridges to line up
+    with the horizontal filter.
+
+    
+
+    5 - Polarizing filter film with a horizontal axis to block/pass light.
+
+    
+
+    6 - Reflective surface to send light back to viewer. (In a backlit LCD, this layer is
+    replaced with a light source.)
+
+    
+
+
+
+Contents
+
+    [ hide ]
+
+    - 1 Overview
+
+    
+
+    - 2 Specifications
+
+    
+
+    - 3 Brief history
+
+    
+
+    - 4 Color displays
+
+    
+
+    - 5 Passive-matrix and active-matrix addressed LCDs
+
+    
+
+        - 6 Active matrix technologies
+
+        - 6.1 Twisted nematic (TN)
+
+        
+
+        - 6.2 In-plane switching (IPS)
+
+        
+
+        - 6.3 Advanced Fringe Field Switching (AFFS)
+
+        
+
+        - 6.4 Vertical alignment (VA)
+
+        
+
+        - 6.5 Blue Phase mode
+
+        
+
+    
+
+    
+
+    - 7 Quality control
+
+    
+
+    - 8 Zero-power (bistable) displays
+
+    
+
+    - 9 Drawbacks
+
+    
+
+    - 10 Energy Efficiency
+
+    
+
+        - 11 See also
+
+        - 11.1 Related technology
+
+        
+
+        - 11.2 Other display technologies
+
+        
+
+        - 11.3 Display applications
+
+        
+
+        - 11.4 Manufacturers
+
+        
+
+    
+
+    
+
+    - 12 References
+
+    
+
+        - 13 External links - Tutorials
+
+        - 13.1 General information
+
+        
+
+    
+
+    
+
+//<![CDATA[ if (window.showTocToggle) { var tocShowText = "show"; var tocHideText =
+"hide"; showTocToggle(); } //]]>
+
+
+
+[ edit ] Overview
+
+
+
+Image: http://upload.wikimedia.org/wikipedia/commons/9/98/MA-2.JPG
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png LCD alarm
+clock
+
+Each pixel of an LCD typically consists of a layer of molecules aligned between two
+transparent electrodes , and two polarizing filters , the axes of transmission of which are
+(in most of the cases) perpendicular to each other. With no actual liquid crystal between the
+polarizing filters, light passing through the first filter would be blocked by the second
+(crossed) polarizer.
+
+The surface of the electrodes that are in contact with the liquid crystal material are treated
+so as to align the liquid crystal molecules in a particular direction. This treatment
+typically consists of a thin polymer layer that is unidirectionally rubbed using, for
+example, a cloth. The direction of the liquid crystal alignment is then defined by the
+direction of rubbing. Electrodes are made of a transparent conductor called Indium Tin Oxide
+(ITO).
+
+Before applying an electric field , the orientation of the liquid crystal molecules is
+determined by the alignment at the surfaces. In a twisted nematic device (still the most
+common liquid crystal device), the surface alignment directions at the two electrodes are
+perpendicular to each other, and so the molecules arrange themselves in a helical structure,
+or twist. This reduces the rotation of the polarization of the incident light, and the device
+appears grey . If the applied voltage is large enough, the liquid crystal molecules in the
+center of the layer are almost completely untwisted and the polarization of the incident
+light is not rotated as it passes through the liquid crystal layer. This light will then be
+mainly polarized perpendicular to the second filter, and thus be blocked and the pixel black .
+By controlling the voltage applied across the liquid crystal layer in each pixel, light can be
+allowed to pass through in varying amounts thus constituting different levels of gray. will
+appear
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/d/d1/LCDneg.jpg/180px-LCDneg.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png LCD with
+top polarizer removed from device and placed on top, such that the top and bottom polarizers
+are parallel.
+
+The optical effect of a twisted nematic device in the voltage-on state is far less dependent on
+variations in the device thickness than that in the voltage-off state. Because of this, these
+devices are usually operated between crossed polarizers such that they appear bright with no
+voltage (the eye is much more sensitive to variations in the dark state than the bright state).
+These devices can also be operated between parallel polarizers, in which case the bright and
+dark states are reversed. The voltage-off dark state in this configuration appears blotchy,
+however, because of small variations of thickness across the device.
+
+Both the liquid crystal material and the alignment layer material contain ionic compounds .
+If an electric field of one particular polarity is applied for a long period of time, this ionic
+material is attracted to the surfaces and degrades the device performance. This is avoided
+either by applying an alternating current or by reversing the polarity of the electric field
+as the device is addressed (the response of the liquid crystal layer is identical, regardless
+of the polarity of the applied field).
+
+When a large number of pixels are needed in a display, it is not technically possible to drive
+each directly since then each pixel would require independent electrodes. Instead, the
+display is multiplexed . In a multiplexed display, electrodes on one side of the display are
+grouped and wired together (typically in columns), and each group gets its own voltage source
+. On the other side, the electrodes are also grouped (typically in rows), with each group
+getting a voltage sink. The groups are designed so each pixel has a unique, unshared
+combination of source and sink. The electronics, or the software driving the electronics
+then turns on sinks in sequence, and drives sources for the pixels of each sink.
+
+
+
+
+
+
+
+[ edit ] Specifications
+
+
+
+    Important factors to consider when evaluating an LCD monitor:
+
+    - Resolution : The horizontal and vertical size expressed in pixels (e.g., 1024x768).
+    Unlike CRT monitors , LCD monitors have a native-supported resolution for best display
+    effect.
+
+    
+
+    - Dot pitch : The distance between the centers of two adjacent pixels. The smaller the dot
+    pitch size, the less granularity is present, resulting in a sharper image. Dot pitch may
+    be the same both vertically and horizontally, or different (less common).
+
+    
+
+    - Viewable size: The size of an LCD panel measured on the diagonal (more specifically
+    known as active display area).
+
+    
+
+    - Response time : The minimum time necessary to change a pixel's color or brightness.
+    Response time is also divided into rise and fall time. For LCD Monitors, this is measured
+    in btb (black to black) or gtg (gray to gray). These different types of measurements make
+    comparison difficult. A response time of <_16ms class="reference" id="cite_ref-0"> [
+    1 ] and the difference between response times below 10ms becomes imperceptible due to
+    limitations of the human eye. [ 2 ] [ 3 ]
+
+    
+
+    
+
+    - Refresh rate : The number of times per second in which the monitor draws the data it is
+    being given. Since activated LCD pixels do not flash on/off between frames, LCD monitors
+    exhibit no refresh-induced flicker, no matter how low the refresh rate. [ 4 ] Many
+    high-end LCD televisions now have a 120 or 240 Hz (current and former NTSC countries) or
+    100 or 200 Hz ( PAL / SECAM countries) refresh rate. The rate of 120 was chosen as the least
+    common multiple of 24 frame/s (cinema) and 30 frame/s (NTSC TV), and allows for less
+    distortion when movies are viewed due to the elimination of telecine ( 3:2 pulldown ). For
+    PAL at 25 frame/s, 100 or 200 Hz is used as a fractional compromise of the least common
+    multiple of 600 (24 x 25). Until a 600 Hz refresh rate becomes available, PAL video will
+    speed up cinema by a small percentage (currently 1 to 4 percent). These higher refresh
+    rates are most effective from a 24p -source video output (e.g. Blu-ray Disc ), and/or
+    scenes of fast motion.
+
+    
+
+    - Matrix type : Active TFT or Passive.
+
+    
+
+    - Viewing angle : (coll., more specifically known as viewing direction ).
+
+    
+
+    - Color support: How many types of colors are supported (coll., more specifically known
+    as color gamut ).
+
+    
+
+    - Brightness : The amount of light emitted from the display (coll., more specifically
+    known as luminance ).
+
+    
+
+    - Contrast ratio : The ratio of the intensity of the brightest bright to the darkest dark.
+
+    
+
+    - Aspect ratio : The ratio of the width to the height (for example, 4:3, 5:4, 16:9 or 16:10).
+
+    
+
+    - Input ports (e.g., DVI , VGA , LVDS , DisplayPort , or even S-Video and HDMI ).
+
+    
+
+    - Gamma correction
+
+    
+
+
+
+
+
+[ edit ] Brief history
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Powermac_g4_lcd.png/250px-Powermac_g4_lcd.png
+
+    Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png Apple
+    Studio LCD display
+
+    - 1888: Friedrich Reinitzer (1858-1927) discovers the liquid crystalline nature of
+    cholesterol extracted from carrots (that is, two melting points and generation of
+    colors) and published his findings at a meeting of the Vienna Chemical Society on May 3,
+    1888 (F. Reinitzer: BeitrÃ€ge zur Kenntniss des Cholesterins, Monatshefte fÃŒr
+    Chemie (Wien) 9, 421-441 (1888) ). [ 5 ]
+
+    
+
+    
+
+    - 1904: Otto Lehmann publishes his work "FlÃŒssige Kristalle" (Liquid Crystals).
+
+    
+
+    
+
+    - 1911: Charles Mauguin first experiments of liquids crystals confined between plates
+    in thin layers.
+
+    
+
+    
+
+    - 1922: George Friedel describes the structure and properties of liquid crystals and
+    classified them in 3 types (nematics, smectics and cholesterics).
+
+    
+
+    
+
+    - 1936: The Marconi Wireless Telegraph company patents the first practical application
+    of the technology, "The Liquid Crystal Light Valve" .
+
+    
+
+    
+
+    - 1962: The first major English language publication on the subject "Molecular
+    Structure and Properties of Liquid Crystals" , by Dr. George W. Gray . [ 6 ]
+
+    
+
+    
+
+    - 1962: Richard Williams of RCA found that liquid crystals had some interesting
+    electro-optic characteristics and he realized an electro-optical effect by
+    generating stripe-patterns in a thin layer of liquid crystal material by the
+    application of a voltage. This effect is based on an electro-hydrodynamic instability
+    forming what is now called “Williams domains” inside the liquid crystal. [ 7 ]
+
+    
+
+    
+
+    - 1964: In the fall of 1964 George H. Heilmeier , then working in the RCA laboratories on the
+    effect discovered by Williams realized the switching of colors by field-induced
+    realignment of dichroic dyes in a homeotropically oriented liquid crystal. Practical
+    problems with this new electro-optical effect made Heilmeier to continue work on
+    scattering effects in liquid crystals and finally the realization of the first
+    operational liquid crystal display based on what he called the dynamic scattering mode
+    (DSM). Application of a voltage to a DSM display switches the initially clear
+    transparent liquid crystal layer into a milky turbid state. DSM displays could be
+    operated in transmissive and in reflective mode but they required a considerable
+    current to flow for their operation. [ 8 ] [ 9 ] [ 10 ] George H. Heilmeier was inducted in the
+    National Inventors Hall of Fame and credited with the invention of LCD. [ 11 ]
+
+    
+
+    
+
+    - 1960s: Pioneering work on liquid crystals was undertaken in the late 1960s by the UK 's
+    Royal Radar Establishment at Malvern . The team at RRE supported ongoing work by George
+    Gray and his team at the University of Hull who ultimately discovered the cyanobiphenyl
+    liquid crystals (which had correct stability and temperature properties for
+    application in LCDs).
+
+    
+
+    
+
+    - 1970: On December 4, 1970, the twisted nematic field effect in liquid crystals was filed
+    for patent by Hoffmann-LaRoche in Switzerland , ( Swiss patent No. 532 261 ) with Wolfgang
+    Helfrich and Martin Schadt (then working for the Central Research Laboratories) listed
+    as inventors. [ 8 ] Hoffmann-La Roche then licensed the invention to the Swiss
+    manufacturer Brown, Boveri & Cie who produced displays for wrist watches during the
+    1970s and also to Japanese electronics industry which soon produced the first digital
+    quartz wrist watches with TN-LCDs and numerous other products. James Fergason at the
+    Westinghouse Research Laboratories in Pittsburgh while working with Sardari Arora and
+    Alfred Saupe at Kent State University Liquid Crystal Institute filed an identical
+    patent in the USA on April 22, 1971. [ 12 ] In 1971 the company of Fergason ILIXCO (now LXD
+    Incorporated ) produced the first LCDs based on the TN-effect, which soon superseded the
+    poor-quality DSM types due to improvements of lower operating voltages and lower power
+    consumption.
+
+    
+
+    - 1972: The first active-matrix liquid crystal display panel was produced in the United
+    States by T. Peter Brody. [ 13 ]
+
+    
+
+    - 2007: In the 4Q of 2007 for the first time LCD televisions surpassed CRT units in
+    worldwide sales. [ 14 ]
+
+    
+
+    - 2008: LCD TVs become the majority with a 50% market share of the 200 million TVs forecast
+    to ship globally in 2008 according to Display Bank . [ 15 ]
+
+    
+
+
+
+A detailed description of the origins and the complex history of liquid crystal displays from
+the perspective of an insider during the early days has been published by Joseph A. Castellano
+in "Liquid Gold, The Story of Liquid Crystal Displays and the Creation of an Industry". [ 16 ]
+Another report on the origins and history of LCD from a different perspective has been
+published by Hiroshi Kawamoto, available at the IEEE History Center. [ 17 ]
+
+
+
+[ edit ] Color displays
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/LCD_subpixel_%28en%29.png/300px-LCD_subpixel_%28en%29.png
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png A subpixel
+of a color LCD
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Simulated_LCD.png/180px-Simulated_LCD.png
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+Simulation of an LCD monitor up close
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/XO_screen_01_Pengo.jpg/180px-XO_screen_01_Pengo.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png
+Comparison of the OLPC XO-1 display (left) with a typical color LCD. The images show 1×1 mm of
+each screen. A typical LCD addresses groups of 3 locations as pixels. The XO-1 display
+addresses each location as a separate pixel.
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/7/70/LCD_RGB.jpg/180px-LCD_RGB.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png Example of
+how the colors are generated (R-red, G-green and B-blue)
+
+In color LCDs each individual pixel is divided into three cells, or subpixels, which are
+colored red, green, and blue, respectively, by additional filters (pigment filters, dye
+filters and metal oxide filters). Each subpixel can be controlled independently to yield
+thousands or millions of possible colors for each pixel. CRT monitors employ a similar
+'subpixel' structures via phosphors, although the electron beam employed in CRTs do not hit
+exact 'subpixels'.
+
+Color components may be arrayed in various pixel geometries , depending on the monitor's
+usage. If the software knows which type of geometry is being used in a given LCD, this can be used
+to increase the apparent resolution of the monitor through subpixel rendering . This
+technique is especially useful for text anti-aliasing .
+
+To reduce smudging in a moving picture when pixels do not respond quickly enough to color
+changes, so-called pixel overdrive may be used.
+
+
+
+[ edit ] Passive-matrix and active-matrix addressed LCDs
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LCD_display_16x2_alphanumeric.jpg/300px-LCD_display_16x2_alphanumeric.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png A general
+purpose alphanumeric LCD, with two lines of 16 characters.
+
+LCDs with a small number of segments, such as those used in digital watches and pocket
+calculators , have individual electrical contacts for each segment. An external dedicated
+circuit supplies an electric charge to control each segment. This display structure is
+unwieldy for more than a few display elements.
+
+Small monochrome displays such as those found in personal organizers, or older laptop
+screens have a passive-matrix structure employing super-twisted nematic (STN) or
+double-layer STN (DSTN) technology—the latter of which addresses a color-shifting
+problem with the former—and color-STN (CSTN)—wherein color is added by using an
+internal filter. Each row or column of the display has a single electrical circuit. The pixels
+are addressed one at a time by row and column addresses. This type of display is called
+passive-matrix addressed because the pixel must retain its state between refreshes without
+the benefit of a steady electrical charge. As the number of pixels (and, correspondingly,
+columns and rows) increases, this type of display becomes less feasible. Very slow response
+times and poor contrast are typical of passive-matrix addressed LCDs.
+
+High- resolution color displays such as modern LCD computer monitors and televisions use an
+active matrix thin-film transistors (TFTs) is added to the polarizing and color filters.
+Each pixel has its own dedicated transistor , allowing each column line to access one pixel.
+When a row line is activated, all of the column lines are connected to a row of pixels and the
+correct voltage is driven onto all of the column lines. The row line is then deactivated and the
+next row line is activated. All of the row lines are activated in sequence during a refresh
+operation. Active-matrix addressed displays look "brighter" and "sharper" than
+passive-matrix addressed displays of the same size, and generally have quicker response
+times, producing much better images. structure. A matrix of
+
+
+
+[ edit ] Active matrix technologies
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Casio_LCD_screen_for_digital_camera.jpg/200px-Casio_LCD_screen_for_digital_camera.jpg
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png A Casio
+1.8" color TFT liquid crystal display which equips the Sony Cyber-shot DSC-P93A digital
+compact cameras Main articles: Thin film transistor liquid crystal display and
+Active-matrix liquid crystal display
+
+
+
+[ edit ] Twisted nematic (TN)
+
+
+
+Twisted nematic displays contain liquid crystal elements which twist and untwist at varying
+degrees to allow light to pass through. When no voltage is applied to a TN liquid crystal cell,
+the light is polarized to pass through the cell. In proportion to the voltage applied, the LC
+cells twist up to 90 degrees changing the polarization and blocking the light's path. By
+properly adjusting the level of the voltage almost any grey level or transmission can be
+achieved.
+
+For a more comprehensive description refer to the section on the twisted nematic field effect
+.
+
+
+
+[ edit ] In-plane switching (IPS)
+
+
+
+In-plane switching is an LCD technology which aligns the liquid crystal cells in a horizontal
+direction. In this method, the electrical field is applied through each end of the crystal,
+but this requires two transistors for each pixel instead of the single transistor needed for a
+standard thin-film transistor (TFT) display. This results in blocking more transmission
+area, thus requiring a brighter backlight, which will consume more power, making this type of
+display less desirable for notebook computers.
+
+
+
+[ edit ] Advanced Fringe Field Switching (AFFS)
+
+
+
+Advanced Fringe Field Switching is a similar technology to IPS or S-IPS offering superior
+performance and color gamut besides high luminosity. AFFS is developed by Boe Hydis
+Displays, Korea.
+
+AFFS-applied notebook applications minimize color distortion while maintaining its
+superior wide viewing angle for a professional display. Color shift and deviation caused by
+light leakage is corrected by optimizing the white gamut which also enhances white/grey
+reproduction.
+
+In premium IBM ThinkPad series notebooks, Boe Hydis AFFS displays are used to provide higher
+resolutions up to 1600x1200, UXGA (in some versions QXGA) in a relatively small 15 inch
+display setting. IBM also advertised these high end panels under their FlexView TM label.
+AFFS panels are mostly classified under the VIEWIZ TM name by Boe Hydis resembling premium
+performance.
+
+As of 2008, Hitachi acquired AFFS license to manufacture high end panels in their product
+line. Boe Hydis suspended their production of high quality displays however the company
+still advertises the benefits of the superior technology.
+
+
+
+[ edit ] Vertical alignment (VA)
+
+
+
+Vertical alignment displays are a form of LC displays in which the liquid crystal material
+naturally exists in a horizontal state removing the need for extra transistors (as in IPS).
+When no voltage is applied the liquid crystal cell, it remains perpendicular to the substrate
+creating a black display. When voltage is applied, the liquid crystal cells shift to a
+horizontal position, parallel to the substrate, allowing light to pass through and create a
+white display. VA liquid crystal displays provide some of the same advantages as IPS panels,
+particularly an improved viewing angle and improved black level.
+
+
+
+[ edit ] Blue Phase mode
+
+Main article: Blue Phase Mode LCD
+
+Blue phase LCDs do not require an LC top layer. Blue phase LCDs are relatively new to the
+market,and very expensive because of the low volume of production. They provide a higher
+refresh rate than normal LCDs, but normal LCDs are still cheaper to make and actually provide
+better colors and a sharper image. [ citation needed ] .
+
+
+
+[ edit ] Quality control
+
+
+
+Some LCD panels have defective transistors , causing permanently lit or unlit pixels which
+are commonly referred to as stuck pixels or dead pixels respectively. Unlike integrated
+circuits (ICs), LCD panels with a few defective pixels are usually still usable. It is also
+economically prohibitive to discard a panel with just a few defective pixels because LCD
+panels are much larger than ICs. Manufacturers have different standards for determining a
+maximum acceptable number of defective pixels. The maximum acceptable number of defective
+pixels for LCD varies greatly. At one point, Samsung held a zero-tolerance policy for LCD
+monitors sold in Korea. [ 18 ] Currently, though, Samsung adheres to the less restrictive ISO
+13406-2 standard. [ 19 ] Other companies have been known to tolerate as many as 11 dead pixels in
+their policies. [ 20 ] Dead pixel policies are often hotly debated between manufacturers and
+customers. To regulate the acceptability of defects and to protect the end user, ISO released
+the ISO 13406-2 standard. [ 21 ] However, not every LCD manufacturer conforms to the ISO
+standard and the ISO standard is quite often interpreted in different ways.
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/6/68/Lcd_defects.png/300px-Lcd_defects.png
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png Examples
+of defects in LCDs
+
+LCD panels are more likely to have defects than most ICs due to their larger size. In the example
+to the right, a 300 mm SVGA LCD has 8 defects and a 150 mm wafer has only 3 defects. However, 134 of
+the 137 dies on the wafer will be acceptable, whereas rejection of the LCD panel would be a 0%
+yield. The standard is much higher now due to fierce competition between manufacturers and
+improved quality control. An SVGA LCD panel with 4 defective pixels is usually considered
+defective and customers can request an exchange for a new one. Some manufacturers, notably in
+South Korea where some of the largest LCD panel manufacturers, such as LG, are located, now
+have "zero defective pixel guarantee", which is an extra screening process which can then
+determine "A" and "B" grade panels. Many manufacturers would replace a product even with one
+defective pixel. Even where such guarantees do not exist, the location of defective pixels is
+important. A display with only a few defective pixels may be unacceptable if the defective
+pixels are near each other. Manufacturers may also relax their replacement criteria when
+defective pixels are in the center of the viewing area.
+
+LCD panels also have defects known as mura , which look like a small-scale crack with very small
+changes in luminance or color . [ 22 ] It is most visible in dark or black areas of displayed
+scenes. Defects in various LCD panel components can cause mura effect. [ clarification
+needed ]
+
+
+
+[ edit ] Zero-power (bistable) displays
+
+
+
+The zenithal bistable device (ZBD), developed by QinetiQ (formerly DERA ), can retain an
+image without power. The crystals may exist in one of two stable orientations (Black and
+"White") and power is only required to change the image. ZBD Displays is a spin-off company
+from QinetiQ who manufacture both grayscale and color ZBD devices.
+
+A French company, Nemoptic, has developed another zero-power, paper -like LCD technology
+which has been mass-produced since July 2003. This technology is intended for use in
+applications such as Electronic Shelf Labels, E-books, E-documents, E-newspapers,
+E-dictionaries, Industrial sensors, Ultra-Mobile PCs, etc. Zero-power LCDs are a category
+of electronic paper .
+
+Kent Displays has also developed a "no power" display that uses Polymer Stabilized
+Cholesteric Liquid Crystals (ChLCD). The major drawback to the ChLCD is slow refresh rate,
+especially with low temperatures.
+
+In 2004 researchers at the University of Oxford demonstrated two new types of zero-power
+bistable LCDs based on Zenithal bistable techniques. [ 23 ]
+
+Several bistable technologies, like the 360° BTN and the bistable cholesteric, depend
+mainly on the bulk properties of the liquid crystal (LC) and use standard strong anchoring,
+with alignment films and LC mixtures similar to the traditional monostable materials. Other
+bistable technologies (i.e. Binem Technology) are based mainly on the surface properties
+and need specific weak anchoring materials.
+
+See Ferro Liquid Display for more information about ferro fluid based bistable displays.
+
+
+
+[ edit ] Drawbacks
+
+
+
+Image:
+http://upload.wikimedia.org/wikipedia/en/thumb/a/a7/ThinkPad_Viewing_Angle_Comparison.JPG/250px-ThinkPad_Viewing_Angle_Comparison.JPG
+
+Image: http://en.wikipedia.org/skins-1.5/common/images/magnify-clip.png Two IBM
+ThinkPad laptop screens viewed at an extreme angle.
+
+    LCD technology still has a few drawbacks in comparison to some other display
+    technologies:
+
+    - While CRTs are capable of displaying multiple video resolutions without introducing
+    artifacts, LCDs produce crisp images only in their native resolution and, sometimes,
+    fractions of that native resolution. Attempting to run LCD panels at non-native
+    resolutions usually results in the panel scaling the image , which introduces
+    blurriness or "blockiness" and is susceptible in general to multiple kinds of HDTV blur .
+    Many LCDs are incapable of displaying very low resolution screen modes (such as 320x200)
+    due to these scaling limitations.
+
+    
+
+    
+
+    - Some types of LCD displays have a more limited color resolution than advertised, and
+    must use spatial and/or temporal dithering to increase the apparent color depth. This
+    can cause a shimmering effect with some types of displays which can be distracting for
+    some users.
+
+    
+
+    
+
+    - Although LCDs typically have more vibrant images and better "real-world" contrast
+    ratios (the ability to maintain contrast and variation of color in bright environments)
+    than CRTs, they do have lower contrast ratios than CRTs in terms of how deep their blacks
+    are. A contrast ratio is the difference between a completely on (white) and off (black)
+    pixel, and LCDs can have "backlight bleed" where light (usually seen around corners of
+    the screen) leaks out and turns black into gray or even a bluish / purple tint with TN-film
+    based displays. However, as of 2009, the very best LCD TVs that do not use LED backlighting
+    can achieve a dynamic contrast ratio of 150,000:1.
+
+    
+
+    
+
+    - LCDs typically have longer response times than their plasma and CRT counterparts,
+    especially older displays, creating visible ghosting when images rapidly change. For
+    example, when moving the mouse quickly on an LCD, multiple cursors can sometimes be seen.
+    ** See also: CRT phosphor persistence
+
+    
+
+    
+
+        - LCDs appear to exhibit motion blur as the human eye follows moving objects, where
+        some CRT screens do not. This is because an individual LCD pixel is constantly
+        visible for the entire duration of a frame (typically 16.7ms), whereas a CRT pixel is
+        lit for only a fraction of a microsecond once per frame as the electron beam scans past
+        it. The means that even on a hypothetical LCD panel with a response time of zero, a
+        panning image will appear to have motion blur whereas a panning image on a CRT monitor
+        will not. This is caused by the movement of our eyes during the time the frame is
+        visible. Blur can be reduced by increasing the refresh rate to a multiple of the frame
+        rate (e.g. 120 or 240 Hz ) and employing various image processing techniques. Blur or
+        ghosting can be partially "corrected" using software techniques that present a
+        negative image of the blur to compensate by canceling-out the predicted blur. For
+        example, if a ghost image is caused by a left-over spot that is 5% brighter than
+        normal, the software will draw a negative of the ghost image that is minus-5 percent,
+        and the result will add up to the expected value (n + 5 - 5 = n). However, this technique
+        requires a processing delay, which can be problematic for fast-action video-game
+        usage. Some monitors even come with a "gaming mode" to turn off anti-ghosting when
+        needed.
+
+        - See also: CRT phosphor persistence
+
+        
+
+    
+
+    
+
+    
+
+    - LCD panels using TN tend to have a limited viewing angle relative to CRT and plasma
+    displays. This reduces the number of people able to conveniently view the same image –
+    laptop screens are a prime example. Usually when looking below the screen, it gets much
+    darker; looking from above makes it look lighter. This distorts the colors and makes
+    cheap LCD monitors unsuitable for work where color is important ( photography , fashion ,
+    etc) as the colors change when one moves one's eyes slightly up or down, or when looks at the
+    top of the screen or at the bottom from a fixed position. Many displays based on thin film
+    transistor variants such as IPS , MVA , or PVA , have much improved viewing angles;
+    typically the color only gets a little brighter when viewing at extreme angles, though
+    much of the improvements on viewing angles has been done on lateral angles, not on
+    vertical ones.
+
+    
+
+    
+
+    - Consumer LCD monitors tend to be more fragile than their CRT counterparts. The screen
+    may be especially vulnerable due to the lack of a thick glass shield as in CRT monitors.
+
+    
+
+    
+
+    - Dead pixels can occur when the screen is damaged or pressure is put upon the screen; few
+    manufacturers replace screens with dead pixels under warranty.
+
+    
+
+    
+
+    - Horizontal and/or vertical banding is a problem in some LCD screens. This flaw occurs as
+    part of the manufacturing process, and cannot be repaired (short of total replacement of
+    the screen). Banding can vary substantially even among LCD screens of the same make and
+    model. The degree is determined by the manufacturer's quality control procedures.
+
+    
+
+    
+
+    - The cold cathode fluorescent lamps typically used for back-lights in LCD screens
+    contain mercury , a toxic substance, though LED-backlit LCD screens are mercury-free.
+
+    
+
+    
+
+    - Pattern based flicker, caused by imperfect voltage balance. LCD Flicker tests - one or
+    more of the tests will usually demonstrate objectionable flicker, which can also show up
+    if the problem pattern occurs as a hatching pattern over a significant area.
+
+    
+
+
+
+
+
+[ edit ] Energy Efficiency
+
+
+
+Among newer TV models, the LCD displays require less energy on average than their plasma
+counterparts. A 42-inch LCD display consumes 203 Watts on average compared to 271 Watts
+consumed by a 42-inch Plasma display. [ 24 ]
+
+Energy use per inch is a better way of comparing differing technologies, CRT technology is
+more efficient using 0.23 Watts/square inch, while LCDs require 0.27 Watts/square inch.
+Plasma displays are on the high end at 0.36 Watts/square inch and DLP/rear projection TVs
+represent the low end at 0.14 Watts/square inch. [ 25 ]
+
+According to the U.S. EPA, if all TVs sold in the United States met Energy Star requirements
+(operate 30% more efficiently than standard models in both stand-by and active modes), we
+would see the equivalent GHG emissions reduction of taking a million cars off the road. [ 26 ]
+
+
+
+[ edit ] See also
+
+
+
+
+
+[ edit ] Related technology
+
+    
+
+    - Backlight
+
+    
+
+
+
+
+
+[ edit ] Other display technologies
+
+    
+
+        - Comparison of display technology
+
+        - Cathode ray tube (CRT)
+
+        
+
+        - Cholesteric liquid crystal (CLC)
+
+        
+
+        - Digital Light Processing (DLP)
+
+        
+
+        - Electroluminescent (EL)
+
+        
+
+        - Field emission display (FED)
+
+        
+
+        - Laser TV
+
+        
+
+        - Light-emitting diode (LED)
+
+        
+
+        - Liquid crystal on silicon (LCOS)
+
+        
+
+        - Organic light-emitting diode (OLED)
+
+        
+
+        - Plasma display panel (PDP)
+
+        
+
+        - Surface-conduction electron-emitter display (SED)
+
+        
+
+        - Vacuum fluorescent display (VFD)
+
+        
+
+    
+
+    
+
+
+
+
+
+[ edit ] Display applications
+
+    
+
+    - Television and digital television
+
+    
+
+    - Liquid crystal display television (LCD TV)
+
+    
+
+    - LCD projector
+
+    
+
+    - Computer monitor
+
+    
+
+    - Aircraft Instrumentation displays (see glass cockpit )
+
+    
+
+    - HD44780 Character LCD a widely accepted protocol for small LCD displays
+
+    
+
+
+
+
+
+[ edit ] Manufacturers
+
+    
+
+    - Acer (company)
+
+    
+
+    - Aoc
+
+    
+
+    - AU Optronics
+
+    
+
+    - Barco
+
+    
+
+    - BenQ
+
+    
+
+    - Boe Hydis (Formerly Hyundai Displays Korea)
+
+    
+
+    - Casio
+
+    
+
+    - Chi Mei Optoelectronics
+
+    
+
+    - CoolTouch Monitors
+
+    
+
+    - Corning Inc.
+
+    
+
+    - Dell
+
+    
+
+    - Eizo
+
+    
+
+    - Epson
+
+    
+
+    - Fujitsu
+
+    
+
+    - Hansol
+
+    
+
+    - Hitachi
+
+    
+
+    - HP
+
+    
+
+    - iiyama
+
+    
+
+    - International Display Works
+
+    
+
+    - JVC
+
+    
+
+    - Kyocera
+
+    
+
+    - Lenovo
+
+    
+
+    - LG Display
+
+    
+
+    - LXD Incorporated
+
+    
+
+    - Medion
+
+    
+
+    - NEC Display Solutions
+
+    
+
+    - Panasonic (Matsushita)
+
+    
+
+    - Polaroid Corporation
+
+    
+
+    - Powerlight
+
+    
+
+    - ProScan
+
+    
+
+    - Rca
+
+    
+
+    - Samsung Electronics
+
+    
+
+    - Sharp Corporation
+
+    
+
+    - S-LCD
+
+    
+
+    - Sony
+
+    
+
+    - Soyo
+
+    
+
+    - Toshiba
+
+    
+
+    - Videocon
+
+    
+
+    - Viewsonic
+
+    
+
+    - Vizio
+
+    
+
+    - Xerox
+
+    
+
+
+
+
+
+[ edit ] References
+
+    
+
+    1 - ^ CNET's Monitor Buying Guide
+
+    
+
+    2 - ^ Contemporary LCD Monitor Parameters: Objective and Subjective Analysis
+
+    
+
+    3 - ^ Temporal Resolution
+
+    
+
+    4 - ^ Contemporary LCD Monitor Parameters: Objective and Subjective Analysis (page 3)
+
+    
+
+    5 - ^ Tim Sluckin: Ueber die Natur der kristallinischen FlÃŒssigkeiten und
+    flÃŒssigen Kristalle ( The early history of liquid crystals ), Bunsen-Magazin,
+    7.Jahrgang, 5/2005
+
+    
+
+    6 - ^ George W. Gray, Stephen M. Kelly: "Liquid crystals for twisted nematic display
+    devices" , J. Mater. Chem., 1999, 9, 2037–2050
+
+    
+
+    7 - ^ R. Williams, “Domains in liquid crystals,” J. Phys. Chem., vol. 39, pp.
+    382–388, July 1963
+
+    
+
+    8 - ^ a b Castellano, Joseph A. (2006). "Modifying Light". American Scientist 94 (5): pp.
+    438–445.
+
+    
+
+    9 - ^ G. H. Heilmeier and L. A. Zanoni, “Guest-host interactions in nematic liquid
+    crystals. A new electro-optic effect,” Appl. Phys. Lett., vol. 13, no. 3, pp. 91–92,
+    1968
+
+    
+
+    10 - ^ G. H. Heilmeier, L. A. Zanoni, and L. A. Barton, “Dynamic scattering: A new
+    electrooptic effect in certain classes of nematic liquid crystals,” Proc. IEEE, vol.
+    56, pp. 1162–1171, July 1968
+
+    
+
+    11 - ^ http://www.invent.org/2009induction/1_3_09_induction_heilmeier.asp
+
+    
+
+    12 - ^ "Modifying Light" . American Scientist Online .
+    http://www.americanscientist.org/template/AssetDetail/assetid/53321/page/4;jsessionid=aaa6J-GFIciRx2%3Ci%3ELive
+    .
+
+    
+
+    13 - ^ Brody, T.P., "Birth of the Active Matrix" , Information Display, Vol. 13, No. 10,
+    1997, pp. 28-32.
+
+    
+
+    14 - ^ "Worldwide LCD TV shipments surpass CRTs for first time ever" . engadgetHD.
+    2008-02-19 .
+    http://www.engadgethd.com/2008/02/19/worldwide-lcd-tv-shipments-surpass-crts-for-first-time-ever/
+    . Retrieved on 2008-06-13 .
+
+    
+
+    15 - ^ "Displaybank's Global TV Market Forecasts for 2008 - Global TV market to surpass 200
+    million units" . Displaybank. 2007-12-05 .
+    http://www.displaybank.com/eng/info/news/press_show.php?id=2996 . Retrieved on
+    2008-06-13 .
+
+    
+
+    16 - ^ LIQUID GOLD, The Story of Liquid Crystal Displays and the Creation of an Industry,
+    2005 World Scientific Publishing Co. Pte. Ltd., ISBN 981-238-956-3
+
+    
+
+    17 - ^ Hiroshi Kawamoto: The History of Liquid-Crystal Displays , Proc. IEEE , Vol. 90, No.
+    4, April 2002
+
+    
+
+    18 - ^ "Samsung to Offer 'Zero-PIXEL-DEFECT' Warranty for LCD Monitors" . Forbes.com.
+    December 30, 2004 .
+    http://www.forbes.com/infoimaging/feeds/infoimaging/2004/12/30/infoimagingasiapulse_2004_12_30_ix_9333-0197-.html
+    . Retrieved on 2007-09-03 .
+
+    
+
+    19 - ^ "What is Samsung's Policy on dead pixels?" . Samsung. February 5, 2005 .
+    http://erms.samsungelectronics.com/customer/uk/jsp/faqs/faqs_view.jsp?SITE_ID=31&PG_ID=16&AT_ID=17628&PROD_SUB_ID=546
+    . Retrieved on 2007-08-03 .
+
+    
+
+    20 - ^ "Display (LCD) replacement for defective pixels - ThinkPad" . Lenovo. June 25, 2007
+    . http://www-307.ibm.com/pc/support/site.wss/document.do?lndocid=MIGR-4U9P53
+    . Retrieved on 2007-07-13 .
+
+    
+
+    21 - ^ "What is the ISO 13406-2 standard for LCD screen pixel faults?" . Anders Jacobsen's
+    blog. January 4, 2006 .
+    http://www.jacobsen.no/anders/blog/archives/2006/01/04/what_is_the_iso_134062_standard_for_lcd_screen_pixel_faults.html
+    .
+
+    
+
+    22 - ^ EBU – TECH 3320, "User requirements for Video Monitors in Television Production"
+    , EBU/UER, May 2007, p. 11.
+
+    
+
+    23 - ^ Dr Chidi Uche. "Development of bistable displays" . University of Oxford .
+    http://www.eng.ox.ac.uk/lc/research/Gratingstructures.html . Retrieved on
+    2007-07-13 .
+
+    
+
+    24 - ^ [1]
+
+    
+
+    25 - ^ "Draft Efficiency Standards for Television" (PDF). California Energy
+    Commission. December 2008 .
+    http://www.energy.ca.gov/2008publications/CEC-400-2008-028/CEC-400-2008-028-SD.PDF
+    . Retrieved on 2009-05-31 .
+
+    
+
+    26 - ^ [2]
+
+    
+
+
+
+
+
+[ edit ] External links - Tutorials
+
+
+
+    Image: http://upload.wikimedia.org/wikipedia/commons/d/d6/Ambox_style.png
+    This article's external links may not follow Wikipedia's content policies or
+    guidelines . Please improve this article by removing excessive or inappropriate
+    external links.
+
+    - Color LCD Interfacing ,LCD Interfacing with microcontroller
+
+    
+
+    - LCD info forum
+
+    
+
+    - Animated tutorial of LCD technology by 3M
+
+    
+
+
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/40px-Commons-logo.svg.png
+    Wikimedia Commons has media related to: Liquid Crystal Displays
+
+    - History and Physical Properties of Liquid Crystals by Nobelprize.org
+
+    
+
+    - Definitions of basic terms relating to low-molar-mass and polymer liquid crystals
+    (IUPAC Recommendations 2001)
+
+    
+
+    - An intelligible introduction to liquid crystals from Case Western Reserve University
+
+    
+
+    - Liquid Crystal Physics tutorial from the Liquid Crystals Group, University of
+    Colorado
+
+    
+
+    - Introduction to liquid crystals from the Liquid Crystal Technology Group, Oxford
+    University
+
+    
+
+    - Liquid Crystals & Photonics Group - Ghent University (Belgium) , good tutorial
+
+    
+
+    - Liquid crystals Liquid Crystals Interactive Online (not updated since 1999)
+
+    
+
+    - Liquid Crystal Institute Kent State University
+
+    
+
+    - Liquid Crystals a journal by Taylor&Francis
+
+    
+
+    - Molecular Crystals and Liquid Crystals a journal by Taylor&Francis
+
+    
+
+    - Hot-spot detection techniques for ic's
+
+    
+
+    - What are liquid crystals? from Chalmers University of Technology, Sweden
+
+    
+
+    - LCD display NEMA standards
+
+    
+
+    - NEMA information for LCD enclosures
+
+    
+
+
+
+
+
+[ edit ] General information
+
+    
+
+    - What is TFT and how it works , TFT LCD guide for dummies.
+
+    
+
+    - How LCDs are made , an interactive demonstration from AUO (LCD manufacturer).
+
+    
+
+    - Development of Liquid Crystal Displays: Interview with George Gray, Hull University,
+    2004 – Video by the Vega Science Trust.
+
+    
+
+    - History of Liquid Crystals – Presentation and extracts from the book Crystals that
+    Flow: Classic papers from the history of liquid crystals by its co-author Timothy J.
+    Sluckin
+
+    
+
+    - Oleg Artamonov (2007-01-23). "Contemporary LCD Monitor Parameters: Objective and
+    Subjective Analysis" . X-bit labs .
+    http://www.xbitlabs.com/articles/other/display/lcd-parameters.html .
+    Retrieved on 2008-05-17 .
+
+    
+
+    - Overview of 3LCD technology , Presentation Technology
+
+    
+
+    - LCD Module technical resources and application notes , Diamond Electronics
+
+    
+
+    - LCD Phase and Clock Adjustment , Techmind offers a free test screen to get a better LCD
+    picture quality than the LCDs "auto-tune" function.
+
+    
+
+    - How to clean your LCD screen About.com: PC Support
+
+    
+
+    - TFT Central LCD Monitor Reviews, Specs, Articles and News
+
+    
+
+    - FlatpanelsHD - Guide to flat panel monitors and TVs - LCD Monitor and LCD-TV Reviews,
+    Articles and News
+
+    
+
+    - Interfacing Alphanumeric LCD to Microcontroller
+
+    
+
+    - Animations explaining operation of LCD panels
+
+    
+
+[ hide ] v • d • e Display technology
+
+Video Vacuum fluorescent (VFD) · Cathode ray tube (CRT) · Plasma · Liquid crystal (LCD) ·
+Light emitting diode (LED) · Video projector display · Digital light processing (DLP) ·
+Liquid crystal on silicon (LCOS) Next generation of display technologies: Organic light
+emitting diode (OLED) · Surface-conduction electron-emitter (SED) · Field emission
+(FED) · Laser TV · Ferro Liquid (FLD) · Interferometric modulator display (IMOD) ·
+Thick-film dielectric electroluminescent (TDEL) · Nanocrystal · Quantum dot LED (QDLED)
+· Micro device (MDDP) · Time Multiplexed Optical Shutter (TMOS) · Transparent
+electroluminescent · Carbon nanotube (CNT) · Telescopic pixel (TPD) · Liquid crystal
+lasers (LCL) · High dynamic range (HDR)
+
+Non-video Electromechanical ( Flip-dot · Split-flap · Vane ) · Electronic paper ·
+Rollable · Eggcrate · Nixie tube · Transparency
+
+3D display Stereoscopic · Autostereoscopic · Computer Generated Holography ·
+Volumetric · Laser beam
+
+Static media Hologram · Movie projector · Neon sign · Rollsign · Slide projector
+
+Posted by COMPUTER GATE at 5:00 PM  
+
+Labels: education
+
+
+
+0 comments:
+
+    
+
+
+
+Post a Comment <_160Newer a="a" post="post"> Older Post >> Home Subscribe to: Post
+Comments (Atom) <!-- google_ad_client = "pub-1767152415190537"; google_ad_host =
+"pub-1556223355139109"; google_ad_host_channel="00000"; /* 468x60, created 7/29/08 */
+google_ad_slot = "9888295336"; google_ad_width = 468; google_ad_height = 60; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png @import
+url(http://www.google.com/cse/api/branding.css);
+
+Image: http://www.google.com/images/poweredby_transparent/poweredby_FFFFFF.gif
+Custom Search
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png obj=new
+Object;obj.clockfile="5009-blue.swf";obj.TimeZone="JOG";obj.width=220;obj.height=22;obj.wmode="transparent";showClock(obj);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png <!-- google_ad_client
+= "pub-1767152415190537"; google_ad_host = "pub-1556223355139109";
+google_ad_host_channel="00000"; /* 120x600, created 7/29/08 */ google_ad_slot =
+"5840276347"; google_ad_width = 120; google_ad_height = 600; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png View shoutbox
+
+Free chat widget @ ShoutMix
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Visitor
+
+
+
+Image: http://www.compteur.cc/tracking.php?id=676751 var compteurcc_adultvar = "0";
+blog photo
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2011 (1)
+
+        - ►  April (1)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2009 (5)
+
+            - ▼  June (1)
+
+            - LCD (Liquid Crystal Display)
+
+            
+
+        
+
+        
+
+        
+
+        - ►  January (4)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2008 (13)
+
+        - ►  October (9)
+
+        
+
+        
+
+        - ►  July (4)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Labels
+
+    
+
+    - education (9)
+
+    
+
+    - hardware (5)
+
+    
+
+    - software (4)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Best Product
+
+
+
+Image: http://images.tigerdirect.com/adserve/HPGeneric-120x600.jpg
+
+Image:
+http://ad.linksynergy.com/fs-bin/show?id=dZ*hHqCiY70&bids=102327.10000089&type=4&subid=0
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Online Advertising var
+sid = '34547'; var title_color = '000000'; var description_color = '646360'; var link_color
+= '7FBE00'; var background_color = 'FFFFFF'; var border_color = '646360';
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://images.tigerdirect.com/outsidebanners/gen-hot-728x90-2.gif
+
+Image:
+http://ad.linksynergy.com/fs-bin/show?id=dZ*hHqCiY70&bids=102327.10000025&type=4&subid=0
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Footer
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+  © Blogger template 'COMPUTER GATE#; by Ourblogtemplates.com 2008
+
+Back to TOP    if (window.jstiming) window.jstiming.load.tick('widgetJsBefore'); if
+(typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'7094449662711957905';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('http://www.blogger.com/rearrange?blogID\x3d7094449662711957905','//computer-gate.blogspot.com/2009/06/lcd-liquid-crystal-display.html','7094449662711957905');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'7094449662711957905', 'bloggerUrl': 'http://www.blogger.com', 'title': 'COMPUTER
+GATE', 'pageType': 'item', 'url':
+'http://computer-gate.blogspot.com/2009/06/lcd-liquid-crystal-display.html',
+'canonicalUrl':
+'http://computer-gate.blogspot.com/2009/06/lcd-liquid-crystal-display.html',
+'canonicalHomepageUrl': 'http://computer-gate.blogspot.com/', 'homepageUrl':
+'http://computer-gate.blogspot.com/', 'blogspotFaviconUrl':
+'http://computer-gate.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'analyticsAccountNumber': '', 'searchLabel': '',
+'searchQuery': '', 'pageName': 'LCD (Liquid Crystal Display)', 'pageTitle': 'COMPUTER
+GATE: LCD (Liquid Crystal Display)', 'encoding': 'UTF-8', 'locale': 'en-US',
+'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '',
+'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link
+rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42COMPUTER GATE -
+Atom\42 href\75\42http://computer-gate.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42COMPUTER GATE - RSS\42
+href\75\42http://computer-gate.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42COMPUTER GATE - Atom\42
+href\75\42http://www.blogger.com/feeds/7094449662711957905/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0757094449662711957905\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42COMPUTER GATE - Atom\42
+href\75\42http://computer-gate.blogspot.com/feeds/5808767052144014684/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript':
+'\74script type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'blogTitleFont': 'normal bold 199% Trebuchet,
+Trebuchet MS, Arial, sans-serif', 'mainVisitedLinkColor': '#78B749',
+'commentTextFont': 'normal normal 105% Arial, sans-serif', 'postfooterbgColor':
+'#f5f5f5', 'blogDescriptionFont': 'normal bold 84% Trebuchet, Trebuchet MS, Arial,
+sans-serif', 'sidebar2HeaderColor': '#2D8930', 'lowerbarLinkColor': '#000000',
+'commentboxBorderColor': '#ffffff', 'sidebar3VisitedLinkColor': '#2D8930',
+'postTitleColor': '#000000', 'postfooterTextColor': '#808080', 'commentTitleFont':
+'normal bold 130% Arial, sans-serif', 'blogframeColor': '#ffffff', 'linkbarbgColor':
+'#aad5ff', 'linkbarBorderColor': '#000000', 'sidebar3bgColor': '#ffffff',
+'sidebar3LinkColor': '#0066cc', 'sidebar3TextColor': '#000000', 'dateHeaderColor':
+'#4c4c4c', 'postfooterTextFont': 'normal normal 86% Arial, sans-serif',
+'sidebar1BorderColor': '#ffffff', 'sidebar2VisitedLinkColor': '#2D8930',
+'lowerbarListLineColor': '#e6e6e6', 'bodybgColor': '#aad5ff',
+'sidebar3HeaderBorderColor': '#000000', 'linkbarHoverBgColor': '#ffffff',
+'footerLinkColor': '#000000', 'sidebar2HeaderBorderColor': '#000000',
+'footerHeaderFont': 'normal bold 113% Arial, sans-serif', 'sidebarTextFont': 'normal
+normal 77% Arial, sans-serif', 'footerbgColor': '#ffffff', 'feedlinksColor':
+'#000000', 'sidebar2HeaderBgColor': '#0066cc', 'linkbarTextFont': 'normal bold 74%
+Arial, sans-serif', 'lowerbarVisitedLinkColor': '#2D8930', 'sidebar2LinkColor':
+'#000000', 'headerbgColor': '#0066cc', 'footerBorderColor': '#ffffff',
+'lowerbarTextColor': '#000000', 'lowerbarHeaderColor': '#000000',
+'sidebar1TextColor': '#000000', 'blogQuoteColor': '#333333', 'headerBorderColor':
+'#0066cc', 'sidebar3HeaderColor': '#ffffff', 'commentAuthorBgColor': '#f5f5f5',
+'postfooterBorderColor': '#e6e6e6', 'sidebar3HeaderBgColor': '#0066cc',
+'footerTextColor': '#2D8930', 'sidebar3HoverLinkColor': '#0066CC',
+'blogTitleColor': '#f5f5f5', 'footerHeaderColor': '#2D8930', 'lowerbarBorderColor':
+'#cccccc', 'sidebar2TextColor': '#000000', 'footerTextFont': 'normal normal 66% Arial,
+sans-serif', 'postbgColor': '#ffffff', 'sidebar2HoverLinkColor': '#0066CC',
+'linkbarTextColor': '#ffffff', 'sidebar1HeaderColor': '#2D8930', 'mainLinkColor':
+'#000000', 'linkbarHoverTextColor': '#000000', 'lowerbarbgColor': '#f5f5f5',
+'sidebar1HeaderBorderColor': '#000000', 'commentTitleColor': '#000000',
+'blogDescriptionColor': '#ffffff', 'commentauthorColor': '#2D8930',
+'contentbgColor': '#aad5ff', 'sidebar2BorderColor': '#ffffff', 'quoteFont': 'italic
+normal 97% Arial, sans-serif', 'lowerbarHoverLinkColor': '#0066CC', 'codeTextColor':
+'#333333', 'sidebar1HoverLinkColor': '#0066CC', 'mainHoverLinkColor': '#0066CC',
+'commentTabLinkColor': '#000000', 'textColor': '#333333', 'postTitleFont': 'normal
+bold 158% Verdana, sans-serif', 'contentBorderColor': '#ffffff',
+'footerHoverLinkColor': '#cc0000', 'textFont': 'normal normal 78% Trebuchet, Trebuchet
+MS, Arial, sans-serif', 'sidebar3BorderColor': '#ffffff', 'commentTextColor':
+'#4c4c4c', 'sidebar1bgColor': '#ffffff', 'sidebar1HeaderBgColor': '#0066cc',
+'sidebar1VisitedLinkColor': '#2D8930', 'sidebar2bgColor': '#ffffff',
+'linkbarmainBorderColor': '#aad5ff', 'imageBorderColor': '#999999',
+'postfooterLinkColor': '#808080', 'commentTimeStampColor': '#7f7f7f',
+'sidebar1LinkColor': '#000000', 'postBorderColor': '#ffffff', 'sidebarHeaderFont':
+'normal bold 118% Arial, sans-serif', 'footerVisitedLinkColor': '#000000',
+'mainsidebarbgColor': '#ffffff', 'dateHeaderFont': 'italic normal 89% Arial,
+sans-serif', 'blogBorderColor': '#ffffff'}, 'override': ''}}, {'name': 'view', 'data':
+{'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name':
+'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML7', 'sidebar1', null, document.getElementById('HTML7'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML2', 'sidebar1', null, document.getElementById('HTML2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML6', 'sidebar2', null, document.getElementById('HTML6'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML1', 'sidebar2', null, document.getElementById('HTML1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML5', 'main', null, document.getElementById('HTML5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/171424120-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML8', 'main', null, document.getElementById('HTML8'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML10', 'sidebar3', null, document.getElementById('HTML10'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar3', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LabelView', new
+_WidgetInfo('Label2', 'sidebar3', null, document.getElementById('Label2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML3', 'sidebar3', null, document.getElementById('HTML3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML4', 'footer', null, document.getElementById('HTML4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextView', new
+_WidgetInfo('Text1', 'footer', null, document.getElementById('Text1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML9', 'lowerads', null, document.getElementById('HTML9'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull'));
+

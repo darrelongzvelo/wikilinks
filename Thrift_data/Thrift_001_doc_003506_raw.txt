@@ -1,0 +1,1297 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); an unclear portrayal.: jolly as a bee. <!-- /*
+----------------------------------------------- Blogger Template Style Name: Minima
+Designer: Douglas Bowman URL: www.stopdesign.com Date: 26 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff"> <Variable name="textcolor" description="Text Color"
+type="color" default="#333"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#58a"> <Variable name="pagetitlecolor" description="Blog Title
+Color" type="color" default="#666"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#999"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#c60">
+<Variable name="bordercolor" description="Border Color" type="color" default="#ccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#999"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#999"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% Georgia, Serif"> <Variable
+name="headerfont" description="Sidebar Title Font" type="font" default="normal normal
+78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable
+name="pagetitlefont" description="Blog Title Font" type="font" default="normal normal
+200% Georgia, Serif"> <Variable name="descriptionfont" description="Blog Description
+Font" type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="postfooterfont" description="Post Footer Font"
+type="font" default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif"> <Variable name="startSide" description="Side where text starts in blog
+language" type="automatic" default="left"> <Variable name="endSide"
+description="Side where text ends in blog language" type="automatic" default="right"> */
+/* Use this with templates/template-twocol.html */ body { background:#131313; margin:0;
+color:#CECFD3; font:x-small Georgia Serif; font-size/* */:/**/small; font-size:
+/**/small; text-align: center; } a:link { color:#9E604F; text-decoration:none; }
+a:visited { color:#9E8C82; text-decoration:none; } a:hover { color:#CECFD3;
+text-decoration:underline; } a img { border-width:0; } /* Header
+----------------------------------------------- */ #header-wrapper { width:990px;
+margin:0 auto 0px; border:0px solid #D9E1DF; } #header-inner { background-position:
+center; margin-left: auto; margin-right: auto; } #header { margin: 0px 5px 1px 5px;
+border-left: 1px solid #D9E1DF; border-right: 1px solid #D9E1DF; border-top: 0px solid
+#D9E1DF; border-bottom: 1px solid #D9E1DF; text-align: center; color:#000000; } #header
+h1 { margin:5px 5px 0; padding:15px 20px .25em; line-height:1.2em;
+text-transform:uppercase; letter-spacing:.2em; font: normal normal 200% Georgia,
+Serif; } #header a { color:#000000; text-decoration:none; } #header a:hover {
+color:#000000; } #header .description { margin:0 5px 5px; padding:0 20px 15px;
+max-width:990px; text-transform:uppercase; letter-spacing:.2em; line-height: 1.4em;
+font: normal normal 77% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif; color:
+#FFFFFF; } #header img { margin-left: auto; margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 990px;
+margin:0px auto; padding:0px; text-align:left; font: normal normal 100% Trebuchet,
+Trebuchet MS, Arial, sans-serif; } #main-wrapper { background-color: #495E59;
+margin-left: 0.51%; padding-left: 0.51%; margin-top: 0%; margin-right: 0%;
+padding-right: 0.51%; width: 64.3%; float: left; word-wrap: break-word; /* fix for long
+text breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content
+breaking IE sidebar float */ } #sidebar-wrapper { background-color: #495E59;
+margin-right: 0.50%; margin-left: 0%; padding-right: 0.50%; padding-left: 0.65%; width:
+32.4%; float: right; word-wrap: break-word; /* fix for long text breaking sidebar float in IE
+*/ overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ } /*
+Headings ----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+border-bottom: solid; font:normal normal 76% 'Trebuchet
+MS',Trebuchet,Arial,Verdana,Sans-serif; line-height: 1.4em;
+text-transform:uppercase; letter-spacing:.2em; color:#D9E1DF; } /* Posts
+----------------------------------------------- */ h2.date-header { text-align:
+right; text-decoration: overline; text-transform: lowercase; letter-spacing: 7px;
+font-weight: bold; font-size: 120%; color: #131313; margin:10px 6px 0px; border-right:
+solid; border-bottom: dotted; border-width: 1px; } .post { margin:.5em 6px 1.5em;
+border-bottom:1px dotted #D9E1DF; padding-bottom:0.5em; } .post h3 { margin:.25em 0 0;
+padding:0 0 2px; border-bottom: 3px solid; font-size:140%; font-weight:normal;
+line-height:1.4em; color:#CECFD3; } .post h3 a, .post h3 a:visited, .post h3 strong {
+display:block; text-decoration:none; color:#CECFD3; font-weight:normal; } .post h3
+strong, .post h3 a:hover { color:#131313; } .post-body { margin:0 0 .75em;
+line-height:1.6em; } .post-body blockquote { line-height:1.3em; } .post-footer { margin:
+.75em 0; color:#D9E1DF; text-transform:uppercase; letter-spacing:.1em; font: normal
+normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif; line-height: 1.4em; }
+.comment-link { margin-left:.6em; } .post img { padding:4px; border:1px solid #D9E1DF; }
+.post blockquote { margin:1em 20px; } .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 6px;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #D9E1DF; } #comments-block { margin:1em 6px 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 6px; }
+#comments-block .comment-body { margin:.25em 0 0 27px; padding-top: 5px; padding-left:
+0px; border-top: dotted; border-width: 1px; } #comments-block .comment-footer {
+margin:-.25em 0 2em; text-align: right; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.1em; } #comments-block .comment-body p { margin:0 6px .75em; }
+.deleted-comment { font-style:italic; color:gray; } #blog-pager-newer-link { float:
+left; margin: auto 6px; } #blog-pager-older-link { float: right; margin: auto 6px; }
+#blog-pager { text-align: center; } .feed-links { clear: both; line-height: 2.5em; margin:
+auto 6px; } /* Sidebar Content ----------------------------------------------- */
+.sidebar { color: #A5B8B4; padding-left: 6px; padding-right: 6px; line-height: 1.5em; }
+.sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; } .sidebar li { margin:0;
+padding-top:0; padding-right:0; padding-bottom:.25em; padding-left:15px;
+text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main .widget {
+border-bottom:1px dotted #D9E1DF; margin:0 0 1.5em; padding:0 0 0; } .main .Blog {
+border-bottom-width: 0; } /* Profile -----------------------------------------------
+*/ .profile-img { float: left; margin-top: 0; margin-right: 5px; margin-bottom: 5px;
+margin-left: 0; padding: 4px; border: 1px solid #D9E1DF; } .profile-data { margin:0;
+text-transform:uppercase; letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS',
+Trebuchet, Arial, Verdana, Sans-serif; color: #D9E1DF; font-weight: bold; line-height:
+1.6em; } .profile-datablock { margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0;
+line-height: 1.6em; } .profile-link { font: normal normal 78% 'Trebuchet MS', Trebuchet,
+Arial, Verdana, Sans-serif; text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:990px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } -->
+span.fullpost {display:inline;} var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0756615690165631042645\46blogName\75an+unclear+portrayal.\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75DARK\46layoutType\75LAYOUTS\46searchRoot\75http://1059001.blogspot.com/search\46blogLocale\75en_CA\46v\0752\46homepageUrl\75http://1059001.blogspot.com/\46targetPostID\0757396577715925197430\46blogPostOrPageUrl\75http://1059001.blogspot.com/2009/07/jolly-as-bee.html\46vt\75-5617391070232081113',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+Image:
+http://2.bp.blogspot.com/_6TtEvPSg6ak/SoEj_RjxAaI/AAAAAAAAAIk/ehA0LnHjVxk/S1600-R/blogheader4.bmp
+
+Saturday, 11 July, 2009
+
+
+
+jolly as a bee.
+
+
+
+What's good, stranger?
+
+
+
+Today, I was at Macy's on the Vegas Strip, and one of your kind came up to me and took me by
+surprise.
+
+
+
+I was walking around Fashion Show Mall with my brother, and ended up spending a bunch of time at
+Macy's. Looking around, I found this nice suit vest thingy (or I guess waistcoat thinger, if
+you speak non-Canadian Commonwealth English). I tried it on in front of a mirror, but I decided
+it wasn't that great. Hanger in hand, I walked a ways back to where I found it, and as I was about to
+put it back this guy says " Excuse me " and I turn around. He's pretty well dressed, and has a pair
+of those large, vintage glasses that are starting to pop up everywhere (and that, I have to
+reluctantly admit, I would like to get myself [Read: Oh no, is this the beginning of a hipster
+?]). Anyways, he asks me " Do you work here? " and I reply with " No, sorry " and then he says, " Oh...
+you look stylish enough to work here. " And then walks away.
+
+
+
+Whaaaaat? That was pretty cool, ahahah.
+
+
+
+I put away the vest, and I think about what I'm wearing. Clean, simple, but it was probably the
+keffiyeh (eurgh, yeah... whatever). I look around for some actual employees, and realize
+that I sort of look like them, more or less. Okay, sure. I take it as a compliment.
+
+
+
+
+
+Today was nice... went around the Strip again, and found some surprisingly good bubble tea and
+Japanese fast food. Really good. Christ, I love eating. I do it as a hobby.
+
+
+
+
+
+Image: http://img11.imageshack.us/img11/9202/img00222z.jpg Slushie bubble tea beats
+the heat.
+
+
+
+Yesterday, though. OH GEEZE. I sort of was in a happy daze all of yesterday evening, since for
+the first time in my 18 years alive as a Filipino person I finally ate at a Jollibee for the very
+first time. It was REALLY good, and I ordered A LOT of food.
+
+
+
+What is Jollibee, you ask? It's the McDonald's of Southeast Asia . Except very much less
+despised and far more not un-nutritious. Actually, it's the only fast-food chain that has
+been able to outdo Mickey D's anywhere in the world. To be completely honest, if there was any
+reason for me to have come to Las Vegas, it would be to finally have some Jollibee.
+
+
+
+
+
+Image: http://img194.imageshack.us/img194/2415/dsc08577.jpg Chickenjoy, rice, Jolly
+Crispy Fries, "Heavyweight" Yumburger, sweet (Filipino-style) spaghetti, Peach Mango
+Pie. Too good.
+
+I was actually surprised to learn that it was the first time my Filipino parents had Jollibee
+too... it was formed in the Philippines after they immigrated to the middle of nowhere, Canada
+more than two decades ago.
+
+
+
+
+
+That day, we also went to Hoover Dam , among other things (like a Filipino convention at South
+Point, the Strip again, etc.). We took a tour, and it was really interesting and fun, actually.
+I kept thinking about the Transformers movie .
+
+
+
+
+
+Image: http://img36.imageshack.us/img36/8461/dsc08491c.jpg
+
+
+
+Image: http://img16.imageshack.us/img16/6801/dsc08511a.jpg
+
+
+
+Image: http://img194.imageshack.us/img194/8186/dsc08525q.jpg Hoover Dam, one of the
+man-made wonders of the world.
+
+
+
+
+
+Image: http://img36.imageshack.us/img36/6537/dsc08515.jpg Just chillen in hoover dam
+no biggie, lulz.
+
+
+
+Image: http://img16.imageshack.us/img16/6674/dsc08542u.jpg WTF, stop it.
+
+
+
+Needless to say, yesterday was a very good day for me.
+
+
+
+
+
+Image: http://img16.imageshack.us/img16/233/dsc08588g.jpg Repping tourism,
+Asian-style. No fear... NO SHAME, or as the Filipino would say...
+
+
+
+WALANG HIYA KA!
+
+
+
+Deep...
+
+
+
+
+
+Image: http://img268.imageshack.us/img268/9652/signatureoep.png Left on the internet
+by Marzan at 11:28 PM
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Filed under: [travels] ,
+God smiled upon the earth when man invented jollibee , insights on the filipino psyche , i’d
+like to be hipster without all the negative connotations but i don’t know if that’s
+possible
+
+2 comments:
+
+    
+
+        
+
+    
+
+
+
+    Image: http://img1.blogblog.com/img/blank.gif Anonymous said...
+
+        
+
+        HOLY CRAP WHAT??!!!!!!!! YOUR PARENTS NEVER HAD JOLLIBEE??? I'm so baffled, I can't
+        even think properly. I had to re-read that sentence.
+
+        
+
+        Those are some really big peach mango pies. they are usually only three fingers wide
+        and tiny.
+
+        T&T just had some really good mangoes this week. My mom has learnt to make peach mango
+        pie. You're now jealous. I just know it.
+
+        
+
+        the last time I had that meal (almost exact, minus burger.) it cost me about $3.75.
+
+        
+
+        Glad your vegas trip was pretty super duper.
+
+        
+
+        I think you can guess who this is.
+
+        Ciao
+
+    
+
+        16 July, 2009 5:21 AM
+
+        Image: //www.blogger.com/img/icon_delete13.gif
+
+    
+
+        
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/blank.gif
+
+    Image:
+    http://2.bp.blogspot.com/_6TtEvPSg6ak/Skf5ZKusrsI/AAAAAAAAAGI/J0r_KLB1dXc/S45/blogpic.jpg
+    Marzan, A. said...
+
+        
+
+        wow, please give me the recipe, or i might just have to break into your house...
+        again...
+
+    
+
+        16 July, 2009 11:02 PM
+
+        Image: //www.blogger.com/img/icon_delete13.gif
+
+    
+
+
+
+Post a Comment Newer Post Older Post Home Subscribe to: Post Comments (Atom)
+
+PROFILE
+
+
+
+    Image:
+    http://2.bp.blogspot.com/_6TtEvPSg6ak/S4Dm42gcA7I/AAAAAAAAAKU/KsqkGbJNhKM/S220/karsh+image.png
+
+        Marzan
+
+    
+
+        Edmonton, Alberta, Canada
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+PREAMBLE
+
+hi.
+
+best viewed in firefox, 1280x800, with rose-tinted glasses or a positive outlook...
+
+or not, your call.
+
+
+
+But what is this blog about? Let's see...
+
+Indeterminate accounts of rather pedestrian occurrences and, perhaps, occasionally
+exciting , engaging , and interesting circumstances from the position of a
+globally-interested university student. ... or whatever.
+
+Uhm... yeah, I'm not too sure either...
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+WHO YOU'RE DEALING WITH
+
+
+
+Image:
+http://1.bp.blogspot.com/_6TtEvPSg6ak/S4DG9zVb5yI/AAAAAAAAAJc/rhFZO0snp9s/S1600-R/karsh+image.png
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+MOUNTAIN STANDARD TIME
+
+The time told in the shadow of the Rockies. obj = new Object;obj.clockfile =
+"5012-black.swf";obj.TimeZone = "MST";obj.width = 227;obj.height = 75;obj.wmode =
+"transparent";showClock(obj);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+THIS IS LIJIT
+
+Lijit Search
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+FOLLOWERS
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.currentPost =
+"http://www.blogger.com/feeds/6615690165631042645/posts/default/7396577715925197430";
+holder.currentComments =
+"http://www.blogger.com/feeds/6615690165631042645/7396577715925197430/comments/default";
+holder.currentPostUrl = ""; holder.currentPostId = 7396577715925197430
+holder.postFeed =
+"http://www.blogger.com/feeds/6615690165631042645/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/6615690165631042645/comments/default";
+holder.currentBlogUrl = "http://1059001.blogspot.com/"; holder.currentBlogId =
+"6615690165631042645"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "FOLLOWERS";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#A5B8B4"; skin['ENDCAP_LINK_COLOR'] = "#9E604F";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#9E604F"; skin['CONTENT_TEXT_COLOR'] =
+"#A5B8B4"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#9E604F";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#FFFFFF"; skin['CONTENT_HEADLINE_COLOR'] =
+"#CECFD3"; skin['FONT_FACE'] = "normal normal 100% Trebuchet, Trebuchet MS, Arial,
+sans-serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-n298pu701sk2",
+height: 260, site: "13864140223781322288", locale: 'en_CA' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+ACCUMULATION
+
+    
+
+        - ►  2010 (13)
+
+        - ►  May (1)
+
+        
+
+        
+
+        - ►  April (2)
+
+        
+
+        
+
+        - ►  March (2)
+
+        
+
+        
+
+        - ►  February (2)
+
+        
+
+        
+
+        - ►  January (6)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2009 (33)
+
+        - ►  December (1)
+
+        
+
+        
+
+        - ►  October (2)
+
+        
+
+        
+
+        - ►  September (4)
+
+        
+
+        
+
+        - ►  August (11)
+
+        
+
+        
+
+            - ▼  July (11)
+
+            - the housewife who led a revolution.
+
+            
+
+            - plans and provisions.
+
+            
+
+            - looking back.
+
+            
+
+            - the house of judgment.
+
+            
+
+            - new places.
+
+            
+
+            - downtown vegas.
+
+            
+
+            - jolly as a bee.
+
+            
+
+            - calgary, coutts, clark street, cedar city, etc.
+
+            
+
+            - zen.
+
+            
+
+            - how i spend my fourth of july.
+
+            
+
+            - canada day.
+
+            
+
+        
+
+        
+
+        
+
+        - ►  June (4)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2007 (8)
+
+        - ►  April (4)
+
+        
+
+        
+
+        - ►  March (3)
+
+        
+
+        
+
+        - ►  February (1)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+LISTEN
+
+Music that I've featured in some post or another.
+
+Needs to be redone, as you can probably tell. Will do... later.
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+CHATBOX
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+VISITOR MAP
+
+Because every so often, we all like to be reminded that somehow we're capable of causation,
+that someone has taken even a small interest, that we're all interconnected...
+
+Or, you know, because it's just kinda cool to see where your accidental readers are from.
+
+
+
+Image:
+http://www2.clustrmaps.com/counter/index2.php?url=http://1059001.blogspot.com/
+
+
+
+Image: http://c8.amazingcounters.com/counter.php?i=1691617&c=5075164
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+FILTER
+
+    
+
+    - "everyone's having a good time" (1)
+
+    
+
+    - "we are breaking... breaking... at last we arrived" (1)
+
+    
+
+    - [an other green world] (2)
+
+    
+
+    - [arts] (10)
+
+    
+
+    - [noise] (6)
+
+    
+
+    - [the daily] (24)
+
+    
+
+    - [travels] (3)
+
+    
+
+    - a ban on sleep deprivation could be useful (1)
+
+    
+
+    - alarm clock failures with excellent results (1)
+
+    
+
+    - all live music should always be an enjoyable experience (1)
+
+    
+
+    - all you can eat at zen again (possibly with “expendable stomachs”) (1)
+
+    
+
+    - american remakes of asian horror films that leave something to be desired (1)
+
+    
+
+    - americans celebrating their national holiday on canadian soil in a rather unexciting
+    manner (1)
+
+    
+
+    - anthropologie has nice food covers (1)
+
+    
+
+    - as per the commercial "i am canadian" but keep in mind i am a bunch of other things too (1)
+
+    
+
+    - attempts to make blogging more meaningful (1)
+
+    
+
+    - awareness is the first step (1)
+
+    
+
+    - barcelona missed out... on me? QQ (1)
+
+    
+
+    - better days (1)
+
+    
+
+    - blog-related propositions that i can hopefully live up to (1)
+
+    
+
+    - blood is thicker than molasses (deep?) (1)
+
+    
+
+    - broadway calibre theatrics at the mtv vmas (1)
+
+    
+
+    - changing the demographics of montana (1)
+
+    
+
+    - complexities of the cultural psyche (1)
+
+    
+
+    - crazies on the lrt (1)
+
+    
+
+    - creative ways to use microsoft onenote (1)
+
+    
+
+    - damn you wikipedia and your wealth of unnecessary knowledge (1)
+
+    
+
+    - decent butter chicken isn’t that difficult to procure (1)
+
+    
+
+    - don't mind me i'm just gonna hold my hand up to my face and make face contortions for no
+    reason at all (1)
+
+    
+
+    - down with facebook and mainstream music they're just extensions of... the man (1)
+
+    
+
+    - duck in a box almost sounds like dick in a box (1)
+
+    
+
+    - dystopian literature is my favourite literary genre (1)
+
+    
+
+    - edmonton’s okay (2)
+
+    
+
+    - embarrassingly/excruciatingly detailed accounts of my life (1)
+
+    
+
+    - equality and rations for everyone (1)
+
+    
+
+    - examples of me "thinking on paper" (or on the computer screen in this case) (1)
+
+    
+
+    - exciting conversations with korean tourists (1)
+
+    
+
+    - far off i see the twisted rotting corpse that is university work slowly inching its way
+    towards me but i'm not too concerned actually (1)
+
+    
+
+    - God smiled upon the earth when man invented jollibee (1)
+
+    
+
+    - going from one side of campus to another in unseasonably warm weather isn't all too fun
+    (1)
+
+    
+
+    - great escapes however small (1)
+
+    
+
+    - hanging prepositions everywhere (1)
+
+    
+
+    - hey fall term any day now (1)
+
+    
+
+    - hey let's have a heart-to-heart about where i am in life right now (1)
+
+    
+
+    - hi i'm back i guess (1)
+
+    
+
+    - higher forces prevent me from having bubble tea (1)
+
+    
+
+    - how i'm giving up the gun (1)
+
+    
+
+    - i actually don't believe i'll be cast into the lake of fire thanks (1)
+
+    
+
+    - i begin my foray into the art of the comic strip (1)
+
+    
+
+    - i can't get over how good of a film district 9 is (1)
+
+    
+
+    - i feel in a way that i am a little bit more connected to my parents' homeland if only for a
+    moment (1)
+
+    
+
+    - i feel like i'm on the mekong wearing a paddy hat and eating pho (1)
+
+    
+
+    - i missed out on the potato museum in idaho (1)
+
+    
+
+    - i only want to drink tea (1)
+
+    
+
+    - i should go pack my suitcase now (1)
+
+    
+
+    - i think i suck at self-deprecation... how doubly ironic or something (1)
+
+    
+
+    - i think of getting back into a spirit of volunteerism (1)
+
+    
+
+    - i wish edmonton would expand the lrt to the westside already (1)
+
+    
+
+    - i wonder if my celery is arvadan (1)
+
+    
+
+    - i wonder when the next spoken word performance in edmonton will be (1)
+
+    
+
+    - i'd rather stay here in las vegas for a few more days (1)
+
+    
+
+    - i'm 18 and without learner's it's pathetic (1)
+
+    
+
+    - i'm actually pretty excited about this comic thing (1)
+
+    
+
+    - i'm filipino therefore i will be late (2)
+
+    
+
+    - i'm lovin' it® (1)
+
+    
+
+    - i'm notorious for taking blurry pics but that's a-ok (1)
+
+    
+
+    - i've dropped my cell phone again (1)
+
+    
+
+    - idle hands are the devil's tools... *head starts turning to rather unholy angles* (1)
+
+    
+
+    - insights on the filipino psyche (1)
+
+    
+
+    - is it just me or is the uk invading american media (1)
+
+    
+
+    - i’d like to be hipster without all the negative connotations but i don’t know if
+    that’s possible (1)
+
+    
+
+    - let's hear it for new york (1)
+
+    
+
+    - let's hope i don't accientally slice anyone open today (1)
+
+    
+
+    - literary techniques: copy-and-paste? (1)
+
+    
+
+    - literary techniques: foreshadowing (1)
+
+    
+
+    - literary techniques: unreliable narrator (1)
+
+    
+
+    - make asian cultural immersion for good time (1)
+
+    
+
+    - march 2nd 2010 will be the only morning where i don't feel like a zombie (1)
+
+    
+
+    - maybe i should time the moments i drink water during conversation more thoughtfully (1)
+
+    
+
+    - moments in life that make you stop and think (1)
+
+    
+
+    - moritz is such a fool for resisting the advances of his childhood friend ilse the cute
+    bohemian living in an artists' colony (1)
+
+    
+
+    - mots d'heures: gousses rames (1)
+
+    
+
+    - my interests include eating (4)
+
+    
+
+    - my right eye’s turning pink… is that bad? (1)
+
+    
+
+    - mysterious manual injuries abound (1)
+
+    
+
+    - nobody believes me when i say i’m not mafia (1)
+
+    
+
+    - note to self: the ctrl-s function is your friend (1)
+
+    
+
+    - oh hey i’m in second year now (1)
+
+    
+
+    - oh you write poetry how nice... bahahah (1)
+
+    
+
+    - our capacity for humanity is truly amazing (1)
+
+    
+
+    - parades filled with zombies and disappointment (1)
+
+    
+
+    - pardon my french (1)
+
+    
+
+    - parentheses everywhere (1)
+
+    
+
+    - people in chem 263 a4 should forget to pay their confirmation deposits so that seats open
+    up and i can register for it already (1)
+
+    
+
+    - pharmacology is... interesting (1)
+
+    
+
+    - poetry with a punch (1)
+
+    
+
+    - random facts (2)
+
+    
+
+    - reading week is for reading... BAHAHAHHAH (1)
+
+    
+
+    - reasons why i love the arts (1)
+
+    
+
+    - recession? what recession? (1)
+
+    
+
+    - red cross is slowly taking over my life (1)
+
+    
+
+    - references to arrested development (1)
+
+    
+
+    - satan ne te fÃªte (1)
+
+    
+
+    - sci-fi movies with profound underlying themes (1)
+
+    
+
+    - slight to very mild cultural ambiguity (1)
+
+    
+
+    - stupid schedule-building mishaps (1)
+
+    
+
+    - the heritage festival is probably one of the best things about edmonton (1)
+
+    
+
+    - there ain't no party like a... communist party? (1)
+
+    
+
+    - things that happen when the university raises tuition (1)
+
+    
+
+    - thoughts on the recent earthquake in haiti (1)
+
+    
+
+    - today at 11:08 am i had tomato macaroni soup (1)
+
+    
+
+    - uh brb gonna go workout and eat some steaks this feelings stuff makes me feel all weird (1)
+
+    
+
+    - unemployment rears its ugly head (1)
+
+    
+
+    - unnecessary anxiety over insufficient hair (1)
+
+    
+
+    - uuuhhhhh.. wtf? (1)
+
+    
+
+    - various animals invade my living space (1)
+
+    
+
+    - werther's original makes really good caramels (1)
+
+    
+
+    - where is my thai food? i'd like some right now (1)
+
+    
+
+    - who needs hallucinogenic drugs when you’ve got baby boomers nostalgic for the flower
+    power era (1)
+
+    
+
+    - Ã  ou clÃ© vert... caille en douve... nos thÃ©ories lit (1)
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png   if
+(window.jstiming) window.jstiming.load.tick('widgetJsBefore'); if
+(typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'6615690165631042645';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d6615690165631042645','//1059001.blogspot.com/2009/07/jolly-as-bee.html','6615690165631042645');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'6615690165631042645', 'bloggerUrl': 'http://www.blogger.com', 'title': 'an unclear
+portrayal.', 'pageType': 'item', 'url':
+'http://1059001.blogspot.com/2009/07/jolly-as-bee.html', 'canonicalUrl':
+'http://1059001.blogspot.com/2009/07/jolly-as-bee.html', 'canonicalHomepageUrl':
+'http://1059001.blogspot.com/', 'homepageUrl': 'http://1059001.blogspot.com/',
+'blogspotFaviconUrl': 'http://1059001.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'jolly as a bee.', 'pageTitle': 'an unclear portrayal.: jolly as a bee.', 'encoding':
+'UTF-8', 'locale': 'en-CA', 'isPrivate': false, 'isMobile': false, 'isMobileRequest':
+false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr',
+'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42an unclear portrayal. - Atom\42
+href\75\42http://1059001.blogspot.com/feeds/posts/default\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42an unclear
+portrayal. - RSS\42
+href\75\42http://1059001.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42an unclear portrayal. - Atom\42
+href\75\42http://www.blogger.com/feeds/6615690165631042645/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0756615690165631042645\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42an unclear portrayal. - Atom\42
+href\75\42http://1059001.blogspot.com/feeds/7396577715925197430/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript':
+'\74script type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#A5B8B4', 'linkcolor':
+'#9E604F', 'visitedlinkcolor': '#9E8C82', 'textcolor': '#CECFD3', 'headerfont':
+'normal normal 76% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif',
+'pagetitlefont': 'normal normal 200% Georgia, Serif', 'bgcolor': '#131313',
+'descriptioncolor': '#FFFFFF', 'titlecolor': '#CECFD3', 'bordercolor': '#D9E1DF',
+'postfooterfont': 'normal normal 78% \47Trebuchet MS\47, Trebuchet, Arial, Verdana,
+Sans-serif', 'pagetitlecolor': '#000000', 'bodyfont': 'normal normal 100% Trebuchet,
+Trebuchet MS, Arial, sans-serif', 'endSide': 'right', 'startSide': 'left',
+'descriptionfont': 'normal normal 77% \47Trebuchet MS\47, Trebuchet, Arial, Verdana,
+Sans-serif', 'sidebarcolor': '#D9E1DF'}, 'override': ''}}, {'name': 'view', 'data':
+{'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name':
+'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_ProfileView', new
+_WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_TextView', new
+_WidgetInfo('Text1', 'sidebar', null, document.getElementById('Text1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ImageView', new
+_WidgetInfo('Image2', 'sidebar', null, document.getElementById('Image2'),
+{'resize': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar',
+null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar',
+null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1',
+'sidebar', null, document.getElementById('Followers1'), {'title': 'FOLLOWERS',
+'codeSnippet': '\74script type\75\42text/javascript\42\76\n if (!window.google ||
+!google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.currentPost \75
+\42http://www.blogger.com/feeds/6615690165631042645/posts/default/7396577715925197430\42;\n
+\n \n \n holder.currentComments \75
+\42http://www.blogger.com/feeds/6615690165631042645/7396577715925197430/comments/default\42;\n
+\n holder.currentPostUrl \75 \42\42;\n holder.currentPostId \75 7396577715925197430\n
+\n \n \n holder.postFeed \75
+\42http://www.blogger.com/feeds/6615690165631042645/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/6615690165631042645/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://1059001.blogspot.com/\42;\n
+holder.currentBlogId \75 \0426615690165631042645\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-1ajqq2ysm6lgy\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42FOLLOWERS\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#A5B8B4\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#9E604F\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#9E604F\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#A5B8B4\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#9E604F\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#FFFFFF\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#CECFD3\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 100% Trebuchet, Trebuchet MS, Arial, sans-serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-1ajqq2ysm6lgy\42,\n height: 260,\n \n \n \n site:
+\04213864140223781322288\42,\n \n locale: \47en_CA\47 },\n skin);\n \74/script\076'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML3', 'sidebar', null, document.getElementById('HTML3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML4', 'sidebar', null, document.getElementById('HTML4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML5', 'sidebar', null, document.getElementById('HTML5'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LabelView', new
+_WidgetInfo('Label1', 'sidebar', null, document.getElementById('Label1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

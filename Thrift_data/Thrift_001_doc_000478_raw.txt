@@ -1,0 +1,1438 @@
+
+
+
+
+LIFESTYLES OF THE DC REGIONSÂŽ RICH AND FAMOUS (Part 1) (function() { var cx =
+'016474116467456296202:zcdp2tq_pxi' var gcse = document.createElement('script');
+gcse.type = 'text/javascript'; gcse.async = true; gcse.src =
+(document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/headers/ar_home_logo.png?1348686621
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_b_search.png?1348686621
+    var currentIndex = -1 var default_phrase = "Find Homes for Sale in your city"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686621
+        Consumer
+
+        - Home Improvement
+
+        
+
+        - Home Buying
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Home Selling
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686621
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  body { background: #FFCC99 ; margin: 0; padding: 0; } table#blog_content { width: 960px;
+margin: 0 auto; } td.blog_content_td { background: #ffffff; } #top_menu { border: none;
+background-color:#3399FF; background-image: none; } #top_menu li a, #top_menu li
+span.fake_menu_item { color: #FFFFFF; text-shadow: none; } #top_menu .top_dropdown ul li
+a:hover { background: none !important; } #logo_wrapper { background: white; } #header {
+margin-top: 0; padding-top: 0; border: none !important; } .nav { margin: 0 !important;
+border-width: 0 !important; } #top_menu .top_dropdown { border: none;
+background-color:#3399FF; } #top_menu .top_dropdown a, #top_menu .top_dropdown
+.inner_menu_header { color:#FFFFFF !important; } #top_menu .top_dropdown
+.inner_menu_header { text-decoration: underline; } #top_menu .top_dropdown ul li a:hover
+{ background-color:#3399FF; font-weight: bold; } .top_dropdown { margin-top: 5px; } * html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * + html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * html
+.top_dropdown { margin-top: 3px; z-index: 1000; } * + html .top_dropdown { margin-top: 19px;
+z-index: 1000; } Home : Blogs : Michael Hamby : Michael's Chesapeake Bay Regional Real Estate
+Blog .reblog { margin-left: 4px; } Tweet
+
+LIFESTYLES OF THE DC REGIONSÂŽ RICH AND FAMOUS (Part 1)
+
+
+
+LIFESTYLES OF THE DC REGIONS´ RICH AND FAMOUS (Part 1)
+
+I was curious as to how the other half (actually 1/2 of 1/2 of 1/2 of 1%) lives, so I decided to
+do some research on the Estates of the Rich & "Famous" in the Washington DC area.
+
+ 
+
+Here´s what I found...
+
+
+
+
+
+Image:
+http://csmatrix.mris.com:6103/platinum/getmedia?ObjectKey=90062925905&MEDT=10000000316&LOOT=50000881745
+
+CLICK HERE FOR MORE INFO
+
+1623 28TH ST NW
+
+WASHINGTON, DC  20007
+
+MLS #: DC6891790
+
+$39,500,000
+
+9 Bedrooms, 6 Full, 5 Half Bathrooms
+
+
+
+New Price. FIRST TIME AVAILABLE IN 85 YEARS! EVERMAY, a magnificent,gated,historic estate
+on 3.5+ acres in a tranquil setting w/ majestic grounds&gardens,Dining room seats
+40,orangerie/ballroom, guesthouse+studio-annex, parking for 100 cars,overlooks
+Washington Monument,Rock Creek Park. Advance registration required.Attorney zoning
+opinion available-nonprofit,university etc.
+
+Listed by Jeanne Livingston
+
+Long & Foster Real Estate, Inc.
+
+or call 410-224-7184
+
+
+
+About the seller...
+
+
+
+All three lots are owned by Harry L. Belin, whose grandfather, international diplomat F.
+Lammot Belin, bought Evermay in 1923.
+
+Lammot Belin and his wife, Frances, created Evermay's much-admired gardens in 1931. They
+also restored the 22-room house designed in the early 1790s by Nicholas King, surveyor of the
+City of Washington. King planned Evermay with its first owner, Samuel Davidson, a Scotsman
+who financed the construction in part by selling off other Washington land he owned,
+including the sites of the White House, Treasury Department and Lafayette Park. 
+
+
+
+
+
+Image:
+http://csmatrix.mris.com:6103/platinum/getmedia?ObjectKey=90099126547&MEDT=10000000316&LOOT=50000881745
+
+CLICK HERE FOR MORE INFO
+
+3055 WHITEHAVEN ST NW
+
+WASHINGTON, DC  20008
+
+MLS #: DC7050603
+
+$20,000,000
+
+7 Bedrooms, 6 Full, 2 Half Bathrooms
+
+
+
+EXCEPTIONAL 13,000 SQUARE FOOT GEORGIAN RESIDENCE SITED ON LUSH, MANICURED GROUNDS
+OVERLOOKING THE BRITISH EMBASSY. FEATURES ELEGANT FORMAL ROOMS INCLUDING A DRAWING ROOM,
+A  BANQUET SIZED DINING ROOM WITH SEATING FOR 40 PEOPLE, A LUXURIOUS MASTER SUITE & STAFF
+QUARTERS.  PARKING FOR SIX CARS. MINUTES FROM DOWNTOWN & THE WHITE HOUSE. Custom made
+carpets & draperies convey.
+
+Listed by Alyce Rideout
+
+TTR Sothebys International Realty
+
+or call 410-224-7184About the Seller...
+
+
+
+Wayne L. Berman
+
+Managing Director, Ogilvy Government Relations
+
+After more than 25 years in the nation´s capital, Wayne Berman holds an almost unmatched
+position at the crossroads of policy, politics and campaign finance.
+
+
+
+Berman´s government service helped establish him as one of Washington´s quietly
+influential insiders on both domestic and foreign policy. President George Bush appointed
+Berman Assistant Secretary of Commerce for Policy in January 1989, a post from which he was the
+principal adviser to the Secretary of Commerce, served as the official US liaison to foreign
+business groups and oversaw more than 60 projects that resulted in new export orders for US
+goods.
+
+Berman spent his time out of government building his own business and managing others. He is
+the founder of Berman Enterprises, a lobbying and business consulting firm, which merged
+with Ogilvy Government Relations in January 2004. He is the Vice Chairman of JLT America, a
+London based international insurance brokerage. In the early 1990s, he served as a managing
+partner of America Mercantile Group, a private merchant bank. And he was the managing partner
+of a Washington consulting firm from 1985 to 1988.
+
+Berman has played a substantive political role in just about every Republican presidential
+campaign of the last generation. He was a senior advisor to the Bush/Cheney transition in
+2001, the vice presidential campaign director for Dole/Kemp and deputy director of the
+Republican National Convention in 1996, director of congressional relations during the
+Bush/Quayle campaign in 1988 and a deputy director of the Bush/Reagan transition team in
+1981. He has served in a variety of fundraising capacities in every Republican presidential
+race since 1992.
+
+Berman has served on the board of trustees for the Library of Congress, the Center for
+Strategic and International Studies as well as the Center for the Study of the Presidency and
+helped lead campaigns for So Others May Eat, (SOME). He has appeared on CNN and CNBC.
+
+A native of Rochester, NY, Berman received his BA from the University of Buffalo and attended
+graduate school at Georgetown.
+
+
+
+Image:
+http://csmatrix.mris.com:6103/platinum/getmedia?ObjectKey=90014028012&MEDT=10000000316&LOOT=50000881745
+
+CLICK HERE FOR MORE INFO
+
+3400-3410 PROSPECT ST NW
+
+WASHINGTON, DC  20007
+
+MLS #: DC6852962
+
+$19,500,000
+
+5 Bedrooms, 9 Full, 0 Half Bathrooms
+
+
+
+MAJOR PRICE REDUCTION! Extraodinary Halcyon House-30,500s.f.historically designated
+mansion overlooking Potomac River.Blt 1787 by James Stoddert-1st US Secretary of Navy,
+George Washinton confidante. Once owned and expanded by Mark Twain's nephew. Masterful
+restoration--pristine condition! Appropriate for single family or a qualified Non-Profit
+group!Private and secure compound! 12+-car pkg..
+
+Listed by Judith Lewis
+
+TTR Sothebys International Realty
+
+or call 410-224-7184
+
+
+
+About the seller...
+
+
+
+Halcyon House is a Georgian style home in Washington, DC . Located in the heart of Georgetown,
+the house was built by the first Secretary of the Navy, Benjamin Stoddert . The original
+structure was nearly obliterated in the mid 20th Century by the eccentric demolitions and
+remodeling efforts of prior owner Albert Clemens, who much like Sarah Winchester believed
+perpetually rebuilding the house would extend his life; possibly indefinitely. Today the
+historic home has been extensively reconstructed at great cost to restore it to its original
+appearance, and the house and grounds are listed on the National Register of Historic Places
+[1] and serve primarily as a venue for special events.
+
+
+
+
+
+
+
+Image: http://photos.mris.com/nfs/photos05/1/0/3/6/3/8/10363881939_2_M.jpg
+
+CLICK HERE FOR MORE INFO
+
+330 WYE NARROWS DR
+
+QUEENSTOWN, MD  21658
+
+MLS #: QA6047875
+
+$14,950,000
+
+9 Bedrooms, 9 Full, 3 Half Bathrooms
+
+
+
+"Penderyn" This majestic manor house is situated on a 32+ acre peninsula on the pristine Wye
+River with some 22,500 square feet of Georgian splendor.  Spectacular views and complete
+privacy make this the ultimate retreat. 4 waterfront lots also available.
+
+Listed by Chuck Mangold
+
+Benson & Mangold, LLC
+
+or call 410-224-7184
+
+
+
+About the seller...
+
+
+
+Morgan Edward O'Brien (1944- ), chairman of Cyren Call Communications , is a pioneer in U.S.
+wireless telecommunications. As the co-founder and chairman of Nextel Communications,
+Inc. (now part of Sprint Nextel Corp.), O'Brien led the creation of the first all-digital
+nationwide wireless network (the Nextel National Network using iDEN technology developed
+by Motorola for Nextel) and brought push-to-talk (PTT) communication to the mass business
+and consumer market. He is considered by many to be a visionary leader who has shaped the
+wireless industry throughout his career.
+
+A native of the Washington, DC area, O'Brien graduated in 1962 from St. Anselm's Abbey School .
+He worked as an FCC attorney regulating land mobile communications following graduation
+from Georgetown University and the Northwestern University School of Law . At the FCC,
+O'Brien was involved in developing regulations for Specialized Mobile Radio (SMR),
+commercial two-way radio systems widely adopted in the early 1980s by taxi companies,
+construction companies, and other blue-collar mobile workgroups. O'Brien left the FCC and
+entered private law practice representing SMR operators and applicants for the first
+cellular telephone licenses.
+
+
+
+Image:
+http://csmatrix.mris.com:6103/platinum/getmedia?ObjectKey=10437484802&MEDT=10000000316&LOOT=50000881745
+
+CLICK HERE FOR MORE INFO
+
+2933-2943 BENTON PL NW
+
+WASHINGTON, DC  20008
+
+MLS #: DC6623901
+
+$14,500,000
+
+10 Bedrooms, 10 Full, 3 Half Bathrooms
+
+
+
+$4 million reduction! Mediterranean villa style grandeur and elegance.Rebuilt/renovated
+in 2001. Palatial property nestled in natural splendor of Rock Creek Park near Embassy
+Row.Perhaps the premiere residence in Washington DC, replete w/masterfully hand crafted
+architectural detail, & a unique pool in park-like setting. Purchasers to provide pre-qual
+letter from bank or atty day before showing.
+
+Listed by Samir Qureshi
+
+WC & AN Miller Realtors, A Long & Foster Company
+
+or call 410-224-7184
+
+
+
+About the seller...
+
+
+
+Moeenuddin Ahmad Qureshi , usually referred to as Moeen Qureshi , (born 1930) is a Pakistani
+economist and political figure . A former Vice President of the World Bank , he was the acting
+Prime Minister of Pakistan from July 18 , 1993 until 19 October , 1993.
+
+
+
+
+
+
+
+Image:
+http://csmatrix.mris.com:6103/platinum/getmedia?ObjectKey=90114860276&MEDT=10000000316&LOOT=50000881745
+
+CLICK HERE FOR MORE INFO
+
+3053 P ST NW
+
+WASHINGTON, DC  20007
+
+MLS #: DC7120273
+
+$13,250,000
+
+9 Bedrooms, 7 Full, 4 Half Bathrooms
+
+
+
+One of the jewels in Georgetown's crown of exquisite houses.  Elegant, highly desirable
+transitional Victorian mansion with neoclassical Mansard roof, superb entertaining
+spaces, SIX car parking & beautiful walled garden w/40 ft lap pool.   Ceilings range from
+14ft on first flr to 9 ft on 3rd flr. Breakfast & Family rms open to garden. Exquisite panelled
+Library, Gym & sep. staff apt, & Wine cave.
+
+Listed by John Vardas
+
+TTR Sothebys International Realty
+
+or call 410-224-7184
+
+About the seller...
+
+William Haseltine
+
+President, Haseltine Associates, Ltd.; former CEO, Human Genome Sciences
+
+William Haseltine is Chairman and CEO of Haseltine Associates, Ltd. and President of the
+William A. Haseltine Foundation for Medical Sciences and the Arts. He is a professor at The
+Scripps Research Institute and sits on the board for the Institute for One World Health. In
+1992, he founded Human Genome Sciences, serving as its chairman and CEO until October 2004. A
+Harvard University faculty member from 1976-1993, he created and served as chair of two
+academic departments ? the Division of Cancer Pharmacology and the Division of Human
+Retrovirology ? at Harvard´s Dana Farber Cancer Institute. Haseltine founded The Journal
+of AIDS Research and Retrovirology and The Journal of Regenerative Medicine . He has received
+numerous awards and honors for his research on cancer, AIDS, and biotechnology. His active
+business career includes establishing seven biotechnology companies, among them,
+Dendreon, Diversa, and Human Genome Sciences and participating in the formation of another
+20, including Medimmune, as a Healthcare Ventures advisor. Active in the scientific and
+public policy communities, he sits on numerous boards. Haseltine did graduate and
+postgraduate work with Nobel laureates James Watson, Walter Gilbert and David Baltimore.
+Haseltine earned his Ph.D. in biophysics from Harvard University.
+
+
+
+
+
+Image:
+http://csmatrix.mris.com:6103/platinum/getmedia?ObjectKey=90122780192&MEDT=10000000316&LOOT=50000881745
+
+CLICK HERE FOR MORE INFO
+
+2059 MAIDSTONE FARM RD
+
+ANNAPOLIS, MD  21409
+
+MLS #: AA7150664
+
+$11,900,000
+
+5 Bedrooms, 4 Full, 1 Half Bathrooms
+
+
+
+1st time offered***Unusual Eastern Shore type property with English Tudor home**20
+acres**1000+feet on Ches. Bay**wf guest cottage**striking, mature plantings***new
+detached 2 car garage**5 bdrms***master bdrm w/sleep porch***high ceilings/spacious
+rooms**screened porch**soft, southern light/cool breezes**hammocks, perennial beds,
+waterside patio**enchanting property...no Bay Bridge to cross
+
+Listed by Day Weitzman
+
+Coldwell Banker Residential Brokerage
+
+or call 410-224-7184
+
+
+
+About the seller...
+
+
+
+Gerald Atterbury - President of Y.E.M., Gerald has been with the company since it´s
+inception in 1984. He brings over 25 years of hands on experience in control system design, and
+application. Though overseeing all day to day business, he focuses much of his time on
+business development for both local and national clients. He is a graduate of Bard College.
+
+
+
+Image:
+http://csmatrix.mris.com:6103/platinum/getmedia?ObjectKey=90087089628&MEDT=10000000316&LOOT=50000881745
+
+CLICK HERE FOR MORE INFO
+
+2850 WOODLAND DR NW
+
+WASHINGTON, DC  20008
+
+MLS #: DC6983894
+
+$10,750,000
+
+7 Bedrooms, 7 Full, 1 Half Bathrooms
+
+
+
+NEW PRICE! Elegance, privacy, an acre of land & 1920s craftsmanship combine to make this
+residence a sophisticated in-town estate.  Features include very high ceilings, ornate
+plaster moldings, herringbone oak floors, stucco exterior, multiple fireplaces and
+terraces.  The home offers large entertaining rooms, excellent bedroom space, staff
+quarters w/sep kitchens, 7-zone HVAC, and a pool.
+
+Listed by Cathie Gill
+
+Cathie Gill, Inc.
+
+or call 410-224-7184
+
+
+
+About the seller...
+
+
+
+Bruce B. Dunnan
+
+Bruce brings a successful career as a portfolio manager and investment advisor to Grosvenor.
+Prior to co-founding the Grosvenor Funds, Mr. Dunnan was President of Dunnan Securities
+Advisors, Inc., an investment advisory firm based in Washington, D.C. He began his career at
+the First National Bank of Atlanta before moving to Washington where he worked ten years at
+Alex Brown & Sons. Immediately prior to founding Dunnan Securities, he was a Senior Vice
+President of Investments with Dean Witter Reynolds. Over the past 13 years Bruce and his
+partners have made over 60 venture capital investments.
+
+
+
+Bruce is involved in numerous civic activities, including prior service as Chairman of St.
+Albans School and Board Member for the Episcopal Children's Center and the Columbia Hospital
+for Women. Currently he is on the Board of the Washington Home and Hospice where he chairs the
+Investment Committee. Bruce graduated from Washington & Lee University in 1976 and the
+University of North Carolina School of Business (Chapel Hill) in 1978.
+
+
+
+
+
+
+
+Image:
+http://csmatrix.mris.com:6103/platinum/getmedia?ObjectKey=90081850777&MEDT=10000000316&LOOT=50000881745
+
+CLICK HERE FOR MORE INFO
+
+1810 LINDAMOOR LN
+
+ANNAPOLIS, MD  21401
+
+MLS #: AA6944295
+
+$10,500,000
+
+5 Bedrooms, 5 Full, 2 Half Bathrooms
+
+
+
+A magnifient three acre Annapolis waterfront estate with 250 feet on the Severn River &
+panoramic water views! Elegantly designed French Country home by Alt Breeding Schwarz
+Architects & McGraph builders, this 5 Bedroom residence features only the finest of
+materials! Beautiful outdoor terraces & gardens,multiple slips on the Severn, Carriage
+house & garages for 7 cars. By appointment only.
+
+Listed by Georgie Berkinshaw
+
+Coldwell Banker Residential Brokerage
+
+or call 410-224-7184
+
+
+
+About the seller...
+
+WALTER H. PETRIE,  CHAIRMAN
+
+Walt Petrie's vision and retail industry leadership, combined with the operational
+expertise of partner Phil Ross, is supported by a blue chip team that excels in every phase of
+the leasing and development process.
+
+
+
+Our Chairman, Walt Petrie, has a reputation unmatched in retail development. For more than
+thirty years, he's been the driving force behind many of the most successful properties in the
+nation, turning them into thriving landmarks of economic activity. In addition to managing
+his own development companies for many years, Walt has held leadership positions at The May
+Company and The Taubman Company.
+
+
+
+At Petrie Ross Ventures, Walt oversees corporate relations, leasing, financing,
+pre-development efforts and evaluates new real estate opportunities. Walt envisions what
+can be accomplished - and leads the team to make it happen.
+
+
+
+
+
+
+
+
+
+Image: http://photos.mris.com/nfs/photos11/1/0/4/2/3/4/10423415930_1_M.jpg
+
+CLICK HERE FOR MORE INFO
+
+6184 SHIPYARD LN
+
+EASTON, MD  21601
+
+MLS #: TA7149624
+
+$9,950,000
+
+4 Bedrooms, 7 Full, 1 Half Bathrooms
+
+
+
+AVONDALE  Spectacular waterfront estate on the Tred Avon River offers hardwood floors
+throughout, inside pool, media room, landscaped grounds, inground pool, boat house, sandy
+beach with swim area and 10'+ MLW on 20+ acres.
+
+Listed by Cliff Meredith
+
+Lacaze Meredith Real Estate
+
+or call 410-224-7184
+
+
+
+About the seller...
+
+Vintage Security was founded in 2001 by Johannes Willenpart and Rick Brokaw. The two
+principals each have a 20+ year history in the security industry together. They previously
+owned and operated Austronic Security Systems. Austronic Security was founded in 1981 by
+Johannes Willenpart and grew to 140 employees serving 15,000 customers by 1996. Willenpart
+successfully sold Austronic Security in 1996 to Republic Industries.
+
+After the sale, the company was bought and sold five times by large national security
+companies. Austronic's ex-employees experienced that large national companies were not
+necessarily better companies. So in the summer of 2000, Willenpart had a reunion for his
+former Austronic employees and was convinced into opening Vintage Security LLC.
+
+Vintage Security opened in August 2001 with 35 employees (31 of whom were original Austronic
+team members). The company has experienced unprecedented growth since its inception and now
+employs around 75 team members. Vintage Security currently protects thousands of customers
+across the Maryland, Virginia, and DC areas.
+
+
+
+
+
+
+
+
+
+Image:
+http://csmatrix.mris.com:6103/platinum/getmedia?ObjectKey=90124736687&MEDT=10000000316&LOOT=50000881745
+
+CLICK HERE FOR MORE INFO
+
+3542 NEWARK ST NW
+
+WASHINGTON, DC  20016
+
+MLS #: DC7157451
+
+$8,900,000
+
+6 Bedrooms, 6 Full, 3 Half Bathrooms
+
+
+
+Completely restored prewar Georgian estate as it should be. Sits on 1+/- acres of meticulous &
+mature landscaping overlooking Rosedale Park. Residence feat spectacular entertaining
+spaces which all exit thru French drs to lvl terrace. Luxurious Mstr Ste, 5 addt BRms, 6 full/3
+half BAs. .94 Acre lot with pool, gated drive & carriage house w/3car Gar. Buyer Reg Form
+Required
+
+Listed by William F.X. Moody
+
+Washington Fine Properties LLC
+
+or call 410-224-7184
+
+
+
+About the seller...
+
+Daniel H. Mudd (born 1956) is the former President and CEO of Fannie Mae , a post he held from
+2005-2008. [1]
+
+He is the son of TV anchor , Roger Mudd . [2] He holds a B.A. degree in American history from the
+University of Virginia and an M.P.A. from the John F. Kennedy School of Government at Harvard
+University . [3] Mudd was an Officer in the United States Marine Corps and was decorated for his
+combat service in Beirut . [3] After a tour in the Office of the Secretary of Defense , he left the
+service to get his M.P.A. [3]
+
+
+
+Mudd has been an advisor to Asia-Pacific Economic Cooperation (APEC) and has served on boards
+of the Council on Foreign Relations , the National Building Museum , Hampton University ,
+Local Initiatives Support Corporation The University of Virginia board of Trustees, and the
+Sidwell Friends School . [3]
+
+Early in his career, Mudd held positions in financial services and management consulting at
+the World Bank , Ayers Whitmore and Company, and Xerox Corporation . [4] Mudd later worked at GE
+Capital in International Financing, European Fleet Services, and Business Development.
+[4] At GE Capital, he became Vice President for Business Development in 1991, was Managing
+Director for International Financing from 1993 to 1995, and became President and CEO for
+European Fleet Services in 1995. [3] From 1996 to 1999, he was president of GE Capital
+Asia-Pacific. [3] [4] Mudd was previously president and CEO of GE Capital , Japan before he
+joined Fannie Mae in February 2000. [4]
+
+In February 2000, Mudd became a Director and Vice Chairman and Chief Operating Officer at
+Fannie Mae. [3] [5] He remained Chief Operating Officer until December 21, 2004. [3] Mudd was
+named interim CEO of Fannie Mae in December 2004, after Franklin Raines stepped down after the
+U.S. Securities and Exchange Commission (SEC) found Fannie Mae had violated accounting
+rules. [5] Mudd served as interim CEO of Fannie Mae until March 2005, and became the President
+and CEO of Fannie Mae on June 1, 2005. [3]
+
+Mudd was a Director at Ryder System, Inc from 2002 to 2007. [3] In 2007, Mudd became a Director at
+Fortress Investment Group . [3] Forbes ranked Mudd 182nd in executive pay in 2005, 323rd in
+2006, 337th in 2007, and 202nd in 2008. [6]
+
+Mudd collected more than $80 million in his time at Fannie Mae. [7] He was dismissed as CEO when
+FHFA stepped in as conservator on September 7, 2008. The government has advised him that his
+severance package will not be paid. [8]
+
+On December 9, 2008, he testified before the United States House Committee on Oversight and
+Government Reform on Capitol Hill regarding Fannie Mae, Freddie Mac , and financial market
+instability. [9] [10] [11]
+
+
+
+
+
+About the seller...
+
+Thomas L. Siebert , born 1946 , is an American lawyer and former diplomat . Siebert was
+appointed United States Ambassador to Sweden in 1994 by President Bill Clinton and served in
+this capacity until 1997 . Currently Siebert holds a position at law firm Thompson Coburn LLP
+in Washington D.C. He lives with his wife, Debbie, and children Lauren, Teddy, and Trevor, in
+Annapolis, MD. Siebert's daughter Sarah is married and lives in New York, NY with her husband.
+
+ 
+
+Image:
+http://csmatrix.mris.com:6103/platinum/getmedia?ObjectKey=90078132391&MEDT=10000000316&LOOT=50000881745
+
+CLICK HERE FOR MORE INFO
+
+229 WARDOUR DR
+
+ANNAPOLIS, MD  21401
+
+MLS #: AA6905100
+
+$8,750,000
+
+7 Bedrooms, 5 Full, 1 Half Bathrooms
+
+
+
+Graceful and presitgious this home is well suited for grand scale entertaining and/or cozy
+family gatherings. Exquisite placement on the Severn River...easily accessible community
+of Wardour..home was designed as a replica of Gunston Hall w/Palladian windows,
+porticos,symmetrical floor plan, & grand center hall. Waterside pool, dock, "Billy Joel"
+piano room, mstr bdrm waterside deck, grand/special
+
+Listed by Day Weitzman
+
+Coldwell Banker Residential Brokerage
+
+or call 410-224-7184
+
+ 
+
+Siebert received his B.A. at Georgetown University in 1968 and his J.D. at Georgetown
+University Law Center in 1972 . According to Swedish newspaper Dagens Nyheter [1] , Siebert
+came to know President Clinton during his university years. According to the same source, he
+was also active in the election campaign of Clinton in 1992 .
+
+
+
+
+
+
+
+Image: http://photos.mris.com/nfs/photos07/1/0/3/5/5/1/10355167501_1_M.jpg
+
+CLICK HERE FOR MORE INFO
+
+7013 NATELLI WOODS LN
+
+BETHESDA, MD  20817
+
+MLS #: MC7041690
+
+$8,499,000
+
+11 Bedrooms, 12 Full, 3 Half Bathrooms
+
+
+
+IMPRESSIVE & ELEGANT EXTRAORDINARY CUSTOM DESIGN HOME WITH CLOSE TO 37,000 SQ.FT.OF LVG
+AREA, DRAMATIC 3-STORY FOYER, BANQUET-SIZE ENTERTAINIG AREAS, DESIGNER MOLDING, 40'POOL,
+TENNIS COURT, TERRACES, PRIVATE APARTMENT, HOME THEATER, ELEVATOR, MULTIPLE KITCHONS, 4
+CAR GARAGE, 7 FP, PRIVATE SETTING ON 2.45 ACRE AND SO MUCH MORE!!
+
+Listed by Ghada Barakat
+
+Long & Foster Real Estate, Inc.
+
+or call 410-224-7184
+
+
+
+About the seller...
+
+Rashid A. Chaudary is the Chairman and CEO of RAANI Corporation, with over 25 years of
+experience in the manufacturing of cosmetics, toiletries and household products in the U.S.
+
+Mr. Chaudary has several years of teaching experience in the field of chemistry to both
+graduate and post-graduate students at a University level. With his entrepreneurial
+approach in management and business, Mr. Chaudary has founded the single largest
+Asian-American manufacturing business in the U.S. called RAANI Corporation.
+
+RAANI Corporation; an international personal care manufacturing company specializes in
+cosmetics, toiletries and OTC drug products. RAANI employs over 200 employees and occupies
+more than 300,000-sq. ft. of manufacturing, production, warehouse, office and laboratory
+space. As CEO of RAANI Corporation, he manages all functions, including administration and
+operations. He also is an active member of the community and has been affiliated with several
+community organizations.
+
+Mr. Chaudary is a prominent sponsor and is actively involved in Pakistan Institute of
+Chemists, U.S.A., a not-for-profit organization that is engaged in propagating and
+promoting the knowledge of chemistry among its members.
+
+Mr. Chaudary holds a Bachelor of Science with honors and a Masters of Science Degree in
+Chemistry with honors.   Posted by Michael Hamby on 09/20/2009 10:25 AM   Comments (1)  
+LIFESTYLES of the DC REGIONSÂŽ RICH and FAMOUS (Part 1) in the ActiveRain Channel  
+lifestyles of the dc regions rich and famous part 1   Generate short URL
+
+1 Comments on LIFESTYLES OF THE DC REGIONSÂŽ RICH AND FAMOUS (Part 1) SEP 20 2009
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/57ef1afbfc698edd0b959f9b0866509bd48600a5.gif?1348685588
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/a/2f8dbae4324fb3c2447ab4ba2dcc1004b3959818.gif?1348685588
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/badges/a/472d1795f06355daf4a5fb5d5907d45784ef5620.gif?1348685588
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/badges/a/d99c1c80e7180261e9a2ae05836624ad15d05ad6.gif?1348685588
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/a/da54238175d5e85efbc83803e5d51840cde863dd.gif?1348685588
+
+I would certainly take 3% commission on any of those "ordinary" properties! Thanks for the
+education! Gary L Waters PLLC- Broker Associate RealtorÂ® Melbourne Viera Rockledge FL
+(Serving Brevard Realty, Merritt Island) 10:34am • #1 Notify me of new comments: Email:
+
+Image: /images/24-message-info.png What does the graphic say?
+
+Image: /plugin_assets/fruit_captcha/images/f32.gif Leave a response… var
+RecaptchaOptions = { theme : 'custom', custom_theme_widget: 'recaptcha_widget' };
+
+Name:
+
+Email:
+
+(optional) Comment: //<![CDATA[ tinyMCE.init( { mode:'exact', convert_urls: false,
+elements:'blog_comment_comment', theme:'advanced', plugins: 'spellchecker',
+theme_advanced_toolbar_location: 'top', theme_advanced_buttons1 : 'bold, italic,
+underline, strikethrough, justifyleft, justifycenter, justifyright, justifyfull,
+outdent,indent, bullist, numlist,preview,spellchecker', extended_valid_elements:
+'object[classid|codebase|width|height|align|embed|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata],param[name|value],embed[quality|type|pluginspage|width|height|src|align|wmode|flashvars|bgcolor|base|name|allowFullScreen|type|pluginspage|seamlesstabbing|id|src|quality|swliveconnect|allowscriptaccess|movie|moviedata]',
+plugin_preview_width : '600', plugin_preview_height : '600', theme_advanced_buttons2 :
+'', theme_advanced_buttons3 : '', file_browser_callback : 'fileBrowserCallBack',
+spellchecker_rpc_url : '/action/spellcheck' }); //]]> Spam Prevention: Incorrect please
+try again Type the two words above Type the numbers you hear
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/sound.gif?1348686621
+
+Image: http://activeagent-prod-assets2.ar-img.com/images/photo.gif?1348686621
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/reload.gif?1348686621
+Event.observe(window, 'load', initLazyLoad); function initLazyLoad() {
+$$("div.comment_image").each(function(e){ e.style.backgroundImage =
+"url("+e.getAttribute('imagesrc')+")" }) }   function contact(aid) { //documentation
+on this: http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/305/54305/large/Mike_Portrait_No_Plaque.jpg?1311102340
+
+Michael Hamby
+
+Annapolis , MD
+
+More about me…
+
+Champion Realty, Inc
+
+Address: 711 Bestgate Rd, Annapolis, MD, 21401
+
+Office Phone: (410) 224-7100 x 184
+
+Cell Phone: (410) 224-7184
+
+Email Me
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Links
+
+
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Archives
+
+
+
+    
+
+    - April 2011 (8)
+
+    
+
+    - March 2011 (26)
+
+    
+
+    - December 2010 (1)
+
+    
+
+    - May 2010 (1)
+
+    
+
+    - February 2010 (1)
+
+    
+
+    - January 2010 (2)
+
+    
+
+    - October 2009 (2)
+
+    
+
+    - September 2009 (7)
+
+    
+
+    - August 2009 (7)
+
+    
+
+    - June 2009 (6)
+
+    
+
+    - April 2009 (4)
+
+    
+
+    - March 2009 (25)
+
+    
+
+    - January 2009 (5)
+
+    
+
+    - October 2008 (14)
+
+    
+
+    - September 2008 (44)
+
+    
+
+    - August 2008 (33)
+
+    
+
+    - July 2008 (38)
+
+    
+
+    - June 2008 (26)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find MD real estate agents and Annapolis real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/new_design/eho.gif?1348686621
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

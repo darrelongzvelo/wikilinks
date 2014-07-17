@@ -1,0 +1,1253 @@
+
+
+
+
+Cleveland Browns Running backs (function() { var cx =
+'016474116467456296202:zcdp2tq_pxi' var gcse = document.createElement('script');
+gcse.type = 'text/javascript'; gcse.async = true; gcse.src =
+(document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/headers/ar_home_logo.png?1348686621
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_b_search.png?1348686621
+    var currentIndex = -1 var default_phrase = "Find Homes for Sale in your city"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686621
+        Consumer
+
+        - Home Buying
+
+        
+
+        - Home Improvement
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Home Selling
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets1.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348686621
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  body { background: ; margin: 0; padding: 0; } table#blog_content { width: 960px; margin: 0
+auto; } td.blog_content_td { background: #ffffff; } #top_menu { border: none; } #top_menu li
+a, #top_menu li span.fake_menu_item { } #top_menu .top_dropdown ul li a:hover { background:
+none !important; } #logo_wrapper { background: white; } #header { margin-top: 0;
+padding-top: 0; border: none !important; } .nav { margin: 0 !important; border-width: 0
+!important; } #top_menu .top_dropdown { border: none; } #top_menu .top_dropdown a,
+#top_menu .top_dropdown .inner_menu_header { } #top_menu .top_dropdown
+.inner_menu_header { text-decoration: underline; } #top_menu .top_dropdown ul li a:hover
+{ font-weight: bold; } .top_dropdown { margin-top: 5px; } * html ul.top_level_menu {
+display: inline-block; position: relative; z-index: 1000; } * + html ul.top_level_menu {
+display: inline-block; position: relative; z-index: 1000; } * html .top_dropdown {
+margin-top: 3px; z-index: 1000; } * + html .top_dropdown { margin-top: 19px; z-index: 1000; }
+Home : Blogs : Brandon Jordan : Northwest Florida Realtor .reblog { margin-left: 4px; } Tweet
+
+Cleveland Browns Running backs
+
+
+
+I will give you that you have a starter and a great pick up from the Ravens last year. I have to ask
+who is behind him? I like the back up jerome harrison with a great catch ability. You need at
+least three solids  and Jamal Lewis is and older back and has played more years than most so you
+would want to limit over use. Travis Thomas is a great experiment but
+
+ 
+
+There are some great options on the market .
+
+ 
+
+what a difference two years make. I ran across this story when looked up history on available
+running backs on the market. for Mike bell
+
+ 
+
+ 
+
+Image: http://assets.espn.go.com/photo/2006/0807/nfl_mikebell_195.jpg
+
+DENVER -- Broncos rookie running back Mike Bell was told to see Mike Shanahan in his office
+Sunday evening.
+
+ nervously climbed the stairs, different scenarios raced through his head.
+
+All of them negative.
+
+"I was shaking," Bell said.
+
+Bell was shaking with excitement after Shanahan informed him he'd been elevated to the top
+running back position. Bell couldn't believe he'd bypassed Ron Dayne and Tatum Bell . On
+Monday, Mike Bell was running with the first-team offense. Tatum Bell is second on the depth
+chart and Dayne third.
+
+"This is a dream come true," said Bell, an undrafted rookie out of Arizona who grew up a Broncos
+fan. "For him [Shanahan] to give me the opportunity to be the starter [for] a great
+organization like this is a blessing."
+
+ 
+
+ 
+
+#2
+
+Lorenzo  Neal is best known as an exceptional blocking fullback, and has blocked for 1000
+yard rushers in 11 straight seasons ( Adrian Murrell in 1997 , Warrick Dunn in 1998 , Eddie
+George in 1999 - 2000 , Corey Dillon from 2001 - 2002 , and LaDainian Tomlinson from 2003 to 2007
+.)
+
+
+
+Image:
+http://tbn0.google.com/images?q=tbn:RqmfxkZgOWynYM:http://broncotalk.net/wordpress/wp-content/uploads/2008/06/lorenzoneal.jpg
+
+ 
+
+#3
+
+
+
+Image:
+http://tbn0.google.com/images?q=tbn:uvx2RNdC_kPkuM:http://i.a.cnn.net/si/2004/writers/peter_king/08/29/mmqb.fantasy/p1_johnson_rudi.jpg
+              games       yards  per 2006 Cincinnati Bengals 16 15
+341 1,309 3.8 22T 12 23 124 5.4 18 0 6 2 2005 Cincinnati Bengals 16 14 337 1,458 4.3 33 12 23 90 3.9 15 0
+1 0 2004 Cincinnati Bengals 16 16 361 1,454 4.0 52 12 15 84 5.6 30 0 4
+
+Florida Real Estate with Brandon Jordan, your Northwest Florida Realtor and ActiveRain
+featured Realtor for Okaloosa County since 2007. We provide this information and much more on
+our site for you at no charge, so please remember us when you're looking to buy or sell real
+estate.
+
+Brandon Jordan, Realtor,E-PRO,Coldwell Banker
+
+
+
+Image: https://badge.facebook.com/badge/109626093558.8507.465334160.png
+
+Thank you for adding me as a friend over the years on Facebook.
+
+Now like my new business page on Facebook.
+
+
+
+Image: http://www.linkedin.com/img/webpromo/btn_myprofile_160x33.gif
+
+
+
+Image: http://faq.files.wordpress.com/2006/07/comments-rss.png   Posted by Brandon
+Jordan on 08/31/2008 04:35 PM   Comments (0)   Clevland Browns Running Backs in the
+ActiveRain Channel   clevland browns running backs   Originally posted at: Northwest
+Florida Realtor: Cleveland Browns Running backs Generate short URL
+
+0 Comments on Cleveland Browns Running backs
+
+Login or register to leave a comment Event.observe(window, 'load', initLazyLoad);
+function initLazyLoad() { $$("div.comment_image").each(function(e){
+e.style.backgroundImage = "url("+e.getAttribute('imagesrc')+")" }) }   function
+contact(aid) { //documentation on this:
+http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/957/27957/large/IMG_1417%20-%20Copy.jpg?1346036577
+
+Image:
+http://activeagent-prod-assets0.ar-img.com/images/badges/rainmaker_large.png?1348686621
+
+Brandon Jordan
+
+Crestview , FL
+
+More about me…
+
+Coldwell Banker United Realtors
+
+Office Phone: (850) 758-1236
+
+Cell Phone: (850) 758-1236
+
+Email Me
+
+Florida Real Estate with a Northwest Florida Realtor. Get information from here on the
+Emerald Coast. We work with real estate buyers and sellers in Crestview, Fort Walton Beach,
+Destin, Niceville, DeFuniak Springs, Eglin Air Force Base, South Walton Beaches, and
+surrounding areas. Add us to your homepage!
+
+
+
+
+
+Image: http://buttons.googlesyndication.com/fusion/add.gif
+
+Image: http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif
+
+Image:
+http://o.aolcdn.com/favorites.my.aol.com/webmaster/ffclient/webroot/locale/en-US/images/myAOLButtonSmall.gif
+
+Image: http://www.okaloosamls.com/wl.jpg
+
+Image: http://okaloosamls.files.wordpress.com/2010/06/epro2.jpg?w=300
+
+Image: https://images.equator.com/images/cert/AgentCert_silver_reo_web.gif
+
+Image: http://www.okaloosamls.com/images/mls.jpg
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Listings
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Links
+
+
+
+    
+
+    - Baker MLS
+
+    
+
+    - Blue Mountain Beach MLS
+
+    
+
+    - Buy Florida Vacation Home
+
+    
+
+    - Calhoun County MLS
+
+    
+
+    - Calhoun Florida
+
+    
+
+    - Calhoun MLS
+
+    
+
+    - Camp Creek MLS
+
+    
+
+    - CB United Realtor
+
+    
+
+    - Choctaw Beach MLS
+
+    
+
+    - Cinco Bayou MLS
+
+    
+
+    - Cinco Bayou Real Estate
+
+    
+
+    - Coldwell Banker Crestview
+
+    
+
+    - Crestview Coldwell Banker
+
+    
+
+    - Crestview ERA
+
+    
+
+    - Crestview Homes
+
+    
+
+    - Defuniak MLS
+
+    
+
+    - Defuniak Spring Florida
+
+    
+
+    - Defuniak Springs Florida Real Estate
+
+    
+
+    - Defuniak Springs MLS
+
+    
+
+    - Defuniak Springs Real Estate Agent
+
+    
+
+    - Destin Beach MLS
+
+    
+
+    - Destin Investments
+
+    
+
+    - Destin ERA
+
+    
+
+    - Dune Allen Beach MLS
+
+    
+
+    - Eglin AFB Florida
+
+    
+
+    - Eglin Air Force Base Florida
+
+    
+
+    - ERA Niceville
+
+    
+
+    - ERA Shalimar
+
+    
+
+    - Escambia County MLS
+
+    
+
+    - Escambia MLS
+
+    
+
+    - Florida Buy Home
+
+    
+
+    - Fort Walton Beach Investments
+
+    
+
+    - Freeport MLS
+
+    
+
+    - Grayton MLS
+
+    
+
+    - Holmes County MLS
+
+    
+
+    - Holmes Florida
+
+    
+
+    - Holmes MLS
+
+    
+
+    - Holt MLS
+
+    
+
+    - Hurlburt MLS
+
+    
+
+    - Inlet Beach MLS
+
+    
+
+    - Jackson Florida
+
+    
+
+    - Laurel Hill Investments
+
+    
+
+    - Laurel Hill MLS
+
+    
+
+    - Mary Esther MLS
+
+    
+
+    - MiraMar Beach MLS
+
+    
+
+    - Niceville ERA
+
+    
+
+    - Okaloosa County MLS
+
+    
+
+    - Okaloosa Florida
+
+    
+
+    - Okaloosa MLS
+
+    
+
+    - Point Washington MLS
+
+    
+
+    - Red Bay MLS
+
+    
+
+    - SanDestin MLS
+
+    
+
+    - Santa Rosa Beach MLS
+
+    
+
+    - Santa Rosa County MLS
+
+    
+
+    - SeaCrest Beach MLS
+
+    
+
+    - Seagrove Beach MLS
+
+    
+
+    - Seaside Beach MLS
+
+    
+
+    - Shalimar MLS
+
+    
+
+    - Team Sold Real Estate TV
+
+    
+
+    - Valparaiso MLS
+
+    
+
+    - Walton MLS
+
+    
+
+    - Walton County MLS
+
+    
+
+    - Washington Florida
+
+    
+
+    - Team Sold Tv
+
+    
+
+    - Coldwell Banker iphone
+
+    
+
+    - WaterSound MLS
+
+    
+
+    - iphone Coldwell Banker
+
+    
+
+    - Wright MLS
+
+    
+
+    - Buy A Florida Vacation Home
+
+    
+
+    - Google Real Estate Blog
+
+    
+
+    - Northwest Florida Real Estate Agent
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets0.ar-img.com/images/minus.gif?1348686621
+Archives
+
+
+
+    
+
+    - September 2012 (11)
+
+    
+
+    - August 2012 (15)
+
+    
+
+    - July 2012 (22)
+
+    
+
+    - June 2012 (20)
+
+    
+
+    - May 2012 (20)
+
+    
+
+    - April 2012 (20)
+
+    
+
+    - March 2012 (17)
+
+    
+
+    - February 2012 (19)
+
+    
+
+    - January 2012 (10)
+
+    
+
+    - December 2011 (10)
+
+    
+
+    - November 2011 (20)
+
+    
+
+    - October 2011 (19)
+
+    
+
+    - September 2011 (19)
+
+    
+
+    - August 2011 (28)
+
+    
+
+    - July 2011 (38)
+
+    
+
+    - June 2011 (32)
+
+    
+
+    - May 2011 (36)
+
+    
+
+    - April 2011 (32)
+
+    
+
+    - March 2011 (37)
+
+    
+
+    - February 2011 (39)
+
+    
+
+    - January 2011 (19)
+
+    
+
+    - December 2010 (37)
+
+    
+
+    - November 2010 (12)
+
+    
+
+    - October 2010 (37)
+
+    
+
+    - September 2010 (19)
+
+    
+
+    - August 2010 (34)
+
+    
+
+    - July 2010 (21)
+
+    
+
+    - June 2010 (28)
+
+    
+
+    - May 2010 (38)
+
+    
+
+    - April 2010 (18)
+
+    
+
+    - March 2010 (44)
+
+    
+
+    - February 2010 (29)
+
+    
+
+    - January 2010 (39)
+
+    
+
+    - December 2009 (25)
+
+    
+
+    - November 2009 (32)
+
+    
+
+    - October 2009 (41)
+
+    
+
+    - September 2009 (34)
+
+    
+
+    - August 2009 (37)
+
+    
+
+    - July 2009 (38)
+
+    
+
+    - June 2009 (47)
+
+    
+
+    - May 2009 (49)
+
+    
+
+    - April 2009 (33)
+
+    
+
+    - March 2009 (44)
+
+    
+
+    - February 2009 (70)
+
+    
+
+    - January 2009 (5)
+
+    
+
+    - October 2008 (80)
+
+    
+
+    - September 2008 (50)
+
+    
+
+    - August 2008 (61)
+
+    
+
+    - July 2008 (41)
+
+    
+
+    - June 2008 (29)
+
+    
+
+    - May 2008 (25)
+
+    
+
+    - April 2008 (27)
+
+    
+
+    - March 2008 (35)
+
+    
+
+    - February 2008 (22)
+
+    
+
+    - January 2008 (38)
+
+    
+
+    - December 2007 (20)
+
+    
+
+    - November 2007 (41)
+
+    
+
+    - October 2007 (40)
+
+    
+
+    - September 2007 (54)
+
+    
+
+    - August 2007 (47)
+
+    
+
+    - July 2007 (71)
+
+    
+
+    - June 2007 (36)
+
+    
+
+    - May 2007 (126)
+
+    
+
+    - April 2007 (65)
+
+    
+
+    - March 2007 (50)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find FL real estate agents and Crestview real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets2.ar-img.com/images/new_design/eho.gif?1348686621
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

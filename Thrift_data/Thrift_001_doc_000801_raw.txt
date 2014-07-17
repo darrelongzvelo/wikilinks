@@ -1,0 +1,992 @@
+
+
+
+
+Crystal Gateway at Waterford House --- Condos in Crystal City (function() { var cx =
+'016474116467456296202:zcdp2tq_pxi' var gcse = document.createElement('script');
+gcse.type = 'text/javascript'; gcse.async = true; gcse.src =
+(document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//www.google.com/cse/cse.js?cx=' + cx; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})(); if (top != self ) { var frame_whitelist = [document.location.hostname]; var frame_i;
+var frame_test = frame_whitelist.length; var frame_safe = false; for (frame_i=0; frame_i <
+frame_test ; frame_i++) { if (document.referrer.indexOf(frame_whitelist[frame_i]) !=
+-1 ) { frame_safe = true; } } if (frame_safe === false) {
+top.location.replace(document.location); } else { document.write("<link
+rel='stylesheet' href='/stylesheets/tempest_scroll_bars.css'>") } } var _gaq = _gaq ||
+[]; _gaq.push(['_setAccount', 'UA-15408048-1']); _gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+window.onload=function(){ $('header_search_selector').observe('change',
+function() { if ($F('header_search_selector') == "google") {
+$("hit_router_search_container").style.display = "none";
+$("header_google_search").style.display = "block"; } else {
+$("header_google_search").style.display = "none";
+$("hit_router_search_container").style.display = "block"; } }) } function
+toggle_header_sub_menu(link_id, sub_nav_id) { if ($(sub_nav_id).style.display ==
+"block") { $(sub_nav_id).style.display = "none"; $(link_id).style.background =
+"url(/images/blue_arrow_right.gif) no-repeat 0px 5px"; } else {
+$(sub_nav_id).style.display = "block"; $(link_id).style.background =
+"url(/images/blue_down_arrow.gif) no-repeat 0px 5px"; } }
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/headers/ar_home_logo.png?1348615406
+Search Listings Search ActiveRain
+
+    Image:
+    http://activeagent-prod-assets2.ar-img.com/images/headers/ar_home_b_search.png?1348615406
+    var currentIndex = -1 var default_phrase = "Find Homes for Sale in your city"; new
+    Form.Element.Observer("c_q", 0.5, check_dropdown) function check_dropdown(el,
+    value) { if(value.blank() || value.length < 3 || value == "" || value == default_phrase) {
+    $('clickbar_city_results').hide(); return } $('results_form').onsubmit() }
+    function lr_focus(e) { if(e.value == default_phrase) { e.value = ""; return }
+    $('clickbar_city_results').show() } function lr_blur(e) { if(e.value.blank()) {
+    e.value = default_phrase; } } function handle_keys(elm, event) { if(Event.KEY_ESC ==
+    event.keyCode) { elm.value = "" $('clickbar_city_results').hide() }
+    if(Event.KEY_DOWN == event.keyCode) { return run_highlight(1) } if(Event.KEY_UP ==
+    event.keyCode) { return run_highlight(-1) } if(Event.KEY_RETURN == event.keyCode &&
+    currentIndex > -1) { $('c_q').value = "" $('clickbar_city_results').hide()
+    window.location.href = $$("#clickbar_city_results
+    li")[currentIndex].down().href // window.open($$("#clickbar_city_results
+    li")[currentIndex].down().href) } } function run_highlight(direction) {
+    clear_highlights() max = $$("#clickbar_city_results li").length currentIndex +=
+    direction if(currentIndex < 0) { currentIndex = max - 1; } if(currentIndex >= max) {
+    currentIndex = 0 } $$("#clickbar_city_results
+    li")[currentIndex].addClassName("highlight") return true } function
+    clear_highlights() { $$("#clickbar_city_results li").invoke("removeClassName",
+    "highlight") }
+
+    - University
+
+    
+
+    - Search
+
+    
+
+    - Groups
+
+    
+
+    - Blogs
+
+    
+
+    - Contests
+
+    
+
+    - Q&A
+
+    function go_to_state_page(state) { window.location.href = "/states/" + state; }
+    function go_to_channel_page(channel) { window.location.href =
+    "/action/channels/" + channel; }
+
+    - Channels
+
+        Image:
+        http://activeagent-prod-assets2.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348615406
+        Consumer
+
+        - Home Buying
+
+        
+
+        - Home Improvement
+
+        
+
+        - Regional (Localism)
+
+        
+
+        - Real Estate Investing
+
+        
+
+        - Home Selling
+
+        
+
+        - Real Estate Market
+
+        
+
+        - Moving
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        Professional
+
+        - ActiveRain
+
+        
+
+        - Technology and Tools
+
+        
+
+        - Training
+
+        
+
+        - Mortgage / Finance
+
+        
+
+        - Sales Strategies / Tactics
+
+        
+
+        - Offline Marketing
+
+        
+
+        - Networking
+
+        
+
+        - Online Marketing
+
+        
+
+    
+
+    
+
+    
+
+    - States
+
+        Image:
+        http://activeagent-prod-assets2.ar-img.com/images/headers/ar_home_nav_arrow_down.png?1348615406
+        USA
+
+        - AL
+
+        
+
+        - AK
+
+        
+
+        - AZ
+
+        
+
+        - AR
+
+        
+
+        - CA
+
+        
+
+        - CO
+
+        
+
+        - CT
+
+        
+
+        - DE
+
+        
+
+        - DC
+
+        
+
+        - FL
+
+        
+
+        - GA
+
+        
+
+        - HI
+
+        
+
+        - ID
+
+        
+
+        - IL
+
+        
+
+        - IN
+
+        
+
+        - IA
+
+        
+
+        - KS
+
+        
+
+        - KY
+
+        
+
+        - LA
+
+        
+
+        - ME
+
+        
+
+        - MD
+
+        
+
+        - MA
+
+        
+
+        - MI
+
+        
+
+        - MN
+
+        
+
+        - MS
+
+        
+
+        - MO
+
+        
+
+        - MT
+
+        
+
+        - NE
+
+        
+
+        - NV
+
+        
+
+        - NH
+
+        
+
+        - NJ
+
+        
+
+        - NM
+
+        
+
+        - NY
+
+        
+
+        - NC
+
+        
+
+        - ND
+
+        
+
+        - OH
+
+        
+
+        - OK
+
+        
+
+        - OR
+
+        
+
+        - PA
+
+        
+
+        - RI
+
+        
+
+        - SC
+
+        
+
+        - SD
+
+        
+
+        - TN
+
+        
+
+        - TX
+
+        
+
+        - VI
+
+        
+
+        - UT
+
+        
+
+        - VT
+
+        
+
+        - VA
+
+        
+
+        - WA
+
+        
+
+        - WV
+
+        
+
+        - WI
+
+        
+
+        - WY
+
+        
+
+        Canada
+
+        - AB
+
+        
+
+        - BC
+
+        
+
+        - MB
+
+        
+
+        - NB
+
+        
+
+        - NL
+
+        
+
+        - NT
+
+        
+
+        - NS
+
+        
+
+        - NU
+
+        
+
+        - ON
+
+        
+
+        - PE
+
+        
+
+        - QC
+
+        
+
+        - SK
+
+        
+
+        - YN
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    - Login
+
+    
+
+    - |
+
+    
+
+    - Sign Up
+
+    
+
+  body { background: #FFFFFF ; margin: 0; padding: 0; } table#blog_content { width: 960px;
+margin: 0 auto; } td.blog_content_td { background: #ffffff; } #custom_blog_header {
+display: block;
+background:url(/image_store/customizer/everwill_header_29415_wn-realty-llc.jpg)
+no-repeat scroll left top; height: 130px; margin-top: 0px; } #top_menu { border: none;
+background-color:#15A7F0; background-image: none; } #top_menu li a, #top_menu li
+span.fake_menu_item { color: #000000; text-shadow: none; } #top_menu .top_dropdown ul li
+a:hover { background: none !important; } #logo_wrapper { background: white; } #header {
+margin-top: 0; padding-top: 0; border: none !important; } .nav { margin: 0 !important;
+border-width: 0 !important; } #top_menu .top_dropdown { border: none;
+background-color:#15A7F0; } #top_menu .top_dropdown a, #top_menu .top_dropdown
+.inner_menu_header { color:#000000 !important; } #top_menu .top_dropdown
+.inner_menu_header { text-decoration: underline; } #top_menu .top_dropdown ul li a:hover
+{ background-color:#15A7F0; font-weight: bold; } .top_dropdown { margin-top: 5px; } * html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * + html
+ul.top_level_menu { display: inline-block; position: relative; z-index: 1000; } * html
+.top_dropdown { margin-top: 3px; z-index: 1000; } * + html .top_dropdown { margin-top: 19px;
+z-index: 1000; } Home : Blogs : Will Nesbitt - condos, real estate in Alexandria, Arlington,
+Fairfax County : Northern Virginia's Condo Expert serving Alexandria, Arlington, Falls
+Church, Fairfax County .reblog { margin-left: 4px; } Tweet
+
+Crystal Gateway at Waterford House --- Condos in Crystal City
+
+
+
+
+
+Image: http://crystalgateway.org/images/menulogo.gif Crystal Gateway at 1300 Crystal
+Drive is one of the original anchors of Crystal City, a so-called urban village in the
+southeastern corner of Arlington County, Virginia , just south of Washington, DC.
+
+Constructed of cast concrete in the mid-Sixties, the condominium community comprises 17
+floors and a two-story penthouse. The curvilinear Crystal Gateway adjoins Waterford House,
+which houses both condos and office space and fronts 12th Street. Together, the two buildings
+form a horseshoe embracing a landscaped courtyard and pool.
+
+Crystal Gateway houses no more than four condominiums on each floor, with some floors having
+only three. They range from a two-bedroom, two-bath unit of 1,516 square feet to a three-
+bedroom, two-bath, one half-bath unit of 2,296 square feet to the penthouse's four bedrooms
+and three baths totaling 2,780 square feet.
+
+Typical units boast open floor plans; wall-to-wall carpet, ceramic-tile and hardwood
+floors; living-room wet bars; generous closets; spacious kitchens with updated
+appliances, Corian countertops and breakfast nooks; washer-dryers, and marble bathrooms
+with two basins and a soaking tub.
+
+Expansive balconies, opening off living rooms and master bedrooms, afford panoramic views
+of the nearby Potomac River, the Capitol, the Washington Monument, the Kennedy Center and the
+distant National Cathedral.
+
+Accessing those attractions couldn't be easier. Crystal City is served not only by Metro's
+blue and yellow lines but also by Metrobus, the Arlington Transit ART buses, and the Omnilink
+commuter buses; the Metro station is also a stop for Virginia Railway Express commuter
+trains.
+
+It's just a 10-minute walk to Ronald Reagan Washington National Airport and Pentagon Row and
+15 minutes to the Pentagon and Pentagon City Mall .
+
+
+
+Image:
+http://www.simon.com/mall/images/malls/157_The_Fashion_Centre_at_Pentagon_City.jpg
+
+Amenities at Crystal Gateway include a card room and a larger party room off the mirrored,
+mauve-and-green lobby. There's an exercise facility with a weight room and an aerobics area,
+as well as an indoor pool.
+
+Monthly condo association fees, ranging from $650 to $850, provide for concierge and
+security service 24/7, water and hot water, building maintenance and grounds keeping. One
+underground parking space and a cage storage area are provided for each unit; additional paid
+storage is available.
+
+In 2007, Crystal Gateway's foyer and halls were redecorated and the electric heating and air-
+conditioning system was upgraded. The last five years have seen major building
+replacements, among them the cooling tower, the heat exchanger and two hot-water heaters. In
+addition, all the balconies have been resurfaced.
+
+The building is the midst of "going green," implementing energy-conservation measures and
+trash recycling, and improvements scheduled for 2008 include new audio for the fire-alarm
+system and interior decoration of both elevators.
+
+    Crystal Gateway is managed by Delbe Real Estate Company. Pets are not allowed.
+
+    - For sale — Live data on all condos for sale in 22202 zip code.
+
+    
+
+    - For rent — Live data on rentals in 22202 zip code.
+
+    
+
+    
+
+    - Homes for sale — All homes for sale less than $500,000 in 22202 zip code.
+
+    
+
+    - Homes for sale — All homes for sale from $300,000 to $700,000 in 22202 zip code.
+
+    
+
+    - Homes for sale — All homes for sale over $650,000 in 22202 zip code.
+
+    
+
+
+
+
+
+Image: http://www.condo1alexandria.com/sponsored-by.gif
+
+
+
+
+
+Image: http://nesbittrealty.com/images/people/will-72.jpg About the Author --- Will
+Nesbitt is the principal broker of Condo Alexandria / Will Nesbitt Realty LLC . Will is a
+realtor who specializes in condos, townhouses and single family real estate in Alexandria ,
+Arlington , Fairfax County , Crystal City , and Kingstowne . Check with him for condos on the
+metro or for Northern VA relocation resources . Will resides in Belle Haven Estates just
+outside Alexandria VA in Fairfax County.   Posted by Will Nesbitt - condos, real estate in
+Alexandria, Arlington, Fairfax County on 08/28/2008 06:57 AM   Comments (0)   crystal
+gateway , crystal city condos , condos crystal city , search condos in arlington , search
+condos   Generate short URL This post has been included in Virginia Real Estate News
+Arlington County, VA Real Estate News Crystal City, VA Real Estate News Crystal Gateway
+(Crystal City, VA) Real Estate News
+
+Post is included in group: Posts to Localism
+
+
+
+0 Comments on Crystal Gateway at Waterford House --- Condos in Crystal City
+
+Login or register to leave a comment Event.observe(window, 'load', initLazyLoad);
+function initLazyLoad() { $$("div.comment_image").each(function(e){
+e.style.backgroundImage = "url("+e.getAttribute('imagesrc')+")" }) }   function
+contact(aid) { //documentation on this:
+http://prototype-window.xilinus.com/documentation.html var win = new
+Window('modal_window', {className: "dialog", title: "Contact", top:30, left:30,
+width:720, height:580, zIndex:150, url: "/agents/contact?id=" + aid, opacity:1,
+resizable: true}) win.setDestroyOnClose(); win.show(true); }
+
+Image:
+http://activerain.com/system/s3_buckets/activerain-image-store-2/agents/830/122830/large/me-on-map.jpg?1253752906
+
+Image:
+http://activeagent-prod-assets1.ar-img.com/images/badges/rainmaker_large.png?1348615406
+
+Will Nesbitt - condos, real estate in Alexandria, Arlington, Fairfax County
+
+Alexandria , VA
+
+More about me…
+
+Will Nesbitt Realty LLC at Condo Alexandria
+
+Address: 1451 Belle Haven Rd, Ste 222, Alexandria, VA, 22307
+
+Office Phone: (703) 765-0300
+
+Email Me Neighborhood notes, local features and tips for buyers, sellers, renters and
+landlords in Northern Virginia especially Alexandria, Arlington, Fairfax and Falls
+Church. Including fast and free property search tools.
+
+
+
+
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/minus.gif?1348615406
+Listings
+
+
+
+
+
+
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/minus.gif?1348615406
+Links
+
+
+
+    
+
+    - The Alexandria House Condos
+
+    
+
+    - I love Belle Haven
+
+    
+
+    - Belle View Condo Info
+
+    
+
+    - Bearings South
+
+    
+
+    - Bucknell Manor
+
+    
+
+    - Cameron Station
+
+    
+
+    - Carlyle District
+
+    
+
+    - Carlyle District & Old Town Alexandria VA
+
+    
+
+    - Carlyle Towers
+
+    
+
+    - Huntington Club
+
+    
+
+    - Fort Hunt Info
+
+    
+
+    - The Fountains Condominiums
+
+    
+
+    - Hunting Creek Club
+
+    
+
+    - Midtown Alexandria Station
+
+    
+
+    - Montebello Condos
+
+    
+
+    - Olympus at Landmark
+
+    
+
+    - Porto Vecchio
+
+    
+
+    - Port Royal Condos
+
+    
+
+    - I love River Towers
+
+    
+
+    - Watergate at Landmark
+
+    
+
+    - Where.is-a-great-place-to-live.com
+
+    
+
+    - The Royalton
+
+    
+
+    - Torpedo Factory
+
+    
+
+    
+
+
+
+
+
+Image: http://activeagent-prod-assets1.ar-img.com/images/minus.gif?1348615406
+Archives
+
+
+
+    
+
+    - October 2012 (3)
+
+    
+
+    - September 2012 (14)
+
+    
+
+    - August 2012 (23)
+
+    
+
+    - July 2012 (16)
+
+    
+
+    - June 2012 (62)
+
+    
+
+    - May 2012 (24)
+
+    
+
+    - April 2012 (1)
+
+    
+
+    - February 2012 (5)
+
+    
+
+    - January 2012 (15)
+
+    
+
+    - December 2011 (27)
+
+    
+
+    - November 2011 (16)
+
+    
+
+    - October 2011 (17)
+
+    
+
+    - September 2011 (10)
+
+    
+
+    - July 2011 (48)
+
+    
+
+    - June 2011 (35)
+
+    
+
+    - May 2011 (129)
+
+    
+
+    - April 2011 (73)
+
+    
+
+    - March 2011 (31)
+
+    
+
+    - February 2011 (22)
+
+    
+
+    - January 2011 (73)
+
+    
+
+    - December 2010 (68)
+
+    
+
+    - November 2010 (101)
+
+    
+
+    - October 2010 (29)
+
+    
+
+    - September 2010 (81)
+
+    
+
+    - August 2010 (33)
+
+    
+
+    - July 2010 (158)
+
+    
+
+    - June 2010 (122)
+
+    
+
+    - May 2010 (159)
+
+    
+
+    - February 2010 (21)
+
+    
+
+    - January 2010 (60)
+
+    
+
+    - December 2009 (39)
+
+    
+
+    - November 2009 (24)
+
+    
+
+    - October 2009 (17)
+
+    
+
+    - September 2009 (37)
+
+    
+
+    - August 2009 (41)
+
+    
+
+    - July 2009 (18)
+
+    
+
+    - June 2009 (20)
+
+    
+
+    - May 2009 (18)
+
+    
+
+    - April 2009 (16)
+
+    
+
+    - March 2009 (26)
+
+    
+
+    - February 2009 (21)
+
+    
+
+    - January 2009 (23)
+
+    
+
+    - December 2008 (12)
+
+    
+
+    - November 2008 (29)
+
+    
+
+    - October 2008 (40)
+
+    
+
+    - September 2008 (59)
+
+    
+
+    - August 2008 (49)
+
+    
+
+    - July 2008 (21)
+
+    
+
+
+
+
+
+
+
+    Image: /images/rss.png
+
+    - About
+
+    
+
+    - Guidelines
+
+    
+
+    - Terms of Service
+
+    
+
+    - Help/FAQ
+
+    
+
+    - Advertise with ActiveRain
+
+    
+
+    - Contact ActiveRain
+
+    
+
+    - Join ActiveRain
+
+    
+
+
+
+Find VA real estate agents and Alexandria real estate on ActiveRain.
+
+Disclaimer: ActiveRain Corp. does not necessarily endorse the real estate agents, loan
+officers and brokers listed on this site. These real estate profiles, blogs and blog entries
+are provided here as a courtesy to our visitors to help them make an informed decision when
+buying or selling a house. ActiveRain Corp. takes no responsibility for the content in these
+profiles, that are written by the members of this community.
+
+© 2012 ActiveRain Corp. All Rights Reserved
+
+
+
+Image:
+http://activeagent-prod-assets3.ar-img.com/images/new_design/eho.gif?1348615406
+(function() { var po = document.createElement('script'); po.type = 'text/javascript';
+po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s =
+document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+

@@ -1,0 +1,1224 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); The Universe Smiles: June 2010 <!-- /*
+----------------------------------------------- Blogger Template Style Name: Minima
+Black Date: 26 Feb 2004 Updated by: Blogger Team
+----------------------------------------------- */ /* Variable definitions
+==================== <Variable name="bgcolor" description="Page Background Color"
+type="color" default="#000"> <Variable name="textcolor" description="Text Color"
+type="color" default="#ccc"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#9ad"> <Variable name="pagetitlecolor" description="Blog Title
+Color" type="color" default="#ccc"> <Variable name="descriptioncolor"
+description="Blog Description Color" type="color" default="#777"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#ad9">
+<Variable name="bordercolor" description="Border Color" type="color" default="#333">
+<Variable name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#777"> <Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#999"> <Variable name="visitedlinkcolor" description="Visited
+Link Color" type="color" default="#a7a"> <Variable name="bodyfont" description="Text
+Font" type="font" default="normal normal 100% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif"> <Variable name="headerfont"
+description="Sidebar Title Font" type="font" default="normal bold 78% 'Trebuchet
+MS',Trebuchet,Arial,Verdana,Sans-serif"> <Variable name="pagetitlefont"
+description="Blog Title Font" type="font" default="normal bold 200% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif"> <Variable name="descriptionfont"
+description="Blog Description Font" type="font" default="normal normal 78% 'Trebuchet
+MS', Trebuchet, Verdana, Sans-serif"> <Variable name="postfooterfont"
+description="Post Footer Font" type="font" default="normal normal 78% 'Trebuchet MS',
+Trebuchet, Arial, Verdana, Sans-serif"> <Variable name="startSide" description="Start
+side in blog language" type="automatic" default="left"> <Variable name="endSide"
+description="End side in blog language" type="automatic" default="right"> */ /* Use this
+with templates/template-twocol.html */ body { background:#000000; margin:0;
+color:#cccccc; font: x-small "Trebuchet MS", Trebuchet, Verdana, Sans-serif;
+font-size/* */:/**/small; font-size: /**/small; text-align: center; } a:link {
+color:#99aadd; text-decoration:none; } a:visited { color:#aa77aa;
+text-decoration:none; } a:hover { color:#d1dd99; text-decoration:underline; } a img {
+border-width:0; } /* Header ----------------------------------------------- */
+#header-wrapper { width:660px; margin:0 auto 10px; border:1px solid #333333; }
+#header-inner { background-position: center; margin-left: auto; margin-right: auto; }
+#header { margin: 5px; border: 1px solid #333333; text-align: center; color:#cccccc; }
+#header h1 { margin:5px 5px 0; padding:15px 20px .25em; line-height:1.2em;
+text-transform:uppercase; letter-spacing:.2em; font: normal bold 200% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif; } #header a { color:#cccccc; text-decoration:none; }
+#header a:hover { color:#cccccc; } #header .description { margin:0 5px 5px; padding:0 20px
+15px; max-width:700px; text-transform:uppercase; letter-spacing:.2em; line-height:
+1.4em; font: normal normal 78% Trebuchet, Trebuchet MS, Arial, sans-serif; color: #341473;
+} #header img { margin-left: auto; margin-right: auto; } /* Outer-Wrapper
+----------------------------------------------- */ #outer-wrapper { width: 660px;
+margin:0 auto; padding:10px; text-align:left; font: normal bold 100% Trebuchet,
+Trebuchet MS, Arial, sans-serif; } #main-wrapper { width: 410px; float: left; word-wrap:
+break-word; /* fix for long text breaking sidebar float in IE */ overflow: hidden; /* fix for
+long non-text content breaking IE sidebar float */ } #sidebar-wrapper { width: 220px; float:
+right; word-wrap: break-word; /* fix for long text breaking sidebar float in IE */ overflow:
+hidden; /* fix for long non-text content breaking IE sidebar float */ } /* Headings
+----------------------------------------------- */ h2 { margin:1.5em 0 .75em;
+font:normal bold 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif; line-height:
+1.4em; text-transform:uppercase; letter-spacing:.2em; color:#777777; } /* Posts
+----------------------------------------------- */ h2.date-header { margin:1.5em 0
+.5em; } .post { margin:.5em 0 1.5em; border-bottom:1px dotted #333333;
+padding-bottom:1.5em; } .post h3 { margin:.25em 0 0; padding:0 0 4px; font-size:140%;
+font-weight:normal; line-height:1.4em; color:#d1dd99; } .post h3 a, .post h3 a:visited,
+.post h3 strong { display:block; text-decoration:none; color:#d1dd99;
+font-weight:bold; } .post h3 strong, .post h3 a:hover { color:#cccccc; } .post-body {
+margin:0 0 .75em; line-height:1.6em; } .post-body blockquote { line-height:1.3em; }
+.post-footer { margin: .75em 0; color:#777777; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; line-height: 1.4em; } .comment-link { margin-left:.6em; } .post img,
+table.tr-caption-container { padding:4px; border:1px solid #333333; }
+.tr-caption-container img { border: none; padding: 0; } .post blockquote { margin:1em 20px;
+} .post blockquote p { margin:.75em 0; } /* Comments
+----------------------------------------------- */ #comments h4 { margin:1em 0;
+font-weight: bold; line-height: 1.4em; text-transform:uppercase;
+letter-spacing:.2em; color: #777777; } #comments-block { margin:1em 0 1.5em;
+line-height:1.6em; } #comments-block .comment-author { margin:.5em 0; } #comments-block
+.comment-body { margin:.25em 0 0; } #comments-block .comment-footer { margin:-.25em 0 2em;
+line-height: 1.4em; text-transform:uppercase; letter-spacing:.1em; } #comments-block
+.comment-body p { margin:0 0 .75em; } .deleted-comment { font-style:italic; color:gray; }
+.feed-links { clear: both; line-height: 2.5em; } #blog-pager-newer-link { float: left; }
+#blog-pager-older-link { float: right; } #blog-pager { text-align: center; } /* Sidebar
+Content ----------------------------------------------- */ .sidebar { color: #999999;
+line-height: 1.5em; } .sidebar ul { list-style:none; margin:0 0 0; padding:0 0 0; } .sidebar
+li { margin:0; padding-top:0; padding-right:0; padding-bottom:.25em;
+padding-left:15px; text-indent:-15px; line-height:1.5em; } .sidebar .widget, .main
+.widget { border-bottom:1px dotted #333333; margin:0 0 1.5em; padding:0 0 1.5em; } .main
+.Blog { border-bottom-width: 0; } /* Profile
+----------------------------------------------- */ .profile-img { float: left;
+margin-top: 0; margin-right: 5px; margin-bottom: 5px; margin-left: 0; padding: 4px;
+border: 1px solid #333333; } .profile-data { margin:0; text-transform:uppercase;
+letter-spacing:.1em; font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; color: #777777; font-weight: bold; line-height: 1.6em; } .profile-datablock
+{ margin:.5em 0 .5em; } .profile-textblock { margin: 0.5em 0; line-height: 1.6em; }
+.profile-link { font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana,
+Sans-serif; text-transform: uppercase; letter-spacing: .1em; } /* Footer
+----------------------------------------------- */ #footer { width:660px;
+clear:both; margin:0 auto; padding-top:15px; line-height: 1.6em;
+text-transform:uppercase; letter-spacing:.1em; text-align: center; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\759202242421431357050\46blogName\75The+Universe+Smiles\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLACK\46layoutType\75LAYOUTS\46searchRoot\75http://theuniversesmiles.blogspot.com/search\46blogLocale\75en_US\46v\0752\46homepageUrl\75http://theuniversesmiles.blogspot.com/\46vt\0752046149673748029659',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+The Universe Smiles
+
+
+
+Embrace peace without regret, Share the joy of a child’s heart, The universe smiles.
+
+Wednesday, June 30, 2010
+
+
+
+New Paintings
+
+I just finished a course with pastel artist Deborah Secor http://www.deborahsecor.com/
+at the Harwood Art Center   http://harwoodartcenter.org/ss/   I've really learned a
+lot from Deborah,  I love this medium, especially to paint scenes here in the
+Southwest. I have a few finished pastel paintings to frame now.
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_8JsSJHheqxk/TCuMB377phI/AAAAAAAAA4k/moUEqTacnl8/s400/P6300066_edited.JPG
+
+
+
+
+
+Image:
+http://3.bp.blogspot.com/_8JsSJHheqxk/TCuMndcIXpI/AAAAAAAAA4s/WZuD_EiQMEg/s400/P6300064_edited.JPG
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_8JsSJHheqxk/TCuM0E533JI/AAAAAAAAA40/FBRVzBxIriY/s400/P6300070_edited.JPG
+Posted by Vicki 3 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: art , New Mexico , painting , pastels
+, southwest
+
+Sunday, June 27, 2010
+
+
+
+Summer Solstice
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_8JsSJHheqxk/TCeDF8BFBwI/AAAAAAAAA0c/q3qRDyRQXs0/s320/P6220019.JPG
+
+
+
+The Summer  Solstice - the longest day of the year for North America - arrived Monday, June
+21st.  What a glorious morning. 
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_8JsSJHheqxk/TCeEwr4GSxI/AAAAAAAAA1E/9nvDY4rsvRw/s320/P6220016.JPG
+
+My gardening is in full swing. And so is my hammock for absolute lazy moments of the day.
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_8JsSJHheqxk/TCeDb8pJ2zI/AAAAAAAAA0k/b8vP1eIP0jA/s320/P6220023.JPG
+
+Image:
+http://1.bp.blogspot.com/_8JsSJHheqxk/TCeHuI0H7AI/AAAAAAAAA2c/Dn8C1HS9JDA/s320/P6220044.JPG
+
+The vegetables in their hard scrabble beds await the summer monsoon  rain showers.
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/_8JsSJHheqxk/TCeII7zl7tI/AAAAAAAAA2s/c3sl_06c2pk/s320/P6220050.JPG
+
+Image:
+http://2.bp.blogspot.com/_8JsSJHheqxk/TCeIC2891PI/AAAAAAAAA2k/bgt9hJ_WCok/s320/P6220051.JPG
+
+The   Sages ,  Perky Sues ,   Iris , and Butterfly Bushes are back. 
+
+
+
+Image:
+http://3.bp.blogspot.com/-_tOTHR6HUuk/TVvj2CgADQI/AAAAAAAABkQ/GEupyI146XU/s320/P5190001.JPG
+Perky Sue
+
+Image:
+http://4.bp.blogspot.com/-Ia4MtDMRZVY/TVvj6oPqN6I/AAAAAAAABkU/PNAYVwMjr_I/s320/P5190014.JPG
+Iris plants
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/_8JsSJHheqxk/TCeIpQZ1HTI/AAAAAAAAA20/pR6CkmhivvU/s320/P6220031_edited.JPG
+Sages and Butterfly Bush in my Xeriscape Garden Quanyin provides quiet compassion in this
+mountain  garden.
+
+
+
+Image:
+http://3.bp.blogspot.com/_8JsSJHheqxk/TCeJOM_lo3I/AAAAAAAAA28/DUszGztLCZc/s320/P6220034_edited.JPG
+
+Red Yuccas are abloom.
+
+Image:
+http://4.bp.blogspot.com/_8JsSJHheqxk/TCeKlTQ1uBI/AAAAAAAAA3M/v09q5-C17lI/s320/P6220028.JPG
+
+Image:
+http://3.bp.blogspot.com/_8JsSJHheqxk/TCeKs82S7AI/AAAAAAAAA3U/0WZW5EQdGaI/s320/P6220030.JPG
+
+Lavender , Japanese Honeysuckle , and Roses bring both color and aroma to my garden.
+
+
+
+Image:
+http://4.bp.blogspot.com/_8JsSJHheqxk/TCeDqy7bhgI/AAAAAAAAA0s/RpsFTQiE0L4/s320/P6220024_edited.JPG
+
+Image:
+http://4.bp.blogspot.com/_8JsSJHheqxk/TCeD04DbHAI/AAAAAAAAA00/0aMZtdOWEB4/s320/P6220025.JPG
+
+Image:
+http://2.bp.blogspot.com/_8JsSJHheqxk/TCeX6q7em9I/AAAAAAAAA4c/AH9bJJPPJss/s320/P6220029.JPG
+
+New Pinon Pine seedlings are growing.
+
+
+
+Image:
+http://4.bp.blogspot.com/-2i_4K_W1jF8/TVvjTy8qIQI/AAAAAAAABkI/GTP_mu_OJQI/s320/P5240001.jpg
+Pinon Pine seedling
+
+My Rocky Mountain Butterfly mixture of wildflowers are blooming.
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/-fKJicyWupko/TVvjY6n6GLI/AAAAAAAABkM/q-3pD0Ie_kw/s320/P6060021.jpg
+Red Columbine
+
+
+
+Wildflowers are everywhere:
+
+
+
+
+
+Image:
+http://2.bp.blogspot.com/-vCw2ddoIVPY/TVvkFrm2JgI/AAAAAAAABkY/ay206XFntKA/s320/P5190015.JPG
+Bladderpod
+
+﻿
+
+
+
+Image:
+http://3.bp.blogspot.com/-wMDaMk_ioBU/TVvkK3nD06I/AAAAAAAABkc/9vH_DIUyZik/s320/P5190008_edited.JPG
+Verbena ﻿
+
+Prickly things are blooming, too  - Local natives like Hedgehog Cactus  and  Claret Cup
+cactus   have beautiful red flowers.
+
+
+
+Image:
+http://3.bp.blogspot.com/-_w1JRMdSQtA/TVvkUJR0c9I/AAAAAAAABkg/y5S3Oo3iPXY/s320/P5260003.JPG
+Hedgehog Cactus
+
+
+
+Image:
+http://1.bp.blogspot.com/-LL-J06nUOrw/TVvkaXGfxII/AAAAAAAABkk/ZVJEcFMtJkY/s320/P5260020.JPG
+Claret Cup Cactus
+
+
+
+Image:
+http://3.bp.blogspot.com/-Ee8x6sXsdpM/TVvk7Fw5PTI/AAAAAAAABko/1s_vOGc9Y4o/s320/P6090035_edited.JPG
+
+
+
+Image:
+http://3.bp.blogspot.com/-M1jFAS_1ETg/TVvlEUlq4zI/AAAAAAAABks/uBKWzzMIJ-Y/s320/P6090037_edited.JPG
+
+
+
+Image:
+http://1.bp.blogspot.com/-uqitIjSuI5c/TVvlPfO3QoI/AAAAAAAABkw/PwZfB4nQEcQ/s320/P6080028.JPG
+  
+
+Image:
+http://2.bp.blogspot.com/_8JsSJHheqxk/TCeFXkgioyI/AAAAAAAAA1U/b4DvkU-Xhho/s320/P6220046.JPG
+Yarrow and Columbine grace my garden.
+
+
+
+Along with a field of Cornflowers
+
+Image:
+http://1.bp.blogspot.com/_8JsSJHheqxk/TCeFlBhfUaI/AAAAAAAAA1c/hRMmEUbFc6k/s320/P6220057_edited.JPG
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/_8JsSJHheqxk/TCeF0Dk_tOI/AAAAAAAAA1k/7F0n5h4eZFQ/s320/P6220037.JPG
+Indian Blanket Flower
+
+Image:
+http://3.bp.blogspot.com/_8JsSJHheqxk/TCeGS4nev6I/AAAAAAAAA10/IBkrDusUUqc/s320/P6220040.JPG
+                        and brightly colored Blanket
+Flowers .
+
+Day Lilies nod in the warming sun.    
+
+Image:
+http://1.bp.blogspot.com/_8JsSJHheqxk/TCeGGCCXKDI/AAAAAAAAA1s/QfXVHactNcA/s320/P6220035.JPG
+
+
+
+Image:
+http://4.bp.blogspot.com/_8JsSJHheqxk/TCeLiy9jVBI/AAAAAAAAA3c/--gm4yZV_fY/s320/P6220055_edited.JPG
+My 3 year old Cottonwood is huge and is sure to devour my house in a few more years.
+
+
+
+Image:
+http://2.bp.blogspot.com/_8JsSJHheqxk/TCeLzeOv1pI/AAAAAAAAA3k/S5OX45eYQdw/s320/P6220054_edited.JPG
+The bird house remains empty - sigh - apparently a sign of the times with too much inventory, not
+enough buyers.
+
+Image:
+http://1.bp.blogspot.com/_8JsSJHheqxk/TCeMsjIV_nI/AAAAAAAAA3s/_WUbbpb2Rn8/s320/P6220053.JPG
+
+What a beautiful sunset to finish off the day!
+
+Image:
+http://1.bp.blogspot.com/_8JsSJHheqxk/TCeOjcyKvnI/AAAAAAAAA38/uRtjqaseqP0/s320/P6210001.JPG
+
+
+
+Posted by Vicki 1 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: flowers , garden , mountains ,
+summer , summer solstice , sunrise , sunset , wildflowers
+
+Monday, June 14, 2010
+
+
+
+Vacation in Sedona -- 2013 -- 7 Night Rental for $850 -- (Up to 8 Persons)
+
+﻿﻿﻿﻿
+
+
+
+Image:
+http://3.bp.blogspot.com/_8JsSJHheqxk/TH6W21NDieI/AAAAAAAABJQ/VABCGoAEPvo/s320/pool+villas+of+seodna.jpg
+Outdoor Pool and Jacuzzi
+
+Image:
+http://3.bp.blogspot.com/_8JsSJHheqxk/TH6W-XJVzLI/AAAAAAAABJY/YDXIfNLpJ0Y/s320/pool.jpg
+Indoor Pool
+
+
+
+Image:
+http://1.bp.blogspot.com/_8JsSJHheqxk/TH6WoqRSpGI/AAAAAAAABJI/sOSBFrC2CFc/s320/dining+room.jpg
+Dining Room
+
+
+
+Image:
+http://1.bp.blogspot.com/_8JsSJHheqxk/TH6WRrnGAwI/AAAAAAAABJA/GQgEW3Va5UM/s320/living+room.jpg
+Living Room I have a Time Share in Sedona available for rent for one week in 2013 (tell me which
+week you want).  This is a 2 Bedroom/2 Bath + Loft Condo that sleeps 8. 
+
+
+
+The week starts on a Friday. Sedona is in Red Rock Country at a cool 4500 ft. elevation. 
+The Grand Canyon National Park  is a 2 hour drive from Sedona.  Phoenix is about 1.5 hours
+drive to the south via I-17 and Flagstaff is about an hour north via the beautiful Oak Creek
+Canyon  (Hwy 89A).  Oak Creek Canyon features Slide Rock Park and roadside access to Oak
+Creek for camping, swimming and fishing. Sedona is a world class vacation destination with
+hundreds of activities. 
+
+Here are some web reviews for this condo resort (Villas of Sedona). Retail rental per night for
+this resort is $250 -- so this is such a great deal! ﻿ ﻿﻿
+
+ 
+
+Image:
+http://2.bp.blogspot.com/_8JsSJHheqxk/TH6WFLbhAcI/AAAAAAAABI4/iW14VnCV4Qc/s320/bedroom.jpg
+Master Bedroom Upstairs
+
+Plenty of natural features in the Red Rocks  to access via hiking, jeeping, hot air
+ballooning and airplane rides...﻿
+
+Image:
+http://2.bp.blogspot.com/_8JsSJHheqxk/TBZm412W-NI/AAAAAAAAAzo/7IiF15DRhJ8/s320/Sedona+June+2009+052.jpg
+Devil's Kitchen Sinkhole on Soldier's Pass Trail ﻿
+
+
+
+Image:
+http://2.bp.blogspot.com/_8JsSJHheqxk/TBZmEw66w5I/AAAAAAAAAzQ/bDb6Nf1Zpdo/s320/Vicki+at+Slide+Rock.jpg
+Slide Rock State Park in Oak Creek Canyon
+
+﻿ Tlaquepaque Village in the heart of Sedona is a replica of a Spanish Village with shopping,
+art galleries, and restaurants.
+
+Image:
+http://3.bp.blogspot.com/_8JsSJHheqxk/TBZmwKXSW-I/AAAAAAAAAzg/g_hC3oyf6RM/s320/Sedona+June+2009+001.jpg
+
+ 
+
+
+
+Image:
+http://4.bp.blogspot.com/_8JsSJHheqxk/TBZnzJaDpZI/AAAAAAAAAz4/U_fR_HsjypQ/s320/Sedona+June+2009+008.jpg
+
+Image:
+http://1.bp.blogspot.com/_8JsSJHheqxk/TBZuCnTuU4I/AAAAAAAAA0Q/UO3eexFuvVM/s320/Tlaquepaque+Plaza.jpg
+
+Image:
+http://2.bp.blogspot.com/_8JsSJHheqxk/TBZrSy4elzI/AAAAAAAAA0A/wZ7Ttz6oFCU/s400/Sedona+June+2009+101.jpg
+View from the luxurous   Enchantment Resort in Boynton Canyon - enjoy drinks or a meal here
+
+
+
+Image:
+http://2.bp.blogspot.com/_8JsSJHheqxk/TBZmjIY1ltI/AAAAAAAAAzY/fyDgVIv8X58/s320/P9090020.JPG
+View from Ken's Creekside Restaurant in heart of Sedona ﻿
+
+
+
+Image:
+http://2.bp.blogspot.com/_8JsSJHheqxk/TBZl3G7BIbI/AAAAAAAAAy4/RBV9ZPBd4DY/s400/IMG_0469_edited.jpg
+View of Cathedral Rocks from Red Rock Crossing
+
+
+
+
+
+Ready to Go?   Contact me .﻿ ﻿﻿ Posted by Vicki 0 comments
+
+Image: http://img1.blogblog.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Links to this post Email
+This BlogThis! Share to Twitter Share to Facebook Labels: Arizona , Red Rocks , rental , Sedona
+, timeshare , vacation Newer Posts Older Posts Home Subscribe to: Posts (Atom)
+window.___gcfg = {'lang': 'en_US'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+Who do you want to be elected U.S. President in November, 2012?
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Check out music from Paul Lamon
+
+
+
+Image:
+http://c.gigcount.com/wildfire/IMP/CXNID=2000002.0NXC/bHQ9MTI5ODMyMDM1Mzc1MCZwdD*xMjk4MzIwMzk2Njg3JnA9MjcwODEmZD1wcm9fcGxheWVyX2ZpcnN*X2dlbiZuPWJsb2dnZXIm/Zz*xJm89M2NjZjMxZjg3MzM5NDliNDkwMjVmMTlmMDExM2VkOWMmb2Y9MA==.gif
+
+
+
+Image: http://www.reverbnation.com/widgets/trk/40/artist_848131//t.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Check out music from Kirsten Mason
+
+
+
+Image:
+http://c.gigcount.com/wildfire/IMP/CXNID=2000002.0NXC/bHQ9MTI5ODMyMDEwMjAxNSZwdD*xMjk4MzIwMjE4NTQ2JnA9MjcwODEmZD1wcm9fcGxheWVyX2ZpcnN*X2dlbiZuPWJsb2dnZXIm/Zz*xJm89M2NjZjMxZjg3MzM5NDliNDkwMjVmMTlmMDExM2VkOWMmb2Y9MA==.gif
+
+
+
+Image: http://www.reverbnation.com/widgets/trk/40/artist_1130085//t.gif
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+You are now in Mountain Time
+
+obj=new
+Object;obj.clockfile="world001-blue.swf";obj.TimeZone="MST";obj.width=480;obj.height=250;obj.wmode="transparent";showClock(obj);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+The Universe Smiles
+
+
+
+    Image:
+    http://2.bp.blogspot.com/-ii-FP8bEUY0/UGHQ1Jda0HI/AAAAAAAAEhk/6x6u4orchz0/s220/20120513_22.JPG
+
+        Vicki
+
+    
+
+        Sandia Park, New Mexico, United States
+
+    
+
+        This Blog tries to capture the essence of my life in New Mexico where I now live. It has
+        some journals of my daily life, my family, my travels, some photos, art and poetry
+        I've created, and finally, an occasional comment on the times we are living in. I was
+        born in California. My father's Grandfather came to the United States from Modum,
+        Norway in 1881. My Mother's ancestor came from Schleswig-Holstein, Germany in
+        1861. I lived in coastal Southern California most of my life, but also lived in
+        Honolulu, Hawaii and Tucson, Arizona. For many reasons, including losing my job of
+        27 years, I decided to leave San Diego for New Mexico in 2005. I was looking for a
+        peaceful natural environment without crowds, noise, and a high cost of living. I
+        found that in the mountains east of Albuquerque, enjoying the bluest skies nearly
+        everyday. I work from home scoring online TOEFL tests. I enjoy art, photography,
+        gardening and volunteering in my free time. I volunteer with the Forest Service
+        leading Wildflower Walks. I love to travel and have been to most states in the USA. I
+        also have visited Canada, Mexico, Ireland, Japan, China, and several Caribbean
+        countries.
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2012 (37)
+
+        - ►  September (5)
+
+        
+
+        
+
+        - ►  August (2)
+
+        
+
+        
+
+        - ►  July (4)
+
+        
+
+        
+
+        - ►  June (2)
+
+        
+
+        
+
+        - ►  May (5)
+
+        
+
+        
+
+        - ►  April (3)
+
+        
+
+        
+
+        - ►  March (5)
+
+        
+
+        
+
+        - ►  February (5)
+
+        
+
+        
+
+        - ►  January (6)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (49)
+
+        - ►  December (6)
+
+        
+
+        
+
+        - ►  November (8)
+
+        
+
+        
+
+        - ►  October (4)
+
+        
+
+        
+
+        - ►  September (1)
+
+        
+
+        
+
+        - ►  August (2)
+
+        
+
+        
+
+        - ►  July (2)
+
+        
+
+        
+
+        - ►  June (5)
+
+        
+
+        
+
+        - ►  May (4)
+
+        
+
+        
+
+        - ►  April (6)
+
+        
+
+        
+
+        - ►  March (3)
+
+        
+
+        
+
+        - ►  February (6)
+
+        
+
+        
+
+        - ►  January (2)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2010 (31)
+
+        - ►  December (5)
+
+        
+
+        
+
+        - ►  November (4)
+
+        
+
+        
+
+        - ►  September (3)
+
+        
+
+        
+
+        - ►  August (6)
+
+        
+
+        
+
+        - ►  July (2)
+
+        
+
+        
+
+            - ▼  June (3)
+
+            - New Paintings
+
+            
+
+            - Summer Solstice
+
+            
+
+            - Vacation in Sedona -- 2013 -- 7 Night Rental for $...
+
+            
+
+        
+
+        
+
+        
+
+        - ►  May (2)
+
+        
+
+        
+
+        - ►  March (2)
+
+        
+
+        
+
+        - ►  February (4)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (14)
+
+        - ►  December (1)
+
+        
+
+        
+
+        - ►  November (2)
+
+        
+
+        
+
+        - ►  October (1)
+
+        
+
+        
+
+        - ►  August (6)
+
+        
+
+        
+
+        - ►  February (3)
+
+        
+
+        
+
+        - ►  January (1)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blogs of Interest
+
+    
+
+    - Canyonwalker Connections
+
+    
+
+    - Deborah Secor: Today's Art Class
+
+    
+
+    - Frugal Dad
+
+    
+
+    - Landscape Painting In Pastels
+
+    
+
+    - Nature Abhors A Garden
+
+    
+
+    - Neglected Beauty
+
+    
+
+    - New Mexico Central
+
+    
+
+    - New Monastic Individuals
+
+    
+
+    - Raptitude: Getting Better At Being Human
+
+    
+
+    - The 7 MSN Ranch
+
+    
+
+    - The Wifely Person Speaks
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Visitors to The Universe Smiles
+
+
+
+Image:
+http://s03.flagcounter.com/count/0Ip/bg=F7FEFF/txt=000000/border=CC4351/columns=2/maxflags=20/viewers=3/labels=0/
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png  
+
+Mary and Matt Are Getting Married
+
+
+
+Click here to view this photo book larger Click here to create your own Shutterfly photo book.
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Labels
+
+'57 Biscayne (1) 10K Trail (2) 14th Amendment (1) 2010 election (1) 2012 election (11) 4th of
+July (1) 4WD (2) 9/11 (1) A Separation (1) Academy Awards (1) accident (1) Affordable Care Act
+(4) Africa (1) Albuquerque (6) alcohol (1) Alejandro Fuentes (1) Alma Quillian (2) Amana
+Colonies (1) America (1) American Jobs Act (2) American Recovery and Reinvestment Act of 2009
+(1) Americans for Prosperity (2) anger (1) animals (2) anxiety (1) April Fool (1) Arab Spring
+(1) Arizona (3) art (14) art class (2) art for young people (3) artist (4) Asghar (1) Askil Holm
+(1) Aspects of Clay (1) aspen (2) Augustana College (1) Aung San Suu Kyi (2) awakening (1) baby
+(1) Baldwin Park (1) balloon fiesta (1) Barack Obama (5) Barelas (1) basal cell carcinoma (1)
+biking (1) Billy the Kid (1) birthday (6) Black Eyed Peas (1) Blessing (1) blindness (1)
+blizzard (1) Blue Hole (1) books (1) Boreas Pass (3) boycott (1) Branson (1) Breckenridge (7)
+Buddhism (1) buddhist (3) Burma (2) butterfly (1) cable news (1) cactus (1) California (2)
+camping (1) Capulin Spring (1) Cat-faced Spider (3) cataract surgery (1) cats (3) Cedar Crest
+(1) celebration (4) Cerrillos (1) Cerro Grande Fire (1) Chanukah (1) charcoal drawing (2)
+Charlotte's Web (2) Chaska (1) children's books (1) chiles (1) China (1) Christmas (5)
+Cienaga Canyon Trail (1) Cienega Canyon (1) Cirque du Soleil (1) clay (1) Colonias (1) color
+(1) Colorado (7) compassion (1) Conchas Lake (1) conflict resolution (2) Congress (4)
+Constitution (1) cookies (1) corneal transplant (2) country music (1) crows (1) culture (1)
+daughter (1) Davenport (2) David Cramer Photography (1) death (3) Death Valley (1) debate (1)
+debt ceiling (1) defensible space (1) democracy (9) Democrats (9) demogoguery (3) Denver
+South Park and Pacific Railway (1) desert (1) designated driver (1) Dharma (2) diabetes type 2
+(1) diet (1) discordance (1) Django Rhythm Meat Grinder (1) dogs (1) drawing (4) drawing
+lessons (1) drinking (1) drought (1) drunk (1) drunk-driving (1) dry eye syndrome (2) DSAEK
+(1) East Mountains (10) economy (2) education (1) El Cheapo Ranchito (1) Emily Post (1)
+enagement (1) Encaustic Art Institute (1) encaustic painting (1) energy (1) equality (1)
+Escondido (1) Espen Lind (1) etiquette (1) exercise (1) Eye Associates (1) eyesight (1) Fall
+(5) family (18) Farhadi (1) fatal accident (1) Festival of Lights (1) film (2) film review (1)
+financial literacy (1) fire (1) fireplaces (1) firewood (1) Flagstaff (1) Flaming Gorge (1)
+flowers (6) fly fishing (1) food (1) football (1) for rent (1) for sale (2) free (1) free will (1)
+freedom (4) Friends of the Sandia Mountains (2) friendship (4) Fuchs' (1) Fuchs' Dystrophy
+(2) Fuchs' Epithelial Dystrophy (1) garden (3) gardening (3) geology (1) geyser (1) ghost
+town (1) Glenn Beck (1) Gmail (1) GMC Terrain (1) Google (1) GOP (3) Governor Susana Martinez
+(1) Grand Tetons (1) grandchildren (3) green chile (1) Greenside Cafe (1) Gregerson (1)
+Grinnell College (1) Hagan (1) haiku (3) Hallelujah (1) hands (1) Hanukkah (1) Harwood Art
+School (1) hate (2) Hawaii (1) health (2) health care reform (1) health insurance (3)
+healthcare (3) heart (1) Herman Cain (1) hiking (10) holiday (4) home exchange (1) hot air
+balloons (2) hot springs (1) human beings (1) I-40 (2) Idaho (1) immigrants (1) immigration
+(1) in memoriam (1) Independence Day (1) interdependence (1) Iowa (2) Iran (1) Irwin Burstein
+(1) Jackson (1) Jane Richlovsky (1) Jay McCleskey (1) Jeff Buckley (1) Jemez Mountains (1) Joe
+Hutto (1) John Cale (1) Jon Stewart (1) Jonathan McIntosh (1) Joy (2) Juncos (1) Junior Seau (1)
+juniper (1) justice (1) k.d. lang (1) Kansas City (2) Kenny Ellis (1) Koch (2) Koch brothers (2)
+Kurt Nilsen (1) Land of Enchantment (1) Larry Littlefield (1) Las Conchas Fire (1) Las Vegas
+(2) Laughlin (1) leadership (1) Leonard Cohen (1) Liberal Angst (1) liberty (1) life (4)
+lodging (1) loneliness (1) Loretta LaRoche (1) Los Alamos (1) Los Angeles (1) Los Poblanes (1)
+Love (10) macular degeneration (1) Madison Avenue (1) Madrid (1) manners (1) Manzanita
+Mountains (1) Margie Weinstein (1) Marine Corps (1) marriage (1) Martin Heinrich (2) Martin
+Luther King (1) May (1) media (1) meditation (2) memorial (4) Michele Bachmann (1)
+Mid-Twentieth Century (1) middle class (1) Middle East (1) Middle School (1) Midnight in
+Paris (1) Mindfulness (3) Minnesota (2) Mitt Romney (5) MLK Parade (1) monsoon season (1)
+Montana (1) Monte Largo Mountains (2) moon (1) Morning (1) Mosque (1) mother (3) Mother's Day
+(2) mountains (6) multi-tasking (1) murders (1) music (2) Myanmar (2) national budget (3)
+National Park (1) Native Americans (1) nativism (1) naturalist (1) nature (6) Neal Burstein
+(2) Neecy Twinem (1) New Mexico (34) New Mexico Centennial (1) New Year's (1) non-violence (1)
+November (1) Obama (10) Obamacare (3) Occupy Movement (1) Oceanside (1) Ocho Kandelikas (1)
+oil and gas industry (1) oil painting (1) Old Faithful (1) old photos (1) oppression (1) Oprah
+(1) Orb Weaver (1) Ortiz Mountains (1) Osama bin Laden (1) Oscars (1) over-consumption (1)
+Ozarks (2) painting (2) palette (1) Palm Springs (1) paranoia (1) party (1) pastels (3) Paul
+Simon (1) PBS (1) peace (3) Pearl Burns (3) Pema Chodron (1) pencil drawing (1) personal growth
+(1) pets (1) philosophy (1) photography (2) pine (1) pinon (1) pinyon (1) Placitas (1)
+pnderosa pine (1) poetry (3) politics (15) politics. 2012 election (5) Poway (1)
+pre-existing conditions (1) presidency (1) prose (3) protest (1) Puertecito (1) Pugs (1)
+Rachel Maddow (1) racism (1) rafting (1) Red Rocks (1) remembrance (1) renewal (1) rental (2)
+Repeal of Healthcare (2) Republicans (13) responsibility (1) reunion (1) revolution (1)
+Right Wing Radio Duck (1) right-wing (4) ristra (1) road trip (8) Roadrunner Food Bank of New
+Mexico (1) Rocky Mountains (5) Route 66 (2) Rufus Wainwright (1) sailing (1) San Diego (3) San
+Diego Chargers (1) San Felipe Pueblo (1) San Pedro Creek (1) San Pedro Mountainas (1) Sandia
+(1) Sandia Mountains (18) Sandia Park (8) sandia tram (1) Sandia Wilderness (2) Santa Fe (3)
+Santa Rosa (1) Scott Walker (1) sculpture (1) Seattle (1) Sedona (3) self-acceptance (1)
+September (1) Simon and Garfunkel (1) sketching (1) skiing (3) skin health (1) sledding (1)
+Snow (9) snow storms (6) snowboarding (1) snowshoeing (2) solidarity (2) southwest (2)
+Spider (1) Spirit Rock Center (1) spirituality (3) Spring (6) St. Elmo (1) St. Francis of
+Assisi (2) stress (1) suffering (1) summer (13) summer solstice (1) sun (2) sunrise (1) sunset
+(1) Tanya Davis (1) Taos (2) tax cuts (1) tax reform (1) taxes (3) Tea Party (4) Temecula (1)
+terrorism (2) Thanksgiving (5) The Artist (1) The Atlantic (1) The Beatles (1) The Universe
+Smiles (1) Thich Nhat Hanh (4) Thomas Jefferson (1) tiger swallowtail butterfly (1) Tijeras
+(1) Tijuana (1) timeshare (6) Torment (1) tornadoes (1) trails (2) travel (1) Tree Spring
+Trail (1) trees (1) Tucumcari (1) Unions (4) United States of America (1) unity (1) USS Midway
+(1) vacation (10) Valentine (1) values (2) vegetables (2) Vernal Equinox (1) victim (1) voter
+registration (1) war (1) weather (4) wedding (1) Weiner (1) wild birds (3) wild horses (1) wild
+turkey (1) wildfire (1) wildflowers (17) wildlife (1) Willie Nelson (1) winter (10) winter
+driving (2) winter solstice (1) Winter's Bone (1) Wisconsin (2) woodstoves (1) WW II (1)
+Wyoming (2) xenophobia (1) Yellowstone (1) youth (1) Zen (3) Zombie Zoo (1)
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/9202242421431357050/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/9202242421431357050/comments/default";
+holder.currentBlogUrl = "http://theuniversesmiles.blogspot.com/";
+holder.currentBlogId = "9202242421431357050"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#999999"; skin['ENDCAP_LINK_COLOR'] = "#99aadd";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#99aadd"; skin['CONTENT_TEXT_COLOR'] =
+"#999999"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#99aadd";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#341473"; skin['CONTENT_HEADLINE_COLOR'] =
+"#d1dd99"; skin['FONT_FACE'] = "normal bold 100% Trebuchet, Trebuchet MS, Arial,
+sans-serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-703qa6bmpcc0",
+height: 260, site: "10100119902693193261", locale: 'en_US' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Subscribe To
+
+
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Posts
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png All Comments
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-google.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-netvibes.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-newsgator.png
+
+Image: http://img1.blogblog.com/img/widgets/subscribe-yahoo.png
+
+Image: http://img1.blogblog.com/img/icon_feed12.png Atom
+
+Image: http://img2.blogblog.com/img/widgets/arrow_dropdown.gif
+
+Image: http://img1.blogblog.com/img/icon_feed12.png All Comments
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'9202242421431357050';BLOG_attachCsiOnload('archive_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d9202242421431357050','//theuniversesmiles.blogspot.com/2010_06_01_archive.html','9202242421431357050');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'9202242421431357050', 'bloggerUrl': 'http://www.blogger.com', 'title': 'The
+Universe Smiles', 'pageType': 'archive', 'url':
+'http://theuniversesmiles.blogspot.com/2010_06_01_archive.html', 'canonicalUrl':
+'http://theuniversesmiles.blogspot.com/2010_06_01_archive.html',
+'canonicalHomepageUrl': 'http://theuniversesmiles.blogspot.com/', 'homepageUrl':
+'http://theuniversesmiles.blogspot.com/', 'blogspotFaviconUrl':
+'http://theuniversesmiles.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'June 2010', 'pageTitle': 'The Universe Smiles: June 2010', 'encoding': 'UTF-8',
+'locale': 'en-US', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false,
+'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks':
+'\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42The
+Universe Smiles - Atom\42
+href\75\42http://theuniversesmiles.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42The Universe Smiles - RSS\42
+href\75\42http://theuniversesmiles.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42The Universe Smiles - Atom\42
+href\75\42http://www.blogger.com/feeds/9202242421431357050/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\759202242421431357050\42 /\076',
+'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebartextcolor': '#999999', 'linkcolor':
+'#99aadd', 'visitedlinkcolor': '#aa77aa', 'textcolor': '#cccccc', 'headerfont':
+'normal bold 78% \47Trebuchet MS\47,Trebuchet,Arial,Verdana,Sans-serif',
+'pagetitlefont': 'normal bold 200% \47Trebuchet MS\47,Trebuchet,Verdana,Sans-serif',
+'bgcolor': '#000000', 'descriptioncolor': '#341473', 'titlecolor': '#d1dd99',
+'bordercolor': '#333333', 'postfooterfont': 'normal normal 78% \47Trebuchet MS\47,
+Trebuchet, Arial, Verdana, Sans-serif', 'pagetitlecolor': '#cccccc', 'bodyfont':
+'normal bold 100% Trebuchet, Trebuchet MS, Arial, sans-serif', 'endSide': 'right',
+'startSide': 'left', 'descriptionfont': 'normal normal 78% Trebuchet, Trebuchet MS,
+Arial, sans-serif', 'sidebarcolor': '#777777'}, 'override': ''}}, {'name': 'view',
+'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard':
+{'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine',
+'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML3', 'footer', null, document.getElementById('HTML3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LabelView', new
+_WidgetInfo('Label1', 'footer', null, document.getElementById('Label1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_FollowersView', new
+_WidgetInfo('Followers1', 'footer', null, document.getElementById('Followers1'),
+{'title': 'Followers', 'codeSnippet': '\74script type\75\42text/javascript\42\76\n
+if (!window.google || !google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75
+\42http://www.blogger.com/feeds/9202242421431357050/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/9202242421431357050/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://theuniversesmiles.blogspot.com/\42;\n
+holder.currentBlogId \75 \429202242421431357050\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-3si89fxv8ima\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#999999\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#99aadd\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#99aadd\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#999999\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#99aadd\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#341473\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#d1dd99\42;\n skin[\47FONT_FACE\47] \75
+\42normal bold 100% Trebuchet, Trebuchet MS, Arial, sans-serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-3si89fxv8ima\42,\n height: 260,\n \n \n \n site: \04210100119902693193261\42,\n
+\n locale: \47en_US\47 },\n skin);\n \74/script\076'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_SubscribeView', new _WidgetInfo('Subscribe1',
+'footer', null, document.getElementById('Subscribe1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PollView', new _WidgetInfo('Poll1', 'sidebar',
+null, document.getElementById('Poll1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'sidebar',
+null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar',
+null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar',
+null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1',
+'sidebar', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new
+_WidgetInfo('LinkList1', 'sidebar', null, document.getElementById('LinkList1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML2', 'sidebar', null, document.getElementById('HTML2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/1664432155-lbx.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new
+_WidgetInfo('PageList1', 'null', null, document.getElementById('PageList1'),
+{'title': 'Pages', 'links': [{'href': 'http://theuniversesmiles.blogspot.com/',
+'title': 'Home', 'isCurrentPage': false}], 'mobile': false}, 'displayModeFull'));
+
