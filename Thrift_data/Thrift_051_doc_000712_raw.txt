@@ -1,0 +1,677 @@
+
+
+
+
+Charlie the Chaplin - Star Fleet
+
+////// Compete ///////////////////// __compete_code =
+'667f89f26d96c30e99728fe6a608804d'; (function () { var s =
+document.createElement('script'), d = document.getElementsByTagName('head')[0] ||
+document.getElementsByTagName('body')[0], t = 'https:' == document.location.protocol
+? 'https://c.compete.com/bootstrap/' : 'http://c.compete.com/bootstrap/'; s.src = t +
+__compete_code + '/bootstrap.js'; s.type = 'text/javascript'; s.async = 'async'; if (d) {
+d.appendChild(s); } })(); ////// Quantcast ///////////////////// function
+channValidator(chann) { return (typeof(chann) == 'string' && chann != ''); } function
+lycosQuantcast(){ var lb = ""; if(typeof(cm_host) !== 'undefined' &&
+channValidator(cm_host)){ lb += cm_host.split('.')[0] + '.'; } if(typeof(cm_taxid) !==
+'undefined' && channValidator(cm_taxid)){ lb += cm_taxid; lb = lb.replace('/',''); } else
+{ lb = lb.replace('.',''); } return lb; } var _qevents = _qevents || []; (function() { var elem =
+document.createElement('script'); elem.src = (document.location.protocol == "https:"
+? "https://secure" :"http://edge") + ".quantserve.com/quant.js"; elem.async = true;
+elem.type = "text/javascript"; var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt); })(); _qevents.push({
+qacct:"p-6eQegedn62bSo", labels:lycosQuantcast() }); /////// Google Analytics var _gaq
+= _gaq || []; _gaq.push(['_setAccount', 'UA-21402695-21']);
+_gaq.push(['_setDomainName', 'angelfire.com']); _gaq.push(['_setCustomVar', 1,
+'member_name', 'planet/grantus', 3]); _gaq.push(['_trackPageview']); (function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+'.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s); })(); ////// Lycos Initialization
+///////////////////// var lycos_ad = Array(); var lycos_search_query = ""; var
+lycos_onload_timer; var cm_role = "live"; var cm_host = "angelfire.lycos.com"; var
+cm_taxid = "/memberembedded"; var angelfire_member_name = "planet/grantus"; var
+angelfire_member_page = "planet/grantus/charlie/charlie.html"; var
+angelfire_ratings_hash = "1349223543:d031e44926878700b495571f21ff985c"; var
+lycos_ad_category = null; var lycos_ad_remote_addr = "128.119.246.79"; var
+lycos_ad_www_server = "www.angelfire.lycos.com"; var edit_site_url =
+"www.angelfire.lycos.com/landing/landing.tmpl?utm_source=house&utm_medium=landingpage&utm_campaign=toolbarlink";
+////// Criteo ///////////////////// var cto_conf = { a:true, i: "294", c:"img", kw: "" } ;
+(function (){ var c = document.createElement("script"); c.type = "text/javascript";
+c.async = true; c.src = "http://www.angelfire.com/adm/js/partner/criteo_ld_kw.js";
+var s = document.getElementsByTagName("body")[0]; s.appendChild(c); })();
+(function(isV) { if (!isV) { return; } //this.lycos_search_query =
+lycos_get_search_referrer(); var adMgr = new AdManager(); var lycos_prod_set =
+adMgr.chooseProductSet(); var slots = ["leaderboard", "leaderboard2",
+"toolbar_image", "toolbar_text", "smallbox", "top_promo", "footer2"]; var adCat =
+this.lycos_ad_category; adMgr.setForcedParam('page', (adCat && adCat.dmoz) ?
+adCat.dmoz : 'member'); if (this.lycos_search_query) {
+adMgr.setForcedParam("keyword", this.lycos_search_query); } else if (adCat &&
+adCat.find_what) { adMgr.setForcedParam('keyword', adCat.find_what); } for (var s in
+slots) { var slot = slots[s]; if (adMgr.isSlotAvailable(slot)) { this.lycos_ad[slot] =
+adMgr.getSlot(slot); } } adMgr.renderHeader(); adMgr.renderFooter(); }((function() {
+var w = 0, h = 0, minimumThreshold = 300; if (top == self) { return true; } if
+(typeof(window.innerWidth) == 'number' ) { w = window.innerWidth; h = window.innerHeight;
+} else if (document.documentElement && (document.documentElement.clientWidth ||
+document.documentElement.clientHeight)) { w = document.documentElement.clientWidth;
+h = document.documentElement.clientHeight; } else if (document.body &&
+(document.body.clientWidth || document.body.clientHeight)) { w =
+document.body.clientWidth; h = document.body.clientHeight; } return ((w >
+minimumThreshold) && (h > minimumThreshold)); }()))); window.onload = function() { var f =
+document.getElementById("lycosFooterAd"); var b =
+document.getElementsByTagName("body")[0]; b.appendChild(f); f.style.display =
+"block"; document.getElementById('lycosFooterAdiFrame').src =
+'/adm/ad/footerAd.iframe.html'; // Slider Injection (function() { var e =
+document.createElement('iframe'); e.style.border = '0'; e.style.margin = 0;
+e.style.display = 'block'; e.style.cssFloat = 'right'; e.style.height = '254px';
+e.style.overflow = 'hidden'; e.style.padding = 0; e.style.width = '300px'; e.src =
+'/adm/ad/sliderAd.iframe.html'; var sliderBlock =
+document.getElementById('lyslider-adblock-wrapper'); var sliderHolder =
+document.getElementById('lyslider-adblock-holder'); var sliderClose =
+document.getElementById('lyslider-adblock-close'); sliderBlock.style.display =
+'block'; sliderClose.onclick = function() {
+sliderBlock.parentNode.removeChild(sliderBlock); return false; } var iframeOnload =
+function() { setTimeout((function sliiide() { var s = (window.getComputedStyle) ?
+parseInt(getComputedStyle(sliderHolder).right) :
+parseInt(sliderHolder.currentStyle.right); if (s <= 0) { sliderHolder.style.right = (s +
+6) + 'px'; setTimeout(sliiide, 10); } else { sliderHolder.style.right = '0px';
+sliderClose.style.display = 'block'; } }), 1000); } if (e.attachEvent) {
+e.attachEvent('onload', iframeOnload); } else { e.addEventListener('load',
+iframeOnload, false); } sliderHolder.insertBefore(e, sliderHolder.firstChild); })();
+} #body .adCenterClass{margin:0 auto}
+
+Image: /adm/ad/angelfire-freeAd.jpg document.write(lycos_ad['leaderboard']); Close
+Ad
+
+Image: /adm/ad/angelfire-freeAd2.jpg Sponsored by
+
+Image: http://af.lygo.com/d/toolbar/sponsors/rhapsody_logo.jpg
+
+Image: http://www.angelfire.com/doc/images/track/ot_noscript.gif?rand=928603
+
+Image: http://ad.yieldmanager.com/pixel?id=1901600&t=2
+
+Charlie the Chaplin Star Fleet , Chaplin, Charlie the, Star Fleet, Book of Honor, Klingon,
+Jedi, Tardis, paq'batlh Droselmeyer, Time, , Space, Missionary Tales
+
+
+
+Image: http://www.angelfire.com/planet/grantus/charlie/starfleet-22.gif
+
+  Charlie the Chaplin  
+
+The Unofficial Memoirs of:   Commander Robert Charles  “Charlie”  Franklin Grant
+
+United Federation of Planets  –  Star Fleet – Chaplin
+
+ 
+
+Image: http://www.angelfire.com/planet/grantus/charlie/commcolo.gif
+
+Prolog     “   yIrojqu'   “   Star Date, oh the heck with the star date I’m sure your AI
+will fill it in if you need to research this archive for some reason. I am Commander Robert
+Charles Franklin Grant however, most sentient beings that know me just call me “Charlie”
+or, “Chaps”. Of course I have had several different names at different times depending on
+which quadrant or culture we were dialoging with, mostly according to their custom or
+circumstance but the only names I remember without my PAI (I have it blissfully off at the
+moment) is my Klingon handle “ Ga-Na-Tek ” which loosely translates into “Coffin
+Maker” a real party starter (and I’ve always felt it more than a little inappropriate for
+somebody of my career path) or, the Borg “Grantus” I was never quite sure of what that
+implied but I always thought it was honestly some kind of Cybernetic joke ( I’m really glad
+that they have been re-integrated, if you know what I mean) . Anyway I am one of the few and,
+certainly the oldest, of the most unrecognized and, undocumented branches of Star Fleet,
+namely “ The Star Fleet's Chaplin's Service ”.   Most of you have undoubtedly never heard
+of us (unless of course you’ve served in Star Fleet) but I assure you that we have been around,
+in one way or the other ever since Zefram Cochrane said “Howdy” to the first Vulcan ’s he
+spooked with the crude prototype warp drive in his test vessel Phoenix and, unwittingly
+sparked first contact for Earth . I must point out in all deference to “ole Zef” that we were
+probably the last thing on his mind (if you know anything at all about his personal life I’m
+sure you more than fully understand what I’m referring to) however, once he and the Earth
+Council (such as it was) understood the value the Vulcan’s placed on that part of their
+culture (kind of strange considering their Platonic aspirations) well, we more or less
+became a political necessity for the continuance of relations between our species. I’ve
+been asked, by more than a few, to record this memoir because of the lack of any real
+documentation, or credit given to our branch of Star Fleet service and our tradition, which is
+just as much a part of deep space exploration and first contact as any other command ever
+bureaucratically implemented and more, if I do say so myself. Most of what The Star Fleet
+Chaplin’s Service has and, continues to accomplish has been systematically buried into
+generalized event logs out of what some, I know, feel is a form of “ Political Correctness ”
+undoubtedly a lot of which has to do with the rancor created when command decided that
+telepathic “ Councilors ” might be more appropriate than “ Chaplin’s ” (don’t
+even get me started on that one). Anyway it should be pretty apparent that we’ve
+traditionally been given a back seat (after all in any other Star Fleet Command one can attain
+Admirals rank (I myself began my first assignment out of the academy as what was then known as "
+Warrant Officer ") but, regulations dictate that Commander is the highest you can ever hope to
+achieve as a Chaplin.) Well, I am thankful that I have always truly believed that humility is,
+without exception, the best part of real valor, an axiom that has served me well over the light
+years of my service. In any event I will try to share a little of our historic record, from it’s
+inception, till very recently with the expectation that it will hopefully provide a deeper
+and richer understanding of the cultures, and challenges we have witnessed from our
+exceptional perspective in Star Fleet and, in all our attempts to more fully integrate with
+the beings, and the cosmos we continue to reach out to. Some of these stories are sad, some 
+curious  and  many are just  plain funny because of our unique “ Human ness ”  and, our
+seemingly built in response to anthropomorphize every; thing, concept, or being, we come
+into contact with but, all  of these  chronicles ,  I pray, will be 
+truly enlightening  if  not at least entertaining.  
+
+  So as always my friends, " Live Long an Prosper "  
+
+&
+
+   " mIghtaHghachvo' yImej 'ej yIQaQ! roj yInej 'ej yItlha' "  
+
+ 
+
+Voice ID: Commander Robert Charles Franklin Grant, Chaplin’s Service
+
+
+
+Image: http://www.angelfire.com/planet/grantus/charlie/logo-ufp.gif
+
+Star Fleet , United Federation of Planets
+
+ 
+
+ 
+
+  Note:
+
+ An AI glossary of arcane historic, alien, and questionable terms has been integrated into
+this archive. 
+
+For other interpretations or translations please refer to:
+
+ New Galactic Phrasebook , Main 2 , Main 1 ,   Memory Alpha , Wikipedia , HGTtG ->dp , LCARS
+Database , Klingon Language Institute
+
+   
+
+Image:
+http://www.angelfire.com/planet/grantus/charlie/2framed-STsmlKILINONCROPSMOOTH3.jpg
+
+Ga-Na-Tek   "Charlie"  with Klingon Representative TaZa
+
+ 
+
+
+
+Image: http://www.angelfire.com/planet/grantus/charlie/2charl1.gif
+
+ 
+
+Note:
+
+The Star Fleet Chaplin’s Service
+
+Although I have inserted a computer reference for the term “ Chaplin ” which undoubtedly
+explains the functions (general duties) and historic employ (as applies to the structure of
+organizations like Star Fleet) I wanted to interject this personal addendum. Throughout "
+Human History " ( & Other history's ) the placement of individuals serving (such as myself)
+within the core of advance units has typically been "viewed" with at least “ practical value
+” to all commands, however undocumented or, unmentioned. Many are unaware of how intrinsic
+this service is within  the fabric of any institution such as Star Fleet and to the
+psychological support we provide (beyond duties of; Marriage Celebrations, Birth Rites,
+Counseling, Final Passage (Closure), and in many cases Rites of Passage) (depending on
+species and belief system) to the vision of the “ Holistic Being ” approach. Many still
+think that Ships Captains have attended to all of these duties personally, however the simple
+truth of it is, that unless the circumstances have warranted a Captains presence or, for
+whatever reasons the Commanding Officer has chosen to officiate these functions, they
+otherwise have historically been left as the Chaplin’s responsibilities.    
+
+Personal Computer Addendum 
+
+BACK
+
+UFP> e-Prime
+
+ 
+
+ 
+
+Note:
+
+TaZa    
+
+  Commander , Klingon , Diplomatic Command , C lan C ., , , kr paq'batlh , Kahless , Sto-vo-kor  
+ 
+
+TaZa , s    
+
+Name curiously enough is not  " Klingon ". Her mother was actually a  Terrain   descended
+from an ancient Earth race known as " Chaldeans ". It literal means " Tender " in the Chaldean
+Arabic   language of her mothers ancestors and, a source of a lot  of ribbing among her peers,
+which in part I believe, is why she and I got on so well. " Ga-Na-Tek ". 
+
+BACK
+
+Personal Computer Addendum 
+
+UFP> e-Prime
+
+ 
+
+ 
+
+ 
+
+Note:
+
+" Ga-Na-Tek "   is not " Klingon " but from the old Earth language known as " Polish " part of
+Commander Grant’s maternal ancestors lineage. It literally translates into “ Boner ”
+but indicative of its sub-root geographical extraction of " Transylvania " (when it was part
+of the vast Polish Empire on Terra) “Coffin-Maker” is the more accepted and, appropriate
+derived translation. We Klingon’s adopted it for "Charlie" when we discovered this from
+his personnel file during the peace negotiations.
+
+TaZa , Clan C . , ,   8   paq'batlh e Sto-vo-kor  
+
+Commander , Klingon , Diplomatic Command      
+
+BACK
+
+Personal Computer Addendum 
+
+UFP> e-Prime
+
+ 
+
+Commander:   Robert Charles Franklin Grant
+
+
+
+Image: http://www.angelfire.com/planet/grantus/pix/emblemstarfleetacamdy.gif
+
+D egrees:
+
+UFP> E -P rime
+
+Interspecies Anthropology
+
+Negotiations Principles , Terrain Law
+
+Transactional Psychology , Psycho Cybernetics
+
+Quantum Psychology , Mathematics & Engineering
+
+Morphological AI Construc ts
+
+Metaheuristic o ptimization A lgorithm 's
+
+PhD Metaphysical
+
+Journal : UFP e-Prime     " Metaphysics of Artificial Intelligen , "
+
+Member:   G uild: e , AWM     e      M a trix ( b hess / 8 go )    e    U i clown G UFP
+
+Inventions: e s b
+
+
+
+Image: http://www.angelfire.com/planet/grantus/pix/atomicon.gif PAI P A dnausem
+
+UFP> e-Prime
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Note: K1 REF
+
+yIrojqu' Shalom. (lit. You! Really make peace! [tlh]
+
+Courtesy:  The New Galactic Phrasebook
+
+ 
+
+BACK
+
+Computer Addendum 
+
+UFP> e-Prime
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Note: K2 REF
+
+mIghtaHghachvo' yImej 'ej yIQaQ! roj yInej 'ej yItlha'  
+
+Depart from evil, and do good; seek peace, and pursue it.[tlh] Psalm 34.14
+
+Courtesy:  The New Galactic Phrasebook
+
+ 
+
+BACK
+
+Computer Addendum 
+
+UFP> e-Prime
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  book of honor
+
+" paq'batlh"    means the book of honor
+
+The  " paq'batlh "  seems to be the  " Klingon " equivalent of the     " Christian "  "
+Bible ". 
+
+ In the Klingon Language    " paq'batlh "  means the;   Book   of  Honor .
+
+Courtesy:  Marc Okrand , -> Klingon ->  Language
+
+BACK
+
+Computer Addendum 
+
+UFP> e-Prime
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Reference and Text Books:
+
+Apeman, Spaceman : An Anthology of Anthropological Science Fiction   Leon E. Stover
+(Editor), Harry Harrison (Editor)
+
+  The Naked Ape: Desmond Morris   - Territorial Imperative : Robert Ardrey   -
+Systemantics: John Gall
+
+  Meeting of Minds
+
+Image: http://www.angelfire.com/planet/grantus/pix/COL2006JPG.jpg
+
+
+
+Image: http://www.angelfire.com/planet/grantus/pix/atomicon.gif   Holo = Scenario  
+= ( Meeting of Minds )  
+
+> WARNING SAFE MODE IS OFF >  Neural NET Paths Not  Installed  <
+
+    <-Ready to Load Program->
+
+ 
+
+BACK
+
+UFP> e-Prime
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+vavma' QI'tu'Daq quvjaj ponglIj...
+
+  The New Galactic Phrasebook
+
+Personal Addendum
+
+Via Con Dios    
+
+  Gort, Klaatu barada nikto
+
+   
+
+Image: http://www.angelfire.com/planet/grantus/pix/atomicon.gif UFP> e-Prime
+
+ 
+
+    (Saturday, April 01, 2006   GnaTek ©Grantus)    
+
+ 
+
+ 
+
+
+
+Image: charli1.gif
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1014 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); ╰» gÑ�Ñ”Î±Ñ‚ ¢Ïƒâ„“â„“Ñ”¢Ñ‚Î¹ÏƒÎ·
+<!-- /* * Blogger Template Style * Herbert * * by Jason Sutter * Updated by Blogger Team */ /* *
+Variable definitions * ==================== <Variable name="mainBgColor"
+description="Page Background Color" type="color" default="#ffffff" /> <Variable
+name="mainTextColor" description="Text Color" type="color" default="#000000" />
+<Variable name="titleBgColor" description="Blog Title Background Color" type="color"
+default="#ff4500" /> <Variable name="titleColor" description="Blog Title Color"
+type="color" default="#fffafa"/> <Variable name="descriptionBgColor"
+description="Description Background Color" type="color" default="#ffebcd" />
+<Variable name="descriptionColor" description="Blog Description Color" type="color"
+default="#9e5205" /> <Variable name="dateHeaderColor" description="Date Header Color"
+type="color" default="#777777" /> <Variable name="postTitleColor" description="Post
+Title Color" type="color" default="#555555" /> <Variable name="postTitleBgColor"
+description="Post Title Background Color" type="color" default="#eeeeee" /> <Variable
+name="postFooterColor" description="Post Footer Color" type="color"
+default="#444444" /> <Variable name="mainLinkColor" description="Link Color"
+type="color" default="#de7008" /> <Variable name="mainVisitedLinkColor"
+description="Visited Link Color" type="color" default="#e0ad12" /> <Variable
+name="sidebarTitleColor" description="Sidebar Title Color" type="color"
+default="#ff4500" /> <Variable name="sidebarLinkColor" description="Sidebar Link
+Color" type="color" default="#999999" /> <Variable name="sidebarVisitedLinkColor"
+description="Sidebar Visited Link Color" type="color" default="#de7008" /> <Variable
+name="bodyFont" description="Text Font" type="font" default="normal normal 90%
+'Trebuchet MS', Trebuchet, Verdana, Sans-Serif" /> <Variable name="titleFont"
+description="Blog Title Font" type="font" default="normal bold 266% Verdana,
+Sans-Serif" /> <Variable name="descriptionFont" description="Blog Description Font"
+type="font" default="normal bold 85% Verdana, Sans-Serif" /> <Variable
+name="postTitleFont" description="Post Title Font" type="font" default="normal bold
+110% Verdana, Sans-serif"> <Variable name="sidebarTitleFont" description="Sidebar
+Title Font" type="font" default="normal bold 125% Verdana, Sans-Serif" /> <Variable
+name="startSide" description="Start side in blog language" type="automatic"
+default="left"> <Variable name="endSide" description="End side in blog language"
+type="automatic" default="right"> */ body { margin: 0px; padding: 0px; background:
+#ffffff; color: #000000; font: normal normal 90% 'Trebuchet MS', Trebuchet, Verdana,
+Sans-Serif; } a { color: #de7008; text-decoration: none; } a:hover { color: #e0ad12;
+text-decoration: underline; } a:visited { color: #e0ad12; } a img { border: 0; } @media all {
+div#main-wrapper { float: left; width: 66%; padding-top: 0; padding-right: 1em;
+padding-bottom: 0px; padding-left: 1em; word-wrap: break-word; /* fix for long text
+breaking sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE
+sidebar float */ } div#sidebar-wrapper { margin: 0px; padding: 0px; text-align: right; }
+div#sidebar { width: 30%; float: right; word-wrap: break-word; /* fix for long text breaking
+sidebar float in IE */ overflow: hidden; /* fix for long non-text content breaking IE sidebar
+float */ } } #content-wrapper { margin-right: 1em; } @media handheld { div#main-wrapper {
+float: none; width: 90%; } div#sidebar-wrapper { padding-top: 20px; padding-right: 1em;
+padding-bottom: 0; padding-left: 1em; text-align: left; } } #header { padding-top: 5px;
+padding-right: 0px; padding-bottom: 8px; padding-left: 0px; margin-top: 0px;
+margin-right: 0px; margin-bottom: 20px; margin-left: 0px; border-bottom: solid 1px
+#eeeeee; border-top: solid 2px #ffebcd; background: #ffebcd; color: #9e5205; } h1 a:link {
+color: #fffafa; } h1 a:visited { color: #fffafa; } h1 { padding-top: 18px; padding-right:
+0px; padding-bottom: 10px; padding-left: 5%; margin-top: 0px; margin-right: 0px;
+margin-bottom: 8px; margin-left: 0px; border-top: solid 9px #ff4500; border-bottom:
+solid 1px #9e5205; color: #fffafa; background: #ff4500; font: normal bold 266% Verdana,
+Sans-Serif; } .description { padding-top: 0px; padding-right: 0px; padding-bottom: 0px;
+padding-left: 5%; margin: 0px; color: #9e5205; background: transparent; font: normal bold
+85% Verdana, Sans-Serif; } h3 { margin-top: 0px; margin-right: 0px; margin-bottom: 10px;
+margin-left: 0px; padding-top: 2px; padding-right: 0px; padding-bottom: 2px;
+padding-left: 2px; color: #555555; background: #eeeeee; font: normal bold 110% Verdana,
+Sans-serif; } h3.post-title a, h3.post-title a:visited { color: #555555; } h2.date-header
+{ margin-top: 10px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;
+padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 2%; color:
+#777777; font-size: 90%; text-align: left; } #sidebar h2 { margin: 0px; color: #ff4500;
+font: normal bold 125% Verdana, Sans-Serif; padding: 0px; border: none; } #sidebar .widget {
+margin-top: 0px; margin-right: 0px; margin-bottom: 33px; margin-left: 0px; padding: 0; }
+#sidebar ul { list-style-type: none; font-size: 95%; margin-top: 0; } #sidebar li { margin:
+0px; padding: 0px; list-style-type: none; font-size: 105%; } .Blog { margin-top: 20px; }
+.blog-posts, .feed-links { margin-left: 2%; } .feed-links { clear: both; line-height:
+2.5em; } .post { margin-top: 0; margin-right: 0; margin-bottom: 30px; margin-left: 0;
+font-size: 100%; } .post-body { margin-top: 0; margin-right: 6px; margin-bottom: 0;
+margin-left: 5px; } .post strong { font-weight: bold; } #sidebar a { text-decoration: none; }
+#sidebar a:link, #sidebar a:visited { color: #999999; } #sidebar a:active, #sidebar
+a:hover { color: #de7008; } pre,code,strike { color: #666666; } .post-footer { padding-top:
+0; padding-right: 0; padding-bottom: 0; padding-left: 5px; margin: 0px; color: #444444;
+font-size: 80%; } #comments { padding-top: 2px; padding-right: 0px; padding-bottom: 2px;
+padding-left: 5px; font-size: 110%; font-weight: bold; font-family:
+Verdana,Sans-Serif; } .comment-author { margin-top: 20px; } .comment-body { margin-top:
+10px; font-size: 100%; font-weight: normal; color: black; } .comment-footer { padding:
+0px; margin-bottom: 20px; color: #444444; font-size: 80%; font-weight: normal; display:
+inline; margin-right: 10px; } .deleted-comment { font-style: italic; color: gray; }
+.comment-link { margin-left: .6em; } /* Profile
+----------------------------------------------- */ .profile-textblock { clear: both;
+margin-left: 0; } .profile-img { margin-top: 0; margin-right: 0; margin-bottom: 5px;
+margin-left: 5px; float: right; } .BlogArchive #ArchiveList { float: right; }
+.widget-content { margin-top: 0.5em; } #sidebar .widget { clear: both; }
+#blog-pager-newer-link { float: left; } .blog-pager-older-link { float: right; }
+.blog-pager { text-align: center; } .clear { clear: both; } /** Tweaks for subscribe widget */
+.widget-content .subscribe-wrapper { float: right; clear: right; margin: .2em;
+font-family: Arial,Sans-Serif; } /** Tweaks for layout editor mode */ body#layout
+#outer-wrapper { margin-top: 10px; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\758782500633967033277\46blogName\75%E2%95%B0%C2%BB+g%D1%8F%D1%94%CE%B1%D1%82+%C2%A2%CF%83%E2%84%93%E2%84%93%D1%94%C2%A2%D1%82%CE%B9%CF%83%CE%B7\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75BLACK\46layoutType\75LAYOUTS\46searchRoot\75http://cmfallinlove.blogspot.com/search\46blogLocale\75en_GB\46v\0752\46homepageUrl\75http://cmfallinlove.blogspot.com/\46vt\0755367168360063042497',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+╰» gÑ�Ñ”Î±Ñ‚ ¢Ïƒâ„“â„“Ñ”¢Ñ‚Î¹ÏƒÎ·
+
+
+
+
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/8782500633967033277/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/8782500633967033277/comments/default";
+holder.currentBlogUrl = "http://cmfallinlove.blogspot.com/"; holder.currentBlogId =
+"8782500633967033277"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#000000"; skin['ENDCAP_LINK_COLOR'] = "#999999";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#999999"; skin['CONTENT_TEXT_COLOR'] =
+"#000000"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#999999";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000"; skin['CONTENT_HEADLINE_COLOR'] =
+"#000000"; skin['FONT_FACE'] = "normal normal 90% \x27Trebuchet MS\x27, Trebuchet,
+Verdana, Sans-Serif"; google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-cpxj5jkigx2v",
+height: 260, site: "07464722641572627506", locale: 'en_GB' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Amazon SearchBox
+
+if (!window.gadgets || !gadgets.rpc) { document.write('<script
+type="text/javascript"' +
+'src="//www-blogger-opensocial.googleusercontent.com/gadgets/js/rpc.js?container\x3dblogger\x26nocache\x3d0\x26debug\x3d0\x26c\x3d1\x26v\x3d364cd2481b83b55e77830a85eb8fa7d6\x26sv\x3d9">'
++ '</scr'+'ipt>'); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/8782500633967033277/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/8782500633967033277/comments/default";
+holder.currentBlogUrl = "http://cmfallinlove.blogspot.com/"; holder.currentBlogId =
+"8782500633967033277"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); }
+gadgets.rpc.setRelayUrl("sidebar-gadget1",
+'//94ioh47ambsoose19no6q65gdjs5tj70-a-blogger-opensocial.googleusercontent.com/gadgets/files/container/rpc_relay.html');
+gadgets.rpc.setAuthToken("sidebar-gadget1", "1458344568581494711");
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Thursday, 14 April 2011
+
+
+
+kelly clarkson
+
+
+
+kelly clarkson
+
+this girl know how to make way form earth to sky high............
+
+Kelly Brianne Clarkson (born April 24, 1982) is an American pop rock singer-songwriter and
+actress . Clarkson rose to fame after winning the inaugural season of the television series
+American Idol in 2002 and would later become the runner-up in the television special World
+Idol in 2003.
+
+
+
+Image:
+http://2.bp.blogspot.com/-dFWmpzTIPlk/TZS4tIk8HwI/AAAAAAAAAX4/A8OxBv3sfPg/s320/kelly-clarkson-2.jpg
+
+Clarkson has released four albums to date under RCA Records : her double-platinum debut album
+Thankful (2003), her multi-platinum second album Breakaway (2004) (which won two Grammy
+Awards ), My December (2007), and her latest album All I Ever Wanted (2009) (which was
+nominated for a Grammy Award ). Her albums have sold over 10.5 million copies in the United
+States. Clarkson is the only American Idol contestant to have reached number one in the UK. She
+claimed number one on March 1, 2009, when "My Life Would Suck Without You" debuted number one on
+downloads alone. [ 2 ] Clarkson is also ranked on the top 200 album sellers of the Nielsen
+SoundScan era at number 187.
+
+
+
+
+
+Early life
+
+Clarkson was born in Fort Worth, Texas , and grew up in the small town of Burleson , a suburb of
+Fort Worth. She is the third and youngest child of Jeanne Rose, a first grade English teacher of
+Greek descent, and Stephen Michael Clarkson, a former engineer of Welsh extraction.
+
+
+
+Music career
+
+
+
+2002–03: American Idol and World Idol
+
+Main articles : American Idol (season 1) and World Idol
+
+Image:
+http://1.bp.blogspot.com/-nENgiHHCx1k/TZS4vP9030I/AAAAAAAAAYE/3AtdHYqz7FA/s1600/kelly-clarkson-american-idol-album-cover-50433.jpg
+ 
+
+American Idol season 1 performances and results
+
+Week # Theme Song choice Original artist Order # Result Audition N/A " Express Yourself "
+
+" At Last " Madonna
+
+Etta James N/A Advanced Top 121 Hollywood round 1 " Respect " Otis Redding Top 65 Hollywood
+round 2 " I Say a Little Prayer " Dionne Warwick Top 45 Hollywood round 3 " Save The Best For Last "
+Vanessa L. Williams Top 30 Semifinal/Group 2 "Respect" Otis Redding 9 Top 10 Motown " You're
+All I Need to Get By " Marvin Gaye & Tammi Terrell 8 Safe Top 8 1960s " (You Make Me Feel Like) A
+Natural Woman " Aretha Franklin 5 Top 7 1970s " Don't Play That Song (You Lied) " Ben E. King Top 6
+Big Band " Stuff Like That There " Betty Hutton 6 Top 5 Burt Bacharach Love Songs " Walk On By "
+Dionne Warwick 1 Top 4 1980s
+
+1990s " It's Raining Men "
+
+"I Surrender" The Weather Girls
+
+Celine Dion 3
+
+7 Top 3 Judges' Choice
+
+Idol's Choice " Without You "
+
+" Think Twice " Badfinger
+
+Celine Dion 3
+
+6 Top 2 Finale " A Moment Like This "
+
+"Respect"
+
+"Before Your Love" Kelly Clarkson
+
+Otis Redding
+
+Kelly Clarkson 2
+
+4
+
+6 Winner
+
+World Idol performance and results
+
+Song choice Germany Australia Pan-Arabia Canada Netherlands South Africa Poland USA
+Belgium UK Norway Total Result " (You Make Me Feel Like) A Natural Woman " 9 9 5 9 9 8 8 12 9 9 10 97
+Runner-up
+
+ 
+
+
+
+2003–04: Thankful
+
+
+
+Image:
+http://2.bp.blogspot.com/-Wr96LzkYzCo/TZS4wVwMJ6I/AAAAAAAAAYQ/fWOPARz99H0/s1600/thankful_cover.jpg
+
+ 
+
+
+
+2004–06: Breakaway
+
+
+
+Image:
+http://4.bp.blogspot.com/-ZXlIQyY-ca0/TZS4w_HpZ-I/AAAAAAAAAYU/f0ZUzl0RUKY/s320/tumblr_ktfkyvPyZj1qzu8k9.jpg
+
+ 
+
+
+
+2006–08: My December
+
+
+
+Image:
+http://1.bp.blogspot.com/-UJ73DBWKBDE/TZS7huoqOgI/AAAAAAAAAYY/PnyRbSEhlN8/s320/KellyClarkson_MyDecember_v16.jpg
+for music
+
+ 
+
+
+
+2008–10: All I Ever Wanted
+
+
+
+Image:
+http://1.bp.blogspot.com/-mueJE7PqY0A/TZS4pGXdNAI/AAAAAAAAAXc/PeDxFixTOcs/s1600/11t0poi.jpg
+
+ 
+
+
+
+2 010–present: Fifth studio album
+
+
+
+Image:
+http://3.bp.blogspot.com/-_vLu46SFONw/TZS4tyIDK3I/AAAAAAAAAX8/1Wr6u3hRNRg/s320/kelly-clarkson-23.jpg
+
+ 
+
+ On March 15, 2011, Kelly Clarkson announced via Facebook that "I recently found out that my
+album won't be coming out until September...The album has been recorded but I can't release it
+until then. I realize that is a long time but that's the best time to release it apparently, so
+I'm sorry for the wait but I promise you it sounds great!". Claude Kelly, Clarkson's producer
+and co-writter, said to MTV news that "They(Record Company) want to make sure that the arena is
+clean for Kelly Clarkson's return, 'cause when she comes back, she always comes back pretty
+big. They want to make sure when her first single comes out, there's nothing out there that's
+competing with it. I don't know for sure, but Kelly always does it big, so when it comes out, the
+fans will be happy and she'll sing her butt off and it'll be good times."
+
+
+
+Collaborations
+
+Clarkson performed " What Hurts the Most " with Rascal Flatts at the ACM Awards in 2006 and
+returned again to sing a duet with Reba McEntire in 2007. This was her second performance on a
+country music award show, even though she is in the pop/rock genre. Along with her performance
+with Rascal Flatts, Clarkson also performed "Cigarettes", with the country duo The Wreckers
+during one of their shows in Texas.
+
+
+
+
+
+
+
+
+
+Image:
+http://1.bp.blogspot.com/-j42ZpUILGfE/TZS4rXeNVhI/AAAAAAAAAXs/Yn6dsfu6pCU/s320/kelly_clarkson1.jpg
+
+
+
+Image:
+http://1.bp.blogspot.com/-vc6onefwEMc/TZS4uokHB2I/AAAAAAAAAYA/kOBFcLdkHjY/s320/kelly-clarkson-144.jpg
+
+
+
+Discography
+
+Main article: Kelly Clarkson discography
+
+    Image:
+    http://4.bp.blogspot.com/-1QwNVHxX5zc/TZS4sHicS0I/AAAAAAAAAXw/R8fsEOwpPUg/s320/kelly_clarkson_elle.jpg
+     
+
+    - Thankful (2003)
+
+    
+
+    
+
+    - Breakaway (2004)
+
+    
+
+    - My December (2007)
+
+    
+
+    - All I Ever Wanted (2009)
+
+    
+
+
+
+
+
+Awards
+
+
+
+Image:
+http://4.bp.blogspot.com/-fcmccg5c_mo/TZS4sdMAaGI/AAAAAAAAAX0/dZ-BO1zP4rw/s320/kelly_grammys.jpg
+
+ 
+
+Main article: List of awards and nominations received by Kelly Clarkson
+
+Tours
+
+
+
+Image:
+http://4.bp.blogspot.com/-xWmameigk5g/TZS4omew6tI/AAAAAAAAAXY/jV6SC9eI8TI/s320/9uk9347tddgfddf4.jpg
+
+ 
+
+Main article: Kelly Clarkson concert tours  
+
+Filmography
+
+
+
+Image:
+http://4.bp.blogspot.com/-k0sfDrrsqxo/TZS4p-ImKtI/AAAAAAAAAXg/3ZoF_ihAGXQ/s320/Entertainment-Weekly-Kelly-Cover-783119.jpg
+for more      Year                     Title         
+Role
+                                                   
+Episode
+
+ 
+
+2002 Sabrina the Teenage Witch as an extra (uncredited) "The Whole Ball Of Wax" That '80s Show
+"Valentine's Day" (S1, Ep2) Issues 101 Crystal (as an extra) Theatrical Film MADtv Herself /
+Skits Season 8, Ep 1 2003 From Justin to Kelly Kelly Taylor Theatrical Film American Dreams
+Brenda Lee "And Promises To Keep" 2004 "Tidings of Comfort and Joy" King of the Hill Herself /
+Dawn "Stressed For Success" 2005 Saturday Night Live Herself / Skits / Musical Guest Host –
+Jason Bateman Damage Control Herself Season 1, Ep. 1 2007 Reba Kelly "As We Forgive Those" 2009
+Saturday Night Live Herself / Musical Guest Host – Tracy Morgan Posted by gaurav at 05:03 0
+comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook <!-- google_ad_client="pub-8390054460859520";
+google_ad_host="pub-1556223355139109"; google_ad_width=300; google_ad_height=250;
+google_ad_format="300x250_as"; google_ad_type="text_image";
+google_ad_host_channel="0001"; google_color_border="000000";
+google_color_bg="000000"; google_color_link="888888"; google_color_url="666666";
+google_color_text="FFFFFF"; //-->
+
+Wednesday, 13 April 2011
+
+
+
+Enrique lglesias
+
+
+
+Image:
+http://2.bp.blogspot.com/-zD9p8MU72MY/TaXHoQhiTvI/AAAAAAAAAJY/YvFdimJH--o/s1600/enriqueiglesias.jpg
+
+
+
+
+
+
+
+Enrique Miguel Iglesias Preysler (born May 8, 1975), better known as Enrique Iglesias , is a
+Spanish pop music singer-songwriter. Iglesias started his musical career on Mexican label
+Fonovisa . This helped turn him into one of the most popular artists in Latin America and in the
+Hispanic or Latino market in the United States, and the biggest seller of Spanish language
+albums of that decade. Before the turn of the millennium, he made a crossover into the
+mainstream English language market, signing a unique multi-album deal with Universal Music
+Group for an unprecedented US$ 48,000,000, with Universal Music Latino to release his
+Spanish albums and Interscope to release English albums. In 2010, he parted with Interscope
+and signed with another Universal Music Group label, Universal Republic .
+
+
+
+Image:
+http://2.bp.blogspot.com/-WdmBBiWjkGs/TaXIrUpz2QI/AAAAAAAAAJc/HQn3AMubzxg/s1600/Alive_Lyrics_Video_Enrique_Iglesias.jpg
+
+
+
+
+
+Early life
+
+
+
+Iglesias was born in Madrid , Spain the third and youngest child of singer Julio Iglesias and
+socialite and magazine journalist Isabel Preysler . His mother is a Filipino of partial
+Spanish / Basque descent, and his father is of Galician Spanish and Jewish ancestry. [4] [5]
+His parents divorced in 1988, and the following year Julio moved to Miami , Florida , in the U.S.
+to continue with his musical career.
+
+
+
+Image:
+http://2.bp.blogspot.com/-Gkho0edMIFQ/TaXI9qXzcKI/AAAAAAAAAJg/xHZXikIy7gc/s1600/Enrique_Iglesias1.jpg
+
+
+
+ 
+
+
+
+
+
+Music career
+
+
+
+1995–97: Enrique Iglesias & Vivir
+
+On July 12, 1995, Iglesias released his first album titled Enrique Iglesias , a collection of
+light rock ballads, including such mega-hits as " Si TÃº Te Vas ", " Experiencia Religiosa ",
+and others. The record sold half a million copies in its first week, a rare accomplishment then
+for an album recorded in a language other than English.
+
+Image:
+http://1.bp.blogspot.com/-a-0Jvo4Gg5E/TZCqN-aBU0I/AAAAAAAAAVI/1OkQhbf_3RY/s320/viver.jpg
+
+1998-1999: Cosas del Amor
+
+
+
+Image:
+http://3.bp.blogspot.com/-zmaUq8wwANE/TZCqoPKJroI/AAAAAAAAAVM/s3g9ns9-m28/s1600/album-cosas-del-amor.jpg
+
+1999-2000: Enrique
+
+
+
+Image:
+http://3.bp.blogspot.com/-0utceuSuk8w/TZCr4dGdsBI/AAAAAAAAAVQ/d4tWzb7gKz4/s320/enriqueiglesiasenriquefrontal-46ewmltk0.jpg
+
+ 
+
+
+
+
+
+2001-2002 Escape
+
+
+
+Image:
+http://2.bp.blogspot.com/-KmUEkz7Qz_o/TZCozpDHGaI/AAAAAAAAAU8/82BFJxnoFzk/s1600/Escape-EnriqueIglesias.jpg
+
+ 
+
+
+
+2002–04: QuizÃ¡s & 7
+
+
+
+Image:
+http://1.bp.blogspot.com/-aUK4wl9doEU/TZCouSzGulI/AAAAAAAAAUU/2-1N7b9iFCY/s320/cd-enriqueIglesias-7.jpg
+
+ 
+
+
+
+2007–08: Insomniac
+
+
+
+Image:
+http://3.bp.blogspot.com/-0zGc16-fWpU/TZCozCdzLeI/AAAAAAAAAU4/mv-TD_UgBlE/s320/enriqueinsomniac.jpg
+
+ 
+
+
+
+2008-09 Greatest Hits Albums
+
+
+
+Image:
+http://2.bp.blogspot.com/-2ARXEGdxy8o/TZCpHdGXpaI/AAAAAAAAAVE/eccYVlf_M4k/s320/enrique-iglesias-greatest-hits-official-album-cover1.png
+
+ 
+
+
+
+ 
+
+
+
+2010–present: Euphoria
+
+
+
+Image:
+http://4.bp.blogspot.com/-gtu7Hqvf0uM/TZCoyG280VI/AAAAAAAAAUw/sT7Io_6_c0M/s320/enrique-iglesias-euphoria-album-cover.jpg
+for music
+
+ 
+
+
+
+Songwriting, producing, and acting
+
+
+
+Iglesias also developed an interest in acting, starring alongside Antonio Banderas , Salma
+Hayek and Johnny Depp in the Robert Rodriguez film Once Upon a Time in Mexico , in which he played
+the foul-mouthed gun-wielding Lorenzo. In 2007, he had guest starred in the TV comedy Two and a
+Half Men as a carpenter/handyman. He says that he would act again if given small roles that he
+could fit in between his musical commitments.
+
+
+
+Image:
+http://3.bp.blogspot.com/-ZSBte9EFNj0/TZCow0UCQZI/AAAAAAAAAUo/E_EY8_Y5Gik/s320/enrique_iglesias_wp001_800.jpg
+
+Discography
+
+
+
+Image:
+http://4.bp.blogspot.com/-ZA7kkn1pkvI/TZCowN-lurI/AAAAAAAAAUk/aqaHCGTPEKM/s320/enrique_iglesias102.jpg
+
+ 
+
+Main article: Enrique Iglesias discography
+
+    Image:
+    http://4.bp.blogspot.com/-r3VIuF2WBxw/TZCouxeYGKI/AAAAAAAAAUY/3DXMWk3rljw/s1600/Do_You_Know_-_CD_Single_2007_%255B1%255D.jpg
+    Spanish Studio albums
+
+    - Enrique Iglesias (1995)
+
+    
+
+    - Vivir (1997)
+
+    
+
+    - Cosas del Amor (1998)
+
+    
+
+    - QuizÃ¡s (2002)
+
+    
+
+English studio albums
+
+Image:
+http://1.bp.blogspot.com/-QKdfFVntSKo/TaXJzCfUTmI/AAAAAAAAAJk/XU-wB10TU98/s1600/enrique-iglesias-takin-back-my-love-album-cover-54885.jpeg
+
+
+
+
+
+
+
+
+                                                                    
+
+
+
+
+                                                                  
+for more
+
+
+
+
+
+
+
+    
+
+    - Enrique (1999)
+
+    
+
+    - Escape (2001)
+
+    
+
+    - 7 (2003)
+
+    
+
+    - Insomniac (2007)
+
+    
+
+    Bilingual studio albums
+
+    - Euphoria (2010)
+
+    
+
+
+
+See also
+
+
+
+    Image:
+    http://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Musical_note_nicu_bucule_01.svg/28px-Musical_note_nicu_bucule_01.svg.png
+    Latin Arican music portal
+
+    - List of awards and nominations received by Enrique Iglesias
+
+    
+
+    - Julio Iglesias
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Posted by gaurav at 08:58 0 comments
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif Email This BlogThis!
+Share to Twitter Share to Facebook <!-- google_ad_client="pub-8390054460859520";
+google_ad_host="pub-1556223355139109"; google_ad_width=300; google_ad_height=250;
+google_ad_format="300x250_as"; google_ad_type="text_image";
+google_ad_host_channel="0001"; google_color_border="000000";
+google_color_bg="000000"; google_color_link="888888"; google_color_url="666666";
+google_color_text="FFFFFF"; //--> Home Subscribe to: Posts (Atom) window.___gcfg =
+{'lang': 'en_GB'};window.___gapisync = false;(function() {var po =
+document.createElement('script');po.type = 'text/javascript';po.async = true;po.src
+= 'https://apis.google.com/js/plusone.js';var s =
+document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,
+s);})();
+
+Amazon Contextual Product Ads
+
+if (!window.gadgets || !gadgets.rpc) { document.write('<script
+type="text/javascript"' +
+'src="//www-blogger-opensocial.googleusercontent.com/gadgets/js/rpc.js?container\x3dblogger\x26nocache\x3d0\x26debug\x3d0\x26c\x3d1\x26v\x3d364cd2481b83b55e77830a85eb8fa7d6\x26sv\x3d9">'
++ '</scr'+'ipt>'); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/8782500633967033277/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/8782500633967033277/comments/default";
+holder.currentBlogUrl = "http://cmfallinlove.blogspot.com/"; holder.currentBlogId =
+"8782500633967033277"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); }
+gadgets.rpc.setRelayUrl("sidebar-gadget3",
+'//9dl7h78ivl8smpn7vl3d9mo2g1ajbhaj-a-blogger-opensocial.googleusercontent.com/gadgets/files/container/rpc_relay.html');
+gadgets.rpc.setAuthToken("sidebar-gadget3", "5432176218851736110");
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Amazon MP3 Clips
+
+if (!window.gadgets || !gadgets.rpc) { document.write('<script
+type="text/javascript"' +
+'src="//www-blogger-opensocial.googleusercontent.com/gadgets/js/rpc.js?container\x3dblogger\x26nocache\x3d0\x26debug\x3d0\x26c\x3d1\x26v\x3d364cd2481b83b55e77830a85eb8fa7d6\x26sv\x3d9">'
++ '</scr'+'ipt>'); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.postFeed =
+"http://www.blogger.com/feeds/8782500633967033277/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/8782500633967033277/comments/default";
+holder.currentBlogUrl = "http://cmfallinlove.blogspot.com/"; holder.currentBlogId =
+"8782500633967033277"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); }
+gadgets.rpc.setRelayUrl("sidebar-gadget2",
+'//dfgubl2g9ahmgfkabsjd7k921jq7ui6a-a-blogger-opensocial.googleusercontent.com/gadgets/files/container/rpc_relay.html');
+gadgets.rpc.setAuthToken("sidebar-gadget2", "-7488342922738239611");
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png <!--
+google_ad_client="pub-8390054460859520"; google_ad_host="pub-1556223355139109";
+google_ad_width=200; google_ad_height=200; google_ad_format="200x200_as";
+google_ad_type="text_image"; google_ad_host_channel="0001";
+google_color_border="FF4500"; google_color_bg="000000";
+google_color_link="888888"; google_color_url="666666";
+google_color_text="555555"; //-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ▼  2011 (2)
+
+            - ▼  April (2)
+
+            - kelly clarkson
+
+            
+
+            - Enrique lglesias
+
+            
+
+        
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+About Me
+
+
+
+    Image:
+    http://4.bp.blogspot.com/-Yg6f4OJ6iS4/Tafpfr0IXVI/AAAAAAAAAJs/OSilriqw2s8/s220/ln.jpg
+
+        gaurav
+
+    
+
+View my complete profile
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png Powered by Blogger .
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png   if
+(window.jstiming) window.jstiming.load.tick('widgetJsBefore'); if
+(typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'8782500633967033277';BLOG_attachCsiOnload('');
+}_WidgetManager._Init('http://www.blogger.com/rearrange?blogID\x3d8782500633967033277','//cmfallinlove.blogspot.com/','8782500633967033277');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'8782500633967033277', 'bloggerUrl': 'http://www.blogger.com', 'title':
+'&#9584;&#187; gÑ�Ñ”Î±Ñ‚
+&#162;Ïƒâ„“â„“Ñ”&#162;Ñ‚Î¹ÏƒÎ·', 'pageType': 'index',
+'url': 'http://cmfallinlove.blogspot.com/', 'canonicalUrl':
+'http://cmfallinlove.blogspot.com/', 'canonicalHomepageUrl':
+'http://cmfallinlove.blogspot.com/', 'homepageUrl':
+'http://cmfallinlove.blogspot.com/', 'blogspotFaviconUrl':
+'http://cmfallinlove.blogspot.com/favicon.ico', 'enabledCommentProfileImages':
+true, 'adultContent': false, 'analyticsAccountNumber': '', 'searchLabel': '',
+'searchQuery': '', 'pageName': '', 'pageTitle': '&#9584;&#187; gÑ�Ñ”Î±Ñ‚
+&#162;Ïƒâ„“â„“Ñ”&#162;Ñ‚Î¹ÏƒÎ·', 'encoding': 'UTF-8',
+'locale': 'en-GB', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false,
+'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks':
+'\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42&#9584;&#187; gÑ�Ñ”Î±Ñ‚
+&#162;Ïƒâ„“â„“Ñ”&#162;Ñ‚Î¹ÏƒÎ· - Atom\42
+href\75\42http://cmfallinlove.blogspot.com/feeds/posts/default\42 /\76\n\74link
+rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42&#9584;&#187;
+gÑ�Ñ”Î±Ñ‚ &#162;Ïƒâ„“â„“Ñ”&#162;Ñ‚Î¹ÏƒÎ· -
+RSS\42
+href\75\42http://cmfallinlove.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42&#9584;&#187; gÑ�Ñ”Î±Ñ‚
+&#162;Ïƒâ„“â„“Ñ”&#162;Ñ‚Î¹ÏƒÎ· - Atom\42
+href\75\42http://www.blogger.com/feeds/8782500633967033277/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\758782500633967033277\42 /\076',
+'meTag': '\74link rel\75\42me\42
+href\75\42http://www.blogger.com/profile/04264047279523199358\42 /\76\n',
+'openIdOpTag': '\74link rel\75\42openid.server\42
+href\75\42http://www.blogger.com/openid-server.g\42 /\76\n\74link
+rel\75\42openid.delegate\42 href\75\42http://cmfallinlove.blogspot.com/\42
+/\76\n', 'imageSrcTag': '', 'latencyHeadScript': '\74script
+type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId':
+'pub-8390054460859520', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'sidebarTitleFont': 'normal bold 125% Verdana,
+Sans-Serif', 'mainVisitedLinkColor': '#e0ad12', 'postTitleFont': 'normal bold 110%
+Verdana, Sans-serif', 'mainTextColor': '#000000', 'sidebarTitleColor': '#ff4500',
+'sidebarVisitedLinkColor': '#de7008', 'postTitleBgColor': '#eeeeee', 'titleColor':
+'#fffafa', 'descriptionColor': '#9e5205', 'postTitleColor': '#555555',
+'sidebarLinkColor': '#999999', 'mainBgColor': '#ffffff', 'titleBgColor': '#ff4500',
+'mainLinkColor': '#de7008', 'titleFont': 'normal bold 266% Verdana, Sans-Serif',
+'postFooterColor': '#444444', 'bodyFont': 'normal normal 90% \47Trebuchet MS\47,
+Trebuchet, Verdana, Sans-Serif', 'descriptionFont': 'normal bold 85% Verdana,
+Sans-Serif', 'dateHeaderColor': '#777777', 'descriptionBgColor': '#ffebcd',
+'endSide': 'right', 'startSide': 'left'}, 'override': ''}}, {'name': 'view', 'data':
+{'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name':
+'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url':
+'/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'},
+'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name':
+'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url':
+'/?view\75timeslide'}}}]); _WidgetManager._RegisterWidget('_FollowersView', new
+_WidgetInfo('Followers1', 'crosscol', null, document.getElementById('Followers1'),
+{'title': 'Followers', 'codeSnippet': '\74script type\75\42text/javascript\42\76\n
+if (!window.google || !google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.postFeed \75
+\42http://www.blogger.com/feeds/8782500633967033277/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/8782500633967033277/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://cmfallinlove.blogspot.com/\42;\n
+holder.currentBlogId \75 \428782500633967033277\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-1vy9qwdkf8wm5\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#000000\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#999999\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#999999\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#000000\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#999999\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#000000\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#000000\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 90% \\x27Trebuchet MS\\x27, Trebuchet, Verdana, Sans-Serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-1vy9qwdkf8wm5\42,\n height: 260,\n \n \n \n site:
+\04207464722641572627506\42,\n \n locale: \47en_GB\47 },\n skin);\n \74/script\076'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_GadgetView', new
+_WidgetInfo('Gadget1', 'crosscol', null, document.getElementById('Gadget1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_GadgetView', new
+_WidgetInfo('Gadget3', 'sidebar', null, document.getElementById('Gadget3'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_GadgetView', new
+_WidgetInfo('Gadget2', 'sidebar', null, document.getElementById('Gadget2'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_AdSenseView', new
+_WidgetInfo('AdSense1', 'sidebar', null, document.getElementById('AdSense1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_ProfileView', new
+_WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_AttributionView', new
+_WidgetInfo('Attribution1', 'sidebar', null,
+document.getElementById('Attribution1'), {'attribution': 'Powered by \74a
+href\75\47http://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HeaderView', new
+_WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_NavbarView', new
+_WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new
+_WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'),
+{'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/370730846-lbx_en-GB.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull'));
+

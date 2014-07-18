@@ -1,0 +1,1351 @@
+
+
+
+
+(function() { var a=window,b="jstiming",d="tick";var
+e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new
+Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new
+e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var
+g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void
+0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))} try{var
+m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void
+0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void
+0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var
+i=0;if(c.offsetParent){do
+i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var
+q=!1;function
+r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+})(); Ashton-under-Lyne.com Photo Blog: Vintage Cars <!-- /* * Blogger Template Style * *
+Sand Dollar * by Jason Sutter * Updated by Blogger Team */ /* Variable definitions
+==================== <Variable name="textcolor" description="Text Color"
+type="color" default="#000"> <Variable name="bgcolor" description="Page Background
+Color" type="color" default="#f6f6f6"> <Variable name="pagetitlecolor"
+description="Blog Title Color" type="color" default="#F5DEB3"> <Variable
+name="pagetitlebgcolor" description="Blog Title Background Color" type="color"
+default="#DE7008"> <Variable name="descriptionColor" description="Blog Description
+Color" type="color" default="#9E5205" /> <Variable name="descbgcolor"
+description="Description Background Color" type="color" default="#F5E39e"> <Variable
+name="titlecolor" description="Post Title Color" type="color" default="#9E5205">
+<Variable name="datecolor" description="Date Header Color" type="color"
+default="#777777"> <Variable name="footercolor" description="Post Footer Color"
+type="color" default="#444444"> <Variable name="linkcolor" description="Link Color"
+type="color" default="#DE7008"> <Variable name="footerlinkcolor" description="Post
+Footer Link Color" type="color" default="#968a0a"> <Variable name="visitedlinkcolor"
+description="Visited Link Color" type="color" default="#DE7008"> <Variable
+name="sidebarcolor" description="Sidebar Title Color" type="color"
+default="#B8A80D"> <Variable name="sidebarlinkcolor" description="Sidebar Link
+Color" type="color" default="#999999"> <Variable name="bordercolor"
+description="Border Color" type="color" default="#e0ad12"> <Variable name="bodyfont"
+description="Text Font" type="font" default="normal normal 100% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-Serif"> <Variable name="headerfont"
+description="Sidebar Title Font" type="font" default="normal bold 150%
+Verdana,Sans-serif"> <Variable name="dateHeaderFont" description="Date Header Font"
+type="font" default="normal bold 105% 'Trebuchet MS',Trebuchet,Verdana,Sans-serif">
+<Variable name="pagetitlefont" description="Blog Title Font" type="font"
+default="normal bold 300% Verdana,Sans-Serif"> <Variable name="titlefont"
+description="Post Title Font" type="font" default="normal bold 160%
+Verdana,Sans-Serif"> <Variable name="startSide" description="Start side in blog
+language" type="automatic" default="left"> <Variable name="endSide" description="End
+side in blog language" type="automatic" default="right"> */ body { margin:0px;
+padding:0px; background:#f6f6f6; color:#000000; font-size: small; } #outer-wrapper {
+font:normal normal 109% 'Trebuchet MS',Trebuchet,Verdana,Sans-Serif; } a {
+color:#0a1696; } a:hover { color:#666666; } a img { border-width: 0; } #content-wrapper {
+padding-top: 0; padding-right: 1em; padding-bottom: 0; padding-left: 1em; } @media all {
+div#main { float:right; width:66%; padding-top:30px; padding-right:0;
+padding-bottom:10px; padding-left:1em; border-left:dotted 1px #0a1696; word-wrap:
+break-word; /* fix for long text breaking sidebar float in IE */ overflow: hidden; /* fix for
+long non-text content breaking IE sidebar float */ } div#sidebar { margin-top:20px;
+margin-right:0px; margin-bottom:0px; margin-left:0; padding:0px; text-align:left;
+float: left; width: 31%; word-wrap: break-word; /* fix for long text breaking sidebar float
+in IE */ overflow: hidden; /* fix for long non-text content breaking IE sidebar float */ } }
+@media handheld { div#main { float:none; width:90%; } div#sidebar { padding-top:30px;
+padding-right:7%; padding-bottom:10px; padding-left:3%; } } #header { padding-top:0px;
+padding-right:0px; padding-bottom:0px; padding-left:0px; margin-top:0px;
+margin-right:0px; margin-bottom:0px; margin-left:0px; border-bottom:dotted 1px
+#0a1696; background:#0a1696; } h1 a:link { text-decoration:none; color:#0a1696 } h1
+a:visited { text-decoration:none; color:#0a1696 } h1,h2,h3 { margin: 0; } h1 {
+padding-top:25px; padding-right:0px; padding-bottom:10px; padding-left:5%;
+color:#0a1696; background:#5f6675; font:normal normal 192% Verdana, sans-serif;
+letter-spacing:-2px; } h3.post-title { color:#666666; font:normal bold 160%
+Verdana,Sans-Serif; letter-spacing:-1px; } h3.post-title a, h3.post-title a:visited {
+color: #666666; } h2.date-header { margin-top:10px; margin-right:0px;
+margin-bottom:0px; margin-left:0px; color:#777777; font: normal bold 105% 'Trebuchet
+MS',Trebuchet,Verdana,Sans-serif; } h4 { color:#aa0033; } #sidebar h2 { color:#666666;
+margin:0px; padding:0px; font:normal bold 150% Verdana,Sans-serif; } #sidebar .widget {
+margin-top:0px; margin-right:0px; margin-bottom:33px; margin-left:0px;
+padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;
+font-size:95%; } #sidebar ul { list-style-type:none; padding-left: 0; margin-top: 0; }
+#sidebar li { margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px;
+padding-top:0px; padding-right:0px; padding-bottom:0px; padding-left:0px;
+list-style-type:none; font-size:95%; } .description { padding:0px; margin-top:7px;
+margin-right:12%; margin-bottom:7px; margin-left:5%; color:#1f1001;
+background:transparent; font:bold 100% Verdana,Sans-Serif; } .post { margin-top:0px;
+margin-right:0px; margin-bottom:30px; margin-left:0px; } .post strong { color:#000000;
+font-weight:bold; } pre,code { color:#0a1696; } strike { color:#0a1696; } .post-footer {
+padding:0px; margin:0px; color:#444444; font-size:90%; } .post-footer a { border:none;
+color:#0a1696; text-decoration:none; } .post-footer a:hover {
+text-decoration:underline; } #comments { padding:0px; font-size:110%;
+font-weight:bold; } .comment-author { margin-top: 10px; } .comment-body {
+font-size:100%; font-weight:normal; color:black; } .comment-footer {
+padding-bottom:20px; color:#444444; font-size:80%; font-weight:normal;
+display:inline; margin-right:10px } .deleted-comment { font-style:italic; color:gray;
+} .comment-link { margin-left:.6em; } .profile-textblock { clear: both; margin-left: 0; }
+.profile-img { float: left; margin-top: 0; margin-right: 5px; margin-bottom: 5px;
+margin-left: 0; border: 2px solid #5f6675; } #sidebar a:link { color:#0a1696;
+text-decoration:none; } #sidebar a:active { color:#ff0000; text-decoration:none; }
+#sidebar a:visited { color:sidebarlinkcolor; text-decoration:none; } #sidebar a:hover {
+color:#666666; text-decoration:none; } .feed-links { clear: both; line-height: 2.5em; }
+#blog-pager-newer-link { float: left; } #blog-pager-older-link { float: right; }
+#blog-pager { text-align: center; } .clear { clear: both; } .widget-content { margin-top:
+0.5em; } /** Tweaks for layout editor preview */ body#layout #outer-wrapper { margin-top: 0;
+} body#layout #main, body#layout #sidebar { margin-top: 10px; padding-top: 0; } --> var
+a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function
+j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return
+d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return
+null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera
+Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)}; if
+(window.jstiming) window.jstiming.load.tick('headEnd');
+
+function setAttributeOnload(object, attribute, val) { if(window.addEventListener) {
+window.addEventListener('load', function(){ object[attribute] = val; }, false); } else {
+window.attachEvent('onload', function(){ object[attribute] = val; }); } }
+gapi.load("iframes-styles-bubble", function() { if (window.iframes && iframes.open) {
+iframes.open(
+'//www.blogger.com/navbar.g?targetBlogID\0753488915945983500085\46blogName\75Ashton-under-Lyne.com+Photo+Blog\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75SILVER\46layoutType\75LAYOUTS\46searchRoot\75http://ashton-under-lyne.blogspot.com/search\46blogLocale\75en_GB\46v\0752\46homepageUrl\75http://ashton-under-lyne.blogspot.com/\46targetPostID\0752552983360034402485\46blogPostOrPageUrl\75http://ashton-under-lyne.blogspot.com/2008/07/vintage-cars.html\46vt\75-8458747871846880250',
+{ container: "navbar-iframe-container", id: "navbar-iframe" }, { }); } }); (function() {
+var script = document.createElement('script'); script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js'; var
+head = document.getElementsByTagName('head')[0]; if (head) {
+head.appendChild(script); }})(); skip to main | skip to sidebar
+
+    Image:
+    http://3.bp.blogspot.com/__CaFVhTjqjE/R37GpuqocNI/AAAAAAAAADY/Z5dwaccFIeg/S758/a-header0.jpg
+
+    - Home
+
+    
+
+    - About Ashton
+
+    
+
+    - Places to visit
+
+    
+
+    - History
+
+    
+
+    - Traditions
+
+    
+
+    - Photos
+
+    
+
+    - Shop
+
+    
+
+    - Links
+
+    
+
+
+
+P h o t o
+
+Image: http://www.ashton-under-lyne.com/images/spacer.gif B l o g
+
+
+
+Tuesday, 22 July 2008
+
+
+
+Vintage Cars
+
+
+
+
+
+Image: http://www.ashton-under-lyne.com/blogimages/cars01.jpg
+
+In June there was a vintage car rally in the area around Ashton's market ground. This
+immaculate line-up in Warrington Street includes a 1930s Austin 7 and a Rolls Royce.
+
+
+
+I think the Rolls Royce is a 1930s 20/25 or Wraith . Perhaps someone could confirm or correct
+this? Funny how it is the Austin that is getting all the attention!
+
+
+
+Image: http://www.blogger.com/img/icon18_email.gif
+
+Image: http://img2.blogblog.com/img/icon18_edit_allbkg.gif
+
+Labels: Ashton , Ashton-under-Lyne , Tameside , transport
+
+
+
+1 comment:
+
+    (function() { var items = [{'id': '4524219380081483904', 'body': 'The Rolls-Royce is a
+    1934 20/25. The Wraith was not produced until 1938.', 'timestamp': '1268468280316',
+    'permalink':
+    'http://ashton-under-lyne.blogspot.com/2008/07/vintage-cars.html?showComment\0751268468280316#c4524219380081483904',
+    'author': {'name': 'ax201', 'avatarUrl':
+    'http://img1.blogblog.com/img/blank.gif', 'profileUrl': ''}, 'displayTime': '13
+    March 2010 08:18', 'deleteclass': 'item-control blog-admin pid-1257061034'}]; var
+    msgs = {'loadMore': 'Load more...', 'loading': 'Loading...', 'loaded': 'No more.',
+    'addComment': 'Add comment', 'reply': 'Reply', 'delete': 'Delete'}; var config =
+    {'blogId': '3488915945983500085', 'postId': '2552983360034402485', 'feed':
+    'http://ashton-under-lyne.blogspot.com/feeds/2552983360034402485/comments/default',
+    'authorName': 'Martin', 'authorUrl':
+    'http://www.blogger.com/profile/12729523557219015134', 'baseUri':
+    'http://www.blogger.com', 'maxThreadDepth': 2}; // <![CDATA[ var cursor = null; if
+    (items && items.length > 0) { cursor = parseInt(items[items.length - 1].timestamp) + 1;
+    } var bodyFromEntry = function(entry) { if (entry.gd$extendedProperty) { for (var k in
+    entry.gd$extendedProperty) { if (entry.gd$extendedProperty[k].name ==
+    'blogger.contentRemoved') { return '<span class="deleted-comment">' +
+    entry.content.$t + '</span>'; } } } return entry.content.$t; } var parse =
+    function(data) { cursor = null; var comments = []; if (data && data.feed &&
+    data.feed.entry) { for (var i = 0, entry; entry = data.feed.entry[i]; i++) { var comment =
+    {}; // comment ID, parsed out of the original id format var id =
+    /blog-(\d+).post-(\d+)/.exec(entry.id.$t); comment.id = id ? id[2] : null;
+    comment.body = bodyFromEntry(entry); comment.timestamp =
+    Date.parse(entry.published.$t) + ''; if (entry.author && entry.author.constructor
+    === Array) { var auth = entry.author[0]; if (auth) { comment.author = { name: (auth.name ?
+    auth.name.$t : undefined), profileUrl: (auth.uri ? auth.uri.$t : undefined),
+    avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined) }; } } if (entry.link) { if
+    (entry.link[2]) { comment.link = comment.permalink = entry.link[2].href; } if
+    (entry.link[3]) { var pid =
+    /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href); if (pid && pid[1]) {
+    comment.parentId = pid[1]; } } } comment.deleteclass = 'item-control blog-admin'; if
+    (entry.gd$extendedProperty) { for (var k in entry.gd$extendedProperty) { if
+    (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+    comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value; } else if
+    (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+    comment.displayTime = entry.gd$extendedProperty[k].value; } } }
+    comments.push(comment); } } return comments; }; var paginator = function(callback) {
+    if (hasMore()) { var url = config.feed +
+    '?alt=json&v=2&orderby=published&reverse=false&max-results=50'; if (cursor) {
+    url += '&published-min=' + new Date(cursor).toISOString(); }
+    window.bloggercomments = function(data) { var parsed = parse(data); cursor =
+    parsed.length < 50 ? null : parseInt(parsed[parsed.length - 1].timestamp) + 1
+    callback(parsed); window.bloggercomments = null; } url +=
+    '&callback=bloggercomments'; var script = document.createElement('script');
+    script.type = 'text/javascript'; script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script); } }; var hasMore =
+    function() { return !!cursor; }; var getMeta = function(key, comment) { if ('iswriter'
+    == key) { var matches = !!comment.author && comment.author.name == config.authorName
+    && comment.author.profileUrl == config.authorUrl; return matches ? 'true' : ''; } else
+    if ('deletelink' == key) { return config.baseUri + '/delete-comment.g?blogID=' +
+    config.blogId + '&postID=' + comment.id; } else if ('deleteclass' == key) { return
+    comment.deleteclass; } return ''; }; var replybox = null; var replyUrlParts = null; var
+    replyParent = undefined; var onReply = function(commentId, domId) { if (replybox ==
+    null) { // lazily cache replybox, and adjust to suit this style: replybox =
+    document.getElementById('comment-editor'); if (replybox != null) {
+    replybox.height = '250px'; replybox.style.display = 'block'; replyUrlParts =
+    replybox.src.split('#'); } } if (replybox && (commentId !== replyParent)) {
+    document.getElementById(domId).insertBefore(replybox, null); replybox.src =
+    replyUrlParts[0] + (commentId ? '&parentID=' + commentId : '') + '#' +
+    replyUrlParts[1]; replyParent = commentId; } }; var hash = (window.location.hash ||
+    '#').substring(1); var startThread, targetComment; if
+    (/^comment-form_/.test(hash)) { startThread =
+    hash.substring('comment-form_'.length); } else if (/^c[0-9]+$/.test(hash)) {
+    targetComment = hash.substring(1); } // Configure commenting API: var configJso = {
+    'maxDepth': config.maxThreadDepth }; var provider = { 'id': config.postId, 'data':
+    items, 'loadNext': paginator, 'hasMore': hasMore, 'getMeta': getMeta, 'onReply':
+    onReply, 'rendered': true, 'initComment': targetComment, 'initReplyThread':
+    startThread, 'config': configJso, 'messages': msgs }; var render = function() { if
+    (window.goog && window.goog.comments) { var holder =
+    document.getElementById('comment-holder');
+    window.goog.comments.render(holder, provider); } }; // render now, or queue to render
+    when library loads: if (window.goog && window.goog.comments) { render(); } else {
+    window.goog = window.goog || {}; window.goog.comments = window.goog.comments || {};
+    window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+    window.goog.comments.loadQueue.push(render); } })(); // ]]>
+
+    1 -
+
+    Image: http://img1.blogblog.com/img/anon36.png ax201 13 March 2010 08:18
+
+    The Rolls-Royce is a 1934 20/25. The Wraith was not produced until 1938. Reply Delete
+
+    
+
+Add comment Load more...
+
+
+
+If you are not able to sign in with a Blogger/Google etc account, then please click on " Name/URL
+" and type in your name or nickname.
+
+
+
+If you have no URL you can leave that part blank.
+
+
+
+Please do not post as "Anonymous".
+
+
+
+If you are a spammer , please note: Most spam messages are filtered out automatically. The few
+that get through are deleted. Please don't bother.
+BLOG_CMT_createIframe('http://www.blogger.com/rpc_relay.html',
+'01375458265374833168');
+
+
+
+
+
+Newer Post Older Post Home Subscribe to: Post Comments (Atom) var OB_platformType =1;var
+OB_demoMode = false;var OB_langJS = "http://widgets.outbrain.com/lang_en.js";var
+OBITm = "1264435274357"; var OBCTm=1264435274357; var linkwithin_site_id = 77248;
+
+Image: http://www.linkwithin.com/pixel.png
+
+The Ashton-under-Lyne.com Photo Blog
+
+A few photos taken in or around Ashton, or things that might interest readers of the
+Ashton-under-Lyne.com website . New photos will appear here several times a week.
+
+
+
+Click on a photo to see a larger version. (You will need to use the "Back" button to return here.)
+
+
+
+Click on "Comments" below a post to write a comment or to read existing comments.
+
+
+
+Please click on the 5-star rating system at the end of each post to rate a photo. At the end of the
+year, the shortlist for the Photo of the Year will be made up of the highest-ranking photos.
+
+
+
+If you like a photo, why not click on the Twitter or Facebook buttons to share it with your
+followers and friends?
+
+
+
+For more information about Ashton under Lyne please visit the main Ashton-under-Lyne.com
+website
+
+
+
+
+
+Image:
+http://4.bp.blogspot.com/__CaFVhTjqjE/R3vlHuqocHI/AAAAAAAAACE/mUI78zWtYQM/S227/aul570s.jpg
+
+Ashton Town Centre
+
+
+
+
+
+
+
+Image: http://www.ashton-under-lyne.com/images/eastafrica.jpg
+
+
+
+
+
+
+
+
+
+
+
+Image: http://www.ashton-under-lyne.com/shop/shopimages/spiritashton.jpg
+
+The Spirit of Ashton under Lyne
+
+by Joyce Raven
+
+buy from Amazon
+
+£9.99
+
+(you can choose free delivery in UK)
+
+
+
+Brand-new book just published packed with over 170 photographs, mostly archive, with
+detailed captions putting the scene into a historical context. Read review of the book
+
+
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Followers
+
+if (!window.google || !google.friendconnect) { document.write('<script
+type="text/javascript"' +
+'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+'</scr'+'ipt>'); } if (!window.registeredBloggerCallbacks) {
+window.registeredBloggerCallbacks = true; gadgets.rpc.register('requestReload',
+function() { document.location.reload(); }); gadgets.rpc.register('requestSignOut',
+function(siteId) { google.friendconnect.container.openSocialSiteId = siteId;
+google.friendconnect.requestSignOut(); }); } function registerGetBlogUrls() {
+gadgets.rpc.register('getBlogUrls', function() { var holder = {}; holder.currentPost =
+"http://www.blogger.com/feeds/3488915945983500085/posts/default/2552983360034402485";
+holder.currentComments =
+"http://www.blogger.com/feeds/3488915945983500085/2552983360034402485/comments/default";
+holder.currentPostUrl = ""; holder.currentPostId = 2552983360034402485
+holder.postFeed =
+"http://www.blogger.com/feeds/3488915945983500085/posts/default";
+holder.commentFeed =
+"http://www.blogger.com/feeds/3488915945983500085/comments/default";
+holder.currentBlogUrl = "http://ashton-under-lyne.blogspot.com/";
+holder.currentBlogId = "3488915945983500085"; return holder; }); } if
+(!window.registeredCommonBloggerCallbacks) {
+window.registeredCommonBloggerCallbacks = true;
+gadgets.rpc.register('resize_iframe', function(height) { var el =
+document.getElementById(this['f']); if (el) { el.style.height = height + 'px'; } });
+gadgets.rpc.register('set_pref', function() {}); registerGetBlogUrls(); } var skin =
+{}; skin['FACE_SIZE'] = '32'; skin['HEIGHT'] = "260"; skin['TITLE'] = "Followers";
+skin['BORDER_COLOR'] = "transparent"; skin['ENDCAP_BG_COLOR'] = "transparent";
+skin['ENDCAP_TEXT_COLOR'] = "#000000"; skin['ENDCAP_LINK_COLOR'] = "#0a1696";
+skin['ALTERNATE_BG_COLOR'] = "transparent"; skin['CONTENT_BG_COLOR'] =
+"transparent"; skin['CONTENT_LINK_COLOR'] = "#0a1696"; skin['CONTENT_TEXT_COLOR'] =
+"#000000"; skin['CONTENT_SECONDARY_LINK_COLOR'] = "#0a1696";
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = "#000000"; skin['CONTENT_HEADLINE_COLOR'] =
+"#666666"; skin['FONT_FACE'] = "normal normal 109% \x27Trebuchet
+MS\x27,Trebuchet,Verdana,Sans-Serif";
+google.friendconnect.container.setParentUrl("/");
+google.friendconnect.container["renderMembersGadget"]( {id: "div-1ix0oxlu5t2ea",
+height: 260, site: "01375458265374833168", locale: 'en_GB' }, skin);
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Blog Archive
+
+    
+
+        - ►  2012 (71)
+
+        - ►  October (1)
+
+        
+
+        
+
+        - ►  September (6)
+
+        
+
+        
+
+        - ►  August (6)
+
+        
+
+        
+
+        - ►  July (6)
+
+        
+
+        
+
+        - ►  June (7)
+
+        
+
+        
+
+        - ►  May (8)
+
+        
+
+        
+
+        - ►  April (8)
+
+        
+
+        
+
+        - ►  March (10)
+
+        
+
+        
+
+        - ►  February (10)
+
+        
+
+        
+
+        - ►  January (9)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2011 (91)
+
+        - ►  December (9)
+
+        
+
+        
+
+        - ►  November (9)
+
+        
+
+        
+
+        - ►  October (11)
+
+        
+
+        
+
+        - ►  September (5)
+
+        
+
+        
+
+        - ►  August (4)
+
+        
+
+        
+
+        - ►  July (3)
+
+        
+
+        
+
+        - ►  June (4)
+
+        
+
+        
+
+        - ►  May (8)
+
+        
+
+        
+
+        - ►  April (8)
+
+        
+
+        
+
+        - ►  March (12)
+
+        
+
+        
+
+        - ►  February (8)
+
+        
+
+        
+
+        - ►  January (10)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2010 (166)
+
+        - ►  December (18)
+
+        
+
+        
+
+        - ►  November (13)
+
+        
+
+        
+
+        - ►  October (11)
+
+        
+
+        
+
+        - ►  September (11)
+
+        
+
+        
+
+        - ►  August (13)
+
+        
+
+        
+
+        - ►  July (11)
+
+        
+
+        
+
+        - ►  June (15)
+
+        
+
+        
+
+        - ►  May (16)
+
+        
+
+        
+
+        - ►  April (12)
+
+        
+
+        
+
+        - ►  March (12)
+
+        
+
+        
+
+        - ►  February (14)
+
+        
+
+        
+
+        - ►  January (20)
+
+        
+
+    
+
+    
+
+    
+
+        - ►  2009 (245)
+
+        - ►  December (22)
+
+        
+
+        
+
+        - ►  November (22)
+
+        
+
+        
+
+        - ►  October (19)
+
+        
+
+        
+
+        - ►  September (17)
+
+        
+
+        
+
+        - ►  August (17)
+
+        
+
+        
+
+        - ►  July (13)
+
+        
+
+        
+
+        - ►  June (11)
+
+        
+
+        
+
+        - ►  May (14)
+
+        
+
+        
+
+        - ►  April (25)
+
+        
+
+        
+
+        - ►  March (27)
+
+        
+
+        
+
+        - ►  February (27)
+
+        
+
+        
+
+        - ►  January (31)
+
+        
+
+    
+
+    
+
+    
+
+        - ▼  2008 (290)
+
+        - ►  December (29)
+
+        
+
+        
+
+        - ►  November (21)
+
+        
+
+        
+
+        - ►  October (22)
+
+        
+
+        
+
+        - ►  September (18)
+
+        
+
+        
+
+        - ►  August (23)
+
+        
+
+        
+
+            - ▼  July (22)
+
+            - North Face
+
+            
+
+            - Living It Up
+
+            
+
+            - Parish Church
+
+            
+
+            - Vintage Cars (3)
+
+            
+
+            - Alphabet Friday - Fletcher Street
+
+            
+
+            - Vintage Cars (2)
+
+            
+
+            - Vintage Cars
+
+            
+
+            - The House That Isn't (2)
+
+            
+
+            - The House That Isn't
+
+            
+
+            - Alphabet Friday - Escalator
+
+            
+
+            - Mossley in Bloom
+
+            
+
+            - Ashton in Bloom
+
+            
+
+            - Stamford Park Conservatory
+
+            
+
+            - Gleaves
+
+            
+
+            - Alphabet Friday - The Dingle
+
+            
+
+            - Hartshead Pike again
+
+            
+
+            - Hartshead Pike
+
+            
+
+            - The Twelve Apostles
+
+            
+
+            - Not The Station
+
+            
+
+            - Alphabet Friday - Cactus
+
+            
+
+            - No More Queues
+
+            
+
+            - No Ball Games
+
+            
+
+        
+
+        
+
+        
+
+        - ►  June (22)
+
+        
+
+        
+
+        - ►  May (29)
+
+        
+
+        
+
+        - ►  April (27)
+
+        
+
+        
+
+        - ►  March (25)
+
+        
+
+        
+
+        - ►  February (26)
+
+        
+
+        
+
+        - ►  January (26)
+
+        
+
+    
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Other Photo Blogs
+
+    
+
+    - Fresh eyes on London
+
+    Image:
+    http://1.bp.blogspot.com/-3dnymEhQ4og/UGv9cvkcCrI/AAAAAAAAHgM/K8I-UfgyZrA/s72-c/_MG_5121__web.jpg
+    - A nice wee pub to stop by to catch the last of the afternoon sun. 1 hour ago
+
+    
+
+    - mancunian wave
+
+    Image:
+    http://3.bp.blogspot.com/-gV9fVHHG0jE/UGXbav4ZBvI/AAAAAAAAEo0/2AKIHvnmtSE/s72-c/DSCN0314.JPG
+    ABC Wednesday: L is for Lass O'Gowrie, UK Pub of the Year @thelassogowrie - Two weeks ago
+    the Great British Pub Awards named The Lass O' Gowrie as *UK Pub of the Year* and also the
+    *Best Live Music and Entertainment Pub*. The Ch... 1 hour ago
+
+    
+
+    - Saltaire Daily Photo
+
+    Image:
+    http://2.bp.blogspot.com/-nIO7kyXi07g/UFDkoJtaSqI/AAAAAAAAERc/jeiXP6ukEH8/s72-c/organ-w.jpg
+    Ta dah! - I have mentioned the Wurlitzer organ in Saltaire's Victoria Hall on this blog
+    before (see here). I just happened to be in the Hall when they were demonst... 4 hours ago
+
+    
+
+    - London Daily Photo
+
+    Image:
+    http://4.bp.blogspot.com/-iL0Mh0ma0z0/UGtWgcT5p6I/AAAAAAAAkCw/YyqEtCnxJpQ/s72-c/S0082020.jpg
+    Legacy - One of the stranger pieces that the London Borough of Waltham Forest chose to
+    adorn the roadside. Diamond Geezer has been wandering around the parkover th... 11 hours
+    ago
+
+    
+
+    - Hyde Daily Photo
+
+    Image:
+    http://4.bp.blogspot.com/-X8iHsj4f2LA/UGtOk6g78BI/AAAAAAAAItE/qyxBv742QIk/s72-c/longmcp750.jpg
+    ABC Wednesday: L is for Long Meadow Car Park - Car park on the site of Long Meadow Mill
+    (demolished 1900). On the left with the tree in front is the Donnybrook Medical Centre. On
+    the right behind the ... 11 hours ago
+
+    
+
+    - Nottingham Daily Photo
+
+    Image:
+    http://3.bp.blogspot.com/-hJ5ZwzHaA_0/UGtUYU91CKI/AAAAAAAAIWY/vFHPi8eXWgM/s72-c/PA020009.JPG
+    Castle View - I was in the city centre a bit longer tonight as I was doing some paid market
+    research. Beer tasting actually. Nice work when I can get it! So it was beg... 13 hours ago
+
+    
+
+    - Limerick Daily Photo Redscale Lomographic view - [image: lomo-redscalex-201209_
+    7]Limerick roofs... 14 hours ago
+
+    
+
+    - Newcastle upon Tyne and Northumberland Daily Photo
+
+    Image:
+    http://4.bp.blogspot.com/-TfdnWKijKds/UGrkWVnMJCI/AAAAAAAALNM/FG2U3ZpUJG4/s72-c/IMG_9858-001.jpg
+    at Grey's Monument - 21 hours ago
+
+    
+
+    - Leeds Daily Photo
+
+    Image:
+    http://2.bp.blogspot.com/-BVcxSvykkgw/UGoVF4c4nGI/AAAAAAAAELM/4KBHkPPhE3g/s72-c/Davies-Memorial-Roundhay-Leeds.jpg
+    Brothers in Arms - Picture of Davies memorial at St Johns church Roundhay, Leeds A few days
+    back I discovered a church here in Leeds that I had not yet visited, St Johns, R... 1 day ago
+
+    
+
+    - Oxford Daily Photo
+
+    Image:
+    http://3.bp.blogspot.com/-3G2mzm2ouzA/UGifwYTieKI/AAAAAAAAE2U/fGNid8a7fkw/s72-c/P1180258.JPG
+    Where's The Front Of The Randolph - What has happened to the ornate front of the Randolph
+    Hotel? Walking past Oxford premier hotel this afternoon I could not help but notice that
+    something ... 2 days ago
+
+    
+
+    - My Manchester
+
+    Image:
+    http://2.bp.blogspot.com/-n5zS9G3m1oM/UGgZwN67AmI/AAAAAAAAEKg/_Mnu5hfur-s/s72-c/photo%2B1-714937.JPG
+    Oops - Here are a couple of pictures from the tram accident on Oxford street on Friday. I was
+    working on the 50 service in Albert square when I noticed a lot of... 3 days ago
+
+    
+
+    - JorvikDailyPhoto (York)
+
+    Image:
+    http://2.bp.blogspot.com/-c-3zlaPLQUQ/UFzpXkPmOVI/AAAAAAAABew/u9WrnwCqcdg/s72-c/DSCN3183.JPG
+    Brimham Rocks 2 - Not surprisingly, this site has been used on several films and TV series.
+    If my memory serves me well, one of the early episodes of *A Woman of Substance... 1 week ago
+
+    
+
+    - Bristol Daily Photo
+
+    Image:
+    http://1.bp.blogspot.com/-gyEhBWx5msc/UEyxon7NxOI/AAAAAAAABrY/dMB1ogn_rZ4/s72-c/orstich.JPG
+    - The Ostrich pub on the Harbourside. 3 weeks ago
+
+    
+
+    - Sheffield Daily Photo
+
+    Image:
+    http://lh5.ggpht.com/-Ah10j1qwQiM/UEeDu9NO_NI/AAAAAAAAD20/AJsjgEPqPZ8/s72-c/1346863689324.jpg
+    New York(shire)'s Finest - Published with Blogger-droid v2.0.9 3 weeks ago
+
+    
+
+    - Old Hyde
+
+    Image:
+    http://3.bp.blogspot.com/-Jo7-LMHkBik/UCAqo8et2hI/AAAAAAAAHus/jl0-i7E_J9A/s72-c/newinnsign.jpg
+    Sign for the New Inn - *(Click on image to view full-size version)*Photographed in
+    October 2008. This former Robinson's Inn stood by the side of the A57 road from Liverpool
+    to L... 1 month ago
+
+    
+
+    - Leek Daily Photo Dark satanic mill - One of Leeks old mills in a better light. 2 months ago
+
+    
+
+    - Calvers: Ashton and elsewhere
+
+    Image:
+    http://4.bp.blogspot.com/-qAn8KkqXUf8/T_lbjfSICNI/AAAAAAAACw4/OeRCrjeYPek/s72-c/CPH+Lego.JPG
+    Nyhavn - two versions! - Another pic of Nyhavn in Copenhagen, but this one is a little
+    different. The top one is made of Lego (made in Denmark) and the bottom one is the real th...
+    2 months ago
+
+    
+
+    - Manchester Daily Photo A minifigure surveying Albert Square. Photograph by Paul... - A
+    minifigure surveying Albert Square. Photograph by Paul Capewell And with this,
+    unfortunately it is goodbye from Manchester Daily Photo - at least fo... 3 months ago
+
+    
+
+    - Newcastle Upon Tyne Daily Photo Quayside Seaside - Too cold now for the Quayside Seaside
+    4 months ago
+
+    
+
+    - RAMSEY DAILY PHOTO
+
+    Image:
+    http://1.bp.blogspot.com/-1a56alPn-NQ/T8I9G3whxsI/AAAAAAAADTI/cigUGODGwU0/s72-c/DSC_00501Abc.jpg
+    The Isle of Man TT 2012.....Day 2 - The boys are back in town So, finally after a 40 mins delay
+    with dodgy communication equipment, the long awaited return of the first practice race
+    of the... 4 months ago
+
+    
+
+    - Manchester in pictures - [image: DSC_0155] 6 months ago
+
+    
+
+    - Inverness Daily Photo I've moved West - Please visit my new blog Lochinver Daily Photo
+    from the West coast of Sutherland. 9 months ago
+
+    
+
+    - Lancaster Today: Photos Daily
+
+    Image:
+    http://4.bp.blogspot.com/-MdLCpy6Bkh4/TsAYyxU88GI/AAAAAAAAAro/CNzLxz27yg4/s72-c/DSC_0479.jpg
+    Kids day out at Greenlands Farm Village (for adults too...) - Greenlands Farm Village is a
+    fantastic place to take the kids. Even if you don't get a kick from watching them interact
+    with animals and having fun in the ... 10 months ago
+
+    
+
+    - South Shields Daily Photo Saturday Sanddancer Scene #38 - Antonio Hello and welcome
+    back to the Saturday Sanddancer Scene, where members of Curly’s Corner Shop Message
+    Board compete to have their photographs publi... 10 months ago
+
+    
+
+    - Liverpool Daily Photo
+
+    Image:
+    http://4.bp.blogspot.com/-3eNrQ670G7I/TnUHEUB3SYI/AAAAAAAAAEM/-NwtTT8C7Nk/s72-c/Image0694.jpg
+    - The other day the Queen Mary II docked at Liverpool. The weathr was great, a rare calm and
+    sunny day in amongst all the wind and hurricanes we've be... 1 year ago
+
+    
+
+    - Barrow Day by Day Queens Arms Music Festival - Crowds packed the courtyard of the
+    300-year-old Queens Arms at Biggar, on Walney, yesterday for the first Queens Arms Music
+    Festival. From noon to midnight... 1 year ago
+
+    
+
+    - Edinburgh Day by Day Zimbio - Zimbio Just ignore this post as it is purely
+    administrative. 1 year ago
+
+    
+
+    - Durham Daily Photo
+
+    Image: http://farm6.static.flickr.com/5010/5329624255_3c7cf43f56_o.jpg Size
+    difference - Family get-togethers can highlight some amazing contrasts. [image: Room
+    for growth] These are the current extremes amoung my immediate relatives. 1 year ago
+
+    
+
+    - Glasgow Daily Photo Burrell Collection - We had friends staying the weekend, and
+    yesterday took them to the Burrell Collection. I’ve shown the Burrell plenty of times
+    here before, but it’s so fab ... 1 year ago
+
+    
+
+    - Dublin Daily Colours
+
+    Image:
+    http://1.bp.blogspot.com/_mVR9u09-npI/TFcu-DEfekI/AAAAAAAAC5Y/fBBAvclnn00/s72-c/DSCF2248.JPG
+    Malhide (21) - The Houses - 2 years ago
+
+    
+
+    - Cheltenham Daily Photo
+
+    Image:
+    http://2.bp.blogspot.com/_x0Id3hJTzM4/S_h8GlZRJOI/AAAAAAAAC80/CVf7gRGS9Js/s72-c/DSC06423.JPG
+    Let's Face It... - ...it was inevitable that I would make a return eventually! So. A few
+    drinks and the need to have something to make get my camera out for have brought m... 2 years
+    ago
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://static.networkedblogs.com/static/images/logo_small.png Follow this
+blog <!-- if(typeof(networkedblogs)=="undefined"){networkedblogs =
+{};networkedblogs.blogId=464248;networkedblogs.shortName="ashton_under_lyne_daily_photo";}
+-->
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Web Links
+
+    
+
+    - Ashton under Lyne website - linked to this blog
+
+    
+
+    - Emmaus Mossley
+
+    
+
+    - Hollinwood Canal Society
+
+    
+
+    - Huddersfield Canal Society
+
+    
+
+    - Mossley website
+
+    
+
+
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png  
+
+Image: http://img1.blogblog.com/img/icon18_wrench_allbkg.png
+
+Image: http://www.citydailyphoto.com/tools/LogoCDPB.jpg + Africa + Asia and Pacific +
+Europe and Middle East + North America + South America
+
+Image: http://s31.sitemeter.com/meter.asp?site=s31ashblog
+
+Image: http://static.technorati.com/pix/fave/tech-fav-1.png   if (window.jstiming)
+window.jstiming.load.tick('widgetJsBefore'); if (typeof(BLOG_attachCsiOnload) !=
+'undefined' && BLOG_attachCsiOnload != null) {
+window['blogger_templates_experiment_id'] =
+"templatesV1";window['blogger_blog_id'] =
+'3488915945983500085';BLOG_attachCsiOnload('item_');
+}_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d3488915945983500085','//ashton-under-lyne.blogspot.com/2008/07/vintage-cars.html','3488915945983500085');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId':
+'3488915945983500085', 'bloggerUrl': 'http://www.blogger.com', 'title':
+'Ashton-under-Lyne.com Photo Blog', 'pageType': 'item', 'url':
+'http://ashton-under-lyne.blogspot.com/2008/07/vintage-cars.html',
+'canonicalUrl':
+'http://ashton-under-lyne.blogspot.com/2008/07/vintage-cars.html',
+'canonicalHomepageUrl': 'http://ashton-under-lyne.blogspot.com/', 'homepageUrl':
+'http://ashton-under-lyne.blogspot.com/', 'blogspotFaviconUrl':
+'http://ashton-under-lyne.blogspot.com/favicon.ico',
+'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget':
+false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName':
+'Vintage Cars', 'pageTitle': 'Ashton-under-Lyne.com Photo Blog: Vintage Cars',
+'encoding': 'UTF-8', 'locale': 'en-GB', 'isPrivate': false, 'isMobile': false,
+'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false,
+'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42
+type\75\42application/atom+xml\42 title\75\42Ashton-under-Lyne.com Photo Blog -
+Atom\42 href\75\42http://ashton-under-lyne.blogspot.com/feeds/posts/default\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42
+title\75\42Ashton-under-Lyne.com Photo Blog - RSS\42
+href\75\42http://ashton-under-lyne.blogspot.com/feeds/posts/default?alt\75rss\42
+/\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42
+title\75\42Ashton-under-Lyne.com Photo Blog - Atom\42
+href\75\42http://www.blogger.com/feeds/3488915945983500085/posts/default\42
+/\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42
+title\75\42RSD\42
+href\75\42http://www.blogger.com/rsd.g?blogID\0753488915945983500085\42
+/\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42
+title\75\42Ashton-under-Lyne.com Photo Blog - Atom\42
+href\75\42http://ashton-under-lyne.blogspot.com/feeds/2552983360034402485/comments/default\42
+/\76\n', 'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript':
+'\74script type\75\42text/javascript\42\76(function() { var
+a\75window,b\75\42jstiming\42,d\75\42tick\42;var
+e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new
+Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new
+e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var
+g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void
+0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var
+m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void
+0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var
+i\0750;if(c.offsetParent){do
+i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var
+q\75!1;function
+r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n
+})();\74/script\076', 'mobileHeadScript': '', 'view': '', 'dynamicViewsCommentsSrc':
+'//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js',
+'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/04452fcc9c8aa994'}},
+{'name': 'skin', 'data': {'vars': {'linkcolor': '#0a1696', 'visitedlinkcolor':
+'#8892ff', 'textcolor': '#000000', 'headerfont': 'normal bold 150%
+Verdana,Sans-serif', 'pagetitlefont': 'normal normal 192% Verdana, sans-serif',
+'descriptionColor': '#1f1001', 'titlefont': 'normal bold 160% Verdana,Sans-Serif',
+'bgcolor': '#f6f6f6', 'bordercolor': '#0a1696', 'titlecolor': '#666666', 'datecolor':
+'#777777', 'footerlinkcolor': '#0a1696', 'descbgcolor': '#0a1696', 'pagetitlecolor':
+'#0a1696', 'bodyfont': 'normal normal 109% \47Trebuchet
+MS\47,Trebuchet,Verdana,Sans-Serif', 'endSide': 'right', 'startSide': 'left',
+'dateHeaderFont': 'normal bold 105% \47Trebuchet
+MS\47,Trebuchet,Verdana,Sans-serif', 'pagetitlebgcolor': '#5f6675',
+'sidebarcolor': '#666666', 'sidebarlinkcolor': '#0a1696', 'footercolor': '#444444'},
+'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url':
+'/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'},
+'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name':
+'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url':
+'/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'},
+'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1', 'sidebar',
+null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1',
+'sidebar', null, document.getElementById('Followers1'), {'title': 'Followers',
+'codeSnippet': '\74script type\75\42text/javascript\42\76\n if (!window.google ||
+!google.friendconnect) {\n document.write(\47\74script
+type\75\42text/javascript\42\47 +\n
+\47src\75\42http://www.google.com/friendconnect/script/friendconnect.js\42\76\47
++\n \47\74/scr\47 + \47ipt\76\47);\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n if (!window.registeredBloggerCallbacks) {\n
+window.registeredBloggerCallbacks \75 true;\n\n \n\n \n
+gadgets.rpc.register(\47requestReload\47, function() {\n
+document.location.reload();\n });\n\n \n
+gadgets.rpc.register(\47requestSignOut\47, function(siteId) {\n \n
+google.friendconnect.container.openSocialSiteId \75 siteId;\n
+google.friendconnect.requestSignOut();\n });\n }\n \74/script\76\n\74script
+type\75\42text/javascript\42\76\n \n function registerGetBlogUrls() {\n
+gadgets.rpc.register(\47getBlogUrls\47, function() {\n var holder \75 {};\n \n \n \n \n
+holder.currentPost \75
+\42http://www.blogger.com/feeds/3488915945983500085/posts/default/2552983360034402485\42;\n
+\n \n \n holder.currentComments \75
+\42http://www.blogger.com/feeds/3488915945983500085/2552983360034402485/comments/default\42;\n
+\n holder.currentPostUrl \75 \42\42;\n holder.currentPostId \75 2552983360034402485\n
+\n \n \n holder.postFeed \75
+\42http://www.blogger.com/feeds/3488915945983500085/posts/default\42;\n \n \n \n
+holder.commentFeed \75
+\42http://www.blogger.com/feeds/3488915945983500085/comments/default\42;\n \n
+holder.currentBlogUrl \75 \42http://ashton-under-lyne.blogspot.com/\42;\n
+holder.currentBlogId \75 \0423488915945983500085\42;\n \n return holder;\n });\n }\n
+\74/script\76\n\74script type\75\42text/javascript\42\76\n if
+(!window.registeredCommonBloggerCallbacks) {\n
+window.registeredCommonBloggerCallbacks \75 true;\n\n
+gadgets.rpc.register(\47resize_iframe\47, function(height) {\n var el \75
+document.getElementById(this[\47f\47]);\n if (el) {\n el.style.height \75 height +
+\47px\47;\n }\n });\n\n \n gadgets.rpc.register(\47set_pref\47, function() {});\n\n
+registerGetBlogUrls();\n }\n \74/script\76\n\74div id\75\42div-1g5kriau2dgf6\42
+style\75\42width: 100%; \42\76\74/div\76\n\74script
+type\75\42text/javascript\42\76\n var skin \75 {};\n skin[\47FACE_SIZE\47] \75
+\04732\47;\n skin[\47HEIGHT\47] \75 \042260\42;\n skin[\47TITLE\47] \75
+\42Followers\42;\n skin[\47BORDER_COLOR\47] \75 \42transparent\42;\n
+skin[\47ENDCAP_BG_COLOR\47] \75 \42transparent\42;\n skin[\47ENDCAP_TEXT_COLOR\47]
+\75 \42#000000\42;\n skin[\47ENDCAP_LINK_COLOR\47] \75 \42#0a1696\42;\n
+skin[\47ALTERNATE_BG_COLOR\47] \75 \42transparent\42;\n \n
+skin[\47CONTENT_BG_COLOR\47] \75 \42transparent\42;\n
+skin[\47CONTENT_LINK_COLOR\47] \75 \42#0a1696\42;\n skin[\47CONTENT_TEXT_COLOR\47]
+\75 \42#000000\42;\n skin[\47CONTENT_SECONDARY_LINK_COLOR\47] \75 \42#0a1696\42;\n
+skin[\47CONTENT_SECONDARY_TEXT_COLOR\47] \75 \42#000000\42;\n
+skin[\47CONTENT_HEADLINE_COLOR\47] \75 \42#666666\42;\n skin[\47FONT_FACE\47] \75
+\42normal normal 109% \\x27Trebuchet MS\\x27,Trebuchet,Verdana,Sans-Serif\42;\n
+google.friendconnect.container.setParentUrl(\42/\42);\n
+google.friendconnect.container[\42renderMembersGadget\42](\n {id:
+\42div-1g5kriau2dgf6\42,\n height: 260,\n \n \n \n site:
+\04201375458265374833168\42,\n \n locale: \47en_GB\47 },\n skin);\n \74/script\076'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogArchiveView', new
+_WidgetInfo('BlogArchive1', 'sidebar', null,
+document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_BlogListView', new
+_WidgetInfo('BlogList1', 'sidebar', null, document.getElementById('BlogList1'),
+{'numItemsToShow': 0, 'totalItems': 31}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebar',
+null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1',
+'sidebar', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar',
+null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header',
+null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar',
+null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null,
+document.getElementById('Blog1'), {'cmtInteractionsEnabled': false,
+'showBacklinks': true, 'postId': '2552983360034402485', 'lightboxEnabled': true,
+'lightboxModuleUrl':
+'//www.blogger.com/static/v1/jsbin/3811339452-lbx_en-GB.js', 'lightboxCssUrl':
+'//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML4', 'main', null, document.getElementById('HTML4'), {},
+'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new
+_WidgetInfo('HTML3', 'main', null, document.getElementById('HTML3'), {},
+'displayModeFull'));
+
